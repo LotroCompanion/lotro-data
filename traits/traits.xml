@@ -883,7 +883,7 @@
 <trait identifier="1879275314" name="Tutelage of the Brown Wizard" iconId="1091829948" minLevel="1" tiers="1" description=""/>
 <trait identifier="1879275315" name="Exposure to the Elements" iconId="1091829946" minLevel="1" tiers="1" description=""/>
 <trait identifier="1879275316" name="Critical Coordination" iconId="1091829924" minLevel="1" tiers="1" description="When your Pet scores a Critical Hit, your next skill is guaranteed to Crit as well."/>
-<trait identifier="1879275317" name="Noble Savage" iconId="1091840531" minLevel="1" tiers="1" description=""/>
+<trait identifier="1879275317" name="Bolstered Bond" iconId="1091840531" minLevel="1" tiers="1" description=""/>
 <trait identifier="1879275318" name="Liquid Fire" iconId="1091873733" minLevel="1" tiers="1" description="Sticky Gourd becomes Improved Sticky Gourd, and applies Burning Embers to targets stuck in its area of effect every 4 seconds."/>
 <trait identifier="1879275319" name="Raven's Protection" iconId="1091840534" minLevel="1" tiers="1" description="The Raven now offers a Tactical Mitigation Buff to you and your fellows."/>
 <trait identifier="1879275320" name="Force of Will" iconId="1091829930" minLevel="1" tiers="1" description="Your mastery of Lore makes your debuffs last longer."/>
@@ -979,7 +979,7 @@
 <trait identifier="1879311401" name="Elendil's Fury" iconId="1091916298" minLevel="1" tiers="1" description="Blocking, Parrying, and Evading attacks build stacks of Elendil's Fury. At 5 stacks, you channel this Fury into your next Blade of Elendil for additional damage and grant yourself a defeat event."/>
 <trait identifier="1879311517" name="Bleed Damage" iconId="1091941807" minLevel="1" tiers="5" description="Slash now applies a bleed that can stack up to three times. Additional ranks increase the potency of the bleed."/>
 <trait identifier="1879311518" name="Serrated Edge" iconId="1091941809" minLevel="1" tiers="3" description="Biting Edge becomes a single attack, but as a bleed over 12 seconds. \n \n Max Rank reduces the duration of the bleed in half."/>
-<trait identifier="1879311519" name="Quick Recovery" iconId="1091941825" minLevel="1" tiers="2" description="Increases the initial heal of Recuperate at the cost of lowering the heal-over-time. The second rank increases the initial heal further."/>
+<trait identifier="1879311519" name="Quick Recovery" iconId="1091941825" minLevel="1" tiers="2" description="Increases the initial heal of Recuperate. The second rank increases the initial heal further."/>
 <trait identifier="1879311520" name="Piercing Roar" iconId="1091941765" minLevel="1" tiers="1" description="Unlocks Piercing Roar, a single target attack that reduces your target's damage."/>
 <trait identifier="1879311521" name="Levelling Roar" iconId="1091941797" minLevel="1" tiers="1" description="Takedown no longer deals damage, but can now be used on targets up to 10m away."/>
 <trait identifier="1879311522" name="Encouraging Strike" iconId="1091941814" minLevel="1" tiers="5" description="Striking enemies with Slash puts a stacking healing buff on yourself. Additional ranks increase the potency of the buff per stack."/>
@@ -990,7 +990,7 @@
 <trait identifier="1879311527" name="In Harm's Way" iconId="1091941827" minLevel="1" tiers="3" description="In addition to redirecting damage to the Beorning, Sacrifice also transfers some of the target's threat."/>
 <trait identifier="1879311528" name="Nature's Mend" iconId="1091941803" minLevel="1" tiers="1" description="Unlocks the skill Nature's Mend, an induction based heal that is more potent for your marked ally."/>
 <trait identifier="1879311529" name="Stampede" iconId="1091941798" minLevel="1" tiers="5" description="Using Rush in Bear Form applies the effect to your entire fellowship. Additional ranks increase the duration of the effect."/>
-<trait identifier="1879311530" name="Execute" iconId="1091941813" minLevel="1" tiers="1" description="Unlocks Execute, a heavy hitting skill that costs Wrath."/>
+<trait identifier="1879311530" name="Execute" iconId="1091941813" minLevel="1" tiers="1" description="Unlocks Execute, a heavy hitting skill that expends all your Wrath to multiply damage."/>
 <trait identifier="1879311531" name="Improved Hearten" iconId="1091941794" minLevel="1" tiers="5" description="Increases Hearten's heal per rank."/>
 <trait identifier="1879311532" name="Physical Mitigation Increase" iconId="1091941819" minLevel="1" tiers="5" description="Increases your Physical Mitigation per rank.">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" scaling="1879297183"/>
@@ -1008,7 +1008,7 @@
 <stat name="VITALITY" tieredScaling="1879366659;1879366643;1879366650;1879366645;1879366641"/>
 </trait>
 <trait identifier="1879311539" name="Any Advantage" iconId="1091941773" minLevel="1" tiers="3" description="Striking an enemy from behind with Slam will heal you."/>
-<trait identifier="1879311540" name="Shake Free" iconId="1091941801" minLevel="1" tiers="2" description="The first rank adds a Morale Bubble to Shake Free. The second rank increases the potency of the bubble. \n \n If Support: \n Shake Free applies its benefits to your marked ally."/>
+<trait identifier="1879311540" name="Shake Free" iconId="1091941801" minLevel="1" tiers="2" description="The first rank adds a 10% Morale Bubble to Shake Free. The second rank increases the potency of the bubble to 15% of Max Morale. \n \n If Support: \n Shake Free applies its benefits to your marked ally."/>
 <trait identifier="1879311541" name="Tactical Mitigation Increase" iconId="1091941811" minLevel="1" tiers="5" description="Increases your Tactical Mitigation per rank.">
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" scaling="1879297171"/>
 </trait>
@@ -1034,8 +1034,8 @@
 <stat name="CRITICAL_RANGED_PERCENTAGE" scaling="1879297188"/>
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" scaling="1879297176"/>
 </trait>
-<trait identifier="1879311558" name="Vigilant Roar" iconId="1091941795" minLevel="1" tiers="5" description="Vigilant Roar gains a reactive shield that reflects a portion of the damage taken. Additional ranks increase the shield's duration."/>
-<trait identifier="1879311559" name="Moment of Opportunity" iconId="1091941772" minLevel="1" tiers="3" description="Increases the damage of Execute per rank. Max rank gives the Beorning's attacks in bear form a chance to proc a free Execute."/>
+<trait identifier="1879311558" name="Vigilant Roar" iconId="1091941795" minLevel="1" tiers="5" description="Vigilant and Thunderous Roar temporarily improve incoming healing, and generate additional threat when enemies attack you. Additional ranks increase the buff's duration."/>
+<trait identifier="1879311559" name="Moment of Opportunity" iconId="1091941772" minLevel="1" tiers="3" description="Increases the damage of Execute per rank. Max rank gives the Beorning's attacks in bear form a chance to enable Execute regardless of the target's health."/>
 <trait identifier="1879311560" name="Feral" iconId="1091916306" minLevel="1" tiers="1" description="You are inspired by your pet companion, and take on a few of its fighting characteristics."/>
 <trait identifier="1879311567" name="Crippling Roar" iconId="1091942865" minLevel="1" tiers="3" description="Adds a snare to Piercing Roar. Additional ranks improve the snare's strength."/>
 <trait identifier="1879311569" name="Fire Shield" iconId="1091916307" minLevel="1" tiers="1" description="Your Fire skills have a 25% chance to raise a protective shield around you, boosting your defences and reflecting Fire Damage at attackers."/>
@@ -1046,7 +1046,7 @@
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="2.5"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="2.5"/>
 </trait>
-<trait identifier="1879312452" name="Sharp Eye" iconId="1091925946" minLevel="1" tiers="1" description="Learning to spot cheats has taught you to better spot enemy attacks. You are better able to better weather the enemy when not using your most potent abilities."/>
+<trait identifier="1879312452" name="Sharp Eye" iconId="1091925946" minLevel="1" tiers="1" description="Learning to spot cheats has taught you to better spot enemy attacks. Your mitigation is improved during your critical chain."/>
 <trait identifier="1879312453" name="Sneak Attack" iconId="1091918105" minLevel="1" tiers="1" description="Deal savage damage when attacking from stealth."/>
 <trait identifier="1879312458" name="Quick with a Blade" iconId="1091915498" minLevel="1" tiers="1" description="Your refined technique allows you to take better advantage of an enemy, regardless of their health."/>
 <trait identifier="1879312459" name="The More The Merrier" iconId="1091915497" minLevel="1" tiers="1" description="You grow so adept at fighting groups of enemies you become more effective when doing so."/>
@@ -1118,8 +1118,8 @@
 <trait identifier="1879318326" name="Call To Wild" iconId="1091941793" minLevel="1" tiers="1" description="Unlocks the skill Call to Wild, a buff that increases the Beorning's damage, causes pip generators to build faster, and bear form skills to cost less for a duration."/>
 <trait identifier="1879318635" name="Thrash Damage" iconId="1091941776" minLevel="1" tiers="5" description="Increases the damage of Thrash per rank."/>
 <trait identifier="1879322052" name="Broad Thrash" iconId="1091952765" minLevel="1" tiers="1" description="Thrash - Tier 3 now hits up to 5 enemies in front of the Beorning."/>
-<trait identifier="1879322053" name="Thunderous Roar" iconId="1091952766" minLevel="1" tiers="1" description="Enhances Vigilant Roar to taunt all enemies within 10m of the Beorning"/>
-<trait identifier="1879322054" name="In The Face Of" iconId="1091952764" minLevel="1" tiers="1" description="Bear Up can now be used in combat but has an increased cooldown."/>
+<trait identifier="1879322053" name="Thunderous Roar" iconId="1091952766" minLevel="1" tiers="1" description="Grants Thunderous Roar, allowing the Beorning to taunt all enemies within 10m."/>
+<trait identifier="1879322054" name="Overbearing" iconId="1091952764" minLevel="1" tiers="1" description="Grants you the Overbearing skill - a version of Bear Up that can be used in combat."/>
 <trait identifier="1879324452" name="Light in the Shadow" iconId="1090541275" minLevel="1" tiers="1" description="Your ability to go unseen becomes more potent.">
 <stat name="STEALTH_LEVEL" constant="3.0"/>
 </trait>
@@ -1155,4 +1155,5 @@
 <trait identifier="1879380288" name="Inner Light" iconId="1092413616" minLevel="1" tiers="1" description="Your journeys have taught you to more effectively endure the shadow of Mordor.">
 <stat name="LIGHT_OF_EARENDIL" scaling="1879380318"/>
 </trait>
+<trait identifier="1879384434" name="Critical Eye" iconId="1091925946" minLevel="1" tiers="1" description="Burglars gain access to special actions after a successful critical or devastating strike. Gamblers gain access to special actions after successfully evading an attack."/>
 </traits>
