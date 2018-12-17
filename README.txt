@@ -2,10 +2,10 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - traits
 - recipes
 - titles
+- emotes
 
 In the future, it may contain:
 - quests
-- emotes
 - mounts
 - travels
 - skills
