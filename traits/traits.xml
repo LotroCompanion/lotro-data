@@ -729,7 +729,9 @@
 <trait identifier="1879270680" name="Pleasant Breeze" iconId="1091829943" minLevel="1" tiers="5" description="A critical hit with Gust of Wind will allow you to direct a pleasant breeze to your allies, restoring some Morale."/>
 <trait identifier="1879270681" name="Storm-lore" iconId="1091840553" minLevel="1" tiers="3" description="Earns the skill: Storm-lore.&#10;&#10;Increases Lightning Damage per rank."/>
 <trait identifier="1879270682" name="Playing with Fire" iconId="1091829912" minLevel="1" tiers="1" description="Adds unique debuffs when using a Fire, Frost, or Lightning skill on a target afflicted with Fire-lore:"/>
-<trait identifier="1879270683" name="Ancient Craft" iconId="1091806010" minLevel="1" tiers="4" description="Increases Armour Debuff of Ancient Craft&#10;&#10; At third rank, Ancient Craft causes the first Lightning Skill to be used against a target to deal bonus damage.&#10;&#10;At max rank, your armour is 5% more effective."/>
+<trait identifier="1879270683" name="Ancient Craft" iconId="1091806010" minLevel="1" tiers="4" description="Increases Armour Debuff of Ancient Craft&#10;&#10; At third rank, Ancient Craft causes the first Lightning Skill to be used against a target to deal bonus damage.&#10;&#10;At max rank, your armour is 5% more effective.">
+<stat name="ARMOUR" operator="MULTIPLY" scaling="1879311673"/>
+</trait>
 <trait identifier="1879270684" name="Mending Lore" iconId="1091829940" minLevel="1" tiers="5" description="Increases Outgoing Healing per Rank. At max rank, increases the Incoming Healing buff on Water-lore."/>
 <trait identifier="1879270685" name="The Ancient Master" iconId="1091829937" minLevel="1" tiers="1" description="Earns the skill: The Ancient Master."/>
 <trait identifier="1879270686" name="Flow of Power" iconId="1091829922" minLevel="1" tiers="5" description="Increases Power restoration by Power of Knowledge and Share the Power."/>
@@ -871,6 +873,7 @@
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
 </trait>
 <trait identifier="1879272893" name="Guardian's Defence" iconId="1091805232" minLevel="1" tiers="1" description="This trait enhances your armour, critical defence, block chance and mitigation, and reduces shield wear while blocking">
+<stat name="ARMOUR" operator="MULTIPLY" constant="1.1"/>
 <stat name="CRITICAL_DEFENCE_PERCENTAGE" constant="10.0"/>
 <stat name="PARTIAL_BLOCK_MITIGATION_PERCENTAGE" constant="2.5"/>
 </trait>
