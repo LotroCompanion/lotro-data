@@ -445,8 +445,8 @@
 <trait identifier="1879259367" name="Stick and Move" iconId="1091829388" minLevel="1" tiers="5" description="Boosts Evade chance.">
 <stat name="EVADE_PERCENTAGE" scaling="1879297179"/>
 </trait>
-<trait identifier="1879259368" name="Cruel Odds" iconId="1091509960" minLevel="1" tiers="5" description="Increases chance of applying a Gamble.">
-<stat name="Burglar_Skill_Gamble_Chance" scaling="1879268067"/>
+<trait identifier="1879259368" name="Cruel Odds" iconId="1091509960" minLevel="1" tiers="5" description="Increases damage of Gamble applying skills.">
+<stat name="Skill_Burglar_Gamble_Damage" scaling="1879268040"/>
 </trait>
 <trait identifier="1879259370" name="Honed Wit" iconId="1091829380" minLevel="1" tiers="5" description="Increases the damage of damage-over-time effects.">
 <stat name="IA_Burglar_bleed_damagemultiplier" scaling="1879268077"/>
@@ -535,7 +535,7 @@
 <trait identifier="1879261474" name="Burglar's Antidote" iconId="1091840421" minLevel="1" tiers="1" description="The skill Burglar's Antidote now applies to the Fellowship.">
 <stat name="ForwardSource_Combat_Burglar_SkillCombo" constant="4096.0"/>
 </trait>
-<trait identifier="1879261482" name="Double Down" iconId="1091798529" minLevel="1" tiers="1" description="Diversion has a chance to apply a gamble. Provoke has a chance to apply a Daze. Provoke's chance is increased when applied from Stealth.">
+<trait identifier="1879261482" name="Double Down" iconId="1091798529" minLevel="1" tiers="1" description="Diversion has a chance to apply a debilitating gamble. Provoke has a chance to apply a Daze. Provoke's chance is increased when applied from Stealth.">
 <stat name="ForwardSource_Combat_Burglar_SkillCombo" constant="65536.0"/>
 </trait>
 <trait identifier="1879261483" name="Aggravated Bleeds" iconId="1091840294" minLevel="1" tiers="2" description="Increases the duration of damage-over-time dealt by Gambler's Advantage and Cunning Attack.">
@@ -670,6 +670,7 @@
 <trait identifier="1879267988" name="Clever Retort" iconId="1091414346" minLevel="1" tiers="1" description="Earns the skill: Clever Retort."/>
 <trait identifier="1879267989" name="Self Adulation" iconId="1091829382" minLevel="1" tiers="5" description="Increases the potency of heals.">
 <stat name="Skill_Burglar_TrickRemoval_Healing" scaling="1879268069"/>
+<stat name="Skill_AdditivePulseCountModifierModifier_BurglarGleeMod" scaling="1879386477"/>
 </trait>
 <trait identifier="1879268078" name="Piercing Trap" iconId="1091829819" minLevel="1" tiers="1" description="Places a Trap that does damage over time and slows all enemies in the Trap radius."/>
 <trait identifier="1879268079" name="Volley" iconId="1091840218" minLevel="1" tiers="5" description="Using a skill that costs Focus has a chance of removing the bow induction time of your next attack."/>
@@ -714,7 +715,7 @@
 <stat name="Trait_Hunter_NaturalExtracts_DoTDamageMod" scaling="1879268030"/>
 </trait>
 <trait identifier="1879268096" name="Quick Draw" iconId="1091840219" minLevel="1" tiers="4" description="Reduces all Inductions.">
-<stat name="Skill_InductionDuration_AllSkillsMod" operator="SUBSTRACT" scaling="1879259858"/>
+<stat name="ALL_SKILL_INDUCTION" operator="SUBSTRACT" scaling="1879259858"/>
 </trait>
 <trait identifier="1879268098" name="Quick Shot Focus" iconId="1091829822" minLevel="1" tiers="5" description="Quick Shot has a chance to generate 1 additional Focus.">
 <stat name="Trait_Hunter_QuickShot_Focus_AppChance" scaling="1879268038"/>
@@ -999,7 +1000,7 @@
 </trait>
 <trait identifier="1879269787" name="Nature's Fury" iconId="1091829914" minLevel="1" tiers="1" description="Earns the skill: Nature's Fury."/>
 <trait identifier="1879269788" name="Prepared Materials" iconId="1091829931" minLevel="1" tiers="3" description="You attack faster now that you are prepared for battle.">
-<stat name="Skill_InductionDuration_AllSkillsMod" scaling="1879270046"/>
+<stat name="ALL_SKILL_INDUCTION" scaling="1879270046"/>
 </trait>
 <trait identifier="1879269789" name="Sign of the Wild: Protection" iconId="1091806022" minLevel="1" tiers="5" description="Sign of the Wild: Protection increases your pet's defences.">
 <stat name="Skill_Loremaster_SignofProtection_Morale" scaling="1879270056"/>
@@ -1009,7 +1010,7 @@
 <stat name="Skill_Loremaster_BurningEarth_Damage" scaling="1879270053"/>
 </trait>
 <trait identifier="1879269791" name="Synchronized Movement" iconId="1091829947" minLevel="1" tiers="3" description="You and your pet execute attacks more quickly.">
-<stat name="Skill_InductionDuration_AllSkillsMod" scaling="1879270044"/>
+<stat name="ALL_SKILL_INDUCTION" scaling="1879270044"/>
 <stat name="Skill_Loremaster_SynchronizedMovement_AD" scaling="1879270249"/>
 </trait>
 <trait identifier="1879269792" name="Sword and Storm" iconId="1091829915" minLevel="1" tiers="1" description="Staff-strike deals bonus Lightning damage and stuns the foe."/>
@@ -1094,7 +1095,7 @@
 <trait identifier="1879270114" name="Reveal Weakness" iconId="1091798547" minLevel="1" tiers="1" description="Reveal Weakness gains the ability to reduce the target's Resistance.">
 <stat name="Skill_Burglar_RevealWeakness_Resist_Mod" constant="50.0"/>
 </trait>
-<trait identifier="1879270126" name="Blind Bet" iconId="1091798526" minLevel="1" tiers="1" description="You make an additional attack after using Double-edged Strike, inflicting moderate damage. A random Gamble is applied to your target."/>
+<trait identifier="1879270126" name="Blind Bet" iconId="1091798526" minLevel="1" tiers="1" description="You make an additional attack after using Double-edged Strike, inflicting moderate damage. A debilitating Gamble is applied to your target."/>
 <trait identifier="1879270127" name="Cash Out" iconId="1091798524" minLevel="1" tiers="1" description="Sometimes it's better to cut your losses and cash out. You use your knowledge of the game to turn a gamble into a sure thing."/>
 <trait identifier="1879270252" name="Thick Skin" iconId="1091829379" minLevel="1" tiers="5" description="Increases Physical and Tactical mitigation.">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" scaling="1879297183"/>
@@ -1281,7 +1282,7 @@
 <stat name="Skill_Loremaster_LevelHeaded" scaling="1879271253"/>
 </trait>
 <trait identifier="1879270678" name="Quick Hands" iconId="1091829917" minLevel="1" tiers="3" description="Reduces duration of all Lore-master inductions.">
-<stat name="Skill_InductionDuration_AllSkillsMod" scaling="1879271251"/>
+<stat name="ALL_SKILL_INDUCTION" scaling="1879271251"/>
 </trait>
 <trait identifier="1879270679" name="Fire-lore" iconId="1091840551" minLevel="1" tiers="5" description="Improves the potency of Fire-lore's Melee Damage Debuff.">
 <stat name="Skill_Loremaster_Firelore" scaling="1879271257"/>
@@ -1410,7 +1411,7 @@
 <stat name="Trait_Coda_of_Vigour_Damage_Buff_Duration" scaling="1879271705"/>
 </trait>
 <trait identifier="1879270779" name="Quick Melody" iconId="1091830278" minLevel="1" tiers="5" description="Lowers skill induction time, letting you heal faster.">
-<stat name="Skill_InductionDuration_AllSkillsMod" scaling="1879271732"/>
+<stat name="ALL_SKILL_INDUCTION" scaling="1879271732"/>
 </trait>
 <trait identifier="1879270780" name="Anthem of Composure" iconId="1091810091" minLevel="1" tiers="1" description="Earns the skill: Anthem of Composure."/>
 <trait identifier="1879270781" name="Strong Appeal" iconId="1091830264" minLevel="1" tiers="5" description="Increases the Crit chance of heals.">
@@ -1514,7 +1515,7 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" scaling="1879368803"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" scaling="1879368801"/>
 </trait>
-<trait identifier="1879272271" name="Grand Master Weapons Training" iconId="1091840526" minLevel="1" tiers="1" description="">
+<trait identifier="1879272271" name="Grand Master Weapons Training" iconId="1091840526" minLevel="1" tiers="1">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="Skill_ProcRate_Warden_SpearDot" constant="2.0"/>
 <stat name="Skill_ProcRate_Warden_ClubDebuff" constant="2.0"/>
@@ -1522,13 +1523,13 @@
 <stat name="Skill_DamageMultiplier_Warden_SpearDot" constant="500.0"/>
 </trait>
 <trait identifier="1879272272" name="Martial Fury" iconId="1091829385" minLevel="1" tiers="1" description="Gambits in the Power Attack Gambit line and the Precise Blow Gambit line have 15% chance to apply a secondary DoT to their target which stacks with the normal DoT.&#10;&#10;Secondary DoTs cannot stack with each other."/>
-<trait identifier="1879272273" name="Sharpened Spears" iconId="1091840731" minLevel="1" tiers="1" description="">
+<trait identifier="1879272273" name="Sharpened Spears" iconId="1091840731" minLevel="1" tiers="1">
 <stat name="Skill_Warden_SpearGambitDamage" constant="10.0"/>
 </trait>
-<trait identifier="1879272274" name="Unconventional Strikes" iconId="1091830072" minLevel="1" tiers="1" description="">
+<trait identifier="1879272274" name="Unconventional Strikes" iconId="1091830072" minLevel="1" tiers="1">
 <stat name="Trait_Veteran_Warden" constant="15.000001"/>
 </trait>
-<trait identifier="1879272275" name="Precision Training" iconId="1091830168" minLevel="1" tiers="1" description="">
+<trait identifier="1879272275" name="Precision Training" iconId="1091830168" minLevel="1" tiers="1">
 <stat name="CRITICAL_MELEE_PERCENTAGE" constant="2.5"/>
 <stat name="CRITICAL_RANGED_PERCENTAGE" constant="2.5"/>
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" constant="2.5"/>
@@ -1549,13 +1550,13 @@
 <trait identifier="1879272542" name="Endurance Training" iconId="1091830126" minLevel="1" tiers="1" description="Exercising your throwing arm prevents you from wearing out during battle.">
 <stat name="Skill_Warden_Endurance_Training" constant="-10.0"/>
 </trait>
-<trait identifier="1879272543" name="Revel in Combat" iconId="1091830156" minLevel="1" tiers="1" description=""/>
+<trait identifier="1879272543" name="Revel in Combat" iconId="1091830156" minLevel="1" tiers="1"/>
 <trait identifier="1879272547" name="Makeshift Caltrops" iconId="1091457998" minLevel="1" tiers="1" description="Improved Hampering Javelin now slows enemies around your target."/>
 <trait identifier="1879272548" name="Focus Fire" iconId="1091830189" minLevel="1" tiers="1" description="You excel at marking priority targets for your fellows.">
 <stat name="Skill_Warden_Marked_Target" operator="SUBSTRACT" constant="5.0"/>
 <stat name="Skill_Warden_Diminished_Target" operator="SUBSTRACT" constant="5.0"/>
 </trait>
-<trait identifier="1879272549" name="Thrill of Battle" iconId="1091840668" minLevel="1" tiers="1" description="">
+<trait identifier="1879272549" name="Thrill of Battle" iconId="1091840668" minLevel="1" tiers="1">
 <stat name="Skill_Warden_MoraleTapDamage" constant="20.0"/>
 </trait>
 <trait identifier="1879272551" name="Throwing Arm" iconId="1091841064" minLevel="1" tiers="1" description="A strong throwing arm puts more power behind your Javelins.">
@@ -1567,7 +1568,7 @@
 <stat name="Skill_Warden_WarCry_Finish_Buff" scaling="1879272821"/>
 <stat name="Skill_Warden_Persevere_Finish_Buff" constant="0.02"/>
 </trait>
-<trait identifier="1879272554" name="Close Call" iconId="1091840667" minLevel="1" tiers="1" description="">
+<trait identifier="1879272554" name="Close Call" iconId="1091840667" minLevel="1" tiers="1">
 <stat name="ForwardSource_Trait_Warden_Close_Call" operator="SET" constant="1.0"/>
 </trait>
 <trait identifier="1879272886" name="Manifested Ire" iconId="1091840977" minLevel="1" tiers="1" description="Enemies are snared if they fail to continue attacking the Guardian after their use of damaging abilites."/>
@@ -1594,7 +1595,7 @@
 <stat name="ARMOUR" operator="MULTIPLY" constant="1.1"/>
 <stat name="CRITICAL_DEFENCE_PERCENTAGE" constant="10.0"/>
 <stat name="PARTIAL_BLOCK_MITIGATION_PERCENTAGE" constant="2.5"/>
-<stat name="Combat_PartialBlock_PercentageAddMod" constant="2.5"/>
+<stat name="PARTIAL_BLOCK_PERCENTAGE" constant="2.5"/>
 <stat name="ItemWear_ChanceMod_CombatBlock" operator="SUBSTRACT" constant="25.0"/>
 </trait>
 <trait identifier="1879272894" key="HEAVY_BLOWS" name="Heavy Blows" iconId="1091805240" minLevel="1" tiers="1" description="This trait further increases your melee damage and critical damage multiplier.">
@@ -1731,7 +1732,7 @@
 <trait identifier="1879274690" name="Master of Tragedy" iconId="1091829859" minLevel="1" tiers="1" description="Lightning skills critical hits restore a portion of the Rune-keeper's max power."/>
 <trait identifier="1879274691" name="Static Surge" iconId="1091805948" minLevel="1" tiers="1" description="Lightning skills have a chance to grant a skill that deal lightning damage to enemies in front of you."/>
 <trait identifier="1879274692" name="Master of Connotation" iconId="1091502130" minLevel="1" tiers="1" description="Fire skills place a stacking Master of Connotation buff on the Rune-keeper.&#10;&#10;At five stacks, their next Writ heals Morale and has no induction."/>
-<trait identifier="1879274693" name="Refutation" iconId="1091805956" minLevel="1" tiers="1" description=""/>
+<trait identifier="1879274693" name="Refutation" iconId="1091805956" minLevel="1" tiers="1"/>
 <trait identifier="1879274694" name="Lightning Affinity" iconId="1091829863" minLevel="1" tiers="1" description="Grants bonus lightning damage.">
 <stat name="Skill_Runekeeper_Lightning_Damage" constant="20.0"/>
 </trait>
@@ -1804,13 +1805,13 @@
 <trait identifier="1879275314" name="Tutelage of the Brown Wizard" iconId="1091829948" minLevel="1" tiers="1" description="Your pets are dramatically strengthened through the lore of Radagast.&#10;+20% Morale&#10;+20% Damage&#10;+20% Power&#10;+5% Crit Chance&#10;+5% All Mitigations&#10;+5% Resistances&#10;+2% Block, Parry, Evade">
 <stat name="ForwardSource_Combat_Loremaster_SkillCombo" constant="1.0"/>
 </trait>
-<trait identifier="1879275315" name="Exposure to the Elements" iconId="1091829946" minLevel="1" tiers="1" description="">
+<trait identifier="1879275315" name="Exposure to the Elements" iconId="1091829946" minLevel="1" tiers="1">
 <stat name="Skill_Loremaster_Elemental_Crit" constant="20.0"/>
 </trait>
 <trait identifier="1879275316" name="Critical Coordination" iconId="1091829924" minLevel="1" tiers="1" description="When your Pet scores a Critical Hit, your next skill is guaranteed to Crit as well.">
 <stat name="Trait_Loremaster_Critical_Coordination" operator="SET" constant="100.0"/>
 </trait>
-<trait identifier="1879275317" name="Bolstered Bond" iconId="1091840531" minLevel="1" tiers="1" description="">
+<trait identifier="1879275317" name="Bolstered Bond" iconId="1091840531" minLevel="1" tiers="1">
 <stat name="Trait_Loremaster_PetModStat_Slot1" operator="SET" constant="1.87905216E9"/>
 </trait>
 <trait identifier="1879275318" name="Liquid Fire" iconId="1091873733" minLevel="1" tiers="1" description="Sticky Gourd becomes Improved Sticky Gourd, and applies Burning Embers to targets stuck in its area of effect every 4 seconds.">
@@ -1835,7 +1836,7 @@
 <trait identifier="1879275331" name="Beacon of Hope" iconId="1091829956" minLevel="1" tiers="1" description="Light of Hope becomes Beacon of Hope, which heals allies in an area around your target.">
 <stat name="ForwardSource_Combat_Loremaster_SkillCombo" constant="2097152.0"/>
 </trait>
-<trait identifier="1879275332" name="Master of the Elements" iconId="1091829936" minLevel="1" tiers="1" description="">
+<trait identifier="1879275332" name="Master of the Elements" iconId="1091829936" minLevel="1" tiers="1">
 <stat name="Combat_SkillDamageMultiplier_Fire" constant="10.0"/>
 <stat name="Combat_SkillDamageMultiplier_Light" constant="10.0"/>
 <stat name="Combat_SkillDamageMultiplier_Lightning" constant="10.0"/>
@@ -1844,7 +1845,7 @@
 <trait identifier="1879275333" name="Fellowship Friend" iconId="1091840535" minLevel="1" tiers="1" description="When your Pet scores a Critical Hit, a unique buff will be bestowed from your pet unto your fellowship.">
 <stat name="Trait_Loremaster_Fellowship_Friend" operator="SET" constant="1.0"/>
 </trait>
-<trait identifier="1879275334" name="Improved Ignition" iconId="1091829959" minLevel="1" tiers="1" description="">
+<trait identifier="1879275334" name="Improved Ignition" iconId="1091829959" minLevel="1" tiers="1">
 <stat name="Skill_Loremaster_Lightning_Cashout_Dmg" constant="15.000001"/>
 </trait>
 <trait identifier="1879275364" name="Ents go to War" iconId="1091873730" minLevel="1" tiers="1" description="Grants you Ents go to War"/>
@@ -1863,7 +1864,7 @@
 <trait identifier="1879276054" name="Fierce Cries" iconId="1091840488" minLevel="1" tiers="1" description="Your Cry and Call damage is increased.">
 <stat name="Skill_CriticalDamageMultiplier_Minstrel_Call" constant="15.000001"/>
 </trait>
-<trait identifier="1879276055" name="Piercing Calls" iconId="1091840478" minLevel="1" tiers="1" description="">
+<trait identifier="1879276055" name="Piercing Calls" iconId="1091840478" minLevel="1" tiers="1">
 <stat name="Skill_Minstrel_SpecBonus_Resistance_Penetration" constant="-0.1"/>
 </trait>
 <trait identifier="1879276056" name="Encore" iconId="1091810108" minLevel="1" tiers="1" description="There is a small chance that a Coda will not consume your Ballads.">
@@ -1880,7 +1881,7 @@
 <trait identifier="1879276378" name="Improved Call of the Second Age" iconId="1091840502" minLevel="1" tiers="1" description="Call of the Second Age offers improved bonuses.">
 <stat name="Skill_Minstrel_ImprovedSecondAge" constant="-10.0"/>
 </trait>
-<trait identifier="1879276379" name="Gripped by Fear" iconId="1091840487" minLevel="1" tiers="1" description="">
+<trait identifier="1879276379" name="Gripped by Fear" iconId="1091840487" minLevel="1" tiers="1">
 <stat name="Skill_Minstrel_Elbereth_Fear_GracePeriod" constant="3.0"/>
 </trait>
 <trait identifier="1879276380" name="Tale of Tales" iconId="1091451426" minLevel="1" tiers="1" description="Grants access to Tale of Tales, a powerful Aura which carries different buffs based on what stance you are in."/>
@@ -1891,7 +1892,7 @@
 <stat name="Skill_Minstrel_Anthem_ThirdAge_Melody_EffectMod" constant="5.0"/>
 <stat name="Skill_Minstrel_Anthem_ThirdAge_Melody_IncHealing_EffectMod" constant="2.5"/>
 </trait>
-<trait identifier="1879276386" name="Chord of Legend" iconId="1091810066" minLevel="1" tiers="1" description="">
+<trait identifier="1879276386" name="Chord of Legend" iconId="1091810066" minLevel="1" tiers="1">
 <stat name="Skill_Minstrel_HealingMultiplier_ChordofSalvation" constant="100.0"/>
 </trait>
 <trait identifier="1879276387" name="Resonant Ballads" iconId="1091840492" minLevel="1" tiers="1" description="All Ballads increase Outgoing Healing by an extra 3%.">
@@ -1954,9 +1955,9 @@
 <stat name="ForwardSource_Combat_Burglar_SkillCombo" constant="4.0"/>
 <stat name="Burglar_FromStealth_Damage" constant="5.0"/>
 </trait>
-<trait identifier="1879278633" name="Dealings Done" iconId="1091480097" minLevel="1" tiers="1" description="You know what to do with the cards you are dealt.  Lucky Strike becomes Gambler's Strike, which has a reduced cooldown, no longer requires Double-edged Strike, and can now upgrade Gambles to their max tier.  Your chance of applying a gamble is also increased.">
+<trait identifier="1879278633" name="Dealings Done" iconId="1091480097" minLevel="1" tiers="1" description="You know what to do with the cards you are dealt.  Lucky Strike becomes Gambler's Strike, which has a reduced cooldown and no longer requires Double-edged Strike.">
 <stat name="ForwardSource_Combat_Burglar_SkillCombo" constant="8.0"/>
-<stat name="Burglar_Skill_Gamble_Chance" constant="10.0"/>
+<stat name="Skill_Burglar_Gamble_Damage" constant="10.0"/>
 </trait>
 <trait identifier="1879283653" name="Raise Our Spirits" iconId="1090553793" minLevel="1" tiers="3" description="Raise the Spirit provides a fellowship-wide AoE heal.">
 <stat name="Skill_Minstrel_RaiseOurSpirits_HoT" scaling="1879369077"/>
@@ -2013,7 +2014,7 @@
 </trait>
 <trait identifier="1879297578" name="Enough for Everyone" iconId="1091840549" minLevel="1" tiers="1" description="Grants the Skill: Share the Power - Fellowship"/>
 <trait identifier="1879302706" name="Rapid Fire" iconId="1091841573" minLevel="1" tiers="5" description="Reduces Induction Duration">
-<stat name="Skill_InductionDuration_AllSkillsMod" scaling="1879302705"/>
+<stat name="ALL_SKILL_INDUCTION" scaling="1879302705"/>
 </trait>
 <trait identifier="1879311267" name="Valour" iconId="1091916299" minLevel="1" tiers="1" description="The Captain's healing skills have a 20% chance to build stacks of valour. At 5 stacks, you burst an AoE heal around yourself and your next Valiant Strike is guaranteed to crit."/>
 <trait identifier="1879311300" name="Elite Companions" iconId="1091916295" minLevel="1" tiers="1" description="You give your companions the equipment and training to damage enemy armour.">
