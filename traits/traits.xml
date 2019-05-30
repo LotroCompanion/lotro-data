@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><traits>
+<trait identifier="1879049557" name="Novice" iconId="1090522632" minLevel="1" tiers="1" description="You have been acknowledged as someone who could one day influence the fate of Middle-earth."/>
+<trait identifier="1879051500" name="Riding" iconId="1090530243" minLevel="1" tiers="1" description="You are able to ride mounts."/>
 <trait identifier="1879052432" name="Use of Fire" iconId="1090561241" minLevel="1" tiers="1" description="Enables hunters and wardens to apply fire-oil to their ranged weapons."/>
+<trait identifier="1879054124" name="Conqueror of the Watching-stones" iconId="1090535587" minLevel="39" tiers="1" description="You can shrug off the worst effects of the Fell Watching-stones' oppressive will."/>
+<trait identifier="1879054974" name="Expert Scholar Proficiency" iconId="1090535587" minLevel="1" tiers="1" description="Completes expert scholar proficiency and allows artisan crafting">
+<stat name="Craft_Scholar_CompletedProficiencyLevel" operator="SET" constant="3.0"/>
+<stat name="Craft_Scholar_TierOpenLevel" operator="SET" constant="4.0"/>
+</trait>
+<trait identifier="1879055116" name="Expert Metalsmith Proficiency" iconId="1090535587" minLevel="1" tiers="1" description="Completes expert metalsmith proficiency and allows artisan crafting">
+<stat name="Craft_Metalsmith_CompletedProficiencyLevel" operator="SET" constant="3.0"/>
+<stat name="Craft_Metalsmith_TierOpenLevel" operator="SET" constant="4.0"/>
+</trait>
+<trait identifier="1879055331" name="Expert Jeweller Proficiency" iconId="1090535587" minLevel="1" tiers="1" description="Completes expert jeweller proficiency and allows artisan crafting">
+<stat name="Craft_Jeweller_CompletedProficiencyLevel" operator="SET" constant="3.0"/>
+<stat name="Craft_Jeweller_TierOpenLevel" operator="SET" constant="4.0"/>
+</trait>
+<trait identifier="1879055525" name="Expert Tailor Proficiency" iconId="1090535587" minLevel="1" tiers="1" description="Completes expert tailor proficiency and allows artisan crafting">
+<stat name="Craft_Tailor_CompletedProficiencyLevel" operator="SET" constant="3.0"/>
+<stat name="Craft_Tailor_TierOpenLevel" operator="SET" constant="4.0"/>
+</trait>
+<trait identifier="1879055810" name="Expert Weaponsmith Proficiency" iconId="1090535587" minLevel="1" tiers="1" description="Completes expert weaponsmith proficiency and allows artisan crafting">
+<stat name="Craft_Weaponsmith_CompletedProficiencyLevel" operator="SET" constant="3.0"/>
+<stat name="Craft_Weaponsmith_TierOpenLevel" operator="SET" constant="4.0"/>
+</trait>
+<trait identifier="1879055974" name="Expert Woodworker Proficiency" iconId="1090535587" minLevel="1" tiers="1" description="Completes expert woodworker proficiency and allows artisan crafting">
+<stat name="Craft_Woodworker_CompletedProficiencyLevel" operator="SET" constant="3.0"/>
+<stat name="Craft_Woodworker_TierOpenLevel" operator="SET" constant="4.0"/>
+</trait>
 <trait identifier="1879056133" name="Use of Light" iconId="1090561310" minLevel="1" tiers="1" description="Enables hunters and wardens to apply light-oil to their ranged weapons."/>
 <trait identifier="1879059926" name="Runic Use" iconId="1090539750" minLevel="1" tiers="1" description="Allows the use of Runes."/>
 <trait identifier="1879060116" name="Shield Spike Use" iconId="1090561514" minLevel="1" tiers="1" description="Allows the use of shield-spikes"/>
@@ -8,6 +35,18 @@
 <stat name="Effect_Self_Revive_Cooldown" constant="1800.0"/>
 </trait>
 <trait identifier="1879060258" name="Adept" iconId="1090540990" minLevel="20" tiers="1" description="The road to saving Middle-earth is long, but you are already walking it."/>
+<trait identifier="1879061286" name="Expert Cook Proficiency" iconId="1090535587" minLevel="1" tiers="1" description="Completes expert cook proficiency and allows artisan crafting">
+<stat name="Craft_Cook_CompletedProficiencyLevel" operator="SET" constant="3.0"/>
+<stat name="Craft_Cook_TierOpenLevel" operator="SET" constant="4.0"/>
+</trait>
+<trait identifier="1879061991" name="Superior Forge Access" iconId="1090535587" minLevel="1" tiers="1" description="Superior Forge Access"/>
+<trait identifier="1879062250" name="Superior Oven Access" iconId="1090535587" minLevel="1" tiers="1" description="Superior Oven Access"/>
+<trait identifier="1879062411" name="Superior Study Access" iconId="1090535587" minLevel="1" tiers="1" description="Superior Study Access"/>
+<trait identifier="1879062692" name="Superior Workbench Access" iconId="1090535587" minLevel="1" tiers="1" description="Superior Workbench Access"/>
+<trait identifier="1879062935" name="Expert Farmer Proficiency" iconId="1090535587" minLevel="1" tiers="1" description="Completes expert farmer proficiency and allows artisan crafting">
+<stat name="Craft_Farmer_CompletedProficiencyLevel" operator="SET" constant="3.0"/>
+<stat name="Craft_Farmer_TierOpenLevel" operator="SET" constant="4.0"/>
+</trait>
 <trait identifier="1879064086" name="One-handed Axes" iconId="1090552270" minLevel="1" tiers="1" description="Allows the use of One-handed Axes. Axes have a small chance of reducing the target's armour."/>
 <trait identifier="1879064087" name="One-handed Clubs" iconId="1090552271" minLevel="1" tiers="1" description="Allows the use of One-handed Clubs. Clubs have a small chance of slowing the target's Attack Speed."/>
 <trait identifier="1879064088" name="One-handed Hammers" iconId="1090552272" minLevel="1" tiers="1" description="Allows the use of One-handed Hammers. Hammers have a small chance of lowering the target's ability to Evade."/>
@@ -40,6 +79,13 @@
 <trait identifier="1879064299" name="Heavy Shields" iconId="1090552288" minLevel="1" tiers="1" description="Allows the use of Heavy Shields. All heavy shields greatly reduce the chance to be critically hit and carry a small penalty to Evade."/>
 <trait identifier="1879064400" name="Improved Range" iconId="1090535587" minLevel="1" tiers="1" description="Your skill with ranged weapons allows you to attack from a greater distance than others.">
 <stat name="Skill_RangedDefaultAttack_MaxRangeMod" constant="15.0"/>
+</trait>
+<trait identifier="1879072505" name="Damage for Health (Rank 1)" iconId="1090553338" minLevel="1" tiers="1" description="Corruption traits allow you to increase one aspect of your character at the cost of other aspects.">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="2.5"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="2.5"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="2.5"/>
+<stat name="MORALE" operator="MULTIPLY" constant="0.95"/>
+<stat name="Combat_OutgoingHeals_EffectMod" constant="2.5"/>
 </trait>
 <trait identifier="1879072873" key="Virtue:CHARITY" name="Charity" iconId="1091664657" minLevel="1" tiers="20" description="Charity has its rewards. You find yourself more resistant, able to defend against physical attacks more easily, and able to recover your Power more quickly outside of combat.">
 <stat name="RESISTANCE" scaling="1879210611"/>
@@ -307,6 +353,8 @@
 </trait>
 <trait identifier="1879097466" name="Bagpipe Use" iconId="1091401279" minLevel="1" tiers="1" description="Allows the use of Bagpipes."/>
 <trait identifier="1879097468" name="Basic Cowbell Use" iconId="1091401282" minLevel="1" tiers="1" description="Allows the use of Cowbells."/>
+<trait identifier="1879101492" name="Friend of the Wild" iconId="1091404130" minLevel="1" tiers="1" description="Allows the use of non-combat companions."/>
+<trait identifier="1879101895" name="Novice Riding" iconId="1090530243" minLevel="1" tiers="1" description="You are able to ride tame mounts."/>
 <trait identifier="1879112554" name="Warden's Shields" iconId="1090552288" minLevel="1" tiers="1" description="Allows the use of Warden's Shields. Warden Shields reduce the chance to be critically hit."/>
 <trait identifier="1879114476" name="Spear Training" iconId="1090552285" minLevel="1" tiers="1" description="Wardens train primarily with spears and have learned to get the most out of them.">
 <stat name="Combat_WeaponDamageMultiplier_Spear" constant="2.0"/>
@@ -367,6 +415,7 @@
 <trait identifier="1879134769" name="5 Icon Gambits" iconId="1090552293" minLevel="1" tiers="1" description=" ">
 <stat name="Gambit_GambitIconCountMax" constant="1.0"/>
 </trait>
+<trait identifier="1879141627" name="Seeker of Deep Places" iconId="1090535587" minLevel="1" tiers="1" description="You have proven yourself before the Doors of Durin and may now explore the ancient halls of Moria."/>
 <trait identifier="1879144862" name="Rune-stones" iconId="1090625157" minLevel="1" tiers="1" description="Allows the use of Rune-stones.  Rune-stones have affinity to fire, lightning, or frost."/>
 <trait identifier="1879145626" name="Daggers Training: Accomplished" iconId="1090552275" minLevel="1" tiers="1" description="Grants Burglars greater effectiveness when wielding daggers.">
 <stat name="Combat_WeaponDamageMultiplier_Dagger" constant="2.5"/>
@@ -377,6 +426,9 @@
 <trait identifier="1879145628" name="Daggers Training: Master" iconId="1090552275" minLevel="1" tiers="1" description="Grants Burglars greater effectiveness when wielding daggers.">
 <stat name="Combat_WeaponDamageMultiplier_Dagger" constant="5.0"/>
 </trait>
+<trait identifier="1879147449" name="Stinking Ward[e]" iconId="1090531843" minLevel="1" tiers="1" description="Clears the way to the underbelly of Skûmfil."/>
+<trait identifier="1879152924" name="Trusted in Caras Galadhon" iconId="1090535587" minLevel="1" tiers="1" description="You have proven yourself worthy of entering Caras Galadhon."/>
+<trait identifier="1879152925" name="Trusted in Lothlórien" iconId="1090535587" minLevel="1" tiers="1" description="You have proven yourself worthy of walking within the Golden Wood."/>
 <trait identifier="1879153111" name="Carving Use" iconId="1091547193" minLevel="1" tiers="1" description="Allows the use of Carvings."/>
 <trait identifier="1879163315" name="Critical Defence" iconId="1091570592" minLevel="1" tiers="1" description="Reduces the Warden's chance to suffer a Critical Hit.">
 <stat name="CRITICAL_DEFENCE" scaling="1879211645"/>
@@ -387,15 +439,128 @@
 <trait identifier="1879163317" name="Critical Defence" iconId="1091570592" minLevel="1" tiers="1" description="Reduces the chance for the Captain to suffer a critical hit.">
 <stat name="CRITICAL_DEFENCE" scaling="1879211644"/>
 </trait>
+<trait identifier="1879173963" name="Invader of Mirkwood" iconId="1090535587" minLevel="1" tiers="1" description="You have fought alongside the Malledhrim during the invasion of Southern Mirkwood in an effort to stymie the power of Dol Guldur."/>
+<trait identifier="1879174685" name="Skirmish Basic Training II" iconId="1091573311" minLevel="1" tiers="1" description="You have been taught advanced knowledge about how to engage in skirmishes against the forces of darkness."/>
+<trait identifier="1879180384" name="Eglain - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Eglain vendors.">
+<stat name="Discount_Eglain" constant="5.0"/>
+</trait>
+<trait identifier="1879180385" name="Eglain - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Eglain stable-masters.">
+<stat name="Discount_Travel_Eglain" constant="10.0"/>
+</trait>
+<trait identifier="1879180386" name="Travel to Ost Guruth" iconId="1091404797" minLevel="25" tiers="1" description="Your standing with the Eglain allows you to travel swiftly to Ost Guruth."/>
 <trait identifier="1879180446" name="Improved Halberd Training" iconId="1090552309" minLevel="1" tiers="1" description="Your skill with a Halberd has improved.">
 <stat name="Combat_WeaponDamageMultiplier_Halberd" constant="5.0"/>
 </trait>
+<trait identifier="1879186837" name="Emote: Elf-dance" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the ability to dance like an Elf."/>
+<trait identifier="1879186841" name="Emote: Sword-salute" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the sword-salute emote (/swordsalute)."/>
+<trait identifier="1879186842" name="Emote: Dwarf-dance" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the ability to dance like a dwarf."/>
+<trait identifier="1879186843" name="Emote: Firebreath" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the firebreath emote (/firebreath)."/>
+<trait identifier="1879186844" name="Emote: Man-dance" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the ability to dance like a Man."/>
+<trait identifier="1879186845" name="Emote: Hero-pose" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the hero-pose emote (/heropose)."/>
+<trait identifier="1879186847" name="Emote: Hobbit-dance" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the ability to dance like a hobbit."/>
+<trait identifier="1879186848" name="Emote: Juggle" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the juggling emote (/juggle)."/>
 <trait identifier="1879186957" name="Newbie" iconId="1090522632" minLevel="1" tiers="1" description="You are young and eager to see all of Middle-earth."/>
+<trait identifier="1879190442" name="Rangers of Esteldín - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Rangers of Esteldín vendors.">
+<stat name="Discount_Rangers_Esteldin" constant="5.0"/>
+</trait>
+<trait identifier="1879190443" name="Council of the North - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Council of the North vendors.">
+<stat name="Discount_Council_North" constant="5.0"/>
+</trait>
+<trait identifier="1879190444" name="Elves of Rivendell - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Elves of Rivendell stable-masters.">
+<stat name="Discount_Travel_Elves_Rivendell" constant="10.0"/>
+</trait>
+<trait identifier="1879190445" name="Thorin's Halls - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Thorin's Halls stable-masters.">
+<stat name="Discount_Travel_Thorins_Halls" constant="10.0"/>
+</trait>
+<trait identifier="1879190447" name="Galadhrim - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Galadhrim vendors.">
+<stat name="Discount_Galadhrim" constant="5.0"/>
+</trait>
+<trait identifier="1879190448" name="Thorin's Halls - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Thorin's Halls vendors.">
+<stat name="Discount_Thorins_Halls" constant="5.0"/>
+</trait>
+<trait identifier="1879190452" name="Algraig - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Algraig stable-masters.">
+<stat name="Discount_Travel_Algraig" constant="10.0"/>
+</trait>
+<trait identifier="1879190459" name="Iron Garrison Guards - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Iron Garrison Guards stable-masters.">
+<stat name="Discount_Travel_Iron_Garrison" constant="10.0"/>
+</trait>
+<trait identifier="1879190460" name="Lossoth - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Lossoth vendors.">
+<stat name="Discount_Lossoth" constant="5.0"/>
+</trait>
+<trait identifier="1879190461" name="Mathom Society - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Mathom Society vendors.">
+<stat name="Discount_Mathom" constant="5.0"/>
+</trait>
+<trait identifier="1879190466" name="Men of Bree - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Men of Bree stable-masters.">
+<stat name="Discount_Travel_Men_Bree" constant="10.0"/>
+</trait>
+<trait identifier="1879190477" name="Iron Garrison Miners - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Iron Garrison Miners stable-masters.">
+<stat name="Discount_Travel_Iron_Miners" constant="10.0"/>
+</trait>
+<trait identifier="1879190478" name="Mathom Society - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Mathom Society stable-masters.">
+<stat name="Discount_Travel_Mathom" constant="10.0"/>
+</trait>
+<trait identifier="1879190480" name="Wardens of Annúminas - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Wardens of Annúminas vendors.">
+<stat name="Discount_Wardens_Annuminas" constant="5.0"/>
+</trait>
+<trait identifier="1879190482" name="Lossoth - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Lossoth stable-masters.">
+<stat name="Discount_Travel_Lossoth" constant="10.0"/>
+</trait>
+<trait identifier="1879190483" name="Iron Garrison Guards- Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Iron Garrison Guards vendors.">
+<stat name="Discount_Iron_Garrison" constant="5.0"/>
+</trait>
+<trait identifier="1879190484" name="Grey Company - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Grey Company stable-masters.">
+<stat name="Discount_Travel_Grey_Company" constant="10.0"/>
+</trait>
+<trait identifier="1879190485" name="Grey Company - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Grey Company vendors.">
+<stat name="Discount_Grey_Company" constant="5.0"/>
+</trait>
+<trait identifier="1879190486" name="Malledhrim - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Malledhrim stable-masters.">
+<stat name="Discount_Travel_Malledhrim" constant="10.0"/>
+</trait>
+<trait identifier="1879190490" name="Galadhrim - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Galadhrim stable-masters.">
+<stat name="Discount_Travel_Galadhrim" constant="10.0"/>
+</trait>
+<trait identifier="1879190494" name="Algraig - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Algraig vendors.">
+<stat name="Discount_Algraig" constant="5.0"/>
+</trait>
+<trait identifier="1879190495" name="Men of Bree - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Men of Bree vendors.">
+<stat name="Discount_Men_Bree" constant="5.0"/>
+</trait>
+<trait identifier="1879190498" name="Iron Garrison Miners - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Iron Garrison Miners vendors.">
+<stat name="Discount_Iron_Miners" constant="5.0"/>
+</trait>
+<trait identifier="1879190499" name="Wardens of Annúminas - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Wardens of Annúminas stable-masters.">
+<stat name="Discount_Travel_Wardens_Annuminas" constant="10.0"/>
+</trait>
+<trait identifier="1879190502" name="Malledhrim - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Malledhrim vendors.">
+<stat name="Discount_Malledhrim" constant="5.0"/>
+</trait>
+<trait identifier="1879190504" name="Rangers of Esteldín - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Rangers of Esteldín stable-masters.">
+<stat name="Discount_Travel_Rangers_Esteldin" constant="10.0"/>
+</trait>
+<trait identifier="1879190505" name="Council of the North - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Council of the North stable-masters.">
+<stat name="Discount_Travel_Council_North" constant="10.0"/>
+</trait>
+<trait identifier="1879190508" name="Elves of Rivendell - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Elves of Rivendell vendors.">
+<stat name="Discount_Elves_Rivendell" constant="5.0"/>
+</trait>
 <trait identifier="1879213615" name="Improved Defensive Strike" iconId="1091478757" minLevel="1" tiers="1" description="Using the skill Defensive Strike can apply the Potency effect to you."/>
 <trait identifier="1879213616" name="Improved Deft Strike" iconId="1091478773" minLevel="1" tiers="1" description="Using the skill Deft Strike can apply the Potency effect to you."/>
 <trait identifier="1879213617" name="Improved Goad Strike" iconId="1091478759" minLevel="1" tiers="1" description="Using the skill Goad can apply the Potency effect to you."/>
 <trait identifier="1879220090" name="Ancient Wisdom" iconId="1090541226" minLevel="1" tiers="1" description="Your research into lost knowledge increases your Will.">
 <stat name="WILL" scaling="1879060839"/>
+</trait>
+<trait identifier="1879222109" name="Men of Dunland - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Men of Dunland stable-masters.">
+<stat name="Discount_Travel_Dunlendings" constant="10.0"/>
+</trait>
+<trait identifier="1879222110" name="Théodred's Riders - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Théodred's Riders stable-masters.">
+<stat name="Discount_Travel_Theodred" constant="10.0"/>
+</trait>
+<trait identifier="1879222111" name="Théodred's Riders - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Théodred's Riders vendors.">
+<stat name="Discount_Theodred" constant="5.0"/>
+</trait>
+<trait identifier="1879222112" name="Men of Dunland - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Men of Dunland vendors.">
+<stat name="Discount_Dunlendings" constant="5.0"/>
 </trait>
 <trait identifier="1879225777" name="Pibgorn Use" iconId="1091691578" minLevel="1" tiers="1" description="Allows the use of special Pibgorns."/>
 <trait identifier="1879230292" name="Audacity" iconId="1091711663" minLevel="1" tiers="25" description="Audacity improves your ability to fight the Servants of Angmar.">
@@ -407,9 +572,45 @@
 <stat name="MELEE_DAMAGE_PERCENTAGE" scaling="1879325966"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" scaling="1879325967"/>
 </trait>
+<trait identifier="1879233024" name="Riders of Stangard - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Riders of Stangard stable-masters.">
+<stat name="Discount_Travel_Greatriver_Stangard" constant="10.0"/>
+</trait>
+<trait identifier="1879233028" name="Riders of Stangard - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Riders of Stangard vendors.">
+<stat name="Discount_Greatriver_Stangard" constant="5.0"/>
+</trait>
 <trait identifier="1879238171" name="Sword and Staff" iconId="1091764280" minLevel="1" tiers="1" description="You now may dual wield sword and staff.">
 <stat name="Inventory_AllowedEquipmentCategories" constant="1.34217728E8"/>
 <stat name="Inventory_AllowSecondaryWeapon" operator="SET" constant="1.0"/>
+</trait>
+<trait identifier="1879245608" name="War-steed Riding" iconId="1090620293" minLevel="1" tiers="1" description="You are able to ride war-steeds."/>
+<trait identifier="1879250368" name="Light Leggings of the Sutcrofts" iconId="1091768824" minLevel="1" tiers="1" description="These simple leg-guards help to keep a steed's legs free of mud when working the fields after recent rain."/>
+<trait identifier="1879250374" name="Light Saddle of the Sutcrofts" iconId="1091768825" minLevel="1" tiers="1" description="A simple saddle, well-worn by years of use in the fields of the Eastemnet."/>
+<trait identifier="1879250379" name="Light Halter of the Wold" iconId="1091768826" minLevel="1" tiers="1" description="This colourful cloth halter will protect your steed's face from the dusty winds of the Wold."/>
+<trait identifier="1879250382" name="Light Leggings of the Entwash" iconId="1091768827" minLevel="1" tiers="1" description="These tough leg guards are meant for pushing aside the reeds and rushes that grow thickly in the Entwash marshes."/>
+<trait identifier="1879250384" name="Light Saddle of the Norcrofts" iconId="1091768828" minLevel="1" tiers="1" description="A light-weight and versatile leather saddle common in the Norcrofts."/>
+<trait identifier="1879250388" name="Light Halter of the Norcrofts" iconId="1091768829" minLevel="1" tiers="1" description="This halter is mostly used to show the heraldry of Cliving, but it affords the steed who wears it some protection, as well."/>
+<trait identifier="1879250398" name="Light Halter of the Sutcrofts" iconId="1091768830" minLevel="1" tiers="1" description="A simple, dependable halter built for working horses."/>
+<trait identifier="1879250410" name="Light Saddle of the Wold" iconId="1091768831" minLevel="1" tiers="1" description="Light, comfortable saddles like this one are necessary for traversing the harsh and unpredictable terrain of the Wold."/>
+<trait identifier="1879250412" name="Light Leggings of the Wold" iconId="1091768832" minLevel="1" tiers="1" description="When riding over the rocky, pockmarked hills of the Wold, it is essential to clothe your steed in durable leg-guards that will not snag on rock or thorn."/>
+<trait identifier="1879250420" name="Light Caparison of the Norcrofts" iconId="1091768833" minLevel="1" tiers="1" description="Sometimes, defence must be sacrificed for agility. This light-weight tack won't protect the steed from harm, but it will allow it to fly across the plains."/>
+<trait identifier="1879250423" name="Light Halter of the Entwash" iconId="1091768834" minLevel="1" tiers="1" description="Cold and unsentimental winds blow across the faded grasses and lonely downs of the Entwash Vale. Practical leather halters like this help to protect a steed from the elements."/>
+<trait identifier="1879250468" name="Light Caparison of the Entwash" iconId="1091768839" minLevel="1" tiers="1" description="This simple cloth caparison depicts a gilded harp, much like the one carried by the exiled minstrel Horn, son of Reeve Ingbert of Eaworth."/>
+<trait identifier="1879250470" name="Light Caparison of the Wold" iconId="1091768835" minLevel="1" tiers="1" description="Through brake and bramble, fen and tussock, the steeds of the Wold carry their masters safely home."/>
+<trait identifier="1879250476" name="Light Leggings of the Norcrofts" iconId="1091768836" minLevel="1" tiers="1" description="Simple, understated cloth leg-guards fashioned by the tailors of the Norcrofts."/>
+<trait identifier="1879250487" name="Light Saddle of the Entwash" iconId="1091768837" minLevel="1" tiers="1" description="The Entwash Vale is a stark and lonely land, and its people are practical. This basic leather saddle does everything it needs to, and nothing more."/>
+<trait identifier="1879250513" name="Light Caparison of the Sutcrofts" iconId="1091768838" minLevel="1" tiers="1" description="The crofters of Rohan use sturdy, functional tack when outfitting the horses that join them every day in the wide fields. "/>
+<trait identifier="1879253536" name="King's Banner Accessory" iconId="1091756646" minLevel="1" tiers="1" description="Let fly the colours of Théoden King! Show your enemies whose land it is they threaten, and assure it is the last thing they ever learn. "/>
+<trait identifier="1879255666" name="Men of the Sutcrofts - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Sutcrofts stable-masters.">
+<stat name="Discount_Travel_Rohan_Sutcrofts" constant="25.0"/>
+</trait>
+<trait identifier="1879255667" name="Men of the Wold - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Wold stable-masters.">
+<stat name="Discount_Travel_Rohan_Wold" constant="25.0"/>
+</trait>
+<trait identifier="1879255668" name="Men of the Norcrofts - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Norcrofts stable-masters.">
+<stat name="Discount_Travel_Rohan_Norcrofts" constant="25.0"/>
+</trait>
+<trait identifier="1879255669" name="Men of Entwash Vale - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Entwash Vale stable-masters.">
+<stat name="Discount_Travel_Rohan_Entwashvale" constant="25.0"/>
 </trait>
 <trait identifier="1879259264" name="Footpad" iconId="1090541265" minLevel="1" tiers="5" description="You are harder to detect while Stealthed.">
 <stat name="STEALTH_LEVEL" scaling="1879268029"/>
@@ -452,6 +653,12 @@
 <stat name="IA_Burglar_bleed_damagemultiplier" scaling="1879268077"/>
 </trait>
 <trait identifier="1879259371" name="Trip" iconId="1091840422" minLevel="1" tiers="1" description="Earns the skill: Trip."/>
+<trait identifier="1879259442" name="Wildermore - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Wildermore vendors.">
+<stat name="Discount_Wildermore" constant="5.0"/>
+</trait>
+<trait identifier="1879259443" name="Wildermore - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Wildermore stable-masters.">
+<stat name="Discount_Travel_Wildermore" constant="25.0"/>
+</trait>
 <trait identifier="1879259533" name="Barbed Fury" iconId="1090541187" minLevel="1" tiers="5" description="Increases damage for any skill that deals damage over time.">
 <stat name="IA_Hunter_DamageDoT_BarbedArrow" scaling="1879268058"/>
 </trait>
@@ -585,6 +792,10 @@
 <stat name="Skill_RecoveryTime_BloodArrow" scaling="1879341510"/>
 </trait>
 <trait identifier="1879264327" name="Rapid Fire" iconId="1091798534" minLevel="1" tiers="1" description="Earns the skill: Rapid Fire."/>
+<trait identifier="1879265752" name="Dale-lands Caparison" iconId="1091969628" minLevel="1" tiers="1"/>
+<trait identifier="1879265753" name="Dale-lands Halter" iconId="1091969627" minLevel="1" tiers="1"/>
+<trait identifier="1879265754" name="Dale-lands Leggings" iconId="1091969630" minLevel="1" tiers="1"/>
+<trait identifier="1879265755" name="Dale-lands Saddle" iconId="1091969629" minLevel="1" tiers="1"/>
 <trait identifier="1879266986" name="Fury of Blades" iconId="1091830084" minLevel="1" tiers="1" description="Grants the skill: Fury of Blades."/>
 <trait identifier="1879266989" name="Barbed Wall" iconId="1091830073" minLevel="1" tiers="5" description="Increases the damage of Blade Wall.">
 <stat name="Skill_Champion_BladeWall_DamageMod" scaling="1879270959"/>
@@ -1423,6 +1634,18 @@
 <trait identifier="1879270788" name="Extended Anthems" iconId="1091830291" minLevel="1" tiers="5" description="Increases Anthem Duration">
 <stat name="Skill_Minstrel_Duration_Tier3Ballads" scaling="1879259839"/>
 </trait>
+<trait identifier="1879271176" name="Eorlingas - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Eorling vendors.">
+<stat name="Discount_Rohan_West" constant="5.0"/>
+</trait>
+<trait identifier="1879271177" name="Eorlingas - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Eorling stable-masters.">
+<stat name="Discount_Travel_Rohan_West" constant="25.0"/>
+</trait>
+<trait identifier="1879271234" name="Helmingas - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Helming stable-masters.">
+<stat name="Discount_Travel_Rohan_West_2" constant="25.0"/>
+</trait>
+<trait identifier="1879271235" name="Helmingas - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Helming vendors.">
+<stat name="Discount_Rohan_West_2" constant="5.0"/>
+</trait>
 <trait identifier="1879271328" name="Thrill of Danger" iconId="1091805290" minLevel="1" tiers="1" description="Earns the skill: Thrill of Danger."/>
 <trait identifier="1879271330" name="Haemorrhage" iconId="1091829800" minLevel="1" tiers="5" description="The Brutal Assault skill has a chance to apply a Haemorrhaging Wound. Each rank will increase the wound's damage over time.">
 <stat name="Skill_Guardian_BrutalAssault_Bleed_AppChance" scaling="1879271499"/>
@@ -2016,6 +2239,12 @@
 <trait identifier="1879302706" name="Rapid Fire" iconId="1091841573" minLevel="1" tiers="5" description="Reduces Induction Duration">
 <stat name="ALL_SKILL_INDUCTION" scaling="1879302705"/>
 </trait>
+<trait identifier="1879306082" name="Dol Amroth - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all west Gondor vendors.">
+<stat name="Discount_Gondor_West" constant="5.0"/>
+</trait>
+<trait identifier="1879306083" name="Dol Amroth - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all west Gondor stable-masters.">
+<stat name="Discount_Travel_Gondor_West" constant="25.0"/>
+</trait>
 <trait identifier="1879311267" name="Valour" iconId="1091916299" minLevel="1" tiers="1" description="The Captain's healing skills have a 20% chance to build stacks of valour. At 5 stacks, you burst an AoE heal around yourself and your next Valiant Strike is guaranteed to crit."/>
 <trait identifier="1879311300" name="Elite Companions" iconId="1091916295" minLevel="1" tiers="1" description="You give your companions the equipment and training to damage enemy armour.">
 <stat name="Skill_Captain_ArmourRend_AppChance" constant="20.0"/>
@@ -2209,6 +2438,12 @@
 <trait identifier="1879314433" name="Strike a Chord" iconId="1091916303" minLevel="1" tiers="1" description="Your Ballads may be beautiful to you, but your foes would disagree."/>
 <trait identifier="1879314434" name="Inner Strength" iconId="1091916304" minLevel="1" tiers="1" description="Your songs infuse inner strength in your allies."/>
 <trait identifier="1879314435" name="Echoes" iconId="1091916305" minLevel="1" tiers="1" description="All damaging Cries and Calls can echo in your enemies' ears, dealing extra damage."/>
+<trait identifier="1879314948" name="Pelargir - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all central Gondor stable-masters.">
+<stat name="Discount_Travel_Gondor_Central" constant="25.0"/>
+</trait>
+<trait identifier="1879314949" name="Pelargir - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all central Gondor vendors.">
+<stat name="Discount_Gondor_Central" constant="5.0"/>
+</trait>
 <trait identifier="1879315618" name="Bond of Trust" iconId="1091941828" minLevel="1" tiers="1" description="You always make time to tend to a trusted friend."/>
 <trait identifier="1879315619" name="Sharpened Claws" iconId="1091941774" minLevel="1" tiers="1" description="Letting out a fierce war cry empowers you."/>
 <trait identifier="1879315620" name="Animalistic" iconId="1091941808" minLevel="1" tiers="1" description="You prefer to spend your days as a bear over all else.">
@@ -2297,6 +2532,12 @@
 </trait>
 <trait identifier="1879322053" name="Thunderous Roar" iconId="1091952766" minLevel="1" tiers="1" description="Grants Thunderous Roar, allowing the Beorning to taunt all enemies within 10m."/>
 <trait identifier="1879322054" name="Overbearing" iconId="1091952764" minLevel="1" tiers="1" description="Grants you the Overbearing skill - a version of Bear Up that can be used in combat."/>
+<trait identifier="1879322626" name="Rangers of Ithilien - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all eastern Gondor vendors.">
+<stat name="Discount_Gondor_East" constant="5.0"/>
+</trait>
+<trait identifier="1879322627" name="Rangers of Ithilien - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all eastern Gondor stable-masters.">
+<stat name="Discount_Travel_Gondor_East" constant="25.0"/>
+</trait>
 <trait identifier="1879324452" name="Light in the Shadow" iconId="1090541275" minLevel="1" tiers="1" description="Your ability to go unseen becomes more potent.">
 <stat name="STEALTH_LEVEL" constant="3.0"/>
 </trait>
@@ -2306,7 +2547,37 @@
 <trait identifier="1879324510" name="Melee Skills Range" iconId="1090552281" minLevel="1" tiers="1" description="Your reach with melee weapons is improved.">
 <stat name="Skill_ChampionMeleeSkills_MaxMeleeRange" constant="1.7"/>
 </trait>
+<trait identifier="1879326955" name="Old Anórien - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Old Anórien stable-masters.">
+<stat name="Discount_Travel_Gondor_Old_Anorien" constant="25.0"/>
+</trait>
+<trait identifier="1879326972" name="Old Anórien - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Old Anórien vendors.">
+<stat name="Discount_Gondor_Old_Anorien" constant="5.0"/>
+</trait>
+<trait identifier="1879330510" name="Far Anórien - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Far Anórien vendors.">
+<stat name="Discount_Gondor_Far_Anorien" constant="5.0"/>
+</trait>
+<trait identifier="1879330518" name="Far Anórien - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Far Anórien stable-masters.">
+<stat name="Discount_Travel_Gondor_Far_Anorien" constant="25.0"/>
+</trait>
+<trait identifier="1879334708" name="Host of the West - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Host of the West stable-masters through North Ithilien.">
+<stat name="Discount_Travel_Mountains_Shadow_Host_West" constant="25.0"/>
+</trait>
+<trait identifier="1879334711" name="Host of the West - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Host of the West vendors through North Ithilien.">
+<stat name="Discount_Mountains_Shadow_Host_West" constant="5.0"/>
+</trait>
 <trait identifier="1879335360" name="Legendary" iconId="1090620289" minLevel="95" tiers="1" description="You have ranged across the lands of Middle-earth, and have foiled the plans of the Enemy at every turn."/>
+<trait identifier="1879341930" name="Host of the West - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Host of the West stable-masters through the Wastes.">
+<stat name="Discount_Travel_Wastes_Host_West" constant="25.0"/>
+</trait>
+<trait identifier="1879341933" name="Host of the West - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Host of the West vendors through the Wastes.">
+<stat name="Discount_Wastes_Host_West" constant="5.0"/>
+</trait>
+<trait identifier="1879345160" name="Conquest of Gorgoroth - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all stable-masters aiding in the Conquest of Gorgoroth.">
+<stat name="Discount_Travel_Mordor_Gorgoroth" constant="25.0"/>
+</trait>
+<trait identifier="1879345167" name="Conquest of Gorgoroth - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all vendors aiding in the Conquest of Gorgoroth.">
+<stat name="Discount_Mordor_Gorgoroth" constant="5.0"/>
+</trait>
 <trait identifier="1879346311" name="Virtuous High Elf" iconId="1092337486" minLevel="1" tiers="1" description="The Virtues of the High Elves are represented strongly in you. This trait does not apply to unequipped or capped Virtues.">
 <stat name="Trait_Virtue_Rank_Wisdom" constant="1.0"/>
 <stat name="Trait_Virtue_Rank_Confidence" constant="1.0"/>
@@ -2341,7 +2612,19 @@
 <trait identifier="1879359117" name="Sorrow of the Undying" iconId="1090554017" minLevel="1" tiers="1" description="Reduced Will - You have witnessed the passing of Ages, and still feel the hurts of those lost in the battles of the Elder Days.">
 <stat name="WILL" constant="-7.0"/>
 </trait>
+<trait identifier="1879362419" name="Strongholds of the North - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all stable-masters aiding the Strongholds of the North.">
+<stat name="Discount_Travel_Mirkwood_North" constant="25.0"/>
+</trait>
+<trait identifier="1879362421" name="Strongholds of the North - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all vendors aiding the Strongholds of the North.">
+<stat name="Discount_Mirkwood_North" constant="5.0"/>
+</trait>
 <trait identifier="1879365746" name="Fiddle Use" iconId="1092364674" minLevel="1" tiers="1" description="Allows the use of Fiddles."/>
+<trait identifier="1879368430" name="Dwarf-holds - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all stable-masters aiding the Dwarf-holds.">
+<stat name="Discount_Travel_Dwarfholds" constant="25.0"/>
+</trait>
+<trait identifier="1879368448" name="Dwarf-holds - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all vendors aiding the Dwarf-holds.">
+<stat name="Discount_Dwarfholds" constant="5.0"/>
+</trait>
 <trait identifier="1879368546" name="Hasten" iconId="1091829925" minLevel="1" tiers="1" description="Your Staff Sweep skill will now reduce the cooldowns on Sticky Gourd (5s), Lightning Storm (10s), and Ents go to War (15s)."/>
 <trait identifier="1879369800" name="Bolster" iconId="1091570592" minLevel="1" tiers="1" description="A placeholder trait for the 'Bolster' ability."/>
 <trait identifier="1879378378" name="Bassoon Use" iconId="1092408493" minLevel="1" tiers="1" description="Allows the use of Bassoons."/>
