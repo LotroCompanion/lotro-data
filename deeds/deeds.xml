@@ -312,7 +312,7 @@
 <deed id="1879051833" name="Side-step" type="CLASS" minimumLevel="10" requiredClasses="Burglar" category="Class" level="10" description="When Orcs are raining arrows down upon you, you had best have a spring in your step." objectives="">
 <objectives>
 <objective index="1" text="This is your objective description.">
-<condition index="0" loreInfo="Pain is a good teacher, and there is no armour as effective as not being beneath an enemy's blade when it falls." progressOverride="Evade enemy attacks"/>
+<condition type="SKILL_APPLIED" index="0" loreInfo="Pain is a good teacher, and there is no armour as effective as not being beneath an enemy's blade when it falls." progressOverride="Evade enemy attacks"/>
 </objective>
 </objectives>
 <rewards>
@@ -742,7 +742,7 @@
 <deed id="1879051890" name="To the Rescue" type="CLASS" minimumLevel="10" requiredClasses="Guardian" category="Class" level="10" description="Above all, a Guardian must be where they are needed and quickly, for your companions are not so sturdy as you." objectives="">
 <objectives>
 <objective index="1" text="This is your objective description.">
-<condition index="0" loreInfo="Few things sharpen the wit or quicken the feet so effectively as a rain of arrows and blades." progressOverride="Evade enemy attacks"/>
+<condition type="SKILL_APPLIED" index="0" loreInfo="Few things sharpen the wit or quicken the feet so effectively as a rain of arrows and blades." progressOverride="Evade enemy attacks"/>
 </objective>
 </objectives>
 <rewards>
@@ -1165,7 +1165,7 @@
 <deed id="1879051941" name="Focused Performance" type="CLASS" minimumLevel="10" requiredClasses="Minstrel" category="Class" level="10" description="You find it considerably more difficult to maintain proper pitch when some goblin is attempting to tickle your ribs with a short sword." objectives="">
 <objectives>
 <objective index="1" text="This is your objective description.">
-<condition index="0" loreInfo="What it comes down to is that it is easier to stay out of your enemy's way altogether or roll with attacks when you are struck and focus on your singing as best you can." progressOverride="Evade enemy attacks"/>
+<condition type="SKILL_APPLIED" index="0" loreInfo="What it comes down to is that it is easier to stay out of your enemy's way altogether or roll with attacks when you are struck and focus on your singing as best you can." progressOverride="Evade enemy attacks"/>
 </objective>
 </objectives>
 <rewards>
@@ -1794,7 +1794,7 @@
 <deed id="1879071646" name="The Wary" type="REPUTATION" minimumLevel="1" category="Race &amp; Social" level="5" description="Achieve 5th level without falling in battle!" objectives="">
 <objectives>
 <objective index="1" text="Survive for as long as possible without being defeated!">
-<condition index="0" loreInfo="You have proven wary enough to survive this long without being defeated." progressOverride="Achieve 5th level without falling in battle!"/>
+<condition type="LEVEL" index="0" loreInfo="You have proven wary enough to survive this long without being defeated." progressOverride="Achieve 5th level without falling in battle!"/>
 </objective>
 </objectives>
 <rewards>
@@ -1804,7 +1804,7 @@
 <deed id="1879071647" name="The Undefeated" type="REPUTATION" minimumLevel="1" category="Race &amp; Social" level="10" description="Achieve 10th level without falling in battle!" objectives="">
 <objectives>
 <objective index="1" text="Survive for as long as possible without being defeated!">
-<condition index="0" loreInfo="You have faced all those who would oppose you and emerged undefeated!" progressOverride="Achieve 10th level without falling in battle!"/>
+<condition type="LEVEL" index="0" loreInfo="You have faced all those who would oppose you and emerged undefeated!" progressOverride="Achieve 10th level without falling in battle!"/>
 </objective>
 </objectives>
 <rewards>
@@ -1814,7 +1814,7 @@
 <deed id="1879071648" name="The Indomitable" type="REPUTATION" minimumLevel="1" category="Race &amp; Social" level="14" description="Achieve 14th level without falling in battle!" objectives="">
 <objectives>
 <objective index="1" text="Survive for as long as possible without being defeated!">
-<condition index="0" loreInfo="Through a combination of strength, will, and cunning, you have proven to all those who have stood in your way that you are indomitable." progressOverride="Achieve 14th level without falling in battle!"/>
+<condition type="LEVEL" index="0" loreInfo="Through a combination of strength, will, and cunning, you have proven to all those who have stood in your way that you are indomitable." progressOverride="Achieve 14th level without falling in battle!"/>
 </objective>
 </objectives>
 <rewards>
@@ -1824,7 +1824,7 @@
 <deed id="1879071649" name="The Unscathed" type="REPUTATION" minimumLevel="1" category="Race &amp; Social" level="17" description="Achieve 17th level without falling in battle!" objectives="">
 <objectives>
 <objective index="1" text="Survive for as long as possible without being defeated!">
-<condition index="0" loreInfo="What foe has ever bested you and laid you low in battle? None -- you have emerged from all your battles Unscathed!" progressOverride="Achieve 17th level without falling in battle!"/>
+<condition type="LEVEL" index="0" loreInfo="What foe has ever bested you and laid you low in battle? None -- you have emerged from all your battles Unscathed!" progressOverride="Achieve 17th level without falling in battle!"/>
 </objective>
 </objectives>
 <rewards>
@@ -1834,7 +1834,7 @@
 <deed id="1879071650" name="The Undying" type="REPUTATION" minimumLevel="1" category="Race &amp; Social" level="20" description="Achieve 20th level without falling in battle!&#10;&#10;Be warned - this is your final step along the path of the Survivor." objectives="">
 <objectives>
 <objective index="1" text="Survive to 20th level without being defeated!">
-<condition index="0" loreInfo="You have survived countless battles -- so many now that friend and foe alike murmur that you are favoured of the Valar and forever undying!&#10;&#10;No further must you strive along this path." progressOverride="Achieve 20th level without falling in battle!"/>
+<condition type="LEVEL" index="0" loreInfo="You have survived countless battles -- so many now that friend and foe alike murmur that you are favoured of the Valar and forever undying!&#10;&#10;No further must you strive along this path." progressOverride="Achieve 20th level without falling in battle!"/>
 </objective>
 </objectives>
 <rewards>
@@ -4217,7 +4217,7 @@
 <deed id="1879071798" name="Monster-slayer -- Tier 1" type="SLAYER" minimumLevel="30" category="Common" level="85" description="Stem the tides of Darkness in the War." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have taken your first steps upon the battlefields of the Ettenmoors and Osgiliath." progressOverride="Defeat monster-players in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You have taken your first steps upon the battlefields of the Ettenmoors and Osgiliath." progressOverride="Defeat monster-players in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4232,7 +4232,7 @@
 <questComplete index="0" achievableId="1879071798"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Many of the Enemy have fallen before you -- but it is only a tiny fraction of the hordes issuing forth from Angmar and Mordor." progressOverride="Defeat monster-players in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Many of the Enemy have fallen before you -- but it is only a tiny fraction of the hordes issuing forth from Angmar and Mordor." progressOverride="Defeat monster-players in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4247,7 +4247,7 @@
 <questComplete index="0" achievableId="1879071799"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="You have tested your mettle and hardened yourself against the terrible stress of battle. Your experience in the War will serve you well." progressOverride="Defeat monster players in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You have tested your mettle and hardened yourself against the terrible stress of battle. Your experience in the War will serve you well." progressOverride="Defeat monster players in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4262,7 +4262,7 @@
 <questComplete index="0" achievableId="1879071800"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="As you have striven to turn the tide issuing forth from Angmar and Mordor, you have mastered the arts of battle, many of those foolish enough to stand before you fall to your strength." progressOverride="Defeat monster-players in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="As you have striven to turn the tide issuing forth from Angmar and Mordor, you have mastered the arts of battle, many of those foolish enough to stand before you fall to your strength." progressOverride="Defeat monster-players in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4277,7 +4277,7 @@
 <questComplete index="0" achievableId="1879071801"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="You stand tall among those who war for control of the Ettenmoors and Osgiliath. As a lord of battle, you command the respect of all those who would fight -- be they of the Light or the Darkness." progressOverride="Defeat monster players in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You stand tall among those who war for control of the Ettenmoors and Osgiliath. As a lord of battle, you command the respect of all those who would fight -- be they of the Light or the Darkness." progressOverride="Defeat monster players in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4292,7 +4292,7 @@
 <questComplete index="0" achievableId="1879071802"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Your name is now known widely across the North as a hero who has fought tirelessly in the battles that rage across the Ettenmoors and Osgiliath.&#10;&#10;As long as you stand in defence of the Free Peoples, the Enemy's victory shall never be complete." progressOverride="Defeat monster-players in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Your name is now known widely across the North as a hero who has fought tirelessly in the battles that rage across the Ettenmoors and Osgiliath.&#10;&#10;As long as you stand in defence of the Free Peoples, the Enemy's victory shall never be complete." progressOverride="Defeat monster-players in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4307,7 +4307,7 @@
 <questComplete index="0" achievableId="1879071803"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Even amongst those Eldar who have seen Ages of the world pass before them, your name is now one of renown. Valour and strength such as yours are the stuff from which legends are born, and the evil which gnaws at the edges of the lands quakes at your approach." progressOverride="Defeat monster-players in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Even amongst those Eldar who have seen Ages of the world pass before them, your name is now one of renown. Valour and strength such as yours are the stuff from which legends are born, and the evil which gnaws at the edges of the lands quakes at your approach." progressOverride="Defeat monster-players in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4319,7 +4319,7 @@
 <deed id="1879071805" name="Blackarrow-slayer -- Tier 1" type="SLAYER" minimumLevel="30" category="Common" level="85" description="Stem the tide of Uruk-blackarrows in the War." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have taken a toll upon the Blackarrows sent forth from Angmar and Osgiliath, and they will know you as a foe to be reckoned with." progressOverride="Defeat Uruk-blackarrows in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You have taken a toll upon the Blackarrows sent forth from Angmar and Osgiliath, and they will know you as a foe to be reckoned with." progressOverride="Defeat Uruk-blackarrows in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4334,7 +4334,7 @@
 <questComplete index="0" achievableId="1879071805"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Many Blackarrows have fallen before you in battle, and you are known as an avowed enemy amongst their ranks." progressOverride="Defeat Uruk-blackarrows in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Many Blackarrows have fallen before you in battle, and you are known as an avowed enemy amongst their ranks." progressOverride="Defeat Uruk-blackarrows in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4349,7 +4349,7 @@
 <questComplete index="0" achievableId="1879071806"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="So many of the Blackarrows have fallen to your prowess that you are now known as a Slayer of their kind in the War." progressOverride="Defeat Uruk-blackarrows in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="So many of the Blackarrows have fallen to your prowess that you are now known as a Slayer of their kind in the War." progressOverride="Defeat Uruk-blackarrows in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4364,7 +4364,7 @@
 <questComplete index="0" achievableId="1879071807"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Your deadly skill has cut a swath through the Blackarrows of Angmar and Osgiliath, and you have become their bane." progressOverride="Defeat Uruk-blackarrows in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Your deadly skill has cut a swath through the Blackarrows of Angmar and Osgiliath, and you have become their bane." progressOverride="Defeat Uruk-blackarrows in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4379,7 +4379,7 @@
 <questComplete index="0" achievableId="1879071808"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="The Blackarrows of Angmar and Mordor know you fearfully as " progressOverride="Defeat Uruk-blackarrows in the Ettenmoors"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="The Blackarrows of Angmar and Mordor know you fearfully as " progressOverride="Defeat Uruk-blackarrows in the Ettenmoors"/>
 </objective>
 </objectives>
 <rewards>
@@ -4391,7 +4391,7 @@
 <deed id="1879071810" name="Reaver-slayer -- Tier 1" type="SLAYER" minimumLevel="30" category="Common" level="85" description="Stem the tide of Orc-reavers in the War." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have taken a toll upon the Reavers sent forth from Angmar and Mordor, and they will know you as a foe to be reckoned with." progressOverride="Defeat Orc-reavers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You have taken a toll upon the Reavers sent forth from Angmar and Mordor, and they will know you as a foe to be reckoned with." progressOverride="Defeat Orc-reavers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4406,7 +4406,7 @@
 <questComplete index="0" achievableId="1879071810"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Many Reavers have fallen before you in battle, and you are known as an avowed enemy amongst their ranks." progressOverride="Defeat Orc-reavers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Many Reavers have fallen before you in battle, and you are known as an avowed enemy amongst their ranks." progressOverride="Defeat Orc-reavers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4421,7 +4421,7 @@
 <questComplete index="0" achievableId="1879071811"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="So many of the Reavers have fallen to your prowess that you are now known as a slayer of their kind in the War." progressOverride="Defeat Orc-reavers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="So many of the Reavers have fallen to your prowess that you are now known as a slayer of their kind in the War." progressOverride="Defeat Orc-reavers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4436,7 +4436,7 @@
 <questComplete index="0" achievableId="1879071812"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Your deadly skill has cut a swath through the Reavers of Angmar and Mordor, and you have become their bane." progressOverride="Defeat Orc-reavers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Your deadly skill has cut a swath through the Reavers of Angmar and Mordor, and you have become their bane." progressOverride="Defeat Orc-reavers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4451,7 +4451,7 @@
 <questComplete index="0" achievableId="1879071813"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="The warriors of the War have named you Reaver's End, for none amongst their number can stand against you, such is your might." progressOverride="Defeat Orc-reavers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="The warriors of the War have named you Reaver's End, for none amongst their number can stand against you, such is your might." progressOverride="Defeat Orc-reavers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4463,7 +4463,7 @@
 <deed id="1879071815" name="Defiler-slayer -- Tier 1" type="SLAYER" minimumLevel="30" category="Common" level="85" description="Stem the tide of Orc-defilers in the War." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have taken a toll upon the Defilers sent forth from Angmar and Mordor, and they will know you as a foe to be reckoned with." progressOverride="Defeat Orc-defilers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You have taken a toll upon the Defilers sent forth from Angmar and Mordor, and they will know you as a foe to be reckoned with." progressOverride="Defeat Orc-defilers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4478,7 +4478,7 @@
 <questComplete index="0" achievableId="1879071815"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Many Defilers have fallen before you in battle, and you are known as an avowed enemy amongst their ranks." progressOverride="Defeat Orc-defilers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Many Defilers have fallen before you in battle, and you are known as an avowed enemy amongst their ranks." progressOverride="Defeat Orc-defilers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4493,7 +4493,7 @@
 <questComplete index="0" achievableId="1879071816"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="So many Defilers have fallen to your prowess that you are now known as a slayer of their kind in the War." progressOverride="Defeat Orc-defilers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="So many Defilers have fallen to your prowess that you are now known as a slayer of their kind in the War." progressOverride="Defeat Orc-defilers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4508,7 +4508,7 @@
 <questComplete index="0" achievableId="1879071817"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Your deadly skill has cut a swath through the Defilers of Angmar and Mordor, and you have become their bane." progressOverride="Defeat Orc-defilers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Your deadly skill has cut a swath through the Defilers of Angmar and Mordor, and you have become their bane." progressOverride="Defeat Orc-defilers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4523,7 +4523,7 @@
 <questComplete index="0" achievableId="1879071818"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="The wise have named you the Wierd of the Defilers of Angmar and Mordor, for it is said that their fate is pre-ordained should any among them encounter you upon the field of battle." progressOverride="Defeat Orc-defilers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="The wise have named you the Wierd of the Defilers of Angmar and Mordor, for it is said that their fate is pre-ordained should any among them encounter you upon the field of battle." progressOverride="Defeat Orc-defilers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4535,7 +4535,7 @@
 <deed id="1879071820" name="Stalker-slayer -- Tier 1" type="SLAYER" minimumLevel="30" category="Common" level="85" description="Stem the tide of Warg-stalkers in the War." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have taken a toll upon the Stalkers sent forth from Angmar and Mordor, and they will know you as a foe to be reckoned with." progressOverride="Defeat Warg-stalkers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You have taken a toll upon the Stalkers sent forth from Angmar and Mordor, and they will know you as a foe to be reckoned with." progressOverride="Defeat Warg-stalkers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4550,7 +4550,7 @@
 <questComplete index="0" achievableId="1879071820"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Many Stalkers have fallen before you in battle, and you are known as an avowed enemy amongst their kind." progressOverride="Defeat Warg-stalkers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Many Stalkers have fallen before you in battle, and you are known as an avowed enemy amongst their kind." progressOverride="Defeat Warg-stalkers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4565,7 +4565,7 @@
 <questComplete index="0" achievableId="1879071821"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="So many of the Stalkers have fallen to your prowess that you are now known as a slayer of their kind in the War!" progressOverride="Defeat Warg-stalkers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="So many of the Stalkers have fallen to your prowess that you are now known as a slayer of their kind in the War!" progressOverride="Defeat Warg-stalkers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4580,7 +4580,7 @@
 <questComplete index="0" achievableId="1879071822"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Your deadly skill has cut a swath through the Stalkers of Angmar and Mordor, and you have become their bane." progressOverride="Defeat Warg-stalkers in the War."/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Your deadly skill has cut a swath through the Stalkers of Angmar and Mordor, and you have become their bane." progressOverride="Defeat Warg-stalkers in the War."/>
 </objective>
 </objectives>
 <rewards>
@@ -4595,7 +4595,7 @@
 <questComplete index="0" achievableId="1879071823"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="You are the nemesis of the Stalkers of Angmar and Mordor, for all their lethal cunning comes to naught when you set out to hunt upon them in the War." progressOverride="Defeat Warg-stalkers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You are the nemesis of the Stalkers of Angmar and Mordor, for all their lethal cunning comes to naught when you set out to hunt upon them in the War." progressOverride="Defeat Warg-stalkers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4607,7 +4607,7 @@
 <deed id="1879071825" name="Warleader-slayer -- Tier 1" type="SLAYER" minimumLevel="30" category="Common" level="85" description="Stem the tide of Uruk-warleaders in the War." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have taken a toll upon the War-leaders sent forth from Angmar and Mordor, and they will know you as a foe to be reckoned with." progressOverride="Defeat Uruk-warleaders in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You have taken a toll upon the War-leaders sent forth from Angmar and Mordor, and they will know you as a foe to be reckoned with." progressOverride="Defeat Uruk-warleaders in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4622,7 +4622,7 @@
 <questComplete index="0" achievableId="1879071825"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Many Warleaders have fallen before you in battle, and you are known as an avowed enemy amongst their ranks." progressOverride="Defeat Uruk-warleaders in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Many Warleaders have fallen before you in battle, and you are known as an avowed enemy amongst their ranks." progressOverride="Defeat Uruk-warleaders in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4637,7 +4637,7 @@
 <questComplete index="0" achievableId="1879071826"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="So many Warleaders have fallen to your prowess that you are now known as a slayer of their kind in the War." progressOverride="Defeat Uruk-warleaders in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="So many Warleaders have fallen to your prowess that you are now known as a slayer of their kind in the War." progressOverride="Defeat Uruk-warleaders in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4652,7 +4652,7 @@
 <questComplete index="0" achievableId="1879071827"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Your deadly skill has cut a swath through the War-leaders of Angmar and Mordor, and you have become their bane." progressOverride="Defeat Uruk-warleaders in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Your deadly skill has cut a swath through the War-leaders of Angmar and Mordor, and you have become their bane." progressOverride="Defeat Uruk-warleaders in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4667,7 +4667,7 @@
 <questComplete index="0" achievableId="1879071828"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="You are known as the Doom of the War-leaders of Angmar and Mordor, for all their brutality and schemes come to naught when they face you, and they fall one after another." progressOverride="Defeat Uruk-warleaders in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You are known as the Doom of the War-leaders of Angmar and Mordor, for all their brutality and schemes come to naught when they face you, and they fall one after another." progressOverride="Defeat Uruk-warleaders in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4679,7 +4679,7 @@
 <deed id="1879071830" name="Weaver-slayer -- Tier 1" type="SLAYER" minimumLevel="30" category="Common" level="85" description="Stem the tide of Weavers in the War." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have taken a toll upon the Weavers sent forth from Angmar and Mordor, and they will know you as a foe to be reckoned with." progressOverride="Defeat Weavers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You have taken a toll upon the Weavers sent forth from Angmar and Mordor, and they will know you as a foe to be reckoned with." progressOverride="Defeat Weavers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4694,7 +4694,7 @@
 <questComplete index="0" achievableId="1879071830"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Many Weavers have fallen before you in battle, and you are known as an avowed enemy amongst their kind." progressOverride="Defeat Weavers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Many Weavers have fallen before you in battle, and you are known as an avowed enemy amongst their kind." progressOverride="Defeat Weavers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4709,7 +4709,7 @@
 <questComplete index="0" achievableId="1879071831"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="So many Weavers have fallen to your prowess that you are now known as a slayer of their kind in the War!" progressOverride="Defeat Weavers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="So many Weavers have fallen to your prowess that you are now known as a slayer of their kind in the War!" progressOverride="Defeat Weavers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4724,7 +4724,7 @@
 <questComplete index="0" achievableId="1879071832"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="Your deadly skill has cut a swath through the Weavers of Angmar and Mordor, and you have become their bane." progressOverride="Defeat Weavers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="Your deadly skill has cut a swath through the Weavers of Angmar and Mordor, and you have become their bane." progressOverride="Defeat Weavers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -4739,7 +4739,7 @@
 <questComplete index="0" achievableId="1879071833"/>
 </objective>
 <objective index="2">
-<condition index="0" loreInfo="You have set yourself to the extermination of the Weavers, purging their vile presence from the War in countless numbers, no matter how many vomit forth from the depths of Angmar and Mordor." progressOverride="Defeat Weavers in the War"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You have set yourself to the extermination of the Weavers, purging their vile presence from the War in countless numbers, no matter how many vomit forth from the depths of Angmar and Mordor." progressOverride="Defeat Weavers in the War"/>
 </objective>
 </objectives>
 <rewards>
@@ -7116,7 +7116,7 @@
 <deed id="1879093667" name="Enemies of the Free Peoples" type="SLAYER" minimumLevel="50" category="Class" level="60" description="Angmar's forces cover the Ettenmoors, and you are here to assist the Free Peoples in gaining a foothold on this battlefield. Find and defeat the Enemy where they travel throughout the Ettenmoors." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have proven your strength on the field of battle." progressOverride="Defeat the forces of Angmar"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You have proven your strength on the field of battle." progressOverride="Defeat the forces of Angmar"/>
 </objective>
 </objectives>
 <rewards/>
@@ -7127,7 +7127,7 @@
 <questComplete index="0" achievableId="1879093667"/>
 </objective>
 <objective index="2" text="Defeat the enemies of the Free Peoples.">
-<condition index="0" loreInfo="You have proven your strength on the field of battle." progressOverride="Defeat the forces of Angmar"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You have proven your strength on the field of battle." progressOverride="Defeat the forces of Angmar"/>
 </objective>
 </objectives>
 <rewards/>
@@ -7138,7 +7138,7 @@
 <questComplete index="0" achievableId="1879093668"/>
 </objective>
 <objective index="2" text="Defeat the enemies of the Free Peoples">
-<condition index="0" loreInfo="You have proven your strength on the field of battle." progressOverride="Defeat the forces of Angmar"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You have proven your strength on the field of battle." progressOverride="Defeat the forces of Angmar"/>
 </objective>
 </objectives>
 <rewards/>
@@ -7149,7 +7149,7 @@
 <questComplete index="0" achievableId="1879093669"/>
 </objective>
 <objective index="2" text="Defeat the enemies of the Free Peoples">
-<condition index="0" loreInfo="You have proven your strength on the field of battle." progressOverride="Defeat the forces of Angmar"/>
+<condition type="MONSTER_PLAYER_DIED" index="0" loreInfo="You have proven your strength on the field of battle." progressOverride="Defeat the forces of Angmar"/>
 </objective>
 </objectives>
 <rewards/>
@@ -9793,7 +9793,7 @@
 <deed id="1879139084" name="Skillful Blocking" type="CLASS" minimumLevel="10" requiredClasses="Warden" category="Class" level="10" description="Blocking is an art cultivated with practice." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="Your shield is a weapon, too, but it is used against weapons." progressOverride="Block attacks"/>
+<condition type="SKILL_APPLIED" index="0" loreInfo="Your shield is a weapon, too, but it is used against weapons." progressOverride="Block attacks"/>
 </objective>
 </objectives>
 <rewards>
@@ -10065,7 +10065,7 @@
 <deed id="1879139436" name="A Guide to the Quiet Knife" type="CLASS" minimumLevel="58" requiredClasses="Burglar" category="Class" level="60" description="You have heard it whispered that the libraries of Moria yet contain many tomes, while many other volumes were brought by the dwarves seeking to reclaim their kingdom of old. One such tome in the libraries of the Iron Garrison is said to be the legendary \qA Guide to the Quiet Knife.\q If you can gain enough favour with the Iron Garrison Guards, they may let you have their copy of this book." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have achieved level 58" progressOverride="Achieve level 58"/>
+<condition type="LEVEL" index="0" loreInfo="You have achieved level 58" progressOverride="Achieve level 58"/>
 </objective>
 <objective index="2">
 <condition type="ITEM_USED" index="0" loreInfo="\qA Guide to the Quiet Knife\q was written by the same burglar who authored \qThe Book of Knives.\q This legendary book details the further exploits of a renowned knife-fighter." progressOverride="Read the book, \qA Guide to the Quiet Knife\q"/>
@@ -10108,7 +10108,7 @@
 <deed id="1879139439" name="The Master of the Charge" type="CLASS" minimumLevel="58" requiredClasses="Captain" category="Class" level="60" description="You have heard it whispered that the libraries of Moria yet contain many tomes, while many other volumes were brought by the dwarves seeking to reclaim their ancient home. One such tome in the libraries of the Iron Garrison is said to be the legendary \qThe Master of the Charge.\q If you can gain enough favour with the Iron Garrison Guards, they may let you have their copy of this book." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
+<condition type="LEVEL" index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
 </objective>
 <objective index="2">
 <condition type="ITEM_USED" index="0" loreInfo="\qThe Master of the Charge\q is a legendary book detailing the dark tale of captain who called forth Oathbreakers to fulfill their vow and aid him in a great battle." progressOverride="Read the book, \qThe Master of the Charge\q"/>
@@ -10151,7 +10151,7 @@
 <deed id="1879139442" name="The Boiling Rage" type="CLASS" minimumLevel="58" requiredClasses="Champion" category="Class" level="60" description="You have heard it whispered that the libraries of Moria yet contain many tomes, while many other volumes were brought by the dwarves seeking to reclaim Moria. One such tome in the libraries of the Iron Garrison is said to be the legendary \qThe Boiling Rage.\q If you can gain enough favour with the Iron Garrison Guards, they may let you have their copy of this book." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
+<condition type="LEVEL" index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
 </objective>
 <objective index="2">
 <condition type="ITEM_USED" index="0" loreInfo="This tome is said to have been penned by a champion who fought the Wainriders as they invaded Gondor. It details how the author channelled his rage over this brutal invasion to lead his company to victory." progressOverride="Read the book, \qThe Boiling Rage\q"/>
@@ -10194,7 +10194,7 @@
 <deed id="1879139445" name="A Keen Blade" type="CLASS" minimumLevel="58" requiredClasses="Guardian" category="Class" level="60" description="You have heard it whispered that the libraries of Moria yet contain many tomes, while many other volumes were brought by the dwarves seeking to reclaim their ancient realm. One such tome in the libraries of the Iron Garrison is said to be the legendary \qA Keen Blade.\q If you can gain enough favour with the Iron Garrison Guards, they may let you have their copy of this book." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
+<condition type="LEVEL" index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
 </objective>
 <objective index="2">
 <condition type="ITEM_USED" index="0" loreInfo="\qA Keen Blade\q is said to tell the tale of a guardian whose allies fell in combat and of his unending quest to find those who slew them and bring them to justice." progressOverride="Read the book, \qA Keen Blade\q"/>
@@ -10237,7 +10237,7 @@
 <deed id="1879139448" name="The Jolly Hunter" type="CLASS" minimumLevel="58" requiredClasses="Hunter" category="Class" level="60" description="You have heard it whispered that the libraries of Moria yet contain many tomes, while many other volumes were brought by the dwarves seeking to reclaim their ancient realm. One such tome in their libraries is said to be the legendary \qThe Jolly Hunter.\q If you can gain enough favour with the Iron Garrison Guards, they may let you have their copy of this book." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
+<condition type="LEVEL" index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
 </objective>
 <objective index="2">
 <condition type="ITEM_USED" index="0" loreInfo="\qThe Jolly Hunter\q is said to have been written by an elderly hobbit-hunter. In it, he details what led to his exceptionally long life." progressOverride="Read the book, \qThe Jolly Hunter\q"/>
@@ -10280,7 +10280,7 @@
 <deed id="1879139451" name="The Book of Nature" type="CLASS" minimumLevel="58" requiredClasses="Lore-master" category="Class" level="60" description="You have heard it whispered that the libraries of Moria yet contain many tomes, while many other volumes were brought by the dwarves seeking to reclaim their ancient realm. One such tome in the libraries of the Iron Garrison is said to be the legendary \qThe Book of Nature.\q If you can gain enough favour with the Iron Garrison Guards, they may let you have their copy of this book." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
+<condition type="LEVEL" index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
 </objective>
 <objective index="2">
 <condition type="ITEM_USED" index="0" loreInfo="While the author of \qThe Book of Nature\q is unknown, it has been suggested that he was acquainted with Radagast the Brown and learned much under his tutelage. Within its pages, the author is said to describe many of the creatures of the natural world and how to befriend them." progressOverride="Read the book, \qThe Book of Nature\q"/>
@@ -10323,7 +10323,7 @@
 <deed id="1879139454" name="The Verses of the North" type="CLASS" minimumLevel="58" requiredClasses="Minstrel" category="Class" level="60" description="You have heard it whispered that the libraries of Moria yet contain many tomes, while many other volumes were brought by the dwarves seeking to reclaim their ancient realm. One such tome in the libraries of the Iron Garrison is said to be the legendary \qThe Verses of the North.\q If you can gain enough favour with the Iron Garrison Guards, they may let you have their copy of this book." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
+<condition type="LEVEL" index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
 </objective>
 <objective index="2">
 <condition type="ITEM_USED" index="0" loreInfo="\qThe Verses of the North\q is said to be a record of some of the musical traditions of the Lossoth of Forochel, detailing the songs they sing as they enter battle." progressOverride="Read the book, \qThe Verses of the North\q"/>
@@ -10366,7 +10366,7 @@
 <deed id="1879139457" name="On the Patterns of Wind and Rain" type="CLASS" minimumLevel="58" requiredClasses="Rune-keeper" category="Class" level="60" description="You have heard it whispered that the libraries of Moria yet contain many tomes, while many other volumes were brought by the dwarves seeking to reclaim their ancient realm. One such tome in the libraries of the Iron Garrison is said to be the legendary \qOn the Patterns of Wind and Rain.\q If you can gain enough favour with the Iron Garrison Guards, they may let you have their copy of this book." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
+<condition type="LEVEL" index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
 </objective>
 <objective index="2">
 <condition type="ITEM_USED" index="0" loreInfo="\qOn the Patterns of Wind and Rain\q is said to contain the observations of an Elf who travelled across Middle-earth studying its weather patterns." progressOverride="Read the book, \qOn the Patterns of Wind and Rain\q"/>
@@ -10409,7 +10409,7 @@
 <deed id="1879139460" name="The Path Less Trod" type="CLASS" minimumLevel="58" requiredClasses="Warden" category="Class" level="60" description="You have heard it whispered that the libraries of Moria yet contain many tomes, while many other volumes were brought by the dwarves seeking to reclaim their ancient realm. One such tome in the libraries of the Iron Garrison is said to be the legendary \qThe Path Less Trod.\q If you can gain enough favour with the Iron Garrison Guards, they may let you have their copy of this book." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
+<condition type="LEVEL" index="0" loreInfo="You have achieved level 58." progressOverride="Achieve level 58"/>
 </objective>
 <objective index="2">
 <condition type="ITEM_USED" index="0" loreInfo="\qThe Path Less Trod\q is said to be a narrative detailing the author's travels with the Rohirrim. In it, he supposedly describes their martial prowess with spears." progressOverride="Read the book, \qThe Path Less Trod\q"/>
@@ -21305,7 +21305,7 @@
 <deed id="1879178992" name="Smoke Before the Fire" type="EVENT" minimumLevel="20" category="Skirmish Instances" level="20" description="The One Ring has been found. The forces of Mordor are on the move. War is coming to Middle-earth...." objectives="">
 <objectives>
 <objective index="1" text="The forces of darkness are beginning to march, striking wherever the Free Peoples seem weakest.">
-<condition index="0" loreInfo="The forces of the Enemy have begun to march and wage open war against the Free Peoples of Middle-earth." progressOverride="Stand against the growing darkness"/>
+<condition type="LEVEL" index="0" loreInfo="The forces of the Enemy have begun to march and wage open war against the Free Peoples of Middle-earth." progressOverride="Stand against the growing darkness"/>
 </objective>
 </objectives>
 <rewards>
@@ -21371,7 +21371,7 @@
 <deed id="1879180571" name="The Siege of Mirkwood" type="LORE" minimumLevel="5" category="Southern Mirkwood" level="5" description="Lord Celeborn and Lady Galadriel have devised a daring plan: to cross the river Anduin and attack the fortress of Dol Guldur in the depths of Mirkwood." objectives="">
 <objectives>
 <objective index="1" text="It is time to execute Lord Celeborn's daring plan: an attack upon the fortress of Dol Guldur, in the depths of Southern Mirkwood.">
-<condition index="0" loreInfo="It is time to execute Lord Celeborn's daring plan: an attack upon the fortress of Dol Guldur, in the depths of Southern Mirkwood." progressOverride="Begin the Siege of Mirkwood"/>
+<condition type="LEVEL" index="0" loreInfo="It is time to execute Lord Celeborn's daring plan: an attack upon the fortress of Dol Guldur, in the depths of Southern Mirkwood." progressOverride="Begin the Siege of Mirkwood"/>
 </objective>
 </objectives>
 <rewards>
@@ -21505,7 +21505,7 @@
 <deed id="1879183122" name="Volume III: 'Allies of the King' Foreword" type="LORE" minimumLevel="5" category="Epic" level="5" description="You have received a message from Pethelen, an Elf of Imladris, asking for you to see him at once about some urgent matter." objectives="">
 <objectives>
 <objective index="1" text="A new story begins!">
-<condition index="0" loreInfo="A new story begins: a dangerous chapter in the lives of those who seek to bring about the return of a long-awaited king." progressOverride="Welcome to Volume III: Allies of the King!"/>
+<condition type="LEVEL" index="0" loreInfo="A new story begins: a dangerous chapter in the lives of those who seek to bring about the return of a long-awaited king." progressOverride="Welcome to Volume III: Allies of the King!"/>
 </objective>
 </objectives>
 <rewards>
@@ -24455,7 +24455,7 @@
 <objective index="2" text="The winding passages of Lhaid Ogo are clogged with mud, and its layout seems to shift as if on a whim.">
 <condition type="ENTER_DETECTION" index="0" loreInfo="Trapped behind a wooden wall in the depths of Lhaid Ogo, you found the body of an ancient unfortunate. Did he die there in the wall or was he moved to that spot to languish for all the ages?" progressOverride="Find the ancient, unlucky explorer"/>
 <condition type="ENTER_DETECTION" index="1" loreInfo="The wooden bridge was of ancient construction, but the damp rotted some of the railings away. The gap could then be used to drop down to the lower passage, but it would be a one-way journey." progressOverride="Find the gap in the bridge"/>
-<condition index="2" loreInfo="The discarded pouch within Lhaid Ogo was filled with small, bird-like bones, stripped of their meat. Tooth-marks on the bones revealed that someone or something had been gnawing on the collection." progressOverride="Find the discarded pouch"/>
+<condition type="ITEM_TALK" index="2" loreInfo="The discarded pouch within Lhaid Ogo was filled with small, bird-like bones, stripped of their meat. Tooth-marks on the bones revealed that someone or something had been gnawing on the collection." progressOverride="Find the discarded pouch"/>
 <condition type="ENTER_DETECTION" index="3" loreInfo="Someone was eating a rat in the depths of Lhaid Ogo, but who? And what caused him not to finish it?" progressOverride="Find the unfinished dinner"/>
 <condition type="ENTER_DETECTION" index="4" loreInfo="Mud-eater has stalked the passages of Lhaid Ogo for many years and makes his lair in the deepest chamber. He drags prey back to his lair before feasting on it." progressOverride="Find Mud-eater's lair"/>
 <condition type="ENTER_DETECTION" index="5" loreInfo="Deep within Lhaid Ogo, you found signs of something heavy being dragged up a muddy slope, and it filled your heart with worry." progressOverride="Find the disturbed earthen slope"/>
@@ -24806,7 +24806,7 @@
 <deed id="1879210280" name="One Thing Drives Out Another" type="LORE" minimumLevel="1" category="Bree-land" level="1" description="Barliman Butterbur had a letter to send you, but he misplaced it. One thing drives out another, after all! Now that he has remembered, he hopes his oversight will not cause trouble." objectives="">
 <objectives>
 <objective index="1" text="Barliman Butterbur hopes his oversight will not cause trouble.">
-<condition index="0" loreInfo="Barliman Butterbur has a habit of misplacing important messages, and only recently remembered he had one such message for you." progressOverride="Reach an experience level of 65"/>
+<condition type="LEVEL" index="0" loreInfo="Barliman Butterbur has a habit of misplacing important messages, and only recently remembered he had one such message for you." progressOverride="Reach an experience level of 65"/>
 </objective>
 </objectives>
 <rewards>
@@ -26738,7 +26738,7 @@
 <condition type="ENTER_DETECTION" index="0"/>
 </objective>
 <objective index="2" text="To earn this deed, you must take a hit from the trolls in the instance Fangorn's Edge. Be prepared, for this may hurt a little.">
-<condition index="0" loreInfo="You have been log-rolled." progressOverride="Get hit by a deadly troll tree-attack"/>
+<condition type="SKILL_APPLIED" index="0" loreInfo="You have been log-rolled." progressOverride="Get hit by a deadly troll tree-attack"/>
 </objective>
 </objectives>
 <rewards>
@@ -27796,7 +27796,7 @@
 <objectives>
 <objective index="1" text="The workers at the stables in Combe are desperate for someone to help with their new arrival!">
 <condition type="WORLD_EVENT_CONDITION" index="0"/>
-<condition index="1"/>
+<condition type="LEVEL" index="1"/>
 </objective>
 </objectives>
 <rewards/>
@@ -29245,7 +29245,7 @@
 <deed id="1879254086" name="Tidings from Galadriel" type="LORE" minimumLevel="1" category="Epic" level="1" description="The Lady Galadriel has summoned you to Lothlórien to give you your next objective: a journey south into Rohan." objectives="">
 <objectives>
 <objective index="1" text="Galadriel has summoned you to speak with her in Caras Galadhon, outside the House of Celeborn.">
-<condition index="0" progressOverride="You received a summons from Galadriel, inviting you to see her about troubles in Rohan"/>
+<condition type="LEVEL" index="0" progressOverride="You received a summons from Galadriel, inviting you to see her about troubles in Rohan"/>
 </objective>
 </objectives>
 <rewards/>
@@ -29253,7 +29253,7 @@
 <deed id="1879256311" name="A Summons to Hytbold" type="EVENT" minimumLevel="79" category="Eastern Rohan" level="84" description="You have progressed far enough in your journeys to be called to aid Hytbold, a small town in Rohan." objectives="">
 <objectives>
 <objective index="1" text="You have progressed far enough in your journeys to be called to aid Hytbold, a small town in Rohan.">
-<condition index="0" loreInfo="Hytbold, a town within Rohan, has requested your aid" progressOverride="Attain level 84"/>
+<condition type="LEVEL" index="0" loreInfo="Hytbold, a town within Rohan, has requested your aid" progressOverride="Attain level 84"/>
 </objective>
 </objectives>
 <rewards/>
@@ -29980,20 +29980,20 @@
 <deed id="1879265472" name="Loved and Lost" type="LORE" minimumLevel="80" category="Wildermore" level="85" description="Most of the Reeve's family are laid to rest in the graveyard outside of Forlaw. Most of his family has been killed recently as the conflict in Wildermore escalates." objectives="">
 <objectives>
 <objective index="1" text="There are many of Reeve Gárwig's family buried in the graveyard outside of Forlaw. Many of these graves are relatively fresh.">
-<condition index="0" loreInfo="You have discovered Wilnoth's Grave in the graveyard near Forlaw." progressOverride="Discover Wilnoth's Grave"/>
-<condition index="1" loreInfo="You have discovered Gárnoth's Grave in the graveyard near Forlaw." progressOverride="Discover Gárnoth's Grave"/>
-<condition index="2" loreInfo="You have discovered Gárferth's Grave in the graveyard near Forlaw." progressOverride="Discover Gárferth's Grave"/>
-<condition index="3" loreInfo="You have discovered Edsig's Grave in the graveyard near Forlaw." progressOverride="Discover Edsig's Grave"/>
-<condition index="4" loreInfo="You have discovered Cuthbald's Grave in the graveyard near Forlaw." progressOverride="Discover Cuthbald's Grave"/>
-<condition index="5" loreInfo="You have discovered Gársig's Grave in the graveyard near Forlaw." progressOverride="Discover Gársig's Grave"/>
-<condition index="6" loreInfo="You have discovered Thrymm's Grave in the graveyard near Forlaw." progressOverride="Discover Thrymm's Grave"/>
-<condition index="7" loreInfo="You have discovered Alferth's Grave in the graveyard near Forlaw." progressOverride="Discover Alferth's Grave"/>
-<condition index="8" loreInfo="You have discovered Wilsig's Grave in the graveyard near Forlaw." progressOverride="Discover Wilsig's Grave"/>
-<condition index="9" loreInfo="You have discovered Cuthard's Grave in the graveyard near Forlaw." progressOverride="Discover Cuthard's Grave"/>
-<condition index="10" loreInfo="You have discovered Grimgar's Grave in the graveyard near Forlaw." progressOverride="Discover Grimgar's Grave"/>
-<condition index="11" loreInfo="You have discovered Humbald's Grave in the graveyard near Forlaw." progressOverride="Discover Humbald's Grave"/>
-<condition index="12" loreInfo="You have discovered Merwyn's Grave in the graveyard near Forlaw." progressOverride="Discover Merwyn's Grave"/>
-<condition index="13" loreInfo="You have discovered Cynegar's Grave in the graveyard near Forlaw." progressOverride="Discover Cynegar's Grave"/>
+<condition type="ITEM_TALK" index="0" loreInfo="You have discovered Wilnoth's Grave in the graveyard near Forlaw." progressOverride="Discover Wilnoth's Grave"/>
+<condition type="ITEM_TALK" index="1" loreInfo="You have discovered Gárnoth's Grave in the graveyard near Forlaw." progressOverride="Discover Gárnoth's Grave"/>
+<condition type="ITEM_TALK" index="2" loreInfo="You have discovered Gárferth's Grave in the graveyard near Forlaw." progressOverride="Discover Gárferth's Grave"/>
+<condition type="ITEM_TALK" index="3" loreInfo="You have discovered Edsig's Grave in the graveyard near Forlaw." progressOverride="Discover Edsig's Grave"/>
+<condition type="ITEM_TALK" index="4" loreInfo="You have discovered Cuthbald's Grave in the graveyard near Forlaw." progressOverride="Discover Cuthbald's Grave"/>
+<condition type="ITEM_TALK" index="5" loreInfo="You have discovered Gársig's Grave in the graveyard near Forlaw." progressOverride="Discover Gársig's Grave"/>
+<condition type="ITEM_TALK" index="6" loreInfo="You have discovered Thrymm's Grave in the graveyard near Forlaw." progressOverride="Discover Thrymm's Grave"/>
+<condition type="ITEM_TALK" index="7" loreInfo="You have discovered Alferth's Grave in the graveyard near Forlaw." progressOverride="Discover Alferth's Grave"/>
+<condition type="ITEM_TALK" index="8" loreInfo="You have discovered Wilsig's Grave in the graveyard near Forlaw." progressOverride="Discover Wilsig's Grave"/>
+<condition type="ITEM_TALK" index="9" loreInfo="You have discovered Cuthard's Grave in the graveyard near Forlaw." progressOverride="Discover Cuthard's Grave"/>
+<condition type="ITEM_TALK" index="10" loreInfo="You have discovered Grimgar's Grave in the graveyard near Forlaw." progressOverride="Discover Grimgar's Grave"/>
+<condition type="ITEM_TALK" index="11" loreInfo="You have discovered Humbald's Grave in the graveyard near Forlaw." progressOverride="Discover Humbald's Grave"/>
+<condition type="ITEM_TALK" index="12" loreInfo="You have discovered Merwyn's Grave in the graveyard near Forlaw." progressOverride="Discover Merwyn's Grave"/>
+<condition type="ITEM_TALK" index="13" loreInfo="You have discovered Cynegar's Grave in the graveyard near Forlaw." progressOverride="Discover Cynegar's Grave"/>
 </objective>
 </objectives>
 <rewards>
@@ -31608,7 +31608,7 @@
 <deed id="1879277250" name="Efficient Shield-work" type="CLASS" minimumLevel="20" requiredClasses="Warden" category="Class" level="20" description="Bring up your shield and never let it falter." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" progressOverride="Block attacks"/>
+<condition type="SKILL_APPLIED" index="0" progressOverride="Block attacks"/>
 </objective>
 </objectives>
 <rewards>
@@ -31798,7 +31798,7 @@
 <deed id="1879277270" name="Blocking Force" type="CLASS" minimumLevel="40" requiredClasses="Guardian" category="Class" level="10" description="Above all, a Guardian must be where they are needed and quickly, for your companions are not so sturdy as you." objectives="">
 <objectives>
 <objective index="1" text="This is your objective description.">
-<condition index="0" loreInfo="Few things sharpen the wit or quicken the feet so effectively as a rain of arrows and blades." progressOverride="Block enemy attacks"/>
+<condition type="SKILL_APPLIED" index="0" loreInfo="Few things sharpen the wit or quicken the feet so effectively as a rain of arrows and blades." progressOverride="Block enemy attacks"/>
 </objective>
 </objectives>
 <rewards>
@@ -31808,7 +31808,7 @@
 <deed id="1879277271" name="Quick Wrist" type="CLASS" minimumLevel="40" requiredClasses="Guardian" category="Class" level="10" description="A sound defence is often more important than an explosive offence." objectives="">
 <objectives>
 <objective index="1" text="This is your objective description.">
-<condition index="0" loreInfo="Few things sharpen the wit or quicken the feet so effectively as a rain of arrows and blades." progressOverride="Parry enemy attacks"/>
+<condition type="SKILL_APPLIED" index="0" loreInfo="Few things sharpen the wit or quicken the feet so effectively as a rain of arrows and blades." progressOverride="Parry enemy attacks"/>
 </objective>
 </objectives>
 <rewards>
@@ -32278,7 +32278,7 @@
 <deed id="1879277324" name="Skillful Blocking" type="CLASS" minimumLevel="10" requiredClasses="Warden" category="Class" level="10" description="Blocking is an art cultivated with practice." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="Your shield is a weapon, too, but it is used against weapons." progressOverride="Block attacks"/>
+<condition type="SKILL_APPLIED" index="0" loreInfo="Your shield is a weapon, too, but it is used against weapons." progressOverride="Block attacks"/>
 </objective>
 </objectives>
 <rewards>
@@ -32788,7 +32788,7 @@
 <deed id="1879277396" name="Quick Wrist" type="CLASS" minimumLevel="20" requiredClasses="Captain" category="Class" level="20" description="A sound defence is often more important than an explosive offence." objectives="">
 <objectives>
 <objective index="1" text="A sound defence is often more important than an explosive offence.">
-<condition index="0" loreInfo="A sound defence is often more important than an explosive offence." progressOverride="Parry enemy attacks"/>
+<condition type="SKILL_APPLIED" index="0" loreInfo="A sound defence is often more important than an explosive offence." progressOverride="Parry enemy attacks"/>
 </objective>
 </objectives>
 <rewards>
@@ -32988,7 +32988,7 @@
 <deed id="1879277417" name="Quick Wrist" type="CLASS" minimumLevel="30" requiredClasses="Burglar" category="Class" level="30" description="The best remedy for an explosive offence is a sound defence." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="Pain is a good teacher, and there is no armour as effective as not being beneath an enemy's blade when it falls." progressOverride="Parry enemy attacks"/>
+<condition type="SKILL_APPLIED" index="0" loreInfo="Pain is a good teacher, and there is no armour as effective as not being beneath an enemy's blade when it falls." progressOverride="Parry enemy attacks"/>
 </objective>
 </objectives>
 <rewards>
@@ -33128,7 +33128,7 @@
 <deed id="1879277431" name="Side-step" type="CLASS" minimumLevel="10" requiredClasses="Burglar" category="Class" level="10" description="When Orcs are raining arrows down upon you, you had best have a spring in your step." objectives="">
 <objectives>
 <objective index="1" text="This is your objective description.">
-<condition index="0" loreInfo="Pain is a good teacher, and there is no armour as effective as not being beneath an enemy's blade when it falls." progressOverride="Evade enemy attacks"/>
+<condition type="SKILL_APPLIED" index="0" loreInfo="Pain is a good teacher, and there is no armour as effective as not being beneath an enemy's blade when it falls." progressOverride="Evade enemy attacks"/>
 </objective>
 </objectives>
 <rewards>
@@ -33298,7 +33298,7 @@
 <deed id="1879278824" name="To the Rescue" type="CLASS" minimumLevel="10" requiredClasses="Guardian" category="Class" level="10" description="Above all, a Guardian must be where they are needed and quickly, for your companions are not so sturdy as you." objectives="">
 <objectives>
 <objective index="1" text="This is your objective description.">
-<condition index="0" loreInfo="Few things sharpen the wit or quicken the feet so effectively as a rain of arrows and blades." progressOverride="Evade enemy attacks"/>
+<condition type="SKILL_APPLIED" index="0" loreInfo="Few things sharpen the wit or quicken the feet so effectively as a rain of arrows and blades." progressOverride="Evade enemy attacks"/>
 </objective>
 </objectives>
 <rewards>
@@ -34169,7 +34169,7 @@
 <deed id="1879297370" name="Epic Battles Await" type="LORE" minimumLevel="6" category="Epic" level="10" description="The armies of Saruman are on the march." objectives="">
 <objectives>
 <objective index="1" text="The armies of Saruman are on the march!">
-<condition index="0" loreInfo="The armies of Saruman are on the march." progressOverride="Reach Level 10 to unlock Epic Battles"/>
+<condition type="LEVEL" index="0" loreInfo="The armies of Saruman are on the march." progressOverride="Reach Level 10 to unlock Epic Battles"/>
 </objective>
 </objectives>
 <rewards>
@@ -34196,7 +34196,7 @@
 <deed id="1879302974" name="Promotion Points 1" type="LORE" minimumLevel="1" category="Class" level="1" objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You've learned a lot about fighting in epic battles. Yay!" progressOverride="Acquire Promotion Points ({***}/{***})"/>
+<condition type="SCRIPT_CALLBACK" index="0" loreInfo="You've learned a lot about fighting in epic battles. Yay!" progressOverride="Acquire Promotion Points ({***}/{***})"/>
 </objective>
 </objectives>
 <rewards>
@@ -34206,7 +34206,7 @@
 <deed id="1879302976" name="Promotion Points 2" type="LORE" minimumLevel="1" category="Class" level="1" objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="You've learned a lot about fighting in epic battles. Yay!" progressOverride="Acquire Promotion Points ({***}/{***})"/>
+<condition type="SCRIPT_CALLBACK" index="0" loreInfo="You've learned a lot about fighting in epic battles. Yay!" progressOverride="Acquire Promotion Points ({***}/{***})"/>
 </objective>
 </objectives>
 <rewards>
@@ -36597,7 +36597,7 @@
 <deed id="1879316455" name="The Line of Beorn, Part Four" type="LORE" minimumLevel="58" requiredClasses="Beorning" category="Class" level="58" description="Descendants of Beorn have not traditionally left the skin-changer's home-land, but your journey has brought you to Eriador in defence of the Free Peoples. You should now go to meet your cousin Varthmath in Moria, at the Orc-watch in the Redhorn Lodes." objectives="">
 <objectives>
 <objective index="1" text="Your journey continues in Moria and Rhovanian.">
-<condition index="0" progressOverride="Reach Level 58 as a Beorning"/>
+<condition type="LEVEL" index="0" progressOverride="Reach Level 58 as a Beorning"/>
 </objective>
 </objectives>
 <rewards/>
@@ -36605,7 +36605,7 @@
 <deed id="1879316456" name="The Line of Beorn, Part Three" type="LORE" minimumLevel="45" requiredClasses="Beorning" category="Class" level="45" description="Descendants of Beorn have not traditionally left the skin-changer's home-land, but your journey has brought you to Eriador in defence of the Free Peoples. You should now go to meet your brother Sterkist, at the Spire of Meeting in Rivendell." objectives="">
 <objectives>
 <objective index="1" text="Your journey continues in Eriador.">
-<condition index="0" progressOverride="Reach Level 45 as a Beorning"/>
+<condition type="LEVEL" index="0" progressOverride="Reach Level 45 as a Beorning"/>
 </objective>
 </objectives>
 <rewards/>
@@ -36613,7 +36613,7 @@
 <deed id="1879316457" name="The Line of Beorn, Part Two" type="LORE" minimumLevel="30" requiredClasses="Beorning" category="Class" level="30" description="Descendants of Beorn have not traditionally left the skin-changer's home-land, but your journey has brought you to Eriador in defence of the Free Peoples. You should now go to meet your sister Langhár at Ost Guruth, in the Lone-lands." objectives="">
 <objectives>
 <objective index="1" text="Your journey continues in Eriador.">
-<condition index="0" progressOverride="Reach Level 30 as a Beorning"/>
+<condition type="LEVEL" index="0" progressOverride="Reach Level 30 as a Beorning"/>
 </objective>
 </objectives>
 <rewards/>
@@ -36621,7 +36621,7 @@
 <deed id="1879316458" name="The Line of Beorn, Part One" type="LORE" minimumLevel="15" requiredClasses="Beorning" category="Class" level="15" description="Descendants of Beorn have not traditionally left the skin-changer's home-land, but your journey has brought you to Eriador in defence of the Free Peoples. Your quest continues at Adso's Camp, in the Bree-land." objectives="">
 <objectives>
 <objective index="1" text="Your journey continues in Eriador.">
-<condition index="0" progressOverride="Reach Level 15 as a Beorning"/>
+<condition type="LEVEL" index="0" progressOverride="Reach Level 15 as a Beorning"/>
 </objective>
 </objectives>
 <rewards/>
@@ -36828,7 +36828,7 @@
 <deed id="1879317525" name="Unexpectedly Agile" type="CLASS" minimumLevel="20" requiredClasses="Beorning" category="Class" level="20" description="Foes might expect a Beorning to be slow and lumbering, but you are as quick as you are strong." objectives="">
 <objectives>
 <objective index="1" text="This is your objective description.">
-<condition index="0" loreInfo="Your speed and skill have saved your hide both literally and figuratively countless times." progressOverride="Parry or Evade enemy attacks"/>
+<condition type="SKILL_APPLIED" index="0" loreInfo="Your speed and skill have saved your hide both literally and figuratively countless times." progressOverride="Parry or Evade enemy attacks"/>
 </objective>
 </objectives>
 <rewards>
@@ -36946,7 +36946,7 @@
 <deed id="1879317537" name="Impervious" type="CLASS" minimumLevel="40" requiredClasses="Beorning" category="Class" level="40" description="Deflect and evade the enemy's attacks." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0" loreInfo="Enemy attacks barely scratch your thick hide, when they manage to hit it that is." progressOverride="Parry or Evade enemy attacks"/>
+<condition type="SKILL_APPLIED" index="0" loreInfo="Enemy attacks barely scratch your thick hide, when they manage to hit it that is." progressOverride="Parry or Evade enemy attacks"/>
 </objective>
 </objectives>
 <rewards>
@@ -37378,11 +37378,11 @@
 <condition type="ENTER_DETECTION" index="0"/>
 </objective>
 <objective index="2" text="Search for tribute baskets to the five River-maidens of Lebennin.">
-<condition index="0" loreInfo="You have discovered a tribute basket to Roamingstar of the River Gilrain. Roamingstar is considered gentle, dreamy, and prone to deep affections." progressOverride="Find a tribute basket to Roamingstar of the River Gilrain"/>
-<condition index="1" loreInfo="You have discovered a tribute basket to Grey-eye of the River Serni. Grey-eye is considered hard and unsentimental, both Roamingstar's opposite and complement." progressOverride="Find a tribute basket to Grey-eye of the River Serni"/>
-<condition index="2" loreInfo="You have discovered a tribute basket to Silverfroth of the River Celos. Silverfroth is considered flighty and filled with jokes, tricks, and laughter." progressOverride="Find a tribute basket to Silverfroth of the River Celos"/>
-<condition index="3" loreInfo="You have discovered a tribute basket to Truetongue of the River Sirith. Truetongue is considered honest, forthright, and  serious." progressOverride="Find a tribute basket to Truetongue of the River Sirith"/>
-<condition index="4" loreInfo="You have discovered a tribute basket to The Lone Lady of the River Erui. The Lone Lady is considered distant, brooding, and silent. She is prone to dark thoughts since the bloodying of her waters during the Kin-strife." progressOverride="Find a tribute basket to The Lone Lady of the River Erui"/>
+<condition type="ITEM_TALK" index="0" loreInfo="You have discovered a tribute basket to Roamingstar of the River Gilrain. Roamingstar is considered gentle, dreamy, and prone to deep affections." progressOverride="Find a tribute basket to Roamingstar of the River Gilrain"/>
+<condition type="ITEM_TALK" index="1" loreInfo="You have discovered a tribute basket to Grey-eye of the River Serni. Grey-eye is considered hard and unsentimental, both Roamingstar's opposite and complement." progressOverride="Find a tribute basket to Grey-eye of the River Serni"/>
+<condition type="ITEM_TALK" index="2" loreInfo="You have discovered a tribute basket to Silverfroth of the River Celos. Silverfroth is considered flighty and filled with jokes, tricks, and laughter." progressOverride="Find a tribute basket to Silverfroth of the River Celos"/>
+<condition type="ITEM_TALK" index="3" loreInfo="You have discovered a tribute basket to Truetongue of the River Sirith. Truetongue is considered honest, forthright, and  serious." progressOverride="Find a tribute basket to Truetongue of the River Sirith"/>
+<condition type="ITEM_TALK" index="4" loreInfo="You have discovered a tribute basket to The Lone Lady of the River Erui. The Lone Lady is considered distant, brooding, and silent. She is prone to dark thoughts since the bloodying of her waters during the Kin-strife." progressOverride="Find a tribute basket to The Lone Lady of the River Erui"/>
 </objective>
 </objectives>
 <rewards>
@@ -37893,7 +37893,7 @@
 <condition type="ENTER_DETECTION" index="0"/>
 </objective>
 <objective index="2" text="Lost Gondorian relics from the second age lie scattered and forgotten beneath the ruins of Osgiliath.">
-<condition index="0" loreInfo="You found a Gondorian relic from the Second Age." progressOverride="Find Gondorian relics of the Second Age"/>
+<condition type="EXTERNAL_INVENTORY_ITEM" index="0" loreInfo="You found a Gondorian relic from the Second Age." progressOverride="Find Gondorian relics of the Second Age"/>
 </objective>
 </objectives>
 <rewards>
@@ -41806,7 +41806,7 @@
 <deed id="1879342483" name="Relics of the Last Alliance" type="EXPLORER" minimumLevel="100" category="The Wastes" level="105" description="Find forgotten relics of the Last Alliance." objectives="">
 <objectives>
 <objective index="1" text="Find forgotten relics of the Last Alliance.">
-<condition index="0" loreInfo="These relics have been lost and eroding in The Wastes for many years." progressOverride="Find relics of the Last Alliance"/>
+<condition type="EXTERNAL_INVENTORY_ITEM" index="0" loreInfo="These relics have been lost and eroding in The Wastes for many years." progressOverride="Find relics of the Last Alliance"/>
 </objective>
 </objectives>
 <rewards>
@@ -43859,7 +43859,7 @@
 <deed id="1879353726" name="Well-preserved" type="LORE" minimumLevel="1" category="Gorgoroth" level="1" description="Achieve the eleventy-first level." objectives="">
 <objectives>
 <objective index="1" text="Achieve the eleventy-first level.">
-<condition index="0" loreInfo="Eleventy-one. A curious number, wouldn't you say? Quite respectable!" progressOverride="Achieve the eleventy-first level"/>
+<condition type="LEVEL" index="0" loreInfo="Eleventy-one. A curious number, wouldn't you say? Quite respectable!" progressOverride="Achieve the eleventy-first level"/>
 </objective>
 </objectives>
 <rewards>
@@ -48429,7 +48429,7 @@
 <deed id="1879370342" name="Where Death Lies In Wait" type="LORE" minimumLevel="115" category="The Grey Mountains" level="115" description="A lingering evil has long remained hidden in the Steel Keep, and it now threatens to overwhelm the dwarves of the North." objectives="">
 <objectives>
 <objective index="1">
-<condition index="0"/>
+<condition type="QUEST_BESTOWED" index="0"/>
 </objective>
 <objective index="2" text="A lingering evil has long remained hidden in the Steel Keep, and it now threatens to overwhelm the dwarves of the North.">
 <questComplete index="0" loreInfo="The fate of Thikil-gundu remains uncertain, but your efforts have banished the evils that sought shelter in the halls of the Steel Keep." progressOverride="Banish the curse upon Thikil-gundu" achievableId="1879370212"/>
@@ -49356,7 +49356,7 @@
 <deed id="1879381842" name="Out From the Shadows" type="LORE" minimumLevel="49" category="Race &amp; Social" level="50" description="&lt;rgb=#00e4ff&gt;This deed is for Legendary Servers.&lt;/rgb&gt;" objectives="">
 <objectives>
 <objective index="1" text="&lt;rgb=#00e4ff&gt;This deed is for Legendary Servers&lt;/rgb&gt;">
-<condition index="0" loreInfo="You have done much on your adventures in Middle-earth." progressOverride="Adventure to Level 50"/>
+<condition type="LEVEL" index="0" loreInfo="You have done much on your adventures in Middle-earth." progressOverride="Adventure to Level 50"/>
 </objective>
 </objectives>
 <rewards>
@@ -49367,7 +49367,7 @@
 <deed id="1879381843" name="There and Bree Again" type="LORE" minimumLevel="14" category="Race &amp; Social" level="15" description="&lt;rgb=#00e4ff&gt;This deed is for Legendary Servers.&lt;/rgb&gt;" objectives="">
 <objectives>
 <objective index="1" text="&lt;rgb=#00e4ff&gt;This deed is for Legendary Servers.&lt;/rgb&gt;">
-<condition index="0" loreInfo="Your adventure has only just begun." progressOverride="Adventure to Level 15"/>
+<condition type="LEVEL" index="0" loreInfo="Your adventure has only just begun." progressOverride="Adventure to Level 15"/>
 </objective>
 </objectives>
 <rewards>
@@ -49917,7 +49917,7 @@
 <deed id="1879385682" name="Through the Mines" type="LORE" minimumLevel="59" category="Race &amp; Social" level="60" description="&lt;rgb=#00e4ff&gt;This deed is for Legendary Servers.&lt;/rgb&gt;" objectives="">
 <objectives>
 <objective index="1" text="&lt;rgb=#00e4ff&gt;This deed is for Legendary Servers&lt;/rgb&gt;">
-<condition index="0" loreInfo="You have done much on your adventures in Middle-earth." progressOverride="Adventure to Level 60"/>
+<condition type="LEVEL" index="0" loreInfo="You have done much on your adventures in Middle-earth." progressOverride="Adventure to Level 60"/>
 </objective>
 </objectives>
 <rewards>
