@@ -1006,7 +1006,7 @@
 </trait>
 <trait identifier="1879269737" name="Situational Awareness" iconId="1091831467" minLevel="1" tiers="5" description="Devastating Blow, Pressing Attack, Blade of Elendil and Routing Cry have a chance to trigger an Evade buff."/>
 <trait identifier="1879269738" key="STEELED_RESOLVE" name="Steeled Resolve" iconId="1091831478" minLevel="1" tiers="4" description="Increases max Morale.">
-<stat name="MORALE" operator="MULTIPLY" scaling="1879297173"/>
+<stat name="MORALE" operator="MULTIPLY" scaling="1879339009"/>
 </trait>
 <trait identifier="1879269739" key="MARTIAL_PROWESS" name="Martial Prowess" iconId="1091831438" minLevel="1" tiers="3" description="Increases melee damage and attack speed.">
 <stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" scaling="1879311233"/>
@@ -1087,9 +1087,7 @@
 <trait identifier="1879269765" name="Rousing Cry" iconId="1091831455" minLevel="1" tiers="3" description="When Rallying Cry consumes a Defeat Event, it briefly increases your Fellowship's outgoing damage.">
 <stat name="Skill_Captain_RallyingCry_DamageMod" scaling="1879270905"/>
 </trait>
-<trait identifier="1879269766" name="Strength in Numbers" iconId="1091831431" minLevel="1" tiers="2" description="Earns the skill: Strength in Numbers.">
-<stat name="Skill_Captain_StrengthinNumbers_ExtraHeal" scaling="1879311392"/>
-</trait>
+<trait identifier="1879269766" name="Strength in Numbers" iconId="1091831431" minLevel="1" tiers="2" description="Earns the skill: Strength in Numbers."/>
 <trait identifier="1879269767" name="Make Them Bleed" iconId="1091831461" minLevel="1" tiers="5" description="Increases Bleed damage.">
 <stat name="Skill_DamageMultiplier_BleedingStrike" scaling="1879270901"/>
 </trait>
@@ -2247,9 +2245,7 @@
 <trait identifier="1879311300" name="Elite Companions" iconId="1091916295" minLevel="1" tiers="1" description="You give your companions the equipment and training to damage enemy armour.">
 <stat name="Skill_Captain_ArmourRend_AppChance" constant="20.0"/>
 </trait>
-<trait identifier="1879311401" name="Elendil's Fury" iconId="1091916298" minLevel="1" tiers="1" description="Blocking, Parrying, and Evading attacks build stacks of Elendil's Fury. At 5 stacks, you channel this Fury into your next Blade of Elendil for additional damage and grant yourself a defeat event.">
-<stat name="ForwardSource_Trait_Captain_Elendil_Fury" operator="SET" constant="100.0"/>
-</trait>
+<trait identifier="1879311401" name="Elendil's Fury" iconId="1091916298" minLevel="1" tiers="1" description="Blade of Elendil will now force the Captain's target to attack them."/>
 <trait identifier="1879311517" name="Bleed Damage" iconId="1091941807" minLevel="1" tiers="5" description="Slash now applies a bleed that can stack up to three times. Additional ranks increase the potency of the bleed.">
 <stat name="Skill_Beorning_BleedDamageMod" scaling="1879311474"/>
 </trait>
@@ -2652,6 +2648,10 @@
 <stat name="LIGHT_OF_EARENDIL" scaling="1879380318"/>
 </trait>
 <trait identifier="1879384434" name="Critical Eye" iconId="1091925946" minLevel="1" tiers="1" description="Burglars gain access to special actions after a successful critical or devastating strike. Gamblers gain access to special actions after successfully evading an attack."/>
-<trait identifier="1879386008" name="Vales of Anduin - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all stable-masters within the Vales of Anduin."/>
-<trait identifier="1879386009" name="Vales of Anduin - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all vendors within the Vales of Anduin."/>
+<trait identifier="1879386008" name="Vales of Anduin - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all stable-masters within the Vales of Anduin.">
+<stat name="Discount_Travel_Vales_Of_Anduin" constant="25.0"/>
+</trait>
+<trait identifier="1879386009" name="Vales of Anduin - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all vendors within the Vales of Anduin.">
+<stat name="Discount_Vales_Of_Anduin" constant="5.0"/>
+</trait>
 </traits>
