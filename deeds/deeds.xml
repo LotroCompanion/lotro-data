@@ -50983,6 +50983,106 @@
 <title id="1879391032" name="Legendary Challenger of the Gaunt-lords"/>
 </rewards>
 </deed>
+<deed id="1879391037" name="Enmity of the Orcs" type="SLAYER" minimumLevel="35" requiredRaces="stoutaxedwarf" category="Race &amp; Social" level="35" description="During their thralldom in Barad-dûr, the Stout-axes were held to be lesser than even the lowliest Orc. Even as the Stout-axes endured the cruelty of the Enemy's servants, the old hatreds between dwarves and Orcs were not forgotten.">
+<objectives>
+<objective index="1">
+<monsterDied index="0" loreInfo="In the depths of Barad-dûr, it was difficult to answer the cruelty of Orcs without grave consequences. Among the Free Peoples of Middle-earth, you find no such difficulty and take pride in each of your victories." progressOverride="Defeat Orcs" count="50">
+<monsterSelection what="Orc"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<trait id="1879391222" name="Heart of Fire"/>
+</rewards>
+</deed>
+<deed id="1879391038" name="Enmity of the Orcs II" type="SLAYER" minimumLevel="38" requiredRaces="stoutaxedwarf" category="Race &amp; Social" level="38" description="During their thralldom in Barad-dûr, the Stout-axes were held to be lesser than even the lowliest Orc. Even as the Stout-axes endured the cruelty of the Enemy's servants, the old hatreds between dwarves and Orcs were not forgotten.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879391037"/>
+</objective>
+<objective index="2">
+<monsterDied index="0" loreInfo="In the depths of Barad-dûr, it was difficult to answer the cruelty of Orcs without grave consequences. Among the Free Peoples of Middle-earth, you find no such difficulty and take pride in each of your victories." progressOverride="Defeat Orcs" count="150">
+<monsterSelection what="Orc"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<trait id="1879391235" name="Stout-shield"/>
+</rewards>
+</deed>
+<deed id="1879391255" name="Guest of Thorin's Hall" type="REPUTATION" minimumLevel="40" requiredRaces="stoutaxedwarf" category="Race &amp; Social" level="10" description="Although Dwalin and the other Longbeards have permitted you to remain in Thorin's Hall, you have still to earn their friendship.">
+<objectives>
+<objective index="1">
+<factionLevel index="0" factionId="1879091408" factionName="Thorin's Hall" tier="4"/>
+</objective>
+<objective index="2">
+<factionLevel index="0" loreInfo="Despite the unfortunate manner of your introduction, Dwalin and the dwarves of Thorin's Hall now consider you a welcome guest." progressOverride="You must earn Friend standing with the dwarves of Thorin's Hall" factionId="1879091408" factionName="Thorin's Hall" tier="5"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<trait id="1879391221" name="Virtuous Stout-axe"/>
+</rewards>
+</deed>
+<deed id="1879391257" name="Enmity of the Cultists" type="SLAYER" minimumLevel="29" requiredRaces="stoutaxedwarf" category="Race &amp; Social" level="12" description="Throughout the history of Middle-earth, there have been Men who have shunned the rule of Kings and forsaken their own heritage. Far too often they fall under the sway of the Dark Lord, who plays upon their distrust of the great Kingdoms, threatens them with hidden force, or sways them with false riches and power. However, there are some Men who freely offer themselves into his service and swear unerring loyalty to the Dark Lord.">
+<objectives>
+<objective index="1">
+<monsterDied index="0" loreInfo="The first Men of Mordor to serve the Dark Lord became known as the Mordorrim, but as more and more Men fell under his sway and the breadth of his dominion grew greater, the Men who gave themselves into his service came to bear fearsome and strange titles." progressOverride="Defeat cultists sworn to the Dark Lord" count="100">
+<monsterSelection/>
+<monsterSelection what="Servant of Angmar"/>
+<monsterSelection what="Man of Mordor"/>
+<monsterSelection what="Order of the Eye"/>
+<monsterSelection what="Invader of Annúminas"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<trait id="1879391222" name="Heart of Fire"/>
+</rewards>
+</deed>
+<deed id="1879391258" name="Enmity of the Cultists II" type="SLAYER" minimumLevel="35" requiredRaces="stoutaxedwarf" category="Race &amp; Social" level="25" description="Throughout the history of Middle-earth, there have been Men who have shunned the rule of Kings and forsaken their own heritage. Far too often they fall under the sway of the Dark Lord, who plays upon their distrust of the great Kingdoms, threatens them with hidden force, or sways them with false riches and power. However, there are some Men who freely offer themselves into his service and swear unerring loyalty to the Dark Lord.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879073512"/>
+</objective>
+<objective index="2">
+<monsterDied index="0" loreInfo="The first Men of Mordor to serve the Dark Lord became known as the Mordorrim, but as more and more Men fell under his sway and the breadth of his dominion grew greater, the Men who gave themselves into his service came to bear fearsome and strange titles." progressOverride="Defeat cultists sworn to the Dark Lord" count="200">
+<monsterSelection/>
+<monsterSelection what="Servant of Angmar"/>
+<monsterSelection what="Man of Mordor"/>
+<monsterSelection what="Invader of Annúminas"/>
+<monsterSelection what="Order of the Eye"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="10"/>
+<trait id="1879391235" name="Stout-shield"/>
+</rewards>
+</deed>
+<deed id="1879391259" name="Enmity of the Cultists III" type="SLAYER" minimumLevel="35" requiredRaces="stoutaxedwarf" category="Race &amp; Social" level="40" description="Throughout the history of Middle-earth, there have been Men who have shunned the rule of Kings and forsaken their own heritage. Far too often they fall under the sway of the Dark Lord, who plays upon their distrust of the great Kingdoms, threatens them with hidden force, or sways them with false riches and power. However, there are some Men who freely offer themselves into his service and swear unerring loyalty to the Dark Lord.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879391258"/>
+</objective>
+<objective index="2">
+<monsterDied index="0" loreInfo="The first Men of Mordor to serve the Dark Lord became known as the Mordorrim, but as more and more Men fell under his sway and the breadth of his dominion grew greater, the Men who gave themselves into his service came to bear fearsome and strange titles." progressOverride="Defeat cultists sworn to the Dark Lord" count="300">
+<monsterSelection/>
+<monsterSelection what="Servant of Angmar"/>
+<monsterSelection what="Invader of Annúminas"/>
+<monsterSelection what="Man of Mordor"/>
+<monsterSelection what="Order of the Eye"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="10"/>
+<trait id="1879391237" name="Return to Thorin's Hall"/>
+</rewards>
+</deed>
 <deed id="1879391333" name="The Depths of Kidzul-kâlah -- Tier 2" type="SLAYER" minimumLevel="115" category="Vales of Anduin" level="115" description="In the depths of Kidzul-kâlah something evil has taken root. The Maiden of the Gladden has asked for your help in removing the corruption.">
 <objectives>
 <objective index="1">
@@ -51086,6 +51186,73 @@
 <rewards>
 <title id="1879394295" name="Great River Guide"/>
 <object id="1879394300" name="Great River Frame"/>
+</rewards>
+</deed>
+<deed id="1879394492" name="Stout-axe Slayer -- Tier 1" type="SLAYER" minimumLevel="50" category="Common" level="85" description="Defeat Stout-axe players battling in the War.">
+<objectives>
+<objective index="1">
+<condition type="PLAYER_DIED" index="0" loreInfo="Stalking the Ettenmoors and Osgiliath, you have hunted down and defeated many Stout-axe Dwarves." progressOverride="Defeat Stout-axe players"/>
+</objective>
+</objectives>
+<rewards>
+<title id="1879394505" name="Foe of the Stout-axe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed id="1879394500" name="Stout-axe Slayer -- Tier 5" type="SLAYER" minimumLevel="50" category="Common" level="85" description="Defeat Stout-axe players battling in the War.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879394501"/>
+</objective>
+<objective index="2">
+<condition type="PLAYER_DIED" index="0" loreInfo="Stalking the Ettenmoors and Osgiliath, you have hunted down and defeated Stout-axes wherever they are found." progressOverride="Defeat Stout-axe players"/>
+</objective>
+</objectives>
+<rewards>
+<title id="1879394493" name="Enemy of Virtue"/>
+<object id="1879230183" name="Commendation" quantity="5000"/>
+</rewards>
+</deed>
+<deed id="1879394501" name="Stout-axe Slayer -- Tier 4" type="SLAYER" minimumLevel="50" category="Common" level="85" description="Defeat Stout-axe players battling in the War.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879394503"/>
+</objective>
+<objective index="2">
+<condition type="PLAYER_DIED" index="0" loreInfo="Stalking the Ettenmoors and Osgiliath, you have hunted down and defeated Stout-axes wherever they are found." progressOverride="Defeated Stout-axe players"/>
+</objective>
+</objectives>
+<rewards>
+<title id="1879394494" name="Scourge of the Escaped"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
+<deed id="1879394503" name="Stout-axe Slayer -- Tier 3" type="SLAYER" minimumLevel="50" category="Common" level="85" description="Defeat Stout-axe players battling in the War.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879394504"/>
+</objective>
+<objective index="2">
+<condition type="PLAYER_DIED" index="0" loreInfo="Stalking the Ettenmoors and Osgiliath, you have hunted down and defeated Stout-axes wherever they are found." progressOverride="Defeat Stout-axe players"/>
+</objective>
+</objectives>
+<rewards>
+<title id="1879394496" name="Dwarf-crusher"/>
+<object id="1879230183" name="Commendation" quantity="1500"/>
+</rewards>
+</deed>
+<deed id="1879394504" name="Stout-axe Slayer -- Tier 2" type="SLAYER" minimumLevel="50" category="Common" level="85" description="Defeat Stout-axe players battling in the War.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879394492"/>
+</objective>
+<objective index="2">
+<condition type="PLAYER_DIED" index="0" loreInfo="Stalking the Ettenmoors and Osgiliath, you have hunted down and defeated Stout-axes wherever they are found." progressOverride="Defeat Stout-axe players"/>
+</objective>
+</objectives>
+<rewards>
+<title id="1879394498" name="Bane of the Stout-axe"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
 </rewards>
 </deed>
 </deeds>
