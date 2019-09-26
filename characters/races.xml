@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><races>
-<race key="man">
+<race key="man" description="Not as long-lived as Elves, sturdy as dwarves, or resilient as hobbits, Men are renowned for their courage and resourcefulness.">
 <gender name="Race of Man (Male)" largeIconId="1091602757" iconId="1091602757" smallIconId="1092365270"/>
 <gender name="Race of Man (Female)" largeIconId="1091602763" iconId="1091602763" smallIconId="1092365272"/>
+<allowedClass id="Burglar"/>
+<allowedClass id="Captain"/>
+<allowedClass id="Champion"/>
+<allowedClass id="Guardian"/>
+<allowedClass id="Hunter"/>
+<allowedClass id="Lore-master"/>
+<allowedClass id="Minstrel"/>
+<allowedClass id="Warden"/>
 <raceTrait minLevel="1" traitId="1879073502"/>
 <raceTrait minLevel="1" traitId="1879073503"/>
 <raceTrait minLevel="1" traitId="1879073504"/>
@@ -19,9 +27,16 @@
 <earnableTrait traitId="1879073525"/>
 <earnableTrait traitId="1879073536"/>
 </race>
-<race key="elf">
+<race key="elf" description="Long ago, the Elves welcomed the younger races of Middle-earth and allied with them when the need was great, but centuries of war, betrayal, and hardship have made them fiercely protective of their seclusion.">
 <gender name="Elf (Male)" largeIconId="1091602760" iconId="1091602760" smallIconId="1092365263"/>
 <gender name="Elf (Female)" largeIconId="1091602759" iconId="1091602759" smallIconId="1092365265"/>
+<allowedClass id="Champion"/>
+<allowedClass id="Guardian"/>
+<allowedClass id="Hunter"/>
+<allowedClass id="Lore-master"/>
+<allowedClass id="Minstrel"/>
+<allowedClass id="Rune-keeper"/>
+<allowedClass id="Warden"/>
 <raceTrait minLevel="1" traitId="1879073545"/>
 <raceTrait minLevel="1" traitId="1879073546"/>
 <raceTrait minLevel="1" traitId="1879073547"/>
@@ -39,8 +54,13 @@
 <earnableTrait traitId="1879073483"/>
 <earnableTrait traitId="1879073576"/>
 </race>
-<race key="dwarf">
+<race key="dwarf" description="Dwellers of stone and miners of metal, the dwarves are a doughty folk, resistant to the corruption of the Enemy -- but not to greed.">
 <gender name="Dwarf" largeIconId="1091602758" iconId="1091602758" smallIconId="1092365274"/>
+<allowedClass id="Champion"/>
+<allowedClass id="Guardian"/>
+<allowedClass id="Hunter"/>
+<allowedClass id="Minstrel"/>
+<allowedClass id="Rune-keeper"/>
 <raceTrait minLevel="1" traitId="1879073582"/>
 <raceTrait minLevel="1" traitId="1879073583"/>
 <raceTrait minLevel="1" traitId="1879073584"/>
@@ -59,9 +79,14 @@
 <earnableTrait traitId="1879073609"/>
 <earnableTrait traitId="1879073613"/>
 </race>
-<race key="hobbit">
+<race key="hobbit" description="Happiest when enjoying a simple life with six square meals a day, hobbits are solid and dependable when called to action.">
 <gender name="Hobbit (Male)" largeIconId="1091602762" iconId="1091602762" smallIconId="1092365267"/>
 <gender name="Hobbit (Female)" largeIconId="1091602761" iconId="1091602761" smallIconId="1092365269"/>
+<allowedClass id="Burglar"/>
+<allowedClass id="Guardian"/>
+<allowedClass id="Hunter"/>
+<allowedClass id="Minstrel"/>
+<allowedClass id="Warden"/>
 <raceTrait minLevel="1" traitId="1879073451"/>
 <raceTrait minLevel="1" traitId="1879073452"/>
 <raceTrait minLevel="1" traitId="1879073453"/>
@@ -80,9 +105,10 @@
 <earnableTrait traitId="1879073490"/>
 <earnableTrait traitId="1879073469"/>
 </race>
-<race key="beorning">
+<race key="beorning" description="Beornings descend from ancient Men, and can \qskin-change\q into bears when angered. They are gruff, distrustful, impolite, respect all creatures of nature, and hate Orcs more than anything.">
 <gender name="Beorning (Male)" largeIconId="1091932685" iconId="1091932685" smallIconId="1092365259"/>
 <gender name="Beorning (Female)" largeIconId="1091932682" iconId="1091932682" smallIconId="1092365258"/>
+<allowedClass id="Beorning"/>
 <raceTrait minLevel="1" traitId="1879316863"/>
 <raceTrait minLevel="1" traitId="1879316864"/>
 <raceTrait minLevel="1" traitId="1879316862"/>
@@ -100,9 +126,17 @@
 <earnableTrait traitId="1879317027"/>
 <earnableTrait traitId="1879317040"/>
 </race>
-<race key="highelf">
+<race key="highelf" description="High Elves, those who have beheld the beauty of Valinor and their descendants, possess grace and strength beyond even their woodland kin. Those few who remain yearn to see that Middle-earth is safe to bequeath to Men before they depart for the Undying Lands.">
 <gender name="High Elf (Male)" largeIconId="1091602760" iconId="1091602760" smallIconId="1092365263"/>
 <gender name="High Elf (Female)" largeIconId="1091602759" iconId="1091602759" smallIconId="1092365265"/>
+<allowedClass id="Captain"/>
+<allowedClass id="Champion"/>
+<allowedClass id="Guardian"/>
+<allowedClass id="Hunter"/>
+<allowedClass id="Lore-master"/>
+<allowedClass id="Minstrel"/>
+<allowedClass id="Rune-keeper"/>
+<allowedClass id="Warden"/>
 <raceTrait minLevel="19" traitId="1879346346"/>
 <raceTrait minLevel="25" traitId="1879346343"/>
 <raceTrait minLevel="29" traitId="1879346315"/>
@@ -123,9 +157,15 @@
 <earnableTrait traitId="1879346343"/>
 <earnableTrait traitId="1879346344"/>
 </race>
-<race key="stoutaxedwarf">
+<race key="stoutaxedwarf" description="The Stout-axes were once a part of one of the seven houses of the Dwarves, known as Drása's Folk. Brought to ruin by their desire for the Ring granted to them by Sauron, Drása's Folk doomed their descendants to an era of thralldom in the Black Land.">
 <gender name="Stout-axe (Male)" largeIconId="1092464254" iconId="1092464254" smallIconId="1092464255"/>
 <gender name="Stout-axe (Female)" largeIconId="1092464254" iconId="1092464254" smallIconId="1092464255"/>
+<allowedClass id="Burglar"/>
+<allowedClass id="Champion"/>
+<allowedClass id="Guardian"/>
+<allowedClass id="Hunter"/>
+<allowedClass id="Minstrel"/>
+<allowedClass id="Rune-keeper"/>
 <raceTrait minLevel="1" traitId="1879391215"/>
 <raceTrait minLevel="1" traitId="1879391217"/>
 <raceTrait minLevel="1" traitId="1879391214"/>
