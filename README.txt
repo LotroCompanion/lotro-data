@@ -10,6 +10,8 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - quests, deeds
 - skills
 - consumables
+- combat data,
+- crafting data
 
 In the future, it may contain:
 - mounts
