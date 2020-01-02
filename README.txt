@@ -10,11 +10,13 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - quests, deeds
 - skills
 - consumables
-- combat data,
+- combat data
 - crafting data
+- mounts
+- cosmetic pets
+- barter and vendor data
 
 In the future, it may contain:
-- mounts
 - travels
 - ...
 
