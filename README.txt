@@ -15,6 +15,9 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - mounts
 - cosmetic pets
 - barter and vendor data
+- item value data
+- loot data
+- container data
 
 In the future, it may contain:
 - travels
