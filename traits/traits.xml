@@ -1976,7 +1976,7 @@
 <stat name="ForwardSource_Combat_Hunter_SkillCombo" constant="65536.0"/>
 </trait>
 <trait identifier="1879274769" name="Hunter's Voice" iconId="1091840352" minLevel="1" tiers="1" description="Reduces the cooldown of Cry of the Hunter, and increases its movement bonus by +10%">
-<stat name="Skill_Trait_HuntersCry_Cooldown_Mod" operator="SUBSTRACT" constant="30.0"/>
+<stat name="Skill_Trait_HuntersCry_Cooldown_Mod" operator="SUBSTRACT" constant="15.0"/>
 <stat name="Skill_Trait_HuntersCry_Runspeed_Mod" constant="10.0"/>
 </trait>
 <trait identifier="1879274770" name="Earthborn" iconId="1091840357" minLevel="1" tiers="1" description="In addition to Power, Strength of the Earth now restores Morale and Focus.">
@@ -2430,7 +2430,9 @@
 <trait identifier="1879314318" name="Honourable Combat" iconId="1091916297" minLevel="1" tiers="1" description="A fair exchange brings rest to both yourself and your foe."/>
 <trait identifier="1879314360" name="Singular Focus" iconId="1091916294" minLevel="1" tiers="1" description="Your focus allows you to target weaknesses in enemy armour, hastening their defeat. Your marked enemies are especially vulnerable."/>
 <trait identifier="1879314433" name="Strike a Chord" iconId="1091916303" minLevel="1" tiers="1" description="Your Ballads may be beautiful to you, but your foes would disagree."/>
-<trait identifier="1879314434" name="Inner Strength" iconId="1091916304" minLevel="1" tiers="1" description="Your songs infuse inner strength in your allies."/>
+<trait identifier="1879314434" name="Inner Strength" iconId="1091916304" minLevel="1" tiers="1" description="Your songs infuse inner strength in your allies.">
+<stat name="IA_Minstrel_EffectMagnitude_Bubble" constant="15.000001"/>
+</trait>
 <trait identifier="1879314435" name="Echoes" iconId="1091916305" minLevel="1" tiers="1" description="All damaging Cries and Calls can echo in your enemies' ears, dealing extra damage."/>
 <trait identifier="1879314948" name="Pelargir - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all central Gondor stable-masters.">
 <stat name="Discount_Travel_Gondor_Central" constant="25.0"/>
