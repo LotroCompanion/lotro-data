@@ -5426,6 +5426,9 @@
 <barterProfile profileId="1879206822"/>
 <barterProfile profileId="1879206823"/>
 <barterProfile profileId="1879206824"/>
+<barterProfile profileId="1879365958"/>
+<barterProfile profileId="1879406776"/>
+<barterProfile profileId="1879406775"/>
 </barterer>
 <barterer id="1879203139" name="Sigtír" title="Barter Vendor">
 <barterProfile profileId="1879206050"/>
@@ -7576,10 +7579,6 @@
 <barterer id="1879305805" name="Quartermaster" title="Pets">
 <barterProfile profileId="1879305784"/>
 <barterProfile profileId="1879315254"/>
-<barterProfile profileId="1879305462"/>
-<barterProfile profileId="1879305463"/>
-<barterProfile profileId="1879305464"/>
-<barterProfile profileId="1879305465"/>
 </barterer>
 <barterer id="1879312347" name="Gilbeth" title="Captain Armour">
 <barterProfile profileId="1879312010"/>
@@ -58507,30 +58506,6 @@
 <receive id="1879305334" name="Protector's Helm"/>
 </barterEntry>
 </barterProfile>
-<barterProfile profileId="1879305462" name="Rookie Unlocks" requiredFaction="1879305436;3">
-<barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="150"/>
-<receive id="1879305460" name="White Chicken Token"/>
-</barterEntry>
-</barterProfile>
-<barterProfile profileId="1879305463" name="Minor Leaguer Unlocks" requiredFaction="1879305436;4">
-<barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="450"/>
-<receive id="1879305459" name="Red Chicken Token"/>
-</barterEntry>
-</barterProfile>
-<barterProfile profileId="1879305464" name="Major Leaguer Unlocks" requiredFaction="1879305436;5">
-<barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="900"/>
-<receive id="1879305456" name="Dorking Chicken Token"/>
-</barterEntry>
-</barterProfile>
-<barterProfile profileId="1879305465" name="All-star Unlocks" requiredFaction="1879305436;6">
-<barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="1800"/>
-<receive id="1879305454" name="Scrapper Chicken Token"/>
-</barterEntry>
-</barterProfile>
 <barterProfile profileId="1879305551" name="Anniversary Steeds - Mithril">
 <barterEntry>
 <give id="1879255991" name="Mithril Coin" quantity="70"/>
@@ -58587,41 +58562,41 @@
 <receive id="1879305868" name="Took in the Hole Recipe"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="10"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="2"/>
 <receive id="1879305866" name="Flagon of 'Shire-honey' Mead Recipe"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="10"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="2"/>
 <receive id="1879305863" name="Glass of Dark Stout Recipe"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="10"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="2"/>
 <receive id="1879305867" name="Bottle of 'Sticky Apple' Cider Recipe"/>
 </barterEntry>
 </barterProfile>
 <barterProfile profileId="1879305782" name="Consumables">
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="10"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305705" name="White Carrying Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="20"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="6"/>
 <receive id="1879305701" name="Red Carrying Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="30"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="7"/>
 <receive id="1879305706" name="Dorking Carrying Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="40"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="8"/>
 <receive id="1879305704" name="Scrapper Carrying Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="50"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="9"/>
 <receive id="1879305703" name="Black-foot Carrying Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="60"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="10"/>
 <receive id="1879305702" name="Orange Wyandotte Carrying Chicken"/>
 </barterEntry>
 <barterEntry>
@@ -58654,101 +58629,106 @@
 <barterProfile profileId="1879305784" name="Cosmetic Pets">
 <barterEntry>
 <give id="1879305455" name="Hobnanigans Token" quantity="150"/>
-<give id="1879305460" name="White Chicken Token"/>
 <receive id="1879305771" name="Tome of the White Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="720"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="225"/>
 <receive id="1879305770" name="Tome of the Red Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="1440"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="300"/>
 <receive id="1879305772" name="Tome of the Dorking Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="1800"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="375"/>
 <receive id="1879305775" name="Tome of the Scrapper Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="2160"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="450"/>
 <receive id="1879305774" name="Tome of the Black-foot Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="2160"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="525"/>
 <receive id="1879305773" name="Tome of the Orange Wyandotte Chicken"/>
 </barterEntry>
 </barterProfile>
 <barterProfile profileId="1879305785" name="Face Painting">
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="10"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305619" name="Facepaint Stencil - Flower"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="10"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305622" name="Facepaint Stencil - Butterfly"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="10"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305616" name="Facepaint Stencil - Bee"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="10"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305620" name="Facepaint Stencil - Feather"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="10"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305618" name="Facepaint Stencil - Star"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="10"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305615" name="Facepaint Stencil - Sword"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="10"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305621" name="Facepaint Stencil - Bow"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="10"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305617" name="Facepaint Stencil - Pipe"/>
 </barterEntry>
 </barterProfile>
 <barterProfile profileId="1879305786" name="Cosmetic Equipment">
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="150"/>
 <give id="1879305460" name="White Chicken Token"/>
 <receive id="1879305825" name="Chicken Mask"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="300"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="100"/>
+<receive id="1879305825" name="Chicken Mask"/>
+</barterEntry>
+<barterEntry>
+<give id="1879305455" name="Hobnanigans Token" quantity="200"/>
 <receive id="1879305824" name="Red Chicken Cloak"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="300"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="200"/>
 <receive id="1879305827" name="Blue Chicken Cloak"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="150"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="100"/>
 <receive id="1879305823" name="Red Hobnanigans Cloak"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="150"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="100"/>
 <receive id="1879305831" name="Blue Hobnanigans Cloak"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="150"/>
 <give id="1879305460" name="White Chicken Token"/>
 <receive id="1879305829" name="Cracked Egg Helm"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="600"/>
-<receive id="1879305833" name="Hobnanigans Club Red Quiver"/>
-</barterEntry>
-<barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="600"/>
-<receive id="1879309679" name="Hobnanigans Club Blue Quiver"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="75"/>
+<receive id="1879305829" name="Cracked Egg Helm"/>
 </barterEntry>
 <barterEntry>
 <give id="1879305455" name="Hobnanigans Token" quantity="300"/>
+<receive id="1879305833" name="Hobnanigans Club Red Quiver"/>
+</barterEntry>
+<barterEntry>
+<give id="1879305455" name="Hobnanigans Token" quantity="300"/>
+<receive id="1879309679" name="Hobnanigans Club Blue Quiver"/>
+</barterEntry>
+<barterEntry>
+<give id="1879305455" name="Hobnanigans Token" quantity="150"/>
 <receive id="1879305822" name="Hobnanigans Club"/>
 </barterEntry>
 </barterProfile>
@@ -58801,81 +58781,78 @@
 <barterProfile profileId="1879305808" name="Lawn Chickens">
 <barterEntry>
 <give id="1879305455" name="Hobnanigans Token" quantity="75"/>
-<give id="1879305460" name="White Chicken Token"/>
 <receive id="1879305715" name="White Lawn Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="720"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="150"/>
 <receive id="1879305735" name="Red Lawn Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="1440"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="225"/>
 <receive id="1879305729" name="Dorking Lawn Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="1800"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="300"/>
 <receive id="1879305721" name="Scrapper Lawn Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="2160"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="375"/>
 <receive id="1879305723" name="Black-foot Lawn Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="2160"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="450"/>
 <receive id="1879305727" name="Orange Wyandotte Lawn Chicken"/>
 </barterEntry>
 </barterProfile>
 <barterProfile profileId="1879305809" name="Small Hobnanigans Field">
 <barterEntry>
 <give id="1879305455" name="Hobnanigans Token" quantity="75"/>
-<give id="1879305460" name="White Chicken Token"/>
 <receive id="1879305726" name="Small Hobnanigans Field with White Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="720"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="150"/>
 <receive id="1879305710" name="Small Hobnanigans Field with Red Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="1440"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="225"/>
 <receive id="1879305733" name="Small Hobnanigans Field with Dorking Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="1800"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="300"/>
 <receive id="1879305709" name="Small Hobnanigans Field with Scrapper Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="2160"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="375"/>
 <receive id="1879305718" name="Small Hobnanigans Field with Black-foot Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="2160"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="450"/>
 <receive id="1879305711" name="Small Hobnanigans Field with Orange Wyandotte Chicken"/>
 </barterEntry>
 </barterProfile>
 <barterProfile profileId="1879305810" name="Large Hobnanigans Field">
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="300"/>
-<give id="1879305460" name="White Chicken Token"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="100"/>
 <receive id="1879305722" name="Large Hobnanigans Field with White Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="720"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="200"/>
 <receive id="1879305731" name="Large Hobnanigans Field with Red Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="1440"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="300"/>
 <receive id="1879305720" name="Large Hobnanigans Field with Dorking Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="1800"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="400"/>
 <receive id="1879305724" name="Large Hobnanigans Field with Scrapper Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="2160"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="500"/>
 <receive id="1879305728" name="Large Hobnanigans Field with Black-foot Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="2160"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="600"/>
 <receive id="1879305734" name="Large Hobnanigans Field with Orange Wyandotte Chicken"/>
 </barterEntry>
 </barterProfile>
@@ -58887,54 +58864,53 @@
 </barterProfile>
 <barterProfile profileId="1879305836" name="Chicken Nest Hats">
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="50"/>
-<give id="1879305460" name="White Chicken Token"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="150"/>
 <receive id="1879305830" name="Nest Hat with White Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="720"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="225"/>
 <receive id="1879305832" name="Nest Hat with Red Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="1440"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="300"/>
 <receive id="1879305835" name="Nest Hat with Dorking Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="1800"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="375"/>
 <receive id="1879305828" name="Nest Hat with Scrapper Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="2160"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="450"/>
 <receive id="1879305834" name="Nest Hat with Black-foot Chicken"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="2160"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="525"/>
 <receive id="1879305826" name="Nest Hat with Orange Wyandotte Chicken"/>
 </barterEntry>
 </barterProfile>
 <barterProfile profileId="1879305977" name="Banquet Recipes">
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="25"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305936" name="Oliphaunt Ear Banquet Recipe"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="25"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305934" name="Roasted Coney on a Stick Banquet Recipe"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="25"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305932" name="Chicken Wing Banquet Recipe"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="25"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305935" name="Sticky Apple Banquet Recipe"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="25"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305933" name="Took in the Hole Banquet Recipe"/>
 </barterEntry>
 <barterEntry>
-<give id="1879305455" name="Hobnanigans Token" quantity="25"/>
+<give id="1879305455" name="Hobnanigans Token" quantity="5"/>
 <receive id="1879305937" name="Hobnanigans Banquet Recipe"/>
 </barterEntry>
 </barterProfile>
@@ -62322,6 +62298,10 @@
 </barterProfile>
 <barterProfile profileId="1879315251" name="Small Hobnanigans Field - Rare Tokens">
 <barterEntry>
+<give id="1879305460" name="White Chicken Token"/>
+<receive id="1879305726" name="Small Hobnanigans Field with White Chicken"/>
+</barterEntry>
+<barterEntry>
 <give id="1879305459" name="Red Chicken Token"/>
 <receive id="1879305710" name="Small Hobnanigans Field with Red Chicken"/>
 </barterEntry>
@@ -62343,6 +62323,10 @@
 </barterEntry>
 </barterProfile>
 <barterProfile profileId="1879315252" name="Lawn Chickens - Rare Tokens">
+<barterEntry>
+<give id="1879305460" name="White Chicken Token"/>
+<receive id="1879305715" name="White Lawn Chicken"/>
+</barterEntry>
 <barterEntry>
 <give id="1879305459" name="Red Chicken Token"/>
 <receive id="1879305735" name="Red Lawn Chicken"/>
@@ -62366,6 +62350,10 @@
 </barterProfile>
 <barterProfile profileId="1879315253" name="Large Hobnanigans Field - Rare Tokens">
 <barterEntry>
+<give id="1879305460" name="White Chicken Token"/>
+<receive id="1879305722" name="Large Hobnanigans Field with White Chicken"/>
+</barterEntry>
+<barterEntry>
 <give id="1879305459" name="Red Chicken Token"/>
 <receive id="1879305731" name="Large Hobnanigans Field with Red Chicken"/>
 </barterEntry>
@@ -62388,6 +62376,10 @@
 </barterProfile>
 <barterProfile profileId="1879315254" name="Cosmetic Pets - Rare Tokens">
 <barterEntry>
+<give id="1879305460" name="White Chicken Token"/>
+<receive id="1879305771" name="Tome of the White Chicken"/>
+</barterEntry>
+<barterEntry>
 <give id="1879305459" name="Red Chicken Token"/>
 <receive id="1879305770" name="Tome of the Red Chicken"/>
 </barterEntry>
@@ -62409,6 +62401,10 @@
 </barterEntry>
 </barterProfile>
 <barterProfile profileId="1879315255" name="Chicken Nest Hats - Rare Tokens">
+<barterEntry>
+<give id="1879305460" name="White Chicken Token"/>
+<receive id="1879305830" name="Nest Hat with White Chicken"/>
+</barterEntry>
 <barterEntry>
 <give id="1879305459" name="Red Chicken Token"/>
 <receive id="1879305832" name="Nest Hat with Red Chicken"/>
@@ -84896,6 +84892,60 @@
 <receive id="1879365755" name="Earring of Spring's Rite"/>
 </barterEntry>
 </barterProfile>
+<barterProfile profileId="1879365958" name="Pets &amp; Decorations - Imported Hobnanigans Goods">
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="150"/>
+<receive id="1879305771" name="Tome of the White Chicken"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="225"/>
+<receive id="1879305770" name="Tome of the Red Chicken"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="300"/>
+<receive id="1879305772" name="Tome of the Dorking Chicken"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="375"/>
+<receive id="1879305775" name="Tome of the Scrapper Chicken"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="450"/>
+<receive id="1879305774" name="Tome of the Black-foot Chicken"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="525"/>
+<receive id="1879305773" name="Tome of the Orange Wyandotte Chicken"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="60"/>
+<receive id="1879305713" name="Standing Streamer"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="60"/>
+<receive id="1879305732" name="Seedy Hobbit Waggon"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="90"/>
+<receive id="1879305714" name="Yellow Hobbit Waggon"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="90"/>
+<receive id="1879305707" name="Red Hobbit Waggon"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="90"/>
+<receive id="1879305717" name="Green Hobbit Waggon"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="90"/>
+<receive id="1879305708" name="Blue Hobbit Waggon"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="30"/>
+<receive id="1879305712" name="Broken Hobbit Waggon"/>
+</barterEntry>
+</barterProfile>
 <barterProfile profileId="1879366175" name="Cosmetic Clothing - Friend" requiredFaction="1879362405;5">
 <barterEntry>
 <give id="1879362402" name="Token of the Lake and Rivers" quantity="75"/>
@@ -97592,6 +97642,122 @@
 <barterEntry>
 <give id="1879377205" name="Embers of Enchantment" quantity="2000"/>
 <receive id="1879398801" name="Morgul Conqueror's Hardened Glittering Bracelet"/>
+</barterEntry>
+</barterProfile>
+<barterProfile profileId="1879406775" name="Consumables - Imported Hobnanigans Goods">
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305619" name="Facepaint Stencil - Flower"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305622" name="Facepaint Stencil - Butterfly"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305616" name="Facepaint Stencil - Bee"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305620" name="Facepaint Stencil - Feather"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305618" name="Facepaint Stencil - Star"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305615" name="Facepaint Stencil - Sword"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305621" name="Facepaint Stencil - Bow"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305617" name="Facepaint Stencil - Pipe"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305705" name="White Carrying Chicken"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="6"/>
+<receive id="1879305701" name="Red Carrying Chicken"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="7"/>
+<receive id="1879305706" name="Dorking Carrying Chicken"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="8"/>
+<receive id="1879305704" name="Scrapper Carrying Chicken"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="9"/>
+<receive id="1879305703" name="Black-foot Carrying Chicken"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="10"/>
+<receive id="1879305702" name="Orange Wyandotte Carrying Chicken"/>
+</barterEntry>
+</barterProfile>
+<barterProfile profileId="1879406776" name="Recipes - Imported Hobnanigans Goods">
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="10"/>
+<receive id="1879305869" name="Oliphaunt Ear Recipe"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="10"/>
+<receive id="1879305870" name="Roasted Coney on a Stick Recipe"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="10"/>
+<receive id="1879305864" name="Chicken Wing Recipe"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="10"/>
+<receive id="1879305865" name="Sticky Apple Recipe"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="10"/>
+<receive id="1879305868" name="Took in the Hole Recipe"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="2"/>
+<receive id="1879305866" name="Flagon of 'Shire-honey' Mead Recipe"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="2"/>
+<receive id="1879305863" name="Glass of Dark Stout Recipe"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="2"/>
+<receive id="1879305867" name="Bottle of 'Sticky Apple' Cider Recipe"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305936" name="Oliphaunt Ear Banquet Recipe"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305934" name="Roasted Coney on a Stick Banquet Recipe"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305932" name="Chicken Wing Banquet Recipe"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305935" name="Sticky Apple Banquet Recipe"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305933" name="Took in the Hole Banquet Recipe"/>
+</barterEntry>
+<barterEntry>
+<give id="1879206049" name="Buried Treasure Token" quantity="5"/>
+<receive id="1879305937" name="Hobnanigans Banquet Recipe"/>
 </barterEntry>
 </barterProfile>
 </barterers>
