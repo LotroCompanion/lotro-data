@@ -53695,7 +53695,7 @@
 <objective index="1" text="Defeat many Trolls and Hobgoblins in the Wells of Langflood.">
 <monsterDied index="0" loreInfo="'Trolls? Hobgoblins? I fear them not. Do not tell me you run from such creatures as this! Good. For a moment there it is true, I was afraid; afraid I was in the presence of a coward!' - Runerik Knotbeard" progressOverride="Defeat Trolls and Hobgoblins in the Wells of Langflood" count="80">
 <monsterSelection where="Wells of Anduin" what="Troll"/>
-<monsterSelection where="Wells of Anduin" what="Half-orc"/>
+<monsterSelection where="Wells of Anduin" what="Hobgoblin"/>
 </monsterDied>
 </objective>
 </objectives>
@@ -53919,6 +53919,90 @@
 </objectives>
 <rewards>
 <title id="1879407026" name="Master / Mistress of the Remmorchant"/>
+</rewards>
+</deed>
+<deed id="1879407108" name="Wells of Langflood Beast-slayer (Advanced)" type="SLAYER" minLevel="120" category="Wells of Langflood" level="130" description="Defeat many beasts in the Wells of Langflood.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879405910"/>
+</objective>
+<objective index="2" text="Defeat many beasts throughout the Wells of Langflood.">
+<monsterDied index="0" loreInfo="You have proven yourself an excellent hunter of the beasts that stalk the Wells of Langflood." progressOverride="Defeat many beasts throughout the Wells of Langflood" count="120">
+<monsterSelection where="Wells of Anduin" what="Beast"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879403792" faction="Protectors of Wilderland" amount="500"/>
+<lotroPoints quantity="5"/>
+<object id="1879403799" name="Northern Gúlmark" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879407109" name="Wells of Langflood Goblin and Orc-slayer (Advanced)" type="SLAYER" minLevel="120" category="Wells of Langflood" level="130" description="Defeat many Orcs and goblins in the Wells of Langflood.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879405903"/>
+</objective>
+<objective index="2" text="Defeat many goblins and Orcs in the Wells of Langflood.">
+<monsterDied index="0" loreInfo="The question of these times, of great interest for Runerik Knotbeard and his people, not to mention the other folk who walk along the Wells of Langflood: are the Orcs and goblins who threaten these lands driven by the same hatreds and desires that have motivated them for hundreds of years, or is there a greater purpose that guides them to evil? It is a question that must be resolved, for it could mean the survival of those who live along the Langflood." progressOverride="Defeat goblins and Orcs in the Wells of Langflood" count="240">
+<monsterSelection where="Wells of Anduin" what="Orc"/>
+<monsterSelection where="Wells of Anduin" what="Goblin"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879403792" faction="Protectors of Wilderland" amount="700"/>
+<object id="1879403799" name="Northern Gúlmark" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879407110" name="Wells of Langflood Troll and Hobgoblin-slayer (Advanced)" type="SLAYER" minLevel="120" category="Wells of Langflood" level="130" description="Defeat many Trolls and Hobgoblins in the Wells of Langflood.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879405912"/>
+</objective>
+<objective index="2" text="Defeat many Trolls and Hobgoblins in the Wells of Langflood.">
+<monsterDied index="0" loreInfo="'Trolls? Hobgoblins? I fear them not. Do not tell me you run from such creatures as this! Good. For a moment there it is true, I was afraid; afraid I was in the presence of a coward!' - Runerik Knotbeard" progressOverride="Defeat Trolls and Hobgoblins in the Wells of Langflood" count="160">
+<monsterSelection where="Wells of Anduin" what="Troll"/>
+<monsterSelection where="Wells of Anduin" what="Hobgoblin"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879403792" faction="Protectors of Wilderland" amount="700"/>
+<object id="1879403799" name="Northern Gúlmark" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879407111" name="Wells of Langflood Warg-slayer (Advanced)" type="SLAYER" minLevel="120" category="Wells of Langflood" level="130" description="Defeat many wargs in the Wells of Langflood.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879405900"/>
+</objective>
+<objective index="2" text="Defeat many wargs in the Wells of Langflood.">
+<monsterDied index="0" loreInfo="'They are larger and more evil than wolves. Aye, it is true. You need not be a scholar of Rohan to know the hatred of the wargs for us, or that of my people for them.' - Léothred of Rohan" progressOverride="Defeat many wargs in the Wells of Langflood" count="160">
+<monsterSelection where="Wells of Anduin" what="Warg"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879403792" faction="Protectors of Wilderland" amount="700"/>
+<object id="1879403799" name="Northern Gúlmark" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879407112" name="Wells of Langflood Wood-troll Slayer (Advanced)" type="SLAYER" minLevel="120" category="Wells of Langflood" level="130" description="Defeat many Wood-trolls in the Wells of Langflood.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879405909"/>
+</objective>
+<objective index="2" text="Defeat many Wood-trolls in the Wells of Langflood.">
+<monsterDied index="0" loreInfo="'Taurogrim? Wood-trolls? Whatever you call them, they fear the axe and they fear the fire, and that is enough for me. But I would not recommend using them for kindling. They burn with a vile, choking smoke, and it fills the lungs with poison.' - Runerik Knotbeard" progressOverride="Defeat many Wood-trolls in the Wells of Langflood" count="240">
+<monsterSelection where="Wells of Anduin" what="Wood Troll"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879403792" faction="Protectors of Wilderland" amount="700"/>
+<lotroPoints quantity="5"/>
+<object id="1879403799" name="Northern Gúlmark" quantity="3"/>
 </rewards>
 </deed>
 </deeds>
