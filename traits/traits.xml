@@ -3382,7 +3382,7 @@
 <trait identifier="1879260870" name="Cry Vengeance" iconId="1091787290" minLevel="1" tiers="1" tierProperty="Trait_MountedCombat_Rank_Captain3" description="There will be no vengeance for those who oppose the Captain. Defeating an enemy invigorates the Captain, allowing them to let out a mighty cry."/>
 <trait identifier="1879260871" name="Motivation" iconId="1091787287" minLevel="1" tiers="1" tierProperty="Trait_MountedCombat_Rank_Captain1" description="The Captain is able to rally the fellowship and have them prepared to fell any foe who may get in their way"/>
 <trait identifier="1879261465" name="Appraising Eye" iconId="1090531549" minLevel="1" tiers="1" tierProperty="trait_class_burglar_rank_31" description="The skill Reveal Weakness does more damage.">
-<stat name="Trait_Burglar_AppraisingEye_RevealWeakness" constant="2.0"/>
+<stat name="Trait_Burglar_AppraisingEye_RevealWeakness" constant="1.0"/>
 </trait>
 <trait identifier="1879261466" name="Complicated Terms" iconId="1091509964" minLevel="1" tiers="5" tierProperty="trait_class_burglar_rank_26" description="Increases the grace period of your crowd control effects.">
 <stat name="Trait_Burglar_CC_GracePeriod_Mod" scaling="1879268064"/>
@@ -4056,8 +4056,9 @@
 <trait identifier="1879270413" name="Tactical Mitigation Increase" iconId="1091830059" minLevel="1" tiers="5" tierProperty="trait_class_champion_rank_32" description="Increases Tactical Mitigation.">
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" scaling="1879297171"/>
 </trait>
-<trait identifier="1879270414" name="Vitality Increase" iconId="1091830101" minLevel="1" tiers="5" tierProperty="trait_class_champion_rank_35" description="Increases Vitality.">
+<trait identifier="1879270414" name="Stalwart Blade" iconId="1091830101" minLevel="1" tiers="5" tierProperty="trait_class_champion_rank_35" description="Increases Vitality and Base Parry Chance.">
 <stat name="VITALITY" tieredScaling="1879366659;1879366643;1879366650;1879366645;1879366641"/>
+<stat name="PARRY_PERCENTAGE" scaling="1879406961"/>
 </trait>
 <trait identifier="1879270415" name="Battle Reflexes" iconId="1091830070" minLevel="1" tiers="5" tierProperty="trait_class_champion_rank_10" description="Decreases Attack Duration.">
 <stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" scaling="1879291521"/>
@@ -4852,8 +4853,10 @@
 <stat name="Skill_Champion_Rend_DamageMod" constant="30.000002"/>
 </trait>
 <trait identifier="1879273462" name="Precise Strikes" iconId="1091830089" minLevel="1" tiers="1" description="Hits with any strike skill decreases the Champion's attack duration. In addition, critical strikes generate an additional point of fervour. These effects have a chance to be triggered per hit of a skill."/>
-<trait identifier="1879273463" name="Glory" iconId="1091840520" minLevel="1" tiers="1" description="Reduce incoming melee damage.">
+<trait identifier="1879273463" name="Glory" iconId="1091840520" minLevel="1" tiers="1" description="Reduce incoming damage.">
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </trait>
 <trait identifier="1879273464" name="Ardour" iconId="1091830078" minLevel="1" tiers="1" description="Reduces Power Cost per Fervour point.">
 <stat name="Trait_Champion_BaseMod_PowerCost" constant="1.0"/>
