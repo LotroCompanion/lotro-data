@@ -19,6 +19,7 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - loot data
 - container data
 - disenchantment results
+- servers description
 
 In the future, it may contain:
 - travels
