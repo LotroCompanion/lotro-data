@@ -8166,7 +8166,7 @@
 <objectives>
 <objective index="1">
 <monsterDied index="0" loreInfo="Numbering in the tens of thousands, Orcs have long formed the mainstay of the Enemy's armies. You long ago lost count of how many of these foul creatures have fallen before you -- and yet their numbers seem undiminished." progressOverride="Defeat Orcs in Urugarth" count="80">
-<monsterSelection where="EastAngmar_Urugarth"/>
+<monsterSelection where="EastAngmar_Urugarth" what="Orc"/>
 </monsterDied>
 </objective>
 </objectives>
@@ -8182,7 +8182,7 @@
 </objective>
 <objective index="2">
 <monsterDied index="0" loreInfo="Numbering in the tens of thousands, Orcs have long formed the mainstay of the Enemy's armies. You long ago lost count of how many of these foul creatures have fallen before you -- and yet their numbers seem undiminished." progressOverride="Defeat Orcs in Urugarth" count="160">
-<monsterSelection where="EastAngmar_Urugarth"/>
+<monsterSelection where="EastAngmar_Urugarth" what="Orc"/>
 </monsterDied>
 </objective>
 </objectives>
@@ -48013,7 +48013,7 @@
 <landmarkDetection index="0" loreInfo="You have explored Tham Aeldír, a former lookout for the Elves." progressOverride="Explore Tham Aeldír" landmarkId="1879366190" landmarkName="Tham Aeldír"/>
 <landmarkDetection index="1" loreInfo="You have explored Garthness, the ruins of an ancient settlement of Men." progressOverride="Explore Garthness" landmarkId="1879366187" landmarkName="Garthness"/>
 <landmarkDetection index="2" loreInfo="You have explored Bridgethorp, the ruins of an ancient settlement of Men." progressOverride="Explore Bridgethorp" landmarkId="1879366192" landmarkName="Bridgethorp"/>
-<landmarkDetection index="3" loreInfo="You have explored Bridgethorp, the ruins of an ancient settlement of Men." progressOverride="Explore Stranding" landmarkId="1879366193" landmarkName="Stranding"/>
+<landmarkDetection index="3" loreInfo="You have explored Stranding, the ruins of an ancient settlement of Men." progressOverride="Explore Stranding" landmarkId="1879366193" landmarkName="Stranding"/>
 <landmarkDetection index="4" loreInfo="You have explored Bendburn, the ruins of an ancient settlement of Men." progressOverride="Explore Bendburn" landmarkId="1879366189" landmarkName="Bendburn"/>
 <landmarkDetection index="5" loreInfo="You have explored Westoft, the ruins of an ancient settlement of Men." progressOverride="Explore Westoft" landmarkId="1879366191" landmarkName="Westoft"/>
 <landmarkDetection index="6" loreInfo="You have explored Grytgate, the ruins of an ancient settlement of Men." progressOverride="Explore Grytgate" landmarkId="1879366185" landmarkName="Grytgate"/>
@@ -54066,6 +54066,37 @@
 <object id="1879403799" name="Northern Gúlmark" quantity="3"/>
 </rewards>
 </deed>
+<deed id="1879407597" name="For Love of Midsummer (Intro)" type="EVENT" minLevel="6" category="Race &amp; Social" level="10" description="Complete Midsummer quests in Minas Tirith and across Middle-earth to unlock unique, seasonal rewards.">
+<objectives>
+<objective index="1" text="Complete Midsummer quests in Minas Tirith and across Middle-earth to unlock the ability to purchase additional seasonal rewards from Feredis.">
+<questComplete index="0" loreInfo="In celebration of your participation in Midsummer, Feredis in Minas Tirith has made unique, seasonal items available to you!" progressOverride="Complete Midsummer quests in Minas Tirith and across Middle-earth" questCategory="Midsummer" count="20"/>
+</objective>
+</objectives>
+<rewards>
+<object id="1879406105" name="Midsummer Token"/>
+</rewards>
+</deed>
+<deed id="1879407598" name="For Love of Midsummer (Final)" type="EVENT" minLevel="6" category="Race &amp; Social" level="10" description="Complete Midsummer quests in Minas Tirith and across Middle-earth to unlock even more unique, seasonal rewards.">
+<objectives>
+<objective index="1" text="Complete Midsummer quests in Minas Tirith and across Middle-earth to unlock the ability to purchase additional seasonal rewards from Feredis.">
+<questComplete index="0" loreInfo="In celebration of your participation in Midsummer, Feredis in Minas Tirith has made even more unique, seasonal items available to you!" progressOverride="Complete Midsummer quests in Minas Tirith and across Middle-earth" questCategory="Midsummer" count="120"/>
+</objective>
+</objectives>
+<rewards>
+<title id="1879407595" name="Midsummer Merry-maker"/>
+<object id="1879407965" name="Midsummer Frame"/>
+</rewards>
+</deed>
+<deed id="1879407599" name="For Love of Midsummer (Advanced)" type="EVENT" minLevel="6" category="Race &amp; Social" level="10" description="Complete Midsummer quests in Minas Tirith and across Middle-earth to unlock more unique, seasonal rewards.">
+<objectives>
+<objective index="1" text="Complete Midsummer quests in Minas Tirith and across Middle-earth to unlock the ability to purchase additional seasonal rewards from Feredis.">
+<questComplete index="0" loreInfo="In celebration of your participation in Midsummer, Feredis in Minas Tirith has made more unique, seasonal items available to you!" progressOverride="Complete Midsummer quests in Minas Tirith and across Middle-earth" questCategory="Midsummer" count="60"/>
+</objective>
+</objectives>
+<rewards>
+<object id="1879406105" name="Midsummer Token"/>
+</rewards>
+</deed>
 <deed id="1879407675" name="The Tournament of the Twins - The Cloak of Elrohir" type="EVENT" minLevel="1" category="Reputation" level="1">
 <objectives>
 <objective index="1">
@@ -54202,6 +54233,179 @@
 </objectives>
 <rewards>
 <title id="1879407985" name="Herald of Rivendell"/>
+</rewards>
+</deed>
+<deed id="1879407821" name="Ally to the March on Gundabad" type="REPUTATION" minLevel="1" category="Reputation" level="1" description="The March on Gundabad now know to call upon you in times of strife, and they consider you a skilled ally.">
+<objectives>
+<objective index="1">
+<factionLevel index="0" factionId="1879407816" factionName="?" tier="5"/>
+</objective>
+<objective index="2">
+<factionLevel index="0" loreInfo="You are now a trusted ally among the March on Gundabad." progressOverride="You must earn Ally standing with the March on Gundabad" factionId="1879407816" factionName="?" tier="6"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="15"/>
+<title id="1879407817" name="Ally to the March on Gundabad"/>
+<object id="1879407802" name="Mithril Mark of the Longbeards" quantity="15"/>
+</rewards>
+</deed>
+<deed id="1879407822" name="Kindred to the March on Gundabad" type="REPUTATION" minLevel="1" category="Reputation" level="1" description="You have proven yourself invaluable to the March on Gundabad and have done much to aid those in Elderslade. For this, the March on Gundabad now count you among their own.">
+<objectives>
+<objective index="1">
+<factionLevel index="0" factionId="1879407816" factionName="?" tier="6"/>
+</objective>
+<objective index="2">
+<factionLevel index="0" loreInfo="The March on Gundabad count you among their own, and your deeds will be remembered for ages to come." progressOverride="You must earn Kindred standing with the March on Gundabad" factionId="1879407816" factionName="?" tier="7"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="20"/>
+<trait id="1879407803" name="Elderslade - Travel Discount"/>
+<title id="1879407815" name="Kin to the March on Gundabad"/>
+<object id="1879407802" name="Mithril Mark of the Longbeards" quantity="20"/>
+</rewards>
+</deed>
+<deed id="1879407823" name="Known to the March on Gundabad" type="REPUTATION" minLevel="1" category="Reputation" level="1" description="Your name is now known throughout Elderslade.">
+<objectives>
+<objective index="1">
+<factionLevel index="0" loreInfo="You are now known among those in the March on Gundabad." progressOverride="You must earn Acquaintance standing with the March on Gundabad" factionId="1879407816" factionName="?" tier="4"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<title id="1879407797" name="Known to the March on Gundabad"/>
+<object id="1879407802" name="Mithril Mark of the Longbeards" quantity="5"/>
+</rewards>
+</deed>
+<deed id="1879407824" name="Friend to the March on Gundabad" type="REPUTATION" minLevel="1" category="Reputation" level="1" description="The March on Gundabad have grown to count you among their friends.">
+<objectives>
+<objective index="1">
+<factionLevel index="0" factionId="1879407816" factionName="?" tier="4"/>
+</objective>
+<objective index="2">
+<factionLevel index="0" loreInfo="You have become a welcome friend among the March on Gundabad." progressOverride="You must earn Friend standing with the March on Gundabad" factionId="1879407816" factionName="?" tier="5"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="10"/>
+<trait id="1879407811" name="Elderslade - Vendor Discount"/>
+<title id="1879407819" name="Friend to the March on Gundabad"/>
+<object id="1879407802" name="Mithril Mark of the Longbeards" quantity="10"/>
+</rewards>
+</deed>
+<deed id="1879408375" name="The Peace of Middle-earth" type="LORE" minLevel="1" category="Epic" level="1" description="Unravel the Epic Story for Volume V: The Peace of Middle-earth.">
+<objectives>
+<objective index="1">
+<questComplete index="0" loreInfo="Folk from lands both near and distant celebrate the marriage of King Aragorn II Elessar and Queen Arwen Undómiel, a union that promises to usher in a new era of peace for Gondor and all of Middle-earth. And yet Mithrandir urges you not to relax your guard, for such peace must be protected if the dream of it is to arrive." progressOverride="Complete 'Book 1: A Time of Celebration'" achievableId="1879407100"/>
+<questComplete index="1" loreInfo="The story continues in future updates!" progressOverride="The story continues in future updates!" achievableId="1879049597"/>
+</objective>
+</objectives>
+<rewards/>
+</deed>
+<deed id="1879408378" name="The Great Wedding Will Soon Arrive" type="LORE" minLevel="1" category="Epic" level="1" description="Rumours spread of a great wedding soon to be held in Gondor!">
+<objectives>
+<objective index="1" text="King Aragorn II Elessar of Gondor has sent you a letter, inviting you to come to Minas Tirith at Midsummer for his approaching wedding to Arwen Undómiel.">
+<questComplete index="0" loreInfo="King Aragorn II Elessar has invited you to Minas Tirith at Midsummer for his upcoming wedding." progressOverride="Complete Epic Volume IV, Book 9: 'The Ring of Power'" achievableId="1879346414"/>
+</objective>
+</objectives>
+<rewards/>
+</deed>
+<deed id="1879408586" name="Flickering Flame" type="EVENT" minLevel="6" category="Race &amp; Social" level="10" description="Complete all four firefly lantern quests twice.">
+<objectives>
+<objective index="1" text="Complete the Ruby, Sapphire, Emerald, and Amethyst Firefly Lanterns quests">
+<questComplete index="0" loreInfo="Completed 'Ruby Firefly Lanterns' twice." progressOverride="Complete 'Ruby Firefly Lanterns' ({***}/{***})" achievableId="1879406668" count="2"/>
+<questComplete index="1" loreInfo="Completed 'Amethyst Firefly Lanterns' twice." progressOverride="Complete 'Amethyst Firefly Lanterns' ({***}/{***})" achievableId="1879406669" count="2"/>
+<questComplete index="2" loreInfo="Completed 'Emerald Firefly Lanterns' twice." progressOverride="Complete 'Emerald Firefly Lanterns' ({***}/{***})" achievableId="1879406666" count="2"/>
+<questComplete index="3" loreInfo="Completed 'Sapphire Firefly Lanterns' twice." progressOverride="Complete 'Sapphire Firefly Lanterns' ({***}/{***})" achievableId="1879406650" count="2"/>
+</objective>
+</objectives>
+<rewards>
+<title id="1879407596" name="Flickering Flame"/>
+<object id="1879406105" name="Midsummer Token"/>
+</rewards>
+</deed>
+<deed id="1879408587" name="A Feast of Fellowship" type="EVENT" minLevel="6" category="Race &amp; Social" level="10" description="With the One Ring destroyed and the Enemy undone, the surviving members of the Fellowship of the Ring and their dear friends have gathered in Merethrond for a grand banquet to commemorate the wedding of King Aragorn II Elessar to Queen Arwen Undómiel.&#10;&#10;&lt;rgb=#FF0000&gt;NOTE: You must have the repeatable quest 'A Long-awaited Banquet, A Celebration Without End' underway to advance this Deed.&lt;/rgb&gt;">
+<objectives>
+<objective index="1" text="With the One Ring destroyed and the Enemy undone, the surviving members of the Fellowship of the Ring and their dear friends have gathered in Merethrond for a banquet to commemorate the wedding of King Aragorn II Elessar to Queen Arwen Undómiel.&#10;&#10;&lt;rgb=#FF0000&gt;NOTE: You must have the repeatable quest 'A Long-awaited Banquet, A Celebration Without End' underway to advance this Deed.&lt;/rgb&gt;">
+<questComplete index="0" loreInfo="You have completed 'A Long-awaited Banquet -- Frodo Baggins'." progressOverride="Complete 'A Long-awaited Banquet -- Frodo Baggins'" achievableId="1879408484"/>
+<questComplete index="1" loreInfo="You have completed 'A Long-awaited Banquet -- Samwise Gamgee'." progressOverride="Complete 'A Long-awaited Banquet -- Samwise Gamgee'" achievableId="1879408482"/>
+<questComplete index="2" loreInfo="You have completed 'A Long-awaited Banquet -- Meriadoc Brandybuck'." progressOverride="Complete 'A Long-awaited Banquet -- Meriadoc Brandybuck'" achievableId="1879408483"/>
+<questComplete index="3" loreInfo="You have completed 'A Long-awaited Banquet -- Peregrin Took'." progressOverride="Complete 'A Long-awaited Banquet -- Peregrin Took'" achievableId="1879408488"/>
+<questComplete index="4" loreInfo="You have completed 'A Long-awaited Banquet -- Gimli'." progressOverride="Complete 'A Long-awaited Banquet -- Gimli'" achievableId="1879408491"/>
+<questComplete index="5" loreInfo="You have completed 'A Long-awaited Banquet -- Legolas'." progressOverride="Complete 'A Long-awaited Banquet -- Legolas'" achievableId="1879408486"/>
+<questComplete index="6" loreInfo="You have completed 'A Long-awaited Banquet -- Faramir'." progressOverride="Complete 'A Long-awaited Banquet -- Faramir'" achievableId="1879408489"/>
+<questComplete index="7" loreInfo="You have completed 'A Long-awaited Banquet -- Mithrandir'." progressOverride="Complete 'A Long-awaited Banquet -- Mithrandir'" achievableId="1879408485"/>
+<questComplete index="8" loreInfo="You have completed 'A Long-awaited Banquet -- King Aragorn II Elessar'." progressOverride="Complete 'A Long-awaited Banquet -- King Aragorn II Elessar'" achievableId="1879408490"/>
+</objective>
+</objectives>
+<rewards>
+<title id="1879408538" name="Banqueteer"/>
+<object id="1879406105" name="Midsummer Token" quantity="9"/>
+</rewards>
+</deed>
+<deed id="1879408704" name="Treasure-seeker of Elderslade" type="EXPLORER" minLevel="120" category="" level="130" description="Discover the many hidden caches buried in Elderslade.">
+<objectives>
+<objective index="1" text="Discover the many hidden caches buried in Elderslade.">
+<itemUsed index="0" loreInfo="You have discovered many hidden caches buried in Elderslade." progressOverride="Discover the many hidden caches buried in Elderslade" itemId="1879407942" itemName="Treasure Cache" count="14"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<title id="1879408708" name="Treasure Seeker of Elderslade"/>
+<object id="1879407802" name="Mithril Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879408705" name="Dwarf-surveys in Elderslade" type="EXPLORER" minLevel="120" category="" level="130" description="Discover the dwarf-markers spread throughout Elderslade.">
+<objectives>
+<objective index="1" text="Discover the dwarf-markers spread throughout Elderslade.">
+<itemUsed index="0" loreInfo="DNT" progressOverride="Discover the dwarf-markers spread throughout Elderslade" itemId="1879407937" itemName="Dwarf-marker" count="12"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<title id="1879408707" name="Surveyor of Elderslade"/>
+<object id="1879407802" name="Mithril Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879408919" name="Make it a Party: Wedding Fireworks" type="EVENT" minLevel="1" category="Race &amp; Social" level="1" description="Wedding fireworks can be bartered for Midsummer tokens.&#10;&#10;You should use wedding fireworks many times to accomplish this deed.">
+<objectives>
+<objective index="1" text="Wedding fireworks can be bartered for Midsummer tokens.&#10;&#10;You should use wedding fireworks many times to accomplish this deed.">
+<itemUsed index="0" loreInfo="You have mastered the 'art' of setting off wedding fireworks." progressOverride="Use wedding fireworks" itemId="1879408777" itemName="Wedding Ring Fireworks" count="25"/>
+</objective>
+</objectives>
+<rewards>
+<object id="1879408911" name="Wedding Ring Fireworks"/>
+</rewards>
+</deed>
+<deed id="1879408981" name="Make it a Party: Elanor Fireworks" type="EVENT" minLevel="1" category="Race &amp; Social" level="1" description="Elanor fireworks can be bartered for Midsummer tokens.&#10;&#10;You should use elanor fireworks many times to accomplish this deed.">
+<objectives>
+<objective index="1" text="Elanor fireworks can be bartered for Midsummer tokens.&#10;&#10;You should use elanor fireworks many times to accomplish this deed.">
+<itemUsed index="0" loreInfo="You have mastered the 'art' of setting off elanor fireworks." progressOverride="Use elanor fireworks" itemId="1879408775" itemName="Elanor Fireworks" count="25"/>
+</objective>
+</objectives>
+<rewards>
+<object id="1879408904" name="Elanor Fireworks"/>
+</rewards>
+</deed>
+<deed id="1879408982" name="Make it a Party: Green and White Niphredil Fireworks" type="EVENT" minLevel="1" category="Race &amp; Social" level="1" description="Green and white niphredil fireworks can be bartered for Midsummer tokens.&#10;&#10;You should use green and white niphredil fireworks many times to accomplish this deed.">
+<objectives>
+<objective index="1" text="Green and white niphredil fireworks can be bartered for Midsummer tokens.&#10;&#10;You should use green and white niphredil fireworks many times to accomplish this deed.">
+<itemUsed index="0" loreInfo="You have mastered the 'art' of setting off green and white niphredil fireworks." progressOverride="Use green and white niphredil fireworks" itemId="1879408779" itemName="Green and White Niphredil Fireworks" count="25"/>
+</objective>
+</objectives>
+<rewards>
+<object id="1879408914" name="Green and White Niphredil Fireworks"/>
+</rewards>
+</deed>
+<deed id="1879408983" name="Make it a Party: Niphredil Fireworks" type="EVENT" minLevel="1" category="Race &amp; Social" level="1" description="Niphredil fireworks can be bartered for Midsummer tokens.&#10;&#10;You should use niphredil fireworks many times to accomplish this deed.">
+<objectives>
+<objective index="1" text="Niphredil fireworks can be bartered for Midsummer tokens.&#10;&#10;You should use niphredil fireworks many times to accomplish this deed.">
+<itemUsed index="0" loreInfo="You have mastered the 'art' of setting off niphredil fireworks." progressOverride="Use niphredil fireworks" itemId="1879408776" itemName="White Niphredil Fireworks" count="25"/>
+</objective>
+</objectives>
+<rewards>
+<object id="1879408909" name="White Niphredil Fireworks"/>
 </rewards>
 </deed>
 </deeds>

@@ -4219,8 +4219,8 @@
 <trait identifier="1879270676" name="Disable" iconId="1091829932" minLevel="1" tiers="3" tierProperty="trait_class_loremaster_rank_43" description="Increases Stun duration.">
 <stat name="Skill_Loremaster_Disable" scaling="1879271252"/>
 </trait>
-<trait identifier="1879270677" name="Level-headed" iconId="1091829918" minLevel="1" tiers="5" tierProperty="trait_class_loremaster_rank_38" description="Decreases Morale Cost of skills.">
-<stat name="Skill_Loremaster_LevelHeaded" scaling="1879271253"/>
+<trait identifier="1879270677" name="Level-headed" iconId="1091829918" minLevel="1" tiers="5" tierProperty="trait_class_loremaster_rank_38" description="Decreases Power Cost of skills.">
+<stat name="Skill_PowerCost_AllSkills" scaling="1879271253"/>
 </trait>
 <trait identifier="1879270678" name="Quick Hands" iconId="1091829917" minLevel="1" tiers="3" tierProperty="trait_class_loremaster_rank_45" description="Reduces duration of all Lore-master inductions.">
 <stat name="ALL_SKILL_INDUCTION" scaling="1879271251"/>
@@ -4812,7 +4812,7 @@
 <skill id="1879276628" name="Blade-brother's Call"/>
 </trait>
 <trait identifier="1879273255" name="Uplift" iconId="1091831449" minLevel="1" tiers="1" description="Critical Heals give the Captain a stacking Critical Hit buff."/>
-<trait identifier="1879273256" name="Defensive Strike" iconId="1090541078" minLevel="1" tiers="1" description="Sure Strike grants an Armour buff, and you Parry attacks more often.">
+<trait identifier="1879273256" name="Defensive Strike" iconId="1090541078" minLevel="1" tiers="1" description="Sure Strike grants a buff to physical mitigation, and you Parry attacks more often.">
 <stat name="PARRY_PERCENTAGE" constant="5.0"/>
 </trait>
 <trait identifier="1879273257" name="Elendil's Boon" iconId="1091831441" minLevel="1" tiers="1" description="Blade of Elendil causes the next attack against you to deal less damage."/>
@@ -6829,4 +6829,37 @@
 <trait identifier="1879406160" name="Caparison of Regal Revelry" iconId="1092544707" minLevel="1" tiers="1"/>
 <trait identifier="1879406161" name="Head-piece of Regal Revelry" iconId="1092544706" minLevel="1" tiers="1"/>
 <trait identifier="1879406162" name="Accessory of Regal Revelry" iconId="1092544708" minLevel="1" tiers="1"/>
+<trait identifier="1879407671" name="Travel to Kinship Member's House" iconId="1092557575" minLevel="1" tiers="1" description="You are able to travel quickly to a Kinship member's primary residence.">
+<skill id="1879407670" name="Travel to Kinship Member's House"/>
+</trait>
+<trait identifier="1879407803" name="Elderslade - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all stable-masters within Elderslade.">
+<stat name="Discount_Travel_Elderslade" constant="25.0"/>
+</trait>
+<trait identifier="1879407811" name="Elderslade - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all vendors within Elderslade.">
+<stat name="Discount_Elderslade" constant="5.0"/>
+</trait>
+<trait identifier="1879408677" name="Flag of Blackroot" iconId="1092559677" minLevel="1" tiers="1"/>
+<trait identifier="1879408678" name="Head-piece of Gondor" iconId="1092559672" minLevel="1" tiers="1"/>
+<trait identifier="1879408679" name="Caparison of Lossarnach" iconId="1092559674" minLevel="1" tiers="1"/>
+<trait identifier="1879408680" name="Saddle of Ringlo" iconId="1092559671" minLevel="1" tiers="1"/>
+<trait identifier="1879408681" name="Flag of Lebennin" iconId="1092559668" minLevel="1" tiers="1"/>
+<trait identifier="1879408682" name="Caparison of Gondor" iconId="1092559667" minLevel="1" tiers="1"/>
+<trait identifier="1879408683" name="Caparison of Lebennin" iconId="1092559670" minLevel="1" tiers="1"/>
+<trait identifier="1879408684" name="Head-piece of Blackroot" iconId="1092559687" minLevel="1" tiers="1"/>
+<trait identifier="1879408685" name="Caparison of Lamedon" iconId="1092559680" minLevel="1" tiers="1"/>
+<trait identifier="1879408686" name="Head-piece of Lamedon" iconId="1092559686" minLevel="1" tiers="1"/>
+<trait identifier="1879408687" name="Saddle of Blackroot" iconId="1092559685" minLevel="1" tiers="1"/>
+<trait identifier="1879408688" name="Head-piece of Lebennin" iconId="1092559688" minLevel="1" tiers="1"/>
+<trait identifier="1879408689" name="Head-piece of Lossarnach" iconId="1092559675" minLevel="1" tiers="1"/>
+<trait identifier="1879408690" name="Flag of Gondor" iconId="1092559679" minLevel="1" tiers="1"/>
+<trait identifier="1879408691" name="Saddle of Lebennin" iconId="1092559689" minLevel="1" tiers="1"/>
+<trait identifier="1879408692" name="Saddle of Lossarnach" iconId="1092559690" minLevel="1" tiers="1"/>
+<trait identifier="1879408693" name="Head-piece of Ringlo" iconId="1092559683" minLevel="1" tiers="1"/>
+<trait identifier="1879408694" name="Caparison of Ringlo" iconId="1092559669" minLevel="1" tiers="1"/>
+<trait identifier="1879408695" name="Caparison of Blackroot" iconId="1092559684" minLevel="1" tiers="1"/>
+<trait identifier="1879408696" name="Saddle of Lamedon" iconId="1092559673" minLevel="1" tiers="1"/>
+<trait identifier="1879408697" name="Flag of Lamedon" iconId="1092559682" minLevel="1" tiers="1"/>
+<trait identifier="1879408698" name="Flag of Ringlo" iconId="1092559681" minLevel="1" tiers="1"/>
+<trait identifier="1879408699" name="Flag of Lossarnach" iconId="1092559678" minLevel="1" tiers="1"/>
+<trait identifier="1879408700" name="Saddle of Gondor" iconId="1092559676" minLevel="1" tiers="1"/>
 </traits>
