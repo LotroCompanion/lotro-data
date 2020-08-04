@@ -3808,9 +3808,7 @@
 </trait>
 <trait identifier="1879269742" name="Time of Need" iconId="1091840434" minLevel="1" tiers="1" tierProperty="trait_class_captain_rank_47" description="Earns the skill: Time of Need."/>
 <trait identifier="1879269743" name="Shield of the Dúnedain" iconId="1090533152" minLevel="1" tiers="1" tierProperty="trait_class_captain_rank_16" description="Earns the skill: Shield of the Dúnedain."/>
-<trait identifier="1879269744" name="Strong Voice" iconId="1091831472" minLevel="1" tiers="1" tierProperty="trait_class_captain_rank_4" description="Threatening Shout now affects up to 6 targets in a small radius.">
-<stat name="ForwardSource_Combat_Captain_SkillCombo" constant="256.0"/>
-</trait>
+<trait identifier="1879269744" name="Threatening Shout" iconId="1091831472" minLevel="1" tiers="1" tierProperty="trait_class_captain_rank_4" description="Earns the skill: Threatening Shout."/>
 <trait identifier="1879269745" name="Courageous Convocation" iconId="1091840417" minLevel="1" tiers="1" tierProperty="trait_class_captain_rank_30" description="Muster Courage heals the Captain."/>
 <trait identifier="1879269746" name="Advantageous Attack" iconId="1091840437" minLevel="1" tiers="1" tierProperty="trait_class_captain_rank_43" description="Shadow's Lament triggers a Light Damage proc on Telling Mark target.">
 <stat name="Skill_DamageMultiplier_Captain_TellingMark" constant="5.0"/>
@@ -4042,8 +4040,9 @@
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" scaling="1879297171"/>
 </trait>
 <trait identifier="1879270405" name="Ferocious Strikes" iconId="1091830072" minLevel="1" tiers="1" tierProperty="trait_class_champion_rank_8" description="Earns the skill: Ferocious Strikes."/>
-<trait identifier="1879270406" name="Deafening Horn" iconId="1091830100" minLevel="1" tiers="2" tierProperty="trait_class_champion_rank_29" description="Increases Horn of Champions damage.">
+<trait identifier="1879270406" name="Deafening Horn" iconId="1091830100" minLevel="1" tiers="2" tierProperty="trait_class_champion_rank_29" description="Increases Horn of Champions damage &amp; number of targets.">
 <stat name="Skill_Champion_HornChampions_DamageMod" scaling="1879270965"/>
+<stat name="Skill_Champion_HornofChampions_Targets" scaling="1879409436"/>
 </trait>
 <trait identifier="1879270408" name="Champion's Advantage" iconId="1091830092" minLevel="1" tiers="3" tierProperty="trait_class_champion_rank_28" description="Blade skills have a chance to bypass the target's Physical mitigation."/>
 <trait identifier="1879270409" key="MIGHT_INCREASE" name="Might Increase" iconId="1091830097" minLevel="1" tiers="5" tierProperty="trait_class_champion_rank_16" description="Increases Might.">
@@ -4427,7 +4426,7 @@
 <trait identifier="1879271351" key="SKILLED_DEFLECTION" name="Skilled Deflection" iconId="1091829805" minLevel="1" tiers="5" tierProperty="trait_class_guardian_rank_2" description="Increases your Parry Rating">
 <stat name="PARRY_PERCENTAGE" scaling="1879297167"/>
 </trait>
-<trait identifier="1879271352" name="Bellow" iconId="1091805291" minLevel="1" tiers="5" tierProperty="trait_class_guardian_rank_31" description="Increases the range of your Challenge and Fray the Edge skills.">
+<trait identifier="1879271352" name="Bellow" iconId="1091805291" minLevel="1" tiers="5" tierProperty="trait_class_guardian_rank_31" description="Reduces cooldown of Challenge. Increases the range of Challenge and Fray the Edge.">
 <stat name="Trait_Guardian_Taunt_Range" scaling="1879291094"/>
 </trait>
 <trait identifier="1879271353" name="Heavy Weapons Training" iconId="1091829798" minLevel="1" tiers="5" tierProperty="trait_class_guardian_rank_3" description="Increases damage with each of your skills.">
@@ -5547,7 +5546,10 @@
 <trait identifier="1879311300" name="Elite Companions" iconId="1091916295" minLevel="1" tiers="1" tierProperty="trait_class_captain_rank_59" description="You give your companions the equipment and training to damage enemy armour.">
 <stat name="Skill_Captain_ArmourRend_AppChance" constant="20.0"/>
 </trait>
-<trait identifier="1879311401" name="Elendil's Fury" iconId="1091916298" minLevel="1" tiers="1" tierProperty="trait_class_captain_rank_60" description="Blade of Elendil will now force the Captain's target to attack them."/>
+<trait identifier="1879311401" name="Elendil's Fury" iconId="1092571761" minLevel="1" tiers="1" tierProperty="trait_class_captain_rank_60" description="Reduces the cooldown and increases the number of targets affected by Elendil's Roar.">
+<stat name="Trait_Captain_ThreateningShout_CooldownMod" operator="SUBSTRACT" constant="30.0"/>
+<stat name="Trait_Captain_ThreateningShout_MaxTargets" constant="4.0"/>
+</trait>
 <trait identifier="1879311517" name="Bleed Damage" iconId="1091941807" minLevel="1" tiers="5" tierProperty="trait_class_beorning_rank_4" description="Slash now applies a bleed that can stack up to three times. Additional ranks increase the potency of the bleed.">
 <stat name="Skill_Beorning_BleedDamageMod" scaling="1879311474"/>
 </trait>
