@@ -21,6 +21,7 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - disenchantment results
 - servers description
 - geographic areas (regions, territories, areas)
+- parchment maps
 
 In the future, it may contain:
 - travels
