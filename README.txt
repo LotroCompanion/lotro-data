@@ -24,6 +24,7 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - parchment maps
 - dungeons
 - private encounters
+- mobs
 
 In the future, it may contain:
 - travels
