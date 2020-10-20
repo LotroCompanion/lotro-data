@@ -13697,7 +13697,7 @@
 <itemUsed index="1" loreInfo="This mushroom has a faint glow to it that may prove to be useful." progressOverride="Collect strange, blue mushroom" itemId="1879150978" itemName="Strange Blue Mushroom"/>
 <itemUsed index="2" loreInfo="This mushroom has a beautiful colour to it." progressOverride="Collect colourful mushroom" itemId="1879150979" itemName="Colourful Mushroom"/>
 <itemUsed index="3" loreInfo="The surrounding rune-rocks seemed to have changed this mushroom. It seems as if it has thrived and grown substantially." progressOverride="Collect divergent mushroom" itemId="1879150980" itemName="Divergent Mushroom"/>
-<itemUsed index="4" loreInfo="There is something about about this mushroom, but you cannot seem to figure it out." progressOverride="Collect inconsistent mushroom" itemId="1879150981" itemName="Inconsistent mushroom"/>
+<itemUsed index="4" loreInfo="There is something about about this mushroom, but you cannot seem to figure it out." progressOverride="Collect inconsistent mushroom" itemId="1879150981" itemName="Inconsistent Mushroom"/>
 </objective>
 </objectives>
 <rewards>
@@ -24869,7 +24869,7 @@
 <monsterDied index="3" loreInfo="The worms of Forochel may live on the glaciers, but they breathe hot fire." progressOverride="Defeat Coflúg">
 <monsterSelection what="I need a real Subspecies!!"/>
 </monsterDied>
-<monsterDied index="4" loreInfo="A powerful Guaradan shaman, Crantok was in line to lead the tribe." progressOverride="Defeat Crantok">
+<monsterDied index="4" loreInfo="A powerful Guaradan spirit-caller, Crantok was in line to lead the tribe." progressOverride="Defeat Crantok">
 <monsterSelection what="I need a real Subspecies!!"/>
 </monsterDied>
 <monsterDied index="5" loreInfo="A rare drake in the frozen north, Túgarch terrorizes from the skies." progressOverride="Defeat Túgarch">
@@ -33801,7 +33801,7 @@
 <deed id="1879278961" name="The Prophetic Word" type="CLASS" minLevel="20" requiredClass="Rune-keeper" category="Class" level="20" description="Practice the art of casting your vision forwards, and you shall be able to do it with greater frequency.">
 <objectives>
 <objective index="1">
-<skillUsed index="0" loreInfo="Grave portents may give the uncertain pause, but with practiced eye, foresight may come more swiftly to sight." progressOverride="Use Visions and Foretellings skills" count="250" maxPerDay="50"/>
+<skillUsed index="0" loreInfo="Grave portents may give the uncertain pause, but with practiced eye, foresight may come more swiftly to sight." progressOverride="Use the skills \qDo Not Fall This Day\q and \qScribe a New Ending\q" count="250" maxPerDay="50"/>
 </objective>
 </objectives>
 <rewards>
@@ -41888,7 +41888,7 @@
 <object id="1879175769" name="Plain Heritage Rune of Legend"/>
 </rewards>
 </deed>
-<deed id="1879338877" key="Quests_of_greater_North_Ithilien" name="Quests of greater North Ithilien" type="REPUTATION" minLevel="100" category="March of the King" level="105" description="There is much to do while travelling through the lands of North Ithilien.">
+<deed id="1879338877" key="Quests_of_greater_North_Ithilien" name="Quests of greater North Ithilien" type="LORE" minLevel="100" category="March of the King" level="105" description="There is much to do while travelling through the lands of North Ithilien.">
 <objectives>
 <objective index="1" text="There is much to do while travelling through the lands of North Ithilien.">
 <questComplete index="0" loreInfo="You have completed many quests in the lands of the North Ithilien." progressOverride="Complete Quests of North Ithilien Deed" achievableId="1879338691"/>
@@ -41945,7 +41945,7 @@
 <object id="1879338042" name="Phial of Sapphire Extract"/>
 </rewards>
 </deed>
-<deed id="1879338888" key="Deeds_of_North_Ithilien" name="Deeds of North Ithilien" type="REPUTATION" minLevel="100" category="March of the King" level="100" description="There is much to do while travelling through the lands of North Ithilien.">
+<deed id="1879338888" key="Deeds_of_North_Ithilien" name="Deeds of North Ithilien" type="EXPLORER" minLevel="100" category="March of the King" level="100" description="There is much to do while travelling through the lands of North Ithilien.">
 <objectives>
 <objective index="1" text="There is much to do while travelling through the lands of North Ithilien.">
 <questComplete index="0" loreInfo="You have explored all of North Ithilien" progressOverride="Complete Explorer of North Ithilien Deed" achievableId="1879338879"/>
@@ -52665,6 +52665,7 @@
 <objective index="2" text="Defeat many wraiths in Imlad Morgul.">
 <monsterDied index="0" loreInfo="'Come not between the Nazgûl and his prey, for he will not slay thee in thy turn. He will bear thee away to the Houses of Lamentation, beyond all darkness!' - Lord of the Nazgûl, Witch-king of Angmar" progressOverride="Defeat many wraiths in Imlad Morgul" count="160">
 <monsterSelection where="Mordor" what="Wraith"/>
+<monsterSelection where="Mordor" what="Fallen Knight"/>
 </monsterDied>
 </objective>
 </objectives>
@@ -52681,6 +52682,7 @@
 <objective index="1" text="Defeat many wraiths in Imlad Morgul.">
 <monsterDied index="0" loreInfo="The Nazgûl are no more, but many are the wraiths that served them and that they created, and those remain within the walls of Minas Morgul and at sites of terrible evil throughout Imlad Morgul." progressOverride="Defeat many wraiths in Imlad Morgul" count="80">
 <monsterSelection where="Mordor" what="Wraith"/>
+<monsterSelection where="Mordor" what="Fallen Knight"/>
 </monsterDied>
 </objective>
 </objectives>
@@ -54185,7 +54187,9 @@
 <objective index="1">
 <questComplete index="0" loreInfo="Durin has called for your help at the fortress of Skarháld in the Grey Mountains, where he seeks to unite the dwarf-clans there assembled: Stout-axes, Zhélruka, and Longbeards. Fearing that his own people will be outnumbered by the other clans, he sends for reinforcements from the Lonely Mountain; his father King Thorin Stonehelm responds by directing a large army of Longbeards, many of them veterans of the distant Great Orc War and the more-recent Battle of Five Armies to join his son. Tensions run high, but they do not prevent Durin from setting his sights upon a valuable and hard-to-win prize: Gundabad, sacred Mountain-home, currently held by Orcs." progressOverride="Complete 'The Legacy of Durin, Chapter 1'" achievableId="1879404235"/>
 <questComplete index="1" loreInfo="In advance of Durin's stated purpose to seize Gundabad, the son of King Thorin Stonehelm sent scouts into the Wells of Langflood. They return with news of an Orkish raiding-party dispatched from the fortress, and Durin sends you to counter it before it can slay the inhabitants of the Wells, or hinder the plans for his army's assault upon the Mountain-home. You dispatch the raiding-party, but before its leader dies he speaks of Gorgar the Ruthless, new Lord of Gundabad, son of Bolg and brother to Mazog, who troubled the dwarves greatly in their attempt to retake Moria." progressOverride="Complete 'The Legacy of Durin, Chapter 2'" achievableId="1879404471"/>
-<questComplete index="2" loreInfo="The story continues in future updates!" progressOverride="The story continues in future updates!" achievableId="1879049597"/>
+<questComplete index="2" loreInfo="Worrisome rumours that Gorgar the Ruthless, son of Bolg and brother of Mazog, has named himself 'Lord of Gundabad' compels Glóin to send a warning to Prince Durin Stonehelmson. The warning is appreciated but not heeded: nothing will stop Durin's assault upon Gundabad. He calls for armies of dwarves to descend upon the Elderslade in preparation for the upcoming conflict, including survivors of the Iron Garrison. These brave dwarves intend to secure the victory that eluded them in Moria, but not all of them are confident it will be possible." progressOverride="Complete 'The Legacy of Durin, Chapter 3'" achievableId="1879409655"/>
+<questComplete index="3" loreInfo="Prince Durin marshals his troops for battle, and the War of Three Peaks begins! The fighting ebbs and flows as the Orcs mount a ferocious defence, but early successes on the part of the Gabil'akkâ are not enough to secure outright victory. Tensions flare between the various dwarf-clans, despite their common enemy, and arguments between Longbeard, Zhélruka, and Stout-axe threaten to undermine the war effort. At last Durin marches for the gates of Gundabad to face Gorgar in combat, but just as victory seems assured a terrible roar sounds from the heights: Hrímil Frost-heart has broken free of her icy prison behind the Anvil of Winterstith, and she claims lordship of Gundabad. Durin sounds the retreat, but he vows not to relinquish the Mountain-home to this new intruder, or any other." progressOverride="Complete 'The Legacy of Durin, Chapter 4'" achievableId="1879409724"/>
+<questComplete index="4" loreInfo="The story continues in future updates!" progressOverride="The story continues in future updates!" achievableId="1879049597"/>
 </objective>
 </objectives>
 <rewards>
@@ -54942,7 +54946,7 @@
 <rewards>
 <lotroPoints quantity="15"/>
 <title id="1879407817" name="Ally to the March on Gundabad"/>
-<object id="1879407802" name="Mithril Mark of the Longbeards" quantity="15"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="15"/>
 </rewards>
 </deed>
 <deed id="1879407822" name="Kindred to the March on Gundabad" type="REPUTATION" minLevel="1" category="Reputation" level="1" description="You have proven yourself invaluable to the March on Gundabad and have done much to aid those in Elderslade. For this, the March on Gundabad now count you among their own.">
@@ -54958,7 +54962,7 @@
 <lotroPoints quantity="20"/>
 <trait id="1879407803" name="Elderslade - Travel Discount"/>
 <title id="1879407815" name="Kin to the March on Gundabad"/>
-<object id="1879407802" name="Mithril Mark of the Longbeards" quantity="20"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="20"/>
 </rewards>
 </deed>
 <deed id="1879407823" name="Known to the March on Gundabad" type="REPUTATION" minLevel="1" category="Reputation" level="1" description="Your name is now known throughout Elderslade.">
@@ -54970,7 +54974,7 @@
 <rewards>
 <lotroPoints quantity="5"/>
 <title id="1879407797" name="Known to the March on Gundabad"/>
-<object id="1879407802" name="Mithril Mark of the Longbeards" quantity="5"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
 </rewards>
 </deed>
 <deed id="1879407824" name="Friend to the March on Gundabad" type="REPUTATION" minLevel="1" category="Reputation" level="1" description="The March on Gundabad have grown to count you among their friends.">
@@ -54986,7 +54990,7 @@
 <lotroPoints quantity="10"/>
 <trait id="1879407811" name="Elderslade - Vendor Discount"/>
 <title id="1879407819" name="Friend to the March on Gundabad"/>
-<object id="1879407802" name="Mithril Mark of the Longbeards" quantity="10"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="10"/>
 </rewards>
 </deed>
 <deed id="1879408375" name="The Peace of Middle-earth" type="LORE" minLevel="1" category="Epic" level="1" description="Unravel the Epic Story for Volume V: The Peace of Middle-earth.">
@@ -55039,7 +55043,7 @@
 <object id="1879406105" name="Midsummer Token" quantity="9"/>
 </rewards>
 </deed>
-<deed id="1879408704" name="Treasure-seeker of Elderslade" type="EXPLORER" minLevel="120" category="" level="130" description="Discover the many hidden caches buried in Elderslade.">
+<deed id="1879408704" name="Treasure-seeker of Elderslade" type="EXPLORER" minLevel="120" category="Elderslade" level="130" description="Discover the many hidden caches buried in Elderslade.">
 <objectives>
 <objective index="1" text="Discover the many hidden caches buried in Elderslade.">
 <itemUsed index="0" loreInfo="You have discovered many hidden caches buried in Elderslade." progressOverride="Discover the many hidden caches buried in Elderslade" itemId="1879407942" itemName="Treasure Cache" count="14"/>
@@ -55050,13 +55054,13 @@
 <lotroPoints quantity="5"/>
 <virtueXP quantity="2000"/>
 <title id="1879408708" name="Treasure Seeker of Elderslade"/>
-<object id="1879407802" name="Mithril Mark of the Longbeards" quantity="3"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
 </rewards>
 </deed>
-<deed id="1879408705" name="Dwarf-surveys in Elderslade" type="EXPLORER" minLevel="120" category="" level="130" description="Discover the dwarf-markers spread throughout Elderslade.">
+<deed id="1879408705" name="Dwarf-surveys in Elderslade" type="EXPLORER" minLevel="120" category="Elderslade" level="130" description="Discover the dwarf-markers spread throughout Elderslade.">
 <objectives>
 <objective index="1" text="Discover the dwarf-markers spread throughout Elderslade.">
-<itemUsed index="0" loreInfo="DNT" progressOverride="Discover the dwarf-markers spread throughout Elderslade" itemId="1879407937" itemName="Dwarf-marker" count="12"/>
+<itemUsed index="0" loreInfo="You have found all of the dwarf-markers in Elderslade, used by the dwarves of old in surveying the lands for potential mining opportunities." progressOverride="Discover the dwarf-markers spread throughout Elderslade" itemId="1879407937" itemName="Dwarf-marker" count="12"/>
 </objective>
 </objectives>
 <rewards>
@@ -55064,7 +55068,7 @@
 <lotroPoints quantity="5"/>
 <virtueXP quantity="2000"/>
 <title id="1879408707" name="Surveyor of Elderslade"/>
-<object id="1879407802" name="Mithril Mark of the Longbeards" quantity="3"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
 </rewards>
 </deed>
 <deed id="1879408919" name="Make it a Party: Wedding Fireworks" type="EVENT" minLevel="1" category="Race &amp; Social" level="1" description="Wedding fireworks can be bartered for Midsummer tokens.&#10;&#10;You should use wedding fireworks many times to accomplish this deed.">
@@ -55107,6 +55111,16 @@
 <object id="1879408909" name="White Niphredil Fireworks"/>
 </rewards>
 </deed>
+<deed id="1879409411" name="Get Your Bearings" type="CLASS" minLevel="1" requiredClass="Brawler" category="Class" level="1" description="Your dual nature is no stranger to you, but transforming in the heat of battle is a bit more complicated.">
+<objectives>
+<objective index="1" text="This is your objective description.">
+<skillUsed index="0" loreInfo="You have learned to transform swiftly even during the most intense battle." progressOverride="Enter Bear Form" skillId="1879319277" skillName="Bear-form" count="100" maxPerDay="20"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+</rewards>
+</deed>
 <deed id="1879409573" name="Forth Eorlingas!" type="LORE" minLevel="94" category="Race &amp; Social" level="95" description="&lt;rgb=#00e4ff&gt;This deed is for Legendary Servers.&lt;/rgb&gt;">
 <objectives>
 <objective index="1" text="&lt;rgb=#00e4ff&gt;This deed is for Legendary Servers&lt;/rgb&gt;">
@@ -55140,6 +55154,951 @@
 <virtueXP quantity="2000"/>
 <title id="1879409500" name="Legend of Helm's Deep"/>
 <object id="1879409572" name="Helm's Deep Defender Frame"/>
+</rewards>
+</deed>
+<deed id="1879409789" name="Discovery: Amdân Dammul, the Bloody Threshold" type="EXPLORER" minLevel="125" category="Elderslade" level="130" description="You have discovered the entrance to Amdân Dammul, the Bloody Threshold.">
+<objectives>
+<objective index="1" text="Discover the entrance to Amdân Dammul, the Bloody Threshold.">
+<enterDetection index="0" loreInfo="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson seeks to end the War of Three Peaks by challenging Gorgar the Ruthless himself." progressOverride="Discover the entrance to Amdân Dammul, the Bloody Threshold"/>
+</objective>
+</objectives>
+<rewards/>
+</deed>
+<deed id="1879409906" name="Amdân Dammul, the Bloody Threshold -- Tier 3" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<questComplete index="0" loreInfo="You have completed 'Amdân Dammul, the Bloody Threshold: The Beasts of Slaughter -- Tier 3'" progressOverride="Complete 'Amdân Dammul, the Bloody Threshold: The Beasts of Slaughter -- Tier 3'" achievableId="1879409919"/>
+<questComplete index="1" loreInfo="You have completed 'Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 3'." progressOverride="Complete 'Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 3'" achievableId="1879409910"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="10"/>
+<virtueXP quantity="2000"/>
+<title id="1879409979" name="the Bloody Gladiator"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409907" name="Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 2" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="Gorgar the Ruthless has one last beast in his stables, and he intends to use it to defeat you!">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="Gorgar the Ruthless has one last beast in his stables, and he intends to use it to defeat you!">
+<enterDetection index="0" loreInfo="You have defeated Gorgar and Ránulur on Tier 2!" progressOverride="Defeat Gorgar and Ránulur"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409908" name="Amdân Dammul, the Bloody Threshold: The Beasts of the Slaughter -- Tier 4" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="Gorgar's trap has been sprung, and you must face the assortment of tamed beasts he now sends against you!">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="Gorgar's trap has been sprung, and you must face the assortment of tamed beasts he now sends against you!">
+<enterDetection index="0" loreInfo="You have defeated Gorgar's Beasts of Slaughter on Tier 4!" progressOverride="Defeat the Beasts of Slaughter"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409909" name="Amdân Dammul, the Bloody Threshold -- Tier 4" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<questComplete index="0" loreInfo="You have completed 'Amdân Dammul, the Bloody Threshold: The Beasts of Slaughter -- Tier 4'" progressOverride="Complete 'Amdân Dammul, the Bloody Threshold: The Beasts of Slaughter -- Tier 4'" achievableId="1879409908"/>
+<questComplete index="1" loreInfo="You have completed 'Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 4'." progressOverride="Complete 'Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 4'" achievableId="1879409926"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="10"/>
+<virtueXP quantity="2000"/>
+<title id="1879409947" name="Master of the Arena"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409910" name="Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 3" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="Gorgar the Ruthless has one last beast in his stables, and he intends to use it to defeat you!">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="Gorgar the Ruthless has one last beast in his stables, and he intends to use it to defeat you!">
+<enterDetection index="0" loreInfo="You have defeated Gorgar and Ránulur on Tier 3!" progressOverride="Defeat Gorgar and Ránulur"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409911" name="Amdân Dammul, the Bloody Threshold: The Beasts of Slaughter -- Tier 5" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="Gorgar's trap has been sprung, and you must face the assortment of tamed beasts he now sends against you!">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="Gorgar's trap has been sprung, and you must face the assortment of tamed beasts he now sends against you!">
+<enterDetection index="0" loreInfo="You have defeated Gorgar's Beasts of Slaughter on Tier 5!" progressOverride="Defeat the Beasts of the Slaughter"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409913" name="Azghzabad of the Gabil'akkâ" type="REPUTATION" minLevel="1" category="Reputation" level="1" description="You have achieved the rank of Azghzabad in the Gabil'akkâ, the Unified Army of Dwarves.">
+<objectives>
+<objective index="1">
+<factionLevel index="0" factionId="1879408300" factionName="The Gabil'akkâ" tier="7"/>
+</objective>
+<objective index="2">
+<factionLevel index="0" loreInfo="You have earned the rank of Azghzabad in the Gabil'akkâ, the Unified Army of Dwarves." progressOverride="You must earn the rank of Azghzabad in the Gabil'akkâ" factionId="1879408300" factionName="The Gabil'akkâ" tier="8"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<title id="1879409965" name="Azghzabad of the Gabil'akkâ"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="25"/>
+</rewards>
+</deed>
+<deed id="1879409914" name="Amdân Dammul, the Bloody Threshold -- Tier 5" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<questComplete index="0" loreInfo="You have completed 'Amdân Dammul, the Bloody Threshold: The Beasts of Slaughter -- Tier 5'" progressOverride="Complete 'Amdân Dammul, the Bloody Threshold: The Beasts of Slaughter -- Tier 5'" achievableId="1879409911"/>
+<questComplete index="1" loreInfo="You have completed 'Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 5'." progressOverride="Complete 'Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 5'" achievableId="1879409932"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="10"/>
+<virtueXP quantity="2000"/>
+<title id="1879409966" name="Challenger of Amdân Dammul"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409915" name="Amdân Dammul, the Bloody Threshold: The Beasts of Slaughter -- Tier 2" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="Gorgar's trap has been sprung, and you must face the assortment of tamed beasts he now sends against you!">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="Gorgar's trap has been sprung, and you must face the assortment of tamed beasts he now sends against you!">
+<enterDetection index="0" loreInfo="You have defeated Gorgar's Beasts of Slaughter on Tier 2!" progressOverride="Defeat the Beasts of Slaughter"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409917" name="Amdân Dammul, the Bloody Threshold - The Vanguard" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" obsolete="true" description="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<objectives>
+<objective index="1" text="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<questComplete index="0" loreInfo="You were among the first to defeat Gorgar the Ruthless at Amdân Dammul, the Bloody Threshold." progressOverride="Be among the first to fully complete 'Amdân Dammul, the Bloody Threshold' on Tier 3." achievableId="1879409906"/>
+</objective>
+</objectives>
+<rewards>
+<virtueXP quantity="2000"/>
+<title id="1879409946" name="Vanguard of Amdân Dammul"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409918" name="Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 1" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="Gorgar the Ruthless has one last beast in his stables, and he intends to use it to defeat you!">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="Gorgar the Ruthless has one last beast in his stables, and he intends to use it to defeat you!">
+<enterDetection index="0" loreInfo="You have defeated Gorgar and Ránulur on Tier 1!" progressOverride="Defeat Gorgar and Ránulur"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409919" name="Amdân Dammul, the Bloody Threshold: The Beasts of Slaughter -- Tier 3" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="Gorgar's trap has been sprung, and you must face the assortment of tamed beasts he now sends against you!">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="Gorgar's trap has been sprung, and you must face the assortment of tamed beasts he now sends against you!">
+<enterDetection index="0" loreInfo="You have defeated Gorgar's Beasts of Slaughter on Tier 3!" progressOverride="Defeat the Beasts of Slaughter"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409921" name="Uzkhas of the Gabil'akkâ" type="REPUTATION" minLevel="1" category="Reputation" level="1" description="You have achieved the rank of Uzkhas in the Gabil'akkâ, the Unified Army of Dwarves.">
+<objectives>
+<objective index="1">
+<factionLevel index="0" factionId="1879408300" factionName="The Gabil'akkâ" tier="5"/>
+</objective>
+<objective index="2">
+<factionLevel index="0" loreInfo="You have earned the rank of Uzkhas in the Gabil'akkâ, the Unified Army of Dwarves." progressOverride="You must earn the rank of Uzkhas in the Gabil'akkâ" factionId="1879408300" factionName="The Gabil'akkâ" tier="6"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<title id="1879409950" name="Uzkhas of the Gabil'akkâ"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="15"/>
+</rewards>
+</deed>
+<deed id="1879409922" name="Dumul of the Gabil'akkâ" type="REPUTATION" minLevel="1" category="Reputation" level="1" description="You have achieved the rank of Dumul in the Gabil'akkâ, the Unified Army of Dwarves.">
+<objectives>
+<objective index="1">
+<factionLevel index="0" loreInfo="You have earned the rank of Dumul in the Gabil'akkâ, the Unified Army of Dwarves." progressOverride="You must earn the rank of Dumul in the Gabil'akkâ" factionId="1879408300" factionName="The Gabil'akkâ" tier="4"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<title id="1879409974" name="Dumul of the Gabil'akkâ"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
+</rewards>
+</deed>
+<deed id="1879409924" name="Amdân Dammul, the Bloody Threshold - Original Challenger" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<objectives>
+<objective index="1" text="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<questComplete index="0" loreInfo="You were among the first to defeat Gorgar the Ruthless at Amdân Dammul, the Bloody Threshold." progressOverride="Be among the first to fully complete 'Amdân Dammul, the Bloody Threshold' on Tier 5." achievableId="1879409914"/>
+</objective>
+</objectives>
+<rewards>
+<virtueXP quantity="2000"/>
+<title id="1879409976" name="Original Challenger of Amdân Dammul"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409925" name="Amdân Dammul, the Bloody Threshold -- Tier 1" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<questComplete index="0" loreInfo="You have completed 'Amdân Dammul, the Bloody Threshold: The Beasts of Slaughter -- Tier 1'" progressOverride="Complete 'Amdân Dammul, the Bloody Threshold: The Beasts of Slaughter -- Tier 1'" achievableId="1879409928"/>
+<questComplete index="1" loreInfo="You have completed 'Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 1'." progressOverride="Complete 'Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 1'" achievableId="1879409918"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="10"/>
+<virtueXP quantity="2000"/>
+<title id="1879409956" name="the Bloody Survivor"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409926" name="Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 4" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="Gorgar the Ruthless has one last beast in his stables, and he intends to use it to defeat you!">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="Gorgar the Ruthless has one last beast in his stables, and he intends to use it to defeat you!">
+<enterDetection index="0" loreInfo="You have defeated Gorgar and Ránulur on Tier 4!" progressOverride="Defeat Gorgar and Ránulur"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409927" name="Fabarâl of the Gabil'akkâ" type="REPUTATION" minLevel="1" category="Reputation" level="1" description="You have achieved the rank of Fabarâl in the Gabil'akkâ, the Unified Army of Dwarves.">
+<objectives>
+<objective index="1">
+<factionLevel index="0" factionId="1879408300" factionName="The Gabil'akkâ" tier="6"/>
+</objective>
+<objective index="2">
+<factionLevel index="0" loreInfo="You have earned the rank of Fabarâl in the Gabil'akkâ, the Unified Army of Dwarves." progressOverride="You must earn the rank of Fabarâl in the Gabil'akkâ" factionId="1879408300" factionName="The Gabil'akkâ" tier="7"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<title id="1879409958" name="Fabarâl of the Gabil'akkâ"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="20"/>
+</rewards>
+</deed>
+<deed id="1879409928" name="Amdân Dammul, the Bloody Threshold: The Beasts of Slaughter -- Tier 1" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="Gorgar's trap has been sprung, and you must face the assortment of tamed beasts he now sends against you!">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="Gorgar's trap has been sprung, and you must face the assortment of tamed beasts he now sends against you!">
+<enterDetection index="0" loreInfo="You have defeated Gorgar's Beasts of Slaughter on Tier1!" progressOverride="Defeat the Beasts of Slaughter"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409929" name="Amdân Dammul, the Bloody Threshold - Leading the Charge" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<objectives>
+<objective index="1" text="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<questComplete index="0" loreInfo="You were among the first to defeat Gorgar the Ruthless at Amdân Dammul, the Bloody Threshold." progressOverride="Be among the first to fully complete 'Amdân Dammul, the Bloody Threshold' on Tier 4." achievableId="1879409909"/>
+</objective>
+</objectives>
+<rewards>
+<virtueXP quantity="2000"/>
+<title id="1879409954" name="Led the Charge at Amdân Dammul"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409930" name="Izkhas of the Gabil'akkâ" type="REPUTATION" minLevel="1" category="Reputation" level="1" description="You have achieved the rank of Izkhas in the Gabil'akkâ, the Unified Army of Dwarves.">
+<objectives>
+<objective index="1">
+<factionLevel index="0" factionId="1879408300" factionName="The Gabil'akkâ" tier="4"/>
+</objective>
+<objective index="2">
+<factionLevel index="0" loreInfo="You have earned the rank of Izkhas in the Gabil'akkâ, the Unified Army of Dwarves." progressOverride="You must earn the rank of Izkhas in the Gabil'akkâ" factionId="1879408300" factionName="The Gabil'akkâ" tier="5"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<title id="1879409978" name="Izkhas of the Gabil'akkâ"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="10"/>
+</rewards>
+</deed>
+<deed id="1879409931" name="Amdân Dammul, the Bloody Threshold -- Tier 2" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="It is at Amdân Dammul, the Bloody Threshold, that Durin Stonehelmson will seek to end the War of Three Peaks by challenging Gorgar the Ruthless himself.">
+<questComplete index="0" loreInfo="You have completed 'Amdân Dammul, the Bloody Threshold: The Beasts of Slaughter -- Tier 2'" progressOverride="Complete 'Amdân Dammul, the Bloody Threshold: The Beasts of Slaughter -- Tier 2'" achievableId="1879409915"/>
+<questComplete index="1" loreInfo="You have completed 'Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 2'." progressOverride="Complete 'Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 2'" achievableId="1879409907"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="10"/>
+<virtueXP quantity="2000"/>
+<title id="1879409942" name="the Bloody Victor"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879409932" name="Amdân Dammul, the Bloody Threshold: Gorgar and Ránulur -- Tier 5" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="Gorgar the Ruthless has one last beast in his stables, and he intends to use it to defeat you!">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2" text="Gorgar the Ruthless has one last beast in his stables, and he intends to use it to defeat you!">
+<enterDetection index="0" loreInfo="You have defeated Gorgar and Ránulur on Tier 5." progressOverride="Defeat Gorgar and Ránulur"/>
+</objective>
+</objectives>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879411114" name="Dragon-kind Slayer of Elderslade" type="SLAYER" minLevel="120" category="Elderslade" level="130" description="Defeat many dragon-kind in Elderslade.">
+<objectives>
+<objective index="1" text="Defeat many dragon-kind in Elderslade.">
+<monsterDied index="0" loreInfo="After the fall of the realm of Grárik, dragon-kind spread across Ered Mithrin to the western reaches of Mount Gundabad. Although their numbers are fewer in the Third Age, their presence in Elderslade poses a constant threat to any who would dare to brave the North." progressOverride="Defeat dragon-kind in Elderslade" count="100">
+<monsterSelection where="Elderslade" what="Dragon"/>
+<monsterSelection where="Elderslade" what="Drake"/>
+<monsterSelection where="Elderslade" what="Worm"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="700"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend"/>
+</rewards>
+</deed>
+<deed id="1879411115" name="Dragon-kind Slayer of Elderslade (Advanced)" type="SLAYER" minLevel="120" category="Elderslade" level="130" description="Defeat many dragon-kind in Elderslade.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879411114"/>
+</objective>
+<objective index="2" text="Defeat many dragon-kind in Elderslade.">
+<monsterDied index="0" loreInfo="After the fall of the realm of Grárik, dragon-kind spread across Ered Mithrin to the western reaches of Mount Gundabad. Although their numbers are fewer in the Third Age, their presence in Elderslade poses a constant threat to any who would dare to brave the North." progressOverride="Defeat dragon-kind in Elderslade" count="200">
+<monsterSelection where="Elderslade" what="Dragon"/>
+<monsterSelection where="Elderslade" what="Drake"/>
+<monsterSelection where="Elderslade" what="Worm"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="900"/>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
+</rewards>
+</deed>
+<deed id="1879411142" name="Battleground of the War of Three Peaks" type="EXPLORER" minLevel="120" category="Elderslade" level="130" description="Explore important sites for the War of Three Peaks.">
+<objectives>
+<objective index="1" text="Explore important sites for the War of Three Peaks.">
+<landmarkDetection index="0" loreInfo="Following the defeat of the Angmarim ritualists who had resided within, Shakal-atrâd once again belongs to the dwarves. Reclaiming the ruins was a step forward -- a small step, perhaps, but a step forward nevertheless." progressOverride="Discover Shakal-atrâd" landmarkId="1879410477" landmarkName="Shakal-atrâd"/>
+<landmarkDetection index="1" loreInfo="Hardy fortifications have replaced the Orkish barriers that previously guarded Zarkul-sulûn, keeping the dwarves' enemies at bay. It is from here that the dwarves formulate new strategies with which to defeat their foes, and perhaps dare to dream about reclaiming Gundabad at long last." progressOverride="Discover Zarkul-sulûn" landmarkId="1879410479" landmarkName="Zarkul-sulûn"/>
+<landmarkDetection index="2" loreInfo="Where once the haunting howling of Wargs filled the air around Howlers' Notch, now only the guttural growling of hill-beasts can be heard. The former Warg den houses vicious hill-beasts, manipulated and bred for war by hobgoblin beast-tamers. Cages and chains imprison the wild hill-beasts that have been captured against their will." progressOverride="Discover Howlers' Notch" landmarkId="1879410476" landmarkName="Howlers' Notch"/>
+<landmarkDetection index="3" loreInfo="Orkish forces overwhelmed the dwarves at Zudramdân and claimed the ruins as their own. Now Zudramdân is a shell of its former self, its interior set ablaze and crawling with Orcs." progressOverride="Discover Zudramdân" landmarkId="1879410478" landmarkName="Zudramdân"/>
+<landmarkDetection index="4" loreInfo="Caivád Sâr remains a stronghold for the evil forces of Elderslade. Undeterred -- and perhaps fuelled -- by the raging war outside, the Angmarim continue to torture and experiment within its ghastly chambers." progressOverride="Discover Caivád Sâr" landmarkId="1879410475" landmarkName="Caivád Sâr"/>
+<landmarkDetection index="5" loreInfo="Despite being entrenched deep within enemy territory, Drenghól has remained hidden from prying enemy eyes. Its position within Elderslade has proved useful, as it offers a clear view of Gundabad's outer walls." progressOverride="Discover Drenghól" landmarkId="1879410472" landmarkName="Drenghól"/>
+<landmarkDetection index="6" loreInfo="At the front lines, the Gabil'akkâ vanguard stands their ground, planting themselves firmly into the trenches. An endless stream of orders enter and leave Ifbar-athrâkh, the command center the dwarves have dug nearby. While others must think about the larger picture of the war, those in Ifbar-athrâkh concern themselves with the details of taking and controlling Orc territory." progressOverride="Discover Ifbar-athrâkh" landmarkId="1879410480" landmarkName="Ifbar-athrâkh"/>
+<landmarkDetection index="7" loreInfo="The Orcs have dug out winding tunnels in the shadow of Zudramdân, further defiling the dwarf-ruin. From these tunnels, they create plans to thwart the Gabil'akkâ vanguard and bolster their own defences." progressOverride="Discover Ushkútoz" landmarkId="1879410474" landmarkName="Ushkútoz"/>
+<landmarkDetection index="8" loreInfo="Seated in the northern reaches of Elderslade, Bagûd-mekhem stretches out from Gundabad and peers down into the valley. At this elevation, the cold winds carry an unnatural chill. Combined with the swarms of battle-ready Orcs, Bagûd-mekhem is a daunting sight to behold." progressOverride="Discover Bagûd-mekhem" landmarkId="1879410816" landmarkName="Bagûd-mekhem"/>
+<landmarkDetection index="9" loreInfo="The War of Three Peaks has transformed a once-grassy plain of Elderslade into Azgh-buzru, the War-fell. Like Azanulbizar of old, this is to be the site of the bloodiest skirmishes between between the dwarves of the Gabil'akkâ and the Orcs of Gundabad." progressOverride="Discover Azgh-buzru, the War-fell" landmarkId="1879411487" landmarkName="Azgh-buzru, the War-fell"/>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="700"/>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="1000"/>
+<title id="1879411134" name="Eyes of the Gabil'akkâ"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
+</rewards>
+</deed>
+<deed id="1879411143" name="Orc-slayer of Elderslade" type="SLAYER" minLevel="120" category="Elderslade" level="130" description="Defeat many Orcs in Elderslade.">
+<objectives>
+<objective index="1" text="Defeat many Orcs in Elderslade.">
+<monsterDied index="0" loreInfo="Years of enmity between the dwarves and the Orcs have scarred Elderslade. Though their population has diminished with Sauron's defeat, the Orcs of Gundabad hold the former dwarf-kingdom in their steadfast grip." progressOverride="Defeat Orcs in Elderslade" count="100">
+<monsterSelection where="Elderslade" what="Orc"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="700"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend"/>
+</rewards>
+</deed>
+<deed id="1879411144" name="Troll-slayer of Elderslade" type="SLAYER" minLevel="120" category="Elderslade" level="130" description="Defeat many trolls in Elderslade.">
+<objectives>
+<objective index="1" text="Defeat many trolls in Elderslade.">
+<monsterDied index="0" loreInfo="Trolls were among the many foul creatures that fled to Elderslade following Morgoth's demise. During the Second Age, a vengeful Lord Brúni led a campaign against the trolls, earning himself the title of Trollbane. The dwarves slaughtered the trolls of the region and drove the survivors into the Ettenmoors. Despite this, trolls have returned to Elderslade and now endanger efforts to retake Gundabad." progressOverride="Defeat trolls in Elderslade" count="60">
+<monsterSelection where="Elderslade" what="Troll"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="700"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend"/>
+</rewards>
+</deed>
+<deed id="1879411145" name="Troll-slayer of Elderslade (Advanced)" type="SLAYER" minLevel="120" category="Elderslade" level="130" description="Defeat many trolls in Elderslade.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879411144"/>
+</objective>
+<objective index="2" text="Defeat many trolls in Elderslade.">
+<monsterDied index="0" loreInfo="Trolls were among the many foul creatures that fled to Elderslade following Morgoth's demise. During the Second Age, a vengeful Lord Brúni led a campaign against the trolls, earning himself the title of Trollbane. The dwarves slaughtered the trolls of the region and drove the survivors into the Ettenmoors. Despite this, trolls have returned to Elderslade and now endanger efforts to retake Gundabad." progressOverride="Defeat trolls in Elderslade" count="120">
+<monsterSelection where="Elderslade" what="Troll"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="900"/>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
+</rewards>
+</deed>
+<deed id="1879411146" name="Quests of the War of Three Peaks" type="LORE" minLevel="120" category="Elderslade" level="130" description="Complete many quests in the War of Three Peaks.">
+<objectives>
+<objective index="1" text="Complete many quests in the War of Three Peaks.">
+<questComplete index="0" loreInfo="You have completed many quests for the March on Gundabad." progressOverride="Complete many quests in the War of Three Peaks" questCategory="Elderslade: The War of Three Peaks" count="30"/>
+</objective>
+</objectives>
+<rewards>
+<virtueXP quantity="2000"/>
+<title id="1879411132" name="Veteran of the War of Three Peaks"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
+</rewards>
+</deed>
+<deed id="1879411147" name="Orc-slayer of Elderslade (Advanced)" type="SLAYER" minLevel="120" category="Elderslade" level="130" description="Defeat many Orcs in Elderslade.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879411143"/>
+</objective>
+<objective index="2" text="Defeat many Orcs in Elderslade.">
+<monsterDied index="0" loreInfo="Years of enmity between the dwarves and the Orcs have scarred Elderslade. Though their population has diminished with Sauron's defeat, the Orcs of Gundabad hold the former dwarf-kingdom in their steadfast grip." progressOverride="Defeat Orcs in Elderslade" count="200">
+<monsterSelection where="Elderslade" what="Orc"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="900"/>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
+</rewards>
+</deed>
+<deed id="1879411148" name="Dwarf-ruins of Elderslade" type="EXPLORER" minLevel="120" category="Elderslade" level="130" description="Explore the dwarf-ruins scattered across Elderslade.">
+<objectives>
+<objective index="1" text="Explore the ruins left behind by dwarves in Elderslade.">
+<landmarkDetection index="0" loreInfo="Perched above the Greylin River, the Hárveg Bridge had been, until recently, broken and impassable. The dwarves have skilfully mended the bridge, opening safe passage to and from Misthallow once more." progressOverride="Discover the Hárveg Bridge" landmarkId="1879407929" landmarkName="Hárveg Bridge"/>
+<landmarkDetection index="1" loreInfo="Despite the many long years it has endured, Annâk-khurfu continues to stand tall. The dwarves have rallied to these ruins and called their allies to arms, preparing for the inevitable.&#10;&#10;Annâk-khurfu offers an advantageous view of the main roads leading into Elderslade -- from Ered Mithrin to the east, and Misthallow to the south -- where friend and foe can be spotted plainly." progressOverride="Discover Annâk-khurfu" landmarkId="1879407923" landmarkName="Annâk-khurfu"/>
+<landmarkDetection index="2" loreInfo="The years have not been kind to Zarkul-sulûn, which now plays host to all manner of evil: Orcs, hobgoblins, wargs, and perhaps others.&#10;&#10;The ruins sit too closely to Annâk-khurfu for the dwarves' comfort. They keep a wary eye on Zarkul-sulûn, understanding that it will be the first of many obstacles they must cross if they wish to retake Gundabad." progressOverride="Discover Zarkul-sulûn" landmarkId="1879407921" landmarkName="Zarkul-sulûn"/>
+<landmarkDetection index="3" loreInfo="The forces of Gundabad have long held Shakal-atrâd within their grasp. Though all appears quiet outside these foreboding ruins, delving deeper may reveal otherwise...." progressOverride="Discover Shakal-atrâd" landmarkId="1879407932" landmarkName="Shakal-atrâd"/>
+<landmarkDetection index="4" loreInfo="Zudramdân may not be as formidable as Annâk-khurfu, but the dwarves' northern camp allows them some modicum of safety in the long fight to retake their home." progressOverride="Discover Zudramdân" landmarkId="1879407924" landmarkName="Zudramdân"/>
+<landmarkDetection index="5" loreInfo="The rushing waterfalls of the Greylin River drown out even the loudest of sounds at Grálinvarth. From this vantage point, one can easily spot the Rushgate and Annâk-khurfu, as well as glimpse the valley of Misthallow on a clear day." progressOverride="Discover Grálinvarth" landmarkId="1879407933" landmarkName="Grálinvarth"/>
+<landmarkDetection index="6" loreInfo="Crude constructions deface the Gates of Gundabad, a mocking reminder of the dwarves' losses and defeats. One might wonder what else the Orcs have done to further corrupt the former dwarf-kingdom past this foreboding threshold." progressOverride="Discover the Gates of Gundabad" landmarkId="1879407925" landmarkName="Gates of Gundabad"/>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="700"/>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="1000"/>
+<title id="1879411135" name="Seer of the Slade"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
+</rewards>
+</deed>
+<deed id="1879411151" name="Discovery: Shakalush, the Stair Battle" type="EXPLORER" minLevel="120" category="Minas Morgul" level="130" description="You have discovered the entrance to Shakalush, the Stair Battle.">
+<objectives>
+<objective index="1" text="Discover the entrance to Shakalush, the Stair Battle">
+<landmarkDetection index="0" loreInfo="On the eastern side of Gundabad, there is a small entrance known as Bagûd-mekhem. Led by Zhurmat, riding the mighty Groz-and-Ulk, this army poses a grave threat to the dwarf-forces being assembled outside. " progressOverride="Discover the entrance to Shakalush, the Stair Battle" landmarkId="1879410815" landmarkName="Bagûd-mekhem"/>
+</objective>
+</objectives>
+<rewards>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879411171" name="Warg-slayer of Elderslade (Advanced)" type="SLAYER" minLevel="120" category="Elderslade" level="130" description="Defeat many Wargs in Elderslade.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879411176"/>
+</objective>
+<objective index="2" text="Defeat many Wargs in Elderslade.">
+<monsterDied index="0" loreInfo="Where the forces of darkness go, Wargs follow. Into the hills and caves of Elderslade they have burrowed, their ravenous appetite never satiated. Before the dwarf-forces can push forward, the threat of the ferocious beasts must be removed." progressOverride="Defeat Wargs in Elderslade" count="200">
+<monsterSelection where="Elderslade" what="Warg"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="900"/>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
+</rewards>
+</deed>
+<deed id="1879411172" name="Hobgoblin-slayer of Elderslade (Advanced)" type="SLAYER" minLevel="120" category="Elderslade" level="130" description="Defeat many hobgoblins in Elderslade.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879411175"/>
+</objective>
+<objective index="2" text="Defeat many hobgoblins in Elderslade.">
+<monsterDied index="0" loreInfo="Hobgoblins. Meaner, fiercer, crueller… smarter than their Orc or goblin cousins. It is they who are often responsible for organizing the forces of the Enemy. Their malice is made all the worse for how cunning they can be." progressOverride="Defeat hobgoblins in Elderslade" count="160">
+<monsterSelection where="Elderslade" what="Orc/Hobgoblin"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="700"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
+</rewards>
+</deed>
+<deed id="1879411173" name="Angmarim-slayer of Elderslade (Advanced)" type="SLAYER" minLevel="120" category="Elderslade" level="130" description="Defeat many Angmarim in Elderslade.">
+<objectives>
+<objective index="1">
+<questComplete index="0" achievableId="1879411177"/>
+</objective>
+<objective index="2" text="Defeat many Angmarim in Elderslade.">
+<monsterDied index="0" loreInfo="Though their realm has fallen, followers of Angmar have allied with the Orcs of Gundabad and seek to reform their kingdom of old. Their priests and sorcerers weave foul enchantments and delight in torture and destruction." progressOverride="Defeat Angmarim in Elderslade" count="160">
+<monsterSelection where="Elderslade" what="Angmarim"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="900"/>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
+</rewards>
+</deed>
+<deed id="1879411174" name="Enemy Encampments of Elderslade" type="EXPLORER" minLevel="120" category="Elderslade" level="130" description="Explore the enemy encampments found across Elderslade.">
+<objectives>
+<objective index="1" text="Explore the enemy encampments found across Elderslade.">
+<landmarkDetection index="0" loreInfo="The rocky outcrops and hidden caves of the hills of Elderslade make for a perfect location for Warg dens. The ground is littered with bones and the weapons of those who tried and failed against the beasts.&#10;&#10;A foul odour permeates the air, and the rumble of low growls can be heard in the distance." progressOverride="Discover Howlers' Notch" landmarkId="1879407918" landmarkName="Howlers' Notch"/>
+<landmarkDetection index="1" loreInfo="Squatting amidst sun-bleached bones of ancient worms, Malkorlash grants the hobgoblins control of both the nearby river and roads. The encampment also serves to hamper passage through the hills to the Wyrmsgráf River on the eastern side. The hobgoblin and dragon-kin filled passage is from whence Malkorlash, \qmountain gap,\q gains its name." progressOverride="Discover Malkorlash" landmarkId="1879407919" landmarkName="Malkorlash"/>
+<landmarkDetection index="2" loreInfo="Skulking in the shadows of Gundabad's great walls, Hanksar-mokh is a vile nest of Orcs. About the bone piles and hide tents, ancient dwarf-made structures lie in ruins, giving a hint of former glory. Rough scaffolding affords the goblin-kind the ability to swarm up and down the walls without having to use Gundabad's huge staircases." progressOverride="Discover Hanksar-mokh" landmarkId="1879407917" landmarkName="Hanksar-mokh"/>
+<landmarkDetection index="3" loreInfo="The air about Bagûd-mekhem is unnaturally cold, with whipping winds cutting through all but the thickest furs and leathers. Ramshackle scaffolding and rough high walls have been erected about the northern walls of Gundabad. Orcs, goblins, and things even more feared swarm between walls of wood and stone." progressOverride="Discover Bagûd-mekhem" landmarkId="1879410815" landmarkName="Bagûd-mekhem"/>
+<landmarkDetection index="4" loreInfo="Dûn Traikh bears testament to how far the Angmarim have pushed into Elderslade, and for how long they have enjoyed free reign in the lands of the dwarves. Though their realm has fallen, there are those within the walls of Dûn Traikh who strive to bring back the kingdom the Witch King of Angmar once begot." progressOverride="Discover Dûn Traikh" landmarkId="1879407922" landmarkName="Dûn Traikh"/>
+<landmarkDetection index="5" loreInfo="Dark and looming, the spire of Caivád Sâr is where the Angmarim come to engage in ritual, arcane arts, and torture. Caivád Sâr provides a line of defence along the eastern road, housing numerous deadly forces. Its tower thrusts up to the heavens, a grasping claw from which enemies can be spotted miles away." progressOverride="Discover Caivád Sâr" landmarkId="1879407920" landmarkName="Caivád Sâr"/>
+<landmarkDetection index="6" loreInfo="Skulking in the shadows of Gundabad’s great walls and twin to Hanksar-mokh, Kulûg-mokh too is a vile nest of Orcs. About the bone piles and hide tents, ancient dwarf-made structures lie in ruins, giving a hint of former glory. Rough scaffolding affords the goblin-kind the ability to swarm up and down the walls without having to use Gundabad's huge staircases." progressOverride="Discover Kulûg-mokh" landmarkId="1879407927" landmarkName="Kulûg-mokh"/>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="700"/>
+<lotroPoints quantity="5"/>
+<virtueXP quantity="1000"/>
+<title id="1879411133" name="Warrior of the Windswept Heights"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
+</rewards>
+</deed>
+<deed id="1879411175" name="Hobgoblin-slayer of Elderslade" type="SLAYER" minLevel="120" category="Elderslade" level="130" description="Defeat many hobgoblins in Elderslade.">
+<objectives>
+<objective index="1" text="Defeat many hobgoblins in Elderslade.">
+<monsterDied index="0" loreInfo="Hobgoblins. Meaner, fiercer, crueller… smarter than their Orc or goblin cousins. It is they who are often responsible for organizing the forces of the Enemy. Their malice is made all the worse for how cunning they can be." progressOverride="Defeat hobgoblins in Elderslade" count="80">
+<monsterSelection where="Elderslade" what="Orc/Hobgoblin"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="700"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend"/>
+</rewards>
+</deed>
+<deed id="1879411176" name="Warg-slayer of Elderslade" type="SLAYER" minLevel="120" category="Elderslade" level="130" description="Defeat many Wargs in Elderslade.">
+<objectives>
+<objective index="1" text="Defeat many Wargs in Elderslade.">
+<monsterDied index="0" loreInfo="Where the forces of darkness go, Wargs follow. Into the hills and caves of Elderslade they have burrowed, their ravenous appetite never satiated. Before the dwarf-forces can push forward, the threat of the ferocious beasts must be removed." progressOverride="Defeat Wargs in Elderslade" count="80">
+<monsterSelection where="Elderslade" what="Warg"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="700"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend"/>
+</rewards>
+</deed>
+<deed id="1879411177" name="Angmarim-slayer of Elderslade" type="SLAYER" minLevel="120" category="Elderslade" level="130" description="Defeat many Angmarim in Elderslade.">
+<objectives>
+<objective index="1" text="Defeat many Angmarim in Elderslade.">
+<monsterDied index="0" loreInfo="Though their realm has fallen, followers of Angmar have allied with the Orcs of Gundabad and seek to reform their kingdom of old. Their priests and sorcerers weave foul enchantments and delight in torture and destruction." progressOverride="Defeat Angmarim in Elderslade" count="80">
+<monsterSelection where="Elderslade" what="Angmarim"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="700"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend"/>
+</rewards>
+</deed>
+<deed id="1879411178" name="Shakalush, the Stair Battle -- Tier 1" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="On the eastern edge of Gundabad, troops are amassing for a flank on the main dwarf-settlement below. Led by Zhurmat, a goblin atop a two-headed troll, this small army poses a grave threat to all within Elderslade.">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2">
+<questComplete index="0" loreInfo="You have completed 'Shakalush, the Stair Battle -- Tier 1'." progressOverride="Complete 'Shakalush, the Stair Battle -- Tier 1'" achievableId="1879411179"/>
+</objective>
+</objectives>
+<rewards>
+<XP quantity="129839"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879411184" name="Shakalush, the Stair Battle -- Tier 4" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="On the eastern edge of Gundabad, troops are amassing for a flank on the main dwarf-settlement below. Led by Zhurmat, a goblin atop a two-headed troll, this small army poses a grave threat to all within Elderslade.">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2">
+<questComplete index="0" loreInfo="You have completed 'Shakalush, the Stair Battle -- Tier 4'." progressOverride="Complete 'Shakalush, the Stair Battle -- Tier 4'" achievableId="1879411182"/>
+</objective>
+</objectives>
+<rewards>
+<XP quantity="129839"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879411185" name="Shakalush, the Stair Battle -- Tier 5" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="On the eastern edge of Gundabad, troops are amassing for a flank on the main dwarf-settlement below. Led by Zhurmat, a goblin atop a two-headed troll, this small army poses a grave threat to all within Elderslade.">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2">
+<questComplete index="0" loreInfo="You have completed 'Shakalush, the Stair Battle -- Tier 5'." progressOverride="Complete 'Shakalush, the Stair Battle -- Tier 5'" achievableId="1879411181"/>
+</objective>
+</objectives>
+<rewards>
+<XP quantity="129839"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879411186" name="Shakalush, the Stair Battle -- Tier 2" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="On the eastern edge of Gundabad, troops are amassing for a flank on the main dwarf-settlement below. Led by Zhurmat, a goblin atop a two-headed troll, this small army poses a grave threat to all within Elderslade.">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2">
+<questComplete index="0" loreInfo="You have completed 'Shakalush, the Stair Battle -- Tier 2'." progressOverride="Complete 'Shakalush, the Stair Battle -- Tier 2'" achievableId="1879411180"/>
+</objective>
+</objectives>
+<rewards>
+<XP quantity="129839"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879411187" name="Shakalush, the Stair Battle -- Tier 3" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="On the eastern edge of Gundabad, troops are amassing for a flank on the main dwarf-settlement below. Led by Zhurmat, a goblin atop a two-headed troll, this small army poses a grave threat to all within Elderslade.">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2">
+<questComplete index="0" loreInfo="You have completed 'Shakalush, the Stair Battle -- Tier 3'." progressOverride="Complete 'Shakalush, the Stair Battle -- Tier 3'" achievableId="1879411183"/>
+</objective>
+</objectives>
+<rewards>
+<XP quantity="129839"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879411188" name="Shakalush, the Stair Battle -- Orcs" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="Defeat Orcs within Shakalush, the Stair Battle">
+<objectives>
+<objective index="1" text="Defeat Orcs within Shakalush, the Stair Battle">
+<monsterDied index="0" loreInfo="You have cleared a great many of the Orcs from the area." progressOverride="Defeat Orcs within Shakalush, the Stair Battle" count="125">
+<monsterSelection where="elderslade_6man" what="Orc"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879411189" name="Shakalush, the Stair Battle -- Tier 3 -- Leading the Charge" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="A hidden entrance called Bagûd-mekhem, the Gate of Wind, lies just east of Gundabad. Zhurmat, with his fearsome mount the horrible two-headed troll Groz-and-Ulk, leads a force that threatens the Gabil'akkâ below.">
+<objectives>
+<objective index="1">
+<questComplete index="0" loreInfo="You have completed 'Shakalush, the Stair Battle -- Tier 3'." progressOverride="Complete 'Shakalush, the Stair Battle-- Tier 3'" achievableId="1879411183"/>
+</objective>
+</objectives>
+<rewards>
+<XP quantity="129839"/>
+<virtueXP quantity="2000"/>
+<title id="1879411153" name="Led the Charge at Bagûd-mekhem"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879411190" name="Shakalush, the Stair Battle - Hobgoblin" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="Defeat hobgoblins within Shakalush, the Stair Battle.">
+<objectives>
+<objective index="1" text="Defeat hobgoblins within Shakalush, the Stair Battle.">
+<monsterDied index="0" loreInfo="You have cleared a great many of the Frostborn Hobgoblins from the area." progressOverride="Defeat hobgoblins within Shakalush, the Stair Battle" count="75">
+<monsterSelection where="elderslade_6man" what="Hobgoblin"/>
+</monsterDied>
+</objective>
+</objectives>
+<rewards>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879411191" name="Vanquisher of Shakalush, the Stair Battle" type="SLAYER" minLevel="125" category="The War of Three Peaks" level="130" description="A hidden entrance called Bagûd-mekhem, the Gate of Wind, lies just east of Gundabad. Zhurmat, with his fearsome mount the horrible two-headed troll Groz-and-Ulk, leads a force that threatens the Gabil'akkâ below.">
+<objectives>
+<objective index="1">
+<enterDetection index="0"/>
+</objective>
+<objective index="2">
+<questComplete index="0" loreInfo="You have completed 'Shakalush, the Stair Battle -- Tier 1'." progressOverride="Complete 'Shakalush, the Stair Battle -- Tier 1'" achievableId="1879411178"/>
+<questComplete index="1" loreInfo="You have completed 'Shakalush, the Stair Battle -- Tier 2'." progressOverride="Complete 'Shakalush, the Stair Battle -- Tier 2'" achievableId="1879411186"/>
+<questComplete index="2" loreInfo="You have completed 'Shakalush, the Stair Battle -- Tier 3'." progressOverride="Complete 'Shakalush, the Stair Battle -- Tier 3'" achievableId="1879411187"/>
+<questComplete index="3" loreInfo="You have completed 'Shakalush, the Stair Battle: Orc-slayer'." progressOverride="Complete 'Shakalush, the Stair Battle: Orc-slayer'" achievableId="1879411188"/>
+<questComplete index="4" loreInfo="You have completed 'Shakalush, the Stair Battle: Hobgoblin-slayer'." progressOverride="Complete 'Shakalush, the Stair Battle: Hobgoblin-slayer'" achievableId="1879411190"/>
+<questComplete index="5" progressOverride="Complete 'Shakalush, the Stair Battle -- Tier 4'" achievableId="1879411184"/>
+<questComplete index="6" progressOverride="Complete 'Shakalush, the Stair Battle -- Tier 5'" achievableId="1879411185"/>
+</objective>
+</objectives>
+<rewards>
+<XP quantity="129839"/>
+<virtueXP quantity="2000"/>
+<title id="1879411152" name="Crusher Smasher"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="3"/>
+</rewards>
+</deed>
+<deed id="1879411291" name="Quests of Elderslade" type="LORE" minLevel="120" category="Elderslade" level="130" description="Complete many quests in Elderslade.">
+<objectives>
+<objective index="1" text="Complete many quests in Elderslade.">
+<questComplete index="0" loreInfo="You have completed many quests in Elderslade." progressOverride="Complete many quests in Elderslade" questCategory="Elderslade" count="60"/>
+</objective>
+</objectives>
+<rewards>
+<virtueXP quantity="2000"/>
+<title id="1879411138" name="Defender of Elderslade"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="5"/>
+</rewards>
+</deed>
+<deed id="1879411292" name="Explorer of Elderslade" type="EXPLORER" minLevel="120" category="Elderslade" level="130" description="Explore much of Elderslade.">
+<objectives>
+<objective index="1" text="Explore much of Elderslade.">
+<questComplete index="0" loreInfo="You explored the many encampments of the enemy in Elderslade." progressOverride="Complete: Enemy Encampments of Elderslade" achievableId="1879411174"/>
+<questComplete index="1" loreInfo="You found many of the dwarf-markers spread throughout Elderslade." progressOverride="Complete: Dwarf-surveys in Elderslade" achievableId="1879408705"/>
+<questComplete index="2" loreInfo="You found many hidden caches buried in Elderslade." progressOverride="Complete: Treasure-seeker of Elderslade" achievableId="1879408704"/>
+<questComplete index="3" loreInfo="You explored many of the ruined dwarf-structures throughout Elderslade." progressOverride="Complete: Dwarf-ruins of Elderslade" achievableId="1879411148"/>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="900"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="10"/>
+</rewards>
+</deed>
+<deed id="1879411293" name="Quests of Elderslade and War of Three Peaks" type="LORE" minLevel="120" category="Elderslade" level="130" description="Complete many quests in Elderslade and the War of Three Peaks.">
+<objectives>
+<objective index="1" text="Complete many quests in Elderslade and the War of Three Peaks.">
+<questComplete index="0" loreInfo="You have completed many quests in Elderslade." progressOverride="Complete: Quests of Elderslade" achievableId="1879411291"/>
+<questComplete index="1" loreInfo="You have completed many quests in the War of Three Peaks" progressOverride="Complete: Quests of the War of Three Peaks" achievableId="1879411146"/>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="900"/>
+<virtueXP quantity="2000"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="10"/>
+</rewards>
+</deed>
+<deed id="1879411302" name="Deeds of Elderslade" type="EXPLORER" minLevel="120" category="Elderslade" level="130" description="Complete many deeds in Elderslade.">
+<objectives>
+<objective index="1" text="Complete many deeds in Elderslade.">
+<questComplete index="0" loreInfo="You have explored much of Elderslade." progressOverride="Complete: 'Explorer of Elderslade'" achievableId="1879411292"/>
+<questComplete index="1" loreInfo="You have completed many quests in Elderslade and the War of Three Peaks." progressOverride="Complete: 'Quests of Elderslade and War of Three Peaks'" achievableId="1879411293"/>
+<questComplete index="2" loreInfo="You have defeated many foes in Elderslade." progressOverride="Complete: 'Slayer of Elderslade'" achievableId="1879411303"/>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="1200"/>
+<virtueXP quantity="4000"/>
+<title id="1879411137" name="Reclaimer of Elderslade"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="20"/>
+<object id="1879411045" name="Elderslade Accessory"/>
+<object id="1879411046" name="Elderslade Caparison"/>
+<object id="1879411044" name="Elderslade Head-piece"/>
+<object id="1879411047" name="Elderslade Saddle"/>
+</rewards>
+</deed>
+<deed id="1879411303" name="Slayer of Elderslade" type="SLAYER" minLevel="120" category="Elderslade" level="130" description="Defeat many enemies hostile to the March on Gundabad.">
+<objectives>
+<objective index="1" text="Defeat many enemies hostile to the March on Gundabad.">
+<questComplete index="0" loreInfo="You have helped the March on Gundabad fight back against the Angmarim influence in Elderslade." progressOverride="Complete: Angmarim-slayer of Elderslade (Advanced)" achievableId="1879411173"/>
+<questComplete index="1" loreInfo="You have slain many dragons during your time in Elderslade. The March on Gundabad has recognized your efforts." progressOverride="Complete: Dragon-kind Slayer of Elderslade (Advanced)" achievableId="1879411115"/>
+<questComplete index="2" loreInfo="The threat of the hobgoblins in Elderslade has diminished, aiding the March on Gundabad." progressOverride="Complete: Hobgoblin-slayer of Elderslade (Advanced)" achievableId="1879411172"/>
+<questComplete index="3" loreInfo="Many Orcs have fallen before you, helping secure Elderslade for the March on Gundabad." progressOverride="Complete: Orc-slayer of Elderslade (Advanced)" achievableId="1879411147"/>
+<questComplete index="4" loreInfo="Thanks to your efforts, the trolls of Elderslade do not have the numbers to threaten the March on Gundabad as much." progressOverride="Complete: Troll-slayer of Elderslade (Advanced)" achievableId="1879411145"/>
+<questComplete index="5" loreInfo="Fewer Wargs roam the hills of Elderslade, and for that, the March on Gundabad is grateful." progressOverride="Complete: Warg-slayer of Elderslade (Advanced)" achievableId="1879411171"/>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="900"/>
+<virtueXP quantity="2000"/>
+<title id="1879411136" name="Vanquisher of Elderslade"/>
+<object id="1879407802" name="Copper Coin of Gundabad" quantity="10"/>
+</rewards>
+</deed>
+<deed id="1879411335" name="Missions: The War of Three Peaks" type="EXPLORER" minLevel="10" category="Elderslade" level="10" description="Aid the Gabil'akkâ and complete every mission in the War of Three Peaks.">
+<objectives>
+<objective index="1" text="Aid the Gabil'akkâ and complete every mission in the War of Three Peaks.">
+<questComplete index="0" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Sacrificial Tower'" achievableId="1879408930"/>
+<questComplete index="1" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Watchers of Iron'" achievableId="1879408926"/>
+<questComplete index="2" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Three Wardens'" achievableId="1879408925"/>
+<questComplete index="3" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Reclaiming the Vale-watch'" achievableId="1879408460"/>
+<questComplete index="4" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Vale-watch Rescue'" achievableId="1879408470"/>
+<questComplete index="5" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Dourhands in the Deep'" achievableId="1879408463"/>
+<questComplete index="6" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Collapsing the Old Paths'" achievableId="1879408466"/>
+<questComplete index="7" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Halting the Dourhands'" achievableId="1879408469"/>
+<questComplete index="8" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Beasts From the Hills'" achievableId="1879410100"/>
+<questComplete index="9" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Blockade at Glimmerdeep'" achievableId="1879410106"/>
+<questComplete index="10" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Goblin-town Gauntlet'" achievableId="1879408898"/>
+<questComplete index="11" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Great Goblin's Treasure'" achievableId="1879408896"/>
+<questComplete index="12" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Watch-towers at the Goblin-gate'" achievableId="1879408901"/>
+<questComplete index="13" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Emissary at the Goblin-gate'" achievableId="1879408900"/>
+<questComplete index="14" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Eyes on Elderslade'" achievableId="1879411049"/>
+<questComplete index="15" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Wings Over Grálinvarth'" achievableId="1879411050"/>
+<questComplete index="16" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Hand of Gorgar'" achievableId="1879411052"/>
+<questComplete index="17" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Taurogrim Alliance'" achievableId="1879409003"/>
+<questComplete index="18" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Idols of Corruption'" achievableId="1879409002"/>
+<questComplete index="19" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Engines of Flesh and Stone'" achievableId="1879409698"/>
+<questComplete index="20" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Assault on Ashmâr-zarakh'" achievableId="1879409702"/>
+<questComplete index="21" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Last Embers of Nûrz Ghâshu'" achievableId="1879409701"/>
+<questComplete index="22" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: An Agelong Theft'" achievableId="1879409700"/>
+<questComplete index="23" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: A Taste For Battle'" achievableId="1879409697"/>
+<questComplete index="24" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Breaking Bekâr-zarakh'" achievableId="1879409699"/>
+<questComplete index="25" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Burrowers by the Hadhodiant'" achievableId="1879408464"/>
+<questComplete index="26" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Aiding the Bridge Builders'" achievableId="1879408472"/>
+<questComplete index="27" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Matron of the High Pass'" achievableId="1879408457"/>
+<questComplete index="28" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Blockade on the High Pass'" achievableId="1879408471"/>
+<questComplete index="29" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Hunting Grounds'" achievableId="1879408458"/>
+<questComplete index="30" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Beast of Misthallow'" achievableId="1879408461"/>
+<questComplete index="31" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: A New Clutch'" achievableId="1879411048"/>
+<questComplete index="32" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Snows of Kêr Bréin'" achievableId="1879411051"/>
+<questComplete index="33" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Invasion at the Redhorn Pass'" achievableId="1879409378"/>
+<questComplete index="34" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: A Chill on the Gladdenmere'" achievableId="1879409383"/>
+<questComplete index="35" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Relics of the Goldencleft'" achievableId="1879409381"/>
+<questComplete index="36" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Heart of Kidzul-kâlah'" achievableId="1879409385"/>
+<questComplete index="37" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Roots of Decay'" achievableId="1879408459"/>
+<questComplete index="38" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Branches of Corruption'" achievableId="1879408467"/>
+<questComplete index="39" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Bloody Ritual'" achievableId="1879410108"/>
+<questComplete index="40" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Bloody Ruins'" achievableId="1879410105"/>
+<questComplete index="41" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Missing Treasure'" achievableId="1879410103"/>
+<questComplete index="42" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: An Assault of Frost'" achievableId="1879410104"/>
+<questComplete index="43" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Raiders from Gundabad'" achievableId="1879410109"/>
+<questComplete index="44" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Training For Glory'" achievableId="1879410107"/>
+<questComplete index="45" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Throne of Tharrazhâr'" achievableId="1879409424"/>
+<questComplete index="46" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Into the Crystal Tunnels'" achievableId="1879409422"/>
+<questComplete index="47" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Secrets of the Frostdelf'" achievableId="1879408305"/>
+<questComplete index="48" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Halls of the Dead'" achievableId="1879408468"/>
+<questComplete index="49" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Trouble in the Armoury'" achievableId="1879408465"/>
+<questComplete index="50" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Matron of the Keep'" achievableId="1879408462"/>
+<questComplete index="51" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Goblins at Stramvárth'" achievableId="1879410102"/>
+<questComplete index="52" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Abandoned Supplies'" achievableId="1879410101"/>
+<questComplete index="53" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Ore Overflowing'" achievableId="1879408867"/>
+<questComplete index="54" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Goblins for Gorgar'" achievableId="1879408876"/>
+<questComplete index="55" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Under Command of Trolls'" achievableId="1879408895"/>
+<questComplete index="56" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Riches of Sundergrót'" achievableId="1879408894"/>
+<questComplete index="57" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Hunting the Hunters'" achievableId="1879410463"/>
+<questComplete index="58" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Jaws of the Dead'" achievableId="1879410464"/>
+<questComplete index="59" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Shadow of Valdhellir'" achievableId="1879410465"/>
+<questComplete index="60" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Well-fed in Wyrmsgráf'" achievableId="1879410460"/>
+<questComplete index="61" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Scatha's Legacy'" achievableId="1879410461"/>
+<questComplete index="62" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: A Glutton in the Larder'" achievableId="1879410078"/>
+<questComplete index="63" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Matron of the Hatchery'" achievableId="1879408301"/>
+<questComplete index="64" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Den of Worms'" achievableId="1879408355"/>
+<questComplete index="65" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Worm Hatchery'" achievableId="1879408368"/>
+<questComplete index="66" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Magic of the Frost-bound'" achievableId="1879408411"/>
+<questComplete index="67" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: A Frosty Reception'" achievableId="1879408412"/>
+<questComplete index="68" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Den of the Frostbound'" achievableId="1879408415"/>
+<questComplete index="69" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Son of the Chieftain'" achievableId="1879408526"/>
+<questComplete index="70" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Chieftain's Pack'" achievableId="1879408525"/>
+<questComplete index="71" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Gate Captain'" achievableId="1879408521"/>
+<questComplete index="72" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Archers at the Gate'" achievableId="1879408520"/>
+<questComplete index="73" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Nests of Ice'" achievableId="1879411824"/>
+<questComplete index="74" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Area of Interest'" achievableId="1879411825"/>
+<questComplete index="75" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Wall of Ice'" achievableId="1879411826"/>
+<questComplete index="76" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Uncovered Treasures'" achievableId="1879411827"/>
+<questComplete index="77" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Two Heads are Deadlier'" achievableId="1879411828"/>
+<questComplete index="78" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: Reclaiming the Torrent-spires'" achievableId="1879411830"/>
+<questComplete index="79" loreInfo="You have completed this mission and done much to aid the Gabil'akkâ." progressOverride="Complete 'Mission: The Fluttering Fires'" achievableId="1879411829"/>
+</objective>
+</objectives>
+<rewards>
+<reputationItem factionId="1879407816" faction="March on Gundabad" amount="900"/>
+<virtueXP quantity="10000"/>
+<title id="1879411433" name="Axe of the Gabil'akkâ"/>
+<object id="1879411090" name="Gabil'akkâ War-mark" quantity="30"/>
+<object id="1879410985" name="Elderslade Wanderer's Cloak"/>
+<object id="1879410993" name="Hooded Elderslade Wanderer's Cloak"/>
 </rewards>
 </deed>
 </deeds>
