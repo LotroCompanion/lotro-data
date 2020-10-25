@@ -23,7 +23,7 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - geographic areas (regions, territories, areas)
 - parchment maps
 - dungeons
-- private encounters
+- private encounters + instances tree
 - mobs
 - resources maps descriptors
 
