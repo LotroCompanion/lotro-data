@@ -2345,7 +2345,9 @@
 <set id="1879150691" name="Lethal Strikes" level="60" description="">
 <item id="1879150021" name="Earring of Caras Galadhon"/>
 <item id="1879150041" name="Ring of Caras Galadhon"/>
-<bonus nbItems="2"/>
+<bonus nbItems="2">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="15.000001"/>
+</bonus>
 </set>
 <set id="1879150692" name="Protector's Reproach" level="60" description="">
 <item id="1879150010" name="Lothlórien Protector's Manacle"/>
@@ -2355,17 +2357,23 @@
 <set id="1879150693" name="Blessing of Caras Galadhon" level="60" description="">
 <item id="1879150016" name="Choker of Laurelindórenan"/>
 <item id="1879150034" name="Wristlet of Laurelindórenan"/>
-<bonus nbItems="2"/>
+<bonus nbItems="2">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="15.000001"/>
+</bonus>
 </set>
 <set id="1879150694" name="Lothlórien Knowledge" level="60" description="">
 <item id="1879150023" name="Ring of the Dreamflower"/>
 <item id="1879150022" name="Earring of the Dreamflower"/>
-<bonus nbItems="2"/>
+<bonus nbItems="2">
+<stat name="ALL_SKILL_INDUCTION" operator="SUBSTRACT" constant="15.000001"/>
+</bonus>
 </set>
 <set id="1879150695" name="Deadly Aim" level="60" description="">
 <item id="1879150014" name="Earring of the Golden Wood"/>
 <item id="1879150008" name="Ring of the Golden Wood"/>
-<bonus nbItems="2"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RANGED_PERCENTAGE" constant="5.0"/>
+</bonus>
 </set>
 <set id="1879151809" name="Armour of the Stone-reader's Apprentice" level="60" description="">
 <item id="1879151868" name="Robe of the Stone-reader's Apprentice"/>
@@ -17680,7 +17688,9 @@
 <bonus nbItems="2">
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
-<bonus nbItems="4"/>
+<bonus nbItems="4">
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="10.0"/>
+</bonus>
 <bonus nbItems="5"/>
 </set>
 <set id="1879401629" name="Trappings of Timeless Favour&#10;(Max Level: 134)" level="430" description="">
