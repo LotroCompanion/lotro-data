@@ -2713,7 +2713,7 @@
 <item id="1879158592" name="Rune-maker's Hat"/>
 <bonus nbItems="4">
 <stat name="Runekeeper_HealingWrit_PowerCost" operator="SUBSTRACT" descriptionOverride="-15% Writs Power Cost" constant="15.000001"/>
-<stat name="Runekeeper_BattleWrit_PowerCost" operator="SUBSTRACT" constant="15.000001"/>
+<stat name="Runekeeper_BattleWrit_PowerCost" operator="SUBSTRACT" descriptionOverride="-" constant="15.000001"/>
 </bonus>
 </set>
 <set id="1879158597" name="Armour of the Deathstorm" level="63" description="">
@@ -3103,7 +3103,7 @@
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Trait_DamageMultiplier_DeadlyInsult" constant="10.0"/>
+<stat name="Trait_DamageMultiplier_DeadlyInsult" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="10% Fist Gambit Damage"/>
 </bonus>
 </set>
@@ -3200,7 +3200,7 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Trait_DamageMultiplier_DeadlyInsult" constant="10.0"/>
+<stat name="Trait_DamageMultiplier_DeadlyInsult" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="10% Fist Gambit Damage"/>
 </bonus>
 </set>
@@ -4160,7 +4160,7 @@
 <stat name="WILL" scaling="1879211576"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Minstrel_PiercingCry_Recovery" constant="-5.0"/>
+<stat name="Skill_Minstrel_PiercingCry_Recovery" descriptionOverride="-" constant="-5.0"/>
 <specialEffect label="-5s Piercing Cry Cooldown"/>
 </bonus>
 </set>
@@ -4514,7 +4514,7 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_DamageMultiplier_Bleed_MightyBlow" constant="25.0"/>
+<stat name="Skill_DamageMultiplier_Bleed_MightyBlow" descriptionOverride="-" constant="25.0"/>
 <specialEffect label="Power Attack, Mighty Blow and Unerring Strike bleed damage increased 25%"/>
 </bonus>
 </set>
@@ -5455,8 +5455,8 @@
 <specialEffect label="Scourging Blow and Heart Seeker negate the Induction of your next Barbed Arrow."/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Itemset_Bonus_Hunter_Fleetness_PipMinMod" constant="1.0"/>
-<stat name="Itemset_Bonus_Hunter_Fleetness_PipCost" constant="1.0"/>
+<stat name="Itemset_Bonus_Hunter_Fleetness_PipMinMod" descriptionOverride="-" constant="1.0"/>
+<stat name="Itemset_Bonus_Hunter_Fleetness_PipCost" descriptionOverride="-" constant="1.0"/>
 <specialEffect label="Fleetness reduces the Focus cost of Penetrating Shot and Blood Arrow by 1."/>
 </bonus>
 </set>
@@ -5765,7 +5765,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879211642"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Duration_Champion_Hamstring" constant="10.0"/>
+<stat name="Skill_Duration_Champion_Hamstring" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+50% Hamstring Duration"/>
 </bonus>
 </set>
@@ -5836,7 +5836,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879211642"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Minstrel_Ballad_Damage" constant="7.0"/>
+<stat name="Skill_Minstrel_Ballad_Damage" descriptionOverride="-" constant="7.0"/>
 <specialEffect label="+7% Ballad Damage"/>
 </bonus>
 </set>
@@ -5865,7 +5865,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879211642"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Trait_DamageMultiplier_DeadlyInsult" constant="10.0"/>
+<stat name="Trait_DamageMultiplier_DeadlyInsult" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="10% Fist Gambit Damage"/>
 </bonus>
 </set>
@@ -5880,7 +5880,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879211642"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_DamageMultiplier_Safeguard" constant="20.0"/>
+<stat name="Skill_DamageMultiplier_Safeguard" descriptionOverride="-" constant="20.0"/>
 <specialEffect label="+20% Spear-Shield Gambit Damage"/>
 </bonus>
 </set>
@@ -6129,7 +6129,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Minstrel_Ballad_Damage" constant="7.0"/>
+<stat name="Skill_Minstrel_Ballad_Damage" descriptionOverride="-" constant="7.0"/>
 <specialEffect label="+7% Ballad Damage"/>
 </bonus>
 </set>
@@ -6172,7 +6172,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Trait_DamageMultiplier_DeadlyInsult" constant="10.0"/>
+<stat name="Trait_DamageMultiplier_DeadlyInsult" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="10% Fist Gambit Damage"/>
 </bonus>
 </set>
@@ -6215,7 +6215,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_DamageMultiplier_Safeguard" constant="20.0"/>
+<stat name="Skill_DamageMultiplier_Safeguard" descriptionOverride="-" constant="20.0"/>
 <specialEffect label="+20% Spear-Shield Gambit Damage"/>
 </bonus>
 </set>
@@ -6287,7 +6287,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Combat_SkillDamageMultiplier_Fire" constant="10.0"/>
+<stat name="Combat_SkillDamageMultiplier_Fire" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Fire Damage"/>
 </bonus>
 </set>
@@ -6399,7 +6399,7 @@
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Hunter_RainofThorns_PipMinMod" descriptionOverride="Focus Cost of Rain of Thorns reduced to 0." constant="-6.0"/>
-<stat name="Skill_Hunter_RainofThorns_PipCostMod" constant="6.0"/>
+<stat name="Skill_Hunter_RainofThorns_PipCostMod" descriptionOverride="-" constant="6.0"/>
 </bonus>
 </set>
 <set id="1879238891" name="Armour of Pandemonium - 85" level="97" description="">
@@ -6483,7 +6483,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_RecoveryTime_Minstrel_u8_Audacity_Hammerhand" constant="-75.0"/>
+<stat name="Skill_RecoveryTime_Minstrel_u8_Audacity_Hammerhand" descriptionOverride="-" constant="-75.0"/>
 <specialEffect label="-25% Gift of the Hammerhand Cooldown"/>
 </bonus>
 </set>
@@ -6712,7 +6712,7 @@
 <stat name="Itemset_Application_Warden_BoarsRush_Daze" descriptionOverride="+40% Boar's Rush Critical Chance" constant="40.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_DamageMultiplier_Bleed_MightyBlow" constant="25.0"/>
+<stat name="Skill_DamageMultiplier_Bleed_MightyBlow" descriptionOverride="-" constant="25.0"/>
 <specialEffect label="+25% Power Attack, Mighty Blow, and Unerring Strike bleed damage"/>
 </bonus>
 </set>
@@ -6853,7 +6853,7 @@
 <item id="1879247208" name="Boots of the Hytbold Healer"/>
 <bonus nbItems="2">
 <stat name="Skill_Captain_MeleeHealBonus" descriptionOverride="+5% Melee and Vocal Skills Healing" constant="5.0"/>
-<stat name="Skill_Captain_VocalHealBonus" constant="5.0"/>
+<stat name="Skill_Captain_VocalHealBonus" descriptionOverride="-" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="-7s Valiant Strike Cooldown for each ally affected by Rallying Cry"/>
@@ -6867,7 +6867,7 @@
 <item id="1879247561" name="Leggings of the Hytbold Skald"/>
 <item id="1879247559" name="Boots of the Hytbold Skald"/>
 <bonus nbItems="2">
-<stat name="Skill_Minstrel_PiercingCry_Recovery" constant="-5.0"/>
+<stat name="Skill_Minstrel_PiercingCry_Recovery" descriptionOverride="-" constant="-5.0"/>
 <specialEffect label="-5s Piercing Cry Cooldown"/>
 </bonus>
 <bonus nbItems="4">
@@ -7039,7 +7039,7 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_DamageMultiplier_Safeguard" constant="20.0"/>
+<stat name="Skill_DamageMultiplier_Safeguard" descriptionOverride="-" constant="20.0"/>
 <specialEffect label="+20% Spear-Shield Gambit Damage"/>
 </bonus>
 </set>
@@ -7249,7 +7249,7 @@
 <bonus nbItems="2">
 <stat name="IA_Runekeeper_ThunderStruck_Chance" descriptionOverride="+{***} chance to apply Thunderous Words and Harsh Debate" constant="5.0"/>
 <stat name="IA_Runekeeper_Shaken_Chance" constant="10.0"/>
-<stat name="Skill_Attunement_Runekeeper_Lightning_Stun_StunRate" constant="5.0"/>
+<stat name="Skill_Attunement_Runekeeper_Lightning_Stun_StunRate" descriptionOverride="-" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879265415" name="Armour of the Erebor Healer" level="97" description="">
@@ -7390,7 +7390,7 @@
 <item id="1879264465" name="Greater Boots of the Erebor Huntsman"/>
 <bonus nbItems="2">
 <stat name="Itemset_Bonus_Hunter_Fleetness_PipMinMod" constant="1.0"/>
-<stat name="Itemset_Bonus_Hunter_Fleetness_PipCost" constant="1.0"/>
+<stat name="Itemset_Bonus_Hunter_Fleetness_PipCost" descriptionOverride="-" constant="1.0"/>
 <specialEffect label="Fleetness reduces the Focus cost of Penetrating Shot and Blood Arrow by 1."/>
 </bonus>
 <bonus nbItems="4">
@@ -7625,7 +7625,7 @@
 <item id="1879264092" name="Boots of the Erebor Huntsman"/>
 <bonus nbItems="2">
 <stat name="Itemset_Bonus_Hunter_Fleetness_PipMinMod" constant="1.0"/>
-<stat name="Itemset_Bonus_Hunter_Fleetness_PipCost" constant="1.0"/>
+<stat name="Itemset_Bonus_Hunter_Fleetness_PipCost" descriptionOverride="-" constant="1.0"/>
 <specialEffect label="Fleetness reduces the Focus cost of Penetrating Shot and Blood Arrow by 1."/>
 </bonus>
 </set>
@@ -12508,7 +12508,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_DamageMultiplier_Safeguard" constant="20.0"/>
+<stat name="Skill_DamageMultiplier_Safeguard" descriptionOverride="-" constant="20.0"/>
 <specialEffect label="+20% Spear-Shield Gambit Damage"/>
 </bonus>
 </set>
@@ -12565,7 +12565,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Minstrel_Ballad_Damage" constant="7.0"/>
+<stat name="Skill_Minstrel_Ballad_Damage" descriptionOverride="-" constant="7.0"/>
 <specialEffect label="+7% Ballad Damage"/>
 </bonus>
 </set>
@@ -12678,7 +12678,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_RecoveryTime_Minstrel_u8_Audacity_Hammerhand" constant="-75.0"/>
+<stat name="Skill_RecoveryTime_Minstrel_u8_Audacity_Hammerhand" descriptionOverride="-" constant="-75.0"/>
 <specialEffect label="-25% Gift of the Hammerhand Cooldown"/>
 </bonus>
 </set>
@@ -12794,7 +12794,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Trait_DamageMultiplier_DeadlyInsult" constant="10.0"/>
+<stat name="Trait_DamageMultiplier_DeadlyInsult" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="10% Fist Gambit Damage"/>
 </bonus>
 </set>
@@ -12860,7 +12860,7 @@
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Hunter_RainofThorns_PipMinMod" descriptionOverride="Focus Cost of Rain of Thorns reduced to 0" constant="-6.0"/>
-<stat name="Skill_Hunter_RainofThorns_PipCostMod" constant="6.0"/>
+<stat name="Skill_Hunter_RainofThorns_PipCostMod" descriptionOverride="-" constant="6.0"/>
 </bonus>
 </set>
 <set id="1879302418" name="Storm-caller's Raiment - 95" level="176" description="">
@@ -12874,7 +12874,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Combat_SkillDamageMultiplier_Fire" constant="10.0"/>
+<stat name="Combat_SkillDamageMultiplier_Fire" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Fire Damage"/>
 </bonus>
 </set>
@@ -13441,7 +13441,7 @@
 <item id="1879313354" name="Boots of the Archivist"/>
 <bonus nbItems="2">
 <stat name="Skill_Runekeeper_SmoulderingWrath_Damage" descriptionOverride="+{***} chance to apply Thunderous Words and Harsh Debate" constant="10.0"/>
-<stat name="IA_Runekeeper_Shaken_Chance" constant="10.0"/>
+<stat name="IA_Runekeeper_Shaken_Chance" descriptionOverride="-" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Runekeeper_Healing_HoT" constant="10.0"/>
@@ -13579,7 +13579,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_DamageMultiplier_Safeguard" constant="20.0"/>
+<stat name="Skill_DamageMultiplier_Safeguard" descriptionOverride="-" constant="20.0"/>
 <specialEffect label="+20% Spear-Shield Gambit Damage"/>
 </bonus>
 </set>
@@ -13609,7 +13609,7 @@
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Hunter_RainofThorns_PipMinMod" descriptionOverride="Focus Cost of Rain of Thorns reduced to 0" constant="-6.0"/>
-<stat name="Skill_Hunter_RainofThorns_PipCostMod" constant="6.0"/>
+<stat name="Skill_Hunter_RainofThorns_PipCostMod" descriptionOverride="-" constant="6.0"/>
 </bonus>
 </set>
 <set id="1879314449" name="Arms of the Sovereign Blade - 100" level="176" description="">
@@ -13651,7 +13651,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Minstrel_Ballad_Damage" constant="7.0"/>
+<stat name="Skill_Minstrel_Ballad_Damage" descriptionOverride="-" constant="7.0"/>
 <specialEffect label="+7% Ballad Damage"/>
 </bonus>
 </set>
@@ -13681,7 +13681,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Trait_DamageMultiplier_DeadlyInsult" constant="10.0"/>
+<stat name="Trait_DamageMultiplier_DeadlyInsult" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="10% Fist Gambit Damage"/>
 </bonus>
 </set>
@@ -13746,7 +13746,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Combat_SkillDamageMultiplier_Fire" constant="10.0"/>
+<stat name="Combat_SkillDamageMultiplier_Fire" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Fire Damage"/>
 </bonus>
 </set>
@@ -13761,7 +13761,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879260945"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_RecoveryTime_Minstrel_u8_Audacity_Hammerhand" constant="-75.0"/>
+<stat name="Skill_RecoveryTime_Minstrel_u8_Audacity_Hammerhand" descriptionOverride="-" constant="-75.0"/>
 <specialEffect label="-25% Gift of the Hammerhand Cooldown"/>
 </bonus>
 </set>
@@ -13971,7 +13971,7 @@
 <stat name="MIGHT" scaling="1879211577"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_CallToWild_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_CallToWild_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Call to Wild Cooldown"/>
 </bonus>
 </set>
@@ -14008,7 +14008,7 @@
 <stat name="VITALITY" scaling="1879211557"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_ThickenedHide_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_ThickenedHide_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Thickened Hide Cooldown"/>
 </bonus>
 </set>
@@ -14023,7 +14023,7 @@
 <stat name="FATE" scaling="1879211548"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_NaturesBond_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_NaturesBond_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Nature's Bond Cooldown"/>
 </bonus>
 </set>
@@ -14113,11 +14113,11 @@
 <stat name="MIGHT" scaling="1879211577"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath1" constant="-3.0"/>
-<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath2" constant="-6.0"/>
-<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath3" constant="-9.0"/>
-<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath4" constant="-12.0"/>
-<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath5" constant="-15.000001"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath1" descriptionOverride="-" constant="-3.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath2" descriptionOverride="-" constant="-6.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath3" descriptionOverride="-" constant="-9.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath4" descriptionOverride="-" constant="-12.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath5" descriptionOverride="-" constant="-15.000001"/>
 <specialEffect label="Gain 3% Attack Duration Reduction for every 20 Wrath you have."/>
 </bonus>
 </set>
@@ -14132,11 +14132,11 @@
 <stat name="VITALITY" scaling="1879211557"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath1" constant="1.0"/>
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath2" constant="2.0"/>
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath3" constant="3.0"/>
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath4" constant="4.0"/>
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath5" constant="5.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath1" descriptionOverride="-" constant="1.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath2" descriptionOverride="-" constant="2.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath3" descriptionOverride="-" constant="3.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath4" descriptionOverride="-" constant="4.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath5" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="Gain 1% Parry Chance for every 20 Wrath you have."/>
 </bonus>
 </set>
@@ -14344,7 +14344,7 @@
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Warden_Marked_Target" operator="SUBSTRACT" descriptionOverride="Marked Target and Diminished Target remove an additional 2% Mitigations." constant="2.0"/>
-<stat name="Skill_Warden_Diminished_Target" operator="SUBSTRACT" constant="2.0"/>
+<stat name="Skill_Warden_Diminished_Target" operator="SUBSTRACT" descriptionOverride="-" constant="2.0"/>
 </bonus>
 </set>
 <set id="1879324423" name="Osgiliath Armour of Resolve" level="198" description="">
@@ -14369,7 +14369,7 @@
 <item id="1879323327" name="Leggings of the Osgiliath Song-protector"/>
 <item id="1879323285" name="Shoes of the Osgiliath Song-protector"/>
 <bonus nbItems="2">
-<stat name="Skill_Minstrel_PiercingCry_Recovery" constant="-5.0"/>
+<stat name="Skill_Minstrel_PiercingCry_Recovery" descriptionOverride="-" constant="-5.0"/>
 <specialEffect label="-5s Piercing Cry Cooldown"/>
 </bonus>
 <bonus nbItems="4">
@@ -14425,7 +14425,7 @@
 <item id="1879323451" name="Boots of the Osgiliath Trapper"/>
 <bonus nbItems="2">
 <stat name="Trait_Hunter_TrapDamage" constant="10.0"/>
-<stat name="Skill_Hunter_RainofThorns_PipCostMod" constant="6.0"/>
+<stat name="Skill_Hunter_RainofThorns_PipCostMod" descriptionOverride="-" constant="6.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Hunter_RecoveryTime_Trait_TrapRecovery" operator="SUBSTRACT" descriptionOverride="-{***} Seconds off all Trap Skill Cooldowns" constant="10.0"/>
@@ -14482,8 +14482,8 @@
 <item id="1879323361" name="Boots of the Osgiliath Huntsman"/>
 <bonus nbItems="2">
 <stat name="Skill_Hunter_Skill_InductionDuration_BowInductions" operator="SUBSTRACT" descriptionOverride="-10% Bow Inductions" constant="10.0"/>
-<stat name="Itemset_Bonus_Hunter_Fleetness_PipMinMod" constant="1.0"/>
-<stat name="Itemset_Bonus_Hunter_Fleetness_PipCost" constant="1.0"/>
+<stat name="Itemset_Bonus_Hunter_Fleetness_PipMinMod" descriptionOverride="-" constant="1.0"/>
+<stat name="Itemset_Bonus_Hunter_Fleetness_PipCost" descriptionOverride="-" constant="1.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_RecoveryTime_BloodArrow" operator="SUBSTRACT" descriptionOverride="-{***}s Blood Arrow Cooldown" constant="4.0"/>
@@ -14625,7 +14625,7 @@
 <item id="1879323448" name="Boots of the Osgiliath Hide"/>
 <bonus nbItems="2"/>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_ThickenedHide_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_ThickenedHide_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Thickened Hide Cooldown"/>
 </bonus>
 </set>
@@ -14682,7 +14682,7 @@
 <stat name="Skill_Captain_CritHealing_Magnitude" descriptionOverride="+{***} Critical Healing Magnitude" constant="20.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_NaturesBond_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_NaturesBond_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Nature's Bond Cooldown"/>
 </bonus>
 </set>
@@ -14739,7 +14739,7 @@
 <stat name="Skill_Beorning_IA_RelentlessMaul_Damage" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_CallToWild_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_CallToWild_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Call to Wild Cooldown"/>
 </bonus>
 </set>
@@ -14752,11 +14752,11 @@
 <item id="1879323317" name="Shoes of the Osgiliath Thunder-caller"/>
 <bonus nbItems="2">
 <stat name="Combat_SkillDamageMultiplier_Lightning" constant="10.0"/>
-<stat name="IA_Runekeeper_Shaken_Chance" constant="10.0"/>
+<stat name="IA_Runekeeper_Shaken_Chance" descriptionOverride="-" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="IA_Runekeeper_ThunderStruck_Chance" descriptionOverride="+{***} chance to apply Thunderous Words and Harsh Debate" constant="10.0"/>
-<stat name="IA_Runekeeper_Shaken_Chance" constant="10.0"/>
+<stat name="IA_Runekeeper_Shaken_Chance" descriptionOverride="-" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879325189" name="Forest Bounder's Gear" level="75" description="">
@@ -14866,11 +14866,11 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath1" constant="1.0"/>
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath2" constant="2.0"/>
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath3" constant="3.0"/>
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath4" constant="4.0"/>
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath5" constant="5.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath1" descriptionOverride="-" constant="1.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath2" descriptionOverride="-" constant="2.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath3" descriptionOverride="-" constant="3.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath4" descriptionOverride="-" constant="4.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath5" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="Gain 1% Parry Chance for every 20 Wrath you have."/>
 </bonus>
 </set>
@@ -14929,7 +14929,7 @@
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Warden_Marked_Target" descriptionOverride="+5% Marked Target and Diminished Target Debuff Strength" constant="-5.0"/>
-<stat name="Skill_Warden_Diminished_Target" constant="-5.0"/>
+<stat name="Skill_Warden_Diminished_Target" descriptionOverride="-" constant="-5.0"/>
 </bonus>
 </set>
 <set id="1879331947" name="Armour of a Rune-keeper's Recollection&#10;(Max Level: 114)" level="216" description="">
@@ -15045,11 +15045,11 @@
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath1" constant="-3.0"/>
-<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath2" constant="-6.0"/>
-<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath3" constant="-9.0"/>
-<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath4" constant="-12.0"/>
-<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath5" constant="-15.000001"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath1" descriptionOverride="-" constant="-3.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath2" descriptionOverride="-" constant="-6.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath3" descriptionOverride="-" constant="-9.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath4" descriptionOverride="-" constant="-12.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath5" descriptionOverride="-" constant="-15.000001"/>
 <specialEffect label="Gain 3% Attack Duration Reduction for every 20 Wrath you have."/>
 <specialEffect label="Unlocks the power of the Hilt of Eärnil"/>
 </bonus>
@@ -15169,7 +15169,7 @@
 <stat name="WILL" scaling="1879211578"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Combat_SkillDamageMultiplier_Fire" constant="10.0"/>
+<stat name="Combat_SkillDamageMultiplier_Fire" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Fire-type Damage"/>
 </bonus>
 <bonus nbItems="5">
@@ -15187,8 +15187,8 @@
 <stat name="WILL" scaling="1879211578"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Itemset_Minstrel_CriticalChance_CryCall" constant="25.0"/>
-<stat name="IA_Minstrel_CalltoFate_CriticalMagnitude" constant="25.0"/>
+<stat name="Itemset_Minstrel_CriticalChance_CryCall" descriptionOverride="-" constant="25.0"/>
+<stat name="IA_Minstrel_CalltoFate_CriticalMagnitude" descriptionOverride="-" constant="25.0"/>
 <specialEffect label="+25% Cries and Calls Critical Damage"/>
 </bonus>
 <bonus nbItems="5">
@@ -15206,7 +15206,7 @@
 <stat name="MIGHT" scaling="1879211532"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_VitalReturn_Captain_ValiantStrike" constant="20.0"/>
+<stat name="Skill_VitalReturn_Captain_ValiantStrike" descriptionOverride="-" constant="20.0"/>
 <specialEffect label="+20% Valiant Strike Healing"/>
 </bonus>
 <bonus nbItems="5">
@@ -15221,7 +15221,7 @@
 <item id="1879333589" name="Greater Leggings of the Unshakeable Spear"/>
 <item id="1879333602" name="Greater Boots of the Unshakeable Spear"/>
 <bonus nbItems="2">
-<stat name="Skill_Warden_BleedDamage" constant="25.0"/>
+<stat name="Skill_Warden_BleedDamage" descriptionOverride="-" constant="25.0"/>
 <specialEffect label="+25% Bleed Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -15246,7 +15246,7 @@
 <stat name="MIGHT" scaling="1879211532"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Duration_Champion_Adamant" constant="5.0"/>
+<stat name="Skill_Duration_Champion_Adamant" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="Adamant's duration increased by 5s."/>
 </bonus>
 <bonus nbItems="5">
@@ -15264,7 +15264,7 @@
 <stat name="MIGHT" scaling="1879211532"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_ThickenedHide_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_ThickenedHide_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Thickened Hide Cooldown"/>
 </bonus>
 <bonus nbItems="5">
@@ -15279,7 +15279,7 @@
 <item id="1879333374" name="Greater Battle Leggings of the Resolute Leader"/>
 <item id="1879333397" name="Greater Greaves of the Resolute Leader"/>
 <bonus nbItems="2">
-<stat name="Skill_VitalReturn_Captain_ValiantStrike" constant="20.0"/>
+<stat name="Skill_VitalReturn_Captain_ValiantStrike" descriptionOverride="-" constant="20.0"/>
 <specialEffect label="+20% Valiant Strike Healing"/>
 </bonus>
 <bonus nbItems="3">
@@ -15301,7 +15301,7 @@
 <item id="1879333687" name="Greater Leggings of the Fierce Skin-changer"/>
 <item id="1879333719" name="Greater Boots of the Fierce Skin-changer"/>
 <bonus nbItems="2">
-<stat name="Skill_Beorning_ItemSet_CallToWild_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_CallToWild_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Call to Wild Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -15321,7 +15321,7 @@
 <item id="1879333549" name="Greater Leggings of the Vigilant Watcher"/>
 <item id="1879333503" name="Greater Boots of the Vigilant Watcher"/>
 <bonus nbItems="2">
-<stat name="Itemset_Minstrel_CriticalChance_Healing" constant="5.0"/>
+<stat name="Itemset_Minstrel_CriticalChance_Healing" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="+5% Healing Critical Chance"/>
 </bonus>
 <bonus nbItems="3">
@@ -15346,7 +15346,7 @@
 <stat name="WILL" scaling="1879211578"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Minstrel_AnthemofCompusure_TacticalMitigation" constant="2.0"/>
+<stat name="Skill_Minstrel_AnthemofCompusure_TacticalMitigation" descriptionOverride="-" constant="2.0"/>
 <specialEffect label="Anthem of Composure grants +2% Tactical Mitigation."/>
 </bonus>
 <bonus nbItems="5">
@@ -15382,7 +15382,7 @@
 <item id="1879333471" name="Greater Battle Leggings of the Unwavering Charge"/>
 <item id="1879333617" name="Greater Greaves of the Unwavering Charge"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMultiplier_Trait_MasterofWar" constant="10.0"/>
+<stat name="Skill_DamageMultiplier_Trait_MasterofWar" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Shadow's Lament Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -15407,7 +15407,7 @@
 <stat name="WILL" scaling="1879211578"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" constant="10.0"/>
+<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Smouldering Wrath Damage"/>
 </bonus>
 <bonus nbItems="5">
@@ -15425,7 +15425,7 @@
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Warden_BleedDamage" constant="25.0"/>
+<stat name="Skill_Warden_BleedDamage" descriptionOverride="-" constant="25.0"/>
 <specialEffect label="+25% Bleed Damage"/>
 </bonus>
 <bonus nbItems="5">
@@ -15440,7 +15440,7 @@
 <item id="1879333533" name="Greater Battle Leggings of the Martial Defender"/>
 <item id="1879333613" name="Greater Greaves of the Martial Defender"/>
 <bonus nbItems="2">
-<stat name="Skill_Duration_Champion_Adamant" constant="5.0"/>
+<stat name="Skill_Duration_Champion_Adamant" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="Adamant's duration increased by 5s."/>
 </bonus>
 <bonus nbItems="3">
@@ -15482,7 +15482,7 @@
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="IA_Hunter_Damage_HeartSeeker" constant="15.000001"/>
+<stat name="IA_Hunter_Damage_HeartSeeker" descriptionOverride="-" constant="15.000001"/>
 <specialEffect label="+15% Heart Seeker Damage"/>
 </bonus>
 <bonus nbItems="5">
@@ -15497,7 +15497,7 @@
 <item id="1879333639" name="Greater Leggings of the Sure-footed Huntsman"/>
 <item id="1879333629" name="Greater Boots of the Sure-footed Huntsman"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMitigation_u8_audacity" constant="2.0"/>
+<stat name="Skill_DamageMitigation_u8_audacity" descriptionOverride="-" constant="2.0"/>
 <specialEffect label="-15% Target Penetrating Shot Mitigation"/>
 </bonus>
 <bonus nbItems="3">
@@ -15575,7 +15575,7 @@
 <item id="1879333444" name="Greater Leggings of the Nature-friend"/>
 <item id="1879333339" name="Greater Boots of the Nature-friend"/>
 <bonus nbItems="2">
-<stat name="Itemset_Loremaster_WaterLore_IncHealingMod" constant="5.0"/>
+<stat name="Itemset_Loremaster_WaterLore_IncHealingMod" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="Water-lore's Incoming Healing buff is increased by 5%."/>
 </bonus>
 <bonus nbItems="3">
@@ -15597,7 +15597,7 @@
 <item id="1879333507" name="Greater Battle Leggings of the Siege-breaker"/>
 <item id="1879333517" name="Greater Greaves of the Siege-breaker"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMultiplier_Champion_ControlledBurn" constant="7.0"/>
+<stat name="Skill_DamageMultiplier_Champion_ControlledBurn" descriptionOverride="-" constant="7.0"/>
 <specialEffect label="+7% damage buff from Controlled Burn"/>
 </bonus>
 <bonus nbItems="3">
@@ -15622,7 +15622,7 @@
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Itemset_Hunter_RecoveryTime_BardsArrow" constant="-5.0"/>
+<stat name="Itemset_Hunter_RecoveryTime_BardsArrow" descriptionOverride="-" constant="-5.0"/>
 <specialEffect label="-5s Bard's Arrow Cooldown"/>
 </bonus>
 <bonus nbItems="5">
@@ -15640,7 +15640,7 @@
 <stat name="WILL" scaling="1879211578"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Itemset_Loremaster_WaterLore_PulseCount" constant="3.0"/>
+<stat name="Itemset_Loremaster_WaterLore_PulseCount" descriptionOverride="-" constant="3.0"/>
 <specialEffect label="+3 Water-lore Pulses"/>
 </bonus>
 <bonus nbItems="5">
@@ -15655,8 +15655,8 @@
 <item id="1879333326" name="Greater Leggings of the Shield-splinterer"/>
 <item id="1879333340" name="Greater Boots of the Shield-splinterer"/>
 <bonus nbItems="2">
-<stat name="Skill_Warden_MarkedTarget_Duration" constant="10.0"/>
-<stat name="Skill_Warden_DiminishedTarget_Duration" constant="10.0"/>
+<stat name="Skill_Warden_MarkedTarget_Duration" descriptionOverride="-" constant="10.0"/>
+<stat name="Skill_Warden_DiminishedTarget_Duration" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="Marked Target and Diminished Target durations increased by 5s."/>
 </bonus>
 <bonus nbItems="3">
@@ -15678,7 +15678,7 @@
 <item id="1879333530" name="Greater Leggings of the Precise Bowmaster"/>
 <item id="1879333523" name="Greater Boots of the Precise Bowmaster"/>
 <bonus nbItems="2">
-<stat name="IA_Hunter_Damage_HeartSeeker" constant="15.000001"/>
+<stat name="IA_Hunter_Damage_HeartSeeker" descriptionOverride="-" constant="15.000001"/>
 <specialEffect label="+15% Heart Seeker Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -15700,7 +15700,7 @@
 <item id="1879333622" name="Greater Leggings of the Peace-mender"/>
 <item id="1879333574" name="Greater Boots of the Peace-mender"/>
 <bonus nbItems="2">
-<stat name="Trait_Minstrel_Healing_CriticalMod" constant="5.0"/>
+<stat name="Trait_Minstrel_Healing_CriticalMod" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="+5% Critical Healing Magnitude"/>
 </bonus>
 <bonus nbItems="3">
@@ -15725,7 +15725,7 @@
 <stat name="WILL" scaling="1879211578"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Trait_Minstrel_Healing_CriticalMod" constant="5.0"/>
+<stat name="Trait_Minstrel_Healing_CriticalMod" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="+5% Critical Healing Magnitude"/>
 </bonus>
 <bonus nbItems="5">
@@ -15740,7 +15740,7 @@
 <item id="1879333450" name="Greater Leggings of the Hidden Blade"/>
 <item id="1879333359" name="Greater Boots of the Hidden Blade"/>
 <bonus nbItems="2">
-<stat name="Trait_Burglar_KnivesOut_Cooldown" constant="-30.0"/>
+<stat name="Trait_Burglar_KnivesOut_Cooldown" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Knives Out Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -15763,7 +15763,7 @@
 <item id="1879333718" name="Greater Leggings of the Tenacious Skin-changer"/>
 <item id="1879333727" name="Greater Boots of the Tenacious Skin-changer"/>
 <bonus nbItems="2">
-<stat name="Skill_Beorning_ItemSet_NaturesBond_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_NaturesBond_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Nature's Bond Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -15827,7 +15827,7 @@
 <stat name="MIGHT" scaling="1879211532"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_NaturesBond_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_NaturesBond_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Nature's Bond Cooldown"/>
 </bonus>
 <bonus nbItems="5">
@@ -15863,7 +15863,7 @@
 <item id="1879333478" name="Greater Leggings of the Fury-wielder"/>
 <item id="1879333634" name="Greater Boots of the Fury-wielder"/>
 <bonus nbItems="2">
-<stat name="Combat_SkillDamageMultiplier_Fire" constant="10.0"/>
+<stat name="Combat_SkillDamageMultiplier_Fire" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Fire-type Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -15888,7 +15888,7 @@
 <stat name="WILL" scaling="1879211578"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Itemset_Minstrel_CriticalChance_Healing" constant="5.0"/>
+<stat name="Itemset_Minstrel_CriticalChance_Healing" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="+5% Healing Critical Chance"/>
 </bonus>
 <bonus nbItems="5">
@@ -15923,7 +15923,7 @@
 <stat name="MIGHT" scaling="1879211532"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_CallToWild_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_CallToWild_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Call to Wild Cooldown"/>
 </bonus>
 <bonus nbItems="5">
@@ -15955,7 +15955,7 @@
 <item id="1879333336" name="Greater Leggings of the Harmonious Protector"/>
 <item id="1879333592" name="Greater Boots of the Harmonious Protector"/>
 <bonus nbItems="2">
-<stat name="Skill_Minstrel_AnthemofCompusure_TacticalMitigation" constant="2.0"/>
+<stat name="Skill_Minstrel_AnthemofCompusure_TacticalMitigation" descriptionOverride="-" constant="2.0"/>
 <specialEffect label="Anthem of Composure grants +2% Tactical Mitigation."/>
 </bonus>
 <bonus nbItems="3">
@@ -16002,7 +16002,7 @@
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Burglar_DamagingGamble_BleedDamage" constant="10.0"/>
+<stat name="Skill_Burglar_DamagingGamble_BleedDamage" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Damaging Gamble Bleed Damage"/>
 </bonus>
 <bonus nbItems="5">
@@ -16017,7 +16017,7 @@
 <item id="1879333415" name="Greater Leggings of the Clever Trapper"/>
 <item id="1879333409" name="Greater Boots of the Clever Trapper"/>
 <bonus nbItems="2">
-<stat name="Itemset_Hunter_RecoveryTime_BardsArrow" constant="-5.0"/>
+<stat name="Itemset_Hunter_RecoveryTime_BardsArrow" descriptionOverride="-" constant="-5.0"/>
 <specialEffect label="-5s Bard's Arrow Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -16025,7 +16025,7 @@
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Hunter_RainofThorns_PipMinMod" descriptionOverride="Focus Cost of Rain of Thorns reduced to 0" constant="-6.0"/>
-<stat name="Skill_Hunter_RainofThorns_PipCostMod" constant="6.0"/>
+<stat name="Skill_Hunter_RainofThorns_PipCostMod" descriptionOverride="-" constant="6.0"/>
 </bonus>
 <bonus nbItems="5">
 <stat name="SHADOW_MITIGATION_PERCENTAGE" constant="5.0"/>
@@ -16058,7 +16058,7 @@
 <item id="1879333488" name="Greater Leggings of the Luck-maker"/>
 <item id="1879333644" name="Greater Boots of the Luck-maker"/>
 <bonus nbItems="2">
-<stat name="Skill_Burglar_DamagingGamble_BleedDamage" constant="10.0"/>
+<stat name="Skill_Burglar_DamagingGamble_BleedDamage" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Damaging Gamble Bleed Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -16078,8 +16078,8 @@
 <item id="1879333597" name="Greater Leggings of the Song-warrior"/>
 <item id="1879333333" name="Greater Boots of the Song-warrior"/>
 <bonus nbItems="2">
-<stat name="Itemset_Minstrel_CriticalChance_CryCall" constant="25.0"/>
-<stat name="IA_Minstrel_CalltoFate_CriticalMagnitude" constant="25.0"/>
+<stat name="Itemset_Minstrel_CriticalChance_CryCall" descriptionOverride="-" constant="25.0"/>
+<stat name="IA_Minstrel_CalltoFate_CriticalMagnitude" descriptionOverride="-" constant="25.0"/>
 <specialEffect label="+25% Cries and Calls Critical Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -16104,7 +16104,7 @@
 <stat name="MIGHT" scaling="1879211532"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_DamageMultiplier_Champion_ControlledBurn" constant="7.0"/>
+<stat name="Skill_DamageMultiplier_Champion_ControlledBurn" descriptionOverride="-" constant="7.0"/>
 <specialEffect label="+7% damage buff from Controlled Burn."/>
 </bonus>
 <bonus nbItems="5">
@@ -16119,7 +16119,7 @@
 <item id="1879333347" name="Greater Leggings of the Flame-scourer"/>
 <item id="1879333548" name="Greater Boots of the Flame-scourer"/>
 <bonus nbItems="2">
-<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" constant="10.0"/>
+<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Smouldering Wrath Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -16144,7 +16144,7 @@
 <stat name="WILL" scaling="1879211578"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="IA_Runekeeper_ThunderStruck_Chance" constant="5.0"/>
+<stat name="IA_Runekeeper_ThunderStruck_Chance" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="+5% chance to trigger Thunderous Words and Harsh Debate."/>
 </bonus>
 <bonus nbItems="5">
@@ -16162,8 +16162,8 @@
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Warden_MarkedTarget_Duration" constant="10.0"/>
-<stat name="Skill_Warden_DiminishedTarget_Duration" constant="10.0"/>
+<stat name="Skill_Warden_MarkedTarget_Duration" descriptionOverride="-" constant="10.0"/>
+<stat name="Skill_Warden_DiminishedTarget_Duration" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="Marked Target and Diminished Target durations increased by 10s."/>
 </bonus>
 <bonus nbItems="5">
@@ -16178,7 +16178,7 @@
 <item id="1879333532" name="Greater Leggings of the Knowledge-seeker"/>
 <item id="1879333440" name="Greater Boots of the Knowledge-seeker"/>
 <bonus nbItems="2">
-<stat name="Itemset_Loremaster_WaterLore_PulseCount" constant="3.0"/>
+<stat name="Itemset_Loremaster_WaterLore_PulseCount" descriptionOverride="-" constant="3.0"/>
 <specialEffect label="+3 Water-lore Pulses"/>
 </bonus>
 <bonus nbItems="3">
@@ -16203,7 +16203,7 @@
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Trait_Burglar_KnivesOut_Cooldown" constant="-30.0"/>
+<stat name="Trait_Burglar_KnivesOut_Cooldown" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Knives Out Cooldown"/>
 </bonus>
 <bonus nbItems="5">
@@ -16221,7 +16221,7 @@
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_DamageMitigation_u8_audacity" constant="2.0"/>
+<stat name="Skill_DamageMitigation_u8_audacity" descriptionOverride="-" constant="2.0"/>
 <specialEffect label="-15% Target Penetrating Shot Mitigation"/>
 </bonus>
 <bonus nbItems="5">
@@ -16239,7 +16239,7 @@
 <stat name="WILL" scaling="1879211578"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Itemset_Loremaster_WaterLore_IncHealingMod" constant="5.0"/>
+<stat name="Itemset_Loremaster_WaterLore_IncHealingMod" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="Water-lore's Incoming Healing buff is increased by 5%."/>
 </bonus>
 <bonus nbItems="5">
@@ -16257,7 +16257,7 @@
 <stat name="MIGHT" scaling="1879211532"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_DamageMultiplier_Trait_MasterofWar" constant="10.0"/>
+<stat name="Skill_DamageMultiplier_Trait_MasterofWar" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Shadow's Lament Damage"/>
 </bonus>
 <bonus nbItems="5">
@@ -16313,7 +16313,7 @@
 <item id="1879333404" name="Greater Leggings of the Thunder-wielder"/>
 <item id="1879333357" name="Greater Boots of the Thunder-wielder"/>
 <bonus nbItems="2">
-<stat name="IA_Runekeeper_ThunderStruck_Chance" constant="5.0"/>
+<stat name="IA_Runekeeper_ThunderStruck_Chance" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="+5% chance to trigger Thunderous Words and Harsh Debate."/>
 </bonus>
 <bonus nbItems="3">
@@ -16335,7 +16335,7 @@
 <item id="1879333674" name="Greater Leggings of the Resilient Skin-changer"/>
 <item id="1879333689" name="Greater Boots of the Resilient Skin-changer"/>
 <bonus nbItems="2">
-<stat name="Skill_Beorning_ItemSet_ThickenedHide_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_ThickenedHide_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Thickened Hide Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -16357,7 +16357,7 @@
 <item id="1879337688" name="Supreme Leggings of the Sure-footed Huntsman"/>
 <item id="1879337689" name="Supreme Boots of the Sure-footed Huntsman"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMitigation_u8_audacity" constant="2.0"/>
+<stat name="Skill_DamageMitigation_u8_audacity" descriptionOverride="-" constant="2.0"/>
 <specialEffect label="-15% Target Penetrating Shot Mitigation"/>
 </bonus>
 <bonus nbItems="3">
@@ -16379,7 +16379,7 @@
 <item id="1879337745" name="Supreme Battle Leggings of the Resolute Leader"/>
 <item id="1879337660" name="Supreme Greaves of the Resolute Leader"/>
 <bonus nbItems="2">
-<stat name="Skill_VitalReturn_Captain_ValiantStrike" constant="20.0"/>
+<stat name="Skill_VitalReturn_Captain_ValiantStrike" descriptionOverride="-" constant="20.0"/>
 <specialEffect label="+20% Valiant Strike Healing"/>
 </bonus>
 <bonus nbItems="3">
@@ -16401,7 +16401,7 @@
 <item id="1879337732" name="Supreme Leggings of the Unshakeable Spear"/>
 <item id="1879337697" name="Supreme Boots of the Unshakeable Spear"/>
 <bonus nbItems="2">
-<stat name="Skill_Warden_BleedDamage" constant="25.0"/>
+<stat name="Skill_Warden_BleedDamage" descriptionOverride="-" constant="25.0"/>
 <specialEffect label="+25% Bleed Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -16443,7 +16443,7 @@
 <item id="1879337651" name="Supreme Battle Leggings of the Unwavering Charge"/>
 <item id="1879337628" name="Supreme Greaves of the Unwavering Charge"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMultiplier_Trait_MasterofWar" constant="10.0"/>
+<stat name="Skill_DamageMultiplier_Trait_MasterofWar" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Shadow's Lament Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -16486,7 +16486,7 @@
 <item id="1879337617" name="Supreme Battle Leggings of the Martial Defender"/>
 <item id="1879337619" name="Supreme Greaves of the Martial Defender"/>
 <bonus nbItems="2">
-<stat name="Skill_Duration_Champion_Adamant" constant="5.0"/>
+<stat name="Skill_Duration_Champion_Adamant" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="Adamant's duration increased by 5s"/>
 </bonus>
 <bonus nbItems="3">
@@ -16508,7 +16508,7 @@
 <item id="1879337729" name="Supreme Leggings of the Flame-scourer"/>
 <item id="1879337696" name="Supreme Boots of the Flame-scourer"/>
 <bonus nbItems="2">
-<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" constant="10.0"/>
+<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Smouldering Wrath Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -16594,7 +16594,7 @@
 <item id="1879337637" name="Supreme Leggings of the Nature-friend"/>
 <item id="1879337723" name="Supreme Boots of the Nature-friend"/>
 <bonus nbItems="2">
-<stat name="Itemset_Loremaster_WaterLore_IncHealingMod" constant="5.0"/>
+<stat name="Itemset_Loremaster_WaterLore_IncHealingMod" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="Water-lore's Incoming Healing buff is increased by 5%."/>
 </bonus>
 <bonus nbItems="3">
@@ -16616,7 +16616,7 @@
 <item id="1879337676" name="Supreme Leggings of the Hidden Blade"/>
 <item id="1879337641" name="Supreme Boots of the Hidden Blade"/>
 <bonus nbItems="2">
-<stat name="Trait_Burglar_KnivesOut_Cooldown" constant="-30.0"/>
+<stat name="Trait_Burglar_KnivesOut_Cooldown" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Knives Out Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -16639,7 +16639,7 @@
 <item id="1879337603" name="Supreme Leggings of the Harmonious Protector"/>
 <item id="1879337699" name="Supreme Boots of the Harmonious Protector"/>
 <bonus nbItems="2">
-<stat name="Skill_Minstrel_AnthemofCompusure_TacticalMitigation" constant="2.0"/>
+<stat name="Skill_Minstrel_AnthemofCompusure_TacticalMitigation" descriptionOverride="-" constant="2.0"/>
 <specialEffect label="Anthem of Composure grants +2% Tactical Mitigation."/>
 </bonus>
 <bonus nbItems="3">
@@ -16661,7 +16661,7 @@
 <item id="1879337731" name="Supreme Leggings of the Resilient Skin-changer"/>
 <item id="1879337748" name="Supreme Boots of the Resilient Skin-changer"/>
 <bonus nbItems="2">
-<stat name="Skill_Beorning_ItemSet_ThickenedHide_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_ThickenedHide_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Thickened Hide Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -16683,7 +16683,7 @@
 <item id="1879337711" name="Supreme Leggings of the Knowledge-seeker"/>
 <item id="1879337634" name="Supreme Boots of the Knowledge-seeker"/>
 <bonus nbItems="2">
-<stat name="Itemset_Loremaster_WaterLore_PulseCount" constant="3.0"/>
+<stat name="Itemset_Loremaster_WaterLore_PulseCount" descriptionOverride="-" constant="3.0"/>
 <specialEffect label="+3 Water-lore Pulses"/>
 </bonus>
 <bonus nbItems="3">
@@ -16705,7 +16705,7 @@
 <item id="1879337700" name="Supreme Leggings of the Vigilant Watcher"/>
 <item id="1879337622" name="Supreme Boots of the Vigilant Watcher"/>
 <bonus nbItems="2">
-<stat name="Itemset_Minstrel_CriticalChance_Healing" constant="5.0"/>
+<stat name="Itemset_Minstrel_CriticalChance_Healing" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="+5% Healing Critical Chance"/>
 </bonus>
 <bonus nbItems="3">
@@ -16727,7 +16727,7 @@
 <item id="1879337658" name="Supreme Leggings of the Tenacious Skin-changer"/>
 <item id="1879337669" name="Supreme Boots of the Tenacious Skin-changer"/>
 <bonus nbItems="2">
-<stat name="Skill_Beorning_ItemSet_NaturesBond_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_NaturesBond_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Nature's Bond Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -16749,7 +16749,7 @@
 <item id="1879337750" name="Supreme Battle Leggings of the Siege-breaker"/>
 <item id="1879337716" name="Supreme Greaves of the Siege-breaker"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMultiplier_Champion_ControlledBurn" constant="7.0"/>
+<stat name="Skill_DamageMultiplier_Champion_ControlledBurn" descriptionOverride="-" constant="7.0"/>
 <specialEffect label="+7% damage buff from Controlled Burn"/>
 </bonus>
 <bonus nbItems="3">
@@ -16792,8 +16792,8 @@
 <item id="1879337577" name="Supreme Leggings of the Song-warrior"/>
 <item id="1879337719" name="Supreme Boots of the Song-warrior"/>
 <bonus nbItems="2">
-<stat name="Itemset_Minstrel_CriticalChance_CryCall" constant="25.0"/>
-<stat name="IA_Minstrel_CalltoFate_CriticalMagnitude" constant="25.0"/>
+<stat name="Itemset_Minstrel_CriticalChance_CryCall" descriptionOverride="-" constant="25.0"/>
+<stat name="IA_Minstrel_CalltoFate_CriticalMagnitude" descriptionOverride="-" constant="25.0"/>
 <specialEffect label="+25% Cries and Calls Critical Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -16815,7 +16815,7 @@
 <item id="1879337598" name="Supreme Leggings of the Peace-mender"/>
 <item id="1879337597" name="Supreme Boots of the Peace-mender"/>
 <bonus nbItems="2">
-<stat name="Trait_Minstrel_Healing_CriticalMod" constant="5.0"/>
+<stat name="Trait_Minstrel_Healing_CriticalMod" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="+5% Critical Healing Magnitude"/>
 </bonus>
 <bonus nbItems="3">
@@ -16837,7 +16837,7 @@
 <item id="1879337592" name="Supreme Leggings of the Fury-wielder"/>
 <item id="1879337650" name="Supreme Boots of the Fury-wielder"/>
 <bonus nbItems="2">
-<stat name="Combat_SkillDamageMultiplier_Fire" constant="10.0"/>
+<stat name="Combat_SkillDamageMultiplier_Fire" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Fire-type Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -16859,7 +16859,7 @@
 <item id="1879337610" name="Supreme Leggings of the Clever Trapper"/>
 <item id="1879337611" name="Supreme Boots of the Clever Trapper"/>
 <bonus nbItems="2">
-<stat name="Itemset_Hunter_RecoveryTime_BardsArrow" constant="-5.0"/>
+<stat name="Itemset_Hunter_RecoveryTime_BardsArrow" descriptionOverride="-" constant="-5.0"/>
 <specialEffect label="-5s Bard's Arrow Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -16867,7 +16867,7 @@
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Hunter_RainofThorns_PipMinMod" descriptionOverride="Focus Cost of Rain of Thorns reduced to 0" constant="-6.0"/>
-<stat name="Skill_Hunter_RainofThorns_PipCostMod" constant="6.0"/>
+<stat name="Skill_Hunter_RainofThorns_PipCostMod" descriptionOverride="-" constant="6.0"/>
 </bonus>
 <bonus nbItems="5">
 <stat name="SHADOW_MITIGATION_PERCENTAGE" constant="5.0"/>
@@ -16882,7 +16882,7 @@
 <item id="1879337702" name="Supreme Leggings of the Luck-maker"/>
 <item id="1879337754" name="Supreme Boots of the Luck-maker"/>
 <bonus nbItems="2">
-<stat name="Skill_Burglar_DamagingGamble_BleedDamage" constant="10.0"/>
+<stat name="Skill_Burglar_DamagingGamble_BleedDamage" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Damaging Gamble Bleed Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -16902,7 +16902,7 @@
 <item id="1879337674" name="Supreme Leggings of the Thunder-wielder"/>
 <item id="1879337672" name="Supreme Boots of the Thunder-wielder"/>
 <bonus nbItems="2">
-<stat name="IA_Runekeeper_ThunderStruck_Chance" constant="5.0"/>
+<stat name="IA_Runekeeper_ThunderStruck_Chance" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="+5% chance to trigger Thunderous Words and Harsh Debate"/>
 </bonus>
 <bonus nbItems="3">
@@ -16924,7 +16924,7 @@
 <item id="1879337602" name="Supreme Leggings of the Fierce Skin-changer"/>
 <item id="1879337654" name="Supreme Boots of the Fierce Skin-changer"/>
 <bonus nbItems="2">
-<stat name="Skill_Beorning_ItemSet_CallToWild_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_CallToWild_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Call to Wild Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -16966,8 +16966,8 @@
 <item id="1879337677" name="Supreme Leggings of the Shield-splinterer"/>
 <item id="1879337642" name="Supreme Boots of the Shield-splinterer"/>
 <bonus nbItems="2">
-<stat name="Skill_Warden_MarkedTarget_Duration" constant="10.0"/>
-<stat name="Skill_Warden_DiminishedTarget_Duration" constant="10.0"/>
+<stat name="Skill_Warden_MarkedTarget_Duration" descriptionOverride="-" constant="10.0"/>
+<stat name="Skill_Warden_DiminishedTarget_Duration" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="Marked Target and Diminished Target durations increased by 5s."/>
 </bonus>
 <bonus nbItems="3">
@@ -16989,7 +16989,7 @@
 <item id="1879337589" name="Supreme Leggings of the Precise Bowmaster"/>
 <item id="1879337588" name="Supreme Boots of the Precise Bowmaster"/>
 <bonus nbItems="2">
-<stat name="IA_Hunter_Damage_HeartSeeker" constant="15.000001"/>
+<stat name="IA_Hunter_Damage_HeartSeeker" descriptionOverride="-" constant="15.000001"/>
 <specialEffect label="+15% Heart Seeker Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -17011,7 +17011,7 @@
 <item id="1879342755" name="Unwavering Charger's Battle Leggings of the Morannon"/>
 <item id="1879342848" name="Unwavering Charger's Greaves of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMultiplier_Trait_MasterofWar" constant="10.0"/>
+<stat name="Skill_DamageMultiplier_Trait_MasterofWar" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Shadow's Lament Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -17033,7 +17033,7 @@
 <item id="1879342837" name="Precise Bowmaster's Leggings of the Morannon"/>
 <item id="1879342715" name="Precise Bowmaster's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="IA_Hunter_Damage_HeartSeeker" constant="15.000001"/>
+<stat name="IA_Hunter_Damage_HeartSeeker" descriptionOverride="-" constant="15.000001"/>
 <specialEffect label="+15% Heart Seeker Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -17055,8 +17055,8 @@
 <item id="1879342814" name="Shield-splinterer's Leggings of the Morannon"/>
 <item id="1879342827" name="Shield-splinterer's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Skill_Warden_MarkedTarget_Duration" constant="10.0"/>
-<stat name="Skill_Warden_DiminishedTarget_Duration" constant="10.0"/>
+<stat name="Skill_Warden_MarkedTarget_Duration" descriptionOverride="-" constant="10.0"/>
+<stat name="Skill_Warden_DiminishedTarget_Duration" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="Marked Target and Diminished Target durations increased by 5s."/>
 </bonus>
 <bonus nbItems="3">
@@ -17078,7 +17078,7 @@
 <item id="1879342760" name="Sure-footed Huntsman's Leggings of the Morannon"/>
 <item id="1879342813" name="Sure-footed Huntsman's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMitigation_u8_audacity" constant="2.0"/>
+<stat name="Skill_DamageMitigation_u8_audacity" descriptionOverride="-" constant="2.0"/>
 <specialEffect label="-15% Target Penetrating Shot Mitigation"/>
 </bonus>
 <bonus nbItems="3">
@@ -17100,7 +17100,7 @@
 <item id="1879342796" name="Luck-maker's Leggings of the Morannon"/>
 <item id="1879342825" name="Luck-maker's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Skill_Burglar_DamagingGamble_BleedDamage" constant="10.0"/>
+<stat name="Skill_Burglar_DamagingGamble_BleedDamage" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Damaging Gamble Bleed Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -17120,7 +17120,7 @@
 <item id="1879342706" name="Fierce Skin-changer's Leggings of the Morannon"/>
 <item id="1879342824" name="Fierce Skin-changer's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Skill_Beorning_ItemSet_CallToWild_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_CallToWild_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Call to Wild Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -17161,7 +17161,7 @@
 <item id="1879342831" name="Thunder-wielder's Leggings of the Morannon"/>
 <item id="1879342789" name="Thunder-wielder's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="IA_Runekeeper_ThunderStruck_Chance" constant="5.0"/>
+<stat name="IA_Runekeeper_ThunderStruck_Chance" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="+5% chance to trigger Thunderous Words and Harsh Debate"/>
 </bonus>
 <bonus nbItems="3">
@@ -17183,7 +17183,7 @@
 <item id="1879342802" name="Fury-wielder's Leggings of the Morannon"/>
 <item id="1879342722" name="Fury-wielder's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Combat_SkillDamageMultiplier_Fire" constant="10.0"/>
+<stat name="Combat_SkillDamageMultiplier_Fire" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Fire-type Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -17205,7 +17205,7 @@
 <item id="1879342768" name="Tenacious Skin-changer's Leggings of the Morannon"/>
 <item id="1879342834" name="Tenacious Skin-changer's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Skill_Beorning_ItemSet_NaturesBond_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_NaturesBond_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Nature's Bond Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -17248,8 +17248,8 @@
 <item id="1879342806" name="Song-warrior's Leggings of the Morannon"/>
 <item id="1879342705" name="Song-warrior's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Itemset_Minstrel_CriticalChance_CryCall" constant="25.0"/>
-<stat name="IA_Minstrel_CalltoFate_CriticalMagnitude" constant="25.0"/>
+<stat name="Itemset_Minstrel_CriticalChance_CryCall" descriptionOverride="-" constant="25.0"/>
+<stat name="IA_Minstrel_CalltoFate_CriticalMagnitude" descriptionOverride="-" constant="25.0"/>
 <specialEffect label="+25% Cries and Calls Critical Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -17271,7 +17271,7 @@
 <item id="1879342770" name="Flame-scourer's Leggings of the Morannon"/>
 <item id="1879342769" name="Flame-scourer's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" constant="10.0"/>
+<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Smouldering Wrath Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -17293,7 +17293,7 @@
 <item id="1879342682" name="Knowledge-seeker's Leggings of the Morannon"/>
 <item id="1879342740" name="Knowledge-seeker's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Itemset_Loremaster_WaterLore_PulseCount" constant="3.0"/>
+<stat name="Itemset_Loremaster_WaterLore_PulseCount" descriptionOverride="-" constant="3.0"/>
 <specialEffect label="+3 Water-lore Pulses"/>
 </bonus>
 <bonus nbItems="3">
@@ -17315,7 +17315,7 @@
 <item id="1879342788" name="Martial Defender's Battle Leggings of the Morannon"/>
 <item id="1879342842" name="Martial Defender's Greaves of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Skill_Duration_Champion_Adamant" constant="5.0"/>
+<stat name="Skill_Duration_Champion_Adamant" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="Adamant's duration increased by 5s."/>
 </bonus>
 <bonus nbItems="3">
@@ -17359,7 +17359,7 @@
 <item id="1879342694" name="Unshakeable Spearman's Leggings of the Morannon"/>
 <item id="1879342701" name="Unshakeable Spearman's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Skill_Warden_BleedDamage" constant="25.0"/>
+<stat name="Skill_Warden_BleedDamage" descriptionOverride="-" constant="25.0"/>
 <specialEffect label="+25% Bleed Damage"/>
 </bonus>
 <bonus nbItems="3">
@@ -17381,7 +17381,7 @@
 <item id="1879342829" name="Harmonious Protector's Leggings of the Morannon"/>
 <item id="1879342683" name="Harmonious Protector's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Skill_Minstrel_AnthemofCompusure_TacticalMitigation" constant="2.0"/>
+<stat name="Skill_Minstrel_AnthemofCompusure_TacticalMitigation" descriptionOverride="-" constant="2.0"/>
 <specialEffect label="Anthem of Composure grants +2% Tactical Mitigation."/>
 </bonus>
 <bonus nbItems="3">
@@ -17424,7 +17424,7 @@
 <item id="1879342681" name="Clever Trapper's Leggings of the Morannon"/>
 <item id="1879342732" name="Clever Trapper's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Itemset_Hunter_RecoveryTime_BardsArrow" constant="-5.0"/>
+<stat name="Itemset_Hunter_RecoveryTime_BardsArrow" descriptionOverride="-" constant="-5.0"/>
 <specialEffect label="-5s Bard's Arrow Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -17432,7 +17432,7 @@
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Hunter_RainofThorns_PipMinMod" descriptionOverride="Focus Cost of Rain of Thorns reduced to 0" constant="-6.0"/>
-<stat name="Skill_Hunter_RainofThorns_PipCostMod" constant="6.0"/>
+<stat name="Skill_Hunter_RainofThorns_PipCostMod" descriptionOverride="-" constant="6.0"/>
 </bonus>
 <bonus nbItems="5">
 <stat name="SHADOW_MITIGATION_PERCENTAGE" constant="5.0"/>
@@ -17447,7 +17447,7 @@
 <item id="1879342728" name="Peace-mender's Leggings of the Morannon"/>
 <item id="1879342688" name="Peace-mender's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Trait_Minstrel_Healing_CriticalMod" constant="5.0"/>
+<stat name="Trait_Minstrel_Healing_CriticalMod" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="+5% Critical Healing Magnitude"/>
 </bonus>
 <bonus nbItems="3">
@@ -17469,7 +17469,7 @@
 <item id="1879342747" name="Siege-breaker's Battle Leggings of the Morannon"/>
 <item id="1879342765" name="Siege-breaker's Greaves of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMultiplier_Champion_ControlledBurn" constant="7.0"/>
+<stat name="Skill_DamageMultiplier_Champion_ControlledBurn" descriptionOverride="-" constant="7.0"/>
 <specialEffect label="+7% damage buff from Controlled Burn."/>
 </bonus>
 <bonus nbItems="3">
@@ -17512,7 +17512,7 @@
 <item id="1879342850" name="Resolute Leader's Battle Leggings of the Morannon"/>
 <item id="1879342709" name="Resolute Leader's Greaves of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Skill_VitalReturn_Captain_ValiantStrike" constant="20.0"/>
+<stat name="Skill_VitalReturn_Captain_ValiantStrike" descriptionOverride="-" constant="20.0"/>
 <specialEffect label="+20% Valiant Strike Healing"/>
 </bonus>
 <bonus nbItems="3">
@@ -17534,7 +17534,7 @@
 <item id="1879342763" name="Nature-friend's Leggings of the Morannon"/>
 <item id="1879342822" name="Nature-friend's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Itemset_Loremaster_WaterLore_IncHealingMod" constant="5.0"/>
+<stat name="Itemset_Loremaster_WaterLore_IncHealingMod" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="Water-lore's Incoming Healing buff is increased by 5%."/>
 </bonus>
 <bonus nbItems="3">
@@ -17578,7 +17578,7 @@
 <item id="1879342777" name="Hidden Blade's Leggings of the Morannon"/>
 <item id="1879342702" name="Hidden Blade's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Trait_Burglar_KnivesOut_Cooldown" constant="-30.0"/>
+<stat name="Trait_Burglar_KnivesOut_Cooldown" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Knives Out Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -17601,7 +17601,7 @@
 <item id="1879342846" name="Resilient Skin-changer's Leggings of the Morannon"/>
 <item id="1879342738" name="Resilient Skin-changer's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Skill_Beorning_ItemSet_ThickenedHide_CD" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_ThickenedHide_CD" descriptionOverride="-" constant="-30.0"/>
 <specialEffect label="-30s Thickened Hide Cooldown"/>
 </bonus>
 <bonus nbItems="3">
@@ -17643,7 +17643,7 @@
 <item id="1879342751" name="Vigilant Watcher's Leggings of the Morannon"/>
 <item id="1879342787" name="Vigilant Watcher's Boots of the Morannon"/>
 <bonus nbItems="2">
-<stat name="Itemset_Minstrel_CriticalChance_Healing" constant="5.0"/>
+<stat name="Itemset_Minstrel_CriticalChance_Healing" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="+5% Healing Critical Chance"/>
 </bonus>
 <bonus nbItems="3">
@@ -17711,8 +17711,8 @@
 </bonus>
 <bonus nbItems="4">
 <stat name="Runekeeper_Writ_LightningMitigation_05" descriptionOverride="Each stack of 'Writ of Lightning' lowers lightning mitigation by 10% instead of 5%." constant="5.0"/>
-<stat name="Runekeeper_Writ_LightningMitigation_10" constant="10.0"/>
-<stat name="Runekeeper_Writ_LightningMitigation_15" constant="15.000001"/>
+<stat name="Runekeeper_Writ_LightningMitigation_10" descriptionOverride="-" constant="10.0"/>
+<stat name="Runekeeper_Writ_LightningMitigation_15" descriptionOverride="-" constant="15.000001"/>
 </bonus>
 </set>
 <set id="1879362454" name="Trapper's Battle-gear of the Abyss" level="345" description="">
@@ -17909,8 +17909,8 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Warden_MarkedTarget_Duration" constant="10.0"/>
-<stat name="Skill_Warden_DiminishedTarget_Duration" constant="10.0"/>
+<stat name="Skill_Warden_MarkedTarget_Duration" descriptionOverride="-" constant="10.0"/>
+<stat name="Skill_Warden_DiminishedTarget_Duration" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="Marked Target and Diminished Target durations increased by 10s."/>
 </bonus>
 </set>
@@ -18274,7 +18274,7 @@
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Warden_Marked_Target" descriptionOverride="+5% Marked Target and Diminished Target Debuff Strength" constant="-5.0"/>
-<stat name="Skill_Warden_Diminished_Target" constant="-5.0"/>
+<stat name="Skill_Warden_Diminished_Target" descriptionOverride="-" constant="-5.0"/>
 </bonus>
 </set>
 <set id="1879369480" name="Renewed Armour of a Beorning's Recollection&#10;(Max Level: 119)" level="340" description="">
@@ -18288,11 +18288,11 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath1" constant="1.0"/>
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath2" constant="2.0"/>
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath3" constant="3.0"/>
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath4" constant="4.0"/>
-<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath5" constant="5.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath1" descriptionOverride="-" constant="1.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath2" descriptionOverride="-" constant="2.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath3" descriptionOverride="-" constant="3.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath4" descriptionOverride="-" constant="4.0"/>
+<stat name="Skill_Beorning_ItemSet_ParryChance_Wrath5" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="Gain 1% Parry Chance for every 20 Wrath you have."/>
 </bonus>
 </set>
@@ -19059,7 +19059,7 @@
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Hunter_RainofThorns_Cooldown" constant="-15.0"/>
+<stat name="Skill_Hunter_RainofThorns_Cooldown" descriptionOverride="-" constant="-15.0"/>
 <specialEffect label="Rain of Thorns cooldown reduced by 15s."/>
 </bonus>
 <bonus nbItems="5"/>
@@ -19121,7 +19121,7 @@
 <stat name="WILL" scaling="1879211578"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" constant="10.0"/>
+<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="+10% Smouldering Wrath Damage"/>
 </bonus>
 <bonus nbItems="5"/>
@@ -19150,7 +19150,7 @@
 <stat name="MIGHT" scaling="1879211532"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_VitalReturn_Captain_ValiantStrike" constant="20.0"/>
+<stat name="Skill_VitalReturn_Captain_ValiantStrike" descriptionOverride="-" constant="20.0"/>
 <specialEffect label="Increase Valiant Strike healing by 20%."/>
 </bonus>
 <bonus nbItems="5"/>
@@ -19166,7 +19166,7 @@
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Trait_Burglar_Trickster_Cooldown" operator="SUBSTRACT" constant="15.0"/>
+<stat name="Trait_Burglar_Trickster_Cooldown" operator="SUBSTRACT" descriptionOverride="-" constant="15.0"/>
 <specialEffect label="Reduce Cooldown of Trickster by -15s."/>
 </bonus>
 <bonus nbItems="5"/>
@@ -19211,7 +19211,7 @@
 <stat name="MIGHT" scaling="1879211532"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Champion_RecoveryTime_GreatCleave" operator="SUBSTRACT" constant="30.0"/>
+<stat name="Skill_Champion_RecoveryTime_GreatCleave" operator="SUBSTRACT" descriptionOverride="-" constant="30.0"/>
 <specialEffect label="Great Cleave cooldown reduced by 30s."/>
 </bonus>
 <bonus nbItems="5"/>
@@ -19330,7 +19330,7 @@
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Burglar_Itemset_Aim_Cooldown" constant="-3.0"/>
+<stat name="Skill_Burglar_Itemset_Aim_Cooldown" descriptionOverride="-" constant="-3.0"/>
 <specialEffect label="Reduces Aim cooldown by -3s."/>
 </bonus>
 <bonus nbItems="5"/>
@@ -19346,7 +19346,7 @@
 <stat name="WILL" scaling="1879211578"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Itemset_Minstrel_AnthemOfProwess_AttackDuration" constant="5.0"/>
+<stat name="Itemset_Minstrel_AnthemOfProwess_AttackDuration" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="Anthem of Prowess increases attack speed by an additional 5%."/>
 </bonus>
 <bonus nbItems="5"/>
@@ -19362,7 +19362,7 @@
 <stat name="MIGHT" scaling="1879211532"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_PipGen_Transform" constant="10.0"/>
+<stat name="Skill_Beorning_PipGen_Transform" descriptionOverride="-" constant="10.0"/>
 <specialEffect label="Transforming grants +10 Wrath."/>
 </bonus>
 <bonus nbItems="5"/>
@@ -19378,7 +19378,7 @@
 <stat name="WILL" scaling="1879211578"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Itemset_Loremaster_CatmintCooldown" operator="SUBSTRACT" constant="30.0"/>
+<stat name="Itemset_Loremaster_CatmintCooldown" operator="SUBSTRACT" descriptionOverride="-" constant="30.0"/>
 <specialEffect label="Catmint Cooldown Decreased by -30s."/>
 </bonus>
 <bonus nbItems="5"/>
@@ -19394,7 +19394,7 @@
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_RecoveryTime_HeartSeeker" operator="SUBSTRACT" constant="15.0"/>
+<stat name="Skill_RecoveryTime_HeartSeeker" operator="SUBSTRACT" descriptionOverride="-" constant="15.0"/>
 <specialEffect label="Heartseeker cooldown reduced by 15s."/>
 </bonus>
 <bonus nbItems="5"/>

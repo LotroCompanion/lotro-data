@@ -278,7 +278,7 @@
 <legacy identifier="1879321095" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Captain" slot="CLASS_SLOT"/>
 <stat name="Skill_VitalCost_Power_WordsofCourage" scaling="1879321110"/>
-<stat name="Skill_IA_Captain_ReformTheLines_Burst_Healing" scaling="1879335049"/>
+<stat name="Skill_IA_Captain_ReformTheLines_Burst_Healing" descriptionOverride="-" scaling="1879335049"/>
 </legacy>
 <legacy identifier="1879321097" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Captain" slot="MAIN_HAND"/>
@@ -745,7 +745,7 @@
 <filter characterClass="Rune-keeper" slot="MAIN_HAND"/>
 <stat name="Skill_Runekeeper_Healing_PowerCost" scaling="1879321502"/>
 <stat name="EffectMod_ModType_ReviveHealthMultModifier" descriptionOverride="+{***} Revive Skills Morale and Power Recovery" scaling="1879327686"/>
-<stat name="EffectMod_ModType_RevivePowerMultModifier" scaling="1879327688"/>
+<stat name="EffectMod_ModType_RevivePowerMultModifier" descriptionOverride="-" scaling="1879327688"/>
 </legacy>
 <legacy identifier="1879321487" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Rune-keeper" slot="CLASS_SLOT"/>
@@ -838,7 +838,7 @@
 <legacy identifier="1879321578" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Warden" slot="MAIN_HAND"/>
 <stat name="Skill_VitalCost_Warden_BleedLine" scaling="1879321557"/>
-<stat name="Skill_Warden_IA_Bleed_CriticalDamage" scaling="1879335061"/>
+<stat name="Skill_Warden_IA_Bleed_CriticalDamage" descriptionOverride="-" scaling="1879335061"/>
 </legacy>
 <legacy identifier="1879321579" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Warden" slot="RANGED_ITEM"/>
@@ -851,7 +851,7 @@
 <legacy identifier="1879321581" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Warden" slot="MAIN_HAND"/>
 <stat name="Skill_VitalCost_Warden_XferLine" scaling="1879321556"/>
-<stat name="Skill_Warden_IA_LightDoT_CritDamage" scaling="1879335063"/>
+<stat name="Skill_Warden_IA_LightDoT_CritDamage" descriptionOverride="-" scaling="1879335063"/>
 </legacy>
 <legacy identifier="1879321582" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Warden" slot="RANGED_ITEM"/>
@@ -944,17 +944,17 @@
 <legacy identifier="1879322829" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Beorning" slot="MAIN_HAND"/>
 <stat name="Skill_Beorning_IA_BearForm_Critical_Defence_Debuff" scaling="1879322806"/>
-<stat name="Skill_Champion_Masochism_AppChance" constant="100.0"/>
+<stat name="Skill_Champion_Masochism_AppChance" descriptionOverride="-" constant="100.0"/>
 </legacy>
 <legacy identifier="1879323141" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Champion" slot="CLASS_SLOT"/>
 <stat name="Skill_Champion_IA_FightOn_Critical_RatingMod" scaling="1879323106"/>
-<stat name="Skill_Champion_IA_CritBuff_ProcChance" constant="100.0"/>
+<stat name="Skill_Champion_IA_CritBuff_ProcChance" descriptionOverride="-" constant="100.0"/>
 </legacy>
 <legacy identifier="1879323142" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Champion" slot="MAIN_HAND"/>
 <stat name="Skill_RecoveryTime_ChampionBattleFrenzy" scaling="1879324616"/>
-<stat name="Skill_Champion_IA_PhyMastery_ProcChance" constant="100.0"/>
+<stat name="Skill_Champion_IA_PhyMastery_ProcChance" descriptionOverride="-" constant="100.0"/>
 <stat name="Skill_Champion_IA_Battle_Frenzy_PhysicalMasteryAdd" scaling="1879323114"/>
 </legacy>
 <legacy identifier="1879323143" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
@@ -964,7 +964,7 @@
 <legacy identifier="1879323144" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Champion" slot="CLASS_SLOT"/>
 <stat name="Skill_StunDuration_Champion_Horn" scaling="1879324509"/>
-<stat name="Skill_Champion_IA_PhyMit_Debuff_ProcChance" constant="100.0"/>
+<stat name="Skill_Champion_IA_PhyMit_Debuff_ProcChance" descriptionOverride="-" constant="100.0"/>
 <stat name="Skill_Champion_IA_Horn_Gondor_PhyiscalMit_DebuffMod" scaling="1879323107"/>
 </legacy>
 <legacy identifier="1879323145" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
@@ -974,7 +974,7 @@
 <legacy identifier="1879323146" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Champion" slot="CLASS_SLOT"/>
 <stat name="Skill_RecoveryTime_Champion_EbbingIre" scaling="1879324615"/>
-<stat name="Skill_Champion_IA_TacticalMit_ProcChance" constant="100.0"/>
+<stat name="Skill_Champion_IA_TacticalMit_ProcChance" descriptionOverride="-" constant="100.0"/>
 <stat name="Skill_Champion_IA_Ebbing_Ire_Tactical_Mitigation" scaling="1879323115"/>
 </legacy>
 <legacy identifier="1879323147" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
@@ -1003,7 +1003,7 @@
 <filter characterClass="Champion" slot="MAIN_HAND"/>
 <stat name="Skill_RecoveryTime_ChampionFearNothing" scaling="1879325221"/>
 <stat name="Skill_Champion_IA_Fear_Nothing_Inc_healingMod" scaling="1879323103"/>
-<stat name="Skill_Champion_IA_Inc_Healing_ProcChance" constant="100.0"/>
+<stat name="Skill_Champion_IA_Inc_Healing_ProcChance" descriptionOverride="-" constant="100.0"/>
 </legacy>
 <legacy identifier="1879323153" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Champion" slot="CLASS_SLOT"/>
@@ -1141,7 +1141,7 @@
 <legacy identifier="1879323510" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Warden" slot="MAIN_HAND"/>
 <stat name="Skill_Warden_IA_HamperingJavelin_CooldownResetChance" scaling="1879323482"/>
-<stat name="Skill_Warden_IA_HamperingJavelin_Damage" scaling="1879335060"/>
+<stat name="Skill_Warden_IA_HamperingJavelin_Damage" descriptionOverride="-" scaling="1879335060"/>
 </legacy>
 <legacy identifier="1879323511" type="CLASS" iconId="1091965216" maxInitialLevel="46" maxLevel="83">
 <filter characterClass="Warden" slot="RANGED_ITEM"/>

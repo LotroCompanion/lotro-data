@@ -545,7 +545,7 @@
 </trait>
 <trait identifier="1879072464" name="Enhanced Skill: Set Trap" iconId="1090553297" minLevel="1" tiers="1" description="Set Trap's root has a reduced chance to break on damage and damage done to trapped tragets is increased."/>
 <trait identifier="1879072465" name="Enhanced Skill: Steadfast Barrage" iconId="1091472331" minLevel="1" tiers="1" description="Allows Steadfast Barrage to be used while moving but decreases movement speed for the duration of the skill.">
-<stat name="ForwardSource_Combat_TraitCombo" operator="SET" constant="240.0"/>
+<stat name="ForwardSource_Combat_TraitCombo" operator="SET" descriptionOverride="-" constant="240.0"/>
 </trait>
 <trait identifier="1879072466" name="Enhanced Skill: Snare" iconId="1091630873" minLevel="1" tiers="1" description="Adds a short movement speed buff to Snare."/>
 <trait identifier="1879072467" name="White Hand Scout Appearance" iconId="1090553301" minLevel="1" tiers="1" description="A different visual appearance for your Uruk Blackarrow: a dark-skinned, long haired Uruk.">
@@ -664,21 +664,21 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="2.5"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="2.5"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="-{***} Maximum Health" constant="0.95"/>
-<stat name="Combat_OutgoingHeals_EffectMod" constant="2.5"/>
+<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="-" constant="2.5"/>
 </trait>
 <trait identifier="1879072506" name="Damage for Power (Rank 1)" iconId="1090553339" minLevel="1" tiers="1" description="Corruption traits allow you to increase one aspect of your character at the cost of other aspects.">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="2.5"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="2.5"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="2.5"/>
 <stat name="POWER" operator="MULTIPLY" descriptionOverride="-{***} Maximum Power" constant="0.95"/>
-<stat name="Combat_OutgoingHeals_EffectMod" constant="2.5"/>
+<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="-" constant="2.5"/>
 </trait>
 <trait identifier="1879072507" name="Health for Damage (Rank 1)" iconId="1090553340" minLevel="1" tiers="1" description="Corruption traits allow you to increase one aspect of your character at the cost of other aspects.">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="+{***} Maximum Health" constant="1.05"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
-<stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" constant="2.5"/>
+<stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" descriptionOverride="-" constant="2.5"/>
 </trait>
 <trait identifier="1879072508" name="Health for Power (Rank 1)" iconId="1090553341" minLevel="1" tiers="1" description="Corruption traits allow you to increase one aspect of your character at the cost of other aspects.">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="+{***} Maximum Health" constant="1.05"/>
@@ -689,7 +689,7 @@
 <stat name="MELEE_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
-<stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" constant="2.5"/>
+<stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" descriptionOverride="-" constant="2.5"/>
 </trait>
 <trait identifier="1879072510" name="Power for Health (Rank 1)" iconId="1090553343" minLevel="1" tiers="1" description="Corruption traits allow you to increase one aspect of your character at the cost of other aspects.">
 <stat name="POWER" operator="MULTIPLY" descriptionOverride="+{***} Maximum Power" constant="1.05"/>
@@ -1063,21 +1063,21 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="-{***} Maximum Health" constant="0.95"/>
-<stat name="Combat_OutgoingHeals_EffectMod" constant="5.0"/>
+<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="-" constant="5.0"/>
 </trait>
 <trait identifier="1879091352" name="Damage for Power (Rank 2)" iconId="1090553339" minLevel="1" tiers="1" description="Corruption traits allow you to increase one aspect of your character at the cost of other aspects.">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="POWER" operator="MULTIPLY" descriptionOverride="-{***} Maximum Power" constant="0.95"/>
-<stat name="Combat_OutgoingHeals_EffectMod" constant="5.0"/>
+<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="-" constant="5.0"/>
 </trait>
 <trait identifier="1879091353" name="Health for Damage (Rank 2)" iconId="1090553340" minLevel="1" tiers="1" description="Corruption traits allow you to increase one aspect of your character at the cost of other aspects.">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="+{***} Maximum Health" constant="1.1"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
-<stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" constant="2.5"/>
+<stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" descriptionOverride="-" constant="2.5"/>
 </trait>
 <trait identifier="1879091354" name="Health for Power (Rank 2)" iconId="1090553341" minLevel="1" tiers="1" description="Corruption traits allow you to increase one aspect of your character at the cost of other aspects.">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="+{***} Maximum Health" constant="1.1"/>
@@ -1088,7 +1088,7 @@
 <stat name="MELEE_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
-<stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" constant="2.5"/>
+<stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" descriptionOverride="-" constant="2.5"/>
 </trait>
 <trait identifier="1879091356" name="Power for Health (Rank 2)" iconId="1090553343" minLevel="1" tiers="1" description="Corruption traits allow you to increase one aspect of your character at the cost of other aspects.">
 <stat name="POWER" operator="MULTIPLY" descriptionOverride="+{***} Maximum Power" constant="1.1"/>
@@ -1497,17 +1497,17 @@
 <trait identifier="1879112554" name="Warden's Shields" iconId="1090552288" minLevel="1" tiers="1" description="Allows the use of Warden's Shields. Warden Shields reduce the chance to be critically hit."/>
 <trait identifier="1879114476" name="Spear Training" iconId="1090552285" minLevel="1" tiers="1" description="Wardens train primarily with spears and have learned to get the most out of them.">
 <stat name="Combat_WeaponDamageMultiplier_Spear" constant="2.0"/>
-<stat name="Inventory_AllowedEquipmentCategories" constant="4096.0"/>
-<stat name="Skill_Warden_PersevereHeal" constant="-25.0"/>
-<stat name="Skill_Warden_MoraleTapDamage" constant="-25.0"/>
+<stat name="Inventory_AllowedEquipmentCategories" descriptionOverride="-" constant="4096.0"/>
+<stat name="Skill_Warden_PersevereHeal" descriptionOverride="-" constant="-25.0"/>
+<stat name="Skill_Warden_MoraleTapDamage" descriptionOverride="-" constant="-25.0"/>
 </trait>
 <trait identifier="1879114477" name="Sword Training" iconId="1090552274" minLevel="1" tiers="1" description="Wardens have learned a few fancy sword manoeuvres.">
 <stat name="Combat_WeaponDamageMultiplier_1HSword" constant="2.0"/>
-<stat name="Inventory_AllowedEquipmentCategories" constant="1.34217728E8"/>
+<stat name="Inventory_AllowedEquipmentCategories" descriptionOverride="-" constant="1.34217728E8"/>
 </trait>
 <trait identifier="1879114478" name="Club Training" iconId="1090552271" minLevel="1" tiers="1" description="Wardens learn advanced club techniques when keeping order in civilized lands.">
 <stat name="Combat_WeaponDamageMultiplier_1HClub" constant="2.0"/>
-<stat name="Inventory_AllowedEquipmentCategories" constant="3.3554432E7"/>
+<stat name="Inventory_AllowedEquipmentCategories" descriptionOverride="-" constant="3.3554432E7"/>
 </trait>
 <trait identifier="1879116363" name="Javelins" iconId="1090552285" minLevel="1" tiers="1" description="Allows the use of Javelins."/>
 <trait identifier="1879120160" name="2 Icon Gambits" iconId="1090552293" minLevel="1" tiers="1" description=" ">
@@ -1521,34 +1521,34 @@
 </trait>
 <trait identifier="1879132035" name="Master Sword Training" iconId="1090552274" minLevel="1" tiers="1" description="Wardens have learned a few fancy sword manoeuvres.">
 <stat name="Combat_WeaponDamageMultiplier_1HSword" constant="2.0"/>
-<stat name="Inventory_AllowedEquipmentCategories" constant="1.34217728E8"/>
+<stat name="Inventory_AllowedEquipmentCategories" descriptionOverride="-" constant="1.34217728E8"/>
 <stat name="Skill_ToHitBonus_Warden_Swords" constant="2.0"/>
 </trait>
 <trait identifier="1879132037" name="Master Spear Training" iconId="1090552285" minLevel="1" tiers="1" description="Wardens train primarily with spears and have learned to get the most out of them.">
 <stat name="Combat_WeaponDamageMultiplier_Spear" constant="2.0"/>
-<stat name="Inventory_AllowedEquipmentCategories" constant="4096.0"/>
+<stat name="Inventory_AllowedEquipmentCategories" descriptionOverride="-" constant="4096.0"/>
 <stat name="Skill_DamageMultiplier_Warden_SpearDot" descriptionOverride="Damage from intrinsic spear bleeds is multiplied by {***}." constant="500.0"/>
 <stat name="Skill_ProcRate_Warden_SpearDot" descriptionOverride="The inherent bleed damage from Spears happens much more often." constant="4.0"/>
 </trait>
 <trait identifier="1879132040" name="Expert Spear Training" iconId="1090552285" minLevel="1" tiers="1" description="Wardens train primarily with spears and have learned to get the most out of them.">
 <stat name="Combat_WeaponDamageMultiplier_Spear" constant="2.0"/>
-<stat name="Inventory_AllowedEquipmentCategories" constant="4096.0"/>
+<stat name="Inventory_AllowedEquipmentCategories" descriptionOverride="-" constant="4096.0"/>
 <stat name="Skill_DamageMultiplier_Warden_SpearDot" descriptionOverride="Damage from intrinsic spear bleeds is multiplied by {***}." constant="500.0"/>
 </trait>
 <trait identifier="1879132043" name="Master Club Training" iconId="1090552271" minLevel="1" tiers="1" description="Wardens learn advanced club techniques when keeping order in civilized lands.">
 <stat name="Combat_WeaponDamageMultiplier_1HClub" constant="2.0"/>
-<stat name="Inventory_AllowedEquipmentCategories" constant="3.3554432E7"/>
+<stat name="Inventory_AllowedEquipmentCategories" descriptionOverride="-" constant="3.3554432E7"/>
 <stat name="Skill_Duration_Warden_ClubDebuff" descriptionOverride="The duration of the inherent club attack speed debuff is increased by {***} seconds" constant="4.0"/>
 <stat name="Skill_ProcRate_Warden_ClubDebuff" descriptionOverride="The inherent attack speed debuff from Clubs happens much more often." constant="2.0"/>
 </trait>
 <trait identifier="1879132051" name="Expert Sword Training" iconId="1090552274" minLevel="1" tiers="1" description="Wardens have learned a few fancy sword manoeuvres.">
 <stat name="Combat_WeaponDamageMultiplier_1HSword" constant="2.0"/>
-<stat name="Inventory_AllowedEquipmentCategories" constant="1.34217728E8"/>
+<stat name="Inventory_AllowedEquipmentCategories" descriptionOverride="-" constant="1.34217728E8"/>
 <stat name="Skill_ToHitBonus_Warden_Swords" constant="1.0"/>
 </trait>
 <trait identifier="1879132052" name="Expert Club Training" iconId="1090552271" minLevel="1" tiers="1" description="Wardens learn advanced club techniques when keeping order in civilized lands.">
 <stat name="Combat_WeaponDamageMultiplier_1HClub" constant="2.0"/>
-<stat name="Inventory_AllowedEquipmentCategories" constant="3.3554432E7"/>
+<stat name="Inventory_AllowedEquipmentCategories" descriptionOverride="-" constant="3.3554432E7"/>
 <stat name="Skill_Duration_Warden_ClubDebuff" descriptionOverride="The duration of the inherent club attack speed debuff is increased by {***} seconds" constant="4.0"/>
 </trait>
 <trait identifier="1879134769" name="5 Icon Gambits" iconId="1090552293" minLevel="1" tiers="1" description=" ">
@@ -1700,22 +1700,22 @@
 <trait identifier="1879156199" name="Defensive Training" iconId="1091550870" minLevel="1" tiers="50" tierProperty="trait_skirmish_soldier_avoid_all_Rank" description="Train your Soldier in all defensive arts."/>
 <trait identifier="1879156203" name="Strength of Resolve" iconId="1091551130" minLevel="1" tiers="50" tierProperty="trait_skirmish_soldier_resistance_all_Rank" description="Train your Soldier to be more resistant."/>
 <trait identifier="1879156204" name="Role: Bannerguard" iconId="1091551170" minLevel="1" tiers="50" tierProperty="trait_skirmish_soldier_role_banner_Rank" description="You train your Soldier to be a Bannerguard. A Bannerguard wields a banner and a weapon and will concentrate on supporting you and your allies.&#10;&#10;&lt;rgb=#00FF00&gt;Armour: Heavy&lt;/rgb&gt;&#10;&lt;rgb=#FF0000&gt;Damage: Medium Melee&lt;/rgb&gt;&#10;&lt;rgb=#1996FF&gt;Special: Armour Aura&lt;/rgb&gt;">
-<stat name="ForwardSource_Skirmish_RoleCombo" operator="SET" constant="94.0"/>
+<stat name="ForwardSource_Skirmish_RoleCombo" operator="SET" descriptionOverride="-" constant="94.0"/>
 </trait>
 <trait identifier="1879156205" name="Role: Herbalist" iconId="1091551190" minLevel="1" tiers="50" tierProperty="trait_skirmish_soldier_role_healer_Rank" description="You train your Soldier to be an Herbalist. A Herbalist cannot attack, but will concentrate on healing you and your allies.&#10;&#10;&lt;rgb=#00FF00&gt;Armour: Light&lt;/rgb&gt;&#10;&lt;rgb=#FF0000&gt;Damage: None&lt;/rgb&gt;&#10;&lt;rgb=#1996FF&gt;Special: Healing Skill, Healing Aura&lt;/rgb&gt;">
-<stat name="ForwardSource_Skirmish_RoleCombo" operator="SET" constant="89.0"/>
+<stat name="ForwardSource_Skirmish_RoleCombo" operator="SET" descriptionOverride="-" constant="89.0"/>
 </trait>
 <trait identifier="1879156206" name="Role: Warrior" iconId="1091551210" minLevel="1" tiers="50" tierProperty="trait_skirmish_soldier_role_meleedps_Rank" description="You train your Soldier to be a Warrior. A Warrior wields two weapons and will concentrate on defeating your foes, specializing in dealing damage to multiple foes at once.&#10;&#10;&lt;rgb=#00FF00&gt;Armour: Medium&lt;/rgb&gt;&#10;&lt;rgb=#FF0000&gt;Damage: High Melee&lt;/rgb&gt;&#10;&lt;rgb=#1996FF&gt;Special: Bypass Armour&lt;/rgb&gt;">
-<stat name="ForwardSource_Skirmish_RoleCombo" operator="SET" constant="93.0"/>
+<stat name="ForwardSource_Skirmish_RoleCombo" operator="SET" descriptionOverride="-" constant="93.0"/>
 </trait>
 <trait identifier="1879156207" name="Role: Archer" iconId="1091551230" minLevel="1" tiers="50" tierProperty="trait_skirmish_soldier_role_rangeddps_Rank" description="You train your Soldier to be an Archer. An Archer wields a bow and will concentrate on defeating your foes, specializing in killing one foe at a time.&#10;&#10;&lt;rgb=#00FF00&gt;Armour: Medium&lt;/rgb&gt;&#10;&lt;rgb=#FF0000&gt;Damage: High Ranged&lt;/rgb&gt;&#10;&lt;rgb=#1996FF&gt;Special: Increased Critical Rating&lt;/rgb&gt;">
-<stat name="ForwardSource_Skirmish_RoleCombo" operator="SET" constant="92.0"/>
+<stat name="ForwardSource_Skirmish_RoleCombo" operator="SET" descriptionOverride="-" constant="92.0"/>
 </trait>
 <trait identifier="1879156208" name="Role: Sage" iconId="1091551250" minLevel="1" tiers="50" tierProperty="trait_skirmish_soldier_role_tacticaldps_Rank" description="You train your Soldier to be a Sage. A Sage will concentrate on defeating your foes, specializing in debuffing foes as he fights.&#10;&#10;&lt;rgb=#00FF00&gt;Armour: Light&lt;/rgb&gt;&#10;&lt;rgb=#FF0000&gt;Damage: High Tactical&lt;/rgb&gt;&#10;&lt;rgb=#1996FF&gt;Special: Penetrate Resistance&lt;/rgb&gt;">
-<stat name="ForwardSource_Skirmish_RoleCombo" operator="SET" constant="91.0"/>
+<stat name="ForwardSource_Skirmish_RoleCombo" operator="SET" descriptionOverride="-" constant="91.0"/>
 </trait>
 <trait identifier="1879156209" name="Role: Protector" iconId="1091551270" minLevel="1" tiers="50" tierProperty="trait_skirmish_soldier_role_tank_Rank" description="You train your Soldier to be a Protector. A Protector will concentrate on drawing the attention of your foes.&#10;&#10;&lt;rgb=#00FF00&gt;Armour: Heavy&lt;/rgb&gt;&#10;&lt;rgb=#FF0000&gt;Damage: Low Melee&lt;/rgb&gt;&#10;&lt;rgb=#1996FF&gt;Special: Increased Threat, Increase Armour&lt;/rgb&gt;">
-<stat name="ForwardSource_Skirmish_RoleCombo" operator="SET" constant="90.0"/>
+<stat name="ForwardSource_Skirmish_RoleCombo" operator="SET" descriptionOverride="-" constant="90.0"/>
 </trait>
 <trait identifier="1879156210" name="Removed" iconId="1091551290" minLevel="1" tiers="50" description="This Skill no longer functions"/>
 <trait identifier="1879156211" name="Cry of the Enduring" iconId="1091551310" minLevel="1" tiers="50" tierProperty="trait_skirmish_soldier_skill_buff_morearmor_Rank" description="Your Bannerguard learns to enhance an ally's armour for a moderate duration.&#10;&#10;&lt;rgb=#1996FF&gt;Buff: Armour&lt;/rgb&gt;"/>
@@ -1754,7 +1754,7 @@
 </trait>
 <trait identifier="1879162484" name="Advanced Fellowship Manuever Chain Protection" iconId="0" minLevel="1" tiers="16" tierProperty="Trait_MP_Characteristic_Rank_ConjunctionProtection" description="After you are hit with a Fellowship Manuever, you are protected from being hit with additional Fellowship Manuevers for a short duration">
 <stat name="EffectMod_Duration_CombatState_ConjunctionStunProtection" descriptionOverride="Increases duration of Fellowship Manuever chain protection to 60 seconds." scaling="1879162833"/>
-<stat name="Conjunction_ChainProtectionInterval" operator="SET" constant="60.0"/>
+<stat name="Conjunction_ChainProtectionInterval" operator="SET" descriptionOverride="-" constant="60.0"/>
 </trait>
 <trait identifier="1879162928" name="Resilient Body" iconId="1091577143" minLevel="1" tiers="50" tierProperty="trait_skirmish_soldier_incomminghealing_Rank" description="Train your Soldier to gain more morale when healed."/>
 <trait identifier="1879162929" name="Physical Potency" iconId="1091577144" minLevel="1" tiers="50" tierProperty="trait_skirmish_soldier_melee_auto_attack_Rank" description="Train your Soldier to deal more melee and ranged damage."/>
@@ -2143,11 +2143,11 @@
 <stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="Your hatchling gains the following:&#10;   +25% Health&#10;   +10% Power&#10;   +20% Mitigations&#10;  +5% Attack Speed&#10;   +15% Outgoing Damage&#10;   +5% Critical Chance&#10;  +5% Evade Chance &#10;  Enhanced Skills" constant="105.0"/>
 </trait>
 <trait identifier="1879201534" name="Enhanced Skill: Efflorescence" iconId="1091755050" minLevel="1" tiers="1" description="Increases the range and reduces the power cost of Efflorescence.&#10;&#10;&lt;rgb=#99FF33&gt;Efflorescence:&#10;+10m Range&#10;-15% Power Cost&lt;/rgb&gt;">
-<stat name="ForwardSource_Combat_TraitCombo" operator="SET" constant="109.0"/>
-<stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="15.000001"/>
+<stat name="ForwardSource_Combat_TraitCombo" operator="SET" descriptionOverride="-" constant="109.0"/>
+<stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" descriptionOverride="-" constant="15.000001"/>
 </trait>
 <trait identifier="1879201575" name="Lead the Charge!" iconId="1091631125" minLevel="1" tiers="1" description="Allows Banner of Terror and Banner of Horror to be used in combat and reduces the inductions of Command Post and Point-defence.&#10;&#10;&lt;rgb=#99FF33&gt;Banner of Terror/Horror:&#10;Useable in Combat&#10;-50% Duration&#10;-50% Cooldown&lt;/rgb&gt;">
-<stat name="Skill_RecoveryTime_Trait_MP_LeadTheCharge" operator="SUBSTRACT" constant="60.0"/>
+<stat name="Skill_RecoveryTime_Trait_MP_LeadTheCharge" operator="SUBSTRACT" descriptionOverride="-" constant="60.0"/>
 <stat name="Skill_Banner_Induction_MP_LeadTheCharge" operator="SUBSTRACT" descriptionOverride="-100% Command Post and Point-defence inductions" constant="99.0"/>
 </trait>
 <trait identifier="1879202784" name="Hurried Traveller" iconId="1091633528" minLevel="1" tiers="1" description="Milestone Skill recovery time reduced by 30 minutes.">
@@ -2249,8 +2249,8 @@
 </trait>
 <trait identifier="1879212225" name="Battlefield Promotion" iconId="0" minLevel="1" tiers="16" tierProperty="Trait_MP_Virtue_Rank" description="You grow stronger with rank by increasing your Health, Power, Damage, and Finesse.">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="+{***} Damage" scaling="1879212194"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" scaling="1879212195"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" scaling="1879212191"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" scaling="1879212195"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" scaling="1879212191"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="Increases your total health by {***}." scaling="1879212193"/>
 <stat name="POWER" operator="MULTIPLY" descriptionOverride="Increases your total power by {***}." scaling="1879212192"/>
 <stat name="FINESSE" scaling="1879212190"/>
@@ -3235,11 +3235,11 @@
 </trait>
 <trait identifier="1879259888" name="Well-disciplined" iconId="1091787044" minLevel="1" tiers="1" tierProperty="Trait_MountedCombat_Rank_Loremaster3" description="Well-versed in the disciplines of Mounted Combat, you are able to derive greater benefit while riding, regardless of the situation.">
 <stat name="MC_Trait_Loremaster_IncHealing_Rohirrim" descriptionOverride="In Rohirrim:&#10;Increases Outgoing and Incoming Healing by an additional {***}" constant="5.0"/>
-<stat name="MC_Trait_Loremaster_OutHealing_Rohirrim" constant="5.0"/>
+<stat name="MC_Trait_Loremaster_OutHealing_Rohirrim" descriptionOverride="-" constant="5.0"/>
 <stat name="MC_Trait_Loremaster_PowerCost_Riddermark" operator="SUBSTRACT" descriptionOverride="In Riddermark:&#10;Reduces the cost of all mounted skills by an additional {***}" constant="5.0"/>
 <stat name="MC_Trait_Loremaster_MeleeDamage_RedDawn" descriptionOverride="In Red Dawn:&#10;Increases damage by an additional {***}" constant="5.0"/>
-<stat name="MC_Trait_Loremaster_TacticalDamage_RedDawn" constant="5.0"/>
-<stat name="MC_Trait_Loremaster_RangedDamage_RedDawn" constant="5.0"/>
+<stat name="MC_Trait_Loremaster_TacticalDamage_RedDawn" descriptionOverride="-" constant="5.0"/>
+<stat name="MC_Trait_Loremaster_RangedDamage_RedDawn" descriptionOverride="-" constant="5.0"/>
 </trait>
 <trait identifier="1879259889" name="Bred for War" iconId="1091787034" minLevel="1" tiers="3" tierProperty="Trait_MountedCombat_Rank_Loremaster7" description="Your animal companions were introduced into the battlefield at a young age and, as such, display great prowess in mounted combat.">
 <stat name="MC_Trait_Loremaster_BredForWar_BleedDamage" scaling="1879270996"/>
@@ -3282,8 +3282,8 @@
 <stat name="MC_Trait_Warden_MountArmor_Rohirrim" descriptionOverride="In Rohirrim:&#10;Increases your War-steed's armour by an additional {***}" constant="100.0"/>
 <stat name="MC_Trait_Warden_MountEndurance_Riddermark" descriptionOverride="In Riddermark:&#10;Increases your War-steed's Morale by an additional {***}" constant="0.05"/>
 <stat name="MC_Trait_Warden_MeleeDamage_RedDawn" descriptionOverride="In Red Dawn:&#10;Increases damage by an additional {***}" constant="5.0"/>
-<stat name="MC_Trait_Warden_TacticalDamage_RedDawn" constant="5.0"/>
-<stat name="MC_Trait_Warden_RangedDamage_RedDawn" constant="5.0"/>
+<stat name="MC_Trait_Warden_TacticalDamage_RedDawn" descriptionOverride="-" constant="5.0"/>
+<stat name="MC_Trait_Warden_RangedDamage_RedDawn" descriptionOverride="-" constant="5.0"/>
 </trait>
 <trait identifier="1879259931" name="A Warden's Resolve" iconId="1091787040" minLevel="1" tiers="1" tierProperty="Trait_MountedCombat_Rank_Warden1" description="Through a steadfast demeanor and an unshakeable resolve, you inspire your allies to greatness in the face of adversity.">
 <specialEffect label="Unlocks the skill A Warden's Resolve"/>
@@ -3304,8 +3304,8 @@
 </trait>
 <trait identifier="1879259936" name="Well-disciplined" iconId="1091787245" minLevel="1" tiers="1" tierProperty="Trait_MountedCombat_Rank_Runekeeper2" description="Well-versed in the disciplines of Mounted Combat, you are able to derive greater benefit while riding, regardless of the situation.">
 <stat name="Trait_Mounted_Minstrel_Rohirrim_Healing" descriptionOverride="Rohirrim: &#10; +5% Out-going Healing&#10; &#10; Riddermark: &#10; +5% Critical Chance &#10; &#10; Red Dawn: &#10; +5% Damage" constant="5.0"/>
-<stat name="MC_Trait_Hunter_CritChance_RedDawn" constant="5.0"/>
-<stat name="Trait_Mounted_Minstrel_RedDawn_Damage" constant="5.0"/>
+<stat name="MC_Trait_Hunter_CritChance_RedDawn" descriptionOverride="-" constant="5.0"/>
+<stat name="Trait_Mounted_Minstrel_RedDawn_Damage" descriptionOverride="-" constant="5.0"/>
 </trait>
 <trait identifier="1879259937" name="Runic Fury" iconId="1091787243" minLevel="1" tiers="3" tierProperty="Trait_MountedCombat_Rank_Runekeeper6" description="Fuelled by fury, you are able to dig deep and unleash an unrelenting assault on your foes.">
 <stat name="MC_Trait_Hunter_Application_FuriousAssault" descriptionOverride="Your attacks have a +{***} chance to completely refill your fury bar." scaling="1879263666"/>
@@ -3517,8 +3517,8 @@
 </trait>
 <trait identifier="1879262875" name="Well-disciplined" iconId="1091787251" minLevel="1" tiers="1" tierProperty="Trait_MountedCombat_Rank_Champion2" description="Well-versed in the disciplines of Mounted Combat, you are able to derive greater benefit while riding, regardless of the situation. &#10;&#10;Red Dawn:Increases Critical Damage bonus by 5%&#10;&#10;Riddermark: Increases Damage bonus by 5%&#10;&#10;Rohirrim: Increases  War-steed armour bonus by 50">
 <stat name="Trait_Mounted_Guardian_Rohirrim_Armour" descriptionOverride="Rohirrim: &#10; +100 War-steed Armour  &#10; &#10; Riddermark: &#10; +5% Damage&#10; &#10; Red Dawn: &#10; +5% Critical Damage" constant="100.0"/>
-<stat name="MC_Trait_Hunter_Damage_Riddermark" constant="5.0"/>
-<stat name="MC_Trait_Hunter_CritChance_RedDawn" constant="5.0"/>
+<stat name="MC_Trait_Hunter_Damage_Riddermark" descriptionOverride="-" constant="5.0"/>
+<stat name="MC_Trait_Hunter_CritChance_RedDawn" descriptionOverride="-" constant="5.0"/>
 </trait>
 <trait identifier="1879262876" name="One With Your Steed" iconId="1091787252" minLevel="1" tiers="3" tierProperty="Trait_MountedCombat_Rank_Champion8" description="Having a strong connexion with your War-steed is important and allows both to act as one force of destruction on the battlefield.">
 <stat name="MC_Trait_Champion_Application_Fervour_Consumption" operator="SUBSTRACT" descriptionOverride="-{***} chance that Recuperate, Destabilizing Strike, and Horn Blast will not consume fervour on use" scaling="1879262968"/>
@@ -3788,7 +3788,7 @@
 </trait>
 <trait identifier="1879269709" name="Thick Skin" iconId="1091830164" minLevel="1" tiers="1" tierProperty="trait_class_warden_rank_26" description="Gains further bonuses to your ratings from Dance of War and Conviction.">
 <stat name="Skill_Warden_ThickSkin_EffectMod" descriptionOverride="+20% to Critical Defence and Physical Mitigation from Dance of War&#10;+20% to Critical Defence and Tactical Mitigation from Conviction" constant="120.00001"/>
-<stat name="Skill_Warden_ImpFlourish_Finisher_CritDef" scaling="1879291085"/>
+<stat name="Skill_Warden_ImpFlourish_Finisher_CritDef" descriptionOverride="-" scaling="1879291085"/>
 </trait>
 <trait identifier="1879269710" name="Vital Points" iconId="1091830167" minLevel="1" tiers="5" tierProperty="trait_class_warden_rank_2" description="Increases the potency of your Bleeds.">
 <stat name="Skill_Warden_BleedDamage" scaling="1879269999"/>
@@ -3821,7 +3821,7 @@
 </trait>
 <trait identifier="1879269718" name="Indefatigable" iconId="1091830147" minLevel="1" tiers="1" tierProperty="trait_class_warden_rank_25" description="Increases the heal of Restoration and the Block Rating of Celebration of Skill.">
 <stat name="Skill_Warden_Indefatigable_EffectMod" constant="10.0"/>
-<stat name="Skill_Warden_Pers_Finisher_Block" scaling="1879291078"/>
+<stat name="Skill_Warden_Pers_Finisher_Block" descriptionOverride="-" scaling="1879291078"/>
 </trait>
 <trait identifier="1879269719" name="Basic Strikes" iconId="1091830131" minLevel="1" tiers="5" tierProperty="trait_class_warden_rank_1" description="Your Gambit Builders are more powerful.">
 <stat name="Skill_Warden_BuilderDamage" scaling="1879270009"/>
@@ -4046,7 +4046,7 @@
 <specialEffect label="If your pet is hit with a critical attack, you gain a damage bonus."/>
 </trait>
 <trait identifier="1879269795" name="Ring of Fire" iconId="1091829941" minLevel="1" tiers="4" tierProperty="trait_class_loremaster_rank_14" description="Earns the skill: Ring of Fire. At max rank, Ring of Fire's radius is doubled.">
-<stat name="Skill_Loremaster_RingofFire_AvoidanceMod" scaling="1879270043"/>
+<stat name="Skill_Loremaster_RingofFire_AvoidanceMod" descriptionOverride="-" scaling="1879270043"/>
 <stat name="Skill_Loremaster_RingofFire_AvoidanceMod_StringDummy" scaling="1879286649"/>
 </trait>
 <trait identifier="1879269796" name="Master of Fire" iconId="1091829938" minLevel="1" tiers="3" tierProperty="trait_class_loremaster_rank_1" description="Increases Fire skill damage.">
@@ -4060,7 +4060,7 @@
 </trait>
 <trait identifier="1879269800" name="Inner Flame" iconId="1091829934" minLevel="1" tiers="3" tierProperty="trait_class_loremaster_rank_20" description="Earns the skill: Inner Flame.&#10;This skill heals Morale and tiers up a Fire Damage buff as you channel.">
 <stat name="Skill_Loremaster_HealingMod_InnerFlame" scaling="1879270051"/>
-<stat name="Skill_Loremaster_InnerFlame_BuffMod" scaling="1879270047"/>
+<stat name="Skill_Loremaster_InnerFlame_BuffMod" descriptionOverride="-" scaling="1879270047"/>
 <stat name="Skill_Loremaster_InnerFlame_BuffMod_StringDummy" scaling="1879286646"/>
 </trait>
 <trait identifier="1879269801" name="Sign of the Wild: Rage" iconId="1091840537" minLevel="1" tiers="5" tierProperty="trait_class_loremaster_rank_17" description="Sign of the Wild: Rage increases your pet's damage and attack speed.">
@@ -4271,8 +4271,8 @@
 <trait identifier="1879270660" name="Bulls-eye" iconId="1091830149" minLevel="1" tiers="6" tierProperty="trait_class_warden_rank_37" description="Increases your Critical rating, and grants 1% Ranged Critical damage per rank.&#10;&#10;At max rank, gain a significant Critical Damage bonus.">
 <stat name="CRITICAL_MELEE_PERCENTAGE" scaling="1879300535"/>
 <stat name="Skill_Warden_JavelinCriticalDamage" scaling="1879270948"/>
-<stat name="CRITICAL_RANGED_PERCENTAGE" scaling="1879300536"/>
-<stat name="CRITICAL_TACTICAL_PERCENTAGE" scaling="1879300531"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" scaling="1879300536"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" scaling="1879300531"/>
 </trait>
 <trait identifier="1879270661" name="Suppression" iconId="1091830159" minLevel="1" tiers="3" tierProperty="trait_class_warden_rank_46" description="Increases the outgoing damage debuff in the Ranged Offensive Strike Gambit line.">
 <stat name="Skill_Warden_Suppression" scaling="1879270950"/>
@@ -4330,13 +4330,13 @@
 <specialEffect label="Fire: +15% Attack Duration &#10;Frost: +10% Miss Chance &#10;Lightning: -50% Ranged Damage&#10;&#10;This event cannot be triggered by Nature's Fury"/>
 </trait>
 <trait identifier="1879270683" name="Ancient Craft" iconId="1091806010" minLevel="1" tiers="4" tierProperty="trait_class_loremaster_rank_42" description="Increases Armour Debuff of Ancient Craft&#10;&#10; At third rank, Ancient Craft causes the first Lightning Skill to be used against a target to deal bonus damage.&#10;&#10;At max rank, your armour is 5% more effective.">
-<stat name="Skill_Loremaster_AncientCraft" scaling="1879271260"/>
+<stat name="Skill_Loremaster_AncientCraft" descriptionOverride="-" scaling="1879271260"/>
 <stat name="Skill_Loremaster_AncientCraft_StringDummy" scaling="1879286648"/>
 <stat name="ARMOUR" operator="MULTIPLY" scaling="1879311673"/>
 <stat name="Skill_Loremaster_AncientCraft_ArmourbonusStringDummy" scaling="1879314102"/>
 </trait>
 <trait identifier="1879270684" name="Mending Lore" iconId="1091829940" minLevel="1" tiers="5" tierProperty="trait_class_loremaster_rank_34" description="Increases Outgoing Healing per Rank. At max rank, increases the Incoming Healing buff on Water-lore.">
-<stat name="Combat_OutgoingHeals_EffectMod" scaling="1879271258"/>
+<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="-" scaling="1879271258"/>
 <stat name="Skill_Loremaster_OutgoingHeals_StringDummy" scaling="1879286650"/>
 <stat name="Itemset_Loremaster_WaterLore_IncHealingMod" scaling="1879290009"/>
 </trait>
@@ -4641,8 +4641,8 @@
 <trait identifier="1879272161" name="Of All Trades" iconId="1091840490" minLevel="1" tiers="4" tierProperty="trait_class_minstrel_rank_39" description="Increase damage and healing.">
 <stat name="Combat_OutgoingHeals_EffectMod" scaling="1879368800"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="+{***} Damage" scaling="1879368799"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" scaling="1879368803"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" scaling="1879368801"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" scaling="1879368803"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" scaling="1879368801"/>
 </trait>
 <trait identifier="1879272169" name="Caparison of the Midsummer" iconId="1091947415" minLevel="1" tiers="1"/>
 <trait identifier="1879272271" name="Grand Master Weapons Training" iconId="1091840526" minLevel="1" tiers="1">
@@ -4661,8 +4661,8 @@
 </trait>
 <trait identifier="1879272275" name="Precision Training" iconId="1091830168" minLevel="1" tiers="1">
 <stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="+{***} Critical Chance" constant="2.5"/>
-<stat name="CRITICAL_RANGED_PERCENTAGE" constant="2.5"/>
-<stat name="CRITICAL_TACTICAL_PERCENTAGE" constant="2.5"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="2.5"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="2.5"/>
 <stat name="Skill_Warden_CriticalDamage" constant="2.5"/>
 </trait>
 <trait identifier="1879272276" name="Taking Advantage" iconId="1091841123" minLevel="1" tiers="1" description="After Parrying or Partially Parrying, you heal a small amount of Morale and your Gambit Builders cost no Power for 5s."/>
@@ -4712,50 +4712,50 @@
 <specialEffect label="Dodging an attack brings a moment of relief, restoring 1% of your maximum Morale."/>
 </trait>
 <trait identifier="1879272571" name="The Deadly Storm" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_champion_three" description="Uses a wide array of AoE attacks, inflicting whirling damage upon many foes at once.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879272572" name="The Bowmaster" iconId="1091564746" minLevel="1" tiers="1" tierProperty="trait_class_specialization_hunter_two" description="A stationary, high-impact line that rains bursts of damage upon the assailant, using a rhythm of generating and consuming Focus to maximize DPS.">
 <stat name="Skill_RangedAttack_MaxRangeMod" descriptionOverride="+{***} max distance for all ranged skills" constant="10.0"/>
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879272573" name="The Martial Champion" iconId="1091564746" minLevel="1" tiers="1" tierProperty="trait_class_specialization_champion_one" description="A warrior line, forgoing the shield for better weapons. Managing Fervour, health, and power makes this Tank unstoppable.">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="Passively gains +20% Morale" constant="1.2"/>
 <stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="You may block with a two-handed weapon." constant="16428.0"/>
 <stat name="BLOCK" scaling="1879368065"/>
-<stat name="PERCEIVED_THREAT" constant="209.99998"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="209.99998"/>
 </trait>
 <trait identifier="1879272574" name="Lead the Charge" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_captain_three" description="Lead the Charge Captains inflict heavy damage to their foes while enhancing their allies' prowess.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
-<stat name="Skill_Captain_Herald_DamageMod" scaling="1879394027"/>
-<stat name="Skill_Captain_Herald_MoraleMod" scaling="1879394026"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
+<stat name="Skill_Captain_Herald_DamageMod" descriptionOverride="-" scaling="1879394027"/>
+<stat name="Skill_Captain_Herald_MoraleMod" descriptionOverride="-" scaling="1879394026"/>
 <specialEffect label="Sure Strike has a chance to bestow Relentless Attack to the Fellowship when used while Battle-readied.&#10;&#10;Relentless Attack:&#10;Critical Rating&#10;Physical Mastery&#10;Tactical Mastery&#10; +5% Outgoing Healing&#10;Duration: 30s"/>
 <specialEffect label="Scoring a Critical Hit causes your target to take 2% more damage for 10s. This effect stacks with Telling Mark and Oathbreaker's Shame."/>
 </trait>
 <trait identifier="1879272575" name="The Huntsman" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_hunter_one" description="A mid-ranged mobile harasser who deals sustained damage while free to move. They unload rapid volleys, dealing damage quickly.">
 <stat name="ForwardSource_Hunter_FocusLoss_OnMovement" operator="SET" descriptionOverride="No Focus Loss on Movement." constant="-1.0"/>
 <stat name="Skill_ChanceMovingHit_Set_Hunter_Mod" operator="SUBSTRACT" descriptionOverride="No Miss Chance Penalty for Movement." constant="100.0"/>
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <specialEffect label="Induction based attacks can be used while moving."/>
 </trait>
 <trait identifier="1879272576" name="The Fighter of Shadow" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_guardian_three" description="Excels at debuffing enemies, gaining survivability by making their enemies weaker. Guardians may Tank with a 2-handed weapon to inflict higher damage.">
-<stat name="PERCEIVED_THREAT" constant="209.99998"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="209.99998"/>
 </trait>
 <trait identifier="1879272577" name="Assailment" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_warden_three" description="A ranged support line that debuffs enemies while dealing significant damage from afar, useful when fighting either alone or in a Fellowship.">
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="CRITICAL_RATING" scaling="1879211601"/>
 <stat name="Skill_MaxRange_JavelinToss" constant="10.0"/>
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <specialEffect label="Gain the skill: Improved Hampering Javelin. &#10;&#10;Gambit Builders build a stacking ranged damage buff - max of 4.5%.&#10;&#10;Individual Gambit Bonuses (10% Chance to Apply):&#10;Javelin: -5% Fellowship Attack Duration &#10;Fist: +5% Chance to Crit with Ranged Attacks&#10;Shield: +10% Morale return for fellows when they strike the target"/>
 </trait>
 <trait identifier="1879272578" name="The Trapper of Foes" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_hunter_three" description="Focuses on sustained damage, AoE, and CC, controlling the flow of battle while providing buffs for allies to gain leverage on their opponents.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <specialEffect label="All Traps can be used while moving and have no inductions."/>
 </trait>
 <trait identifier="1879272579" name="The Watcher of Resolve" iconId="1091564746" minLevel="1" tiers="1" tierProperty="trait_class_specialization_minstrel_one" description="Powerful healers, offering buffs to healing potency and frequency. These Minstrels heal the Morale of the Fellowship and themselves.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879272580" name="The Keeper of Animals" iconId="1091564746" minLevel="1" tiers="1" tierProperty="trait_class_specialization_loremaster_one" description="Animal companions ensure their keeper's survival, using bonuses and pet-master interactions to help both thrive in battle.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <specialEffect label="Your companions have the following bonuses:&#10;   +5% Morale&#10;   +5% Power&#10;   +2% Attack Speed&#10;   +2% Outgoing Damage&#10;   +1% Critical Chance&#10;   +2% Block Chance&#10;   +2% Parry Chance&#10;   +2% Evade Chance&#10;   +1 Stealth&#10;   +1 Stealth Detection{{keepspaces}}"/>
 <specialEffect label="Coordination: &#10;When your animal companion lands a critical strike, your next skill has no induction.&#10;This effect cannot trigger more than once every 10s."/>
 </trait>
@@ -4764,80 +4764,80 @@
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="Passively gains +20% Morale" constant="1.2"/>
-<stat name="PERCEIVED_THREAT" constant="209.99998"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="209.99998"/>
 <stat name="Skill_Warden_MoraleTapDamage" descriptionOverride="Gambit Builders build a stacking Partial Block, Parry, and Evade buff -max of 6%.&#10;&#10;Individual Gambit Bonuses (10% Chance to Apply):&#10;Spear: +5% Incoming Healing Modifier&#10;Fist: -2% Outgoing Damage on Target&#10;Shield: +Block Rating" constant="25.0"/>
 </trait>
 <trait identifier="1879272582" name="The Warrior-skald" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_minstrel_two" description="The damage line for Minstrels, inflicting heavy damage and moving quickly through battles.">
 <stat name="Combat_SkillDamageMultiplier_Light" constant="20.0"/>
 <stat name="Skill_MaxRangeMod_MP_VenomousHaze" descriptionOverride="+5m Range to Ballads and Cries" constant="5.0"/>
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879272583" name="Benedictions of Peace" iconId="1091564746" minLevel="1" tiers="1" tierProperty="trait_class_specialization_runekeeper_one" description="Powerful healers, using Heal-over-time skills to sustain the Fellowship's health, able to redirect or absorb attacks flung at their allies.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879272584" name="Solitary Thunder" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_runekeeper_three" description="A mobile, burst-damage line, with a number of instant-cast and potent skills to increase DPS.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879272585" name="The Mischief-maker" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_burglar_two" description="Mischief-maker Burglars control fights by tricking their foes into submission.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <specialEffect label="Subtle Stab reduces the active cooldown of Trick Removals."/>
 </trait>
 <trait identifier="1879272586" name="The Defender of the Free" iconId="1091564746" minLevel="1" tiers="1" tierProperty="trait_class_specialization_guardian_one" description="The true Tanking build, using both AoE and single-target taunts. The primary focus is protection and survival.">
-<stat name="PERCEIVED_THREAT" constant="209.99998"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="209.99998"/>
 <specialEffect label="Your shield skills have a 25% chance to apply a fortification effect that will increase your mitigations by 1%. This effect may stack up to five times."/>
 </trait>
 <trait identifier="1879272587" name="The Quiet Knife" iconId="1091564746" minLevel="1" tiers="1" tierProperty="trait_class_specialization_burglar_one" description="Quiet Knife Burglars pounce on their enemy from the shadows, dealing large amounts of damage on their opening attack.">
 <stat name="STEALTH_LEVEL" constant="2.0"/>
 <stat name="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" constant="40.0"/>
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879272588" name="The Protector of Song" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_minstrel_three" description="Supports allies with powerful buffs, using enhanced Anthem skills with great effectiveness.">
 <stat name="OUTGOING_HEALING_PERCENTAGE" constant="5.0"/>
 <stat name="Combat_SkillDamageMultiplier_Light" constant="10.0"/>
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879272589" name="Hands of Healing" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_captain_two" description="Hands of Healing Captains restore the morale of their allies by fighting on the front lines.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
-<stat name="Skill_Captain_Herald_DamageMod" scaling="1879394027"/>
-<stat name="Skill_Captain_Herald_MoraleMod" scaling="1879394026"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
+<stat name="Skill_Captain_Herald_DamageMod" descriptionOverride="-" scaling="1879394027"/>
+<stat name="Skill_Captain_Herald_MoraleMod" descriptionOverride="-" scaling="1879394026"/>
 <specialEffect label="Sure Strike has a chance to bestow Focus to the Fellowship when used while Battle-readied.&#10;&#10;Focus:&#10;Restore 2% Max Morale over 10s&#10;Gain the following for 30s:&#10;-5% Attack Duration&#10;+5% Incoming Healing&#10;+2% Tactical Mitigation"/>
 </trait>
 <trait identifier="1879272590" name="Cleansing Flames" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_runekeeper_two" description="Uses long-range, induction-based attacks that deal damage-over-time for sustained high DPS.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879272591" name="Recklessness" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_warden_two" description="A powerful damaging build that stacks single-target bleeds with the potential for sweeping AoE blows.">
 <stat name="Trait_BonusDoTDamage_TerribleVisage" constant="5.0"/>
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="-10.0"/>
 <stat name="OUTGOING_HEALING_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <specialEffect label="Gambit Builders build a stacking melee damage buff - max of 6%. &#10;&#10;Individual Gambit Bonuses (10% Chance to Apply):&#10;Spear: +5% Light DoT Damage&#10;Fist: +5% Fist Gambit Critical Damage&#10;Shield: +2% Morale-tap damage"/>
 </trait>
 <trait identifier="1879272592" name="Leader of Men" iconId="1091564746" minLevel="1" tiers="1" tierProperty="trait_class_specialization_captain_one" description="Leader of Men Captains shield their allies from harm and make them more resilient.">
-<stat name="PERCEIVED_THREAT" constant="209.99998"/>
-<stat name="Skill_Captain_Herald_DamageMod" scaling="1879394027"/>
-<stat name="Skill_Captain_Herald_MoraleMod" scaling="1879394026"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="209.99998"/>
+<stat name="Skill_Captain_Herald_DamageMod" descriptionOverride="-" scaling="1879394027"/>
+<stat name="Skill_Captain_Herald_MoraleMod" descriptionOverride="-" scaling="1879394026"/>
 <specialEffect label="Sure Strike has a chance to bestow On Guard to the Fellowship when used while Battle-readied.&#10;&#10;On Guard:&#10;+5% Damage Reduction&#10;-10% Power Costs&#10;Parry Rating&#10;Duration:30s"/>
 <specialEffect label="Partial Blocks, Parries and Evades grant the Captain a Defeat Event"/>
 </trait>
 <trait identifier="1879272593" name="The Keen Blade" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_guardian_two" description="Focuses on dealing damage. Skills have high base damage, bleeds, and powerful finishing skills.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879272594" name="The Berserker" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_champion_two" description="Deals bursts of single-target high damage, relying on a high Crit chance to do massive damage.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <specialEffect label="This effect can stack up to five times."/>
 </trait>
 <trait identifier="1879272595" name="The Ancient Master" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_loremaster_three" description="A CC build with a wide range of debuffs and Power-restoring abilities for the Fellowship, using chains of harmful skills to enhance debuffs.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <specialEffect label="Insult to Injury: Burning Embers will deal bonus damage to Stunned Targets"/>
 </trait>
 <trait identifier="1879272596" name="The Gambler" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_burglar_three" description="Gambler Burglars rely on the roll of the dice to inflict damage and influence outcomes.">
 <stat name="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" constant="40.0"/>
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <specialEffect label="Your Crit Chain now unlocks on Evades"/>
 </trait>
 <trait identifier="1879272597" name="Master of Nature's Fury" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_loremaster_two" description="A DPS build focused on dealing significant damage from a distance. Skills interact to maximize damage to one or multiple targets.">
 <stat name="Combat_SkillDamageMultiplier_Fire" constant="20.0"/>
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <specialEffect label="+20% Chance for Lightning Strike to strike twice.&#10;&#10;Your feline companions have increased attack damage and slightly increased Morale and Power."/>
 </trait>
 <trait identifier="1879272886" name="Manifested Ire" iconId="1091840977" minLevel="1" tiers="1" description="Enemies are snared if they fail to continue attacking the Guardian after their use of damaging abilites."/>
@@ -5042,7 +5042,7 @@
 <stat name="Runekeeper_Attunement_CritDamage_BaseMod" operator="SET" descriptionOverride="+3% Critical Damage per Battle Attunement Pip" constant="100.0"/>
 </trait>
 <trait identifier="1879274688" name="Scathing Retort" iconId="1091502140" minLevel="1" tiers="1" description="Reduces the cooldown of Smouldering Wrath and makes the skill immune to interrupt.">
-<stat name="Trait_Runekeeper_Smouldering_Wrath_CooldownMod" operator="SUBSTRACT" constant="5.0"/>
+<stat name="Trait_Runekeeper_Smouldering_Wrath_CooldownMod" operator="SUBSTRACT" descriptionOverride="-" constant="5.0"/>
 <specialEffect label="Smouldering Wrath is now immune to interrupt.&#10; -5s Smouldering Wrath Cooldown"/>
 </trait>
 <trait identifier="1879274689" name="Master of Allusion" iconId="1091502147" minLevel="1" tiers="1" description="Benediction of Peace: Crits reduce the induction time of the Rune-keeper's healing and frost skills for a short duration."/>
@@ -5249,7 +5249,7 @@
 </trait>
 <trait identifier="1879276235" name="Soldier Defeat Effect Duration" iconId="1091832553" minLevel="1" tiers="5" tierProperty="trait_bigbattles_vanguard_rank_15" description="Increases the duration of your Soldier Defeat Effects.">
 <stat name="BigBattle_Vanguard_Proc_Defeat_B_Duration" descriptionOverride="{***}s Soldier Defeat Effect Duration" scaling="1879279153"/>
-<stat name="BigBattle_Vanguard_Proc_Defeat_B_Duration_Pulse" scaling="1879282936"/>
+<stat name="BigBattle_Vanguard_Proc_Defeat_B_Duration_Pulse" descriptionOverride="-" scaling="1879282936"/>
 </trait>
 <trait identifier="1879276236" name="Healing" iconId="1091832571" minLevel="1" tiers="5" tierProperty="trait_bigbattles_vanguard_rank_18" description="Increases the amount of healing you receive and deliver.">
 <stat name="INCOMING_HEALING_PERCENTAGE" scaling="1879279140"/>
@@ -5434,9 +5434,9 @@
 <trait identifier="1879278652" name="Leggings of Michel Delving" iconId="1091830709" minLevel="1" tiers="1"/>
 <trait identifier="1879278653" name="Caparison of Bree" iconId="1091840691" minLevel="1" tiers="1"/>
 <trait identifier="1879279066" name="Vanguard Rank 5" iconId="1091834310" minLevel="1" tiers="1" description="Unlocks the Piercing Roar Killstreak skill, the Fleetness Recruit Defeat effect, and a chance to refund all the Killstreak spent to trigger a Killstreak skill. Hero death effects have increased duration.">
-<stat name="BigBattle_Adv_Vanguard_Refund_B" operator="SET" constant="0.05"/>
+<stat name="BigBattle_Adv_Vanguard_Refund_B" operator="SET" descriptionOverride="-" constant="0.05"/>
 <stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration" descriptionOverride="Increased duration on hero death effects." constant="2.0"/>
-<stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration_Pulse" constant="1.0"/>
+<stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration_Pulse" descriptionOverride="-" constant="1.0"/>
 <specialEffect label="Incite Foes causes damage."/>
 <skill id="1879275749" name="Piercing Roar"/>
 <skill id="1879275757" name="Fleetness"/>
@@ -5444,34 +5444,34 @@
 <trait identifier="1879279067" name="Officer Rank 2" iconId="1091834314" minLevel="1" tiers="1" description="Unlocks the ability to order Target Priority - Warriors, Target Priority - Archers, and to deploy Engineer and Vanguard Banners."/>
 <trait identifier="1879279068" name="Engineer Rank 5" iconId="1091834320" minLevel="1" tiers="1" description="Unlocks the ability to load triple catapult shells, upgrade the damage of siege weapons, and to apply a slow powder to catapult shells."/>
 <trait identifier="1879279069" name="Vanguard Rank 4" iconId="1091834318" minLevel="1" tiers="1" description="Unlocks the Galvanizing Defeat Hero's Death effect, the Rejuvenation Soldier Defeat Effect, and a chance to refund half the Killstreak spent to trigger a Killstreak skill. Hero death effects have increased duration.">
-<stat name="BigBattle_Adv_Vanguard_Refund_A" operator="SET" constant="0.05"/>
+<stat name="BigBattle_Adv_Vanguard_Refund_A" operator="SET" descriptionOverride="-" constant="0.05"/>
 <stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration" descriptionOverride="Increased duration on hero death effects." constant="2.0"/>
-<stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration_Pulse" constant="1.0"/>
+<stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration_Pulse" descriptionOverride="-" constant="1.0"/>
 <stat name="BigBattle_Vanguard_Force_Taunt_TargetCount" descriptionOverride="Targets increased on Incite Foes." constant="3.0"/>
 <skill id="1879276106" name="Rejuvenation"/>
 </trait>
 <trait identifier="1879279070" name="Engineer Rank 4" iconId="1091834312" minLevel="1" tiers="1" description="Unlocks the ability to load grapeshot catapult shells, to apply the Leeching Powder to catapult shells, and grants a 15% contribution boost to all interactions."/>
 <trait identifier="1879279071" name="Officer Rank 3" iconId="1091834322" minLevel="1" tiers="1" description="Unlocks the ability to order Two-handed Stance, Target Priority - Sapper, Target Priority - Berserker, and a moderate increase to the initial heal provided by your Heal Order.">
-<stat name="BigBattle_Adv_Officer_Lembas_Initial" constant="2000.0"/>
+<stat name="BigBattle_Adv_Officer_Lembas_Initial" descriptionOverride="-" constant="2000.0"/>
 </trait>
 <trait identifier="1879279072" name="Vanguard Rank 3" iconId="1091834305" minLevel="1" tiers="1" description="Unlocks the Enfeebling Cry Killstreak skill, the Motivating Fall Hero's Death effect, and the Serrated Recruit Defeat Effect. Hero death effects have increased duration.">
 <stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration" descriptionOverride="Increased duration on hero death effects." constant="2.0"/>
-<stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration_Pulse" constant="1.0"/>
+<stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration_Pulse" descriptionOverride="-" constant="1.0"/>
 <specialEffect label="Incite Foe affects several targets."/>
 <skill id="1879275748" name="Enfeebling Cry"/>
 <skill id="1879275755" name="Serrated"/>
 </trait>
 <trait identifier="1879279073" name="Vanguard Rank 6" iconId="1091834307" minLevel="1" tiers="1" description="Unlocks the Stunning Bellow Killstreak skill, the Inspiring End Hero's Death effect, the Entrenchment Soldier Defeat effect, and increases the area of all Killstreak skills and Hero's Death effects. Hero death effects have increased duration.">
 <stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration" descriptionOverride="Increased duration on hero death effects." constant="2.0"/>
-<stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration_Pulse" constant="1.0"/>
+<stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration_Pulse" descriptionOverride="-" constant="1.0"/>
 <stat name="BigBattle_Vanguard_Forced_Taunt_Mod_Cooldown" descriptionOverride="Cooldown reduced on Incite Foes." constant="-30.0"/>
 <skill id="1879275750" name="Stunning Bellow"/>
 <skill id="1879276107" name="Entrenchment"/>
 </trait>
 <trait identifier="1879279074" name="Officer Rank 4" iconId="1091834309" minLevel="1" tiers="1" description="Unlocks the ability to order Target Priority - Commander, increase the range you can deploy your banners, and increases the duration of your heal, haste, armour and damage orders by five seconds.">
 <stat name="BigBattle_Adv_Officer_Banner_Range" constant="10.0"/>
-<stat name="BigBattle_Adv_Officer_Duration" constant="5.0"/>
-<stat name="BigBattle_Adv_Officer_Duration_Pulse" constant="2.0"/>
+<stat name="BigBattle_Adv_Officer_Duration" descriptionOverride="-" constant="5.0"/>
+<stat name="BigBattle_Adv_Officer_Duration_Pulse" descriptionOverride="-" constant="2.0"/>
 </trait>
 <trait identifier="1879279075" name="Vanguard Rank 2" iconId="1091834313" minLevel="1" tiers="1" description="Unlocks the Stimulating Loss Hero's Death effect, and the Eye for an Eye Soldier Defeat Effect.">
 <specialEffect label="Allies will not attack your target when using Incite Foe"/>
@@ -5480,9 +5480,9 @@
 <trait identifier="1879279076" name="Engineer Rank 3" iconId="1091834315" minLevel="1" tiers="1" description="Unlocks the ability to utilize placeable catapults and ballistas, upgrade the crank speed of siege weapons, and to apply the demoralizing powder to catapult shells."/>
 <trait identifier="1879279077" name="Engineer Rank 6" iconId="1091834316" minLevel="1" tiers="1" description="Unlocks the ability to load spread catapult shells, upgrade the distance of siege weapons, apply the rending powder to catapult shells, and grants a 30% contribution boost to all interactions."/>
 <trait identifier="1879279078" name="Officer Rank 5" iconId="1091834317" minLevel="1" tiers="1" description="Unlocks an increase of the area your banners benefit, adds a heal to your Corruption Removal, and increases the duration of your heal, haste, armour and damage orders by ten seconds.">
-<stat name="ForwardSource_Combat_BigBattle_SkillCombo" operator="SET" constant="266.0"/>
-<stat name="BigBattle_Adv_Officer_Duration" constant="10.0"/>
-<stat name="BigBattle_Adv_Officer_Duration_Pulse" constant="5.0"/>
+<stat name="ForwardSource_Combat_BigBattle_SkillCombo" operator="SET" descriptionOverride="-" constant="266.0"/>
+<stat name="BigBattle_Adv_Officer_Duration" descriptionOverride="-" constant="10.0"/>
+<stat name="BigBattle_Adv_Officer_Duration_Pulse" descriptionOverride="-" constant="5.0"/>
 <stat name="BigBattle_Officer_Passive_Corruption_Heal" operator="SET" descriptionOverride="Remove Corruption Order will also heal squad" constant="1.0"/>
 <stat name="BigBattle_Adv_Officer_Banner_Cooldown" descriptionOverride="-5 to Banner Cooldown" constant="-5.0"/>
 </trait>
@@ -5495,12 +5495,12 @@
 </trait>
 <trait identifier="1879279081" name="Officer Rank 1" iconId="1091834306" minLevel="1" tiers="1" description="Unlocks the ability to order Shield Stance, Siege Armour, and Arrow Volley Armour."/>
 <trait identifier="1879279082" name="Engineer Rank 1" iconId="1091834311" minLevel="1" tiers="1" description="Unlocks the ability to utilize placeable barricades, place traps, and upgrade armour on siege weapons.">
-<stat name="BigBattle_Engineer_Trap_TriggerCount" constant="3.0"/>
+<stat name="BigBattle_Engineer_Trap_TriggerCount" descriptionOverride="-" constant="3.0"/>
 </trait>
 <trait identifier="1879279083" name="Officer Rank 6" iconId="1091834319" minLevel="1" tiers="1" description="Unlocks a substantial increase to the initial heal provided by your Heal Order, adds an initial heal to your banner deployment, and increases the duration of your heal, haste, armour and damage orders by twenty seconds.">
-<stat name="BigBattle_Adv_Officer_Lembas_Initial" constant="5000.0"/>
-<stat name="BigBattle_Adv_Officer_Duration" constant="20.0"/>
-<stat name="BigBattle_Adv_Officer_Duration_Pulse" constant="10.0"/>
+<stat name="BigBattle_Adv_Officer_Lembas_Initial" descriptionOverride="-" constant="5000.0"/>
+<stat name="BigBattle_Adv_Officer_Duration" descriptionOverride="-" constant="20.0"/>
+<stat name="BigBattle_Adv_Officer_Duration_Pulse" descriptionOverride="-" constant="10.0"/>
 </trait>
 <trait identifier="1879279163" name="Arrow Volley Armour Order Strength" iconId="1091832570" minLevel="1" tiers="5" tierProperty="trait_bigbattles_officer_rank_11" description="Increases the potency of your arrow volley order.">
 <stat name="BigBattle_Officer_Armour_Arrow_Impact" scaling="1879279161"/>
@@ -5610,11 +5610,11 @@
 <trait identifier="1879292070" name="Press Onward" iconId="1091840295" minLevel="1" tiers="1" tierProperty="trait_class_hunter_rank_52" description="Earns the skill: Press Onward."/>
 <trait identifier="1879295433" name="Tripwire" iconId="1091388957" minLevel="1" tiers="1" tierProperty="trait_class_hunter_rank_29" description="Earns the skill: Tripwire."/>
 <trait identifier="1879296867" name="Word Spreads" iconId="1091840541" minLevel="1" tiers="2" tierProperty="trait_class_minstrel_rank_45" description="Each rank increases the amount of maximum targets for Gift of the Hammerhand by 1.">
-<stat name="Skill_Minstrel_WordSpreads_MaxTargets" scaling="1879296865"/>
+<stat name="Skill_Minstrel_WordSpreads_MaxTargets" descriptionOverride="-" scaling="1879296865"/>
 <stat name="Skill_Minstrel_WordSpreads_MaxTargets_String" scaling="1879296988"/>
 </trait>
 <trait identifier="1879297055" name="Perfect Performance" iconId="1091840497" minLevel="1" tiers="3" tierProperty="trait_class_minstrel_rank_47" description="Your ballads provide a portion of their bonuses to your fellowship.">
-<stat name="Skill_Minstrel_Perfect_Performance" scaling="1879297059"/>
+<stat name="Skill_Minstrel_Perfect_Performance" descriptionOverride="-" scaling="1879297059"/>
 <stat name="Skill_Minstrel_Perfect_Performance_String" scaling="1879297058"/>
 </trait>
 <trait identifier="1879297578" name="Enough for Everyone" iconId="1091840549" minLevel="1" tiers="1" description="Grants the Skill: Share the Power - Fellowship">
@@ -5760,8 +5760,8 @@
 </trait>
 <trait identifier="1879311557" name="Critical Chance" iconId="1091940989" minLevel="1" tiers="5" tierProperty="trait_class_beorning_rank_2" description="Increases your Critical Chance per rank.">
 <stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="+{***} Critical Chance" scaling="1879297174"/>
-<stat name="CRITICAL_RANGED_PERCENTAGE" scaling="1879297188"/>
-<stat name="CRITICAL_TACTICAL_PERCENTAGE" scaling="1879297176"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" scaling="1879297188"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" scaling="1879297176"/>
 </trait>
 <trait identifier="1879311558" name="Vigilant Roar" iconId="1091941795" minLevel="1" tiers="5" tierProperty="trait_class_beorning_rank_33" description="Vigilant and Thunderous Roar temporarily improve incoming healing, and generate additional threat when enemies attack you. Additional ranks increase the buff's duration.">
 <stat name="Skill_Beorning_Taunt_Reflect_DurMod" scaling="1879311491"/>
@@ -5780,13 +5780,13 @@
 </trait>
 <trait identifier="1879311674" name="The Hide" iconId="1091564746" minLevel="1" tiers="1" tierProperty="trait_class_specialization_beorning_one" description="Relying on the bear form, this line bolsters personal defences while weakening the enemy.">
 <stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="You may block incoming attacks." constant="2.43812416E8"/>
-<stat name="PERCEIVED_THREAT" constant="209.99998"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="209.99998"/>
 </trait>
 <trait identifier="1879311675" name="The Roar" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_beorning_three" description="Using the knowledge of your unique people, aid your allies with powerful healing, debuffs, and crowd control.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879311676" name="The Claw" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_beorning_two" description="Empowering both Bear and Man, this line focuses on overpowering foes with devastating attacks.">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879311740" name="Enfeeble" iconId="1091916308" minLevel="1" tiers="1" tierProperty="trait_class_loremaster_rank_51" description="The debuff strength of the following skills are increased for the first 10s of their cast:">
 <specialEffect label="Ancient Craft&#10;Sign of Power: See All Ends&#10;Sign of Power: Command"/>
@@ -5851,8 +5851,8 @@
 <trait identifier="1879314132" name="Break Ranks" iconId="1091916296" minLevel="1" tiers="1" tierProperty="trait_class_guardian_rank_54" description="Throw aside your defences to unleash punishment upon the enemy.">
 <stat name="Skill_Guardian_BreakRanks_AppChance" descriptionOverride="Shield-taunt will cash out maximum stacks of Fortification for a 40% group damage buff for 15s.&#10;&#10;This effect has a 60 second cooldown." constant="1.0"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="Gain a passive +{***} damage" constant="5.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 </trait>
 <trait identifier="1879314318" name="Honourable Combat" iconId="1091916297" minLevel="1" tiers="1" tierProperty="trait_class_guardian_rank_55" description="A fair exchange brings rest to both yourself and your foe."/>
 <trait identifier="1879314360" name="Singular Focus" iconId="1091916294" minLevel="1" tiers="1" tierProperty="trait_class_guardian_rank_56" description="Your focus allows you to target weaknesses in enemy armour, hastening their defeat. Your marked enemies are especially vulnerable.">
@@ -6920,13 +6920,13 @@
 <trait identifier="1879408699" name="Flag of Lossarnach" iconId="1092559678" minLevel="1" tiers="1"/>
 <trait identifier="1879408700" name="Saddle of Gondor" iconId="1092559676" minLevel="1" tiers="1"/>
 <trait identifier="1879409398" name="TREE 3 NAME TBD" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_three" description="TREE 3 DESCRIPTION TBD">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879409404" name="TREE 1 NAME TBD" iconId="1091564746" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_one" description="TREE 1 DESCRIPTION TBD">
-<stat name="PERCEIVED_THREAT" constant="209.99998"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="209.99998"/>
 </trait>
 <trait identifier="1879409406" name="TREE 2 NAME TBD" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_two" description="TREE 2 DESCRIPTION TBD">
-<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879409418" name="Heartening Prank" iconId="1091829387" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_17" description="Increases max Morale.">
 <stat name="MORALE" operator="MULTIPLY" scaling="1879339009"/>
