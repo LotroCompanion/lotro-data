@@ -384,6 +384,7 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" scaling="1879063900"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" scaling="1879063901"/>
 <stat name="Combat_OutgoingHeals_EffectMod" scaling="1879086283"/>
+<stat name="CRITICAL_RATING" scaling="1879412869"/>
 </trait>
 <trait identifier="1879063893" name="Health" iconId="0" minLevel="1" tiers="16" tierProperty="Trait_MP_Virtue_Core_Rank_Health" description="Increases your maximum health">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="Increases your total health by {***}." scaling="1879063903"/>
@@ -401,10 +402,7 @@
 <stat name="Combat_Class_BlockPoints" scaling="1879063911"/>
 </trait>
 <trait identifier="1879063897" name="Resistance" iconId="0" minLevel="1" tiers="16" tierProperty="Trait_MP_Virtue_Core_Rank_Resistance" description="Increases your resistance to certain negative effects.">
-<stat name="Resist_ClassPoints_Resistance_Song" scaling="1879063913"/>
-<stat name="Resist_ClassPoints_Resistance_Cry" scaling="1879063914"/>
-<stat name="Resist_ClassPoints_Resistance_Physical" scaling="1879063915"/>
-<stat name="Resist_ClassPoints_Resistance_Magic" scaling="1879063916"/>
+<stat name="RESISTANCE" scaling="1879412807"/>
 </trait>
 <trait identifier="1879064086" name="One-handed Axes" iconId="1090552270" minLevel="1" tiers="1" description="Allows the use of One-handed Axes. Axes have a small chance of reducing the target's armour."/>
 <trait identifier="1879064087" name="One-handed Clubs" iconId="1090552271" minLevel="1" tiers="1" description="Allows the use of One-handed Clubs. Clubs have a small chance of slowing the target's Attack Speed."/>
@@ -441,11 +439,11 @@
 <stat name="POWER" operator="MULTIPLY" descriptionOverride="+{***} Maximum Power." constant="1.1"/>
 </trait>
 <trait identifier="1879072426" name="Resistance Boost" iconId="1090553258" minLevel="1" tiers="1" description="Increases resistance rating">
-<stat name="RESISTANCE" scaling="1879210627"/>
+<stat name="RESISTANCE" scaling="1879381723"/>
 </trait>
 <trait identifier="1879072427" name="Quick Strikes" iconId="1090553259" minLevel="1" tiers="1" description="Decreases attack duration and increases Finesse">
 <stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
-<stat name="FINESSE" scaling="1879211723"/>
+<stat name="FINESSE" scaling="1879367857"/>
 </trait>
 <trait identifier="1879072428" name="Burning Blades" iconId="1090553260" minLevel="1" tiers="1" description="When using Burning Blades, all damage skills will do Fire damage."/>
 <trait identifier="1879072429" name="Enhanced Skill: Jagged Cut" iconId="1090553261" minLevel="1" tiers="1" description="Enables your Jagged Cut skill to cause damage over time on your targets."/>
@@ -480,10 +478,10 @@
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="+{***} Maximum Health." constant="1.1"/>
 </trait>
 <trait identifier="1879072442" name="Armour Boost" iconId="1090553275" minLevel="1" tiers="1" description="Increases armour value">
-<stat name="ARMOUR" scaling="1879132195"/>
+<stat name="ARMOUR" scaling="1879132197"/>
 </trait>
 <trait identifier="1879072443" name="Regeneration" iconId="1090553276" minLevel="1" tiers="1" description="Increases in-combat health regeneration">
-<stat name="ICMR" constant="120.0"/>
+<stat name="ICMR" scaling="1879399430"/>
 </trait>
 <trait identifier="1879072444" name="Swift Weave" iconId="1090553277" minLevel="1" tiers="1" description="Shortens the induction time of your web attacks.&#10;&#10;&lt;rgb=#99FF33&gt;-.25s Web Skill Inductions&lt;/rgb&gt;">
 <stat name="Skill_InductionDuration_Trait_MP_FastBow" operator="SUBSTRACT" constant="0.25"/>
@@ -520,16 +518,16 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="6.0"/>
 </trait>
 <trait identifier="1879072457" name="Avoidance Boost" iconId="1090553291" minLevel="1" tiers="1" description="Increases parry, evade, and block rating">
-<stat name="PARRY" scaling="1879122262"/>
-<stat name="EVADE" scaling="1879122264"/>
-<stat name="BLOCK" scaling="1879122263"/>
+<stat name="PARRY" scaling="1879399376"/>
+<stat name="EVADE" scaling="1879399362"/>
+<stat name="BLOCK" scaling="1879399378"/>
 </trait>
 <trait identifier="1879072458" name="Resistance Boost" iconId="1090553258" minLevel="1" tiers="1" description="Increases resistance rating">
-<stat name="RESISTANCE" scaling="1879210627"/>
+<stat name="RESISTANCE" scaling="1879381723"/>
 </trait>
 <trait identifier="1879072459" name="Deadly Aim" iconId="1090553292" minLevel="1" tiers="1" description="Increases ranged critical rating and finesse">
-<stat name="CRITICAL_RATING" scaling="1879220173"/>
-<stat name="FINESSE" scaling="1879211723"/>
+<stat name="CRITICAL_RATING" scaling="1879381473"/>
+<stat name="FINESSE" scaling="1879367861"/>
 </trait>
 <trait identifier="1879072460" name="Uncanny Reactions" iconId="1090553293" minLevel="1" tiers="1" description="Increases your evade rating">
 <stat name="EVADE" scaling="1879124385"/>
@@ -545,7 +543,7 @@
 </trait>
 <trait identifier="1879072464" name="Enhanced Skill: Set Trap" iconId="1090553297" minLevel="1" tiers="1" description="Set Trap's root has a reduced chance to break on damage and damage done to trapped tragets is increased."/>
 <trait identifier="1879072465" name="Enhanced Skill: Steadfast Barrage" iconId="1091472331" minLevel="1" tiers="1" description="Allows Steadfast Barrage to be used while moving but decreases movement speed for the duration of the skill.">
-<stat name="ForwardSource_Combat_TraitCombo" operator="SET" descriptionOverride="-" constant="240.0"/>
+<stat name="ForwardSource_Combat_TraitCombo2" operator="SET" descriptionOverride="-" constant="240.0"/>
 </trait>
 <trait identifier="1879072466" name="Enhanced Skill: Snare" iconId="1091630873" minLevel="1" tiers="1" description="Adds a short movement speed buff to Snare."/>
 <trait identifier="1879072467" name="White Hand Scout Appearance" iconId="1090553301" minLevel="1" tiers="1" description="A different visual appearance for your Uruk Blackarrow: a dark-skinned, long haired Uruk.">
@@ -572,16 +570,16 @@
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="3.0"/>
 </trait>
 <trait identifier="1879072474" name="Avoidance Boost" iconId="1090553291" minLevel="1" tiers="1" description="Increases parry, evade, and block rating">
-<stat name="PARRY" scaling="1879122262"/>
-<stat name="EVADE" scaling="1879122264"/>
-<stat name="BLOCK" scaling="1879122263"/>
+<stat name="PARRY" scaling="1879399376"/>
+<stat name="EVADE" scaling="1879399362"/>
+<stat name="BLOCK" scaling="1879399378"/>
 </trait>
 <trait identifier="1879072475" name="Empowering" iconId="1090553308" minLevel="1" tiers="1" description="Increases in-combat power regeneration and Tactical Mastery">
 <stat name="ICPR" constant="75.0"/>
 <stat name="TACTICAL_MASTERY" scaling="1879223958"/>
 </trait>
 <trait identifier="1879072476" name="Shield Mastery" iconId="1090553309" minLevel="1" tiers="1" description="Increases block rating">
-<stat name="BLOCK" scaling="1879120142"/>
+<stat name="BLOCK" scaling="1879368068"/>
 <stat name="Skill_ChanceCriticalHit_Trait_MP_FromStealth" descriptionOverride="+25% Shield Bash Critical Chance" constant="25.0"/>
 <stat name="Skill_DamageMultiplier_WildAttack" descriptionOverride="+{***} Shield Bash Damage" constant="50.0"/>
 </trait>
@@ -617,10 +615,10 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="6.0"/>
 </trait>
 <trait identifier="1879072489" name="Armour Boost" iconId="1090553275" minLevel="1" tiers="1" description="Increases armour value">
-<stat name="ARMOUR" scaling="1879132195"/>
+<stat name="ARMOUR" scaling="1879132197"/>
 </trait>
 <trait identifier="1879072490" name="Resistance Boost" iconId="1090553258" minLevel="1" tiers="1" description="Increases resistance rating">
-<stat name="RESISTANCE" scaling="1879210627"/>
+<stat name="RESISTANCE" scaling="1879381723"/>
 </trait>
 <trait identifier="1879072491" name="Long Strides" iconId="1090553323" minLevel="1" tiers="1" description="Increases run speed">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="5.0"/>
@@ -696,35 +694,46 @@
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="-{***} Maximum Health" constant="0.95"/>
 </trait>
 <trait identifier="1879072511" name="Critical Protection Boost 4" iconId="1091637773" minLevel="1" tiers="1" description="Corruption protection traits allow you to reduce the chances that you will be hit with critical and devastating attacks.">
-<stat name="CRITICAL_DEFENCE" scaling="1879368457"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879412741"/>
 </trait>
 <trait identifier="1879072512" name="Tactical Mitigation Boost 1" iconId="1091478100" minLevel="1" tiers="1" description="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating.">
-<stat name="TACTICAL_MITIGATION" scaling="1879368460"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879412736"/>
+<stat name="RESISTANCE" scaling="1879412735"/>
 </trait>
 <trait identifier="1879072513" name="Tactical Mitigation Boost 6" iconId="1091478100" minLevel="1" tiers="1" description="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating.">
-<stat name="TACTICAL_MITIGATION" scaling="1879368460"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879412736"/>
+<stat name="RESISTANCE" scaling="1879412735"/>
 </trait>
 <trait identifier="1879072514" name="Physical Mitigation Boost 1" iconId="1090553344" minLevel="1" tiers="1" description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
-<stat name="PHYSICAL_MITIGATION" scaling="1879368466"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
+<stat name="Combat_Class_BlockPoints" scaling="1879412846"/>
+<stat name="Combat_Class_ParryPoints" scaling="1879412848"/>
+<stat name="Combat_Class_EvadePoints" scaling="1879412847"/>
 </trait>
 <trait identifier="1879072515" name="Physical Mitigation Boost 5" iconId="1090553344" minLevel="1" tiers="1" description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
-<stat name="PHYSICAL_MITIGATION" scaling="1879368466"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
+<stat name="Combat_Class_BlockPoints" scaling="1879412846"/>
+<stat name="Combat_Class_ParryPoints" scaling="1879412848"/>
+<stat name="Combat_Class_EvadePoints" scaling="1879412847"/>
 </trait>
 <trait identifier="1879072516" name="Physical Mitigation Boost 4" iconId="1090553344" minLevel="1" tiers="1" description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
-<stat name="PHYSICAL_MITIGATION" scaling="1879368466"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
+<stat name="Combat_Class_BlockPoints" scaling="1879412846"/>
+<stat name="Combat_Class_ParryPoints" scaling="1879412848"/>
+<stat name="Combat_Class_EvadePoints" scaling="1879412847"/>
 </trait>
 <trait identifier="1879072517" name="Resistance Boost 1" iconId="1090553346" minLevel="1" tiers="1" description="Resistance Boosts allow you to increase your Resistance Ratings.">
-<stat name="RESISTANCE" scaling="1879381723"/>
+<stat name="RESISTANCE" scaling="1879412735"/>
 </trait>
 <trait identifier="1879072518" name="Resistance Boost 4" iconId="1090553346" minLevel="1" tiers="1" description="Resistance Boosts allow you to increase your Resistance Ratings.">
-<stat name="RESISTANCE" scaling="1879381723"/>
+<stat name="RESISTANCE" scaling="1879412735"/>
 </trait>
 <trait identifier="1879072519" name="Resistance Boost 5" iconId="1090553346" minLevel="1" tiers="1" description="Resistance Boosts allow you to increase your Resistance Ratings.">
-<stat name="RESISTANCE" scaling="1879381723"/>
+<stat name="RESISTANCE" scaling="1879412735"/>
 </trait>
 <trait identifier="1879072520" name="Mastery Boost 5" iconId="1091637772" minLevel="1" tiers="1" description="Mastery Boosts allow you to increase your Physical and Tactical Mastery Ratings.">
-<stat name="TACTICAL_MASTERY" scaling="1879368686"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879368689"/>
+<stat name="TACTICAL_MASTERY" scaling="1879412738"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879412734"/>
 </trait>
 <trait identifier="1879072521" name="Stealth Detection Boost" iconId="1090553354" minLevel="1" tiers="1" description="Corruption traits allow you to increase one aspect of your character at the cost of other aspects.">
 <stat name="Stealth_StealthDetectionLevelModifier" constant="4.0"/>
@@ -1003,7 +1012,7 @@
 <stat name="Effect_Self_Revive_Cooldown" descriptionOverride="Increases duration of Revived effect to 2 hours." constant="3600.0"/>
 </trait>
 <trait identifier="1879084077" name="Armour Boost" iconId="1090553275" minLevel="1" tiers="1" description="Increase armour rating.">
-<stat name="ARMOUR" scaling="1879132195"/>
+<stat name="ARMOUR" scaling="1879132197"/>
 </trait>
 <trait identifier="1879084079" name="Bear-masked Tarkrîp Appearance" iconId="1091462232" minLevel="1" tiers="1" description="A different visual appearance for your Orc Defiler. A red-skinned Orc wearing a brown leather tunic.">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="5.0"/>
@@ -1095,36 +1104,41 @@
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="-{***} Maximum Health" constant="0.95"/>
 </trait>
 <trait identifier="1879091357" name="Physical Mitigation Boost 3" iconId="1090553344" minLevel="1" tiers="1" description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
-<stat name="PHYSICAL_MITIGATION" scaling="1879368466"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
+<stat name="Combat_Class_BlockPoints" scaling="1879412846"/>
+<stat name="Combat_Class_ParryPoints" scaling="1879412848"/>
+<stat name="Combat_Class_EvadePoints" scaling="1879412847"/>
 </trait>
 <trait identifier="1879091358" name="Critical Protection Boost 3" iconId="1091637773" minLevel="1" tiers="1" description="Corruption protection traits allow you to reduce the chances that you will be hit with critical and devastating attacks.">
-<stat name="CRITICAL_DEFENCE" scaling="1879368457"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879412741"/>
 </trait>
 <trait identifier="1879091359" name="Critical Protection Boost 6" iconId="1091637773" minLevel="1" tiers="1" description="Corruption protection traits allow you to reduce the chances that you will be hit with critical and devastating attacks.">
-<stat name="CRITICAL_DEFENCE" scaling="1879368457"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879412741"/>
 </trait>
 <trait identifier="1879091360" name="Tactical Mitigation Boost 5" iconId="1091478100" minLevel="1" tiers="1" description="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating.">
-<stat name="TACTICAL_MITIGATION" scaling="1879368460"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879412736"/>
+<stat name="RESISTANCE" scaling="1879412735"/>
 </trait>
 <trait identifier="1879091361" name="Tactical Mitigation Boost 4" iconId="1091478100" minLevel="1" tiers="1" description="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating.">
-<stat name="TACTICAL_MITIGATION" scaling="1879368460"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879412736"/>
+<stat name="RESISTANCE" scaling="1879412735"/>
 </trait>
 <trait identifier="1879091362" name="Mastery Boost 3" iconId="1091637772" minLevel="1" tiers="1" description="Mastery Boosts allow you to increase your Physical and Tactical Mastery Ratings.">
-<stat name="TACTICAL_MASTERY" scaling="1879368686"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879368689"/>
+<stat name="TACTICAL_MASTERY" scaling="1879412738"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879412734"/>
 </trait>
 <trait identifier="1879091363" name="Resistance Boost 3" iconId="1090553346" minLevel="1" tiers="1" description="Resistance Boosts allow you to increase your Resistance Ratings.">
-<stat name="RESISTANCE" scaling="1879381723"/>
+<stat name="RESISTANCE" scaling="1879412735"/>
 </trait>
 <trait identifier="1879091364" name="Resistance Boost 6" iconId="1090553346" minLevel="1" tiers="1" description="Resistance Boosts allow you to increase your Resistance Ratings.">
-<stat name="RESISTANCE" scaling="1879381723"/>
+<stat name="RESISTANCE" scaling="1879412735"/>
 </trait>
 <trait identifier="1879091365" name="Mastery Boost 6" iconId="1091637772" minLevel="1" tiers="1" description="Mastery Boosts allow you to increase your Physical and Tactical Mastery Ratings.">
-<stat name="TACTICAL_MASTERY" scaling="1879368686"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879368689"/>
+<stat name="TACTICAL_MASTERY" scaling="1879412738"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879412734"/>
 </trait>
 <trait identifier="1879091366" name="Resistance Boost 2" iconId="1090553346" minLevel="1" tiers="1" description="Resistance Boosts allow you to increase your Resistance Ratings.">
-<stat name="RESISTANCE" scaling="1879381723"/>
+<stat name="RESISTANCE" scaling="1879412735"/>
 </trait>
 <trait identifier="1879092949" name="Virtuous Man" iconId="1091386988" minLevel="1" tiers="1" description="The Virtues of Men are represented strongly in you. This trait does not apply to unequipped or capped Virtues.">
 <stat name="Trait_Virtue_Rank_Just" constant="1.0"/>
@@ -1154,87 +1168,87 @@
 <trait identifier="1879097468" name="Basic Cowbell Use" iconId="1091401282" minLevel="1" tiers="1" description="Allows the use of Cowbells."/>
 <trait identifier="1879097470" name="Moor Cowbell Use" iconId="1091401286" minLevel="1" tiers="1" description="Allows the use of special Moor Cowbells."/>
 <trait identifier="1879097831" name="Front-line Fodder" iconId="1091417955" minLevel="1" tiers="1" description="Increases parry, evade, and block rating">
-<stat name="PARRY" scaling="1879122495"/>
-<stat name="EVADE" scaling="1879122494"/>
-<stat name="BLOCK" scaling="1879122497"/>
+<stat name="PARRY" scaling="1879368420"/>
+<stat name="EVADE" scaling="1879368426"/>
+<stat name="BLOCK" scaling="1879368068"/>
 </trait>
 <trait identifier="1879097832" name="Rage of the Misbegotten" iconId="1091417956" minLevel="1" tiers="1" description="Increases melee critical rating and maximum health">
-<stat name="CRITICAL_RATING" scaling="1879220177"/>
+<stat name="CRITICAL_RATING" scaling="1879381485"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="+{***} Maximum Health" constant="1.1"/>
 </trait>
 <trait identifier="1879097833" name="Warrior Against the Deep" iconId="1091417957" minLevel="1" tiers="1" description="Increases Tactical Mitigation and Stealth Detection">
-<stat name="TACTICAL_MITIGATION" scaling="1879220225"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879399425"/>
 <stat name="Stealth_StealthDetectionLevelModifier" constant="2.0"/>
 </trait>
 <trait identifier="1879097834" name="Tireless Warrior" iconId="1091417958" minLevel="1" tiers="1" description="Increases in-combat health and power regeneration">
-<stat name="ICMR" descriptionOverride="+{***} in-Combat Health Regen" constant="1200.0"/>
-<stat name="ICPR" constant="240.0"/>
+<stat name="ICMR" descriptionOverride="+{***} in-Combat Health Regen" scaling="1879399430"/>
+<stat name="ICPR" descriptionOverride="+{***} in-Combat Power Regen" scaling="1879399365"/>
 </trait>
 <trait identifier="1879097835" name="Flayer of Flesh" iconId="1091417959" minLevel="1" tiers="1" description="Increases Critical Rating, Physical Mastery, and Tactical Mastery">
-<stat name="CRITICAL_RATING" scaling="1879220176"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879224491"/>
-<stat name="TACTICAL_MASTERY" scaling="1879224484"/>
+<stat name="CRITICAL_RATING" scaling="1879381473"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879399456"/>
+<stat name="TACTICAL_MASTERY" scaling="1879412872"/>
 </trait>
 <trait identifier="1879097836" name="Eight-legged Foe" iconId="1091417881" minLevel="1" tiers="1" description="Increases movement speed and granting immunity to falling injuries.">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
 </trait>
 <trait identifier="1879097837" name="Swallower of Light" iconId="1091417882" minLevel="1" tiers="1" description="Increases Tactical Mitigation. Increases stealth level">
-<stat name="TACTICAL_MITIGATION" scaling="1879220226"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879399425"/>
 <stat name="STEALTH_LEVEL" constant="3.0"/>
 </trait>
 <trait identifier="1879097838" name="Ancient as the Stars" iconId="1091417883" minLevel="1" tiers="1" description="Increases Physical Mitigation and Critical Defence.">
-<stat name="PHYSICAL_MITIGATION" scaling="1879220220"/>
-<stat name="CRITICAL_DEFENCE" scaling="1879211645"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879399483"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879368457"/>
 </trait>
 <trait identifier="1879097839" name="Enemies of the First Children" iconId="1091417884" minLevel="1" tiers="1" description="Increases Critical Rating and Physical Mastery">
-<stat name="CRITICAL_RATING" scaling="1879220176"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879224491"/>
+<stat name="CRITICAL_RATING" scaling="1879381473"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879399456"/>
 </trait>
 <trait identifier="1879097840" name="Drinker of Blood" iconId="1091417885" minLevel="1" tiers="1" description="Increases in-combat health and power regeneration">
-<stat name="ICMR" constant="1200.0"/>
-<stat name="ICPR" constant="220.20001"/>
+<stat name="ICMR" scaling="1879399453"/>
+<stat name="ICPR" scaling="1879399366"/>
 </trait>
 <trait identifier="1879097841" name="New Breed" iconId="1091418011" minLevel="1" tiers="1" description="Increases armour value, maximum health, and maximum power">
-<stat name="ARMOUR" scaling="1879132195"/>
+<stat name="ARMOUR" scaling="1879132197"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="+{***} Maximum Health" constant="1.1"/>
 <stat name="POWER" operator="MULTIPLY" descriptionOverride="+{***} Maximum Power" constant="1.05"/>
 </trait>
 <trait identifier="1879097842" name="Leaders of the Orcs" iconId="1091418012" minLevel="1" tiers="1" description="Increases Physical and Tactical Mastery">
-<stat name="PHYSICAL_MASTERY" scaling="1879224488"/>
-<stat name="TACTICAL_MASTERY" scaling="1879224499"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879399456"/>
+<stat name="TACTICAL_MASTERY" scaling="1879412872"/>
 </trait>
 <trait identifier="1879097843" name="Favoured Servant of the Dark" iconId="1091418013" minLevel="1" tiers="1" description="Increases Physical and Tactical Mitigation">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="3.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="3.0"/>
 </trait>
 <trait identifier="1879097844" name="Tireless Warrior" iconId="1091417958" minLevel="1" tiers="1" description="Increases in-combat health and power regeneration">
-<stat name="ICMR" constant="1200.0"/>
-<stat name="ICPR" constant="300.0"/>
+<stat name="ICMR" descriptionOverride="+{***} in-Combat Health Regen" scaling="1879399430"/>
+<stat name="ICPR" descriptionOverride="+{***} in-Combat Power Regen" scaling="1879399365"/>
 </trait>
 <trait identifier="1879097845" name="Brutal persuasion" iconId="1091418014" minLevel="1" tiers="1" description="Increases melee, ranged, and tactical critical rating">
-<stat name="CRITICAL_RATING" scaling="1879220176"/>
+<stat name="CRITICAL_RATING" scaling="1879381473"/>
 </trait>
 <trait identifier="1879097846" name="Four-legged Foe" iconId="1091418015" minLevel="1" tiers="1" description="Increases run speed and evade rating">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
 <stat name="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" constant="10.0"/>
-<stat name="EVADE" scaling="1879122496"/>
+<stat name="EVADE" scaling="1879368426"/>
 </trait>
 <trait identifier="1879097847" name="Pack Mentality" iconId="1091418016" minLevel="1" tiers="1" description="Increases Parry, Evade, and Resistance rating.">
-<stat name="PARRY" scaling="1879120130"/>
-<stat name="EVADE" scaling="1879120131"/>
-<stat name="RESISTANCE" scaling="1879210624"/>
+<stat name="PARRY" scaling="1879368420"/>
+<stat name="EVADE" scaling="1879368426"/>
+<stat name="RESISTANCE" scaling="1879399610"/>
 </trait>
 <trait identifier="1879097848" name="Pack Elder" iconId="1091418017" minLevel="1" tiers="1" description="Increases Physical Mitigation">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="7.5000005"/>
 </trait>
 <trait identifier="1879097849" name="Foe of the Light" iconId="1091418018" minLevel="1" tiers="1" description="Increases Tactical Mitigation and stealth level">
-<stat name="TACTICAL_MITIGATION" scaling="1879220226"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879399425"/>
 <stat name="STEALTH_LEVEL" constant="4.0"/>
 </trait>
 <trait identifier="1879097850" name="Pack Alpha" iconId="1091418019" minLevel="1" tiers="1" description="Increases Physical Mastery, Critical Rating, and Finesse">
-<stat name="PHYSICAL_MASTERY" scaling="1879224488"/>
-<stat name="CRITICAL_RATING" scaling="1879220177"/>
-<stat name="FINESSE" scaling="1879364797"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879399456"/>
+<stat name="CRITICAL_RATING" scaling="1879381485"/>
+<stat name="FINESSE" scaling="1879367857"/>
 </trait>
 <trait identifier="1879097853" name="Racial Skill: Blood of Fire" iconId="1091427803" minLevel="1" tiers="1" description="The rage of the Orcs burns strong within you. You can draw upon your racial strength and make those that attack you suffer for their transgression.&#10;&#10;&lt;rgb=#99FF33&gt;On any damage:&#10;Reflect Fire Damage&lt;/rgb&gt;">
 <skill id="1879097866" name="Blood of Fire"/>
@@ -1593,7 +1607,7 @@
 <specialEffect label="+10% Run Speed Debuff"/>
 </trait>
 <trait identifier="1879138052" name="Enhanced Skill: Upper Hand" iconId="1091472682" minLevel="1" tiers="1" description="When using Upper Hand, you are able to greatly affect your enemy's ability to block and parry for a longer time period.">
-<specialEffect label="-3777.4 Target Block &amp; Parry Rating"/>
+<specialEffect label="Adds to Block and Parry Ratings."/>
 <specialEffect label="30s Duration"/>
 </trait>
 <trait identifier="1879138664" name="Enhanced Slime" iconId="1091473854" minLevel="1" tiers="1" description="Increases healing and decreases threat generated from healing.">
@@ -1625,19 +1639,19 @@
 <trait identifier="1879140549" name="Red Dwarven Lamp" iconId="1090535587" minLevel="1" tiers="1" description="You have the ability to see and use dwarf-doors revealed by red dwarf-lamps."/>
 <trait identifier="1879141627" name="Seeker of Deep Places" iconId="1090535587" minLevel="1" tiers="1" description="You have proven yourself before the Doors of Durin and may now explore the ancient halls of Moria."/>
 <trait identifier="1879143085" name="Mastery Boost 1" iconId="1091637772" minLevel="1" tiers="1" description="Mastery Boosts allow you to increase your Physical and Tactical Mastery Ratings.">
-<stat name="TACTICAL_MASTERY" scaling="1879368686"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879368689"/>
+<stat name="TACTICAL_MASTERY" scaling="1879412738"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879412734"/>
 </trait>
 <trait identifier="1879143086" name="Mastery Boost 2" iconId="1091637772" minLevel="1" tiers="1" description="Mastery Boosts allow you to increase your Physical and Tactical Mastery Ratings.">
-<stat name="TACTICAL_MASTERY" scaling="1879368686"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879368689"/>
+<stat name="TACTICAL_MASTERY" scaling="1879412738"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879412734"/>
 </trait>
 <trait identifier="1879143089" name="Mastery Boost 4" iconId="1091637772" minLevel="1" tiers="1" description="Mastery Boosts allow you to increase your Physical and Tactical Mastery Ratings.">
-<stat name="TACTICAL_MASTERY" scaling="1879368686"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879368689"/>
+<stat name="TACTICAL_MASTERY" scaling="1879412738"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879412734"/>
 </trait>
 <trait identifier="1879143090" name="Critical Protection Boost 5" iconId="1091637773" minLevel="1" tiers="1" description="Corruption protection traits allow you to reduce the chances that you will be hit with critical and devastating attacks.">
-<stat name="CRITICAL_DEFENCE" scaling="1879368457"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879412741"/>
 </trait>
 <trait identifier="1879144862" name="Rune-stones" iconId="1090625157" minLevel="1" tiers="1" description="Allows the use of Rune-stones.  Rune-stones have affinity to fire, lightning, or frost."/>
 <trait identifier="1879145626" name="Daggers Training: Accomplished" iconId="1090552275" minLevel="1" tiers="1" description="Grants Burglars greater effectiveness when wielding daggers.">
@@ -1662,22 +1676,30 @@
 <stat name="Discount_Lothlorien" constant="10.0"/>
 </trait>
 <trait identifier="1879152250" name="Tactical Mitigation Boost 3" iconId="1091478100" minLevel="1" tiers="1" description="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating.">
-<stat name="TACTICAL_MITIGATION" scaling="1879368460"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879412736"/>
+<stat name="RESISTANCE" scaling="1879412735"/>
 </trait>
 <trait identifier="1879152251" name="Physical Mitigation Boost 6" iconId="1090553344" minLevel="1" tiers="1" description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
-<stat name="PHYSICAL_MITIGATION" scaling="1879368466"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
+<stat name="Combat_Class_BlockPoints" scaling="1879412846"/>
+<stat name="Combat_Class_ParryPoints" scaling="1879412848"/>
+<stat name="Combat_Class_EvadePoints" scaling="1879412847"/>
 </trait>
 <trait identifier="1879152252" name="Tactical Mitigation Boost 2" iconId="1091478100" minLevel="1" tiers="1" description="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating.">
-<stat name="TACTICAL_MITIGATION" scaling="1879368460"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879412736"/>
+<stat name="RESISTANCE" scaling="1879412735"/>
 </trait>
 <trait identifier="1879152253" name="Physical Mitigation Boost 2" iconId="1090553344" minLevel="1" tiers="1" description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
-<stat name="PHYSICAL_MITIGATION" scaling="1879368466"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
+<stat name="Combat_Class_BlockPoints" scaling="1879412846"/>
+<stat name="Combat_Class_ParryPoints" scaling="1879412848"/>
+<stat name="Combat_Class_EvadePoints" scaling="1879412847"/>
 </trait>
 <trait identifier="1879152359" name="Critical Protection Boost 1" iconId="1091637773" minLevel="1" tiers="1" description="Corruption protection traits allow you to reduce the chances that you will be hit with critical and devastating attacks.">
-<stat name="CRITICAL_DEFENCE" scaling="1879368457"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879412741"/>
 </trait>
 <trait identifier="1879152361" name="Critical Protection Boost 2" iconId="1091637773" minLevel="1" tiers="1" description="Corruption protection traits allow you to reduce the chances that you will be hit with critical and devastating attacks.">
-<stat name="CRITICAL_DEFENCE" scaling="1879368457"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879412741"/>
 </trait>
 <trait identifier="1879152924" name="Trusted in Caras Galadhon" iconId="1090535587" minLevel="1" tiers="1" description="You have proven yourself worthy of entering Caras Galadhon."/>
 <trait identifier="1879152925" name="Trusted in Lothlórien" iconId="1090535587" minLevel="1" tiers="1" description="You have proven yourself worthy of walking within the Golden Wood."/>
@@ -2140,6 +2162,7 @@
 <trait identifier="1879199355" name="Emote: Snow Wizard" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the snow wizard emote (/snowwizard)."/>
 <trait identifier="1879199358" name="Emote: Warm-hands" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the warm-hands emote (/warmhands)."/>
 <trait identifier="1879201159" name="Strong Brood" iconId="1091628558" minLevel="1" tiers="1" description="Increases your hatchling's health and reduces its skill cooldowns. The Weaver gains increased Physical Mitigation.&#10;&#10;Only one Hatchling trait can be equipped at a time.">
+<stat name="PHYSICAL_MITIGATION" scaling="1879399476"/>
 <stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="Your hatchling gains the following:&#10;   +25% Health&#10;   +10% Power&#10;   +20% Mitigations&#10;  +5% Attack Speed&#10;   +15% Outgoing Damage&#10;   +5% Critical Chance&#10;  +5% Evade Chance &#10;  Enhanced Skills" constant="105.0"/>
 </trait>
 <trait identifier="1879201534" name="Enhanced Skill: Efflorescence" iconId="1091755050" minLevel="1" tiers="1" description="Increases the range and reduces the power cost of Efflorescence.&#10;&#10;&lt;rgb=#99FF33&gt;Efflorescence:&#10;+10m Range&#10;-15% Power Cost&lt;/rgb&gt;">
@@ -2239,6 +2262,7 @@
 <trait identifier="1879210641" name="Emote: Coin Bite" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the coin bite emote (/counterfeit)."/>
 <trait identifier="1879210642" name="Emote: Coin Flip" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the coin flip emote (/coinflip)."/>
 <trait identifier="1879210653" name="Scytode Brood" iconId="1091657063" minLevel="1" tiers="1" description="Your hatchling forgoes melee for ranged attacks. The Weaver gains increased Tactical Mitigation.&#10;&#10;Only one Hatchling trait can be equipped at a time.">
+<stat name="TACTICAL_MITIGATION" scaling="1879399421"/>
 <stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="Your hatchling gains the following:&#10;   +10% Health&#10;   +25% Power&#10;   +5% Attack Speed&#10;   +15% Outgoing Damage&#10;   +5% Critical Chance&#10; +5% Evade Chance &#10; Enhanced Skills" constant="112.0"/>
 </trait>
 <trait identifier="1879211599" name="Power of Fear" iconId="1091657493" minLevel="1" tiers="1" description="Your opponent's fear strengthens you.">
@@ -3577,27 +3601,27 @@
 <trait identifier="1879265083" name="Reveller's Gilded Halter" iconId="1091789865" minLevel="1" tiers="1"/>
 <trait identifier="1879265088" name="Reveller's Gilded Saddle" iconId="1091789863" minLevel="1" tiers="1"/>
 <trait identifier="1879265089" name="Critical Rating Boost 5" iconId="1090553348" minLevel="1" tiers="1" description="Critical Rating Boost increase your Critical Hit Chance and Critical Damage.">
-<stat name="CRITICAL_RATING" scaling="1879381473"/>
+<stat name="CRITICAL_RATING" scaling="1879412740"/>
 <stat name="Skill_Monsterplay_CriticalDamage" constant="5.0"/>
 </trait>
 <trait identifier="1879265090" name="Critical Rating Boost 6" iconId="1090553348" minLevel="1" tiers="1" description="Critical Rating Boost increase your Critical Hit Chance and Critical Damage.">
-<stat name="CRITICAL_RATING" scaling="1879381473"/>
+<stat name="CRITICAL_RATING" scaling="1879412740"/>
 <stat name="Skill_Monsterplay_CriticalDamage" constant="5.0"/>
 </trait>
 <trait identifier="1879265091" name="Critical Rating Boost 2" iconId="1090553348" minLevel="1" tiers="1" description="Critical Rating Boost increase your Critical Hit Chance and Critical Damage.">
-<stat name="CRITICAL_RATING" scaling="1879381473"/>
+<stat name="CRITICAL_RATING" scaling="1879412740"/>
 <stat name="Skill_Monsterplay_CriticalDamage" constant="5.0"/>
 </trait>
 <trait identifier="1879265092" name="Critical Rating Boost 3" iconId="1090553348" minLevel="1" tiers="1" description="Critical Rating Boost increase your Critical Hit Chance and Critical Damage.">
-<stat name="CRITICAL_RATING" scaling="1879381473"/>
+<stat name="CRITICAL_RATING" scaling="1879412740"/>
 <stat name="Skill_Monsterplay_CriticalDamage" constant="5.0"/>
 </trait>
 <trait identifier="1879265093" name="Critical Rating Boost 1" iconId="1090553348" minLevel="1" tiers="1" description="Critical Rating Boost increase your Critical Hit Chance and Critical Damage.">
-<stat name="CRITICAL_RATING" scaling="1879381473"/>
+<stat name="CRITICAL_RATING" scaling="1879412740"/>
 <stat name="Skill_Monsterplay_CriticalDamage" constant="5.0"/>
 </trait>
 <trait identifier="1879265094" name="Critical Rating Boost 4" iconId="1090553348" minLevel="1" tiers="1" description="Critical Rating Boost increase your Critical Hit Chance and Critical Damage.">
-<stat name="CRITICAL_RATING" scaling="1879381473"/>
+<stat name="CRITICAL_RATING" scaling="1879412740"/>
 <stat name="Skill_Monsterplay_CriticalDamage" constant="5.0"/>
 </trait>
 <trait identifier="1879265123" name="Festive Azure Caparison" iconId="1091789860" minLevel="1" tiers="1"/>
@@ -5633,10 +5657,10 @@
 <trait identifier="1879306033" name="Emote: Chicken Putt" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the chicken putt emote (/chickenputt)."/>
 <trait identifier="1879306034" name="Emote: Chicken Chip" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the chicken chip emote (/chickenchip)."/>
 <trait identifier="1879306035" name="Emote: Chicken Drive" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the chicken drive emote (/chickendrive)."/>
-<trait identifier="1879306082" name="Dol Amroth - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all west Gondor vendors.">
+<trait identifier="1879306082" name="Dol Amroth - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all West Gondor vendors.">
 <stat name="Discount_Gondor_West" constant="5.0"/>
 </trait>
-<trait identifier="1879306083" name="Dol Amroth - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all west Gondor stable-masters.">
+<trait identifier="1879306083" name="Dol Amroth - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all West Gondor stable-masters.">
 <stat name="Discount_Travel_Gondor_West" constant="25.0"/>
 </trait>
 <trait identifier="1879306733" name="Emote: Drink From the Boot" iconId="1091591966" minLevel="1" tiers="1" description="You have learned the drink from the boot emote (/drinkboot)."/>
@@ -5870,7 +5894,7 @@
 <trait identifier="1879314948" name="Pelargir - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all central Gondor stable-masters.">
 <stat name="Discount_Travel_Gondor_Central" constant="25.0"/>
 </trait>
-<trait identifier="1879314949" name="Pelargir - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all central Gondor vendors.">
+<trait identifier="1879314949" name="Pelargir - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Central Gondor vendors.">
 <stat name="Discount_Gondor_Central" constant="5.0"/>
 </trait>
 <trait identifier="1879315039" name="Caparison of Bounty" iconId="1091830698" minLevel="1" tiers="1"/>
@@ -6107,10 +6131,10 @@
 <trait identifier="1879322053" name="Thunderous Roar" iconId="1091952766" minLevel="1" tiers="1" tierProperty="trait_class_beorning_rank_49" description="Grants Thunderous Roar, allowing the Beorning to taunt all enemies within 10m."/>
 <trait identifier="1879322054" name="Overbearing" iconId="1092544357" minLevel="1" tiers="1" tierProperty="trait_class_beorning_rank_50" description="Grants you the Overbearing skill - a version of Bear Up that can be used in combat."/>
 <trait identifier="1879322292" name="Caparison of the Woodland Realm" iconId="1091789864" minLevel="1" tiers="1"/>
-<trait identifier="1879322626" name="Rangers of Ithilien - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all eastern Gondor vendors.">
+<trait identifier="1879322626" name="Rangers of Ithilien - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Eastern Gondor vendors.">
 <stat name="Discount_Gondor_East" constant="5.0"/>
 </trait>
-<trait identifier="1879322627" name="Rangers of Ithilien - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all eastern Gondor stable-masters.">
+<trait identifier="1879322627" name="Rangers of Ithilien - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Eastern Gondor stable-masters.">
 <stat name="Discount_Travel_Gondor_East" constant="25.0"/>
 </trait>
 <trait identifier="1879324452" name="Light in the Shadow" iconId="1090541275" minLevel="1" tiers="1" description="Your ability to go unseen becomes more potent.">
@@ -6548,22 +6572,22 @@
 <trait identifier="1879358459" name="Saddle of the Ash Plains" iconId="1092339998" minLevel="1" tiers="1"/>
 <trait identifier="1879358460" name="Alliance of the Third Age Legs" iconId="1092339991" minLevel="1" tiers="1"/>
 <trait identifier="1879358542" name="Finesse Boost 5" iconId="1091637772" minLevel="1" tiers="1" description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
-<stat name="FINESSE" scaling="1879367857"/>
+<stat name="FINESSE" scaling="1879412737"/>
 </trait>
 <trait identifier="1879358543" name="Finesse Boost 4" iconId="1091637772" minLevel="1" tiers="1" description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
-<stat name="FINESSE" scaling="1879367857"/>
+<stat name="FINESSE" scaling="1879412737"/>
 </trait>
 <trait identifier="1879358544" name="Finesse Boost 1" iconId="1091637772" minLevel="1" tiers="1" description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
-<stat name="FINESSE" scaling="1879367857"/>
+<stat name="FINESSE" scaling="1879412737"/>
 </trait>
 <trait identifier="1879358545" name="Finesse Boost 3" iconId="1091637772" minLevel="1" tiers="1" description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
-<stat name="FINESSE" scaling="1879367857"/>
+<stat name="FINESSE" scaling="1879412737"/>
 </trait>
 <trait identifier="1879358546" name="Finesse Boost 6" iconId="1091637772" minLevel="1" tiers="1" description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
-<stat name="FINESSE" scaling="1879367857"/>
+<stat name="FINESSE" scaling="1879412737"/>
 </trait>
 <trait identifier="1879358547" name="Finesse Boost 2" iconId="1091637772" minLevel="1" tiers="1" description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
-<stat name="FINESSE" scaling="1879367857"/>
+<stat name="FINESSE" scaling="1879412737"/>
 </trait>
 <trait identifier="1879359114" name="Peace of the Eldar" iconId="1090554018" minLevel="1" tiers="1" description="Increased Morale and Morale Regeneration - In times of peace, your vitality and spirit are renewed more swiftly than those of the younger races of the world.">
 <stat name="MORALE" constant="20.0"/>
@@ -6919,23 +6943,18 @@
 <trait identifier="1879408698" name="Flag of Ringlo" iconId="1092559681" minLevel="1" tiers="1"/>
 <trait identifier="1879408699" name="Flag of Lossarnach" iconId="1092559678" minLevel="1" tiers="1"/>
 <trait identifier="1879408700" name="Saddle of Gondor" iconId="1092559676" minLevel="1" tiers="1"/>
-<trait identifier="1879409398" name="TREE 3 NAME TBD" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_three" description="TREE 3 DESCRIPTION TBD">
+<trait identifier="1879409398" name="DNT - NOT USED" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_three" description="DNT - NOT USED">
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
-<trait identifier="1879409404" name="TREE 1 NAME TBD" iconId="1091564746" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_one" description="TREE 1 DESCRIPTION TBD">
+<trait identifier="1879409404" name="Blue Tree TBD" iconId="1091564746" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_one" description="TREE 1 DESCRIPTION TBD">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="MORALE" operator="MULTIPLY" constant="1.1"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="209.99998"/>
 </trait>
-<trait identifier="1879409406" name="TREE 2 NAME TBD" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_two" description="TREE 2 DESCRIPTION TBD">
+<trait identifier="1879409406" name="Red Tree TBD" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_two" description="TREE 2 DESCRIPTION TBD">
+<stat name="MIGHT" scaling="1879366646"/>
+<stat name="Skill_Brawler_BasicAttack_Damage" constant="5.0"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
-</trait>
-<trait identifier="1879409418" name="Heartening Prank" iconId="1091829387" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_17" description="Increases max Morale.">
-<stat name="MORALE" operator="MULTIPLY" scaling="1879339009"/>
-</trait>
-<trait identifier="1879409419" name="Footpad" iconId="1090541265" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_1" description="You are harder to detect while Stealthed.">
-<stat name="STEALTH_LEVEL" scaling="1879268029"/>
-</trait>
-<trait identifier="1879409420" name="Leaf Walker" iconId="1090541260" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_34" description="You are harder to detect while Stealthed.">
-<stat name="STEALTH_LEVEL" scaling="1879268029"/>
 </trait>
 <trait identifier="1879410804" name="Head-piece of the Sporting Steed" iconId="1092590064" minLevel="1" tiers="1"/>
 <trait identifier="1879410805" name="Saddle of the Sporting Steed" iconId="1092590065" minLevel="1" tiers="1"/>
@@ -6948,7 +6967,50 @@
 <trait identifier="1879411040" name="Elderslade Head-piece" iconId="1092591469" minLevel="1" tiers="1"/>
 <trait identifier="1879411041" name="Elderslade Caparison" iconId="1092591472" minLevel="1" tiers="1"/>
 <trait identifier="1879411042" name="Elderslade Accessory" iconId="1092591471" minLevel="1" tiers="1"/>
+<trait identifier="1879412619" name="Parry TBD" iconId="1091829385" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_2" description="Increase Parry Chance.">
+<stat name="PARRY_PERCENTAGE" scaling="1879412618"/>
+</trait>
+<trait identifier="1879412620" name="Evade TBD" iconId="1090541265" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_1" description="Increase Evade Chance.">
+<stat name="EVADE_PERCENTAGE" scaling="1879412621"/>
+</trait>
+<trait identifier="1879412650" name="TBD" iconId="1091829386" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_5" description="TBD">
+<stat name="Skill_Brawler_Aoe_Taunt_Targets" scaling="1879412663"/>
+<stat name="Skill_Brawler_Aoe_Taunt_CD" scaling="1879412660"/>
+</trait>
+<trait identifier="1879412655" name="TBD" iconId="1091798510" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_3" description="TBD">
+<stat name="Skill_Brawler_Taunt_CD" scaling="1879412665"/>
+</trait>
+<trait identifier="1879412656" name="TBD" iconId="1091798521" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_7" description="TBD"/>
+<trait identifier="1879412657" name="TBD" iconId="1091841204" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_11" description="TBD"/>
+<trait identifier="1879412661" name="TBD" iconId="1090541260" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_34" description="TBD">
+<stat name="Skill_Brawler_Opening_Chance" scaling="1879412659"/>
+</trait>
+<trait identifier="1879412664" name="TBD" iconId="1090541264" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_4" description="TBD">
+<stat name="Skill_Brawler_Taunt_Debuff" scaling="1879412653"/>
+</trait>
+<trait identifier="1879412666" name="TBD" iconId="1090541258" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_6" description="TBD"/>
+<trait identifier="1879412667" name="TBD" iconId="1091829387" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_17" description="TBD">
+<stat name="Skill_Brawler_BasicAttack_Damage" scaling="1879412671"/>
+</trait>
+<trait identifier="1879412668" name="TBD" iconId="1091840427" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_18" description="TBD">
+<stat name="Skill_Brawler_Interrupt_CD" scaling="1879412662"/>
+</trait>
+<trait identifier="1879412669" name="TBD" iconId="1091840429" minLevel="1" tiers="3" tierProperty="trait_class_brawler_rank_10" description="TBD">
+<stat name="Skill_Brawler_IronWill_Mitigation" scaling="1879412672"/>
+</trait>
+<trait identifier="1879412670" name="TBD" iconId="1091840423" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_8" description="TBD">
+<stat name="Skill_Brawler_Left_Hook_Debuff" scaling="1879412651"/>
+</trait>
 <trait identifier="1879412856" name="Saddle of the Autumn Sage's Bearance" iconId="1092604047" minLevel="1" tiers="1"/>
 <trait identifier="1879412859" name="Mask of the Autumn Sage's Bearance" iconId="1092604045" minLevel="1" tiers="1"/>
 <trait identifier="1879412861" name="Caparison of the Autumn Sage's Bearance" iconId="1092604046" minLevel="1" tiers="1"/>
+<trait identifier="1879413192" name="Wildwood - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all stable-masters within the Wildwood.">
+<stat name="Discount_Travel_Wildwood" constant="25.0"/>
+</trait>
+<trait identifier="1879413196" name="Wildwood - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all vendors within the Wildwood.">
+<stat name="Discount_Wildwood" constant="5.0"/>
+</trait>
+<trait identifier="1879414303" name="Yule Gala Head-piece" iconId="1092626853" minLevel="1" tiers="1"/>
+<trait identifier="1879414304" name="Yule Gala Saddle" iconId="1092626854" minLevel="1" tiers="1"/>
+<trait identifier="1879414305" name="Yule Gala Caparison" iconId="1092626852" minLevel="1" tiers="1"/>
 </traits>
