@@ -184,7 +184,7 @@
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="2.0"/>
 </consumable>
 <consumable identifier="1879060115" name="Journeyman Westernesse Shield-spike Kit" iconId="1090540519-1090519042" category="Shield-spikes">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Westernesse" constant="2.0"/>
+<specialEffect label="Sets damage type of all shield skills to Westernesse"/>
 </consumable>
 <consumable identifier="1879061229" name="Hard Biscuits" iconId="1090541628-1090522692" category="Food">
 <stat name="ICPR" constant="230.76924"/>
@@ -497,13 +497,13 @@
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="3.0"/>
 </consumable>
 <consumable identifier="1879070113" name="Expert Ancient Dwarf Shield-spike Kit" iconId="1090552932-1090519042" category="Shield-spikes">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Ancient Dwarf" constant="4.0"/>
+<specialEffect label="Sets damage type of all shield skills to Ancient Dwarf"/>
 </consumable>
 <consumable identifier="1879070435" name="Artisan Shield-spike Kit" iconId="1090552946-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="4.0"/>
 </consumable>
 <consumable identifier="1879070438" name="Artisan Beleriand Shield-spike Kit" iconId="1090540524-1090519042" category="Shield-spikes">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Beleriand" constant="8.0"/>
+<specialEffect label="Sets damage type of all shield skills to Beleriand"/>
 </consumable>
 <consumable identifier="1879071944" name="Roast of Heroes" iconId="1090530348-1090522692" category="Food">
 <stat name="ICPR" constant="1523.0769"/>
@@ -551,16 +551,16 @@
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="4.0"/>
 </consumable>
 <consumable identifier="1879084266" name="Resilient Journeyman Westernesse Shield-spike Kit" iconId="1090540519-1090519043" category="Shield-spikes">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Westernesse" constant="2.0"/>
+<specialEffect label="Sets damage type of all shield skills to Westernesse"/>
 </consumable>
 <consumable identifier="1879084268" name="Resilient Artisan Shield-spike Kit" iconId="1090552946-1090519043" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="5.0"/>
 </consumable>
 <consumable identifier="1879084277" name="Resilient Expert Ancient Dwarf Shield-spike Kit" iconId="1090552932-1090519043" category="Shield-spikes">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Ancient Dwarf" constant="4.0"/>
+<specialEffect label="Sets damage type of all shield skills to Ancient Dwarf"/>
 </consumable>
 <consumable identifier="1879084287" name="Resilient Artisan Beleriand Shield-spike Kit" iconId="1090540524-1090519043" category="Shield-spikes">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Beleriand" constant="8.0"/>
+<specialEffect label="Sets damage type of all shield skills to Beleriand"/>
 </consumable>
 <consumable identifier="1879084289" name="Resilient Journeyman Shield-spike Kit" iconId="1090540516-1090519043" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="3.0"/>
@@ -597,6 +597,12 @@
 </consumable>
 <consumable identifier="1879085771" name="Snapper Soup" iconId="1090541648-1090522692" category="Food">
 <stat name="VITALITY" constant="12.241666"/>
+</consumable>
+<consumable identifier="1879085775" name="Odorous Salts" iconId="1090526136-1090519042" category="Potion">
+<specialEffect label="You gain immunity to daze and stun effects for a short time."/>
+</consumable>
+<consumable identifier="1879085776" name="Solvent of Painful Freedom" iconId="1090526132-1090519042" category="Potion">
+<specialEffect label="You gain immunity to root effects for a short time."/>
 </consumable>
 <consumable identifier="1879087161" name="Scroll of the Ages" iconId="1090530434-1090519044" category="Scroll">
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="+{***} critical chance bonus of all crafting skills on top of any other scholar scrolls." constant="4.0"/>
@@ -871,6 +877,15 @@
 <consumable identifier="1879091313" name="Bow Chant: Whisper-draw" iconId="1091388838-1090519042" category="Hunter Class Items">
 <stat name="Skill_AdditionalThreat_Hunter_AllRangeSkillsMod" descriptionOverride="Your bow skills generate less threat." constant="-3.0"/>
 </consumable>
+<consumable identifier="1879097903" name="Vial of Gundzor's Breath" iconId="1090526144-1090519042" category="Potion">
+<specialEffect label="You gain immunity to daze and stun effects for a short time."/>
+</consumable>
+<consumable identifier="1879097904" name="Phial of Mazauk's Resolve" iconId="1091428830-1090519043" category="Potion">
+<specialEffect label="You gain immunity to fear effects for a short time."/>
+</consumable>
+<consumable identifier="1879097906" name="Vial of Bûrzgoth's Strength" iconId="1090526140-1090519042" category="Potion">
+<specialEffect label="You gain immunity to root effects for a short time."/>
+</consumable>
 <consumable identifier="1879097907" name="Steamed Leg of Man" iconId="1091417910-1090519041" category="Food">
 <stat name="ICPR" constant="31500.0"/>
 <stat name="ICMR" constant="22800.0"/>
@@ -999,6 +1014,9 @@
 </consumable>
 <consumable identifier="1879097940" name="Phial of Gorgoris' Blood" iconId="1091417981-1090519043" category="Potion">
 <stat name="RESISTANCE" constant="68040.0"/>
+</consumable>
+<consumable identifier="1879097947" name="Akúlhun's Brand of the Tyrant" iconId="1091424184-1090519043" category="Craft: Component">
+<specialEffect label="You gain immunity to daze, stun, knockdown, root, slow, silence, disarm and fear effects for a short time."/>
 </consumable>
 <consumable identifier="1879098841" name="Harvestmath Pony" iconId="1091402657-1090519041" category="Mounts">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="Speed: {***}&#10;Morale: 100" constant="62.0"/>
@@ -1511,6 +1529,9 @@
 <specialEffect label="Unable to parry."/>
 <specialEffect label="Unable to block."/>
 </consumable>
+<consumable identifier="1879140592" name="Phial of Conhuith" iconId="1091428830-1090519043" category="Potion">
+<specialEffect label="You gain immunity to fear effects for a short time."/>
+</consumable>
 <consumable identifier="1879143217" name="Bow Chant: Shield-bane" iconId="1091388850-1090519042" category="Hunter Class Items">
 <stat name="Skill_ChanceBlock_RangedMod" constant="-152.0"/>
 </consumable>
@@ -1542,13 +1563,13 @@
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="4.0"/>
 </consumable>
 <consumable identifier="1879143406" name="Supreme Ancient Dwarf Shield-spike Kit" iconId="1090552932-1090519042" category="Shield-spikes">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Ancient Dwarf" constant="4.0"/>
+<specialEffect label="Sets damage type of all shield skills to Ancient Dwarf"/>
 </consumable>
 <consumable identifier="1879143426" name="Master Shield-spike Kit" iconId="1090552946-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="4.0"/>
 </consumable>
 <consumable identifier="1879143432" name="Resilient Supreme Ancient Dwarf Shield-spike Kit" iconId="1090552932-1090519043" category="Shield-spikes">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Ancient Dwarf" constant="4.0"/>
+<specialEffect label="Sets damage type of all shield skills to Ancient Dwarf"/>
 </consumable>
 <consumable identifier="1879143436" name="Resilient Master Shield-spike Kit" iconId="1090552946-1090519043" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="5.0"/>
@@ -1557,10 +1578,10 @@
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="5.0"/>
 </consumable>
 <consumable identifier="1879143446" name="Resilient Master Westernesse Shield-spike Kit" iconId="1090540519-1090519043" category="Shield-spikes">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Westernesse" constant="2.0"/>
+<specialEffect label="Sets damage type of all shield skills to Westernesse"/>
 </consumable>
 <consumable identifier="1879143459" name="Master Westernesse Shield-spike Kit" iconId="1090540519-1090519042" category="Shield-spikes">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Westernesse" constant="2.0"/>
+<specialEffect label="Sets damage type of all shield skills to Westernesse"/>
 </consumable>
 <consumable identifier="1879143615" name="Potion of Ruindirith" iconId="1091478502-1090519041" category="Potion">
 <stat name="ACID_MITIGATION" constant="100.0"/>
@@ -1574,6 +1595,18 @@
 <consumable identifier="1879143618" name="Potion of Lachdirith" iconId="1091478511-1090519041" category="Potion">
 <stat name="Combat_ArmorDefense_PointsModifier_Lightning" constant="100.0"/>
 </consumable>
+<consumable identifier="1879145049" name="Solvent of Release" iconId="1090526132-1090519042" category="Potion">
+<specialEffect label="You gain immunity to root effects for a short time."/>
+</consumable>
+<consumable identifier="1879145050" name="Salt of Hartshorn" iconId="1090526136-1090519042" category="Potion">
+<specialEffect label="You gain immunity to daze and stun effects for a short time."/>
+</consumable>
+<consumable identifier="1879145051" name="Phial of Unbinding" iconId="1090526132-1090519042" category="Potion">
+<specialEffect label="You gain immunity to root effects for a short time."/>
+</consumable>
+<consumable identifier="1879145052" name="Phial of Aromatic Spirits" iconId="1090526136-1090519042" category="Potion">
+<specialEffect label="You gain immunity to daze and stun effects for a short time."/>
+</consumable>
 <consumable identifier="1879145205" name="Cup of Black Tea" iconId="1091512803-1090522692" category="Food">
 <stat name="ItemAdvancement_XP_AwardMultiplier" constant="15.000001"/>
 </consumable>
@@ -1582,6 +1615,9 @@
 </consumable>
 <consumable identifier="1879145210" name="Cup of Green Tea" iconId="1091512807-1090522692" category="Food">
 <stat name="ItemAdvancement_XP_AwardMultiplier" constant="10.0"/>
+</consumable>
+<consumable identifier="1879148518" name="General Talug's Armour Display" iconId="1091509619-1091424047" category="Home: Trophy">
+<specialEffect label="For some reason, this Orkish armour does not seem to fool Orcs like it did before...maybe it is too clean."/>
 </consumable>
 <consumable identifier="1879149768" name="Yule Festival Horse" iconId="1091402657-1090519041" category="Mounts">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="Speed: {***}&#10;Morale: 100" constant="62.0"/>
@@ -1720,6 +1756,9 @@
 <consumable identifier="1879153552" name="Khazâd-gold Inlay" iconId="1091619282-1090519042" category="Rune-keeper Class Items">
 <stat name="Item_Runekeeper_Induction_PowerCost" operator="SUBSTRACT" descriptionOverride="-{***} Induction Power Cost" constant="50.0"/>
 <stat name="Trait_Runekeeper_NukeDot_Power" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
+<specialEffect label="Next Induction cannot be interrupted"/>
+</consumable>
+<consumable identifier="1879153562" name="Silver Inlay" iconId="1091547620-1090519042" category="Rune-keeper Class Items">
 <specialEffect label="Next Induction cannot be interrupted"/>
 </consumable>
 <consumable identifier="1879153563" name="Gold Inlay" iconId="1091619273-1090519042" category="Rune-keeper Class Items">
@@ -2278,13 +2317,13 @@
 <stat name="Skill_ChanceEvade_RangedMod" constant="-240.0"/>
 </consumable>
 <consumable identifier="1879189738" name="Beleriand Shield-spike Kit" iconId="1090540524-1091591349" category="Guardian Class Items">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Beleriand" constant="8.0"/>
+<specialEffect label="Sets damage type of all shield skills to Beleriand"/>
 </consumable>
 <consumable identifier="1879189739" name="Master Shield-spike Kit" iconId="1090552946-1091591349" category="Guardian Class Items">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="5.0"/>
 </consumable>
 <consumable identifier="1879189740" name="Westernesse Shield-spike Kit" iconId="1090540519-1091591349" category="Guardian Class Items">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Westernesse" constant="2.0"/>
+<specialEffect label="Sets damage type of all shield skills to Westernesse"/>
 </consumable>
 <consumable identifier="1879189741" name="Journeyman Shield-spike Kit" iconId="1090552930-1091591349" category="Guardian Class Items">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="4.0"/>
@@ -2293,7 +2332,7 @@
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="3.0"/>
 </consumable>
 <consumable identifier="1879189744" name="Ancient Dwarf Shield-spike Kit" iconId="1090552932-1091591349" category="Guardian Class Items">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Ancient Dwarf" constant="4.0"/>
+<specialEffect label="Sets damage type of all shield skills to Ancient Dwarf"/>
 </consumable>
 <consumable identifier="1879189745" name="Tome of Continuing Item Experience" iconId="1091612803-1090519045" category="Perks">
 <stat name="ItemAdvancement_XP_AwardMultiplier" descriptionOverride="{***} Item-XP from Monster Kills" constant="25.0"/>
@@ -2348,6 +2387,9 @@
 <consumable identifier="1879189757" name="Tome of Continuing Experience" iconId="1091590325-1090519045" category="Special">
 <stat name="XP_AwardMultiplier" descriptionOverride="{***} XP from Monster Kills" constant="25.0"/>
 <stat name="ItemAdvancement_XP_AwardMultiplier" descriptionOverride="{***} Item-XP from Monster Kills" constant="10.0"/>
+</consumable>
+<consumable identifier="1879189758" name="Soldier's Summoning" iconId="1091608646-1090519045" category="Perks">
+<specialEffect label="Soldier can be summoned during combat."/>
 </consumable>
 <consumable identifier="1879189759" name="+25% Legendary Item XP Tome (45 min)" iconId="1091612803-1091591349" category="Perks">
 <stat name="ItemAdvancement_XP_AwardMultiplier" descriptionOverride="{***} Item-XP from Monster Kills" constant="25.0"/>
@@ -2405,6 +2447,9 @@
 </consumable>
 <consumable identifier="1879189773" name="Fine Lute Strings of Greater Subtlety" iconId="1090648436-1091591349" category="Minstrel Class Items">
 <stat name="ThreatInputModifier_Healing" constant="-12.0"/>
+</consumable>
+<consumable identifier="1879189774" name="Silver Inlay" iconId="1091547620-1091591349" category="Rune-keeper Class Items">
+<specialEffect label="Next Induction cannot be interrupted"/>
 </consumable>
 <consumable identifier="1879189775" name="Khazâd-gold Inlay" iconId="1091619282-1091591349" category="Rune-keeper Class Items">
 <stat name="Item_Runekeeper_Induction_PowerCost" operator="SUBSTRACT" descriptionOverride="-{***} Induction Power Cost" constant="50.0"/>
@@ -2591,6 +2636,9 @@
 <consumable identifier="1879192431" name="Master Sheet Music" iconId="1091636618-1090519042" category="Minstrel Class Items">
 <stat name="Item_Minstrel_Induction_PowerCost" operator="SUBSTRACT" descriptionOverride="-{***} Induction Power Cost" constant="30.000002"/>
 <stat name="Skill_VitalCost_SerenadeUtilityMod" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
+<specialEffect label="Next Induction cannot be interrupted"/>
+</consumable>
+<consumable identifier="1879192432" name="Journeyman Sheet Music" iconId="1091611540-1090519042" category="Minstrel Class Items">
 <specialEffect label="Next Induction cannot be interrupted"/>
 </consumable>
 <consumable identifier="1879192433" name="Expert Sheet Music" iconId="1091636612-1090519042" category="Minstrel Class Items">
@@ -2780,6 +2828,9 @@
 </consumable>
 <consumable identifier="1879197949" name="Reconnaissance Report" iconId="1091617886-1091591349" category="Special">
 <stat name="Skirmish_DirectSoldier_Cooldown" operator="SUBSTRACT" descriptionOverride="-25% Direct Soldier Cooldown" constant="15.0"/>
+</consumable>
+<consumable identifier="1879198018" name="Phial of Akúlhun's Fury" iconId="1091617933-1090519043" category="Potion">
+<specialEffect label="You gain immunity to daze, stun, knockdown, root, slow, silence, disarm and fear effects for a short time."/>
 </consumable>
 <consumable identifier="1879199394" name="Writ of Special Passage: 1 Day" iconId="1091591346-1091591349" category="Travel &amp; Maps">
 <stat name="ForwardSource_Discount_Travel_Special" operator="SET" descriptionOverride="Free Passage" constant="100.0"/>
@@ -3248,10 +3299,10 @@
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="5.0"/>
 </consumable>
 <consumable identifier="1879214861" name="Westfold Beleriand Shield-spike Kit" iconId="1090540524-1090519042" category="Shield-spikes">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Beleriand" constant="8.0"/>
+<specialEffect label="Sets damage type of all shield skills to Beleriand"/>
 </consumable>
 <consumable identifier="1879214862" name="Resilient Westfold Beleriand Shield-spike Kit" iconId="1090540524-1090519043" category="Shield-spikes">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Beleriand" constant="8.0"/>
+<specialEffect label="Sets damage type of all shield skills to Beleriand"/>
 </consumable>
 <consumable identifier="1879214863" name="Westfold Dagor Infused Parchment" iconId="1091636308-1090519042" category="Rune-keeper Class Items">
 <stat name="Skill_Runekeeper_ScathingMockery_MaxTargets" constant="5.0"/>
@@ -3261,11 +3312,20 @@
 <stat name="Skill_Runekeeper_EpicForAges_CriticalChance" operator="SET" constant="100.0"/>
 <stat name="OUTGOING_HEALING" constant="1848.4617"/>
 </consumable>
+<consumable identifier="1879215862" name="Crumbling Insignia" iconId="1091418806-1091591349" category="Perks">
+<specialEffect label="You gain immunity to daze, stun, knockdown, root, slow, silence, disarm and fear effects for a short time."/>
+</consumable>
+<consumable identifier="1879215863" name="Crumbling Brand" iconId="1091424184-1091591349" category="Perks">
+<specialEffect label="You gain immunity to daze, stun, knockdown, root, slow, silence, disarm and fear effects for a short time."/>
+</consumable>
 <consumable identifier="1879215864" name="+20% Renown (3 hours)" iconId="1091659667-1091591349" category="Perks">
 <stat name="Glory_AwardMultiplier" descriptionOverride="+20% Renown gained from defeating Monster Players" constant="20.0"/>
 </consumable>
 <consumable identifier="1879215865" name="+20% Infamy (3 hours)" iconId="1091659667-1091591349" category="Perks">
 <stat name="Glory_AwardMultiplier" descriptionOverride="+20% Infamy gained from defeating Players" constant="20.0"/>
+</consumable>
+<consumable identifier="1879216338" name="Journeyman Parable" iconId="1091666039-1090519042" category="Lore-master Class Items">
+<specialEffect label="Next Induction cannot be interrupted"/>
 </consumable>
 <consumable identifier="1879216339" name="Expert Parable" iconId="1091666042-1090519042" category="Lore-master Class Items">
 <stat name="Item_Loremaster_Induction_PowerCost" operator="SUBSTRACT" descriptionOverride="-{***} Induction Power Cost" constant="10.0"/>
@@ -3356,7 +3416,7 @@
 <stat name="Skill_DamageMitigation_RangedMod" constant="-1500.0"/>
 </consumable>
 <consumable identifier="1879217352" name="Westfold Beleriand Shield-spike Kit" iconId="1090540524-1091591349" category="Guardian Class Items">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" descriptionOverride="Sets damage type of all shield skills to Beleriand" constant="8.0"/>
+<specialEffect label="Sets damage type of all shield skills to Beleriand"/>
 </consumable>
 <consumable identifier="1879217353" name="Bow Chant: Westfold Shield-bane" iconId="1091388850-1091591349" category="Hunter Class Items">
 <stat name="Skill_ChanceBlock_RangedMod" constant="-300.0"/>
@@ -3410,6 +3470,9 @@
 </consumable>
 <consumable identifier="1879226629" name="Cup of Superior Second Breakfast Blend Coffee" iconId="1091686691-1090522692" category="Food">
 <stat name="Movement_OutOfCombat_Speed_AddMod" descriptionOverride="+{***} Out-of-Combat Run Speed" constant="10.0"/>
+</consumable>
+<consumable identifier="1879227677" name="Mordirith's Brand" iconId="1091688759-1090519043" category="Craft: Component">
+<specialEffect label="You gain immunity to daze, stun, knockdown, root, slow, silence, disarm and fear effects for a short time."/>
 </consumable>
 <consumable identifier="1879230109" name="White Pudding" iconId="1091696656-1090522692" category="Food">
 <stat name="VITALITY" constant="179.16666"/>
@@ -3599,15 +3662,15 @@
 </consumable>
 <consumable identifier="1879250678" name="Eastemnet Beleriand Shield-spike Kit" iconId="1091755072-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="5.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="8.0"/>
+<specialEffect label="Set damage type of all skills to Beleriand"/>
 </consumable>
 <consumable identifier="1879250679" name="Eastemnet Ancient Dwarf Shield-spike Kit" iconId="1091755073-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="5.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="4.0"/>
+<specialEffect label="Set damage type of all skills to Ancient Dwarf-make"/>
 </consumable>
 <consumable identifier="1879250680" name="Eastemnet Westernesse Shield-spike Kit" iconId="1091755069-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="5.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="2.0"/>
+<specialEffect label="Set damage type of all skills to Westernesse"/>
 </consumable>
 <consumable identifier="1879250830" name="Regenerative Food (Tier 9)" iconId="1091753184-1091591349" category="Food">
 <stat name="ICPR" constant="2053.8462"/>
@@ -3750,6 +3813,12 @@
 <stat name="ICMR" constant="1232.3077"/>
 <stat name="OCMR" constant="16430.77"/>
 <stat name="OCPR" constant="16430.77"/>
+</consumable>
+<consumable identifier="1879254106" name="Crumbling Insignia" iconId="1091418806-1091591349" category="Perks">
+<specialEffect label="You gain immunity to daze, stun, knockdown, root, slow, silence, disarm and fear effects for a short time."/>
+</consumable>
+<consumable identifier="1879254107" name="Crumbling Brand" iconId="1091424184-1091591349" category="Perks">
+<specialEffect label="You gain immunity to daze, stun, knockdown, root, slow, silence, disarm and fear effects for a short time."/>
 </consumable>
 <consumable identifier="1879255644" name="Tome of Extraordinary Experience" iconId="1091590325-1091591349" category="Perks">
 <stat name="XP_AwardMultiplier" descriptionOverride="{***} XP from Monster Kills" constant="100.0"/>
@@ -4015,7 +4084,7 @@
 </consumable>
 <consumable identifier="1879280156" name="Westemnet Beleriand Shield-spike Kit" iconId="1091755072-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="6.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="8.0"/>
+<specialEffect label="Set damage type of all skills to Beleriand"/>
 </consumable>
 <consumable identifier="1879280157" name="Westemnet Overpower Tactics" iconId="1091812515-1090519042" category="Guardian Class Items">
 <stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" descriptionOverride="-{***} Skill Power Costs" constant="5.0"/>
@@ -4034,11 +4103,11 @@
 </consumable>
 <consumable identifier="1879280162" name="Westemnet Ancient Dwarf Shield-spike Kit" iconId="1091755073-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="6.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="4.0"/>
+<specialEffect label="Set damage type of all skills to Ancient Dwarf-make"/>
 </consumable>
 <consumable identifier="1879280163" name="Westemnet Westernesse Shield-spike Kit" iconId="1091755069-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="6.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="2.0"/>
+<specialEffect label="Set damage type of all skills to Westernesse"/>
 </consumable>
 <consumable identifier="1879280164" name="Westemnet Battle Tonic" iconId="1091636655-1090519042" category="Captain Class Items">
 <stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" descriptionOverride="-{***} Skill Power Costs" constant="70.0"/>
@@ -4330,15 +4399,15 @@
 </consumable>
 <consumable identifier="1879350290" name="Doomfold Ancient Dwarf Shield-spike Kit" iconId="1091755073-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="7.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="4.0"/>
+<specialEffect label="Set damage type of all skills to Ancient Dwarf-make"/>
 </consumable>
 <consumable identifier="1879350296" name="Doomfold Westernesse Shield-spike Kit" iconId="1091755069-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="7.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="2.0"/>
+<specialEffect label="Set damage type of all skills to Westernesse"/>
 </consumable>
 <consumable identifier="1879350302" name="Doomfold Beleriand Shield-spike Kit" iconId="1091755072-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="7.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="8.0"/>
+<specialEffect label="Set damage type of all skills to Beleriand"/>
 </consumable>
 <consumable identifier="1879350562" name="Bow Chant: Doomfold Foe-finder" iconId="1091388848-1090519042" category="Hunter Class Items">
 <stat name="Skill_ChanceEvade_RangedMod" constant="-460.0"/>
@@ -4414,15 +4483,15 @@
 </consumable>
 <consumable identifier="1879370126" name="Ironfold Ancient Dwarf Shield-spike Kit" iconId="1091755073-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="8.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="4.0"/>
+<specialEffect label="Set damage type of all skills to Ancient Dwarf-make"/>
 </consumable>
 <consumable identifier="1879370127" name="Ironfold Westernesse Shield-spike Kit" iconId="1091755069-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="8.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="2.0"/>
+<specialEffect label="Set damage type of all skills to Westernesse"/>
 </consumable>
 <consumable identifier="1879370128" name="Ironfold Beleriand Shield-spike Kit" iconId="1091755072-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="8.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="8.0"/>
+<specialEffect label="Set damage type of all skills to Beleriand"/>
 </consumable>
 <consumable identifier="1879370168" name="Scroll of Ironfold Warding Lore" iconId="1090531423-1090519042" category="Scroll">
 <stat name="PHYSICAL_MITIGATION" constant="8956.895"/>
@@ -4576,7 +4645,7 @@
 </consumable>
 <consumable identifier="1879396526" name="Minas Ithil Westernesse Shield-spike Kit" iconId="1091755069-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="8.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="2.0"/>
+<specialEffect label="Set damage type of all skills to Westernesse"/>
 </consumable>
 <consumable identifier="1879396530" name="Rallying Hymn of Minas Ithil" iconId="1091755097-1090519042" category="Warden Class Items">
 <stat name="Item_Warden_VitalCost_GambitBuilder" operator="SUBSTRACT" descriptionOverride="-{***} Gambit Builder Power Costs" constant="100.0"/>
@@ -4593,7 +4662,7 @@
 </consumable>
 <consumable identifier="1879396555" name="Minas Ithil Beleriand Shield-spike Kit" iconId="1091755072-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="8.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="8.0"/>
+<specialEffect label="Set damage type of all skills to Beleriand"/>
 </consumable>
 <consumable identifier="1879396563" name="Minas Ithil Battle Tonic" iconId="1091636655-1090519042" category="Captain Class Items">
 <stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" descriptionOverride="-{***} Skill Power Costs" constant="70.0"/>
@@ -4637,7 +4706,7 @@
 </consumable>
 <consumable identifier="1879396648" name="Minas Ithil Ancient Dwarf Shield-spike Kit" iconId="1091755073-1090519042" category="Shield-spikes">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="8.0"/>
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="4.0"/>
+<specialEffect label="Set damage type of all skills to Ancient Dwarf-make"/>
 </consumable>
 <consumable identifier="1879397159" name="Ithilharn Roll" iconId="1091934652-1090522692" category="Food">
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+{***} damage" constant="2.5"/>
