@@ -495,7 +495,7 @@
 </trait>
 <trait identifier="1879072447" name="Steelweave Webs" iconId="1090553280" minLevel="1" tiers="1" description="Improves the probability that Snaring Webs and Grasping Webs will hold through damage. Extends the duration of Clinging and Entangling webs.">
 <stat name="EffectMod_Duration_Trait_MP_SnaringWeb" descriptionOverride="+{***}s Clinging Web Duration" constant="15.0"/>
-<stat name="ForwardSource_Combat_TraitCombo" operator="SET" descriptionOverride="+15s Entangling Web Duration&#10;25% Break on Damage" constant="49.0"/>
+<specialEffect label="+15s Entangling Web Duration&#10;25% Break on Damage"/>
 </trait>
 <trait identifier="1879072448" name="Enhanced Skill: Clinging Webs" iconId="1090553281" minLevel="1" tiers="1" description="Adds a Parry and Evade Rating debuff to Clinging Webs."/>
 <trait identifier="1879072449" name="Enhanced Skill: Feast" iconId="1091474809" minLevel="1" tiers="1" description="Feast now restores Power to your fellowship."/>
@@ -625,7 +625,7 @@
 <stat name="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" constant="5.0"/>
 </trait>
 <trait identifier="1879072492" name="Shadow Fang" iconId="1090553324" minLevel="1" tiers="1" description="When using Shadow Fang, all damage skills will do Shadow damage.">
-<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" constant="32.0"/>
+<specialEffect label="Set damage type of all skills to Shadow"/>
 </trait>
 <trait identifier="1879072493" name="Enhanced Skill: Stealth" iconId="1090553325" minLevel="1" tiers="1" description="Your ability to hide and stalk prey has been increased.">
 <stat name="STEALTH_LEVEL" constant="4.0"/>
@@ -1595,8 +1595,8 @@
 </trait>
 <trait identifier="1879136830" name="Enhanced Skill: Death Blossom" iconId="1091472332" minLevel="1" tiers="1" description="Adds short root to each target hit with Death Blossom.&#10;&#10;&lt;rgb=#99FF33&gt;15s Root&#10;50% break chance on damage after 1s&lt;/rgb&gt;"/>
 <trait identifier="1879136833" name="Enhanced Skill: Gash" iconId="1091472330" minLevel="1" tiers="1" description="Gash will stun targets on hit, but its cooldown is increased to 20s.">
-<stat name="ForwardSource_Combat_TraitCombo" operator="SET" descriptionOverride="Stuns target for 6 seconds." constant="86.0"/>
 <stat name="Skill_ChanceCriticalHit_ChampionStrikesMod" descriptionOverride="+{***} Gash Critical Chance" constant="25.0"/>
+<specialEffect label="Stuns target for 6 seconds."/>
 </trait>
 <trait identifier="1879136835" name="Enhanced Skill: Headshot" iconId="1091472333" minLevel="1" tiers="1" description="Enables Headshot to have a chance to knockdown the target.&#10;&#10;&lt;rgb=#99FF33&gt;50% Knockdown Chance on hit&#10;100% Knockdown Chance on critical&lt;/rgb&gt;"/>
 <trait identifier="1879138049" name="Extended Reach" iconId="1091472681" minLevel="1" tiers="1" description="When using Extended Reach, your area effect attacks will hit an additional 6 targets.">
@@ -2166,7 +2166,6 @@
 <stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="Your hatchling gains the following:&#10;   +25% Health&#10;   +10% Power&#10;   +20% Mitigations&#10;  +5% Attack Speed&#10;   +15% Outgoing Damage&#10;   +5% Critical Chance&#10;  +5% Evade Chance &#10;  Enhanced Skills" constant="105.0"/>
 </trait>
 <trait identifier="1879201534" name="Enhanced Skill: Efflorescence" iconId="1091755050" minLevel="1" tiers="1" description="Increases the range and reduces the power cost of Efflorescence.&#10;&#10;&lt;rgb=#99FF33&gt;Efflorescence:&#10;+10m Range&#10;-15% Power Cost&lt;/rgb&gt;">
-<stat name="ForwardSource_Combat_TraitCombo" operator="SET" descriptionOverride="-" constant="109.0"/>
 <stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" descriptionOverride="-" constant="15.000001"/>
 </trait>
 <trait identifier="1879201575" name="Lead the Charge!" iconId="1091631125" minLevel="1" tiers="1" description="Allows Banner of Terror and Banner of Horror to be used in combat and reduces the inductions of Command Post and Point-defence.&#10;&#10;&lt;rgb=#99FF33&gt;Banner of Terror/Horror:&#10;Useable in Combat&#10;-50% Duration&#10;-50% Cooldown&lt;/rgb&gt;">
