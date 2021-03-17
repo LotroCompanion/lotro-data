@@ -2051,7 +2051,7 @@
 <item id="1879141557" name="Pauldrons of the Last Stand"/>
 <item id="1879141556" name="Helm of the Last Stand"/>
 <bonus nbItems="4">
-<stat name="Skill_RecoveryTime_ThrillDanger" descriptionOverride="-60s Thrill of Danger Cooldown" constant="-60.0"/>
+<stat name="Skill_RecoveryTime_ThrillDanger" descriptionOverride="-60s Thrill of Danger Cooldown" constant="-30.0"/>
 </bonus>
 </set>
 <set id="1879143889" name="Armour of the Word-crafter" level="58" description="">
@@ -19725,5 +19725,626 @@
 <stat name="CRITICAL_RATING" scaling="1879211602"/>
 </bonus>
 <bonus nbItems="3"/>
+</set>
+<set id="1879416429" name="Greater Armour of the Unstoppable Juggernaut&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416804" name="Guardian's Artisan Greater Silk-steel Breastplate of the Unstoppable Juggernaut"/>
+<item id="1879416503" name="Guardian's Greater Silk-steel Helm of the Unstoppable Juggernaut"/>
+<item id="1879416579" name="Guardian's Greater Silk-steel Pauldrons of the Unstoppable Juggernaut"/>
+<item id="1879416439" name="Guardian's Greater Silk-steel Breastplate of the Unstoppable Juggernaut"/>
+<item id="1879416463" name="Guardian's Greater Silk-steel Gauntlets of the Unstoppable Juggernaut"/>
+<item id="1879416636" name="Guardian's Greater Silk-steel Greaves of the Unstoppable Juggernaut"/>
+<item id="1879416530" name="Guardian's Greater Silk-steel Boots of the Unstoppable Juggernaut"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211532"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Itemset_Guardian_Juggernaut_CD" operator="SUBSTRACT" constant="30.0"/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416441" name="Greater Battle-gear of Exhilarating Change&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416816" name="Beorning's Artisan Greater Silk-steel Breastplate of Exhilarating Change"/>
+<item id="1879416597" name="Beorning's Greater Silk-steel Helm of Exhilarating Change"/>
+<item id="1879416605" name="Beorning's Greater Silk-steel Pauldrons of Exhilarating Change"/>
+<item id="1879416518" name="Beorning's Greater Silk-steel Breastplate of Exhilarating Change"/>
+<item id="1879416501" name="Beorning's Greater Silk-steel Gauntlets of Exhilarating Change"/>
+<item id="1879416520" name="Beorning's Greater Silk-steel Greaves of Exhilarating Change"/>
+<item id="1879416591" name="Beorning's Greater Silk-steel Boots of Exhilarating Change"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211532"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Beorning_PipGen_Transform" descriptionOverride="-" constant="10.0"/>
+<specialEffect label="Transforming grants +10 Wrath."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416466" name="Greater Armour of Grand Resilience&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416814" name="Guardian's Artisan Greater Silk-steel Breastplate of Grand Resilience"/>
+<item id="1879416577" name="Guardian's Greater Silk-steel Helm of Grand Resilience"/>
+<item id="1879416447" name="Guardian's Greater Silk-steel Pauldrons of Grand Resilience"/>
+<item id="1879416568" name="Guardian's Greater Silk-steel Breastplate of Grand Resilience"/>
+<item id="1879416637" name="Guardian's Greater Silk-steel Gauntlets of Grand Resilience"/>
+<item id="1879416464" name="Guardian's Greater Silk-steel Greaves of Grand Resilience"/>
+<item id="1879416606" name="Guardian's Greater Silk-steel Boots of Grand Resilience"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211532"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="ATTACK_DURATION_PERCENTAGE" constant="-10.0"/>
+</bonus>
+<bonus nbItems="4">
+<specialEffect label="Protection grants +5% damage mitigation."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416471" name="Greater Trappings of Potent Alacrity&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416801" name="Minstrel's Artisan Greater Silk-weave Robe of Potent Alacrity"/>
+<item id="1879416433" name="Minstrel's Greater Silk-weave Face-guard of Potent Alacrity"/>
+<item id="1879416622" name="Minstrel's Greater Silk-weave Mantle of Potent Alacrity"/>
+<item id="1879416517" name="Minstrel's Greater Silk-weave Robe of Potent Alacrity"/>
+<item id="1879416560" name="Minstrel's Greater Silk-weave Arm-guards of Potent Alacrity"/>
+<item id="1879416493" name="Minstrel's Greater Silk-weave Leggings of Potent Alacrity"/>
+<item id="1879416548" name="Minstrel's Greater Silk-weave Boots of Potent Alacrity"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211578"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<specialEffect label="Cry of the Chorus (Resonance) now halves induction durations."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416473" name="Greater Armour of Stalwart Glory &#10;(Max Level: 134)" level="440" description="">
+<item id="1879416792" name="Warden's Artisan Greater Silk-hide Cuirass of Stalwart Glory"/>
+<item id="1879416496" name="Warden's Greater Silk-hide Helm of Stalwart Glory"/>
+<item id="1879416455" name="Warden's Greater Silk-hide Camail of Stalwart Glory"/>
+<item id="1879416505" name="Warden's Greater Silk-hide Cuirass of Stalwart Glory"/>
+<item id="1879416564" name="Warden's Greater Silk-hide Gloves of Stalwart Glory"/>
+<item id="1879416594" name="Warden's Greater Silk-hide Leggings of Stalwart Glory"/>
+<item id="1879416521" name="Warden's Greater Silk-hide Boots of Stalwart Glory"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Warden_Neversurrender_Mitigation" operator="SET" constant="5.0"/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416474" name="Greater Armour of Grim Determination&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416809" name="Champion's Artisan Greater Silk-steel Breastplate of Grim Determination"/>
+<item id="1879416574" name="Champion's Greater Silk-steel Helm of Grim Determination"/>
+<item id="1879416633" name="Champion's Greater Silk-steel Pauldrons of Grim Determination"/>
+<item id="1879416611" name="Champion's Greater Silk-steel Breastplate of Grim Determination"/>
+<item id="1879416629" name="Champion's Greater Silk-steel Gauntlets of Grim Determination"/>
+<item id="1879416504" name="Champion's Greater Silk-steel Greaves of Grim Determination"/>
+<item id="1879416620" name="Champion's Greater Silk-steel Boots of Grim Determination"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211532"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="BLOCK_PERCENTAGE" constant="2.0"/>
+<stat name="PARRY_PERCENTAGE" constant="1.0"/>
+</bonus>
+<bonus nbItems="4">
+<specialEffect label="Sudden Defense reduces incoming damage by 10%."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416481" name="Greater Battle-gear of Brutal Retribution&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416796" name="Beorning's Artisan Greater Silk-steel Breastplate of Brutal Retribution"/>
+<item id="1879416468" name="Beorning's Greater Silk-steel Helm of Brutal Retribution"/>
+<item id="1879416479" name="Beorning's Greater Silk-steel Pauldrons of Brutal Retribution"/>
+<item id="1879416638" name="Beorning's Greater Silk-steel Breastplate of Brutal Retribution"/>
+<item id="1879416613" name="Beorning's Greater Silk-steel Gauntlets of Brutal Retribution"/>
+<item id="1879416596" name="Beorning's Greater Silk-steel Greaves of Brutal Retribution"/>
+<item id="1879416462" name="Beorning's Greater Silk-steel Boots of Brutal Retribution"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211532"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
+</bonus>
+<bonus nbItems="4"/>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416492" name="Greater Trappings of Timeless Favour&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416807" name="Minstrel's Artisan Greater Silk-weave Robe of Timeless Favour"/>
+<item id="1879416450" name="Minstrel's Greater Silk-weave Face-guard of Timeless Favour"/>
+<item id="1879416434" name="Minstrel's Greater Silk-weave Mantle of Timeless Favour"/>
+<item id="1879416497" name="Minstrel's Greater Silk-weave Robe of Timeless Favour"/>
+<item id="1879416458" name="Minstrel's Greater Silk-weave Arm-guards of Timeless Favour"/>
+<item id="1879416586" name="Minstrel's Greater Silk-weave Leggings of Timeless Favour"/>
+<item id="1879416565" name="Minstrel's Greater Silk-weave Boots of Timeless Favour"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211578"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="10.0"/>
+</bonus>
+<bonus nbItems="4">
+<specialEffect label="Timeless Echoes of Battle now heals the Minstrel for its duration."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416498" name="Greater Regalia of Searing Winds&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416797" name="Lore-master's Artisan Greater Silk-weave Robe of Searing Winds"/>
+<item id="1879416467" name="Lore-master's Greater Silk-weave Face-guard of Searing Winds"/>
+<item id="1879416487" name="Lore-master's Greater Silk-weave Mantle of Searing Winds"/>
+<item id="1879416438" name="Lore-master's Greater Silk-weave Robe of Searing Winds"/>
+<item id="1879416555" name="Lore-master's Greater Silk-weave Arm-guards of Searing Winds"/>
+<item id="1879416509" name="Lore-master's Greater Silk-weave Leggings of Searing Winds"/>
+<item id="1879416571" name="Lore-master's Greater Silk-weave Boots of Searing Winds"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211578"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="10.0"/>
+</bonus>
+<bonus nbItems="4">
+<specialEffect label="Gust of Wind will refresh Searing Embers."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416502" name="Greater Raiments of Sudden Thunder&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416806" name="Rune-keeper's Artisan Greater Silk-weave Robe of Sudden Thunder"/>
+<item id="1879416491" name="Rune-keeper's Greater Silk-weave Face-guard of Sudden Thunder"/>
+<item id="1879416485" name="Rune-keeper's Greater Silk-weave Mantle of Sudden Thunder"/>
+<item id="1879416550" name="Rune-keeper's Greater Silk-weave Robe of Sudden Thunder"/>
+<item id="1879416551" name="Rune-keeper's Greater Silk-weave Arm-guards of Sudden Thunder"/>
+<item id="1879416524" name="Rune-keeper's Greater Silk-weave Leggings of Sudden Thunder"/>
+<item id="1879416590" name="Rune-keeper's Greater Silk-weave Boots of Sudden Thunder"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211578"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="10.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Itemset_Runekeeper_StaticSurge_Proc_Chance" descriptionOverride="+{***} Static Surge Proc Chance" constant="10.0"/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416507" name="Greater Battle-dress of Gifted Trickery&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416808" name="Burglar's Artisan Greater Silk-hide Cuirass of Gifted Trickery"/>
+<item id="1879416609" name="Burglar's Greater Silk-hide Helm of Gifted Trickery"/>
+<item id="1879416476" name="Burglar's Greater Silk-hide Camail of Gifted Trickery"/>
+<item id="1879416569" name="Burglar's Greater Silk-hide Cuirass of Gifted Trickery"/>
+<item id="1879416443" name="Burglar's Greater Silk-hide Gloves of Gifted Trickery"/>
+<item id="1879416547" name="Burglar's Greater Silk-hide Leggings of Gifted Trickery"/>
+<item id="1879416457" name="Burglar's Greater Silk-hide Boots of Gifted Trickery"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Trait_Burglar_Trickster_Cooldown" operator="SUBSTRACT" descriptionOverride="-" constant="15.0"/>
+<specialEffect label="Reduce Cooldown of Trickster by -15s."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416513" name="Greater Armour of Unassailable Valour&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416818" name="Captain's Artisan Greater Silk-steel Breastplate of Unassailable Valour"/>
+<item id="1879416478" name="Captain's Greater Silk-steel Helm of Unassailable Valour"/>
+<item id="1879416585" name="Captain's Greater Silk-steel Pauldrons of Unassailable Valour"/>
+<item id="1879416515" name="Captain's Greater Silk-steel Breastplate of Unassailable Valour"/>
+<item id="1879416582" name="Captain's Greater Silk-steel Gauntlets of Unassailable Valour"/>
+<item id="1879416558" name="Captain's Greater Silk-steel Greaves of Unassailable Valour"/>
+<item id="1879416614" name="Captain's Greater Silk-steel Boots of Unassailable Valour"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211532"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_VitalReturn_Captain_ValiantStrike" descriptionOverride="-" constant="20.0"/>
+<specialEffect label="Increase Valiant Strike healing by 20%."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416514" name="Greater Battle-gear of Deadly Claws&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416821" name="Beorning's Artisan Greater Silk-steel Breastplate of Deadly Claws"/>
+<item id="1879416539" name="Beorning's Greater Silk-steel Helm of Deadly Claws"/>
+<item id="1879416459" name="Beorning's Greater Silk-steel Pauldrons of Deadly Claws"/>
+<item id="1879416444" name="Beorning's Greater Silk-steel Breastplate of Deadly Claws"/>
+<item id="1879416508" name="Beorning's Greater Silk-steel Gauntlets of Deadly Claws"/>
+<item id="1879416576" name="Beorning's Greater Silk-steel Greaves of Deadly Claws"/>
+<item id="1879416534" name="Beorning's Greater Silk-steel Boots of Deadly Claws"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211532"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
+</bonus>
+<bonus nbItems="4"/>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416516" name="Greater Armour of Deadly Perception&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416820" name="Warden's Artisan Greater Silk-hide Cuirass of Deadly Perception"/>
+<item id="1879416453" name="Warden's Greater Silk-hide Helm of Deadly Perception"/>
+<item id="1879416584" name="Warden's Greater Silk-hide Camail of Deadly Perception"/>
+<item id="1879416541" name="Warden's Greater Silk-hide Cuirass of Deadly Perception"/>
+<item id="1879416598" name="Warden's Greater Silk-hide Gloves of Deadly Perception"/>
+<item id="1879416559" name="Warden's Greater Silk-hide Leggings of Deadly Perception"/>
+<item id="1879416480" name="Warden's Greater Silk-hide Boots of Deadly Perception"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="ATTACK_DURATION_PERCENTAGE" constant="-10.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="10.0"/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416532" name="Greater Hunter's Garb of Swift Retreat&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416815" name="Hunter's Artisan Greater Silk-hide Cuirass of Swift Retreat"/>
+<item id="1879416607" name="Hunter's Greater Silk-hide Helm of Swift Retreat"/>
+<item id="1879416451" name="Hunter's Greater Silk-hide Camail of Swift Retreat"/>
+<item id="1879416461" name="Hunter's Greater Silk-hide Cuirass of Swift Retreat"/>
+<item id="1879416432" name="Hunter's Greater Silk-hide Gloves of Swift Retreat"/>
+<item id="1879416486" name="Hunter's Greater Silk-hide Leggings of Swift Retreat"/>
+<item id="1879416523" name="Hunter's Greater Silk-hide Boots of Swift Retreat"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="ATTACK_DURATION_PERCENTAGE" constant="-10.0"/>
+</bonus>
+<bonus nbItems="4">
+<specialEffect label="Press Onward applies a 25% combat run speed buff for 10s."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416537" name="Greater Raiments of Eternal Exaltation&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416802" name="Rune-keeper's Artisan Greater Silk-weave Robe of Eternal Exaltation"/>
+<item id="1879416527" name="Rune-keeper's Greater Silk-weave Face-guard of Eternal Exaltation"/>
+<item id="1879416445" name="Rune-keeper's Greater Silk-weave Mantle of Eternal Exaltation"/>
+<item id="1879416626" name="Rune-keeper's Greater Silk-weave Robe of Eternal Exaltation"/>
+<item id="1879416469" name="Rune-keeper's Greater Silk-weave Arm-guards of Eternal Exaltation"/>
+<item id="1879416554" name="Rune-keeper's Greater Silk-weave Leggings of Eternal Exaltation"/>
+<item id="1879416618" name="Rune-keeper's Greater Silk-weave Boots of Eternal Exaltation"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211578"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Runekeeper_EssayExaltation_BubbleMod" constant="20.0"/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416542" name="Greater Armour of the Endless Duel&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416817" name="Champion's Artisan Greater Silk-steel Breastplate of the Endless Duel"/>
+<item id="1879416477" name="Champion's Greater Silk-steel Helm of the Endless Duel"/>
+<item id="1879416454" name="Champion's Greater Silk-steel Pauldrons of the Endless Duel"/>
+<item id="1879416583" name="Champion's Greater Silk-steel Breastplate of the Endless Duel"/>
+<item id="1879416570" name="Champion's Greater Silk-steel Gauntlets of the Endless Duel"/>
+<item id="1879416431" name="Champion's Greater Silk-steel Greaves of the Endless Duel"/>
+<item id="1879416536" name="Champion's Greater Silk-steel Boots of the Endless Duel"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211532"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
+</bonus>
+<bonus nbItems="4">
+<specialEffect label="Strike skills have a 10% chance to reset the cooldown of Champion's Duel."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416552" name="Greater Trappings of Unmatched Prowess&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416811" name="Minstrel's Artisan Greater Silk-weave Robe of Unmatched Prowess"/>
+<item id="1879416525" name="Minstrel's Greater Silk-weave Face-guard of Unmatched Prowess"/>
+<item id="1879416506" name="Minstrel's Greater Silk-weave Mantle of Unmatched Prowess"/>
+<item id="1879416635" name="Minstrel's Greater Silk-weave Robe of Unmatched Prowess"/>
+<item id="1879416528" name="Minstrel's Greater Silk-weave Arm-guards of Unmatched Prowess"/>
+<item id="1879416529" name="Minstrel's Greater Silk-weave Leggings of Unmatched Prowess"/>
+<item id="1879416621" name="Minstrel's Greater Silk-weave Boots of Unmatched Prowess"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211578"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="ALL_SKILL_INDUCTION" constant="-10.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Itemset_Minstrel_AnthemOfProwess_AttackDuration" descriptionOverride="-" constant="5.0"/>
+<specialEffect label="Anthem of Prowess increases attack speed by an additional 5%."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416556" name="Greater Regalia of Ancient Thunder&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416793" name="Lore-master's Artisan Greater Silk-weave Robe of Ancient Lightning"/>
+<item id="1879416538" name="Lore-master's Greater Silk-weave Face-guard of Ancient Lightning"/>
+<item id="1879416625" name="Lore-master's Greater Silk-weave Mantle of Ancient Lightning"/>
+<item id="1879416511" name="Lore-master's Greater Silk-weave Robe of Ancient Lightning"/>
+<item id="1879416495" name="Lore-master's Greater Silk-weave Arm-guards of Ancient Lightning"/>
+<item id="1879416437" name="Lore-master's Greater Silk-weave Leggings of Ancient Lightning"/>
+<item id="1879416631" name="Lore-master's Greater Silk-weave Boots of Ancient Lightning"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211578"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="ALL_SKILL_INDUCTION" constant="-10.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Itemset_Loremaster_WaterLore_IncHealingMod" constant="3.0"/>
+<specialEffect label="Water-lore's Incoming Healing buff is increased by 3%."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416561" name="Greater Raiments of Volcanic Upheaval&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416810" name="Rune-keeper's Artisan Greater Silk-weave Robe of Volcanic Upheaval"/>
+<item id="1879416630" name="Rune-keeper's Greater Silk-weave Face-guard of Volcanic Upheaval"/>
+<item id="1879416549" name="Rune-keeper's Greater Silk-weave Mantle of Volcanic Upheaval"/>
+<item id="1879416488" name="Rune-keeper's Greater Silk-weave Robe of Volcanic Upheaval"/>
+<item id="1879416612" name="Rune-keeper's Greater Silk-weave Arm-guards of Volcanic Upheaval"/>
+<item id="1879416581" name="Rune-keeper's Greater Silk-weave Leggings of Volcanic Upheaval"/>
+<item id="1879416531" name="Rune-keeper's Greater Silk-weave Boots of Volcanic Upheaval"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211578"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="10.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" descriptionOverride="-" constant="10.0"/>
+<specialEffect label="+10% Smouldering Wrath Damage"/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416563" name="Greater Hunter's Garb of Vicious Thorns&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416805" name="Hunter's Artisan Greater Silk-hide Cuirass of Vicious Thorns"/>
+<item id="1879416482" name="Hunter's Greater Silk-hide Helm of Vicious Thorns"/>
+<item id="1879416494" name="Hunter's Greater Silk-hide Camail of Vicious Thorns"/>
+<item id="1879416587" name="Hunter's Greater Silk-hide Cuirass of Vicious Thorns"/>
+<item id="1879416562" name="Hunter's Greater Silk-hide Gloves of Vicious Thorns"/>
+<item id="1879416567" name="Hunter's Greater Silk-hide Leggings of Vicious Thorns"/>
+<item id="1879416599" name="Hunter's Greater Silk-hide Boots of Vicious Thorns"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="ALL_SKILL_INDUCTION" constant="-10.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Hunter_RainofThorns_Cooldown" descriptionOverride="-" constant="-15.0"/>
+<specialEffect label="Rain of Thorns cooldown reduced by 15s."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416566" name="Greater Battle-dress of the Keen Eye&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416803" name="Burglar's Artisan Greater Silk-hide Cuirass of the Keen Eye"/>
+<item id="1879416465" name="Burglar's Greater Silk-hide Helm of the Keen Eye"/>
+<item id="1879416544" name="Burglar's Greater Silk-hide Camail of the Keen Eye"/>
+<item id="1879416628" name="Burglar's Greater Silk-hide Cuirass of the Keen Eye"/>
+<item id="1879416593" name="Burglar's Greater Silk-hide Gloves of the Keen Eye"/>
+<item id="1879416484" name="Burglar's Greater Silk-hide Leggings of the Keen Eye"/>
+<item id="1879416603" name="Burglar's Greater Silk-hide Boots of the Keen Eye"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Burglar_Itemset_Aim_Cooldown" descriptionOverride="-" constant="-3.0"/>
+<specialEffect label="Reduces Aim cooldown by -3s."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416572" name="Greater Armour of Deafening Valour&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416794" name="Captain's Artisan Greater Silk-steel Breastplate of Deafening Valour"/>
+<item id="1879416575" name="Captain's Greater Silk-steel Helm of Deafening Valour"/>
+<item id="1879416475" name="Captain's Greater Silk-steel Pauldrons of Deafening Valour"/>
+<item id="1879416442" name="Captain's Greater Silk-steel Breastplate of Deafening Valour"/>
+<item id="1879416601" name="Captain's Greater Silk-steel Gauntlets of Deafening Valour"/>
+<item id="1879416533" name="Captain's Greater Silk-steel Greaves of Deafening Valour"/>
+<item id="1879416627" name="Captain's Greater Silk-steel Boots of Deafening Valour"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211532"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Itemset_Captain_Battleshout_CD" operator="SUBSTRACT" constant="5.0"/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416573" name="Greater Armour of Adroit Manoeuvre&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416795" name="Warden's Artisan Greater Silk-hide Cuirass of Adroit Manoeuvre"/>
+<item id="1879416600" name="Warden's Greater Silk-hide Helm of Adroit Manoeuvre"/>
+<item id="1879416436" name="Warden's Greater Silk-hide Camail of Adroit Manoeuvre"/>
+<item id="1879416472" name="Warden's Greater Silk-hide Cuirass of Adroit Manoeuvre"/>
+<item id="1879416540" name="Warden's Greater Silk-hide Gloves of Adroit Manoeuvre"/>
+<item id="1879416500" name="Warden's Greater Silk-hide Leggings of Adroit Manoeuvre"/>
+<item id="1879416616" name="Warden's Greater Silk-hide Boots of Adroit Manoeuvre"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Warden_Mastery_RecoveryTime" operator="SUBSTRACT" descriptionOverride="-5 Cooldown on all Mastery skills." constant="5.0"/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416589" name="Greater Regalia of the Beast Unshackled&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416812" name="Lore-master's Artisan Greater Silk-weave Robe of the Beast Unshackled"/>
+<item id="1879416446" name="Lore-master's Greater Silk-weave Face-guard of the Beast Unshackled"/>
+<item id="1879416456" name="Lore-master's Greater Silk-weave Mantle of the Beast Unshackled"/>
+<item id="1879416470" name="Lore-master's Greater Silk-weave Robe of the Beast Unshackled"/>
+<item id="1879416449" name="Lore-master's Greater Silk-weave Arm-guards of the Beast Unshackled"/>
+<item id="1879416526" name="Lore-master's Greater Silk-weave Leggings of the Beast Unshackled"/>
+<item id="1879416553" name="Lore-master's Greater Silk-weave Boots of the Beast Unshackled"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211578"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Itemset_Loremaster_CatmintCooldown" operator="SUBSTRACT" descriptionOverride="-" constant="30.0"/>
+<specialEffect label="Catmint Cooldown Decreased by -30s."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416604" name="Greater Armour of Scything Blades&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416813" name="Champion's Artisan Greater Silk-steel Breastplate of Scything Blades"/>
+<item id="1879416545" name="Champion's Greater Silk-steel Helm of Scything Blades"/>
+<item id="1879416602" name="Champion's Greater Silk-steel Pauldrons of Scything Blades"/>
+<item id="1879416435" name="Champion's Greater Silk-steel Breastplate of Scything Blades"/>
+<item id="1879416512" name="Champion's Greater Silk-steel Gauntlets of Scything Blades"/>
+<item id="1879416578" name="Champion's Greater Silk-steel Greaves of Scything Blades"/>
+<item id="1879416595" name="Champion's Greater Silk-steel Boots of Scything Blades"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211532"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="ATTACK_DURATION_PERCENTAGE" constant="-10.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Champion_RecoveryTime_GreatCleave" operator="SUBSTRACT" descriptionOverride="-" constant="30.0"/>
+<specialEffect label="Great Cleave cooldown reduced by 30s."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416610" name="Greater Armour of Unmatched Bloodlust&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416819" name="Guardian's Artisan Greater Silk-steel Breastplate of Unmatched Bloodlust"/>
+<item id="1879416430" name="Guardian's Greater Silk-steel Helm of Unmatched Bloodlust"/>
+<item id="1879416522" name="Guardian's Greater Silk-steel Pauldrons of Unmatched Bloodlust"/>
+<item id="1879416510" name="Guardian's Greater Silk-steel Breastplate of Unmatched Bloodlust"/>
+<item id="1879416499" name="Guardian's Greater Silk-steel Gauntlets of Unmatched Bloodlust"/>
+<item id="1879416608" name="Guardian's Greater Silk-steel Greaves of Unmatched Bloodlust"/>
+<item id="1879416460" name="Guardian's Greater Silk-steel Boots of Unmatched Bloodlust"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211532"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="ItemSet_Guardian_EffectMod_Bleed" constant="10.0"/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416619" name="Greater Hunter's Garb of Heart's End&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416800" name="Hunter's Artisan Greater Silk-hide Cuirass of Heart's End"/>
+<item id="1879416546" name="Hunter's Greater Silk-hide Helm of Heart's End"/>
+<item id="1879416632" name="Hunter's Greater Silk-hide Camail of Heart's End"/>
+<item id="1879416440" name="Hunter's Greater Silk-hide Cuirass of Heart's End"/>
+<item id="1879416617" name="Hunter's Greater Silk-hide Gloves of Heart's End"/>
+<item id="1879416624" name="Hunter's Greater Silk-hide Leggings of Heart's End"/>
+<item id="1879416448" name="Hunter's Greater Silk-hide Boots of Heart's End"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="10.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_RecoveryTime_HeartSeeker" operator="SUBSTRACT" descriptionOverride="-" constant="15.0"/>
+<specialEffect label="Heartseeker cooldown reduced by 15s."/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416623" name="Greater Battle-dress of Deceptive Fortune&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416799" name="Burglar's Artisan Greater Silk-hide Cuirass of Deceptive Fortune"/>
+<item id="1879416483" name="Burglar's Greater Silk-hide Helm of Deceptive Fortune"/>
+<item id="1879416557" name="Burglar's Greater Silk-hide Camail of Deceptive Fortune"/>
+<item id="1879416490" name="Burglar's Greater Silk-hide Cuirass of Deceptive Fortune"/>
+<item id="1879416535" name="Burglar's Greater Silk-hide Gloves of Deceptive Fortune"/>
+<item id="1879416580" name="Burglar's Greater Silk-hide Leggings of Deceptive Fortune"/>
+<item id="1879416543" name="Burglar's Greater Silk-hide Boots of Deceptive Fortune"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="ATTACK_DURATION_PERCENTAGE" constant="-10.0"/>
+</bonus>
+<bonus nbItems="4"/>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416634" name="Greater Armour of Heroic Challenge&#10;(Max Level: 134)" level="440" description="">
+<item id="1879416798" name="Captain's Artisan Greater Silk-steel Breastplate of Heroic Challenge"/>
+<item id="1879416519" name="Captain's Greater Silk-steel Helm of Heroic Challenge"/>
+<item id="1879416615" name="Captain's Greater Silk-steel Pauldrons of Heroic Challenge"/>
+<item id="1879416588" name="Captain's Greater Silk-steel Breastplate of Heroic Challenge"/>
+<item id="1879416452" name="Captain's Greater Silk-steel Gauntlets of Heroic Challenge"/>
+<item id="1879416592" name="Captain's Greater Silk-steel Greaves of Heroic Challenge"/>
+<item id="1879416489" name="Captain's Greater Silk-steel Boots of Heroic Challenge"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211532"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_RecoveryTime_LastStand" operator="SUBSTRACT" constant="75.0"/>
+<specialEffect label="-25% Last Stand Cooldown"/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879416749" name="Garb of the Moonlit Wildwood" level="45" description="">
+<item id="1879416756" name="Medium Cloak of the Wildwood"/>
+<item id="1879416747" name="Wildwood Leggings"/>
+<item id="1879416750" name="Wildwood Boots"/>
+<bonus nbItems="2">
+<stat name="ICMR" scaling="1879212454"/>
+<stat name="ICPR" scaling="1879212129"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="MORALE" scaling="1879211565"/>
+<stat name="POWER" scaling="1879211587"/>
+</bonus>
+</set>
+<set id="1879416751" name="Garb of the Wildwood Sunrise" level="45" description="">
+<item id="1879416757" name="Heavy Cloak of the Wildwood"/>
+<item id="1879416746" name="Wildwood Greaves"/>
+<item id="1879416755" name="Wildwood Sabatons"/>
+<bonus nbItems="2">
+<stat name="ICMR" scaling="1879212454"/>
+<stat name="ICPR" scaling="1879212129"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="MORALE" scaling="1879211565"/>
+<stat name="POWER" scaling="1879211587"/>
+</bonus>
+</set>
+<set id="1879416752" name="Garb of the Wildwood Dawn" level="45" description="">
+<item id="1879416753" name="Light Cloak of the Wildwood"/>
+<item id="1879416748" name="Wildwood Trousers"/>
+<item id="1879416754" name="Wildwood Shoes"/>
+<bonus nbItems="2">
+<stat name="ICMR" scaling="1879212454"/>
+<stat name="ICPR" scaling="1879212129"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="MORALE" scaling="1879211565"/>
+<stat name="POWER" scaling="1879211587"/>
+</bonus>
 </set>
 </sets>
