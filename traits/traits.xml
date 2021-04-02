@@ -4290,10 +4290,10 @@
 </trait>
 <trait identifier="1879270659" name="Area Targeting" iconId="1091830175" minLevel="1" tiers="1" tierProperty="trait_class_warden_rank_42" description="Marked Target and Diminished Target will affect up to 4 additional targets."/>
 <trait identifier="1879270660" name="Bulls-eye" iconId="1091830149" minLevel="1" tiers="6" tierProperty="trait_class_warden_rank_37" description="Increases your Critical rating, and grants 1% Ranged Critical damage per rank.&#10;&#10;At max rank, gain a significant Critical Damage bonus.">
-<stat name="CRITICAL_MELEE_PERCENTAGE" scaling="1879300535"/>
+<stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="+{***} Critical Chance" scaling="1879300535"/>
 <stat name="Skill_Warden_JavelinCriticalDamage" scaling="1879270948"/>
-<stat name="Skill_CritChanceMod_RangedSkills" descriptionOverride="-" scaling="1879300536"/>
-<stat name="Skill_CritChanceMod_TacticalSkills" descriptionOverride="-" scaling="1879300531"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" scaling="1879300536"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" scaling="1879300531"/>
 </trait>
 <trait identifier="1879270661" name="Suppression" iconId="1091830159" minLevel="1" tiers="3" tierProperty="trait_class_warden_rank_46" description="Increases the outgoing damage debuff in the Ranged Offensive Strike Gambit line.">
 <stat name="Skill_Warden_Suppression" scaling="1879270950"/>
