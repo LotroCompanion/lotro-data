@@ -2102,7 +2102,7 @@
 <item id="1879141549" name="Pauldrons of the Hidden Dagger"/>
 <item id="1879141553" name="Hood of the Hidden Dagger"/>
 <bonus nbItems="4">
-<stat name="Burglar_Tricks_Duration" descriptionOverride="+{***}s Trick Duration" constant="5.0"/>
+<stat name="Burglar_Tricks_Duration" descriptionOverride="+${VALUE}s Trick Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879143894" name="Arms of the Battle-captain" level="60" description="">
@@ -2168,7 +2168,7 @@
 <item id="1879141559" name="Pauldrons of the Learned Master"/>
 <item id="1879141537" name="Hat of the Learned Master"/>
 <bonus nbItems="4">
-<stat name="IA_Loremaster_TestofWill_Damage" descriptionOverride="+{***} Test of Will Damage" scaling="1879133818"/>
+<stat name="IA_Loremaster_TestofWill_Damage" descriptionOverride="+${VALUE} Test of Will Damage" scaling="1879133818"/>
 </bonus>
 </set>
 <set id="1879143901" name="Arms of the Hawk-eye" level="60" description="">
@@ -3518,7 +3518,7 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Hunter_SwiftBow_FocusGeneration" constant="1.0"/>
+<stat name="Hunter_SwiftBow_FocusGeneration" descriptionOverride="+${VALUE} ${PROPERTY}" constant="1.0"/>
 </bonus>
 </set>
 <set id="1879201256" name="Defender of the West" level="65" description="">
@@ -3718,7 +3718,7 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Itemset_Application_Hunter_LowCut_Cleanse" descriptionOverride="Low Cut has a {***} chance to remove slows and roots and provide 5s immunity." constant="50.0"/>
+<stat name="Itemset_Application_Hunter_LowCut_Cleanse" descriptionOverride="Low Cut has a ${PERCENTVALUE} chance to remove slows and roots and provide 5s immunity." constant="50.0"/>
 </bonus>
 </set>
 <set id="1879203015" name="Lesser Feldskyn Armour" level="65" description="">
@@ -3831,7 +3831,7 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Burglar_Tricks_Duration" descriptionOverride="+{***}s Trick Duration" constant="5.0"/>
+<stat name="Burglar_Tricks_Duration" descriptionOverride="+${VALUE}s Trick Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879203970" name="Lesser Voice of the West" level="65" description="">
@@ -3873,7 +3873,7 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_RecoveryTime_BloodArrow" constant="-4.0"/>
+<stat name="Skill_RecoveryTime_BloodArrow" descriptionOverride="${VALUE}s ${PROPERTY}" constant="-4.0"/>
 </bonus>
 </set>
 <set id="1879203973" name="Lesser Blade of the West" level="65" description="">
@@ -4175,7 +4175,7 @@
 <stat name="WILL" scaling="1879211576"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Runekeeper_SustainingBolt_Duration" constant="15.0"/>
+<stat name="Runekeeper_SustainingBolt_Duration" descriptionOverride="+${VALUE}s ${PROPERTY}" constant="15.0"/>
 <stat name="EffectMod_ModType_RevivePowerMultModifier" constant="50.0"/>
 </bonus>
 </set>
@@ -4204,7 +4204,7 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_DamageMultiplier_Offhand_Trait_Ambidextrous" descriptionOverride="+{***} Off-hand Damage" constant="10.0"/>
+<stat name="Skill_DamageMultiplier_Offhand_Trait_Ambidextrous" descriptionOverride="+${PERCENTVALUE} Off-hand Damage" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879206430" name="Lesser Phalanx of the West" level="65" description="">
@@ -4264,7 +4264,7 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Itemset_Application_Hunter_LowCut_Cleanse" descriptionOverride="Low Cut has a {***} chance to remove slows and roots and provide 5s immunity." constant="50.0"/>
+<stat name="Itemset_Application_Hunter_LowCut_Cleanse" descriptionOverride="Low Cut has a ${PERCENTVALUE} chance to remove slows and roots and provide 5s immunity." constant="50.0"/>
 </bonus>
 </set>
 <set id="1879214806" name="Feldskyn Armour" level="65" description="">
@@ -4377,7 +4377,7 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Burglar_Tricks_Duration" descriptionOverride="+{***}s Trick Duration" constant="5.0"/>
+<stat name="Burglar_Tricks_Duration" descriptionOverride="+${VALUE}s Trick Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879215043" name="Warrior Sage" level="60" description="">
@@ -4472,7 +4472,7 @@
 <stat name="WILL" scaling="1879211576"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Loremaster_SeeAllEnds_AttackerCriticalHitChance" descriptionOverride="Sign of Power: See All Ends - +{***} Incoming Critical Chance" constant="5.0"/>
+<stat name="Skill_Loremaster_SeeAllEnds_AttackerCriticalHitChance" descriptionOverride="Sign of Power: See All Ends - +${PERCENTVALUE} Incoming Critical Chance" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879218875" name="Dirge-singer's Raiments" level="75" description="">
@@ -5003,7 +5003,7 @@
 <item id="1879224369" name="Leggings of the Healing Hands"/>
 <item id="1879224368" name="Sabatons of the Healing Hands"/>
 <bonus nbItems="4">
-<stat name="Skill_VitalReturn_Captain_ValiantStrike" descriptionOverride="+{***} Valiant Strike Healing" constant="20.0"/>
+<stat name="Skill_VitalReturn_Captain_ValiantStrike" descriptionOverride="+${PERCENTVALUE} Valiant Strike Healing" constant="20.0"/>
 </bonus>
 </set>
 <set id="1879226955" name="Armour of the Charge" level="84" description="">
@@ -5201,7 +5201,7 @@
 <item id="1879225505" name="Trousers of the Benediction"/>
 <item id="1879225504" name="Shoes of the Benediction"/>
 <bonus nbItems="4">
-<stat name="Item_Runekeeper_ImprovedWritofHealth" descriptionOverride="Writ of Health has a {***} chance to apply an armour bonus." constant="25.0"/>
+<stat name="Item_Runekeeper_ImprovedWritofHealth" descriptionOverride="Writ of Health has a ${PERCENTVALUE} chance to apply an armour bonus." constant="25.0"/>
 </bonus>
 </set>
 <set id="1879227129" name="Armour of Cleansing Fire" level="84" description="">
@@ -5234,7 +5234,7 @@
 <item id="1879225573" name="Trousers of the Spear-way"/>
 <item id="1879225575" name="Boots of the Spear-way"/>
 <bonus nbItems="4">
-<stat name="Skill_DamageMultiplier_Bleed_MightyBlow" descriptionOverride="+{***} Power Attack, Mighty Blow and Unerring Strike bleed damage" constant="25.0"/>
+<stat name="Skill_DamageMultiplier_Bleed_MightyBlow" descriptionOverride="+${PERCENTVALUE} Power Attack, Mighty Blow and Unerring Strike bleed damage" constant="25.0"/>
 </bonus>
 </set>
 <set id="1879227132" name="Armour of the Fist-way" level="84" description="">
@@ -5312,7 +5312,7 @@
 <item id="1879224373" name="Leggings of the Menestaid"/>
 <item id="1879224372" name="Sabatons of the Menestaid"/>
 <bonus nbItems="2">
-<stat name="Skill_VitalReturn_Captain_ValiantStrike" descriptionOverride="+{***} Valiant Strike Healing" constant="20.0"/>
+<stat name="Skill_VitalReturn_Captain_ValiantStrike" descriptionOverride="+${PERCENTVALUE} Valiant Strike Healing" constant="20.0"/>
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="Words of Courage applies an Incoming Healing buff (stacks up to three times)."/>
@@ -5566,7 +5566,7 @@
 <item id="1879225523" name="Trousers of the Eglerin"/>
 <item id="1879225522" name="Shoes of the Eglerin"/>
 <bonus nbItems="2">
-<stat name="Item_Runekeeper_ImprovedWritofHealth" descriptionOverride="Writ of Health has a {***} chance to apply an armour bonus." constant="25.0"/>
+<stat name="Item_Runekeeper_ImprovedWritofHealth" descriptionOverride="Writ of Health has a ${PERCENTVALUE} chance to apply an armour bonus." constant="25.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_HealingMultiplier_Item" descriptionOverride="+10% Healing Output" constant="10.0"/>
@@ -5580,7 +5580,7 @@
 <item id="1879225574" name="Trousers of the Aithlen"/>
 <item id="1879225576" name="Boots of the Aithlen"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMultiplier_Bleed_MightyBlow" descriptionOverride="+{***} Power Attack, Mighty Blow, and Unerring Strike bleed damage" constant="25.0"/>
+<stat name="Skill_DamageMultiplier_Bleed_MightyBlow" descriptionOverride="+${PERCENTVALUE} Power Attack, Mighty Blow, and Unerring Strike bleed damage" constant="25.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Itemset_Warden_AdroitM_Finesse" descriptionOverride="Adroit Manoeuvre adds a Finesse buff to the Warden." constant="1000.0"/>
@@ -5937,7 +5937,7 @@
 <stat name="CRITICAL_DEFENCE" scaling="1879211642"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Item_Minstrel_ImprovedFellowshipHeart" descriptionOverride="+{***} Improved Fellowship's Heart heal over time" constant="15.000001"/>
+<stat name="Item_Minstrel_ImprovedFellowshipHeart" descriptionOverride="+${PERCENTVALUE} Improved Fellowship's Heart heal over time" constant="15.000001"/>
 </bonus>
 </set>
 <set id="1879229489" name="Thunder-struck Raiment - 75" level="88" description="">
@@ -6543,7 +6543,7 @@
 <item id="1879247222" name="Leggings of the Hytbold Peace-caller"/>
 <item id="1879247218" name="Boots of the Hytbold Peace-caller"/>
 <bonus nbItems="2">
-<stat name="Item_Runekeeper_ImprovedWritofHealth" descriptionOverride="Writ of Health has a {***} chance to apply an armour bonus." constant="25.0"/>
+<stat name="Item_Runekeeper_ImprovedWritofHealth" descriptionOverride="Writ of Health has a ${PERCENTVALUE} chance to apply an armour bonus." constant="25.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_HealingMultiplier_Item" constant="10.0"/>
@@ -6571,10 +6571,10 @@
 <item id="1879247562" name="Leggings of the Hytbold Song-protector"/>
 <item id="1879247556" name="Boots of the Hytbold Song-protector"/>
 <bonus nbItems="2">
-<stat name="BALLAD_AND_CODA_DAMAGE_PERCENTAGE" descriptionOverride="+{***} Ballad and Coda Damage" constant="5.0"/>
+<stat name="BALLAD_AND_CODA_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ballad and Coda Damage" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Minstrel_Duration_Tier3Ballads" descriptionOverride="+{***}s duration to all Anthems" constant="5.0"/>
+<stat name="Skill_Minstrel_Duration_Tier3Ballads" descriptionOverride="+${VALUE}s duration to all Anthems" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879247599" name="Armour of the Hytbold Charge" level="97" description="">
@@ -6602,7 +6602,7 @@
 <stat name="Skill_Hunter_Skill_InductionDuration_BowInductions" operator="SUBSTRACT" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_RecoveryTime_BloodArrow" operator="SUBSTRACT" descriptionOverride="-{***}s Blood Arrow Cooldown" constant="4.0"/>
+<stat name="Skill_RecoveryTime_BloodArrow" operator="SUBSTRACT" descriptionOverride="-${VALUE}s Blood Arrow Cooldown" constant="4.0"/>
 </bonus>
 </set>
 <set id="1879247601" name="Armour of the Hytbold Shield" level="97" description="">
@@ -6653,7 +6653,7 @@
 <item id="1879247220" name="Leggings of the Hytbold Cleanser"/>
 <item id="1879247216" name="Boots of the Hytbold Cleanser"/>
 <bonus nbItems="2">
-<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" descriptionOverride="+{***} Smouldering Wrath Damage" constant="10.0"/>
+<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" descriptionOverride="+${PERCENTVALUE} Smouldering Wrath Damage" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="Fiery Ridicule reduces recovery time of Essay of Fire by 3 seconds."/>
@@ -6684,7 +6684,7 @@
 <stat name="Skill_Hunter_CriticalDamageMultiplier_Trait_DPSSet" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_RecoveryTime_Item_Swiftbow" operator="SUBSTRACT" descriptionOverride="-{***}s Swift Bow Cooldown" constant="3.0"/>
+<stat name="Skill_RecoveryTime_Item_Swiftbow" operator="SUBSTRACT" descriptionOverride="-${VALUE}s Swift Bow Cooldown" constant="3.0"/>
 </bonus>
 </set>
 <set id="1879247607" name="Armour of the Hytbold Fist" level="97" description="">
@@ -6695,10 +6695,10 @@
 <item id="1879247093" name="Leggings of the Hytbold Fist"/>
 <item id="1879247074" name="Boots of the Hytbold Fist"/>
 <bonus nbItems="2">
-<stat name="Trait_PulseCount_Warden_Dot" operator="SET" descriptionOverride="+{***} Warden Damage Over Time Pulses" constant="1.0"/>
+<stat name="Trait_PulseCount_Warden_Dot" operator="SET" descriptionOverride="+${VALUE} Warden Damage Over Time Pulses" constant="1.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+{***} Ranged Skill Damage" constant="10.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ranged Skill Damage" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879247608" name="Armour of the Hytbold Spear" level="97" description="">
@@ -6755,7 +6755,7 @@
 <specialEffect label="Light of the Rising Dawn reduces the Active Cooldown of Lightning-storm by 12s."/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Loremaster_DurationMod_BaneFlare" descriptionOverride="+{***}s Bane Flare Duration" constant="5.0"/>
+<stat name="Skill_Loremaster_DurationMod_BaneFlare" descriptionOverride="+${VALUE}s Bane Flare Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879247612" name="Armour of the Hytbold Shadow-fighter" level="97" description="">
@@ -6769,8 +6769,8 @@
 <stat name="Trait_Guardian_DamageMultiplier_ShieldSkills" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="EffectMod_MoraleBonus_Guardian_WarriorsHeart" descriptionOverride="+{***} Warrior's Fortitude Morale Heal" constant="200.0"/>
-<stat name="Skill_Guardian_WarriorHeart_MaxMorale" descriptionOverride="+{***} Warrior's Fortitude Maximum Morale" constant="100.0"/>
+<stat name="EffectMod_MoraleBonus_Guardian_WarriorsHeart" descriptionOverride="+${PERCENTVALUE} Warrior's Fortitude Morale Heal" constant="200.0"/>
+<stat name="Skill_Guardian_WarriorHeart_MaxMorale" descriptionOverride="+${PERCENTVALUE} Warrior's Fortitude Maximum Morale" constant="100.0"/>
 </bonus>
 </set>
 <set id="1879247613" name="Hytbold Armour of the Animal-friend" level="97" description="">
@@ -6841,7 +6841,7 @@
 </bonus>
 <bonus nbItems="3"/>
 <bonus nbItems="4">
-<stat name="Itemset_Cooldown_Champion_ExaltedCombatant" operator="SUBSTRACT" descriptionOverride="-{***}s Cooldown of Exalted Combatant effect" constant="30.0"/>
+<stat name="Itemset_Cooldown_Champion_ExaltedCombatant" operator="SUBSTRACT" descriptionOverride="-${VALUE}s Cooldown of Exalted Combatant effect" constant="30.0"/>
 </bonus>
 </set>
 <set id="1879247618" name="Armour of the Hytbold Healer" level="97" description="">
@@ -6871,7 +6871,7 @@
 <specialEffect label="-5s Piercing Cry Cooldown"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Minstrel_DamageMultiplier_ValarWizards" descriptionOverride="+{***} Cry of the Valar and Wizards Damage" constant="10.0"/>
+<stat name="Skill_Minstrel_DamageMultiplier_ValarWizards" descriptionOverride="+${PERCENTVALUE} Cry of the Valar and Wizards Damage" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879247620" name="Armour of the Hytbold Trapper" level="97" description="">
@@ -6882,7 +6882,7 @@
 <item id="1879247086" name="Leggings of the Hytbold Trapper"/>
 <item id="1879247068" name="Boots of the Hytbold Trapper"/>
 <bonus nbItems="2">
-<stat name="Itemset_Hunter_RecoveryTime_BardsArrow" operator="SUBSTRACT" descriptionOverride="-{***}s Bard's Arrow Cooldown" constant="5.0"/>
+<stat name="Itemset_Hunter_RecoveryTime_BardsArrow" operator="SUBSTRACT" descriptionOverride="-${VALUE}s Bard's Arrow Cooldown" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Hunter_RainofThorns_PipMinMod" descriptionOverride="Focus Cost of Rain of Thorns reduced to 0." constant="-6.0"/>
@@ -7011,7 +7011,7 @@
 <stat name="WILL" scaling="1879211576"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Item_Runekeeper_ImprovedWritofHealth" descriptionOverride="Writ of Health gives a bonus to armour value {***} of the time." constant="25.0"/>
+<stat name="Item_Runekeeper_ImprovedWritofHealth" descriptionOverride="Writ of Health gives a bonus to armour value ${PERCENTVALUE} of the time." constant="25.0"/>
 </bonus>
 </set>
 <set id="1879259148" name="Armour of the Deathstorm" level="97" description="">
@@ -7066,7 +7066,7 @@
 <item id="1879264009" name="Leggings of the Erebor Fist"/>
 <item id="1879264064" name="Boots of the Erebor Fist"/>
 <bonus nbItems="2">
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+{***} Ranged Damage" constant="5.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ranged Damage" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879265400" name="Greater Erebor Champion's Armour" level="97" description="">
@@ -7091,7 +7091,7 @@
 <item id="1879264370" name="Greater Leggings of the Erebor Watcher"/>
 <item id="1879264426" name="Greater Boots of the Erebor Watcher"/>
 <bonus nbItems="2">
-<stat name="Itemset_Minstrel_CriticalChance_Healing" descriptionOverride="+{***} Healing Skill Critical Hit Chance" constant="5.0"/>
+<stat name="Itemset_Minstrel_CriticalChance_Healing" descriptionOverride="+${PERCENTVALUE} Healing Skill Critical Hit Chance" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="Chance for Bolster Courage to apply an Area-Effect Heal over Time."/>
@@ -7105,7 +7105,7 @@
 <item id="1879264356" name="Greater Leggings of the Erebor Peace-caller"/>
 <item id="1879264348" name="Greater Boots of the Erebor Peace-caller"/>
 <bonus nbItems="2">
-<stat name="Trait_Minstrel_Healing_CriticalMod" descriptionOverride="+{***} Critical Chance of Writ of Health" constant="5.0"/>
+<stat name="Trait_Minstrel_Healing_CriticalMod" descriptionOverride="+${PERCENTVALUE} Critical Chance of Writ of Health" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_HealingMultiplier_Item" descriptionOverride="+10% Healing Output" constant="10.0"/>
@@ -7139,7 +7139,7 @@
 <item id="1879264438" name="Greater Ancient Erebor Leggings"/>
 <item id="1879264388" name="Greater Ancient Erebor Boots"/>
 <bonus nbItems="2">
-<stat name="Skill_Duration_LoreMaster_BlindingFlash" descriptionOverride="+{***}s Blinding Flash duration" constant="5.0"/>
+<stat name="Skill_Duration_LoreMaster_BlindingFlash" descriptionOverride="+${VALUE}s Blinding Flash duration" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="Sign of Power: See All Ends also applies a Critical Defence debuff to the target."/>
@@ -7167,7 +7167,7 @@
 <specialEffect label="Improved Sting has a chance to apply a Physical Mastery buff."/>
 </bonus>
 <bonus nbItems="4">
-<stat name="EffectMod_Duration_Guardian_Pledge" descriptionOverride="+{***} Guardian's Pledge Duration" constant="5.0"/>
+<stat name="EffectMod_Duration_Guardian_Pledge" descriptionOverride="+${VALUE} Guardian's Pledge Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879265408" name="Armour of the Erebor Spear" level="97" description="">
@@ -7200,7 +7200,7 @@
 <item id="1879264065" name="Leggings of the Erebor Song-protector"/>
 <item id="1879263959" name="Boots of the Erebor Song-protector"/>
 <bonus nbItems="2">
-<stat name="IA_Minstrel_InspireFellows_Heal" descriptionOverride="+{***} Inspire Fellows Healing" constant="5.0"/>
+<stat name="IA_Minstrel_InspireFellows_Heal" descriptionOverride="+${PERCENTVALUE} Inspire Fellows Healing" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879265411" name="Erebor Champion's Armour" level="97" description="">
@@ -7222,7 +7222,7 @@
 <item id="1879264069" name="Leggings of the Erebor Skald"/>
 <item id="1879263955" name="Boots of the Erebor Skald"/>
 <bonus nbItems="2">
-<stat name="IA_Minstrel_CalltoOrome_Damage" descriptionOverride="+{***} Call of Oromë Damage" constant="10.0"/>
+<stat name="IA_Minstrel_CalltoOrome_Damage" descriptionOverride="+${PERCENTVALUE} Call of Oromë Damage" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879265413" name="Greater Armour of the Erebor Gambler" level="97" description="">
@@ -7247,7 +7247,7 @@
 <item id="1879264093" name="Leggings of the Erebor Thunder-caller"/>
 <item id="1879264054" name="Boots of the Erebor Thunder-caller"/>
 <bonus nbItems="2">
-<stat name="IA_Runekeeper_ThunderStruck_Chance" descriptionOverride="+{***} chance to apply Thunderous Words and Harsh Debate" constant="5.0"/>
+<stat name="IA_Runekeeper_ThunderStruck_Chance" descriptionOverride="+${PERCENTVALUE} chance to apply Thunderous Words and Harsh Debate" constant="5.0"/>
 <stat name="IA_Runekeeper_Shaken_Chance" constant="10.0"/>
 <stat name="Skill_Attunement_Runekeeper_Lightning_Stun_StunRate" descriptionOverride="-" constant="5.0"/>
 </bonus>
@@ -7260,7 +7260,7 @@
 <item id="1879263945" name="Leggings of the Erebor Healer"/>
 <item id="1879264052" name="Boots of the Erebor Healer"/>
 <bonus nbItems="2">
-<stat name="Skill_VitalCost_Heals" descriptionOverride="{***} Healing Skills Power Cost" constant="-10.0"/>
+<stat name="Skill_VitalCost_Heals" descriptionOverride="${PERCENTVALUE} Healing Skills Power Cost" constant="-10.0"/>
 </bonus>
 </set>
 <set id="1879265416" name="Armour of the Erebor Charge" level="97" description="">
@@ -7282,7 +7282,7 @@
 <item id="1879264443" name="Greater Leggings of the Erebor Healer"/>
 <item id="1879264492" name="Greater Boots of the Erebor Healer"/>
 <bonus nbItems="2">
-<stat name="Skill_VitalCost_Heals" descriptionOverride="{***} Healing Skills Power Cost" constant="-10.0"/>
+<stat name="Skill_VitalCost_Heals" descriptionOverride="${PERCENTVALUE} Healing Skills Power Cost" constant="-10.0"/>
 </bonus>
 <bonus nbItems="4"/>
 </set>
@@ -7294,7 +7294,7 @@
 <item id="1879263943" name="Leggings of the Erebor Peace-caller"/>
 <item id="1879264048" name="Boots of the Erebor Peace-caller"/>
 <bonus nbItems="2">
-<stat name="Trait_Minstrel_Healing_CriticalMod" descriptionOverride="+{***} Critical Chance of Writ of Health" constant="5.0"/>
+<stat name="Trait_Minstrel_Healing_CriticalMod" descriptionOverride="+${PERCENTVALUE} Critical Chance of Writ of Health" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879265419" name="Armour of the Erebor Cleanser" level="97" description="">
@@ -7305,7 +7305,7 @@
 <item id="1879263948" name="Leggings of the Erebor Cleanser"/>
 <item id="1879264045" name="Boots of the Erebor Cleanser"/>
 <bonus nbItems="2">
-<stat name="Itemset_Runekeeper_WrathofFire_PulseCount" descriptionOverride="+{***} pulses to Wrath of Fire" constant="2.0"/>
+<stat name="Itemset_Runekeeper_WrathofFire_PulseCount" descriptionOverride="+${VALUE} pulses to Wrath of Fire" constant="2.0"/>
 </bonus>
 </set>
 <set id="1879265420" name="Armour of the Erebor Gambler" level="97" description="">
@@ -7364,7 +7364,7 @@
 <item id="1879264086" name="Leggings of the Erebor Watcher"/>
 <item id="1879264088" name="Boots of the Erebor Watcher"/>
 <bonus nbItems="2">
-<stat name="Itemset_Minstrel_CriticalChance_Healing" descriptionOverride="+{***} Healing Skill Critical Hit Chance" constant="5.0"/>
+<stat name="Itemset_Minstrel_CriticalChance_Healing" descriptionOverride="+${PERCENTVALUE} Healing Skill Critical Hit Chance" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879265425" name="Greater Armour of Erebor's Fury" level="97" description="">
@@ -7405,7 +7405,7 @@
 <item id="1879263971" name="Leggings of the Erebor Knife"/>
 <item id="1879263984" name="Boots of the Erebor Knife"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMultiplier_Offhand_Trait_Ambidextrous" descriptionOverride="+{***} Off-hand Damage" constant="10.0"/>
+<stat name="Skill_DamageMultiplier_Offhand_Trait_Ambidextrous" descriptionOverride="+${PERCENTVALUE} Off-hand Damage" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879265428" name="Greater Armour of the Erebor Spear" level="97" description="">
@@ -7443,7 +7443,7 @@
 <item id="1879264407" name="Greater Leggings of the Erebor Thunder-caller"/>
 <item id="1879264367" name="Greater Boots of the Erebor Thunder-caller"/>
 <bonus nbItems="2">
-<stat name="IA_Runekeeper_ThunderStruck_Chance" descriptionOverride="+{***} chance to apply Thunderous Words and Harsh Debate" constant="10.0"/>
+<stat name="IA_Runekeeper_ThunderStruck_Chance" descriptionOverride="+${PERCENTVALUE} chance to apply Thunderous Words and Harsh Debate" constant="10.0"/>
 <stat name="IA_Runekeeper_Shaken_Chance" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
@@ -7458,7 +7458,7 @@
 <item id="1879264410" name="Greater Leggings of the Erebor Shadow-fighter"/>
 <item id="1879264445" name="Greater Boots of the Erebor Shadow-fighter"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_Guardian_GuardiansPledge" descriptionOverride="{***}s Guardian's Pledge cooldown" constant="-15.0"/>
+<stat name="Skill_RecoveryTime_Guardian_GuardiansPledge" descriptionOverride="${VALUE}s Guardian's Pledge cooldown" constant="-15.0"/>
 </bonus>
 <bonus nbItems="4"/>
 </set>
@@ -7484,7 +7484,7 @@
 <item id="1879264477" name="Greater Leggings of the Erebor Skald"/>
 <item id="1879264479" name="Greater Boots of the Erebor Skald"/>
 <bonus nbItems="2">
-<stat name="IA_Minstrel_CalltoOrome_Damage" descriptionOverride="+{***} Call of Oromë Damage" constant="10.0"/>
+<stat name="IA_Minstrel_CalltoOrome_Damage" descriptionOverride="+${PERCENTVALUE} Call of Oromë Damage" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Itemset_Minstrel_CriticalChance_CryCall" descriptionOverride="+25% Critical Magnitude for Cries and Calls" constant="25.0"/>
@@ -7538,7 +7538,7 @@
 <stat name="Itemset_Application_Loremaster_LightningStorm_Daze" descriptionOverride="Lightning-storm: 20% chance to Daze each target for 5s" constant="20.0"/>
 </bonus>
 </set>
-<set id="1879265438" name="Greater Armour of the Erebor Knife " level="97" description="">
+<set id="1879265438" name="Greater Armour of the Erebor Knife" level="97" description="">
 <item id="1879264423" name="Greater Helm of the Erebor Knife"/>
 <item id="1879264418" name="Greater Shoulderpads of the Erebor Knife"/>
 <item id="1879264365" name="Greater Jacket of the Erebor Knife"/>
@@ -7546,7 +7546,7 @@
 <item id="1879264475" name="Greater Leggings of the Erebor Knife"/>
 <item id="1879264342" name="Greater Boots of the Erebor Knife"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMultiplier_Offhand_Trait_Ambidextrous" descriptionOverride="+{***} Off-hand Damage" constant="10.0"/>
+<stat name="Skill_DamageMultiplier_Offhand_Trait_Ambidextrous" descriptionOverride="+${PERCENTVALUE} Off-hand Damage" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="On Crit: Chance to apply a temporary Critical Rating buff to your Fellowship"/>
@@ -7560,7 +7560,7 @@
 <item id="1879264095" name="Ancient Erebor Leggings"/>
 <item id="1879264059" name="Ancient Erebor Boots"/>
 <bonus nbItems="2">
-<stat name="Skill_Duration_LoreMaster_BlindingFlash" descriptionOverride="+{***}s Blinding Flash duration" constant="5.0"/>
+<stat name="Skill_Duration_LoreMaster_BlindingFlash" descriptionOverride="+${VALUE}s Blinding Flash duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879265440" name="Greater Armour of the Erebor Bowmaster" level="97" description="">
@@ -7585,7 +7585,7 @@
 <item id="1879264384" name="Greater Leggings of the Erebor Song-protector"/>
 <item id="1879264403" name="Greater Boots of the Erebor Song-protector"/>
 <bonus nbItems="2">
-<stat name="IA_Minstrel_InspireFellows_Heal" descriptionOverride="+{***} Inspire Fellows Healing" constant="5.0"/>
+<stat name="IA_Minstrel_InspireFellows_Heal" descriptionOverride="+${PERCENTVALUE} Inspire Fellows Healing" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="Chance for Call to Greatness to re-apply its effects after expiration."/>
@@ -7599,7 +7599,7 @@
 <item id="1879264433" name="Greater Leggings of the Erebor Cleanser"/>
 <item id="1879264442" name="Greater Boots of the Erebor Cleanser"/>
 <bonus nbItems="2">
-<stat name="Itemset_Runekeeper_WrathofFire_PulseCount" descriptionOverride="+{***} pulses to Wrath of Fire" constant="2.0"/>
+<stat name="Itemset_Runekeeper_WrathofFire_PulseCount" descriptionOverride="+${VALUE} pulses to Wrath of Fire" constant="2.0"/>
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="Fire skills have a chance to refresh the duration of your Writ of Fire effect."/>
@@ -7660,7 +7660,7 @@
 <item id="1879264470" name="Greater Leggings of the Erebor Fist"/>
 <item id="1879264355" name="Greater Boots of the Erebor Fist"/>
 <bonus nbItems="2">
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+{***} Ranged Damage" constant="5.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ranged Damage" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Duration_HamperingJavelin" descriptionOverride="+10s Hampering Javelin duration" constant="10.0"/>
@@ -7685,7 +7685,7 @@
 <item id="1879264039" name="Leggings of the Erebor Shadow-fighter"/>
 <item id="1879264001" name="Boots of the Erebor Shadow-fighter"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_Guardian_GuardiansPledge" descriptionOverride="{***}s Guardian's Pledge cooldown" constant="-15.0"/>
+<stat name="Skill_RecoveryTime_Guardian_GuardiansPledge" descriptionOverride="${VALUE}s Guardian's Pledge cooldown" constant="-15.0"/>
 </bonus>
 </set>
 <set id="1879265450" name="Greater Erebor Mischief-maker's Armour" level="97" description="">
@@ -7741,7 +7741,7 @@
 <item id="1879298731" name="Third Lore-master's Earring of Deeping Coomb"/>
 <item id="1879300302" name="Third Exquisite Lore-master's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879300491" name="First Captain's Jewellery of Deeping Coomb" level="50" description="">
@@ -7750,7 +7750,7 @@
 <item id="1879294715" name="First Captain's Earring of Deeping Coomb"/>
 <item id="1879299931" name="First Exquisite Captain's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300492" name="Third Warden's Jewellery of Deeping Coomb" level="50" description="">
@@ -7885,7 +7885,7 @@
 <item id="1879297772" name="Third Guardian's Earring of Deeping Coomb"/>
 <item id="1879300258" name="Third Exquisite Guardian's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300507" name="Second Burglar's Jewellery of Deeping Coomb" level="50" description="">
@@ -7957,7 +7957,7 @@
 <item id="1879294600" name="Third Captain's Earring of Deeping Coomb"/>
 <item id="1879300221" name="Third Exquisite Captain's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300515" name="Fourth Burglar's Jewellery of Deeping Coomb" level="50" description="">
@@ -8089,7 +8089,7 @@
 <item id="1879298569" name="Third Lore-master's Necklace of Helm's Dike"/>
 <item id="1879298729" name="Third Lore-master's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879300585" name="Fourteenth Champion's Jewellery of Glittering Caves" level="136" description="">
@@ -8127,7 +8127,7 @@
 <item id="1879297823" name="Eleventh Guardian's Necklace of Glittering Caves"/>
 <item id="1879297948" name="Eleventh Guardian's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300590" name="Thirteenth Minstrel's Jewellery of Deeping Coomb" level="65" description="">
@@ -8172,7 +8172,7 @@
 <item id="1879294820" name="Seventh Captain's Necklace of Deeping Wall"/>
 <item id="1879294755" name="Seventh Captain's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300596" name="Fifteenth Minstrel's Jewellery of Helm's Dike" level="25" description="">
@@ -8186,7 +8186,7 @@
 <item id="1879298337" name="Third Lore-master's Necklace of Glittering Caves"/>
 <item id="1879298958" name="Third Lore-master's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879300598" name="Twelfth Lore-master's Jewellery of Deeping Wall" level="40" description="">
@@ -8208,7 +8208,7 @@
 <item id="1879297859" name="Seventh Guardian's Necklace of Helm's Dike"/>
 <item id="1879297931" name="Seventh Guardian's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300601" name="First Champion's Jewellery of Glittering Caves" level="70" description="">
@@ -8259,7 +8259,7 @@
 <item id="1879295125" name="Ninth Captain's Necklace of Helm's Dike"/>
 <item id="1879294976" name="Ninth Captain's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300608" name="Third Warden's Jewellery of Glittering Caves" level="70" description="">
@@ -8447,14 +8447,14 @@
 <item id="1879292333" name="Fifteenth Captain's Earring of Deeping Coomb"/>
 <item id="1879300232" name="Fifteenth Exquisite Captain's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300635" name="Third Lore-master's Jewellery of Deeping Wall" level="30" description="">
 <item id="1879298613" name="Third Lore-master's Necklace of Deeping Wall"/>
 <item id="1879298956" name="Third Lore-master's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879300636" name="Eleventh Warden's Jewellery of Deeping Wall" level="40" description="">
@@ -8480,7 +8480,7 @@
 <item id="1879293796" name="Third Captain's Necklace of Glittering Caves"/>
 <item id="1879293715" name="Third Captain's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300640" name="Fourteenth Captain's Jewellery of Deeping Wall" level="45" description="">
@@ -8569,7 +8569,7 @@
 <item id="1879297684" name="Seventh Guardian's Necklace of Deeping Wall"/>
 <item id="1879298057" name="Seventh Guardian's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300652" name="Thirteenth Rune-keeper's Jewellery of Helm's Dike" level="25" description="">
@@ -8677,7 +8677,7 @@
 <item id="1879294468" name="Fifth Captain's Earring of The Hornburg"/>
 <item id="1879299944" name="Fifth Exquisite Captain's Earring of The Hornburg"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300667" name="Eleventh Hunter's Jewellery of Deeping Wall" level="40" description="">
@@ -8799,7 +8799,7 @@
 <item id="1879298205" name="Seventh Guardian's Earring of Glittering Caves"/>
 <item id="1879300146" name="Seventh Exquisite Guardian's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300684" name="Sixth Guardian's Jewellery of The Hornburg" level="176" description="">
@@ -8850,7 +8850,7 @@
 <item id="1879292283" name="Seventh Captain's Earring of Glittering Caves"/>
 <item id="1879300288" name="Seventh Exquisite Captain's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300690" name="First Guardian's Jewellery of Deeping Wall" level="30" description="">
@@ -8864,7 +8864,7 @@
 <item id="1879293924" name="First Captain's Necklace of Glittering Caves"/>
 <item id="1879292869" name="First Captain's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300692" name="Twelfth Warden's Jewellery of Glittering Caves" level="89" description="">
@@ -9002,7 +9002,7 @@
 <item id="1879297884" name="Fifteenth Guardian's Necklace of Helm's Dike"/>
 <item id="1879298001" name="Fifteenth Guardian's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300712" name="First Minstrel's Jewellery of The Hornburg" level="156" description="">
@@ -9029,7 +9029,7 @@
 <item id="1879294443" name="Thirteenth Captain's Necklace of Deeping Wall"/>
 <item id="1879294360" name="Thirteenth Captain's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300716" name="Fifth Lore-master's Jewellery of Deeping Coomb" level="55" description="">
@@ -9059,7 +9059,7 @@
 <item id="1879294560" name="First Captain's Necklace of Helm's Dike"/>
 <item id="1879294609" name="First Captain's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300720" name="Fifth Champion's Jewellery of The Hornburg" level="176" description="">
@@ -9157,7 +9157,7 @@
 <item id="1879297717" name="Seventh Guardian's Earring of The Hornburg"/>
 <item id="1879299973" name="Seventh Exquisite Guardian's Earring of The Hornburg"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300734" name="Ninth Minstrel's Jewellery of Helm's Dike" level="20" description="">
@@ -9192,7 +9192,7 @@
 <item id="1879292487" name="Fifth Captain's Necklace of Deeping Coomb"/>
 <item id="1879292287" name="Fifth Captain's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300739" name="Twelfth Champion's Jewellery of Glittering Caves" level="89" description="">
@@ -9312,7 +9312,7 @@
 <item id="1879298143" name="Fifteenth Guardian's Earring of Deeping Coomb"/>
 <item id="1879300296" name="Fifteenth Exquisite Guardian's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300757" name="Fifth Minstrel's Jewellery of Glittering Caves" level="75" description="">
@@ -9360,7 +9360,7 @@
 <item id="1879298065" name="Fifteenth Guardian's Necklace of Deeping Wall"/>
 <item id="1879298115" name="Fifteenth Guardian's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300764" name="Fifteenth Lore-master's Jewellery of Deeping Coomb" level="65" description="">
@@ -9369,7 +9369,7 @@
 <item id="1879298751" name="Fifteenth Lore-master's Earring of Deeping Coomb"/>
 <item id="1879299919" name="Fifteenth Exquisite Lore-master's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879300765" name="Sixteenth Warden's Jewellery of Deeping Coomb" level="65" description="">
@@ -9445,7 +9445,7 @@
 <item id="1879295004" name="Third Captain's Necklace of Helm's Dike"/>
 <item id="1879295137" name="Third Captain's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300775" name="Seventh Rune-keeper's Jewellery of Glittering Caves" level="75" description="">
@@ -9537,7 +9537,7 @@
 <item id="1879294518" name="Eleventh Captain's Necklace of Deeping Wall"/>
 <item id="1879294989" name="Eleventh Captain's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300787" name="Twelfth Champion's Jewellery of Helm's Dike" level="20" description="">
@@ -9665,7 +9665,7 @@
 <item id="1879298840" name="Fifteenth Lore-master's Necklace of Helm's Dike"/>
 <item id="1879298749" name="Fifteenth Lore-master's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879300805" name="Second Lore-master's Jewellery of Glittering Caves" level="70" description="">
@@ -9731,7 +9731,7 @@
 <item id="1879293604" name="Ninth Captain's Earring of Deeping Coomb"/>
 <item id="1879300365" name="Ninth Exquisite Captain's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300814" name="Fifteenth Lore-master's Jewellery of Glittering Caves" level="136" description="">
@@ -9740,7 +9740,7 @@
 <item id="1879298983" name="Fifteenth Lore-master's Earring of Glittering Caves"/>
 <item id="1879300224" name="Fifteenth Exquisite Lore-master's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879300815" name="Sixteenth Warden's Jewellery of Glittering Caves" level="136" description="">
@@ -9900,7 +9900,7 @@
 <item id="1879294946" name="Seventh Captain's Necklace of Helm's Dike"/>
 <item id="1879294202" name="Seventh Captain's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300837" name="Sixth Champion's Jewellery of Deeping Coomb" level="55" description="">
@@ -9935,7 +9935,7 @@
 <item id="1879295145" name="Fifth Captain's Necklace of Deeping Wall"/>
 <item id="1879295275" name="Fifth Captain's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300842" name="First Guardian's Jewellery of The Hornburg" level="156" description="">
@@ -9963,7 +9963,7 @@
 <item id="1879294456" name="Fifteenth Captain's Necklace of Deeping Wall"/>
 <item id="1879295340" name="Fifteenth Captain's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300846" name="Eleventh Lore-master's Jewellery of Deeping Coomb" level="60" description="">
@@ -9972,7 +9972,7 @@
 <item id="1879299039" name="Eleventh Lore-master's Earring of Deeping Coomb"/>
 <item id="1879299883" name="Eleventh Exquisite Lore-master's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879300847" name="Fourth Lore-master's Jewellery of Deeping Wall" level="30" description="">
@@ -10062,7 +10062,7 @@
 <item id="1879298900" name="Fifteenth Lore-master's Necklace of Deeping Wall"/>
 <item id="1879298979" name="Fifteenth Lore-master's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879300859" name="First Minstrel's Jewellery of Helm's Dike" level="10" description="">
@@ -10106,7 +10106,7 @@
 <item id="1879295339" name="First Captain's Necklace of The Hornburg"/>
 <item id="1879294970" name="First Captain's Earring of The Hornburg"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300865" name="Fourteenth Burglar's Jewellery of Helm's Dike" level="25" description="">
@@ -10277,7 +10277,7 @@
 <item id="1879298589" name="Eleventh Lore-master's Necklace of Helm's Dike"/>
 <item id="1879299034" name="Eleventh Lore-master's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879300888" name="Sixteenth Minstrel's Jewellery of Deeping Coomb" level="65" description="">
@@ -10315,7 +10315,7 @@
 <item id="1879294826" name="Eleventh Captain's Necklace of Glittering Caves"/>
 <item id="1879294451" name="Eleventh Captain's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300893" name="First Lore-master's Jewellery of Glittering Caves" level="70" description="">
@@ -10369,7 +10369,7 @@
 <item id="1879298355" name="Eleventh Lore-master's Necklace of Glittering Caves"/>
 <item id="1879298437" name="Eleventh Lore-master's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879300900" name="Sixteenth Lore-master's Jewellery of Glittering Caves" level="136" description="">
@@ -10466,7 +10466,7 @@
 <item id="1879295254" name="Ninth Captain's Necklace of Deeping Wall"/>
 <item id="1879294855" name="Ninth Captain's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300913" name="Tenth Captain's Jewellery of Glittering Caves" level="89" description="">
@@ -10487,7 +10487,7 @@
 <item id="1879298553" name="Seventh Lore-master's Earring of The Hornburg"/>
 <item id="1879299902" name="Seventh Exquisite Lore-master's Earring of The Hornburg"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879300916" name="Fifth Burglar's Jewellery of Deeping Wall" level="35" description="">
@@ -10589,7 +10589,7 @@
 <item id="1879294461" name="Thirteenth Captain's Earring of Glittering Caves"/>
 <item id="1879300219" name="Thirteenth Exquisite Captain's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300930" name="Tenth Warden's Jewellery of Glittering Caves" level="89" description="">
@@ -10611,7 +10611,7 @@
 <item id="1879298638" name="Eleventh Lore-master's Necklace of Deeping Wall"/>
 <item id="1879298435" name="Eleventh Lore-master's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879300933" name="Sixth Champion's Jewellery of The Hornburg" level="176" description="">
@@ -10707,7 +10707,7 @@
 <item id="1879294800" name="Fifteenth Captain's Earring of Glittering Caves"/>
 <item id="1879299984" name="Fifteenth Exquisite Captain's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300946" name="Tenth Captain's Jewellery of Helm's Dike" level="20" description="">
@@ -10835,7 +10835,7 @@
 <item id="1879294324" name="Thirteenth Captain's Necklace of Helm's Dike"/>
 <item id="1879294483" name="Thirteenth Captain's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300964" name="Fifth Lore-master's Jewellery of Helm's Dike" level="15" description="">
@@ -10928,14 +10928,14 @@
 <item id="1879294214" name="Third Captain's Necklace of The Hornburg"/>
 <item id="1879294784" name="Third Captain's Earring of The Hornburg"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300977" name="Third Guardian's Jewellery of Deeping Wall" level="30" description="">
 <item id="1879298084" name="Third Guardian's Necklace of Deeping Wall"/>
 <item id="1879297748" name="Third Guardian's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879300978" name="Second Rune-keeper's Jewellery of Glittering Caves" level="70" description="">
@@ -11176,7 +11176,7 @@
 <item id="1879298572" name="Seventh Lore-master's Necklace of Deeping Coomb"/>
 <item id="1879298464" name="Seventh Lore-master's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879301012" name="Eighth Burglar's Jewellery of Deeping Coomb" level="55" description="">
@@ -11195,7 +11195,7 @@
 <item id="1879297726" name="Third Guardian's Necklace of Glittering Caves"/>
 <item id="1879297885" name="Third Guardian's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301015" name="Ninth Hunter's Jewellery of Helm's Dike" level="20" description="">
@@ -11276,7 +11276,7 @@
 <item id="1879294625" name="Eleventh Captain's Necklace of Helm's Dike"/>
 <item id="1879294432" name="Eleventh Captain's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301026" name="Tenth Warden's Jewellery of Deeping Wall" level="40" description="">
@@ -11309,7 +11309,7 @@
 <item id="1879295128" name="Seventh Captain's Earring of The Hornburg"/>
 <item id="1879299917" name="Seventh Exquisite Captain's Earring of The Hornburg"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301030" name="Second Captain's Jewellery of Glittering Caves" level="70" description="">
@@ -11322,7 +11322,7 @@
 <item id="1879294655" name="First Captain's Necklace of Deeping Wall"/>
 <item id="1879294496" name="First Captain's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301032" name="Sixth Burglar's Jewellery of Deeping Wall" level="35" description="">
@@ -11442,7 +11442,7 @@
 <item id="1879298002" name="Eleventh Guardian's Necklace of Helm's Dike"/>
 <item id="1879297681" name="Eleventh Guardian's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301049" name="Tenth Rune-keeper's Jewellery of Helm's Dike" level="20" description="">
@@ -11500,7 +11500,7 @@
 <item id="1879298817" name="Seventh Lore-master's Necklace of Helm's Dike"/>
 <item id="1879298463" name="Seventh Lore-master's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879301058" name="Twelfth Guardian's Jewellery of Glittering Caves" level="89" description="">
@@ -11580,7 +11580,7 @@
 <item id="1879298698" name="Seventh Lore-master's Earring of Glittering Caves"/>
 <item id="1879300106" name="Seventh Exquisite Lore-master's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879301069" name="Fifth Burglar's Jewellery of Helm's Dike" level="15" description="">
@@ -11673,7 +11673,7 @@
 <item id="1879295026" name="Fifth Captain's Necklace of Helm's Dike"/>
 <item id="1879294121" name="Fifth Captain's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301082" name="Third Hunter's Jewellery of The Hornburg" level="156" description="">
@@ -11694,7 +11694,7 @@
 <item id="1879294581" name="Fifteenth Captain's Necklace of Helm's Dike"/>
 <item id="1879294789" name="Fifteenth Captain's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301085" name="Fourteenth Champion's Jewellery of Deeping Coomb" level="65" description="">
@@ -11725,7 +11725,7 @@
 <item id="1879294873" name="Third Captain's Necklace of Deeping Wall"/>
 <item id="1879294404" name="Third Captain's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301089" name="Eleventh Guardian's Jewellery of Deeping Coomb" level="60" description="">
@@ -11734,7 +11734,7 @@
 <item id="1879297834" name="Eleventh Guardian's Earring of Deeping Coomb"/>
 <item id="1879300311" name="Eleventh Exquisite Guardian's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301090" name="Sixth Guardian's Jewellery of Deeping Wall" level="35" description="">
@@ -11833,7 +11833,7 @@
 <item id="1879298870" name="Seventh Lore-master's Necklace of Deeping Wall"/>
 <item id="1879298695" name="Seventh Lore-master's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879301104" name="Fifth Burglar's Jewellery of Deeping Coomb" level="55" description="">
@@ -11990,7 +11990,7 @@
 <item id="1879293771" name="Eleventh Captain's Earring of Deeping Coomb"/>
 <item id="1879299926" name="Eleventh Exquisite Captain's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301126" name="Second Guardian's Jewellery of Helm's Dike" level="10" description="">
@@ -12003,7 +12003,7 @@
 <item id="1879297904" name="Third Guardian's Necklace of Helm's Dike"/>
 <item id="1879297618" name="Third Guardian's Earring of Helm's Dike"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301128" name="Eighth Captain's Jewellery of Helm's Dike" level="15" description="">
@@ -12096,7 +12096,7 @@
 <item id="1879298177" name="Eleventh Guardian's Necklace of Deeping Wall"/>
 <item id="1879297807" name="Eleventh Guardian's Earring of Deeping Wall"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301142" name="Tenth Hunter's Jewellery of Deeping Wall" level="40" description="">
@@ -12142,7 +12142,7 @@
 <item id="1879293906" name="Seventh Captain's Necklace of Deeping Coomb"/>
 <item id="1879293413" name="Seventh Captain's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301149" name="Eighth Captain's Jewellery of Deeping Coomb" level="55" description="">
@@ -12161,7 +12161,7 @@
 <item id="1879298199" name="Seventh Guardian's Necklace of Deeping Coomb"/>
 <item id="1879298077" name="Seventh Guardian's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301152" name="Sixth Lore-master's Jewellery of Deeping Coomb" level="55" description="">
@@ -12201,7 +12201,7 @@
 <item id="1879292859" name="Thirteenth Captain's Earring of Deeping Coomb"/>
 <item id="1879300270" name="Thirteenth Exquisite Captain's Earring of Deeping Coomb"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301157" name="Fifteenth Hunter's Jewellery of Deeping Coomb" level="65" description="">
@@ -12277,7 +12277,7 @@
 <item id="1879292089" name="Fifth Captain's Earring of Glittering Caves"/>
 <item id="1879300348" name="Fifth Exquisite Captain's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301166" name="Eighth Captain's Jewellery of Glittering Caves" level="75" description="">
@@ -12326,7 +12326,7 @@
 <item id="1879292848" name="Ninth Captain's Necklace of Glittering Caves"/>
 <item id="1879293433" name="Ninth Captain's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301172" name="Tenth Guardian's Jewellery of Glittering Caves" level="89" description="">
@@ -12386,7 +12386,7 @@
 <item id="1879298279" name="Fifteenth Guardian's Earring of Glittering Caves"/>
 <item id="1879300199" name="Fifteenth Exquisite Guardian's Earring of Glittering Caves"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301180" name="Thirteenth Hunter's Jewellery of Glittering Caves" level="136" description="">
@@ -12435,14 +12435,14 @@
 <item id="1879297881" name="Third Guardian's Necklace of The Hornburg"/>
 <item id="1879298103" name="Third Guardian's Earring of The Hornburg"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879301186" name="Third Lore-master's Jewellery of The Hornburg" level="156" description="">
 <item id="1879298659" name="Third Lore-master's Necklace of The Hornburg"/>
 <item id="1879298806" name="Third Lore-master's Earring of The Hornburg"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879301187" name="Second Warden's Jewellery of The Hornburg" level="156" description="">
@@ -13125,7 +13125,7 @@
 <item id="1879310974" name="Third Lore-master's Earring of Helm Hammerhand"/>
 <item id="1879311182" name="Third Exquisite Lore-master's Earring of Helm Hammerhand"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+{***} Share the Power power restore" constant="10.0"/>
+<stat name="Skill_Loremaster_SharethePower_Multiplier" descriptionOverride="+${PERCENTVALUE} Share the Power power restore" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879311037" name="Second Warden's Jewellery of Helm Hammerhand" level="-1" description="">
@@ -13143,7 +13143,7 @@
 <item id="1879311092" name="Third Captain's Earring of Helm Hammerhand"/>
 <item id="1879311048" name="Third Exquisite Captain's Earring of Helm Hammerhand"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+{***}s Shield of the Dúnedain duration" constant="5.0"/>
+<stat name="Skill_RecoveryTime_ShieldoftheDunedain" descriptionOverride="+${VALUE}s Shield of the Dúnedain duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879311054" name="First Captain's Jewellery of Helm Hammerhand" level="-1" description="">
@@ -13152,7 +13152,7 @@
 <item id="1879311162" name="First Captain's Earring of Helm Hammerhand"/>
 <item id="1879311173" name="First Exquisite Captain's Earring of Helm Hammerhand"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879311058" name="Second Lore-master's Jewellery of Helm Hammerhand" level="-1" description="">
@@ -13296,7 +13296,7 @@
 <item id="1879311136" name="Third Guardian's Earring of Helm Hammerhand"/>
 <item id="1879311080" name="Third Exquisite Guardian's Earring of Helm Hammerhand"/>
 <bonus nbItems="2">
-<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+{***}s Force Taunt Duration" constant="5.0"/>
+<stat name="Skill_Guardian_ForceTaunt_Duration" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879311140" name="Third Burglar's Jewellery of Helm Hammerhand" level="-1" description="">
@@ -13370,7 +13370,7 @@
 <item id="1879313341" name="Leggings of the Storied Mariner"/>
 <item id="1879313346" name="Boots of the Storied Mariner"/>
 <bonus nbItems="2">
-<stat name="Itemset_Minstrel_CriticalChance_Healing" descriptionOverride="+{***} Healing Skill Critical Hit Chance" constant="5.0"/>
+<stat name="Itemset_Minstrel_CriticalChance_Healing" descriptionOverride="+${PERCENTVALUE} Healing Skill Critical Hit Chance" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="IA_Minstrel_Ballads_Tier1_Damage" constant="10.0"/>
@@ -13384,7 +13384,7 @@
 <item id="1879313320" name="Leggings of the Seafarer"/>
 <item id="1879313325" name="Boots of the Seafarer"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMultiplier_Offhand_Trait_Ambidextrous" descriptionOverride="+{***} Off-hand Damage" constant="10.0"/>
+<stat name="Skill_DamageMultiplier_Offhand_Trait_Ambidextrous" descriptionOverride="+${PERCENTVALUE} Off-hand Damage" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="On Crit: Chance to apply a temporary Critical Rating buff to your Fellowship."/>
@@ -13440,7 +13440,7 @@
 <item id="1879313334" name="Leggings of the Archivist"/>
 <item id="1879313354" name="Boots of the Archivist"/>
 <bonus nbItems="2">
-<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" descriptionOverride="+{***} chance to apply Thunderous Words and Harsh Debate" constant="10.0"/>
+<stat name="Skill_Runekeeper_SmoulderingWrath_Damage" descriptionOverride="+${PERCENTVALUE} chance to apply Thunderous Words and Harsh Debate" constant="10.0"/>
 <stat name="IA_Runekeeper_Shaken_Chance" descriptionOverride="-" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
@@ -13455,7 +13455,7 @@
 <item id="1879313332" name="Leggings of the Coastal Bulwark"/>
 <item id="1879313355" name="Boots of the Coastal Bulwark"/>
 <bonus nbItems="2">
-<stat name="Skill_RecoveryTime_Guardian_GuardiansPledge" descriptionOverride="{***}s Guardian's Pledge cooldown" constant="-15.0"/>
+<stat name="Skill_RecoveryTime_Guardian_GuardiansPledge" descriptionOverride="${VALUE}s Guardian's Pledge cooldown" constant="-15.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="EffectMod_BleedDamage_Guardian" constant="10.0"/>
@@ -13943,10 +13943,10 @@
 <item id="1879317238" name="Leggings of Nature's Guard"/>
 <item id="1879317237" name="Boots of Nature's Guard"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMultiplier_Offhand_Trait_Ambidextrous" descriptionOverride="+{***} Off-hand Damage" constant="10.0"/>
+<stat name="Skill_DamageMultiplier_Offhand_Trait_Ambidextrous" descriptionOverride="+${PERCENTVALUE} Off-hand Damage" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_Wrath_Max" descriptionOverride="+{***} Max Wrath" constant="1500.0"/>
+<stat name="Skill_Beorning_ItemSet_Wrath_Max" descriptionOverride="+${VALUE} Max Wrath" constant="1500.0"/>
 </bonus>
 </set>
 <set id="1879319857" name="Armour of the Erebor Claw" level="97" description="">
@@ -14049,7 +14049,7 @@
 <stat name="FATE" scaling="1879211548"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Captain_CritHealing_Magnitude" descriptionOverride="+{***} Critical Healing Magnitude" constant="20.0"/>
+<stat name="Skill_Captain_CritHealing_Magnitude" descriptionOverride="+${PERCENTVALUE} Critical Healing Magnitude" constant="20.0"/>
 </bonus>
 </set>
 <set id="1879319874" name="Armour of the Echoing Roar" level="84" description="">
@@ -14060,7 +14060,7 @@
 <item id="1879319827" name="Shoulder Guards of the Echoing Roar"/>
 <item id="1879319838" name="Helm of the Echoing Roar"/>
 <bonus nbItems="4">
-<stat name="Skill_Captain_CritHealing_Magnitude" descriptionOverride="+{***} Critical Healing Magnitude" constant="20.0"/>
+<stat name="Skill_Captain_CritHealing_Magnitude" descriptionOverride="+${PERCENTVALUE} Critical Healing Magnitude" constant="20.0"/>
 </bonus>
 </set>
 <set id="1879319875" name="Greater Armour of the Tower Smasher" level="84" description="">
@@ -14074,7 +14074,7 @@
 <stat name="MIGHT" scaling="1879211577"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_CriticalDamageMultiplier_ChampionAll" descriptionOverride="+{***} Critical Damage" constant="20.0"/>
+<stat name="Skill_CriticalDamageMultiplier_ChampionAll" descriptionOverride="+${PERCENTVALUE} Critical Damage" constant="20.0"/>
 </bonus>
 </set>
 <set id="1879319876" name="Armour of the Tower Smasher" level="84" description="">
@@ -14085,7 +14085,7 @@
 <item id="1879319852" name="Shoulder Guards of the Tower Smasher"/>
 <item id="1879319845" name="Helm of the Tower Smasher"/>
 <bonus nbItems="4">
-<stat name="Skill_CriticalDamageMultiplier_ChampionAll" descriptionOverride="+{***} Critical Damage" constant="20.0"/>
+<stat name="Skill_CriticalDamageMultiplier_ChampionAll" descriptionOverride="+${PERCENTVALUE} Critical Damage" constant="20.0"/>
 </bonus>
 </set>
 <set id="1879319877" name="Greater Armour of the Tower Guard" level="84" description="">
@@ -14340,7 +14340,7 @@
 <item id="1879323357" name="Leggings of the Osgiliath Fist"/>
 <item id="1879323398" name="Boots of the Osgiliath Fist"/>
 <bonus nbItems="2">
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+{***} Ranged Damage" constant="10.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ranged Damage" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Warden_Marked_Target" operator="SUBSTRACT" descriptionOverride="Marked Target and Diminished Target remove an additional 2% Mitigations." constant="2.0"/>
@@ -14355,7 +14355,7 @@
 <item id="1879323368" name="Leggings of the Osgiliath Watcher"/>
 <item id="1879323370" name="Shoes of the Osgiliath Watcher"/>
 <bonus nbItems="2">
-<stat name="Item_Minstrel_ImprovedFellowshipHeart" descriptionOverride="+{***} Improved Fellowship's Heart heal over time" constant="15.000001"/>
+<stat name="Item_Minstrel_ImprovedFellowshipHeart" descriptionOverride="+${PERCENTVALUE} Improved Fellowship's Heart heal over time" constant="15.000001"/>
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="Chance for Bolster Courage to apply an Area-Effect Heal over Time"/>
@@ -14413,7 +14413,7 @@
 <specialEffect label="Riddle is applied to two targets."/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Burglar_Tricks_Duration" descriptionOverride="+{***}s Trick Duration" constant="5.0"/>
+<stat name="Burglar_Tricks_Duration" descriptionOverride="+${VALUE}s Trick Duration" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879324428" name="Armour of the Osgiliath Trapper" level="198" description="">
@@ -14428,7 +14428,7 @@
 <stat name="Skill_Hunter_RainofThorns_PipCostMod" descriptionOverride="-" constant="6.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Hunter_RecoveryTime_Trait_TrapRecovery" operator="SUBSTRACT" descriptionOverride="-{***} Seconds off all Trap Skill Cooldowns" constant="10.0"/>
+<stat name="Skill_Hunter_RecoveryTime_Trait_TrapRecovery" operator="SUBSTRACT" descriptionOverride="-${VALUE} Seconds off all Trap Skill Cooldowns" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879324429" name="Armour of the Osgiliath Storm" level="198" description="">
@@ -14486,7 +14486,7 @@
 <stat name="Itemset_Bonus_Hunter_Fleetness_PipCost" descriptionOverride="-" constant="1.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_RecoveryTime_BloodArrow" operator="SUBSTRACT" descriptionOverride="-{***}s Blood Arrow Cooldown" constant="4.0"/>
+<stat name="Skill_RecoveryTime_BloodArrow" operator="SUBSTRACT" descriptionOverride="-${VALUE}s Blood Arrow Cooldown" constant="4.0"/>
 </bonus>
 </set>
 <set id="1879324433" name="Osgiliath Armour of the Animal-friend" level="198" description="">
@@ -14526,7 +14526,7 @@
 <item id="1879323428" name="Leggings of the Osgiliath Knife"/>
 <item id="1879323330" name="Boots of the Osgiliath Knife"/>
 <bonus nbItems="2">
-<stat name="Skill_DamageMultiplier_Offhand_Trait_Ambidextrous" descriptionOverride="+{***} Off-hand Damage" constant="10.0"/>
+<stat name="Skill_DamageMultiplier_Offhand_Trait_Ambidextrous" descriptionOverride="+${PERCENTVALUE} Off-hand Damage" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="Aim causes your next attack to Devastate."/>
@@ -14582,7 +14582,7 @@
 <item id="1879323355" name="Leggings of the Osgiliath Charge"/>
 <item id="1879323288" name="Boots of the Osgiliath Charge"/>
 <bonus nbItems="2">
-<stat name="IA_Captain_Event_Duration" descriptionOverride="+{***}s Battle States and Defeat Response Duration" constant="5.0"/>
+<stat name="IA_Captain_Event_Duration" descriptionOverride="+${VALUE}s Battle States and Defeat Response Duration" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_DamageMultiplier_Trait_MasterofWar" constant="10.0"/>
@@ -14599,7 +14599,7 @@
 <specialEffect label="Mending Verse initial heal applied to both target and caster"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Item_Runekeeper_ImprovedWritofHealth" descriptionOverride="Writ of Health has a {***} chance to apply an armour bonus." constant="25.0"/>
+<stat name="Item_Runekeeper_ImprovedWritofHealth" descriptionOverride="Writ of Health has a ${PERCENTVALUE} chance to apply an armour bonus." constant="25.0"/>
 </bonus>
 </set>
 <set id="1879324441" name="Armour of the Osgiliath Defender" level="198" description="">
@@ -14651,7 +14651,7 @@
 <item id="1879323373" name="Ancient Osgiliath Leggings"/>
 <item id="1879323313" name="Ancient Osgiliath Shoes"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_DurationMod_BaneFlare" descriptionOverride="+{***}s Bane Flare Duration" constant="5.0"/>
+<stat name="Skill_Loremaster_DurationMod_BaneFlare" descriptionOverride="+${VALUE}s Bane Flare Duration" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="Sign of Power: See All Ends also applies a Critical Defence debuff to the target"/>
@@ -14679,7 +14679,7 @@
 <item id="1879323424" name="Leggings of the Osgiliath Roar"/>
 <item id="1879323377" name="Boots of the Osgiliath Roar"/>
 <bonus nbItems="2">
-<stat name="Skill_Captain_CritHealing_Magnitude" descriptionOverride="+{***} Critical Healing Magnitude" constant="20.0"/>
+<stat name="Skill_Captain_CritHealing_Magnitude" descriptionOverride="+${PERCENTVALUE} Critical Healing Magnitude" constant="20.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Beorning_ItemSet_NaturesBond_CD" descriptionOverride="-" constant="-30.0"/>
@@ -14708,7 +14708,7 @@
 <item id="1879323414" name="Leggings of the Osgiliath Spear"/>
 <item id="1879323454" name="Boots of the Osgiliath Spear"/>
 <bonus nbItems="2">
-<stat name="Trait_PulseCount_Warden_Dot" operator="SET" descriptionOverride="+{***} Warden Damage Over Time Pulses" constant="1.0"/>
+<stat name="Trait_PulseCount_Warden_Dot" operator="SET" descriptionOverride="+${VALUE} Warden Damage Over Time Pulses" constant="1.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_DamageMultiplier_Bleed_MightyBlow" descriptionOverride="Power Attack, Mighty Blow and Unerring Strike bleed damage increased 25%" constant="25.0"/>
@@ -14722,7 +14722,7 @@
 <item id="1879323423" name="Leggings of the Osgiliath Skald"/>
 <item id="1879323387" name="Shoes of the Osgiliath Skald"/>
 <bonus nbItems="2">
-<stat name="BALLAD_AND_CODA_DAMAGE_PERCENTAGE" descriptionOverride="+{***} Ballad and Coda Damage" constant="10.0"/>
+<stat name="BALLAD_AND_CODA_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ballad and Coda Damage" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Itemset_Minstrel_CriticalChance_CryCall" descriptionOverride="+25% Critical Magnitude for Cries" constant="25.0"/>
@@ -14755,7 +14755,7 @@
 <stat name="IA_Runekeeper_Shaken_Chance" descriptionOverride="-" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="IA_Runekeeper_ThunderStruck_Chance" descriptionOverride="+{***} chance to apply Thunderous Words and Harsh Debate" constant="10.0"/>
+<stat name="IA_Runekeeper_ThunderStruck_Chance" descriptionOverride="+${PERCENTVALUE} chance to apply Thunderous Words and Harsh Debate" constant="10.0"/>
 <stat name="IA_Runekeeper_Shaken_Chance" descriptionOverride="-" constant="10.0"/>
 </bonus>
 </set>
@@ -14798,7 +14798,7 @@
 <stat name="MIGHT" scaling="1879211547"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_Wrath_Max" descriptionOverride="+{***} Max Wrath" constant="1000.0"/>
+<stat name="Skill_Beorning_ItemSet_Wrath_Max" descriptionOverride="+${VALUE} Max Wrath" constant="1000.0"/>
 </bonus>
 </set>
 <set id="1879326378" name="Armour of the Armoury Sentinel" level="198" description="">
@@ -15030,7 +15030,7 @@
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Trait_PulseCount_Warden_Dot" operator="SET" descriptionOverride="+{***} Warden Damage Over Time Pulses" constant="1.0"/>
+<stat name="Trait_PulseCount_Warden_Dot" operator="SET" descriptionOverride="+${VALUE} Warden Damage Over Time Pulses" constant="1.0"/>
 <specialEffect label="Unlocks the power of the Hilt of Eärnil"/>
 </bonus>
 </set>
@@ -17696,7 +17696,7 @@
 <stat name="VITALITY" scaling="1879211533"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_BearForm_PipCost" descriptionOverride="Increases Wrath generation in bear form by {***} every 3 seconds while in combat." constant="2.0"/>
+<stat name="Skill_Beorning_BearForm_PipCost" descriptionOverride="Increases Wrath generation in bear form by ${VALUE} every 3 seconds while in combat." constant="2.0"/>
 </bonus>
 </set>
 <set id="1879362453" name="Striking Battle-garb of the Abyss" level="345" description="">
@@ -19470,7 +19470,7 @@
 <stat name="WILL" scaling="1879211578"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Itemset_Runekeeper_StaticSurge_Proc_Chance" descriptionOverride="+{***} Static Surge Proc Chance" constant="10.0"/>
+<stat name="Itemset_Runekeeper_StaticSurge_Proc_Chance" descriptionOverride="+${PERCENTVALUE} Static Surge Proc Chance" constant="10.0"/>
 </bonus>
 <bonus nbItems="5"/>
 </set>
@@ -19915,7 +19915,7 @@
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Itemset_Runekeeper_StaticSurge_Proc_Chance" descriptionOverride="+{***} Static Surge Proc Chance" constant="10.0"/>
+<stat name="Itemset_Runekeeper_StaticSurge_Proc_Chance" descriptionOverride="+${PERCENTVALUE} Static Surge Proc Chance" constant="10.0"/>
 </bonus>
 <bonus nbItems="5"/>
 </set>
