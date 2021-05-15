@@ -26,6 +26,9 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - private encounters + instances tree
 - mobs
 - resources maps descriptors
+- landblocks data
+- instances tree description
+- paper items (wallet/barterable items)
 
 In the future, it may contain:
 - travels
