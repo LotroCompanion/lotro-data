@@ -3566,7 +3566,7 @@
 </trait>
 <trait identifier="1879264249" name="Quick Escape" iconId="1090553940" minLevel="1" tiers="1" tierProperty="trait_class_hunter_rank_6" description="Low Cut applies a root and temporarily allows you to move without losing Focus."/>
 <trait identifier="1879264250" name="Upshot" iconId="1091798535" minLevel="1" tiers="1" tierProperty="trait_class_hunter_rank_17" description="Earns the skill: Upshot."/>
-<trait identifier="1879264251" name="Hail of Arrows" iconId="1090553936" minLevel="1" tiers="2" tierProperty="trait_class_hunter_rank_14" description="Each target critically hit with Rain of Arrows may reduce the skill's cooldown."/>
+<trait identifier="1879264251" name="Hail of Arrows" iconId="1090553936" minLevel="1" tiers="2" tierProperty="trait_class_hunter_rank_14" description="Each target critically hit with Rain of Arrows has a 50% chance to reduce the skill's cooldown. Becomes 100% at Tier 2."/>
 <trait identifier="1879264252" name="Burn Hot" iconId="1091840300" minLevel="1" tiers="2" tierProperty="trait_class_hunter_rank_13" description="Earns the skill: Burn Hot. Second rank reduces the cooldown and increases the damage and ranged power cost reduction of Burn Hot.">
 <stat name="IA_Hunter_BuffDamage_BurnHot" scaling="1879270580"/>
 <stat name="Skill_Hunter_RecoveryTime_Trait_DPSSet_BurnHot" operator="SUBSTRACT" scaling="1879270579"/>
@@ -3891,7 +3891,7 @@
 <stat name="Skill_Captain_EventChain_CritChanceMod" scaling="1879272978"/>
 </trait>
 <trait identifier="1879269735" name="Stand Tall" iconId="1091831444" minLevel="1" tiers="3" tierProperty="trait_class_captain_rank_15" description="Being hit reduces the cooldown of Last Stand.&#10;&#10;Cannot trigger more than once per second.">
-<stat name="Skill_RecoveryTime_TimeofNeed" constant="10.0"/>
+<stat name="Skill_RecoveryTime_TimeofNeed" constant="3.0"/>
 </trait>
 <trait identifier="1879269736" name="Vital Stroke" iconId="1091840442" minLevel="1" tiers="2" tierProperty="trait_class_captain_rank_50" description="Increases  the Critical Damage Magnitude of Grave Wound's bleed.&#10;&#10;Max rank reduces Grave Wound's cooldown.">
 <stat name="Skill_RecoveryTime_GraveWound" scaling="1879272977"/>
@@ -3922,7 +3922,7 @@
 <specialEffect label="Muster Courage heals the Captain on use."/>
 </trait>
 <trait identifier="1879269746" name="Advantageous Attack" iconId="1091840437" minLevel="1" tiers="1" tierProperty="trait_class_captain_rank_43" description="Shadow's Lament triggers a Light Damage proc on Telling Mark target.">
-<stat name="Skill_DamageMultiplier_Captain_TellingMark" constant="5.0"/>
+<stat name="Skill_DamageMultiplier_Captain_TellingMark" constant="2.0"/>
 <specialEffect label="Shadow's Lament triggers additional Light damage when used on a Telling Mark target"/>
 </trait>
 <trait identifier="1879269747" name="Shrug Blows Aside" iconId="1091830183" minLevel="1" tiers="5" tierProperty="trait_class_captain_rank_9" description="Increases Critical Defence.">
@@ -4127,8 +4127,8 @@
 <trait identifier="1879270108" name="Relish Battle" iconId="1091829384" minLevel="1" tiers="1" description="Your Critical hits grant a Heal-over-time."/>
 <trait identifier="1879270109" name="Confound the Fools" iconId="1091509963" minLevel="1" tiers="1" description="Your mastery of the Trick is second to none.">
 <stat name="Trait_Burglar_Trickster_Cooldown" operator="SUBSTRACT" descriptionOverride="-${VALUE}s Trickster Cooldown" constant="15.0"/>
+<stat name="Trait_Burglar_Disable_Finesse_Mod" constant="33.0"/>
 <specialEffect label="Mischievous Glee becomes Mischievous Delight"/>
-<specialEffect label="Trick: Disable becomes Trick: Improved Disable"/>
 </trait>
 <trait identifier="1879270110" name="Bob and Weave" iconId="1091798538" minLevel="1" tiers="1" description="Grants a Heal-over-time when you Evade an attack."/>
 <trait identifier="1879270111" name="Joke With Legs" iconId="1091798512" minLevel="1" tiers="1" description="Increases the range of your Trick skills.">
@@ -4244,7 +4244,7 @@
 <stat name="IA_Runekeeper_ThunderStruck_Chance" scaling="1879271539"/>
 <stat name="IA_Runekeeper_Shaken_Chance" scaling="1879271545"/>
 </trait>
-<trait identifier="1879270459" name="Mystifying Flames" iconId="1091502155" minLevel="1" tiers="3" tierProperty="trait_class_runekeeper_rank_27" description="Fire skills have a chance to briefly reduce the target's resistance to fire."/>
+<trait identifier="1879270459" name="Mystifying Flames" iconId="1091502155" minLevel="1" tiers="3" tierProperty="trait_class_runekeeper_rank_27" description="Fire skills have a chance to briefly increase the target's vulnerability to damage."/>
 <trait identifier="1879270460" name="Prophetic Word" iconId="1091502144" minLevel="1" tiers="3" tierProperty="trait_class_runekeeper_rank_36" description="Enhances the potency of Mending Verse.">
 <stat name="IA_Runekeeper_HealHoT_Healing" scaling="1879271561"/>
 </trait>
@@ -4512,6 +4512,7 @@
 </trait>
 <trait identifier="1879271335" name="Relentless Assault" iconId="1091805252" minLevel="1" tiers="5" tierProperty="trait_class_guardian_rank_33" description="The Sting skill has a chance to provide a block and parry response.">
 <stat name="Skill_Guardian_Sting_CooldownReset_AppChance" scaling="1879271492"/>
+<stat name="FINESSE" tieredScaling="1879419731;1879367860;1879419734;1879367858;1879419732"/>
 </trait>
 <trait identifier="1879271336" name="Bring on the Pain" iconId="1091805236" minLevel="1" tiers="5" tierProperty="trait_class_guardian_rank_28" description="For a short period of time, your Thrill of Danger skill will allow you to restore a small amount of morale every time you are hit."/>
 <trait identifier="1879271337" name="Bolster" iconId="1091805274" minLevel="1" tiers="5" tierProperty="trait_class_guardian_rank_27" description="Blocking attacks will increase your Critical Defence Rating. This effect may stack up to five times.">
@@ -4963,7 +4964,7 @@
 </trait>
 <trait identifier="1879273265" name="Two-handed Prowess" iconId="1091830074" minLevel="1" tiers="1" description="You may Block with a two-handed weapon and have more Morale.">
 <stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="You may block with a two-handed weapon" constant="49196.0"/>
-<stat name="MORALE" operator="MULTIPLY" descriptionOverride="+25% Maximum Morale" constant="1.25"/>
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="+10% Maximum Morale" constant="1.1"/>
 </trait>
 <trait identifier="1879273266" name="Lacerate" iconId="1091840430" minLevel="1" tiers="1" description="Grave Wound spreads a Bleed to targets around the Captain when used on a target with the Cutting Attack bleed.">
 <stat name="Skill_Captain_BleedSkill_Damage" constant="25.0"/>
@@ -5041,7 +5042,7 @@
 <skill id="1879112563" name="A Small Snag"/>
 </trait>
 <trait identifier="1879274679" name="Frost Affinity" iconId="1091805932" minLevel="1" tiers="1" description="Grants bonus healing.">
-<stat name="OUTGOING_HEALING_PERCENTAGE" operator="SET" constant="20.0"/>
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="20.0"/>
 <stat name="Skill_Runekeeper_Frost_Damage" constant="20.0"/>
 </trait>
 <trait identifier="1879274680" name="Writ of Well-being" iconId="1091502160" minLevel="1" tiers="1" description="Writ of Health now tiers down instead of dispelling upon expiration."/>
@@ -5418,7 +5419,8 @@
 <specialEffect label="Strength: +10% Melee Damage&#10;&#10;Tactics: -10% Skill Power Cost&#10;&#10;Conviction: +10% Gamble Damage&#10;&#10;Guile: +5 Pulses for Cunning Attack and Gambler's Advantage"/>
 </trait>
 <trait identifier="1879278629" name="Disabling Attack" iconId="1090541268" minLevel="1" tiers="1" description="You are able to use your Disable skill to greatly reduce your enemy's speed.">
-<specialEffect label="Trick: Disable:&#10;   +5% Attack Duration&#10;   -5% Melee Damage&#10;Trick: Improved Disable:&#10;   +5% Attack Duration&#10;   -5% Melee Damage&#10;   Finesse Debuff Increased{{keepspaces}}"/>
+<stat name="Trait_Burglar_Disable_AttackDuration_Mod" constant="5.0"/>
+<stat name="Trait_Burglar_Disable_DamageDebuff_Mod" constant="5.0"/>
 </trait>
 <trait identifier="1879278630" name="Little Annoyances" iconId="1091480098" minLevel="1" tiers="1" description="You know how to make those little things really distract people. Small Snag becomes Quite a Snag, which has increased range, a more potent debuff, and no longer requires Double-edged Strike to be used first.">
 <specialEffect label="A Small Snag becomes Quite a Snag"/>
@@ -6955,17 +6957,17 @@
 <trait identifier="1879408698" name="Flag of Ringló Vale" iconId="1092559681" minLevel="1" tiers="1"/>
 <trait identifier="1879408699" name="Flag of Lossarnach" iconId="1092559678" minLevel="1" tiers="1"/>
 <trait identifier="1879408700" name="Saddle of Gondor" iconId="1092559676" minLevel="1" tiers="1"/>
-<trait identifier="1879409398" name="DNT - NOT USED" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_three" description="DNT - NOT USED">
+<trait identifier="1879409398" name="TBD The Fundament" iconId="1091618504" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_three" description="DNT Though the Brawler cannot specialize in The Fundament, it contains traits and techniques that are indispensable to Fulcrums and Maelstroms alike.">
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
-<trait identifier="1879409404" name="Blue Tree TBD" iconId="1091564746" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_one" description="TREE 1 DESCRIPTION TBD">
+<trait identifier="1879409404" name="TBD The Fulcrum" iconId="1091564746" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_one" description="DNT Powerful strikes and brash overtures will ensnare the attention of your foes.">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
-<stat name="MORALE" operator="MULTIPLY" constant="1.1"/>
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="+10% Base Maximum Morale" constant="1.1"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="209.99998"/>
 </trait>
-<trait identifier="1879409406" name="Red Tree TBD" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_two" description="TREE 2 DESCRIPTION TBD">
-<stat name="MIGHT" scaling="1879366646"/>
-<stat name="Skill_Brawler_BasicAttack_Damage" constant="5.0"/>
+<trait identifier="1879409406" name="TBD The Maelstrom" iconId="1091564741" minLevel="1" tiers="1" tierProperty="trait_class_specialization_brawler_two" description="DNT The Maelstrom is a dynamic fighter, capable of fighting small groups but truly shining at single combat.">
+<stat name="MIGHT" descriptionOverride="+${VALUE} Might (this value increases with player level)" scaling="1879366646"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879410804" name="Head-piece of the Sporting Steed" iconId="1092590064" minLevel="1" tiers="1"/>
@@ -6979,39 +6981,31 @@
 <trait identifier="1879411040" name="Elderslade Head-piece" iconId="1092591469" minLevel="1" tiers="1"/>
 <trait identifier="1879411041" name="Elderslade Caparison" iconId="1092591472" minLevel="1" tiers="1"/>
 <trait identifier="1879411042" name="Elderslade Accessory" iconId="1092591471" minLevel="1" tiers="1"/>
-<trait identifier="1879412619" name="Parry TBD" iconId="1091829385" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_2" description="Increase Parry Chance.">
+<trait identifier="1879412619" name="DNT - Parry Chance" iconId="1091829385" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_2" description="Increase Parry Chance.">
 <stat name="PARRY_PERCENTAGE" scaling="1879412618"/>
 </trait>
-<trait identifier="1879412620" name="Evade TBD" iconId="1090541265" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_1" description="Increase Evade Chance.">
+<trait identifier="1879412620" name="DNT - Evade Chance" iconId="1090541265" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_1" description="Increase Evade Chance.">
 <stat name="EVADE_PERCENTAGE" scaling="1879412621"/>
 </trait>
-<trait identifier="1879412650" name="DNT - Come At Me Bonuses" iconId="1091829386" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_5" description="DNT - Cooldown Reduction and added max target per rank">
-<stat name="Skill_Brawler_Aoe_Taunt_Targets" scaling="1879412663"/>
-<stat name="Skill_Brawler_Aoe_Taunt_CD" scaling="1879412660"/>
-</trait>
-<trait identifier="1879412655" name="DNT - Brash Overture Cooldown" iconId="1091798510" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_3" description="DNT - Reduces the cooldown of brash overture">
-<stat name="Skill_Brawler_Taunt_CD" scaling="1879412665"/>
+<trait identifier="1879412655" name="DNT - Incisive Remarks" iconId="1091798510" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_3" description="DNT - Reduces the cooldown of brash overture">
+<stat name="Skill_Brawler_Taunt_CD" descriptionOverride="'Brash Overture' Cooldown reduced by ${VALUE}s" scaling="1879412665"/>
 </trait>
 <trait identifier="1879412656" name="DNT - Weathered Bonus" iconId="1091798521" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_7" description="DNT - Some bonus mod to Weathered"/>
-<trait identifier="1879412657" name="DNT - Iron Will CC Immunity" iconId="1091841204" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_11" description="DNT - Iron Will grants CC immunity"/>
-<trait identifier="1879412661" name="TBD" iconId="1090541260" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_35" description="TBD">
-<stat name="Skill_Brawler_Opening_Chance" scaling="1879412659"/>
+<trait identifier="1879412657" name="DNT - Steel Will" iconId="1091841204" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_11" description="DNT - Iron Will grants CC immunity">
+<specialEffect label="Iron Will protects against all CC for 6 seconds."/>
+</trait>
+<trait identifier="1879412661" name="DNT - Advanced Technique" iconId="1090541260" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_35" description="DNT - Jab generates additional Mettle at regular intervals">
+<stat name="Skill_Brawler_Opening_Chance" descriptionOverride="Jab generates an additional point of Mettle. This effect cannot occur more than once every ${VALUE} seconds." scaling="1879412659"/>
 </trait>
 <trait identifier="1879412664" name="DNT - Brash Overture Debuff" iconId="1090541264" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_4" description="DNT - Adds a debuff to Brash Overture">
 <stat name="Skill_Brawler_Taunt_Debuff" scaling="1879412653"/>
 </trait>
 <trait identifier="1879412666" name="DNT - Weathered Skill" iconId="1090541258" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_6" description="DNT - Earns the skill 'Weathered Blows'"/>
-<trait identifier="1879412667" name="TBD" iconId="1091829387" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_17" description="TBD">
+<trait identifier="1879412667" name="Stiff Jab" iconId="1091829387" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_17" description="TBD - Jab deals more damage">
 <stat name="Skill_Brawler_BasicAttack_Damage" scaling="1879412671"/>
 </trait>
 <trait identifier="1879412668" name="TBD" iconId="1091840427" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_18" description="TBD">
 <stat name="Skill_Brawler_Interrupt_CD" scaling="1879412662"/>
-</trait>
-<trait identifier="1879412669" name="DNT - Iron Will Mitigation Increase" iconId="1091840429" minLevel="1" tiers="3" tierProperty="trait_class_brawler_rank_10" description="TBD">
-<stat name="Skill_Brawler_IronWill_Mitigation" scaling="1879412672"/>
-</trait>
-<trait identifier="1879412670" name="TBD" iconId="1091840423" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_8" description="TBD">
-<stat name="Skill_Brawler_Left_Hook_Debuff" scaling="1879412651"/>
 </trait>
 <trait identifier="1879412856" name="Saddle of the Autumn Sage's Bearance" iconId="1092604047" minLevel="1" tiers="1"/>
 <trait identifier="1879412859" name="Mask of the Autumn Sage's Bearance" iconId="1092604045" minLevel="1" tiers="1"/>
@@ -7022,16 +7016,25 @@
 <trait identifier="1879413196" name="Wildwood - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all vendors within the Wildwood.">
 <stat name="Discount_Wildwood" constant="5.0"/>
 </trait>
+<trait identifier="1879413613" name="Haban’akkâ of Thráin - Vendor Discount" iconId="1090535587" minLevel="1" tiers="1" description="You receive a discount from all Haban’akkâ of Thráin vendors.">
+<stat name="Discount_Azanulbizar" constant="5.0"/>
+</trait>
+<trait identifier="1879413616" name="Haban’akkâ of Thráin - Travel Discount" iconId="1091552099" minLevel="1" tiers="1" description="You receive a discount from all Haban’akkâ of Thráin stable-masters.">
+<stat name="Discount_Travel_Azanulbizar" constant="25.0"/>
+</trait>
 <trait identifier="1879414303" name="Yule Gala Head-piece" iconId="1092626853" minLevel="1" tiers="1"/>
 <trait identifier="1879414304" name="Yule Gala Saddle" iconId="1092626854" minLevel="1" tiers="1"/>
 <trait identifier="1879414305" name="Yule Gala Caparison" iconId="1092626852" minLevel="1" tiers="1"/>
 <trait identifier="1879414726" name="DNT - Joy of Battle (Defence)" iconId="1091840429" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_12" description="Earn the skill 'Joy of Battle'"/>
 <trait identifier="1879414800" name="DNT - Kills restore Mettle" iconId="1090541262" minLevel="1" tiers="3" tierProperty="trait_class_brawler_rank_19" description="DNT - Defeating an enemy restores Mettle"/>
-<trait identifier="1879414814" name="DNT - Spenders restore Morale" iconId="1090541262" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_20" description="DNT - Mettle-spenders restore % morale"/>
-<trait identifier="1879414892" name="DNT - A 3-step chain heals" iconId="1090541262" minLevel="1" tiers="3" tierProperty="trait_class_brawler_rank_21" description="DNT - Successfully chain 3 builder openings to gain a % morale heal"/>
-<trait identifier="1879414994" name="DNT - Charge Up" iconId="1090541262" minLevel="1" tiers="2" tierProperty="trait_class_brawler_rank_22" description="DNT - The skill 'Wind Up' generates more charges of Singular Strike"/>
-<trait identifier="1879416111" name="DNT - Thunderous Smash" iconId="1090541262" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_23" description="DNT - Grants the skill Thunderous Smash"/>
-<trait identifier="1879416144" name="DNT - Bracing Guard" iconId="1091798511" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_13" description="Earn the skill 'Bracing Guard'"/>
+<trait identifier="1879414814" name="DNT - Invigourating Pummel" iconId="1091916297" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_20" description="DNT - Pummel restores Morale with every strike.">
+<stat name="Skill_Guardian_GuardiansWard_TacticalMitigation" descriptionOverride="Pummel restores ${PERCENTVALUE} Max Morale per strike." scaling="1879420260"/>
+</trait>
+<trait identifier="1879414994" name="DNT - Charge Up" iconId="1091840537" minLevel="1" tiers="2" tierProperty="trait_class_brawler_rank_22" description="DNT - The skill 'Wind Up' generates more charges of Singular Strike"/>
+<trait identifier="1879416111" name="DNT - Thunderous Smash" iconId="1091830270" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_23" description="DNT - Grants the skill Thunderous Smash"/>
+<trait identifier="1879416144" name="DNT - Enhanced Guard" iconId="1091798511" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_13" description="DNT - Increase the potency of the incoming damage reduction buff from Bracing Guard. If specialized as The Fulcrum, this bonus applies to Iron Will as well. +5% / rank for 5 ranks.">
+<stat name="Skill_Brawler_IronWillBracingGuard_DamageReduction" scaling="1879420600"/>
+</trait>
 <trait identifier="1879417856" name="Caparison of Remembrance" iconId="1092668201" minLevel="1" tiers="1"/>
 <trait identifier="1879417860" name="Head-piece of Bright Company" iconId="1092668197" minLevel="1" tiers="1"/>
 <trait identifier="1879417861" name="Saddle of the Forest Spring" iconId="1092668195" minLevel="1" tiers="1"/>
@@ -7041,4 +7044,74 @@
 <trait identifier="1879417869" name="Head-piece of Remembrance" iconId="1092668199" minLevel="1" tiers="1"/>
 <trait identifier="1879417871" name="Caparison of the Forest Spring" iconId="1092668192" minLevel="1" tiers="1"/>
 <trait identifier="1879417872" name="Caparison of Bright Company" iconId="1092668200" minLevel="1" tiers="1"/>
+<trait identifier="1879419046" name="DNT - Max Targets" iconId="1091840445" minLevel="1" tiers="3" tierProperty="trait_class_brawler_rank_36" description="DNT - Your AoE attacks affect more targets">
+<stat name="Skill_Brawler_MaxTargets" scaling="1879419270"/>
+</trait>
+<trait identifier="1879419213" name="DNT - Make Vulnerable" iconId="1091840423" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_37" description="DNT - Brutal Smash makes its target Vulnerable. Vulnerable targets take additional damage from all sources. &#10;&#10;Certain skills may be traited in order to take advantage of a vulnerability for added effect."/>
+<trait identifier="1879419269" name="DNT - Lasting Weakness" iconId="1091840474" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_38" description="DNT - Your targets remain vulnerable for a longer duration">
+<stat name="Duration_Brawler_Vulnerable" scaling="1879419268"/>
+</trait>
+<trait identifier="1879419275" name="DNT - Divergent Fist" iconId="1091659089" minLevel="1" tiers="3" tierProperty="trait_class_brawler_rank_24" description="DNT - A blast of light-type damage follows a Singular Strike"/>
+<trait identifier="1879419404" name="TBD - Strike as One!" iconId="1091829383" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_39" description="TBD - Grants a damage buff. If alone, 20% damage to self. If allies are around, 10% damage to each ally including yourself."/>
+<trait identifier="1879420180" name="DNT - Rush" iconId="1091829381" minLevel="1" tiers="1">
+<specialEffect label="DNT - Taunt skills generate 3 Mettle"/>
+</trait>
+<trait identifier="1879420181" name="DNT - Innate Strength: Innate Strength: Raw Power" iconId="1091414339" minLevel="1" tiers="1" description="TBD - Quick Attacks grant the buff 'Innate Strength: Raw Power', increasing the Brawler’s damage.&#10;&#10;If a Quick Attack is performed while 'Innate Strength: Raw Power' is still active, the buff is instead advanced to a higher tier, to a maximum of Tier 4.">
+<specialEffect label="Tier 1: +5% Damage&#10;Tier 2: +10% Damage&#10;Tier 3: +15% Damage&#10;Tier 4: +30% Damage"/>
+</trait>
+<trait identifier="1879420182" name="DNT - Innate Strength: Deflecting Technique" iconId="1091798509" minLevel="1" tiers="1" description="TBD - Balanced Attacks grant the buff 'Innate Strength: Deflecting Technique', increasing the Brawler’s chance to Parry.&#10;&#10;If a Balanced Attack is performed while 'Innate Strength: Deflecting Technique' is still active, the buff is instead advanced to a higher tier, to a maximum of Tier 4.">
+<specialEffect label="Tier 1: +2.5% Parry chance&#10;Tier 2: +5% Parry Chance&#10;Tier 3: +10% Parry Chance&#10;Tier 4: +20% Parry Chance"/>
+</trait>
+<trait identifier="1879420183" name="DNT - Eager Challenger" iconId="1091829384" minLevel="1" tiers="1">
+<stat name="Skill_Brawler_Aoe_Taunt_CD" descriptionOverride="'Come At Me' Cooldown reduced by ${VALUE}s" constant="-30.0"/>
+</trait>
+<trait identifier="1879420184" name="DNT - Innate Strength: Threatening Presence" iconId="1091840428" minLevel="1" tiers="1" description="TBD - Quick Attacks grant the buff 'Innate Strength: Threatening Presence', increasing the Brawler’s ability to generate threat.&#10;&#10;If a Quick Attack is performed while 'Innate Strength: Threatening Presence' is still active, the buff is instead advanced to a higher tier, to a maximum of Tier 4.">
+<specialEffect label="Tier 1: +5% Threat Generated&#10;Tier 2: +15% Threat Generated&#10;Tier 3: +30% Threat Generated&#10;Tier 4: +50% Threat Generated"/>
+</trait>
+<trait identifier="1879420185" name="TBD" iconId="1091829381" minLevel="1" tiers="1" description="tbd">
+<specialEffect label="TBD Nothing Yet"/>
+</trait>
+<trait identifier="1879420186" name="TBD" iconId="1091480099" minLevel="1" tiers="1" description="tbd">
+<specialEffect label="TBD Nothing Yet"/>
+</trait>
+<trait identifier="1879420187" name="DNT - Innate Strength: Innate Strength: Clever Technique" iconId="1091798509" minLevel="1" tiers="1" description="TBD - Balanced Attacks grant the buff 'Innate Strength: Clever Technique', increasing the Brawler’s Finesse Rating.&#10;&#10;If a Balanced Attack is performed while 'Innate Strength: Clever Technique' is still active, the buff is instead advanced to a higher tier, to a maximum of Tier 4.">
+<specialEffect label="Tier 1: Modest Finesse Rating Bonus&#10;Tier 2: Minor Finesse Rating Bonus&#10;Tier 3: Finesse Rating Bonus&#10;Tier 4: Greater Finesse Rating Bonus"/>
+</trait>
+<trait identifier="1879420188" name="DNT - Fist of the Valar" iconId="1091840424" minLevel="1" tiers="1" description="TBD - Inspired by legendary strikers of the past, call upon incredible strength.">
+<stat name="Skill_Brawler_Devastate_Damage" constant="25.0"/>
+<stat name="Skill_Brawler_Light_Damage" constant="25.0"/>
+</trait>
+<trait identifier="1879420189" name="TBD" iconId="1091829384" minLevel="1" tiers="1" description="tbd">
+<specialEffect label="TBD Nothing Yet"/>
+</trait>
+<trait identifier="1879420190" name="DNT - Innate Strength: Inner Resilience" iconId="1091414339" minLevel="1" tiers="1" description="TBD - Heavy Attacks grant the buff 'Innate Strength: Inner Resilience', increasing the Brawler’s mitigations.&#10;&#10;If a Heavy Attack is performed while 'Innate Strength: Inner Resilience' is still active, the buff is instead advanced to a higher tier, to a maximum of Tier 4.">
+<specialEffect label="Tier 1: +2% Mitigations&#10;Tier 2: +4% Mitigations&#10;Tier 3: +6% Mitigations&#10;Tier 4: +12% Mitigations"/>
+</trait>
+<trait identifier="1879420191" name="TBD" iconId="1091480099" minLevel="1" tiers="1" description="tbd">
+<specialEffect label="TBD - Iron Will grants an additional ${PERCENTVALUE} Tactical Mitigation"/>
+</trait>
+<trait identifier="1879420192" name="DNT - Innate Strength: Precision" iconId="1091840428" minLevel="1" tiers="1" description="TBD - Heavy Attacks grant the buff 'Innate Strength: Precision', increasing the Brawler’s Critical Rating.&#10;&#10;If a Heavy Attack is performed while 'Innate Strength: Precision' is still active, the buff is instead advanced to a higher tier, to a maximum of Tier 4.">
+<specialEffect label="Tier 1: Modest Critical Rating Bonus&#10;Tier 2: Minor Critical Rating Bonus&#10;Tier 3: Critical Rating Bonus&#10;Tier 4: Greater Critical Rating Bonus"/>
+</trait>
+<trait identifier="1879420193" name="TBD" iconId="1091840424" minLevel="1" tiers="1" description="tbd">
+<specialEffect label="TBD - Iron Will grants an additional ${PERCENTVALUE} Tactical Mitigation"/>
+</trait>
+<trait identifier="1879420256" name="DNT - Gut Punch" iconId="1091840293" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_14" description="Earn the skill 'Gut Punch'"/>
+<trait identifier="1879420263" name="DNT - Singular Strike" iconId="1090541256" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_25" description="DNT - Use the skill 'Wind Up' to build a charge of Singular Strike.&#10;Unleash Singular Strike to deal massive damage."/>
+<trait identifier="1879420264" name="DNT - Might" iconId="1090522262" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_26" description="DNT - Gain might. &#10;This trait scales with player level.">
+<stat name="MIGHT" tieredScaling="1879366646;1879366652;1879366655;1879366660;1879366662"/>
+</trait>
+<trait identifier="1879420305" name="TBD - Strike as One! Damage Increase" iconId="1091509960" minLevel="1" tiers="5" tierProperty="trait_class_brawler_rank_40" description="TBD">
+<stat name="Skill_Brawler_StrikeAsOne_DamageMod" descriptionOverride="'Strike As One!' grants an additional ${PERCENTVALUE} damage bonus" scaling="1879420307"/>
+</trait>
+<trait identifier="1879420310" name="TBD - Deft Feint" iconId="1090541254" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_41" description="TBD">
+<stat name="Skills_Brawler_Feint_PipMod" descriptionOverride="Quick Feint fully restores Mettle." constant="2.0"/>
+</trait>
+<trait identifier="1879420311" name="TBD - Brawler's Balance" iconId="1091840294" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_43" description="TBD - Do not pick this trait. It does nothing."/>
+<trait identifier="1879420317" name="TBD - Brawler's Speed" iconId="1091798529" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_42" description="TBD - Do not pick this trait. It does nothing."/>
+<trait identifier="1879420319" name="TBD - Brawler's Strength" iconId="1091840422" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_44" description="TBD - Do not pick this trait. It does nothing."/>
+<trait identifier="1879420865" name="DNT - First Strike" iconId="1091509964" minLevel="1" tiers="1" tierProperty="trait_class_brawler_rank_27" description="DNT - Gains the skill: First Strike"/>
+<trait identifier="1879420896" name="Caparison of Entwining Blossoms" iconId="1092682394" minLevel="1" tiers="1"/>
+<trait identifier="1879420897" name="Head-piece of Entwining Blossoms" iconId="1092682395" minLevel="1" tiers="1"/>
+<trait identifier="1879420898" name="Saddle of Entwining Blossoms" iconId="1092682396" minLevel="1" tiers="1"/>
 </traits>

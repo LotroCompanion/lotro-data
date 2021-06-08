@@ -2994,7 +2994,7 @@
 <stat id="268457729" name="Clever Retort buffs now applied to fellowship" key="Trait_Burglar_CleverRetort_Fellowship_Override"/>
 <stat id="268457732" name="Trick: Disable Attack Duration Debuff" key="Trait_Burglar_Disable_AttackDuration_Mod" isPercentage="true"/>
 <stat id="268457733" name="Trick: Disable Damage Debuff" key="Trait_Burglar_Disable_DamageDebuff_Mod" isPercentage="true"/>
-<stat id="268457734" name="Trick: Disable Finesse Debuff" key="Trait_Burglar_Disable_Finesse_Mod"/>
+<stat id="268457734" name="Trick: Disable Finesse Debuff" key="Trait_Burglar_Disable_Finesse_Mod" isPercentage="true"/>
 <stat id="268457735" name="Mitigations" key="Trait_Warden_Determination_Legendary"/>
 <stat id="268457736" name="Mitigations" key="Trait_Warden_Defiance_Mitigations"/>
 <stat id="268457737" name="Collateral Damage" key="Trait_Warden_Collateral_Damage_T1"/>
@@ -4226,12 +4226,12 @@
 <stat id="268462394" name="Fray the Edge Max Range" key="Skill_MaxRangeMod_Guardian_FrayTheEdge"/>
 <stat id="268462395" name="Battle Gauntlet Damage" key="Combat_WeaponDamageMultiplier_BattleGauntlets" isPercentage="true"/>
 <stat id="268462396" name="Iron Will Mitigation Bonus" key="Skill_Brawler_IronWill_Mitigation" isPercentage="true"/>
-<stat id="268462397" name="Basic Attack Damage Bonus" key="Skill_Brawler_BasicAttack_Damage" isPercentage="true"/>
+<stat id="268462397" name="Jab Damage Bonus" key="Skill_Brawler_BasicAttack_Damage" isPercentage="true"/>
 <stat id="268462398" name="Iron Will CC Immunity" key="Skill_Brawler_IronWill_CC_Immunity"/>
 <stat id="268462399" name="Sucker Punch Cooldown Reduction" key="Skill_Brawler_Interrupt_CD"/>
 <stat id="268462407" name="Come At Me CD" key="Skill_Brawler_Aoe_Taunt_CD"/>
 <stat id="268462408" name="Come At Me Targets" key="Skill_Brawler_Aoe_Taunt_Targets"/>
-<stat id="268462409" name="Brash Overture Debuff Magnitude" key="Skill_Brawler_Taunt_Debuff"/>
+<stat id="268462409" name="Miss Chance Debuff from Brash Overture" key="Skill_Brawler_Taunt_Debuff" isPercentage="true"/>
 <stat id="268462410" name="Brash Overture CD" key="Skill_Brawler_Taunt_CD"/>
 <stat id="268462411" name="Left Hook Debuff Magnitude" key="Skill_Brawler_Left_Hook_Debuff"/>
 <stat id="268462412" name="Momentum Chance" key="Skill_Warden_Momentum_ProcProbability" isPercentage="true"/>
@@ -4245,4 +4245,26 @@
 <stat id="268462465" name="Rohan Homestead Discount" key="Discount_Housing_Rohan" isPercentage="true"/>
 <stat id="268462513" name="Discount at all stable-masters within Gundabad." key="Discount_Travel_Gundabad" isPercentage="true"/>
 <stat id="268462514" name="Discount at all vendors within Gundabad." key="Discount_Gundabad" isPercentage="true"/>
+<stat id="268462545" name="AoE Skill Max Targets" key="Skill_Brawler_MaxTargets"/>
+<stat id="268462590" name="Vulnerable Duration" key="Duration_Brawler_Vulnerable"/>
+<stat id="268462591" name="DNT - Divergent Fist" key="Trait_Brawler_Divergent_Fist"/>
+<stat id="268462622" name="(De)Buffed Magic Damage" key="Combat_DamageQualifier_Magic_Offense_AdditionalMod" isPercentage="true"/>
+<stat id="268462623" name="Difficulty Mod Damage" key="Combat_DamageQualifier_Magic_Offense_DifficultyMod" isPercentage="true"/>
+<stat id="268462624" name="Difficulty Mod Damage" key="Combat_DamageQualifier_Ranged_Offense_DifficultyMod" isPercentage="true"/>
+<stat id="268462625" name="(De)Buffed Ranged Damage" key="Combat_DamageQualifier_Ranged_Offense_AdditionalMod" isPercentage="true"/>
+<stat id="268462626" name="(De)Buffed Melee Damage" key="Combat_DamageQualifier_Melee_Offense_AdditionalMod" isPercentage="true"/>
+<stat id="268462627" name="Difficulty Mod Damage" key="Combat_DamageQualifier_Melee_Offense_DifficultyMod" isPercentage="true"/>
+<stat id="268462630" name="Pet Difficulty Mod Defense" key="Pet_Ranged_Defense_DifficultyMod" isPercentage="true"/>
+<stat id="268462631" name="Pet Difficulty Mod Damage" key="Pet_Ranged_Offense_DifficultyMod" isPercentage="true"/>
+<stat id="268462633" name="Pet Difficulty Mod Damage" key="Pet_Melee_Offense_DifficultyMod" isPercentage="true"/>
+<stat id="268462634" name="Pet Difficulty Mod Defense" key="Pet_Melee_Defense_DifficultyMod" isPercentage="true"/>
+<stat id="268462636" name="Pet Difficulty Mod Defense" key="Pet_Magic_Defense_DifficultyMod" isPercentage="true"/>
+<stat id="268462637" name="Pet Difficulty Mod Damage" key="Pet_Magic_Offense_DifficultyMod" isPercentage="true"/>
+<stat id="268462641" name="Light Damage" key="Skill_Brawler_Light_Damage" isPercentage="true"/>
+<stat id="268462642" name="Devastate Damage" key="Skill_Brawler_Devastate_Damage" isPercentage="true"/>
+<stat id="268462648" name="Strike As One! Damage" key="Skill_Brawler_StrikeAsOne_DamageMod" isPercentage="true"/>
+<stat id="268462649" name="DNT - Brawler Pips" key="Skills_Brawler_Feint_PipMod"/>
+<stat id="268462650" name="DNT - Effect Override" key="Trait_Beorning_Vigilant_Taunt"/>
+<stat id="268462651" name="DNT - Incoming Damage Reduction" key="Skill_Brawler_IronWillBracingGuard_DamageReduction" isPercentage="true"/>
+<stat id="268462653" name="DNT - Invigourating Heal" key="Trait_Brawler_Invigourating_Heal"/>
 </stats>
