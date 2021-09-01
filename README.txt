@@ -30,6 +30,7 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - instances tree description
 - paper items (wallet/barterable items)
 - tasks
+- relic melding recipes
 
 In the future, it may contain:
 - travels
