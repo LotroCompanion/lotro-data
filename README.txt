@@ -32,6 +32,7 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - tasks
 - relic melding recipes
 - difficulties
+- group sizes
 
 In the future, it may contain:
 - travels
