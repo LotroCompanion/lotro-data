@@ -33,6 +33,7 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - relic melding recipes
 - difficulties
 - group sizes
+- custom skirmish loot tables
 
 In the future, it may contain:
 - travels
