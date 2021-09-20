@@ -24,15 +24,14 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - parchment maps
 - dungeons
 - private encounters + instances tree
-- mobs
+- mobs (including loot data)
 - resources maps descriptors
 - landblocks data
 - instances tree description
 - paper items (wallet/barterable items)
 - tasks
 - relic melding recipes
-- difficulties
-- group sizes
+- enums
 - custom skirmish loot tables
 
 In the future, it may contain:
