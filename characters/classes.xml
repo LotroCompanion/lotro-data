@@ -1874,10 +1874,11 @@
 <initialGearElement itemId="1879320045"/>
 <initialGearElement itemId="1879319957"/>
 </class>
-<class key="Brawler" iconId="1092680920" smallIconId="1092680920" abbreviation="BRWL" description="TBD - &#10;&lt;li&gt;&lt;rgb=#FFFF00&gt;Class Difficulty:&lt;/rgb&gt; Advanced&lt;/li&gt;&#10;&#10;&lt;li&gt;&lt;rgb=#FFFF00&gt;Role:&lt;/rgb&gt; Absolutely Cool Person&lt;/li&gt;&#10;&#10;&lt;li&gt;&lt;rgb=#FFFF00&gt;Gameplay:&lt;/rgb&gt; Burglars are masters of debuffing; skills that cause foes to deal less damage or be easier to kill. They utilize their Trick skills to debuff foes and can later remove the Tricks for additional benefits. Burglars also have Stealth skills and are proficient at initiating Fellowship Manoeuvres. In fellowships, a Burglar supports his allies by debuffing foes, while dealing respectable damage.&lt;/li&gt;&#10;&#10;&lt;li&gt;&lt;rgb=#FFFF00&gt;Lore:&lt;/rgb&gt; Burglars are masters of stealth and misdirection. They rely on sleight-of-hand and startling attacks that allow their companions to overwhelm adversaries.&#10;&#10;This class is inspired by the famous Bilbo Baggins, who accompanied Thorin and Company on their quest to the Lonely Mountain.&lt;/li&gt;" tacticalDpsStatName="Tactical Rank">
+<class key="Brawler" iconId="1092680920" smallIconId="1092680920" abbreviation="BRWL" description="&lt;li&gt;&lt;rgb=#FFFF00&gt;Class Difficulty:&lt;/rgb&gt; Advanced&lt;/li&gt;&#10;&#10;&lt;li&gt;&lt;rgb=#FFFF00&gt;Role:&lt;/rgb&gt; Offence/Defence&lt;/li&gt;&#10;&#10;&lt;li&gt;&lt;rgb=#FFFF00&gt;Gameplay:&lt;/rgb&gt; Brawlers are aggressive melee fighters who wield a unique resource called Mettle to maximize their damage and fuel their most powerful skills. Although their offensive capabilities truly shine in one-on-one combat, they are not without recourse when faced with multiple enemies. In fellowships, a Brawler's abrasive nature helps them hold the ire of their foes and keep their allies safe. &lt;/li&gt;&#10;&#10;&lt;li&gt;&lt;rgb=#FFFF00&gt; Lore:&lt;/rgb&gt; Brawlers are formidable fighters whose bold manoeuvres can topple their foes and safeguard their allies. &#10;&#10;This class is inspired by Helm Hammerhand, who to the astonishment of many, would take to the battlefield barehanded.&lt;/li&gt;" tacticalDpsStatName="Tactical Rank">
 <classTrait minLevel="1" traitId="1879064094"/>
 <classTrait minLevel="1" traitId="1879064095"/>
 <classTrait minLevel="1" traitId="1879064109"/>
+<classTrait minLevel="1" traitId="1879422297"/>
 <classTrait minLevel="1" traitId="1879064211"/>
 <classTrait minLevel="20" traitId="1879230292"/>
 <classTrait minLevel="95" traitId="1879335360"/>
@@ -1889,7 +1890,7 @@
 <classTrait minLevel="1" traitId="1879186957"/>
 <classTrait minLevel="40" traitId="1879083738"/>
 <traitTree>
-<traitTreeBranch code="60" name="TBD - The Fulcrum" mainTraitId="1879409404">
+<traitTreeBranch code="60" name="The Fulcrum" mainTraitId="1879409404">
 <progression>
 <step nbPoints="5" traitId="1879420190"/>
 <step nbPoints="10" traitId="1879420180"/>
@@ -1900,19 +1901,33 @@
 <step nbPoints="35" traitId="1879420193"/>
 </progression>
 <cells>
-<cell id="1_1" traitId="1879412620"/>
-<cell id="1_2" traitId="1879412655"/>
-<cell id="1_3" traitId="1879414726"/>
-<cell id="2_2" traitId="1879412619"/>
-<cell id="3_2" traitId="1879412666"/>
-<cell id="3_3" traitId="1879412657"/>
-<cell id="4_1" traitId="1879412664"/>
-<cell id="4_2" traitId="1879412656"/>
-<cell id="4_3" traitId="1879416144"/>
-<cell id="5_2" traitId="1879420256"/>
+<cell id="1_1" traitId="1879422443"/>
+<cell id="1_3" traitId="1879420981"/>
+<cell id="1_4" traitId="1879412664">
+<cellDependency cellId="1_3" rank="1"/>
+</cell>
+<cell id="2_1" traitId="1879412619"/>
+<cell id="2_3" traitId="1879412655">
+<cellDependency cellId="1_3" rank="1"/>
+</cell>
+<cell id="2_4" traitId="1879414726"/>
+<cell id="3_1" traitId="1879428141"/>
+<cell id="3_2" traitId="1879412650"/>
+<cell id="3_3" traitId="1879412666"/>
+<cell id="4_2" traitId="1879412670"/>
+<cell id="4_3" traitId="1879412656">
+<cellDependency cellId="3_3" rank="1"/>
+</cell>
+<cell id="4_4" traitId="1879422229"/>
+<cell id="5_1" traitId="1879430252"/>
+<cell id="5_2" traitId="1879426383"/>
+<cell id="6_2" traitId="1879430460"/>
+<cell id="6_3" traitId="1879416144"/>
+<cell id="7_2" traitId="1879420256"/>
+<cell id="7_3" traitId="1879426409"/>
 </cells>
 </traitTreeBranch>
-<traitTreeBranch code="58" name="TBD - The Maelstrom" mainTraitId="1879409406">
+<traitTreeBranch code="58" name="The Maelstrom" mainTraitId="1879409406">
 <progression>
 <step nbPoints="5" traitId="1879420181"/>
 <step nbPoints="10" traitId="1879420185"/>
@@ -1924,18 +1939,26 @@
 </progression>
 <cells>
 <cell id="1_5" traitId="1879420865"/>
-<cell id="1_6" traitId="1879412667"/>
-<cell id="1_7" traitId="1879412668"/>
-<cell id="2_5" traitId="1879414800"/>
-<cell id="2_6" traitId="1879414814"/>
-<cell id="2_7" traitId="1879420264"/>
-<cell id="3_5" traitId="1879420263"/>
-<cell id="4_5" traitId="1879414994"/>
-<cell id="4_7" traitId="1879416111"/>
-<cell id="6_6" traitId="1879419275"/>
+<cell id="1_7" traitId="1879412667"/>
+<cell id="1_8" traitId="1879426054"/>
+<cell id="2_6" traitId="1879420264"/>
+<cell id="2_7" traitId="1879422438"/>
+<cell id="3_6" traitId="1879414800"/>
+<cell id="3_7" traitId="1879424419"/>
+<cell id="4_5" traitId="1879412668"/>
+<cell id="4_8" traitId="1879419275"/>
+<cell id="5_6" traitId="1879422228"/>
+<cell id="5_8" traitId="1879424292">
+<cellDependency cellId="4_8" rank="1"/>
+</cell>
+<cell id="6_5" traitId="1879424430"/>
+<cell id="6_6" traitId="1879422432"/>
+<cell id="6_7" traitId="1879424295"/>
+<cell id="7_6" traitId="1879422295"/>
+<cell id="7_7" traitId="1879424309"/>
 </cells>
 </traitTreeBranch>
-<traitTreeBranch code="59" name="TBD - The Fundament" mainTraitId="1879409398">
+<traitTreeBranch code="59" name="The Fundament" mainTraitId="1879409398">
 <progression>
 <step nbPoints="5" traitId="1879273464"/>
 <step nbPoints="10" traitId="1879273461"/>
@@ -1946,48 +1969,68 @@
 <step nbPoints="35" traitId="1879273795"/>
 </progression>
 <cells>
-<cell id="1_10" traitId="1879419046"/>
-<cell id="1_11" traitId="1879419213"/>
+<cell id="1_10" traitId="1879419213"/>
+<cell id="1_11" traitId="1879419269">
+<cellDependency cellId="1_10" rank="1"/>
+</cell>
+<cell id="1_12" traitId="1879412620"/>
 <cell id="1_9" traitId="1879412661"/>
-<cell id="2_11" traitId="1879419269"/>
-<cell id="2_9" traitId="1879419404"/>
+<cell id="2_10" traitId="1879419046"/>
+<cell id="2_11" traitId="1879426339"/>
+<cell id="2_12" traitId="1879426341"/>
+<cell id="2_9" traitId="1879422447"/>
+<cell id="3_10" traitId="1879420305">
+<cellDependency cellId="3_9" rank="1"/>
+</cell>
 <cell id="3_11" traitId="1879420310"/>
-<cell id="3_9" traitId="1879420305"/>
+<cell id="3_9" traitId="1879419404"/>
 <cell id="4_10" traitId="1879420311"/>
 <cell id="4_11" traitId="1879420319"/>
 <cell id="4_9" traitId="1879420317"/>
+<cell id="5_10" traitId="1879426075"/>
+<cell id="5_11" traitId="1879427238"/>
 </cells>
 </traitTreeBranch>
 </traitTree>
-<classSkill minLevel="1" skillId="1879411393" skillName="Straight Jab"/>
-<classSkill minLevel="1" skillId="1879411400" skillName="Sinister Cross"/>
-<classSkill minLevel="1" skillId="1879411791" skillName="Brutal Smash"/>
-<classSkill minLevel="1" skillId="1879411780" skillName="Crushing Helm"/>
-<classSkill minLevel="1" skillId="1879411777" skillName="Mighty Upheaval"/>
-<classSkill minLevel="1" skillId="1879411778" skillName="Vicious Knee"/>
-<classSkill minLevel="1" skillId="1879411779" skillName="Backhand Swipe"/>
-<classSkill minLevel="20" skillId="1879411771" skillName="Helm's Hammer of Purity"/>
-<classSkill minLevel="20" skillId="1879411775" skillName="Sucker Punch"/>
-<classSkill minLevel="1" skillId="1879411792" skillName="Quick Feint"/>
-<classSkill minLevel="1" skillId="1879411773" skillName="Shattering Fist"/>
-<classSkill minLevel="12" skillId="1879411789" skillName="Brash Overture"/>
-<classSkill minLevel="20" skillId="1879411787" skillName="Slip Free"/>
-<classSkill minLevel="15" skillId="1879416145" skillName="Bracing Guard"/>
-<classSkill minLevel="1" skillId="1879411788" skillName="Weather Blows"/>
-<classSkill minLevel="1" skillId="1879411782" skillName="Naked Aggression"/>
-<classSkill minLevel="22" skillId="1879411784" skillName="Walk it Off"/>
-<classSkill minLevel="1" skillId="1879411783" skillName="Overwhelming Force"/>
-<classSkill minLevel="1" skillId="1879411786" skillName="Follow Me!"/>
-<classSkill minLevel="1" skillId="1879414771" skillName="DNT - Flex"/>
-<classSkill minLevel="1" skillId="1879416151" skillName="One for All"/>
+<classSkill minLevel="1" skillId="1879411393" skillName="Low Strike"/>
+<classSkill minLevel="1" skillId="1879411392" skillName="Dextrous Hook"/>
+<classSkill minLevel="4" skillId="1879411400" skillName="Sinister Cross"/>
+<classSkill minLevel="1" skillId="1879411791" skillName="Overhand Smash"/>
+<classSkill minLevel="6" skillId="1879423442" skillName="Hurl Object"/>
+<classSkill minLevel="8" skillId="1879414771" skillName="Get Serious"/>
+<classSkill minLevel="10" skillId="1879411779" skillName="Backhand Clout"/>
+<classSkill minLevel="12" skillId="1879411778" skillName="Knee Strike"/>
+<classSkill minLevel="15" skillId="1879411780" skillName="Helm-crusher"/>
+<classSkill minLevel="22" skillId="1879411786" skillName="Follow Me!"/>
+<classSkill minLevel="24" skillId="1879411792" skillName="Quick Feint"/>
+<classSkill minLevel="18" skillId="1879411788" skillName="Weather Blows"/>
+<classSkill minLevel="30" skillId="1879414972" skillName="Strike Towards the Sky"/>
+<classSkill minLevel="32" skillId="1879416151" skillName="One for All"/>
+<classSkill minLevel="38" skillId="1879411777" skillName="Mighty Upheaval"/>
 <classSkill minLevel="12" skillId="1879064080" skillName="Stallion's Spirit"/>
 <classSkill minLevel="12" skillId="1879064081" skillName="Ent's Strength (Melee)"/>
 <classSkill minLevel="12" skillId="1879064083" skillName="Spider's Guile (Melee)"/>
 <classSkill minLevel="12" skillId="1879064082" skillName="Eagle's Cry"/>
-<initialGearElement itemId="1879064323"/>
-<initialGearElement itemId="1879064324"/>
-<initialGearElement itemId="1879064325"/>
-<initialGearElement itemId="1879064326"/>
+<classSkill minLevel="20" skillId="1879411787" skillName="Slip Free"/>
+<classSkill minLevel="20" skillId="1879411771" skillName="Helm's Hammer"/>
+<classSkill minLevel="20" skillId="1879411775" skillName="Fulgurant Strike"/>
+<classSkill minLevel="20" skillId="1879411784" skillName="Ignore Pain"/>
+<classSkill minLevel="75" skillId="1879428060" skillName="Discipline: Rohirrim"/>
+<classSkill minLevel="75" skillId="1879428073" skillName="Discipline: Riddermark"/>
+<classSkill minLevel="75" skillId="1879428068" skillName="Discipline: Red Dawn"/>
+<classSkill minLevel="75" skillId="1879428059" skillName="Strike"/>
+<classSkill minLevel="75" skillId="1879428075" skillName="Throw"/>
+<classSkill minLevel="75" skillId="1879428079" skillName="Reckless Attack"/>
+<classSkill minLevel="75" skillId="1879428071" skillName="Mocking Taunt"/>
+<classSkill minLevel="75" skillId="1879428085" skillName="Take a Breath"/>
+<classSkill minLevel="75" skillId="1879428082" skillName="Camaraderie"/>
+<classSkill minLevel="75" skillId="1879428080" skillName="Momentous Hit"/>
 <initialGearElement itemId="1879412257"/>
+<initialGearElement itemId="1879426877"/>
+<initialGearElement itemId="1879426874"/>
+<initialGearElement itemId="1879426879"/>
+<initialGearElement itemId="1879426876"/>
+<initialGearElement itemId="1879426875"/>
+<initialGearElement itemId="1879426878"/>
 </class>
 </classes>
