@@ -5,7 +5,7 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - emotes
 - commons (progressions, colors, factions, stats)
 - character data (races, classes, starts stats, stats derivations, trait points)
-- legendary stuff (legacies, legendary titles, passives)
+- legendary stuff (legacies, legendary titles, passives, traceries)
 - warbands
 - quests, deeds
 - skills
@@ -33,6 +33,7 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - relic melding recipes
 - enums
 - custom skirmish loot tables
+- allegiances
 
 In the future, it may contain:
 - travels
