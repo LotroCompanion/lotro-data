@@ -2012,7 +2012,7 @@
 <skill identifier="1879135201" name="Improved Swift Bow: Star-light" category="The Archer's Art:" iconId="1090553931" description="Loose three missiles in rapid succession.&#10;&#10;Arrows inflict Light damage."/>
 <skill identifier="1879135202" name="Improved Swift Bow" category="The Archer's Art:" iconId="1090553930" description="Loose three missiles in rapid succession."/>
 <skill identifier="1879135203" name="Improved Swift Bow: Ablaze" category="The Archer's Art:" iconId="1090553932" description="Loose three missiles in rapid succession.&#10;&#10;Arrows inflict fire damage."/>
-<skill identifier="1879135205" name="Improved Merciful Shot" category="Hunter's Focus:" iconId="1090553939" description="A massively damaging shot that unlocks when the target is below 50% health."/>
+<skill identifier="1879135205" name="Improved Merciful Shot" category="Hunter's Focus:" iconId="1090553939" description="A massively damaging shot that unlocks when the target is below 50% health.&#10;&#10;Critical hits deal bonus damage."/>
 <skill identifier="1879135321" name="Blinding Acid" iconId="1090522259"/>
 <skill identifier="1879135322" name="Sticky Gecko Pheromone" iconId="1090522259"/>
 <skill identifier="1879135444" name="Cure Disease" category="Undef" iconId="1090524209"/>
@@ -5831,7 +5831,7 @@
 <skill identifier="1879274106" name="Snap Shot - Improved Hampering Javelin of Fire" category="Javelin Skills:" iconId="1091582459" description="A precise throw can pin a target to the ground and hinder its movement for a short while thereafter.&#10;&#10;&lt;rgb=#00FFDD&gt;Mounted Combat Enemies: Root replaced with a mount acceleration debuff&lt;/rgb&gt;"/>
 <skill identifier="1879274107" name="Snap Shot - Ambush" category="Javelin Skills:" iconId="1091830186" description="When given time to prepare, a Warden can deliver a powerful opening volley.&#10;&#10;&lt;rgb=#00FFDD&gt;Mounted Combat Enemies: Knockout replaced with a mount turn rate debuff&lt;/rgb&gt;"/>
 <skill identifier="1879274299" name="Bucket of Water" category="DNT - If this is showing, it is a bug (ID_SkillCharacteristicCategory_Contextual)!" iconId="1090574929" description="Splash water on fires to extinguish them."/>
-<skill identifier="1879274792" name="Improved Merciful Shot" category="Hunter's Focus:" iconId="1090553939" description="A massively damaging shot that unlocks when the target is below 70% health."/>
+<skill identifier="1879274792" name="Improved Merciful Shot" category="Hunter's Focus:" iconId="1090553939" description="A massively damaging shot that unlocks when the target is below 70% health.&#10;&#10;Critical hits deal bonus damage."/>
 <skill identifier="1879274793" name="Merciful Shot" category="Hunter's Focus:" iconId="1090553939" description="A massively damaging shot that unlocks when the target is below 70% health.&#10;&#10;Critical hits deal bonus damage."/>
 <skill identifier="1879275154" name="Deadly Decoy" category="Lessons of Nature:" iconId="1091798518" description="Drops an explosive decoy that draws the attention of nearby foes. When it explodes, it will damage and stun enemies."/>
 <skill identifier="1879275155" name="Triple Trap" category="Lessons of Nature:" iconId="1090524209" description="Places a trap to root the enemy.&#10;&#10;Trap remains for 60 seconds after being placed."/>
@@ -9098,6 +9098,8 @@
 <skill identifier="1879439451" name="Bombing Run" iconId="1090522259"/>
 <skill identifier="1879439452" name="Bombing Run" iconId="1090522259"/>
 <skill identifier="1879439453" name="Bombing Run" iconId="1090522259"/>
+<skill identifier="1879439769" name="Cruel Swing" iconId="1090522259"/>
+<skill identifier="1879439770" name="Hack" iconId="1090522259"/>
 <skill identifier="1879439820" name="Crush" iconId="1090522259"/>
 <skill identifier="1879439821" name="Smash" iconId="1090522259"/>
 <skill identifier="1879439822" name="Shum Stomp" iconId="1090522259"/>
@@ -9144,12 +9146,26 @@
 <skill identifier="1879440000" name="A Thousand Cuts" iconId="1090522259"/>
 <skill identifier="1879440001" name="Pooling Shadows" iconId="1090522259"/>
 <skill identifier="1879440002" name="Shadow Hurl" iconId="1090522259"/>
+<skill identifier="1879440005" name="Raise Dead" iconId="1090522259"/>
+<skill identifier="1879440006" name="Dark Heart" iconId="1090522259"/>
+<skill identifier="1879440007" name="Summon Blizzard" iconId="1090522259"/>
 <skill identifier="1879440008" name="Shadow Strike" iconId="1090522259"/>
+<skill identifier="1879440009" name="Raise Dead" iconId="1090522259"/>
+<skill identifier="1879440010" name="Summon Blizzard" iconId="1090522259"/>
 <skill identifier="1879440011" name="Dark Heart" iconId="1090522259"/>
 <skill identifier="1879440012" name="Darkness Consumes" iconId="1090522259"/>
+<skill identifier="1879440013" name="Chilling Word" iconId="1090522259"/>
 <skill identifier="1879440014" name="Chilling Word" iconId="1090522259"/>
+<skill identifier="1879440015" name="Chilling Word" iconId="1090522259"/>
+<skill identifier="1879440016" name="Shadow Strike" iconId="1090522259"/>
 <skill identifier="1879440017" name="Raise Dead" iconId="1090522259"/>
+<skill identifier="1879440018" name="Darkness Consumes" iconId="1090522259"/>
+<skill identifier="1879440019" name="Icy Breath" iconId="1090522259"/>
 <skill identifier="1879440020" name="Summon Blizzard" iconId="1090522259"/>
+<skill identifier="1879440021" name="Shadow Strike" iconId="1090522259"/>
+<skill identifier="1879440022" name="Darkness Consumes" iconId="1090522259"/>
+<skill identifier="1879440023" name="Dark Heart" iconId="1090522259"/>
+<skill identifier="1879440024" name="Icy Breath" iconId="1090522259"/>
 <skill identifier="1879440025" name="Icy Breath" iconId="1090522259"/>
 <skill identifier="1879440098" name="White Heartwood Fawn" category="Cosmetic Pets:" iconId="1092699196" description="Summons a heartwood deer to keep you company."/>
 <skill identifier="1879440105" name="Autumn Heartwood Stag" category="Cosmetic Pets:" iconId="1092699197" description="Summons a heartwood deer to keep you company."/>
@@ -9170,4 +9186,30 @@
 <skill identifier="1879440536" name="Goat of Kept Promises" category="Standard Mounts:" iconId="1092699597"/>
 <skill identifier="1879440538" name="Goat of Kept Promises" category="Standard Mounts:" iconId="1092699597"/>
 <skill identifier="1879440969" name="Summon Frost-bear" iconId="1090522259"/>
+<skill identifier="1879442022" name="Shadow Breath" iconId="1090522259"/>
+<skill identifier="1879442024" name="Tail Swipe" iconId="1090522259"/>
+<skill identifier="1879442026" name="Morgul Cleave" iconId="1090522259"/>
+<skill identifier="1879442027" name="Frost Breath" iconId="1090522259"/>
+<skill identifier="1879442028" name="Wing Flap" iconId="1090522259"/>
+<skill identifier="1879442029" name="Frost Breath" iconId="1090522259"/>
+<skill identifier="1879442030" name="Frost Breath" iconId="1090522259"/>
+<skill identifier="1879442034" name="Morgul Cleave" iconId="1090522259"/>
+<skill identifier="1879442036" name="Shadow Breath" iconId="1090522259"/>
+<skill identifier="1879442037" name="Wing Flap" iconId="1090522259"/>
+<skill identifier="1879442038" name="Morgul Cleave" iconId="1090522259"/>
+<skill identifier="1879442039" name="Tail Swipe" iconId="1090522259"/>
+<skill identifier="1879442040" name="Shadow Breath" iconId="1090522259"/>
+<skill identifier="1879442041" name="Tail Swipe" iconId="1090522259"/>
+<skill identifier="1879442042" name="Wing Flap" iconId="1090522259"/>
+<skill identifier="1879442096" name="Yule Princess Bunny" category="Cosmetic Pets:" iconId="1092700803" description="A regal bunny wearing a crown of holly will deign to keep you company."/>
+<skill identifier="1879442107" name="Shire Holly Steed" category="Standard Mounts:" iconId="1092700816" description="This steed is dressed to celebrate the season."/>
+<skill identifier="1879442108" name="Shire Holly Steed" category="Standard Mounts:" iconId="1092700816" description="This steed is dressed to celebrate the season."/>
+<skill identifier="1879442120" name="a moderate melee attack" iconId="1090522259"/>
+<skill identifier="1879442121" name="a minor melee attack" iconId="1090522259"/>
+<skill identifier="1879442376" name="Ice Shard" iconId="1090522259"/>
+<skill identifier="1879442377" name="Shadow Ball" iconId="1090522259"/>
+<skill identifier="1879442378" name="Ice Shard" iconId="1090522259"/>
+<skill identifier="1879442379" name="Ice Shard" iconId="1090522259"/>
+<skill identifier="1879442380" name="Shadow Ball" iconId="1090522259"/>
+<skill identifier="1879442381" name="Shadow Ball" iconId="1090522259"/>
 </skills>

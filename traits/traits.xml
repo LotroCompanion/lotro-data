@@ -2412,7 +2412,7 @@
 <stat name="Combat_DamageQualifier_Magic_Offense_AdditionalMod" scaling="1879425000"/>
 <stat name="Combat_DamageQualifier_Melee_Offense_AdditionalMod" scaling="1879425002"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_AdditionalMod" scaling="1879425001"/>
-<stat name="OUTGOING_HEALING" scaling="1879357898"/>
+<stat name="OUTGOING_HEALING" scaling="1879357901"/>
 </trait>
 <trait identifier="1879231342" name="Audacity" iconId="1091711663" tiers="25" tierProperty="Trait_PvMP_BattleRank_Creep" nature="13" description="Audacity improves your ability to fight the Free People.">
 <stat name="CombatStateMod_CC_DurationMultModifier" operator="MULTIPLY" scaling="1879231529"/>
@@ -5873,9 +5873,8 @@
 </trait>
 <trait identifier="1879313928" name="Flashing Images" iconId="1091915737" tierProperty="trait_class_runekeeper_rank_40" nature="24" description="For a short duration after using Steady Hands to switch attunement, using a skill which returns you to neutral attunement will activate the Steady Hands effect again."/>
 <trait identifier="1879314132" name="Break Ranks" iconId="1091916296" tierProperty="trait_class_guardian_rank_54" nature="27" description="Throw aside your defences to unleash punishment upon the enemy.">
-<stat name="Skill_Guardian_BreakRanks_AppChance" descriptionOverride="Shield-taunt will cash out maximum stacks of Fortification for a 40% group damage buff for 15s.&#10;&#10;This effect has a 60 second cooldown." constant="1.0"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="Gain a passive +${PERCENTVALUE} damage" constant="5.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="Shield-taunt will cash out maximum stacks of Fortification for a 40% group damage buff for 15s.&#10;&#10;This effect puts Shield-taunt on a 60s cooldown when used." constant="5.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="Gain a passive +${PERCENTVALUE} damage" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 </trait>
 <trait identifier="1879314318" name="Honourable Combat" iconId="1091916297" tierProperty="trait_class_guardian_rank_55" nature="27" description="A fair exchange brings rest to both yourself and your foe."/>
@@ -7318,4 +7317,7 @@
 <trait identifier="1879440153" name="Gundabad Vanquisher Accessory" iconId="1092699215" nature="16"/>
 <trait identifier="1879440154" name="Gundabad Vanquisher Saddle" iconId="1092699219" nature="16"/>
 <trait identifier="1879440155" name="Reclaimed Mountain Leg-guards" iconId="1092699220" nature="16"/>
+<trait identifier="1879442110" name="Shire Holly Head Ornament" iconId="1092701033" nature="16"/>
+<trait identifier="1879442111" name="Shire Holly Saddle" iconId="1092701032" nature="16"/>
+<trait identifier="1879442114" name="Shire Holly Caparison" iconId="1092701034" nature="16"/>
 </traits>
