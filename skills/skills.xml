@@ -3818,7 +3818,6 @@
 <skill identifier="1879207562" name="Frozen Boon" iconId="1090522259"/>
 <skill identifier="1879207563" name="Chill of Death" iconId="1090522259"/>
 <skill identifier="1879207673" name="Winter's Curse" iconId="1090522259"/>
-<skill identifier="1879207730" name="Recovery" iconId="1090524209"/>
 <skill identifier="1879207731" name="Recovery" iconId="1090524209"/>
 <skill identifier="1879208430" name="Cave-claw Masked Pony" category="88" iconId="1091643435" description="A pony wearing a mask carved from the skull of a cave-claw, discovered while treasure hunting."/>
 <skill identifier="1879208431" name="White-clad Horse of the Gap" category="88" iconId="1091643452" description="A horse bearing a horsehead emblem in white and gold barding."/>
@@ -6311,9 +6310,9 @@
 <skill identifier="1879319164" name="Sand-flies" category="145" iconId="1091944328" description="Summons some sand-flies to your side. They have taken an interest in you."/>
 <skill identifier="1879319167" name="Stowaway Rat" category="145" iconId="1091944329" description="Summons a stowaway rat to your side. It once lived on a Corsair ship, but now prefers travelling with you!"/>
 <skill identifier="1879319169" name="Aurochs Calf" category="145" iconId="1091944327" description="Summons an aurochs calf to your side. It wants to see the world past Ringló Vale."/>
-<skill identifier="1879319174" name="Vicious Claws" category="147" iconId="1091940919" description="A savage attack that deals damage to your enemy, interrupting their action.&#10;&#10;Generates a small amount of Wrath."/>
-<skill identifier="1879319175" name="Vicious Claws" category="147" iconId="1091940919" description="A savage attack that deals damage to your enemy, interrupting their action.&#10;&#10;Refreshes the duration of Bash if present on the target."/>
-<skill identifier="1879319176" name="Vicious Claws" category="147" iconId="1091940919" description="A savage attack that deals damage to your enemy, interrupting their action.&#10;&#10;Lowers the target's hit chance if the Mark of Beorn is Present.&#10;&#10;Buffs your Mark of Grimbeorn target with the Raging Blow trait."/>
+<skill identifier="1879319174" name="Vicious Claws: Hide" category="147" iconId="1091940919" description="A savage attack that deals damage to your enemy, interrupting their action.&#10;&#10;Generates a small amount of Wrath."/>
+<skill identifier="1879319175" name="Vicious Claws: Claw" category="147" iconId="1091940919" description="A savage attack that deals damage to your enemy, interrupting their action.&#10;&#10;Refreshes the duration of Bash if present on the target."/>
+<skill identifier="1879319176" name="Vicious Claws: Roar" category="147" iconId="1091940919" description="A savage attack that deals damage to your enemy, interrupting their action.&#10;&#10;Lowers the target's hit chance if the Mark of Beorn is Present.&#10;&#10;Buffs your Mark of Grimbeorn target with the Raging Blow trait."/>
 <skill identifier="1879319277" name="Bear-form" category="147" iconId="1091940890" description="Beornings can assume the form of a bear in the midst of combat."/>
 <skill identifier="1879319278" name="Piercing Roar" category="148" iconId="1091940910" description="Your roar pierces the defences of your enemy, causing it to weaken for a brief moment.&#10;&#10;Doubles the potency of the debuff if the Mark of Beorn is present."/>
 <skill identifier="1879319279" name="Grisly Cry" category="148" iconId="1091940898" description="Your roar causes even the staunchest enemies to run in fear.&#10;&#10;If Mark of Beorn is present, fear will apply to all enemies around the target."/>
@@ -8605,6 +8604,7 @@
 <skill identifier="1879411742" name="Wild Grey Donkey" category="145" iconId="1092596062" description="Summons a loveable wild donkey travelling companion."/>
 <skill identifier="1879411744" name="Cask-laden Donkey" category="145" iconId="1092596065" description="Summons a hard-working donkey with portable refreshment."/>
 <skill identifier="1879411745" name="Alabaster Donkey" category="145" iconId="1092596063" description="Summons a loveable and hard-working donkey."/>
+<skill identifier="1879411754" name="Wild Spotted Donkey" category="145" iconId="1092596067" description="Summons a loveable wild donkey travelling companion."/>
 <skill identifier="1879411757" name="Treasure-laden Donkey" category="145" iconId="1092596071" description="Summons a loveable and hard-working donkey, no stranger to glittering treasure."/>
 <skill identifier="1879411758" name="Battle-adorned Pig" category="145" iconId="1092596064" description="Summons a brave, battle-hardened pig to keep you company."/>
 <skill identifier="1879411771" name="Helm's Hammer" category="152" iconId="1092598113" description="Calling upon the spirit of Helm Hammerhand, you infuse your blow to admonish the enemy's corruption.&#10;&#10;Corruption Removal"/>
@@ -9030,7 +9030,7 @@
 <skill identifier="1879426382" name="Plant Feet" category="151" iconId="1091916300" description="Commit yourself to a spot on the battlefield.&#10;&#10;Creates a small hotspot at your feet. While standing in the hotspot, every 4s, gain an increasingly mitigation buff and Mettle."/>
 <skill identifier="1879426396" name="Steady Support" iconId="1090522259"/>
 <skill identifier="1879426398" name="Tenacity of the Dwarves" iconId="1090522259"/>
-<skill identifier="1879426410" name="Mettle Shield" category="151" iconId="1092692927" description="Use your Mettle to defend against incoming attacks.&#10;&#10;Gain significant incoming damage reduction. In this state, succesful attacks against the Brawler will remove 2 Mettle."/>
+<skill identifier="1879426410" name="Mettle Shield" category="151" iconId="1092692927" description="Use your Mettle to defend against incoming attacks.&#10;&#10;Gain significant incoming damage reduction. In this state, successful attacks against the Brawler will remove 2 Mettle."/>
 <skill identifier="1879427868" name="Right Slice" category="8" iconId="1090541160" description="To hear Glúrkub tell it, his foes always underestimate the speed of his right-handed slice."/>
 <skill identifier="1879427869" name="Jump Cut" category="8" iconId="1091591834" description="Glúrkub's most damaging strike requires him to leave his feet, but he does so gracefully and without warning."/>
 <skill identifier="1879427870" name="Backhand Slash" category="8" iconId="1091662020" description="Glúrkub's backhand slash often catches his enemies by surprise."/>
@@ -9216,4 +9216,122 @@
 <skill identifier="1879442839" name="a strong melee attack" iconId="1090522259"/>
 <skill identifier="1879442840" name="a minor melee attack" iconId="1090522259"/>
 <skill identifier="1879442841" name="a moderate melee attack" iconId="1090522259"/>
+<skill identifier="1879443134" name="Frost Heave" iconId="1090522259"/>
+<skill identifier="1879443135" name="Frost Clap" iconId="1090522259"/>
+<skill identifier="1879443136" name="Rend" iconId="1090522259"/>
+<skill identifier="1879443137" name="Fury (Distributed)" iconId="1090522259"/>
+<skill identifier="1879443199" name="Harpoon" iconId="1090522259"/>
+<skill identifier="1879443200" name="Frost Clap" iconId="1090522259"/>
+<skill identifier="1879443201" name="Sweeping Slash" iconId="1090522259"/>
+<skill identifier="1879443202" name="Heavy Hurl" iconId="1090522259"/>
+<skill identifier="1879443247" name="Ice Shard" iconId="1090522259"/>
+<skill identifier="1879443248" name="Avalanche" iconId="1090522259"/>
+<skill identifier="1879443249" name="Avalanche Target" iconId="1090522259"/>
+<skill identifier="1879443250" name="Blizzard Target" iconId="1090522259"/>
+<skill identifier="1879443251" name="Blizzard" iconId="1090522259"/>
+<skill identifier="1879443252" name="Chilling Word" iconId="1090522259"/>
+<skill identifier="1879443761" name="Frost Heave" iconId="1090522259"/>
+<skill identifier="1879443762" name="Sweeping Slash" iconId="1090522259"/>
+<skill identifier="1879443763" name="Avalanche" iconId="1090522259"/>
+<skill identifier="1879443764" name="Rend" iconId="1090522259"/>
+<skill identifier="1879443765" name="Heavy Hurl" iconId="1090522259"/>
+<skill identifier="1879443766" name="Blizzard" iconId="1090522259"/>
+<skill identifier="1879443767" name="Frost Clap" iconId="1090522259"/>
+<skill identifier="1879443768" name="Blizzard Target" iconId="1090522259"/>
+<skill identifier="1879443769" name="Frost Heave" iconId="1090522259"/>
+<skill identifier="1879443770" name="Avalanche" iconId="1090522259"/>
+<skill identifier="1879443771" name="Heavy Hurl" iconId="1090522259"/>
+<skill identifier="1879443772" name="Frost Clap" iconId="1090522259"/>
+<skill identifier="1879443773" name="Ice Shard" iconId="1090522259"/>
+<skill identifier="1879443774" name="Blizzard Target" iconId="1090522259"/>
+<skill identifier="1879443775" name="Avalanche Target" iconId="1090522259"/>
+<skill identifier="1879443776" name="Frost Clap" iconId="1090522259"/>
+<skill identifier="1879443777" name="Ice Shard" iconId="1090522259"/>
+<skill identifier="1879443778" name="Avalanche Target" iconId="1090522259"/>
+<skill identifier="1879443779" name="Harpoon" iconId="1090522259"/>
+<skill identifier="1879443780" name="Harpoon" iconId="1090522259"/>
+<skill identifier="1879443781" name="Fury (Distributed)" iconId="1090522259"/>
+<skill identifier="1879443782" name="Chilling Word" iconId="1090522259"/>
+<skill identifier="1879443783" name="Fury (Distributed)" iconId="1090522259"/>
+<skill identifier="1879443784" name="Chilling Word" iconId="1090522259"/>
+<skill identifier="1879443785" name="Sweeping Slash" iconId="1090522259"/>
+<skill identifier="1879443786" name="Rend" iconId="1090522259"/>
+<skill identifier="1879443787" name="Frost Clap" iconId="1090522259"/>
+<skill identifier="1879443788" name="Blizzard" iconId="1090522259"/>
+<skill identifier="1879444631" name="Split Fuse" iconId="1090522259"/>
+<skill identifier="1879444632" name="Every Second Counts" iconId="1090522259"/>
+<skill identifier="1879444634" name="Insult" iconId="1090522259"/>
+<skill identifier="1879444635" name="Split Fuse" iconId="1090522259"/>
+<skill identifier="1879444637" name="Sizzle" iconId="1090522259"/>
+<skill identifier="1879444640" name="Split Fuse" iconId="1090522259"/>
+<skill identifier="1879444912" name="Guardian's Motivation" iconId="1090522259"/>
+<skill identifier="1879444913" name="Clinging Frost" iconId="1090522259"/>
+<skill identifier="1879444914" name="Clinging Frost" iconId="1090522259"/>
+<skill identifier="1879444915" name="Summon Hobgoblin Totem" iconId="1090522259"/>
+<skill identifier="1879444916" name="Kill-shot" iconId="1090522259"/>
+<skill identifier="1879444917" name="a mighty double attack" iconId="1090522259"/>
+<skill identifier="1879444918" name="Sapper-bomb" iconId="1090522259"/>
+<skill identifier="1879444919" name="Mark of Dushtalbúk" iconId="1090522259"/>
+<skill identifier="1879444920" name="Staggering Cleave" iconId="1090522259"/>
+<skill identifier="1879444921" name="Explosive Finale" iconId="1090522259"/>
+<skill identifier="1879444922" name="Sapper-bomb" iconId="1090522259"/>
+<skill identifier="1879444923" name="Wild Thrash (Distributed)" iconId="1090522259"/>
+<skill identifier="1879444924" name="Dushtalbúk's Determination" iconId="1090522259"/>
+<skill identifier="1879444925" name="a thrown frost attack" iconId="1090522259"/>
+<skill identifier="1879444926" name="Maul" iconId="1090522259"/>
+<skill identifier="1879444927" name="Sacrifice" iconId="1090522259"/>
+<skill identifier="1879444928" name="Incitement" iconId="1090522259"/>
+<skill identifier="1879444929" name="Bloodlet" iconId="1090522259"/>
+<skill identifier="1879444930" name="a mighty melee attack" iconId="1090522259"/>
+<skill identifier="1879444931" name="Hamstring" iconId="1090522259"/>
+<skill identifier="1879444932" name="Guardian's Defiance" iconId="1090522259"/>
+<skill identifier="1879444933" name="Heal the Warlord!" iconId="1090522259"/>
+<skill identifier="1879444934" name="a mighty melee attack" iconId="1090522259"/>
+<skill identifier="1879444935" name="Gift of the Frost-heart" iconId="1090522259"/>
+<skill identifier="1879444937" name="Healing Spores" iconId="1090522259"/>
+<skill identifier="1879444938" name="Rending Cleave" iconId="1090522259"/>
+<skill identifier="1879444939" name="Staggering Whirl" iconId="1090522259"/>
+<skill identifier="1879444940" name="a mighty melee attack" iconId="1090522259"/>
+<skill identifier="1879444941" name="Disregarding Blow" iconId="1090522259"/>
+<skill identifier="1879444942" name="Poison Arrow" iconId="1090522259"/>
+<skill identifier="1879444943" name="Battle-trance" iconId="1090522259"/>
+<skill identifier="1879444944" name="Retaliation" iconId="1090522259"/>
+<skill identifier="1879444945" name="Dire Need" iconId="1090522259"/>
+<skill identifier="1879444946" name="Rain of Arrows" iconId="1090522259"/>
+<skill identifier="1879444947" name="Blind Fury" iconId="1090522259"/>
+<skill identifier="1879444948" name="Skull-bash" iconId="1090522259"/>
+<skill identifier="1879444949" name="Heightened Focus" iconId="1090522259"/>
+<skill identifier="1879445157" name="Muster at Tornhad" category="102" iconId="1092709724" description="Allows the Warden to travel to Tornhad"/>
+<skill identifier="1879445158" name="Guide to Tornhad" category="102" iconId="1092709724" description="Returns you and your Fellowship to Tornhad.&#10;&#10;This skill is easily interrupted."/>
+<skill identifier="1879445160" name="Return to Tornhad" category="102" iconId="1092709724" description="You're able to quickly return to Tornhad. This skill is easily interrupted."/>
+<skill identifier="1879445166" name="Demoralizing Roar" iconId="1090522259"/>
+<skill identifier="1879445170" name="Light Grey Squirrel" category="145" iconId="1092709725" description="A little squirrel who would like to see the world with you."/>
+<skill identifier="1879445181" name="Cinder Hawk" category="145" iconId="1091994130" description="Summons a bird to keep you company."/>
+<skill identifier="1879445899" name="a thrown spear attack" iconId="1090522259"/>
+<skill identifier="1879445900" name="Armour of Thyrstáth" iconId="1090522259"/>
+<skill identifier="1879445901" name="Keeper's Mark" iconId="1090522259"/>
+<skill identifier="1879445902" name="Preserving Words" iconId="1090522259"/>
+<skill identifier="1879445906" name="a ranged frost attack" iconId="1090522259"/>
+<skill identifier="1879445919" name="a mighty double attack" iconId="1090522259"/>
+<skill identifier="1879445920" name="a mighty triple attack" iconId="1090522259"/>
+<skill identifier="1879445921" name="Frost-burst" iconId="1090522259"/>
+<skill identifier="1879445922" name="a mighty melee attack" iconId="1090522259"/>
+<skill identifier="1879445923" name="Lashing Tail" iconId="1090522259"/>
+<skill identifier="1879445924" name="Frost-breath" iconId="1090522259"/>
+<skill identifier="1879445925" name="Wing Buffet" iconId="1090522259"/>
+<skill identifier="1879445926" name="Whirling Frost" iconId="1090522259"/>
+<skill identifier="1879445927" name="Chilling Tussis" iconId="1090522259"/>
+<skill identifier="1879445928" name="Children of the Frost-heart" iconId="1090522259"/>
+<skill identifier="1879445929" name="a mighty melee attack" iconId="1090522259"/>
+<skill identifier="1879445930" name="Feeding Frenzy" iconId="1090522259"/>
+<skill identifier="1879445931" name="Chilling Tussis" iconId="1090522259"/>
+<skill identifier="1879445932" name="a mighty melee attack" iconId="1090522259"/>
+<skill identifier="1879445933" name="Terrifying Roar" iconId="1090522259"/>
+<skill identifier="1879445934" name="Ravenous Jaws" iconId="1090522259"/>
+<skill identifier="1879445935" name="Freezing Mist" iconId="1090522259"/>
+<skill identifier="1879445936" name="Frost-bolt" iconId="1090522259"/>
+<skill identifier="1879446053" name="a massive clawing attack" iconId="1090522259"/>
+<skill identifier="1879446054" name="a massive clawing attack" iconId="1090522259"/>
+<skill identifier="1879446055" name="a devastating bite" iconId="1090522259"/>
+<skill identifier="1879446056" name="Durin's End" iconId="1090522259"/>
 </skills>

@@ -3210,7 +3210,7 @@
 <stat name="Skill_Burglar_Gamble_Damage" scaling="1879268040"/>
 </trait>
 <trait identifier="1879259370" name="Honed Wit" iconId="1091829380" tiers="5" tierProperty="trait_class_burglar_rank_36" nature="19" description="Increases the damage of damage-over-time effects.">
-<stat name="IA_Burglar_bleed_damagemultiplier" scaling="1879268077"/>
+<stat name="Skill_OverTime_Damage" scaling="1879268077"/>
 </trait>
 <trait identifier="1879259371" name="Trip" iconId="1091840422" tierProperty="trait_class_burglar_rank_43" nature="19" description="Earns the skill: Trip."/>
 <trait identifier="1879259442" name="Wildermore - Vendor Discount" iconId="1090535587" nature="1" tooltip="This provides players with a discount with all Wildermore vendors." description="You receive a discount from all Wildermore vendors.">
@@ -4870,7 +4870,7 @@
 <stat name="Trait_Guardian_FoS_OutgoingDamage_Marked_Buff" operator="SUBSTRACT" descriptionOverride="-5% Outgoing Damage" constant="2.5"/>
 <stat name="Trait_Guardian_FoS_MissChance_Marked_Buff" descriptionOverride="+5% Miss Chance" constant="2.5"/>
 </trait>
-<trait identifier="1879272889" name="Adaptability" iconId="1091805234" nature="30" tooltip="Whenever you are hit by an attack, your block and parry ratings will increase. This effect can stack up to 3 times and will last for 10s or until a response skill is used." description="Whenever you are hit by an attack, your block and parry ratings will increase.&#10;&#10;This effect can stack up to 3 times and will last for 10s or until a response skill is used."/>
+<trait identifier="1879272889" name="Adaptability" iconId="1091805234" nature="30" tooltip="Whenever you are hit by an attack, your block and parry ratings will increase. This effect can stack up to 3 times and will last for 10s or until a response skill is used." description="Whenever you are hit by an attack, your block and parry ratings will increase.&#10;&#10;This effect can stack up to 3 times and will last for 20s or until a response skill is used."/>
 <trait identifier="1879272890" name="Mark of Permanence" iconId="1091840445" nature="30" tooltip="Non-damaging debuffs applied to a target marked by Take to Heart become permanent in duration." description="Non-damaging debuffs applied to a target marked by Take to Heart become permanent in duration."/>
 <trait identifier="1879272891" name="Light-touched" iconId="1091805245" nature="30" tooltip="This trait enhances your melee damage, and incoming healing.&#10;&#10;You will also be able to block with 2-handed weapons." description="This trait enhances your melee damage, and incoming healing.&#10;&#10;You will also be able to block with 2-handed weapons.">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
@@ -7073,7 +7073,7 @@
 <specialEffect label="Tier 1: +2.5% Parry chance&#10;Tier 2: +5% Parry Chance&#10;Tier 3: +7.5% Parry Chance&#10;Tier 4: +10% Parry Chance"/>
 </trait>
 <trait identifier="1879420183" name="Eager Challenger" iconId="1091830278" nature="30" description="You excel at drawing ire.">
-<stat name="Skill_Brawler_Aoe_Taunt_CD" descriptionOverride="'Come At Me' Cooldown reduced by ${VALUE}s" constant="-30.0"/>
+<stat name="Skill_Brawler_Aoe_Taunt_CD" descriptionOverride="'Come At Me' Cooldown reduced by ${VALUE}s" constant="-20.0"/>
 </trait>
 <trait identifier="1879420184" name="Innate Strength: Intimidating Presence" iconId="1092693311" nature="30" description="Quick Attacks grant the buff 'Innate Strength: Intimidating Presence', increasing the Brawler’s ability to generate threat.&#10;&#10;If a Quick Attack is performed while 'Innate Strength: Intimidating Presence' is still active, the buff is instead advanced to a higher tier, to a maximum of Tier 4.">
 <specialEffect label="Tier 1: +5% Threat Generated&#10;Tier 2: +10% Threat Generated&#10;Tier 3: +15% Threat Generated&#10;Tier 4: +20% Threat Generated"/>
@@ -7320,4 +7320,14 @@
 <trait identifier="1879442110" name="Shire Holly Head Ornament" iconId="1092701033" nature="16"/>
 <trait identifier="1879442111" name="Shire Holly Saddle" iconId="1092701032" nature="16"/>
 <trait identifier="1879442114" name="Shire Holly Caparison" iconId="1092701034" nature="16"/>
+<trait identifier="1879442484" name="Erebor Home" iconId="1091404800" nature="1" tooltip="Erebor Homestead" description="You are the proud owner of a house in Erebor. This privilege grants you a 15% discount from neighbourhood vendors."/>
+<trait identifier="1879442487" name="Erebor Home" iconId="1091404801" nature="1" tooltip="Erebor Homestead" description="You are the proud owner of a house in Erebor. This privilege grants you a 20% discount from neighbourhood vendors."/>
+<trait identifier="1879442488" name="Erebor Home" iconId="1091404801" nature="1" tooltip="Erebor Homestead" description="You are the proud owner of a house in Erebor. This privilege grants you a 20% discount from neighbourhood vendors."/>
+<trait identifier="1879442489" name="Erebor Kinship Hall" iconId="1091404802" nature="1" tooltip="Erebor Kinship Hall" description="You are the proud owner of a house in Erebor. This privilege grants you a 15% discount from neighbourhood vendors."/>
+<trait identifier="1879443119" name="Yondershire - Travel Discount" iconId="1091552099" nature="1" tooltip="This gives the player a 10% discount from all stable-masters within Yondershire." description="You receive a discount from all stable-masters within Yondershire.">
+<stat name="Discount_Travel_Yondershire" constant="25.0"/>
+</trait>
+<trait identifier="1879443122" name="Yondershire - Vendor Discount" iconId="1090535587" nature="1" tooltip="This provides players with a discount with all vendors within Yondershire." description="You receive a discount from all vendors within Yondershire.">
+<stat name="Discount_Yondershire" constant="5.0"/>
+</trait>
 </traits>
