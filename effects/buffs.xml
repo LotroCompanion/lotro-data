@@ -34,6 +34,16 @@
 </effect>
 </buff>
 <buff>
+<effect id="1879073616" name="Dwarf Endurance" iconId="1090554033" duration="600.0">
+<stat name="VITALITY" scaling="1879085262"/>
+</effect>
+</buff>
+<buff>
+<effect id="1879084065" name="Duty Bound" iconId="1090553996" duration="600.0">
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="+${PERCENTVALUE} ${PROPERTY}" constant="1.05"/>
+</effect>
+</buff>
+<buff>
 <effect id="1879095617" name="Dissonance" iconId="1091400695">
 <stat name="BALLAD_AND_CODA_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ballad Damage &#10;&#10;&lt;rgb=#FF7700&gt; All Heals become Self-only&lt;/rgb&gt;" constant="25.0"/>
 </effect>
