@@ -17686,7 +17686,7 @@
 </bonus>
 </set>
 <set id="1879362452" name="Changeling's Battle-gear of the Abyss" level="345" description="">
-<item id="1879364661" name="Changeling's Coif of the Abyss"/>
+<item id="1879412600" name="Changeling's Heavy Coif of the Abyss"/>
 <item id="1879362532" name="Changeling's Camail of the Abyss"/>
 <item id="1879362536" name="Changeling's Hauberk of the Abyss"/>
 <item id="1879362533" name="Changeling's Gages of the Abyss"/>
@@ -17772,7 +17772,7 @@
 </bonus>
 </set>
 <set id="1879362458" name="Weald-guard's Battle-gear of the Abyss" level="345" description="">
-<item id="1879364632" name="Weald-guard's Coif of the Abyss"/>
+<item id="1879412599" name="Weald-guard's Heavy Coif of the Abyss"/>
 <item id="1879362563" name="Weald-guard's Camail of the Abyss"/>
 <item id="1879362570" name="Weald-guard's Hauberk of the Abyss"/>
 <item id="1879362567" name="Weald-guard's Gages of the Abyss"/>
@@ -17943,7 +17943,7 @@
 </bonus>
 </set>
 <set id="1879362470" name="Berserker's Battle-gear of the Abyss" level="345" description="">
-<item id="1879364639" name="Berserker's Coif of the Abyss"/>
+<item id="1879412603" name="Berserker's Heavy Coif of the Abyss"/>
 <item id="1879362569" name="Berserker's Camail of the Abyss"/>
 <item id="1879362572" name="Berserker's Hauberk of the Abyss"/>
 <item id="1879362571" name="Berserker's Gages of the Abyss"/>
@@ -19300,7 +19300,7 @@
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Warden_Mastery_RecoveryTime" operator="SUBSTRACT" descriptionOverride="-3 Cooldown on all Mastery skills." constant="3.0"/>
+<stat name="Skill_Warden_Mastery_RecoveryTime" operator="SUBSTRACT" descriptionOverride="-3s Cooldown on all Mastery skills." constant="3.0"/>
 </bonus>
 <bonus nbItems="5"/>
 </set>
@@ -20190,7 +20190,7 @@
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Warden_Mastery_RecoveryTime" operator="SUBSTRACT" descriptionOverride="-3 Cooldown on all Mastery skills." constant="3.0"/>
+<stat name="Skill_Warden_Mastery_RecoveryTime" operator="SUBSTRACT" descriptionOverride="-3s Cooldown on all Mastery skills." constant="3.0"/>
 </bonus>
 <bonus nbItems="5"/>
 </set>
@@ -22157,7 +22157,7 @@
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Captain_InHarmsWay_Reduction_AppChance" operator="SET" descriptionOverride="In Harms Way now applies its damage reduction bonus to the Captain's allies during its effect." constant="100.0"/>
+<stat name="Trait_Captain_InHarmsWay_IncDamageMod_Itemset" descriptionOverride="-20% Ally Damage Reduction from In Harm's Way." constant="20.0"/>
 </bonus>
 <bonus nbItems="5"/>
 </set>
@@ -22390,5 +22390,223 @@
 <specialEffect label="Fury of Blades adds 10% Critical Damage to 'Engage the Tide' skills."/>
 </bonus>
 <bonus nbItems="5"/>
+</set>
+<set id="1879447947" name="Grand Willpower" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879424705" name="Grand Willpower"/>
+<item id="1879424742" name="Grand Willpower"/>
+<item id="1879424751" name="Grand Willpower"/>
+<item id="1879424757" name="Grand Willpower"/>
+<item id="1879425369" name="Grand Willpower"/>
+<item id="1879425809" name="Grand Willpower"/>
+<item id="1879425834" name="Grand Willpower"/>
+<item id="1879426049" name="Grand Willpower"/>
+<item id="1879431720" name="Grand Willpower"/>
+<item id="1879432059" name="Grand Willpower"/>
+<item id="1879432118" name="Grand Willpower"/>
+<item id="1879432197" name="Grand Willpower"/>
+<item id="1879434983" name="Grand Willpower"/>
+<item id="1879435324" name="Grand Willpower"/>
+<item id="1879435376" name="Grand Willpower"/>
+<item id="1879435441" name="Grand Willpower"/>
+<item id="1879435617" name="Grand Willpower"/>
+<item id="1879435884" name="Grand Willpower"/>
+<item id="1879436644" name="Grand Willpower"/>
+<item id="1879437012" name="Grand Willpower"/>
+<item id="1879437046" name="Grand Willpower"/>
+<item id="1879437080" name="Grand Willpower"/>
+<item id="1879437152" name="Grand Willpower"/>
+<item id="1879437165" name="Grand Willpower"/>
+<item id="1879437375" name="Grand Willpower"/>
+<item id="1879437431" name="Grand Willpower"/>
+<item id="1879437517" name="Grand Willpower"/>
+<item id="1879437952" name="Grand Willpower"/>
+<bonus nbItems="2">
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="TACTICAL_MITIGATION" scaling="1879215079"/>
+</bonus>
+</set>
+<set id="1879447948" name="Heroic Alacrity" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879424675" name="Heroic Alacrity"/>
+<item id="1879424717" name="Heroic Alacrity"/>
+<item id="1879424736" name="Heroic Alacrity"/>
+<item id="1879424769" name="Heroic Alacrity"/>
+<item id="1879425277" name="Heroic Alacrity"/>
+<item id="1879425503" name="Heroic Alacrity"/>
+<item id="1879425695" name="Heroic Alacrity"/>
+<item id="1879425960" name="Heroic Alacrity"/>
+<item id="1879431508" name="Heroic Alacrity"/>
+<item id="1879431909" name="Heroic Alacrity"/>
+<item id="1879432039" name="Heroic Alacrity"/>
+<item id="1879432359" name="Heroic Alacrity"/>
+<item id="1879432460" name="Heroic Alacrity"/>
+<item id="1879432885" name="Heroic Alacrity"/>
+<item id="1879433058" name="Heroic Alacrity"/>
+<item id="1879433593" name="Heroic Alacrity"/>
+<item id="1879433946" name="Heroic Alacrity"/>
+<item id="1879435264" name="Heroic Alacrity"/>
+<item id="1879435399" name="Heroic Alacrity"/>
+<item id="1879435785" name="Heroic Alacrity"/>
+<item id="1879435888" name="Heroic Alacrity"/>
+<item id="1879435989" name="Heroic Alacrity"/>
+<item id="1879436458" name="Heroic Alacrity"/>
+<item id="1879436606" name="Heroic Alacrity"/>
+<item id="1879436624" name="Heroic Alacrity"/>
+<item id="1879437039" name="Heroic Alacrity"/>
+<item id="1879437167" name="Heroic Alacrity"/>
+<item id="1879437915" name="Heroic Alacrity"/>
+<bonus nbItems="2">
+<stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="FINESSE" scaling="1879211717"/>
+</bonus>
+</set>
+<set id="1879447949" name="Grand Armour" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879424684" name="Grand Armour"/>
+<item id="1879424704" name="Grand Armour"/>
+<item id="1879424708" name="Grand Armour"/>
+<item id="1879424714" name="Grand Armor"/>
+<item id="1879425273" name="Grand Armour"/>
+<item id="1879425536" name="Grand Armour"/>
+<item id="1879425888" name="Grand Armour"/>
+<item id="1879425999" name="Grand Armour"/>
+<item id="1879431600" name="Grand Armour"/>
+<item id="1879432138" name="Grand Armour"/>
+<item id="1879434140" name="Grand Armour"/>
+<item id="1879434446" name="Grand Armour"/>
+<item id="1879434492" name="Grand Armour"/>
+<item id="1879434802" name="Grand Armour"/>
+<item id="1879434838" name="Grand Armour"/>
+<item id="1879434914" name="Grand Armour"/>
+<item id="1879435133" name="Grand Armour"/>
+<item id="1879435206" name="Grand Armour"/>
+<item id="1879435406" name="Grand Armour"/>
+<item id="1879435571" name="Grand Armour"/>
+<item id="1879435592" name="Grand Armour"/>
+<item id="1879435737" name="Grand Armour"/>
+<item id="1879435907" name="Grand Armour"/>
+<item id="1879435975" name="Grand Armour"/>
+<item id="1879436019" name="Grand Armour"/>
+<item id="1879436105" name="Grand Armour"/>
+<item id="1879436227" name="Grand Armour"/>
+<item id="1879436287" name="Grand Armour"/>
+<bonus nbItems="2">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="PHYSICAL_MITIGATION" scaling="1879215069"/>
+</bonus>
+</set>
+<set id="1879447950" name="Perfect Recovery" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879424698" name="Perfect Recovery"/>
+<item id="1879424732" name="Perfect Recovery"/>
+<item id="1879424743" name="Perfect Recovery"/>
+<item id="1879424744" name="Perfect Recovery"/>
+<item id="1879425680" name="Perfect Recovery"/>
+<item id="1879425863" name="Perfect Recovery"/>
+<item id="1879426009" name="Perfect Recovery"/>
+<item id="1879426015" name="Perfect Recovery"/>
+<item id="1879431625" name="Perfect Recovery"/>
+<item id="1879431803" name="Perfect Recovery"/>
+<item id="1879431894" name="Perfect Recovery"/>
+<item id="1879431966" name="Perfect Recovery"/>
+<item id="1879432057" name="Perfect Recovery"/>
+<item id="1879432248" name="Perfect Recovery"/>
+<item id="1879432549" name="Perfect Recovery"/>
+<item id="1879432564" name="Perfect Recovery"/>
+<item id="1879432927" name="Perfect Recovery"/>
+<item id="1879432933" name="Perfect Recovery"/>
+<item id="1879432945" name="Perfect Recovery"/>
+<item id="1879433245" name="Perfect Recovery"/>
+<item id="1879433558" name="Perfect Recovery"/>
+<item id="1879434265" name="Perfect Recovery"/>
+<item id="1879434274" name="Perfect Recovery"/>
+<item id="1879436255" name="Perfect Recovery"/>
+<item id="1879436526" name="Perfect Recovery"/>
+<item id="1879436816" name="Perfect Recovery"/>
+<item id="1879437491" name="Perfect Recovery"/>
+<item id="1879437501" name="Perfect Recovery"/>
+<bonus nbItems="2">
+<stat name="INCOMING_HEALING_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="INCOMING_HEALING" scaling="1879211893"/>
+</bonus>
+</set>
+<set id="1879447951" name="Heroic Precision" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879424700" name="Heroic Precision"/>
+<item id="1879424734" name="Heroic Precision"/>
+<item id="1879424740" name="Heroic Precision"/>
+<item id="1879424746" name="Heroic Precision"/>
+<item id="1879425555" name="Heroic Precision"/>
+<item id="1879425668" name="Heroic Precision"/>
+<item id="1879425758" name="Heroic Precision"/>
+<item id="1879425930" name="Heroic Precision"/>
+<item id="1879431523" name="Heroic Precision"/>
+<item id="1879431949" name="Heroic Precision"/>
+<item id="1879432936" name="Heroic Precision"/>
+<item id="1879433127" name="Heroic Precision"/>
+<item id="1879433229" name="Heroic Precision"/>
+<item id="1879433275" name="Heroic Precision"/>
+<item id="1879433277" name="Heroic Precision"/>
+<item id="1879433374" name="Heroic Precision"/>
+<item id="1879433459" name="Heroic Precision"/>
+<item id="1879433506" name="Heroic Precision"/>
+<item id="1879433597" name="Heroic Precision"/>
+<item id="1879433647" name="Heroic Precision"/>
+<item id="1879433687" name="Heroic Precision"/>
+<item id="1879433741" name="Heroic Precision"/>
+<item id="1879434383" name="Heroic Precision"/>
+<item id="1879435996" name="Heroic Precision"/>
+<item id="1879436193" name="Heroic Precision"/>
+<item id="1879436319" name="Heroic Precision"/>
+<item id="1879436395" name="Heroic Precision"/>
+<item id="1879436918" name="Heroic Precision"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="+3% Critical Hit Chance" constant="3.0"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+</set>
+<set id="1879447952" name="Perfect Healing" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879424687" name="Perfect Healing"/>
+<item id="1879424707" name="Perfect Healing"/>
+<item id="1879424712" name="Perfect Healing"/>
+<item id="1879424719" name="Perfect Healing"/>
+<item id="1879425284" name="Perfect Healing"/>
+<item id="1879425732" name="Perfect Healing"/>
+<item id="1879425881" name="Perfect Healing"/>
+<item id="1879425956" name="Perfect Healing"/>
+<item id="1879431875" name="Perfect Healing"/>
+<item id="1879431953" name="Perfect Healing"/>
+<item id="1879432202" name="Perfect Healing"/>
+<item id="1879432816" name="Perfect Healing"/>
+<item id="1879432888" name="Perfect Healing"/>
+<item id="1879432952" name="Perfect Healing"/>
+<item id="1879433310" name="Perfect Healing"/>
+<item id="1879433321" name="Perfect Healing"/>
+<item id="1879433961" name="Perfect Healing"/>
+<item id="1879434040" name="Perfect Healing"/>
+<item id="1879434691" name="Perfect Healing"/>
+<item id="1879434770" name="Perfect Healing"/>
+<item id="1879435034" name="Perfect Healing"/>
+<item id="1879435098" name="Perfect Healing"/>
+<item id="1879435102" name="Perfect Healing"/>
+<item id="1879435613" name="Perfect Healing"/>
+<item id="1879435674" name="Perfect Healing"/>
+<item id="1879435693" name="Perfect Healing"/>
+<item id="1879435748" name="Perfect Healing"/>
+<item id="1879435825" name="Perfect Healing"/>
+<bonus nbItems="2">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="OUTGOING_HEALING" scaling="1879357899"/>
+</bonus>
 </set>
 </sets>

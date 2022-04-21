@@ -423,7 +423,7 @@
 <trait identifier="1879064108" name="Bows" iconId="1090552291" nature="1" tooltip="Allows the use of Bows" description="Allows the use of Bows. Bows have a small chance of landing Critical Hits when using auto-attack."/>
 <trait identifier="1879064109" name="Heavy Armour" iconId="1090552292" nature="1" tooltip="Allows the use of Heavy Armour" description="Allows the use of Heavy Armour."/>
 <trait identifier="1879064155" name="Two-handed Clubs" iconId="1090552308" nature="1" tooltip="Allows the use of Two-handed Clubs" description="Allows the use of Two-handed Clubs. Clubs have a small chance of slowing the target's Attack Speed."/>
-<trait identifier="1879064160" name="Halberd" iconId="1090552309" nature="1" tooltip="Allows the use of Halberds" description="Allows the use of Halberds. Halberds increase threat level, drawing the attention of your enemies upon yourself."/>
+<trait identifier="1879064160" name="Halberd" iconId="1090552309" nature="1" tooltip="Allows the use of Halberds" description="Allows the use of Halberds. Halberds have a small chance of landing Critical Hits when using auto-attacks."/>
 <trait identifier="1879064173" name="Summoning Horn Use" iconId="1090561670" nature="1" tooltip="Allows the usage of Summoning Horns." description="Allows the use of summoning horns."/>
 <trait identifier="1879064210" name="Lute Use" iconId="1090641993" nature="1" cosmetic="true" tooltip="Allows the usage of Lutes." description="Allows the use of Lutes."/>
 <trait identifier="1879064211" name="Clarinet Use" iconId="1090641991" nature="1" cosmetic="true" tooltip="Allows the usage of Clarinets." description="Allows the use of Clarinets."/>
@@ -4010,7 +4010,7 @@
 <trait identifier="1879269777" name="Hardened Heart" iconId="1091831479" tiers="3" tierProperty="trait_class_captain_rank_39" nature="26" description="Increases Critical hit damage of Melee skills while in Battle-hardened state.">
 <stat name="Trait_Captain_HardenedHeart_CriticalDamageMod" descriptionOverride="+${PERCENTVALUE} Melee Skill Critical Damage" scaling="1879270900"/>
 </trait>
-<trait identifier="1879269778" name="Sic 'em" iconId="1091829955" tierProperty="trait_class_loremaster_rank_30" nature="20" description="Earns the skill: Sic 'em.&#10;&#10;Enables you to summon a host of wild animals to your aid, but they cannot be controlled."/>
+<trait identifier="1879269778" name="A Murder of Crows" iconId="1092720668" tierProperty="trait_class_loremaster_rank_30" nature="20" description="Earns the skill: A Murder of Crows.&#10;&#10;Enables you to summon a vast flock of crows to harass your enemies for a short time."/>
 <trait identifier="1879269779" name="Knowledge of Storms" iconId="1091455330" tiers="5" tierProperty="trait_class_loremaster_rank_4" nature="20" description="Deal more damage with Lightning attacks.">
 <stat name="Combat_SkillDamageMultiplier_Lightning" scaling="1879270039"/>
 </trait>
@@ -4019,7 +4019,7 @@
 <stat name="Skill_Loremaster_FendThemOff_FireDamage_StringDummy" descriptionOverride="+${PERCENTVALUE} Fire Damage" scaling="1879286647"/>
 <specialEffect label="Triggering Sword and Storm will also grant a temporary buff on the Lore-master:"/>
 </trait>
-<trait identifier="1879269781" name="Ancient Fire" iconId="1091829938" tiers="5" tierProperty="trait_class_loremaster_rank_5" nature="20" description="Gives Gust of Wind a chance to upgrade 2 Burning Embers DoT effects at once.">
+<trait identifier="1879269781" name="Ancient Fire" iconId="1091829938" tiers="5" tierProperty="trait_class_loremaster_rank_5" nature="20" description="Gives Gust of Wind a chance to upgrade the Burning Embers DoT effect.">
 <stat name="Skill_Loremaster_AncientFire_AppChance" scaling="1879270038"/>
 </trait>
 <trait identifier="1879269782" name="Catmint" iconId="1091829960" tierProperty="trait_class_loremaster_rank_25" nature="20" description="Earns the skill: Catmint."/>
@@ -4098,8 +4098,8 @@
 <trait identifier="1879269805" name="Go for the Throat" iconId="1091829952" tiers="5" tierProperty="trait_class_loremaster_rank_18" nature="20" description="Increases your pet's Critical rating.">
 <stat name="Skill_Loremaster_PetCrit" scaling="1879270036"/>
 </trait>
-<trait identifier="1879269806" name="Fierce Lightning" iconId="1091829942" tiers="5" tierProperty="trait_class_loremaster_rank_12" nature="20" description="Lightning-storm may set the ground beneath the enemy afire, dealing additional Fire damage.">
-<stat name="Skill_Loremaster_FierceLightning_AppChance" descriptionOverride="+${PERCENTVALUE} Chance for Lightning-storm to ignite the ground" scaling="1879271238"/>
+<trait identifier="1879269806" name="Fierce Lightning" iconId="1091829942" tiers="5" tierProperty="trait_class_loremaster_rank_12" nature="20" description="Your Lightning skills may set your enemies alight, dealing additional Fire damage over time.">
+<stat name="Skill_Loremaster_FierceLightning_AppChance" descriptionOverride="+${PERCENTVALUE} Chance for Lightning skills to ignite targets." scaling="1879271238"/>
 </trait>
 <trait identifier="1879269820" name="After-battle Treat" iconId="1091829935" tiers="3" tierProperty="trait_class_loremaster_rank_27" nature="20" description="After a battle is finished, your pet receives positive reinforcement from you; it gains Morale and a damage buff.">
 <stat name="Skill_Loremaster_AfterBattleTreat_Buff" scaling="1879278306"/>
@@ -4189,7 +4189,7 @@
 <stat name="FINESSE" tieredScaling="1879367860;1879367858;1879367861;1879367859;1879367857"/>
 </trait>
 <trait identifier="1879270419" name="A Champion's Duel" iconId="1091830061" tierProperty="trait_class_champion_rank_15" nature="23" description="Debuffs the target's damage and movement speed, while increasing the strength of the Champion."/>
-<trait identifier="1879270420" name="Strong Armed Swings" iconId="1091830067" tiers="5" tierProperty="trait_class_champion_rank_4" nature="23" description="Every hit on Strikes skills deal additional damage.">
+<trait identifier="1879270420" name="Strong Armed Swings" iconId="1091830067" tiers="5" tierProperty="trait_class_champion_rank_4" nature="23" description="Strike skills deal additional damage.">
 <stat name="Skill_Champion_AddStrike_DamageMod" descriptionOverride="+${PERCENTVALUE} Damage for Strike skills" scaling="1879270963"/>
 </trait>
 <trait identifier="1879270421" name="Blade of Courage" iconId="1091830056" tiers="3" tierProperty="trait_class_champion_rank_27" nature="23" description="Blade skills have a chance to return health to the Champion on use."/>
@@ -4385,8 +4385,10 @@
 <trait identifier="1879270744" name="Resonant Piercing Cry" iconId="1091840504" tierProperty="trait_class_minstrel_rank_8" nature="22" description="Tune your Piercing Cry to both help your allies and harm your foes.">
 <specialEffect label="Scoring a Critical Hit with Resonant Piercing Cry places an area around the target lasting 20s.&#10;Bolster Courage and Raise the Spirit are more effective on allies within this area."/>
 </trait>
-<trait identifier="1879270745" key="ENDURING_MORALE" name="Enduring Morale" iconId="1091830254" tiers="5" tierProperty="trait_class_minstrel_rank_22" nature="22" description="Increases max Morale.">
-<stat name="MORALE" tieredScaling="1879211574;1879211989;1879211583;1879212170;1879211538"/>
+<trait identifier="1879270745" key="ENDURING_MORALE" name="Enduring Morale" iconId="1091830254" tiers="5" tierProperty="trait_class_minstrel_rank_22" nature="22" description="Increases max Morale.&#10;&#10;At rank 3 Call of the Second Age gains a short Stun effect.">
+<stat name="MORALE" tieredScaling="1879398432;1879398422;1879446696;1879446695;1879446691"/>
+<stat name="Trait_Minstrel_CallSecondAge_Stun_Duration" scaling="1879446702"/>
+<stat name="Trait_Minstrel_CallSecondAge_Stun_AppChance" descriptionOverride="-" scaling="1879447694"/>
 </trait>
 <trait identifier="1879270746" name="Pause for Breath" iconId="1091830268" tiers="3" tierProperty="trait_class_minstrel_rank_5" nature="22" description="Healing skills have a chance to refund their Power cost.&#10;&#10;At max rank, heals refund more than their Power cost.">
 <stat name="Skill_Minstrel_Resolve_PowerRestore" scaling="1879272040"/>
@@ -4398,6 +4400,7 @@
 <trait identifier="1879270750" name="Echoing Anthem of War" iconId="1091840501" tierProperty="trait_class_minstrel_rank_25" nature="22" description="Anthem of War improves your allies' Tactical damage."/>
 <trait identifier="1879270751" name="Piercing Ballads" iconId="1091840513" tiers="5" tierProperty="trait_class_minstrel_rank_19" nature="22" description="Increases the Critical Chance of Ballad skills.">
 <stat name="Skill_Minstrel_CriticalChance_Ballad" scaling="1879260049"/>
+<stat name="FINESSE" tieredScaling="1879367860;1879367858;1879367861;1879367859;1879367857"/>
 </trait>
 <trait identifier="1879270752" name="Improved Hero's Strike" iconId="1091830272" tiers="3" tierProperty="trait_class_minstrel_rank_38" nature="22" description="Increases damage and healing done by Hero's Strike.">
 <stat name="Trait_Minstrel_Heros_Strike_Damage" descriptionOverride="+${PERCENTVALUE} Hero's Strike Damage" scaling="1879271723"/>
@@ -4421,8 +4424,8 @@
 <trait identifier="1879270759" name="Improved Song of the Hammerhand" iconId="1091840486" tiers="3" tierProperty="trait_class_minstrel_rank_10" nature="22" description="Enhances the potency the bubble from Song of the Hammerhand.">
 <stat name="Skill_Minstrel_Song_of_Hammerhand_Bubble" scaling="1879314671"/>
 </trait>
-<trait identifier="1879270760" key="FINESSE_MINSTREL" name="Finesse" iconId="1091830258" tiers="5" tierProperty="trait_class_minstrel_rank_26" nature="22" description="Finesse rating is improved.">
-<stat name="FINESSE" tieredScaling="1879367860;1879367858;1879367861;1879367859;1879367857"/>
+<trait identifier="1879270760" key="FINESSE_MINSTREL" name="Song of Arda" iconId="1092402731" tiers="5" tierProperty="trait_class_minstrel_rank_26" nature="22" description="The Minstrel's Light damage is improved.">
+<stat name="Combat_SkillDamageMultiplier_Light" scaling="1879446723"/>
 </trait>
 <trait identifier="1879270761" name="Change of Pace - Heal!" iconId="1091830255" tiers="5" tierProperty="trait_class_minstrel_rank_44" nature="22" description="Offensive skills have a chance to grant you a buff that will make your next healing skill crit."/>
 <trait identifier="1879270762" name="Follow Up" iconId="1091840543" tiers="2" tierProperty="trait_class_minstrel_rank_11" nature="22" description="Critical Heals speed up skill use."/>
@@ -5161,7 +5164,7 @@
 <stat name="Itemset_Application_Loremaster_WoC" constant="10.0"/>
 </trait>
 <trait identifier="1879275324" name="Advanced Knowledge of Cures" iconId="1091840550" nature="30" description="Knowledge of Cures is now instant-cast."/>
-<trait identifier="1879275325" name="Stamp Out the Fire" iconId="1091829954" nature="30" description="Your pets deal bonus damage to enemies suffering from Burning Embers."/>
+<trait identifier="1879275325" name="Kindred Flame" iconId="1091829934" nature="30" description="Your Inner Flame skill buffs your damage further, and now increases your pet's damage and mitigation temporarily."/>
 <trait identifier="1879275330" name="Flame of Anor" iconId="1091829928" nature="30" tooltip="Sign of Battle: Wizard's Fire now affects up to 2 additional targets." description="Sign of Battle: Wizard's Fire now affects up to 2 additional targets.">
 <stat name="Skill_Loremaster_NaturesFury_Lightning_AppChance" constant="35.0"/>
 </trait>
@@ -5216,8 +5219,8 @@
 <trait identifier="1879276056" name="Encore" iconId="1091810108" nature="30" description="There is a small chance that a Coda will not consume your Ballads.">
 <stat name="Skill_Minstrel_CodaCashout_AppChance" constant="-30.000002"/>
 </trait>
-<trait identifier="1879276057" name="Concentration" iconId="1091840476" nature="30" description="You gain immunity to interruption and induction setback for 5 seconds after scoring a Critical Hit with a Cry or Call.">
-<specialEffect label="Scoring a Critical or Devastating Hit with a Cry or Call will grant 5s of Induction Setback Immunity"/>
+<trait identifier="1879276057" name="Concentration" iconId="1091840476" nature="30" description="Increases the Minstrel's attack speed by 10%.">
+<stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </trait>
 <trait identifier="1879276058" name="Discordant Ballads" iconId="1091840489" nature="30" description="All Ballads now grant you a Tactical Damage Buff.">
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
@@ -5535,7 +5538,7 @@
 <trait identifier="1879283653" name="Raise Our Spirits" iconId="1090553793" tiers="3" tierProperty="trait_class_minstrel_rank_40" nature="22" description="Raise the Spirit provides a fellowship-wide AoE heal.">
 <stat name="Skill_Minstrel_RaiseOurSpirits_HoT" scaling="1879369077"/>
 </trait>
-<trait identifier="1879283654" name="Emboldening Finish" iconId="1091830279" tiers="3" tierProperty="trait_class_minstrel_rank_21" nature="22" description="Ballads have a chance to build a stacking enhancement for Coda of Dissonance.&#10;&#10;Each stack will cause Coda of Dissonance to add a +3% damage buff, up to 15%.">
+<trait identifier="1879283654" name="Emboldening Finish" iconId="1091830279" tiers="3" tierProperty="trait_class_minstrel_rank_21" nature="22" description="Ballads have a chance to build a stacking enhancement for Coda of Dissonance.&#10;&#10;Each stack will cause Coda of Dissonance to add a +5% damage buff, up to 25%.">
 <stat name="Skill_Minstrel_Emboldening_Finish" scaling="1879283691"/>
 </trait>
 <trait identifier="1879283655" name="Inspiring Finish" iconId="1091840545" tiers="3" tierProperty="trait_class_minstrel_rank_7" nature="22" description="Ballads have a chance to build a stacking enhancement for Coda of Resonance.&#10;&#10;Each stack will cause Coda of Resonance to add 3% Outgoing Healing, up to 15%.">
@@ -7005,7 +7008,7 @@
 <trait identifier="1879412667" name="Set-up Attack Damage" iconId="1092692925" tiers="5" tierProperty="trait_class_brawler_rank_17" nature="32" description="Set-up attacks deal more damage.">
 <stat name="Skill_Brawler_BasicAttack_Damage" scaling="1879412671"/>
 </trait>
-<trait identifier="1879412668" name="Fulgurant Strike Cooldown" iconId="1091509864" tiers="5" tierProperty="trait_class_brawler_rank_18" nature="32" description="Reduces the cooldown of Fulgurant Strike.">
+<trait identifier="1879412668" name="Fulgurant Strike Cooldown" iconId="1091401425" tiers="5" tierProperty="trait_class_brawler_rank_18" nature="32" description="Reduces the cooldown of Fulgurant Strike.">
 <stat name="Skill_Brawler_Interrupt_CD" operator="SUBSTRACT" descriptionOverride="Fulgurant Strike Cooldown reduced by ${VALUE}s" scaling="1879412662"/>
 </trait>
 <trait identifier="1879412670" name="Retaliatory Precision" iconId="1092692929" tiers="3" tierProperty="trait_class_brawler_rank_8" nature="32" description="When the Brawler Parries, gain a Finesse buff."/>
@@ -7061,7 +7064,7 @@
 <trait identifier="1879419269" name="Lasting Weakness" iconId="1091840474" tiers="3" tierProperty="trait_class_brawler_rank_38" nature="32" description="Your targets remain vulnerable for a longer duration">
 <stat name="Duration_Brawler_Vulnerable" descriptionOverride="Vulnerable duration increased by ${VALUE}s" scaling="1879419268"/>
 </trait>
-<trait identifier="1879419275" name="Latent Light" iconId="1091830148" tierProperty="trait_class_brawler_rank_24" nature="32" description="All Mettle spending attacks have a chance to trigger a burst of light-type damage."/>
+<trait identifier="1879419275" name="Latent Light" iconId="1091830148" tierProperty="trait_class_brawler_rank_24" nature="32" description="All Mettle spending attacks have a 25% chance to trigger a burst of light-type damage."/>
 <trait identifier="1879419404" name="Strike as One!" iconId="1092693205" tierProperty="trait_class_brawler_rank_39" nature="32" description="Gain the skill: Strike As One!"/>
 <trait identifier="1879420180" name="Bellicose" iconId="1091805261" nature="30">
 <specialEffect label="Brash Invitation generates 3 Mettle.&#10;Come At Me generates 3 Mettle."/>
@@ -7330,4 +7333,15 @@
 <trait identifier="1879443122" name="Yondershire - Vendor Discount" iconId="1090535587" nature="1" tooltip="This provides players with a discount with all vendors within Yondershire." description="You receive a discount from all vendors within Yondershire.">
 <stat name="Discount_Yondershire" constant="5.0"/>
 </trait>
+<trait identifier="1879447319" name="Crystal Resolve Accessory" iconId="1092719715" nature="16"/>
+<trait identifier="1879447320" name="Starlight Accessory" iconId="1092719713" nature="16"/>
+<trait identifier="1879447321" name="Starlight Caparison" iconId="1092719721" nature="16"/>
+<trait identifier="1879447322" name="Crystal Resolve Saddle" iconId="1092719717" nature="16"/>
+<trait identifier="1879447323" name="Crystal Resolve Head-piece" iconId="1092719722" nature="16"/>
+<trait identifier="1879447324" name="Starlight Saddle" iconId="1092719718" nature="16"/>
+<trait identifier="1879447325" name="Crystal Resolve Leg-guards" iconId="1092719714" nature="16"/>
+<trait identifier="1879447326" name="Crystal Resolve Caparison" iconId="1092719719" nature="16"/>
+<trait identifier="1879447327" name="Crystal Resolve Tail" iconId="1092719716" nature="16"/>
+<trait identifier="1879447328" name="Starlight Head-piece" iconId="1092719712" nature="16"/>
+<trait identifier="1879447329" name="Starlight Leg-guards" iconId="1092719720" nature="16"/>
 </traits>

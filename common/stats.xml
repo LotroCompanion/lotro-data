@@ -2971,7 +2971,7 @@
 <stat id="268457690" name="Power Restored" key="Skill_Loremaster_EmpoweringFires_PowerMod" isPercentage="true"/>
 <stat id="268457691" name="Morale restored from Inner Flame" key="Skill_Loremaster_InnerFlame_Morale" isPercentage="true"/>
 <stat id="268457692" name="Chance to trigger Fierce Lightning" key="Skill_Loremaster_FierceLightning_AppChance" isPercentage="true"/>
-<stat id="268457693" name="Chance to Upgrade 2 Burning Embers DoTs" key="Skill_Loremaster_AncientFire_AppChance" isPercentage="true"/>
+<stat id="268457693" name="Chance for Gust of Wind to tier up Burning Embers" key="Skill_Loremaster_AncientFire_AppChance" isPercentage="true"/>
 <stat id="268457694" name="Pet Damage" key="Skill_Loremaster_SignofRage_Damage" isPercentage="true"/>
 <stat id="268457695" name="Retaliation Damage" key="Skill_Loremaster_InterruptRetaliation_Damage" isPercentage="true"/>
 <stat id="268457696" name="Pet Incoming Damage" key="Skill_Loremaster_SignofProtection_IncDamage" isPercentage="true"/>
@@ -4178,7 +4178,7 @@
 <stat id="268462012" name="DNT - Herald Buff" key="Skill_Captain_Herald_MoraleMod" isPercentage="true"/>
 <stat id="268462013" name="DNT - Herald Buff" key="Skill_Captain_Herald_DamageMod" isPercentage="true"/>
 <stat id="268462099" name="Pip Generation" key="Skill_Beorning_PipGen_Transform"/>
-<stat id="268462101" name="DNT - Shake Free Cooldown" key="Skill_Beorning_ItemSet_ShakeFree_CD" isPercentage="true"/>
+<stat id="268462101" name="Shake Free Cooldown" key="Skill_Beorning_ItemSet_ShakeFree_CD"/>
 <stat id="268462102" name="DNT - Counter Cooldown Reduction" key="Skill_Beorning_Itemset_Counter_CD_Reduction"/>
 <stat id="268462103" name="Gambler Override for Shelob Itemset armor" key="Skill_Burglar_Itemset_Gamble_Loaded_Red"/>
 <stat id="268462104" name="Gambler Override for Shelob Itemset armor" key="Skill_Burglar_Itemset_Gamble_Loaded_Blue_Distraction"/>
@@ -4378,7 +4378,6 @@
 <stat id="268463068" name="DNT - Reform the Lines Max Morale Effect" key="Itemset_Captain_ReformTheLines_MaxMorale"/>
 <stat id="268463069" name="Shadow's Lament Cooldown" key="Skill_Captain_ShadowsLament_CD"/>
 <stat id="268463070" name="Shield Brother's Call Buff Duration" key="Skill_Captain_ShieldBrotherCall_Buff_Duration"/>
-<stat id="268463071" name="DNT - Binary switch to activate inharmsway set bonus reduction." key="Skill_Captain_InHarmsWay_Reduction_AppChance" isPercentage="true"/>
 <stat id="268463072" name="Delays Catch a Breath heal, granting damage reduction in the meantime." key="Skill_Guardian_Itemset_CatchABreath_Delay"/>
 <stat id="268463073" name="Guardian's Ward now generates a Parry Event." key="Skill_Guardian_Itemset_GuardiansWard_Parry"/>
 <stat id="268463074" name="Exposed Throat Bleed" key="Itemset_Burglar_ExposedThroat_Bleed"/>
@@ -4396,12 +4395,12 @@
 <stat id="268463092" name="DNT -  Mighty Roar now replaces Unbreakable with Unbroken" key="Skill_Champion_Itemset_Unbreakable_Unbroken"/>
 <stat id="268463093" name="Merciful Strike Critical Damage Bonus" key="Skill_CriticalDamageMultiplier_MercifulStrikeMod" isPercentage="true"/>
 <stat id="268463094" name="DNT - Strike skills increase Merciful Strike's crit bonus." key="Itemset_Champion_MercifulStrike_Critbuff"/>
-<stat id="268463096" name="Hold The Line Mitigation Effect" key="Skill_Brawler_HoldTheLine_Mitigation" isPercentage="true"/>
-<stat id="268463097" name="Hold The Line Cooldown" key="Skill_Brawler_HoldTheLine_CD"/>
+<stat id="268463096" name="Plant Feet Mitigation Effect" key="Skill_Brawler_HoldTheLine_Mitigation" isPercentage="true"/>
+<stat id="268463097" name="Plant Feet Cooldown" key="Skill_Brawler_HoldTheLine_CD"/>
 <stat id="268463098" name="Fist of the Valar Damage" key="Skill_Brawler_FistofValar_Damage" isPercentage="true"/>
 <stat id="268463099" name="Crits with Finishing skills now generate one Mettle." key="Trait_Brawler_Finisher_CritMettle"/>
 <stat id="268463101" name="Shattering Fist Armour Debuff" key="Skill_Brawler_ShatteringFist_ArmorDebuff" isPercentage="true"/>
-<stat id="268463103" name="Fulgarant Strike Damage" key="Skill_Brawler_FulgarantStrike_Damage" isPercentage="true"/>
+<stat id="268463103" name="Fulgurant Strike Damage" key="Skill_Brawler_FulgarantStrike_Damage" isPercentage="true"/>
 <stat id="268463104" name="Shattering Fist Damage" key="Skill_Brawler_ShatteringFist_Damage" isPercentage="true"/>
 <stat id="268463105" name="Mettle Shield Strength" key="Skill_Brawler_MettleShield_Magnitude" isPercentage="true"/>
 <stat id="268463106" name="Joy of Battle Cooldown" key="Skill_Brawler_JoyOfBattle_CD"/>
@@ -4414,4 +4413,19 @@
 <stat id="268463114" name="DNT - Split shot minimum cost" key="Skill_Hunter_SplitShot_PipMin"/>
 <stat id="268463116" name="Encouraging Roar Cooldown" key="Skill_Beorning_EncouragingRoar_CD"/>
 <stat id="268463117" name="DNT - Encouraging roar gains an instant radius heal compoenent." key="Itemset_Beorning_EncouragingRoar_AoE"/>
+<stat id="268463155" name="Call of the Second Age Stun Duration" key="Trait_Minstrel_CallSecondAge_Stun_Duration"/>
+<stat id="268463156" name="DNT - Call of the second age application chance" key="Trait_Minstrel_CallSecondAge_Stun_AppChance" isPercentage="true"/>
+<stat id="268463161" name="DNT - Kindred Flame" key="Trait_Loremaster_InnerFlame_KindredFlame"/>
+<stat id="268463162" name="DNT - Kindred Flame" key="Trait_Loremaster_InnerFlame_KindredFlame_NoChannel"/>
+<stat id="268463171" name="In Harm's Way Allied Damage Reduction" key="Trait_Captain_InHarmsWay_IncDamageMod_Itemset" isPercentage="true"/>
+<stat id="268463178" name="DNT - This skill has a chance to make its target Vulnerable" key="Trait_Brawler_InnerStrength_SkillTypeB_F"/>
+<stat id="268463179" name="DNT - This skill has a chance to make its target Vulnerable" key="Trait_Brawler_InnerStrength_SkillTypeA_F"/>
+<stat id="268463180" name="DNT - This skill has a chance to make its target Vulnerable" key="Trait_Brawler_InnerStrength_SkillTypeB_M"/>
+<stat id="268463181" name="DNT - This skill has a chance to make its target Vulnerable" key="Trait_Brawler_InnerStrength_SkillTypeC_F"/>
+<stat id="268463182" name="DNT - This skill has a chance to make its target Vulnerable" key="Trait_Brawler_InnerStrength_SkillTypeA_M"/>
+<stat id="268463183" name="DNT - This skill has a chance to make its target Vulnerable" key="Trait_Brawler_InnerStrength_SkillTypeC_M"/>
+<stat id="268463184" name="Counter Attack Damage" key="Skill_Beorning_CounterAttack_DamageMod" isPercentage="true"/>
+<stat id="268463185" name="Slash Direct Damage" key="Skill_Beorning_Slash_DamageMod" isPercentage="true"/>
+<stat id="268463186" name="Encouraging Roar Initial Healing" key="Skill_Beorning_EncouragingRoar_Initial_HealMod" isPercentage="true"/>
+<stat id="268463188" name="Guarded Attack Damage" key="Skill_Beorning_Guarded_DamageMod" isPercentage="true"/>
 </stats>
