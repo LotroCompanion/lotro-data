@@ -4233,7 +4233,7 @@
 <difficultyTier code="1" name="Tier I"/>
 <groupSize key="SMALL_FELLOWSHIP"/>
 <instanceMap>
-<map mapId="268449767" region="2" minLon="-144.39999389648438" minLat="-62.79999923706055" maxLon="-140.39999389648438" maxLat="-59.599998474121094"/>
+<map mapId="268453919" region="2" minLon="-144.39999389648438" minLat="-62.79999923706055" maxLon="-140.39999389648438" maxLat="-59.599998474121094"/>
 <zone zoneId="1879289551"/>
 </instanceMap>
 <questToBestow questId="1879277019"/>
@@ -4253,7 +4253,7 @@
 <groupSize key="SOLO"/>
 <groupSize key="DUO"/>
 <instanceMap>
-<map mapId="268449767" region="2" minLon="-144.39999389648438" minLat="-62.79999923706055" maxLon="-140.39999389648438" maxLat="-59.599998474121094"/>
+<map mapId="268453919" region="2" minLon="-144.39999389648438" minLat="-62.79999923706055" maxLon="-140.39999389648438" maxLat="-59.599998474121094"/>
 <zone zoneId="1879289551"/>
 </instanceMap>
 <questToBestow questId="1879275427"/>
@@ -4578,7 +4578,7 @@
 </privateEncounter>
 <privateEncounter id="1879287873" name="Instance: Secret Ways" contentLayerId="268436061" questId="1879276990" maxPlayers="6" description="&lt;u&gt;Secret Ways&lt;/u&gt;&#10;\qDo not be blinded by the beauty of the Glittering Caves, my friend! We must see to the safety of the folk that shelter here!\q">
 <instanceMap>
-<map region="2" minLon="-143.59999084472656" minLat="-73.19999694824219" maxLon="-142.8000030517578" maxLat="-72.4000015258789"/>
+<map mapId="268453893" region="2" minLon="-143.59999084472656" minLat="-73.19999694824219" maxLon="-142.8000030517578" maxLat="-72.4000015258789"/>
 <zone zoneId="1879406748"/>
 </instanceMap>
 </privateEncounter>
@@ -6434,7 +6434,7 @@
 </privateEncounter>
 <privateEncounter id="1879384933" name="Instance: The Glittering Caves" contentLayerId="268436309" questId="1879384925" maxPlayers="6" description="&lt;u&gt;The Glittering Caves&lt;/u&gt;&#10;\qThe folk sheltering in the caves will be defenceless if the battle goes against us. Protect them, my friend.\q">
 <instanceMap>
-<map region="2" minLon="-142.8000030517578" minLat="-73.19999694824219" maxLon="-141.1999969482422" maxLat="-71.5999984741211"/>
+<map mapId="268453893" region="2" minLon="-142.8000030517578" minLat="-73.19999694824219" maxLon="-141.1999969482422" maxLat="-71.5999984741211"/>
 <zone zoneId="1879406748"/>
 </instanceMap>
 </privateEncounter>
@@ -9446,11 +9446,36 @@
 <zone zoneId="1879439521"/>
 </instanceMap>
 </privateEncounter>
-<privateEncounter id="1879445159" name="Instance: The Crumbling Halls of Glynafon" contentLayerId="268436653" questId="1879443606" maxPlayers="6"/>
-<privateEncounter id="1879446007" name="Instance: The Smell of Revolt" contentLayerId="268436654" questId="1879444867" maxPlayers="1" description="&lt;u&gt;The Smell of Revolt&lt;/u&gt;&#10;\qLotho's plans to change the Bounds in Yondershire must be stopped. Luckily, Fredegar Bolger has a plan of his own.\q"/>
-<privateEncounter id="1879446485" name="Instance: A Caper On Honeymead Lane" contentLayerId="268436655" questId="1879445428" maxPlayers="6" description="&lt;u&gt;A Caper On Honeymead Lane&lt;/u&gt;&#10;\qWe have to get that present back before Angelica opens it! Don't let anyone see you!\q"/>
-<privateEncounter id="1879446486" name="Instance: A Very Boffin Housewarming" contentLayerId="268436656" questId="1879445514" maxPlayers="6" description="&lt;u&gt;A Very Boffin Housewarming&lt;/u&gt;&#10;\qIt took some time getting here, but all's well that ends well, I suppose. At last Angelica will have her party!\q"/>
-<privateEncounter id="1879446606" name="Instance: A Steed Like No Other" contentLayerId="268436657" questId="1879446489" maxPlayers="1" description="&lt;u&gt;A Steed Like No Other&lt;/u&gt;&#10;\qA vicious and most dangerous lynx stalks the townsfolk of the Yondershire. Adamanda North-took will not rest until she has defeated this most deadly foe and saved her village. She needs your help to bring down this beast!\q"/>
+<privateEncounter id="1879445159" name="Instance: The Crumbling Halls of Glynafon" contentLayerId="268436653" questId="1879443606" maxPlayers="6">
+<instanceMap>
+<map region="1" minLon="-143.59999084472656" minLat="-103.5999984741211" maxLon="-142.8000030517578" maxLat="-102.79999542236328"/>
+<zone zoneId="1879063919"/>
+</instanceMap>
+</privateEncounter>
+<privateEncounter id="1879446007" name="Instance: The Smell of Revolt" contentLayerId="268436654" questId="1879444867" maxPlayers="1" description="&lt;u&gt;The Smell of Revolt&lt;/u&gt;&#10;\qLotho's plans to change the Bounds in Yondershire must be stopped. Luckily, Fredegar Bolger has a plan of his own.\q">
+<instanceMap>
+<map mapId="268453922" region="1" minLon="-78.79999542236328" minLat="-26.799999237060547" maxLon="-78.0" maxLat="-26.0"/>
+<zone zoneId="1879442885"/>
+</instanceMap>
+</privateEncounter>
+<privateEncounter id="1879446485" name="Instance: A Caper On Honeymead Lane" contentLayerId="268436655" questId="1879445428" maxPlayers="6" description="&lt;u&gt;A Caper On Honeymead Lane&lt;/u&gt;&#10;\qWe have to get that present back before Angelica opens it! Don't let anyone see you!\q">
+<instanceMap>
+<map mapId="1879446544"/>
+<zone zoneId="1879446544"/>
+</instanceMap>
+</privateEncounter>
+<privateEncounter id="1879446486" name="Instance: A Very Boffin Housewarming" contentLayerId="268436656" questId="1879445514" maxPlayers="6" description="&lt;u&gt;A Very Boffin Housewarming&lt;/u&gt;&#10;\qIt took some time getting here, but all's well that ends well, I suppose. At last Angelica will have her party!\q">
+<instanceMap>
+<map mapId="1879446544"/>
+<zone zoneId="1879446544"/>
+</instanceMap>
+</privateEncounter>
+<privateEncounter id="1879446606" name="Instance: A Steed Like No Other" contentLayerId="268436657" questId="1879446489" maxPlayers="1" description="&lt;u&gt;A Steed Like No Other&lt;/u&gt;&#10;\qA vicious and most dangerous lynx stalks the townsfolk of the Yondershire. Adamanda North-took will not rest until she has defeated this most deadly foe and saved her village. She needs your help to bring down this beast!\q">
+<instanceMap>
+<map mapId="268453922" region="1" minLon="-77.19999694824219" minLat="-26.0" maxLon="-76.4000015258789" maxLat="-25.19999885559082"/>
+<zone zoneId="1879442885"/>
+</instanceMap>
+</privateEncounter>
 <skirmishPrivateEncounter id="1879447932" name="Mission: The Further Adventures of Elladan &amp; Elrohir, Chapter 1" contentLayerId="268436658" questId="1879447933" maxPlayers="2" minLevel="20" maxLevel="140" description="DNT">
 <difficultyTier code="1" name="Tier I"/>
 <groupSize key="SOLO"/>
