@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><worldEvents>
+<booleanWorldEvent id="1879087152" propertyId="268435733" propertyName="World_MPControl_Ettenmoors_CenterKeep" default="false"/>
+<booleanWorldEvent id="1879087153" propertyId="268439492" propertyName="World_MPControl_Ettenmoors_EastTower" default="false"/>
+<booleanWorldEvent id="1879087154" propertyId="268436448" propertyName="World_MPControl_Ettenmoors_Lumberyard" default="false"/>
+<booleanWorldEvent id="1879087155" propertyId="268438305" propertyName="World_MPControl_Ettenmoors_Mine" default="true"/>
+<booleanWorldEvent id="1879087156" propertyId="268437616" propertyName="World_MPControl_Ettenmoors_WestTower" default="true"/>
+<booleanWorldEvent id="1879088051" propertyId="268441253" propertyName="WE_SpringFestival_FestivalActive" default="false"/>
+<booleanWorldEvent id="1879088814" propertyId="496" propertyName="World_IsNight" default="false"/>
+<conditionWorldEvent id="1879089302" propertyId="268441358" propertyName="WE_SpringFestival_DanceDuillondActive">
+<compoundWorldEventCondition operator="AND">
+<worldEventCondition worldEventID="1879098803" worldEventName="WE_GenericFestival_FestivalActive" operator="EQUAL" value="1"/>
+<worldEventCondition worldEventID="1879089303" worldEventName="WE_SpringFestival_DanceDuillondEnabled" operator="EQUAL" value="1"/>
+</compoundWorldEventCondition>
+</conditionWorldEvent>
+<booleanWorldEvent id="1879089303" propertyId="268441355" propertyName="WE_SpringFestival_DanceDuillondEnabled" default="true"/>
+<conditionWorldEvent id="1879089321" propertyId="268441357" propertyName="WE_SpringFestival_DanceBreelandActive">
+<compoundWorldEventCondition operator="AND">
+<worldEventCondition worldEventID="1879098803" worldEventName="WE_GenericFestival_FestivalActive" operator="EQUAL" value="1"/>
+<worldEventCondition worldEventID="1879089322" worldEventName="WE_SpringFestival_DanceBreelandEnabled" operator="EQUAL" value="1"/>
+</compoundWorldEventCondition>
+</conditionWorldEvent>
+<booleanWorldEvent id="1879089322" propertyId="268441356" propertyName="WE_SpringFestival_DanceBreelandEnabled" default="true"/>
+<conditionWorldEvent id="1879089323" propertyId="268441360" propertyName="WE_SpringFestival_DanceThorinsHallActive">
+<compoundWorldEventCondition operator="AND">
+<worldEventCondition worldEventID="1879098803" worldEventName="WE_GenericFestival_FestivalActive" operator="EQUAL" value="1"/>
+<worldEventCondition worldEventID="1879089324" worldEventName="WE_SpringFestival_DanceThorinsHallEnabled" operator="EQUAL" value="1"/>
+</compoundWorldEventCondition>
+</conditionWorldEvent>
+<booleanWorldEvent id="1879089324" propertyId="268441359" propertyName="WE_SpringFestival_DanceThorinsHallEnabled" default="true"/>
+<conditionWorldEvent id="1879089325" propertyId="268441362" propertyName="WE_SpringFestival_DanceShireActive">
+<compoundWorldEventCondition operator="AND">
+<worldEventCondition worldEventID="1879098803" worldEventName="WE_GenericFestival_FestivalActive" operator="EQUAL" value="1"/>
+<worldEventCondition worldEventID="1879089326" worldEventName="WE_SpringFestival_DanceShireEnabled" operator="EQUAL" value="1"/>
+</compoundWorldEventCondition>
+</conditionWorldEvent>
+<booleanWorldEvent id="1879089326" propertyId="268441361" propertyName="WE_SpringFestival_DanceShireEnabled" default="true"/>
+<integerWorldEvent id="1879093127" propertyId="268441730" propertyName="WE_Ettenmoors_TA_Monster_Oil" description="Oil for the Cauldron of Tol Ascarnen" progress="Progress ${VALUE}/${null} of Oil Collected" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879093128" propertyId="268441729" propertyName="WE_Ettenmoors_TA_Monster_Cauldron" description="Iron for the Cauldron of Tol Ascarnen" progress="Progress ${VALUE}/${null} of Iron Collected" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879093130" propertyId="268441747" propertyName="WE_Ettenmoors_TA_Monster_Arrow" description="Blades for Goblin Arrows" progress="Progress ${VALUE}/${null} of Shattered Blades Collected" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879093131" propertyId="268441698" propertyName="WE_Ettenmoors_TA_Monster_Shaft" description="Shafts for Goblin Arrows" progress="Progress ${VALUE}/${null} of Arrow Shafts Collected" default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879093133" propertyId="268441690" propertyName="WE_Ettenmoors_TA_Monster_Rockwithers" default="false"/>
+<booleanWorldEvent id="1879093134" propertyId="268441686" propertyName="WE_Ettenmoors_TA_Monster_Sinew" default="false"/>
+<booleanWorldEvent id="1879093135" propertyId="268441685" propertyName="WE_Ettenmoors_TA_Monster_Stand" default="false"/>
+<conditionWorldEvent id="1879093143" propertyId="268441744" propertyName="WE_Ettenmoors_TA_Monster_Burn_South">
+<worldEventCondition worldEventID="1879093183" worldEventName="WE_Ettenmoors_TA_Player_Reinforce_South" operator="EQUAL" value="1"/>
+</conditionWorldEvent>
+<conditionWorldEvent id="1879093144" propertyId="268441689" propertyName="WE_Ettenmoors_TA_Monster_Burn_West">
+<worldEventCondition worldEventID="1879093202" worldEventName="WE_Ettenmoors_TA_Player_Reinforce_West" operator="EQUAL" value="1"/>
+</conditionWorldEvent>
+<integerWorldEvent id="1879093146" propertyId="268441746" propertyName="WE_Ettenmoors_TR_Monster_Oil" description="Oil for the Cauldron of Tirith Rhaw" progress="Progress ${VALUE}/${null} of Oil Collected" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879093147" propertyId="268441700" propertyName="WE_Ettenmoors_TR_Monster_Cauldron" description="Iron for the Cauldron of Tirith Rhaw" progress="Progress ${VALUE}/${null} of Iron Collected" default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879093149" propertyId="268441707" propertyName="WE_Ettenmoors_TR_Monster_Support" default="false"/>
+<integerWorldEvent id="1879093154" propertyId="268441675" propertyName="WE_Ettenmoors_Lug_Monster_Oil" description="Oil for the Cauldron of Lugazag" progress="Progress ${VALUE}/${null} of Oil Collected" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879093155" propertyId="268441709" propertyName="WE_Ettenmoors_Lug_Monster_Cauldron" description="Iron for the Cauldron of Lugazag" progress="Progress ${VALUE}/${null} of Iron Collected" default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879093156" propertyId="268441720" propertyName="WE_Ettenmoors_Lug_Monster_Support" default="false"/>
+<booleanWorldEvent id="1879093163" propertyId="268441687" propertyName="WE_Ettenmoors_Grim_Monster_Harvesters" default="false"/>
+<booleanWorldEvent id="1879093164" propertyId="268441706" propertyName="WE_Ettenmoors_Grim_Monster_Support" default="false"/>
+<booleanWorldEvent id="1879093165" propertyId="268441692" propertyName="WE_Ettenmoors_Grim_Monster_Trees" default="false"/>
+<booleanWorldEvent id="1879093170" propertyId="268441691" propertyName="WE_Ettenmoors_IM_Monster_Support" default="false"/>
+<booleanWorldEvent id="1879093172" propertyId="268441716" propertyName="WE_Ettenmoors_IM_Monster_Beasts" default="false"/>
+<integerWorldEvent id="1879093173" propertyId="268441697" propertyName="WE_Ettenmoors_TA_Player_Oil" description="Oil for the Cauldron of Tol Ascarnen" progress="Progress ${VALUE}/${null} of Oil Collected" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879093174" propertyId="268441702" propertyName="WE_Ettenmoors_TA_Player_Cauldron" description="Iron for the Cauldron of Tol Ascarnen" progress="Progress ${VALUE}/${null} of Iron Collected" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879093176" propertyId="268441701" propertyName="WE_Ettenmoors_TA_Player_Arrow" description="Blades for Elf Arrows" progress="Progress ${VALUE}/${null} of Shattered Blades Collected" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879093177" propertyId="268441722" propertyName="WE_Ettenmoors_TA_Player_Shaft" description="Shafts for Elf Arrows" progress="Progress ${VALUE}/${null} of Arrow Shafts Collected" default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879093179" propertyId="268441736" propertyName="WE_Ettenmoors_TA_Player_Sinew" default="false"/>
+<booleanWorldEvent id="1879093180" propertyId="268441742" propertyName="WE_Ettenmoors_TA_Player_Stand" default="false"/>
+<booleanWorldEvent id="1879093183" propertyId="268441694" propertyName="WE_Ettenmoors_TA_Player_Reinforce_South" default="false"/>
+<integerWorldEvent id="1879093187" propertyId="268441728" propertyName="WE_Ettenmoors_TR_Player_Oil" description="Oil for the Cauldron of Tirith Rhaw" progress="Progress ${VALUE}/${null} of Oil Collected" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879093188" propertyId="268441745" propertyName="WE_Ettenmoors_TR_Player_Cauldron" description="Iron for the Cauldron of Tirith Rhaw" progress="Progress ${VALUE}/${null} of Iron Collected" default="0" min="0" max="10"/>
+<conditionWorldEvent id="1879093189" propertyId="268441683" propertyName="WE_Ettenmoors_TR_Player_Boiling">
+<compoundWorldEventCondition operator="AND">
+<worldEventCondition worldEventID="1879093187" worldEventName="WE_Ettenmoors_TR_Player_Oil" operator="EQUAL" value="10"/>
+<worldEventCondition worldEventID="1879093188" worldEventName="WE_Ettenmoors_TR_Player_Cauldron" operator="EQUAL" value="10"/>
+</compoundWorldEventCondition>
+</conditionWorldEvent>
+<booleanWorldEvent id="1879093190" propertyId="268441678" propertyName="WE_Ettenmoors_TR_Player_Support" default="false"/>
+<integerWorldEvent id="1879093191" propertyId="268441708" propertyName="WE_Ettenmoors_Lug_Player_Oil" description="Oil for the Cauldron of Lugazag" progress="Progress ${VALUE}/${null} of Oil Collected" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879093192" propertyId="268441677" propertyName="WE_Ettenmoors_Lug_Player_Cauldron" description="Iron for the Cauldron of Lugazag" progress="Progress ${VALUE}/${null} of Iron Collected" default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879093193" propertyId="268441735" propertyName="WE_Ettenmoors_Lug_Player_Support" default="false"/>
+<booleanWorldEvent id="1879093194" propertyId="268441715" propertyName="WE_Ettenmoors_Grim_Player_Harvesters" default="false"/>
+<booleanWorldEvent id="1879093195" propertyId="268441676" propertyName="WE_Ettenmoors_Grim_Player_Support" default="false"/>
+<booleanWorldEvent id="1879093196" propertyId="268441740" propertyName="WE_Ettenmoors_Grim_Player_Wolves" default="false"/>
+<booleanWorldEvent id="1879093197" propertyId="268441714" propertyName="WE_Ettenmoors_IM_Player_Support" default="false"/>
+<booleanWorldEvent id="1879093198" propertyId="268441731" propertyName="WE_Ettenmoors_IM_Player_Beasts" default="false"/>
+<booleanWorldEvent id="1879093199" propertyId="268441723" propertyName="WE_Ettenmoors_IM_Player_Miners" default="false"/>
+<booleanWorldEvent id="1879093202" propertyId="268441693" propertyName="WE_Ettenmoors_TA_Player_Reinforce_West" default="false"/>
+<booleanWorldEvent id="1879093210" propertyId="268441704" propertyName="WE_Ettenmoors_TA_Player_Rockwithers" default="false"/>
+<booleanWorldEvent id="1879093463" propertyId="268441833" propertyName="WE_TalkLikeACorsairDay_Active" default="false"/>
+<booleanWorldEvent id="1879093544" propertyId="268441848" propertyName="WE_Annuminas_Camp1_Control" description="The Courtyard of Gwaelband" progress=" Gwaelband is under the control of the ${VALUE:Wardens of Annúminas[1]|Invaders of Annúminas}.\n\nWhen Gwaelband, Clorhir, and Tirband are all under the control of the Wardens of Annúminas, all players receive a bonus to the Wardens of Annúminas Reputation gained from killing monsters." default="false"/>
+<booleanWorldEvent id="1879093545" propertyId="268441847" propertyName="WE_Annuminas_Camp2_Control" description="The Waterways of Clorhir" progress=" Clorhir is under the control of the ${VALUE:Wardens of Annúminas[1]|Invaders of Annúminas}.\n\nWhen Gwaelband, Clorhir, and Tirband are all under the control of the Wardens of Annúminas, all players receive a bonus to the Wardens of Annúminas Reputation gained from killing monsters." default="false"/>
+<booleanWorldEvent id="1879093546" propertyId="268441845" propertyName="WE_Annuminas_Camp3_Control" description="The Watchtower of Tirband" progress=" Tirband is under the control of the ${VALUE:Wardens of Annúminas[1]|Invaders of Annúminas}.\n\nWhen Gwaelband, Clorhir, and Tirband are all under the control of the Wardens of Annúminas, all players receive a bonus to the Wardens of Annúminas Reputation gained from killing monsters." default="false"/>
+<booleanWorldEvent id="1879094943" propertyId="268442030" propertyName="WE_Trollshaws_FrodoBilboBirthday_active" default="false"/>
+<conditionWorldEvent id="1879098803" propertyId="268442349" propertyName="WE_GenericFestival_FestivalActive">
+<compoundWorldEventCondition operator="OR">
+<worldEventCondition worldEventID="1879088051" worldEventName="WE_SpringFestival_FestivalActive" operator="EQUAL" value="1"/>
+<worldEventCondition worldEventID="1879098804" worldEventName="WE_FallFestival_FestivalActive" operator="EQUAL" value="1"/>
+<worldEventCondition worldEventID="1879103512" worldEventName="WE_Real_SpringFestival_FestivalActive" operator="EQUAL" value="1"/>
+<worldEventCondition worldEventID="1879098805" worldEventName="WE_WinterFestival_FestivalActive" operator="EQUAL" value="1"/>
+<worldEventCondition worldEventID="1879223062" worldEventName="WE_FarmersFair_FestivalActive" operator="EQUAL" value="1"/>
+<worldEventCondition worldEventID="1879406114" worldEventName="WE_WeddingFestival_FestivalActive" operator="EQUAL" value="1"/>
+</compoundWorldEventCondition>
+</conditionWorldEvent>
+<booleanWorldEvent id="1879098804" propertyId="268442350" propertyName="WE_FallFestival_FestivalActive" default="false"/>
+<booleanWorldEvent id="1879098805" propertyId="268442351" propertyName="WE_WinterFestival_FestivalActive" default="false"/>
+<booleanWorldEvent id="1879101897" propertyId="268442513" propertyName="WE_Horse_Lvl25_Active" default="false"/>
+<integerWorldEvent id="1879102074" propertyId="268442527" propertyName="WE_Ettenmoors_Sessions" max="3"/>
+<booleanWorldEvent id="1879103512" propertyId="268442796" propertyName="WE_Real_SpringFestival_FestivalActive" default="false"/>
+<booleanWorldEvent id="1879108285" propertyId="268443133" propertyName="WE_Forochel_ControlPOI_Glacier" description="Hylje-leiri" progress=" Hylje-leiri is under control of the ${VALUE:Lossoth of Forochel[1]|Gauredain}." default="false"/>
+<booleanWorldEvent id="1879108286" propertyId="268443132" propertyName="WE_Forochel_ControlPOI_Icebay" description="Karhu-leiri" progress=" Karhu-leiri is under control of the ${VALUE:Lossoth of Forochel[1]|Gauredain}." default="false"/>
+<booleanWorldEvent id="1879108287" propertyId="268443135" propertyName="WE_Forochel_ControlPOI_TundraEast" description="Pynti-leiri" progress=" Pynti-leiri is under control of the ${VALUE:Lossoth of Forochel[1]|Gauredain}." default="false"/>
+<booleanWorldEvent id="1879108289" propertyId="268443131" propertyName="WE_Forochel_ControlPOI_TundraWest" description="Norsu-leiri" progress=" Norsu-leiri is under control of the ${VALUE:Lossoth of Forochel[1]|Gauredain}." default="false"/>
+<integerWorldEvent id="1879111838" propertyId="268443643" propertyName="ZE_Boss10_CurrentStage" default="0" min="0" max="11"/>
+<booleanWorldEvent id="1879112132" propertyId="268443672" propertyName="we_anniversary_promotion_drops" default="false"/>
+<booleanWorldEvent id="1879112133" propertyId="268443671" propertyName="we_anniversary_promotion_vendors" default="false"/>
+<booleanWorldEvent id="1879115035" propertyId="268443949" propertyName="WE_SummerFestival_FestivalActive" default="false"/>
+<integerWorldEvent id="1879143628" propertyId="268445433" propertyName="we_int_daily_quest_easy_moria" default="1" min="1" max="6"/>
+<integerWorldEvent id="1879143629" propertyId="268445432" propertyName="we_int_daily_quest_hard_moria" default="1" min="1" max="6"/>
+<integerWorldEvent id="1879143630" propertyId="268445434" propertyName="we_int_daily_quest_normal_moria" default="1" min="1" max="8"/>
+<integerWorldEvent id="1879145348" propertyId="268445516" propertyName="WE_Ettenmoors_Troll_Sessions" max="3"/>
+<booleanWorldEvent id="1879150696" propertyId="268446158" propertyName="WE_LorienRaid_Open" default="true"/>
+<integerWorldEvent id="1879150963" propertyId="268446180" propertyName="we_liveops_strangehappenings_phase" default="0" min="0" max="4"/>
+<integerWorldEvent id="1879152926" propertyId="268446463" propertyName="ze_skirmish_int_generic_3" default="0" min="0" max="100"/>
+<integerWorldEvent id="1879152927" propertyId="268446466" propertyName="ze_skirmish_int_generic_4" default="0" min="0" max="100"/>
+<integerWorldEvent id="1879152928" propertyId="268446476" propertyName="ze_skirmish_int_generic_10" default="0" min="0" max="500"/>
+<booleanWorldEvent id="1879152929" propertyId="268446478" propertyName="ze_skirmish_bool_generic_1" default="false"/>
+<booleanWorldEvent id="1879152932" propertyId="268446455" propertyName="ze_skirmish_controlpoint_3" default="false"/>
+<booleanWorldEvent id="1879152933" propertyId="268446453" propertyName="ze_skirmish_controlpoint_2" default="false"/>
+<booleanWorldEvent id="1879152934" propertyId="268446485" propertyName="ze_skirmish_bool_generic_5" default="false"/>
+<booleanWorldEvent id="1879152935" propertyId="268446462" propertyName="ze_skirmish_controlpoint_6" default="false"/>
+<booleanWorldEvent id="1879152938" propertyId="268446437" propertyName="ze_skirmish_bool_generic_6" default="false"/>
+<booleanWorldEvent id="1879152939" propertyId="268446458" propertyName="ze_skirmish_controlpoint_4" default="false"/>
+<booleanWorldEvent id="1879152941" propertyId="268446464" propertyName="ze_skirmish_controlpoint_7" default="false"/>
+<booleanWorldEvent id="1879152942" propertyId="268446484" propertyName="ze_skirmish_bool_generic_4" default="false"/>
+<booleanWorldEvent id="1879152943" propertyId="268446480" propertyName="ze_skirmish_bool_generic_2" default="false"/>
+<integerWorldEvent id="1879152946" propertyId="268446468" propertyName="ze_skirmish_int_generic_5" default="0" min="0" max="100"/>
+<integerWorldEvent id="1879152947" propertyId="268446459" propertyName="ze_skirmish_int_generic_1" default="0" min="0" max="100"/>
+<booleanWorldEvent id="1879152949" propertyId="268446450" propertyName="ze_skirmish_controlpoint_1" default="false"/>
+<booleanWorldEvent id="1879152950" propertyId="268446479" propertyName="ze_skirmish_bool_generic_10" default="false"/>
+<booleanWorldEvent id="1879152951" propertyId="268446443" propertyName="ze_skirmish_bool_generic_9" default="false"/>
+<booleanWorldEvent id="1879152952" propertyId="268446483" propertyName="ze_skirmish_bool_generic_3" default="false"/>
+<booleanWorldEvent id="1879152955" propertyId="268446460" propertyName="ze_skirmish_controlpoint_5" default="false"/>
+<integerWorldEvent id="1879152956" propertyId="268446461" propertyName="ze_skirmish_int_generic_2" default="0" min="0" max="100"/>
+<booleanWorldEvent id="1879152957" propertyId="268446440" propertyName="ze_skirmish_bool_generic_7" default="false"/>
+<integerWorldEvent id="1879152960" propertyId="268446477" propertyName="ze_skirmish_int_generic_9" default="0" min="0" max="100"/>
+<booleanWorldEvent id="1879152961" propertyId="268446442" propertyName="ze_skirmish_bool_generic_8" default="false"/>
+<booleanWorldEvent id="1879153311" propertyId="268446525" propertyName="WE_maze_chicken_control" default="false"/>
+<booleanWorldEvent id="1879153677" propertyId="268446589" propertyName="ze_skirmish_optional_1" default="false"/>
+<booleanWorldEvent id="1879153678" propertyId="268446590" propertyName="ze_skirmish_optional_2" default="false"/>
+<booleanWorldEvent id="1879153679" propertyId="268446591" propertyName="ze_skirmish_optional_3" default="false"/>
+<booleanWorldEvent id="1879153680" propertyId="268446592" propertyName="ze_skirmish_optional_4" default="false"/>
+<booleanWorldEvent id="1879153681" propertyId="268446593" propertyName="ze_skirmish_optional_5" default="false"/>
+<booleanWorldEvent id="1879153682" propertyId="268446594" propertyName="ze_skirmish_optional_6" default="false"/>
+<integerWorldEvent id="1879154062" propertyId="268446666" propertyName="ze_skirmish_level" default="0" min="0" max="140"/>
+<integerWorldEvent id="1879154063" propertyId="268446664" propertyName="ze_skirmish_group_size" default="0" min="0" max="100"/>
+<integerWorldEvent id="1879154064" propertyId="268446665" propertyName="ze_skirmish_difficulty" default="0" min="0" max="100"/>
+<integerWorldEvent id="1879154557" propertyId="268446725" propertyName="we_monsterplay_invasion_angmar" description="The invasion of Angmar." default="20" min="0" max="20"/>
+<integerWorldEvent id="1879154558" propertyId="268446726" propertyName="we_monsterplay_invasion_eregion" description="The invasion of Eregion." default="20" min="0" max="20"/>
+<integerWorldEvent id="1879154559" propertyId="268446724" propertyName="we_monsterplay_invasion_forochel" description="The invasion of Forochel." default="20" min="0" max="20"/>
+<booleanWorldEvent id="1879158685" propertyId="268447148" propertyName="WE_summerfestival_gamble_shire_active" default="false"/>
+<booleanWorldEvent id="1879160837" propertyId="268447428" propertyName="WE_TestServer_Skirmish_Allowance_Active" default="false"/>
+<booleanWorldEvent id="1879160840" propertyId="268447429" propertyName="WE_TestServer_Skirmish_Levelup_Active" default="false"/>
+<booleanWorldEvent id="1879161484" propertyId="268447497" propertyName="ze_skirmish_optional_1_complete" default="false"/>
+<booleanWorldEvent id="1879161485" propertyId="268447492" propertyName="ze_skirmish_optional_2_complete" default="false"/>
+<booleanWorldEvent id="1879161486" propertyId="268447496" propertyName="ze_skirmish_optional_3_complete" default="false"/>
+<booleanWorldEvent id="1879161487" propertyId="268447494" propertyName="ze_skirmish_optional_4_complete" default="false"/>
+<booleanWorldEvent id="1879161488" propertyId="268447495" propertyName="ze_skirmish_optional_5_complete" default="false"/>
+<booleanWorldEvent id="1879161489" propertyId="268447488" propertyName="ze_skirmish_optional_6_complete" default="false"/>
+<booleanWorldEvent id="1879161493" propertyId="268447491" propertyName="ze_skirmish_optional_10_complete" default="false"/>
+<booleanWorldEvent id="1879161981" propertyId="268447668" propertyName="we_fallfestival_barfight_active" default="false"/>
+<booleanWorldEvent id="1879161982" propertyId="268447667" propertyName="we_fallfestival_hauntedhouse_active" default="false"/>
+<integerWorldEvent id="1879162980" propertyId="268447838" propertyName="we_fallfestival_barfight_status" default="0" min="0" max="3"/>
+<integerWorldEvent id="1879164441" propertyId="268447978" propertyName="ze_stables_meats_eaten" default="0" min="0" max="14"/>
+<integerWorldEvent id="1879182105" propertyId="268449775" propertyName="WE_Real_SpringFestival_Shrew_Status" default="0" min="0" max="3"/>
+<booleanWorldEvent id="1879182106" propertyId="268449774" propertyName="WE_Real_SpringFestival_Shrew_Active" default="false"/>
+<integerWorldEvent id="1879183037" propertyId="268449850" propertyName="ze_skirmish_player_groupsizechoice" default="0" min="0" max="12"/>
+<booleanWorldEvent id="1879191808" propertyId="268450443" propertyName="WE_Store_Quest" default="false"/>
+<booleanWorldEvent id="1879196931" propertyId="268450545" propertyName="ze_ita_shire_instance_hobbit_3" default="false"/>
+<booleanWorldEvent id="1879198627" propertyId="268450653" propertyName="WE_ITA_Mysterious_Relics_Active" description="Status of the Mysterious Relics event" progress="" default="false"/>
+<integerWorldEvent id="1879198844" propertyId="268450668" propertyName="we_winterfestival_snowballfight_status" default="0" min="0" max="3"/>
+<integerWorldEvent id="1879198845" propertyId="268450669" propertyName="we_winterfestival_eatingcontest_status" default="0" min="0" max="3"/>
+<booleanWorldEvent id="1879198846" propertyId="268450670" propertyName="we_winterfestival_eatingcontest_active" default="false"/>
+<booleanWorldEvent id="1879198847" propertyId="268450667" propertyName="we_winterfestival_snowballfight_active" default="false"/>
+<booleanWorldEvent id="1879199927" propertyId="268450755" propertyName="we_winterfestival_town_active" default="false"/>
+<conditionWorldEvent id="1879200864" propertyId="268450880" propertyName="ze_skirmish_difficulty_legendary">
+<worldEventCondition worldEventID="1879154064" worldEventName="ze_skirmish_difficulty" operator="EQUAL" value="2"/>
+</conditionWorldEvent>
+<booleanWorldEvent id="1879202363" propertyId="268451028" propertyName="we_event_flowers_active" default="false"/>
+<integerWorldEvent id="1879205984" propertyId="268451251" propertyName="ze_innoftheforsaken_questprogress" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879208340" propertyId="268451410" propertyName="ze_innoftheforsaken_challenge_bonepile" default="0" min="0" max="36"/>
+<integerWorldEvent id="1879208341" propertyId="268451411" propertyName="ze_innoftheforsaken_challenge_incantationstone" default="0" min="0" max="3"/>
+<integerWorldEvent id="1879208342" propertyId="268451412" propertyName="ze_innoftheforsaken_challenge_secretdoor" default="0" min="0" max="2"/>
+<integerWorldEvent id="1879208343" propertyId="268451413" propertyName="ze_innoftheforsaken_challenge_trapmechanism" default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879215670" propertyId="268451915" propertyName="WE_ettenmoors_veteran_rewards" default="true"/>
+<booleanWorldEvent id="1879221870" propertyId="268452148" propertyName="WE_ripcord_dunland_wulfs_cleft" description="True when Wulf's Cleft has been shutdown due to server performance." default="false"/>
+<integerWorldEvent id="1879222900" propertyId="268452195" propertyName="WE_Summerfestival_HobbitRace_Status" default="0" min="0" max="3"/>
+<integerWorldEvent id="1879222901" propertyId="268452196" propertyName="WE_Summerfestival_DwarfRace_Status" default="0" min="0" max="3"/>
+<booleanWorldEvent id="1879223060" propertyId="268452216" propertyName="WE_Festival_Egg_Farm" default="false"/>
+<booleanWorldEvent id="1879223061" propertyId="268452217" propertyName="WE_Festival_Mushroom_Farm" default="false"/>
+<booleanWorldEvent id="1879223062" propertyId="268452215" propertyName="WE_FarmersFair_FestivalActive" default="false"/>
+<integerWorldEvent id="1879225469" propertyId="268452346" propertyName="we_anniversary_fireworks_shire_status" default="0" min="0" max="3"/>
+<booleanWorldEvent id="1879225707" propertyId="268452360" propertyName="WE_Anniversary_Fireworks_Active" default="false"/>
+<booleanWorldEvent id="1879233898" propertyId="268454364" propertyName="we_rohanpreorder_active" default="false"/>
+<integerWorldEvent id="1879234278" propertyId="268454417" propertyName="we_rohanpreorder_repeatable_horse_quest" default="1" min="1" max="4"/>
+<integerWorldEvent id="1879234279" propertyId="268454416" propertyName="we_rohanpreorder_repeatble_farm_quest" default="1" min="1" max="4"/>
+<booleanWorldEvent id="1879259228" propertyId="268456222" propertyName="WE_hobbit_instance_story_quest" description="Have the Rohan Instance Cluster 3-mans been launched?" default="false"/>
+<booleanWorldEvent id="1879283067" propertyId="268458959" propertyName="we_bounderevent_2013_serverunlock_complete" default="false"/>
+<booleanWorldEvent id="1879283077" propertyId="268458957" propertyName="we_bounderevent_2013_active" default="false"/>
+<integerWorldEvent id="1879286443" propertyId="268459106" propertyName="WE_Player_Level_Cap" description="This is the player level cap used to drive reward containers in skirmishes &amp; instances." progress="Player Level Cap ${VALUE}/${null}" default="140" min="0" max="140"/>
+<integerWorldEvent id="1879303029" propertyId="268459628" propertyName="we_rohan_west_endgame_bestowal" default="1" min="1" max="30"/>
+<integerWorldEvent id="1879308561" propertyId="268459896" propertyName="WE_Gondor_West_Endgame_Unlock_1" description="Dol Amroth - Emyn Ernil\n" progress="Dol Amroth - Emyn Ernil: ${VALUE}/${null}\n\nTo re-open the caves of Emyn Ernil." default="0" min="0" max="8000"/>
+<integerWorldEvent id="1879308562" propertyId="268459897" propertyName="WE_Gondor_West_Endgame_Unlock_2" description="Dol Amroth - Paths of the Dead\n" progress="Dol Amroth - Paths of the Dead: ${VALUE}/${null}\n\nTo reopen the tunnels of the Paths of the Dead." default="0" min="0" max="12000"/>
+<booleanWorldEvent id="1879321679" propertyId="268460514" propertyName="WE_Bingo_Boffin_Active" description="Should be FALSE until we are ready to begin the Ballad of Bingo Boffin event." default="false"/>
+<integerWorldEvent id="1879321680" propertyId="268460515" propertyName="WE_Bingo_Boffin_Current_Week" description="Controls the current week of the Ballad of Bingo Boffin." default="53" min="0" max="53"/>
+<integerWorldEvent id="1879335112" propertyId="268461051" propertyName="WE_Minas_Tirith_Current_Week" description="Controls the current week of the Minas Tirith After Battle quest chain." default="0" min="0" max="7"/>
+<booleanWorldEvent id="1879335113" propertyId="268461052" propertyName="WE_Minas_Tirith_Active" description="Should be FALSE until we are ready to begin the Ballad of Bingo Boffin event." default="false"/>
+<booleanWorldEvent id="1879342622" propertyId="268461185" propertyName="WE_Anniversary_Event_Active" description="TRUE enables players to interact with the event; FALSE disables the event, quest progress, turn-in, and barter." default="false"/>
+<integerWorldEvent id="1879342637" propertyId="268461186" propertyName="WE_Anniversary_Event_Current_Week" description="Controls the current week of the Anniversary Event Scavenger Hunt." default="1" min="1" max="11"/>
+<integerWorldEvent id="1879354387" propertyId="268461333" propertyName="WE_mordor_gorgoroth_endgame_weekly_driver" description="Controls the current weekly quest in Gorgoroth." default="1" min="1" max="4"/>
+<conditionWorldEvent id="1879354388" propertyId="268461336" propertyName="WE_Gorgoroth_Endgame_Event_1_Udun_DorAmarth" description="Udûn and Dor Amarth Featured.">
+<worldEventCondition worldEventID="1879354390" worldEventName="WE_mordor_gorgoroth_endgame_daily_driver" operator="EQUAL" value="1"/>
+</conditionWorldEvent>
+<conditionWorldEvent id="1879354389" propertyId="268461339" propertyName="WE_Gorgoroth_Endgame_Event_5_Agarnaith_Lhingris" description="Agarnaith and Lhingris Featured.">
+<worldEventCondition worldEventID="1879354390" worldEventName="WE_mordor_gorgoroth_endgame_daily_driver" operator="EQUAL" value="5"/>
+</conditionWorldEvent>
+<integerWorldEvent id="1879354390" propertyId="268461331" propertyName="WE_mordor_gorgoroth_endgame_daily_driver" description="Controls the current endgame daily configuration in Gorgoroth." default="1" min="1" max="5"/>
+<conditionWorldEvent id="1879354391" propertyId="268461334" propertyName="WE_Gorgoroth_Endgame_Event_3_DorAmarth_Agarnaith" description="Dor Amarth and Agarnaith Featured.">
+<worldEventCondition worldEventID="1879354390" worldEventName="WE_mordor_gorgoroth_endgame_daily_driver" operator="EQUAL" value="3"/>
+</conditionWorldEvent>
+<conditionWorldEvent id="1879354392" propertyId="268461337" propertyName="WE_mordor_gorgoroth_endgame_weekly_2" description="Weekly Quest: Allegiance Quests.">
+<worldEventCondition worldEventID="1879354387" worldEventName="WE_mordor_gorgoroth_endgame_weekly_driver" operator="EQUAL" value="2"/>
+</conditionWorldEvent>
+<conditionWorldEvent id="1879354393" propertyId="268461338" propertyName="WE_mordor_gorgoroth_endgame_weekly_3" description="Weekly Quest: Scourges.">
+<worldEventCondition worldEventID="1879354387" worldEventName="WE_mordor_gorgoroth_endgame_weekly_driver" operator="EQUAL" value="3"/>
+</conditionWorldEvent>
+<conditionWorldEvent id="1879354394" propertyId="268461332" propertyName="WE_Gorgoroth_Endgame_Event_2_Lhingris_TalathUrui" description="Lhingris and Talath Úrui Featured.">
+<worldEventCondition worldEventID="1879354390" worldEventName="WE_mordor_gorgoroth_endgame_daily_driver" operator="EQUAL" value="2"/>
+</conditionWorldEvent>
+<conditionWorldEvent id="1879354395" propertyId="268461330" propertyName="WE_Gorgoroth_Endgame_Event_4_Udun_TalathUrui" description="Udûn and Talath Úrui Featured.">
+<worldEventCondition worldEventID="1879354390" worldEventName="WE_mordor_gorgoroth_endgame_daily_driver" operator="EQUAL" value="4"/>
+</conditionWorldEvent>
+<conditionWorldEvent id="1879354396" propertyId="268461335" propertyName="WE_mordor_gorgoroth_endgame_weekly_1" description="Weekly Quest: Resource Instances.">
+<worldEventCondition worldEventID="1879354387" worldEventName="WE_mordor_gorgoroth_endgame_weekly_driver" operator="EQUAL" value="1"/>
+</conditionWorldEvent>
+<conditionWorldEvent id="1879360096" propertyId="268461398" propertyName="WE_mordor_gorgoroth_endgame_weekly_4" description="Weekly Quest: Group Instances.">
+<worldEventCondition worldEventID="1879354387" worldEventName="WE_mordor_gorgoroth_endgame_weekly_driver" operator="EQUAL" value="4"/>
+</conditionWorldEvent>
+<integerWorldEvent id="1879360115" propertyId="268461399" propertyName="WE_fall_festival_maze_driver" description="Controls which maze is currently active in the harvest festival space" default="1" min="1" max="5"/>
+<integerWorldEvent id="1879365394" propertyId="268461473" propertyName="WE_Episodic_LRR_Current_Week" description="Controls the current week of the Ballad of Bingo Boffin." default="0" min="0" max="16"/>
+<integerWorldEvent id="1879366907" propertyId="268461516" propertyName="WE_mirkwood_north_endgame_daily_driver" description="Controls the current endgame daily configuration in the Strongholds of the North region." default="1" min="1" max="3"/>
+<conditionWorldEvent id="1879366908" propertyId="268461518" propertyName="WE_Mirkwood_North_Endgame_Driven_Daily_Set_2" description="Set 2 of Stronghold of the North Dailies.">
+<worldEventCondition worldEventID="1879366907" worldEventName="WE_mirkwood_north_endgame_daily_driver" operator="EQUAL" value="2"/>
+</conditionWorldEvent>
+<conditionWorldEvent id="1879366909" propertyId="268461519" propertyName="WE_Mirkwood_North_Endgame_Driven_Daily_Set_3" description="Set 3 of Stronghold of the North Dailies.">
+<worldEventCondition worldEventID="1879366907" worldEventName="WE_mirkwood_north_endgame_daily_driver" operator="EQUAL" value="3"/>
+</conditionWorldEvent>
+<conditionWorldEvent id="1879366910" propertyId="268461517" propertyName="WE_Mirkwood_North_Endgame_Driven_Daily_Set_1" description="Set 1 of Stronghold of the North Dailies.">
+<worldEventCondition worldEventID="1879366907" worldEventName="WE_mirkwood_north_endgame_daily_driver" operator="EQUAL" value="1"/>
+</conditionWorldEvent>
+<booleanWorldEvent id="1879370502" propertyId="268461580" propertyName="WE_Event_DurinsDay_Active" default="false"/>
+<integerWorldEvent id="1879371698" propertyId="268461582" propertyName="WE_Event_DurinsDay_Counter" default="0" min="0" max="3"/>
+<integerWorldEvent id="1879378972" propertyId="268461621" propertyName="WE_dwarfholds_endgame_optional_objective" description="Controls the configuration of available Dwarf Kings during the 13 Kings encounter in the Anvil raid." default="1" min="1" max="11"/>
+<booleanWorldEvent id="1879379701" propertyId="268461635" propertyName="WE_dwarfholds_eredmithrin_instance_leading_charge_lock" description="Used to end the initial window of time to complete the final encounter 'challenge' of Thikil-gundu on Tier 3." default="false"/>
+<booleanWorldEvent id="1879379702" propertyId="268461636" propertyName="WE_dwarfholds_eredmithrin_instance_tier_3_lock" description="Used to end the initial window of time to complete the final encounter 'challenge' of Thikil-gundu on Tier 3." default="false"/>
+<booleanWorldEvent id="1879381183" propertyId="268461665" propertyName="WE_server_legendary_active" description="Used to denote whether a server is one of our legendary servers." default="false"/>
+<integerWorldEvent id="1879382936" propertyId="268461707" propertyName="WE_dwarfholds_eredmithrin_instance_raid_gate" description="DNT - Gates Tier 3 of Anvil of Winterstith raid." default="2" min="0" max="10"/>
+<integerWorldEvent id="1879384820" propertyId="268461729" propertyName="WE_ev_skirmish_driver" description="Controls which set of Skirmish are currently spawning the special event monsters." default="1" min="1" max="4"/>
+<booleanWorldEvent id="1879384939" propertyId="268461745" propertyName="WE_EV_Skirmish_Active" description="TRUE enables players to interact with the event; FALSE disables the event, quest progress, turn-in, and barter." default="false"/>
+<booleanWorldEvent id="1879387325" propertyId="268461786" propertyName="WE_Vales_Anduin_Shades_Swamp_Active" description="TRUE enables Shades in the Swamp U24.2 update." default="false"/>
+<integerWorldEvent id="1879389090" propertyId="268461868" propertyName="WE_minas_morgul_instance_tier_gate" description="Controls the configuration of available tiers for 3man instances in Minas Morgul." default="0" min="0" max="10"/>
+<integerWorldEvent id="1879389510" propertyId="268461873" propertyName="WE_vales_anduin_instance_tier_gate" description="Controls the configuration of available tiers for Kidzul Kalah 6man." default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879390899" propertyId="268461897" propertyName="WE_minas_morgul_instance_leading_charge_lock" description="Used to end the initial window of time to complete the final 3-man encounter 'challenge' of Minas Morgul on Tier 3." default="false"/>
+<booleanWorldEvent id="1879391334" propertyId="268461907" propertyName="WE_vales_anduin_kidzul_kalah_instance_leading_charge_lock" description="Used to end the initial window of time to complete the final encounter 'challenge' of Thikil-gundu on Tier 3." default="false"/>
+<integerWorldEvent id="1879396486" propertyId="268462038" propertyName="WE_minas_morgul_instance_raid_tier_gate" description="Controls the configuration of available tiers for Remmorchant raid in Minas Morgul." default="0" min="0" max="10"/>
+<integerWorldEvent id="1879396487" propertyId="268462039" propertyName="WE_minas_morgul_instance_6man_tier_gate" description="Controls the configuration of available tiers for 6man instances in Minas Morgul." default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879398039" propertyId="268462059" propertyName="WE_minas_morgul_instance_6man_leading_charge_lock" description="Used to end the initial window of time to complete the final 6-man encounter 'challenge' of Minas Morgul on Tier 3." default="false"/>
+<booleanWorldEvent id="1879398040" propertyId="268462058" propertyName="WE_minas_morgul_instance_raid_leading_charge_lock" description="Used to end the initial window of time to complete the final raid encounter 'challenge' of Minas Morgul on Tier 3." default="false"/>
+<booleanWorldEvent id="1879401392" propertyId="268462097" propertyName="WE_Treasure_Bugan_Active" description="TRUE enables players to interact with the event; FALSE disables the event, quest progress, turn-in, and barter." default="false"/>
+<booleanWorldEvent id="1879405280" propertyId="268462162" propertyName="WE_secret_stone_2_raid_boss_active" description="Used to turn on Secret Stone 2 Raid Boss" default="false"/>
+<booleanWorldEvent id="1879405281" propertyId="268462161" propertyName="WE_secret_stone_2_active" description="Used to turn on Secret Stone 2 Quest Arc" default="false"/>
+<booleanWorldEvent id="1879405493" propertyId="268462171" propertyName="WE_PVP_War_Event_Control" description="Used to turn on PvP team event." default="false"/>
+<booleanWorldEvent id="1879406114" propertyId="268462177" propertyName="WE_WeddingFestival_FestivalActive" default="false"/>
+<booleanWorldEvent id="1879406912" propertyId="268462207" propertyName="WE_secret_stone_2_puzzle_leading_the_charge_lock" description="Leading the Charge lock for Puzzle deed" default="false"/>
+<booleanWorldEvent id="1879409038" propertyId="268462280" propertyName="WE_Elderslade_Missions_Active" description="TRUE enables Elderslade missions." default="true"/>
+<integerWorldEvent id="1879409039" propertyId="268462282" propertyName="WE_Integer_Elderslade_Mission_Config" description="Controls which elderslade missions are available each day" default="1" min="1" max="10"/>
+<integerWorldEvent id="1879409040" propertyId="268462281" propertyName="WE_Integer_Elderslade_Raid_Tier_Gate" description="Controls which tiers (if any) of the Elderslade Raid are available" default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879409934" propertyId="268462362" propertyName="WE_Elderslade_Raid_Aotc" description="Used to end the initial window of time to complete the final raid encounter 'challenge' of Elderslade on Tier 3/4/5." default="false"/>
+<booleanWorldEvent id="1879411822" propertyId="268462392" propertyName="WE_Elderslade_6man_Aotc" description="Used to end the initial window of time to complete the final 6man encounter 'challenge' of Elderslade on Tier 3/4/5." default="false"/>
+<integerWorldEvent id="1879411823" propertyId="268462393" propertyName="WE_Integer_Elderslade_6man_Tier_Gate" description="Controls which tiers (if any) of the Elderslade 6man are available" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879414604" propertyId="268462443" propertyName="WE_Integer_Wildwood_Instance_Tier_Gate" description="Controls which tiers (if any) of the Wildwood Instances are available" default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879415646" propertyId="268462467" propertyName="WE_Wildwood_Instances_Aotc_Gate" description="Used to end the initial window of time to complete the final 6man encounter 'challenge' of Wildwood Instances on Tier 3/4/5." default="false"/>
+<integerWorldEvent id="1879416224" propertyId="268462474" propertyName="WE_Integer_Azanulbizar_Raid_Tier_Gate" description="Controls which tiers (if any) of the Azanulbizar Raid are available" default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879416226" propertyId="268462473" propertyName="WE_Azanulbizar_Raid_Aotc_Gate" description="Used to end the initial window of time to complete the Azanulbizar Raid on Tier 3/4/5." default="false"/>
+<integerWorldEvent id="1879417260" propertyId="268462516" propertyName="WE_Integer_Gundabad_Mission_Config" description="Controls which gundabad missions are available each day" default="1" min="1" max="6"/>
+<integerWorldEvent id="1879421042" propertyId="268462661" propertyName="WE_gundabad_3man_instance_tier_gate" description="Controls the configuration of available tiers for 3man instances in Gundabad." default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879421161" propertyId="268462662" propertyName="WE_gundabad_3man_instance_leading_charge_lock" description="Used to end the initial window of time to complete the final 3-man encounter 'challenge' of Minas Morgul on Tier 3." default="false"/>
+<booleanWorldEvent id="1879422162" propertyId="268462684" propertyName="WE_gundabad_6man_instance_leading_charge_lock" description="Used to end the initial window of time to complete the final 6-man encounter 'challenge' of Gundabad on Tier 3." default="false"/>
+<booleanWorldEvent id="1879422163" propertyId="268462685" propertyName="WE_gundabad_12man_raid_leading_charge_lock" description="Used to end the initial window of time to complete the final 12-man encounter 'challenge' of Gundabad on Tier 3." default="false"/>
+<integerWorldEvent id="1879422165" propertyId="268462686" propertyName="WE_gundabad_6man_instance_tier_gate" description="Controls the configuration of available tiers for 6man instances in Gundabad." default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879447582" propertyId="268463172" propertyName="we_anniversaryreward_2022" default="false"/>
+</worldEvents>
