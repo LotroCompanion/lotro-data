@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><stats>
 <stat id="268437691" index="0" name="Maximum Morale" key="Health_MaxLevel" legacyKey="MORALE" legacyName="Morale"/>
 <stat id="268436768" index="1" name="Maximum Power" key="Power_MaxLevel" legacyKey="POWER" legacyName="Power"/>
-<stat id="-1008" index="2" name="Armour" key="ARMOUR" legacyKey="ARMOUR"/>
+<stat id="-1008" index="2" name="Armour" key="ARMOUR" legacyKey="ARMOUR" type="INTEGER"/>
 <stat id="268436928" index="3" name="Might" key="Stat_Might" legacyKey="MIGHT" type="INTEGER"/>
 <stat id="268438502" index="4" name="Agility" key="Stat_Agility" legacyKey="AGILITY" type="INTEGER"/>
 <stat id="268439946" index="5" name="Vitality" key="Stat_Vitality" legacyKey="VITALITY" type="INTEGER"/>
@@ -105,7 +105,7 @@
 <stat id="268454228" index="104" name="War-steed Strength" key="Stat_MountStrength" legacyKey="WARSTEED_STRENGTH" type="INTEGER"/>
 <stat id="-1010" name="Shield Use Rank" key="Combat_TacticalDPS_Modifier#1" legacyKey="Combat_TacticalDPS_Modifier#1"/>
 <stat id="-1009" name="DPS" key="DPS" legacyKey="DPS"/>
-<stat id="2881" name="Changes player's physics controller to sliding on ice" key="ForwardSource_Environment_PlayerLocalSkyOverride" type="INTEGER"/>
+<stat id="2881" name="Changes player's physics controller to sliding on ice" key="ForwardSource_Environment_PlayerLocalSkyOverride" type="ENUM"/>
 <stat id="268435463" name="Focus" key="Skill_Pips_Mod_Trait_EnduringPrecision" type="INTEGER"/>
 <stat id="268435464" name="Minimum Focus" key="Skill_Pips_PipMinMod_Trait_ArrowStorm" type="INTEGER"/>
 <stat id="268435465" name="Healing Skills Induction" key="Skill_InductionDuration_Loremaster_Trait_Healer" isPercentage="true"/>
@@ -128,7 +128,7 @@
 <stat id="268435682" name="Damage Increase" key="Skill_DamageMultiplier_Trait_FellowshipsFriend_Damage" isPercentage="true"/>
 <stat id="268435683" name="Threat" key="Skill_AdditionalThreat_subtlewizard"/>
 <stat id="268435684" name="Burglar Disabled Attack Trait" key="Trait_Burglar_DisabledAttacks" type="ARRAY"/>
-<stat id="268435710" name="Combat Event Reactions" key="ForwardSource_GameEvent_CombatEventTable" type="INTEGER"/>
+<stat id="268435710" name="Combat Event Reactions" key="ForwardSource_GameEvent_CombatEventTable" type="DID"/>
 <stat id="268435712" name="Idealism" key="Trait_Virtue_Rank_Idealism" type="INTEGER"/>
 <stat id="268435732" name="Run Speed" key="ForwardSource_Movement_SpeedMultiplier" isPercentage="true"/>
 <stat id="268435744" name="Focus" key="Pip_Aim" type="INTEGER"/>
@@ -151,7 +151,7 @@
 <stat id="268436041" name="Allows immunity to knockaway effects." key="EffectMod_Knockaway_Immunity" type="BOOLEAN"/>
 <stat id="268436045" name="Dread" key="Mood_Intended_Dread_Level" type="INTEGER"/>
 <stat id="268436087" name="One-handed Club Damage" key="Combat_WeaponDamageMultiplier_1HClub" isPercentage="true"/>
-<stat id="268436090" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo2" type="INTEGER"/>
+<stat id="268436090" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo2" type="ENUM"/>
 <stat id="268436093" name="Tactical Evade Chance" key="Combat_BaseEvadeRate_Magic" isPercentage="true"/>
 <stat id="268436124" name="Allowed Equipment Categories" key="Inventory_AllowedEquipmentCategories" type="BITFIELD"/>
 <stat id="268436147" name="Sprint Cooldown" key="Skill_RecoveryTime_Trait_MP_Sprint"/>
@@ -167,7 +167,7 @@
 <stat id="268436185" name="Valour" key="Trait_Virtue_Rank_Valor" type="INTEGER"/>
 <stat id="268436215" name="Stealth Break Resist" key="Stealth_ResistBreakModifier" type="BOOLEAN"/>
 <stat id="268436331" name="Can Attack" key="AI_CanAttack" type="BOOLEAN"/>
-<stat id="268436350" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo3" type="INTEGER"/>
+<stat id="268436350" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo3" type="ENUM"/>
 <stat id="268436352" name="Ranged Evade Chance" key="Combat_BaseEvadeRate_Ranged" isPercentage="true"/>
 <stat id="268436354" name="Tactical Critical Chance" key="Combat_EffectCriticalChanceMod" isPercentage="true"/>
 <stat id="268436393" name="Fervour" key="Skill_Pips_CostMod_Trait_Champion_TimeofNeed" type="INTEGER"/>
@@ -176,7 +176,7 @@
 <stat id="268436435" name="Damage Threat" key="ThreatInputModifier_Damage" isPercentage="true"/>
 <stat id="268436447" name="Movement Freeze" key="ForwardSource_ScriptSystem_ActiveMovementBlocked" type="BOOLEAN"/>
 <stat id="268436524" name="Incoming Healing" key="Mood_Healing_Modifier" isPercentage="true"/>
-<stat id="268436578" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo4" type="INTEGER"/>
+<stat id="268436578" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo4" type="ENUM"/>
 <stat id="268436581" name="Light Mitigation" key="Combat_MitigationPercentage_Light" isPercentage="true"/>
 <stat id="268436583" name="Can Parry" key="Combat_CanParry" type="BOOLEAN"/>
 <stat id="268436633" name="Improved Enlivening Grace" key="Skill_RecoveryTime_GracefulPowercostReductionandDuration" isPercentage="true"/>
@@ -193,11 +193,11 @@
 <stat id="268436706" name="Completed Mastery" key="Craft_Cook_CompletedMasteryLevel" type="INTEGER"/>
 <stat id="268436764" name="Mischievous Glee Initial Healing" key="EffectMod_VOT_PerIntervalChangeMult_AddMod1_Trait_Tricks" isPercentage="true"/>
 <stat id="268436789" name="Override Desire" key="AI_Threat_DesireOverride"/>
-<stat id="268436813" name="Guardian Damage Combo Mode" key="ForwardSource_ComboMode_Guardian_DamageType" type="INTEGER"/>
-<stat id="268436815" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo5" type="INTEGER"/>
+<stat id="268436813" name="Guardian Damage Combo Mode" key="ForwardSource_ComboMode_Guardian_DamageType" type="ENUM"/>
+<stat id="268436815" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo5" type="ENUM"/>
 <stat id="268436816" name="Miss Chance" key="Combat_MissChanceModifier" isPercentage="true"/>
 <stat id="268436817" name="Miss Chance" key="Combat_BaseMissRate" isPercentage="true"/>
-<stat id="268436861" name="damage type of all skills" key="Skill_DamageTypeOverride_AllSkillsOverride" type="INTEGER"/>
+<stat id="268436861" name="damage type of all skills" key="Skill_DamageTypeOverride_AllSkillsOverride" type="ENUM"/>
 <stat id="268436862" name="Fervour" key="Skill_Pips_CostMod_Trait_Champion_SwifttoAnger" type="INTEGER"/>
 <stat id="268436863" name="Fervour" key="Skill_Pips_CostMod_Trait_Champion_CheaperBladeStormPips" type="INTEGER"/>
 <stat id="268436864" name="Minimum Focus" key="Skill_Pips_PipMinMod_Trait_LongPull" type="INTEGER"/>
@@ -207,11 +207,11 @@
 <stat id="268436868" name="Fury of Nature Skills Morale Cost" key="Skill_VitalCost_Trait_VulgarMagicMoraleCostReduction" isPercentage="true"/>
 <stat id="268436869" name="Loremaster Lore Power Cost" key="Skill_VitalCost_Book_CallNatureMod" isPercentage="true"/>
 <stat id="268436870" name="Champion Call of the Wild Trait" key="Skill_AdditionalThreat_ChampionWildAttackMod"/>
-<stat id="268436871" name="Pet Trait Mod" key="Trait_Loremaster_PetModStat_Slot1" type="INTEGER"/>
+<stat id="268436871" name="Pet Trait Mod" key="Trait_Loremaster_PetModStat_Slot1" type="DID"/>
 <stat id="268436872" name="Improved Banner of Defence" key="Trait_Captain_ImprovedBannerofDefense" type="ARRAY"/>
 <stat id="268436873" name="Captain Herald Appearance" key="Trait_Captain_ImprovedBannerofHope_AppearanceB" type="ARRAY"/>
 <stat id="268436893" name="Wound Resistance" key="Resist_Additional_Resistance_Wound" isPercentage="true"/>
-<stat id="268436911" name="Conjunction Event Reactions" key="ForwardSource_GameEvent_ConjunctionEventTable" type="INTEGER"/>
+<stat id="268436911" name="Conjunction Event Reactions" key="ForwardSource_GameEvent_ConjunctionEventTable" type="DID"/>
 <stat id="268436925" name="Movement Acceleration Multiplier" key="ForwardSource_Movement_AccelerationMultiplier"/>
 <stat id="268436938" name="Completed Proficiency" key="Craft_Forester_CompletedProficiencyLevel" type="INTEGER"/>
 <stat id="268436939" name="Completed Mastery" key="Craft_Weaponsmith_CompletedMasteryLevel" type="INTEGER"/>
@@ -220,7 +220,7 @@
 <stat id="268437059" name="One-handed Axe Damage" key="Combat_WeaponDamageMultiplier_1HAxe" isPercentage="true"/>
 <stat id="268437061" name="Ranged Block Chance" key="Combat_BaseBlockRate_Ranged" isPercentage="true"/>
 <stat id="268437064" name="Discount at most Ered Luin shops" key="Discount_Eredluin" isPercentage="true"/>
-<stat id="268437083" name="Usage Action" key="Usage_Action_Shadow" type="INTEGER"/>
+<stat id="268437083" name="Usage Action" key="Usage_Action_Shadow" type="DID"/>
 <stat id="268437109" name="Fervour" key="Skill_Pips_CostMod_Trait_Champion_ImprovedBattleFrenzy" type="INTEGER"/>
 <stat id="268437110" name="Dire Need Cooldown" key="Skill_RecoveryTime_ChampionImprovedDireNeed"/>
 <stat id="268437111" name="Beacon of Hope Morale Cost" key="Skill_VitalCost_Morale_GiveHopeMod" isPercentage="true"/>
@@ -229,7 +229,7 @@
 <stat id="268437114" name="Fire Skills Damage" key="Skill_DamageMultiplier_FireFriendMod" isPercentage="true"/>
 <stat id="268437115" name="Stealthy Shot" key="Trait_Hunter_StealthyShot" type="ARRAY"/>
 <stat id="268437116" name="Centering Self" key="Trait_Hunter_CenteringSelf" type="ARRAY"/>
-<stat id="268437117" name="Pet Trait Mod2" key="Trait_Loremaster_PetModStat_Slot2" type="INTEGER"/>
+<stat id="268437117" name="Pet Trait Mod2" key="Trait_Loremaster_PetModStat_Slot2" type="DID"/>
 <stat id="268437118" name="Complex Riddle Trait" key="Trait_Burglar_ComplexRiddle" isPercentage="true" type="ARRAY"/>
 <stat id="268437119" name="Improved Rallying Cry" key="Trait_Captain_ImprovedRallyingCry" type="ARRAY"/>
 <stat id="268437120" name="Captain Herald Appearance" key="Trait_Captain_ImprovedBannerofHope_AppearanceC" type="ARRAY"/>
@@ -262,7 +262,7 @@
 <stat id="268437647" name="Feigned Death Resist Chance Modifier" key="FeignedDeath_ResistChanceModifier"/>
 <stat id="268437687" name="Stealth Level" key="EffectMod_StealthLevel_Trait_MP_ImprovedStealth" type="INTEGER"/>
 <stat id="268437722" name="Perception Radius" key="AI_PerceptionRadius" isPercentage="true"/>
-<stat id="268437747" name="Current Combo" key="ForwardSource_Combat_CurrentCombo" type="INTEGER"/>
+<stat id="268437747" name="Current Combo" key="ForwardSource_Combat_CurrentCombo" type="ENUM"/>
 <stat id="268437749" name="Melee Block Chance" key="Combat_BaseBlockRate_Melee" isPercentage="true"/>
 <stat id="268437752" name="Ancient Dwarf Mitigation" key="Combat_MitigationPercentage_AncientDwarf" isPercentage="true"/>
 <stat id="268437755" name="Discount at most Bree-land shops" key="Discount_Breeland" isPercentage="true"/>
@@ -284,7 +284,7 @@
 <stat id="268438040" name="Captain Herald Appearance" key="Trait_Captain_ImprovedBannerofWar_AppearanceA" type="ARRAY"/>
 <stat id="268438077" name="Innocence" key="Trait_Virtue_Rank_Innocence" type="INTEGER"/>
 <stat id="268438078" name="Loyalty" key="Trait_Virtue_Rank_Loyalty" type="INTEGER"/>
-<stat id="268438084" name="Examination Mod Stat Type" key="MonsterLevel_ExaminationModStatType" type="INTEGER"/>
+<stat id="268438084" name="Examination Mod Stat Type" key="MonsterLevel_ExaminationModStatType" type="ENUM"/>
 <stat id="268438099" name="Completed Proficiency" key="Craft_Woodworker_CompletedProficiencyLevel" type="INTEGER"/>
 <stat id="268438188" name="Beleriand Mitigation" key="Combat_MitigationPercentage_Beleriand" isPercentage="true"/>
 <stat id="268438236" name="Seconds" key="Skill_Pips_Mod_Trait_EnduringPrecision_Seconds"/>
@@ -320,8 +320,8 @@
 <stat id="268438735" name="Compassion" key="Trait_Virtue_Rank_Compassionate" type="INTEGER"/>
 <stat id="268438736" name="Fortitude" key="Trait_Virtue_Rank_Fortitude" type="INTEGER"/>
 <stat id="268438774" name="Revival Disabler" key="Death_RevivalAllowed" type="BOOLEAN"/>
-<stat id="268438830" name="Safe Mode State" key="SafeModeState" type="INTEGER"/>
-<stat id="268438881" name="Guardian Shield Damage Increase" key="Guardian_ShieldDamageIncrease" type="INTEGER"/>
+<stat id="268438830" name="Safe Mode State" key="SafeModeState" type="ENUM"/>
+<stat id="268438881" name="Guardian Shield Damage Increase" key="Guardian_ShieldDamageIncrease" type="ENUM"/>
 <stat id="268438882" name="One-handed Sword Damage" key="Combat_WeaponDamageMultiplier_1HSword" isPercentage="true"/>
 <stat id="268438885" name="Melee Parry Chance" key="Combat_BaseParryRate_Melee" isPercentage="true"/>
 <stat id="268438887" name="Ranged Immunity" key="Combat_DamageQualifier_Ranged_Immunity" type="BOOLEAN"/>
@@ -351,7 +351,7 @@
 <stat id="268439237" name="Charity" key="Trait_Virtue_Rank_Charity" type="INTEGER"/>
 <stat id="268439269" name="Completed Proficiency" key="Craft_Scholar_CompletedProficiencyLevel" type="INTEGER"/>
 <stat id="268439270" name="Critical Chance" key="Craft_Forester_CriticalChanceAddModifier" isPercentage="true"/>
-<stat id="268439350" name="Tracking Resource" key="Discovery_Tracking_Resource" type="INTEGER"/>
+<stat id="268439350" name="Tracking Resource" key="Discovery_Tracking_Resource" type="ENUM"/>
 <stat id="268439365" name="Beleriand Immunity" key="Combat_DamageType_Immunity_Beleriand" type="BOOLEAN"/>
 <stat id="268439366" name="Westernesse Immunity" key="Combat_DamageType_Immunity_Westernesse" type="BOOLEAN"/>
 <stat id="268439396" name="Incoming Melee Critical Chance" key="Combat_AttackerCriticalHitChanceAddMod" isPercentage="true"/>
@@ -370,7 +370,7 @@
 <stat id="268439501" name="Critical Chance" key="Craft_Prospector_CriticalChanceAddModifier" isPercentage="true"/>
 <stat id="268439502" name="Completed Proficiency" key="Craft_Weaponsmith_CompletedProficiencyLevel" type="INTEGER"/>
 <stat id="268439563" name="Experience Modifier" key="XP_AwardMultiplier" isPercentage="true"/>
-<stat id="268439608" name="Hunter Ranged Combo Mode" key="ForwardSource_ComboMode_Hunter_DamageType" type="INTEGER"/>
+<stat id="268439608" name="Hunter Ranged Combo Mode" key="ForwardSource_ComboMode_Hunter_DamageType" type="ENUM"/>
 <stat id="268439614" name="Can Evade" key="Combat_CanEvade" type="BOOLEAN"/>
 <stat id="268439659" name="Targets of Lore Skills" key="Skill_Targets_Trait_AdvancedLore" type="INTEGER"/>
 <stat id="268439660" name="Off-hand Damage" key="Skill_DamageMultiplier_Offhand_Trait_Ambidextrous" isPercentage="true"/>
@@ -385,7 +385,7 @@
 <stat id="268439904" name="Captain Herald Appearance" key="Trait_Captain_ImprovedBannerofDefense_AppearanceA" type="ARRAY"/>
 <stat id="268439955" name="Completed Mastery" key="Craft_Tailor_CompletedMasteryLevel" type="INTEGER"/>
 <stat id="268440059" name="Two-handed Sword Damage" key="Combat_WeaponDamageMultiplier_2HSword" isPercentage="true"/>
-<stat id="268440061" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo" type="INTEGER"/>
+<stat id="268440061" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo" type="ENUM"/>
 <stat id="268440062" name="Tactical Parry Chance" key="Combat_BaseParryRate_Magic" isPercentage="true"/>
 <stat id="268440063" name="Westernesse Mitigation" key="Combat_MitigationPercentage_Westernesse" isPercentage="true"/>
 <stat id="268440065" name="Discount at most Shire shops" key="Discount_Shire" isPercentage="true"/>
@@ -442,8 +442,8 @@
 <stat id="268440768" name="Stealth Movement Speed" key="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" isPercentage="true"/>
 <stat id="268440777" name="Not Attackable" key="Combat_NotAttackable" isPercentage="true" type="BOOLEAN"/>
 <stat id="268440802" name="Is AI Active" key="AI_Active" type="BOOLEAN"/>
-<stat id="268440804" name="Threat Mod Table Overrirde" key="AI_ThreatModTable" type="INTEGER"/>
-<stat id="268440829" name="Captain Herald Appearance Combo Mode" key="ForwardSource_ComboMode_Captain_HeraldAppearance" type="INTEGER"/>
+<stat id="268440804" name="Threat Mod Table Overrirde" key="AI_ThreatModTable" type="DID"/>
+<stat id="268440829" name="Captain Herald Appearance Combo Mode" key="ForwardSource_ComboMode_Captain_HeraldAppearance" type="ENUM"/>
 <stat id="268440885" name="Bringing back fellows from defeat induction" key="Skill_InductionDuration_Minstrel_Trait_RezInduction"/>
 <stat id="268440889" name="Is Combat Movement Interruptable" key="AI_CombatMovementInterruptable" type="BOOLEAN"/>
 <stat id="268441081" name="Auto-attack Critical Hit Chance" key="Skill_DaggerAutoAttackCriticalHitChance" isPercentage="true"/>
@@ -465,15 +465,15 @@
 <stat id="268441489" name="Share Tracked Target" key="Fellowship_SharedTracking_Trait" type="BOOLEAN"/>
 <stat id="268441535" name="Allow Heralds" key="AI_Pet_Enable_HeraldsPetChannel" type="BOOLEAN"/>
 <stat id="268441536" name="Allow Banner Standards" key="AI_Pet_Enable_BannerStandardsPetChannel" type="BOOLEAN"/>
-<stat id="268441644" name="Override for herald pet effects" key="AI_PetEffect_HeraldBaseWC_Override" type="INTEGER"/>
-<stat id="268441646" name="Fellowship Manoeuvre Damage from Guile" key="ForwardSource_ComboMode_Captain_Herald_Improved" type="INTEGER"/>
+<stat id="268441644" name="Override for herald pet effects" key="AI_PetEffect_HeraldBaseWC_Override" type="DID"/>
+<stat id="268441646" name="Fellowship Manoeuvre Damage from Guile" key="ForwardSource_ComboMode_Captain_Herald_Improved" type="ENUM"/>
 <stat id="268441647" name="Out of Combat Run Speed" key="Movement_OutOfCombat_Speed_AddMod" isPercentage="true"/>
 <stat id="268441648" name="in-Combat Run Speed" key="Movement_InCombat_Speed_AddMod" isPercentage="true"/>
-<stat id="268441669" name="Melee Weapon Proc Effect" key="Combat_MeleeDmgQualifier_WeaponProcEffect" type="INTEGER"/>
-<stat id="268441670" name="Ranged Weapon Proc Effect" key="Combat_RangedDmgQualifier_WeaponProcEffect" type="INTEGER"/>
-<stat id="268441671" name="Tactical Weapon Proc Effect" key="Combat_TacticalDmgQualifier_WeaponProcEffect" type="INTEGER"/>
-<stat id="268441673" name="Override for victory herald pet effects" key="AI_PetEffect_HeraldVictoryWC_Override" type="INTEGER"/>
-<stat id="268441674" name="Override for hope herald pet effects" key="AI_PetEffect_HeraldHopeWC_Override" type="INTEGER"/>
+<stat id="268441669" name="Melee Weapon Proc Effect" key="Combat_MeleeDmgQualifier_WeaponProcEffect" type="DID"/>
+<stat id="268441670" name="Ranged Weapon Proc Effect" key="Combat_RangedDmgQualifier_WeaponProcEffect" type="DID"/>
+<stat id="268441671" name="Tactical Weapon Proc Effect" key="Combat_TacticalDmgQualifier_WeaponProcEffect" type="DID"/>
+<stat id="268441673" name="Override for victory herald pet effects" key="AI_PetEffect_HeraldVictoryWC_Override" type="DID"/>
+<stat id="268441674" name="Override for hope herald pet effects" key="AI_PetEffect_HeraldHopeWC_Override" type="DID"/>
 <stat id="268441829" name="Improved Standard of War" key="Trait_Captain_ImprovedStandardofWar" type="ARRAY"/>
 <stat id="268441830" name="Improved Standard of Defence" key="Trait_Captain_ImprovedStandardofDefense" type="ARRAY"/>
 <stat id="268441831" name="Improved Standard of Hope" key="Trait_Captain_ImprovedStandardofHope" type="ARRAY"/>
@@ -496,12 +496,12 @@
 <stat id="268442048" name="Search Speed" key="Item_InductionDuration_Burglar_Looting" isPercentage="true"/>
 <stat id="268442065" name="Words of Power Damage" key="Skill_Minstrel_Warspeech_Damage" isPercentage="true"/>
 <stat id="268442066" name="Words of Power Usage Cost Increase" key="Skill_Minstrel_Warspeech_Power" isPercentage="true"/>
-<stat id="268442067" name="Echoes of Battle damage type" key="Item_Minstrel_Oathbreaker_Damagetype" type="INTEGER"/>
-<stat id="268442120" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo6" type="INTEGER"/>
-<stat id="268442247" name="Override for Bear Loremaster APR pet effects" key="AI_PetEffect_LoremasterBearWC_Override" type="INTEGER"/>
-<stat id="268442248" name="Override for Loremaster Raven APR pet effects" key="AI_PetEffect_LoremasterRavenWC_Override" type="INTEGER"/>
-<stat id="268442249" name="Override for Eagle Loremaster APR pet effects" key="AI_PetEffect_LoremasterEagleWC_Override" type="INTEGER"/>
-<stat id="268442250" name="Override for Lynx Loremaster APR pet effects" key="AI_PetEffect_LoremasterLynxWC_Override" type="INTEGER"/>
+<stat id="268442067" name="Echoes of Battle damage type" key="Item_Minstrel_Oathbreaker_Damagetype" type="ENUM"/>
+<stat id="268442120" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo6" type="ENUM"/>
+<stat id="268442247" name="Override for Bear Loremaster APR pet effects" key="AI_PetEffect_LoremasterBearWC_Override" type="DID"/>
+<stat id="268442248" name="Override for Loremaster Raven APR pet effects" key="AI_PetEffect_LoremasterRavenWC_Override" type="DID"/>
+<stat id="268442249" name="Override for Eagle Loremaster APR pet effects" key="AI_PetEffect_LoremasterEagleWC_Override" type="DID"/>
+<stat id="268442250" name="Override for Lynx Loremaster APR pet effects" key="AI_PetEffect_LoremasterLynxWC_Override" type="DID"/>
 <stat id="268442264" name="Piercing Cry Critical Chance" key="Skill_ChanceCriticalHit_Minstrel_Warspeech" isPercentage="true"/>
 <stat id="268442283" name="Rift Armour Shadow Absorption" key="Skill_RiftSet_Absorb_Shadow" isPercentage="true"/>
 <stat id="268442296" name="Hovering" key="ForwardSource_ScriptSystem_IsHovering" type="BOOLEAN"/>
@@ -512,7 +512,7 @@
 <stat id="268442381" name="Camera X Offset" key="ForwardSource_Entity_Camera_LookAt_OffsetX"/>
 <stat id="268442382" name="Camera Y Offset" key="ForwardSource_Entity_Camera_LookAt_OffsetY"/>
 <stat id="268442383" name="Camera Z Offset" key="ForwardSource_Entity_Camera_LookAt_OffsetZ"/>
-<stat id="268442391" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo7" type="INTEGER"/>
+<stat id="268442391" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo7" type="ENUM"/>
 <stat id="268442396" name="Rift Armour Pet Upgrade" key="AI_PetEffect_AuraOverride_Rift_Banner_Defense" type="ARRAY"/>
 <stat id="268442397" name="Rift Armour Pet Upgrade" key="AI_PetEffect_AuraOverride_Rift_Herald_Defense_Improved" type="ARRAY"/>
 <stat id="268442398" name="Rift Armour Pet Upgrade" key="AI_PetEffect_AuraOverride_Rift_Banner_Defense_Improved" type="ARRAY"/>
@@ -572,7 +572,7 @@
 <stat id="268443045" name="Curse of Sticky Feet also reduces Fire mitigation by 10%" key="Skill_EffectOverride_Trait_MP_CurseStickyFeet" type="ARRAY"/>
 <stat id="268443049" name="Increases critical hit chance as well as the amount of Block/Parry/Evade reduced on critical hit." key="Skill_EffectOverride_Trait_MP_PlagueGourd" type="ARRAY"/>
 <stat id="268443108" name="Threat" key="Guardian_Trait_Class_ThreateningPresence"/>
-<stat id="268443123" name="Test Reward Profile Override" key="Hobby_Test_RewardProfileOverride" type="INTEGER"/>
+<stat id="268443123" name="Test Reward Profile Override" key="Hobby_Test_RewardProfileOverride" type="DID"/>
 <stat id="268443128" name="Off-hand weapon or shield disarmed" key="Inventory_DisarmFlag_Weapon_Secondary" type="BOOLEAN"/>
 <stat id="268443129" name="Primary hand weapon disarmed" key="Inventory_DisarmFlag_Weapon_Primary" type="BOOLEAN"/>
 <stat id="268443130" name="Ranged weapon disarmed" key="Inventory_DisarmFlag_Weapon_Ranged" type="BOOLEAN"/>
@@ -604,7 +604,7 @@
 <stat id="268443286" name="Stamp Cooldown" key="Skill_RecoveryTime_GuardianStampMod"/>
 <stat id="268443287" name="Overpower Power Cost" key="Trait_Guardian_Overpower_PowerMod" isPercentage="true"/>
 <stat id="268443288" name="Overpower Damage" key="Trait_Guardian_Overpower_DamageMod" isPercentage="true"/>
-<stat id="268443289" name="Fishing Reward Profile Override" key="Hobby_Fishing_RewardProfileOverride" type="INTEGER"/>
+<stat id="268443289" name="Fishing Reward Profile Override" key="Hobby_Fishing_RewardProfileOverride" type="DID"/>
 <stat id="268443299" name="Fishing Quest Proficiency Modifier" key="Hobby_Fishing_QuestProficiencyModifier" type="INTEGER"/>
 <stat id="268443306" name="Improved Brutal Assault" key="Trait_Guardian_ImprovedBrutalAssault" type="ARRAY"/>
 <stat id="268443307" name="Improved Whirling Retaliation" key="Trait_Guardian_ImprovedWhirlingRetaliation" type="ARRAY"/>
@@ -648,8 +648,8 @@
 <stat id="268443458" name="Sign of the Wild: Rage - Attack Duration" key="Skill_Loremaster_AttackSpeedMod_SignoftheWilds" isPercentage="true"/>
 <stat id="268443459" name="Seconds of the Sign of the Wild Duration" key="Skill_Loremaster_DurationMod_SignoftheWilds"/>
 <stat id="268443462" name="chance Air-lore Damage Mitigation" key="Skill_Loremaster_DamageProcChance_AirLore" isPercentage="true"/>
-<stat id="268443463" name="Override for Salmander Loremaster APR pet effects" key="AI_PetEffect_LoremasterSalamanderWC_Override" type="INTEGER"/>
-<stat id="268443464" name="Override for Sabertooth Loremaster APR pet effects" key="AI_PetEffect_LoremasterSabertoothWC_Override" type="INTEGER"/>
+<stat id="268443463" name="Override for Salmander Loremaster APR pet effects" key="AI_PetEffect_LoremasterSalamanderWC_Override" type="DID"/>
+<stat id="268443464" name="Override for Sabertooth Loremaster APR pet effects" key="AI_PetEffect_LoremasterSabertoothWC_Override" type="DID"/>
 <stat id="268443477" name="Warrior's Heart / Fortitude Morale Heal" key="EffectMod_MoraleBonus_Guardian_WarriorsHeart" isPercentage="true"/>
 <stat id="268443478" name="Cry Resist Chance" key="Skill_ResistChance_Cry"/>
 <stat id="268443479" name="Catch A Breath Morale Heal" key="EffectMod_HealthHeal_Guardian_CatchaBreath" isPercentage="true"/>
@@ -720,7 +720,7 @@
 <stat id="268443668" name="50% Chance to Retain Defeat Event" key="Traitset_Champion_RetainDefeatEvent" type="ARRAY"/>
 <stat id="268443669" name="Champions Challenge Threat" key="Skill_AdditionalThreat_ChampionChallengeMod"/>
 <stat id="268443670" name="Fervour Generation" key="TraitSet_Champion_GloryPipRate"/>
-<stat id="268443701" name="Pet Modifier #3" key="Trait_Captain_PetModStat_Slot3" type="INTEGER"/>
+<stat id="268443701" name="Pet Modifier #3" key="Trait_Captain_PetModStat_Slot3" type="DID"/>
 <stat id="268443711" name="Composure" key="Trait_Captain_Composure" type="ARRAY"/>
 <stat id="268443718" name="Trick Removal Cooldown" key="Burglar_TrickRemoval_Recovery"/>
 <stat id="268443719" name="Target Riddle Resist Rating" key="Burglar_Riddle_Resistance"/>
@@ -732,14 +732,14 @@
 <stat id="268443725" name="Tricks Resistance" key="Burglar_Tricks_Resistance"/>
 <stat id="268443726" name="Target Trick Removal Resist Rating" key="Burglar_TrickRemoval_Resistance"/>
 <stat id="268443727" name="Target Confound Resist Rating" key="Burglar_Confound_Resistance"/>
-<stat id="268443737" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo8" type="INTEGER"/>
-<stat id="268443739" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo9" type="INTEGER"/>
-<stat id="268443741" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo10" type="INTEGER"/>
-<stat id="268443742" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo11" type="INTEGER"/>
-<stat id="268443743" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo12" type="INTEGER"/>
-<stat id="268443744" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo13" type="INTEGER"/>
-<stat id="268443745" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo14" type="INTEGER"/>
-<stat id="268443746" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo15" type="INTEGER"/>
+<stat id="268443737" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo8" type="ENUM"/>
+<stat id="268443739" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo9" type="ENUM"/>
+<stat id="268443741" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo10" type="ENUM"/>
+<stat id="268443742" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo11" type="ENUM"/>
+<stat id="268443743" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo12" type="ENUM"/>
+<stat id="268443744" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo13" type="ENUM"/>
+<stat id="268443745" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo14" type="ENUM"/>
+<stat id="268443746" name="Current Trait Combo" key="ForwardSource_Combat_TraitCombo15" type="ENUM"/>
 <stat id="268443748" name="To Arms Duration" key="Skill_Duration_Trait_Captain_TacticalProwess"/>
 <stat id="268443763" name="Gamble bonus on Double Edged Strike" key="Burglar_Trait_Gamble_DoubleEdged" type="ARRAY"/>
 <stat id="268443764" name="Gamble on Clever Retort" key="Burglar_Trait_Gamble_CleverRetort" type="ARRAY"/>
@@ -775,8 +775,8 @@
 <stat id="268443839" name="Valiant Strike Cooldown" key="Skill_RecoveryTime_Trait_HandsofHealing"/>
 <stat id="268443860" name="Improved Swift Bow" key="Trait_Hunter_ImprovedSwiftBow" type="ARRAY"/>
 <stat id="268443861" name="Improved Merciful Shot" key="Trait_Hunter_ImprovedMercifulShot" type="ARRAY"/>
-<stat id="268443870" name="Captain Pet Stat Mods" key="Trait_Captain_PetModStat_Slot4" type="INTEGER"/>
-<stat id="268443871" name="Captain Pet WC" key="AI_PetEffect_ArcherBaseWC_Override" type="INTEGER"/>
+<stat id="268443870" name="Captain Pet Stat Mods" key="Trait_Captain_PetModStat_Slot4" type="DID"/>
+<stat id="268443871" name="Captain Pet WC" key="AI_PetEffect_ArcherBaseWC_Override" type="DID"/>
 <stat id="268443875" name="Rend Bleed Damage" key="Skill_DamageMultiplier_RendDot" isPercentage="true"/>
 <stat id="268443876" name="Sudden Defence Cooldown" key="Skill_Duration_Mod_SuddenDefense"/>
 <stat id="268443877" name="Great Cleave Duration" key="Skill_RecoveryTime_Champion_RisingIre"/>
@@ -807,7 +807,7 @@
 <stat id="268443952" name="Provoke Damage" key="Burglar_Provoke_Damage" isPercentage="true"/>
 <stat id="268443953" name="Provoke Threat while in Stealth" key="Burglar_Provoke_Stealth_Threat"/>
 <stat id="268443954" name="Critical Chain Skills Critical Multiplier" key="Burglar_Provoke_Threat" isPercentage="true"/>
-<stat id="268443957" name="Appearance Override Item" key="Inventory_AppearanceOverrideItem" type="INTEGER"/>
+<stat id="268443957" name="Appearance Override Item" key="Inventory_AppearanceOverrideItem" type="DID"/>
 <stat id="268443969" name="Melee Evade Rating" key="Combat_EvadePoints_Melee"/>
 <stat id="268443974" name="Attacker Tacitcal Point Mod" key="Combat_Attacker_Critical_Point_Mod_Tactical"/>
 <stat id="268443975" name="Devastate Chance" key="Combat_SuperCritical_PercentAddMod" isPercentage="true"/>
@@ -1184,7 +1184,7 @@
 <stat id="268445480" name="Taunt Skill Additional Threat" key="Trait_Guardian_AdditionalThreat_TauntSkillsMod"/>
 <stat id="268445481" name="Guardian's Defence Partial Block Mitigation" key="EffectMod_PartialBlockMitigation_Guardians_Defence" isPercentage="true"/>
 <stat id="268445485" name="Root Duration" key="Item_Root_Duration"/>
-<stat id="268445503" name="PvMP Only Combo" key="ForwardSource_Combat_InPvMP" type="INTEGER"/>
+<stat id="268445503" name="PvMP Only Combo" key="ForwardSource_Combat_InPvMP" type="ENUM"/>
 <stat id="268445506" name="Item Advancement Experience Modifier" key="ItemAdvancement_XP_AwardMultiplier" isPercentage="true"/>
 <stat id="268445557" name="Dagger Damage" key="Combat_WeaponDamageMultiplier_Dagger" isPercentage="true"/>
 <stat id="268445572" name="Menacing Roar Power Cost" key="Skill_PowerCost_Trait_MP_MenacingRoar" isPercentage="true"/>
@@ -1283,7 +1283,7 @@
 <stat id="268446011" name="Chill of Winter Debuff Duration" key="IA_Runekeeper_FrostDebuffs_Duration"/>
 <stat id="268446012" name="Do Not Fall This Day Cooldown" key="IA_Runekeeper_AvoidDeath_Recovery"/>
 <stat id="268446013" name="Glorious Foreshadowing Duration" key="IA_Runekeeper_IncommingHealing_Duration"/>
-<stat id="268446022" name="Fixed" key="Trait_Runekeeper_AOEPetUpgrade" type="INTEGER"/>
+<stat id="268446022" name="Fixed" key="Trait_Runekeeper_AOEPetUpgrade" type="DID"/>
 <stat id="268446058" name="Fell Sacrifice Cooldown" key="Skill_RecoveryTime_Trait_MP_FellSacrifice"/>
 <stat id="268446059" name="Fell Sacrifice Health Cost" key="Skill_MoraleCost_Trait_MP_FellSacrifice" isPercentage="true"/>
 <stat id="268446060" name="Fell Sacrifice Power Cost" key="Skill_PowerCost_Trait_MP_FellSacrifice" isPercentage="true"/>
@@ -1307,7 +1307,7 @@
 <stat id="268446308" name="Mount Max Durability" key="Mount_Durability_Current_Max" type="INTEGER"/>
 <stat id="268446357" name="War-steed Regen Rate" key="Mount_Durability_Current_RegenRate"/>
 <stat id="268446398" name="Fixed" key="AI_PetEffect_AuraOverride_SynergyHeal" type="ARRAY"/>
-<stat id="268446399" name="Fixed" key="Trait_Runekeeper_AOEPet_MoreHealing" type="INTEGER"/>
+<stat id="268446399" name="Fixed" key="Trait_Runekeeper_AOEPet_MoreHealing" type="DID"/>
 <stat id="268446428" name="Fixed" key="Trait_Runekeeper_AOEPet_SynergyHeal" type="ARRAY"/>
 <stat id="268446435" name="Discount at most Moria shops" key="Discount_Moria" isPercentage="true"/>
 <stat id="268446494" name="Glory Modifier" key="Glory_AwardMultiplier" isPercentage="true"/>
@@ -1447,7 +1447,7 @@
 <stat id="268446955" name="Healing" key="Skirmish_Skill_SelfHeal_Heal"/>
 <stat id="268446956" name="Healing" key="Skirmish_Skill_HoT_Heal"/>
 <stat id="268446959" name="Self-revive disabler" key="Death_SelfReviveBlocked" type="BOOLEAN"/>
-<stat id="268446993" name="Skirmish Only Combo" key="ForwardSource_Skirmish_RoleCombo" type="INTEGER"/>
+<stat id="268446993" name="Skirmish Only Combo" key="ForwardSource_Skirmish_RoleCombo" type="ENUM"/>
 <stat id="268447031" name="Damage over Time" key="Skirmish_Ultimate_RangedBigBleed_DoT"/>
 <stat id="268447032" name="Damage" key="Skirmish_Skill_TauntStrike_Damage"/>
 <stat id="268447033" name="Damage over Time" key="Skirmish_Skill_BleedShot_DoT"/>
@@ -1551,7 +1551,7 @@
 <stat id="268447973" name="Fight On Pulses" key="Skill_Duration_Champion_FightOn" type="INTEGER"/>
 <stat id="268447974" name="Swift Strike/Swift Blade Power Cost" key="Skill_VitalCost_SwiftStrike" isPercentage="true"/>
 <stat id="268447975" name="Adamant/Invincible Duration" key="Skill_Duration_Champion_Adamant"/>
-<stat id="268447979" name="Defeat Override" key="Death_DefeatInfo_Override" type="INTEGER"/>
+<stat id="268447979" name="Defeat Override" key="Death_DefeatInfo_Override" type="DID"/>
 <stat id="268447987" name="Tactical Healing Rating" key="Combat_TacticalHPS_Modifier"/>
 <stat id="268447988" name="Tactical Healing Class Rating" key="Combat_Class_TacticalHPS"/>
 <stat id="268448021" name="Overwhelm Critical Chance" key="Skill_Guardian_CriticalChance_Overwhelm" isPercentage="true"/>
@@ -1568,7 +1568,7 @@
 <stat id="268448169" name="Burglar Bleed Damage" key="IA_Burglar_bleed_damagemultiplier" isPercentage="true"/>
 <stat id="268448170" name="All In Buff Duration" key="IA_Burglar_Confound_Countdown"/>
 <stat id="268448171" name="Reveal Weakness Range" key="IA_Burglar_Range_RevealWeakness"/>
-<stat id="268448197" name="Override for soldier wc" key="Skirmish_PetEffect_SoldierBaseWC_Override" type="INTEGER"/>
+<stat id="268448197" name="Override for soldier wc" key="Skirmish_PetEffect_SoldierBaseWC_Override" type="DID"/>
 <stat id="268448252" name="Override for soldier wc" key="Pet_Appearance_Soldier" type="ARRAY"/>
 <stat id="268448295" name="Time of Need Buff Duration" key="Skill_VitalCost_Morale_TimeofNeed"/>
 <stat id="268448296" name="Morale from Motivating Speech" key="Skill_MoraleIncrease_Captain_MorivatingSpeech" isPercentage="true"/>
@@ -1633,12 +1633,12 @@
 <stat id="268448569" name="Item Wear Amount on Death" key="ItemWear_Modifier_Death" isPercentage="true"/>
 <stat id="268448570" name="Item Wear Amount on Resurrection" key="ItemWear_Modifier_Resurrected" isPercentage="true"/>
 <stat id="268449600" name="Force Opening Cooldown" key="Skill_RecoveryTime_ForceOpening"/>
-<stat id="268449632" name="Override for soldier wc" key="Skirmish_PetEffect_SoldierBaseWC_Override_Tank" type="INTEGER"/>
-<stat id="268449633" name="Override for soldier wc" key="Skirmish_PetEffect_SoldierBaseWC_Override_Ranged" type="INTEGER"/>
-<stat id="268449634" name="Override for soldier wc" key="Skirmish_PetEffect_SoldierBaseWC_Override_Melee" type="INTEGER"/>
-<stat id="268449635" name="Override for soldier wc" key="Skirmish_PetEffect_SoldierBaseWC_Override_Healer" type="INTEGER"/>
-<stat id="268449636" name="Override for soldier wc" key="Skirmish_PetEffect_SoldierBaseWC_Override_Tactical" type="INTEGER"/>
-<stat id="268449637" name="Override for soldier wc" key="Skirmish_PetEffect_SoldierBaseWC_Override_Buff" type="INTEGER"/>
+<stat id="268449632" name="Override for soldier wc" key="Skirmish_PetEffect_SoldierBaseWC_Override_Tank" type="DID"/>
+<stat id="268449633" name="Override for soldier wc" key="Skirmish_PetEffect_SoldierBaseWC_Override_Ranged" type="DID"/>
+<stat id="268449634" name="Override for soldier wc" key="Skirmish_PetEffect_SoldierBaseWC_Override_Melee" type="DID"/>
+<stat id="268449635" name="Override for soldier wc" key="Skirmish_PetEffect_SoldierBaseWC_Override_Healer" type="DID"/>
+<stat id="268449636" name="Override for soldier wc" key="Skirmish_PetEffect_SoldierBaseWC_Override_Tactical" type="DID"/>
+<stat id="268449637" name="Override for soldier wc" key="Skirmish_PetEffect_SoldierBaseWC_Override_Buff" type="DID"/>
 <stat id="268449663" name="Emotes Disabled" key="Emotes_Disabled" type="BOOLEAN"/>
 <stat id="268449668" name="Soldier Traits Activated" key="Skirmish_ActivateSkirmishTraits_NotAVolumeProperty" type="BOOLEAN"/>
 <stat id="268449677" name="Discount at all Eglain vendors." key="Discount_Eglain" isPercentage="true"/>
@@ -1712,7 +1712,7 @@
 <stat id="268450612" name="Skill Cooldown" key="Skill_RecoveryTime_Loremaster_EntsGoToWar"/>
 <stat id="268450613" name="Skill Cooldown" key="Skill_RecoveryTime_Loremaster_LightoftheRisingDawn"/>
 <stat id="268450624" name="Direct Soldier Cooldown" key="Skirmish_DirectSoldier_Cooldown"/>
-<stat id="268450629" name="Pet Trait Mod3" key="Trait_Loremaster_PetModStat_Slot3" type="INTEGER"/>
+<stat id="268450629" name="Pet Trait Mod3" key="Trait_Loremaster_PetModStat_Slot3" type="DID"/>
 <stat id="268450697" name="Unused" key="Trait_Runekeeper_PowerNuke_PowerReturn"/>
 <stat id="268450698" name="Essay of Fire Induction" key="Trait_Runekeeper_MAXtierDoT_Induction"/>
 <stat id="268450701" name="Effect override" key="Trait_Runekeeper_MAXdotTier_Downgrade" type="ARRAY"/>
@@ -1731,7 +1731,7 @@
 <stat id="268450933" name="DNT - Improved Staff Strike no longer consumes the Flank" key="ItemSet_Loremaster_ImprovedStaffStrike_FlankNotConsumed" type="ARRAY"/>
 <stat id="268450940" name="DNT - Crit with Test of Wills no reset Lightning Storm" key="ItemSet_Loremaster_TestofWills_ResetLightningStorm" type="ARRAY"/>
 <stat id="268450941" name="A Small Snag/Quite a Snag Damage Bonus" key="Skill_Burglar_Damage_Snag" isPercentage="true"/>
-<stat id="268450943" name="Riddle can daze multiple targets" key="ForwardSource_ComboMode_Burglar_Riddle" type="INTEGER"/>
+<stat id="268450943" name="Riddle can daze multiple targets" key="ForwardSource_ComboMode_Burglar_Riddle" type="ENUM"/>
 <stat id="268450946" name="Skill usage deed acceleration" key="Accomplishment_Skill_AccelerationMultiplier" type="INTEGER"/>
 <stat id="268450949" name="Damage bonus on dodge" key="Burglar_Dodge_DamageBonus" type="BOOLEAN"/>
 <stat id="268450950" name="Fighting Withdrawal" key="Itemset_Captain_FightingWithdrawal_PowerRegen" type="ARRAY"/>
@@ -1759,7 +1759,7 @@
 <stat id="268450990" name="Halls of Night Blue Player." key="ForwardSource_Instance_HallsOfNight_Blue" type="BOOLEAN"/>
 <stat id="268451010" name="Fervour bonus on critical &amp; devastate hits" key="Champion_RemorselessStrike_Fervour" type="ARRAY"/>
 <stat id="268451015" name="Flurry has a chance of doing light damage" key="Champion_Flurry_LightDamage" type="ARRAY"/>
-<stat id="268451017" name="Flurry Damage Type" key="Skill_Champion_Flurry_DamageType" type="INTEGER"/>
+<stat id="268451017" name="Flurry Damage Type" key="Skill_Champion_Flurry_DamageType" type="ENUM"/>
 <stat id="268451018" name="Flurry has a chance of doing light damage" key="Champion_Flurry_LightDamageImproved" type="ARRAY"/>
 <stat id="268451022" name="Battle Frenzy increase Melee Defence" key="Skill_Champion_BattleFrenzy_MeleeDefense" type="ARRAY"/>
 <stat id="268451025" name="Parry events unlock on-defeat skills" key="Champion_Parry_DefeatSkills_Unlocked" type="BOOLEAN"/>
@@ -1846,7 +1846,7 @@
 <stat id="268451487" name="Changes player's physics controller to sliding" key="ForwardSource_Physics_OnSlide" type="BOOLEAN"/>
 <stat id="268451604" name="Critical Rating" key="Combat_CriticalPoints_Modifier_Unified"/>
 <stat id="268451625" name="Stun" key="Skill_Stun_Application_MP_SuddenStrike" isPercentage="true"/>
-<stat id="268451631" name="Conjunction Table Override" key="Conjunction_TableOverride_Source" type="INTEGER"/>
+<stat id="268451631" name="Conjunction Table Override" key="Conjunction_TableOverride_Source" type="DID"/>
 <stat id="268451689" name="Hindering Shot Duration" key="EffectMod_Duration_Trait_MP_Hinderingshot"/>
 <stat id="268451691" name="Effect override" key="Skill_EffectOverride_MP_KeenEye" type="ARRAY"/>
 <stat id="268451694" name="Moving Miss Chance" key="Skill_ChanceMovingHit_MP_SkirmisherStance" isPercentage="true"/>
@@ -1880,8 +1880,8 @@
 <stat id="268451764" name="trait set modifier for the recovery of mercificul strike" key="TraitSet_Champion_Recovery_MercifulStrike"/>
 <stat id="268451765" name="Merciful Strike Damage" key="TraitSet_Champion_Damage_MercifulStrike" isPercentage="true"/>
 <stat id="268451766" name="Modifies the amount of critical defence that Glory offers to the champion" key="TraitSet_Champion_Glory_CriticalDefence"/>
-<stat id="268451767" name="Class Mitigation Ceiling" key="Combat_ArmorDefense_ClassBased_CalcType" type="INTEGER"/>
-<stat id="268451773" name="Class Mitigation Ceiling" key="Combat_NonCommonArmorDefense_ClassBased_CalcType" type="INTEGER"/>
+<stat id="268451767" name="Class Mitigation Ceiling" key="Combat_ArmorDefense_ClassBased_CalcType" type="ENUM"/>
+<stat id="268451773" name="Class Mitigation Ceiling" key="Combat_NonCommonArmorDefense_ClassBased_CalcType" type="ENUM"/>
 <stat id="268451774" name="Call of Wild lowers cooldown on Sudden Defence" key="Trait_Champion_CallofWild" type="ARRAY"/>
 <stat id="268451775" name="Skill plays will lower the cooldown of Ebbing and Rising Ire" key="Trait_Champion_RisingIre_Cooldown_Reset"/>
 <stat id="268451776" name="Grants Savage Strike a stun when used." key="Trait_Champion_Athletic" type="ARRAY"/>
@@ -2042,7 +2042,7 @@
 <stat id="268452379" name="Wild Attack applies a bleed on Critical Hits" key="Itemset_Champion_WildAttack_CritBleed" type="ARRAY"/>
 <stat id="268452380" name="Battle Acuity increases crit ratings of Engage the Tide Skills" key="Itemset_Champion_BattleAcuity_EffectBlade" type="ARRAY"/>
 <stat id="268452381" name="Adds an Incoming Healing Buff to Words of Courage" key="Itemset_Captain_WordsofCourage_IncHeal" type="ARRAY"/>
-<stat id="268452388" name="Increased chance for Light of Elendil to apply light damage" key="Itemset_Captain_BladeofElendil_IncChance" type="INTEGER"/>
+<stat id="268452388" name="Increased chance for Light of Elendil to apply light damage" key="Itemset_Captain_BladeofElendil_IncChance" type="DID"/>
 <stat id="268452404" name="Improved Sting has a chance to apply a physical mastery buff" key="ItemSet_Guardian_ISting_MeleeOffence" type="ARRAY"/>
 <stat id="268452410" name="Burn Hot increases critical ratings" key="Itemset_Hunter_BurnHot_CritBuff" type="ARRAY"/>
 <stat id="268452411" name="Bard's Arrow Cooldown" key="Itemset_Hunter_RecoveryTime_BardsArrow"/>
@@ -2254,7 +2254,7 @@
 <stat id="268454387" name="Target Warden's Taunt Resist Rating" key="Trait_ResistChance_TerribleVisage"/>
 <stat id="268454393" name="Points Per Defeat" key="PEMessageSystem_PointsPerKill_AddMod" type="INTEGER"/>
 <stat id="268454394" name="Points Per Death" key="PEMessageSystem_PointsPerDeath_AddMod" type="INTEGER"/>
-<stat id="268454398" name="Movement Behavior Mode" key="AI_MovementBehavior" type="INTEGER"/>
+<stat id="268454398" name="Movement Behavior Mode" key="AI_MovementBehavior" type="ENUM"/>
 <stat id="268454513" name="Discount at all Entwash Vale stable-masters." key="Discount_Travel_Rohan_Entwashvale" isPercentage="true"/>
 <stat id="268454521" name="Discount at all Norcrofts vendors." key="Discount_Rohan_Norcrofts" isPercentage="true"/>
 <stat id="268454523" name="Discount at all Sutcrofts vendors." key="Discount_Rohan_Sutcrofts" isPercentage="true"/>
@@ -2390,11 +2390,11 @@
 <stat id="268454747" name="Recklessness Block Mod" key="Skill_Warden_Recklessness_Block_Mod"/>
 <stat id="268454748" name="Recklessness Evade Mod" key="Skill_Warden_Recklessness_Evade_Mod"/>
 <stat id="268454760" name="Denotes if the player expeirence gains are inhibited" key="XPInhibitor_IsInhibitorOn" type="BOOLEAN"/>
-<stat id="268454766" name="Current Trait Combo" key="ForwardSource_Combat_MountedCombo1" type="INTEGER"/>
-<stat id="268454767" name="Current Trait Combo" key="ForwardSource_Combat_MountedCombo2" type="INTEGER"/>
-<stat id="268454768" name="Current Trait Combo" key="ForwardSource_Combat_MountedCombo3" type="INTEGER"/>
-<stat id="268454769" name="Current Trait Combo" key="ForwardSource_Combat_MountedCombo4" type="INTEGER"/>
-<stat id="268454770" name="Current Trait Combo" key="ForwardSource_Combat_MountedCombo5" type="INTEGER"/>
+<stat id="268454766" name="Current Trait Combo" key="ForwardSource_Combat_MountedCombo1" type="ENUM"/>
+<stat id="268454767" name="Current Trait Combo" key="ForwardSource_Combat_MountedCombo2" type="ENUM"/>
+<stat id="268454768" name="Current Trait Combo" key="ForwardSource_Combat_MountedCombo3" type="ENUM"/>
+<stat id="268454769" name="Current Trait Combo" key="ForwardSource_Combat_MountedCombo4" type="ENUM"/>
+<stat id="268454770" name="Current Trait Combo" key="ForwardSource_Combat_MountedCombo5" type="ENUM"/>
 <stat id="268454779" name="War-steed Summon Time" key="Trait_Mount_SummonTime"/>
 <stat id="268454790" name="Rider Skills Block Chance Modifier" key="Trait_ChanceBlock_RiderSkills_Mod"/>
 <stat id="268454791" name="Rider Skills Evade Chance Modifier" key="Trait_ChanceEvade_RiderSkills_Mod"/>
@@ -2425,7 +2425,7 @@
 <stat id="268454936" name="Mounted Combat Rank Medium 37" key="Trait_MountedCombat_Rank_Medium37" type="INTEGER"/>
 <stat id="268454939" name="Bonus XP to those who assist killing you!" key="PVP_Hero_AwardedRankXPMod_Assist" isPercentage="true"/>
 <stat id="268454940" name="Bonus XP to your killer!" key="PVP_Hero_AwardedRankXPMod_KillingBlow" isPercentage="true"/>
-<stat id="268454960" name="Current Trait Combo" key="ForwardSource_Combat_MountedCombo6" type="INTEGER"/>
+<stat id="268454960" name="Current Trait Combo" key="ForwardSource_Combat_MountedCombo6" type="ENUM"/>
 <stat id="268455017" name="Dismount Skill Attack" key="Trait_Mount_Dismount_Attack" type="ARRAY"/>
 <stat id="268455018" name="Critical Attack Skill" key="Trait_Mount_Critical_Attack" type="ARRAY"/>
 <stat id="268455063" name="War-pony Mode" key="Mount_IsWarPony" type="BOOLEAN"/>
@@ -2693,10 +2693,10 @@
 <stat id="268455909" name="Commendation Modifier" key="PVPPoints_AwardMultiplier" isPercentage="true"/>
 <stat id="268455910" name="Upgrade" key="Upgrade_Rank_burglars_belt" type="INTEGER"/>
 <stat id="268455911" name="Upgrade" key="Upgrade_Rank_captains_haliberd" type="INTEGER"/>
-<stat id="268455926" name="Health Threshold Policy" key="Vital_HealthThresholdPolicySingleton" type="INTEGER"/>
-<stat id="268455927" name="Power Threshold Policy" key="Vital_PowerThresholdPolicySingleton" type="INTEGER"/>
-<stat id="268455928" name="MountPower Threshold Policy" key="Vital_MountPowerThresholdPolicySingleton" type="INTEGER"/>
-<stat id="268455929" name="MountEndurance Threshold Policy" key="Vital_MountEnduranceThresholdPolicySingleton" type="INTEGER"/>
+<stat id="268455926" name="Health Threshold Policy" key="Vital_HealthThresholdPolicySingleton" type="DID"/>
+<stat id="268455927" name="Power Threshold Policy" key="Vital_PowerThresholdPolicySingleton" type="DID"/>
+<stat id="268455928" name="MountPower Threshold Policy" key="Vital_MountPowerThresholdPolicySingleton" type="DID"/>
+<stat id="268455929" name="MountEndurance Threshold Policy" key="Vital_MountEnduranceThresholdPolicySingleton" type="DID"/>
 <stat id="268455940" name="Improved Catch Breath" key="Trait_Guardian_ImprovedCatchBreath_OP" type="ARRAY"/>
 <stat id="268455941" name="Precision Stance Focus Generation" key="Hunter_PrecisionStance_FocusGeneration" type="ARRAY"/>
 <stat id="268455943" name="Recuperate Increased Healing" key="Skill_MC_Fervor_Recuperate_Heal" isPercentage="true"/>
@@ -2734,7 +2734,7 @@
 <stat id="268456096" name="Enemy Evade Chance" key="Trait_Enemy_EvadeChanceModifier" isPercentage="true"/>
 <stat id="268456097" name="Enemy Block Chance" key="Trait_Enemy_BlockChanceModifier" isPercentage="true"/>
 <stat id="268456204" name="Spur On: Reduced Skill Power Cost" key="Trait_Mount_Power_SpurOnPowerCost" isPercentage="true"/>
-<stat id="268456235" name="Sets the effect to be used on War Steed Trample collisions." key="MountedCombat_SteedCollisionEnabled_EffectOverride" type="INTEGER"/>
+<stat id="268456235" name="Sets the effect to be used on War Steed Trample collisions." key="MountedCombat_SteedCollisionEnabled_EffectOverride" type="DID"/>
 <stat id="268456238" name="Allows War Steed Trample to hit mounted units." key="MountedCombat_SteedCollisionEnabled_CanHitMountedUnits" type="BOOLEAN"/>
 <stat id="268456557" name="Discount at all Wildermore vendors." key="Discount_Wildermore" isPercentage="true"/>
 <stat id="268456558" name="Discount at all Wildermore stable-masters." key="Discount_Travel_Wildermore" isPercentage="true"/>
@@ -2901,7 +2901,7 @@
 <stat id="268457366" name="Improved Shield Mastery" key="Item_Warden_ImprovedShieldMastery_SelfBuff" type="ARRAY"/>
 <stat id="268457371" name="Guardian's Pledge Duration in Overpower" key="EffectMod_Duration_Guardian_Pledge"/>
 <stat id="268457527" name="Cry and Call Reset" key="Minstrel_Application_Coda_Reset" isPercentage="true"/>
-<stat id="268457538" name="Target Evaluator Modifier" key="AIPuppet_TargetEvalPackage" type="INTEGER"/>
+<stat id="268457538" name="Target Evaluator Modifier" key="AIPuppet_TargetEvalPackage" type="DID"/>
 <stat id="268457560" name="Find Footing Cooldown" key="Trait_Burglar_FindFooting_Cooldown"/>
 <stat id="268457561" name="Flashing Blades Damage" key="Skill_Burglar_FlashingBlades_DamageMod" isPercentage="true"/>
 <stat id="268457562" name="Aim Cooldown" key="Trait_Burglar_Aim_Cooldown"/>
@@ -3309,7 +3309,7 @@
 <stat id="268458414" name="Bolstering Blocks" key="ForwardSource_Trait_Guardian_BolsteringBlock_Heal" type="BOOLEAN"/>
 <stat id="268458415" name="Reactive Parry" key="ForwardSource_Trait_Guardian_ReactiveParry_Damage" type="BOOLEAN"/>
 <stat id="268458421" name="Corruption Active" key="BigBattle_Commander_Corruption_Active" type="BOOLEAN"/>
-<stat id="268458423" name="Stance" key="BigBattle_Commander_Stance" type="INTEGER"/>
+<stat id="268458423" name="Stance" key="BigBattle_Commander_Stance" type="ENUM"/>
 <stat id="268458424" name="No Respite" key="Trait_Warden_NoRespite" type="ARRAY"/>
 <stat id="268458425" name="Block and Parry Response Skill Power Cost Removal" key="Trait_Guardian_BlockParryResponse_PowerCostRemoval" type="ARRAY"/>
 <stat id="268458426" name="Kick Critical Damage Buff" key="Trait_Captain_Kick_CritDamageMod" type="ARRAY"/>
@@ -3527,7 +3527,7 @@
 <stat id="268459059" name="Base Fate from Fervour" key="Trait_Champion_BaseMod_Fate"/>
 <stat id="268459064" name="Engineer Banner Potency" key="BigBattle_Adv_Officer_Banner_Upgrade_Engineer_Upgrade" type="ARRAY"/>
 <stat id="268459065" name="Vanguard Banner Potency" key="BigBattle_Adv_Officer_Banner_Upgrade_Vanguard_Upgrade" type="ARRAY"/>
-<stat id="268459068" name="Current Big Battle Skill Combo" key="ForwardSource_Combat_BigBattle_SkillCombo" type="INTEGER"/>
+<stat id="268459068" name="Current Big Battle Skill Combo" key="ForwardSource_Combat_BigBattle_SkillCombo" type="ENUM"/>
 <stat id="268459069" name="Incoming Healing on a Defeat Event" key="Trait_Captain_TurningPoint_IncomingHealing" isPercentage="true"/>
 <stat id="268459084" name="Watcher Resolve Power Refund" key="Trait_Minstrel_Resolve_Power_Refund5" type="ARRAY"/>
 <stat id="268459085" name="Watcher Resolve Power Refund" key="Trait_Minstrel_Resolve_Power_Refund6" type="ARRAY"/>
@@ -3565,9 +3565,9 @@
 <stat id="268459156" name="Epic For The Ages Heal" key="Skill_Runekeeper_EpicForAges_HealMod" isPercentage="true"/>
 <stat id="268459157" name="Essay of Exaltation Bubble Duration" key="Skill_Runekeeper_Exaltation_BubbleDuration"/>
 <stat id="268459158" name="Shocking Words Stun Duration" key="Skill_Runekeeper_ShockingWords_StunDuration" isPercentage="true"/>
-<stat id="268459168" name="Specialization bonus" key="Trait_Loremaster_PetModStat_Spec_NF" type="INTEGER"/>
-<stat id="268459169" name="Specialization bonus" key="Trait_Loremaster_PetModStat_Spec_AM" type="INTEGER"/>
-<stat id="268459170" name="Specialization bonus" key="Trait_Loremaster_PetModStat_Spec_KoA" type="INTEGER"/>
+<stat id="268459168" name="Specialization bonus" key="Trait_Loremaster_PetModStat_Spec_NF" type="DID"/>
+<stat id="268459169" name="Specialization bonus" key="Trait_Loremaster_PetModStat_Spec_AM" type="DID"/>
+<stat id="268459170" name="Specialization bonus" key="Trait_Loremaster_PetModStat_Spec_KoA" type="DID"/>
 <stat id="268459176" name="Build Trap Induction" key="BigBattle_Interactive_Build_Induction_User_Mod"/>
 <stat id="268459187" name="Coda of Melody Trait Effect" key="Trait_Minstrel_Coda_Melody_Improved" type="ARRAY"/>
 <stat id="268459191" name="Corruption Removal" key="Trait_Minstrel_Corruption_Removal_Strike" type="ARRAY"/>
@@ -3613,7 +3613,7 @@
 <stat id="268459306" name="Ancient Craft Bonus Damage" key="Trait_Loremaster_AncientCraft_DamageBonus_Combo2" type="ARRAY"/>
 <stat id="268459307" name="Ancient Craft Bonus Damage" key="Trait_Loremaster_AncientCraft_DamageBonus_Combo3" type="ARRAY"/>
 <stat id="268459308" name="Damage Skills Critical Chance" key="Skill_Minstrel_CriticalChance_Offence" isPercentage="true"/>
-<stat id="268459327" name="damage type of all skills" key="ForwardSource_Skill_DamageTypeOverride_CaptainPetOverride" type="INTEGER"/>
+<stat id="268459327" name="damage type of all skills" key="ForwardSource_Skill_DamageTypeOverride_CaptainPetOverride" type="ENUM"/>
 <stat id="268459332" name="Your next Parry Response skill has 100% Crit Chance" key="Trait_Guardian_Tenderize_CritChance" isPercentage="true"/>
 <stat id="268459333" name="Your next Parry Response skill has an additional 100% Crit Damage" key="Trait_Guardian_Tenderize_CritDamage" isPercentage="true"/>
 <stat id="268459339" name="Physical and Tactical Mastery" key="Skill_Minstrel_Guarding_Hammerhand"/>
@@ -3712,8 +3712,8 @@
 <stat id="268459577" name="DNT - Threat increase" key="Trait_Warden_Low_Instant_Threat" type="ARRAY"/>
 <stat id="268459605" name="DNT - Critical Coordination Bool" key="Trait_Loremaster_Critical_Coordination" isPercentage="true" type="BOOLEAN"/>
 <stat id="268459606" name="Allies will not attack your target when using Incite Foe" key="BigBattle_Vanguard_Force_Taunt_ClaimTarget" type="ARRAY"/>
-<stat id="268459802" name="Cosmetic Pet" key="CosmeticEntity_CosmeticPet_ForwardSource" type="INTEGER"/>
-<stat id="268459814" name="Shapeshift Creature" key="Shapeshifting_Target_Entity_Source" type="INTEGER"/>
+<stat id="268459802" name="Cosmetic Pet" key="CosmeticEntity_CosmeticPet_ForwardSource" type="DID"/>
+<stat id="268459814" name="Shapeshift Creature" key="Shapeshifting_Target_Entity_Source" type="DID"/>
 <stat id="268459820" name="Discount at all Dol Amroth stable-masters." key="Discount_Travel_Gondor_West" isPercentage="true"/>
 <stat id="268459821" name="Discount at all Dol Amroth vendors." key="Discount_Gondor_West" isPercentage="true"/>
 <stat id="268459902" name="DNT - Fellowship Flank Heal" key="ItemSet_Loremaster_SignofBattle_WizardsFire_AOEFlankHeal_T2" isPercentage="true" type="ARRAY"/>
@@ -4048,9 +4048,9 @@
 <stat id="268460751" name="Recuperate Healing Pulses" key="Trait_Mounted_Beorning_Recuperate_Pulses" type="INTEGER"/>
 <stat id="268460752" name="Recuperate Buff Duration" key="Trait_Mounted_Beorning_Recuperate_Duration"/>
 <stat id="268460753" name="Bee Swarm Critical Chance" key="Trait_Mounted_Beorning_Bees_Critical_Chance" isPercentage="true"/>
-<stat id="268460870" name="DNT Secondary Weapon Appearance" key="ForwardSource_MP_Weapon_Cosmetic_Secondary" type="INTEGER"/>
-<stat id="268460871" name="DNT Primary Weapon Appearance" key="ForwardSource_MP_Weapon_Cosmetic_Primary" type="INTEGER"/>
-<stat id="268460873" name="DNT Ranged Weapon Appearance" key="ForwardSource_MP_Weapon_Cosmetic_Ranged" type="INTEGER"/>
+<stat id="268460870" name="DNT Secondary Weapon Appearance" key="ForwardSource_MP_Weapon_Cosmetic_Secondary" type="DID"/>
+<stat id="268460871" name="DNT Primary Weapon Appearance" key="ForwardSource_MP_Weapon_Cosmetic_Primary" type="DID"/>
+<stat id="268460873" name="DNT Ranged Weapon Appearance" key="ForwardSource_MP_Weapon_Cosmetic_Ranged" type="DID"/>
 <stat id="268460876" name="War-paint" key="ForwardSource_MP_Texture_Secondary" type="INTEGER"/>
 <stat id="268460883" name="Discount at all Old Anórien stable-masters." key="Discount_Travel_Gondor_Old_Anorien" isPercentage="true"/>
 <stat id="268460886" name="Discount at all Old Anórien vendors." key="Discount_Gondor_Old_Anorien" isPercentage="true"/>
