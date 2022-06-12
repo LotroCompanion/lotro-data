@@ -393,7 +393,7 @@
 <stat name="POWER" operator="MULTIPLY" descriptionOverride="Increases your total power by ${PERCENTVALUE}." scaling="1879063905"/>
 </trait>
 <trait identifier="1879063895" name="Armour" iconId="0" tiers="16" tierProperty="Trait_MP_Virtue_Core_Rank_Mitigation" nature="1" tooltip="Increases your armour protection" description="Increases your armour protection">
-<stat name="ARMOUR" scaling="1879063907"/>
+<stat name="Combat_Agent_Armor_Value_Float" scaling="1879063907"/>
 <stat name="CRITICAL_DEFENCE" scaling="1879216203"/>
 </trait>
 <trait identifier="1879063896" name="Avoidance" iconId="0" tiers="16" tierProperty="Trait_MP_Virtue_Core_Rank_Avoidance" nature="1" tooltip="Increases your ability to avoid attacks." description="Increases your ability to avoid attacks.">
@@ -478,7 +478,7 @@
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="+${PERCENTVALUE} Maximum Health." constant="1.1"/>
 </trait>
 <trait identifier="1879072442" name="Armour Boost" iconId="1090553275" nature="3" tooltip="Increases armour value" description="Increases armour value">
-<stat name="ARMOUR" scaling="1879132197"/>
+<stat name="Combat_Agent_Armor_Value_Float" scaling="1879132197"/>
 </trait>
 <trait identifier="1879072443" name="Regeneration" iconId="1090553276" nature="3" tooltip="Increases in-combat health regeneration" description="Increases in-combat health regeneration">
 <stat name="ICMR" scaling="1879399430"/>
@@ -615,7 +615,7 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="6.0"/>
 </trait>
 <trait identifier="1879072489" name="Armour Boost" iconId="1090553275" nature="3" tooltip="Increases armour value" description="Increases armour value">
-<stat name="ARMOUR" scaling="1879132197"/>
+<stat name="Combat_Agent_Armor_Value_Float" scaling="1879132197"/>
 </trait>
 <trait identifier="1879072490" name="Resistance Boost" iconId="1090553258" nature="3" tooltip="Increases resistance rating" description="Increases resistance rating">
 <stat name="RESISTANCE" scaling="1879381723"/>
@@ -747,7 +747,7 @@
 <trait identifier="1879072874" name="Compassion" iconId="1091664658" tiers="88" tierProperty="Trait_Virtue_Rank_Compassionate" nature="5" description="Your compassion is one of your greatest strengths.">
 <stat name="PHYSICAL_MITIGATION" scaling="1879215068"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879215079"/>
-<stat name="ARMOUR" scaling="1879389554"/>
+<stat name="Combat_Agent_Armor_Value_Float" scaling="1879389554"/>
 </trait>
 <trait identifier="1879072875" name="Confidence" iconId="1091664659" tiers="88" tierProperty="Trait_Virtue_Rank_Confidence" nature="5" description="Your actions have instilled in you a great sense of confidence.">
 <stat name="CRITICAL_RATING" scaling="1879211605"/>
@@ -765,7 +765,7 @@
 <stat name="PHYSICAL_MITIGATION" scaling="1879215059"/>
 </trait>
 <trait identifier="1879072878" name="Empathy" iconId="1091664662" tiers="88" tierProperty="Trait_Virtue_Rank_Empathy" nature="5" description="You have a proven empathy for those in need.">
-<stat name="ARMOUR" scaling="1879389639"/>
+<stat name="Combat_Agent_Armor_Value_Float" scaling="1879389639"/>
 <stat name="CRITICAL_DEFENCE" scaling="1879211642"/>
 <stat name="RESISTANCE" scaling="1879212124"/>
 </trait>
@@ -801,7 +801,7 @@
 </trait>
 <trait identifier="1879072885" name="Loyalty" iconId="1091664670" tiers="88" tierProperty="Trait_Virtue_Rank_Loyalty" nature="5" description="Your loyalty shall be rewarded.">
 <stat name="VITALITY" scaling="1879390233"/>
-<stat name="ARMOUR" scaling="1879389555"/>
+<stat name="Combat_Agent_Armor_Value_Float" scaling="1879389555"/>
 <stat name="INCOMING_HEALING" scaling="1879212132"/>
 </trait>
 <trait identifier="1879072886" name="Mercy" iconId="1091664671" tiers="88" tierProperty="Trait_Virtue_Rank_Merciful" nature="5" description="You have learned the value of mercy.">
@@ -1012,7 +1012,7 @@
 <stat name="Effect_Self_Revive_Cooldown" descriptionOverride="Increases duration of Revived effect to 2 hours." constant="3600.0"/>
 </trait>
 <trait identifier="1879084077" name="Armour Boost" iconId="1090553275" nature="3" tooltip="Increase armour rating." description="Increase armour rating.">
-<stat name="ARMOUR" scaling="1879132197"/>
+<stat name="Combat_Agent_Armor_Value_Float" scaling="1879132197"/>
 </trait>
 <trait identifier="1879084079" name="Bear-masked Tarkrîp Appearance" iconId="1091462232" nature="2" tooltip="A different visual appearance for your Orc Defiler. A red-skinned Orc wearing a brown leather tunic." description="A different visual appearance for your Orc Defiler. A red-skinned Orc wearing a brown leather tunic.">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="5.0"/>
@@ -1209,7 +1209,7 @@
 <stat name="ICPR" scaling="1879399366"/>
 </trait>
 <trait identifier="1879097841" name="New Breed" iconId="1091418011" nature="4" tooltip="Increases armour value, maximum health, and maximum power" description="Increases armour value, maximum health, and maximum power">
-<stat name="ARMOUR" scaling="1879132197"/>
+<stat name="Combat_Agent_Armor_Value_Float" scaling="1879132197"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="+${PERCENTVALUE} Maximum Health" constant="1.1"/>
 <stat name="POWER" operator="MULTIPLY" descriptionOverride="+${PERCENTVALUE} Maximum Power" constant="1.05"/>
 </trait>
@@ -1869,7 +1869,7 @@
 <trait identifier="1879173929" name="Hair Colour: White" iconId="1091581473" tierProperty="trait_skirmish_soldier_human_male_hair_color_white_rank" nature="8" tooltip="Skirmish Test Tooltip" description="Change your Man-soldier's hair to white."/>
 <trait identifier="1879173963" name="Invader of Mirkwood" iconId="1090535587" nature="1" cosmetic="true" tooltip="You may now explore Southern Mirkwood." description="You have fought alongside the Malledhrim during the invasion of Southern Mirkwood in an effort to stymie the power of Dol Guldur."/>
 <trait identifier="1879174521" name="Armoured Assault" iconId="1091575624" tiers="50" tierProperty="trait_skirmish_personal_armor_Rank" nature="10" tooltip="Skirmish Test Tooltip" description="You are more powerful while leading Soldiers in Skirmishes. Your armour increases.">
-<stat name="ARMOUR" scaling="1879180872"/>
+<stat name="Combat_Agent_Armor_Value_Float" scaling="1879180872"/>
 </trait>
 <trait identifier="1879174522" name="Strong Block" iconId="1091577167" tiers="50" tierProperty="trait_skirmish_personal_block_Rank" nature="10" tooltip="Skirmish Test Tooltip" description="You are more powerful while leading Soldiers in Skirmishes. Your ability to block increases.">
 <stat name="BLOCK" scaling="1879180886"/>
@@ -4354,7 +4354,7 @@
 <trait identifier="1879270683" name="Ancient Craft" iconId="1091806010" tiers="4" tierProperty="trait_class_loremaster_rank_42" nature="20" description="Increases Armour Debuff of Ancient Craft&#10;&#10; At third rank, Ancient Craft causes the first Lightning Skill to be used against a target to deal bonus damage.&#10;&#10;At max rank, your armour is 5% more effective.">
 <stat name="Skill_Loremaster_AncientCraft" descriptionOverride="-" scaling="1879271260"/>
 <stat name="Skill_Loremaster_AncientCraft_StringDummy" scaling="1879286648"/>
-<stat name="ARMOUR" operator="MULTIPLY" scaling="1879311673"/>
+<stat name="Combat_Agent_Armor_Value_Float" operator="MULTIPLY" scaling="1879311673"/>
 <stat name="Skill_Loremaster_AncientCraft_ArmourbonusStringDummy" scaling="1879314102"/>
 </trait>
 <trait identifier="1879270684" name="Mending Lore" iconId="1091829940" tiers="5" tierProperty="trait_class_loremaster_rank_34" nature="20" description="Increases Outgoing Healing per Rank. At max rank, increases the Incoming Healing buff on Water-lore.">
@@ -4885,7 +4885,7 @@
 <stat name="Skill_CriticalDamageMultiplier_GuardianAll" constant="10.0"/>
 </trait>
 <trait identifier="1879272893" name="Guardian's Defence" iconId="1091805232" nature="30" tooltip="This trait enhances your armour, critical defence, block chance and mitigation, and reduces shield wear from hits" description="This trait enhances your armour, critical defence, block chance and mitigation, and reduces shield wear while blocking">
-<stat name="ARMOUR" operator="MULTIPLY" descriptionOverride="+10% Armour" constant="1.1"/>
+<stat name="Combat_Agent_Armor_Value_Float" operator="MULTIPLY" descriptionOverride="+10% Armour" constant="1.1"/>
 <stat name="CRITICAL_DEFENCE_PERCENTAGE" descriptionOverride="+10% Critical Defence" constant="10.0"/>
 <stat name="PARTIAL_BLOCK_MITIGATION_PERCENTAGE" constant="2.5"/>
 <stat name="PARTIAL_BLOCK_PERCENTAGE" constant="2.5"/>
