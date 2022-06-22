@@ -34,6 +34,10 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - enums
 - custom skirmish loot tables
 - allegiances
+- "same cosmetics" for items
+- billing tokens/groups
+- world events
+- web store items
 
 In the future, it may contain:
 - travels
