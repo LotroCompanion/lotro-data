@@ -38,6 +38,7 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - billing tokens/groups
 - world events
 - web store items
+- collections
 
 In the future, it may contain:
 - travels
