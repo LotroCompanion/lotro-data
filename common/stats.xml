@@ -626,8 +626,8 @@
 <stat id="268443358" name="Herald Strike Cooldown" key="Skill_Minstrel_RecoveryTime_Herald_Strike"/>
 <stat id="268443359" name="Target Resist Chance (Ballads)" key="Skill_ResistChance_Minstrel_Ballads" isPercentage="true"/>
 <stat id="268443360" name="War-speech Healing" key="Skill_Minstrel_HealingMultiplier_SetBonus" isPercentage="true"/>
-<stat id="268443363" name="Call Critical Multiplier" key="Skill_CriticalDamageMultiplier_Minstrel_Call" isPercentage="true"/>
-<stat id="268443365" name="Call Critical Rating" key="Skill_CriticalChance_Minstrel_Call"/>
+<stat id="268443363" name="Cry and Call Critical Multiplier" key="Skill_CriticalDamageMultiplier_Minstrel_Call" isPercentage="true"/>
+<stat id="268443365" name="Call Critical Chance" key="Skill_CriticalChance_Minstrel_Call"/>
 <stat id="268443378" name="Junk Item Bait Modifier" key="Hobby_Fishing_Junk_BaitPropertyModifier" type="INTEGER"/>
 <stat id="268443404" name="Forochel Armour Frost Absorption" key="Skill_ForochelSet_Absorb_Frost" isPercentage="true"/>
 <stat id="268443427" name="Chill of Winter Power Cost" key="Skill_Runekeeper_Frost_PowerCost" isPercentage="true"/>
@@ -1057,7 +1057,7 @@
 <stat id="268444878" name="Triumphant Spirit Cooldown" key="IA_Minstrel_TriumphantSpirit_Recovery"/>
 <stat id="268444879" name="Echoes of Battle Resistance Rating Debuff" key="IA_Minstrel_EchoesofBattle_Resistance" isPercentage="true"/>
 <stat id="268444880" name="Target Resist Chance (Call to War)" key="IA_Minstrel_WarSpeech_Resistance" isPercentage="true"/>
-<stat id="268444881" name="Anthem of War Damage (Physical)" key="IA_Minstrel_BalladofWar_Buff" isPercentage="true"/>
+<stat id="268444881" name="Anthem of War and Prowess Damage" key="IA_Minstrel_BalladofWar_Buff" isPercentage="true"/>
 <stat id="268444882" name="Soliloquy of Spirit Pulses" key="IA_Minstrel_SolloquyofSpirit_Pulses" type="INTEGER"/>
 <stat id="268444883" name="Cry of the Chorus Cooldown" key="IA_Minstrel_CryofChorus_Recovery"/>
 <stat id="268444884" name="Minor Ballad Damage" key="IA_Minstrel_Ballads_Tier1_Damage" isPercentage="true"/>
@@ -1123,7 +1123,7 @@
 <stat id="268445102" name="Hamstring Cooldown" key="Skill_RecoveryTime_Trait_MP_Hamstring"/>
 <stat id="268445103" name="Increases amount of parry and evade debuffed from target" key="Skill_EffectOverride_Trait_MP_UpperHand" type="ARRAY"/>
 <stat id="268445104" name="Area Effect Targets" key="Skill_TargetMax_Trait_MP_Extended" type="INTEGER"/>
-<stat id="268445148" name="Gourd Skill Inductions" key="Skill_InductionDuration_Trait_MP_FastLob"/>
+<stat id="268445148" name="Offensive Skill Inductions" key="Skill_InductionDuration_Trait_MP_FastLob"/>
 <stat id="268445149" name="Curse Skills Power Cost" key="Skill_PowerCost_Trait_MP_FrugalCursing" isPercentage="true"/>
 <stat id="268445151" name="Removes the countdown from Plague of Flies" key="Skill_EffectOverride_Trait_MP_PlagueFlies" type="ARRAY"/>
 <stat id="268445152" name="Blight Slime Duration" key="Skill_EffectOverride_Trait_MP_Blight" type="ARRAY"/>
@@ -1929,7 +1929,7 @@
 <stat id="268451963" name="Increased Strength of the Earth restore" key="Skill_Hunter_DamageMultiplier_Earthborn" isPercentage="true"/>
 <stat id="268451967" name="Skill Override : Arrow Storm" key="Trait_Hunter_Arrowstorm" type="ARRAY"/>
 <stat id="268451968" name="Anthem of Sympathy Duration" key="Skill_Minstrel_Duration_AnthemofSympathy"/>
-<stat id="268451969" name="Ballad Power Bonus Offset" key="Skill_PropertyMod_Minstrel_BalladPowerBonus_Offset" isPercentage="true"/>
+<stat id="268451969" name="Ballad Incoming Healing Offset" key="Skill_PropertyMod_Minstrel_BalladPowerBonus_Offset" isPercentage="true"/>
 <stat id="268451970" name="Ballad Damage Bonus Offset" key="Skill_PropertyMod_Minstrel_BalladDamageBonus_Offset" isPercentage="true"/>
 <stat id="268451974" name="Chance to unlock Healing Spells" key="Skill_ApplicationMod_Minstrel_HealingUnlock" isPercentage="true"/>
 <stat id="268451975" name="Resistance Chance of Calls" key="Skill_Minstrel_ResistanceChance_Calls" isPercentage="true"/>
@@ -3185,7 +3185,7 @@
 <stat id="268458058" name="Anthem Power Cost" key="Trait_Minstrel_Anthem_Power_Cost" isPercentage="true"/>
 <stat id="268458059" name="Ballad Critical Chance" key="Trait_Minstrel_Ballad_Crit_Chance" isPercentage="true"/>
 <stat id="268458060" name="Hero's Strike Healing" key="Trait_Minstrel_Heros_Strike_Healing" isPercentage="true"/>
-<stat id="268458061" name="Damage" key="Trait_Minstrel_Heros_Strike_Damage" isPercentage="true"/>
+<stat id="268458061" name="Strike Damage" key="Trait_Minstrel_Heros_Strike_Damage" isPercentage="true"/>
 <stat id="268458062" name="Shield Duration" key="Trait_Minstrel_Piercing_Cry_Duration"/>
 <stat id="268458063" name="Triumphant Spirit Cooldown" key="Trait_Minstrel_Triumphant_Spirit_Cooldown"/>
 <stat id="268458064" name="Ballad and Coda Damage" key="Trait_Minstrel_Ballad_Coda_Damage" isPercentage="true"/>
@@ -3556,7 +3556,7 @@
 <stat id="268459139" name="DNT - Self Esteem Trait Effect" key="Trait_Runekeeper_SelfEsteem" type="ARRAY"/>
 <stat id="268459140" name="Self Motivation Power Cost" key="Skill_Runekeeper_SelfMotivation_PowerCostMod" isPercentage="true"/>
 <stat id="268459149" name="Bolster Our Courage" key="Trait_Minstrel_Bolster_Our_Courage" type="ARRAY"/>
-<stat id="268459150" name="Healing" key="Skill_Minstrel_Hero_Strike_Heal" isPercentage="true"/>
+<stat id="268459150" name="Strike Healing" key="Skill_Minstrel_Hero_Strike_Heal" isPercentage="true"/>
 <stat id="268459151" name="Rune-Sign of Winter Heal" key="Skill_Runekeeper_RuneSign_HealMod" isPercentage="true"/>
 <stat id="268459152" name="Combustion Damage" key="Skill_Runekeeper_Combustion_DamageMod" isPercentage="true"/>
 <stat id="268459153" name="Shocking Words Damage" key="Skill_Runekeeper_ShockingWords_DamageMod" isPercentage="true"/>
@@ -3607,7 +3607,7 @@
 <stat id="268459267" name="Anthem Cooldown" key="Trait_Minstrel_Anthem_Cooldown"/>
 <stat id="268459287" name="Bog Guardian" key="Trait_Loremaster_Brown_Wizard_LegendaryMod" type="ARRAY"/>
 <stat id="268459295" name="Incoming Healing" key="Skill_Minstrel_Open_Ears_HealMod" type="ARRAY"/>
-<stat id="268459299" name="Elbereth Grace Period Duration Mod" key="Skill_Minstrel_Elbereth_Fear_GracePeriod"/>
+<stat id="268459299" name="Elbereth Grace Period Duration" key="Skill_Minstrel_Elbereth_Fear_GracePeriod"/>
 <stat id="268459304" name="Ancient Craft Bonus Damage" key="Trait_Loremaster_AncientCraft_DamageBonus_Flag" type="ARRAY"/>
 <stat id="268459305" name="Ancient Craft Bonus Damage" key="Trait_Loremaster_AncientCraft_DamageBonus_Combo1" type="ARRAY"/>
 <stat id="268459306" name="Ancient Craft Bonus Damage" key="Trait_Loremaster_AncientCraft_DamageBonus_Combo2" type="ARRAY"/>
@@ -3643,7 +3643,7 @@
 <stat id="268459394" name="Fire-lore and Frost-lore Max Targets" key="Skill_Loremaster_ForceOfWill_MaxTargets" isPercentage="true" type="INTEGER"/>
 <stat id="268459395" name="Raven Mitigation Aura Override" key="AI_PetEffect_AuraOverride_Loremaster_Raven" type="ARRAY"/>
 <stat id="268459413" name="Chord of Salvation Fellowship Heal Strength" key="Skill_Minstrel_ImpChordSalvation_HoT" isPercentage="true"/>
-<stat id="268459414" name="Bolster Our Courage" key="Trait_Minstrel_PiercingCry_Stun" type="ARRAY"/>
+<stat id="268459414" name="Piercing Cry Stun" key="Trait_Minstrel_PiercingCry_Stun" type="ARRAY"/>
 <stat id="268459415" name="Piercing Cry Critical Chance" key="Skill_Minstrel_PiercingCry_CritChance" isPercentage="true"/>
 <stat id="268459417" name="Duration of Hero's Death Effects" key="BigBattle_Vanguard_HeroesDeath_Mod_Duration"/>
 <stat id="268459418" name="Duration of Hero's Death Effects" key="BigBattle_Vanguard_HeroesDeath_Mod_Duration_Pulse" type="INTEGER"/>
@@ -4154,7 +4154,7 @@
 <stat id="268461561" name="DNT - Hasten trait effect" key="Trait_Loremaster_Hasten" type="ARRAY"/>
 <stat id="268461562" name="Anthem of the Third Age - Melody" key="Skill_Minstrel_Anthem_ThirdAge_Melody_EffectMod" isPercentage="true"/>
 <stat id="268461563" name="Anthem of the Third Age - Melody" key="Skill_Minstrel_Anthem_ThirdAge_Melody_IncHealing_EffectMod" isPercentage="true"/>
-<stat id="268461564" name="Raise our Spirits HoT Strength" key="Skill_Minstrel_RaiseOurSpirits_HoT" isPercentage="true"/>
+<stat id="268461564" name="Raise our Spirits AoE Heal Strength" key="Skill_Minstrel_RaiseOurSpirits_HoT" isPercentage="true"/>
 <stat id="268461567" name="Heartseeker Bleed Pulses" key="Trait_Hunter_Heartseeker_Duration" isPercentage="true" type="INTEGER"/>
 <stat id="268461572" name="Heartseeker Bleed Damage" key="Trait_Hunter_Heartseeker_Damage" isPercentage="true"/>
 <stat id="268461573" name="Challenge Cooldown" key="Skill_Guardian_Challenge_Cooldown"/>
@@ -4433,4 +4433,36 @@
 <stat id="268463211" name="Discount at all stable-masters within TBD." key="Discount_Travel_Cardoswan" isPercentage="true"/>
 <stat id="268463212" name="Discount at all vendors within TBD." key="Discount_Cardoswan" isPercentage="true"/>
 <stat id="268463228" name="DNT - Adds pips when taunting" key="Trait_Brawler_TauntPips" type="ARRAY"/>
+<stat id="268463234" name="Incoming Healing" key="Skill_Minstrel_AnthemFreePeoples_IncHealMod" isPercentage="true"/>
+<stat id="268463235" name="Incoming Damage" key="Skill_Minstrel_AnthemCompassion_DamageReduction" isPercentage="true"/>
+<stat id="268463236" name="Damage" key="Skill_Minstrel_AnthemFreePeoples_DamageMod" isPercentage="true"/>
+<stat id="268463237" name="Tale of Tales Proc" key="Trait_Minstrel_TaleofTales" type="ARRAY"/>
+<stat id="268463251" name="Melody of Battle Threat Chance" key="Trait_minstrel_melodyofbattle_threat_appchance" isPercentage="true"/>
+<stat id="268463261" name="Bonus for damage effects while dual wielding to counteract lower base dmg." key="Skill_Beorning_DualWield_Effect_Damage" isPercentage="true"/>
+<stat id="268463277" name="Perfect Performance Duration" key="Skill_Minstrel_Perfect_Performance_Duration"/>
+<stat id="268463278" name="DNT - Bubble Damage Mod" key="Skill_Minstrel_Bubble_Damage_Buff"/>
+<stat id="268463279" name="DNT - Bubble Damage Mod" key="Skill_Minstrel_Bubble_Damage_Buff_Group"/>
+<stat id="268463280" name="DNT - Bubble Damage Mod" key="Skill_Minstrel_Bubble_Damage_Buff_Other"/>
+<stat id="268463282" name="Coda Buff Potency" key="Trait_Minstrel_CodaPotency" isPercentage="true"/>
+<stat id="268463284" name="DNT - Song of Aid Minor Reflect Duration" key="Skill_SongofAid_MinorReflect_Duration"/>
+<stat id="268463285" name="DNT - Chance Coda of Melody resets Anthem Cooldowns" key="Itemset_Minstrel_CodaMelody_Anthemreset_Appchance"/>
+<stat id="268463403" name="Damage over Time Potency" key="EffectMod_DoTDamage_MP" isPercentage="true"/>
+<stat id="268463404" name="Lacerate and Mutilation Bleed Damage" key="EffectMod_BleedDamage_MP_JaggedCut" isPercentage="true"/>
+<stat id="268463418" name="Some skills have a chance to tier up the Rechless Melee Effect" key="Skill_Reaver_RecklessMelee" type="ARRAY"/>
+<stat id="268463420" name="Invigorating Corruption Application Chance" key="EffectMod_Invigorating_Appchance" isPercentage="true"/>
+<stat id="268463453" name="Skill Damage" key="Skill_Reaver_DevastatingStrike_Bonus" isPercentage="true"/>
+<stat id="268463454" name="Dying Rage Recovery" key="Skill_RecoveryTime_Orc_DyingRage"/>
+<stat id="268463457" name="Dying Rage Morale" key="Skill_Orc_DyingRage_Heal" type="ARRAY"/>
+<stat id="268463458" name="Blade toss now has a 100% chance to knock the target down." key="Skill_Reaver_UpperHand_KnockedDownChance"/>
+<stat id="268463459" name="Upperhand Recovery" key="Skill_RecoveryTime_Reaver_UpperHand" type="ARRAY"/>
+<stat id="268463460" name="Increased Critical Chance for Maul and Claw attacks" key="Skill_CiritcalBonus_Scratch"/>
+<stat id="268463461" name="Increased Damage on Maul" key="Skill_DamageBonus_Stalker_Pounce"/>
+<stat id="268463462" name="Increased Critical Chance for Tear and Snap attacks" key="Skill_CiritcalBonus_Snip"/>
+<stat id="268463463" name="Upperhand Recovery" key="Skill_RecoveryTime_Reaver_UpperHand_Appchance"/>
+<stat id="268463469" name="Wallet Barter Tokens: Landscape through Western Gondor" key="BarterWallet_BonusMultiplierU34Ultimate" isPercentage="true"/>
+<stat id="268463480" name="Cry of the Chorus Cooldown" key="Trait_Minstrel_Ballad_CotC_CooldownMod" type="ARRAY"/>
+<stat id="268463481" name="Cry of the Chorus Anthem Reset" key="Trait_Minstrel_CotC_Anthem_Reset" type="ARRAY"/>
+<stat id="268463488" name="Slick Flesh Dispel Count" key="Skill_Defiler_Slickflesh_Dispelcount"/>
+<stat id="268463489" name="Offensive Skill Inductions" key="Skill_EffectMod_Defiler_SlowPotency"/>
+<stat id="268463490" name="Tiers up Reckless Melee" key="Skill_Reaver_RecklessMeleeGuaranteed" type="ARRAY"/>
 </stats>

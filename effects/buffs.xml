@@ -9,9 +9,8 @@
 </effect>
 </buff>
 <buff>
-<effect id="1879060866" name="Anthem of War" iconId="1090541230" duration="60.0">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Melee and Ranged Damage" constant="5.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+<effect id="1879060866" name="Anthem II - War" iconId="1092752392" duration="30.0">
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ranged Damage" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Tactical Damage" constant="10.0"/>
 </effect>
 </buff>
@@ -21,16 +20,20 @@
 </effect>
 </buff>
 <buff>
-<effect id="1879073120" name="Anthem of Prowess" iconId="1090553797" duration="60.0">
+<effect id="1879073120" name="Anthem III - Prowess" iconId="1092752393" duration="30.0">
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Melee Damage" constant="5.0"/>
 <stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
-<stat name="Combat_Agent_Armor_Value_Float" scaling="1879132195"/>
-<stat name="EVADE" scaling="1879120131"/>
+<stat name="OCFW_MITIGATION_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Orc-craft and Fell-wrought Mitigation" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" descriptionOverride="-" constant="5.0"/>
 </effect>
 </buff>
 <buff>
-<effect id="1879073122" name="Anthem of Composure" iconId="1090553798" duration="60.0">
-<stat name="RESISTANCE" scaling="1879399606"/>
-<stat name="TACTICAL_MITIGATION" scaling="1879368460"/>
+<effect id="1879073122" name="Anthem III - Composure" iconId="1092752391" duration="30.0">
+<stat name="RESISTANCE" scaling="1879381719"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879399704"/>
+<stat name="SHADOW_MITIGATION_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Shadow, Acid, and Fire Mitigation" constant="3.0"/>
+<stat name="ACID_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
+<stat name="FIRE_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
 </effect>
 </buff>
 <buff>
@@ -50,6 +53,7 @@
 </buff>
 <buff>
 <effect id="1879095617" name="Dissonance" iconId="1091400695">
+<stat name="Skill_Minstrel_DamageMultiplier_WarspeechCalls" constant="15.000001"/>
 <stat name="BALLAD_AND_CODA_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ballad Damage &#10;&#10;&lt;rgb=#FF7700&gt; All Heals become Self-only&lt;/rgb&gt;" constant="25.0"/>
 </effect>
 </buff>
@@ -71,14 +75,17 @@
 </effect>
 </buff>
 <buff>
-<effect id="1879205019" name="Anthem of the Third Age - Resonance" iconId="1091635857" duration="60.0">
-<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="+10% Outgoing Healing&#10; -25% to all Skill Inductions{{keepspaces}}" constant="10.0"/>
-<stat name="ALL_SKILL_INDUCTION" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
+<effect id="1879205019" name="Anthem I - Resonance" iconId="1092752390" duration="30.0">
+<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="+5% Outgoing Healing&#10; -5% to all Skill Inductions{{keepspaces}}" constant="5.0"/>
+<stat name="ALL_SKILL_INDUCTION" descriptionOverride="-" constant="-5.0"/>
 </effect>
 </buff>
 <buff>
-<effect id="1879205020" name="Anthem of the Third Age - Dissonance" iconId="1091635858" duration="60.0">
-<stat name="Skill_Minstrel_DamageMultiplier_WarspeechCalls" descriptionOverride="Adds 10% to your call damage" constant="10.0"/>
+<effect id="1879205020" name="Anthem II - Dissonance" iconId="1092752394" duration="30.0">
+<stat name="Combat_SkillDamageMultiplier_Light" descriptionOverride="+5% Light, Fire, Frost, and Lightning Damage" constant="5.0"/>
+<stat name="Combat_SkillDamageMultiplier_Fire" constant="5.0"/>
+<stat name="Combat_SkillDamageMultiplier_Lightning" descriptionOverride="-" constant="5.0"/>
+<stat name="Combat_SkillDamageMultiplier_Frost" descriptionOverride="-" constant="5.0"/>
 </effect>
 </buff>
 <buff>
@@ -92,7 +99,7 @@
 </effect>
 </buff>
 <buff>
-<effect id="1879217358" name="Anthem of the Third Age - Melody" iconId="1091660967" duration="60.0">
+<effect id="1879217358" name="Anthem of the Third Age - Melody" iconId="1091660967" duration="30.0">
 <stat name="INCOMING_HEALING_PERCENTAGE" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Damage" constant="5.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>

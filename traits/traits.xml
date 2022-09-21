@@ -446,16 +446,21 @@
 <stat name="FINESSE" scaling="1879367857"/>
 </trait>
 <trait identifier="1879072428" name="Burning Blades" iconId="1090553260" category="43" nature="3" tooltip="When using Burning Blades, all damage skills will do Fire damage." description="When using Burning Blades, all damage skills will do Fire damage."/>
-<trait identifier="1879072429" name="Enhanced Skill: Jagged Cut" iconId="1090553261" category="43" nature="3" tooltip="Enables your Jagged Cut skill to cause damage over time on your targets." description="Enables your Jagged Cut skill to cause damage over time on your targets."/>
+<trait identifier="1879072429" name="Enhanced Skill: Jagged Cut" iconId="1090553261" category="43" nature="3" tooltip="Enables your Jagged Cut skill to cause damage over time on your targets, and improves the bleeds from Lacerate and Mutilation." description="Enables your Jagged Cut skill to cause damage over time on your targets, and improves the bleeds from Lacerate and Mutilation.">
+<stat name="EffectMod_BleedDamage_MP_JaggedCut" constant="15.000001"/>
+</trait>
 <trait identifier="1879072430" name="Enhanced Skill: Glory in Victory" iconId="1090553262" category="43" nature="3" tooltip="When you use Glory in Victory you no longer take additional damage in melee." description="When you use Glory in Victory you no longer take additional damage in melee.">
 <stat name="EffectMod_PropertyMod_Trait_MP_GloryInVictory" operator="SUBSTRACT" constant="10.0"/>
 </trait>
-<trait identifier="1879072431" name="Enhanced Skill: Devastating Strike" iconId="1090553263" category="43" nature="3" tooltip="You can use your Devastating Strike more often." description="You can use your Devastating Strike more often.">
-<stat name="Skill_RecoveryTime_Trait_MP_DevastatingStrike" operator="SUBSTRACT" constant="10.0"/>
+<trait identifier="1879072431" name="Enhanced Skill: Devastating Strike" iconId="1090553263" category="43" nature="3" tooltip="You can use your Devastating Strike more often and it deals more damage." description="You can use your Devastating Strike more often and it deals more damage.">
+<stat name="Skill_RecoveryTime_Trait_MP_DevastatingStrike" operator="SUBSTRACT" constant="7.0"/>
+<stat name="Skill_Reaver_DevastatingStrike_Bonus" descriptionOverride="Increase Devastating Strike Damage" constant="100.0"/>
 </trait>
-<trait identifier="1879072432" name="Enhanced Skill: Resilience" iconId="1090553264" category="43" nature="3" tooltip="Resilience now provides 5s of CC immunity." description="Resilience now provides 5s of CC immunity."/>
+<trait identifier="1879072432" name="Enhanced Skill: Resilience" iconId="1090553264" category="43" nature="3" tooltip="Resilience now provides 15s of CC immunity." description="Resilience now provides 15s of CC immunity."/>
 <trait identifier="1879072433" name="Enhanced Skill: Against the Odds" iconId="1091472971" category="43" nature="3" tooltip="Against the Odds now provides health and power over time." description="Against the Odds now provides health and power over time."/>
-<trait identifier="1879072434" name="Enhanced Skill: Blade Toss" iconId="1091625080" category="43" nature="3" tooltip="Blade Toss now slows targets." description="Blade Toss now slows targets."/>
+<trait identifier="1879072434" name="Enhanced Skill: Blade Toss" iconId="1091625080" category="43" nature="3" tooltip="Blade Toss now slows targets more and has a chance to knock them down." description="Blade Toss now slows targets more and has a chance to knock them down.">
+<stat name="Skill_Reaver_UpperHand_KnockedDownChance" descriptionOverride="+50% chance for Blade Toss to knock down your opponent.&#10;&#10;+10% Move Speed Debuff&#10;+5s Debuff Duration" constant="0.5"/>
+</trait>
 <trait identifier="1879072435" name="Fighter Appearance" iconId="1090553268" category="54" nature="2" tooltip="A different visual appearance for your Orc Reaver. A green-skinned Orc wearing a cloth tunic and heavy armour on the left shoulder, left arm, and lower legs. A sword in scabbard is worn on the back." description="A different visual appearance for your Orc Reaver. A green-skinned Orc wearing a cloth tunic and heavy armour on the left shoulder, left arm, and lower legs. A sword in scabbard is worn on the back.">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="1.0"/>
 </trait>
@@ -478,7 +483,7 @@
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="+${PERCENTVALUE} Maximum Health." constant="1.1"/>
 </trait>
 <trait identifier="1879072442" name="Armour Boost" iconId="1090553275" category="43" nature="3" tooltip="Increases armour value" description="Increases armour value">
-<stat name="Combat_Agent_Armor_Value_Float" scaling="1879132197"/>
+<stat name="Combat_Agent_Armor_Value_Float" scaling="1879449983"/>
 </trait>
 <trait identifier="1879072443" name="Regeneration" iconId="1090553276" category="43" nature="3" tooltip="Increases in-combat health regeneration" description="Increases in-combat health regeneration">
 <stat name="ICMR" scaling="1879399430"/>
@@ -542,7 +547,7 @@
 <stat name="Skill_InductionDuration_Trait_MP_FastBow" operator="SUBSTRACT" constant="0.5"/>
 </trait>
 <trait identifier="1879072464" name="Enhanced Skill: Set Trap" iconId="1090553297" category="43" nature="3" tooltip="Set Trap's root has a reduced chance to break on damage and damage done to trapped tragets is increased." description="Set Trap's root has a reduced chance to break on damage and damage done to trapped tragets is increased."/>
-<trait identifier="1879072465" name="Enhanced Skill: Steadfast Barrage" iconId="1091472331" category="43" nature="3" tooltip="Allows Steadfast Barrage to be used while moving but decreases movement speed for the duration of the skill." description="Allows Steadfast Barrage to be used while moving but decreases movement speed for the duration of the skill.">
+<trait identifier="1879072465" name="Enhanced Skill: Steadfast Barrage" iconId="1091472331" category="43" nature="3" tooltip="Allows Steadfast Barrage to be used while moving but decreases movement speed for the duration of the skill. Increases Steadfast Barrage damage and provides a chance to crit." description="Allows Steadfast Barrage to be used while moving but decreases movement speed for the duration of the skill. Increases Steadfast Barrage damage and provides a chance to crit.">
 <stat name="ForwardSource_Combat_TraitCombo2" operator="SET" descriptionOverride="-" constant="240.0"/>
 </trait>
 <trait identifier="1879072466" name="Enhanced Skill: Snare" iconId="1091630873" category="43" nature="3" tooltip="Adds a short movement speed buff to Snare." description="Adds a short movement speed buff to Snare."/>
@@ -565,20 +570,20 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="6.0"/>
 </trait>
 <trait identifier="1879072473" name="Damage Boost" iconId="1090553307" category="43" nature="3" tooltip="Increases damage dealt with attacks" description="Increases damage dealt with attacks">
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="3.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="3.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="25.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="25.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="25.0"/>
 </trait>
 <trait identifier="1879072474" name="Avoidance Boost" iconId="1090553291" category="43" nature="3" tooltip="Increases parry, evade, and block rating" description="Increases parry, evade, and block rating">
 <stat name="PARRY" scaling="1879399376"/>
 <stat name="EVADE" scaling="1879399362"/>
 <stat name="BLOCK" scaling="1879399378"/>
 </trait>
-<trait identifier="1879072475" name="Empowering" iconId="1090553308" category="43" nature="3" tooltip="Increases in-combat power regeneration and Tactical Mastery" description="Increases in-combat power regeneration and Tactical Mastery">
-<stat name="ICPR" constant="75.0"/>
-<stat name="TACTICAL_MASTERY" scaling="1879223958"/>
+<trait identifier="1879072475" name="Empowering" iconId="1090553308" category="43" nature="3" tooltip="Increases in-combat power regeneration and Tactical Mastery" description="Increases Resistance and Tactical Mastery">
+<stat name="RESISTANCE" scaling="1879412735"/>
+<stat name="TACTICAL_MASTERY" scaling="1879412738"/>
 </trait>
-<trait identifier="1879072476" name="Shield Mastery" iconId="1090553309" category="43" nature="3" tooltip="Increases block rating" description="Increases block rating">
+<trait identifier="1879072476" name="Shield Mastery" iconId="1090553309" category="43" nature="3" tooltip="Improves Shield Bash and increases Block Rating" description="Improves Shield Bash and increases Block Rating">
 <stat name="BLOCK" scaling="1879368068"/>
 <stat name="Skill_ChanceCriticalHit_Trait_MP_FromStealth" descriptionOverride="+25% Shield Bash Critical Chance" constant="25.0"/>
 <stat name="Skill_DamageMultiplier_WildAttack" descriptionOverride="+${PERCENTVALUE} Shield Bash Damage" constant="50.0"/>
@@ -588,8 +593,9 @@
 <stat name="EffectMod_ModType_ReviveHealthMultModifier" constant="35.0"/>
 <stat name="EffectMod_ModType_RevivePowerMultModifier" constant="35.0"/>
 </trait>
-<trait identifier="1879072478" name="Harsh Language" iconId="1090553311" category="43" nature="3" tooltip="Improves healing skills" description="Improves healing skills">
+<trait identifier="1879072478" name="Harsh Language" iconId="1090553311" category="43" nature="3" tooltip="Improves healing skills and reduce healing induction actions" description="Improves healing skills and reduce healing induction actions">
 <stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" constant="25.0"/>
+<stat name="Skill_Healing_Induction_MP_PowerofFear" operator="SUBSTRACT" descriptionOverride="Reduces induction actions by ${PERCENTVALUE}" constant="15.000001"/>
 </trait>
 <trait identifier="1879072479" name="Enhanced Skill: Field Promotion" iconId="1090553312" category="43" nature="3" tooltip="Increases the duration of the protection granted with Field Promotion" description="Increases the duration of the protection granted with Field Promotion">
 <stat name="EffectMod_Duration_Trait_MP_FieldPromotion" constant="7.0"/>
@@ -615,7 +621,7 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="6.0"/>
 </trait>
 <trait identifier="1879072489" name="Armour Boost" iconId="1090553275" category="43" nature="3" tooltip="Increases armour value" description="Increases armour value">
-<stat name="Combat_Agent_Armor_Value_Float" scaling="1879132197"/>
+<stat name="Combat_Agent_Armor_Value_Float" scaling="1879449983"/>
 </trait>
 <trait identifier="1879072490" name="Resistance Boost" iconId="1090553258" category="43" nature="3" tooltip="Increases resistance rating" description="Increases resistance rating">
 <stat name="RESISTANCE" scaling="1879381723"/>
@@ -628,8 +634,9 @@
 <specialEffect label="Set damage type of all skills to Shadow"/>
 </trait>
 <trait identifier="1879072493" name="Enhanced Skill: Stealth" iconId="1090553325" category="43" nature="3" tooltip="Your ability to hide and stalk prey has been increased." description="Your ability to hide and stalk prey has been increased.">
-<stat name="STEALTH_LEVEL" constant="4.0"/>
-<stat name="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" descriptionOverride="+${PERCENTVALUE} Stealth Movement Speed." constant="55.0"/>
+<stat name="STEALTH_LEVEL" constant="7.0"/>
+<stat name="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" descriptionOverride="+${PERCENTVALUE} Stealth Movement Speed" constant="5.0"/>
+<stat name="Skill_ChanceCriticalHit_Trait_MP_FromStealth" constant="10.0"/>
 </trait>
 <trait identifier="1879072494" name="Enhanced Skill: Sprint" iconId="1090553326" category="43" nature="3" tooltip="Reduces recovery time for Sprint" description="Reduces recovery time for Sprint">
 <stat name="Skill_RecoveryTime_Trait_MP_Sprint" operator="SUBSTRACT" descriptionOverride="-${VALUE}s Sprint Cooldown" constant="90.0"/>
@@ -638,7 +645,7 @@
 <stat name="Skill_ChanceCriticalHit_Trait_MP_FromStealth" constant="20.0"/>
 </trait>
 <trait identifier="1879072496" name="Enhanced Skill: Rallying Howl" iconId="1090553328" category="43" nature="3" tooltip="Each use of Rallying Howl increases outgoing damage by 5%. Bonus caps at 25%." description="Each use of Rallying Howl increases outgoing damage by 5%. Bonus caps at 25%."/>
-<trait identifier="1879072497" name="Enhanced Skill: Flayer" iconId="1091474337" category="43" nature="3" tooltip="Increases Flayer's armour and mitigation bonuses" description="Increases Flayer's armour and mitigation bonuses"/>
+<trait identifier="1879072497" name="Enhanced Skill: Flayer" iconId="1091474337" category="43" nature="3" tooltip="Flayer further reduces incoming damage and makes you more threatening." description="Flayer further reduces incoming damage and makes you more threatening."/>
 <trait identifier="1879072499" name="Ruins-howler Appearance" iconId="1090553332" category="54" nature="2" tooltip="A different visual appearance for your Warg Stalker: a dark grey Warg." description="A different visual appearance for your Warg Stalker: a dark grey Warg.">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="1.0"/>
 </trait>
@@ -1027,7 +1034,7 @@
 <trait identifier="1879084091" name="Goat-masked Blogmal Appearance" iconId="1091462230" category="54" nature="2" tooltip="A different visual appearance for your Orc Defiler. A blue-skinned Orc wearing a green leather tunic, leather bracers, and heavy armour on the lower legs." description="A different visual appearance for your Orc Defiler. A blue-skinned Orc wearing a green leather tunic, leather bracers, and heavy armour on the lower legs.">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="3.0"/>
 </trait>
-<trait identifier="1879084093" name="Enhanced Skill: Curse of Sticky Feet" iconId="1091439827" category="43" nature="3" tooltip="In addition to the movement penalty, opponents affected by this curse have their Tactical Mitigation reduced.&#10;&#10;&lt;rgb=#99FF33&gt;-563 Tactical Mitigation&#10;+5s Duration&#10;+10% Movement Speed Debuff&lt;/rgb&gt;" description="In addition to the movement penalty, opponents affected by this curse have their Tactical Mitigation reduced.&#10;&#10;&lt;rgb=#99FF33&gt;-563 Tactical Mitigation&#10;+5s Duration&#10;+10% Movement Speed Debuff&lt;/rgb&gt;"/>
+<trait identifier="1879084093" name="Enhanced Skill: Curse of Sticky Feet" iconId="1091439827" category="43" nature="3" tooltip="In addition to the movement penalty, opponents affected by this curse have their Tactical Mitigation and Fire Mitigation reduced.&#10;&#10;&lt;rgb=#99FF33&gt;+5s Duration&#10;+10% Movement Speed Debuff&#10;Tactical Mitigation Debuff&lt;/rgb&gt;" description="In addition to the movement penalty, opponents affected by this curse have their Tactical Mitigation and Fire Mitigation reduced.&#10;&#10;&lt;rgb=#99FF33&gt;+5s Duration&#10;+10% Movement Speed Debuff&#10;Tactical Mitigation Debuff&lt;/rgb&gt;"/>
 <trait identifier="1879084097" name="Blood-seeker Appearance" iconId="1090624170" category="54" nature="2" tooltip="A different visual appearance for your Warg Stalker: a dark red-brown Warg with white fur on the lower face and muzzle." description="A different visual appearance for your Warg Stalker: a dark red-brown Warg with white fur on the lower face and muzzle.">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="7.0"/>
 </trait>
@@ -1050,7 +1057,7 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="7.0"/>
 </trait>
 <trait identifier="1879084113" name="Enhanced Skill: Plague Gourd" iconId="1091439829" category="43" nature="3" tooltip="Increases chance for critical hit and increases the loss of block, parry and evade when a critical hit is made." description="Increases chance for critical hit and increases the loss of block, parry and evade when a critical hit is made.">
-<stat name="Skill_ChanceCriticalHit_ChampionStrikesMod" descriptionOverride="+${PERCENTVALUE} Plague Gourd Critical Hit chance&#10;-3777.4 Target Block, Parry, and Evade Rating" constant="50.0"/>
+<stat name="Skill_ChanceCriticalHit_ChampionStrikesMod" descriptionOverride="+${PERCENTVALUE} Plague Gourd Critical Hit chance&#10;+60% Target Block, Parry, and Evade Rating Debuff" constant="50.0"/>
 </trait>
 <trait identifier="1879084115" name="Uruk-hai Overseer Appearance" iconId="1090624171" category="54" nature="2" tooltip="A different visual appearance for your Uruk Warleader. A red-skinned, bald Uruk wearing a reinforced tunic, helm, and heavy armour on the shoulders, hands, and lower legs. The armour is dark-coloured." description="A different visual appearance for your Uruk Warleader. A red-skinned, bald Uruk wearing a reinforced tunic, helm, and heavy armour on the shoulders, hands, and lower legs. The armour is dark-coloured.">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="7.0"/>
@@ -1103,7 +1110,7 @@
 <stat name="POWER" operator="MULTIPLY" descriptionOverride="+${PERCENTVALUE} Maximum Power" constant="1.1"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="-${PERCENTVALUE} Maximum Health" constant="0.95"/>
 </trait>
-<trait identifier="1879091357" name="Physical Mitigation Boost 3" iconId="1090553344" category="20" nature="5" tooltip="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating." description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
+<trait identifier="1879091357" name="Physical Mitigation Boost 6" iconId="1090553344" category="20" nature="5" tooltip="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating." description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
 <stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
 <stat name="Combat_Class_BlockPoints" scaling="1879412846"/>
 <stat name="Combat_Class_ParryPoints" scaling="1879412848"/>
@@ -1193,7 +1200,7 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
 </trait>
 <trait identifier="1879097837" name="Swallower of Light" iconId="1091417882" category="103" nature="4" tooltip="Increases Tactical Mitigation. Increases stealth level" description="Increases Tactical Mitigation. Increases stealth level">
-<stat name="TACTICAL_MITIGATION" scaling="1879399425"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879399424"/>
 <stat name="STEALTH_LEVEL" constant="3.0"/>
 </trait>
 <trait identifier="1879097838" name="Ancient as the Stars" iconId="1091417883" category="103" nature="4" tooltip="Increases Physical Mitigation and Critical Defence." description="Increases Physical Mitigation and Critical Defence.">
@@ -1242,7 +1249,7 @@
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="7.5000005"/>
 </trait>
 <trait identifier="1879097849" name="Foe of the Light" iconId="1091418018" category="103" nature="4" tooltip="Increases Tactical Mitigation and stealth level" description="Increases Tactical Mitigation and stealth level">
-<stat name="TACTICAL_MITIGATION" scaling="1879399425"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879399424"/>
 <stat name="STEALTH_LEVEL" constant="4.0"/>
 </trait>
 <trait identifier="1879097850" name="Pack Alpha" iconId="1091418019" category="103" nature="4" tooltip="Increases Physical Mastery, Critical Rating, and Finesse" description="Increases Physical Mastery, Critical Rating, and Finesse">
@@ -1253,8 +1260,8 @@
 <trait identifier="1879097853" name="Racial Skill: Blood of Fire" iconId="1091427803" category="7" nature="4" tooltip="The rage of the Orcs burns strong within you. You can draw upon your racial strength and make those that attack you suffer for their transgression.&#10;&#10;&lt;rgb=#99FF33&gt;On any damage:&#10;Reflect Fire Damage&lt;/rgb&gt;" description="The rage of the Orcs burns strong within you. You can draw upon your racial strength and make those that attack you suffer for their transgression.&#10;&#10;&lt;rgb=#99FF33&gt;On any damage:&#10;Reflect Fire Damage&lt;/rgb&gt;">
 <skill id="1879097866" name="Blood of Fire"/>
 </trait>
-<trait identifier="1879097854" name="Racial Skill: Dying Rage" iconId="1091465872" category="11" nature="4" tooltip="As death's shroud closes in upon you, you are able to enter one last frenzied rage before the end.&#10;&#10;&lt;rgb=#99FF33&gt;Greatly increased Damage, Defences, and Movement Speed.&#10;Immune to Stun, Daze, Fear, and Knockdown.&lt;/rgb&gt;" description="As death's shroud closes in upon you, you are able to enter one last frenzied rage before the end.&#10;&#10;&lt;rgb=#99FF33&gt;Greatly increased Damage, Defences, and Movement Speed.&#10;Immune to Stun, Daze, Fear, and Knockdown.&lt;/rgb&gt;">
-<skill id="1879097868" name="Dying Rage"/>
+<trait identifier="1879097854" name="Racial Skill: Undying Rage" iconId="1091465872" category="11" nature="4" tooltip="As death's shroud closes in upon you, you are able to enter one last frenzied rage before the end.&#10;&#10;&lt;rgb=#99FF33&gt;Greatly increased Damage, Defences, and Movement Speed.&#10;Immune to Stun, Daze, Fear, and Knockdown.&lt;/rgb&gt;" description="As death's shroud closes in upon you, you are able to enter one last frenzied rage before the end.&#10;&#10;&lt;rgb=#99FF33&gt;Greatly increased Damage, Defences, and Movement Speed.&#10;Immune to Stun, Daze, Fear, and Knockdown.&lt;/rgb&gt;">
+<skill id="1879097868" name="Undying Rage"/>
 </trait>
 <trait identifier="1879097855" name="Racial Skill: Born of Shadow" iconId="1091465873" category="11" nature="4" tooltip="You are able to draw upon the darkness from whence the first of your kind was born and cloak yourself in harmful shadows.&#10;&#10;&lt;rgb=#99FF33&gt;On any damage:&#10;+2% Physical and Tactical Mitigation.&#10;Stacks up to 5 times.&lt;/rgb&gt;" description="You are able to draw upon the darkness from whence the first of your kind was born and cloak yourself in harmful shadows.&#10;&#10;&lt;rgb=#99FF33&gt;On any damage:&#10;+2% Physical and Tactical Mitigation.&#10;Stacks up to 5 times.&lt;/rgb&gt;">
 <skill id="1879097871" name="Born of Shadow"/>
@@ -1606,9 +1613,9 @@
 <stat name="Skill_RecoveryTime_Trait_MP_Hamstring" operator="SUBSTRACT" constant="2.0"/>
 <specialEffect label="+10% Run Speed Debuff"/>
 </trait>
-<trait identifier="1879138052" name="Enhanced Skill: Upper Hand" iconId="1091472682" category="43" nature="3" tooltip="When using Upper Hand, you are able to greatly affect your enemy's ability to block and parry for a longer time period." description="When using Upper Hand, you are able to greatly affect your enemy's ability to block and parry for a longer time period.">
-<specialEffect label="Adds to Block and Parry Ratings."/>
-<specialEffect label="30s Duration"/>
+<trait identifier="1879138052" name="Enhanced Skill: Upper Hand" iconId="1091472682" category="43" nature="3" tooltip="The Upper Hand corruption effect will now cause your skills to reduce some active skill cooldowns.&#10;&#10;Increased duration of Upper Hand debuff." description="The Upper Hand corruption effect will now cause your skills to reduce some active skill cooldowns.&#10;&#10;Increased duration of Upper Hand debuff.">
+<specialEffect label="The Upper Hand corruption causes many skills to reduce active cooldowns"/>
+<specialEffect label="Increases debuff potency and duration"/>
 </trait>
 <trait identifier="1879138664" name="Enhanced Slime" iconId="1091473854" category="43" nature="3" tooltip="Increases healing and decreases threat generated from healing." description="Increases healing and decreases threat generated from healing.">
 <stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" constant="10.0"/>
@@ -1618,10 +1625,10 @@
 <trait identifier="1879138671" name="Frugal Cursing" iconId="1091473855" category="43" nature="3" tooltip="Decreases the power cost of all curse skills." description="Decreases the power cost of all curse skills.">
 <stat name="Skill_PowerCost_Trait_MP_FrugalCursing" operator="SUBSTRACT" constant="15.000001"/>
 </trait>
-<trait identifier="1879138672" name="Fast Lob" iconId="1091473857" category="43" nature="3" tooltip="Decreases induction time for all Gourd &amp; Curse skills." description="Decreases induction time for all Gourd &amp; Curse skills.">
-<stat name="Skill_InductionDuration_Trait_MP_FastLob" operator="SUBSTRACT" descriptionOverride="-1s Gourd skill inductions" constant="1.0"/>
+<trait identifier="1879138672" name="Fast Lob" iconId="1091473857" category="43" nature="3" tooltip="Decreases induction time for Offensive Gourd and Curse skills." description="Decreases induction time for Offensive Gourd and Curse skills.">
+<stat name="Skill_InductionDuration_Trait_MP_FastLob" operator="SUBSTRACT" descriptionOverride="-1s Offensive Skill Inductions" constant="1.0"/>
 </trait>
-<trait identifier="1879138673" name="Enhanced Skill: Plague of Flies" iconId="1091473853" category="43" nature="3" tooltip="Removes the countdown for Plague of Flies.&#10;&#10;&lt;rgb=#99FF33&gt;-5s Plague of Flies Countdown&#10;+10% Power Drain&#10;+15s Duration&lt;/rgb&gt;" description="Removes the countdown for Plague of Flies.&#10;&#10;&lt;rgb=#99FF33&gt;-5s Plague of Flies Countdown&#10;+10% Power Drain&#10;+15s Duration&lt;/rgb&gt;">
+<trait identifier="1879138673" name="Enhanced Skill: Plague of Flies" iconId="1091473853" category="43" nature="3" tooltip="Removes the countdown for Plague of Flies and improves the duration and potency of the flies.&#10;&#10;&lt;rgb=#99FF33&gt;+10% Miss Chance&#10;+5% Ranged Miss Chance&#10;-5s Plague of Flies Countdown&#10;+100% Power Drain&#10;+10s Duration&lt;/rgb&gt;" description="Removes the countdown for Plague of Flies and improves the duration and potency of the flies.&#10;&#10;&lt;rgb=#99FF33&gt;+10% Miss Chance&#10;+5% Ranged Miss Chance&#10;-5s Plague of Flies Countdown&#10;+100% Power Drain&#10;+10s Duration&lt;/rgb&gt;">
 <stat name="EffectMod_DamageMultiplier_Trait_MP_StrongPoison" constant="10.0"/>
 </trait>
 <trait identifier="1879139367" name="Enhanced Skill: Rabid Bite" iconId="1091474338" category="43" nature="3" tooltip="Increases the effectiveness of Rabid Bite's power cost debuff.&#10;&#10;&lt;rgb=#99FF33&gt;+35% Power Costs&lt;/rgb&gt;" description="Increases the effectiveness of Rabid Bite's power cost debuff.&#10;&#10;&lt;rgb=#99FF33&gt;+35% Power Costs&lt;/rgb&gt;"/>
@@ -1679,7 +1686,7 @@
 <stat name="TACTICAL_MITIGATION" scaling="1879412736"/>
 <stat name="RESISTANCE" scaling="1879412735"/>
 </trait>
-<trait identifier="1879152251" name="Physical Mitigation Boost 6" iconId="1090553344" category="20" nature="5" tooltip="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating." description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
+<trait identifier="1879152251" name="Physical Mitigation Boost 3" iconId="1090553344" category="20" nature="5" tooltip="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating." description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
 <stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
 <stat name="Combat_Class_BlockPoints" scaling="1879412846"/>
 <stat name="Combat_Class_ParryPoints" scaling="1879412848"/>
@@ -2161,9 +2168,9 @@
 </trait>
 <trait identifier="1879199355" name="Emote: Snow Wizard" iconId="1091591966" category="92" nature="1" cosmetic="true" tooltip="You have learned the snow wizard emote (/roll)." description="You have learned the snow wizard emote (/snowwizard)."/>
 <trait identifier="1879199358" name="Emote: Warm-hands" iconId="1091591966" category="92" nature="1" cosmetic="true" tooltip="You have learned the warm-hands emote (/roll)." description="You have learned the warm-hands emote (/warmhands)."/>
-<trait identifier="1879201159" name="Strong Brood" iconId="1091628558" category="43" nature="3" tooltip="Increases your hatchling's health and reduces its skill cooldowns. The Weaver gains increased Physical Mitigation.&#10;&#10;Only one Hatchling trait can be equipped at a time." description="Increases your hatchling's health and reduces its skill cooldowns. The Weaver gains increased Physical Mitigation.&#10;&#10;Only one Hatchling trait can be equipped at a time.">
+<trait identifier="1879201159" name="Strong Brood" iconId="1091628558" category="43" nature="3" tooltip="Increases your hatchling's health and reduces its skill cooldowns. You gain increased Physical Mitigation.&#10;&#10;Only one Hatchling trait can be equipped at a time." description="Increases your hatchling's health and reduces its skill cooldowns. You gain increased Physical Mitigation.&#10;&#10;Only one Hatchling trait can be equipped at a time.">
 <stat name="PHYSICAL_MITIGATION" scaling="1879399483"/>
-<stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="Your hatchling gains the following:&#10;   +25% Health&#10;   +10% Power&#10;   +20% Mitigations&#10;  +5% Attack Speed&#10;   +15% Outgoing Damage&#10;   +5% Critical Chance&#10;  +5% Evade Chance &#10;  Enhanced Skills" constant="105.0"/>
+<stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="Your hatchling gains the following:&#10;   +125% Health&#10;   -10% Power&#10;   +20% Mitigations&#10;  +5% Attack Speed&#10;   +25% Melee Damage&#10;   +25% Critical Chance&#10;  +15% Evade Chance &#10;  Enhanced Skills" constant="105.0"/>
 </trait>
 <trait identifier="1879201534" name="Enhanced Skill: Efflorescence" iconId="1091755050" category="43" nature="3" tooltip="Increases the range and reduces the power cost of Efflorescence.&#10;&#10;&lt;rgb=#99FF33&gt;Efflorescence:&#10;+10m Range&#10;-15% Power Cost&lt;/rgb&gt;" description="Increases the range and reduces the power cost of Efflorescence.&#10;&#10;&lt;rgb=#99FF33&gt;Efflorescence:&#10;+10m Range&#10;-15% Power Cost&lt;/rgb&gt;">
 <stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" descriptionOverride="-" constant="15.000001"/>
@@ -2260,12 +2267,12 @@
 <trait identifier="1879210639" name="Emote: Gem Inspection" iconId="1091591966" category="92" nature="1" cosmetic="true" tooltip="You have learned the gem inspection emote (/inspectgem)." description="You have learned the gem inspection emote (/inspectgem)."/>
 <trait identifier="1879210641" name="Emote: Coin Bite" iconId="1091591966" category="92" nature="1" cosmetic="true" tooltip="You have learned the coin bite emote (/counterfeit)." description="You have learned the coin bite emote (/counterfeit)."/>
 <trait identifier="1879210642" name="Emote: Coin Flip" iconId="1091591966" category="92" nature="1" cosmetic="true" tooltip="You have learned the coin flip emote (/coinflip)." description="You have learned the coin flip emote (/coinflip)."/>
-<trait identifier="1879210653" name="Scytode Brood" iconId="1091657063" category="43" nature="3" tooltip="Your hatchling forgoes melee for ranged attacks. The Weaver gains increased Tactical Mitigation.&#10;&#10;Only one Hatchling trait can be equipped at a time." description="Your hatchling forgoes melee for ranged attacks. The Weaver gains increased Tactical Mitigation.&#10;&#10;Only one Hatchling trait can be equipped at a time.">
+<trait identifier="1879210653" name="Scytode Brood" iconId="1091657063" category="43" nature="3" tooltip="Your hatchling forgoes melee for ranged attacks. You gain increased Tactical Mitigation.&#10;&#10;Only one Hatchling trait can be equipped at a time." description="Your hatchling forgoes melee for ranged attacks. You gain increased Tactical Mitigation.&#10;&#10;Only one Hatchling trait can be equipped at a time.">
 <stat name="TACTICAL_MITIGATION" scaling="1879399425"/>
-<stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="Your hatchling gains the following:&#10;   +10% Health&#10;   +25% Power&#10;   +5% Attack Speed&#10;   +15% Outgoing Damage&#10;   +5% Critical Chance&#10; +5% Evade Chance &#10; Enhanced Skills" constant="112.0"/>
+<stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="Your hatchling gains the following:&#10;   +50% Health&#10;   +15% Power&#10;   +10% Attack Speed&#10;   +35% Ranged Damage&#10;   +25% Critical Chance&#10; +10% Evade Chance &#10; Enhanced Skills" constant="112.0"/>
 </trait>
 <trait identifier="1879211599" name="Power of Fear" iconId="1091657493" category="43" nature="3" tooltip="Your opponent's fear strengthens you." description="Your opponent's fear strengthens you.">
-<specialEffect label="Critically hitting with Black Speech, Intimidating Shout, or Menacing Roar will cause your next heal skill to have no induction."/>
+<specialEffect label="Using Fracture, or critically hitting with Black Speech, Intimidating Shout, or Menacing Roar will cause your next heal skill to have no induction."/>
 </trait>
 <trait identifier="1879211910" name="Enhanced Skill: Disappear" iconId="1091679753" category="43" nature="3" tooltip="Reduces the cooldown of your Disappear skill." description="Reduces the cooldown of your Disappear skill.">
 <stat name="Skill_RecoveryTime_MP_Disappear" operator="SUBSTRACT" constant="90.0"/>
@@ -4371,14 +4378,14 @@
 <trait identifier="1879270739" name="Poignant Phrases" iconId="1091830281" tiers="5" tierProperty="trait_class_minstrel_rank_1" nature="22" description="Increases Critical Healing.">
 <stat name="Trait_Minstrel_Healing_CriticalMod" scaling="1879271706"/>
 </trait>
-<trait identifier="1879270741" name="Cacophonous Timeless Echoes" iconId="1091840511" tiers="3" tierProperty="trait_class_minstrel_rank_27" nature="22" description="Increases the damage done by Timeless Echoes.">
+<trait identifier="1879270741" name="Cacophonous Echoes" iconId="1091840511" tiers="3" tierProperty="trait_class_minstrel_rank_27" nature="22" description="Increases the damage done by Echoes of Battle, Harsh Echoes, and Coda of Fury's Echo.">
 <stat name="Skill_Minstrel_DamageMod_ImprovedEchoesofBattle" scaling="1879271712"/>
 </trait>
 <trait identifier="1879270742" name="The Fundamentals" iconId="1091830274" tiers="5" tierProperty="trait_class_minstrel_rank_16" nature="22" description="Increases the damage of Ballads and Codas.">
 <stat name="Trait_Minstrel_Ballad_Coda_Damage" scaling="1879271720"/>
 </trait>
-<trait identifier="1879270743" name="Weakening Echoes of Battle" iconId="1091840495" tiers="3" tierProperty="trait_class_minstrel_rank_37" nature="22" description="Echoes of Battle deals more damage and further reduces the enemy's Resistance.">
-<stat name="Skill_Minstrel_DamageMod_ImprovedEchoesofBattle" scaling="1879271731"/>
+<trait identifier="1879270743" name="Memories of Battle" iconId="1091840495" tiers="5" tierProperty="trait_class_minstrel_rank_38" nature="22" description="Echoes of Battle further reduces the enemy's Resistance, and Melody of Battle has a chance to raise the target's Outgoing Threat when hit.">
+<stat name="Trait_minstrel_melodyofbattle_threat_appchance" scaling="1879449517"/>
 <stat name="Trait_Minstrel_Echoes_Resistance" tieredScaling="1879287185;1879287190;1879287189;1879287188;1879287187"/>
 </trait>
 <trait identifier="1879270744" name="Resonant Piercing Cry" iconId="1091840504" tierProperty="trait_class_minstrel_rank_8" nature="22" description="Tune your Piercing Cry to both help your allies and harm your foes.">
@@ -4396,74 +4403,57 @@
 <stat name="Combat_OutgoingHeals_EffectMod" scaling="1879271719"/>
 </trait>
 <trait identifier="1879270748" name="Legend of Helm Hammerhand" iconId="1091830276" tierProperty="trait_class_minstrel_rank_15" nature="22" description="Earns the skill: Legend of Helm Hammerhand."/>
-<trait identifier="1879270750" name="Echoing Anthem of War" iconId="1091840501" tierProperty="trait_class_minstrel_rank_25" nature="22" description="Anthem of War improves your allies' Tactical damage."/>
+<trait identifier="1879270750" name="Anthem of War" iconId="1091840501" tierProperty="trait_class_minstrel_rank_25" nature="22" description="Earns the skill: Greater Anthem II - War."/>
 <trait identifier="1879270751" name="Piercing Ballads" iconId="1091840513" tiers="5" tierProperty="trait_class_minstrel_rank_19" nature="22" description="Increases the Critical Chance of Ballad skills.">
 <stat name="Skill_Minstrel_CriticalChance_Ballad" scaling="1879260049"/>
 <stat name="FINESSE" tieredScaling="1879367860;1879367858;1879367861;1879367859;1879367857"/>
 </trait>
-<trait identifier="1879270752" name="Improved Hero's Strike" iconId="1091830272" tiers="3" tierProperty="trait_class_minstrel_rank_38" nature="22" description="Increases damage and healing done by Hero's Strike.">
-<stat name="Trait_Minstrel_Heros_Strike_Damage" descriptionOverride="+${PERCENTVALUE} Hero's Strike Damage" scaling="1879271723"/>
-<stat name="Skill_Minstrel_Hero_Strike_Heal" descriptionOverride="+${PERCENTVALUE} Hero's Strike Healing" scaling="1879271714"/>
+<trait identifier="1879270752" name="Improved Strikes" iconId="1091830272" tiers="5" tierProperty="trait_class_minstrel_rank_39" nature="22" description="Increases damage and healing done by your Strike skills.">
+<stat name="Trait_Minstrel_Heros_Strike_Damage" descriptionOverride="+${PERCENTVALUE} Strike Damage" scaling="1879271723"/>
+<stat name="Skill_Minstrel_Hero_Strike_Heal" descriptionOverride="+${PERCENTVALUE} Strike Healing" scaling="1879271714"/>
 </trait>
-<trait identifier="1879270753" name="Call to Greatness" iconId="1091830259" tierProperty="trait_class_minstrel_rank_48" nature="22" description="Earns the skill: Call to Greatness"/>
-<trait identifier="1879270754" name="Improved Coda of Melody" iconId="1091840516" tiers="3" tierProperty="trait_class_minstrel_rank_46" nature="22" description="Coda of Melody will also increase the fellowships Incoming Healing.">
-<stat name="Trait_Minstrel_Coda_Resonance_Duration" scaling="1879271708"/>
-<specialEffect label="+10% Incoming Healing from Coda of Melody"/>
-</trait>
+<trait identifier="1879270753" name="Tale of Tales" iconId="1092404099" tierProperty="trait_class_minstrel_rank_48" nature="22" description="Countless hours honing your craft allow you to weave individual stories together into a great tapestry.&#10;&#10;Using an Anthem skill will now also tier up the Tale of Tales Effect on nearby fellowship or raid members.&#10;&#10;&lt;rgb=#00ff00&gt;The Tale of Tales effect grants more and greater bonuses each time it tiers up:&#10;&#10;Fate&#10;Resistance Rating&#10;Finesse&#10;Critical Rating&#10;Vitality&lt;/rgb&gt;"/>
 <trait identifier="1879270756" name="Improved Coda of Fury" iconId="1091830280" tiers="3" tierProperty="trait_class_minstrel_rank_30" nature="22" description="Coda of Fury has a chance to reset the cooldown of all Cries and Calls. You cannot gain this effect more than once every 25s.">
 <stat name="Trait_Heals_Reset_CriesCalls_Application_Chance" scaling="1879271710"/>
 </trait>
-<trait identifier="1879270757" name="Tactical Mastery" iconId="1091830270" tiers="6" tierProperty="trait_class_minstrel_rank_36" nature="22" description="Increases Tactical Mastery rating.">
+<trait identifier="1879270757" name="Tactical Mastery" iconId="1091830270" tiers="6" tierProperty="trait_class_minstrel_rank_37" nature="22" description="Increases Tactical Mastery rating.">
 <stat name="TACTICAL_MASTERY" tieredScaling="1879368691;1879368688;1879368685;1879368693;1879368686;1879368686"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" scaling="1879314731"/>
 </trait>
 <trait identifier="1879270758" name="Improved Chord of Salvation" iconId="1091840485" tiers="4" tierProperty="trait_class_minstrel_rank_9" nature="22" description="Chord of Salvation gains a fellowship-wide heal.">
 <stat name="Skill_Minstrel_ImpChordSalvation_HoT" descriptionOverride="Chord of Salvation now grants a fellowship-wide Heal" scaling="1879291402"/>
 </trait>
-<trait identifier="1879270759" name="Improved Song of the Hammerhand" iconId="1091840486" tiers="3" tierProperty="trait_class_minstrel_rank_10" nature="22" description="Enhances the potency the bubble from Song of the Hammerhand.">
+<trait identifier="1879270759" name="Improved Song of the Hammerhand" iconId="1091840486" tiers="2" tierProperty="trait_class_minstrel_rank_10" nature="22" description="Enhances the potency the bubble from Song of the Hammerhand.">
 <stat name="Skill_Minstrel_Song_of_Hammerhand_Bubble" scaling="1879314671"/>
 </trait>
 <trait identifier="1879270760" key="FINESSE_MINSTREL" name="Song of Arda" iconId="1092402731" tiers="5" tierProperty="trait_class_minstrel_rank_26" nature="22" description="The Minstrel's Light damage is improved.">
 <stat name="Combat_SkillDamageMultiplier_Light" scaling="1879446723"/>
 </trait>
-<trait identifier="1879270761" name="Change of Pace - Heal!" iconId="1091830255" tiers="5" tierProperty="trait_class_minstrel_rank_44" nature="22" description="Offensive skills have a chance to grant you a buff that will make your next healing skill crit."/>
+<trait identifier="1879270761" name="Change of Pace!" iconId="1091830255" tiers="5" tierProperty="trait_class_minstrel_rank_44" nature="22" description="Offensive skills sometimes grant you a buff that will make your next healing skill crit.&#10;&#10;Healing skills sometimes grant you a buff that will make your next Offensive Skill crit."/>
 <trait identifier="1879270762" name="Follow Up" iconId="1091840543" tiers="2" tierProperty="trait_class_minstrel_rank_11" nature="22" description="Critical Heals speed up skill use."/>
 <trait identifier="1879270763" name="Improved Call of Oromë" iconId="1091840508" tiers="2" tierProperty="trait_class_minstrel_rank_24" nature="22" description="Call of Oromë affects more targets and deals more damage.">
 <stat name="Trait_Minstrel_Call_Orome_Targets" scaling="1879271729"/>
 <stat name="Trait_Minstrel_Call_Orome_Damage" scaling="1879271715"/>
 </trait>
-<trait identifier="1879270764" name="Improved Inspire Fellows" iconId="1091840479" tiers="5" tierProperty="trait_class_minstrel_rank_34" nature="22" description="Inspire Fellows costs less Power, heals more Morale, and briefly reduces incoming damage.">
+<trait identifier="1879270764" name="Improved Inspire Fellows" iconId="1091840479" tiers="5" tierProperty="trait_class_minstrel_rank_35" nature="22" description="Inspire Fellows costs less Power and heals more Morale.&#10;&#10;Inspire Fellows will also benefit from the 'Inner Strength' trait, and will tier up Inner Strength on your fellows when used.">
 <stat name="Trait_Minstrel_Inspire_Fellows_Power_Cost" operator="SUBSTRACT" scaling="1879271725"/>
 <stat name="IA_Minstrel_InspireFellows_Heal" scaling="1879271717"/>
-<stat name="Skill_Minstrel_Inspire_Fellows_DamageReduction" scaling="1879272131"/>
 </trait>
 <trait identifier="1879270765" name="Cry of the Wizards" iconId="1091840475" tierProperty="trait_class_minstrel_rank_31" nature="22" description="Earns the skill: Cry of the Wizards."/>
-<trait identifier="1879270766" name="Sharing a Story" iconId="1091840506" tiers="2" tierProperty="trait_class_minstrel_rank_41" nature="22" description="A Critical hit with a Ballad will reset Piercing Cry cooldowns.">
+<trait identifier="1879270766" name="Songs of Woe" iconId="1091840506" tiers="5" tierProperty="trait_class_minstrel_rank_54" nature="22" description="Increases critical chance of ballads.">
 <stat name="Skill_Minstrel_CriticalChance_Ballad" scaling="1879290002"/>
-<specialEffect label="Ballad critical hits will reset the cooldown of all versions of Piercing Cry."/>
 </trait>
-<trait identifier="1879270767" name="Inspiring Cries and Calls" iconId="1091830261" tiers="5" tierProperty="trait_class_minstrel_rank_14" nature="22" description="Healing skills have a chance to reset the cooldown of Cries and Calls. You cannot gain this effect more than once every 30s.">
-<stat name="Trait_Heals_Reset_CriesCalls_Application_Chance" scaling="1879271718"/>
-</trait>
-<trait identifier="1879270768" name="Improved Bolster Courage" iconId="1091830267" tiers="5" tierProperty="trait_class_minstrel_rank_4" nature="22" description="Bolster Courage delivers a more potent heal.">
+<trait identifier="1879270768" name="Improved Bolster Courage" iconId="1092742795" tiers="5" tierProperty="trait_class_minstrel_rank_4" nature="22" description="Bolster Courage delivers a more potent heal.">
 <stat name="IA_Minstrel_BolsterCourage_Heal" scaling="1879271707"/>
 </trait>
-<trait identifier="1879270769" name="Triumphant Spirit" iconId="1091840477" tiers="2" tierProperty="trait_class_minstrel_rank_12" nature="22" description="Earns the skill: Triumphant Spirit.">
-<stat name="Skill_Minstrel_IA_TriumphantSpirit_Cooldown" operator="SUBSTRACT" scaling="1879271713"/>
-</trait>
 <trait identifier="1879270770" name="Call of Oromë" iconId="1091840514" tierProperty="trait_class_minstrel_rank_23" nature="22" description="Earns the skill: Call of Oromë."/>
-<trait identifier="1879270771" name="Shielding Cry" iconId="1091840507" tiers="3" tierProperty="trait_class_minstrel_rank_42" nature="22" description="Piercing Cry causes some of the damage the Fellowship takes to be reflected upon your enemies.">
-<stat name="Trait_Minstrel_Piercing_Cry_Duration" scaling="1879271730"/>
-<specialEffect label="Piercing Cry now grants allies a short-term damage reflection shield."/>
-</trait>
-<trait identifier="1879270772" name="Cry of the Valar" iconId="1091840482" tierProperty="trait_class_minstrel_rank_29" nature="22" description="Earns the skill: Cry of the Valar."/>
-<trait identifier="1879270773" name="Shield Focus" iconId="1091830287" tiers="2" tierProperty="trait_class_minstrel_rank_32" nature="22" description="Gain a defensive skill.">
-<stat name="Skill_Minstrel_ShieldBuffToggle_BlockChance" constant="2.5"/>
+<trait identifier="1879270773" name="Extended Anthems" iconId="1091830291" tiers="5" tierProperty="trait_class_minstrel_rank_36" nature="22" description="Increases Anthem Duration.">
+<stat name="Skill_Minstrel_Duration_Tier3Ballads" scaling="1879259839"/>
 </trait>
 <trait identifier="1879270774" key="CRITICAL_STRIKES" name="Critical Strikes" iconId="1091830275" tiers="5" tierProperty="trait_class_minstrel_rank_18" nature="22" description="Increases Critical Chance and Critical Damage.">
-<stat name="CRITICAL_MELEE_PERCENTAGE" scaling="1879300534"/>
-<stat name="CRITICAL_RANGED_PERCENTAGE" scaling="1879300538"/>
-<stat name="CRITICAL_TACTICAL_PERCENTAGE" scaling="1879300537"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Tactical Critical Chance" scaling="1879300537"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ranged Critical Chance" scaling="1879300538"/>
+<stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Melee Critical Chance" scaling="1879300534"/>
 <stat name="TACTICAL_CRITICAL_MULTIPLIER" scaling="1879300533"/>
 </trait>
 <trait identifier="1879270775" name="Herald's Strength" iconId="1091840483" tiers="6" tierProperty="trait_class_minstrel_rank_28" nature="22" description="Dissonant Strike steals Morale from the enemy on a Critical Hit.">
@@ -4475,16 +4465,12 @@
 <trait identifier="1879270778" name="Improved Coda of Resonance" iconId="1091840484" tiers="3" tierProperty="trait_class_minstrel_rank_13" nature="22" description="Coda of Resonance briefly reduces incoming damage.">
 <stat name="Trait_Coda_of_Vigour_Damage_Buff_Duration" scaling="1879271705"/>
 </trait>
-<trait identifier="1879270779" name="Quick Melody" iconId="1091830278" tiers="5" tierProperty="trait_class_minstrel_rank_6" nature="22" description="Lowers skill induction time, letting you heal faster.">
-<stat name="ALL_SKILL_INDUCTION" scaling="1879271732"/>
+<trait identifier="1879270779" name="Quick Melody" iconId="1091830278" tiers="5" tierProperty="trait_class_minstrel_rank_6" nature="22" description="Lowers healing skill induction time, letting you heal faster.">
+<stat name="Skill_InductionDuration_Minstrel_RaisetheSpirit" scaling="1879271732"/>
 </trait>
-<trait identifier="1879270780" name="Anthem of Composure" iconId="1091810091" tierProperty="trait_class_minstrel_rank_33" nature="22" description="Earns the skill: Anthem of Composure."/>
+<trait identifier="1879270780" name="Anthem of Composure" iconId="1091810091" tierProperty="trait_class_minstrel_rank_34" nature="22" description="Earns the skill: Lesser Anthem III - Composure."/>
 <trait identifier="1879270781" name="Strong Appeal" iconId="1091830264" tiers="5" tierProperty="trait_class_minstrel_rank_3" nature="22" description="Increases the Crit chance of heals.">
 <stat name="Trait_Minstrel_Healing_Critical_Chance" scaling="1879271709"/>
-</trait>
-<trait identifier="1879270782" name="Strength of Helm Hammerhand" iconId="1091840509" tierProperty="trait_class_minstrel_rank_43" nature="22" description="Adds a Physical and Tactical Mastery buff to Song of the Hammerhand's and Gift of the Hammerhand's bubble."/>
-<trait identifier="1879270788" name="Extended Anthems" iconId="1091830291" tiers="5" tierProperty="trait_class_minstrel_rank_35" nature="22" description="Increases Anthem Duration">
-<stat name="Skill_Minstrel_Duration_Tier3Ballads" scaling="1879259839"/>
 </trait>
 <trait identifier="1879270938" name="Spring Lissuin Saddle" iconId="1091740533" category="54" nature="16"/>
 <trait identifier="1879270939" name="Spring Lissuin Leggings" iconId="1091740545" category="54" nature="16"/>
@@ -4663,11 +4649,11 @@
 <trait identifier="1879272091" name="Westemnet Farmer mastery" iconId="1090535587" category="31" nature="1" tooltip="Westemnet farmer mastery is completed." description="Completes Westemnet farmer mastery.">
 <stat name="Craft_Farmer_CompletedMasteryLevel" operator="SET" constant="9.0"/>
 </trait>
-<trait identifier="1879272161" name="Of All Trades" iconId="1091840490" tiers="4" tierProperty="trait_class_minstrel_rank_39" nature="22" description="Increase damage and healing.">
+<trait identifier="1879272161" name="Of All Trades" iconId="1091840490" tiers="5" tierProperty="trait_class_minstrel_rank_40" nature="22" description="Increase damage and healing.">
 <stat name="Combat_OutgoingHeals_EffectMod" scaling="1879368800"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Damage" scaling="1879368799"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" scaling="1879368803"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" scaling="1879368801"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Tactical Damage" scaling="1879368799"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ranged Damage" scaling="1879368803"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Melee Damage" scaling="1879368801"/>
 </trait>
 <trait identifier="1879272169" name="Caparison of the Midsummer" iconId="1091947415" category="54" nature="16"/>
 <trait identifier="1879272271" name="Grand Master Weapons Training" iconId="1091840526" nature="30">
@@ -4816,9 +4802,7 @@
 <stat name="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" constant="40.0"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
-<trait identifier="1879272588" name="The Protector of Song" iconId="1091618504" tierProperty="trait_class_specialization_minstrel_three" nature="28" description="Supports allies with powerful buffs, using enhanced Anthem skills with great effectiveness.">
-<stat name="OUTGOING_HEALING_PERCENTAGE" constant="5.0"/>
-<stat name="Combat_SkillDamageMultiplier_Light" constant="10.0"/>
+<trait identifier="1879272588" name="The Protector of Song" iconId="1091618504" tierProperty="trait_class_specialization_minstrel_three" nature="28" description="Though the Minstrel cannot specialize in The Protector of Song, it supports allies with powerful buffs, using Anthem skills with great effectiveness.">
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879272589" name="Hands of Healing" iconId="1091564741" tierProperty="trait_class_specialization_captain_two" nature="28" description="Hands of Healing Captains restore the morale of their allies by fighting on the front lines.">
@@ -5209,9 +5193,6 @@
 <trait identifier="1879276053" name="Freedom" iconId="1091840500" nature="30" description="Calls have a chance to trigger the ability to use a single healing skill from another stance.">
 <stat name="Skill_ApplicationMod_Minstrel_HealingUnlock" descriptionOverride="+${PERCENTVALUE} Chance for War-speech Calls and Cry of the Wizards to allow for use of Raise the Spirit, Chord of Salvation or the improved versions of these skills for 10 seconds" constant="10.0"/>
 </trait>
-<trait identifier="1879276054" name="Fierce Cries" iconId="1091840488" nature="30" description="Your Cry and Call damage is increased.">
-<stat name="Skill_CriticalDamageMultiplier_Minstrel_Call" descriptionOverride="+${PERCENTVALUE} to Cry and Call Critical Damage" constant="15.000001"/>
-</trait>
 <trait identifier="1879276055" name="Piercing Calls" iconId="1091840478" nature="30">
 <stat name="Skill_Minstrel_SpecBonus_Resistance_Penetration" descriptionOverride="The chance to resist your Cries and Calls is reduced by 10%" constant="-0.1"/>
 </trait>
@@ -5347,33 +5328,15 @@
 <stat name="BigBattle_Vanguard_Killstreak_Mod_Duration_Stun" descriptionOverride="${VALUE}s Killstreak Stun Duration" scaling="1879282922"/>
 <stat name="BigBattle_Vanguard_Killstreak_Mod_Duration_Pulse" descriptionOverride="${VALUE} Killstreak DoT Pulses" scaling="1879282923"/>
 </trait>
-<trait identifier="1879276377" name="Improved Anthem of the Third Age" iconId="1091840499" nature="30" description="Increases the bonuses offered by Anthem of the Third Age - Melody">
-<stat name="Skill_Minstrel_Anthem_ThirdAge_Melody_EffectMod" descriptionOverride="Damage bonus from Anthem of the Third Age - Melody increased by +${PERCENTVALUE}" constant="5.0"/>
-<stat name="Skill_Minstrel_Anthem_ThirdAge_Melody_IncHealing_EffectMod" descriptionOverride="Incoming Healing bonus from Anthem of the Third Age - Melody increased by +${PERCENTVALUE}" constant="2.5"/>
-</trait>
-<trait identifier="1879276378" name="Improved Call of the Second Age" iconId="1091840502" nature="30" description="Call of the Second Age offers improved bonuses.">
-<stat name="Skill_Minstrel_ImprovedSecondAge" descriptionOverride="${PERCENTVALUE} Induction Duration from Call of the Second Age&#10;${PERCENTVALUE} Attack Duration from Call of the Second Age" constant="-10.0"/>
-</trait>
-<trait identifier="1879276379" name="Gripped by Fear" iconId="1091840487" nature="30">
-<stat name="Skill_Minstrel_Elbereth_Fear_GracePeriod" descriptionOverride="The 'break on damage' Grace Period for Invocation of Elbereth is extended by 3s." constant="3.0"/>
-</trait>
-<trait identifier="1879276380" name="Tale of Tales" iconId="1091451426" nature="30" description="Grants access to Tale of Tales, a powerful Aura which carries different buffs based on what stance you are in."/>
-<trait identifier="1879276382" name="Song of Restoration" iconId="1091840473" nature="30" description="Story of Courage is now a targeted skill, and will remove an additional Poison, Disease, Wound, or Fear in an area around your target."/>
-<trait identifier="1879276383" name="Ascendant Anthem of the Third Age" iconId="1091840496" nature="30" description="Further increases the bonuses offered by Anthem of the Third Age - Melody">
-<stat name="Skill_Minstrel_Anthem_ThirdAge_Melody_EffectMod" descriptionOverride="Damage bonus from Anthem of the Third Age - Melody increased by +${PERCENTVALUE}" constant="5.0"/>
-<stat name="Skill_Minstrel_Anthem_ThirdAge_Melody_IncHealing_EffectMod" descriptionOverride="Incoming Healing bonus from Anthem of the Third Age - Melody increased by +${PERCENTVALUE}" constant="2.5"/>
-</trait>
 <trait identifier="1879276386" name="Chord of Legend" iconId="1091810066" nature="30">
 <stat name="Skill_Minstrel_HealingMultiplier_ChordofSalvation" constant="100.0"/>
 </trait>
-<trait identifier="1879276387" name="Resonant Ballads" iconId="1091840492" nature="30" description="All Ballads increase Outgoing Healing by an extra 3%.">
+<trait identifier="1879276387" name="Resonant Ballads" iconId="1091840492" nature="30" description="All Ballads increase Outgoing Healing by an extra 3% and reduce the cooldown of Cry of the Chorus.">
 <stat name="Skill_PropertyMod_Minstrel_BalladHealingBonus" constant="3.0"/>
+<specialEffect label="Ballads reduce Cry of the Chorus Cooldown"/>
 </trait>
 <trait identifier="1879276388" name="Rally!" iconId="1091840505" nature="30" tooltip="The ways of the elder age are not lost to all races yet, you may bring new inspiration to those whose morale has been entirely depleted, reviving a defeated target in combat." description="The ways of the elder ages are not lost to all races yet. You may bring new inspiration to those whose Morale has been entirely depleted, reviving a defeated ally in combat.">
 <stat name="Skill_Minstrel_IA_Rally_Cooldown" constant="-300.0"/>
-</trait>
-<trait identifier="1879276389" name="Resolute" iconId="1091840481" nature="30" description="Protect yourself so that you may protect others.">
-<stat name="BLOCK" scaling="1879368064"/>
 </trait>
 <trait identifier="1879276391" name="Bolster Our Courage" iconId="1091840499" nature="30" description="A portion of Bolster Courage's heal is also applied to nearby Fellows."/>
 <trait identifier="1879276544" name="Song of Aid" iconId="1091840542" category="7" nature="30" tooltip="Grants access to Song of Aid" description="Grants access to Song of Aid, which gives each member of your fellowship a unique buff based on their class.">
@@ -5534,10 +5497,10 @@
 <trait identifier="1879279165" name="Siege Armour Order Strength" iconId="1091832578" tiers="5" tierProperty="trait_bigbattles_officer_rank_10" nature="29" description="Increases the potency of your siege armour order.">
 <stat name="BigBattle_Officer_Armour_Siege_Impact" scaling="1879279162"/>
 </trait>
-<trait identifier="1879283653" name="Raise Our Spirits" iconId="1090553793" tiers="3" tierProperty="trait_class_minstrel_rank_40" nature="22" description="Raise the Spirit provides a fellowship-wide AoE heal.">
+<trait identifier="1879283653" name="Raise Our Spirits" iconId="1092742792" tiers="4" tierProperty="trait_class_minstrel_rank_41" nature="22" description="Raise the Spirit provides a fellowship-wide AoE heal after a brief delay.">
 <stat name="Skill_Minstrel_RaiseOurSpirits_HoT" scaling="1879369077"/>
 </trait>
-<trait identifier="1879283654" name="Emboldening Finish" iconId="1091830279" tiers="3" tierProperty="trait_class_minstrel_rank_21" nature="22" description="Ballads have a chance to build a stacking enhancement for Coda of Dissonance.&#10;&#10;Each stack will cause Coda of Dissonance to add a +5% damage buff, up to 25%.">
+<trait identifier="1879283654" name="Emboldening Finish" iconId="1091830279" tiers="3" tierProperty="trait_class_minstrel_rank_21" nature="22" description="Ballads have a chance to build a stacking enhancement for Coda of Fury.&#10;&#10;Each stack will cause Coda of Fury to add a +5% damage buff, up to 25%.">
 <stat name="Skill_Minstrel_Emboldening_Finish" scaling="1879283691"/>
 </trait>
 <trait identifier="1879283655" name="Inspiring Finish" iconId="1091840545" tiers="3" tierProperty="trait_class_minstrel_rank_7" nature="22" description="Ballads have a chance to build a stacking enhancement for Coda of Resonance.&#10;&#10;Each stack will cause Coda of Resonance to add 3% Outgoing Healing, up to 15%.">
@@ -5617,7 +5580,7 @@
 <trait identifier="1879290957" name="Broad Sweep" iconId="1091830060" tiers="5" tierProperty="trait_class_champion_rank_19" nature="23" description="Increases the number of Targets for Area Effect Skills.&#10;&#10;At max rank, Swift Strike becomes Swift Blade.">
 <stat name="Skill_Targets_Trait_Champion_ImprovedBladeStormTargets" descriptionOverride="+${VALUE} number of Area Effect targets" scaling="1879290958"/>
 </trait>
-<trait identifier="1879291404" name="Concussive Shout" iconId="1091810063" tierProperty="trait_class_minstrel_rank_17" nature="22" description="Critical Hits with Piercing Cry will stun the target for 5s.">
+<trait identifier="1879291404" name="Concussive Shout" iconId="1091810063" tierProperty="trait_class_minstrel_rank_17" nature="22" description="Significantly increase Critical Chance for all versions of Piercing Cry.">
 <stat name="Skill_Minstrel_PiercingCry_CritChance" constant="30.000002"/>
 </trait>
 <trait identifier="1879292019" name="Heart Seeker" iconId="1091840260" tiers="2" tierProperty="trait_class_hunter_rank_54" nature="21" description="First rank unlocks the Skill Heart Seeker. Second rank increases the duration of the Heartseeker DoT.">
@@ -5635,13 +5598,17 @@
 </trait>
 <trait identifier="1879292070" name="Press Onward" iconId="1091840295" tierProperty="trait_class_hunter_rank_52" nature="21" description="Earns the skill: Press Onward."/>
 <trait identifier="1879295433" name="Tripwire" iconId="1091388957" tierProperty="trait_class_hunter_rank_29" nature="21" description="Earns the skill: Tripwire."/>
-<trait identifier="1879296867" name="Word Spreads" iconId="1091840541" tiers="2" tierProperty="trait_class_minstrel_rank_45" nature="22" description="Each rank increases the amount of maximum targets for Gift of the Hammerhand by 1.">
+<trait identifier="1879296867" name="Word Spreads" iconId="1091840541" tiers="3" tierProperty="trait_class_minstrel_rank_45" nature="22" description="Ranks 1 and 2 increase the number of maximum targets for Gift of the Hammerhand.&#10;&#10;Rank 3 increases single target skill damage of allies protected by any of your bubbles.">
 <stat name="Skill_Minstrel_WordSpreads_MaxTargets" descriptionOverride="-" scaling="1879296865"/>
 <stat name="Skill_Minstrel_WordSpreads_MaxTargets_String" scaling="1879296988"/>
+<stat name="Skill_Minstrel_Bubble_Damage_Buff" descriptionOverride="-" scaling="1879450170"/>
+<stat name="Skill_Minstrel_Bubble_Damage_Buff_Other" descriptionOverride="-" scaling="1879450221"/>
+<stat name="Skill_Minstrel_Bubble_Damage_Buff_Group" descriptionOverride="-" scaling="1879450227"/>
 </trait>
 <trait identifier="1879297055" name="Perfect Performance" iconId="1091840497" tiers="3" tierProperty="trait_class_minstrel_rank_47" nature="22" description="Your ballads provide a portion of their bonuses to your fellowship.">
 <stat name="Skill_Minstrel_Perfect_Performance" descriptionOverride="-" scaling="1879297059"/>
-<stat name="Skill_Minstrel_Perfect_Performance_String" descriptionOverride="Major Ballad gives ${PERCENTVALUE} Outgoing Healing to the fellowship&#10;Minor Ballad gives ${PERCENTVALUE} Tactical Damage to the fellowship&#10;Perfect Ballad reduces the fellowship's skill costs by ${PERCENTVALUE}" scaling="1879297058"/>
+<stat name="Skill_Minstrel_Perfect_Performance_String" descriptionOverride="Major Ballad gives ${PERCENTVALUE} Outgoing Healing&#10;&#10;Minor Ballad gives ${PERCENTVALUE} Tactical Damage&#10;&#10;Perfect Ballad gives ${PERCENTVALUE} Incoming Healing" scaling="1879297058"/>
+<stat name="Skill_Minstrel_Perfect_Performance_Duration" scaling="1879450126"/>
 </trait>
 <trait identifier="1879297578" name="Enough for Everyone" iconId="1091840549" category="50" nature="30" tooltip="Grants the Skill: Share the Power - Fellowship" description="Grants the Skill: Share the Power - Fellowship">
 <skill id="1879238129" name="Share the Power - Fellowship"/>
@@ -6157,7 +6124,7 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="27.0"/>
 </trait>
 <trait identifier="1879326691" name="White Hand Prowler Appearance" iconId="1091978448" category="54" nature="2" tooltip="A different visual appearance for your Warg Stalker: a grey-brown Warg." description="A different visual appearance for your Warg Stalker: a grey-brown Warg.">
-<stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="30.0"/>
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="25.0"/>
 </trait>
 <trait identifier="1879326692" name="Skull-painted Morgul Lieutenant Appearance" iconId="1091978454" category="54" nature="2" tooltip="A different visual appearance for your Uruk Warleader. A pale-skinned Uruk with glowing red eyes wearing plate armour and a helmet painted with a bone-white skull." description="A different visual appearance for your Uruk Warleader. A pale-skinned Uruk with glowing red eyes wearing plate armour and a helmet painted with a bone-white skull.">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="26.0"/>
@@ -7463,7 +7430,7 @@
 <trait identifier="1879449056" name="Morgul Slaughterer Appearance" iconId="1091689672" category="54" nature="2" tooltip="A different visual appearance for your Uruk Blackarrow: a Morgul Slaughterer." description="A different visual appearance for your Uruk Blackarrow: a Morgul Slaughterer.">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="33.0"/>
 </trait>
-<trait identifier="1879449058" name="Black Hairy Spider Appearance" iconId="1091689667" category="54" nature="2" tooltip="A different visual appearance for your Spider Weaver: a large, black, hairy spider." description="A different visual appearance for your Spider Weaver: a large, black, hairy spider.">
+<trait identifier="1879449058" name="Gamnagol Spider Appearance" iconId="1091689667" category="54" nature="2" tooltip="A different visual appearance for your Spider Weaver: a sinister, hairy, black and brown spider." description="A different visual appearance for your Spider Weaver: a sinister, hairy, black and brown spider.">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="32.0"/>
 </trait>
 <trait identifier="1879449063" name="Fire Elemental Spider Appearance" iconId="1091689667" category="54" nature="2" tooltip="A different visual appearance for your Spider Weaver: a large fire elemental spider." description="A different visual appearance for your Spider Weaver: a large fire elemental spider.">
@@ -7508,9 +7475,53 @@
 <trait identifier="1879449085" name="Morgul Chieftain Appearance" iconId="1091689677" category="54" nature="2" tooltip="A different visual appearance for your Uruk Warleader: a Morgul Chieftain." description="A different visual appearance for your Uruk Warleader: a Morgul Chieftain.">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="29.0"/>
 </trait>
+<trait identifier="1879449520" name="Anthem of the Free Peoples" iconId="1092742793" tiers="3" tierProperty="trait_class_minstrel_rank_53" nature="22" description="Earns the skill: Anthem of the Free Peoples.&#10;&#10;Additional ranks improve the Anthem's effects.">
+<stat name="Skill_Minstrel_AnthemFreePeoples_IncHealMod" scaling="1879449298"/>
+<stat name="Skill_Minstrel_AnthemFreePeoples_DamageMod" scaling="1879449314"/>
+</trait>
+<trait identifier="1879449523" name="Song of Restoration" iconId="1091840473" tierProperty="trait_class_minstrel_rank_58" nature="22" description="In addition to the original effects centred on yourself, Story of Courage will remove additional Fear effects in a small area around your target."/>
+<trait identifier="1879449527" name="Anthem of Prowess" iconId="1092742644" tierProperty="trait_class_minstrel_rank_52" nature="22" description="Earns the skill: Greater Anthem III - Prowess."/>
+<trait identifier="1879449528" name="Song of Aid" iconId="1092742645" tierProperty="trait_class_minstrel_rank_59" nature="22" description="Earns the skill: Song of Aid"/>
+<trait identifier="1879449529" name="Anthem of Compassion" iconId="1091451441" tiers="4" tierProperty="trait_class_minstrel_rank_33" nature="22" description="Earns the skill: Greater Anthem I - Compassion.&#10;&#10;Additional ranks will improve the incoming damage reduction from this anthem.">
+<stat name="Skill_Minstrel_AnthemCompassion_DamageReduction" scaling="1879449307"/>
+</trait>
+<trait identifier="1879449531" name="Sharing a Story" iconId="1091840507" tierProperty="trait_class_minstrel_rank_55" nature="22" description="A Critical hit with a Ballad will reset Piercing Cry cooldowns.">
+<specialEffect label="Ballad critical hits will reset the cooldown of all versions of Piercing Cry."/>
+</trait>
+<trait identifier="1879449532" name="Call to Greatness" iconId="1092406909" tierProperty="trait_class_minstrel_rank_57" nature="22" description="Earns the skill: Call to Greatness"/>
+<trait identifier="1879449533" name="Gripped by Fear" iconId="1091840487" tiers="3" tierProperty="trait_class_minstrel_rank_56" nature="22">
+<stat name="Skill_Minstrel_Elbereth_Fear_GracePeriod" descriptionOverride="The 'break on damage' grace period for Invocation of Elbereth is extended by ${VALUE}s." scaling="1879449524"/>
+</trait>
+<trait identifier="1879449580" name="Invigorating Anthems" iconId="1091830287" tiers="5" tierProperty="trait_class_minstrel_rank_60" nature="22" description="Anthems will apply a unique effect to you when used.&#10;&#10;Additional ranks decrease Anthem cooldowns slightly.&#10;&#10;At rank 5, Cry of the Chorus will reset Anthem cooldowns.">
+<stat name="Trait_Minstrel_Anthem_Cooldown" scaling="1879259840"/>
+</trait>
 <trait identifier="1879449806" name="Rivendell War-mount Tail" iconId="1092739413" category="54" nature="16"/>
 <trait identifier="1879449807" name="Rivendell War-mount Caparison" iconId="1092739414" category="54" nature="16"/>
 <trait identifier="1879449809" name="Rivendell War-mount Leg-guards" iconId="1092739412" category="54" nature="16"/>
 <trait identifier="1879449810" name="Rivendell War-mount Head-piece" iconId="1092739415" category="54" nature="16"/>
 <trait identifier="1879449811" name="Rivendell War-mount Saddle" iconId="1092739411" category="54" nature="16"/>
+<trait identifier="1879450228" name="Thunderous Codas" iconId="1091840516" tiers="5" tierProperty="trait_class_minstrel_rank_61" nature="22" description="Adds unique effects to each of your Codas.&#10;&#10;Additional ranks improve inherent Coda buffs.">
+<stat name="Trait_Minstrel_CodaPotency" scaling="1879450220"/>
+<stat name="Itemset_Minstrel_CodaMelody_Anthemreset_Appchance" constant="0.33"/>
+</trait>
+<trait identifier="1879450232" name="Fierce Cries" iconId="1092742794" tierProperty="trait_class_minstrel_rank_62" nature="22" description="Your critical Cry and Call damage is increased.">
+<stat name="Skill_CriticalDamageMultiplier_Minstrel_Call" constant="20.0"/>
+</trait>
+<trait identifier="1879450233" name="Cry of the Valar" iconId="1091840482" category="7" nature="30" tooltip="Grants access to Cry of the Valar" description="Grants access to Cry of the Valar, which deals significant damage to foes.">
+<skill id="1879060868" name="Cry of the Valar"/>
+</trait>
+<trait identifier="1879450234" name="Triumphant Spirit" iconId="1091840477" category="7" nature="30" tooltip="Grants access to Triumphant Spirit" description="Grants access to Triumphant Spirit, which allows you to instantly heal your fellowship.">
+<skill id="1879064204" name="Triumphant Spirit"/>
+</trait>
+<trait identifier="1879451187" name="Double-edged Blades" iconId="1092745486" category="43" nature="3" tooltip="Severing Strike, Sudden Strikes, Ravage, and Devastating Strike gain the ability to tier up the Reckless Melee effect, which greatly increases your damage, but also increases your incoming damage.&#10;&#10;Severing Strike will always tier up Reckless Melee.&#10;Sudden Strikes, Ravage, and Devastating Strike have a small chance to tier up Reckless Melee for each swing of your blades." description="Severing Strike, Sudden Strikes, Ravage, and Devastating Strike gain the ability to tier up the Reckless Melee effect, which greatly increases your damage, but also increases your incoming damage.&#10;&#10;Severing Strike will always tier up Reckless Melee.&#10;Sudden Strikes, Ravage, and Devastating Strike have a small chance to tier up Reckless Melee for each swing of your blades."/>
+<trait identifier="1879452497" name="Flowing Silver Saddle" iconId="1092748432" category="54" nature="16"/>
+<trait identifier="1879452498" name="Leg-guards of the Dúnedain" iconId="1092748435" category="54" nature="16"/>
+<trait identifier="1879452499" name="Flowing Silver Caparison" iconId="1092748436" category="54" nature="16"/>
+<trait identifier="1879452500" name="Caparison of the Dúnedain" iconId="1092748427" category="54" nature="16"/>
+<trait identifier="1879452501" name="Flowing Silver Leg-guards" iconId="1092748429" category="54" nature="16"/>
+<trait identifier="1879452502" name="Flowing Silver Head-piece" iconId="1092748434" category="54" nature="16"/>
+<trait identifier="1879452503" name="Saddle of the Dúnedain" iconId="1092748431" category="54" nature="16"/>
+<trait identifier="1879452504" name="Head-piece of the Dúnedain" iconId="1092748430" category="54" nature="16"/>
+<trait identifier="1879452505" name="Flowing Silver Tail" iconId="1092748433" category="54" nature="16"/>
+<trait identifier="1879452506" name="Accessory of the Dúnedain" iconId="1092748428" category="54" nature="16"/>
 </traits>
