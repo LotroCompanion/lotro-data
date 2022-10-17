@@ -4,7 +4,7 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - titles
 - emotes
 - commons (progressions, colors, factions, stats)
-- character data (races, classes, starts stats, stats derivations, trait points)
+- character data (races, classes, starts stats, stats derivations, trait points, proficiencies)
 - legendary stuff (legacies, legendary titles, passives, traceries)
 - warbands
 - quests, deeds
@@ -41,6 +41,8 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - collections
 - rewards tracks
 - hobbies
+- trait trees: class, mounted combat, big battles
+- skirmish traits directory
 
 In the future, it may contain:
 - travels
