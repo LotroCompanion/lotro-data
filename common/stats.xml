@@ -242,7 +242,7 @@
 <stat id="268437328" name="Focus" key="Skill_Pips_CostMod_Trait_ArrowStorm" type="INTEGER"/>
 <stat id="268437329" name="Miss Chance Improvement" key="Skill_ChanceMiss_Trait_LineuptheSights" isPercentage="true"/>
 <stat id="268437330" name="Challenge Cooldown" key="Skill_RecoveryTime_GuardianChallengeMod"/>
-<stat id="268437331" name="Melee Skills Cooldown" key="Skill_RecoveryTime_Trait_Warshot"/>
+<stat id="268437331" name="Low Cut Cooldown" key="Skill_RecoveryTime_Trait_Warshot"/>
 <stat id="268437332" name="Strike Skill Critical Chance" key="Skill_ChanceCriticalHit_ChampionStrikesMod" isPercentage="true"/>
 <stat id="268437333" name="Improved Banner of War" key="Trait_Captain_ImprovedBannerofWar" type="ARRAY"/>
 <stat id="268437334" name="Captain Improved Courage Trait" key="Trait_Captain_ImprovedCourage" type="ARRAY"/>
@@ -291,7 +291,7 @@
 <stat id="268438237" name="Skill Cooldown" key="Skill_RecoveryTime_BurglarSweepTheKnee"/>
 <stat id="268438238" name="Sting Cooldown" key="Skill_RecoveryTime_GuardianStingMod"/>
 <stat id="268438239" name="Barbed Arrow Induction" key="Skill_InductionDuration_Trait_Fastpull" isPercentage="true"/>
-<stat id="268438240" name="Skill Inductions" key="Skill_InductionDuration_MonsterSkillsMod"/>
+<stat id="268438240" name="Skill Inductions" key="Skill_InductionDuration_MonsterSkillsMod" isPercentage="true"/>
 <stat id="268438241" name="Parry Response Duration Modifier" key="ForwardSource_Skill_Duration_Trait_Guardian_ImprovedParryResponse"/>
 <stat id="268438242" name="Words of Courage, Cries, and Shouts Power Cost" key="Skill_VitalCost_Power_Trait_VoiceofDetermination" isPercentage="true"/>
 <stat id="268438243" name="Anthem Power Cost" key="Skill_VitalCost_SerenadeDefenseMod" isPercentage="true"/>
@@ -479,7 +479,7 @@
 <stat id="268441831" name="Improved Standard of Hope" key="Trait_Captain_ImprovedStandardofHope" type="ARRAY"/>
 <stat id="268441927" name="Captain's Escape Skills Induction Time" key="Skill_InductionDuration_Captain_CombatRezz"/>
 <stat id="268441958" name="Cry of Vengeance Max Targets" key="Skill_Targets_Trait_Captain_CryOfVengeanceTargets" type="INTEGER"/>
-<stat id="268441968" name="Position Surprise Strike from Stealth" key="Skill_DamageMultiplier_EpicSet_Stealth_Suprisestrike" isPercentage="true"/>
+<stat id="268441968" name="Surprise Strike Positional Bonus" key="Skill_DamageMultiplier_EpicSet_Stealth_Suprisestrike" isPercentage="true"/>
 <stat id="268441969" name="Challenge Resistance" key="EpicSet_ResistanceChance_Guardian_Challenge"/>
 <stat id="268441970" name="Skill Cooldown" key="Skill_RecoveryTime_Loremaster_TestofWill"/>
 <stat id="268441971" name="Bracing Attack Avoided Chance Modifier" key="EpicSet_ChanceAvoid_BracingAttack"/>
@@ -934,13 +934,13 @@
 <stat id="268444429" name="Defensive Strike Armour Buff" key="Skill_ArmorBonus_Captain_DefensiveStrike"/>
 <stat id="268444437" name="Trick Range" key="IA_Burglar_Range_Tricks"/>
 <stat id="268444438" name="Lucky and Gambler's Strike Damage" key="IA_Burglar_Recovery_LuckyStrike" isPercentage="true"/>
-<stat id="268444439" name="Coup de Grâce Mark Duration" key="IA_Burglar_Recovery_HideInPlainSight"/>
+<stat id="268444439" name="In-combat Stealth Duration" key="IA_Burglar_Recovery_HideInPlainSight"/>
 <stat id="268444440" name="Surprise Strike Critical Rating" key="IA_Burglar_CriticalHitChance_SupriseStrike"/>
 <stat id="268444441" name="Damaging Gamble Pulses" key="IA_Burglar_PulseCount_DamageGambles" type="INTEGER"/>
 <stat id="268444442" name="Coup de Grâce Damage" key="IA_Burglar_Recovery_ReadyAndAble" isPercentage="true"/>
 <stat id="268444443" name="Critical Response Skill Damage" key="IA_Burglar_Damage_CritResponceSkills" isPercentage="true"/>
 <stat id="268444444" name="Burgle Chance" key="IA_Burglar_Chance_Burgle" isPercentage="true"/>
-<stat id="268444445" name="Sneak Movement Speed" key="IA_Burglar_Movespeed_Sneak" isPercentage="true"/>
+<stat id="268444445" name="Stealth Movement Speed" key="IA_Burglar_Movespeed_Sneak" isPercentage="true"/>
 <stat id="268444446" name="Feint Attack Damage" key="IA_Burglar_Recovery_FeintAttack" isPercentage="true"/>
 <stat id="268444447" name="Debuffing Gamble Payout Duration" key="IA_Burglar_Duration_DebuffGambles"/>
 <stat id="268444448" name="Specialization Skill Critical Buff Duration" key="IA_Burglar_BuffDuration_GambleExtremeCrit"/>
@@ -1798,7 +1798,7 @@
 <stat id="268451193" name="Reputation Modifier" key="Reputation_Faction_Increase_Mod_Defeat" isPercentage="true"/>
 <stat id="268451195" name="Echoes of Battle Damage" key="Skill_Minstrel_DamageMod_ImprovedEchoesofBattle" isPercentage="true"/>
 <stat id="268451196" name="Anthem Duration" key="Skill_Duration_EmpoweredAnthemDurationIncrease_BaseDuration_10s"/>
-<stat id="268451197" name="Dissonance Cry and Call Damage" key="Skill_Minstrel_DamageMultiplier_WarspeechCalls" isPercentage="true"/>
+<stat id="268451197" name="Cry and Call Damage" key="Skill_Minstrel_DamageMultiplier_WarspeechCalls" isPercentage="true"/>
 <stat id="268451206" name="Ballad Healing Bonus" key="Skill_PropertyMod_Minstrel_BalladHealingBonus_Tier2" isPercentage="true"/>
 <stat id="268451207" name="Ballad Healing Bonus" key="Skill_PropertyMod_Minstrel_BalladHealingBonus_Tier3" isPercentage="true"/>
 <stat id="268451208" name="Damage Bonus for Quiet Knife" key="Trait_Burglar_QuietKnife_Add" isPercentage="true"/>
@@ -1997,7 +1997,7 @@
 <stat id="268452134" name="Trick Cooldown" key="Burglar_Skill_RecoveryTime_AllTricks"/>
 <stat id="268452135" name="Cunning Attack Critical Chance" key="Skill_CriticalHitChance_CunningAttack" isPercentage="true"/>
 <stat id="268452136" name="Deep Strikes" key="Trait_Champion_DeepStrikes_NoDesc" type="ARRAY"/>
-<stat id="268452150" name="Max Morale from Warrior's Heart/Fortitude" key="Skill_Guardian_WarriorHeart_MaxMorale" isPercentage="true"/>
+<stat id="268452150" name="Max Morale from Warrior's Heart" key="Skill_Guardian_WarriorHeart_MaxMorale" isPercentage="true"/>
 <stat id="268452156" name="Critical Healing Magnitude" key="Trait_Minstrel_Healing_CriticalMod" isPercentage="true"/>
 <stat id="268452158" name="Effect override" key="Trait_Runekeeper_EssayCooldown" type="ARRAY"/>
 <stat id="268452159" name="Reset Hunter's Art" key="Trait_Hunter_ResetHuntersArt" type="ARRAY"/>
@@ -2718,7 +2718,7 @@
 <stat id="268456015" name="Class Skill Damage Over Time Pulses (Medium Steed)" key="IA_Mounted_Medium_Bleed_Duration" type="INTEGER"/>
 <stat id="268456016" name="'Wrath' Critical Chance (Light Steed)" key="IA_Mounted_Wrath_Critical_Chance" isPercentage="true"/>
 <stat id="268456017" name="'Spears Will Be Shaken' Critical Chance (Heavy Steed)" key="IA_Mounted_SpearsWillBeShaken_Crit_Chance" isPercentage="true"/>
-<stat id="268456021" name="DoT Pulse Count" key="Skill_MC_Runekeeper_Pulses" isPercentage="true" type="INTEGER"/>
+<stat id="268456021" name="DoT Pulse Count" key="Skill_MC_Runekeeper_Pulses" type="INTEGER"/>
 <stat id="268456022" name="Mounted Speed while using Trick: Stratagem" key="IA_Burglar_Stratagem_Movement" isPercentage="true"/>
 <stat id="268456024" name="Morale-tap AoT Skills" key="Trait_PulseCount_Warden_Lifetap" type="INTEGER"/>
 <stat id="268456026" name="Staggering Slash effect magnitude" key="IA_Guardian_Magnitude_StaggeringSlash" isPercentage="true"/>
@@ -2965,7 +2965,7 @@
 <stat id="268457684" name="DoT Critical Damage" key="Skill_Warden_DeepWounds_CritDamage" isPercentage="true"/>
 <stat id="268457685" name="Pet Critical Chance and Damage" key="Skill_Loremaster_PetCrit" isPercentage="true"/>
 <stat id="268457686" name="Chance to apply 2 stacks of Burning Embers at once" key="Skill_Loremaster_DryKindling_AppChance" isPercentage="true"/>
-<stat id="268457687" name="Fire Damage Buff" key="Skill_Loremaster_InnerFlame_BuffMod" isPercentage="true"/>
+<stat id="268457687" name="Fire &amp; Lightning Damage Buff" key="Skill_Loremaster_InnerFlame_BuffMod" isPercentage="true"/>
 <stat id="268457688" name="Pet Attack Duration" key="Skill_Loremaster_SignofRage_AttackDuration" isPercentage="true"/>
 <stat id="268457689" name="Ring of Fire Avoidance Debuffs" key="Skill_Loremaster_RingofFire_AvoidanceMod" isPercentage="true"/>
 <stat id="268457690" name="Power Restored" key="Skill_Loremaster_EmpoweringFires_PowerMod" isPercentage="true"/>
@@ -3689,7 +3689,7 @@
 <stat id="268459502" name="Shield Builder Bonuses - User" key="Trait_Warden_Specialization_ShieldBonus_User" type="ARRAY"/>
 <stat id="268459503" name="Fist Builder Bonuses - User" key="Trait_Warden_Specialization_FistBonus_User" type="ARRAY"/>
 <stat id="268459505" name="Officer Rank 6 Banner Heal Activated" key="BigBattle_OfficerBannerCanHeal" type="BOOLEAN"/>
-<stat id="268459513" name="Inspiring - Emboldening - Bracing Finish Tierup" key="Trait_Minstrel_Finish_Tierup" type="ARRAY"/>
+<stat id="268459513" name="DNT Inspiring Finish Tierup" key="Trait_Minstrel_Finish_Tierup" type="ARRAY"/>
 <stat id="268459519" name="AIPuppet Target Flags" key="AIPuppet_TargetFlags_Enchantable" type="BITFIELD"/>
 <stat id="268459529" name="DNT - Triple Trap Override" key="Trait_Hunter_MasterTrapper_TripleTrapA" type="ARRAY"/>
 <stat id="268459530" name="DNT - Triple Trap Override" key="Trait_Hunter_MasterTrapper_TripleTrapB" type="ARRAY"/>
@@ -3982,7 +3982,7 @@
 <stat id="268460613" name="Recklessness Critical Rating Buff" key="Skill_Warden_IA_Recklessness_CriticalRating" isPercentage="true"/>
 <stat id="268460615" name="Persevere Block Rating" key="Skill_Warden_IA_Persevere_BlockRating"/>
 <stat id="268460616" name="Adroit Manoeuvre Damage" key="Skill_Warden_IA_AdroitManoeuvre_Damage" isPercentage="true"/>
-<stat id="268460617" name="Careful Step Movement Speed Penalty" key="Skill_Warden_IA_CarefulStep_MovementSpeed" isPercentage="true"/>
+<stat id="268460617" name="Careful Step Movement Speed" key="Skill_Warden_IA_CarefulStep_MovementSpeed" isPercentage="true"/>
 <stat id="268460618" name="Ambush Critical Chance" key="Skill_Warden_IA_Ambush_CritRating" isPercentage="true"/>
 <stat id="268460619" name="Fist Gambit Skill Damage" key="Skill_Warden_IA_FistGambit_Damage" isPercentage="true"/>
 <stat id="268460620" name="Staff-strike Damage" key="Skill_Loremaster_IA_StaffStrike_Damage" isPercentage="true"/>
@@ -4308,7 +4308,7 @@
 <stat id="268462775" name="DNT - Brawler Pip Change Mod" key="Skill_Brawler_Spender_PipChangeMod" type="INTEGER"/>
 <stat id="268462776" name="DNT - Efficient Strikes Duration" key="Skill_Brawler_EfficientStrikes_DurationMod"/>
 <stat id="268462777" name="Melee Damage from Trail Food" key="Skill_brawler_WellFed_TrailFood_BonusMod" isPercentage="true"/>
-<stat id="268462783" name="Cooked Food Bonus" key="Skill_brawler_WellFed_CookedFood_BonusMod" isPercentage="true"/>
+<stat id="268462783" name="Incoming Healing from Cooked Food" key="Skill_brawler_WellFed_CookedFood_BonusMod" isPercentage="true"/>
 <stat id="268462784" name="Lightning Skills Critical Damage" key="Skill_Loremaster_CriticalDamageMult_LightningSkills" isPercentage="true"/>
 <stat id="268462785" name="Wizard's Fire Critical Chance" key="IA_Loremaster_WizardFire_CriticalChance" isPercentage="true"/>
 <stat id="268462787" name="Mettle Shield Defence" key="Skill_Brawler_MettleShield_IncomingDamageMod" isPercentage="true"/>
@@ -4430,8 +4430,8 @@
 <stat id="268463188" name="Guarded Attack Damage" key="Skill_Beorning_Guarded_DamageMod" isPercentage="true"/>
 <stat id="268463205" name="DNT - Kindred Flame" key="Trait_Loremaster_InnerFlame_KindredFlame_Pet" type="ARRAY"/>
 <stat id="268463206" name="DNT - Kindred Flame" key="Trait_Loremaster_InnerFlame_KindredFlame_Pet_NoChannel" type="ARRAY"/>
-<stat id="268463211" name="Discount at all stable-masters within TBD." key="Discount_Travel_Cardoswan" isPercentage="true"/>
-<stat id="268463212" name="Discount at all vendors within TBD." key="Discount_Cardoswan" isPercentage="true"/>
+<stat id="268463211" name="Discount at all Dúnedain of Cardolan stable-masters." key="Discount_Travel_Cardoswan" isPercentage="true"/>
+<stat id="268463212" name="Discount at all Dúnedain of Cardolan vendors." key="Discount_Cardoswan" isPercentage="true"/>
 <stat id="268463228" name="DNT - Adds pips when taunting" key="Trait_Brawler_TauntPips" type="ARRAY"/>
 <stat id="268463234" name="Incoming Healing" key="Skill_Minstrel_AnthemFreePeoples_IncHealMod" isPercentage="true"/>
 <stat id="268463235" name="Incoming Damage" key="Skill_Minstrel_AnthemCompassion_DamageReduction" isPercentage="true"/>
@@ -4448,7 +4448,7 @@
 <stat id="268463285" name="Chance for Coda of Melody to reset Anthem Cooldowns" key="Itemset_Minstrel_CodaMelody_Anthemreset_Appchance" isPercentage="true"/>
 <stat id="268463403" name="Damage over Time Potency" key="EffectMod_DoTDamage_MP" isPercentage="true"/>
 <stat id="268463404" name="Lacerate and Mutilation Bleed Damage" key="EffectMod_BleedDamage_MP_JaggedCut" isPercentage="true"/>
-<stat id="268463418" name="Some skills have a chance to tier up the Rechless Melee Effect" key="Skill_Reaver_RecklessMelee" type="ARRAY"/>
+<stat id="268463418" name="Some skills have a chance to tier up the Reckless Melee Effect" key="Skill_Reaver_RecklessMelee" type="ARRAY"/>
 <stat id="268463420" name="Invigorating Corruption Application Chance" key="EffectMod_Invigorating_Appchance" isPercentage="true"/>
 <stat id="268463453" name="Skill Damage" key="Skill_Reaver_DevastatingStrike_Bonus" isPercentage="true"/>
 <stat id="268463454" name="Dying Rage Recovery" key="Skill_RecoveryTime_Orc_DyingRage"/>
@@ -4460,9 +4460,35 @@
 <stat id="268463462" name="Increased Critical Chance for Tear and Snap attacks" key="Skill_CiritcalBonus_Snip"/>
 <stat id="268463463" name="Upperhand Recovery" key="Skill_RecoveryTime_Reaver_UpperHand_Appchance"/>
 <stat id="268463469" name="Wallet Barter Tokens: Landscape through Western Gondor" key="BarterWallet_BonusMultiplierU34Ultimate" isPercentage="true"/>
+<stat id="268463478" name="Bee Swarm Critical Defence Debuff" key="Trait_Beorning_BeeSwarm_CritDef_Debuff" type="ARRAY"/>
 <stat id="268463480" name="Cry of the Chorus Cooldown" key="Trait_Minstrel_Ballad_CotC_CooldownMod" type="ARRAY"/>
 <stat id="268463481" name="Cry of the Chorus Anthem Reset" key="Trait_Minstrel_CotC_Anthem_Reset" type="ARRAY"/>
 <stat id="268463488" name="Slick Flesh Dispel Count" key="Skill_Defiler_Slickflesh_Dispelcount"/>
 <stat id="268463489" name="Offensive Skill Inductions" key="Skill_EffectMod_Defiler_SlowPotency"/>
 <stat id="268463490" name="Tiers up Reckless Melee" key="Skill_Reaver_RecklessMeleeGuaranteed" type="ARRAY"/>
+<stat id="268463540" name="Provoke Cooldown" key="Skill_RecoveryTime_Provoke"/>
+<stat id="268463542" name="DNT -  Replace SoD Effect with 80% reduction" key="EssenceEffect_Captain_ImpShield" type="ARRAY"/>
+<stat id="268463553" name="Fellowship's Heart Cooldown" key="EssenceEffect_Minstrel_FH_Cooldown"/>
+<stat id="268463554" name="DNT - Add Mitigations to TS effect" key="EssenceEffect_Minstrel_TS_Mitigations" type="ARRAY"/>
+<stat id="268463555" name="Fellowship's Heart Healing" key="EssenceEffect_Minstrel_FH_Healing" isPercentage="true"/>
+<stat id="268463556" name="DNT - Catmint Duration" key="Loremaster_Enfeeble_Duration"/>
+<stat id="268463557" name="DNT - Retaliation self-debuff" key="Essence_Guardian_Retaliation_Self" type="ARRAY"/>
+<stat id="268463558" name="DNT - Retaliation debuff" key="Essence_Guardian_Retaliation_Target" type="ARRAY"/>
+<stat id="268463559" name="DNT - Sting crits give a parry event." key="Essence_Guardian_StingCrit_Parry" type="ARRAY"/>
+<stat id="268463560" name="DNT - Steady Hands Mitigation" key="Essence_Runekeeper_Steadyhands_Mitigation" type="ARRAY"/>
+<stat id="268463561" name="Physical Mitigation from Shield Mastery and Tactical Mitigation from Shield Tactics" key="Essence_Warden_ShieldMitigation" isPercentage="true"/>
+<stat id="268463562" name="Bonus Mettle from Set-up Skills" key="Skill_Brawler_Builder_PipChangeMod" type="INTEGER"/>
+<stat id="268463563" name="DNT - Plant Feet Short Override" key="Essence_PlantFeet_Short_Override" type="ARRAY"/>
+<stat id="268463564" name="DNT - Efficient Strikes Makes Mettle Shield 1 Mettle per hit" key="Essence_EfficientStrikes_MettleShield" type="ARRAY"/>
+<stat id="268463570" name="Masochism Damage buff" key="Effect_Champion_Masochism_Damage" isPercentage="true"/>
+<stat id="268463571" name="Masochism Mitigation buff" key="Effect_Champion_Masochism_Mitigation" isPercentage="true"/>
+<stat id="268463572" name="Blood Arrow Damage" key="Skill_Hunter_BloodArrow_Damage" isPercentage="true"/>
+<stat id="268463573" name="Blood Arrow Initial Heal" key="Skill_Hunter_BloodArrowHeal" isPercentage="true"/>
+<stat id="268463574" name="Blood Arrow Power Cost" key="Skill_BloodArrow_Hunter_PowerCost" isPercentage="true"/>
+<stat id="268463575" name="Rapidfire Barrage" key="Essence_Hunter_LowCut_Mitigation" type="ARRAY"/>
+<stat id="268463580" name="DNT - Adds a bonus effect to RW" key="Trait_Burglar_RevealWeaknessEffect_Yellow" type="ARRAY"/>
+<stat id="268463581" name="DNT - Adds a bonus effect to RW" key="Trait_Burglar_RevealWeaknessEffect_Blue" type="ARRAY"/>
+<stat id="268463582" name="DNT - Adds a bonus effect to RW" key="Trait_Burglar_RevealWeaknessEffect_Red" type="ARRAY"/>
+<stat id="268463587" name="DNT - Emboldening Finish Tierup" key="Trait_Minstrel_Finish_Tierup2" type="ARRAY"/>
+<stat id="268463588" name="Initial Skill Damage" key="Skill_Creep_DamageMod" isPercentage="true"/>
 </stats>

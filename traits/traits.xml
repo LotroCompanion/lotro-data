@@ -384,7 +384,6 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" scaling="1879063900"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" scaling="1879063901"/>
 <stat name="Combat_OutgoingHeals_EffectMod" scaling="1879086283"/>
-<stat name="CRITICAL_RATING" scaling="1879412869"/>
 </trait>
 <trait identifier="1879063893" name="Health" iconId="0" tiers="16" tierProperty="Trait_MP_Virtue_Core_Rank_Health" category="44" nature="1" tooltip="Increases your maximum health" description="Increases your maximum health">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="Increases your total health by ${PERCENTVALUE}." scaling="1879063903"/>
@@ -439,11 +438,11 @@
 <stat name="POWER" operator="MULTIPLY" descriptionOverride="+${PERCENTVALUE} Maximum Power." constant="1.1"/>
 </trait>
 <trait identifier="1879072426" name="Resistance Boost" iconId="1090553258" category="43" nature="3" tooltip="Increases resistance rating" description="Increases resistance rating">
-<stat name="RESISTANCE" scaling="1879381723"/>
+<stat name="RESISTANCE" scaling="1879456314"/>
 </trait>
 <trait identifier="1879072427" name="Quick Strikes" iconId="1090553259" category="43" nature="3" tooltip="Decreases attack duration and increases Finesse" description="Decreases attack duration and increases Finesse">
 <stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
-<stat name="FINESSE" scaling="1879367857"/>
+<stat name="FINESSE" scaling="1879456275"/>
 </trait>
 <trait identifier="1879072428" name="Burning Blades" iconId="1090553260" category="43" nature="3" tooltip="When using Burning Blades, all damage skills will do Fire damage." description="When using Burning Blades, all damage skills will do Fire damage."/>
 <trait identifier="1879072429" name="Enhanced Skill: Jagged Cut" iconId="1090553261" category="43" nature="3" tooltip="Enables your Jagged Cut skill to cause damage over time on your targets, and improves the bleeds from Lacerate and Mutilation." description="Enables your Jagged Cut skill to cause damage over time on your targets, and improves the bleeds from Lacerate and Mutilation.">
@@ -483,10 +482,10 @@
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="+${PERCENTVALUE} Maximum Health." constant="1.1"/>
 </trait>
 <trait identifier="1879072442" name="Armour Boost" iconId="1090553275" category="43" nature="3" tooltip="Increases armour value" description="Increases armour value">
-<stat name="Combat_Agent_Armor_Value_Float" scaling="1879449983"/>
+<stat name="Combat_Agent_Armor_Value_Float" scaling="1879456305"/>
 </trait>
 <trait identifier="1879072443" name="Regeneration" iconId="1090553276" category="43" nature="3" tooltip="Increases in-combat health regeneration" description="Increases in-combat health regeneration">
-<stat name="ICMR" scaling="1879399430"/>
+<stat name="ICMR" scaling="1879456301"/>
 </trait>
 <trait identifier="1879072444" name="Swift Weave" iconId="1090553277" category="43" nature="3" tooltip="Shortens the induction time of your web attacks.&#10;&#10;&lt;rgb=#99FF33&gt;-.25s Web Skill Inductions&lt;/rgb&gt;" description="Shortens the induction time of your web attacks.&#10;&#10;&lt;rgb=#99FF33&gt;-.25s Web Skill Inductions&lt;/rgb&gt;">
 <stat name="Skill_InductionDuration_Trait_MP_FastBow" operator="SUBSTRACT" constant="0.25"/>
@@ -523,19 +522,18 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="6.0"/>
 </trait>
 <trait identifier="1879072457" name="Avoidance Boost" iconId="1090553291" category="43" nature="3" tooltip="Increases parry, evade, and block rating" description="Increases parry, evade, and block rating">
-<stat name="PARRY" scaling="1879399376"/>
-<stat name="EVADE" scaling="1879399362"/>
-<stat name="BLOCK" scaling="1879399378"/>
+<stat name="PARRY" scaling="1879456296"/>
+<stat name="EVADE" scaling="1879456291"/>
 </trait>
 <trait identifier="1879072458" name="Resistance Boost" iconId="1090553258" category="43" nature="3" tooltip="Increases resistance rating" description="Increases resistance rating">
-<stat name="RESISTANCE" scaling="1879381723"/>
+<stat name="RESISTANCE" scaling="1879456314"/>
 </trait>
 <trait identifier="1879072459" name="Deadly Aim" iconId="1090553292" category="43" nature="3" tooltip="Increases ranged critical rating and finesse" description="Increases ranged critical rating and finesse">
-<stat name="CRITICAL_RATING" scaling="1879381473"/>
-<stat name="FINESSE" scaling="1879367861"/>
+<stat name="CRITICAL_RATING" scaling="1879456299"/>
+<stat name="FINESSE" scaling="1879456280"/>
 </trait>
 <trait identifier="1879072460" name="Uncanny Reactions" iconId="1090553293" category="43" nature="3" tooltip="Increases your evade rating" description="Increases your evade rating">
-<stat name="EVADE" scaling="1879124385"/>
+<stat name="EVADE" scaling="1879456291"/>
 </trait>
 <trait identifier="1879072461" name="Enhanced Skill: Hindering Shot" iconId="1090553294" category="43" nature="3" tooltip="Increases the duration of your Hindering Shot" description="Increases the duration of your Hindering Shot">
 <stat name="EffectMod_Duration_Trait_MP_Hinderingshot" constant="7.0"/>
@@ -575,16 +573,16 @@
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="25.0"/>
 </trait>
 <trait identifier="1879072474" name="Avoidance Boost" iconId="1090553291" category="43" nature="3" tooltip="Increases parry, evade, and block rating" description="Increases parry, evade, and block rating">
-<stat name="PARRY" scaling="1879399376"/>
-<stat name="EVADE" scaling="1879399362"/>
-<stat name="BLOCK" scaling="1879399378"/>
+<stat name="PARRY" scaling="1879456296"/>
+<stat name="EVADE" scaling="1879456298"/>
+<stat name="BLOCK" scaling="1879456312"/>
 </trait>
 <trait identifier="1879072475" name="Empowering" iconId="1090553308" category="43" nature="3" tooltip="Increases in-combat power regeneration and Tactical Mastery" description="Increases Resistance and Tactical Mastery">
-<stat name="RESISTANCE" scaling="1879412735"/>
-<stat name="TACTICAL_MASTERY" scaling="1879412738"/>
+<stat name="RESISTANCE" scaling="1879456292"/>
+<stat name="TACTICAL_MASTERY" scaling="1879456283"/>
 </trait>
 <trait identifier="1879072476" name="Shield Mastery" iconId="1090553309" category="43" nature="3" tooltip="Improves Shield Bash and increases Block Rating" description="Improves Shield Bash and increases Block Rating">
-<stat name="BLOCK" scaling="1879368068"/>
+<stat name="BLOCK" scaling="1879456312"/>
 <stat name="Skill_ChanceCriticalHit_Trait_MP_FromStealth" descriptionOverride="+25% Shield Bash Critical Chance" constant="25.0"/>
 <stat name="Skill_DamageMultiplier_WildAttack" descriptionOverride="+${PERCENTVALUE} Shield Bash Damage" constant="50.0"/>
 </trait>
@@ -705,29 +703,23 @@
 </trait>
 <trait identifier="1879072512" name="Tactical Mitigation Boost 1" iconId="1091478100" category="20" nature="5" tooltip="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating." description="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating.">
 <stat name="TACTICAL_MITIGATION" scaling="1879412736"/>
-<stat name="RESISTANCE" scaling="1879412735"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879456450"/>
 </trait>
 <trait identifier="1879072513" name="Tactical Mitigation Boost 6" iconId="1091478100" category="20" nature="5" tooltip="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating." description="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating.">
 <stat name="TACTICAL_MITIGATION" scaling="1879412736"/>
-<stat name="RESISTANCE" scaling="1879412735"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879456450"/>
 </trait>
 <trait identifier="1879072514" name="Physical Mitigation Boost 1" iconId="1090553344" category="20" nature="5" tooltip="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating." description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
 <stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
-<stat name="Combat_Class_BlockPoints" scaling="1879412846"/>
-<stat name="Combat_Class_ParryPoints" scaling="1879412848"/>
-<stat name="Combat_Class_EvadePoints" scaling="1879412847"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879456451"/>
 </trait>
 <trait identifier="1879072515" name="Physical Mitigation Boost 5" iconId="1090553344" category="20" nature="5" tooltip="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating." description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
 <stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
-<stat name="Combat_Class_BlockPoints" scaling="1879412846"/>
-<stat name="Combat_Class_ParryPoints" scaling="1879412848"/>
-<stat name="Combat_Class_EvadePoints" scaling="1879412847"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879456451"/>
 </trait>
 <trait identifier="1879072516" name="Physical Mitigation Boost 4" iconId="1090553344" category="20" nature="5" tooltip="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating." description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
 <stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
-<stat name="Combat_Class_BlockPoints" scaling="1879412846"/>
-<stat name="Combat_Class_ParryPoints" scaling="1879412848"/>
-<stat name="Combat_Class_EvadePoints" scaling="1879412847"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879456451"/>
 </trait>
 <trait identifier="1879072517" name="Resistance Boost 1" iconId="1090553346" category="20" nature="5" tooltip="Resistance Boosts allow you to increase your Resistance Ratings." description="Resistance Boosts allow you to increase your Resistance Ratings.">
 <stat name="RESISTANCE" scaling="1879412735"/>
@@ -1019,7 +1011,7 @@
 <stat name="Effect_Self_Revive_Cooldown" descriptionOverride="Increases duration of Revived effect to 2 hours." constant="3600.0"/>
 </trait>
 <trait identifier="1879084077" name="Armour Boost" iconId="1090553275" category="43" nature="3" tooltip="Increase armour rating." description="Increase armour rating.">
-<stat name="Combat_Agent_Armor_Value_Float" scaling="1879132197"/>
+<stat name="Combat_Agent_Armor_Value_Float" scaling="1879456305"/>
 </trait>
 <trait identifier="1879084079" name="Bear-masked Tarkrîp Appearance" iconId="1091462232" category="54" nature="2" tooltip="A different visual appearance for your Orc Defiler. A red-skinned Orc wearing a brown leather tunic." description="A different visual appearance for your Orc Defiler. A red-skinned Orc wearing a brown leather tunic.">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="5.0"/>
@@ -1112,9 +1104,7 @@
 </trait>
 <trait identifier="1879091357" name="Physical Mitigation Boost 6" iconId="1090553344" category="20" nature="5" tooltip="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating." description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
 <stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
-<stat name="Combat_Class_BlockPoints" scaling="1879412846"/>
-<stat name="Combat_Class_ParryPoints" scaling="1879412848"/>
-<stat name="Combat_Class_EvadePoints" scaling="1879412847"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879456451"/>
 </trait>
 <trait identifier="1879091358" name="Critical Protection Boost 3" iconId="1091637773" category="20" nature="5" tooltip="Corruption protection traits allow you to reduce the chances that you will be hit with critical and devastating attacks." description="Corruption protection traits allow you to reduce the chances that you will be hit with critical and devastating attacks.">
 <stat name="CRITICAL_DEFENCE" scaling="1879412741"/>
@@ -1124,11 +1114,11 @@
 </trait>
 <trait identifier="1879091360" name="Tactical Mitigation Boost 5" iconId="1091478100" category="20" nature="5" tooltip="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating." description="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating.">
 <stat name="TACTICAL_MITIGATION" scaling="1879412736"/>
-<stat name="RESISTANCE" scaling="1879412735"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879456450"/>
 </trait>
 <trait identifier="1879091361" name="Tactical Mitigation Boost 4" iconId="1091478100" category="20" nature="5" tooltip="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating." description="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating.">
 <stat name="TACTICAL_MITIGATION" scaling="1879412736"/>
-<stat name="RESISTANCE" scaling="1879412735"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879456450"/>
 </trait>
 <trait identifier="1879091362" name="Mastery Boost 3" iconId="1091637772" category="20" nature="5" tooltip="Mastery Boosts allow you to increase your Physical and Tactical Mastery Ratings." description="Mastery Boosts allow you to increase your Physical and Tactical Mastery Ratings.">
 <stat name="TACTICAL_MASTERY" scaling="1879412738"/>
@@ -1175,87 +1165,88 @@
 <trait identifier="1879097468" name="Basic Cowbell Use" iconId="1091401282" category="32" nature="1" cosmetic="true" tooltip="Allows the use of Cowbells." description="Allows the use of Cowbells."/>
 <trait identifier="1879097470" name="Moor Cowbell Use" iconId="1091401286" category="32" nature="1" cosmetic="true" tooltip="Allows the use of advanced Cowbells." description="Allows the use of special Moor Cowbells."/>
 <trait identifier="1879097831" name="Front-line Fodder" iconId="1091417955" category="103" nature="4" tooltip="Increases parry, evade, and block rating" description="Increases parry, evade, and block rating">
-<stat name="PARRY" scaling="1879368420"/>
-<stat name="EVADE" scaling="1879368426"/>
-<stat name="BLOCK" scaling="1879368068"/>
+<stat name="PARRY" scaling="1879456296"/>
+<stat name="EVADE" scaling="1879456291"/>
+<stat name="BLOCK" scaling="1879456316"/>
 </trait>
 <trait identifier="1879097832" name="Rage of the Misbegotten" iconId="1091417956" category="103" nature="4" tooltip="Increases melee critical rating and maximum health" description="Increases melee critical rating and maximum health">
-<stat name="CRITICAL_RATING" scaling="1879381485"/>
+<stat name="CRITICAL_RATING" scaling="1879456299"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="+${PERCENTVALUE} Maximum Health" constant="1.1"/>
 </trait>
 <trait identifier="1879097833" name="Warrior Against the Deep" iconId="1091417957" category="103" nature="4" tooltip="Increases Tactical Mitigation and Stealth Detection" description="Increases Tactical Mitigation and Stealth Detection">
-<stat name="TACTICAL_MITIGATION" scaling="1879399425"/>
-<stat name="Stealth_StealthDetectionLevelModifier" constant="2.0"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879456286"/>
+<stat name="Stealth_StealthDetectionLevelModifier" constant="3.0"/>
 </trait>
 <trait identifier="1879097834" name="Tireless Warrior" iconId="1091417958" category="103" nature="4" tooltip="Increases in-combat health and power regeneration" description="Increases in-combat health and power regeneration">
-<stat name="ICMR" descriptionOverride="+${VALUE} in-Combat Health Regen" scaling="1879399430"/>
-<stat name="ICPR" descriptionOverride="+${VALUE} in-Combat Power Regen" scaling="1879399365"/>
+<stat name="ICMR" descriptionOverride="+${VALUE} in-Combat Health Regen" scaling="1879456301"/>
+<stat name="ICPR" descriptionOverride="+${VALUE} in-Combat Power Regen" scaling="1879456290"/>
 </trait>
 <trait identifier="1879097835" name="Flayer of Flesh" iconId="1091417959" category="103" nature="4" tooltip="Increases Critical Rating, Physical Mastery, and Tactical Mastery" description="Increases Critical Rating, Physical Mastery, and Tactical Mastery">
-<stat name="CRITICAL_RATING" scaling="1879381473"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879399456"/>
-<stat name="TACTICAL_MASTERY" scaling="1879412872"/>
+<stat name="CRITICAL_RATING" scaling="1879456315"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879456317"/>
+<stat name="TACTICAL_MASTERY" scaling="1879456306"/>
 </trait>
 <trait identifier="1879097836" name="Eight-legged Foe" iconId="1091417881" category="103" nature="4" tooltip="Increases movement speed and granting immunity to falling injuries." description="Increases movement speed and granting immunity to falling injuries.">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
 </trait>
 <trait identifier="1879097837" name="Swallower of Light" iconId="1091417882" category="103" nature="4" tooltip="Increases Tactical Mitigation. Increases stealth level" description="Increases Tactical Mitigation. Increases stealth level">
-<stat name="TACTICAL_MITIGATION" scaling="1879399424"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879456286"/>
 <stat name="STEALTH_LEVEL" constant="3.0"/>
 </trait>
 <trait identifier="1879097838" name="Ancient as the Stars" iconId="1091417883" category="103" nature="4" tooltip="Increases Physical Mitigation and Critical Defence." description="Increases Physical Mitigation and Critical Defence.">
-<stat name="PHYSICAL_MITIGATION" scaling="1879399483"/>
-<stat name="CRITICAL_DEFENCE" scaling="1879368457"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879456300"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879456302"/>
 </trait>
-<trait identifier="1879097839" name="Enemies of the First Children" iconId="1091417884" category="103" nature="4" tooltip="Increases Critical Rating and Physical Mastery" description="Increases Critical Rating and Physical Mastery">
-<stat name="CRITICAL_RATING" scaling="1879381473"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879399456"/>
+<trait identifier="1879097839" name="Enemies of the First Children" iconId="1091417884" category="103" nature="4" tooltip="Increases Critical Rating, Physical Mastery, and Tactical Mastery" description="Increases Critical Rating, Physical Mastery, and Tactical Mastery">
+<stat name="CRITICAL_RATING" scaling="1879456299"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879456293"/>
+<stat name="TACTICAL_MASTERY" scaling="1879456283"/>
 </trait>
 <trait identifier="1879097840" name="Drinker of Blood" iconId="1091417885" category="103" nature="4" tooltip="Increases in-combat health and power regeneration" description="Increases in-combat health and power regeneration">
-<stat name="ICMR" scaling="1879399453"/>
-<stat name="ICPR" scaling="1879399366"/>
+<stat name="ICMR" scaling="1879456309"/>
+<stat name="ICPR" scaling="1879456311"/>
 </trait>
 <trait identifier="1879097841" name="New Breed" iconId="1091418011" category="103" nature="4" tooltip="Increases armour value, maximum health, and maximum power" description="Increases armour value, maximum health, and maximum power">
-<stat name="Combat_Agent_Armor_Value_Float" scaling="1879449983"/>
+<stat name="Combat_Agent_Armor_Value_Float" scaling="1879456305"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="+${PERCENTVALUE} Maximum Health" constant="1.1"/>
 <stat name="POWER" operator="MULTIPLY" descriptionOverride="+${PERCENTVALUE} Maximum Power" constant="1.05"/>
 </trait>
 <trait identifier="1879097842" name="Leaders of the Orcs" iconId="1091418012" category="103" nature="4" tooltip="Increases Physical and Tactical Mastery" description="Increases Physical and Tactical Mastery">
-<stat name="PHYSICAL_MASTERY" scaling="1879399456"/>
-<stat name="TACTICAL_MASTERY" scaling="1879412872"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879456317"/>
+<stat name="TACTICAL_MASTERY" scaling="1879456306"/>
 </trait>
 <trait identifier="1879097843" name="Favoured Servant of the Dark" iconId="1091418013" category="103" nature="4" tooltip="Increases Physical and Tactical Mitigation" description="Increases Physical and Tactical Mitigation">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="3.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="3.0"/>
 </trait>
 <trait identifier="1879097844" name="Tireless Warrior" iconId="1091417958" category="103" nature="4" tooltip="Increases in-combat health and power regeneration" description="Increases in-combat health and power regeneration">
-<stat name="ICMR" descriptionOverride="+${VALUE} in-Combat Health Regen" scaling="1879399430"/>
-<stat name="ICPR" descriptionOverride="+${VALUE} in-Combat Power Regen" scaling="1879399365"/>
+<stat name="ICMR" descriptionOverride="+${VALUE} in-Combat Health Regen" scaling="1879456301"/>
+<stat name="ICPR" descriptionOverride="+${VALUE} in-Combat Power Regen" scaling="1879456290"/>
 </trait>
 <trait identifier="1879097845" name="Brutal persuasion" iconId="1091418014" category="103" nature="4" tooltip="Increases melee, ranged, and tactical critical rating" description="Increases melee, ranged, and tactical critical rating">
-<stat name="CRITICAL_RATING" scaling="1879381473"/>
+<stat name="CRITICAL_RATING" scaling="1879456299"/>
 </trait>
 <trait identifier="1879097846" name="Four-legged Foe" iconId="1091418015" category="103" nature="4" tooltip="Increases run speed and evade rating" description="Increases run speed and evade rating">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
 <stat name="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" constant="10.0"/>
-<stat name="EVADE" scaling="1879368426"/>
+<stat name="EVADE" scaling="1879456291"/>
 </trait>
 <trait identifier="1879097847" name="Pack Mentality" iconId="1091418016" category="103" nature="4" tooltip="Increases Parry, Evade, and Resistance rating." description="Increases Parry, Evade, and Resistance rating.">
-<stat name="PARRY" scaling="1879368420"/>
-<stat name="EVADE" scaling="1879368426"/>
-<stat name="RESISTANCE" scaling="1879399610"/>
+<stat name="PARRY" scaling="1879456313"/>
+<stat name="EVADE" scaling="1879456298"/>
+<stat name="RESISTANCE" scaling="1879456314"/>
 </trait>
 <trait identifier="1879097848" name="Pack Elder" iconId="1091418017" category="103" nature="4" tooltip="Increases Physical Mitigation" description="Increases Physical Mitigation">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="7.5000005"/>
 </trait>
 <trait identifier="1879097849" name="Foe of the Light" iconId="1091418018" category="103" nature="4" tooltip="Increases Tactical Mitigation and stealth level" description="Increases Tactical Mitigation and stealth level">
-<stat name="TACTICAL_MITIGATION" scaling="1879399424"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879456303"/>
 <stat name="STEALTH_LEVEL" constant="4.0"/>
 </trait>
 <trait identifier="1879097850" name="Pack Alpha" iconId="1091418019" category="103" nature="4" tooltip="Increases Physical Mastery, Critical Rating, and Finesse" description="Increases Physical Mastery, Critical Rating, and Finesse">
-<stat name="PHYSICAL_MASTERY" scaling="1879399456"/>
-<stat name="CRITICAL_RATING" scaling="1879381485"/>
-<stat name="FINESSE" scaling="1879367857"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879456293"/>
+<stat name="CRITICAL_RATING" scaling="1879456282"/>
+<stat name="FINESSE" scaling="1879456280"/>
 </trait>
 <trait identifier="1879097853" name="Racial Skill: Blood of Fire" iconId="1091427803" category="7" nature="4" tooltip="The rage of the Orcs burns strong within you. You can draw upon your racial strength and make those that attack you suffer for their transgression.&#10;&#10;&lt;rgb=#99FF33&gt;On any damage:&#10;Reflect Fire Damage&lt;/rgb&gt;" description="The rage of the Orcs burns strong within you. You can draw upon your racial strength and make those that attack you suffer for their transgression.&#10;&#10;&lt;rgb=#99FF33&gt;On any damage:&#10;Reflect Fire Damage&lt;/rgb&gt;">
 <skill id="1879097866" name="Blood of Fire"/>
@@ -1684,23 +1675,19 @@
 </trait>
 <trait identifier="1879152250" name="Tactical Mitigation Boost 3" iconId="1091478100" category="20" nature="5" tooltip="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating." description="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating.">
 <stat name="TACTICAL_MITIGATION" scaling="1879412736"/>
-<stat name="RESISTANCE" scaling="1879412735"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879456450"/>
 </trait>
 <trait identifier="1879152251" name="Physical Mitigation Boost 3" iconId="1090553344" category="20" nature="5" tooltip="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating." description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
 <stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
-<stat name="Combat_Class_BlockPoints" scaling="1879412846"/>
-<stat name="Combat_Class_ParryPoints" scaling="1879412848"/>
-<stat name="Combat_Class_EvadePoints" scaling="1879412847"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879456451"/>
 </trait>
 <trait identifier="1879152252" name="Tactical Mitigation Boost 2" iconId="1091478100" category="20" nature="5" tooltip="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating." description="Tactical Mitigation Boosts allow you to increase your Tactical Mitigation Rating.">
 <stat name="TACTICAL_MITIGATION" scaling="1879412736"/>
-<stat name="RESISTANCE" scaling="1879412735"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879456450"/>
 </trait>
 <trait identifier="1879152253" name="Physical Mitigation Boost 2" iconId="1090553344" category="20" nature="5" tooltip="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating." description="Physical Mitigation Boosts allow you to increase your Physical Mitigation Rating.">
 <stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
-<stat name="Combat_Class_BlockPoints" scaling="1879412846"/>
-<stat name="Combat_Class_ParryPoints" scaling="1879412848"/>
-<stat name="Combat_Class_EvadePoints" scaling="1879412847"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879456451"/>
 </trait>
 <trait identifier="1879152359" name="Critical Protection Boost 1" iconId="1091637773" category="20" nature="5" tooltip="Corruption protection traits allow you to reduce the chances that you will be hit with critical and devastating attacks." description="Corruption protection traits allow you to reduce the chances that you will be hit with critical and devastating attacks.">
 <stat name="CRITICAL_DEFENCE" scaling="1879412741"/>
@@ -2169,7 +2156,7 @@
 <trait identifier="1879199355" name="Emote: Snow Wizard" iconId="1091591966" category="92" nature="1" cosmetic="true" tooltip="You have learned the snow wizard emote (/roll)." description="You have learned the snow wizard emote (/snowwizard)."/>
 <trait identifier="1879199358" name="Emote: Warm-hands" iconId="1091591966" category="92" nature="1" cosmetic="true" tooltip="You have learned the warm-hands emote (/roll)." description="You have learned the warm-hands emote (/warmhands)."/>
 <trait identifier="1879201159" name="Strong Brood" iconId="1091628558" category="43" nature="3" tooltip="Increases your hatchling's health and reduces its skill cooldowns. You gain increased Physical Mitigation.&#10;&#10;Only one Hatchling trait can be equipped at a time." description="Increases your hatchling's health and reduces its skill cooldowns. You gain increased Physical Mitigation.&#10;&#10;Only one Hatchling trait can be equipped at a time.">
-<stat name="PHYSICAL_MITIGATION" scaling="1879399483"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879456279"/>
 <stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="Your hatchling gains the following:&#10;   +125% Health&#10;   -10% Power&#10;   +20% Mitigations&#10;  +5% Attack Speed&#10;   +25% Melee Damage&#10;   +25% Critical Chance&#10;  +15% Evade Chance &#10;  Enhanced Skills" constant="105.0"/>
 </trait>
 <trait identifier="1879201534" name="Enhanced Skill: Efflorescence" iconId="1091755050" category="43" nature="3" tooltip="Increases the range and reduces the power cost of Efflorescence.&#10;&#10;&lt;rgb=#99FF33&gt;Efflorescence:&#10;+10m Range&#10;-15% Power Cost&lt;/rgb&gt;" description="Increases the range and reduces the power cost of Efflorescence.&#10;&#10;&lt;rgb=#99FF33&gt;Efflorescence:&#10;+10m Range&#10;-15% Power Cost&lt;/rgb&gt;">
@@ -2268,7 +2255,7 @@
 <trait identifier="1879210641" name="Emote: Coin Bite" iconId="1091591966" category="92" nature="1" cosmetic="true" tooltip="You have learned the coin bite emote (/counterfeit)." description="You have learned the coin bite emote (/counterfeit)."/>
 <trait identifier="1879210642" name="Emote: Coin Flip" iconId="1091591966" category="92" nature="1" cosmetic="true" tooltip="You have learned the coin flip emote (/coinflip)." description="You have learned the coin flip emote (/coinflip)."/>
 <trait identifier="1879210653" name="Scytode Brood" iconId="1091657063" category="43" nature="3" tooltip="Your hatchling forgoes melee for ranged attacks. You gain increased Tactical Mitigation.&#10;&#10;Only one Hatchling trait can be equipped at a time." description="Your hatchling forgoes melee for ranged attacks. You gain increased Tactical Mitigation.&#10;&#10;Only one Hatchling trait can be equipped at a time.">
-<stat name="TACTICAL_MITIGATION" scaling="1879399425"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879456277"/>
 <stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="Your hatchling gains the following:&#10;   +50% Health&#10;   +15% Power&#10;   +10% Attack Speed&#10;   +35% Ranged Damage&#10;   +25% Critical Chance&#10; +10% Evade Chance &#10; Enhanced Skills" constant="112.0"/>
 </trait>
 <trait identifier="1879211599" name="Power of Fear" iconId="1091657493" category="43" nature="3" tooltip="Your opponent's fear strengthens you." description="Your opponent's fear strengthens you.">
@@ -2669,7 +2656,7 @@
 <trait identifier="1879238969" name="Power" iconId="1091735996" tiers="7" tierProperty="Trait_MountedCombat_Rank_Heavy2" nature="14" description="Increases the War-steed's maximum Power. Increasing your war-steed's power allows the Rider and horse to execute more skills. Your steed's power is slowly drained over time while galloping in combat. With increased power you can push your steed faster and longer during combat.">
 <stat name="WARSTEED_POWER" tieredScaling="1879448256;1879448213;1879448219;1879448225;1879448229"/>
 </trait>
-<trait identifier="1879238972" name="Flexibility" iconId="1091739161" tiers="3" tierProperty="Trait_MountedCombat_Rank_Heavy10" nature="14" description="You have always believed in limbering up before mounting your war-steed and your experience on horseback has made you adept at blocking and evading attacks while riding.">
+<trait identifier="1879238972" name="Flexibility" iconId="1091739161" tiers="3" tierProperty="Trait_MountedCombat_Rank_Heavy10" nature="14" description="You have always believed in limbering up before mounting your war-steed, and your experience on horseback has made you adept at blocking and evading attacks while riding.">
 <stat name="EVADE" scaling="1879238959"/>
 <stat name="BLOCK" scaling="1879253441"/>
 </trait>
@@ -2679,17 +2666,17 @@
 <trait identifier="1879239023" name="Opportunist" iconId="1091739147" tiers="3" tierProperty="Trait_MountedCombat_Rank_Heavy19" nature="14" description="Ever the opportunist, you know how to target opponents' weaknesses and are able to inflict massive damage when attacking from behind.">
 <stat name="Trait_DamageMultiplier_PositionalBonus" scaling="1879239026"/>
 </trait>
-<trait identifier="1879239024" name="Precision" iconId="1091739156" tiers="3" tierProperty="Trait_MountedCombat_Rank_Heavy18" nature="14" description="You are at home while atop your war-steed and you are confident in your attacks. Your precision while mounted makes it difficult for enemies to evade your attacks.">
+<trait identifier="1879239024" name="Precision" iconId="1091739156" tiers="3" tierProperty="Trait_MountedCombat_Rank_Heavy18" nature="14" description="You are at home while atop your war-steed, and you are confident in your attacks. Your precision while mounted makes it difficult for enemies to evade your attacks.">
 <stat name="Trait_Enemy_EvadeChanceModifier" operator="SUBSTRACT" descriptionOverride="Reduces your targets ability to evade your attacks.&#10;Rank 1: -10% Evade Chance &#10;Rank 2: -20% Evade Chance &#10;Rank 3: -30% Evade Chance" scaling="1879239029"/>
 <stat name="TACTICAL_MASTERY" tieredScaling="1879399465;1879368688;1879399464;1879368685;1879399468;1879368693;1879399466;1879368686;1879448227;1879445884"/>
 </trait>
-<trait identifier="1879239025" name="Overwhelming Offence" iconId="1091739137" tiers="3" tierProperty="Trait_MountedCombat_Rank_Heavy17" nature="14" description="Your power is overwhelming and when you attack from horseback, your enemies are hard pressed to block your attacks.">
+<trait identifier="1879239025" name="Overwhelming Offence" iconId="1091739137" tiers="3" tierProperty="Trait_MountedCombat_Rank_Heavy17" nature="14" description="Your power is overwhelming, and when you attack from horseback, your enemies are hard pressed to block your attacks.">
 <stat name="Trait_Enemy_BlockChanceModifier" operator="SUBSTRACT" descriptionOverride="Reduces your targets ability to block your attacks.&#10;Rank 1: -10% Block Chance &#10;Rank 2: -20% Block Chance &#10;Rank 3: -30% Block Chance" scaling="1879239031"/>
 <stat name="PHYSICAL_MASTERY" tieredScaling="1879368684;1879448241;1879399437;1879448250;1879399449"/>
 </trait>
 <trait identifier="1879239042" name="Appearance - Female Rohan Warrior" iconId="1091737457" tierProperty="trait_skirmish_soldier_human_female_outfit_rohan_preorder_rank" nature="8" tooltip="Skirmish Test Tooltip" description="Outfit your Rohirrim Woman in a Rohan Warrior Appearance."/>
 <trait identifier="1879239044" name="Appearance -  Male Rohan Warrior" iconId="1091737458" tierProperty="trait_skirmish_soldier_human_male_outfit_rohan_preorder_rank" nature="8" tooltip="Skirmish Test Tooltip" description="Outfit your Rohirrim Man in a Rohan Warrior Appearance."/>
-<trait identifier="1879239047" name="Rapport" iconId="1091739045" tiers="3" tierProperty="Trait_MountedCombat_Rank_Medium22" nature="14" description="The bond between rider and steed is strong and your experiences together cannot be matched by your foes. This rapport gives you an advantage against other mounted units.">
+<trait identifier="1879239047" name="Rapport" iconId="1091739045" tiers="3" tierProperty="Trait_MountedCombat_Rank_Medium22" nature="14" description="The bond between rider and steed is strong, and your experiences together cannot be matched by your foes. This rapport gives you an advantage against other mounted units.">
 <stat name="Skill_AttackHook_VsMounted_Damage_Multiplier" scaling="1879239048"/>
 </trait>
 <trait identifier="1879239110" name="Bond of Power" iconId="1091735986" tiers="3" tierProperty="Trait_MountedCombat_Rank_Light36" nature="14" description="The bond between rider and war-steed is one that is not easily broken. Drawing inspiration from one another, you are able to push back exhaustion and benefit from an increased power regeneration.">
@@ -2777,7 +2764,7 @@
 <trait identifier="1879239280" name="Instigate" iconId="1091739152" tierProperty="Trait_MountedCombat_Rank_Heavy20" nature="14" description="You know how to get under your opponents' skin and you are able to draw attention away from your weaker allies.">
 <specialEffect label="Unlocks the skill Instigate."/>
 </trait>
-<trait identifier="1879239281" name="Well Rounded" iconId="1091739142" tiers="3" tierProperty="Trait_MountedCombat_Rank_Heavy25" nature="14" description="A well rounded attack is critical to success and you pride yourself on being a force on both offence and defence.">
+<trait identifier="1879239281" name="Well Rounded" iconId="1091739142" tiers="3" tierProperty="Trait_MountedCombat_Rank_Heavy25" nature="14" description="A well rounded attack is critical to success, and you pride yourself on being a force on both offence and defence.">
 <stat name="CRITICAL_RATING" scaling="1879244829"/>
 <stat name="PARRY" scaling="1879244830"/>
 </trait>
@@ -2864,7 +2851,7 @@
 <trait identifier="1879241834" name="Spears Will Be Shaken" iconId="1091746495" tierProperty="Trait_MountedCombat_Rank_Heavy26" nature="14" description="Your attacks leave opponents shaken, hobbled and unable to escape your onslaught.">
 <specialEffect label="${CLASS}: While utilizing the Red Dawn Discipline the following skills will slow the enemy movement speed when they critically hit: ${CLASS:None|Ride By, Keen Strike[G]|Cry Havoc, Cry Wrath, Rally the Riders[C]|Swift Cut, Sundering Blow, Destabilizing Strike[H]|Driving Slash, Staggering Slash, Rohan's Edge[U]|Flay Open, Seeking Arrow, Noble Arrow, Spread of Arrows[T]|Enduring Embers, Bond of the Rider[L]|Hammer of Rohan, Dirge, Cry of the Eorlingas, Call of the Eorlingas, Coda of the Eorlingas[I]|Fixation of Flame, Oration of Embers, Resolution of Fire[K]|Assault of the Eorlingas, Strike with Power, Clash of Steel and Will, Skill of the Eorlingas[W]|Slash, Bee Swarm, Execute[B]| Momentous Hit[R]}"/>
 </trait>
-<trait identifier="1879242008" name="Survivability" iconId="1091746493" tierProperty="Trait_MountedCombat_Rank_Medium34" nature="14" description="You will see the sun rise another day">
+<trait identifier="1879242008" name="Survivability" iconId="1091746493" tierProperty="Trait_MountedCombat_Rank_Medium34" nature="14" description="You will see the sun rise another day.">
 <specialEffect label="${CLASS}: While utilizing the Rohirrim Discipline there is a chance that the following skills will apply a damage preventing bubble for a short time: ${CLASS:None|Ride By, Keen Strike, Jollification, All in the Wrist[G]|Cry Havoc, Cry Wrath, Rally the Riders, Rider and Steed[C]|Swift Cut, Sundering Blow, Recuperate, Destabilizing Strike, Horn Blast[H]|Driving Slash, Staggering Slash, Clash of Arms, Rohan's Edge[U]|Flay Open, Seeking Arrow, Noble Arrow, Spread of Arrows[T]|Enduring Embers, Mearas-lore, Bond of the Rider, Sign of Power: Inspiration[L]|Hammer of Rohan, Chant, Cry of the Eorlingas, Anthem of the Rohirrim, Coda of the Eorlingas[I]|Fixation of Health, Ameliorating Oration, Debate the People, Resolution of Enduring Life[K]|Roar of the Eorlingas, Assault of the Eorlingas, Strike with Power, Clash of Steel and Will, Defence of the Eorlingas, Skill of the Eorlingas[W]|Slash, Ferocious Roar, Recuperate[B]| Strike, Mocking Taunt, Momentous Hit[R]}"/>
 </trait>
 <trait identifier="1879242056" name="Wrath" iconId="1091735968" tierProperty="Trait_MountedCombat_Rank_Light13" nature="14" description="Even in the face of insurmountable odds, you fight with a ferocity never before seen by your foes.">
@@ -2911,7 +2898,7 @@
 <trait identifier="1879245800" name="Determination" iconId="1091746896" tiers="3" tierProperty="Trait_MountedCombat_Rank_Heavy6" nature="14" description="You and your war-steed share a determination to emerge victorious and your resolve grants increased resistances.">
 <stat name="Resist_AdditionalPoints_Resistance_TheOneResistance" scaling="1879238666"/>
 </trait>
-<trait identifier="1879245877" name="Patience" iconId="1091739051" tiers="2" tierProperty="Trait_MountedCombat_Rank_Medium20" nature="14" description="You understand that most battles cannot be won quickly and you are able to conserve your energy when performing physical skills.">
+<trait identifier="1879245877" name="Patience" iconId="1091739051" tiers="2" tierProperty="Trait_MountedCombat_Rank_Medium20" nature="14" description="You understand that most battles cannot be won quickly, and you are able to conserve your energy when performing physical skills.">
 <stat name="Trait_Class_Skill_Physical_Power_Cost" operator="SUBSTRACT" descriptionOverride="${CLASS}: &#10;Rank 1: -10% Power Cost &#10;Rank 2: -20% Power Cost:&#10; ${CLASS:None|Ride By, Keen Strike, Strategic Strike, All in the Wrist[G]|Measured Attack, Oppressive Blow[C]|Mounted Strike, Swift Cut, Sundering Blow, Destabilizing Strike[H]|Driving Slash, Staggering Slash, Serrated Edge, Clash of Arms, Rohan's Edge[U]|Flay Open, Establishing Shot, Seeking Arrow, Noble Arrow, Spread of Arrows, Kill Shot[T]|Metal and Mettle[L]|Hammer of the Rohan[I]|None[K]|Assault of the Eorlingas, Strike with Power, Clash of Steel and Will, Defence of the Eorlingas, Skill of the Eorlingas, Shield the Flank, Lancer's Charge, Halt the Charge[W]|Slash, Execute, Biting Edge[B]}" scaling="1879245896"/>
 </trait>
 <trait identifier="1879245880" name="Understanding" iconId="1091739052" tiers="2" tierProperty="Trait_MountedCombat_Rank_Medium21" nature="14" description="Your steed understands when you choose to attack from a distance and remains steady, allowing you to perform tactical skills with less effort.">
@@ -3178,8 +3165,9 @@
 <trait identifier="1879256838" name="Wintry Yule Saddle" iconId="1091776292" category="54" nature="16"/>
 <trait identifier="1879256839" name="Wintry Yule Caparison" iconId="1091776291" category="54" nature="16"/>
 <trait identifier="1879256840" name="Wintry Yule Halter" iconId="1091776293" category="54" nature="16"/>
-<trait identifier="1879259264" name="Footpad" iconId="1090541265" tiers="5" tierProperty="trait_class_burglar_rank_1" nature="19" description="You are harder to detect while Stealthed.">
+<trait identifier="1879259264" name="Footpad" iconId="1090541265" tiers="4" tierProperty="trait_class_burglar_rank_1" nature="19" description="You are harder to detect while Stealthed.">
 <stat name="STEALTH_LEVEL" scaling="1879268029"/>
+<stat name="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" descriptionOverride="+${PERCENTVALUE} Combat Stealth Speed" scaling="1879455634"/>
 </trait>
 <trait identifier="1879259269" name="Back Stab" iconId="1091841204" tiers="5" tierProperty="trait_class_burglar_rank_11" nature="19" description="Positional attacks deal more damage.">
 <stat name="Skill_DamageMultiplier_Trait_Stealth_LineBonus" scaling="1879268065"/>
@@ -3208,6 +3196,7 @@
 </trait>
 <trait identifier="1879259366" name="Leaf Walker" iconId="1090541260" tiers="5" tierProperty="trait_class_burglar_rank_34" nature="19" description="You are harder to detect while Stealthed.">
 <stat name="STEALTH_LEVEL" scaling="1879268029"/>
+<stat name="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" descriptionOverride="+${PERCENTVALUE} Combat Stealth Speed" scaling="1879455635"/>
 </trait>
 <trait identifier="1879259367" name="Stick and Move" iconId="1091829388" tiers="5" tierProperty="trait_class_burglar_rank_35" nature="19" description="Boosts Evade chance.">
 <stat name="EVADE_PERCENTAGE" scaling="1879297179"/>
@@ -3608,27 +3597,27 @@
 <trait identifier="1879265088" name="Reveller's Gilded Saddle" iconId="1091789863" category="54" nature="16"/>
 <trait identifier="1879265089" name="Critical Rating Boost 5" iconId="1090553348" category="20" nature="5" tooltip="Critical Rating Boost increase your Critical Hit Chance and Critical Damage." description="Critical Rating Boost increase your Critical Hit Chance and Critical Damage.">
 <stat name="CRITICAL_RATING" scaling="1879412740"/>
-<stat name="Skill_Monsterplay_CriticalDamage" constant="5.0"/>
+<stat name="Skill_Monsterplay_CriticalDamage" constant="2.0"/>
 </trait>
 <trait identifier="1879265090" name="Critical Rating Boost 6" iconId="1090553348" category="20" nature="5" tooltip="Critical Rating Boost increase your Critical Hit Chance and Critical Damage." description="Critical Rating Boost increase your Critical Hit Chance and Critical Damage.">
 <stat name="CRITICAL_RATING" scaling="1879412740"/>
-<stat name="Skill_Monsterplay_CriticalDamage" constant="5.0"/>
+<stat name="Skill_Monsterplay_CriticalDamage" constant="2.0"/>
 </trait>
 <trait identifier="1879265091" name="Critical Rating Boost 2" iconId="1090553348" category="20" nature="5" tooltip="Critical Rating Boost increase your Critical Hit Chance and Critical Damage." description="Critical Rating Boost increase your Critical Hit Chance and Critical Damage.">
 <stat name="CRITICAL_RATING" scaling="1879412740"/>
-<stat name="Skill_Monsterplay_CriticalDamage" constant="5.0"/>
+<stat name="Skill_Monsterplay_CriticalDamage" constant="2.0"/>
 </trait>
 <trait identifier="1879265092" name="Critical Rating Boost 3" iconId="1090553348" category="20" nature="5" tooltip="Critical Rating Boost increase your Critical Hit Chance and Critical Damage." description="Critical Rating Boost increase your Critical Hit Chance and Critical Damage.">
 <stat name="CRITICAL_RATING" scaling="1879412740"/>
-<stat name="Skill_Monsterplay_CriticalDamage" constant="5.0"/>
+<stat name="Skill_Monsterplay_CriticalDamage" constant="2.0"/>
 </trait>
 <trait identifier="1879265093" name="Critical Rating Boost 1" iconId="1090553348" category="20" nature="5" tooltip="Critical Rating Boost increase your Critical Hit Chance and Critical Damage." description="Critical Rating Boost increase your Critical Hit Chance and Critical Damage.">
 <stat name="CRITICAL_RATING" scaling="1879412740"/>
-<stat name="Skill_Monsterplay_CriticalDamage" constant="5.0"/>
+<stat name="Skill_Monsterplay_CriticalDamage" constant="2.0"/>
 </trait>
 <trait identifier="1879265094" name="Critical Rating Boost 4" iconId="1090553348" category="20" nature="5" tooltip="Critical Rating Boost increase your Critical Hit Chance and Critical Damage." description="Critical Rating Boost increase your Critical Hit Chance and Critical Damage.">
 <stat name="CRITICAL_RATING" scaling="1879412740"/>
-<stat name="Skill_Monsterplay_CriticalDamage" constant="5.0"/>
+<stat name="Skill_Monsterplay_CriticalDamage" constant="2.0"/>
 </trait>
 <trait identifier="1879265123" name="Festive Azure Caparison" iconId="1091789860" category="54" nature="16"/>
 <trait identifier="1879265125" name="Festive Azure Saddle" iconId="1091789859" category="54" nature="16"/>
@@ -4069,7 +4058,7 @@
 <trait identifier="1879269793" name="Loyalty" iconId="1091829944" tiers="5" tierProperty="trait_class_loremaster_rank_26" nature="20" description="Your pet loves you. If you are hit by a Critical attack, your pet will sacrifice some Morale to heal you.">
 <stat name="Skill_Loremaster_Loyalty_EffectMod" descriptionOverride="Upon receiving a Critical Hit, your pet will sacrifice ${PERCENTVALUE} of its Morale to heal ${PERCENTVALUE} of your max Morale. You cannot gain this effect more than once every 15s." scaling="1879270052"/>
 </trait>
-<trait identifier="1879269794" name="Don't You Touch Him!" iconId="1091829927" tiers="3" tierProperty="trait_class_loremaster_rank_24" nature="20" description="Protective of your pet, you gain a damage buff if your pet is hit by a Critical attack.">
+<trait identifier="1879269794" name="Don't You Touch Him!" iconId="1091829927" tiers="4" tierProperty="trait_class_loremaster_rank_24" nature="20" description="Protective of your pet, you gain a damage buff if your pet is hit by a Critical attack.">
 <stat name="Skill_Loremaster_CriticalReciprocation_BuffMod" scaling="1879270040"/>
 <specialEffect label="If your pet is hit with a critical attack, you gain a damage bonus."/>
 </trait>
@@ -4086,10 +4075,9 @@
 <trait identifier="1879269799" name="Dry Kindling" iconId="1091829913" tiers="3" tierProperty="trait_class_loremaster_rank_11" nature="20" description="Burning Embers has a chance to burn hotter and last longer.">
 <stat name="Skill_Loremaster_DryKindling_AppChance" scaling="1879270058"/>
 </trait>
-<trait identifier="1879269800" name="Inner Flame" iconId="1091829934" tiers="3" tierProperty="trait_class_loremaster_rank_20" nature="20" description="Earns the skill: Inner Flame.&#10;This skill heals Morale and tiers up a Fire Damage buff as you channel.">
+<trait identifier="1879269800" name="Inner Flame" iconId="1091829934" tiers="3" tierProperty="trait_class_loremaster_rank_20" nature="20" description="Earns the skill: Inner Flame.&#10;This skill heals Morale and tiers up a buff to Fire &amp; Lightning Damage as you channel.">
 <stat name="Skill_Loremaster_HealingMod_InnerFlame" scaling="1879270051"/>
-<stat name="Skill_Loremaster_InnerFlame_BuffMod" descriptionOverride="-" scaling="1879270047"/>
-<stat name="Skill_Loremaster_InnerFlame_BuffMod_StringDummy" scaling="1879286646"/>
+<stat name="Skill_Loremaster_InnerFlame_BuffMod" scaling="1879270047"/>
 </trait>
 <trait identifier="1879269801" name="Sign of the Wild: Rage" iconId="1091840537" tiers="5" tierProperty="trait_class_loremaster_rank_17" nature="20" description="Sign of the Wild: Rage increases your pet's damage and attack speed.">
 <stat name="Skill_Loremaster_SignofRage_AttackDuration" scaling="1879270049"/>
@@ -4423,7 +4411,7 @@
 <trait identifier="1879270758" name="Improved Chord of Salvation" iconId="1091840485" tiers="4" tierProperty="trait_class_minstrel_rank_9" nature="22" description="Chord of Salvation gains a fellowship-wide heal.">
 <stat name="Skill_Minstrel_ImpChordSalvation_HoT" descriptionOverride="Chord of Salvation now grants a fellowship-wide Heal" scaling="1879291402"/>
 </trait>
-<trait identifier="1879270759" name="Improved Song of the Hammerhand" iconId="1091840486" tiers="2" tierProperty="trait_class_minstrel_rank_10" nature="22" description="Enhances the potency the bubble from Song of the Hammerhand.">
+<trait identifier="1879270759" name="Improved Song of the Hammerhand" iconId="1091840486" tiers="2" tierProperty="trait_class_minstrel_rank_10" nature="22" description="Enhances the potency of the bubble from Song of the Hammerhand.">
 <stat name="Skill_Minstrel_Song_of_Hammerhand_Bubble" scaling="1879314671"/>
 </trait>
 <trait identifier="1879270760" key="FINESSE_MINSTREL" name="Song of Arda" iconId="1092402731" tiers="5" tierProperty="trait_class_minstrel_rank_26" nature="22" description="The Minstrel's Light damage is improved.">
@@ -4460,7 +4448,7 @@
 <stat name="Trait_Minstrel_Heralds_Strike_Damage" descriptionOverride="+${PERCENTVALUE} Morale stolen" scaling="1879271727"/>
 </trait>
 <trait identifier="1879270777" name="Discordant Cries" iconId="1091830263" tiers="5" tierProperty="trait_class_minstrel_rank_20" nature="22" description="Increases the damage of Cries and Calls.">
-<stat name="Skill_Minstrel_DamageMultiplier_WarspeechCalls" scaling="1879260274"/>
+<stat name="Skill_Minstrel_DamageMultiplier_WarspeechCalls" descriptionOverride="+${PERCENTVALUE} Cry and Call Damage" scaling="1879260274"/>
 </trait>
 <trait identifier="1879270778" name="Improved Coda of Resonance" iconId="1091840484" tiers="3" tierProperty="trait_class_minstrel_rank_13" nature="22" description="Coda of Resonance briefly reduces incoming damage.">
 <stat name="Trait_Coda_of_Vigour_Damage_Buff_Duration" scaling="1879271705"/>
@@ -4799,10 +4787,9 @@
 </trait>
 <trait identifier="1879272587" name="The Quiet Knife" iconId="1091564746" tierProperty="trait_class_specialization_burglar_one" nature="28" description="Quiet Knife Burglars pounce on their enemy from the shadows, dealing large amounts of damage on their opening attack.">
 <stat name="STEALTH_LEVEL" constant="2.0"/>
-<stat name="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" constant="40.0"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
-<trait identifier="1879272588" name="The Protector of Song" iconId="1091618504" tierProperty="trait_class_specialization_minstrel_three" nature="28" description="Though the Minstrel cannot specialize in The Protector of Song, it supports allies with powerful buffs, using Anthem skills with great effectiveness.">
+<trait identifier="1879272588" name="The Protector of Song" iconId="1091618504" tierProperty="trait_class_specialization_minstrel_three" nature="28" description="Though the Minstrel can not specialize in The Protector of Song, it supports allies with powerful buffs, using Anthem skills with great effectiveness.">
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879272589" name="Hands of Healing" iconId="1091564741" tierProperty="trait_class_specialization_captain_two" nature="28" description="Hands of Healing Captains restore the morale of their allies by fighting on the front lines.">
@@ -4840,7 +4827,6 @@
 <specialEffect label="Insult to Injury: Burning Embers will deal bonus damage to Stunned Targets"/>
 </trait>
 <trait identifier="1879272596" name="The Gambler" iconId="1091618504" tierProperty="trait_class_specialization_burglar_three" nature="28" description="Gambler Burglars rely on the roll of the dice to inflict damage and influence outcomes.">
-<stat name="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" constant="40.0"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <specialEffect label="Your Crit Chain now unlocks on Evades"/>
 </trait>
@@ -4970,8 +4956,8 @@
 <specialEffect label="Valiant Strike grants a Battle-ready Event"/>
 </trait>
 <trait identifier="1879273460" name="Bracing Against Defeat" iconId="1090541128" nature="30" tooltip="Bracing Attack now generates Fervour and heals for a larger amount." description="Bracing Attack now generates 2 points of fervour and the amount of Morale it restores is increased.">
-<stat name="TraitSet_Champion_PipModifier_BracingAttackMin" operator="SUBSTRACT" descriptionOverride="Bracing Attack generates 2 Fervour" constant="4.0"/>
-<stat name="TraitSet_Champion_PipModifier_BracingAttack" descriptionOverride="Bracing Attack places an Incoming Healing Buff on the Champion for 10s" constant="5.0"/>
+<stat name="TraitSet_Champion_PipModifier_BracingAttackMin" operator="SET" descriptionOverride="Bracing Attack generates 2 Fervour" constant="-4.0"/>
+<stat name="TraitSet_Champion_PipModifier_BracingAttack" operator="SET" descriptionOverride="Bracing Attack places an Incoming Healing Buff on the Champion for 10s" constant="5.0"/>
 </trait>
 <trait identifier="1879273461" name="Sharpened Blades" iconId="1091840518" nature="30" tooltip="Increases the upfront damage of Rend and the the number of bleeds it can apply." description="Increases the initial damage of rend and increases the max number of stacks of its bleed to five">
 <stat name="Skill_Champion_Rend_DamageMod" constant="30.000002"/>
@@ -5043,7 +5029,7 @@
 <stat name="Skill_Runekeeper_EpicForAges_HealMod" constant="25.0"/>
 </trait>
 <trait identifier="1879274685" name="Writ of Blazing Fire" iconId="1091502141" nature="30" description="Writ of Fire now tiers down instead of dispelling upon expiration."/>
-<trait identifier="1879274686" name="Our Fates Entwined" iconId="1091829845" nature="30" tooltip="Grants a Rune-stone that can be placed at range, redirecting damage to itself for a moderate duration." description="Grants a Rune-stone that can be placed at range, redirecting damage to itself for a moderate duration.">
+<trait identifier="1879274686" name="Our Fates Entwined" iconId="1091829845" nature="30" tooltip="Earns the skill: Our Fates Entwined." description="Earns the skill: Our Fates Entwined.">
 <skill id="1879275439" name="Our Fates Entwined"/>
 </trait>
 <trait identifier="1879274687" name="Tale of The Storm" iconId="1091829858" nature="30" description="Grants bonus Critical Chance and Critical Damage per Battle attunement.">
@@ -5098,7 +5084,7 @@
 <stat name="IA_Hunter_Stealth_Camouflage" constant="8.0"/>
 <stat name="Skill_Hunter_Camouflage_CriticalChanceMod" descriptionOverride="+${PERCENTVALUE} Ranged Critical Chance While Camouflaged" constant="50.0"/>
 </trait>
-<trait identifier="1879274762" name="Archer's Mark" iconId="1091798531" nature="30" tooltip="Text" description="Attacks have a chance to apply a stacking Critical Defence Debuff on enemies."/>
+<trait identifier="1879274762" name="Archer's Mark" iconId="1091798531" nature="30" tooltip="Text" description="Attacks have a chance to apply a stacking Incoming Damage Debuff on enemies."/>
 <trait identifier="1879274763" name="Fleetness" iconId="1091840353" nature="30" tooltip="Text" description="All harmful skills have a chance to apply an effect that increases your Movement Speed."/>
 <trait identifier="1879274764" name="Marksman" iconId="1091840283" nature="30" tooltip="Text" description="Heart Seeker and Upshot's cooldowns are reduced by a certain amount for every Critical and Devastating hit."/>
 <trait identifier="1879274765" name="Intensified Fire" iconId="1091798520" nature="30" tooltip="Text" description="Every attack made while Rapid Fire is active puts a stacking Physical Mastery buff on the Hunter."/>
@@ -5203,7 +5189,7 @@
 <stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </trait>
 <trait identifier="1879276058" name="Discordant Ballads" iconId="1091840489" nature="30" description="All Ballads now grant you a Tactical Damage Buff.">
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
+<specialEffect label="All Ballads give you a short +5% Tactical Damage Buff"/>
 </trait>
 <trait identifier="1879276222" name="Recruit Defeat Effect Strength" iconId="1091832575" tiers="5" tierProperty="trait_bigbattles_vanguard_rank_9" nature="29" description="Increases the potency of your Recruit Defeat Effects.">
 <stat name="BigBattle_Vanguard_Proc_Defeat_Impact" descriptionOverride="+${PERCENTVALUE} Empowerment and Fleetness Effectiveness" scaling="1879279143"/>
@@ -5378,7 +5364,7 @@
 <stat name="Skill_PDFW_Dispel_Count" scaling="1879297132"/>
 </trait>
 <trait identifier="1879277830" name="Radiate" iconId="1091805269" tiers="3" tierProperty="trait_class_guardian_rank_52" nature="27" description="Your damaging area of effect skills have a chance to transfer your debuffs to additional targets."/>
-<trait identifier="1879277843" name="Lesser Giant Eagle" iconId="1091840538" tierProperty="trait_class_loremaster_rank_19" nature="20" description="Earns the skill: Eagle-friend."/>
+<trait identifier="1879277843" name="Lesser Giant Eagle" iconId="1091840538" nature="20" description="Earns the skill: Eagle-friend."/>
 <trait identifier="1879277910" name="Insult to Injury" iconId="1091840979" tiers="5" tierProperty="trait_class_guardian_rank_53" nature="27" description="Your damaging attacks have a chance to renew all debuffs on your target."/>
 <trait identifier="1879277911" name="Flash of Light" iconId="1091805269" nature="30" tooltip="Attacks against marked targets will deal light damage to nearby targets." description="Attacks against marked targets will deal Light damage to nearby targets."/>
 <trait identifier="1879278628" name="Overwhelming Odds" iconId="1090541272" nature="30" description="Completing a Fellowship Manoeuvre will empower the burglar, based on what Manoeuvre was completed.">
@@ -5772,7 +5758,7 @@
 <specialEffect label="You will need to wait 5s after a shield expires to trigger a new one."/>
 </trait>
 <trait identifier="1879311674" name="The Hide" iconId="1091564746" tierProperty="trait_class_specialization_beorning_one" nature="28" description="Relying on the bear form, this line bolsters personal defences while weakening the enemy.">
-<stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="You may block incoming attacks." constant="2.43812416E8"/>
+<stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="You may block incoming attacks." constant="2.43816512E8"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="209.99998"/>
 </trait>
 <trait identifier="1879311675" name="The Roar" iconId="1091618504" tierProperty="trait_class_specialization_beorning_three" nature="28" description="Using the knowledge of your unique people, aid your allies with powerful healing, debuffs, and crowd control.">
@@ -5842,7 +5828,7 @@
 </trait>
 <trait identifier="1879313928" name="Flashing Images" iconId="1091915737" tierProperty="trait_class_runekeeper_rank_40" nature="24" description="For a short duration after using Steady Hands to switch attunement, using a skill which returns you to neutral attunement will activate the Steady Hands effect again."/>
 <trait identifier="1879314132" name="Break Ranks" iconId="1091916296" tierProperty="trait_class_guardian_rank_54" nature="27" description="Throw aside your defences to unleash punishment upon the enemy.">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="Shield-taunt will cash out maximum stacks of Fortification for a 40% group damage buff for 15s.&#10;&#10;This effect puts Shield-taunt on a 60s cooldown when used." constant="5.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="Shield-taunt will cash out maximum stacks of Fortification for a 40% group damage buff for 15s.&#10;&#10;Break Ranks cannot trigger more than once each 60s." constant="5.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="Gain a passive +${PERCENTVALUE} damage" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 </trait>
@@ -5914,7 +5900,7 @@
 <stat name="Skill_Beorning_BearForm_DamageMod" constant="30.000002"/>
 </trait>
 <trait identifier="1879315634" name="Guarded Attack" iconId="1091941806" category="8" nature="30" tooltip="Offence leads to victories, but defence wins wars." description="Offence leads to victories, but defence wins wars.">
-<skill id="1879315086" name="Guarded Attack"/>
+<skill id="1879315086" name="Guarded Attack (Dual)"/>
 </trait>
 <trait identifier="1879315635" name="Grimbeorn's Strength" iconId="1091941821" nature="30" description="Inspired by Grimbeorn, you learn to better aid your friends in times of need."/>
 <trait identifier="1879315636" name="Wrathful" iconId="1091941779" nature="30" tooltip="Your wrath on the battlefield is that of legend." description="Your wrath on the battlefield is that of legend.">
@@ -6539,22 +6525,22 @@
 <trait identifier="1879358458" name="Legs of the Ash Plains" iconId="1092339993" category="54" nature="16"/>
 <trait identifier="1879358459" name="Saddle of the Ash Plains" iconId="1092339998" category="54" nature="16"/>
 <trait identifier="1879358460" name="Alliance of the Third Age Legs" iconId="1092339991" category="54" nature="16"/>
-<trait identifier="1879358542" name="Finesse Boost 5" iconId="1091637772" category="20" nature="5" tooltip="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade." description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
+<trait identifier="1879358542" name="Finesse Boost 5" iconId="1092756652" category="20" nature="5" tooltip="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade." description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
 <stat name="FINESSE" scaling="1879412737"/>
 </trait>
-<trait identifier="1879358543" name="Finesse Boost 4" iconId="1091637772" category="20" nature="5" tooltip="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade." description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
+<trait identifier="1879358543" name="Finesse Boost 4" iconId="1092756652" category="20" nature="5" tooltip="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade." description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
 <stat name="FINESSE" scaling="1879412737"/>
 </trait>
-<trait identifier="1879358544" name="Finesse Boost 1" iconId="1091637772" category="20" nature="5" tooltip="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade." description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
+<trait identifier="1879358544" name="Finesse Boost 1" iconId="1092756652" category="20" nature="5" tooltip="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade." description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
 <stat name="FINESSE" scaling="1879412737"/>
 </trait>
-<trait identifier="1879358545" name="Finesse Boost 3" iconId="1091637772" category="20" nature="5" tooltip="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade." description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
+<trait identifier="1879358545" name="Finesse Boost 3" iconId="1092756652" category="20" nature="5" tooltip="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade." description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
 <stat name="FINESSE" scaling="1879412737"/>
 </trait>
-<trait identifier="1879358546" name="Finesse Boost 6" iconId="1091637772" category="20" nature="5" tooltip="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade." description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
+<trait identifier="1879358546" name="Finesse Boost 6" iconId="1092756652" category="20" nature="5" tooltip="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade." description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
 <stat name="FINESSE" scaling="1879412737"/>
 </trait>
-<trait identifier="1879358547" name="Finesse Boost 2" iconId="1091637772" category="20" nature="5" tooltip="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade." description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
+<trait identifier="1879358547" name="Finesse Boost 2" iconId="1092756652" category="20" nature="5" tooltip="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade." description="Finesse Boost reduces your opponent's chance to Block, Parry, or Evade.">
 <stat name="FINESSE" scaling="1879412737"/>
 </trait>
 <trait identifier="1879359114" name="Peace of the Eldar" iconId="1090554018" category="45" nature="1" tooltip="In times of peace, you vitality and spirit are renewed more swiftly than those of the younger races of the world." description="Increased Morale and Morale Regeneration - In times of peace, your vitality and spirit are renewed more swiftly than those of the younger races of the world.">
@@ -7139,7 +7125,7 @@
 <trait identifier="1879426383" name="Plant Feet" iconId="1091916300" tierProperty="trait_class_brawler_rank_16" nature="32" description="Gain the skill: Plant Feet"/>
 <trait identifier="1879426409" name="Mettle Shield" iconId="1092692927" tierProperty="trait_class_brawler_rank_48" nature="32" description="Gain the skill: Mettle Shield"/>
 <trait identifier="1879427238" name="Hasten Powerful Techniques" iconId="1091830084" tierProperty="trait_class_brawler_rank_50" nature="32">
-<specialEffect label="Set-up attacks reduce the active cooldown of the following skills by 1s:&#10;Joy of Battle&#10;Iron Will&#10;Weather Blows&#10;Draw a Line in the Sand&#10;Battle Fury&#10;Joy of Battle - Damage&#10;Joy of Battle - Heal&#10;Efficient Strikes&#10;&#10;This effect cannot occur more than once every 2 seconds."/>
+<specialEffect label="Set-up attacks reduce the active cooldown of the following skills by 1s:&#10;The Best Defense&#10;Weather Blows&#10;Plant Feet&#10;Battle Fury&#10;Joy of Battle - Damage&#10;Joy of Battle - Heal&#10;Efficient Strikes&#10;&#10;This effect cannot occur more than once every 2 seconds."/>
 </trait>
 <trait identifier="1879427902" name="Head-piece of the Gundabad Reclaimer" iconId="1092693297" category="54" nature="16"/>
 <trait identifier="1879427903" name="Fateful Thunder Saddle" iconId="1092693299" category="54" nature="16"/>
@@ -7310,6 +7296,12 @@
 <trait identifier="1879447328" name="Starlight Head-piece" iconId="1092719712" category="54" nature="16"/>
 <trait identifier="1879447329" name="Starlight Leg-guards" iconId="1092719720" category="54" nature="16"/>
 <trait identifier="1879447957" name="Battle-gauntlets" iconId="1092601120" category="9" nature="1" tooltip="Allows the use of Battle-gauntlets." description="Allows the use of Battle-gauntlets. Battle-gauntlets have a small chance of reducing your target's ability to critically hit."/>
+<trait identifier="1879448461" name="Dúnedain of Cardolan - Vendor Discount" iconId="1090535587" category="93" nature="1" tooltip="This provides players with a discount with all Dúnedain of Cardolan vendors." description="You receive a discount from all Dúnedain of Cardolan vendors.">
+<stat name="Discount_Cardoswan" constant="5.0"/>
+</trait>
+<trait identifier="1879448463" name="Dúnedain of Cardolan - Travel Discount" iconId="1091552099" category="93" nature="1" tooltip="This gives the player a 10% discount from all Dúnedain of Cardolan stable-masters." description="You receive a discount from all Dúnedain of Cardolan stable-masters.">
+<stat name="Discount_Travel_Cardoswan" constant="25.0"/>
+</trait>
 <trait identifier="1879448975" name="Gundabad Savage Appearance" iconId="1091689657" category="54" nature="2" tooltip="A different visual appearance for your Orc Reaver: a Gundabad savage." description="A different visual appearance for your Orc Reaver: a Gundabad savage.">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="33.0"/>
 </trait>
@@ -7485,14 +7477,14 @@
 <trait identifier="1879449529" name="Anthem of Compassion" iconId="1091451441" tiers="4" tierProperty="trait_class_minstrel_rank_33" nature="22" description="Earns the skill: Greater Anthem I - Compassion.&#10;&#10;Additional ranks will improve the incoming damage reduction from this anthem.">
 <stat name="Skill_Minstrel_AnthemCompassion_DamageReduction" scaling="1879449307"/>
 </trait>
-<trait identifier="1879449531" name="Sharing a Story" iconId="1091840507" tierProperty="trait_class_minstrel_rank_55" nature="22" description="A Critical hit with a Ballad will reset Piercing Cry cooldowns.">
+<trait identifier="1879449531" name="Sharing a Story" iconId="1091840507" tierProperty="trait_class_minstrel_rank_55" nature="22" description="A critical hit with a Ballad will reset Piercing Cry cooldowns.">
 <specialEffect label="Ballad critical hits will reset the cooldown of all versions of Piercing Cry."/>
 </trait>
 <trait identifier="1879449532" name="Call to Greatness" iconId="1092406909" tierProperty="trait_class_minstrel_rank_57" nature="22" description="Earns the skill: Call to Greatness"/>
 <trait identifier="1879449533" name="Gripped by Fear" iconId="1091840487" tiers="3" tierProperty="trait_class_minstrel_rank_56" nature="22">
 <stat name="Skill_Minstrel_Elbereth_Fear_GracePeriod" descriptionOverride="The 'break on damage' grace period for Invocation of Elbereth is extended by ${VALUE}s." scaling="1879449524"/>
 </trait>
-<trait identifier="1879449580" name="Invigorating Anthems" iconId="1091830287" tiers="5" tierProperty="trait_class_minstrel_rank_60" nature="22" description="Anthems will apply a unique effect to you when used.&#10;&#10;Additional ranks decrease Anthem cooldowns slightly.&#10;&#10;At rank 5, Cry of the Chorus will reset Anthem cooldowns.">
+<trait identifier="1879449580" name="Invigourating Anthems" iconId="1091830287" tiers="5" tierProperty="trait_class_minstrel_rank_60" nature="22" description="Anthems will apply a unique effect to you when used.&#10;&#10;Additional ranks decrease Anthem cooldowns slightly.&#10;&#10;At rank 5, Cry of the Chorus will reset Anthem cooldowns.">
 <stat name="Trait_Minstrel_Anthem_Cooldown" scaling="1879259840"/>
 </trait>
 <trait identifier="1879449806" name="Rivendell War-mount Tail" iconId="1092739413" category="54" nature="16"/>
@@ -7524,4 +7516,18 @@
 <trait identifier="1879452504" name="Head-piece of the Dúnedain" iconId="1092748430" category="54" nature="16"/>
 <trait identifier="1879452505" name="Flowing Silver Tail" iconId="1092748433" category="54" nature="16"/>
 <trait identifier="1879452506" name="Accessory of the Dúnedain" iconId="1092748428" category="54" nature="16"/>
+<trait identifier="1879455573" name="Mírdan Warrior Outfit" iconId="1091581487" tierProperty="trait_skirmish_soldier_elf_female_outfit_caras_gelebren_warrior_nohelmet_rank" nature="8" tooltip="Skirmish Test Tooltip"/>
+<trait identifier="1879455574" name="Mírdan Warrior Outfit" iconId="1091581483" tierProperty="trait_skirmish_soldier_elf_male_outfit_caras_gelebren_warrior_nohelmet_rank" nature="8" tooltip="Skirmish Test Tooltip"/>
+<trait identifier="1879455575" name="Mírdan Warrior with Helmet" iconId="1091581483" tierProperty="trait_skirmish_soldier_elf_male_outfit_caras_gelebren_warrior_rank" nature="8" tooltip="Skirmish Test Tooltip"/>
+<trait identifier="1879455576" name="Mírdan Warrior with Helmet" iconId="1091581487" tierProperty="trait_skirmish_soldier_elf_female_outfit_caras_gelebren_warrior_rank" nature="8" tooltip="Skirmish Test Tooltip"/>
+<trait identifier="1879455632" name="Focused Strikes" iconId="1092754831" tierProperty="trait_class_burglar_rank_51" nature="19" description="Double-edged Strike and Flashing Blades become single-target skills, but deal more damage.">
+<specialEffect label="Double-edged Strike and Flashing Blades only hit a single target."/>
+</trait>
+<trait identifier="1879456228" name="Basic Training in Mossward" iconId="1090522632" category="29" nature="1" cosmetic="true" tooltip="You have begun your training in Mossward, before the shadow." description="You have begun your training in Mossward, before the shadow."/>
+<trait identifier="1879456431" name="Hidden Peaks Accessory" iconId="1092756661" category="54" nature="16"/>
+<trait identifier="1879456432" name="Hidden Peaks Saddle" iconId="1092756662" category="54" nature="16"/>
+<trait identifier="1879456433" name="Hidden Peaks Caparison" iconId="1092756658" category="54" nature="16"/>
+<trait identifier="1879456434" name="Hidden Peaks Tail" iconId="1092756660" category="54" nature="16"/>
+<trait identifier="1879456435" name="Hidden Peaks Head-piece" iconId="1092756657" category="54" nature="16"/>
+<trait identifier="1879456436" name="Hidden Peaks Leg-guards" iconId="1092756659" category="54" nature="16"/>
 </traits>
