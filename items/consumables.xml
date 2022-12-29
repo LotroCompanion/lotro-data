@@ -180,6 +180,12 @@
 <consumable identifier="1879055071" name="Scroll of Ancient Woodworking Lore" iconId="1090531737-1090519042-1090531738" class="57">
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Woodworker Critical Chance" constant="10.5"/>
 </consumable>
+<consumable identifier="1879055300" name="Brilliant Edhelharn Token" iconId="1091526108-1090519043-1091526121" class="28">
+<stat name="HOPE" constant="5.0"/>
+</consumable>
+<consumable identifier="1879055301" name="Glorious Edhelharn Token" iconId="1091526108-1090519044-1091526121" class="28">
+<stat name="HOPE" constant="5.0"/>
+</consumable>
 <consumable identifier="1879060114" name="Journeyman Shield-spike Kit" iconId="1090540516-1090519042-1090540517" class="179">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="2.0"/>
 </consumable>
@@ -493,11 +499,43 @@
 <stat name="OCMR" constant="512.43243"/>
 <stat name="OCPR" constant="490.5406"/>
 </consumable>
+<consumable identifier="1879067223" name="Dull Edhelharn Token" iconId="1091526113-1090519043-1091526110" class="28">
+<stat name="HOPE" constant="1.0"/>
+</consumable>
+<consumable identifier="1879067224" name="Dim Edhelharn Token" iconId="1091526113-1090519044-1091526110" class="28">
+<stat name="HOPE" constant="1.0"/>
+</consumable>
+<consumable identifier="1879068275" name="Barrow-iron Caltrops" iconId="1090623478-1090519042-1090623479" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
+<consumable identifier="1879069473" name="Faint Edhelharn Token" iconId="1091526112-1090519043-1091526111" class="28">
+<stat name="HOPE" constant="2.0"/>
+</consumable>
+<consumable identifier="1879069474" name="Pale Edhelharn Token" iconId="1091526112-1090519044-1091526111" class="28">
+<stat name="HOPE" constant="2.0"/>
+</consumable>
 <consumable identifier="1879070110" name="Expert Shield-spike Kit" iconId="1090552930-1090519042-1090552931" class="179">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="3.0"/>
 </consumable>
 <consumable identifier="1879070113" name="Expert Ancient Dwarf Shield-spike Kit" iconId="1090552932-1090519042-1090552933" class="179">
 <specialEffect label="Sets damage type of all shield skills to Ancient Dwarf"/>
+</consumable>
+<consumable identifier="1879070116" name="Rich-iron Caltrops" iconId="1090623478-1090519042-1090623479" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
+<consumable identifier="1879070148" name="Glossy Edhelharn Token" iconId="1091526105-1090519043-1091526104" class="28">
+<stat name="HOPE" constant="3.0"/>
+</consumable>
+<consumable identifier="1879070149" name="Polished Edhelharn Token" iconId="1091526105-1090519044-1091526104" class="28">
+<stat name="HOPE" constant="3.0"/>
+</consumable>
+<consumable identifier="1879070257" name="Shining Edhelharn Token" iconId="1091526117-1090519043-1091526119" class="28">
+<stat name="HOPE" constant="4.0"/>
+</consumable>
+<consumable identifier="1879070258" name="Gleaming Edhelharn Token" iconId="1091526117-1090519044-1091526119" class="28">
+<stat name="HOPE" constant="4.0"/>
 </consumable>
 <consumable identifier="1879070435" name="Artisan Shield-spike Kit" iconId="1090552946-1090519042-1090552947" class="179">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="4.0"/>
@@ -505,11 +543,24 @@
 <consumable identifier="1879070438" name="Artisan Beleriand Shield-spike Kit" iconId="1090540524-1090519042-1090540525" class="179">
 <specialEffect label="Sets damage type of all shield skills to Beleriand"/>
 </consumable>
+<consumable identifier="1879070441" name="Dwarf-iron Caltrops" iconId="1090623481-1090519042-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
 <consumable identifier="1879071944" name="Roast of Heroes" iconId="1090530348-1090522692-1090530349" class="55">
 <stat name="ICPR" constant="741.8919"/>
 <stat name="ICMR" constant="342.16214"/>
 <stat name="OCMR" constant="3012.162"/>
 <stat name="OCPR" constant="2894.5947"/>
+</consumable>
+<consumable identifier="1879074276" name="Gwatham" iconId="1090527435-1090519043-1091947416" class="3">
+<stat name="STEALTH_LEVEL" descriptionOverride="-" constant="2.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
+<specialEffect label="Your Stealth Level is increased, but you cannot move."/>
+</consumable>
+<consumable identifier="1879075434" name="Flaming Pinecone" iconId="1090557459-1090524208-1091947416" class="55">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="Slows movement speed by 30%" constant="30.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="30.0"/>
 </consumable>
 <consumable identifier="1879077913" name="Thistlebelly Brew" iconId="1090523137-1090522692-1090523138" class="55">
 <stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
@@ -729,6 +780,17 @@
 <stat name="OCMR" constant="5006.757"/>
 <stat name="OCPR" constant="4808.108"/>
 </consumable>
+<consumable identifier="1879087895" name="Dragon-tooth Shard" iconId="1090648274-1090519044-1090648276-1090648275" class="49">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Damage" constant="10.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
+</consumable>
+<consumable identifier="1879087896" name="Gem-encrusted Scale" iconId="1090648277-1090519044-1090648279-1090648278" class="49">
+<stat name="Combat_Agent_Armor_Value_Float" descriptionOverride="+${VALUE} Armour" constant="500.0"/>
+</consumable>
+<consumable identifier="1879087897" name="Dragon-bone Splinter" iconId="1090648280-1090519044-1090648282-1090648281" class="49">
+<stat name="Skill_HealingMultiplier_Item" descriptionOverride="+${PERCENTVALUE} Healing" constant="15.000001"/>
+</consumable>
 <consumable identifier="1879087898" name="Cram Biscuit" iconId="1090648268-1090522692-1090648270" class="55">
 <stat name="ICPR" constant="616.21625"/>
 <stat name="ICMR" constant="655.9459"/>
@@ -746,6 +808,24 @@
 </consumable>
 <consumable identifier="1879087902" name="Pot of Ringnen Salve" iconId="1090648286-1090519043-1090648288" class="28">
 <stat name="TACTICAL_MITIGATION" constant="228.83333"/>
+</consumable>
+<consumable identifier="1879087996" name="Nestadgarab" iconId="1090641904-1090519043-1090641911-1090641910" class="7">
+<stat name="OCMR" constant="3775.135"/>
+</consumable>
+<consumable identifier="1879087997" name="Nestathol" iconId="1090525875-1090519043-1090525877-1090525876" class="7">
+<stat name="OCMR" constant="3775.135"/>
+</consumable>
+<consumable identifier="1879087998" name="Nestathar" iconId="1090526120-1090519043-1090526122-1090526121" class="7">
+<stat name="OCMR" constant="3775.135"/>
+</consumable>
+<consumable identifier="1879087999" name="Atli's Cloth Shoes" iconId="1090533966-1090519043-1090533968-1090533967" class="23">
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="+${PERCENTVALUE} Run Speed" constant="25.0"/>
+</consumable>
+<consumable identifier="1879088000" name="Atli's Leather Shoes" iconId="1090537350-1090519043-1090537352-1090537351" class="23">
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="+${PERCENTVALUE} Run Speed" constant="25.0"/>
+</consumable>
+<consumable identifier="1879088001" name="Atli's Scale Shoes" iconId="1090533924-1090519043-1090533926-1090533925" class="23">
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="+${PERCENTVALUE} Run Speed" constant="25.0"/>
 </consumable>
 <consumable identifier="1879088006" name="Scroll of Jeweller Lore" iconId="1090523516-1090519042-1090523517" class="57">
 <stat name="JEWELLER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Jeweller Critical Chance" constant="5.5"/>
@@ -822,6 +902,67 @@
 <stat name="OCMR" constant="518.91895"/>
 <stat name="OCPR" constant="502.70267"/>
 </consumable>
+<consumable identifier="1879088545" name="Mace of the Deep Pool" iconId="1090524709-1090519043-1090524710-1090524711" class="30">
+<stat name="MIGHT" constant="46.074074"/>
+</consumable>
+<consumable identifier="1879088546" name="Tarist" iconId="1090523520-1090519043-1090523521-1090525455" class="1">
+<stat name="VITALITY" constant="34.68"/>
+</consumable>
+<consumable identifier="1879088547" name="Green-hill Spear" iconId="1090525483-1090519043-1090525484-1090525485" class="46">
+<stat name="AGILITY" constant="40.351852"/>
+</consumable>
+<consumable identifier="1879088551" name="Avorist" iconId="1090520082-1090519043-1090520083-1090520084" class="10">
+<stat name="AGILITY" constant="46.074074"/>
+</consumable>
+<consumable identifier="1879088647" name="Elven Striding Shoes" iconId="1090527474-1090519043-1090527476-1090527475" class="23">
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="+${PERCENTVALUE} Run Speed" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879088648" name="Leather Boots of Striding" iconId="1090520000-1090519043-1090520001-1090526178" class="23">
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="+${PERCENTVALUE} Run Speed" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879088649" name="Steel Boots of Striding" iconId="1090526108-1090519043-1090526110-1090526109" class="23">
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="+${PERCENTVALUE} Run Speed" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879088737" name="Robe of the Moors" iconId="1090527522-1090519043-1090527524-1090527523" class="3">
+<stat name="VITALITY" constant="70.520004"/>
+</consumable>
+<consumable identifier="1879088738" name="Stonehelm Shield" iconId="1090523247-1090519043-1090523248-1090523249" class="33">
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
+</consumable>
+<consumable identifier="1879088772" name="Dagger of the Badger" iconId="1090520082-1090519043-1090520083-1090520084" class="10">
+<stat name="EVADE" descriptionOverride="+3% Evade and Parry Chance" constant="0.03"/>
+<stat name="PARRY" constant="0.03"/>
+</consumable>
+<consumable identifier="1879089299" name="Pot of Crude Honey and Oats" iconId="1091388635-1090519042-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="169.35135"/>
+<stat name="SHADOW_MITIGATION" constant="169.35135"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="141.17567"/>
+<stat name="PERCEIVED_THREAT" constant="5.0"/>
+</consumable>
+<consumable identifier="1879089311" name="Pot of Honey and Oats" iconId="1091388635-1090519042-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="483.7973"/>
+<stat name="SHADOW_MITIGATION" constant="289.6216"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="483.7973"/>
+<stat name="PERCEIVED_THREAT" constant="10.0"/>
+</consumable>
+<consumable identifier="1879089312" name="Pot of Smooth Honey and Oats" iconId="1091388635-1090519042-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="1405.1351"/>
+<stat name="SHADOW_MITIGATION" constant="421.9189"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="1055.1351"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879089529" name="Pocket Link" iconId="1090540210-1090519043-1090540211" class="49">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Damage" constant="10.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
+</consumable>
+<consumable identifier="1879089534" name="Forvengwath's Fragment" iconId="1090649907-1090519044-1090649909-1090649908" class="49">
+<stat name="Combat_Agent_Armor_Value_Float" descriptionOverride="+${VALUE} Armour Increase" constant="350.0"/>
+</consumable>
+<consumable identifier="1879089557" name="Castellan's Robe" iconId="1090527522-1090519043-1090527524-1090527523" class="3">
+<stat name="FATE" constant="74.68518"/>
+</consumable>
 <consumable identifier="1879089569" name="Blue Bock Beer" iconId="1090523137-1090522692-1090523138" class="55">
 <stat name="Combat_BaseMissRate" descriptionOverride="-" constant="5.0"/>
 <stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
@@ -862,6 +1003,64 @@
 <stat name="Combat_BaseMissRate" descriptionOverride="-" constant="15.000001"/>
 <stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="20.0"/>
 </consumable>
+<consumable identifier="1879089705" name="Limdail" iconId="1090529919-1090519043-1090529921-1090529920" class="23">
+<stat name="FATE" constant="26.277779"/>
+</consumable>
+<consumable identifier="1879089706" name="Curugarab" iconId="1090641909-1090519043-1090641920-1090641919" class="7">
+<stat name="POWER" constant="35.153847"/>
+</consumable>
+<consumable identifier="1879089711" name="Calatherdir's Boots" iconId="1090526431-1090519042-1090526433-1090526432" class="23">
+<stat name="WILL" constant="24.38889"/>
+</consumable>
+<consumable identifier="1879089715" name="Golubadanir" iconId="1090523456-1090519043-1090523458-1090523457" class="15">
+<stat name="POWER" constant="76.0"/>
+</consumable>
+<consumable identifier="1879089718" name="Defender of Bonedigger Isle" iconId="1090524578-1090519043-1090524580-1090524579" class="7">
+<stat name="MIGHT" constant="26.277779"/>
+</consumable>
+<consumable identifier="1879089720" name="Messenger's Cloak" iconId="1090522482-1090519043-1090522484-1090522483" class="45">
+<stat name="MIGHT" constant="47.981483"/>
+</consumable>
+<consumable identifier="1879089751" name="Panthavron's Bangle" iconId="1090531632-1090519042-1090531634-1090531633" class="49">
+<stat name="WILL" constant="23.444445"/>
+</consumable>
+<consumable identifier="1879089754" name="Elloch" iconId="1090527701-1090519043-1090527703-1090527702" class="49">
+<stat name="AGILITY" constant="27.222221"/>
+</consumable>
+<consumable identifier="1879089756" name="Faerinn" iconId="1090528462-1090519043-1090528464-1090528463" class="49">
+<stat name="FATE" constant="23.444445"/>
+</consumable>
+<consumable identifier="1879089761" name="Calatherdir's Buckler" iconId="1090523245-1090519043-1090523246-1090523330" class="33">
+<stat name="MORALE" constant="66.6"/>
+</consumable>
+<consumable identifier="1879089763" name="Calatherdir's Wall" iconId="1090523245-1090519043-1090523246-1090523330" class="33">
+<stat name="FATE" constant="23.444445"/>
+</consumable>
+<consumable identifier="1879089771" name="Gwindeth's Great Sword" iconId="1090523945-1090519043-1090523946-1090523947" class="44">
+<stat name="FATE" constant="47.981483"/>
+</consumable>
+<consumable identifier="1879089774" name="Thief-taker's Bane" iconId="1090520088-1090519043-1090520089-1090520090" class="30">
+<stat name="MIGHT" constant="26.277779"/>
+</consumable>
+<consumable identifier="1879089779" name="Steak Tenderizer" iconId="1090524706-1090519043-1090524707-1090524708" class="30">
+<stat name="MORALE" constant="55.92"/>
+</consumable>
+<consumable identifier="1879089781" name="Ithilnaith" iconId="1090520848-1090519043-1090520849-1090520850" class="46">
+<stat name="AGILITY" constant="28.166668"/>
+</consumable>
+<consumable identifier="1879089917" name="Sam's Kitchen Knife" iconId="1090520085-1090519042-1090520086-1090520087" class="10">
+<stat name="FATE" constant="15.888889"/>
+</consumable>
+<consumable identifier="1879089927" name="White-warg Hunter" iconId="1090522482-1090519043-1090522484-1090522483" class="45">
+<stat name="MIGHT" constant="47.981483"/>
+</consumable>
+<consumable identifier="1879089934" name="Sig-hálm" iconId="1090526120-1090519043-1090526122-1090526121" class="7">
+<stat name="OCMR" constant="3775.135"/>
+<stat name="OCPR" constant="3616.2163"/>
+</consumable>
+<consumable identifier="1879089970" name="William's Doom" iconId="1090525592-1090519042-1090525593-1090525594" class="24">
+<stat name="MIGHT" constant="18.722221"/>
+</consumable>
 <consumable identifier="1879090967" name="Bow Chant: Major Breach-finder" iconId="1091388834-1090519042-1091388835" class="17">
 <stat name="Skill_DamageMitigation_RangedMod" constant="-900.0"/>
 </consumable>
@@ -874,8 +1073,32 @@
 <consumable identifier="1879090970" name="Bow Chant: Wind-rider" iconId="1091388836-1090519042-1091388837" class="17">
 <stat name="Skill_VitalCost_RangedMod" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Bow Skills Power Cost" constant="10.0"/>
 </consumable>
+<consumable identifier="1879091000" name="Armband of Giants" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="MIGHT" constant="74.68518"/>
+</consumable>
 <consumable identifier="1879091313" name="Bow Chant: Whisper-draw" iconId="1091388838-1090519042-1091388839" class="17">
 <stat name="Skill_AdditionalThreat_Hunter_AllRangeSkillsMod" descriptionOverride="Your bow skills generate less threat." constant="-3.0"/>
+</consumable>
+<consumable identifier="1879092159" name="Healer's Locket" iconId="1090641632-1091398978-1090641634-1090641633" class="49">
+<stat name="Skill_HealingMultiplier_Item" descriptionOverride="+${PERCENTVALUE} Healing" constant="10.0"/>
+</consumable>
+<consumable identifier="1879092279" name="Tallos" iconId="1090527701-1090519043-1090527703-1090527702" class="49">
+<stat name="AGILITY" constant="37.61111"/>
+</consumable>
+<consumable identifier="1879096857" name="Lucky Horseshoe" iconId="1091401076-1090519043-1091401077-1091401078" class="49">
+<stat name="FATE" constant="5.0"/>
+</consumable>
+<consumable identifier="1879096878" name="Scented Candle" iconId="1091401082-1090524208-1091947416" class="28">
+<stat name="HOPE" constant="1.0"/>
+</consumable>
+<consumable identifier="1879097062" name="Aeglang" iconId="1090539343-1090519044-1090539344-1090539345" class="10">
+<stat name="PARRY" constant="800.0"/>
+</consumable>
+<consumable identifier="1879097063" name="Torchathol" iconId="1090557063-1090519044-1090557064-1090557065" class="36">
+<stat name="HOPE" constant="1.0"/>
+</consumable>
+<consumable identifier="1879097063" name="Torchathol" iconId="1090557063-1090519044-1090557064-1090557065" class="36">
+<stat name="ICPR" constant="2849.2307"/>
 </consumable>
 <consumable identifier="1879097903" name="Phial of Gundzor's Breath" iconId="1090526144-1090519042-1090526145" class="28">
 <specialEffect label="You gain immunity to daze and stun effects for a short time."/>
@@ -1082,6 +1305,24 @@
 <stat name="Combat_BaseMissRate" descriptionOverride="-" constant="5.0"/>
 <stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
 </consumable>
+<consumable identifier="1879101989" name="The Ranger's Cloak" iconId="1090553567-1090519042-1091947416" class="45">
+<stat name="Movement_OutOfCombat_Speed_AddMod" constant="8.0"/>
+</consumable>
+<consumable identifier="1879102090" name="Cold-bear's Fur" iconId="1091400964-1090519043-1091400965-1091400966" class="49">
+<stat name="MORALE" constant="120.0"/>
+</consumable>
+<consumable identifier="1879102091" name="Cold-bear's Canine" iconId="1091400949-1090519043-1091400950-1091400951" class="49">
+<stat name="MORALE" constant="120.0"/>
+</consumable>
+<consumable identifier="1879102092" name="Cold-bear's Claw" iconId="1091400952-1090519043-1091400953-1091400954" class="49">
+<stat name="MORALE" constant="120.0"/>
+</consumable>
+<consumable identifier="1879102182" name="Archer's Lance" iconId="1090525483-1091398978-1090525484-1090525485" class="46">
+<stat name="AGILITY" constant="37.61111"/>
+</consumable>
+<consumable identifier="1879102373" name="Coblaith's Slippers" iconId="1090527474-1090519043-1090527476-1090527475" class="23">
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="+${PERCENTVALUE} Run Speed" constant="20.0"/>
+</consumable>
 <consumable identifier="1879103510" name="Inn League Keg" iconId="1092170144-1091424047-1091947416" class="85">
 <stat name="Combat_BaseMissRate" constant="10.0"/>
 </consumable>
@@ -1157,6 +1398,27 @@
 <stat name="Combat_BaseMissRate" descriptionOverride="-" constant="30.000002"/>
 <stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 </consumable>
+<consumable identifier="1879103908" name="Delver of Krúslë Lannan" iconId="1090537742-1090519044-1090537744-1090537743" class="49">
+<stat name="FATE" constant="34.77778"/>
+</consumable>
+<consumable identifier="1879106985" name="Matti's Thick Winter Leggings" iconId="1090538258-1090519043-1090538260-1090538259" class="15">
+<stat name="AGILITY" constant="63.24074"/>
+</consumable>
+<consumable identifier="1879106987" name="Matti's Winter Trousers" iconId="1090523823-1090519043-1090523825-1090523824" class="15">
+<stat name="WILL" constant="63.24074"/>
+</consumable>
+<consumable identifier="1879106989" name="Matti's Winter Leggings" iconId="1090526315-1090519043-1090526317-1090526316" class="15">
+<stat name="AGILITY" constant="63.24074"/>
+</consumable>
+<consumable identifier="1879107617" name="Mammutti Boots" iconId="1090524812-1091398978-1090524814-1090524813" class="23">
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="+${PERCENTVALUE} Run Speed" constant="20.0"/>
+</consumable>
+<consumable identifier="1879107624" name="Ajokoira Shoes" iconId="1090524300-1091398978-1090524301-1090524361" class="23">
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="+${PERCENTVALUE} Run Speed" constant="20.0"/>
+</consumable>
+<consumable identifier="1879107628" name="Leijona Boots" iconId="1090520000-1091398978-1090520001-1090526178" class="23">
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="+${PERCENTVALUE} Run Speed" constant="20.0"/>
+</consumable>
 <consumable identifier="1879107793" name="Baked Flounder" iconId="1091459919-1090522692-1091459927" class="55">
 <stat name="ICMR" constant="439.45944"/>
 </consumable>
@@ -1173,6 +1435,19 @@
 <consumable identifier="1879107797" name="Flagon of Ice Wine" iconId="1091459916-1090522692-1091459932" class="55">
 <stat name="Combat_BaseMissRate" descriptionOverride="-" constant="5.0"/>
 <stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
+</consumable>
+<consumable identifier="1879107941" name="Thick Leather Overshoes" iconId="1091441322-1090524208-1091947416" class="50">
+<specialEffect label="Briefly undetectable in stealth"/>
+<specialEffect label="Stealth not broken by damage"/>
+</consumable>
+<consumable identifier="1879107941" name="Thick Leather Overshoes" iconId="1091441322-1090524208-1091947416" class="50">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="50.0"/>
+</consumable>
+<consumable identifier="1879108036" name="Sparkling Edhelharn Token" iconId="1091526114-1090519043-1091526115" class="28">
+<stat name="HOPE" constant="5.0"/>
+</consumable>
+<consumable identifier="1879108043" name="Luminous Edhelharn Token" iconId="1091526114-1090519044-1091526115" class="28">
+<stat name="HOPE" constant="5.0"/>
 </consumable>
 <consumable identifier="1879108216" name="Scroll of Supreme Metalsmithing Lore" iconId="1090530434-1090519042-1090530435" class="57">
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Metalsmith Critical Chance" constant="13.0"/>
@@ -1194,6 +1469,15 @@
 </consumable>
 <consumable identifier="1879108241" name="Scroll of Supreme Woodworking Lore" iconId="1090531737-1090519042-1090531738" class="57">
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Woodworker Critical Chance" constant="13.0"/>
+</consumable>
+<consumable identifier="1879108301" name="Tasgall's Gift of Valour" iconId="1090533166-1090519044-1090533167-1090624141" class="49">
+<stat name="MIGHT" constant="31.944445"/>
+</consumable>
+<consumable identifier="1879108302" name="Tasgall's Gift of Destiny" iconId="1090533166-1090519044-1090533167-1090624141" class="49">
+<stat name="FATE" constant="31.944445"/>
+</consumable>
+<consumable identifier="1879108303" name="Tasgall's Gift of Wisdom" iconId="1090533166-1090519044-1090533167-1090624141" class="49">
+<stat name="WILL" constant="31.944445"/>
 </consumable>
 <consumable identifier="1879109258" name="Buttered Scone and Jam" iconId="1091471144-1090522692-1091471143" class="55">
 <stat name="MIGHT" constant="59.962963"/>
@@ -1230,6 +1514,9 @@
 <stat name="ICMR" constant="417.56757"/>
 <stat name="OCMR" constant="3775.135"/>
 <stat name="OCPR" constant="3616.2163"/>
+</consumable>
+<consumable identifier="1879109412" name="Teräs-sydän" iconId="1090523247-1091398978-1090523248-1090523249" class="33">
+<stat name="MIGHT" constant="37.61111"/>
 </consumable>
 <consumable identifier="1879110477" name="Fried Dace with Mushrooms" iconId="1091459925-1090522692-1091459920" class="55">
 <stat name="WILL" constant="4.5"/>
@@ -1441,6 +1728,14 @@
 <consumable identifier="1879113223" name="Gift of Greater Zeal" iconId="1091462480-1090519041-1091462481" class="28">
 <stat name="Trait_Virtue_Rank_Zeal" constant="3.0"/>
 </consumable>
+<consumable identifier="1879114185" name="Purple Gem Shard" iconId="1091478254-1090524208-1091947416" class="50">
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="50% Increased Mitigation vs. Melee" constant="50.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="50% Increased Mitigation vs. Ranged" constant="50.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="50% Increased Mitigation vs. Tactical" constant="50.0"/>
+</consumable>
+<consumable identifier="1879114186" name="Yellow Gem Shard" iconId="1091478257-1090524208-1091947416" class="50">
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="+90% Mitigation vs. Tactical" constant="90.0"/>
+</consumable>
 <consumable identifier="1879115209" name="Scroll of Ancient Warding Lore" iconId="1090531423-1090519042-1090531424" class="57">
 <stat name="PHYSICAL_MITIGATION" constant="433.5"/>
 <stat name="TACTICAL_MITIGATION" constant="433.5"/>
@@ -1497,6 +1792,234 @@
 <specialEffect label="Unable to parry."/>
 <specialEffect label="Unable to block."/>
 </consumable>
+<consumable identifier="1879115750" name="Amber Ring" iconId="1091477538-1090519043-1091477539-1091477540" class="49">
+<stat name="VITALITY" constant="100.0"/>
+</consumable>
+<consumable identifier="1879118642" name="Bracelet of Fleetness" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="AGILITY" constant="76.59259"/>
+</consumable>
+<consumable identifier="1879118643" name="Bracelet of Stamina" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="MORALE" constant="127.0"/>
+</consumable>
+<consumable identifier="1879118662" name="Bold Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="VITALITY" constant="42.13333"/>
+</consumable>
+<consumable identifier="1879118671" name="Bold Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="AGILITY" constant="80.40741"/>
+</consumable>
+<consumable identifier="1879118695" name="Bold Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="WILL" constant="41.38889"/>
+</consumable>
+<consumable identifier="1879118696" name="Bracelet of Vigour" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="MIGHT" constant="41.38889"/>
+</consumable>
+<consumable identifier="1879118700" name="Gleaming Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="MIGHT" constant="42.333336"/>
+</consumable>
+<consumable identifier="1879118704" name="Shining Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="WILL" constant="84.22222"/>
+</consumable>
+<consumable identifier="1879118714" name="Bracelet of Stamina" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="AGILITY" constant="84.22222"/>
+</consumable>
+<consumable identifier="1879118715" name="Bold Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="MORALE" constant="323.8"/>
+</consumable>
+<consumable identifier="1879118717" name="Shining Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="FATE" constant="86.12963"/>
+</consumable>
+<consumable identifier="1879118729" name="Bracelet of Stamina" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="POWER" constant="53.179485"/>
+</consumable>
+<consumable identifier="1879118763" name="Bracelet of Stamina" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="WILL" constant="91.85185"/>
+</consumable>
+<consumable identifier="1879118766" name="Bracelet of Vigour" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="VITALITY" constant="112.5"/>
+</consumable>
+<consumable identifier="1879118767" name="Shining Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="VITALITY" constant="56.6"/>
+</consumable>
+<consumable identifier="1879118778" name="Bracelet of Might" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="VITALITY" constant="116.66667"/>
+</consumable>
+<consumable identifier="1879118795" name="Shining Earring" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="POWER" constant="48.435898"/>
+</consumable>
+<consumable identifier="1879118796" name="Earring of Fate" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="AGILITY" constant="38.555557"/>
+</consumable>
+<consumable identifier="1879118799" name="Earring of Determination" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="MORALE" constant="253.96666"/>
+</consumable>
+<consumable identifier="1879118812" name="Earring of Fate" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="MORALE" constant="134.0"/>
+</consumable>
+<consumable identifier="1879118840" name="Earring of Courage" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="MORALE" constant="295.86667"/>
+</consumable>
+<consumable identifier="1879118845" name="Earring of Determination" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="MIGHT" constant="82.31482"/>
+</consumable>
+<consumable identifier="1879118846" name="Shining Earring" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="MIGHT" constant="82.31482"/>
+</consumable>
+<consumable identifier="1879118855" name="Earring of Fate" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="POWER" constant="104.46154"/>
+</consumable>
+<consumable identifier="1879118873" name="Earring of Determination" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="VITALITY" constant="100.0"/>
+</consumable>
+<consumable identifier="1879118883" name="Earring of Determination" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="POWER" constant="108.25641"/>
+</consumable>
+<consumable identifier="1879118899" name="Shining Earring" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="MORALE" constant="351.73334"/>
+</consumable>
+<consumable identifier="1879118900" name="Gleaming Earring" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="POWER" constant="55.076923"/>
+</consumable>
+<consumable identifier="1879118915" name="Earring of Determination" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="FATE" constant="46.11111"/>
+</consumable>
+<consumable identifier="1879118923" name="Earring of Fate" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="MORALE" constant="365.7"/>
+</consumable>
+<consumable identifier="1879118937" name="Earring of Fate" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="MIGHT" constant="93.75926"/>
+</consumable>
+<consumable identifier="1879118947" name="Gleaming Necklace" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="FATE" constant="76.59259"/>
+</consumable>
+<consumable identifier="1879118964" name="Light Necklace" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="MORALE" constant="134.0"/>
+</consumable>
+<consumable identifier="1879118965" name="Necklace of Endurance" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="VITALITY" constant="42.13333"/>
+</consumable>
+<consumable identifier="1879118967" name="Light Necklace" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="MIGHT" constant="78.5"/>
+</consumable>
+<consumable identifier="1879118984" name="Necklace of Might" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="VITALITY" constant="87.5"/>
+</consumable>
+<consumable identifier="1879118990" name="Necklace of Might" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="FATE" constant="82.31482"/>
+</consumable>
+<consumable identifier="1879119027" name="Gleaming Necklace" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="MORALE" constant="323.8"/>
+</consumable>
+<consumable identifier="1879119032" name="Necklace of Endurance" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="WILL" constant="88.03703"/>
+</consumable>
+<consumable identifier="1879119039" name="Necklace of Might" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="AGILITY" constant="44.22222"/>
+</consumable>
+<consumable identifier="1879119050" name="Gleaming Necklace" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="POWER" constant="55.076923"/>
+</consumable>
+<consumable identifier="1879119059" name="Gleaming Necklace" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="VITALITY" constant="108.33333"/>
+</consumable>
+<consumable identifier="1879119069" name="Necklace of Endurance" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="MIGHT" constant="46.11111"/>
+</consumable>
+<consumable identifier="1879119073" name="Necklace of Determination" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="MORALE" constant="365.7"/>
+</consumable>
+<consumable identifier="1879119078" name="Gleaming Necklace" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="FATE" constant="93.75926"/>
+</consumable>
+<consumable identifier="1879119084" name="Tough Necklace" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="VITALITY" constant="58.666664"/>
+</consumable>
+<consumable identifier="1879119091" name="Gleaming Ring" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="AGILITY" constant="38.555557"/>
+</consumable>
+<consumable identifier="1879119117" name="Ring of Peace" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="WILL" constant="78.5"/>
+</consumable>
+<consumable identifier="1879119133" name="Gleaming Ring" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="MORALE" constant="141.0"/>
+</consumable>
+<consumable identifier="1879119134" name="Shining Ring" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="POWER" constant="50.333332"/>
+</consumable>
+<consumable identifier="1879119144" name="Ring of Fleetness" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="POWER" constant="102.5641"/>
+</consumable>
+<consumable identifier="1879119150" name="Ring of Vigour" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="POWER" constant="52.23077"/>
+</consumable>
+<consumable identifier="1879119155" name="Ring of Vigour" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="AGILITY" constant="84.22222"/>
+</consumable>
+<consumable identifier="1879119164" name="Shining Ring" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="AGILITY" constant="42.333336"/>
+</consumable>
+<consumable identifier="1879119167" name="Ring of Determination" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="FATE" constant="86.12963"/>
+</consumable>
+<consumable identifier="1879119172" name="Sturdy Ring" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="POWER" constant="106.35897"/>
+</consumable>
+<consumable identifier="1879119175" name="Sturdy Ring" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="MIGHT" constant="86.12963"/>
+</consumable>
+<consumable identifier="1879119196" name="Ring of Peace" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="WILL" constant="89.94444"/>
+</consumable>
+<consumable identifier="1879119207" name="Ring of Vigour" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="FATE" constant="89.94444"/>
+</consumable>
+<consumable identifier="1879119211" name="Sturdy Ring" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="POWER" constant="56.025642"/>
+</consumable>
+<consumable identifier="1879119219" name="Ring of Peace" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="AGILITY" constant="46.11111"/>
+</consumable>
+<consumable identifier="1879119227" name="Shining Ring" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="WILL" constant="93.75926"/>
+</consumable>
+<consumable identifier="1879119232" name="Sturdy Ring" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="POWER" constant="56.974358"/>
+</consumable>
+<consumable identifier="1879119248" name="Gleaming Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="MORALE" constant="197.0"/>
+</consumable>
+<consumable identifier="1879119251" name="Shining Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="FATE" constant="48.0"/>
+</consumable>
+<consumable identifier="1879119260" name="Earring of Determination" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="WILL" constant="95.666664"/>
+</consumable>
+<consumable identifier="1879119266" name="Earring of Courage" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="VITALITY" constant="120.83333"/>
+</consumable>
+<consumable identifier="1879119285" name="Tough Necklace" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="POWER" constant="57.923077"/>
+</consumable>
+<consumable identifier="1879119286" name="Tough Necklace" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="AGILITY" constant="95.666664"/>
+</consumable>
+<consumable identifier="1879119297" name="Ring of Determination" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="FATE" constant="48.0"/>
+</consumable>
+<consumable identifier="1879119810" name="Horn of the Dwarrowdelf" iconId="1091466906-1090524208-1091947416" class="50">
+<stat name="HOPE" constant="1.0"/>
+</consumable>
+<consumable identifier="1879125987" name="Chief Guard's Uniform" iconId="1091509619-1090524208-1091947416" class="50">
+<specialEffect label="Disguised as a Moria Chief Guard. Briefly fools Unaware and Watchful Orcs, but not Alert Orcs."/>
+</consumable>
+<consumable identifier="1879125988" name="Lieutenant's Uniform" iconId="1091509616-1090524208-1091947416" class="50">
+<specialEffect label="Disguised as a Moria Lieutenant. Briefly fools Unaware, Watchful, and Alert Orcs."/>
+</consumable>
+<consumable identifier="1879134347" name="Jubut-rud" iconId="1090522482-1090519043-1090522484-1090522483" class="45">
+<stat name="WILL" constant="45.166664"/>
+</consumable>
+<consumable identifier="1879134356" name="Lethal-edge" iconId="1090520091-1090519043-1090520092-1090520093" class="44">
+<stat name="VITALITY" constant="54.533333"/>
+</consumable>
 <consumable identifier="1879135381" name="Superior Bread and Jam" iconId="1091471141-1090522692-1091471147" class="55">
 <stat name="ICPR" constant="616.21625"/>
 <stat name="ICMR" constant="298.37836"/>
@@ -1515,6 +2038,9 @@
 <consumable identifier="1879135394" name="Superior Cup of Red Tea" iconId="1091471153-1090522692-1091471139" class="55">
 <stat name="VITALITY" constant="90.0"/>
 </consumable>
+<consumable identifier="1879140048" name="Naudh-caer" iconId="1091515724-1090519043-1091515725-1091515726" class="33">
+<stat name="MORALE" constant="190.0"/>
+</consumable>
 <consumable identifier="1879140364" name="Spicy Toad Biscuit" iconId="1091477439-1090519042-1091477440" class="55">
 <stat name="ICPR" constant="27600.0"/>
 <stat name="ICMR" constant="30120.0"/>
@@ -1531,6 +2057,21 @@
 </consumable>
 <consumable identifier="1879140592" name="Phial of Conhuith" iconId="1091428830-1090519043-1091428831" class="28">
 <specialEffect label="You gain immunity to fear effects for a short time."/>
+</consumable>
+<consumable identifier="1879143138" name="Pot of Tasty Honey and Oats" iconId="1091388635-1090519042-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="1806.3513"/>
+<stat name="FROST_MITIGATION" constant="542.1892"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="1356.3513"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879143141" name="Pot of Delicious Honey and Oats" iconId="1091388635-1090519042-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="2207.5676"/>
+<stat name="ACID_MITIGATION" constant="662.4595"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="1657.5676"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879143198" name="Jofur-klath" iconId="1091467394-1090519044-1091467395-1091467396" class="3">
+<stat name="VITALITY" constant="58.666664"/>
 </consumable>
 <consumable identifier="1879143217" name="Bow Chant: Shield-bane" iconId="1091388850-1090519042-1091388851" class="17">
 <stat name="Skill_ChanceBlock_RangedMod" constant="-2.0"/>
@@ -1565,6 +2106,10 @@
 <consumable identifier="1879143406" name="Supreme Ancient Dwarf Shield-spike Kit" iconId="1090552932-1090519042-1090552933" class="179">
 <specialEffect label="Sets damage type of all shield skills to Ancient Dwarf"/>
 </consumable>
+<consumable identifier="1879143407" name="Ancient-iron Caltrops" iconId="1090623481-1090519042-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
 <consumable identifier="1879143426" name="Master Shield-spike Kit" iconId="1090552946-1090519042-1090552947" class="179">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="4.0"/>
 </consumable>
@@ -1580,8 +2125,15 @@
 <consumable identifier="1879143446" name="Resilient Master Westernesse Shield-spike Kit" iconId="1090540519-1090519043-1090540520" class="179">
 <specialEffect label="Sets damage type of all shield skills to Westernesse"/>
 </consumable>
+<consumable identifier="1879143452" name="Khazâd-iron Caltrops" iconId="1090623481-1090519042-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
 <consumable identifier="1879143459" name="Master Westernesse Shield-spike Kit" iconId="1090540519-1090519042-1090540520" class="179">
 <specialEffect label="Sets damage type of all shield skills to Westernesse"/>
+</consumable>
+<consumable identifier="1879143593" name="The Stone of the Dwarf-deeps" iconId="1091478489-1090519042-1091947416" class="49">
+<stat name="Movement_OutOfCombat_Speed_AddMod" constant="8.0"/>
 </consumable>
 <consumable identifier="1879143615" name="Potion of Ruindirith" iconId="1091478502-1090519041-1091478503" class="28">
 <stat name="ACID_MITIGATION" constant="100.0"/>
@@ -1615,6 +2167,18 @@
 </consumable>
 <consumable identifier="1879145210" name="Cup of Green Tea" iconId="1091512807-1090522692-1091512811" class="55">
 <stat name="ItemAdvancement_XP_AwardMultiplier" constant="10.0"/>
+</consumable>
+<consumable identifier="1879145570" name="Helm of the Garrison" iconId="1091580233-1090519043-1091580221-1091580228" class="7">
+<stat name="MORALE" constant="211.0"/>
+</consumable>
+<consumable identifier="1879145575" name="Helm of Laindehal's Watch" iconId="1091580305-1090519043-1091580293-1091580300" class="7">
+<stat name="POWER" constant="59.820515"/>
+</consumable>
+<consumable identifier="1879145579" name="Helm of the Officer" iconId="1091580233-1090519043-1091580221-1091580228" class="7">
+<stat name="POWER" constant="59.820515"/>
+</consumable>
+<consumable identifier="1879145589" name="Hat of the Wayfaring Poet" iconId="1091580269-1090519043-1091580257-1091580264" class="7">
+<stat name="POWER" constant="59.820515"/>
 </consumable>
 <consumable identifier="1879148518" name="General Talug's Armour Display" iconId="1091509619-1091424047-1091947416" class="84">
 <specialEffect label="For some reason, this Orkish armour does not seem to fool Orcs like it did before...maybe it is too clean."/>
@@ -1747,6 +2311,63 @@
 <stat name="RESISTANCE" constant="1152.3649"/>
 <stat name="Resist_Additional_Resistance_Disease" constant="2.0"/>
 </consumable>
+<consumable identifier="1879150275" name="Lothlórien Survival Guide" iconId="1090530434-1090524208-1091947416" class="50">
+<stat name="ForwardSource_Movement_SpeedMultiplier" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879150277" name="Wildlife of Middle-earth" iconId="1090530434-1090524208-1091947416" class="50">
+<stat name="Resist_AdditionalPoints_Resistance_Physical" operator="SUBSTRACT" constant="678.5405"/>
+<stat name="Resist_AdditionalPoints_Resistance_Magic" operator="SUBSTRACT" constant="678.5405"/>
+<stat name="Resist_AdditionalPoints_Resistance_Cry" operator="SUBSTRACT" constant="678.5405"/>
+<stat name="Resist_AdditionalPoints_Resistance_Song" operator="SUBSTRACT" constant="678.5405"/>
+</consumable>
+<consumable identifier="1879151274" name="Melkólf's Bludgeon" iconId="1090524706-1090519043-1090524707-1090524708" class="30">
+<stat name="POWER" constant="56.974358"/>
+</consumable>
+<consumable identifier="1879151280" name="Boots of the Galadhrim" iconId="1090525094-1090519043-1090525096-1090525095" class="23">
+<stat name="MORALE" constant="379.6667"/>
+</consumable>
+<consumable identifier="1879151281" name="Boots of the Golden Wood" iconId="1090552827-1090519043-1090552829-1090552828" class="23">
+<stat name="POWER" constant="113.948715"/>
+</consumable>
+<consumable identifier="1879151282" name="Bow of Unification" iconId="1090524310-1090519043-1090524311-1090524312" class="1">
+<stat name="VITALITY" constant="116.66667"/>
+</consumable>
+<consumable identifier="1879151318" name="Boar's Hide Shoulder Pads" iconId="1090523360-1090519043-1090523362-1090523361" class="6">
+<stat name="POWER" constant="113.948715"/>
+</consumable>
+<consumable identifier="1879151323" name="Boar's Hide Pauldrons" iconId="1090524997-1090519043-1090524999-1090524998" class="6">
+<stat name="POWER" constant="113.948715"/>
+</consumable>
+<consumable identifier="1879151324" name="Woodlord's Crown" iconId="1090524911-1090519043-1090524913-1090524912" class="7">
+<stat name="POWER" constant="56.974358"/>
+</consumable>
+<consumable identifier="1879151325" name="Boar's Hide Spaulders" iconId="1090523839-1090519043-1090523841-1090523840" class="6">
+<stat name="POWER" constant="113.948715"/>
+</consumable>
+<consumable identifier="1879151451" name="Lórien Armour Plating" iconId="1091401333-1090524208-1091947416" class="50">
+<stat name="PHYSICAL_MITIGATION" constant="1305.4445"/>
+</consumable>
+<consumable identifier="1879151453" name="Lórien Sharpening Stone" iconId="1091537619-1090524208-1091947416" class="50">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
+</consumable>
+<consumable identifier="1879152079" name="Randirchol" iconId="1090522482-1090519044-1090522484-1090522483" class="45">
+<stat name="POWER" constant="56.974358"/>
+</consumable>
+<consumable identifier="1879152094" name="Túrchol" iconId="1090522482-1090519043-1090522484-1090522483" class="45">
+<stat name="WILL" constant="93.75926"/>
+</consumable>
+<consumable identifier="1879152097" name="Cururingor" iconId="1091543249-1090519043-1091543250-1091543251" class="49">
+<stat name="MORALE" constant="379.6667"/>
+</consumable>
+<consumable identifier="1879152111" name="Curuthigil" iconId="1091543285-1090519043-1091543286-1091543287" class="49">
+<stat name="MIGHT" constant="93.75926"/>
+</consumable>
+<consumable identifier="1879152130" name="Cuguru" iconId="1090524310-1090519043-1090524311-1090524312" class="1">
+<stat name="MORALE" constant="190.0"/>
+</consumable>
+<consumable identifier="1879152132" name="Longhathol" iconId="1090524689-1090519043-1090524690-1090524691" class="36">
+<stat name="MORALE" constant="190.0"/>
+</consumable>
 <consumable identifier="1879152175" name="Novice's Mark" iconId="1090530092-1090519042-1090530093-1090537517" class="49">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
 </consumable>
@@ -1775,6 +2396,16 @@
 <stat name="Item_Runekeeper_Induction_PowerCost" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Induction Power Cost" constant="30.000002"/>
 <stat name="Trait_Runekeeper_NukeDot_Power" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <specialEffect label="Next Induction cannot be interrupted"/>
+</consumable>
+<consumable identifier="1879153743" name="The Graven Word" iconId="1091519852-1090519044-1091519853-1091519854" class="104">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Rune-keeper Skill Damage" constant="15.000001"/>
+<stat name="Trait_Runekeeper_EpicConclusion_ComboDamage" descriptionOverride="-" constant="15.000001"/>
+<stat name="Skill_Attunement_Runekeeper_Lightning_Ultimate_CriticalHitChance" descriptionOverride="-" constant="0.15"/>
+</consumable>
+<consumable identifier="1879153743" name="The Graven Word" iconId="1091519852-1090519044-1091519853-1091519854" class="104">
+<stat name="FINESSE" constant="1200.0"/>
+<stat name="Trait_Runekeeper_EpicConclusion_ComboDamage" descriptionOverride="-" constant="15.000001"/>
+<stat name="Skill_Attunement_Runekeeper_Lightning_Ultimate_CriticalHitChance" descriptionOverride="-" constant="0.15"/>
 </consumable>
 <consumable identifier="1879155678" name="Superior Galadhrim Ration" iconId="1091552351-1090522692-1091552348" class="55">
 <stat name="ICPR" constant="729.72974"/>
@@ -1812,6 +2443,15 @@
 <stat name="OCMR" constant="4521.081"/>
 <stat name="OCPR" constant="4329.73"/>
 </consumable>
+<consumable identifier="1879157231" name="Harbinger's Cloak" iconId="1091558814-1090519043-1091558815-1091558816" class="45">
+<stat name="Movement_OutOfCombat_Speed_AddMod" constant="8.0"/>
+</consumable>
+<consumable identifier="1879159223" name="Mug of Triple Strength Brandy" iconId="1091418744-1090524208-1091947416" class="205">
+<stat name="Combat_BaseMissRate" constant="10.0"/>
+</consumable>
+<consumable identifier="1879159224" name="Mug of... Liquid" iconId="1091418744-1090524208-1091947416" class="205">
+<stat name="Combat_BaseMissRate" constant="10.0"/>
+</consumable>
 <consumable identifier="1879162588" name="Race Horse" iconId="1091402657-1090519041-1091402658" class="8">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="Speed: +32%&#10;Morale: 100" constant="31.5"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
@@ -1827,6 +2467,195 @@
 <specialEffect label="Unable to evade."/>
 <specialEffect label="Unable to parry."/>
 <specialEffect label="Unable to block."/>
+</consumable>
+<consumable identifier="1879163422" name="Golden Host Helm of the Enlightened" iconId="1091580287-1091399834-1091580275-1091580282" class="7">
+<stat name="MORALE" constant="491.4"/>
+</consumable>
+<consumable identifier="1879163424" name="Tawarwaith Hat of the Enlightened" iconId="1091580251-1091399834-1091580239-1091580246" class="7">
+<stat name="MORALE" constant="491.4"/>
+</consumable>
+<consumable identifier="1879163429" name="Malledhrim Leggings of the Enlightened" iconId="1091580216-1091399834-1091580204-1091580211" class="15">
+<stat name="MORALE" constant="491.4"/>
+</consumable>
+<consumable identifier="1879163434" name="Tawarwaith Hat of the Awakened" iconId="1091580251-1091398978-1091580239-1091580246" class="7">
+<stat name="MORALE" constant="449.5"/>
+</consumable>
+<consumable identifier="1879163442" name="Malledhrim Helmet of the Awakened" iconId="1091580215-1091398978-1091580203-1091580210" class="7">
+<stat name="MORALE" constant="449.5"/>
+</consumable>
+<consumable identifier="1879163443" name="Tawarwaith Robe of the Enlightened" iconId="1091580254-1091399834-1091580242-1091580249" class="3">
+<stat name="FATE" constant="109.01852"/>
+</consumable>
+<consumable identifier="1879163444" name="Malledhrim Hauberk of the Awakened" iconId="1091580218-1091398978-1091580206-1091580213" class="3">
+<stat name="MORALE" constant="449.5"/>
+</consumable>
+<consumable identifier="1879163452" name="Golden Host Shoulder Pads of the Enlightened" iconId="1091580289-1091399834-1091580277-1091580284" class="6">
+<stat name="MORALE" constant="491.4"/>
+</consumable>
+<consumable identifier="1879163453" name="Golden Host Coat of the Awakened" iconId="1091580290-1091398978-1091580278-1091580285" class="3">
+<stat name="AGILITY" constant="103.296295"/>
+</consumable>
+<consumable identifier="1879163454" name="Malledhrim Pauldrons of the Awakened" iconId="1091580217-1091398978-1091580205-1091580212" class="6">
+<stat name="MORALE" constant="449.5"/>
+</consumable>
+<consumable identifier="1879163455" name="Malledhrim Pauldrons of the Enlightened" iconId="1091580217-1091399834-1091580205-1091580212" class="6">
+<stat name="MORALE" constant="491.4"/>
+</consumable>
+<consumable identifier="1879163457" name="Tawarwaith Shoulder Pads of the Enlightened" iconId="1091580253-1091399834-1091580241-1091580248" class="6">
+<stat name="MORALE" constant="491.4"/>
+</consumable>
+<consumable identifier="1879163458" name="Tawarwaith Leggings of the Enlightened" iconId="1091580252-1091399834-1091580240-1091580247" class="15">
+<stat name="MORALE" constant="491.4"/>
+</consumable>
+<consumable identifier="1879163463" name="Malledhrim Boots of the Awakened" iconId="1091580207-1091398978-1091580201-1091580208" class="23">
+<stat name="POWER" constant="123.4359"/>
+</consumable>
+<consumable identifier="1879163464" name="Tawarwaith Shoes of the Awakened" iconId="1091580243-1091398978-1091580237-1091580244" class="23">
+<stat name="POWER" constant="123.4359"/>
+</consumable>
+<consumable identifier="1879163465" name="Malledhrim Helmet of the Enlightened" iconId="1091580215-1091399834-1091580203-1091580210" class="7">
+<stat name="MORALE" constant="491.4"/>
+</consumable>
+<consumable identifier="1879163467" name="Malledhrim Hauberk of the Enlightened" iconId="1091580218-1091399834-1091580206-1091580213" class="3">
+<stat name="MORALE" constant="491.4"/>
+</consumable>
+<consumable identifier="1879163468" name="Golden Host Gloves of the Awakened" iconId="1091580286-1091398978-1091580274-1091580281" class="5">
+<stat name="POWER" constant="123.4359"/>
+</consumable>
+<consumable identifier="1879163470" name="Tawarwaith Leggings of the Awakened" iconId="1091580252-1091398978-1091580240-1091580247" class="15">
+<stat name="MORALE" constant="449.5"/>
+</consumable>
+<consumable identifier="1879163475" name="Tawarwaith Shoulder Pads of the Awakened" iconId="1091580253-1091398978-1091580241-1091580248" class="6">
+<stat name="MORALE" constant="449.5"/>
+</consumable>
+<consumable identifier="1879163482" name="Tawarwaith Shoes of the Enlightened" iconId="1091580243-1091399834-1091580237-1091580244" class="23">
+<stat name="POWER" constant="129.1282"/>
+</consumable>
+<consumable identifier="1879163483" name="Golden Host Shoulder Pads of the Awakened" iconId="1091580289-1091398978-1091580277-1091580284" class="6">
+<stat name="MORALE" constant="449.5"/>
+</consumable>
+<consumable identifier="1879163484" name="Tawarwaith Gloves of the Awakened" iconId="1091580250-1091398978-1091580238-1091580245" class="5">
+<stat name="POWER" constant="123.4359"/>
+</consumable>
+<consumable identifier="1879163489" name="Golden Host Coat of the Enlightened" iconId="1091580290-1091399834-1091580278-1091580285" class="3">
+<stat name="AGILITY" constant="109.01852"/>
+</consumable>
+<consumable identifier="1879163492" name="Golden Host Leggings of the Enlightened" iconId="1091580288-1091399834-1091580276-1091580283" class="15">
+<stat name="MORALE" constant="491.4"/>
+</consumable>
+<consumable identifier="1879163493" name="Tawarwaith Gloves of the Enlightened" iconId="1091580250-1091399834-1091580238-1091580245" class="5">
+<stat name="POWER" constant="129.1282"/>
+</consumable>
+<consumable identifier="1879163496" name="Malledhrim Leggings of the Awakened" iconId="1091580216-1091398978-1091580204-1091580211" class="15">
+<stat name="MORALE" constant="449.5"/>
+</consumable>
+<consumable identifier="1879163497" name="Golden Host Gloves of the Enlightened" iconId="1091580286-1091399834-1091580274-1091580281" class="5">
+<stat name="POWER" constant="129.1282"/>
+</consumable>
+<consumable identifier="1879163504" name="Tawarwaith Robe of the Awakened" iconId="1091580254-1091398978-1091580242-1091580249" class="3">
+<stat name="FATE" constant="103.296295"/>
+</consumable>
+<consumable identifier="1879163505" name="Golden Host Helm of the Awakened" iconId="1091580287-1091398978-1091580275-1091580282" class="7">
+<stat name="MORALE" constant="449.5"/>
+</consumable>
+<consumable identifier="1879163508" name="Malledhrim Gauntlets of the Enlightened" iconId="1091580214-1091399834-1091580202-1091580209" class="5">
+<stat name="POWER" constant="129.1282"/>
+</consumable>
+<consumable identifier="1879163511" name="Golden Host Boots of the Enlightened" iconId="1091580279-1091399834-1091580273-1091580280" class="23">
+<stat name="POWER" constant="129.1282"/>
+</consumable>
+<consumable identifier="1879163514" name="Malledhrim Gauntlets of the Awakened" iconId="1091580214-1091398978-1091580202-1091580209" class="5">
+<stat name="POWER" constant="123.4359"/>
+</consumable>
+<consumable identifier="1879163517" name="Golden Host Leggings of the Awakened" iconId="1091580288-1091398978-1091580276-1091580283" class="15">
+<stat name="MORALE" constant="449.5"/>
+</consumable>
+<consumable identifier="1879163521" name="Golden Host Boots of the Awakened" iconId="1091580279-1091398978-1091580273-1091580280" class="23">
+<stat name="POWER" constant="123.4359"/>
+</consumable>
+<consumable identifier="1879163522" name="Malledhrim Boots of the Enlightened" iconId="1091580207-1091399834-1091580201-1091580208" class="23">
+<stat name="POWER" constant="129.1282"/>
+</consumable>
+<consumable identifier="1879168215" name="Shining Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="WILL" constant="101.388885"/>
+</consumable>
+<consumable identifier="1879168341" name="Earring of Fate" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="MORALE" constant="435.53333"/>
+</consumable>
+<consumable identifier="1879168486" name="Bold Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="WILL" constant="49.88889"/>
+</consumable>
+<consumable identifier="1879168616" name="Earring of Fate" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="POWER" constant="119.64103"/>
+</consumable>
+<consumable identifier="1879168711" name="Light Necklace" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="MIGHT" constant="97.57407"/>
+</consumable>
+<consumable identifier="1879168801" name="Necklace of Endurance" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="MIGHT" constant="50.833332"/>
+</consumable>
+<consumable identifier="1879169036" name="Earring of Determination" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="WILL" constant="103.296295"/>
+</consumable>
+<consumable identifier="1879169232" name="Ring of Peace" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="WILL" constant="97.57407"/>
+</consumable>
+<consumable identifier="1879169398" name="Bracelet of Stamina" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="AGILITY" constant="101.388885"/>
+</consumable>
+<consumable identifier="1879169741" name="Ring of Vigour" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="FATE" constant="97.57407"/>
+</consumable>
+<consumable identifier="1879169830" name="Gleaming Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="MIGHT" constant="50.833332"/>
+</consumable>
+<consumable identifier="1879170001" name="Necklace of Endurance" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="VITALITY" constant="62.8"/>
+</consumable>
+<consumable identifier="1879170441" name="Light Necklace" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="MORALE" constant="204.0"/>
+</consumable>
+<consumable identifier="1879170577" name="Necklace of Determination" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="MORALE" constant="435.53333"/>
+</consumable>
+<consumable identifier="1879170626" name="Tough Necklace" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="AGILITY" constant="103.296295"/>
+</consumable>
+<consumable identifier="1879170662" name="Bracelet of Vigour" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="MIGHT" constant="49.88889"/>
+</consumable>
+<consumable identifier="1879170672" name="Earring of Courage" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="VITALITY" constant="137.5"/>
+</consumable>
+<consumable identifier="1879170928" name="Necklace of Might" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="VITALITY" constant="129.16667"/>
+</consumable>
+<consumable identifier="1879171053" name="Tough Necklace" iconId="1090523202-1090519043-1090523203-1090528575" class="49">
+<stat name="POWER" constant="61.71795"/>
+</consumable>
+<consumable identifier="1879171199" name="Ring of Determination" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="FATE" constant="51.77778"/>
+</consumable>
+<consumable identifier="1879171227" name="Earring of Determination" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="FATE" constant="50.833332"/>
+</consumable>
+<consumable identifier="1879171258" name="Earring of Fate" iconId="1090524760-1090519043-1090524761-1090528045" class="49">
+<stat name="MORALE" constant="204.0"/>
+</consumable>
+<consumable identifier="1879171310" name="Ring of Fleetness" iconId="1090524763-1090519043-1090524764-1090527704" class="49">
+<stat name="POWER" constant="119.64103"/>
+</consumable>
+<consumable identifier="1879171612" name="Shining Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="FATE" constant="51.77778"/>
+</consumable>
+<consumable identifier="1879171659" name="Gleaming Bracelet" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="MORALE" constant="225.0"/>
+</consumable>
+<consumable identifier="1879173655" name="Pot of Sweet Honey and Oats" iconId="1091388635-1090519042-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="2608.7837"/>
+<stat name="SHADOW_MITIGATION" constant="782.72974"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="1958.7838"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
 </consumable>
 <consumable identifier="1879173698" name="Bow Chant: Supreme Shield-bane" iconId="1091388850-1090519042-1091388851" class="17">
 <stat name="Skill_ChanceBlock_RangedMod" constant="-2.0"/>
@@ -1963,6 +2792,10 @@
 <consumable identifier="1879182148" name="Superior Breakfast Barley with Fruit" iconId="1091584376-1090522692-1091584377" class="55">
 <stat name="WILL" constant="44.38889"/>
 </consumable>
+<consumable identifier="1879182573" name="Khazâd-steel Caltrops" iconId="1090623481-1090519042-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
 <consumable identifier="1879182720" name="Moria Keg" iconId="1092170145-1091424047-1091947416" class="85">
 <stat name="Combat_BaseMissRate" constant="10.0"/>
 </consumable>
@@ -2023,6 +2856,18 @@
 <consumable identifier="1879185888" name="+10% Run Speed Boost (6 hours)" iconId="1091590351-1091591349-1091590329" class="189">
 <stat name="Movement_OutOfCombat_Speed_AddMod" constant="10.0"/>
 </consumable>
+<consumable identifier="1879185889" name="Out-of-Combat Regen Tome (6 hours)" iconId="1091590352-1091591349-1091590330" class="189">
+<stat name="OCPR" constant="225.0"/>
+<stat name="OCMR" constant="150.0"/>
+</consumable>
+<consumable identifier="1879185890" name="Out-of-Combat Regen Tome (6 hours)" iconId="1091590353-1091591349-1091590331" class="189">
+<stat name="OCPR" constant="225.0"/>
+<stat name="OCMR" constant="150.0"/>
+</consumable>
+<consumable identifier="1879185891" name="Out-of-Combat Regen Tome (6 hours)" iconId="1091590354-1091591349-1091590332" class="189">
+<stat name="OCPR" constant="225.0"/>
+<stat name="OCMR" constant="150.0"/>
+</consumable>
 <consumable identifier="1879185892" name="+1 Hope Tome (30 min)" iconId="1091590355-1091591349-1091590333" class="189">
 <stat name="HOPE" constant="1.0"/>
 </consumable>
@@ -2055,6 +2900,18 @@
 </consumable>
 <consumable identifier="1879185903" name="+153 Max Power (6 hours)" iconId="1091590366-1091591349-1091590344" class="189">
 <stat name="POWER" constant="153.0"/>
+</consumable>
+<consumable identifier="1879185904" name="Basic Physical Mitigation Tome (6 hours)" iconId="1091590367-1091591349-1091590345" class="189">
+<stat name="PHYSICAL_MITIGATION" constant="4.0"/>
+</consumable>
+<consumable identifier="1879185905" name="Advanced Physical Mitigation Tome (6 hours)" iconId="1091590368-1091591349-1091590346" class="189">
+<stat name="PHYSICAL_MITIGATION" constant="7.0"/>
+</consumable>
+<consumable identifier="1879185906" name="Elite Physical Mitigation Tome (6 hours)" iconId="1091590369-1091591349-1091590347" class="189">
+<stat name="PHYSICAL_MITIGATION" constant="10.0"/>
+</consumable>
+<consumable identifier="1879185907" name="Supreme Physical Mitigation Tome (6 hours)" iconId="1091590370-1091591349-1091590348" class="189">
+<stat name="PHYSICAL_MITIGATION" constant="13.0"/>
 </consumable>
 <consumable identifier="1879185968" name="Regenerative Food (Tier 7)" iconId="1091590733-1091591349-1091590734" class="55">
 <stat name="ICPR" constant="729.72974"/>
@@ -2225,6 +3082,18 @@
 <consumable identifier="1879189558" name="Tome of Continuing Swiftness" iconId="1091590351-1090519045-1091590329" class="189">
 <stat name="Movement_OutOfCombat_Speed_AddMod" constant="5.0"/>
 </consumable>
+<consumable identifier="1879189559" name="Tome of Burst of Recovery" iconId="1091590352-1090524208-1091947416" class="189">
+<stat name="OCPR" constant="225.0"/>
+<stat name="OCMR" constant="150.0"/>
+</consumable>
+<consumable identifier="1879189560" name="Tome of Sustained Recovery" iconId="1091590353-1090524208-1091947416" class="189">
+<stat name="OCPR" constant="225.0"/>
+<stat name="OCMR" constant="150.0"/>
+</consumable>
+<consumable identifier="1879189561" name="Tome of Continuing Recovery" iconId="1091590354-1090524208-1091947416" class="189">
+<stat name="OCPR" constant="225.0"/>
+<stat name="OCMR" constant="150.0"/>
+</consumable>
 <consumable identifier="1879189562" name="Tome of Sustained Hope" iconId="1091590356-1090519045-1091590334" class="189">
 <stat name="HOPE" constant="1.0"/>
 </consumable>
@@ -2252,9 +3121,21 @@
 <consumable identifier="1879189571" name="Tome of Experienced Vigour" iconId="1091590365-1090519045-1091590343" class="189">
 <stat name="POWER" constant="146.0"/>
 </consumable>
+<consumable identifier="1879189572" name="Tome of Initiate Fortitude" iconId="1091590367-1090524208-1091947416" class="189">
+<stat name="PHYSICAL_MITIGATION" constant="4.0"/>
+</consumable>
+<consumable identifier="1879189573" name="Tome of Experienced Fortitude" iconId="1091590369-1090524208-1091947416" class="189">
+<stat name="PHYSICAL_MITIGATION" constant="10.0"/>
+</consumable>
+<consumable identifier="1879189574" name="Tome of Veteran Fortitude" iconId="1091590370-1090524208-1091947416" class="189">
+<stat name="PHYSICAL_MITIGATION" constant="13.0"/>
+</consumable>
 <consumable identifier="1879189619" name="Writ of Special Passage" iconId="1091591346-1090519045-1091591347" class="191">
 <stat name="ForwardSource_Discount_Travel_Special" operator="SET" descriptionOverride="Free Passage" constant="100.0"/>
 <specialEffect label="Swift Travel Unlocked"/>
+</consumable>
+<consumable identifier="1879189622" name="Tome of Accomplished Fortitude" iconId="1091590368-1090524208-1091947416" class="189">
+<stat name="PHYSICAL_MITIGATION" constant="7.0"/>
 </consumable>
 <consumable identifier="1879189624" name="Tome of Veteran Vigour" iconId="1091590366-1090519045-1091590344" class="189">
 <stat name="POWER" constant="153.0"/>
@@ -2486,6 +3367,52 @@
 <consumable identifier="1879189815" name="Bow Chant: Novice Foe-finder" iconId="1091388848-1091591349-1091388849" class="17">
 <stat name="Skill_ChanceEvade_RangedMod" constant="-2.0"/>
 </consumable>
+<consumable identifier="1879190054" name="Pot of Savoury Honey and Oats" iconId="1091388635-1091591349-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="2408.1758"/>
+<stat name="SHADOW_MITIGATION" constant="722.5946"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="1808.1757"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879190055" name="Pot of Simple Honey and Oats" iconId="1091388635-1091591349-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="403.31082"/>
+<stat name="SHADOW_MITIGATION" constant="241.51352"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="403.31082"/>
+<stat name="PERCEIVED_THREAT" constant="10.0"/>
+</consumable>
+<consumable identifier="1879190056" name="Pot of Delectable Honey and Oats" iconId="1091388635-1091591349-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="2006.9595"/>
+<stat name="ACID_MITIGATION" constant="602.32434"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="1506.9595"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879190057" name="Pot of Appetizing Honey and Oats" iconId="1091388635-1091591349-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="1204.527"/>
+<stat name="SHADOW_MITIGATION" constant="361.78378"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="904.52704"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879190058" name="Pot of Flavourful Honey and Oats" iconId="1091388635-1091591349-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="1605.7433"/>
+<stat name="FROST_MITIGATION" constant="482.05405"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="1205.7433"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879190061" name="Journeyman Caltrops" iconId="1090623478-1091591349-1090623479" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
+<consumable identifier="1879190062" name="Apprentice Caltrops" iconId="1090623478-1091591349-1090623479" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
+<consumable identifier="1879190067" name="Artisan Caltrops" iconId="1090623481-1091591349-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
+<consumable identifier="1879190070" name="Expert Caltrops" iconId="1090623481-1091591349-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
 <consumable identifier="1879190621" name="+4% Attack Damage (6 hours)" iconId="1091590831-1091591349-1091590832" class="189">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="4.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="4.0"/>
@@ -2506,31 +3433,223 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
 </consumable>
+<consumable identifier="1879190749" name="Frost Mitigation Tome (45 min)" iconId="1091604220-1091591349-1091604221" class="189">
+<stat name="FROST_MITIGATION" constant="13.0"/>
+</consumable>
+<consumable identifier="1879190750" name="Lightning Mitigation Tome (45 min)" iconId="1091604228-1091591349-1091604229" class="189">
+<stat name="Combat_ArmorDefense_PointsModifier_Lightning" constant="13.0"/>
+</consumable>
+<consumable identifier="1879190751" name="Fire Mitigation Tome (60 min)" iconId="1091604214-1091591349-1091604215" class="189">
+<stat name="FIRE_MITIGATION" constant="17.0"/>
+</consumable>
+<consumable identifier="1879190752" name="Acid Mitigation Tome (90 min)" iconId="1091604208-1091591349-1091604209" class="189">
+<stat name="ACID_MITIGATION" constant="21.0"/>
+</consumable>
+<consumable identifier="1879190753" name="Fire Mitigation Tome (30 min)" iconId="1091604210-1091591349-1091604211" class="189">
+<stat name="FIRE_MITIGATION" constant="9.0"/>
+</consumable>
+<consumable identifier="1879190754" name="Lightning Mitigation Tome (30 min)" iconId="1091604226-1091591349-1091604227" class="189">
+<stat name="Combat_ArmorDefense_PointsModifier_Lightning" constant="9.0"/>
+</consumable>
+<consumable identifier="1879190755" name="Shadow Mitigation Tome (90 min)" iconId="1091604240-1091591349-1091604241" class="189">
+<stat name="SHADOW_MITIGATION" constant="21.0"/>
+</consumable>
+<consumable identifier="1879190756" name="Lightning Mitigation Tome (60 min)" iconId="1091604230-1091591349-1091604231" class="189">
+<stat name="Combat_ArmorDefense_PointsModifier_Lightning" constant="17.0"/>
+</consumable>
+<consumable identifier="1879190757" name="Fire Mitigation Tome (45 min)" iconId="1091604212-1091591349-1091604213" class="189">
+<stat name="FIRE_MITIGATION" constant="13.0"/>
+</consumable>
+<consumable identifier="1879190758" name="Frost Mitigation Tome (30 min)" iconId="1091604218-1091591349-1091604219" class="189">
+<stat name="FROST_MITIGATION" constant="9.0"/>
+</consumable>
+<consumable identifier="1879190759" name="Fire Mitigation Tome (90 min)" iconId="1091604216-1091591349-1091604217" class="189">
+<stat name="FIRE_MITIGATION" constant="21.0"/>
+</consumable>
+<consumable identifier="1879190760" name="Acid Mitigation Tome (60 min)" iconId="1091604206-1091591349-1091604207" class="189">
+<stat name="ACID_MITIGATION" constant="17.0"/>
+</consumable>
+<consumable identifier="1879190761" name="Shadow Mitigation Tome (60 min)" iconId="1091604238-1091591349-1091604239" class="189">
+<stat name="SHADOW_MITIGATION" constant="17.0"/>
+</consumable>
+<consumable identifier="1879190762" name="Lightning Mitigation Tome (90 min)" iconId="1091604232-1091591349-1091604233" class="189">
+<stat name="Combat_ArmorDefense_PointsModifier_Lightning" constant="21.0"/>
+</consumable>
+<consumable identifier="1879190763" name="Acid Mitigation Tome (30 min)" iconId="1091604202-1091591349-1091604203" class="189">
+<stat name="ACID_MITIGATION" constant="9.0"/>
+</consumable>
+<consumable identifier="1879190764" name="Shadow Mitigation Tome (30 min)" iconId="1091604234-1091591349-1091604235" class="189">
+<stat name="SHADOW_MITIGATION" constant="9.0"/>
+</consumable>
+<consumable identifier="1879190765" name="Acid Mitigation Tome (45 min)" iconId="1091604204-1091591349-1091604205" class="189">
+<stat name="ACID_MITIGATION" constant="13.0"/>
+</consumable>
+<consumable identifier="1879190766" name="Shadow Mitigation Tome (45 min)" iconId="1091604236-1091591349-1091604237" class="189">
+<stat name="SHADOW_MITIGATION" constant="13.0"/>
+</consumable>
+<consumable identifier="1879190767" name="Frost Mitigation Tome (60 min)" iconId="1091604222-1091591349-1091604223" class="189">
+<stat name="FROST_MITIGATION" constant="17.0"/>
+</consumable>
+<consumable identifier="1879190768" name="Frost Mitigation Tome (90 min)" iconId="1091604224-1091591349-1091604225" class="189">
+<stat name="FROST_MITIGATION" constant="21.0"/>
+</consumable>
+<consumable identifier="1879190979" name="Tome of Initiate Frost Mitigation" iconId="1091604218-1090524208-1091947416" class="189">
+<stat name="FROST_MITIGATION" constant="9.0"/>
+</consumable>
+<consumable identifier="1879190980" name="Tome of Initiate Fire Mitigation" iconId="1091604210-1090524208-1091947416" class="189">
+<stat name="FIRE_MITIGATION" constant="9.0"/>
+</consumable>
+<consumable identifier="1879190981" name="Tome of Experienced Fire Mitigation" iconId="1091604214-1090524208-1091947416" class="189">
+<stat name="FIRE_MITIGATION" constant="17.0"/>
+</consumable>
+<consumable identifier="1879190982" name="Tome of Accomplished Shadow Mitigation" iconId="1091604236-1090524208-1091947416" class="189">
+<stat name="SHADOW_MITIGATION" constant="13.0"/>
+</consumable>
 <consumable identifier="1879190983" name="Tome of Accomplished Offence" iconId="1091590831-1090519045-1091590832" class="189">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="4.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="4.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="4.0"/>
+</consumable>
+<consumable identifier="1879190984" name="Tome of Accomplished Frost Mitigation" iconId="1091604220-1090524208-1091947416" class="189">
+<stat name="FROST_MITIGATION" constant="13.0"/>
+</consumable>
+<consumable identifier="1879190985" name="Tome of Veteran Acid Mitigation" iconId="1091604208-1090524208-1091947416" class="189">
+<stat name="ACID_MITIGATION" constant="21.0"/>
+</consumable>
+<consumable identifier="1879190986" name="Tome of Initiate Shadow Mitigation" iconId="1091604234-1090524208-1091947416" class="189">
+<stat name="SHADOW_MITIGATION" constant="9.0"/>
 </consumable>
 <consumable identifier="1879190987" name="Tome of Experienced Offence" iconId="1091590833-1090519045-1091590834" class="189">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
 </consumable>
+<consumable identifier="1879190988" name="Tome of Experienced Frost Mitigation" iconId="1091604222-1090524208-1091947416" class="189">
+<stat name="FROST_MITIGATION" constant="17.0"/>
+</consumable>
+<consumable identifier="1879190989" name="Tome of Veteran Lightning Mitigation" iconId="1091604232-1090524208-1091947416" class="189">
+<stat name="Combat_ArmorDefense_PointsModifier_Lightning" constant="21.0"/>
+</consumable>
 <consumable identifier="1879190990" name="Tome of Veteran Offence" iconId="1091590835-1090519045-1091590836" class="189">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
+</consumable>
+<consumable identifier="1879190991" name="Tome of Initiate Lightning Mitigation" iconId="1091604226-1090524208-1091947416" class="189">
+<stat name="Combat_ArmorDefense_PointsModifier_Lightning" constant="9.0"/>
+</consumable>
+<consumable identifier="1879190992" name="Tome of Veteran Frost Mitigation" iconId="1091604224-1090524208-1091947416" class="189">
+<stat name="FROST_MITIGATION" constant="21.0"/>
+</consumable>
+<consumable identifier="1879190993" name="Tome of Veteran Fire Mitigation" iconId="1091604216-1090524208-1091947416" class="189">
+<stat name="FIRE_MITIGATION" constant="21.0"/>
+</consumable>
+<consumable identifier="1879190994" name="Tome of Accomplished Acid Mitigation" iconId="1091604204-1090524208-1091947416" class="189">
+<stat name="ACID_MITIGATION" constant="13.0"/>
+</consumable>
+<consumable identifier="1879190995" name="Tome of Experienced Lightning Mitigation" iconId="1091604230-1090524208-1091947416" class="189">
+<stat name="Combat_ArmorDefense_PointsModifier_Lightning" constant="17.0"/>
+</consumable>
+<consumable identifier="1879190996" name="Tome of Initiate Acid Mitigation" iconId="1091604202-1090524208-1091947416" class="189">
+<stat name="ACID_MITIGATION" constant="9.0"/>
+</consumable>
+<consumable identifier="1879190997" name="Tome of Veteran Shadow Mitigation" iconId="1091604240-1090524208-1091947416" class="189">
+<stat name="SHADOW_MITIGATION" constant="21.0"/>
+</consumable>
+<consumable identifier="1879190998" name="Tome of Experienced Acid Mitigation" iconId="1091604206-1090524208-1091947416" class="189">
+<stat name="ACID_MITIGATION" constant="17.0"/>
+</consumable>
+<consumable identifier="1879190999" name="Tome of Accomplished Lightning Mitigation" iconId="1091604228-1090524208-1091947416" class="189">
+<stat name="Combat_ArmorDefense_PointsModifier_Lightning" constant="13.0"/>
 </consumable>
 <consumable identifier="1879191000" name="Tome of Initiate Offence" iconId="1091590829-1090519045-1091590830" class="189">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="3.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="3.0"/>
 </consumable>
+<consumable identifier="1879191001" name="Tome of Accomplished Fire Mitigation" iconId="1091604212-1090524208-1091947416" class="189">
+<stat name="FIRE_MITIGATION" constant="13.0"/>
+</consumable>
+<consumable identifier="1879191002" name="Tome of Experienced Shadow Mitigation" iconId="1091604238-1090524208-1091947416" class="189">
+<stat name="SHADOW_MITIGATION" constant="17.0"/>
+</consumable>
 <consumable identifier="1879191709" name="Lesser Potion of Fervour" iconId="1091608536-1091591349-1091608537" class="28">
 <stat name="DEVASTATE_MAGNITUDE_PERCENTAGE" constant="3.0"/>
 </consumable>
 <consumable identifier="1879191710" name="Lesser Potion of Focus" iconId="1091608539-1091591349-1091608540" class="28">
 <stat name="DEVASTATE_MAGNITUDE_PERCENTAGE" constant="3.0"/>
+</consumable>
+<consumable identifier="1879192090" name="Bag of Hearty Crumbs" iconId="1091610922-1090519042-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="2608.7837"/>
+<stat name="SHADOW_MITIGATION" constant="782.72974"/>
+<stat name="PHYSICAL_MASTERY" constant="404.97296"/>
+<stat name="EVADE" constant="780.0"/>
+</consumable>
+<consumable identifier="1879192091" name="Bag of Tasty Crumbs" iconId="1091610922-1090519042-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="1806.3513"/>
+<stat name="FROST_MITIGATION" constant="542.1892"/>
+<stat name="PHYSICAL_MASTERY" constant="280.9189"/>
+<stat name="EVADE" constant="540.0"/>
+</consumable>
+<consumable identifier="1879192092" name="Cut of Delicious Meat" iconId="1091610925-1090519042-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="2207.5676"/>
+<stat name="ACID_MITIGATION" constant="662.4595"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="224.64865"/>
+<stat name="PHYSICAL_MITIGATION" constant="662.4595"/>
+</consumable>
+<consumable identifier="1879192093" name="Bowl of Cool Water" iconId="1091611526-1090519042-1091611528" class="171">
+<stat name="FIRE_MITIGATION" constant="2327.9324"/>
+<stat name="ACID_MITIGATION" constant="698.5405"/>
+<stat name="PHYSICAL_MASTERY" constant="361.55405"/>
+<stat name="POWER" constant="46.445946"/>
+</consumable>
+<consumable identifier="1879192094" name="Bag of Crunchy Crumbs" iconId="1091610922-1090519042-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="1405.1351"/>
+<stat name="SHADOW_MITIGATION" constant="421.9189"/>
+<stat name="PHYSICAL_MASTERY" constant="218.89189"/>
+<stat name="EVADE" constant="420.0"/>
+</consumable>
+<consumable identifier="1879192095" name="Cut of Tasty Meat" iconId="1091610925-1090519042-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="1806.3513"/>
+<stat name="FROST_MITIGATION" constant="542.1892"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="183.97298"/>
+<stat name="PHYSICAL_MITIGATION" constant="542.1892"/>
+</consumable>
+<consumable identifier="1879192096" name="Bag of Crude Crumbs" iconId="1091610922-1090519042-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="181.37837"/>
+<stat name="SHADOW_MITIGATION" constant="181.37837"/>
+<stat name="PHYSICAL_MASTERY" constant="94.83784"/>
+<stat name="EVADE" constant="180.0"/>
+</consumable>
+<consumable identifier="1879192097" name="Bowl of Fresh Water" iconId="1091611526-1090519042-1091611528" class="171">
+<stat name="FIRE_MITIGATION" constant="2608.7837"/>
+<stat name="SHADOW_MITIGATION" constant="782.72974"/>
+<stat name="PHYSICAL_MASTERY" constant="404.97296"/>
+<stat name="POWER" constant="52.027027"/>
+</consumable>
+<consumable identifier="1879192098" name="Bag of Crumbs" iconId="1091610922-1090519042-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="503.9189"/>
+<stat name="SHADOW_MITIGATION" constant="301.64865"/>
+<stat name="PHYSICAL_MASTERY" constant="156.86487"/>
+<stat name="EVADE" constant="300.0"/>
+</consumable>
+<consumable identifier="1879192099" name="Cut of Tender Meat" iconId="1091610925-1090519042-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="1405.1351"/>
+<stat name="SHADOW_MITIGATION" constant="421.9189"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="143.2973"/>
+<stat name="PHYSICAL_MITIGATION" constant="421.9189"/>
+</consumable>
+<consumable identifier="1879192100" name="Cut of Lean Meat" iconId="1091610925-1090519042-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="2608.7837"/>
+<stat name="SHADOW_MITIGATION" constant="782.72974"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="265.3243"/>
+<stat name="PHYSICAL_MITIGATION" constant="782.72974"/>
+</consumable>
+<consumable identifier="1879192101" name="Bag of Delicious Crumbs" iconId="1091610922-1090519042-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="2207.5676"/>
+<stat name="ACID_MITIGATION" constant="662.4595"/>
+<stat name="PHYSICAL_MASTERY" constant="342.94595"/>
+<stat name="EVADE" constant="660.0"/>
 </consumable>
 <consumable identifier="1879192365" name="Expert Battle Tonic" iconId="1091611387-1090519042-1090532126" class="13">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
@@ -2722,6 +3841,60 @@
 <stat name="Skill_Runekeeper_EpicForAges_CriticalChance" operator="SET" constant="100.0"/>
 <stat name="OUTGOING_HEALING" constant="749.27026"/>
 </consumable>
+<consumable identifier="1879196376" name="Bowl of Spring Water" iconId="1091611526-1091591349-1091611528" class="171">
+<stat name="FIRE_MITIGATION" constant="2408.1758"/>
+<stat name="ACID_MITIGATION" constant="722.5946"/>
+<stat name="PHYSICAL_MASTERY" constant="373.95947"/>
+<stat name="POWER" constant="48.04054"/>
+</consumable>
+<consumable identifier="1879196377" name="Cut of Scrumptious Meat" iconId="1091610925-1091591349-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="2408.1758"/>
+<stat name="SHADOW_MITIGATION" constant="722.5946"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="244.98648"/>
+<stat name="PHYSICAL_MITIGATION" constant="722.5946"/>
+</consumable>
+<consumable identifier="1879196378" name="Cut of Salted Meat" iconId="1091610925-1091591349-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="1605.7433"/>
+<stat name="FROST_MITIGATION" constant="482.05405"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="163.63513"/>
+<stat name="PHYSICAL_MITIGATION" constant="482.05405"/>
+</consumable>
+<consumable identifier="1879196379" name="Cut of Seasoned Meat" iconId="1091610925-1091591349-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="2006.9595"/>
+<stat name="ACID_MITIGATION" constant="602.32434"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="204.3108"/>
+<stat name="PHYSICAL_MITIGATION" constant="602.32434"/>
+</consumable>
+<consumable identifier="1879196380" name="Bag of Crisp Crumbs" iconId="1091610922-1091591349-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="1204.527"/>
+<stat name="SHADOW_MITIGATION" constant="361.78378"/>
+<stat name="PHYSICAL_MASTERY" constant="187.87837"/>
+<stat name="EVADE" constant="360.0"/>
+</consumable>
+<consumable identifier="1879196381" name="Bag of Healthy Crumbs" iconId="1091610922-1091591349-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="1605.7433"/>
+<stat name="FROST_MITIGATION" constant="482.05405"/>
+<stat name="PHYSICAL_MASTERY" constant="249.90541"/>
+<stat name="EVADE" constant="480.0"/>
+</consumable>
+<consumable identifier="1879196382" name="Bag of Salted Crumbs" iconId="1091610922-1091591349-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="2006.9595"/>
+<stat name="ACID_MITIGATION" constant="602.32434"/>
+<stat name="PHYSICAL_MASTERY" constant="311.93243"/>
+<stat name="EVADE" constant="600.0"/>
+</consumable>
+<consumable identifier="1879196383" name="Bag of Day-old Crumbs" iconId="1091610922-1091591349-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="403.31082"/>
+<stat name="SHADOW_MITIGATION" constant="241.51352"/>
+<stat name="PHYSICAL_MASTERY" constant="125.85135"/>
+<stat name="EVADE" constant="240.0"/>
+</consumable>
+<consumable identifier="1879196384" name="Bag of Scrumptious Crumbs" iconId="1091610922-1091591349-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="2408.1758"/>
+<stat name="SHADOW_MITIGATION" constant="722.5946"/>
+<stat name="PHYSICAL_MASTERY" constant="373.95947"/>
+<stat name="EVADE" constant="720.0"/>
+</consumable>
 <consumable identifier="1879196385" name="Greater Dagor Infused Parchment" iconId="1091636264-1091591349-1091636265" class="106">
 <stat name="Skill_Runekeeper_ScathingMockery_MaxTargets" constant="5.0"/>
 <stat name="FINESSE" constant="768.37836"/>
@@ -2801,6 +3974,146 @@
 </consumable>
 <consumable identifier="1879196512" name="Superior Potion of Focus" iconId="1091636295-1091591349-1091636296" class="28">
 <stat name="DEVASTATE_MAGNITUDE_PERCENTAGE" constant="23.0"/>
+</consumable>
+<consumable identifier="1879196579" name="Supreme Blazoned Crest of Victory" iconId="1091636216-1090519042-1091636217" class="13">
+<stat name="CRITICAL_DEFENCE" constant="373.3333"/>
+<stat name="MORALE" constant="342.0"/>
+</consumable>
+<consumable identifier="1879196580" name="Master Blazoned Crest of War" iconId="1091636218-1090519042-1091636219" class="13">
+<stat name="PHYSICAL_MASTERY" constant="586.3334"/>
+<stat name="MORALE" constant="282.0"/>
+</consumable>
+<consumable identifier="1879196581" name="Artisan Blazoned Crest of Focus" iconId="1091636220-1090519042-1091636221" class="13">
+<stat name="PHYSICAL_MASTERY" constant="414.6667"/>
+<stat name="CRITICAL_RATING" constant="217.62964"/>
+</consumable>
+<consumable identifier="1879196582" name="Expert Blazoned Crest of Hope" iconId="1091614335-1090519042-1091614336" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="58.0"/>
+</consumable>
+<consumable identifier="1879196584" name="Master Blazoned Crest of Victory" iconId="1091636222-1090519042-1091636223" class="13">
+<stat name="CRITICAL_DEFENCE" constant="288.8889"/>
+<stat name="MORALE" constant="282.0"/>
+</consumable>
+<consumable identifier="1879196585" name="Artisan Blazoned Crest of War" iconId="1091636224-1090519042-1091636225" class="13">
+<stat name="PHYSICAL_MASTERY" constant="414.6667"/>
+<stat name="MORALE" constant="221.0"/>
+</consumable>
+<consumable identifier="1879196586" name="Master Blazoned Crest of Focus" iconId="1091636226-1090519042-1091636227" class="13">
+<stat name="PHYSICAL_MASTERY" constant="586.3334"/>
+<stat name="CRITICAL_RATING" constant="307.25928"/>
+</consumable>
+<consumable identifier="1879196587" name="Supreme Blazoned Crest of Hope" iconId="1091636228-1090519042-1091636229" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="206.0"/>
+</consumable>
+<consumable identifier="1879196588" name="Artisan Blazoned Crest of Hope" iconId="1091636230-1090519042-1091636231" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="96.0"/>
+</consumable>
+<consumable identifier="1879196589" name="Expert Blazoned Crest of Victory" iconId="1091614332-1090519042-1091614333" class="13">
+<stat name="CRITICAL_DEFENCE" constant="120.0"/>
+<stat name="MORALE" constant="160.0"/>
+</consumable>
+<consumable identifier="1879196590" name="Expert Blazoned Crest of War" iconId="1091614338-1090519042-1091614339" class="13">
+<stat name="PHYSICAL_MASTERY" constant="243.0"/>
+<stat name="MORALE" constant="160.0"/>
+</consumable>
+<consumable identifier="1879196592" name="Master Blazoned Crest of Hope" iconId="1091636232-1090519042-1091636233" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="147.0"/>
+</consumable>
+<consumable identifier="1879196593" name="Artisan Blazoned Crest of Victory" iconId="1091636234-1090519042-1091636235" class="13">
+<stat name="CRITICAL_DEFENCE" constant="204.44444"/>
+<stat name="MORALE" constant="221.0"/>
+</consumable>
+<consumable identifier="1879196595" name="Expert Blazoned Crest of Focus" iconId="1091614341-1090519042-1091614342" class="13">
+<stat name="PHYSICAL_MASTERY" constant="243.0"/>
+<stat name="CRITICAL_RATING" constant="128.0"/>
+</consumable>
+<consumable identifier="1879196596" name="Supreme Blazoned Crest of Focus" iconId="1091636236-1090519042-1091636237" class="13">
+<stat name="PHYSICAL_MASTERY" constant="758.0"/>
+<stat name="CRITICAL_RATING" constant="396.8889"/>
+</consumable>
+<consumable identifier="1879196597" name="Supreme Blazoned Crest of War" iconId="1091636238-1090519042-1091636239" class="13">
+<stat name="PHYSICAL_MASTERY" constant="758.0"/>
+<stat name="MORALE" constant="342.0"/>
+</consumable>
+<consumable identifier="1879196628" name="Superior Blazoned Crest of Focus" iconId="1091636236-1091591349-1091636237" class="13">
+<stat name="PHYSICAL_MASTERY" constant="843.8333"/>
+<stat name="CRITICAL_RATING" constant="441.7037"/>
+</consumable>
+<consumable identifier="1879196629" name="Major Blazoned Crest of Victory" iconId="1091636222-1091591349-1091636223" class="13">
+<stat name="CRITICAL_DEFENCE" constant="331.1111"/>
+<stat name="MORALE" constant="312.0"/>
+</consumable>
+<consumable identifier="1879196630" name="Superior Blazoned Crest of Hope" iconId="1091636228-1091591349-1091636229" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="236.0"/>
+</consumable>
+<consumable identifier="1879196631" name="Greater Blazoned Crest of Hope" iconId="1091636230-1091591349-1091636231" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="120.0"/>
+</consumable>
+<consumable identifier="1879196632" name="Major Blazoned Crest of Focus" iconId="1091636226-1091591349-1091636227" class="13">
+<stat name="PHYSICAL_MASTERY" constant="672.1666"/>
+<stat name="CRITICAL_RATING" constant="352.0741"/>
+</consumable>
+<consumable identifier="1879196633" name="Major Blazoned Crest of War" iconId="1091636218-1091591349-1091636219" class="13">
+<stat name="PHYSICAL_MASTERY" constant="672.1666"/>
+<stat name="MORALE" constant="312.0"/>
+</consumable>
+<consumable identifier="1879196634" name="Improved Blazoned Crest of Victory" iconId="1091614332-1091591349-1091614333" class="13">
+<stat name="CRITICAL_DEFENCE" constant="162.22223"/>
+<stat name="MORALE" constant="191.0"/>
+</consumable>
+<consumable identifier="1879196635" name="Improved Blazoned Crest of Focus" iconId="1091614341-1091591349-1091614342" class="13">
+<stat name="PHYSICAL_MASTERY" constant="328.83334"/>
+<stat name="CRITICAL_RATING" constant="172.81482"/>
+</consumable>
+<consumable identifier="1879196636" name="Major Blazoned Crest of Hope" iconId="1091636232-1091591349-1091636233" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="176.0"/>
+</consumable>
+<consumable identifier="1879196637" name="Greater Blazoned Crest of War" iconId="1091636224-1091591349-1091636225" class="13">
+<stat name="PHYSICAL_MASTERY" constant="500.5"/>
+<stat name="MORALE" constant="251.0"/>
+</consumable>
+<consumable identifier="1879196638" name="Greater Blazoned Crest of Victory" iconId="1091636234-1091591349-1091636235" class="13">
+<stat name="CRITICAL_DEFENCE" constant="246.66666"/>
+<stat name="MORALE" constant="251.0"/>
+</consumable>
+<consumable identifier="1879196639" name="Superior Blazoned Crest of War" iconId="1091636238-1091591349-1091636239" class="13">
+<stat name="PHYSICAL_MASTERY" constant="843.8333"/>
+<stat name="MORALE" constant="373.0"/>
+</consumable>
+<consumable identifier="1879196640" name="Greater Blazoned Crest of Focus" iconId="1091636220-1091591349-1091636221" class="13">
+<stat name="PHYSICAL_MASTERY" constant="500.5"/>
+<stat name="CRITICAL_RATING" constant="262.44446"/>
+</consumable>
+<consumable identifier="1879196641" name="Improved Blazoned Crest of War" iconId="1091614338-1091591349-1091614339" class="13">
+<stat name="PHYSICAL_MASTERY" constant="328.83334"/>
+<stat name="MORALE" constant="191.0"/>
+</consumable>
+<consumable identifier="1879196642" name="Superior Blazoned Crest of Victory" iconId="1091636216-1091591349-1091636217" class="13">
+<stat name="CRITICAL_DEFENCE" constant="415.55554"/>
+<stat name="MORALE" constant="373.0"/>
+</consumable>
+<consumable identifier="1879196643" name="Improved Blazoned Crest of Hope" iconId="1091614335-1091591349-1091614336" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="76.0"/>
+</consumable>
+<consumable identifier="1879196724" name="Cold-bear's Fur" iconId="1091400964-1090519043-1091400965-1091400966" class="49">
+<stat name="MORALE" constant="176.0"/>
+</consumable>
+<consumable identifier="1879196726" name="Cold-bear's Canine" iconId="1091400949-1090519043-1091400950-1091400951" class="49">
+<stat name="MORALE" constant="211.0"/>
+</consumable>
+<consumable identifier="1879196735" name="Cold-bear's Claw" iconId="1091400952-1090519043-1091400953-1091400954" class="49">
+<stat name="MORALE" constant="246.0"/>
+</consumable>
+<consumable identifier="1879196738" name="Armband of Giants" iconId="1090524758-1090519043-1090524759-1090528040" class="49">
+<stat name="MIGHT" constant="99.48148"/>
 </consumable>
 <consumable identifier="1879196923" name="Greater Supreme Battle Tonic" iconId="1091636655-1090519042-1090532126" class="13">
 <stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Skill Power Costs" constant="40.0"/>
@@ -2923,6 +4236,22 @@
 <consumable identifier="1879199749" name="Tome of Compressed Experience" iconId="1091590325-1090519045-1091590326" class="189">
 <stat name="XP_AwardMultiplier" descriptionOverride="${PERCENTVALUE} XP from Monster Kills" constant="25.0"/>
 <stat name="ItemAdvancement_XP_AwardMultiplier" descriptionOverride="${PERCENTVALUE} Item-XP from Monster Kills" constant="10.0"/>
+</consumable>
+<consumable identifier="1879200753" name="Greater Supreme Blazoned Crest of Hope" iconId="1091636244-1090519042-1091636245" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="266.0"/>
+</consumable>
+<consumable identifier="1879200754" name="Greater Supreme Blazoned Crest of Victory" iconId="1091636246-1090519042-1091636247" class="13">
+<stat name="CRITICAL_DEFENCE" constant="457.77777"/>
+<stat name="MORALE" constant="403.0"/>
+</consumable>
+<consumable identifier="1879200755" name="Greater Supreme Blazoned Crest of War" iconId="1091636248-1090519042-1091636249" class="13">
+<stat name="PHYSICAL_MASTERY" constant="929.6667"/>
+<stat name="MORALE" constant="403.0"/>
+</consumable>
+<consumable identifier="1879200756" name="Greater Supreme Blazoned Crest of Focus" iconId="1091636250-1090519042-1091636251" class="13">
+<stat name="PHYSICAL_MASTERY" constant="929.6667"/>
+<stat name="CRITICAL_RATING" constant="486.51852"/>
 </consumable>
 <consumable identifier="1879200758" name="Greater Supreme Potion of Fervour" iconId="1091636501-1090519042-1091636502" class="28">
 <stat name="DEVASTATE_MAGNITUDE_PERCENTAGE" constant="25.0"/>
@@ -3048,6 +4377,9 @@
 </consumable>
 <consumable identifier="1879205608" name="Scroll of Lesser Craft Acceleration" iconId="1091617861-1090519045-1091617860" class="189">
 <stat name="Craft_Recipe_CraftXP_Acceleration" constant="25.0"/>
+</consumable>
+<consumable identifier="1879206091" name="Dead-breaker" iconId="1090524310-1090519044-1090524311-1090524312" class="1">
+<stat name="VITALITY" constant="137.5"/>
 </consumable>
 <consumable identifier="1879208231" name="Tome of Defence" iconId="1091521426-1091591349-1091521427" class="189">
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
@@ -3208,6 +4540,54 @@
 <consumable identifier="1879211528" name="Superior Chicken Pie" iconId="1091657521-1090522692-1091657522" class="55">
 <stat name="AGILITY" constant="146.88889"/>
 </consumable>
+<consumable identifier="1879211689" name="Bowl of Spring Water" iconId="1091611526-1090519042-1091611528" class="171">
+<stat name="FIRE_MITIGATION" constant="3010.0"/>
+<stat name="SHADOW_MITIGATION" constant="903.0"/>
+<stat name="PHYSICAL_MASTERY" constant="467.0"/>
+<stat name="POWER" constant="60.0"/>
+</consumable>
+<consumable identifier="1879211698" name="Pot of Scrumptious Honey and Oats" iconId="1091388635-1090519042-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="3010.0"/>
+<stat name="SHADOW_MITIGATION" constant="903.0"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="2260.0"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879211699" name="Bag of Crispy Crumbs" iconId="1091610922-1090519042-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="3010.0"/>
+<stat name="SHADOW_MITIGATION" constant="903.0"/>
+<stat name="PHYSICAL_MASTERY" constant="467.0"/>
+<stat name="EVADE" constant="900.0"/>
+</consumable>
+<consumable identifier="1879211700" name="Cut of Spicy Meat" iconId="1091610925-1090519042-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="3010.0"/>
+<stat name="SHADOW_MITIGATION" constant="903.0"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="306.0"/>
+<stat name="PHYSICAL_MITIGATION" constant="903.0"/>
+</consumable>
+<consumable identifier="1879212003" name="+2 Hope Token (15 min)" iconId="1091526112-1091591349-1091526111" class="28">
+<stat name="HOPE" constant="2.0"/>
+</consumable>
+<consumable identifier="1879212004" name="+5 Hope Token (30 min)" iconId="1091526114-1091591349-1091526115" class="28">
+<stat name="HOPE" constant="5.0"/>
+</consumable>
+<consumable identifier="1879212005" name="+3 Hope Token (15 min)" iconId="1091526105-1091591349-1091526104" class="28">
+<stat name="HOPE" constant="3.0"/>
+</consumable>
+<consumable identifier="1879212006" name="+1 Hope Token (15 min)" iconId="1091526113-1091591349-1091526110" class="28">
+<stat name="HOPE" constant="1.0"/>
+</consumable>
+<consumable identifier="1879212007" name="+4 Hope Token (15 min)" iconId="1091526117-1091591349-1091526119" class="28">
+<stat name="HOPE" constant="4.0"/>
+</consumable>
+<consumable identifier="1879212008" name="+5 Hope Token (15 min)" iconId="1091526108-1091591349-1091526121" class="28">
+<stat name="HOPE" constant="5.0"/>
+</consumable>
+<consumable identifier="1879212148" name="Vitreous Edhelharn Token" iconId="1091658270-1090519043-1091658271" class="28">
+<stat name="HOPE" constant="5.0"/>
+</consumable>
+<consumable identifier="1879212149" name="Asteric Edhelharn Token" iconId="1091658270-1090519044-1091658271" class="28">
+<stat name="HOPE" constant="5.0"/>
+</consumable>
 <consumable identifier="1879212797" name="Scroll of Woodsman's Lore" iconId="1090531739-1090519042-1090531740" class="57">
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Woodworker Critical Chance" constant="13.0"/>
 <stat name="Craft_Forester_CriticalChanceAddModifier" descriptionOverride="+${PERCENTVALUE} Forester Critical Chance" constant="13.0"/>
@@ -3286,6 +4666,11 @@
 <stat name="Trait_Runekeeper_NukeDot_Power" operator="SUBSTRACT" descriptionOverride="-" constant="60.000004"/>
 <specialEffect label="Next Induction cannot be interrupted"/>
 </consumable>
+<consumable identifier="1879214167" name="Strange Draught" iconId="1091417978-1090524208-1091947416" class="28">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="50.0"/>
+<stat name="MORALE" operator="MULTIPLY" constant="0.5"/>
+<stat name="ATTACK_DURATION_PERCENTAGE" descriptionOverride="-" constant="40.0"/>
+</consumable>
 <consumable identifier="1879214319" name="Regenerative Food (Tier 8)" iconId="1091659294-1091591349-1091659295" class="55">
 <stat name="ICPR" constant="843.2433"/>
 <stat name="ICMR" constant="395.67566"/>
@@ -3312,6 +4697,30 @@
 <stat name="Skill_Runekeeper_EpicForAges_CriticalChance" operator="SET" constant="100.0"/>
 <stat name="OUTGOING_HEALING" constant="864.0"/>
 </consumable>
+<consumable identifier="1879214878" name="Westfold Blazoned Crest of War" iconId="1091636248-1090519042-1091636249" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1101.3333"/>
+<stat name="MORALE" constant="463.0"/>
+</consumable>
+<consumable identifier="1879214881" name="Calenard Caltrops" iconId="1090623481-1090519042-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
+<consumable identifier="1879214882" name="Westfold Blazoned Crest of Focus" iconId="1091636250-1090519042-1091636251" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1101.3333"/>
+<stat name="CRITICAL_RATING" constant="576.1482"/>
+</consumable>
+<consumable identifier="1879214886" name="Westfold Caltrops" iconId="1090623481-1090519042-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
+<consumable identifier="1879214889" name="Westfold Blazoned Crest of Victory" iconId="1091636246-1090519042-1091636247" class="13">
+<stat name="CRITICAL_DEFENCE" constant="542.2222"/>
+<stat name="MORALE" constant="463.0"/>
+</consumable>
+<consumable identifier="1879214893" name="Westfold Blazoned Crest of Hope" iconId="1091636244-1090519042-1091636245" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="326.0"/>
+</consumable>
 <consumable identifier="1879215862" name="Crumbling Insignia" iconId="1091418806-1091591349-1091418807" class="189">
 <specialEffect label="You gain immunity to daze, stun, knockdown, root, slow, silence, disarm and fear effects for a short time."/>
 </consumable>
@@ -3323,6 +4732,9 @@
 </consumable>
 <consumable identifier="1879215865" name="+20% Infamy (3 hours)" iconId="1091659667-1091591349-1091659668" class="189">
 <stat name="Glory_AwardMultiplier" descriptionOverride="+20% Infamy gained from defeating Players" constant="20.0"/>
+</consumable>
+<consumable identifier="1879216010" name="Scroll of Finesse" iconId="1091474382-1091591349-1091474586" class="189">
+<stat name="FINESSE" constant="10.0"/>
 </consumable>
 <consumable identifier="1879216338" name="Journeyman Parable" iconId="1091666039-1090519042-1091666040" class="19">
 <specialEffect label="Next Induction cannot be interrupted"/>
@@ -3406,8 +4818,56 @@
 <consumable identifier="1879216944" name="Westfold Potion of Focus" iconId="1091658885-1091591349-1091658886" class="28">
 <stat name="DEVASTATE_MAGNITUDE_PERCENTAGE" constant="28.0"/>
 </consumable>
+<consumable identifier="1879216946" name="Bowl of Westfold Water" iconId="1091611526-1091591349-1091611528" class="171">
+<stat name="FIRE_MITIGATION" constant="2809.3918"/>
+<stat name="SHADOW_MITIGATION" constant="842.86487"/>
+<stat name="PHYSICAL_MASTERY" constant="435.98648"/>
+<stat name="POWER" constant="56.01351"/>
+</consumable>
+<consumable identifier="1879216947" name="Pot of Westfold Honey and Oats" iconId="1091388635-1091591349-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="2809.3918"/>
+<stat name="SHADOW_MITIGATION" constant="842.86487"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="2109.3918"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879216948" name="Cut of Westfold Meat" iconId="1091610925-1091591349-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="2809.3918"/>
+<stat name="SHADOW_MITIGATION" constant="842.86487"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="285.66217"/>
+<stat name="PHYSICAL_MITIGATION" constant="842.86487"/>
+</consumable>
+<consumable identifier="1879216949" name="Bag of Westfold Crumbs" iconId="1091610922-1091591349-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="2809.3918"/>
+<stat name="SHADOW_MITIGATION" constant="842.86487"/>
+<stat name="PHYSICAL_MASTERY" constant="435.98648"/>
+<stat name="EVADE" constant="840.0"/>
+</consumable>
+<consumable identifier="1879216950" name="Westfold Blazoned Crest of Victory" iconId="1091636216-1091591349-1091636217" class="13">
+<stat name="CRITICAL_DEFENCE" constant="500.0"/>
+<stat name="MORALE" constant="433.0"/>
+</consumable>
+<consumable identifier="1879216951" name="Westfold Blazoned Crest of Focus" iconId="1091636236-1091591349-1091636237" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1015.5"/>
+<stat name="CRITICAL_RATING" constant="531.3334"/>
+</consumable>
+<consumable identifier="1879216952" name="Westfold Blazoned Crest of War" iconId="1091636238-1091591349-1091636239" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1015.5"/>
+<stat name="MORALE" constant="433.0"/>
+</consumable>
+<consumable identifier="1879216953" name="Westfold Blazoned Crest of Hope" iconId="1091636228-1091591349-1091636229" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="296.0"/>
+</consumable>
+<consumable identifier="1879217336" name="Westfold Caltrops" iconId="1090623481-1091591349-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
 <consumable identifier="1879217342" name="Westfold Shield-spike Kit" iconId="1090552946-1091591349-1090552947" class="26">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="4.0"/>
+</consumable>
+<consumable identifier="1879217343" name="Superior Caltrops" iconId="1090623481-1091591349-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
 </consumable>
 <consumable identifier="1879217347" name="Bow Chant: Westfold Foe-finder" iconId="1091388848-1091591349-1091388849" class="17">
 <stat name="Skill_ChanceEvade_RangedMod" constant="-2.0"/>
@@ -3456,6 +4916,105 @@
 <stat name="WILL" constant="20.0"/>
 <stat name="INCOMING_HEALING_PERCENTAGE" constant="2.0"/>
 </consumable>
+<consumable identifier="1879222526" name="Basic Tactical Mitigation Tome (6 hours)" iconId="1091590367-1091591349-1091590345" class="189">
+<stat name="TACTICAL_MITIGATION" constant="3.0"/>
+</consumable>
+<consumable identifier="1879222527" name="Elite Tactical Mitigation Tome (6 hours)" iconId="1091590369-1091591349-1091590347" class="189">
+<stat name="TACTICAL_MITIGATION" constant="7.0"/>
+</consumable>
+<consumable identifier="1879222528" name="Advanced Tactical Mitigation Tome (6 hours)" iconId="1091590368-1091591349-1091590346" class="189">
+<stat name="TACTICAL_MITIGATION" constant="5.0"/>
+</consumable>
+<consumable identifier="1879222529" name="Supreme Tactical Mitigation Tome (6 hours)" iconId="1091590370-1091591349-1091590348" class="189">
+<stat name="TACTICAL_MITIGATION" constant="9.0"/>
+</consumable>
+<consumable identifier="1879222530" name="Tome of Experienced Determination" iconId="1091590369-1090524208-1091947416" class="189">
+<stat name="TACTICAL_MITIGATION" constant="7.0"/>
+</consumable>
+<consumable identifier="1879222531" name="Tome of Initiate Determination" iconId="1091590367-1090524208-1091947416" class="189">
+<stat name="TACTICAL_MITIGATION" constant="3.0"/>
+</consumable>
+<consumable identifier="1879222532" name="Tome of Accomplished Determination" iconId="1091590368-1090524208-1091947416" class="189">
+<stat name="TACTICAL_MITIGATION" constant="5.0"/>
+</consumable>
+<consumable identifier="1879222533" name="Tome of Veteran Determination" iconId="1091590370-1090524208-1091947416" class="189">
+<stat name="TACTICAL_MITIGATION" constant="9.0"/>
+</consumable>
+<consumable identifier="1879225113" name="Cúel" iconId="1090523520-1090519043-1090523521-1090525455" class="1">
+<stat name="POWER" constant="171.08333"/>
+</consumable>
+<consumable identifier="1879225114" name="Cuthor" iconId="1090523520-1090519044-1090523521-1090525455" class="1">
+<stat name="POWER" constant="174.33333"/>
+</consumable>
+<consumable identifier="1879225116" name="Cumaed" iconId="1090524310-1090519044-1090524311-1090524312" class="1">
+<stat name="MORALE" constant="695.06665"/>
+</consumable>
+<consumable identifier="1879225117" name="Haul-ba" iconId="1090523520-1090519043-1090523521-1090525455" class="1">
+<stat name="MORALE" constant="663.50836"/>
+</consumable>
+<consumable identifier="1879225118" name="Cúithil" iconId="1090524310-1090519044-1090524311-1090524312" class="1">
+<stat name="POWER" constant="175.41667"/>
+</consumable>
+<consumable identifier="1879225946" name="Delicate Bow of Power and Grace" iconId="1090524310-1090519044-1090524311-1090524312" class="1">
+<stat name="AGILITY" constant="9.666667"/>
+</consumable>
+<consumable identifier="1879225963" name="Master-crafted Javelin of Seeking" iconId="1091510307-1090519044-1091510308-1091510309" class="110">
+<stat name="AGILITY" constant="61.333332"/>
+</consumable>
+<consumable identifier="1879225970" name="Crafted Bow of Power and Grace" iconId="1090524310-1090519044-1090524311-1090524312" class="1">
+<stat name="AGILITY" constant="30.814816"/>
+</consumable>
+<consumable identifier="1879225972" name="Skilfully Crafted Bow of Power and Grace" iconId="1090524310-1090519044-1090524311-1090524312" class="1">
+<stat name="AGILITY" constant="42.25926"/>
+</consumable>
+<consumable identifier="1879225974" name="Well-made Javelin of Seeking" iconId="1091510307-1090519044-1091510308-1091510309" class="110">
+<stat name="AGILITY" constant="14.0"/>
+</consumable>
+<consumable identifier="1879225976" name="Well-made Bow of Power and Grace" iconId="1090524310-1090519044-1090524311-1090524312" class="1">
+<stat name="AGILITY" constant="14.0"/>
+</consumable>
+<consumable identifier="1879225987" name="Skilfully Crafted Javelin of Seeking" iconId="1091510307-1090519044-1091510308-1091510309" class="110">
+<stat name="AGILITY" constant="42.25926"/>
+</consumable>
+<consumable identifier="1879225991" name="Crafted Javelin of Seeking" iconId="1091510307-1090519044-1091510308-1091510309" class="110">
+<stat name="AGILITY" constant="30.814816"/>
+</consumable>
+<consumable identifier="1879225995" name="Master-crafted Bow of Power and Grace" iconId="1090524310-1090519044-1090524311-1090524312" class="1">
+<stat name="AGILITY" constant="61.333332"/>
+</consumable>
+<consumable identifier="1879226013" name="Delicate Javelin of Seeking" iconId="1091510307-1090519044-1091510308-1091510309" class="110">
+<stat name="AGILITY" constant="9.666667"/>
+</consumable>
+<consumable identifier="1879226018" name="Superior Javelin of Seeking" iconId="1091510307-1090519044-1091510308-1091510309" class="110">
+<stat name="AGILITY" constant="65.14815"/>
+</consumable>
+<consumable identifier="1879226027" name="Strong Bow of Power and Grace" iconId="1090524310-1090519044-1090524311-1090524312" class="1">
+<stat name="AGILITY" constant="49.88889"/>
+</consumable>
+<consumable identifier="1879226036" name="Fine Bow of Power and Grace" iconId="1090524310-1090519044-1090524311-1090524312" class="1">
+<stat name="AGILITY" constant="46.074074"/>
+</consumable>
+<consumable identifier="1879226037" name="Exceptional Javelin of Seeking" iconId="1091510307-1090519044-1091510308-1091510309" class="110">
+<stat name="AGILITY" constant="68.96297"/>
+</consumable>
+<consumable identifier="1879226042" name="Common Bow of Power and Grace" iconId="1090524310-1090519044-1090524311-1090524312" class="1">
+<stat name="AGILITY" constant="12.916667"/>
+</consumable>
+<consumable identifier="1879226043" name="Fine Javelin of Seeking" iconId="1091510307-1090519044-1091510308-1091510309" class="110">
+<stat name="AGILITY" constant="46.074074"/>
+</consumable>
+<consumable identifier="1879226048" name="Common Javelin of Seeking" iconId="1091510307-1090519044-1091510308-1091510309" class="110">
+<stat name="AGILITY" constant="12.916667"/>
+</consumable>
+<consumable identifier="1879226053" name="Exceptional Bow of Power and Grace" iconId="1090524310-1090519044-1090524311-1090524312" class="1">
+<stat name="AGILITY" constant="68.96297"/>
+</consumable>
+<consumable identifier="1879226062" name="Superior Bow of Power and Grace" iconId="1090524310-1090519044-1090524311-1090524312" class="1">
+<stat name="AGILITY" constant="65.14815"/>
+</consumable>
+<consumable identifier="1879226066" name="Strong Javelin of Seeking" iconId="1091510307-1090519044-1091510308-1091510309" class="110">
+<stat name="AGILITY" constant="49.88889"/>
+</consumable>
 <consumable identifier="1879226625" name="Cup of Second Breakfast Blend Coffee" iconId="1091686691-1090522692-1091686692" class="55">
 <stat name="Movement_OutOfCombat_Speed_AddMod" descriptionOverride="+${PERCENTVALUE} Out-of-Combat Run Speed" constant="5.0"/>
 </consumable>
@@ -3473,6 +5032,30 @@
 </consumable>
 <consumable identifier="1879227677" name="Mordirith's Brand" iconId="1091688759-1090519043-1091688757" class="37">
 <specialEffect label="You gain immunity to daze, stun, knockdown, root, slow, silence, disarm and fear effects for a short time."/>
+</consumable>
+<consumable identifier="1879229589" name="Anduin Mender's Bauble" iconId="1091575181-1090519043-1091575180-1091575179" class="49">
+<stat name="WILL" constant="124.0"/>
+<stat name="ALL_SKILL_INDUCTION" operator="SUBSTRACT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879229590" name="Anduin Victor's Bauble" iconId="1091401430-1090519043-1091401431-1091401432" class="49">
+<stat name="MIGHT" constant="124.0"/>
+<stat name="PHYSICAL_MASTERY" constant="1555.0"/>
+</consumable>
+<consumable identifier="1879229591" name="Anduin Sage's Bauble" iconId="1091388064-1090519043-1091388065-1091388066" class="49">
+<stat name="WILL" constant="124.0"/>
+<stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="+5% Critical Hit Chance" constant="5.0"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+</consumable>
+<consumable identifier="1879229596" name="Anduin Exemplar's Bauble" iconId="1091570623-1090519043-1091570624-1091570625" class="49">
+<stat name="MIGHT" constant="124.0"/>
+<stat name="TACTICAL_MASTERY" constant="1555.0"/>
+</consumable>
+<consumable identifier="1879229597" name="Anduin Vagabond's Bauble" iconId="1090538988-1090519043-1090538990-1090538989" class="49">
+<stat name="AGILITY" constant="124.0"/>
+<stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="+5% Critical Hit Chance" constant="5.0"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 </consumable>
 <consumable identifier="1879230109" name="White Pudding" iconId="1091696656-1090522692-1091696657" class="55">
 <stat name="VITALITY" constant="179.16666"/>
@@ -3514,6 +5097,59 @@
 <stat name="VITALITY" constant="179.16666"/>
 <stat name="FATE" constant="122.37037"/>
 </consumable>
+<consumable identifier="1879230766" name="Ornate Great River Crossbow of Haste" iconId="1091668252-1090519044-1091668253-1091668254" class="29">
+<stat name="MORALE" constant="677.0333"/>
+</consumable>
+<consumable identifier="1879230773" name="Great River Bow of Haste" iconId="1091668240-1090519043-1091668241-1091668242" class="1">
+<stat name="MORALE" constant="334.5"/>
+</consumable>
+<consumable identifier="1879230776" name="Great River Bow of Precision" iconId="1091668240-1090519043-1091668241-1091668242" class="1">
+<stat name="MORALE" constant="334.5"/>
+</consumable>
+<consumable identifier="1879230777" name="Ornate Great River Crossbow of Precision" iconId="1091668252-1090519044-1091668253-1091668254" class="29">
+<stat name="MORALE" constant="677.0333"/>
+</consumable>
+<consumable identifier="1879230787" name="Ornate Great River Bow of Haste" iconId="1091668240-1090519044-1091668241-1091668242" class="1">
+<stat name="MORALE" constant="677.0333"/>
+</consumable>
+<consumable identifier="1879230789" name="Ornate Great River Bow of Precision" iconId="1091668240-1090519044-1091668241-1091668242" class="1">
+<stat name="MORALE" constant="677.0333"/>
+</consumable>
+<consumable identifier="1879230792" name="Great River Crossbow of Precision" iconId="1091668252-1090519043-1091668253-1091668254" class="29">
+<stat name="MORALE" constant="334.5"/>
+</consumable>
+<consumable identifier="1879230795" name="Great River Crossbow of Haste" iconId="1091668252-1090519043-1091668253-1091668254" class="29">
+<stat name="MORALE" constant="334.5"/>
+</consumable>
+<consumable identifier="1879231219" name="Bagmund's Medallion" iconId="1091400681-1090524208-1091947416" class="50">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="50.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="50.0"/>
+<stat name="ICPR" constant="4272.308"/>
+</consumable>
+<consumable identifier="1879231774" name="Empowered Anduin Victor's Bauble" iconId="1091401430-1091399834-1091401431-1091401432" class="49">
+<stat name="MIGHT" constant="135.0"/>
+<stat name="PHYSICAL_MASTERY" constant="1697.0"/>
+</consumable>
+<consumable identifier="1879231775" name="Empowered Anduin Sage's Bauble" iconId="1091388064-1091399834-1091388065-1091388066" class="49">
+<stat name="WILL" constant="135.0"/>
+<stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="+5% Critical Hit Chance" constant="5.0"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+</consumable>
+<consumable identifier="1879231777" name="Empowered Anduin Exemplar's Bauble" iconId="1091570623-1091399834-1091570624-1091570625" class="49">
+<stat name="MIGHT" constant="135.0"/>
+<stat name="TACTICAL_MASTERY" constant="1697.0"/>
+</consumable>
+<consumable identifier="1879231778" name="Empowered Anduin Vagabond's Bauble" iconId="1090538988-1091399834-1090538990-1090538989" class="49">
+<stat name="AGILITY" constant="135.0"/>
+<stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="+5% Critical Hit Chance" constant="5.0"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+</consumable>
+<consumable identifier="1879231779" name="Empowered Anduin Mender's Bauble" iconId="1091575181-1091399834-1091575180-1091575179" class="49">
+<stat name="WILL" constant="135.0"/>
+<stat name="ALL_SKILL_INDUCTION" operator="SUBSTRACT" constant="15.000001"/>
+</consumable>
 <consumable identifier="1879237138" name="Tome of Constant Experience" iconId="1091590325-1090519045-1091590326" class="189">
 <stat name="XP_AwardMultiplier" descriptionOverride="${PERCENTVALUE} XP from Monster Kills" constant="10.0"/>
 <stat name="XP_QuestAwardMultiplier" descriptionOverride="${PERCENTVALUE} XP from Quest Completions" constant="10.0"/>
@@ -3523,6 +5159,54 @@
 </consumable>
 <consumable identifier="1879237141" name="Tome of Lesser Skill Deed Acceleration" iconId="1091633016-1090519045-1091633017" class="189">
 <stat name="Accomplishment_Skill_AccelerationMultiplier" operator="SET" descriptionOverride="Class skill deeds accelerated: 2x" constant="2.0"/>
+</consumable>
+<consumable identifier="1879243712" name="Reckless Eastemnet Combat Bow" iconId="1091771179-1090519044-1091771200-1091771188" class="1">
+<stat name="MORALE" constant="704.0833"/>
+</consumable>
+<consumable identifier="1879243721" name="Rapid Eastemnet Skirmish Crossbow" iconId="1091771199-1090519043-1091771174-1091771190" class="29">
+<stat name="MORALE" constant="348.0"/>
+</consumable>
+<consumable identifier="1879243730" name="Precise Eastemnet Skirmish Crossbow" iconId="1091771199-1090519043-1091771174-1091771190" class="29">
+<stat name="MORALE" constant="348.0"/>
+</consumable>
+<consumable identifier="1879243736" name="Hasty Crossbow of the Mark" iconId="1091771205-1090519043-1091771154-1091771163" class="29">
+<stat name="MORALE" constant="361.5"/>
+</consumable>
+<consumable identifier="1879243739" name="Piercing Bow of the Mark" iconId="1091771185-1090519043-1091771177-1091771162" class="1">
+<stat name="MORALE" constant="361.5"/>
+</consumable>
+<consumable identifier="1879243744" name="Rapid Eastemnet Combat Crossbow" iconId="1091771199-1090519044-1091771174-1091771190" class="29">
+<stat name="MORALE" constant="704.0833"/>
+</consumable>
+<consumable identifier="1879243750" name="Precise Eastemnet Combat Crossbow" iconId="1091771199-1090519044-1091771174-1091771190" class="29">
+<stat name="MORALE" constant="704.0833"/>
+</consumable>
+<consumable identifier="1879243751" name="Agile Bow of the Mark" iconId="1091771185-1090519043-1091771177-1091771162" class="1">
+<stat name="MORALE" constant="361.5"/>
+</consumable>
+<consumable identifier="1879243755" name="Precise Crossbow of the Mark" iconId="1091771205-1090519043-1091771154-1091771163" class="29">
+<stat name="MORALE" constant="361.5"/>
+</consumable>
+<consumable identifier="1879243757" name="Piercing Bow of Éomer" iconId="1091771185-1090519044-1091771177-1091771162" class="1">
+<stat name="MORALE" constant="731.1333"/>
+</consumable>
+<consumable identifier="1879243761" name="Hasty Crossbow of Éomer" iconId="1091771205-1090519044-1091771154-1091771163" class="29">
+<stat name="MORALE" constant="731.1333"/>
+</consumable>
+<consumable identifier="1879243766" name="Acute Eastemnet Skirmish Bow" iconId="1091771179-1090519043-1091771200-1091771188" class="1">
+<stat name="MORALE" constant="348.0"/>
+</consumable>
+<consumable identifier="1879243767" name="Precise Crossbow of Éomer" iconId="1091771205-1090519044-1091771154-1091771163" class="29">
+<stat name="MORALE" constant="731.1333"/>
+</consumable>
+<consumable identifier="1879243768" name="Agile Bow of Éomer" iconId="1091771185-1090519044-1091771177-1091771162" class="1">
+<stat name="MORALE" constant="731.1333"/>
+</consumable>
+<consumable identifier="1879243772" name="Reckless Eastemnet Skirmish Bow" iconId="1091771179-1090519043-1091771200-1091771188" class="1">
+<stat name="MORALE" constant="348.0"/>
+</consumable>
+<consumable identifier="1879243775" name="Acute Eastemnet Combat Bow" iconId="1091771179-1090519044-1091771200-1091771188" class="1">
+<stat name="MORALE" constant="704.0833"/>
 </consumable>
 <consumable identifier="1879245610" name="Tome of Extraordinary Experience" iconId="1091590325-1091591349-1091590326" class="189">
 <stat name="XP_AwardMultiplier" descriptionOverride="${PERCENTVALUE} XP from Monster Kills" constant="100.0"/>
@@ -3654,6 +5338,58 @@
 <consumable identifier="1879247572" name="Potion of Rapid Crafting" iconId="1091602539-1091591349-1091602540" class="28">
 <stat name="Craft_ExecutionTime_Override" operator="SET" descriptionOverride="Dramatically accelerates crafting time." constant="0.5"/>
 </consumable>
+<consumable identifier="1879248073" name="Eastemnet Blazoned Crest of Victory" iconId="1091636246-1090519042-1091636247" class="13">
+<stat name="CRITICAL_DEFENCE" constant="655.9167"/>
+<stat name="MORALE" constant="524.0"/>
+</consumable>
+<consumable identifier="1879248074" name="Eastemnet Blazoned Crest of Focus" iconId="1091636250-1090519042-1091636251" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1333.75"/>
+<stat name="CRITICAL_RATING" constant="697.1667"/>
+</consumable>
+<consumable identifier="1879248075" name="Eastemnet Blazoned Crest of War" iconId="1091636248-1090519042-1091636249" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1333.75"/>
+<stat name="MORALE" constant="524.0"/>
+</consumable>
+<consumable identifier="1879248076" name="Eastemnet Blazoned Crest of Hope" iconId="1091636244-1090519042-1091636245" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="386.0"/>
+</consumable>
+<consumable identifier="1879248108" name="Riddermark Caltrops" iconId="1090623481-1090519042-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
+<consumable identifier="1879248113" name="Eastemnet Caltrops" iconId="1090623481-1090519042-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
+<consumable identifier="1879248342" name="Bowl of Eastemnet Water" iconId="1091611526-1090519042-1091611528" class="171">
+<stat name="FIRE_MITIGATION" constant="5023.3335"/>
+<stat name="SHADOW_MITIGATION" constant="1508.6667"/>
+<stat name="PHYSICAL_MASTERY" constant="894.6666"/>
+<stat name="POWER" constant="100.0"/>
+</consumable>
+<consumable identifier="1879248343" name="Pot of Eastemnet Honey and Oats" iconId="1091388635-1090519042-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="5023.3335"/>
+<stat name="SHADOW_MITIGATION" constant="1508.6667"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="3543.3335"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879248344" name="Cut of Eastemnet Meat" iconId="1091610925-1090519042-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="5023.3335"/>
+<stat name="SHADOW_MITIGATION" constant="1508.6667"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="510.0"/>
+<stat name="PHYSICAL_MITIGATION" constant="1328.6666"/>
+</consumable>
+<consumable identifier="1879248345" name="Bag of Eastemnet Crumbs" iconId="1091610922-1090519042-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="5023.3335"/>
+<stat name="SHADOW_MITIGATION" constant="1508.6667"/>
+<stat name="PHYSICAL_MASTERY" constant="894.6666"/>
+<stat name="EVADE" constant="1320.0"/>
+</consumable>
+<consumable identifier="1879248353" name="Eastemnet Edhelharn Token" iconId="1091768056-1090519043-1091768057" class="28">
+<stat name="HOPE" constant="5.0"/>
+<stat name="RESISTANCE" constant="792.0"/>
+</consumable>
 <consumable identifier="1879248703" name="Eastemnet Potion of Focus" iconId="1091751152-1090519042-1091751125" class="28">
 <stat name="DEVASTATE_MAGNITUDE_PERCENTAGE" constant="35.0"/>
 </consumable>
@@ -3671,6 +5407,9 @@
 <consumable identifier="1879250680" name="Eastemnet Westernesse Shield-spike Kit" iconId="1091755069-1090519042-1091755068" class="179">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="5.0"/>
 <specialEffect label="Set damage type of all skills to Westernesse"/>
+</consumable>
+<consumable identifier="1879250773" name="+5 Hope Token (40 min)" iconId="1091658270-1091591349-1091658271" class="28">
+<stat name="HOPE" constant="5.0"/>
 </consumable>
 <consumable identifier="1879250830" name="Regenerative Food (Tier 9)" iconId="1091753184-1091591349-1091753185" class="55">
 <stat name="ICPR" constant="1200.0"/>
@@ -3877,6 +5616,30 @@
 </consumable>
 <consumable identifier="1879267603" name="+5 Hope (90 min)" iconId="1091590357-1091591349-1091590335" class="189">
 <stat name="HOPE" constant="5.0"/>
+</consumable>
+<consumable identifier="1879267673" name="Ornate Wildermore Crossbow of Avoidance" iconId="1091797903-1090519044-1091797902-1091797904" class="29">
+<stat name="POWER" constant="191.66667"/>
+</consumable>
+<consumable identifier="1879267674" name="Ornate Wildermore Bow of Avoidance" iconId="1091797899-1090519044-1091797901-1091797900" class="1">
+<stat name="POWER" constant="191.66667"/>
+</consumable>
+<consumable identifier="1879267675" name="Ornate Wildermore Bow of Accuracy" iconId="1091797899-1090519044-1091797901-1091797900" class="1">
+<stat name="POWER" constant="191.66667"/>
+</consumable>
+<consumable identifier="1879267676" name="Ornate Wildermore Crossbow of Accuracy" iconId="1091797903-1090519044-1091797902-1091797904" class="29">
+<stat name="POWER" constant="191.66667"/>
+</consumable>
+<consumable identifier="1879267679" name="Wildermore Bow of Accuracy" iconId="1091797899-1090519043-1091797901-1091797900" class="1">
+<stat name="POWER" constant="94.75"/>
+</consumable>
+<consumable identifier="1879267680" name="Wildermore Crossbow of Avoidance" iconId="1091797903-1090519043-1091797902-1091797904" class="29">
+<stat name="POWER" constant="94.75"/>
+</consumable>
+<consumable identifier="1879267685" name="Wildermore Bow of Avoidance" iconId="1091797899-1090519043-1091797901-1091797900" class="1">
+<stat name="POWER" constant="94.75"/>
+</consumable>
+<consumable identifier="1879267687" name="Wildermore Crossbow of Accuracy" iconId="1091797903-1090519043-1091797902-1091797904" class="29">
+<stat name="POWER" constant="94.75"/>
 </consumable>
 <consumable identifier="1879269036" name="Scroll of Riddermark Battle Lore" iconId="1090531744-1090519042-1090531745" class="57">
 <stat name="PHYSICAL_MASTERY" constant="1664.5834"/>
@@ -4120,6 +5883,14 @@
 <stat name="Skill_VitalCost_SerenadeUtilityMod" operator="SUBSTRACT" descriptionOverride="-" constant="75.0"/>
 <specialEffect label="Next Induction cannot be interrupted"/>
 </consumable>
+<consumable identifier="1879283558" name="Westemnet Caltrops" iconId="1090623481-1090519042-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
+<consumable identifier="1879283567" name="Eorlingas Caltrops" iconId="1090623481-1090519042-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
 <consumable identifier="1879283573" name="Scroll of Westemnet Woodsman's Lore" iconId="1090531739-1090519042-1090531740" class="57">
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Woodworker Critical Chance" constant="14.5"/>
 <stat name="Craft_Forester_CriticalChanceAddModifier" descriptionOverride="+${PERCENTVALUE} Forester Critical Chance" constant="17.5"/>
@@ -4135,6 +5906,22 @@
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Metalsmith Critical Chance" constant="14.5"/>
 <stat name="TAILOR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Tailor Critical Chance" constant="14.5"/>
 </consumable>
+<consumable identifier="1879283577" name="Westemnet Blazoned Crest of War" iconId="1091636248-1090519042-1091636249" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1421.25"/>
+<stat name="MORALE" constant="585.0"/>
+</consumable>
+<consumable identifier="1879283583" name="Westemnet Edhelharn Token" iconId="1091830295-1090519043-1091830297" class="28">
+<stat name="HOPE" constant="6.0"/>
+<stat name="RESISTANCE" constant="846.0"/>
+</consumable>
+<consumable identifier="1879283589" name="Westemnet Blazoned Crest of Focus" iconId="1091636250-1090519042-1091636251" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1421.25"/>
+<stat name="CRITICAL_RATING" constant="743.5"/>
+</consumable>
+<consumable identifier="1879283599" name="Westemnet Blazoned Crest of Victory" iconId="1091636246-1090519042-1091636247" class="13">
+<stat name="CRITICAL_DEFENCE" constant="699.75"/>
+<stat name="MORALE" constant="585.0"/>
+</consumable>
 <consumable identifier="1879283602" name="Scroll of Westemnet Yeoman's Lore" iconId="1090531739-1090519042-1090531740" class="57">
 <stat name="COOK_CRIT_CHANCE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Cook Critical Chance" constant="14.5"/>
 <stat name="Craft_Farmer_CriticalChanceAddModifier" descriptionOverride="+${PERCENTVALUE} Farmer Critical Chance" constant="14.5"/>
@@ -4143,6 +5930,10 @@
 <consumable identifier="1879283604" name="Scroll of Westemnet Warding Lore" iconId="1090531423-1090519042-1090531424" class="57">
 <stat name="PHYSICAL_MITIGATION" constant="1281.6666"/>
 <stat name="TACTICAL_MITIGATION" constant="1281.6666"/>
+</consumable>
+<consumable identifier="1879283608" name="Westemnet Blazoned Crest of Hope" iconId="1091636244-1090519042-1091636245" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="446.0"/>
 </consumable>
 <consumable identifier="1879283613" name="Scroll of Westemnet Explorer's Lore" iconId="1090523516-1090519042-1090523517" class="57">
 <stat name="TAILOR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Tailor Critical Chance" constant="14.5"/>
@@ -4253,6 +6044,24 @@
 <consumable identifier="1879305630" name="Bottle of 'Sticky Apple' Cider" iconId="1090640842-1090522692-1090640843" class="55">
 <stat name="Combat_BaseMissRate" descriptionOverride="-" constant="5.0"/>
 <stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
+</consumable>
+<consumable identifier="1879305748" name="Bowl of Water" iconId="1091611526-1090519042-1091611528" class="171">
+<stat name="FIRE_MITIGATION" constant="1003.91895"/>
+<stat name="ACID_MITIGATION" constant="301.64865"/>
+<stat name="PHYSICAL_MASTERY" constant="156.86487"/>
+<stat name="POWER" constant="20.135136"/>
+</consumable>
+<consumable identifier="1879305749" name="Bowl of Filtered Water" iconId="1091611526-1090519042-1091611528" class="171">
+<stat name="FIRE_MITIGATION" constant="1405.1351"/>
+<stat name="ACID_MITIGATION" constant="421.9189"/>
+<stat name="PHYSICAL_MASTERY" constant="218.89189"/>
+<stat name="POWER" constant="28.108109"/>
+</consumable>
+<consumable identifier="1879305750" name="Bowl of Refreshing Water" iconId="1091611526-1090519042-1091611528" class="171">
+<stat name="FIRE_MITIGATION" constant="1806.3513"/>
+<stat name="ACID_MITIGATION" constant="542.1892"/>
+<stat name="PHYSICAL_MASTERY" constant="280.9189"/>
+<stat name="POWER" constant="36.08108"/>
 </consumable>
 <consumable identifier="1879305951" name="Chicken Wing Banquet" iconId="1091402930-1090519041-1091402920" class="205">
 <stat name="Craft_Recipe_CraftXP_Acceleration" constant="25.0"/>
@@ -4370,6 +6179,30 @@
 <stat name="Resist_Additional_Resistance_Fear" constant="2.0"/>
 <stat name="Resist_Additional_Resistance_Wound" constant="2.0"/>
 </consumable>
+<consumable identifier="1879328218" name="Bowl of Anórien Water" iconId="1091611526-1090519042-1091611528" class="171">
+<stat name="FIRE_MITIGATION" constant="8043.3335"/>
+<stat name="SHADOW_MITIGATION" constant="2417.1665"/>
+<stat name="PHYSICAL_MASTERY" constant="1536.1666"/>
+<stat name="POWER" constant="160.0"/>
+</consumable>
+<consumable identifier="1879328219" name="Pot of Anórien Honey and Oats" iconId="1091388635-1090519042-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="8043.3335"/>
+<stat name="SHADOW_MITIGATION" constant="2417.1665"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="5468.333"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879328220" name="Cut of Anórien Meat" iconId="1091610925-1090519042-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="8043.3335"/>
+<stat name="SHADOW_MITIGATION" constant="2417.1665"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="816.0"/>
+<stat name="PHYSICAL_MITIGATION" constant="1967.1666"/>
+</consumable>
+<consumable identifier="1879328221" name="Bag of Anórien Crumbs" iconId="1091610922-1090519042-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="8043.3335"/>
+<stat name="SHADOW_MITIGATION" constant="2417.1665"/>
+<stat name="PHYSICAL_MASTERY" constant="1536.1666"/>
+<stat name="EVADE" constant="1950.0"/>
+</consumable>
 <consumable identifier="1879328228" name="Scroll of Anórien Battle Lore" iconId="1090531744-1090519042-1090531745" class="57">
 <stat name="PHYSICAL_MASTERY" constant="1828.3334"/>
 <stat name="TACTICAL_MASTERY" constant="1828.3334"/>
@@ -4381,6 +6214,26 @@
 <consumable identifier="1879328250" name="Anórien Grisly Potion of Rage" iconId="1091991396-1090519042-1091991399" class="233">
 <stat name="DEVASTATE_MAGNITUDE_PERCENTAGE" constant="40.0"/>
 </consumable>
+<consumable identifier="1879328285" name="Anórien Blazoned Crest of Victory" iconId="1091636246-1090519042-1091636247" class="13">
+<stat name="CRITICAL_DEFENCE" constant="721.6667"/>
+<stat name="MORALE" constant="615.0"/>
+</consumable>
+<consumable identifier="1879328286" name="Anórien Blazoned Crest of Focus" iconId="1091636250-1090519042-1091636251" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1465.0"/>
+<stat name="CRITICAL_RATING" constant="766.6667"/>
+</consumable>
+<consumable identifier="1879328287" name="Anórien Blazoned Crest of Hope" iconId="1091636244-1090519042-1091636245" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="476.0"/>
+</consumable>
+<consumable identifier="1879328288" name="Anórien Blazoned Crest of War" iconId="1091636248-1090519042-1091636249" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1465.0"/>
+<stat name="MORALE" constant="615.0"/>
+</consumable>
+<consumable identifier="1879328361" name="Anórien Caltrops" iconId="1090623481-1090519042-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
 <consumable identifier="1879333317" name="+5% Attack Damage (6 hours)" iconId="1091590835-1091591349-1091590836" class="189">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
@@ -4388,6 +6241,22 @@
 </consumable>
 <consumable identifier="1879343980" name="Anniversary Keg" iconId="1092170145-1091424047-1091947416" class="85">
 <stat name="Combat_BaseMissRate" constant="10.0"/>
+</consumable>
+<consumable identifier="1879349144" name="Doomfold Blazoned Crest of War" iconId="1091636248-1090519042-1091636249" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1596.25"/>
+<stat name="MORALE" constant="1290.0"/>
+</consumable>
+<consumable identifier="1879349145" name="Doomfold Blazoned Crest of Hope" iconId="1091636244-1090519042-1091636245" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="1012.0"/>
+</consumable>
+<consumable identifier="1879349146" name="Doomfold Blazoned Crest of Victory" iconId="1091636246-1090519042-1091636247" class="13">
+<stat name="CRITICAL_DEFENCE" constant="787.4167"/>
+<stat name="MORALE" constant="1290.0"/>
+</consumable>
+<consumable identifier="1879349147" name="Doomfold Blazoned Crest of Focus" iconId="1091636250-1090519042-1091636251" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1596.25"/>
+<stat name="CRITICAL_RATING" constant="836.1667"/>
 </consumable>
 <consumable identifier="1879349351" name="Doomfold Nestad Infused Parchment" iconId="1091812508-1090519042-1091812507" class="106">
 <stat name="Skill_Runekeeper_EpicForAges_CriticalChance" operator="SET" constant="100.0"/>
@@ -4404,6 +6273,10 @@
 <consumable identifier="1879350296" name="Doomfold Westernesse Shield-spike Kit" iconId="1091755069-1090519042-1091755068" class="179">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="7.0"/>
 <specialEffect label="Set damage type of all skills to Westernesse"/>
+</consumable>
+<consumable identifier="1879350299" name="Doomfold Caltrops" iconId="1090623481-1090519042-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
 </consumable>
 <consumable identifier="1879350302" name="Doomfold Beleriand Shield-spike Kit" iconId="1091755072-1090519042-1091755070" class="179">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="7.0"/>
@@ -4469,6 +6342,30 @@
 <consumable identifier="1879350953" name="Merry Berry Pie" iconId="1092323507-1090522692-1091947416" class="55">
 <stat name="WILL" constant="612.9796"/>
 </consumable>
+<consumable identifier="1879350984" name="Bowl of Ithilien Water" iconId="1091611526-1090519042-1091611528" class="171">
+<stat name="FIRE_MITIGATION" constant="18100.0"/>
+<stat name="SHADOW_MITIGATION" constant="5430.0"/>
+<stat name="PHYSICAL_MASTERY" constant="3500.0"/>
+<stat name="POWER" constant="360.0"/>
+</consumable>
+<consumable identifier="1879350985" name="Pot of Ithilien Honey and Oats" iconId="1091388635-1090519042-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="18100.0"/>
+<stat name="SHADOW_MITIGATION" constant="5430.0"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="12300.0"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879350986" name="Bag of Ithilien Crumbs" iconId="1091610922-1090519042-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="18100.0"/>
+<stat name="SHADOW_MITIGATION" constant="5430.0"/>
+<stat name="PHYSICAL_MASTERY" constant="3500.0"/>
+<stat name="EVADE" constant="5400.0"/>
+</consumable>
+<consumable identifier="1879350987" name="Cut of Ithilien Meat" iconId="1091610925-1090519042-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="18100.0"/>
+<stat name="SHADOW_MITIGATION" constant="5430.0"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="1840.0"/>
+<stat name="PHYSICAL_MITIGATION" constant="5430.0"/>
+</consumable>
 <consumable identifier="1879366412" name="Lake-town Stout" iconId="1090640840-1090522692-1090640841" class="55">
 <stat name="Combat_BaseMissRate" descriptionOverride="-" constant="5.0"/>
 <stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
@@ -4480,6 +6377,10 @@
 <consumable identifier="1879366414" name="Dragon's Breath" iconId="1090640836-1090522692-1090640837" class="55">
 <stat name="Combat_BaseMissRate" descriptionOverride="-" constant="15.000001"/>
 <stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="20.0"/>
+</consumable>
+<consumable identifier="1879370124" name="Ironfold Caltrops" iconId="1090623481-1090519042-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
 </consumable>
 <consumable identifier="1879370126" name="Ironfold Ancient Dwarf Shield-spike Kit" iconId="1091755073-1090519042-1091755075" class="179">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="8.0"/>
@@ -4516,13 +6417,29 @@
 <consumable identifier="1879370189" name="Bow Chant: Ironfold Breach-finder" iconId="1091388834-1090519042-1091388835" class="17">
 <stat name="Skill_DamageMitigation_RangedMod" constant="-2400.0"/>
 </consumable>
+<consumable identifier="1879370227" name="Ironfold Blazoned Crest of Hope" iconId="1091636244-1090519042-1091636245" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="2699.0"/>
+</consumable>
 <consumable identifier="1879370233" name="Ironfold Nestad Infused Parchment" iconId="1091812508-1090519042-1091812507" class="106">
 <stat name="Skill_Runekeeper_EpicForAges_CriticalChance" operator="SET" constant="100.0"/>
 <stat name="OUTGOING_HEALING" constant="16200.0"/>
 </consumable>
+<consumable identifier="1879370235" name="Ironfold Blazoned Crest of War" iconId="1091636248-1090519042-1091636249" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1640.0"/>
+<stat name="MORALE" constant="3440.0"/>
+</consumable>
 <consumable identifier="1879370266" name="Ironfold Dagor Infused Parchment" iconId="1091812504-1090519042-1091812506" class="106">
 <stat name="Skill_Runekeeper_ScathingMockery_MaxTargets" constant="5.0"/>
 <stat name="FINESSE" constant="21600.0"/>
+</consumable>
+<consumable identifier="1879370276" name="Ironfold Blazoned Crest of Victory" iconId="1091636246-1090519042-1091636247" class="13">
+<stat name="CRITICAL_DEFENCE" constant="809.3333"/>
+<stat name="MORALE" constant="3440.0"/>
+</consumable>
+<consumable identifier="1879370290" name="Ironfold Blazoned Crest of Focus" iconId="1091636250-1090519042-1091636251" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1640.0"/>
+<stat name="CRITICAL_RATING" constant="859.3333"/>
 </consumable>
 <consumable identifier="1879370429" name="Bowl of Shchi" iconId="1092395604-1090522692-1091947416" class="55">
 <stat name="ICPR" constant="21600.0"/>
@@ -4545,6 +6462,30 @@
 </consumable>
 <consumable identifier="1879370433" name="Pouch of Pirogis" iconId="1092395605-1090522692-1091947416" class="55">
 <stat name="AGILITY" constant="1369.5103"/>
+</consumable>
+<consumable identifier="1879370434" name="Pot of Ironfold Honey and Oats" iconId="1091388635-1090519042-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="45300.0"/>
+<stat name="SHADOW_MITIGATION" constant="13600.0"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="27900.0"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879370435" name="Bowl of Ironfold Water" iconId="1091611526-1090519042-1091611528" class="171">
+<stat name="FIRE_MITIGATION" constant="45300.0"/>
+<stat name="SHADOW_MITIGATION" constant="13600.0"/>
+<stat name="PHYSICAL_MASTERY" constant="8750.0"/>
+<stat name="POWER" constant="720.0"/>
+</consumable>
+<consumable identifier="1879370436" name="Bag of Ironfold Crumbs" iconId="1091610922-1090519042-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="45300.0"/>
+<stat name="SHADOW_MITIGATION" constant="13600.0"/>
+<stat name="PHYSICAL_MASTERY" constant="8750.0"/>
+<stat name="EVADE" constant="13500.0"/>
+</consumable>
+<consumable identifier="1879370437" name="Cut of Ironfold Meat" iconId="1091610925-1090519042-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="45300.0"/>
+<stat name="SHADOW_MITIGATION" constant="13600.0"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="4590.0"/>
+<stat name="PHYSICAL_MITIGATION" constant="13600.0"/>
 </consumable>
 <consumable identifier="1879377573" name="Tome of Greater Deed Acceleration" iconId="1091590962-1090519045-1091590963" class="189">
 <stat name="Accomplishment_MonsterDied_AccelerationMultiplier" operator="SET" descriptionOverride="Slayer deeds accelerated: 2x" constant="2.0"/>
@@ -4577,6 +6518,20 @@
 <stat name="Item_Warden_VitalCost_GambitBuilder" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Gambit Builder Power Costs" constant="100.0"/>
 <stat name="Trait_DamageMultiplier_SharpBladeSharpWit" descriptionOverride="+${PERCENTVALUE} Fist Gambit Damage" constant="10.0"/>
 </consumable>
+<consumable identifier="1879381261" name="Ironfold Edhelharn Token" iconId="1091768056-1090519043-1091768057" class="28">
+<stat name="HOPE" constant="6.0"/>
+<stat name="RESISTANCE" constant="1008.0"/>
+</consumable>
+<consumable identifier="1879382832" name="Perfect Snowball" iconId="1091544645-1090524208-1091947416" class="205">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="20.0"/>
+<stat name="ALL_SKILL_INDUCTION" constant="5.0"/>
+</consumable>
+<consumable identifier="1879383613" name="Not Forgotten Handkerchief" iconId="1090537514-1090524208-1091947416" class="50">
+<stat name="HOPE" constant="1.0"/>
+</consumable>
+<consumable identifier="1879383613" name="Not Forgotten Handkerchief" iconId="1090537514-1090524208-1091947416" class="50">
+<stat name="Movement_OutOfCombat_Speed_AddMod" constant="6.0"/>
+</consumable>
 <consumable identifier="1879383939" name="Scroll of Battle Lore of the Anvil" iconId="1090531744-1090519042-1090531745" class="57">
 <stat name="PHYSICAL_MASTERY" constant="17500.0"/>
 <stat name="TACTICAL_MASTERY" constant="17500.0"/>
@@ -4607,6 +6562,12 @@
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" scaling="1879388689"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" scaling="1879388690"/>
 </consumable>
+<consumable identifier="1879394086" name="Pot of Minas Ithil Honey and Oats" iconId="1091388635-1090519043-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="127000.0"/>
+<stat name="SHADOW_MITIGATION" constant="38000.0"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="71000.0"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
 <consumable identifier="1879394087" name="Nine Star Pie" iconId="1092527733-1090522692-1091947416" class="55">
 <stat name="ICPR" constant="25200.0"/>
 <stat name="ICMR" constant="17340.0"/>
@@ -4621,6 +6582,12 @@
 <stat name="Resist_Additional_Resistance_Fear" constant="2.0"/>
 <stat name="Resist_Additional_Resistance_Wound" constant="2.0"/>
 </consumable>
+<consumable identifier="1879394089" name="Bag of Minas Ithil Crumbs" iconId="1091610922-1090519043-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="127000.0"/>
+<stat name="SHADOW_MITIGATION" constant="38000.0"/>
+<stat name="PHYSICAL_MASTERY" constant="22100.0"/>
+<stat name="EVADE" constant="34100.0"/>
+</consumable>
 <consumable identifier="1879394090" name="Potato-stuffed Waybread" iconId="1092527732-1090522692-1091947416" class="55">
 <stat name="MIGHT" constant="3438.5713"/>
 <stat name="RESISTANCE" constant="40691.836"/>
@@ -4628,6 +6595,18 @@
 <stat name="Resist_Additional_Resistance_Disease" constant="2.0"/>
 <stat name="Resist_Additional_Resistance_Fear" constant="2.0"/>
 <stat name="Resist_Additional_Resistance_Wound" constant="2.0"/>
+</consumable>
+<consumable identifier="1879394091" name="Bowl of Minas Ithil Water" iconId="1091611526-1090519043-1091611528" class="171">
+<stat name="FIRE_MITIGATION" constant="127000.0"/>
+<stat name="SHADOW_MITIGATION" constant="38000.0"/>
+<stat name="PHYSICAL_MASTERY" constant="22100.0"/>
+<stat name="POWER" constant="840.0"/>
+</consumable>
+<consumable identifier="1879394092" name="Cut of Minas Ithil Meat" iconId="1091610925-1090519043-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="127000.0"/>
+<stat name="SHADOW_MITIGATION" constant="38000.0"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="12900.0"/>
+<stat name="PHYSICAL_MITIGATION" constant="34200.0"/>
 </consumable>
 <consumable identifier="1879394093" name="Chicken-stuffed Waybread" iconId="1092527730-1090522692-1091947416" class="55">
 <stat name="AGILITY" constant="3438.5713"/>
@@ -4708,6 +6687,30 @@
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="8.0"/>
 <specialEffect label="Set damage type of all skills to Ancient Dwarf-make"/>
 </consumable>
+<consumable identifier="1879396654" name="Minas Ithil Edhelharn Token" iconId="1091768056-1090519043-1091768057" class="28">
+<stat name="HOPE" constant="6.0"/>
+<stat name="RESISTANCE" constant="1062.0"/>
+</consumable>
+<consumable identifier="1879396655" name="Minas Ithil Blazoned Crest of Hope" iconId="1091636244-1090519043-1091636245" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="5964.0"/>
+</consumable>
+<consumable identifier="1879396656" name="Minas Ithil Blazoned Crest of Victory" iconId="1091636246-1090519043-1091636247" class="13">
+<stat name="CRITICAL_DEFENCE" constant="853.1667"/>
+<stat name="MORALE" constant="7604.0"/>
+</consumable>
+<consumable identifier="1879396657" name="Minas Ithil Blazoned Crest of War" iconId="1091636248-1090519043-1091636249" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1727.5"/>
+<stat name="MORALE" constant="7604.0"/>
+</consumable>
+<consumable identifier="1879396658" name="Minas Ithil Blazoned Crest of Focus" iconId="1091636250-1090519043-1091636251" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1727.5"/>
+<stat name="CRITICAL_RATING" constant="905.6667"/>
+</consumable>
+<consumable identifier="1879396659" name="Minas Ithil Caltrops" iconId="1090623481-1090519043-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
 <consumable identifier="1879397159" name="Ithilharn Roll" iconId="1091934652-1090522692-1091947416" class="55">
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} damage" constant="2.5"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="2.5"/>
@@ -4781,6 +6784,54 @@
 <stat name="Skill_Runekeeper_EpicForAges_CriticalChance" operator="SET" constant="100.0"/>
 <stat name="OUTGOING_HEALING" constant="69900.0"/>
 </consumable>
+<consumable identifier="1879398747" name="Gundabad Caltrops" iconId="1090623481-1090519043-1090623482" class="48">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} Target Run Speed" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+</consumable>
+<consumable identifier="1879398749" name="Gundabad Blazoned Crest of War" iconId="1091636248-1090519043-1091636249" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1815.0"/>
+<stat name="MORALE" constant="14774.0"/>
+</consumable>
+<consumable identifier="1879398750" name="Bowl of Gundabad Water" iconId="1091611526-1090519043-1091611528" class="171">
+<stat name="FIRE_MITIGATION" constant="279000.0"/>
+<stat name="SHADOW_MITIGATION" constant="83600.0"/>
+<stat name="PHYSICAL_MASTERY" constant="37800.0"/>
+<stat name="POWER" constant="920.0"/>
+</consumable>
+<consumable identifier="1879398751" name="Pot of Gundabad Honey and Oats" iconId="1091388635-1090519043-1091388622" class="171">
+<stat name="FIRE_MITIGATION" constant="279000.0"/>
+<stat name="SHADOW_MITIGATION" constant="83600.0"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="103000.0"/>
+<stat name="PERCEIVED_THREAT" constant="15.000001"/>
+</consumable>
+<consumable identifier="1879398752" name="Gundabad Blazoned Crest of Victory" iconId="1091636246-1090519043-1091636247" class="13">
+<stat name="CRITICAL_DEFENCE" constant="897.0"/>
+<stat name="MORALE" constant="14774.0"/>
+</consumable>
+<consumable identifier="1879398754" name="Cut of Gundabad Meat" iconId="1091610925-1090519043-1091610927" class="171">
+<stat name="FIRE_MITIGATION" constant="279000.0"/>
+<stat name="SHADOW_MITIGATION" constant="83600.0"/>
+<stat name="Combat_CriticalPoints_Modifier_Melee" constant="22700.0"/>
+<stat name="PHYSICAL_MITIGATION" constant="50200.0"/>
+</consumable>
+<consumable identifier="1879398755" name="Bag of Gundabad Crumbs" iconId="1091610922-1090519043-1091610924" class="171">
+<stat name="FIRE_MITIGATION" constant="279000.0"/>
+<stat name="SHADOW_MITIGATION" constant="83600.0"/>
+<stat name="PHYSICAL_MASTERY" constant="37800.0"/>
+<stat name="EVADE" constant="99800.0"/>
+</consumable>
+<consumable identifier="1879398756" name="Gundabad Edhelharn Token" iconId="1091768056-1090519043-1091768057" class="28">
+<stat name="HOPE" constant="6.0"/>
+<stat name="RESISTANCE" constant="1116.0"/>
+</consumable>
+<consumable identifier="1879398757" name="Gundabad Blazoned Crest of Focus" iconId="1091636250-1090519043-1091636251" class="13">
+<stat name="PHYSICAL_MASTERY" constant="1815.0"/>
+<stat name="CRITICAL_RATING" constant="952.0"/>
+</consumable>
+<consumable identifier="1879398759" name="Gundabad Blazoned Crest of Hope" iconId="1091636244-1090519043-1091636245" class="13">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="+${PERCENTVALUE} Herald Heals" constant="15.000001"/>
+<stat name="POWER" constant="11588.0"/>
+</consumable>
 <consumable identifier="1879407623" name="Strawberry Bun" iconId="1090541628-1090522692-1091947416" class="55">
 <stat name="ICPR" constant="271.62164"/>
 <stat name="ICMR" constant="147.56757"/>
@@ -4795,6 +6846,61 @@
 <stat name="ItemWear_ChanceMod_SkillUse" descriptionOverride="-" constant="-100000.0"/>
 <stat name="ItemWear_ChanceMod_HarvestItem" operator="SUBSTRACT" descriptionOverride="-" constant="100.0"/>
 <stat name="ItemWear_ChanceMod_CraftItem" operator="SUBSTRACT" descriptionOverride="-" constant="100.0"/>
+</consumable>
+<consumable identifier="1879412457" name="Protection of the Deathless" iconId="1091631302-1090524208-1091947416" class="50">
+<specialEffect label="When you would otherwise suffer damage that would defeat you, instead heal 5% morale and become immune to defeat for 3s."/>
+</consumable>
+<consumable identifier="1879415552" name="Extremely Subtle Portent of Vitality" iconId="1092667338-1090524208-1091947416" class="50">
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="+10% Maximum Morale" constant="1.1"/>
+</consumable>
+<consumable identifier="1879415553" name="Extremely Subtle Portent of Strength" iconId="1092667339-1090524208-1091947416" class="50">
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} damage" constant="30.000002"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="30.000002"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="30.000002"/>
+</consumable>
+<consumable identifier="1879415554" name="Extremely Subtle Portent of Deftness" iconId="1092667337-1090524208-1091947416" class="50">
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} incoming damage" constant="27.5"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="27.5"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="27.5"/>
+</consumable>
+<consumable identifier="1879415720" name="Portent of Vitality" iconId="1092667338-1090524208-1091947416" class="50">
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="+12% Maximum Morale" constant="1.12"/>
+</consumable>
+<consumable identifier="1879415721" name="Obvious Portent of Deftness" iconId="1092667337-1090524208-1091947416" class="50">
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} incoming damage" constant="35.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="35.0"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="35.0"/>
+</consumable>
+<consumable identifier="1879415722" name="Subtle Portent of Deftness" iconId="1092667337-1090524208-1091947416" class="50">
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} incoming damage" constant="30.000002"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
+</consumable>
+<consumable identifier="1879415723" name="Portent of Strength" iconId="1092667339-1090524208-1091947416" class="50">
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} damage" constant="36.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="36.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="36.0"/>
+</consumable>
+<consumable identifier="1879415724" name="Portent of Deftness" iconId="1092667337-1090524208-1091947416" class="50">
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} incoming damage" constant="32.5"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="32.5"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="32.5"/>
+</consumable>
+<consumable identifier="1879415725" name="Subtle Portent of Vitality" iconId="1092667338-1090524208-1091947416" class="50">
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="+11% Maximum Morale" constant="1.11"/>
+</consumable>
+<consumable identifier="1879415726" name="Subtle Portent of Strength" iconId="1092667339-1090524208-1091947416" class="50">
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} damage" constant="33.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="33.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="33.0"/>
+</consumable>
+<consumable identifier="1879415727" name="Obvious Portent of Strength" iconId="1092667339-1090524208-1091947416" class="50">
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} damage" constant="39.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="39.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="39.0"/>
+</consumable>
+<consumable identifier="1879415728" name="Obvious Portent of Vitality" iconId="1092667338-1090524208-1091947416" class="50">
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="+13% Maximum Morale" constant="1.13"/>
 </consumable>
 <consumable identifier="1879416865" name="Wildwood Cram" iconId="1090648268-1090522692-1090648270" class="55">
 <stat name="ICPR" constant="1094.5946"/>
@@ -5002,5 +7108,8 @@
 </consumable>
 <consumable identifier="1879454830" name="Mossward Cheese" iconId="1091638616-1090522692-1091638617" class="55">
 <stat name="WILL" constant="4.5"/>
+</consumable>
+<consumable identifier="1879456418" name="Delving Edhelharn Token" iconId="1091658270-1090519043-1091658271" class="28">
+<stat name="HOPE" constant="5.0"/>
 </consumable>
 </consumables>
