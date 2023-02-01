@@ -7112,4 +7112,17 @@
 <consumable identifier="1879456418" name="Delving Edhelharn Token" iconId="1091658270-1090519043-1091658271" class="28">
 <stat name="HOPE" constant="5.0"/>
 </consumable>
+<consumable identifier="1879457723" name="Conspicuous Portent of Vitality" iconId="1092667338-1090524208-1091947416" class="50">
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="+13% Maximum Morale" constant="1.13"/>
+</consumable>
+<consumable identifier="1879457724" name="Conspicuous Portent of Strength" iconId="1092667339-1090524208-1091947416" class="50">
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} damage" constant="39.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="39.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="39.0"/>
+</consumable>
+<consumable identifier="1879457725" name="Conspicuous Portent of Deftness" iconId="1092667337-1090524208-1091947416" class="50">
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} incoming damage" constant="35.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="35.0"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="35.0"/>
+</consumable>
 </consumables>
