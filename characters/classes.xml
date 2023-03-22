@@ -133,11 +133,11 @@
 <classSkill minLevel="1" skillId="1879060431" skillName="Devastating Blow"/>
 <classSkill minLevel="4" skillId="1879064140" skillName="Cutting Attack"/>
 <classSkill minLevel="6" skillId="1879060399" skillName="Call to Arms: Herald of Hope"/>
-<classSkill minLevel="6" skillId="1879060250" skillName="Call to Arms: Herald of Victory"/>
+<classSkill minLevel="12" skillId="1879060250" skillName="Call to Arms: Herald of Victory"/>
 <classSkill minLevel="8" skillId="1879060321" skillName="Routing Cry"/>
 <classSkill minLevel="8" skillId="1879064142" skillName="Make Haste"/>
 <classSkill minLevel="6" skillId="1879060346" skillName="Call to Arms: Herald of War"/>
-<classSkill minLevel="10" skillId="1879064144" skillName="Pressing Attack"/>
+<classSkill minLevel="12" skillId="1879064144" skillName="Pressing Attack"/>
 <classSkill minLevel="12" skillId="1879064080" skillName="Stallion's Spirit"/>
 <classSkill minLevel="12" skillId="1879064082" skillName="Eagle's Cry"/>
 <classSkill minLevel="12" skillId="1879064081" skillName="Ent's Strength (Melee)"/>
@@ -147,9 +147,11 @@
 <classSkill minLevel="16" skillId="1879064146" skillName="Motivating Speech"/>
 <classSkill minLevel="20" skillId="1879060293" skillName="Escape from Darkness"/>
 <classSkill minLevel="22" skillId="1879089623" skillName="Inspire (Shield-brother)"/>
-<classSkill minLevel="10" skillId="1879182838" skillName="Watchful Shield-brother"/>
+<classSkill minLevel="10" skillId="1879182838" skillName="Shield-brother"/>
+<classSkill minLevel="26" skillId="1879273442" skillName="Gallant Display"/>
+<classSkill minLevel="38" skillId="1879389418" skillName="Defensive Strike"/>
 <classSkill minLevel="30" skillId="1879215691" skillName="Grave Wound"/>
-<classSkill minLevel="30" skillId="1879092634" skillName="Blade of Elendil"/>
+<classSkill minLevel="18" skillId="1879092634" skillName="Blade of Elendil"/>
 <classSkill minLevel="12" skillId="1879091728" skillName="Withdraw"/>
 <classSkill minLevel="40" skillId="1879064154" skillName="Command Respect"/>
 <classSkill minLevel="40" skillId="1879091725" skillName="To Arms (Shield-brother)"/>
@@ -157,11 +159,9 @@
 <classSkill minLevel="20" skillId="1879091726" skillName="Kick"/>
 <classSkill minLevel="46" skillId="1879279086" skillName="Improved Motivating Speech"/>
 <classSkill minLevel="20" skillId="1879287459" skillName="Cleanse Corruption"/>
-<classSkill minLevel="52" skillId="1879145777" skillName="Improved Blade of Elendil"/>
-<classSkill minLevel="26" skillId="1879112824" skillName="Call to Arms: Archer"/>
-<classSkill minLevel="62" skillId="1879176393" skillName="Fighting Withdrawal"/>
-<classSkill minLevel="66" skillId="1879215540" skillName="Improved Sure Strike"/>
-<classSkill minLevel="72" skillId="1879216037" skillName="Improved Cutting Attack"/>
+<classSkill minLevel="16" skillId="1879112824" skillName="Call to Arms: Archer"/>
+<classSkill minLevel="52" skillId="1879215540" skillName="Improved Sure Strike"/>
+<classSkill minLevel="62" skillId="1879216037" skillName="Improved Cutting Attack"/>
 <classSkill minLevel="75" skillId="1879243996" skillName="Discipline: Rohirrim"/>
 <classSkill minLevel="75" skillId="1879243999" skillName="Measured Attack"/>
 <classSkill minLevel="75" skillId="1879243997" skillName="Oppressive Blow"/>
@@ -680,16 +680,17 @@
 <classTrait minLevel="20" traitId="1879060258" traitName="Adept"/>
 <classTrait minLevel="10" traitId="1879060257" traitName="Journeyman"/>
 <classTrait minLevel="30" traitId="1879060248" traitName="Master"/>
-<classTrait minLevel="40" traitId="1879213616" traitName="Improved Deft Strike"/>
-<classTrait minLevel="40" traitId="1879213615" traitName="Improved Defensive Strike"/>
-<classTrait minLevel="40" traitId="1879213617" traitName="Improved Goad Strike"/>
+<classTrait minLevel="30" traitId="1879461148" traitName="Gambit Chains"/>
+<classTrait minLevel="38" traitId="1879213616" traitName="Improved Deft Strike"/>
+<classTrait minLevel="38" traitId="1879213615" traitName="Improved Defensive Strike"/>
+<classTrait minLevel="38" traitId="1879213617" traitName="Improved Goad Strike"/>
 <classTrait minLevel="1" traitId="1879064093" traitName="Specialized Equipment"/>
 <classTrait minLevel="1" traitId="1879064210" traitName="Lute Use"/>
 <classTrait minLevel="1" traitId="1879116363" traitName="Javelins"/>
 <classTrait minLevel="1" traitId="1879120160" traitName="2 Icon Gambits"/>
-<classTrait minLevel="1" traitId="1879130697" traitName="3 Icon Gambits"/>
-<classTrait minLevel="1" traitId="1879131135" traitName="4 Icon Gambits"/>
-<classTrait minLevel="1" traitId="1879134769" traitName="5 Icon Gambits"/>
+<classTrait minLevel="12" traitId="1879130697" traitName="3 Icon Gambits"/>
+<classTrait minLevel="25" traitId="1879131135" traitName="4 Icon Gambits"/>
+<classTrait minLevel="40" traitId="1879134769" traitName="5 Icon Gambits"/>
 <classTrait minLevel="15" traitId="1879132040" traitName="Expert Spear Training"/>
 <classTrait minLevel="15" traitId="1879132051" traitName="Expert Sword Training"/>
 <classTrait minLevel="15" traitId="1879132052" traitName="Expert Club Training"/>
@@ -704,88 +705,114 @@
 <classTrait minLevel="20" traitId="1879163315" traitName="Critical Defence"/>
 <classTrait minLevel="1" traitId="1879186957" traitName="Newbie"/>
 <classTrait minLevel="40" traitId="1879083738" traitName="Heroic"/>
-<classSkill minLevel="1" skillId="1879270299" skillName="In the Fray - Stance"/>
-<classSkill minLevel="1" skillId="1879270300" skillName="Assailment - Stance"/>
+<classSkill minLevel="10" skillId="1879270299" skillName="In the Fray - Stance"/>
+<classSkill minLevel="10" skillId="1879270300" skillName="Assailment - Stance"/>
+<classSkill minLevel="30" skillId="1879457563" skillName="The Way of the Spear"/>
 <classSkill minLevel="1" skillId="1879107687" skillName="Quick Thrust"/>
 <classSkill minLevel="1" skillId="1879108878" skillName="Shield-bash"/>
 <classSkill minLevel="1" skillId="1879109327" skillName="Warden's Taunt"/>
-<classSkill minLevel="1" skillId="1879108872" skillName="Deft Strike"/>
 <classSkill minLevel="1" skillId="1879138134" skillName="Gambit Default"/>
+<classSkill minLevel="1" skillId="1879108872" skillName="Deft Strike"/>
 <classSkill minLevel="1" skillId="1879115078" skillName="Defensive Strike"/>
-<classSkill minLevel="1" skillId="1879138130" skillName="The Boot"/>
 <classSkill minLevel="1" skillId="1879115214" skillName="Goad"/>
-<classSkill minLevel="20" skillId="1879368191" skillName="Shield-slam"/>
-<classSkill minLevel="1" skillId="1879115746" skillName="Offensive Strike"/>
-<classSkill minLevel="22" skillId="1879117758" skillName="Combination Strike"/>
-<classSkill minLevel="44" skillId="1879131129" skillName="Boar's Rush"/>
-<classSkill minLevel="1" skillId="1879115745" skillName="Impressive Flourish"/>
-<classSkill minLevel="16" skillId="1879117455" skillName="Maddening Strike"/>
-<classSkill minLevel="16" skillId="1879288364" skillName="Surety of Death"/>
-<classSkill minLevel="16" skillId="1879288366" skillName="Conviction"/>
-<classSkill minLevel="12" skillId="1879116097" skillName="Precise Blow"/>
-<classSkill minLevel="30" skillId="1879117457" skillName="Piercing Strike"/>
-<classSkill minLevel="46" skillId="1879131584" skillName="Spear of Virtue"/>
-<classSkill minLevel="13" skillId="1879116096" skillName="War-cry"/>
-<classSkill minLevel="34" skillId="1879117735" skillName="Brink of Victory"/>
-<classSkill minLevel="34" skillId="1879288365" skillName="Dance of War"/>
-<classSkill minLevel="34" skillId="1879288367" skillName="Desolation"/>
-<classSkill minLevel="18" skillId="1879117456" skillName="Power Attack"/>
-<classSkill minLevel="38" skillId="1879131128" skillName="Mighty Blow"/>
-<classSkill minLevel="50" skillId="1879182845" skillName="Unerring Strike"/>
-<classSkill minLevel="1" skillId="1879109231" skillName="Persevere"/>
-<classSkill minLevel="24" skillId="1879109223" skillName="Safeguard"/>
-<classSkill minLevel="24" skillId="1879288368" skillName="Celebration of Skill"/>
-<classSkill minLevel="24" skillId="1879288363" skillName="Restoration"/>
-<classSkill minLevel="24" skillId="1879232404" skillName="Ranged Restoration"/>
-<classSkill minLevel="32" skillId="1879117757" skillName="Onslaught"/>
-<classSkill minLevel="44" skillId="1879131130" skillName="Wall of Steel"/>
-<classSkill minLevel="24" skillId="1879117759" skillName="Fierce Resolve"/>
-<classSkill minLevel="72" skillId="1879131582" skillName="Resolution"/>
-<classSkill minLevel="60" skillId="1879134765" skillName="Exultation of Battle"/>
-<classSkill minLevel="40" skillId="1879291417" skillName="Never Surrender"/>
-<classSkill minLevel="38" skillId="1879132209" skillName="Wages of Fear"/>
-<classSkill minLevel="60" skillId="1879134763" skillName="The Dark Before Dawn"/>
+<classSkill minLevel="3" skillId="1879138130" skillName="The Boot"/>
+<classSkill minLevel="22" skillId="1879117757" skillName="Onslaught"/>
+<classSkill minLevel="32" skillId="1879131130" skillName="Wall of Steel"/>
+<classSkill minLevel="47" skillId="1879457540" skillName="Cauterizing Steel"/>
+<classSkill minLevel="2" skillId="1879115746" skillName="Offensive Strike"/>
+<classSkill minLevel="12" skillId="1879117758" skillName="Combination Strike"/>
+<classSkill minLevel="25" skillId="1879131129" skillName="Boar's Rush"/>
+<classSkill minLevel="49" skillId="1879457541" skillName="Unseen Strikes"/>
+<classSkill minLevel="5" skillId="1879109231" skillName="Persevere"/>
+<classSkill minLevel="14" skillId="1879109223" skillName="Safeguard"/>
+<classSkill minLevel="36" skillId="1879288368" skillName="Celebration of Skill"/>
+<classSkill minLevel="45" skillId="1879288363" skillName="Restoration"/>
+<classSkill minLevel="5" skillId="1879115745" skillName="Impressive Flourish"/>
+<classSkill minLevel="14" skillId="1879117455" skillName="Maddening Strike"/>
+<classSkill minLevel="36" skillId="1879288365" skillName="Dance of War"/>
+<classSkill minLevel="43" skillId="1879288366" skillName="Conviction"/>
+<classSkill minLevel="7" skillId="1879116097" skillName="Precise Blow"/>
+<classSkill minLevel="16" skillId="1879117457" skillName="Piercing Strike"/>
+<classSkill minLevel="27" skillId="1879131584" skillName="Spear of Virtue"/>
+<classSkill minLevel="48" skillId="1879457547" skillName="Spear of Fate"/>
+<classSkill minLevel="7" skillId="1879116096" skillName="War-cry"/>
+<classSkill minLevel="16" skillId="1879117735" skillName="Brink of Victory"/>
+<classSkill minLevel="34" skillId="1879288364" skillName="Surety of Death"/>
+<classSkill minLevel="46" skillId="1879288367" skillName="Desolation"/>
+<classSkill minLevel="12" skillId="1879117456" skillName="Power Attack"/>
+<classSkill minLevel="25" skillId="1879131128" skillName="Mighty Blow"/>
+<classSkill minLevel="40" skillId="1879182845" skillName="Unerring Strike"/>
+<classSkill minLevel="20" skillId="1879117759" skillName="Fierce Resolve"/>
+<classSkill minLevel="34" skillId="1879131582" skillName="Resolution"/>
+<classSkill minLevel="50" skillId="1879134765" skillName="Exultation of Battle"/>
 <classSkill minLevel="20" skillId="1879143079" skillName="Reversal"/>
-<classSkill minLevel="58" skillId="1879143078" skillName="Adroit Manoeuvre"/>
-<classSkill minLevel="70" skillId="1879143274" skillName="Warden's Triumph"/>
-<classSkill minLevel="40" skillId="1879214342" skillName="Battle Memory I"/>
-<classSkill minLevel="20" skillId="1879270737" skillName="Diminished Target"/>
-<classSkill minLevel="1" skillId="1879270736" skillName="Marked Target"/>
+<classSkill minLevel="32" skillId="1879143078" skillName="Adroit Manoeuvre"/>
+<classSkill minLevel="42" skillId="1879143274" skillName="Warden's Triumph"/>
+<classSkill minLevel="44" skillId="1879134763" skillName="The Dark Before Dawn"/>
+<classSkill minLevel="18" skillId="1879457551" skillName="Shield Up"/>
+<classSkill minLevel="30" skillId="1879131565" skillName="Shield Mastery"/>
+<classSkill minLevel="18" skillId="1879457553" skillName="Readied Blade"/>
+<classSkill minLevel="30" skillId="1879215478" skillName="Shield Tactics"/>
+<classSkill minLevel="22" skillId="1879457546" skillName="Deflection"/>
+<classSkill minLevel="27" skillId="1879244424" skillName="Resounding Challenge"/>
+<classSkill minLevel="38" skillId="1879291417" skillName="Never Surrender"/>
+<classSkill minLevel="38" skillId="1879214342" skillName="Battle Memory"/>
 <classSkill minLevel="24" skillId="1879228140" skillName="Battle Preparation"/>
-<classSkill minLevel="21" skillId="1879213322" skillName="Spear and Spear"/>
-<classSkill minLevel="21" skillId="1879134361" skillName="Spear and Shield"/>
-<classSkill minLevel="21" skillId="1879134360" skillName="Spear and Fist"/>
-<classSkill minLevel="21" skillId="1879213323" skillName="Shield and Shield"/>
-<classSkill minLevel="21" skillId="1879134365" skillName="Shield and Spear"/>
-<classSkill minLevel="21" skillId="1879134363" skillName="Shield and Fist"/>
-<classSkill minLevel="21" skillId="1879213324" skillName="Fist and Fist"/>
-<classSkill minLevel="21" skillId="1879134362" skillName="Fist and Spear"/>
-<classSkill minLevel="21" skillId="1879134364" skillName="Fist and Shield"/>
-<classSkill minLevel="1" skillId="1879231373" skillName="Ranged Deft Strike"/>
-<classSkill minLevel="1" skillId="1879231365" skillName="Ranged Boot"/>
-<classSkill minLevel="1" skillId="1879231374" skillName="Ranged Offensive Strike"/>
-<classSkill minLevel="22" skillId="1879231368" skillName="Ranged Combination Strike"/>
-<classSkill minLevel="44" skillId="1879231367" skillName="Ranged Boar's Rush"/>
-<classSkill minLevel="18" skillId="1879231375" skillName="Ranged Power Attack"/>
-<classSkill minLevel="32" skillId="1879231369" skillName="Ranged Onslaught"/>
-<classSkill minLevel="58" skillId="1879231372" skillName="Ranged Adroit Manoeuvre"/>
-<classSkill minLevel="38" skillId="1879231364" skillName="Ranged Mighty Blow"/>
-<classSkill minLevel="44" skillId="1879231376" skillName="Ranged Wall of Steel"/>
-<classSkill minLevel="60" skillId="1879231370" skillName="Ranged The Dark Before Dawn"/>
-<classSkill minLevel="70" skillId="1879231377" skillName="Ranged Warden's Triumph"/>
-<classSkill minLevel="50" skillId="1879231366" skillName="Ranged Unerring Strike"/>
-<classSkill minLevel="60" skillId="1879232409" skillName="Ranged Exultation of Battle"/>
-<classSkill minLevel="46" skillId="1879232414" skillName="Javelin of Virtue"/>
-<classSkill minLevel="72" skillId="1879232415" skillName="Ranged Resolution"/>
-<classSkill minLevel="30" skillId="1879232411" skillName="Piercing Toss"/>
-<classSkill minLevel="24" skillId="1879232406" skillName="Ranged Fierce Resolve"/>
-<classSkill minLevel="12" skillId="1879232405" skillName="Precise Throw"/>
+<classSkill minLevel="39" skillId="1879213322" skillName="Spear and Spear"/>
+<classSkill minLevel="39" skillId="1879134361" skillName="Spear and Shield"/>
+<classSkill minLevel="39" skillId="1879134360" skillName="Spear and Fist"/>
+<classSkill minLevel="39" skillId="1879213323" skillName="Shield and Shield"/>
+<classSkill minLevel="39" skillId="1879134365" skillName="Shield and Spear"/>
+<classSkill minLevel="39" skillId="1879134363" skillName="Shield and Fist"/>
+<classSkill minLevel="39" skillId="1879213324" skillName="Fist and Fist"/>
+<classSkill minLevel="39" skillId="1879134362" skillName="Fist and Spear"/>
+<classSkill minLevel="39" skillId="1879134364" skillName="Fist and Shield"/>
+<classSkill minLevel="20" skillId="1879368191" skillName="Shield-slam"/>
+<classSkill minLevel="16" skillId="1879287380" skillName="First Aid"/>
+<classSkill minLevel="20" skillId="1879286677" skillName="Steadfast"/>
+<classSkill minLevel="2" skillId="1879132211" skillName="Hampering Javelin"/>
+<classSkill minLevel="5" skillId="1879109316" skillName="Ambush"/>
+<classSkill minLevel="14" skillId="1879115212" skillName="Forced March"/>
+<classSkill minLevel="14" skillId="1879132256" skillName="Careful Step"/>
+<classSkill minLevel="10" skillId="1879140874" skillName="Recovery"/>
+<classSkill minLevel="25" skillId="1879140873" skillName="Quick Recovery"/>
+<classSkill minLevel="10" skillId="1879231373" skillName="Ranged Deft Strike"/>
+<classSkill minLevel="10" skillId="1879231365" skillName="Ranged Boot"/>
+<classSkill minLevel="22" skillId="1879231369" skillName="Ranged Onslaught"/>
+<classSkill minLevel="32" skillId="1879231376" skillName="Ranged Wall of Steel"/>
+<classSkill minLevel="47" skillId="1879457545" skillName="Ranged Cauterizing Steel"/>
+<classSkill minLevel="10" skillId="1879231374" skillName="Ranged Offensive Strike"/>
+<classSkill minLevel="12" skillId="1879231368" skillName="Ranged Combination Strike"/>
+<classSkill minLevel="25" skillId="1879231367" skillName="Ranged Boar's Rush"/>
+<classSkill minLevel="49" skillId="1879457558" skillName="Ranged Unseen Strikes"/>
+<classSkill minLevel="10" skillId="1879232402" skillName="Ranged Persevere"/>
+<classSkill minLevel="14" skillId="1879232407" skillName="Ranged Safeguard"/>
+<classSkill minLevel="36" skillId="1879233290" skillName="Ranged Celebration of Skill"/>
+<classSkill minLevel="45" skillId="1879232404" skillName="Ranged Restoration"/>
+<classSkill minLevel="10" skillId="1879232405" skillName="Precise Throw"/>
+<classSkill minLevel="16" skillId="1879232411" skillName="Piercing Toss"/>
+<classSkill minLevel="27" skillId="1879232414" skillName="Javelin of Virtue"/>
+<classSkill minLevel="48" skillId="1879457559" skillName="Javelin of Fate"/>
+<classSkill minLevel="12" skillId="1879231375" skillName="Ranged Power Attack"/>
+<classSkill minLevel="25" skillId="1879231364" skillName="Ranged Mighty Blow"/>
+<classSkill minLevel="40" skillId="1879231366" skillName="Ranged Unerring Strike"/>
+<classSkill minLevel="20" skillId="1879232406" skillName="Ranged Fierce Resolve"/>
+<classSkill minLevel="34" skillId="1879232415" skillName="Ranged Resolution"/>
+<classSkill minLevel="50" skillId="1879232409" skillName="Ranged Exultation of Battle"/>
 <classSkill minLevel="20" skillId="1879231371" skillName="Ranged Reversal"/>
-<classSkill minLevel="1" skillId="1879232402" skillName="Ranged Persevere"/>
-<classSkill minLevel="24" skillId="1879232407" skillName="Ranged Safeguard"/>
-<classSkill minLevel="24" skillId="1879233290" skillName="Ranged Celebration of Skill"/>
-<classSkill minLevel="80" skillId="1879244424" skillName="Resounding Challenge"/>
-<classSkill minLevel="80" skillId="1879244423" skillName="Ranged Resounding Challenge"/>
+<classSkill minLevel="32" skillId="1879231372" skillName="Ranged Adroit Manoeuvre"/>
+<classSkill minLevel="42" skillId="1879231377" skillName="Ranged Warden's Triumph"/>
+<classSkill minLevel="44" skillId="1879231370" skillName="Ranged The Dark Before Dawn"/>
+<classSkill minLevel="18" skillId="1879457552" skillName="Shield Up"/>
+<classSkill minLevel="30" skillId="1879232412" skillName="Shield Mastery"/>
+<classSkill minLevel="18" skillId="1879457543" skillName="Readied Blade"/>
+<classSkill minLevel="30" skillId="1879232403" skillName="Shield Tactics"/>
+<classSkill minLevel="22" skillId="1879457544" skillName="Deflection"/>
+<classSkill minLevel="27" skillId="1879244423" skillName="Ranged Resounding Challenge"/>
+<classSkill minLevel="32" skillId="1879132056" skillName="Muster in Esteldín"/>
+<classSkill minLevel="38" skillId="1879132046" skillName="Muster in Evendim"/>
+<classSkill minLevel="44" skillId="1879132049" skillName="Muster in Rivendell"/>
+<classSkill minLevel="26" skillId="1879132038" skillName="Muster in Ost Guruth"/>
 <classSkill minLevel="75" skillId="1879244856" skillName="Discipline: Rohirrim"/>
 <classSkill minLevel="75" skillId="1879244849" skillName="Assault of the Eorlingas"/>
 <classSkill minLevel="75" skillId="1879244860" skillName="Roar of the Eorlingas"/>
@@ -795,19 +822,6 @@
 <classSkill minLevel="75" skillId="1879244844" skillName="Skill of the Eorlingas"/>
 <classSkill minLevel="75" skillId="1879244876" skillName="Discipline: Riddermark"/>
 <classSkill minLevel="75" skillId="1879244870" skillName="Discipline: Red Dawn"/>
-<classSkill minLevel="16" skillId="1879287380" skillName="First Aid"/>
-<classSkill minLevel="20" skillId="1879286677" skillName="Steadfast"/>
-<classSkill minLevel="10" skillId="1879109316" skillName="Ambush"/>
-<classSkill minLevel="10" skillId="1879114200" skillName="Critical Strike"/>
-<classSkill minLevel="10" skillId="1879140874" skillName="Recovery"/>
-<classSkill minLevel="14" skillId="1879115212" skillName="Forced March"/>
-<classSkill minLevel="14" skillId="1879132256" skillName="Careful Step"/>
-<classSkill minLevel="10" skillId="1879140873" skillName="Quick Recovery"/>
-<classSkill minLevel="2" skillId="1879132211" skillName="Hampering Javelin"/>
-<classSkill minLevel="32" skillId="1879132056" skillName="Muster in Esteldín"/>
-<classSkill minLevel="40" skillId="1879132046" skillName="Muster in Evendim"/>
-<classSkill minLevel="44" skillId="1879132049" skillName="Muster in Rivendell"/>
-<classSkill minLevel="26" skillId="1879132038" skillName="Muster in Ost Guruth"/>
 <classSkill minLevel="12" skillId="1879064394" skillName="Ent's Strength (Ranged)"/>
 <classSkill minLevel="12" skillId="1879064080" skillName="Stallion's Spirit"/>
 <classSkill minLevel="12" skillId="1879064395" skillName="Spider's Guile (Ranged)"/>
@@ -937,5 +951,25 @@
 <classSkill minLevel="75" skillId="1879428085" skillName="Take a Breath"/>
 <classSkill minLevel="75" skillId="1879428082" skillName="Camaraderie"/>
 <classSkill minLevel="75" skillId="1879428080" skillName="Momentous Hit"/>
+</class>
+<class id="1879458225" code="216" key="Corsair" name="Corsair" iconId="1092810847" smallIconId="1092810853" abbreviation="CRSR" description="key:621072108:209557171" tacticalDpsStatName="Tactical Rank">
+<proficiencies armourTypeForMitigations="MEDIUM">
+<armour type="LIGHT" level="1"/>
+<armour type="MEDIUM" level="1"/>
+</proficiencies>
+<classTrait minLevel="1" traitId="1879064094" traitName="Light Armour"/>
+<classTrait minLevel="1" traitId="1879064095" traitName="Medium Armour"/>
+<classTrait minLevel="1" traitId="1879064211" traitName="Clarinet Use"/>
+<classTrait minLevel="20" traitId="1879230292" traitName="Audacity"/>
+<classTrait minLevel="95" traitId="1879335360" traitName="Legendary"/>
+<classTrait minLevel="20" traitId="1879060258" traitName="Adept"/>
+<classTrait minLevel="10" traitId="1879060257" traitName="Journeyman"/>
+<classTrait minLevel="30" traitId="1879060248" traitName="Master"/>
+<classTrait minLevel="1" traitId="1879064093" traitName="Specialized Equipment"/>
+<classTrait minLevel="1" traitId="1879064210" traitName="Lute Use"/>
+<classTrait minLevel="1" traitId="1879186957" traitName="Newbie"/>
+<classTrait minLevel="40" traitId="1879083738" traitName="Heroic"/>
+<classSkill minLevel="1" skillId="1879060495" skillName="Swift Strike"/>
+<classSkill minLevel="1" skillId="1879064060" skillName="Wild Attack"/>
 </class>
 </classes>

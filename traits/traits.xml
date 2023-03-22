@@ -262,7 +262,7 @@
 <trait identifier="1879062506" name="Sword and Staff - Legendary" iconId="1090542870" minLevel="39" nature="2" description="key:620767447:54354734">
 <stat name="MORALE" scaling="1879238239"/>
 <stat name="PARRY" scaling="1879120136"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="15.000001"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
 </trait>
 <trait identifier="1879062692" name="Superior Workbench Access" iconId="1090535587" category="31" nature="1" cosmetic="true" tooltip="key:620767613:191029568" description="key:620767613:54354734"/>
 <trait identifier="1879062819" name="Track Mines" iconId="1090543114" category="31" nature="1" tooltip="key:620767742:191029568" description="key:620767742:54354734">
@@ -568,9 +568,9 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="6.0"/>
 </trait>
 <trait identifier="1879072473" name="Damage Boost" iconId="1090553307" category="43" nature="3" tooltip="key:620774731:191029568" description="key:620774731:54354734">
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="25.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="25.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="25.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="12.5"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="12.5"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="12.5"/>
 </trait>
 <trait identifier="1879072474" name="Avoidance Boost" iconId="1090553291" category="43" nature="3" tooltip="key:620774732:191029568" description="key:620774732:54354734">
 <stat name="PARRY" scaling="1879456296"/>
@@ -1223,7 +1223,7 @@
 <stat name="ICMR" descriptionOverride="+${VALUE} in-Combat Health Regen" scaling="1879456301"/>
 <stat name="ICPR" descriptionOverride="+${VALUE} in-Combat Power Regen" scaling="1879456290"/>
 </trait>
-<trait identifier="1879097845" name="Brutal persuasion" iconId="1091418014" category="103" nature="4" tooltip="key:620796437:191029568" description="key:620796437:54354734">
+<trait identifier="1879097845" name="Brutal Persuasion" iconId="1091418014" category="103" nature="4" tooltip="key:620796437:191029568" description="key:620796437:54354734">
 <stat name="CRITICAL_RATING" scaling="1879456299"/>
 </trait>
 <trait identifier="1879097846" name="Four-legged Foe" iconId="1091418015" category="103" nature="4" tooltip="key:620796439:191029568" description="key:620796439:54354734">
@@ -1243,7 +1243,7 @@
 <stat name="TACTICAL_MITIGATION" scaling="1879456303"/>
 <stat name="STEALTH_LEVEL" constant="4.0"/>
 </trait>
-<trait identifier="1879097850" name="Pack Alpha" iconId="1091418019" category="103" nature="4" tooltip="key:620796427:191029568" description="key:620796427:54354734">
+<trait identifier="1879097850" name="Pack Leader" iconId="1091418019" category="103" nature="4" tooltip="key:620796427:191029568" description="key:620796427:54354734">
 <stat name="PHYSICAL_MASTERY" scaling="1879456293"/>
 <stat name="CRITICAL_RATING" scaling="1879456282"/>
 <stat name="FINESSE" scaling="1879456280"/>
@@ -1537,7 +1537,7 @@
 <stat name="Skill_ToHitBonus_Warden_Swords" constant="2.0"/>
 </trait>
 <trait identifier="1879132037" name="Master Spear Training" iconId="1090552285" category="9" nature="1" tooltip="key:620824213:191029568" description="key:620824213:54354734">
-<stat name="Combat_WeaponDamageMultiplier_Spear" constant="2.0"/>
+<stat name="Combat_WeaponDamageMultiplier_Spear" constant="7.0"/>
 <stat name="Inventory_AllowedEquipmentCategories" descriptionOverride="-" constant="4096.0"/>
 <stat name="Skill_DamageMultiplier_Warden_SpearDot" descriptionOverride="Damage from intrinsic spear bleeds is multiplied by ${VALUE}." constant="500.0"/>
 <stat name="Skill_ProcRate_Warden_SpearDot" descriptionOverride="The inherent bleed damage from Spears happens much more often." constant="4.0"/>
@@ -2400,21 +2400,21 @@
 <trait identifier="1879227962" name="Emote: Boo" iconId="1091591966" category="92" nature="1" cosmetic="true" tooltip="key:620893132:191029568" description="key:620893132:54354734"/>
 <trait identifier="1879230292" name="Audacity" iconId="1091711663" tiers="60" tierProperty="Trait_PvMP_BattleRank" category="96" nature="13" description="key:620895005:54354734">
 <stat name="CombatStateMod_CC_DurationMultModifier" operator="MULTIPLY" scaling="1879231529"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" scaling="1879231531"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" scaling="1879231530"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" scaling="1879231532"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_AdditionalMod" scaling="1879425000"/>
-<stat name="Combat_DamageQualifier_Melee_Offense_AdditionalMod" scaling="1879425002"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_AdditionalMod" scaling="1879425001"/>
+<stat name="Combat_DamageQualifier_Magic_Defense_DifficultyMod" operator="MULTIPLY" descriptionOverride="x${VALUE} Incoming Damage" scaling="1879231531"/>
+<stat name="Combat_DamageQualifier_Melee_Defense_DifficultyMod" operator="MULTIPLY" descriptionOverride="-" scaling="1879231530"/>
+<stat name="Combat_DamageQualifier_Ranged_Defense_DifficultyMod" operator="MULTIPLY" descriptionOverride="-" scaling="1879231532"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_DifficultyMod" operator="MULTIPLY" descriptionOverride="x${VALUE} Outgoing Damage" scaling="1879425000"/>
+<stat name="Combat_DamageQualifier_Melee_Offense_DifficultyMod" operator="MULTIPLY" scaling="1879425002"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_DifficultyMod" operator="MULTIPLY" descriptionOverride="-" scaling="1879425001"/>
 </trait>
 <trait identifier="1879231342" name="Audacity" iconId="1091711663" tiers="60" tierProperty="Trait_PvMP_BattleRank_Creep" category="96" nature="13" description="key:620895961:54354734">
 <stat name="CombatStateMod_CC_DurationMultModifier" operator="MULTIPLY" scaling="1879231529"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" scaling="1879326855"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" scaling="1879326853"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" scaling="1879326854"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" scaling="1879325968"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" scaling="1879325966"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" scaling="1879325967"/>
+<stat name="Combat_DamageQualifier_Magic_Defense_DifficultyMod" operator="MULTIPLY" descriptionOverride="x${VALUE} Incoming Damage" scaling="1879326855"/>
+<stat name="Combat_DamageQualifier_Melee_Defense_DifficultyMod" operator="MULTIPLY" descriptionOverride="-" scaling="1879326853"/>
+<stat name="Combat_DamageQualifier_Ranged_Defense_DifficultyMod" operator="MULTIPLY" descriptionOverride="-" scaling="1879326854"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_DifficultyMod" operator="MULTIPLY" descriptionOverride="x${VALUE} Outgoing Damage" scaling="1879325968"/>
+<stat name="Combat_DamageQualifier_Melee_Offense_DifficultyMod" operator="MULTIPLY" descriptionOverride="-" scaling="1879325966"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_DifficultyMod" operator="MULTIPLY" descriptionOverride="-" scaling="1879325967"/>
 </trait>
 <trait identifier="1879233024" name="Riders of Stangard - Travel Discount" iconId="1091552099" category="93" nature="1" tooltip="key:620897335:191029568" description="key:620897335:54354734">
 <stat name="Discount_Travel_Greatriver_Stangard" constant="10.0"/>
@@ -3566,7 +3566,6 @@
 <trait identifier="1879264252" name="Burn Hot" iconId="1091840300" tiers="2" tierProperty="trait_class_hunter_rank_13" nature="21" description="key:620916668:54354734">
 <stat name="IA_Hunter_BuffDamage_BurnHot" scaling="1879270580"/>
 <stat name="Skill_Hunter_RecoveryTime_Trait_DPSSet_BurnHot" operator="SUBSTRACT" scaling="1879270579"/>
-<stat name="Skill_Hunter_VitalCost_Trait_CoolBurn_PowerCost" operator="SUBSTRACT" scaling="1879270581"/>
 </trait>
 <trait identifier="1879264254" name="Rain of Arrows" iconId="1090553936" tiers="2" tierProperty="trait_class_hunter_rank_11" nature="21" description="key:620916670:54354734">
 <stat name="Skill_ChanceCriticalHit_Trait_Hunter_HailofArrows" scaling="1879268066"/>
@@ -3581,11 +3580,11 @@
 <trait identifier="1879264321" key="IMPACT_ARROWS" name="Impact Arrows" iconId="1091829820" tiers="5" tierProperty="trait_class_hunter_rank_35" nature="21" description="key:620916732:54354734">
 <stat name="RANGED_DAMAGE_PERCENTAGE" scaling="1879297186"/>
 </trait>
-<trait identifier="1879264322" name="Strength of Earth" iconId="1091840253" tierProperty="trait_class_hunter_rank_46" nature="21" description="key:620916731:54354734"/>
-<trait identifier="1879264323" name="Shot Through The Heart" iconId="1091470793" tierProperty="trait_class_hunter_rank_47" nature="21" description="key:620916738:54354734"/>
-<trait identifier="1879264324" name="Bow of the Righteous" iconId="1090532129" tierProperty="trait_class_hunter_rank_49" nature="21" description="key:620916735:54354734">
-<stat name="Trait_BowoftheRighteous_ApplicationChance" descriptionOverride="Hunter ranged skills return a small amount of power" constant="1.0"/>
+<trait identifier="1879264322" name="Strength of Earth" iconId="1091840253" tiers="2" tierProperty="trait_class_hunter_rank_46" nature="21" description="key:620916731:54354734">
+<stat name="Trait_Hunter_StrengthOfEarth_DamageBuff" scaling="1879458851"/>
 </trait>
+<trait identifier="1879264323" name="Shot Through The Heart" iconId="1091470793" tierProperty="trait_class_hunter_rank_47" nature="21" description="key:620916738:54354734"/>
+<trait identifier="1879264324" name="Bow of the Righteous" iconId="1090532129" tierProperty="trait_class_hunter_rank_49" nature="21" description="key:620916735:54354734"/>
 <trait identifier="1879264325" name="Blood Arrow" iconId="1091840250" tiers="2" tierProperty="trait_class_hunter_rank_43" nature="21" description="key:620916733:54354734">
 <stat name="Skill_RecoveryTime_BloodArrow" scaling="1879341510"/>
 </trait>
@@ -3764,27 +3763,28 @@
 </trait>
 <trait identifier="1879268100" name="Precision" iconId="1091840248" tiers="2" tierProperty="trait_class_hunter_rank_42" nature="21" description="key:620919321:54354734"/>
 <trait identifier="1879268101" name="Pathfinder" iconId="1091840251" tiers="5" tierProperty="trait_class_hunter_rank_41" nature="21" description="key:620919308:54354734"/>
-<trait identifier="1879268102" name="Draw Weight" iconId="1091840299" tiers="6" tierProperty="trait_class_hunter_rank_10" nature="21" description="key:620919324:54354734">
+<trait identifier="1879268102" name="Draw Weight" iconId="1091840299" tiers="5" tierProperty="trait_class_hunter_rank_10" nature="21" description="key:620919324:54354734">
 <stat name="Trait_Hunter_InductionBow_DamageMod" scaling="1879268047"/>
 <stat name="IA_Hunter_CriticalDamageMultiplier_InductionBowSkills" scaling="1879313972"/>
 </trait>
 <trait identifier="1879269696" name="Persevere" iconId="1091478764" tiers="5" tierProperty="trait_class_warden_rank_17" nature="25" description="key:620920619:54354734">
 <stat name="Skill_Warden_PersevereHeal" scaling="1879270026"/>
-<stat name="Skill_Warden_PersevereDamage" scaling="1879270020"/>
 </trait>
 <trait identifier="1879269697" name="For the Free Peoples" iconId="1091830161" tierProperty="trait_class_warden_rank_32" nature="25" description="key:620920624:54354734"/>
 <trait identifier="1879269698" name="Deep Wounds" iconId="1091830172" tiers="5" tierProperty="trait_class_warden_rank_12" nature="25" description="key:620920615:54354734">
 <stat name="Skill_Warden_DeepWounds_CritDamage" scaling="1879270021"/>
 </trait>
-<trait identifier="1879269699" name="Spear Sweep" iconId="1091830135" tierProperty="trait_class_warden_rank_3" nature="25" description="key:620920617:54354734"/>
+<trait identifier="1879269699" name="Tempered Spear Tips" iconId="1091830135" tiers="5" tierProperty="trait_class_warden_rank_3" nature="25" description="key:620920617:54354734">
+<stat name="Skill_DamageMultiplier_Bleed_MightyBlow" scaling="1879458115"/>
+</trait>
 <trait identifier="1879269700" name="Critical Protection" iconId="1091830105" tiers="5" tierProperty="trait_class_warden_rank_27" nature="25" description="key:620920616:54354734">
 <stat name="CRITICAL_DEFENCE_PERCENTAGE" scaling="1879300532"/>
 </trait>
 <trait identifier="1879269701" name="Way of the Spear" iconId="1091830188" tiers="3" tierProperty="trait_class_warden_rank_5" nature="25" description="key:620920627:54354734">
 <stat name="Skill_Warden_SpearGambitDamage" scaling="1879270003"/>
 </trait>
-<trait identifier="1879269702" name="Never Surrender" iconId="1091806078" tierProperty="trait_class_warden_rank_29" nature="25" description="key:620920638:54354734">
-<stat name="Itemset_Cooldown_Warden_NeverSurrender" descriptionOverride="-300s to Never Surrender Cooldown" constant="-30000.0"/>
+<trait identifier="1879269702" name="Never Surrender" iconId="1091806059" tierProperty="trait_class_warden_rank_29" nature="25" description="key:620920638:54354734">
+<stat name="Itemset_Cooldown_Warden_NeverSurrender" descriptionOverride="-300s to Never Surrender Cooldown" constant="-18000.0"/>
 </trait>
 <trait identifier="1879269703" name="Lasting Impression" iconId="1091830184" tiers="2" tierProperty="trait_class_warden_rank_14" nature="25" description="key:620920643:54354734">
 <stat name="Skill_Warden_LastImpression_DurationMod" scaling="1879270019"/>
@@ -3793,19 +3793,16 @@
 <trait identifier="1879269704" name="Physical Mastery" iconId="1091830182" tiers="5" tierProperty="trait_class_warden_rank_4" nature="25" description="key:620920644:54354734">
 <stat name="PHYSICAL_MASTERY" tieredScaling="1879368687;1879368690;1879368692;1879368684;1879368689;1879368689"/>
 </trait>
-<trait identifier="1879269705" name="Careful Shield-work" iconId="1091840529" tiers="5" tierProperty="trait_class_warden_rank_19" nature="25" description="key:620920646:54354734">
-<stat name="Skill_Warden_PersevereBlock" tieredScaling="1879288607;1879288608;1879288598;1879288599;1879288600"/>
-<stat name="Skill_Warden_SafeguardBlock" tieredScaling="1879288601;1879288602;1879288603;1879288604;1879288606"/>
+<trait identifier="1879269705" name="Careful Shield-work" iconId="1091840529" tiers="3" tierProperty="trait_class_warden_rank_19" nature="25" description="key:620920646:54354734">
+<stat name="ShieldUp_Damage_Reduction" scaling="1879457932"/>
 </trait>
 <trait identifier="1879269706" name="Recklessness" iconId="1091830136" tierProperty="trait_class_warden_rank_15" nature="25" description="key:620920637:54354734"/>
 <trait identifier="1879269707" name="No Respite for the Wicked" iconId="1091830160" tiers="3" tierProperty="trait_class_warden_rank_9" nature="25" description="key:620920635:54354734"/>
-<trait identifier="1879269708" name="Defiance" iconId="1091830177" tiers="3" tierProperty="trait_class_warden_rank_21" nature="25" description="key:620920628:54354734">
-<stat name="Skill_Warden_Defiance_MitigationMod" scaling="1879270247"/>
-<stat name="Skill_Warden_Defiance_String" descriptionOverride="+${PERCENTVALUE} to Physical and Tactical Mitigation during Defiant Challenge" scaling="1879300485"/>
-</trait>
-<trait identifier="1879269709" name="Thick Skin" iconId="1091830164" tierProperty="trait_class_warden_rank_26" nature="25" description="key:620920641:54354734">
-<stat name="Skill_Warden_ThickSkin_EffectMod" descriptionOverride="+20% to Critical Defence and Physical Mitigation from Dance of War&#10;+20% to Critical Defence and Tactical Mitigation from Conviction" constant="120.00001"/>
-<stat name="Skill_Warden_ImpFlourish_Finisher_CritDef" descriptionOverride="-" scaling="1879291085"/>
+<trait identifier="1879269709" name="Practiced Fundamentals" iconId="1092815068" tiers="4" tierProperty="trait_class_warden_rank_26" nature="25" description="key:620920641:54354734">
+<stat name="Warden_Buff_Duration_length2" descriptionOverride="+${VALUE}s Buff Duration" scaling="1879457931"/>
+<stat name="Warden_Healing_length2" descriptionOverride="+${PERCENTVALUE} Healing" scaling="1879457930"/>
+<stat name="Warden_Initial_Skill_Damage_length2" descriptionOverride="+${PERCENTVALUE} Initial Skill Damage" scaling="1879457927"/>
+<stat name="Warden_DoT_Damage_length2" descriptionOverride="+${PERCENTVALUE} Damage over Time" scaling="1879457926"/>
 </trait>
 <trait identifier="1879269710" name="Vital Points" iconId="1091830167" tiers="5" tierProperty="trait_class_warden_rank_2" nature="25" description="key:620920625:54354734">
 <stat name="Skill_Warden_BleedDamage" scaling="1879269999"/>
@@ -3813,38 +3810,29 @@
 <trait identifier="1879269711" name="Warden's Triumph" iconId="1091830176" tiers="3" tierProperty="trait_class_warden_rank_13" nature="25" description="key:620920632:54354734">
 <stat name="Skill_Warden_AdroitMan_AttackDuration" scaling="1879270006"/>
 <stat name="Skill_Warden_TriumphDamage" scaling="1879270015"/>
+<stat name="Skill_Duration_Warden_AdroitManeuver" scaling="1879458114"/>
+<stat name="Warden_WardensTriumph_BuffDuration" scaling="1879458117"/>
 </trait>
-<trait identifier="1879269712" name="Unassailable" iconId="1091830181" tierProperty="trait_class_warden_rank_23" nature="25" description="key:620920640:54354734">
-<stat name="Skill_Warden_Unassailable_EffectMod" descriptionOverride="+${PERCENTVALUE} to Desolation Miss Chance" constant="2.0"/>
-<stat name="Skill_EvadeBonus_DanceofWar" descriptionOverride="+10% to Surety of Death Evade Rating" scaling="1879291088"/>
+<trait identifier="1879269712" name="Unassailable" iconId="1091830181" tiers="3" tierProperty="trait_class_warden_rank_23" nature="25" description="key:620920640:54354734">
+<stat name="Skill_BonusThreat_WarCry" scaling="1879457933"/>
 </trait>
 <trait identifier="1879269713" name="War-cry" iconId="1091806016" tiers="5" tierProperty="trait_class_warden_rank_16" nature="25" description="key:620920636:54354734">
-<stat name="Skill_Warden_WarCryEvade" tieredScaling="1879270008;1879277027;1879277026;1879277029;1879277028"/>
+<stat name="Trait_DamageMultiplier_DeadlyInsult" scaling="1879457911"/>
 </trait>
 <trait identifier="1879269714" name="Lasting Hope" iconId="1091830155" tiers="3" tierProperty="trait_class_warden_rank_28" nature="25" description="key:620920639:54354734">
 <stat name="Skill_Warden_LastingHope_DurationMod" scaling="1879270004"/>
 </trait>
-<trait identifier="1879269715" name="Impressive Flourish" iconId="1091806083" tiers="5" tierProperty="trait_class_warden_rank_22" nature="25" description="key:620920620:54354734">
-<stat name="Skill_Warden_ImpressiveFlourish_EffectMod" tieredScaling="1879270001;1879288662;1879288658;1879288655;1879288653"/>
-<stat name="Skill_Warden_ImpressiveFlourish_PhysMit" tieredScaling="1879288660;1879288668;1879288667;1879288670;1879288669"/>
-<stat name="Skill_Warden_ImpressiveFlourish_TacMit" tieredScaling="1879288665;1879288664;1879288663;1879288661;1879288657"/>
-</trait>
 <trait identifier="1879269716" name="On the Offence" iconId="1091830173" tiers="5" tierProperty="trait_class_warden_rank_7" nature="25" description="key:620920618:54354734">
-<stat name="Skill_Warden_OffensiveStrike_MoraleTapDamage" scaling="1879260158"/>
 <stat name="Skill_Warden_MoraleTapDamage" scaling="1879270017"/>
 </trait>
 <trait identifier="1879269717" name="Fear No Darkness" iconId="1091830180" tiers="5" tierProperty="trait_class_warden_rank_30" nature="25" description="key:620920629:54354734">
 <stat name="Skill_Warden_MoraleTapDamage" scaling="1879270002"/>
 </trait>
-<trait identifier="1879269718" name="Indefatigable" iconId="1091830147" tierProperty="trait_class_warden_rank_25" nature="25" description="key:620920633:54354734">
-<stat name="Skill_Warden_Indefatigable_EffectMod" descriptionOverride="+${PERCENTVALUE} Restoration Base Heal &#10;+${PERCENTVALUE} Celebration of Skill Base Block Rating" constant="10.0"/>
-<stat name="Skill_Warden_Pers_Finisher_Block" descriptionOverride="-" scaling="1879291078"/>
+<trait identifier="1879269718" name="Indefatigable" iconId="1091830147" tiers="4" tierProperty="trait_class_warden_rank_25" nature="25" description="key:620920633:54354734">
+<stat name="Skill_DamageMultiplier_CelebrationofSkill" scaling="1879457928"/>
 </trait>
-<trait identifier="1879269719" name="Basic Strikes" iconId="1091830131" tiers="5" tierProperty="trait_class_warden_rank_1" nature="25" description="key:620920626:54354734">
-<stat name="Skill_Warden_BuilderDamage" scaling="1879270009"/>
-</trait>
-<trait identifier="1879269720" name="Quick Sweep" iconId="1091830142" tiers="3" tierProperty="trait_class_warden_rank_8" nature="25" description="key:620920622:54354734">
-<stat name="Skill_Warden_QuickSweep_AppChance" scaling="1879270024"/>
+<trait identifier="1879269719" name="Close Quarters Combatant" iconId="1091830131" tiers="5" tierProperty="trait_class_warden_rank_1" nature="25" description="key:620920626:54354734">
+<stat name="MELEE_DAMAGE_PERCENTAGE" scaling="1879270009"/>
 </trait>
 <trait identifier="1879269721" name="Stand Your Ground" iconId="1091830178" tiers="4" tierProperty="trait_class_warden_rank_31" nature="25" description="key:620920645:54354734">
 <stat name="BLOCK" tieredScaling="1879270010;1879312315;1879312318;1879312309;1879312312"/>
@@ -3853,14 +3841,12 @@
 <stat name="BLOCK_PERCENTAGE" scaling="1879312344"/>
 <stat name="PARRY_PERCENTAGE" scaling="1879312345"/>
 </trait>
-<trait identifier="1879269722" name="Counter-attack" iconId="1091830129" tierProperty="trait_class_warden_rank_24" nature="25" description="key:620920630:54354734"/>
 <trait identifier="1879269723" name="Aggravating Wounds" iconId="1091830150" tiers="5" tierProperty="trait_class_warden_rank_10" nature="25" description="key:620920623:54354734">
 <stat name="Skill_Warden_AggravatingWound_CritChance" scaling="1879270022"/>
 </trait>
 <trait identifier="1879269724" name="Bane of Shadow" iconId="1091830133" tiers="5" tierProperty="trait_class_warden_rank_20" nature="25" description="key:620920631:54354734">
 <stat name="Combat_SkillDamageMultiplier_Light" scaling="1879270013"/>
 </trait>
-<trait identifier="1879269725" name="No Mercy" iconId="1091830162" tierProperty="trait_class_warden_rank_11" nature="25" description="key:620920642:54354734"/>
 <trait identifier="1879269726" name="Foe of the Darkness" iconId="1091830148" tiers="5" tierProperty="trait_class_warden_rank_6" nature="25" description="key:620920634:54354734">
 <stat name="Combat_SkillDamageMultiplier_Light" scaling="1879270011"/>
 </trait>
@@ -3868,7 +3854,7 @@
 <trait identifier="1879269728" name="Grievous Wounds" iconId="1091831437" tiers="5" tierProperty="trait_class_captain_rank_44" nature="26" description="key:620920674:54354734">
 <stat name="Skill_Captain_DamageMultiplier_GraveWound" scaling="1879270899"/>
 </trait>
-<trait identifier="1879269729" name="Fellowship of the Shield" iconId="1091831480" tiers="3" tierProperty="trait_class_captain_rank_14" nature="26" description="key:620920691:54354734"/>
+<trait identifier="1879269729" name="Fellowship of the Song" iconId="1092812529" tiers="3" tierProperty="trait_class_captain_rank_14" nature="26" description="key:620920691:54354734"/>
 <trait identifier="1879269730" name="Astute Hands" iconId="1091831446" tiers="6" tierProperty="trait_class_captain_rank_25" nature="26" description="key:620920660:54354734">
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" scaling="1879311246"/>
 <stat name="TACTICAL_CRITICAL_MULTIPLIER" scaling="1879311224"/>
@@ -3881,12 +3867,12 @@
 <stat name="Skill_Captain_BannerofHonour_IncHealMod" scaling="1879270916"/>
 <stat name="Skill_Captain_BannerSkill_Damage" scaling="1879270895"/>
 </trait>
-<trait identifier="1879269733" name="Reform the Lines!" iconId="1091831429" tierProperty="trait_class_captain_rank_33" nature="26" description="key:620920680:54354734"/>
+<trait identifier="1879269733" name="At the Fore" iconId="1092812533" tierProperty="trait_class_captain_rank_33" nature="26" description="key:620920680:54354734"/>
 <trait identifier="1879269734" name="React To Battle" iconId="1091831476" tiers="3" tierProperty="trait_class_captain_rank_34" nature="26" description="key:620920692:54354734">
 <stat name="Skill_Captain_EventChain_DamageMod" scaling="1879270896"/>
 <stat name="Skill_Captain_EventChain_CritChanceMod" scaling="1879272978"/>
 </trait>
-<trait identifier="1879269735" name="Stand Tall" iconId="1091831444" tiers="3" tierProperty="trait_class_captain_rank_15" nature="26" description="key:620920662:54354734">
+<trait identifier="1879269735" name="Unwavering" iconId="1091831444" tiers="3" tierProperty="trait_class_captain_rank_15" nature="26" description="key:620920662:54354734">
 <stat name="Skill_RecoveryTime_TimeofNeed" constant="3.0"/>
 </trait>
 <trait identifier="1879269736" name="Vital Stroke" iconId="1091840442" tiers="2" tierProperty="trait_class_captain_rank_50" nature="26" description="key:620920668:54354734">
@@ -3914,12 +3900,12 @@
 <specialEffect label="Unlocks the skill Shield of the Dúnedain"/>
 </trait>
 <trait identifier="1879269744" name="Threatening Shout" iconId="1091831472" tierProperty="trait_class_captain_rank_4" nature="26" description="key:620920653:54354734"/>
-<trait identifier="1879269745" name="Courageous Convocation" iconId="1091840417" tierProperty="trait_class_captain_rank_30" nature="26" description="key:620920655:54354734">
-<specialEffect label="Muster Courage heals the Captain on use."/>
+<trait identifier="1879269745" name="Courageous Convocation" iconId="1092815147" tierProperty="trait_class_captain_rank_30" nature="26" description="key:620920655:54354734">
+<specialEffect label="Words of Courage may be used on yourself."/>
 </trait>
 <trait identifier="1879269746" name="Advantageous Attack" iconId="1091840437" tierProperty="trait_class_captain_rank_43" nature="26" description="key:620920663:54354734">
 <stat name="Skill_DamageMultiplier_Captain_TellingMark" constant="2.0"/>
-<specialEffect label="Shadow's Lament triggers additional Light damage when used on a Telling Mark target"/>
+<specialEffect label="Shadow's Lament triggers additional Light damage when used on a Telling Mark target."/>
 </trait>
 <trait identifier="1879269747" name="Shrug Blows Aside" iconId="1091830183" tiers="5" tierProperty="trait_class_captain_rank_9" nature="26" description="key:620920689:54354734">
 <stat name="CRITICAL_DEFENCE_PERCENTAGE" scaling="1879301214"/>
@@ -3934,9 +3920,10 @@
 <trait identifier="1879269750" name="Bolstered Resolve" iconId="1091831445" tiers="5" tierProperty="trait_class_captain_rank_19" nature="26" description="key:620920649:54354734">
 <stat name="Skill_Captain_CritHealing_Magnitude" scaling="1879270917"/>
 </trait>
-<trait identifier="1879269751" name="Skilled Hands" iconId="1091831434" tiers="3" tierProperty="trait_class_captain_rank_18" nature="26" description="key:620920670:54354734">
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" scaling="1879311222"/>
-<stat name="OUTGOING_HEALING_PERCENTAGE" scaling="1879297191"/>
+<trait identifier="1879269751" name="Skilled Hands" iconId="1091831434" tiers="6" tierProperty="trait_class_captain_rank_18" nature="26" description="key:620920670:54354734">
+<stat name="OUTGOING_HEALING_PERCENTAGE" scaling="1879272973"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" scaling="1879283684"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" scaling="1879283685"/>
 </trait>
 <trait identifier="1879269752" name="Impactful Blows" iconId="1091831424" tiers="3" tierProperty="trait_class_captain_rank_38" nature="26" description="key:620920675:54354734">
 <stat name="Combat_WeaponDamageMultiplier_2HSword" scaling="1879271518"/>
@@ -3949,32 +3936,26 @@
 <stat name="Trait_Captain_InHarmsWay_IncDamageMod" scaling="1879289061"/>
 </trait>
 <trait identifier="1879269754" name="Fellowship of the Blade" iconId="1091831488" tiers="3" tierProperty="trait_class_captain_rank_49" nature="26" description="key:620920686:54354734"/>
-<trait identifier="1879269755" name="Oathbreaker's Shame" iconId="1090533154" tierProperty="trait_class_captain_rank_51" nature="26" description="key:620920664:54354734"/>
-<trait identifier="1879269756" key="ARTERIAL_STRIKES" name="Arterial Strikes" iconId="1091831482" tiers="4" tierProperty="trait_class_captain_rank_41" nature="26" description="key:620920667:54354734">
+<trait identifier="1879269755" name="Oathbreaker's Shame" iconId="1092811782" tierProperty="trait_class_captain_rank_51" nature="26" description="key:620920664:54354734"/>
+<trait identifier="1879269756" key="ARTERIAL_STRIKES" name="Arterial Strikes" iconId="1091831482" tiers="5" tierProperty="trait_class_captain_rank_41" nature="26" description="key:620920667:54354734">
 <stat name="CRITICAL_MELEE_PERCENTAGE" scaling="1879297174"/>
 <stat name="Skill_Captain_CriticalDamageModifier" scaling="1879311234"/>
 </trait>
-<trait identifier="1879269757" name="Heightened Allies" iconId="1091840441" tiers="2" tierProperty="trait_class_captain_rank_46" nature="26" description="key:620920683:54354734"/>
+<trait identifier="1879269757" name="Heightened Allies" iconId="1091840441" tiers="3" tierProperty="trait_class_captain_rank_46" nature="26" description="key:620920683:54354734"/>
 <trait identifier="1879269758" name="Penetrating Cry" iconId="1091830273" tiers="3" tierProperty="trait_class_captain_rank_40" nature="26" description="key:620920658:54354734">
 <stat name="Skill_Captain_RoutingCry_AttackSpeedMod" scaling="1879270891"/>
 </trait>
-<trait identifier="1879269759" name="Gallant Display" iconId="1091831435" tierProperty="trait_class_captain_rank_21" nature="26" description="key:620920671:54354734"/>
-<trait identifier="1879269760" name="Fellowship of the Song" iconId="1091831481" tiers="3" tierProperty="trait_class_captain_rank_31" nature="26" description="key:620920678:54354734"/>
-<trait identifier="1879269761" name="Blood of Númenor" iconId="1091831454" tiers="3" tierProperty="trait_class_captain_rank_20" nature="26" description="key:620920651:54354734">
+<trait identifier="1879269760" name="Fellowship of the Shield" iconId="1092812527" tiers="3" tierProperty="trait_class_captain_rank_31" nature="26" description="key:620920678:54354734"/>
+<trait identifier="1879269761" name="Escape from Darkness" iconId="1092812531" tiers="2" tierProperty="trait_class_captain_rank_20" nature="26" description="key:620920651:54354734">
 <stat name="EffectMod_ModType_RevivePowerMultModifier" scaling="1879272975"/>
 <stat name="EffectMod_ModType_ReviveHealthMultModifier" scaling="1879277002"/>
 </trait>
 <trait identifier="1879269762" name="Turning Point" iconId="1091831436" tiers="5" tierProperty="trait_class_captain_rank_5" nature="26" description="key:620920672:54354734">
 <stat name="Trait_Captain_TurningPoint_IncomingHealing" scaling="1879297200"/>
-<specialEffect label="Defeat Events grant the Captain Incoming Healing"/>
+<specialEffect label="Defeat Events grant the Captain Incoming Healing."/>
 </trait>
-<trait identifier="1879269763" name="Honourable Blow" iconId="1091840416" tierProperty="trait_class_captain_rank_27" nature="26" description="key:620920665:54354734">
-<specialEffect label="Valiant Strike applies an Incoming Healing buff to the Fellowship when used on a target with Revealing Mark"/>
-</trait>
-<trait identifier="1879269764" name="Dignified Spectacle" iconId="1091831433" tiers="4" tierProperty="trait_class_captain_rank_28" nature="26" description="key:620920669:54354734">
-<stat name="OUTGOING_HEALING_PERCENTAGE" scaling="1879272973"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" scaling="1879283684"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" scaling="1879283685"/>
+<trait identifier="1879269763" name="Honourable Blow" iconId="1091840416" tiers="3" tierProperty="trait_class_captain_rank_27" nature="26" description="key:620920665:54354734">
+<stat name="Trait_Captain_HonourableBlow_Mod" descriptionOverride="Inspire applies an Incoming Healing buff to the Fellowship when used on a target with Revealing Mark." scaling="1879458827"/>
 </trait>
 <trait identifier="1879269765" name="Rousing Cry" iconId="1091831455" tiers="3" tierProperty="trait_class_captain_rank_23" nature="26" description="key:620920690:54354734">
 <stat name="Skill_Captain_RallyingCry_DamageMod" scaling="1879270905"/>
@@ -3989,7 +3970,7 @@
 <trait identifier="1879269769" name="Call Them Out" iconId="1091830076" tiers="5" tierProperty="trait_class_captain_rank_3" nature="26" description="key:620920656:54354734">
 <stat name="Skill_Captain_BleedSkill_Damage" scaling="1879270897"/>
 </trait>
-<trait identifier="1879269770" name="Restraint" iconId="1091831471" tiers="4" tierProperty="trait_class_captain_rank_45" nature="26" description="key:620920659:54354734">
+<trait identifier="1879269770" name="Restraint" iconId="1091831471" tiers="2" tierProperty="trait_class_captain_rank_45" nature="26" description="key:620920659:54354734">
 <stat name="Skill_VitalCost_MeleeMod" operator="SUBSTRACT" scaling="1879270904"/>
 </trait>
 <trait identifier="1879269771" name="Demand Attention" iconId="1091831426" tierProperty="trait_class_captain_rank_8" nature="26" description="key:620920673:54354734">
@@ -4214,7 +4195,7 @@
 </trait>
 <trait identifier="1879270450" name="Overflowing Confidence" iconId="1091502135" tiers="5" tierProperty="trait_class_runekeeper_rank_17" nature="24" description="key:620921230:54354734">
 <stat name="Skill_Runekeeper_SelfMotivation_HealMod" scaling="1879271549"/>
-<stat name="Skill_Runekeeper_SelfMotivation_PowerCostMod" operator="SUBSTRACT" scaling="1879287021"/>
+<stat name="Skill_Runekeeper_SelfMotivation_PowerCostMod" scaling="1879287021"/>
 </trait>
 <trait identifier="1879270451" name="Rune of Endurance" iconId="1091805936" tiers="3" tierProperty="trait_class_runekeeper_rank_37" nature="24" description="key:620921238:54354734">
 <stat name="Skill_Runekeeper_RuneRestoration_HealMod" descriptionOverride="Increases Rune of Restoration Healing by +${PERCENTVALUE}" scaling="1879271538"/>
@@ -4274,48 +4255,32 @@
 <stat name="WILL" tieredScaling="1879366649;1879366661;1879366656;1879366644;1879366658"/>
 </trait>
 <trait identifier="1879270471" name="Volcanic Rune-stone" iconId="1091805945" tierProperty="trait_class_runekeeper_rank_21" nature="24" description="key:620921244:54354734"/>
-<trait identifier="1879270656" name="Finesse" iconId="1091830085" tiers="5" tierProperty="trait_class_warden_rank_35" nature="25" description="key:620921411:54354734">
+<trait identifier="1879270656" name="Finesse" iconId="1091830085" tiers="5" tierProperty="trait_class_warden_rank_39" nature="25" description="key:620921411:54354734">
 <stat name="FINESSE" tieredScaling="1879367860;1879367858;1879367861;1879367859;1879367857"/>
 </trait>
-<trait identifier="1879270657" name="Enduring Assailment" iconId="1091830174" tiers="5" tierProperty="trait_class_warden_rank_39" nature="25" description="key:620921417:54354734">
-<stat name="Skill_Warden_Assailment_Debuff_Duration" descriptionOverride="+${VALUE}s assailment gambit debuff duration" scaling="1879288078"/>
+<trait identifier="1879270657" name="Diminished Targets" iconId="1091830174" tiers="5" tierProperty="trait_class_warden_rank_41" nature="25" description="key:620921417:54354734">
+<stat name="Skill_Warden_DiminishedTarget_Duration" scaling="1879288078"/>
 </trait>
-<trait identifier="1879270658" name="Lasting Mark" iconId="1091830141" tiers="5" tierProperty="trait_class_warden_rank_34" nature="25" description="key:620921415:54354734">
-<stat name="Skill_Warden_MarkedTarget_Duration" descriptionOverride="+${VALUE}s Marked Target and Diminished Target duration" scaling="1879288081"/>
+<trait identifier="1879270658" name="Marked Targets" iconId="1091830141" tiers="5" tierProperty="trait_class_warden_rank_35" nature="25" description="key:620921415:54354734">
+<stat name="Skill_Warden_MarkedTarget_Duration" scaling="1879288081"/>
 </trait>
-<trait identifier="1879270659" name="Area Targeting" iconId="1091830175" tierProperty="trait_class_warden_rank_42" nature="25" description="key:620921409:54354734"/>
-<trait identifier="1879270660" name="Bulls-eye" iconId="1091830149" tiers="6" tierProperty="trait_class_warden_rank_37" nature="25" description="key:620921416:54354734">
+<trait identifier="1879270660" name="Bulls-eye" iconId="1091830149" tiers="6" tierProperty="trait_class_warden_rank_40" nature="25" description="key:620921416:54354734">
 <stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Critical Chance" scaling="1879300535"/>
 <stat name="Skill_Warden_JavelinCriticalDamage" scaling="1879270948"/>
 <stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" scaling="1879300536"/>
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" scaling="1879300531"/>
 </trait>
-<trait identifier="1879270661" name="Suppression" iconId="1091830159" tiers="3" tierProperty="trait_class_warden_rank_46" nature="25" description="key:620921404:54354734">
+<trait identifier="1879270661" name="Suppression" iconId="1091830159" tiers="5" tierProperty="trait_class_warden_rank_46" nature="25" description="key:620921404:54354734">
 <stat name="Skill_Warden_Suppression" scaling="1879270950"/>
 </trait>
-<trait identifier="1879270662" name="Ranged Damage" iconId="1091831426" tiers="5" tierProperty="trait_class_warden_rank_36" nature="25" description="key:620921407:54354734">
+<trait identifier="1879270662" name="Ranged Damage" iconId="1091787042" tiers="5" tierProperty="trait_class_warden_rank_37" nature="25" description="key:620921407:54354734">
 <stat name="RANGED_DAMAGE_PERCENTAGE" scaling="1879270951"/>
 </trait>
-<trait identifier="1879270663" name="Shield's Up" iconId="1091830185" tierProperty="trait_class_warden_rank_38" nature="25" description="key:620921412:54354734">
-<specialEffect label="+5% Block Chance after entering 'In the Fray'"/>
+<trait identifier="1879270665" name="Battering Strikes" iconId="1091830165" tiers="5" tierProperty="trait_class_warden_rank_45" nature="25" description="key:620921403:54354734">
+<stat name="Skill_Warden_Battering_Strikes" descriptionOverride="+${PERCENTVALUE} Battering Strikes Debuff Potency" scaling="1879270954"/>
 </trait>
-<trait identifier="1879270664" name="Barbed Javelins" iconId="1091830146" tiers="5" tierProperty="trait_class_warden_rank_41" nature="25" description="key:620921405:54354734">
-<stat name="Skill_Warden_Barbed_Javelins" scaling="1879270949"/>
-</trait>
-<trait identifier="1879270665" name="Battering Strikes" iconId="1091830165" tiers="3" tierProperty="trait_class_warden_rank_45" nature="25" description="key:620921403:54354734">
-<stat name="Skill_Warden_Battering_Strikes" tieredScaling="1879270954;1879288822;1879288824;1879288810;1879288812"/>
-<stat name="Skill_Warden_Battering_Strikes_T2" tieredScaling="1879288815;1879288808;1879288811;1879288820;1879288823"/>
-<stat name="Skill_Warden_Battering_Strikes_T3" tieredScaling="1879288809;1879288819;1879288821;1879288817;1879288818"/>
-</trait>
-<trait identifier="1879270666" name="Shattered Javelins" iconId="1091830183" tierProperty="trait_class_warden_rank_43" nature="25" description="key:620921414:54354734"/>
-<trait identifier="1879270667" name="Momentum" iconId="1091830134" tiers="5" tierProperty="trait_class_warden_rank_33" nature="25" description="key:620921408:54354734">
-<stat name="Skill_Warden_Momentum" scaling="1879270946"/>
-</trait>
-<trait identifier="1879270668" name="Hurry Up with That!" iconId="1091830145" tiers="3" tierProperty="trait_class_warden_rank_44" nature="25" description="key:620921410:54354734">
-<stat name="Skill_Warden_Induction_Buff" scaling="1879270947"/>
-</trait>
-<trait identifier="1879270669" name="Piercing Javelins" iconId="1091830154" tiers="3" tierProperty="trait_class_warden_rank_40" nature="25" description="key:620921413:54354734">
-<stat name="Skill_Warden_FMJ" operator="SUBSTRACT" tieredScaling="1879270953;1879301193;1879301194;1879301190;1879301191"/>
+<trait identifier="1879270669" name="Piercing Javelins" iconId="1091830154" tiers="3" tierProperty="trait_class_warden_rank_43" nature="25" description="key:620921413:54354734">
+<stat name="Skill_Warden_FMJ" operator="SUBSTRACT" descriptionOverride="+${PERCENTVALUE} Javelin Resistance Penetration" scaling="1879270953"/>
 </trait>
 <trait identifier="1879270670" name="Javelin of Deadly Force" iconId="1091830139" tierProperty="trait_class_warden_rank_47" nature="25" description="key:620921406:54354734"/>
 <trait identifier="1879270674" name="Firm Grasp" iconId="1091829911" tiers="3" tierProperty="trait_class_loremaster_rank_46" nature="20" description="key:620921426:54354734">
@@ -4646,17 +4611,25 @@
 <trait identifier="1879272169" name="Caparison of the Midsummer" iconId="1091947415" category="54" nature="16"/>
 <trait identifier="1879272271" name="Grand Master Weapons Training" iconId="1091840526" nature="30">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
-<stat name="Skill_ProcRate_Warden_SpearDot" descriptionOverride="The inherent bleed damage from Spears happens more often." constant="2.0"/>
+<stat name="Skill_ProcRate_Warden_SpearDot" descriptionOverride="The inherent bleed damage from Spears happens more often and deals significantly more damage." constant="3.0"/>
 <stat name="Skill_ProcRate_Warden_ClubDebuff" descriptionOverride="The inherent attack speed debuff from Clubs happens more often." constant="2.0"/>
 <stat name="Skill_ToHitBonus_Warden_Swords" constant="1.0"/>
-<stat name="Skill_DamageMultiplier_Warden_SpearDot" descriptionOverride="Damage from intrinsic spear bleeds is greatly increased." constant="500.0"/>
+<stat name="Skill_DamageMultiplier_Warden_SpearDot" constant="500.0"/>
 </trait>
-<trait identifier="1879272272" name="Martial Fury" iconId="1091829385" nature="30" description="key:620922617:54354734"/>
+<trait identifier="1879272272" name="Martial Fury" iconId="1091829385" nature="30">
+<stat name="Trait_PulseCount_Warden_Dot" constant="1.0"/>
+<stat name="Skill_OverTime_Damage" constant="10.0"/>
+<stat name="Warden_Initial_Skill_Damage_length2" descriptionOverride="+${PERCENTVALUE} Initial Skill Damage" constant="10.0"/>
+<stat name="Warden_Initial_Skill_Damage_length3" descriptionOverride="-" constant="10.0"/>
+<stat name="Warden_Initial_Skill_Damage_length4and5" descriptionOverride="-" constant="10.0"/>
+</trait>
 <trait identifier="1879272273" name="Sharpened Spears" iconId="1091840731" nature="30">
 <stat name="Skill_Warden_SpearGambitDamage" constant="10.0"/>
 </trait>
 <trait identifier="1879272274" name="Unconventional Strikes" iconId="1091830072" nature="30">
-<stat name="Trait_Veteran_Warden" constant="15.000001"/>
+<stat name="Warden_Initial_Skill_Damage_length3" descriptionOverride="+${PERCENTVALUE} Gambit Initial Hit Damage" constant="5.0"/>
+<stat name="Warden_Initial_Skill_Damage_length2" descriptionOverride="-" constant="5.0"/>
+<stat name="Warden_Initial_Skill_Damage_length4and5" descriptionOverride="-" constant="5.0"/>
 </trait>
 <trait identifier="1879272275" name="Precision Training" iconId="1091830168" nature="30">
 <stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Critical Chance" constant="2.5"/>
@@ -4667,24 +4640,13 @@
 <trait identifier="1879272276" name="Taking Advantage" iconId="1091841123" nature="30" description="key:620922613:54354734"/>
 <trait identifier="1879272277" name="One After Another" iconId="1091840517" nature="30" description="key:620922616:54354734">
 <stat name="Skill_Warden_SpearGambitDamage" constant="10.0"/>
-<specialEffect label="Defeating an enemy causes you to restore 5% of your max Morale"/>
+<specialEffect label="Defeating an enemy causes you to restore 5% of your max Morale. This may only trigger once every 3 seconds."/>
 </trait>
-<trait identifier="1879272536" name="Shield Tactics" iconId="1091829795" category="11" nature="30" tooltip="key:620922756:191029568" description="key:620922756:54354734">
-<skill id="1879215478" name="Shield Tactics"/>
-<skill id="1879232403" name="Shield Tactics"/>
-</trait>
-<trait identifier="1879272537" name="Shield Mastery" iconId="1091830057" category="11" nature="30" tooltip="key:620922755:191029568" description="key:620922755:54354734">
-<skill id="1879131565" name="Shield Mastery"/>
-<skill id="1879232412" name="Shield Mastery"/>
-</trait>
-<trait identifier="1879272541" name="Exultation of Battle" iconId="1091806059" nature="30" description="key:620922765:54354734">
+<trait identifier="1879272541" name="Exultation of Battle" iconId="1091830156" nature="30" description="key:620922765:54354734">
 <stat name="Trait_PulseCount_Warden_Lifetap" descriptionOverride="+2 Pulses to area of effect Morale-taps" constant="2.0"/>
 </trait>
 <trait identifier="1879272542" name="Endurance Training" iconId="1091830126" nature="30" description="key:620922762:54354734">
 <stat name="Skill_Warden_Endurance_Training" descriptionOverride="${PERCENTVALUE} Attack Duration in Assailment" constant="-10.0"/>
-</trait>
-<trait identifier="1879272543" name="Revel in Combat" iconId="1091830156" nature="30">
-<specialEffect label="All Gambit Builders now perform a Morale-tap on the enemy."/>
 </trait>
 <trait identifier="1879272547" name="Makeshift Caltrops" iconId="1091457998" nature="30" description="key:620922767:54354734">
 <specialEffect label="Hampering Javelin now slows up to 5 enemies around the target"/>
@@ -4697,19 +4659,12 @@
 <stat name="Skill_Warden_MoraleTapDamage" constant="20.0"/>
 </trait>
 <trait identifier="1879272551" name="Throwing Arm" iconId="1091841064" nature="30" description="key:620922763:54354734">
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="10.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
 </trait>
-<trait identifier="1879272552" name="Elegant Finish" iconId="1091831429" nature="30" description="key:620922761:54354734">
-<stat name="Skill_Warden_Flourish_Phys" descriptionOverride="Dance of War grants a ${PERCENTVALUE} Physical Mitigation buff" constant="0.02"/>
-<stat name="Skill_Warden_Flourish_Tac" descriptionOverride="Conviction grants a ${PERCENTVALUE} Tactical Mitigation buff" constant="0.02"/>
-<stat name="Skill_Warden_WarCry_Finish_Buff" descriptionOverride="Surety of Death grants ${VALUE} Block and Parry Rating" scaling="1879272821"/>
-<stat name="Skill_Warden_Persevere_Finish_Buff" descriptionOverride="Celebration of Skill grants a +${PERCENTVALUE} Incoming Healing buff" constant="0.02"/>
-<specialEffect label="Restoration now grants an Instant Heal"/>
-<specialEffect label="Desolation now has a chance to inflict fear upon foes"/>
+<trait identifier="1879272552" name="Proactive Defence" iconId="1092812742" nature="30" description="key:620922761:54354734">
+<stat name="Skill_Warden_Defiance_MitigationMod" descriptionOverride="Tier 2: -2% Incoming Damage&#10;&#10;Tier 3: -4% Incoming Damage&#10;&#10;Repeating Tier 3: -6% Incoming Damage&#10;&#10;Spending Tier 3: -12% Incoming Damage" constant="100.0"/>
 </trait>
-<trait identifier="1879272554" name="Close Call" iconId="1091840667" nature="30">
-<specialEffect label="Dodging an attack brings a moment of relief, restoring 1% of your maximum Morale."/>
-</trait>
+<trait identifier="1879272554" name="Close Call" iconId="1091840667" nature="30"/>
 <trait identifier="1879272571" name="The Deadly Storm" iconId="1091618504" tierProperty="trait_class_specialization_champion_three" nature="28" description="key:620922800:54354734">
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
@@ -4727,7 +4682,7 @@
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <stat name="Skill_Captain_Herald_DamageMod" descriptionOverride="-" scaling="1879394027"/>
 <stat name="Skill_Captain_Herald_MoraleMod" descriptionOverride="-" scaling="1879394026"/>
-<specialEffect label="Sure Strike has a chance to bestow Relentless Attack to the Fellowship when used while Battle-readied.&#10;&#10;Relentless Attack:&#10;Critical Rating&#10;Physical Mastery&#10;Tactical Mastery&#10; +5% Outgoing Healing&#10;Duration: 30s"/>
+<specialEffect label="Sure Strike will bestow Relentless Attack to the Fellowship when used while Battle-readied.&#10;&#10;Relentless Attack:&#10;+5% Damage&#10;+2% Critical Chance&#10;-5% Attack Duration&#10;Duration: 45s"/>
 <specialEffect label="Scoring a Critical Hit causes your target to take 2% more damage for 10s. This effect stacks with Telling Mark and Oathbreaker's Shame."/>
 </trait>
 <trait identifier="1879272575" name="The Huntsman" iconId="1091618504" tierProperty="trait_class_specialization_hunter_one" nature="28" description="key:620922805:54354734">
@@ -4740,11 +4695,7 @@
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="209.99998"/>
 </trait>
 <trait identifier="1879272577" name="Assailment" iconId="1091618504" tierProperty="trait_class_specialization_warden_three" nature="28" description="key:620922788:54354734">
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
-<stat name="CRITICAL_RATING" scaling="1879211601"/>
-<stat name="Skill_MaxRange_JavelinToss" constant="10.0"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
-<specialEffect label="Gain the skill: Improved Hampering Javelin. &#10;&#10;Gambit Builders build a stacking ranged damage buff - max of 4.5%.&#10;&#10;Individual Gambit Bonuses (10% Chance to Apply):&#10;Javelin: -5% Fellowship Attack Duration &#10;Fist: +5% Chance to Crit with Ranged Attacks&#10;Shield: +10% Morale return for fellows when they strike the target"/>
 </trait>
 <trait identifier="1879272578" name="The Trapper of Foes" iconId="1091564741" tierProperty="trait_class_specialization_hunter_three" nature="28" description="key:620922799:54354734">
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
@@ -4759,12 +4710,12 @@
 <specialEffect label="Coordination: &#10;When your animal companion lands a critical strike, your next skill has no induction.&#10;This effect cannot trigger more than once every 10s."/>
 </trait>
 <trait identifier="1879272581" name="Determination" iconId="1091564746" tierProperty="trait_class_specialization_warden_one" nature="28" description="key:620922782:54354734">
-<stat name="Skill_Warden_PersevereHeal" descriptionOverride="+${PERCENTVALUE} Healing Potency" constant="25.0"/>
-<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
-<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
-<stat name="MORALE" operator="MULTIPLY" descriptionOverride="Passively gains +20% Morale" constant="1.2"/>
+<stat name="Skill_Warden_PersevereHeal" descriptionOverride="+${PERCENTVALUE} Shield Gambit Healing Potency" constant="25.0"/>
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="7.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="7.0"/>
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="+20% Morale" constant="1.2"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="209.99998"/>
-<stat name="Skill_Warden_MoraleTapDamage" descriptionOverride="Gambit Builders build a stacking Partial Block, Parry, and Evade buff -max of 6%.&#10;&#10;Individual Gambit Bonuses (10% Chance to Apply):&#10;Spear: +5% Incoming Healing Modifier&#10;Fist: -2% Outgoing Damage on Target&#10;Shield: +Block Rating" constant="25.0"/>
+<stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="10.0"/>
 </trait>
 <trait identifier="1879272582" name="The Warrior-skald" iconId="1091564741" tierProperty="trait_class_specialization_minstrel_two" nature="28" description="key:620922780:54354734">
 <stat name="Combat_SkillDamageMultiplier_Light" constant="20.0"/>
@@ -4796,7 +4747,7 @@
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <stat name="Skill_Captain_Herald_DamageMod" descriptionOverride="-" scaling="1879394027"/>
 <stat name="Skill_Captain_Herald_MoraleMod" descriptionOverride="-" scaling="1879394026"/>
-<specialEffect label="Sure Strike has a chance to bestow Focus to the Fellowship when used while Battle-readied.&#10;&#10;Focus:&#10;Restore 2% Max Morale over 10s&#10;Gain the following for 30s:&#10;-5% Attack Duration&#10;+5% Incoming Healing&#10;+2% Tactical Mitigation"/>
+<specialEffect label="Sure Strike will bestow Focus to the Fellowship when used while Battle-readied.&#10;&#10;Focus:&#10;Restore 2% Max Morale immediately&#10;&#10;+5% Incoming Healing&#10;+3% Resistance&#10;+2% Tactical Mitigation&#10;Duration:45s"/>
 </trait>
 <trait identifier="1879272590" name="Cleansing Flames" iconId="1091564741" tierProperty="trait_class_specialization_runekeeper_two" nature="28" description="key:620922793:54354734">
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
@@ -4804,15 +4755,15 @@
 <trait identifier="1879272591" name="Recklessness" iconId="1091564741" tierProperty="trait_class_specialization_warden_two" nature="28" description="key:620922804:54354734">
 <stat name="Trait_BonusDoTDamage_TerribleVisage" constant="5.0"/>
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="-10.0"/>
-<stat name="OUTGOING_HEALING_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
+<stat name="Skill_Warden_PersevereHeal" operator="SUBSTRACT" constant="40.0"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
-<specialEffect label="Gambit Builders build a stacking melee damage buff - max of 6%. &#10;&#10;Individual Gambit Bonuses (10% Chance to Apply):&#10;Spear: +5% Light DoT Damage&#10;Fist: +5% Fist Gambit Critical Damage&#10;Shield: +2% Morale-tap damage"/>
 </trait>
 <trait identifier="1879272592" name="Leader of Men" iconId="1091564746" tierProperty="trait_class_specialization_captain_one" nature="28" description="key:620922794:54354734">
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="209.99998"/>
 <stat name="Skill_Captain_Herald_DamageMod" descriptionOverride="-" scaling="1879394027"/>
 <stat name="Skill_Captain_Herald_MoraleMod" descriptionOverride="-" scaling="1879394026"/>
-<specialEffect label="Sure Strike has a chance to bestow On Guard to the Fellowship when used while Battle-readied.&#10;&#10;On Guard:&#10;+5% Damage Reduction&#10;-10% Power Costs&#10;Parry Rating&#10;Duration:30s"/>
+<stat name="Skill_Captain_BR_Threat" constant="15.000001"/>
+<specialEffect label="Sure Strike will bestow On Guard to the Fellowship when used while Battle-readied.&#10;&#10;On Guard:&#10;+2% Physical Mitigation&#10;+3% Parry Chance&#10;+5% Critical Defence&#10;Duration:45s"/>
 <specialEffect label="Partial Blocks, Parries and Evades grant the Captain a Defeat Event"/>
 </trait>
 <trait identifier="1879272593" name="The Keen Blade" iconId="1091564741" tierProperty="trait_class_specialization_guardian_two" nature="28" description="key:620922786:54354734">
@@ -4886,54 +4837,42 @@
 <skill id="1879102638" name="Shield Wall"/>
 </trait>
 <trait identifier="1879273250" name="Readied Blade" iconId="1091829381" nature="30" description="key:620923439:54354734">
-<specialEffect label="Shadow's Lament grants Battle-ready"/>
-</trait>
-<trait identifier="1879273251" name="Inspiriting Presence" iconId="1091840414" nature="30" description="key:620923430:54354734">
-<specialEffect label="Critical heals with Inspire and Valiant Strike grant you and your Song-brother guaranteed Critical Hits with Tactical skills for the next 10s.&#10;&#10;This bonus cannot be triggered more than once every 30s."/>
-<specialEffect label="Inspire's healing is enhanced by Gallant Display. Using inspire removes the Gallant Display buff"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
 </trait>
 <trait identifier="1879273252" name="Elendil's Favour" iconId="1091831439" nature="30" description="key:620923437:54354734">
 <specialEffect label="Blade of Elendil causes your next Valiant Strike to heal for 20% more"/>
 </trait>
-<trait identifier="1879273253" name="Blessing of the Song" iconId="1091840409" nature="30" description="key:620923423:54354734">
-<specialEffect label="You gain the benefits of your Song-brother skills"/>
+<trait identifier="1879273253" name="Blessing of the Shield" iconId="1092812527" nature="30" description="key:620923423:54354734"/>
+<trait identifier="1879273254" name="Stand Alone" iconId="1092812515" category="7" nature="30" tooltip="key:620923428:191029568" description="key:620923428:54354734">
+<skill id="1879458538" name="Stand Alone"/>
 </trait>
-<trait identifier="1879273254" name="Blade-brother's Call" iconId="1091840431" category="7" nature="30" tooltip="key:620923428:191029568" description="key:620923428:54354734">
-<skill id="1879276628" name="Blade-brother's Call"/>
-</trait>
-<trait identifier="1879273255" name="Uplift" iconId="1091831449" nature="30" description="key:620923429:54354734">
-<specialEffect label="Critical Heals give the Captain +1% Critical Hit for 10 seconds, stacking up to 3 times"/>
-</trait>
-<trait identifier="1879273256" name="Defensive Strike" iconId="1090541078" nature="30" description="key:620923426:54354734">
+<trait identifier="1879273255" name="Blood of Númenor" iconId="1091831454" nature="30" description="key:620923429:54354734"/>
+<trait identifier="1879273256" name="Defensive Blade" iconId="1092812535" nature="30" description="key:620923426:54354734">
 <stat name="PARRY_PERCENTAGE" constant="5.0"/>
-<specialEffect label="Sure Strike grants an Armour buff"/>
+<specialEffect label="Defensive Strike grants you an Incoming Damage reduction buff."/>
 </trait>
 <trait identifier="1879273257" name="Elendil's Boon" iconId="1091831441" nature="30" description="key:620923435:54354734">
-<specialEffect label="Blade of Elendil causes the next attack against you to deal 20% less damage"/>
+<specialEffect label="Blade of Elendil briefly increases your Healing and reduces your Damage taken.&#10;This effect takes priority over Battle-hardened."/>
 </trait>
-<trait identifier="1879273258" name="Blessing of the Blade" iconId="1091840432" nature="30" description="key:620923441:54354734">
-<specialEffect label="You gain the benefits of your Blade-brother skills"/>
-</trait>
+<trait identifier="1879273258" name="Blessing of the Blade" iconId="1091831488" nature="30" description="key:620923441:54354734"/>
 <trait identifier="1879273259" name="Exemplar" iconId="1091840444" nature="30" description="key:620923425:54354734">
-<specialEffect label="When you or your Shield-brother is attacked, both have a chance to be healed"/>
-<specialEffect label="Critical Hits against you or your Shield-brother reduce the cooldown of Strength in Numbers by 1s and Shield of the Dúnedain by 2s &#10;&#10; These effects can only occur once every 8 seconds per brother."/>
+<specialEffect label="When you or your Shield-brother is attacked, both have a chance to be healed."/>
+<specialEffect label="Hits against you or your Shield-brother reduce the cooldown of Strength in Numbers by 1s and At the Fore by 2s &#10;&#10; These effects can only occur once every 5 seconds per brother."/>
 </trait>
-<trait identifier="1879273260" name="Song-brother's Call" iconId="1091831453" category="7" nature="30" tooltip="key:620923422:191029568" description="key:620923422:54354734">
-<skill id="1879276634" name="Song-brother's Call"/>
+<trait identifier="1879273260" name="Reform the Lines" iconId="1091831429" category="7" nature="30" tooltip="key:620923422:191029568" description="key:620923422:54354734">
+<skill id="1879271993" name="Reform the Lines!"/>
 </trait>
 <trait identifier="1879273261" name="Last Stand" iconId="1091840443" category="7" nature="30" tooltip="key:620923424:191029568" description="key:620923424:54354734">
 <skill id="1879064148" name="Last Stand"/>
 </trait>
-<trait identifier="1879273262" name="Blessing of the Shield" iconId="1091831464" nature="30" description="key:620923434:54354734">
-<specialEffect label="You gain the benefits of your Shield-brother skills"/>
-</trait>
+<trait identifier="1879273262" name="Blessing of the Song" iconId="1092812529" nature="30" description="key:620923434:54354734"/>
 <trait identifier="1879273263" name="Tactician's Prowess" iconId="1091831457" nature="30" description="key:620923433:54354734">
-<stat name="Skill_Captain_CritHealing_Magnitude" constant="25.0"/>
+<stat name="Skill_Captain_CritHealing_Magnitude" constant="10.0"/>
+<stat name="Skill_Captain_DefensiveStrike_CooldownMod" constant="-5.0"/>
 </trait>
 <trait identifier="1879273264" name="Master of War" iconId="1091831459" nature="30" description="key:620923440:54354734">
-<stat name="Skill_ChanceCriticalHit_PressingAttack" constant="10.0"/>
-<specialEffect label="Critical Hits with Inspire and Shadow's Lament cause you and your Blade-brother's next Melee or Ranged Skill to Crit"/>
-<specialEffect label="Banner of War grants allies a stacking Critical Rating buff when they use skills"/>
+<specialEffect label="Critical Hits with Inspire will grant you and your Blade-brother +25% Critical Chance for 5 seconds."/>
+<specialEffect label="Standard of War grants allies a stacking Critical Rating buff when they use skills"/>
 </trait>
 <trait identifier="1879273265" name="Two-handed Prowess" iconId="1091830074" nature="30" description="key:620923427:54354734">
 <stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="You may block with a two-handed weapon" constant="49196.0"/>
@@ -4941,19 +4880,16 @@
 </trait>
 <trait identifier="1879273266" name="Lacerate" iconId="1091840430" nature="30" description="key:620923436:54354734">
 <stat name="Skill_Captain_BleedSkill_Damage" constant="25.0"/>
-<specialEffect label="Grave Wound will apply a bleed to targets in a small area when your Cutting Attack bleed is present"/>
 </trait>
 <trait identifier="1879273267" name="Shield-brother's Call" iconId="1091831458" category="7" nature="30" tooltip="key:620923438:191029568" description="key:620923438:54354734">
-<skill id="1879276596" name="Shield-brother's Call"/>
+<skill id="1879458697" name="Song-brother's Call"/>
 </trait>
-<trait identifier="1879273268" name="Cutting Edge" iconId="1090553775" nature="30" description="key:620923421:54354734">
-<specialEffect label="Cutting Attack causes you to deal additional Critical Damage for a short time"/>
-</trait>
+<trait identifier="1879273268" name="Cutting Edge" iconId="1092812523" nature="30" description="key:620923421:54354734"/>
 <trait identifier="1879273269" name="Elendil's Fortune" iconId="1091840418" nature="30" description="key:620923432:54354734">
 <specialEffect label="Blade of Elendil causes your next Shadow's Lament to deal 20% more damage"/>
 </trait>
-<trait identifier="1879273270" name="Readied Strike" iconId="1091840377" nature="30" description="key:620923431:54354734">
-<specialEffect label="Valiant Strike grants a Battle-ready Event"/>
+<trait identifier="1879273270" name="Readied Strike" iconId="1091840248" nature="30" description="key:620923431:54354734">
+<specialEffect label="Healing from Revealing Mark is doubled."/>
 </trait>
 <trait identifier="1879273460" name="Bracing Against Defeat" iconId="1090541128" nature="30" tooltip="key:620923571:191029568" description="key:620923571:54354734">
 <stat name="TraitSet_Champion_PipModifier_BracingAttackMin" operator="SET" descriptionOverride="Bracing Attack generates 2 Fervour" constant="-4.0"/>
@@ -4980,7 +4916,7 @@
 </trait>
 <trait identifier="1879273469" name="Exalted Combatant" iconId="1091830081" nature="30" tooltip="key:620923562:191029568" description="key:620923562:54354734"/>
 <trait identifier="1879273470" name="Good Defence/Strong Offence" iconId="1091830093" nature="30" tooltip="key:620923567:191029568" description="key:620923567:54354734">
-<stat name="Skill_Champion_GoodDefenceStrongOffence" descriptionOverride="${PERCENTVALUE} melee damage whilst Sudden Defence is active" constant="10.0"/>
+<stat name="Skill_Champion_GoodDefenceStrongOffence" descriptionOverride="${PERCENTVALUE} melee damage whilst Sudden Defence is active" constant="5.0"/>
 </trait>
 <trait identifier="1879273471" name="Furious Swings" iconId="1091830090" nature="30" tooltip="key:620923575:191029568" description="key:620923575:54354734">
 <stat name="Skill_Champion_BladeDamage" constant="30.000002"/>
@@ -5053,7 +4989,7 @@
 <trait identifier="1879274695" name="Extreme Heat" iconId="1091805946" nature="30" description="key:620924560:54354734"/>
 <trait identifier="1879274696" name="Seething Truth" iconId="1091805960" nature="30" description="key:620924548:54354734">
 <stat name="Skill_Runekeeper_SmoulderingWrath_Damage" descriptionOverride="Seething Truth:  Combustion spreads the current tier of Writ of Fire to all enemies hit &#10; Increases Smouldering Wrath Damage by ${PERCENTVALUE}" constant="30.000002"/>
-<stat name="Skill_Runekeeper_EssayFire_DamageMod" descriptionOverride="Essay of Fire's Initial Damage is increased by ${PERCENTVALUE}" constant="30.000002"/>
+<stat name="Skill_Runekeeper_EssayFire_DamageMod" descriptionOverride="Essay of Fire's Initial Damage is increased by ${PERCENTVALUE}&#10;Chance per Battle Attunement for Fire skills to restore Power" constant="30.000002"/>
 </trait>
 <trait identifier="1879274752" name="Strong Intimidation" iconId="1091458277" nature="30" tooltip="key:620924617:191029568" description="key:620924617:54354734">
 <stat name="Skill_Hunter_DurationTime_Trait_HuntersFear" descriptionOverride="+${VALUE}s Fear Duration" constant="5.0"/>
@@ -5071,7 +5007,7 @@
 <stat name="ForwardSource_Hunter_FocusLoss_OnMovement" operator="SET" descriptionOverride="No Focus Loss on Movement." constant="-1.0"/>
 </trait>
 <trait identifier="1879274757" name="Shoot to Kill" iconId="1091798530" nature="30" tooltip="key:620924607:191029568" description="key:620924607:54354734">
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ranged Damage" constant="10.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ranged Damage" constant="5.0"/>
 </trait>
 <trait identifier="1879274758" name="Nock on The Move" iconId="1091471136" nature="30" tooltip="key:620924622:191029568" description="key:620924622:54354734">
 <stat name="Trait_Hunter_ResoluteAim_InductionPenaltyMod" constant="20.0"/>
@@ -5102,8 +5038,8 @@
 <stat name="Skill_Trait_HuntersCry_Runspeed_Mod" descriptionOverride="+${PERCENTVALUE} Runspeed" constant="10.0"/>
 </trait>
 <trait identifier="1879274770" name="Earthborn" iconId="1091840357" nature="30" tooltip="key:620924618:191029568" description="key:620924618:54354734">
-<stat name="Skill_Pips_Mod_Trait_EnduringPrecision" descriptionOverride="+${VALUE} Focus per second while using Strength of the Earth" constant="1.0"/>
-<stat name="Skill_Pips_Mod_Trait_EnduringPrecision_Seconds" descriptionOverride="Strength of the Earth now restores Morale when active" constant="1.0"/>
+<stat name="Skill_Pips_Mod_Trait_EnduringPrecision_Seconds" constant="1.0"/>
+<specialEffect label="Strength of the Earth now restores Morale when active"/>
 </trait>
 <trait identifier="1879274771" name="Purge Poison" iconId="1091840350" nature="30" tooltip="key:620924605:191029568" description="key:620924605:54354734">
 <specialEffect label="Purge Poison now affects your fellowship."/>
@@ -5579,7 +5515,6 @@
 <trait identifier="1879292028" name="Saddle of West Rohan" iconId="1091740533" category="54" nature="16"/>
 <trait identifier="1879292069" name="Perseverance" iconId="1091840295" tiers="4" tierProperty="trait_class_hunter_rank_53" nature="21" description="key:620937926:54354734">
 <stat name="Skill_Hunter_PressOnward_HealMod" scaling="1879292067"/>
-<stat name="Skill_Hunter_PressOnward_PowerMod" scaling="1879292068"/>
 </trait>
 <trait identifier="1879292070" name="Press Onward" iconId="1091840295" tierProperty="trait_class_hunter_rank_52" nature="21" description="key:620937927:54354734"/>
 <trait identifier="1879295433" name="Tripwire" iconId="1091388957" tierProperty="trait_class_hunter_rank_29" nature="21" description="key:620941287:54354734"/>
@@ -5622,7 +5557,7 @@
 <trait identifier="1879309362" name="Trellis-weave Caparison" iconId="1091756690" category="54" nature="16" description="key:620948647:54354734"/>
 <trait identifier="1879311267" name="Valour" iconId="1091916299" tierProperty="trait_class_captain_rank_58" nature="26" description="key:620950230:54354734"/>
 <trait identifier="1879311300" name="Elite Companions" iconId="1091916295" tierProperty="trait_class_captain_rank_59" nature="26" description="key:620950261:54354734">
-<stat name="Skill_Captain_ArmourRend_AppChance" descriptionOverride="+20% Chance for Herald and Archer attacks to reduce enemy armour." constant="20.0"/>
+<stat name="Skill_Captain_ArmourRend_AppChance" descriptionOverride="+20% Chance for Herald and Archer attacks to reduce enemy Physical Mitigation." constant="20.0"/>
 </trait>
 <trait identifier="1879311401" name="Elendil's Fury" iconId="1092571761" tierProperty="trait_class_captain_rank_60" nature="26" description="key:620950354:54354734">
 <stat name="Trait_Captain_ThreateningShout_CooldownMod" operator="SUBSTRACT" constant="30.0"/>
@@ -5770,7 +5705,7 @@
 <specialEffect label="Ancient Craft&#10;Sign of Power: See All Ends&#10;Sign of Power: Command"/>
 </trait>
 <trait identifier="1879312381" name="Fellowship Protector" iconId="1091916300" tierProperty="trait_class_warden_rank_48" nature="25" description="key:620950876:54354734">
-<specialEffect label="Conviction will grant you a Mitigation buff that is stronger for every nearby ally."/>
+<stat name="GroupATSpenderAppchance2" descriptionOverride="-5% Incoming Damage" constant="100.0"/>
 </trait>
 <trait identifier="1879312451" name="Cover Your Tracks" iconId="1091918104" tierProperty="trait_class_burglar_rank_49" nature="19" description="key:620950919:54354734">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="+5% Max Morale" constant="1.05"/>
@@ -5781,7 +5716,7 @@
 <stat name="Skill_Burglar_SharpEye_mitigationmod" descriptionOverride="Gain a 2.5% mitigation buff while your critical chain is active." constant="2.5"/>
 </trait>
 <trait identifier="1879312453" name="Sneak Attack" iconId="1091918105" tierProperty="trait_class_burglar_rank_48" nature="19" description="key:620950918:54354734">
-<stat name="Burglar_FromStealth_Damage" descriptionOverride="+${PERCENTVALUE} damage from Stealth" constant="100.0"/>
+<stat name="Burglar_FromStealth_Damage" descriptionOverride="+${PERCENTVALUE} damage from Stealth" constant="30.000002"/>
 </trait>
 <trait identifier="1879312458" name="Quick with a Blade" iconId="1091915498" tierProperty="trait_class_champion_rank_50" nature="23" description="key:620950922:54354734">
 <specialEffect label="Merciful Strike now has no health threshold requirement"/>
@@ -5800,12 +5735,6 @@
 </trait>
 <trait identifier="1879312463" name="Emergency Preparations" iconId="1091917447" tierProperty="trait_class_hunter_rank_56" nature="21" description="key:620950924:54354734">
 <specialEffect label="Evading instantly place a single trap in front of you.&#10;&#10;This trap is the same trap from Set Trap. &#10;&#10; This effect can only take place once every 8 seconds."/>
-</trait>
-<trait identifier="1879312829" name="Honed Spikes" iconId="1091916301" tierProperty="trait_class_warden_rank_49" nature="25" description="key:620951236:54354734">
-<stat name="Skill_Warden_HonedSpikes_CritDamage" descriptionOverride="Shield-spikes give +${PERCENTVALUE} Critical Damage to Shield Skills" constant="20.0"/>
-</trait>
-<trait identifier="1879312897" name="Seize the Moment" iconId="1091916302" tierProperty="trait_class_warden_rank_50" nature="25" description="key:620951288:54354734">
-<specialEffect label="Critical Hits with Javelin Gambits have a 50% chance to reset your Gambit Masteries and remove their cooldown for 10s."/>
 </trait>
 <trait identifier="1879313842" name="Caparison of the Wedmath Celebration" iconId="1091740549" category="54" nature="16"/>
 <trait identifier="1879313870" name="Prolonged Verse" iconId="1091915700" tiers="3" tierProperty="trait_class_runekeeper_rank_47" nature="24" description="key:620952166:54354734">
@@ -5827,7 +5756,7 @@
 </trait>
 <trait identifier="1879313928" name="Flashing Images" iconId="1091915737" tierProperty="trait_class_runekeeper_rank_40" nature="24" description="key:620952214:54354734"/>
 <trait identifier="1879314132" name="Break Ranks" iconId="1091916296" tierProperty="trait_class_guardian_rank_54" nature="27" description="key:620952348:54354734">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="Shield-taunt will cash out maximum stacks of Fortification for a 40% group damage buff for 15s.&#10;&#10;Break Ranks cannot trigger more than once each 60s." constant="5.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="Shield-taunt will cash out maximum stacks of Fortification for a 30% group damage buff for 15s.&#10;&#10;Break Ranks cannot trigger more than once each 60s." constant="5.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="Gain a passive +${PERCENTVALUE} damage" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 </trait>
@@ -6878,6 +6807,15 @@
 <trait identifier="1879406160" name="Caparison of Regal Revelry" iconId="1092544707" category="54" nature="16"/>
 <trait identifier="1879406161" name="Head-piece of Regal Revelry" iconId="1092544706" category="54" nature="16"/>
 <trait identifier="1879406162" name="Accessory of Regal Revelry" iconId="1092544708" category="54" nature="16"/>
+<trait identifier="1879407564" name="Shield Mastery" iconId="1092812610" nature="30" description="key:620984353:54354734">
+<stat name="Essence_Warden_ShieldMitigation" descriptionOverride="+${PERCENTVALUE} Physical Mitigation from Shield Mastery&#10;&#10;+${PERCENTVALUE} Tactical Mitigation from Shield Tactics" constant="5.0"/>
+</trait>
+<trait identifier="1879407576" name="Shield Tactics" iconId="1091829806" nature="30" description="key:620985392:54354734">
+<stat name="ReadiedBlade_Damage_Reduction" descriptionOverride="+${PERCENTVALUE} Melee Damage Reduction from Readied Blade&#10;+${PERCENTVALUE} Ranged and Tactical Damage Reduction from Shield Up" constant="5.0"/>
+<stat name="ShieldUp_Damage_Reduction" descriptionOverride="-" constant="5.0"/>
+<stat name="Warden_Determination_Finisher_Mitigations" descriptionOverride="+${PERCENTVALUE} Physical Mitigation from Dance of War.&#10;+${PERCENTVALUE} Tactical Mitigation from Conviction." constant="3.0"/>
+<stat name="Warden_Determination_Buffs" descriptionOverride="+${PERCENTVALUE} Incoming Healing from Persevere&#10;+${PERCENTVALUE} Partial Parry from Impressive Flourish&#10;+${PERCENTVALUE} Partial Evade and +${PERCENTVALUE} Threat Generation from Maddening Strike" constant="5.0"/>
+</trait>
 <trait identifier="1879407671" name="Travel to Kinship Member's House" iconId="1092557575" category="60" nature="1" tooltip="key:621033975:191029568" description="key:621033975:54354734">
 <skill id="1879407670" name="Travel to Kinship Member's House"/>
 </trait>
@@ -6921,7 +6859,7 @@
 </trait>
 <trait identifier="1879409406" name="The Maelstrom" iconId="1091564741" tierProperty="trait_class_specialization_brawler_two" nature="28" description="key:621035447:54354734">
 <stat name="MIGHT" descriptionOverride="+${VALUE} Might (this value increases with player level)" scaling="1879366646"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 </trait>
 <trait identifier="1879410804" name="Head-piece of the Sporting Steed" iconId="1092590064" category="54" nature="16"/>
@@ -7535,6 +7473,11 @@
 <trait identifier="1879456520" name="Black Grave Tail" iconId="1092757187" category="54" nature="16"/>
 <trait identifier="1879456521" name="Black Grave Head-piece" iconId="1092757190" category="54" nature="16"/>
 <trait identifier="1879456522" name="Black Grave Leg-guards" iconId="1092757186" category="54" nature="16"/>
+<trait identifier="1879456936" name="Lyndelby Homestead" iconId="1091404800" category="60" nature="1" tooltip="key:621071024:191029568" description="key:621071024:54354734"/>
+<trait identifier="1879456938" name="Lyndelby Homestead" iconId="1091404801" category="60" nature="1" tooltip="key:621071030:191029568" description="key:621071030:54354734"/>
+<trait identifier="1879456940" name="Lyndelby Homestead" iconId="1091404801" category="60" nature="1" tooltip="key:621071033:191029568" description="key:621071033:54354734"/>
+<trait identifier="1879456942" name="Lyndelby Homestead" iconId="1091404801" category="60" nature="1" tooltip="key:621071041:191029568" description="key:621071041:54354734"/>
+<trait identifier="1879456944" name="Lyndelby Kinship Hall" iconId="1091404802" category="60" nature="1" tooltip="key:621071044:191029568" description="key:621071044:54354734"/>
 <trait identifier="1879456977" name="Snow-strider's Head-piece" iconId="1092807151" category="54" nature="16"/>
 <trait identifier="1879456984" name="Snow-strider's Saddle" iconId="1092807155" category="54" nature="16"/>
 <trait identifier="1879456986" name="Snow-strider's Caparison" iconId="1092807150" category="54" nature="16"/>
@@ -7543,4 +7486,86 @@
 <trait identifier="1879457057" name="Rakish Charmer's Head-piece" iconId="1092807211" category="54" nature="16"/>
 <trait identifier="1879457058" name="Rakish Charmer's Saddle" iconId="1092807208" category="54" nature="16"/>
 <trait identifier="1879457059" name="Rakish Charmer's Caparison" iconId="1092807207" category="54" nature="16"/>
+<trait identifier="1879457910" name="Careful Blade-work" iconId="1092812741" tiers="3" tierProperty="trait_class_warden_rank_22" nature="25" description="key:621072231:54354734">
+<stat name="ReadiedBlade_Damage_Reduction" scaling="1879457929"/>
+</trait>
+<trait identifier="1879457912" name="Desperate Combat" iconId="1092812739" category="11" nature="30" tooltip="key:621071985:191029568" description="key:621071985:54354734">
+<skill id="1879457566" name="Desperate Combat"/>
+<skill id="1879457565" name="Desperate Spear"/>
+</trait>
+<trait identifier="1879457940" name="TBD red Trait 7" iconId="1092810844" nature="30" description="key:621072104:54354734"/>
+<trait identifier="1879457948" name="TBD blue Trait 2" iconId="1092810844" nature="30" description="key:621072050:54354734"/>
+<trait identifier="1879457951" name="TBD Yellow Trait 2" iconId="1092810844" nature="30" description="key:621072117:54354734"/>
+<trait identifier="1879457956" name="TBD Yellow Trait 7" iconId="1092810844" nature="30" description="key:621072029:54354734"/>
+<trait identifier="1879457963" name="TBD Yellow Trait 1" iconId="1092810844" nature="30" description="key:621072079:54354734">
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
+</trait>
+<trait identifier="1879457982" name="TBD blue Trait 3" iconId="1092810844" nature="30" description="key:621072066:54354734"/>
+<trait identifier="1879457987" name="TBD blue Trait 6" iconId="1092810844" nature="30" description="key:621072111:54354734"/>
+<trait identifier="1879457996" name="TBD Yellow Trait 5" iconId="1092810844" nature="30" description="key:621071999:54354734"/>
+<trait identifier="1879458002" name="TBD Yellow Trait 6" iconId="1092810844" nature="30" description="key:621072045:54354734"/>
+<trait identifier="1879458004" name="TBD red Trait 2" iconId="1092810844" nature="30" description="key:621072058:54354734"/>
+<trait identifier="1879458037" name="TBD blue Trait 4" iconId="1092810844" nature="30" description="key:621072085:54354734"/>
+<trait identifier="1879458040" name="TBD blue Trait 7" iconId="1092810844" nature="30" description="key:621072121:54354734"/>
+<trait identifier="1879458044" name="TBD red Trait 6" iconId="1092810844" nature="30" description="key:621072113:54354734"/>
+<trait identifier="1879458053" name="TBD Yellow Trait 4" iconId="1092810844" nature="30" description="key:621072015:54354734"/>
+<trait identifier="1879458054" name="TBD blue Trait 1" iconId="1092810844" nature="30" description="key:621072038:54354734">
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
+</trait>
+<trait identifier="1879458060" name="TBD red Trait 3" iconId="1092810844" nature="30" description="key:621072044:54354734"/>
+<trait identifier="1879458068" name="TBD Yellow Trait 3" iconId="1092810844" nature="30" description="key:621072107:54354734"/>
+<trait identifier="1879458077" name="TBD red Trait 4" iconId="1092810844" nature="30" description="key:621072024:54354734"/>
+<trait identifier="1879458091" name="TBD red Trait 1" iconId="1092810844" nature="30" description="key:621072087:54354734">
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
+</trait>
+<trait identifier="1879458093" name="TBD blue Trait 5" iconId="1092810844" nature="30" description="key:621072096:54354734"/>
+<trait identifier="1879458118" name="Muscle Memory" iconId="1092813487" tierProperty="trait_class_warden_rank_49" nature="25" description="key:621072150:54354734">
+<specialEffect label="Using skills from Battle Memory will restore a small amount of Power."/>
+</trait>
+<trait identifier="1879458205" name="Enduring Assailment" iconId="1091916308" tiers="5" tierProperty="trait_class_warden_rank_36" nature="25" description="key:621072202:54354734">
+<stat name="Skill_Warden_Assailment_Debuff_Duration" descriptionOverride="+${VALUE}s Debuff Duration" scaling="1879458244"/>
+</trait>
+<trait identifier="1879458206" name="Throwing Arm" iconId="1091830126" tiers="5" tierProperty="trait_class_warden_rank_38" nature="25" description="key:621072197:54354734">
+<stat name="Skill_MaxRange_JavelinToss" scaling="1879458235"/>
+</trait>
+<trait identifier="1879458207" name="Endurance Training" iconId="1091830134" tiers="5" tierProperty="trait_class_warden_rank_33" nature="25" description="key:621072201:54354734">
+<stat name="Skill_Warden_Endurance_Training" operator="SUBSTRACT" scaling="1879458240"/>
+</trait>
+<trait identifier="1879458208" name="Strong Foundations" iconId="1091831467" tiers="2" tierProperty="trait_class_warden_rank_42" nature="25" description="key:621072199:54354734">
+<stat name="Skill_Warden_Mastery_CooldownMod" scaling="1879458246"/>
+</trait>
+<trait identifier="1879458209" name="Movement Training" iconId="1091831464" tiers="5" tierProperty="trait_class_warden_rank_34" nature="25" description="key:621072203:54354734">
+<stat name="Trait_Warden_GlobalParryBonus" descriptionOverride="+${PERCENTVALUE} Ratings Buffs from Shield Gambits" scaling="1879458241"/>
+<stat name="Trait_Warden_GlobalEvadeBonus" descriptionOverride="-" scaling="1879458228"/>
+<stat name="Trait_Warden_GlobalBlockBonus" descriptionOverride="-" scaling="1879458245"/>
+</trait>
+<trait identifier="1879458210" name="Rapid Technique" iconId="1092812618" tierProperty="trait_class_warden_rank_24" nature="25" description="key:621072200:54354734"/>
+<trait identifier="1879458211" name="Adroit Ambush" iconId="1092403121" tierProperty="trait_class_warden_rank_44" nature="25" description="key:621072198:54354734"/>
+<trait identifier="1879458212" name="Fire at Will" iconId="1091830187" tierProperty="trait_class_warden_rank_11" nature="25" description="key:621072204:54354734"/>
+<trait identifier="1879458217" name="TBD Trait" iconId="1092810844" tiers="5" tierProperty="trait_class_corsair_rank_1" nature="33" description="key:621072211:54354734"/>
+<trait identifier="1879458223" name="TBD red Trait 5" iconId="1092810844" nature="30" description="key:621072210:54354734"/>
+<trait identifier="1879458233" name="Snap Shot" iconId="1091830132" tierProperty="trait_class_warden_rank_8" nature="25" description="key:621072220:54354734"/>
+<trait identifier="1879458752" name="Gift of Spirit" iconId="1091840414" category="7" nature="30" tooltip="key:621072630:191029568" description="key:621072630:54354734">
+<skill id="1879458718" name="Gift of Spirit"/>
+</trait>
+<trait identifier="1879458832" name="Brother's Keeper" iconId="1091831458" tierProperty="trait_class_captain_rank_21" nature="26" description="key:621072709:54354734">
+<specialEffect label="50% of your ally's threat is transferred to you."/>
+</trait>
+<trait identifier="1879458863" name="Stewards of the Iron-home - Vendor Discount" iconId="1090535587" category="93" nature="1" tooltip="key:621072731:191029568" description="key:621072731:54354734">
+<stat name="Discount_Angmar_Reborn" constant="5.0"/>
+</trait>
+<trait identifier="1879458864" name="Stewards of the Iron-home - Travel Discount" iconId="1091552099" category="93" nature="1" tooltip="key:621072734:191029568" description="key:621072734:54354734">
+<stat name="Discount_Travel_Angmar_Reborn" constant="25.0"/>
+</trait>
+<trait identifier="1879461148" name="Gambit Chains" iconId="1092814334" category="21" nature="1" tooltip="key:621074169:191029568" description="key:621074169:54354734"/>
+<trait identifier="1879461734" name="Redirect Ire" iconId="1092815069" tiers="4" tierProperty="trait_class_warden_rank_21" nature="25" description="key:621074560:54354734">
+<stat name="PERCEIVED_THREAT" scaling="1879461729"/>
+</trait>
+<trait identifier="1879461736" name="Undeniable Challenge" iconId="1092815118" tierProperty="trait_class_warden_rank_50" nature="25" description="key:621074562:54354734"/>
+<trait identifier="1879461949" name="Angmar Reborn Leg-guards" iconId="1092815123" category="54" nature="16"/>
+<trait identifier="1879461951" name="Angmar Reborn Accessory" iconId="1092815122" category="54" nature="16"/>
+<trait identifier="1879461954" name="Angmar Reborn Tail" iconId="1092815121" category="54" nature="16"/>
+<trait identifier="1879461955" name="Angmar Reborn Saddle" iconId="1092815125" category="54" nature="16"/>
+<trait identifier="1879461956" name="Angmar Reborn Head-piece" iconId="1092815120" category="54" nature="16"/>
+<trait identifier="1879461957" name="Angmar Reborn Caparison" iconId="1092815124" category="54" nature="16"/>
 </traits>

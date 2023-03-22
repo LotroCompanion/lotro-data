@@ -587,7 +587,7 @@
 <stat id="268443235" name="Prelude to Hope Healing" key="Skill_Attunement_Runekeeper_Heal_SmallHoT_HealingBonus" isPercentage="true"/>
 <stat id="268443236" name="Shocking Words Damage" key="Skill_Attunement_Runekeeper_Lightning_Stun_StunRate" isPercentage="true"/>
 <stat id="268443237" name="Scribe's Spark Damage" key="Skill_Attunement_Runekeeper_Lightning_Shaken_Damage" isPercentage="true"/>
-<stat id="268443238" name="Epic Conclusion Critical Rating" key="Skill_Attunement_Runekeeper_Lightning_Ultimate_CriticalHitChance"/>
+<stat id="268443238" name="Epic Conclusion Critical Chance" key="Skill_Attunement_Runekeeper_Lightning_Ultimate_CriticalHitChance" isPercentage="true"/>
 <stat id="268443239" name="Unused" key="Skill_Attunement_Runekeeper_Lightning_ThunderStruck_Recovery"/>
 <stat id="268443240" name="Essence of the Storm Critical Rating" key="Skill_Attunement_Runekeeper_Lightning_Critical_CriticalHitChance" isPercentage="true"/>
 <stat id="268443244" name="Shield Taunt Threat" key="Skill_Guardian_ThreatIncrease_ShieldofFire"/>
@@ -914,9 +914,9 @@
 <stat id="268444397" name="Base Shadow Defence" key="Combat_ArmorDefense_ClassPoints_Shadow"/>
 <stat id="268444409" name="Bleed Damage" key="Skill_DamageMultiplier_BleedingStrike" isPercentage="true"/>
 <stat id="268444410" name="Rallying Cry Healing" key="Skill_Captain_RallyingCryHealBonus" isPercentage="true"/>
-<stat id="268444411" name="Noble Mark Damage" key="Skill_StrengthofWill_HealMod" isPercentage="true"/>
+<stat id="268444411" name="Noble Mark Debuff Potency" key="Skill_StrengthofWill_HealMod" isPercentage="true"/>
 <stat id="268444412" name="Last Stand Duration" key="Skill_RecoveryTime_TimeofNeed"/>
-<stat id="268444413" name="War Cry Buff Duration" key="Skill_Duration_Captain_Warcry"/>
+<stat id="268444413" name="At the Fore Melee Healing" key="Skill_Duration_Captain_Warcry" isPercentage="true"/>
 <stat id="268444414" name="Shadow's Lament Cooldown" key="Skill_RecoveryTime_ShadowsLament"/>
 <stat id="268444415" name="Valiant Strike Power Cost" key="Skill_VitalCost_EndtheNight" isPercentage="true"/>
 <stat id="268444416" name="Sure Strike Damage" key="Skill_RecoveryTime_RallyingCry" isPercentage="true"/>
@@ -1098,8 +1098,8 @@
 <stat id="268445047" name="Pins targets with a short duration root" key="Skill_EffectOverride_Trait_MP_DeathBlossom" type="ARRAY"/>
 <stat id="268445069" name="Increases movement speed penalty when using Hamstring." key="Skill_EffectOverride_Trait_MP_Hamstring" type="ARRAY"/>
 <stat id="268445072" name="In the Fray Attack Duration" key="Skill_Warden_Recklessness_Haste" isPercentage="true"/>
-<stat id="268445073" name="Spear Gambit Damage" key="Skill_DamageMultiplier_MightBlow" isPercentage="true"/>
-<stat id="268445074" name="Target Resist Chance (Resolution)" key="Skill_ResistChance_Resolution" isPercentage="true"/>
+<stat id="268445073" name="Fist - Spear Damage over Time" key="Skill_DamageMultiplier_MightBlow" isPercentage="true"/>
+<stat id="268445074" name="Morale-tap Target Resist Chance" key="Skill_ResistChance_Resolution" isPercentage="true"/>
 <stat id="268445075" name="Hampering Javelin Duration" key="Skill_Duration_HamperingJavelin"/>
 <stat id="268445076" name="Shield Gambit Line Healing" key="Skill_DamageMultiplier_CelebrationofSkill" isPercentage="true"/>
 <stat id="268445077" name="Javelin Skills Max Range" key="Skill_MaxRange_JavelinToss"/>
@@ -1107,16 +1107,16 @@
 <stat id="268445079" name="Ambush Critical Damage" key="Skill_CriticalDamageMultiplier_Ambush" isPercentage="true"/>
 <stat id="268445080" name="Spear Gambit Parry Rating" key="skill_parrybonus_wallofsteel"/>
 <stat id="268445082" name="Fist Gambit Critical Chance" key="Skill_PowerRestoreMultiplier_DarkBeforeDawn" isPercentage="true"/>
-<stat id="268445083" name="Resolution Damage" key="Skill_DamageMultiplier_SpearofVirtue" isPercentage="true"/>
+<stat id="268445083" name="Resolution Damage and Healing" key="Skill_DamageMultiplier_SpearofVirtue" isPercentage="true"/>
 <stat id="268445084" name="Careful Step Duration" key="Skill_Duration_CarefulStep"/>
 <stat id="268445085" name="In the Fray Morale Regen" key="Skill_Warden_Determination_ICMR"/>
 <stat id="268445086" name="Fist Gambit Buff Duration" key="Skill_DamageMultiplier_Restoration"/>
 <stat id="268445087" name="Fist Gambit Evade Rating" key="Skill_EvadeBonus_DanceofWar"/>
 <stat id="268445088" name="Shield Mastery Block Rating" key="Skill_BlockBonus_shieldmastery"/>
-<stat id="268445089" name="Wages of Fear Positional Damage" key="Skill_DamageMultiplier_WagesofFear" isPercentage="true"/>
+<stat id="268445089" name="Way of the Spear, Shield, and Fist Bonuses" key="Skill_DamageMultiplier_WagesofFear" isPercentage="true"/>
 <stat id="268445090" name="In Combat Power Regeneration" key="Skill_Warden_Conservation_ICPR"/>
-<stat id="268445091" name="Shield Piercer Duration" key="Skill_Duration_ShieldPiercer"/>
-<stat id="268445092" name="Surety of Death Damage Over Time" key="Skill_DamageMultiplier_SuretyofDeath" isPercentage="true"/>
+<stat id="268445091" name="Restorative Shield-work Cooldown" key="Skill_Duration_ShieldPiercer"/>
+<stat id="268445092" name="Fist - Shield Damage over Time" key="Skill_DamageMultiplier_SuretyofDeath" isPercentage="true"/>
 <stat id="268445094" name="Boar's Rush Critical Rating" key="Skill_CriticalChance_BoarsRush"/>
 <stat id="268445095" name="Critical Strike Critical Damage" key="Skill_CriticalDamageMultiplier_CriticalStrike" isPercentage="true"/>
 <stat id="268445096" name="Fist-Spear Gambit Threat" key="Trait_BonusThreat_ExultationofBattle" isPercentage="true"/>
@@ -1188,13 +1188,13 @@
 <stat id="268445506" name="Item Advancement Experience Modifier" key="ItemAdvancement_XP_AwardMultiplier" isPercentage="true"/>
 <stat id="268445557" name="Dagger Damage" key="Combat_WeaponDamageMultiplier_Dagger" isPercentage="true"/>
 <stat id="268445572" name="Menacing Roar Power Cost" key="Skill_PowerCost_Trait_MP_MenacingRoar" isPercentage="true"/>
-<stat id="268445626" name="Spear-Shield Gambit Damage" key="Skill_DamageMultiplier_Safeguard" isPercentage="true"/>
-<stat id="268445630" name="Shield Tactics Tactical Mitigation Buff" key="Skill_DamageMultiplier_Onslaught" isPercentage="true"/>
+<stat id="268445626" name="Spear - Shield Gambit Initial Damage" key="Skill_DamageMultiplier_Safeguard" isPercentage="true"/>
+<stat id="268445630" name="DNT - Unused" key="Skill_DamageMultiplier_Onslaught" isPercentage="true"/>
 <stat id="268445631" name="Ambush and Careful Step Induction" key="Skill_InductionDuration_Warden_Mod"/>
 <stat id="268445632" name="Javelin Skills Movement Miss Penalty" key="Skill_Warden_Javelin_MoveToHit_Mod" isPercentage="true"/>
 <stat id="268445633" name="Shield Gambit Buff Duration" key="Skill_BonusThreat_WarCry"/>
-<stat id="268445634" name="Gambit Lifetap Damage" key="Skill_BonusThreat_SpearofVirtue" isPercentage="true"/>
-<stat id="268445635" name="Marked and Diminished Tgt Debuff" key="Skill_BonusThreat_PiercingStrike" isPercentage="true"/>
+<stat id="268445634" name="Gambit Lifetap Damage and Healing" key="Skill_BonusThreat_SpearofVirtue" isPercentage="true"/>
+<stat id="268445635" name="Marked and Diminished Debuff" key="Skill_BonusThreat_PiercingStrike" isPercentage="true"/>
 <stat id="268445654" name="Resolution and Exultation of Battle Power Cost" key="Skill_Warden_Resolution_PowerCost" isPercentage="true"/>
 <stat id="268445655" name="Mighty Blow Parry Mod" key="Skill_Warden_MightyBlow_ParryMod"/>
 <stat id="268445658" name="Recklessness Block &amp; Evade Mod" key="Skill_Warden_Recklessness_Evade_Block_Mod"/>
@@ -1204,7 +1204,7 @@
 <stat id="268445664" name="Smouldering Wrath Damage" key="Skill_Runekeeper_SmoulderingWrath_Damage" isPercentage="true"/>
 <stat id="268445665" name="Maximum targets for Distracting Wind" key="Skill_Runekeeper_DistractingWinds_MaxTargets" type="INTEGER"/>
 <stat id="268445666" name="Ceaseless Argument Damage" key="Skill_Runekeeper_CeaselessArgument_PowerCost" isPercentage="true"/>
-<stat id="268445667" name="Self Motivation Power Return" key="Skill_Runekeeper_SelfMotivation_PowerReturn" isPercentage="true"/>
+<stat id="268445667" name="Self Motivation Power or Morale Restore" key="Skill_Runekeeper_SelfMotivation_PowerReturn" isPercentage="true"/>
 <stat id="268445669" name="Scathing Mockery Resist Rating" key="Skill_Runekeeper_ScathingMockery_Resist"/>
 <stat id="268445670" name="Shocking Words Stun Chance" key="Skill_Runekeeper_ShockingWords_StunChance"/>
 <stat id="268445672" name="Dagger Critical Multiplier" key="Combat_SkillCriticalMult_AddMod_Dagger" isPercentage="true"/>
@@ -1901,7 +1901,7 @@
 <stat id="268451849" name="Modifies the rate at which potency is applied" key="Skill_Warden_Potency_Modifier" isPercentage="true"/>
 <stat id="268451850" name="level 66 Ward" key="Trait_Guardian_ImprovedWard_66" type="ARRAY"/>
 <stat id="268451854" name="Warden's Taunt Damage Over Time Damage" key="Trait_DamageMultiplier_WardensTaunt" isPercentage="true"/>
-<stat id="268451855" name="Skill and Power Trait" key="Trait_Warden_SkillandPower" type="ARRAY"/>
+<stat id="268451855" name="Battle Memory Gambits restore Power" key="Trait_Warden_SkillandPower" type="ARRAY"/>
 <stat id="268451873" name="Improved version of Goad" key="Trait_Warden_Goad_Improved" type="ARRAY"/>
 <stat id="268451874" name="Improved version of Defensive Strike" key="Trait_Warden_DefensiveStrike_Improved" type="ARRAY"/>
 <stat id="268451875" name="Improved version of Deft Strike" key="Trait_Warden_DeftStrike_Improved" type="ARRAY"/>
@@ -1956,7 +1956,7 @@
 <stat id="268452007" name="Armour Value" key="Combat_Agent_Armor_Value_Float"/>
 <stat id="268452008" name="Fist Pulse Heal Over Time Skills" key="Trait_PulseCount_Warden_FistHot" type="INTEGER"/>
 <stat id="268452009" name="Fist Pulse Damage Over Time Skills" key="Trait_PulseCount_Warden_FistDot" type="INTEGER"/>
-<stat id="268452010" name="Shield Tactics' immunity duration" key="Itemset_Duration_Warden_ShieldTactics" isPercentage="true"/>
+<stat id="268452010" name="Shield Tactics Immunity Duration" key="Itemset_Duration_Warden_ShieldTactics"/>
 <stat id="268452011" name="Never Surrender's Cooldown" key="Itemset_Cooldown_Warden_NeverSurrender" isPercentage="true"/>
 <stat id="268452012" name="Exalted Combatant Cooldown Reduction" key="Itemset_Cooldown_Champion_ExaltedCombatant"/>
 <stat id="268452015" name="Ancient Craft Duration" key="Skill_Loremaster_DurationMod_AncientCraft"/>
@@ -1979,10 +1979,10 @@
 <stat id="268452086" name="DNT Transfer Blocks" key="ForwardSource_Skill_TransferReactives_Block" type="BOOLEAN"/>
 <stat id="268452102" name="Words of Courage Pulses" key="IA_Captain_WordsofCourage_Pulses" type="INTEGER"/>
 <stat id="268452103" name="Improved Routing Cry" key="Trait_Captain_ImprovedRoutingCry_ForceTaunt" type="ARRAY"/>
-<stat id="268452105" name="Blade-brother Affects Self" key="Trait_Captain_LeadtheCharge_BladeBrother_Self" type="ARRAY"/>
-<stat id="268452106" name="Shield-brother Affects Self" key="Trait_Captain_LeaderofMen_ImprovedShieldBrother_Self" type="ARRAY"/>
-<stat id="268452107" name="Song-brother Affects Self" key="Trait_Captain_HandsofHealing_SongBrother_Self" type="ARRAY"/>
-<stat id="268452108" name="Shield-brother Affects Self" key="Trait_Captain_LeaderofMen_ShieldBrother_Self" type="ARRAY"/>
+<stat id="268452105" name="To Arms personal effect" key="Trait_Captain_LeadtheCharge_BladeBrother_Self" type="ARRAY"/>
+<stat id="268452106" name="To Arms personal effect" key="Trait_Captain_LeaderofMen_ImprovedShieldBrother_Self" type="ARRAY"/>
+<stat id="268452107" name="To Arms personal effect" key="Trait_Captain_HandsofHealing_SongBrother_Self" type="ARRAY"/>
+<stat id="268452108" name="To Arms personal effect" key="Trait_Captain_LeaderofMen_ShieldBrother_Self" type="ARRAY"/>
 <stat id="268452110" name="DNT - Shield-brother To Arms Override" key="Trait_Captain_FellowshipBrother_ShieldBrother_ToArms" type="ARRAY"/>
 <stat id="268452111" name="DNT - Blade-brother Inspire Override" key="Trait_Captain_FellowshipBrother_BladeBrother_Inspire" type="ARRAY"/>
 <stat id="268452112" name="DNT - Song-brother To Arms Override" key="Trait_Captain_FellowshipBrother_SongBrother_ToArms" type="ARRAY"/>
@@ -2215,7 +2215,7 @@
 <stat id="268454052" name="Audacity" key="Trait_PvMP_BattleRank_Creep" type="INTEGER"/>
 <stat id="268454053" name="Critical Immunity" key="ForwardSource_Trait_Warden_CritImmunity" type="BOOLEAN"/>
 <stat id="268454055" name="Improved Shield Tactics" key="Skill_EffectOverride_Warden_ShieldTactics_Improved" type="ARRAY"/>
-<stat id="268454056" name="Shield Tactics' Barring Duration" key="Itemset_Duration_Warden_ShieldTactics2" isPercentage="true"/>
+<stat id="268454056" name="Shield Tactics Barring Duration" key="Itemset_Duration_Warden_ShieldTactics2"/>
 <stat id="268454057" name="Way of Shield Bonus" key="ItemSet_Warden_PvMP_Tank" isPercentage="true" type="ARRAY"/>
 <stat id="268454058" name="Way of the Fist Bonus" key="ItemSet_Warden_PvMP_Ranged" isPercentage="true" type="ARRAY"/>
 <stat id="268454059" name="Way of the Spear Bonus" key="ItemSet_Warden_PvMP_Melee" isPercentage="true" type="ARRAY"/>
@@ -2547,10 +2547,10 @@
 <stat id="268455345" name="Restoration in Assailment" key="Skill_EffectOverride_Warden_Restoration_Ranged" type="ARRAY"/>
 <stat id="268455346" name="Restoration in Determination" key="Skill_EffectOverride_Warden_Restoration_Tank" type="ARRAY"/>
 <stat id="268455347" name="Celebration of Skill in Assailment" key="Skill_EffectOverride_Warden_CelebrationofSkill_Ranged2" type="ARRAY"/>
-<stat id="268455357" name="Call to Battle in Determination" key="Skill_EffectOverride_Warden_CalltoBattle_Tank" type="ARRAY"/>
+<stat id="268455357" name="Deflection Threat Up" key="Skill_EffectOverride_Warden_CalltoBattle_Tank" type="ARRAY"/>
 <stat id="268455358" name="Call to Battle in Assailment" key="Skill_EffectOverride_Warden_CalltoBattle_Ranged" type="ARRAY"/>
 <stat id="268455359" name="Call to Battle in Recklessness" key="Skill_EffectOverride_Warden_CalltoBattle_Melee" type="ARRAY"/>
-<stat id="268455360" name="Resounding Challenge in Determination" key="Skill_EffectOverride_Warden_ResoundingChallenge_Tank" type="ARRAY"/>
+<stat id="268455360" name="Instant Resounding Challenge" key="Skill_EffectOverride_Warden_ResoundingChallenge_Tank" type="ARRAY"/>
 <stat id="268455361" name="Resounding Challenge in Recklessness" key="Skill_EffectOverride_Warden_ResoundingChallenge_Melee" type="ARRAY"/>
 <stat id="268455362" name="Resounding Challenge in Assailment" key="Skill_EffectOverride_Warden_ResoundingChallenge_Ranged" type="ARRAY"/>
 <stat id="268455369" name="Mounted Skill Combo" key="ForwardSource_Combat_Mounted_SkillCombo" type="BITFIELD"/>
@@ -2949,10 +2949,10 @@
 <stat id="268457668" name="Critical Defence" key="Skill_Warden_ImpressiveFlourish_EffectMod"/>
 <stat id="268457669" name="Use a description override." key="Skill_Warden_NeverSurrender_ThresholdMod" isPercentage="true"/>
 <stat id="268457670" name="Use a description override." key="Skill_Warden_Indefatigable_EffectMod" isPercentage="true"/>
-<stat id="268457671" name="Offensive Strike Morale-Tap Damage" key="Skill_Warden_OffensiveStrike_MoraleTapDamage" isPercentage="true"/>
+<stat id="268457671" name="Offensive Strike Morale-Tap Damage and Healing" key="Skill_Warden_OffensiveStrike_MoraleTapDamage" isPercentage="true"/>
 <stat id="268457672" name="Adroit Manoeuvre Attack Duration bonus" key="Skill_Warden_AdroitMan_AttackDuration" isPercentage="true"/>
 <stat id="268457673" name="DoT Pulse" key="Skill_Warden_LastImpression_DurationMod" type="INTEGER"/>
-<stat id="268457674" name="Spear Gambit Damage" key="Skill_Warden_SpearGambitDamage" isPercentage="true"/>
+<stat id="268457674" name="Spear Gambit Initial Damage" key="Skill_Warden_SpearGambitDamage" isPercentage="true"/>
 <stat id="268457675" name="Persevere Gambit Line Healing" key="Skill_Warden_PersevereHeal" isPercentage="true"/>
 <stat id="268457676" name="Warden's Triumph damage bonus" key="Skill_Warden_TriumphDamage" isPercentage="true"/>
 <stat id="268457677" name="Bleed Damage" key="Skill_Warden_BleedDamage" isPercentage="true"/>
@@ -2961,7 +2961,7 @@
 <stat id="268457680" name="Use a description override." key="Skill_Warden_ThickSkin_EffectMod" isPercentage="true"/>
 <stat id="268457681" name="Gambit Builder Damage" key="Skill_Warden_BuilderDamage" isPercentage="true"/>
 <stat id="268457682" name="Persevere Gambit Line Damage" key="Skill_Warden_PersevereDamage" isPercentage="true"/>
-<stat id="268457683" name="Morale-tap Damage" key="Skill_Warden_MoraleTapDamage" isPercentage="true"/>
+<stat id="268457683" name="Morale-tap Damage and Healing" key="Skill_Warden_MoraleTapDamage" isPercentage="true"/>
 <stat id="268457684" name="DoT Critical Damage" key="Skill_Warden_DeepWounds_CritDamage" isPercentage="true"/>
 <stat id="268457685" name="Pet Critical Chance and Damage" key="Skill_Loremaster_PetCrit" isPercentage="true"/>
 <stat id="268457686" name="Chance to apply 2 stacks of Burning Embers at once" key="Skill_Loremaster_DryKindling_AppChance" isPercentage="true"/>
@@ -2982,7 +2982,7 @@
 <stat id="268457701" name="Cracked Earth Damage" key="Skill_Loremaster_BurningEarth_Damage" isPercentage="true"/>
 <stat id="268457702" name="Morale restored" key="Skill_Loremaster_EmpoweringFires_MoraleMod" isPercentage="true"/>
 <stat id="268457703" name="Chance for Gust of Wind to spread Burning Embers" key="Skill_Loremaster_MightyWind_AppChance" isPercentage="true"/>
-<stat id="268457719" name="Physical and Tactical Mitigations" key="Skill_Warden_Defiance_MitigationMod" isPercentage="true"/>
+<stat id="268457719" name="DNT - Trait gives real appchance for Personal Effect" key="Skill_Warden_Defiance_MitigationMod" isPercentage="true"/>
 <stat id="268457720" name="Pet Attack Duration" key="Skill_Loremaster_SynchronizedMovement_AD" isPercentage="true"/>
 <stat id="268457722" name="Blind Bet Cooldown" key="Trait_Burglar_BlindBet_Cooldown"/>
 <stat id="268457723" name="Cash Out Cooldown" key="Trait_Burglar_Cashout_Cooldown"/>
@@ -3036,8 +3036,8 @@
 <stat id="268457781" name="Effect Magnitude" key="Skill_Loremaster_OutintheCold" isPercentage="true"/>
 <stat id="268457782" name="Effect Magnitude" key="Skill_Loremaster_PlayingwithFire" isPercentage="true"/>
 <stat id="268457783" name="Pleasant Breeze Heal" key="Skill_Loremaster_PleasantBreeze" isPercentage="true"/>
-<stat id="268457784" name="Precise Throw Critical Defence Debuff" key="Skill_Warden_Battering_Strikes"/>
-<stat id="268457785" name="Armour Penetration" key="Skill_Warden_FMJ"/>
+<stat id="268457784" name="Precise Throw Critical Defence Debuff" key="Skill_Warden_Battering_Strikes" isPercentage="true"/>
+<stat id="268457785" name="Javelin Avoidance Penetration" key="Skill_Warden_FMJ" isPercentage="true"/>
 <stat id="268457786" name="s Stun Duration" key="Skill_Loremaster_Disable"/>
 <stat id="268457787" name="Morale Cost" key="Skill_Loremaster_LevelHeaded" isPercentage="true"/>
 <stat id="268457788" name="Tactical Mitigation" key="Skill_Warden_Diminished_Target" isPercentage="true"/>
@@ -3235,7 +3235,7 @@
 <stat id="268458214" name="Watcher Resolve Power Refund" key="Trait_Minstrel_Resolve_Power_Refund2" type="ARRAY"/>
 <stat id="268458215" name="Watcher Resolve Power Refund" key="Trait_Minstrel_Resolve_Power_Refund3" type="ARRAY"/>
 <stat id="268458216" name="Watcher Resolve Power Refund" key="Trait_Minstrel_Resolve_Power_Refund4" type="ARRAY"/>
-<stat id="268458217" name="Healing Skill Power Cost" key="Skill_Minstrel_Resolve_PowerRestore" isPercentage="true"/>
+<stat id="268458217" name="Ballad of Resonance Power Restore" key="Skill_Minstrel_Resolve_PowerRestore" isPercentage="true"/>
 <stat id="268458225" name="Incoming Damage" key="Skill_Minstrel_Inspire_Fellows_DamageReduction" isPercentage="true"/>
 <stat id="268458226" name="Maximum Crank Count" key="BigBattle_Interactive_Crank_Max"/>
 <stat id="268458227" name="Critical Defence" key="Trait_Minstrel_Echoes_Critical_Defence" type="ARRAY"/>
@@ -3284,7 +3284,7 @@
 <stat id="268458377" name="Masochism Application Chance" key="Skill_Champion_Masochism_AppChance" isPercentage="true"/>
 <stat id="268458379" name="Sudden Defence Trait Effect" key="Trait_Champion_Sudden_Defence_Damage" isPercentage="true" type="ARRAY"/>
 <stat id="268458380" name="Precise Strikes Trait Effect" key="Trait_Champion_Precise_Strikes" type="ARRAY"/>
-<stat id="268458381" name="Damage from Fervour" key="Trait_Champion_FervourMod_Damage"/>
+<stat id="268458381" name="Skill Damage from Fervour" key="Trait_Champion_FervourMod_Damage" isPercentage="true"/>
 <stat id="268458382" name="Sudden Defence Potency from Fervour" key="Skill_Champion_FervourMod_SuddenDefence"/>
 <stat id="268458383" name="Second Wind Power from Fervour" key="Skill_Champion_FervourMod_SecondWind_PowerRestore"/>
 <stat id="268458384" name="Adamant Potency from Fervour" key="Skill_Champion_FervourMod_Adamant"/>
@@ -3313,7 +3313,7 @@
 <stat id="268458424" name="No Respite" key="Trait_Warden_NoRespite" type="ARRAY"/>
 <stat id="268458425" name="Block and Parry Response Skill Power Cost Removal" key="Trait_Guardian_BlockParryResponse_PowerCostRemoval" type="ARRAY"/>
 <stat id="268458426" name="Kick Critical Damage Buff" key="Trait_Captain_Kick_CritDamageMod" type="ARRAY"/>
-<stat id="268458427" name="Grave Wound Area Bleed" key="Trait_Captain_Lacerate" type="ARRAY"/>
+<stat id="268458427" name="Spread Cutting Attack Bleed" key="Trait_Captain_Lacerate" type="ARRAY"/>
 <stat id="268458428" name="Invincible Trait Effect" key="Trait_Champion_Invincible" type="ARRAY"/>
 <stat id="268458430" name="Block Response Skills Mitigation Buff Application" key="Trait_Guardian_BlockResponse_MitigationBuff_Application" type="ARRAY"/>
 <stat id="268458431" name="Parry Response Damage Increase Dispel" key="Trait_Guardian_ParryResponse_DamageIncrease_Dispel" type="ARRAY"/>
@@ -3798,7 +3798,7 @@
 <stat id="268460138" name="Silver Medal Mutliplier" key="BigBattle_BonusMult_Silver"/>
 <stat id="268460143" name="DNT - Overture of Hope Trait Effect" key="Trait_Runekeeper_Overture_DispelEffect" type="ARRAY"/>
 <stat id="268460144" name="Mending Verse Induction" key="Skill_Runekeeper_MendingVerse_InductionMod"/>
-<stat id="268460145" name="Vivid/Perfect Imagery Cooldown" key="Skill_Runekeeper_PerfectImagery_RecoveryTime"/>
+<stat id="268460145" name="Vivid Imagery Cooldown" key="Skill_Runekeeper_PerfectImagery_RecoveryTime"/>
 <stat id="268460146" name="Frost Skill Inductions" key="Skill_Runekeeper_FrostSkills_InductionMod" isPercentage="true"/>
 <stat id="268460149" name="DNT - Overture of Hope Trait Effect" key="Trait_Runekeeper_FlashingImages_Effect" type="ARRAY"/>
 <stat id="268460150" name="Facepaint" key="ForwardSource_AC_Texture_Facepaint" type="INTEGER"/>
@@ -3962,7 +3962,7 @@
 <stat id="268460592" name="Swift Bow Damage" key="Skill_Hunter_IA_SwiftBow_Damage" isPercentage="true"/>
 <stat id="268460593" name="Beneath Notice Power" key="Skill_Hunter_IA_BeaneathNotice_Power" isPercentage="true"/>
 <stat id="268460594" name="Explosive Arrow Damage" key="Skill_Hunter_IA_ExplosiveArrow_Damage" isPercentage="true"/>
-<stat id="268460595" name="Press Onward Morale/Power Heal" key="Skill_Hunter_IA_PressOnward_HealMod" isPercentage="true"/>
+<stat id="268460595" name="Press Onward Morale Heal" key="Skill_Hunter_IA_PressOnward_HealMod" isPercentage="true"/>
 <stat id="268460596" name="Searing Words Damage" key="Skill_Runekeeper_IA_SearingWords_Damage" isPercentage="true"/>
 <stat id="268460597" name="Rune-stone Healing/Damage" key="Skill_Runekeeper_IA_Runestone_Mod" isPercentage="true"/>
 <stat id="268460598" name="Bombastic Inspiration Heal" key="Skill_Runekeeper_IA_BombasticInspiration_Heal" isPercentage="true"/>
@@ -3979,12 +3979,12 @@
 <stat id="268460610" name="Javelin of Deadly Force Damage" key="Skill_Warden_IA_JavelinofDeadlyForce_Damage" isPercentage="true"/>
 <stat id="268460611" name="Defiant Challenge Damage Return" key="Skill_Warden_IA_DefiantChallenge_DamageReturn" isPercentage="true"/>
 <stat id="268460612" name="Marked Target Double-cast Chance" key="Skill_Warden_IA_MarkedTarget_ReapplyChance" isPercentage="true"/>
-<stat id="268460613" name="Recklessness Critical Rating Buff" key="Skill_Warden_IA_Recklessness_CriticalRating" isPercentage="true"/>
+<stat id="268460613" name="Recklessness Duration" key="Skill_Warden_IA_Recklessness_CriticalRating"/>
 <stat id="268460615" name="Persevere Block Rating" key="Skill_Warden_IA_Persevere_BlockRating"/>
-<stat id="268460616" name="Adroit Manoeuvre Damage" key="Skill_Warden_IA_AdroitManoeuvre_Damage" isPercentage="true"/>
+<stat id="268460616" name="Spear - Fist Gambit Damage" key="Skill_Warden_IA_AdroitManoeuvre_Damage" isPercentage="true"/>
 <stat id="268460617" name="Careful Step Movement Speed" key="Skill_Warden_IA_CarefulStep_MovementSpeed" isPercentage="true"/>
-<stat id="268460618" name="Ambush Critical Chance" key="Skill_Warden_IA_Ambush_CritRating" isPercentage="true"/>
-<stat id="268460619" name="Fist Gambit Skill Damage" key="Skill_Warden_IA_FistGambit_Damage" isPercentage="true"/>
+<stat id="268460618" name="Ambush Runspeed" key="Skill_Warden_IA_Ambush_CritRating" isPercentage="true"/>
+<stat id="268460619" name="Fist Gambit Damage over Time" key="Skill_Warden_IA_FistGambit_Damage" isPercentage="true"/>
 <stat id="268460620" name="Staff-strike Damage" key="Skill_Loremaster_IA_StaffStrike_Damage" isPercentage="true"/>
 <stat id="268460621" name="Ring of Fire Damage" key="Skill_Loremaster_IA_RingofFire_Damage" isPercentage="true"/>
 <stat id="268460622" name="Ancient Craft Debuff" key="Skill_Loremaster_IA_AncientCraft_Debuff" isPercentage="true"/>
@@ -4068,7 +4068,7 @@
 <stat id="268460901" name="Turn the Tables Damage" key="IA_Guardian_TurnTheTables_Damage" isPercentage="true"/>
 <stat id="268460904" name="Armour of the Elements Tactical Mitigation" key="IA_Runekeeper_ArmourElements_Rating"/>
 <stat id="268460909" name="In Defence of Middle-earth Stat Buffs" key="IA_Captain_IDOME_Stats" type="INTEGER"/>
-<stat id="268460910" name="Shield/Song/Blade-brother Crit Defence" key="IA_Captain_Brother_CritD"/>
+<stat id="268460910" name="Noble Mark Defensive Buff Potency" key="IA_Captain_Brother_CritD"/>
 <stat id="268460956" name="Discount at all Far Anórien vendors." key="Discount_Gondor_Far_Anorien" isPercentage="true"/>
 <stat id="268460957" name="Discount at all Far Anórien stable-masters." key="Discount_Travel_Gondor_Far_Anorien" isPercentage="true"/>
 <stat id="268460992" name="Battle Frenzy increase Ranged Defence" key="Skill_Champion_BattleFrenzy_RangedDefense" type="ARRAY"/>
@@ -4086,7 +4086,7 @@
 <stat id="268461021" name="DNT - Fates Entwined Mastery Buff Multiplier" key="Skill_Runekeeper_FatesEntwined_MasteryBuff"/>
 <stat id="268461022" name="Essay of Fire Dispel Chance" key="Skill_Runekeeper_EssayOfFireDispelChance" isPercentage="true"/>
 <stat id="268461023" name="DNT - Shield Mastery additive override effect" key="Trait_Warden_ShieldMastery_PhysicalMastery" type="ARRAY"/>
-<stat id="268461024" name="Marked Target and Diminished Target Durations" key="Skill_Warden_MarkedTarget_Duration"/>
+<stat id="268461024" name="Marked Target Duration" key="Skill_Warden_MarkedTarget_Duration"/>
 <stat id="268461025" name="Seize the Moment Proc Chance" key="Skill_Warden_SeizeTheMoment_ProcChance" isPercentage="true"/>
 <stat id="268461026" name="Diminished Target Duration" key="Skill_Warden_DiminishedTarget_Duration"/>
 <stat id="268461034" name="Discount at all Host of the West vendors through North Ithilien." key="Discount_Mountains_Shadow_Host_West" isPercentage="true"/>
@@ -4142,7 +4142,7 @@
 <stat id="268461466" name="Crit-triggered Damage Buff" key="Skill_Captain_Itemset_LeadtheCharge_DamageBuff" isPercentage="true"/>
 <stat id="268461524" name="Melee Damage" key="Skill_Champion_GoodDefenceStrongOffence" isPercentage="true"/>
 <stat id="268461529" name="Increases Deep Wound and Terrible Wounds' bleed pulses." key="EffectMod_BleedCount_Guardian_DeepWound" type="INTEGER"/>
-<stat id="268461530" name="Assailment Debuff Duration" key="Skill_Warden_Assailment_Debuff_Duration"/>
+<stat id="268461530" name="Battering Strikes, Suppression, and No Respite Duration" key="Skill_Warden_Assailment_Debuff_Duration"/>
 <stat id="268461534" name="Triumphant Spirit Healing" key="Skill_Minstrel_Triumphant_Spirit_Healing" isPercentage="true"/>
 <stat id="268461535" name="Hunter's Cry Runspeed Mod" key="Skill_Trait_HuntersCry_Runspeed_Mod" isPercentage="true"/>
 <stat id="268461538" name="Hunter's Cry Cooldown Mod" key="Skill_Trait_HuntersCry_Cooldown_Mod"/>
@@ -4249,11 +4249,11 @@
 <stat id="268462590" name="Vulnerable Duration" key="Duration_Brawler_Vulnerable"/>
 <stat id="268462591" name="DNT - Divergent Fist" key="Trait_Brawler_Divergent_Fist" type="ARRAY"/>
 <stat id="268462622" name="Magic Damage Effect Mult." key="Combat_DamageQualifier_Magic_Offense_AdditionalMod" isPercentage="true"/>
-<stat id="268462623" name="Difficulty Mod Damage" key="Combat_DamageQualifier_Magic_Offense_DifficultyMod" isPercentage="true"/>
-<stat id="268462624" name="Difficulty Mod Damage" key="Combat_DamageQualifier_Ranged_Offense_DifficultyMod" isPercentage="true"/>
+<stat id="268462623" name="Tactical Damage" key="Combat_DamageQualifier_Magic_Offense_DifficultyMod"/>
+<stat id="268462624" name="Ranged Damage" key="Combat_DamageQualifier_Ranged_Offense_DifficultyMod"/>
 <stat id="268462625" name="Ranged Damage Effect Mult." key="Combat_DamageQualifier_Ranged_Offense_AdditionalMod" isPercentage="true"/>
 <stat id="268462626" name="Melee Damage Effect Mult." key="Combat_DamageQualifier_Melee_Offense_AdditionalMod" isPercentage="true"/>
-<stat id="268462627" name="Difficulty Mod Damage" key="Combat_DamageQualifier_Melee_Offense_DifficultyMod" isPercentage="true"/>
+<stat id="268462627" name="Melee Damage" key="Combat_DamageQualifier_Melee_Offense_DifficultyMod"/>
 <stat id="268462630" name="Pet Difficulty Mod Defense" key="Pet_Ranged_Defense_DifficultyMod" isPercentage="true"/>
 <stat id="268462631" name="Pet Difficulty Mod Damage" key="Pet_Ranged_Offense_DifficultyMod" isPercentage="true"/>
 <stat id="268462633" name="Pet Difficulty Mod Damage" key="Pet_Melee_Offense_DifficultyMod" isPercentage="true"/>
@@ -4337,8 +4337,8 @@
 <stat id="268462810" name="Set-up Buff Duration: Mitigation/Critical" key="Skill_Brawler_SkillTypeC_DurationMod"/>
 <stat id="268462811" name="Helm-crusher Cooldown" key="Skill_Brawler_Stun_CD"/>
 <stat id="268462813" name="Backhand Clout Damage" key="Skill_Brawler_Swipe_Damage" isPercentage="true"/>
-<stat id="268462832" name="Careful Step Cooldown Mod" key="Skill_Warden_CarefulStep_CD"/>
-<stat id="268462833" name="Careful Step Stealth Level" key="Skill_Warden_CarefulStep_StealthLevel" type="INTEGER"/>
+<stat id="268462832" name="Never Surrender Duration" key="Skill_Warden_CarefulStep_CD"/>
+<stat id="268462833" name="Never Surrender Incoming Healing" key="Skill_Warden_CarefulStep_StealthLevel" isPercentage="true"/>
 <stat id="268462834" name="Steadfast Cooldown Mod" key="Skill_Warden_Steadfast_CD"/>
 <stat id="268462835" name="Base bonus multiplier for LI2 core weapon properties (DPS, Tac DPS, Healing, Inc. Healing)" key="Combat_LI2_Item_Stat_Mod" isPercentage="true"/>
 <stat id="268462836" name="Revel in Victory Pulse(s)" key="Skill_Brawler_KillprocMettle" type="INTEGER"/>
@@ -4387,7 +4387,7 @@
 <stat id="268463079" name="DNT - Mettleshield costs 1 pip" key="Itemset_Brawler_MettleShield_1Pip" type="ARRAY"/>
 <stat id="268463082" name="DNT - Flurry of Words now grants nearby allies Frozen Armor" key="Itemset_Runekeeper_FlurryOfWords_FrozenArmor" type="ARRAY"/>
 <stat id="268463086" name="Tactial Mitigation Debuff" key="Runekeeper_Writ_Lightning_TacMitigation" isPercentage="true"/>
-<stat id="268463087" name="Martial Prowess Bleed Chance" key="Skill_Warden_ItemSet_MartialProwess_AppChance" isPercentage="true"/>
+<stat id="268463087" name="Spear Gambit Initial Damage from Recklessness" key="Skill_Warden_ItemSet_MartialProwess_AppChance" isPercentage="true"/>
 <stat id="268463088" name="DNT - BPE events reduce CD of For the Free Peoples" key="ItemSet_Warden_FtFP_bpeCD" type="ARRAY"/>
 <stat id="268463089" name="Vicious Claws Cooldown" key="Skill_Beorning_ViciousClaws_CD"/>
 <stat id="268463090" name="DNT - Beorning Nature's Bond CD reduced on melee hits." key="Itemset_Beorning_NaturesBond_CD" type="ARRAY"/>
@@ -4491,4 +4491,73 @@
 <stat id="268463582" name="DNT - Adds a bonus effect to RW" key="Trait_Burglar_RevealWeaknessEffect_Red" type="ARRAY"/>
 <stat id="268463587" name="DNT - Emboldening Finish Tierup" key="Trait_Minstrel_Finish_Tierup2" type="ARRAY"/>
 <stat id="268463588" name="Initial Skill Damage" key="Skill_Creep_DamageMod" isPercentage="true"/>
+<stat id="268463605" name="Lyndelby Homestead Discount" key="Discount_Housing_Lyndelby" isPercentage="true"/>
+<stat id="268463637" name="Ranged Damage" key="Combat_DamageQualifier_Ranged_Offense_MultiplierMod"/>
+<stat id="268463638" name="Tactical Damage" key="Combat_DamageQualifier_Magic_Offense_MultiplierMod"/>
+<stat id="268463639" name="Melee Damage" key="Combat_DamageQualifier_Melee_Offense_MultiplierMod"/>
+<stat id="268463642" name="The Way of the Fist Buff Potency" key="Warden_WayoftheFist_Mod" isPercentage="true"/>
+<stat id="268463643" name="The Way of the Spear Buff Potency" key="Warden_WayoftheSpear_Mod" isPercentage="true"/>
+<stat id="268463644" name="Initial Skill Damage for 4- and 5-length Gambits" key="Warden_Initial_Skill_Damage_length4and5" isPercentage="true"/>
+<stat id="268463645" name="Damage Reduction from For the Free Peoples" key="FreePeople_Damage_Reduction"/>
+<stat id="268463646" name="Buff Duration for 2-length Gambits" key="Warden_Buff_Duration_length2"/>
+<stat id="268463647" name="Pulses of Rapid Techniques" key="Rapid_Techniques_PulseCount" type="INTEGER"/>
+<stat id="268463648" name="Buff Duration for 3-length Gambits" key="Warden_Buff_Duration_length3"/>
+<stat id="268463649" name="Initial Skill Damage for 2-length Gambits" key="Warden_Initial_Skill_Damage_length2" isPercentage="true"/>
+<stat id="268463650" name="Initial Skill Damage for 3-length Gambits" key="Warden_Initial_Skill_Damage_length3" isPercentage="true"/>
+<stat id="268463651" name="Buff Duration for 4- and 5-length Gambits" key="Warden_Buff_Duration_length4and5"/>
+<stat id="268463652" name="Damage Bonus from Recklessness" key="Recklessness_Damage_Mod" isPercentage="true"/>
+<stat id="268463653" name="Damage over Time for 2-length Gambits" key="Warden_DoT_Damage_length2" isPercentage="true"/>
+<stat id="268463654" name="The Way of the Shield Buff Potency" key="Warden_WayoftheShield_Mod" isPercentage="true"/>
+<stat id="268463655" name="Damage over Time for 3-length Gambits" key="Warden_DoT_Damage_length3" isPercentage="true"/>
+<stat id="268463656" name="Damage over Time for 4- and 5-length Gambits" key="Warden_DoT_Damage_length4and5" isPercentage="true"/>
+<stat id="268463742" name="Healing for 2-length Gambits" key="Warden_Healing_length2" isPercentage="true"/>
+<stat id="268463743" name="Healing for 3-length Gambits" key="Warden_Healing_length3" isPercentage="true"/>
+<stat id="268463744" name="Healing for 4- and 5-length Gambits" key="Warden_Healing_length4and5" isPercentage="true"/>
+<stat id="268463745" name="DNT - Reduces Active cooldowns while Desperate Combat is active" key="Desperate_Combat_Active_CooldownReduction"/>
+<stat id="268463750" name="DNT - Adds value to DoW and Conviction Mits" key="Warden_Determination_Finisher_Mitigations" isPercentage="true"/>
+<stat id="268463751" name="DNT - Adds mod value to Shield Gambit buffs" key="Warden_Determination_Buffs" isPercentage="true"/>
+<stat id="268463752" name="Melee Damage Reduction" key="ReadiedBlade_Damage_Reduction" isPercentage="true"/>
+<stat id="268463753" name="Ranged and Tactical Damage Reduction" key="ShieldUp_Damage_Reduction" isPercentage="true"/>
+<stat id="268463754" name="Warden's Triumph Buff Duration" key="Warden_WardensTriumph_BuffDuration"/>
+<stat id="268463764" name="Gambit Builder Mastery Cooldown Reduction" key="Skill_Warden_Mastery_CooldownMod" type="INTEGER"/>
+<stat id="268463765" name="Adroit Makes Next Ambush Immediate" key="Trait_Warden_Eff_ImmediateAmbush" type="ARRAY"/>
+<stat id="268463766" name="Marked Target" key="Trait_Warden_Eff_Marked" type="ARRAY"/>
+<stat id="268463767" name="Suppression" key="Trait_Warden_Eff_Suppression" type="ARRAY"/>
+<stat id="268463768" name="Battering Strikes" key="Trait_Warden_Eff_Battering" type="ARRAY"/>
+<stat id="268463769" name="Diminished Target" key="Trait_Warden_Eff_Diminished" type="ARRAY"/>
+<stat id="268463776" name="Base bonus multiplier for effects which should be modified by wielding 2H weapons" key="Effect_2H_Bonus_Mod" isPercentage="true"/>
+<stat id="268463777" name="DNT - WoC and Courageous Heart Cooldown" key="Skill_Captain_RecoveryTime_WoC"/>
+<stat id="268463778" name="Battle-readied Threat Mult" key="Skill_Captain_BR_Threat" isPercentage="true"/>
+<stat id="268463779" name="Inspire personal effect" key="Trait_Captain_RedBuff_Inspire_Self" type="ARRAY"/>
+<stat id="268463780" name="Inspiriting Tier Up" key="Trait_Captain_Inspiriting" type="ARRAY"/>
+<stat id="268463781" name="Inspire personal effect" key="Trait_Captain_Yellow_Inspire_Self" type="ARRAY"/>
+<stat id="268463782" name="Inspire personal effect" key="Trait_Captain_Red_Inspire_Self" type="ARRAY"/>
+<stat id="268463783" name="Inspire personal effect" key="Trait_Captain_Blue_Inspire_Self" type="ARRAY"/>
+<stat id="268463784" name="Defensive Strike Cooldown" key="Skill_Captain_DefensiveStrike_CooldownMod"/>
+<stat id="268463785" name="Spread Grave Wound Bleed" key="Trait_Captain_Lacerate2" type="ARRAY"/>
+<stat id="268463786" name="Elendil's Fury" key="Trait_Captain_DefensiveBuff" type="ARRAY"/>
+<stat id="268463787" name="DNT - Valour Heal" key="Trait_Captain_ValourHeal_6" type="ARRAY"/>
+<stat id="268463788" name="DNT - Valour Heal" key="Trait_Captain_ValourHeal_0" type="ARRAY"/>
+<stat id="268463789" name="DNT - Valour Heal" key="Trait_Captain_ValourHeal_1" type="ARRAY"/>
+<stat id="268463790" name="DNT - Valour Heal" key="Trait_Captain_ValourHeal_2" type="ARRAY"/>
+<stat id="268463791" name="DNT - Valour Heal" key="Trait_Captain_ValourHeal_3" type="ARRAY"/>
+<stat id="268463792" name="DNT - Valour Heal" key="Trait_Captain_ValourHeal_4" type="ARRAY"/>
+<stat id="268463793" name="DNT - Valour Heal" key="Trait_Captain_ValourHeal_5" type="ARRAY"/>
+<stat id="268463794" name="Honourable Blow Potency Mod" key="Trait_Captain_HonourableBlow_Mod" isPercentage="true"/>
+<stat id="268463795" name="Adds Threatsteal to Call" key="Trait_Captain_Call_Threatsteal" type="ARRAY"/>
+<stat id="268463796" name="Ranged Damage Buff" key="Trait_Hunter_StrengthOfEarth_DamageBuff" isPercentage="true"/>
+<stat id="268463797" name="Discount at all Stewards of the Iron-home stable-masters." key="Discount_Travel_Angmar_Reborn" isPercentage="true"/>
+<stat id="268463798" name="Discount at all Stewards of the Iron-home vendors." key="Discount_Angmar_Reborn" isPercentage="true"/>
+<stat id="268463811" name="Incoming Melee Damage" key="Combat_DamageQualifier_Ranged_Defense_MultiplierMod"/>
+<stat id="268463812" name="Incoming Ranged Damage" key="Combat_DamageQualifier_Magic_Defense_DifficultyMod"/>
+<stat id="268463813" name="Incoming Melee Damage" key="Combat_DamageQualifier_Ranged_Defense_DifficultyMod"/>
+<stat id="268463814" name="Incoming Tactical Damage" key="Combat_DamageQualifier_Melee_Defense_DifficultyMod"/>
+<stat id="268463816" name="Incoming Ranged Damage" key="Combat_DamageQualifier_Magic_Defense_MultiplierMod"/>
+<stat id="268463817" name="Incoming Tactical Damage" key="Combat_DamageQualifier_Melee_Defense_MultiplierMod"/>
+<stat id="268463818" name="Cleanse Corruption Cooldown" key="Skill_Captain_CleanseCorruption_CooldownMod"/>
+<stat id="268463881" name="DNT - Appchance for Defensive AT Cashout" key="PersonalATSpenderAppchance" isPercentage="true"/>
+<stat id="268463882" name="DNT - Allows Max AT Cashout Fellowship Effect" key="GroupATSpenderAppchance1" isPercentage="true"/>
+<stat id="268463883" name="DNT - Trait gives real appchance for Fellowship Effect" key="GroupATSpenderAppchance2" isPercentage="true"/>
+<stat id="268463886" name="DNT - Gambits contribute towards chains" key="Trait_Warden_GambitChains" isPercentage="true" type="ARRAY"/>
+<stat id="268463887" name="DNT - Chance to Restore Power" key="Runekeeper_Attunement_Fire_PowerRestore_Appchance" isPercentage="true"/>
 </stats>
