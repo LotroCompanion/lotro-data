@@ -9,6 +9,15 @@
 </effect>
 </buff>
 <buff>
+<effect id="1879060192" name="Guardian's Ward" iconId="1090540663" duration="10.0">
+<stat name="PARRY_PERCENTAGE" constant="2.0"/>
+<stat name="BLOCK_PERCENTAGE" constant="2.0"/>
+<stat name="PARTIAL_PARRY_PERCENTAGE" constant="2.5"/>
+<stat name="ITEM_WEAR_CHANCE_ON_HIT" operator="SUBSTRACT" descriptionOverride="-5% Armour Wear from Hits" constant="1.5"/>
+<stat name="PARTIAL_BLOCK_PERCENTAGE" constant="2.5"/>
+</effect>
+</buff>
+<buff>
 <effect id="1879060866" name="Anthem II - War" iconId="1092752392" duration="45.0">
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ranged Damage" constant="3.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Tactical Damage" constant="3.0"/>
