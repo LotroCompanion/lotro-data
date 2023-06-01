@@ -2372,7 +2372,7 @@
 <stat name="INCOMING_HEALING" scaling="1879211892"/>
 </bonus>
 </set>
-<set id="1879145717" name="Protector's Safeguard&#10;(Max Level: 64)" level="55" maxLevel="64" description="">
+<set id="1879145717" name="Protector's Safe-guard&#10;(Max Level: 64)" level="55" maxLevel="64" description="">
 <item id="1879145716" name="Protector's Defence"/>
 <item id="1879145692" name="Protector's Strength"/>
 <bonus nbItems="2">
@@ -5261,7 +5261,7 @@
 <stat name="Skill_VitalCost_MeleeMod" operator="SUBSTRACT" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<specialEffect label="Aim causes your next attack to Devastate."/>
+<specialEffect label="Gain 3% Attack Duration Reduction for every 20 Wrath you have."/>
 </bonus>
 </set>
 <set id="1879227134" name="Armour of the Tasdan&#10;(Max Level: 84)" level="88" maxLevel="84" description="">
@@ -6901,7 +6901,7 @@
 <stat name="Skill_CunningStrike_Burglar_CriticalDamage" constant="25.0"/>
 </bonus>
 <bonus nbItems="4">
-<specialEffect label="Aim causes your next attack to Devastate."/>
+<specialEffect label="Gain 3% Attack Duration Reduction for every 20 Wrath you have."/>
 </bonus>
 </set>
 <set id="1879247622" name="Hytbold Berserker's Armour&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
@@ -14231,35 +14231,6 @@
 <stat name="MIGHT" scaling="1879211532"/>
 </bonus>
 </set>
-<set id="1879320593" name="Lesser Claw of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
-<item id="1879320588" name="Lesser Claw of the West Boots"/>
-<item id="1879320592" name="Lesser Claw of the West Leggings"/>
-<item id="1879320586" name="Lesser Claw of the West Gauntlets"/>
-<item id="1879320589" name="Lesser Claw of the West Breastplate"/>
-<item id="1879320591" name="Lesser Claw of the West Shoulder Guards"/>
-<item id="1879320587" name="Lesser Claw of the West Helmet"/>
-<bonus nbItems="2">
-<stat name="MIGHT" scaling="1879211547"/>
-</bonus>
-<bonus nbItems="4">
-<stat name="VITALITY" scaling="1879211544"/>
-</bonus>
-</set>
-<set id="1879320594" name="Claw of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
-<item id="1879320568" name="Boots of Dragon's Bane"/>
-<item id="1879320570" name="Leggings of Dragon's Bane"/>
-<item id="1879320571" name="Gauntlets of Dragon's Bane"/>
-<item id="1879320572" name="Breastplate of Dragon's Bane"/>
-<item id="1879320569" name="Shoulder Guard of Dragon's Bane"/>
-<item id="1879320573" name="Helmet of Dragon's Bane"/>
-<bonus nbItems="2">
-<stat name="MIGHT" scaling="1879211547"/>
-</bonus>
-<bonus nbItems="4">
-<stat name="MIGHT" scaling="1879211547"/>
-<stat name="VITALITY" scaling="1879211544"/>
-</bonus>
-</set>
 <set id="1879320598" name="Armour of the Feral Protector&#10;(Max Level: 74)" level="63" maxLevel="74" description="">
 <item id="1879320597" name="Gauntlets of the Feral Protector"/>
 <item id="1879320600" name="Boots of the Feral Protector"/>
@@ -14531,7 +14502,7 @@
 <stat name="Skill_DamageMultiplier_Offhand_Trait_Ambidextrous" descriptionOverride="+${PERCENTVALUE} Off-hand Damage" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<specialEffect label="Aim causes your next attack to Devastate."/>
+<specialEffect label="Gain 3% Attack Duration Reduction for every 20 Wrath you have."/>
 </bonus>
 </set>
 <set id="1879324436" name="Osgiliath Armour of the Keen Blade&#10;(Max Level: 114)" level="198" maxLevel="114" description="">
@@ -21121,7 +21092,7 @@
 <item id="1879431026" name="Fourth Brawler's Ring of Helm Hammerhand"/>
 <item id="1879431160" name="Fourth Exquisite Brawler's Ring of Helm Hammerhand"/>
 <bonus nbItems="3">
-<stat name="TACTICAL_MITIGATION" scaling="1879368464"/>
+<stat name="TACTICAL_MASTERY" scaling="1879223958"/>
 </bonus>
 </set>
 <set id="1879431087" name="Greater Armour of the Erebor Custodian&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
@@ -21522,7 +21493,7 @@
 <stat name="Skill_Brawler_Opening_Chance" descriptionOverride="Set-up skills have a ${PERCENTVALUE} chance to generate 1 bonus Mettle." constant="25.0"/>
 </bonus>
 </set>
-<set id="1879438711" name="Battle-gauntlet of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
+<set id="1879438711" name="Fist of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
 <item id="1879438717" name="Brawler's Boots of Dúnhathel"/>
 <item id="1879438713" name="Brawler's Leggings of Dúnhathel"/>
 <item id="1879438710" name="Brawler's Gauntlets of Dúnhathel"/>
@@ -21533,7 +21504,7 @@
 <stat name="MIGHT" scaling="1879211547"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Brawler_Itemset_EfficientStrikesCDR" operator="SUBSTRACT" descriptionOverride="Efficient Strikes cooldown reduced by ${VALUE}s." constant="60.0"/>
+<stat name="Skill_Brawler_Opening_Chance" descriptionOverride="Set-up skills have a ${PERCENTVALUE} chance to generate 1 bonus Mettle." constant="25.0"/>
 </bonus>
 </set>
 <set id="1879438714" name="Armour of the Brazen&#10;(Max Level: 74)" level="63" maxLevel="74" description="">
@@ -22746,7 +22717,7 @@
 </bonus>
 <bonus nbItems="4"/>
 </set>
-<set id="1879460570" name="Earrings of the Fated Pair&#10;(Max Level: 144)" level="475" maxLevel="144" description="">
+<set id="1879460570" name="Willful Earrings of the Fated Pair&#10;(Max Level: 144)" level="475" maxLevel="144" description="">
 <item id="1879459906" name="Pristine Glowing Earring of the Poison Gardens"/>
 <item id="1879459922" name="Pristine Crackling Earring of the Poison Gardens"/>
 <item id="1879459877" name="Pristine Humming Earring of the Poison Gardens"/>
@@ -22792,7 +22763,7 @@
 </bonus>
 <bonus nbItems="4"/>
 </set>
-<set id="1879460574" name="Earrings of the Fated Pair&#10;(Max Level: 144)" level="475" maxLevel="144" description="">
+<set id="1879460574" name="Agile Earrings of the Fated Pair&#10;(Max Level: 144)" level="475" maxLevel="144" description="">
 <item id="1879459896" name="Pristine Reinforced Earring of the Poison Gardens"/>
 <item id="1879459933" name="Pristine Fiery Earring of the Poison Gardens"/>
 <item id="1879459885" name="Pristine Emanating Earring of the Poison Gardens"/>
@@ -22805,7 +22776,7 @@
 </bonus>
 <bonus nbItems="4"/>
 </set>
-<set id="1879460575" name="Earrings of the Fated Pair&#10;(Max Level: 144)" level="475" maxLevel="144" description="">
+<set id="1879460575" name="Mighty Earrings of the Fated Pair&#10;(Max Level: 144)" level="475" maxLevel="144" description="">
 <item id="1879459910" name="Pristine Sturdy Earring of the Poison Gardens"/>
 <item id="1879459886" name="Pristine Riveted Earring of the Poison Gardens"/>
 <item id="1879459898" name="Pristine Etched Earring of the Poison Gardens"/>
@@ -22817,5 +22788,185 @@
 <stat name="ICPR" scaling="1879212034"/>
 </bonus>
 <bonus nbItems="4"/>
+</set>
+<set id="1879465186" name="Fist of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
+<item id="1879465189" name="Fist of the West Boots"/>
+<item id="1879465187" name="Fist of the West Leggings"/>
+<item id="1879465190" name="Fist of the West Gauntlets"/>
+<item id="1879465192" name="Fist of the West Breastplate"/>
+<item id="1879465183" name="Fist of the West Shoulder Guards"/>
+<item id="1879465182" name="Fist of the West Helmet"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211547"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Brawler_Opening_Chance" descriptionOverride="Set-up skills have a ${PERCENTVALUE} chance to generate 1 bonus Mettle." constant="25.0"/>
+</bonus>
+</set>
+<set id="1879465188" name="Claw of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
+<item id="1879465194" name="Claw of the West Boots"/>
+<item id="1879465184" name="Claw of the West Leggings"/>
+<item id="1879465193" name="Claw of the West Gauntlets"/>
+<item id="1879465195" name="Claw of the West Breastplate"/>
+<item id="1879465191" name="Claw of the West Shoulder Guards"/>
+<item id="1879465185" name="Claw of the West Helmet"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211547"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath1" descriptionOverride="-" constant="-3.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath2" descriptionOverride="-" constant="-6.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath3" descriptionOverride="-" constant="-9.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath4" descriptionOverride="-" constant="-12.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath5" descriptionOverride="-" constant="-15.000001"/>
+<specialEffect label="Gain 3% Attack Duration Reduction for every 20 Wrath you have."/>
+</bonus>
+</set>
+<set id="1879465238" name="Claw of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
+<item id="1879320568" name="Boots of Dragon's Bane"/>
+<item id="1879320570" name="Leggings of Dragon's Bane"/>
+<item id="1879320571" name="Gauntlets of Dragon's Bane"/>
+<item id="1879320572" name="Breastplate of Dragon's Bane"/>
+<item id="1879320569" name="Shoulder Guard of Dragon's Bane"/>
+<item id="1879320573" name="Helmet of Dragon's Bane"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211547"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath1" descriptionOverride="-" constant="-3.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath2" descriptionOverride="-" constant="-6.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath3" descriptionOverride="-" constant="-9.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath4" descriptionOverride="-" constant="-12.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath5" descriptionOverride="-" constant="-15.000001"/>
+<specialEffect label="Gain 3% Attack Duration Reduction for every 20 Wrath you have."/>
+</bonus>
+</set>
+<set id="1879465242" name="Lesser Fist of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
+<item id="1879465207" name="Lesser Boots of Dúndirith"/>
+<item id="1879465203" name="Lesser Leggings of Dúndirith"/>
+<item id="1879465199" name="Lesser Gauntlets of Dúndirith"/>
+<item id="1879465201" name="Lesser Breastplate of Dúndirith"/>
+<item id="1879465206" name="Lesser Shoulder Guards of Dúndirith"/>
+<item id="1879465209" name="Lesser Helmet of Dúndirith"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211547"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Brawler_Opening_Chance" descriptionOverride="Set-up skills have a ${PERCENTVALUE} chance to generate 1 bonus Mettle." constant="25.0"/>
+</bonus>
+</set>
+<set id="1879465243" name="Lesser Claw of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
+<item id="1879465211" name="Lesser Boots of Dúngon"/>
+<item id="1879465196" name="Lesser Leggings of Dúngon"/>
+<item id="1879465208" name="Lesser Gauntlets of Dúngon"/>
+<item id="1879465197" name="Lesser Breastplate of Dúngon"/>
+<item id="1879465210" name="Lesser Shoulder Guards of Dúngon"/>
+<item id="1879465202" name="Lesser Helmet of Dúngon"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211547"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath1" descriptionOverride="-" constant="-3.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath2" descriptionOverride="-" constant="-6.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath3" descriptionOverride="-" constant="-9.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath4" descriptionOverride="-" constant="-12.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath5" descriptionOverride="-" constant="-15.000001"/>
+<specialEffect label="Gain 3% Attack Duration Reduction for every 20 Wrath you have."/>
+</bonus>
+</set>
+<set id="1879465244" name="Lesser Claw of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
+<item id="1879320588" name="Lesser Claw of the West Boots"/>
+<item id="1879320592" name="Lesser Claw of the West Leggings"/>
+<item id="1879320586" name="Lesser Claw of the West Gauntlets"/>
+<item id="1879320589" name="Lesser Claw of the West Breastplate"/>
+<item id="1879320591" name="Lesser Claw of the West Shoulder Guards"/>
+<item id="1879320587" name="Lesser Claw of the West Helmet"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211547"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath1" descriptionOverride="-" constant="-3.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath2" descriptionOverride="-" constant="-6.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath3" descriptionOverride="-" constant="-9.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath4" descriptionOverride="-" constant="-12.0"/>
+<stat name="Skill_Beorning_ItemSet_AttackSpeed_Wrath5" descriptionOverride="-" constant="-15.000001"/>
+<specialEffect label="Gain 3% Attack Duration Reduction for every 20 Wrath you have."/>
+</bonus>
+</set>
+<set id="1879465259" name="Eighth Beorning's Jewellery of The Hornburg&#10;(Max Level: 105)" level="176" maxLevel="105" description="">
+<item id="1879464832" name="Eighth Beorning's Token of The Hornburg"/>
+<item id="1879465299" name="Eighth Exquisite Beorning's Token of The Hornburg"/>
+<item id="1879465035" name="Eighth Beorning's Bracelet of The Hornburg"/>
+<item id="1879465321" name="Eighth Exquisite Beorning's Bracelet of The Hornburg"/>
+<item id="1879465005" name="Eighth Beorning's Ring of The Hornburg"/>
+<item id="1879465348" name="Eighth Exquisite Beorning's Ring of The Hornburg"/>
+<bonus nbItems="3"/>
+</set>
+<set id="1879465280" name="Sixth Brawler's Jewellery of The Hornburg&#10;(Max Level: 105)" level="176" maxLevel="105" description="">
+<item id="1879465180" name="Sixth Brawler's Token of The Hornburg"/>
+<item id="1879465335" name="Sixth Exquisite Brawler's Token of The Hornburg"/>
+<item id="1879465016" name="Sixth Brawler's Bracelet of The Hornburg"/>
+<item id="1879465343" name="Sixth Exquisite Brawler's Bracelet of The Hornburg"/>
+<item id="1879464987" name="Sixth Brawler's Ring of The Hornburg"/>
+<item id="1879465360" name="Sixth Exquisite Brawler's Ring of The Hornburg"/>
+<bonus nbItems="3">
+<stat name="Skill_Brawler_Itemset_EfficientStrikesCDR" operator="SUBSTRACT" constant="30.0"/>
+</bonus>
+</set>
+<set id="1879465286" name="Fifth Beorning's Jewellery of The Hornburg&#10;(Max Level: 105)" level="176" maxLevel="105" description="">
+<item id="1879464820" name="Fifth Beorning's Necklace of The Hornburg"/>
+<item id="1879465279" name="Fifth Exquisite Beorning's Necklace of The Hornburg"/>
+<item id="1879465104" name="Fifth Beorning's Earring of The Hornburg"/>
+<item id="1879465269" name="Fifth Exquisite Beorning's Earring of The Hornburg"/>
+<bonus nbItems="2">
+<stat name="Skill_Beorning_BearForm_DamageMod" constant="3.0"/>
+</bonus>
+</set>
+<set id="1879465317" name="Eighth Brawler's Jewellery of The Hornburg&#10;(Max Level: 105)" level="176" maxLevel="105" description="">
+<item id="1879465105" name="Eighth Brawler's Token of The Hornburg"/>
+<item id="1879465318" name="Eighth Exquisite Brawler's Token of The Hornburg"/>
+<item id="1879465158" name="Eighth Brawler's Bracelet of The Hornburg"/>
+<item id="1879465379" name="Eighth Exquisite Brawler's Bracelet of The Hornburg"/>
+<item id="1879464855" name="Eighth Brawler's Ring of The Hornburg"/>
+<item id="1879465378" name="Eighth Exquisite Brawler's Ring of The Hornburg"/>
+<bonus nbItems="3">
+<stat name="TACTICAL_MASTERY" scaling="1879223958"/>
+</bonus>
+</set>
+<set id="1879465327" name="Fifth Brawler's Jewellery of The Hornburg&#10;(Max Level: 105)" level="176" maxLevel="105" description="">
+<item id="1879464896" name="Fifth Brawler's Necklace of The Hornburg"/>
+<item id="1879465288" name="Fifth Exquisite Brawler's Necklace of The Hornburg"/>
+<item id="1879464861" name="Fifth Brawler's Earring of The Hornburg"/>
+<item id="1879465267" name="Fifth Exquisite Brawler's Earring of The Hornburg"/>
+<bonus nbItems="2">
+<stat name="Skill_Brawler_Devastate_Damage" constant="10.0"/>
+</bonus>
+</set>
+<set id="1879465332" name="Sixth Beorning's Jewellery of The Hornburg&#10;(Max Level: 105)" level="176" maxLevel="105" description="">
+<item id="1879465116" name="Sixth Beorning's Token of The Hornburg"/>
+<item id="1879465373" name="Sixth Exquisite Beorning's Token of The Hornburg"/>
+<item id="1879464886" name="Sixth Beorning's Bracelet of The Hornburg"/>
+<item id="1879465361" name="Sixth Exquisite Beorning's Bracelet of The Hornburg"/>
+<item id="1879464998" name="Sixth Beorning's Ring of The Hornburg"/>
+<item id="1879465290" name="Sixth Exquisite Beorning's Ring of The Hornburg"/>
+<bonus nbItems="3"/>
+</set>
+<set id="1879465353" name="Seventh Beorning's Jewellery of The Hornburg&#10;(Max Level: 105)" level="176" maxLevel="105" description="">
+<item id="1879464895" name="Seventh Beorning's Necklace of The Hornburg"/>
+<item id="1879465261" name="Seventh Exquisite Beorning's Necklace of The Hornburg"/>
+<item id="1879464930" name="Seventh Beorning's Earring of The Hornburg"/>
+<item id="1879465253" name="Seventh Exquisite Beorning's Earring of The Hornburg"/>
+<bonus nbItems="2">
+<stat name="Skill_Beorning_DefensiveBlow_CooldownMod" operator="SUBSTRACT" constant="1.0"/>
+</bonus>
+</set>
+<set id="1879465364" name="Seventh Brawler's Jewellery of The Hornburg&#10;(Max Level: 105)" level="176" maxLevel="105" description="">
+<item id="1879464878" name="Seventh Brawler's Necklace of The Hornburg"/>
+<item id="1879465295" name="Seventh Exquisite Brawler's Necklace of The Hornburg"/>
+<item id="1879465053" name="Seventh Brawler's Earring of The Hornburg"/>
+<item id="1879465311" name="Seventh Exquisite Brawler's Earring of The Hornburg"/>
+<bonus nbItems="2">
+<stat name="Skill_Brawler_MettleShield_Magnitude" descriptionOverride="+${VALUE}s Force Taunt Duration" constant="10.0"/>
+</bonus>
 </set>
 </sets>
