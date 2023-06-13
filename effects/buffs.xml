@@ -13,26 +13,26 @@
 <stat name="PARRY_PERCENTAGE" constant="2.0"/>
 <stat name="BLOCK_PERCENTAGE" constant="2.0"/>
 <stat name="PARTIAL_PARRY_PERCENTAGE" constant="2.5"/>
-<stat name="ITEM_WEAR_CHANCE_ON_HIT" operator="SUBSTRACT" descriptionOverride="-5% Armour Wear from Hits" constant="1.5"/>
+<stat name="ITEM_WEAR_CHANCE_ON_HIT" operator="SUBSTRACT" descriptionOverride="key:620765232:106251892" constant="1.5"/>
 <stat name="PARTIAL_BLOCK_PERCENTAGE" constant="2.5"/>
 </effect>
 </buff>
 <buff>
 <effect id="1879060866" name="Anthem II - War" iconId="1092752392" duration="45.0">
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ranged Damage" constant="3.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Tactical Damage" constant="3.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="key:620765876:106251889" constant="3.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="key:620765876:106251890" constant="3.0"/>
 </effect>
 </buff>
 <buff key="MOTIVATED">
 <effect id="1879073072" name="Motivated" iconId="1090553780" duration="1200.0">
-<stat name="MORALE" operator="MULTIPLY" descriptionOverride="+${PERCENTVALUE} ${PROPERTY}" constant="1.1"/>
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620774926:106251889" constant="1.1"/>
 </effect>
 </buff>
 <buff>
 <effect id="1879073120" name="Anthem III - Prowess" iconId="1092752393" duration="45.0">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Melee Damage" constant="3.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620774973:106251889" constant="3.0"/>
 <stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
-<stat name="OCFW_MITIGATION_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Orc-craft and Fell-wrought Mitigation" constant="5.0"/>
+<stat name="OCFW_MITIGATION_PERCENTAGE" descriptionOverride="key:620774973:106251892" constant="5.0"/>
 <stat name="Combat_MitigationPercentage_FellWrought" descriptionOverride="-" constant="5.0"/>
 </effect>
 </buff>
@@ -40,7 +40,7 @@
 <effect id="1879073122" name="Anthem III - Composure" iconId="1092752391" duration="45.0">
 <stat name="RESISTANCE" scaling="1879381719"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879399704"/>
-<stat name="SHADOW_MITIGATION_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Shadow, Acid, and Fire Mitigation" constant="3.0"/>
+<stat name="SHADOW_MITIGATION_PERCENTAGE" descriptionOverride="key:620774975:106251891" constant="3.0"/>
 <stat name="ACID_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
 <stat name="FIRE_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
 </effect>
@@ -57,13 +57,13 @@
 </buff>
 <buff>
 <effect id="1879084065" name="Duty Bound" iconId="1090553996" duration="600.0">
-<stat name="MORALE" operator="MULTIPLY" descriptionOverride="+${PERCENTVALUE} ${PROPERTY}" constant="1.05"/>
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620784436:106251889" constant="1.05"/>
 </effect>
 </buff>
 <buff>
 <effect id="1879095617" name="Dissonance" iconId="1091400695">
 <stat name="Skill_Minstrel_DamageMultiplier_WarspeechCalls" constant="15.000001"/>
-<stat name="BALLAD_AND_CODA_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Ballad Damage &#10;&#10;&lt;rgb=#FF7700&gt; All Heals become Self-only&lt;/rgb&gt;" constant="25.0"/>
+<stat name="BALLAD_AND_CODA_DAMAGE_PERCENTAGE" descriptionOverride="key:620795454:106251893" constant="25.0"/>
 </effect>
 </buff>
 <buff>
@@ -73,25 +73,25 @@
 </buff>
 <buff>
 <effect id="1879145414" name="A Quiet Calm" iconId="1091603160">
-<stat name="XP_AwardMultiplier" descriptionOverride="+${PERCENTVALUE} Experience Gain" constant="3.0"/>
+<stat name="XP_AwardMultiplier" descriptionOverride="key:620832974:106251889" constant="3.0"/>
 </effect>
 </buff>
 <buff>
 <effect id="1879145605" name="Enhanced Abilities" iconId="1090541176">
-<stat name="ITEM_WEAR_CHANCE_ON_HIT" operator="SUBSTRACT" descriptionOverride="-${PERCENTVALUE} chance of item wear" constant="10.0"/>
+<stat name="ITEM_WEAR_CHANCE_ON_HIT" operator="SUBSTRACT" descriptionOverride="key:620832976:106251889" constant="10.0"/>
 <stat name="MORALE" constant="100.0"/>
 <stat name="Movement_OutOfCombat_Speed_AddMod" constant="5.0"/>
 </effect>
 </buff>
 <buff>
 <effect id="1879205019" name="Anthem I - Resonance" iconId="1092752390" duration="45.0">
-<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="+5% Outgoing Healing&#10; -5% to all Skill Inductions{{keepspaces}}" constant="5.0"/>
+<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="key:620877130:106251889" constant="5.0"/>
 <stat name="ALL_SKILL_INDUCTION" descriptionOverride="-" constant="-5.0"/>
 </effect>
 </buff>
 <buff>
 <effect id="1879205020" name="Anthem II - Dissonance" iconId="1092752394" duration="45.0">
-<stat name="Combat_SkillDamageMultiplier_Light" descriptionOverride="+5% Light, Fire, Frost, and Lightning Damage" constant="5.0"/>
+<stat name="Combat_SkillDamageMultiplier_Light" descriptionOverride="key:620877129:106251889" constant="5.0"/>
 <stat name="Combat_SkillDamageMultiplier_Fire" constant="5.0"/>
 <stat name="Combat_SkillDamageMultiplier_Lightning" descriptionOverride="-" constant="5.0"/>
 <stat name="Combat_SkillDamageMultiplier_Frost" descriptionOverride="-" constant="5.0"/>
@@ -110,14 +110,14 @@
 <buff>
 <effect id="1879217358" name="Anthem of the Third Age - Melody" iconId="1091660967" duration="45.0">
 <stat name="INCOMING_HEALING_PERCENTAGE" constant="5.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="+${PERCENTVALUE} Damage" constant="5.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="key:620885693:106251890" constant="5.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 </effect>
 </buff>
 <buff>
 <effect id="1879239303" name="A Quiet Calm" iconId="1091603160">
-<stat name="Glory_AwardMultiplier" descriptionOverride="+${PERCENTVALUE} Glory Gain&#10;+${PERCENTVALUE} Commendation Gain" constant="3.0"/>
+<stat name="Glory_AwardMultiplier" descriptionOverride="key:620900255:106251889" constant="3.0"/>
 <stat name="PVPPoints_AwardMultiplier" constant="3.0"/>
 </effect>
 </buff>
