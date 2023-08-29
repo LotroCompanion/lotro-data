@@ -1300,7 +1300,7 @@
 <stat id="268446115" name="Herald Strike Healing Boon" key="Skill_PropertyMod_Minstrel_HeraldStrikeHealingBoon" isPercentage="true"/>
 <stat id="268446154" name="All Skill Inductions" key="Skill_InductionDuration_MonsterandPlayerSkillsMod" isPercentage="true"/>
 <stat id="268446160" name="Melee Critical Multiplier" key="Combat_EffectMeleeCriticalMultiplierMod" isPercentage="true"/>
-<stat id="268446163" name="Discount at most Lothlorien shops" key="Discount_Lothlorien" isPercentage="true"/>
+<stat id="268446163" name="Discount at most Lothlórien shops" key="Discount_Lothlorien" isPercentage="true"/>
 <stat id="268446230" name="Blinding Flash Duration" key="Skill_Duration_LoreMaster_BlindingFlash"/>
 <stat id="268446231" name="Noble Cause Healing" key="Skill_Minstrel_NobleCause_IncreasedHealing" isPercentage="true"/>
 <stat id="268446233" name="Sudden Defence Cooldown" key="Skill_Champion_SuddenDefense_RecoveryTime"/>
@@ -1446,7 +1446,7 @@
 <stat id="268446954" name="Healing over Time" key="Skirmish_Ultimate_AOEHoT_Heal"/>
 <stat id="268446955" name="Healing" key="Skirmish_Skill_SelfHeal_Heal"/>
 <stat id="268446956" name="Healing" key="Skirmish_Skill_HoT_Heal"/>
-<stat id="268446959" name="Self-revive disabler" key="Death_SelfReviveBlocked" type="BOOLEAN"/>
+<stat id="268446959" name="Self-revive Disabler" key="Death_SelfReviveBlocked" type="BOOLEAN"/>
 <stat id="268446993" name="Skirmish Only Combo" key="ForwardSource_Skirmish_RoleCombo" type="ENUM"/>
 <stat id="268447031" name="Damage over Time" key="Skirmish_Ultimate_RangedBigBleed_DoT"/>
 <stat id="268447032" name="Damage" key="Skirmish_Skill_TauntStrike_Damage"/>
@@ -3444,7 +3444,7 @@
 <stat id="268458798" name="Challenge and Engage will apply a morale bubble" key="Trait_Guardian_Stoic_MoraleBubble" type="ARRAY"/>
 <stat id="268458801" name="Tactical Mitigation" key="Skill_Guardian_GuardiansWard_TacticalMitigation"/>
 <stat id="268458802" name="Shield-smash Targets" key="Skill_Guardian_ShieldSmash_Targets" type="INTEGER"/>
-<stat id="268458804" name="Chance for your shield skills to reduce your enemy's Block, Parry, and Evade chances by 5%" key="Trait_Guardian_Disorientation_MissChance" isPercentage="true"/>
+<stat id="268458804" name="Chance for your Shield skills to reduce your target's critical defence rating." key="Trait_Guardian_Disorientation_MissChance"/>
 <stat id="268458805" name="Critical Damage from Attunement" key="Runekeeper_Attunement_CritDamage_BaseMod" isPercentage="true"/>
 <stat id="268458806" name="Lightning Damage from Attunement" key="Runekeeper_Attunement_LightningDamage_BaseMod" isPercentage="true"/>
 <stat id="268458807" name="Fire Damage from Attunement" key="Runekeeper_Attunement_FireDamage_BaseMod" isPercentage="true"/>
@@ -3875,7 +3875,7 @@
 <stat id="268460389" name="Pip Cost" key="Skill_Beorning_PipCost_Fifteen" type="INTEGER"/>
 <stat id="268460390" name="Pip Cost" key="Skill_Beorning_PipMinMod_Ten" type="INTEGER"/>
 <stat id="268460391" name="Pip Generation" key="Skill_Beorning_PipGen_Five" type="INTEGER"/>
-<stat id="268460392" name="Cleanse Cooldown" key="Trait_Beorning_PDFW_CooldownMod" type="ARRAY"/>
+<stat id="268460392" name="Cleanse Cooldown" key="Trait_Beorning_PDFW_CooldownMod"/>
 <stat id="268460393" name="Healing Skill Crit Chance" key="Skill_CritChanceMod_HealingSkills" isPercentage="true"/>
 <stat id="268460394" name="DNT - Honey Cleanse Critical Chance" key="Trait_Beorning_HoneyCleanse_CritChance" type="ARRAY"/>
 <stat id="268460395" name="Bee Swarm Damage" key="Skill_Beorning_GreaterSwarm_DamageMod" isPercentage="true"/>
@@ -3933,7 +3933,7 @@
 <stat id="268460545" name="Rush Evasion Bonus" key="Skill_Beorning_IA_Rush_EvadeRating" isPercentage="true"/>
 <stat id="268460546" name="Cry Damage" key="Skill_Beorning_IA_Cry_Damage" isPercentage="true"/>
 <stat id="268460547" name="Bear Form Critical Defence" key="Skill_Beorning_IA_BearForm_Critical_Defence"/>
-<stat id="268460548" name="Bee Swarm Critical Defence Debuff" key="Skill_Beorning_IA_BearForm_Critical_Defence_Debuff" isPercentage="true"/>
+<stat id="268460548" name="Trample Critical Defence Debuff" key="Skill_Beorning_IA_BearForm_Critical_Defence_Debuff" isPercentage="true"/>
 <stat id="268460557" name="Unbreakable Damage" key="Skill_Champion_IA_Unbreakable_Damage" isPercentage="true"/>
 <stat id="268460560" name="DNT Inc Healing Proc Chance" key="Skill_Champion_IA_Inc_Healing_ProcChance" isPercentage="true"/>
 <stat id="268460562" name="Horn of Gondor Mitigation Debuff" key="Skill_Champion_IA_Horn_Gondor_PhyiscalMit_DebuffMod" isPercentage="true"/>
@@ -4016,7 +4016,7 @@
 <stat id="268460648" name="Sneak Move Speed" key="Skill_Burglar_IA_Sneak_MoveSpeed" isPercentage="true"/>
 <stat id="268460649" name="Coup de Grâce Crit Chance" key="Skill_Burglar_IA_CoupdeGras_CritRating" isPercentage="true"/>
 <stat id="268460650" name="Shield-swipe Critical Rating" key="Skill_Guardian_IA_ShieldSwipe_CriticalRating"/>
-<stat id="268460651" name="Adaptability Block and Parry Chance" key="Skill_Guardian_IA_Adaptability_BlockParryRating" isPercentage="true"/>
+<stat id="268460651" name="Adaptability Block and Parry Application Chance" key="Skill_Guardian_IA_Adaptability_BlockParryRating" isPercentage="true"/>
 <stat id="268460652" name="Reactive Parry Damage" key="Skill_Guardian_IA_ReactiveParry_Damage" isPercentage="true"/>
 <stat id="268460653" name="Stamp Damage" key="Skill_Guardian_IA_Stamp_Damage" isPercentage="true"/>
 <stat id="268460654" name="Shield Blow Damage" key="Skill_Guardian_IA_ShieldBlow_Damage" isPercentage="true"/>
@@ -4241,7 +4241,7 @@
 <stat id="268462434" name="Discount at all vendors within Azanulbizar." key="Discount_Azanulbizar" isPercentage="true"/>
 <stat id="268462454" name="DNT - Builder Chain Heals" key="Trait_Brawler_Builder_Chain_Heal" type="ARRAY"/>
 <stat id="268462461" name="DNT - Singular Strike Charges" key="Trait_Brawler_SingularStrike_Charges" type="ARRAY"/>
-<stat id="268462464" name="Deocration Summoned Supplier Discount" key="Discount_Housing_Summoned_Supplier" isPercentage="true"/>
+<stat id="268462464" name="Decoration Summoned Supplier Discount" key="Discount_Housing_Summoned_Supplier" isPercentage="true"/>
 <stat id="268462465" name="Rohan Homestead Discount" key="Discount_Housing_Rohan" isPercentage="true"/>
 <stat id="268462513" name="Discount at all stable-masters within Gundabad." key="Discount_Travel_Gundabad" isPercentage="true"/>
 <stat id="268462514" name="Discount at all vendors within Gundabad." key="Discount_Gundabad" isPercentage="true"/>
@@ -4510,6 +4510,8 @@
 <stat id="268463654" name="The Way of the Shield Buff Potency" key="Warden_WayoftheShield_Mod" isPercentage="true"/>
 <stat id="268463655" name="Damage over Time for 3-length Gambits" key="Warden_DoT_Damage_length3" isPercentage="true"/>
 <stat id="268463656" name="Damage over Time for 4- and 5-length Gambits" key="Warden_DoT_Damage_length4and5" isPercentage="true"/>
+<stat id="268463662" name="Class Mitigation Ceiling" key="Combat_TacticalArmorDefense_ClassBased_CalcType" type="ENUM"/>
+<stat id="268463737" name="Current Corsair Skill Combo" key="ForwardSource_Combat_Corsair_SkillCombo" type="BITFIELD"/>
 <stat id="268463742" name="Healing for 2-length Gambits" key="Warden_Healing_length2" isPercentage="true"/>
 <stat id="268463743" name="Healing for 3-length Gambits" key="Warden_Healing_length3" isPercentage="true"/>
 <stat id="268463744" name="Healing for 4- and 5-length Gambits" key="Warden_Healing_length4and5" isPercentage="true"/>
@@ -4564,4 +4566,137 @@
 <stat id="268463893" name="Discount at all Renewal of Gondor stable-masters." key="Discount_Travel_KingsGondorEast" isPercentage="true"/>
 <stat id="268463942" name="Footfalls" key="ForwardSource_MP_Cosmetic_Footfall" type="INTEGER"/>
 <stat id="268463952" name="Token of Heroism Drop Chance Multiplier" key="LandscapeDifficulty_CurrencyChance_MultMod" isPercentage="true"/>
+<stat id="268463998" name="Discount at all TBD stable-masters." key="Discount_Travel_Umbar" isPercentage="true"/>
+<stat id="268463999" name="Discount at all TBD vendors." key="Discount_Umbar" isPercentage="true"/>
+<stat id="268464016" name="DNT - Thrill of Battle" key="Trait_Guardian_ThrillofBattle" type="ARRAY"/>
+<stat id="268464017" name="Shield-taunt Max Targets" key="Trait_Guardian_ShieldLight_MaxTargets" type="INTEGER"/>
+<stat id="268464018" name="Incoming damage reduction to Protection by the Shield" key="Trait_Guardian_ShieldLight_Boost" isPercentage="true"/>
+<stat id="268464023" name="DNT - Thrill of Battle Dispel" key="Trait_Guardian_ThrillofBattle_Dispel" type="ARRAY"/>
+<stat id="268464024" name="DNT - Rupture" key="Trait_Guardian_Rupture" type="ARRAY"/>
+<stat id="268464025" name="Protected by the Light Damage Shield" key="Trait_Guardian_ProtectedLight_DamShield" type="ARRAY"/>
+<stat id="268464026" name="Protected by the Light Incoming Healing Boost" key="Trait_Guardian_Protected_Light" isPercentage="true"/>
+<stat id="268464031" name="Hide-stretcher" key="ForwardSource_Cosmetic_Hide_Stretcher" type="INTEGER"/>
+<stat id="268464032" name="Harvesting Axe" key="ForwardSource_Cosmetic_Forester_Axe" type="INTEGER"/>
+<stat id="268464034" name="Swordplay Skills Damage" key="Corsair_Skilldamage_Swordplay" isPercentage="true"/>
+<stat id="268464035" name="Positional Damage" key="Corsair_Positional_Bonus" isPercentage="true"/>
+<stat id="268464036" name="Aft Skills Damage" key="Corsair_Skilldamage_Aft" isPercentage="true"/>
+<stat id="268464037" name="Compound Attack Critical Chance" key="Corsair_CompoundAttack_CritChance" isPercentage="true"/>
+<stat id="268464038" name="Thrown Skills Damage" key="Corsair_Skilldamage_Thrown" isPercentage="true"/>
+<stat id="268464039" name="Lunge Damage" key="Corsair_Skilldamage_Lunge" isPercentage="true"/>
+<stat id="268464040" name="Breath Skills Damage" key="Corsair_Skilldamage_Breath" isPercentage="true"/>
+<stat id="268464041" name="Critical Magnitude" key="Corsair_Skill_CriticalMagnitude" isPercentage="true"/>
+<stat id="268464042" name="Fleché Damage" key="Corsair_Skilldamage_Fleche" isPercentage="true"/>
+<stat id="268464043" name="Thrust Damage" key="Corsair_Skilldamage_Thrust" isPercentage="true"/>
+<stat id="268464044" name="Compound Attack Damage" key="Corsair_Skilldamage_CompoundAttack" isPercentage="true"/>
+<stat id="268464045" name="Advance Damage" key="Corsair_Skilldamage_Advance" isPercentage="true"/>
+<stat id="268464046" name="North Wind Damage" key="Corsair_Skilldamage_NorthWind" isPercentage="true"/>
+<stat id="268464047" name="Finisher Skills Damage" key="Corsair_Skilldamage_Finisher" isPercentage="true"/>
+<stat id="268464048" name="Wind Shanties Cooldown" key="Corsair_Wind_Shanty_Cooldowns"/>
+<stat id="268464049" name="Disarming Strike Cooldown" key="Corsair_Disarm_Cooldown"/>
+<stat id="268464050" name="Rummage Skills Cooldown" key="Corsair_Rummage_CooldownMod"/>
+<stat id="268464051" name="Thrown Skills Range" key="Corsair_ThrownRange_Bonus"/>
+<stat id="268464052" name="Riposte Damage" key="Corsair_Skilldamage_Riposte" isPercentage="true"/>
+<stat id="268464053" name="Fore with Haste Cooldown" key="Corsair_Shanty_Foretoggle_Cooldown"/>
+<stat id="268464054" name="Fore Skills Damage" key="Corsair_Skilldamage_Fore" isPercentage="true"/>
+<stat id="268464055" name="Advance Cooldown" key="Corsair_Advance_Cooldown"/>
+<stat id="268464056" name="Fleché applies a latent Wound" key="Corsair_FlecheCountdown_ProcChance" isPercentage="true"/>
+<stat id="268464057" name="Lunge applies a Bleed" key="Corsair_LungeBleed_ProcChance" isPercentage="true"/>
+<stat id="268464058" name="Step Back Damage Reduction" key="Corsair_Stepback_DamageReduction" isPercentage="true"/>
+<stat id="268464059" name="Advance applies a Bleed" key="Corsair_AdvanceBleed_ProcChance" isPercentage="true"/>
+<stat id="268464060" name="Riposte applies a Debuff" key="Corsair_RiposteDebuff_ProcChance" isPercentage="true"/>
+<stat id="268464061" name="Dramatic Flourish Critical Magnitude Buff" key="Corsair_Flourish_CritMag_Potency" isPercentage="true"/>
+<stat id="268464062" name="Riposte Debuff" key="Corsair_RiposteDebuff_Trait" isPercentage="true"/>
+<stat id="268464063" name="Disarming Strike Disarms your Target" key="Corsair_Disarm_ProcChance" isPercentage="true"/>
+<stat id="268464064" name="Lunge applies a Debuff" key="Corsair_LungeDebuff_ProcChance" isPercentage="true"/>
+<stat id="268464065" name="Riposte Enrages Target" key="Corsair_RiposteEnrage_ProcChance" isPercentage="true"/>
+<stat id="268464066" name="Advance Bleed" key="Corsair_AdvanceBleed_Trait" isPercentage="true"/>
+<stat id="268464067" name="Dodge gains a Heal" key="Corsair_DodgeHeal_ProcChance" isPercentage="true"/>
+<stat id="268464068" name="Disengage Speed" key="Corsair_Disengage_Speed" isPercentage="true"/>
+<stat id="268464069" name="Parry Skill Parry Chance" key="Corsair_ParrySkill_ParryChance" isPercentage="true"/>
+<stat id="268464070" name="Lunge triggers a Fellowship Maneouvre" key="Corsair_LungeFM_Trait" isPercentage="true"/>
+<stat id="268464071" name="Disengage gains a Heal" key="Corsair_DisengageHeal_ProcChance" isPercentage="true"/>
+<stat id="268464072" name="Lunge triggers a Fellowship Maneouvre" key="Corsair_LungeFM_ProcChance" isPercentage="true"/>
+<stat id="268464073" name="Step Back Partial Evade Chance" key="Corsair_StepBack_PartialEvadeChance" isPercentage="true"/>
+<stat id="268464074" name="Riposte Critical Chance" key="Corsair_CritChance_Riposte" isPercentage="true"/>
+<stat id="268464075" name="Disengage Mitigations" key="Corsair_Disengage_Mitigations" isPercentage="true"/>
+<stat id="268464092" name="Increases Pips from Forward Shanty" key="Corsair_Fore_Toggle_PipMod" type="INTEGER"/>
+<stat id="268464093" name="Damage over Time Pulses" key="Corsair_Bleed_Pulses" type="INTEGER"/>
+<stat id="268464094" name="Damage over Time Potency" key="Corsair_Bleed_Damage" isPercentage="true"/>
+<stat id="268464095" name="Fleché and Lunge Apply Bleeds" key="Corsair_Redline_FinisherBleed_ProcChance" isPercentage="true"/>
+<stat id="268464096" name="Disengage Heals the Fellowship when used after Step Back" key="Corsair_Disengage_AoE_Trait" isPercentage="true"/>
+<stat id="268464097" name="Disengage gains a Heal" key="Corsair_Disengage_AoE" isPercentage="true"/>
+<stat id="268464098" name="South Wind Buff Potency" key="Corsair_SouthWind_Potency" isPercentage="true"/>
+<stat id="268464099" name="Chance for Advance to stun your opponent after a Riposte" key="Corsair_Advance_Stun_AppChance" isPercentage="true"/>
+<stat id="268464100" name="Removing a Corruption increases target's Incoming Damage" key="Corsair_CR_debuff_AppChance" isPercentage="true"/>
+<stat id="268464101" name="Temporary Balance Buff Durations" key="Corsair_Balance_TempBuff_Duration"/>
+<stat id="268464102" name="Disarming Strike Disarms opponents" key="Trait_Corsair_Disarm" type="ARRAY"/>
+<stat id="268464103" name="Steady Movement Speed" key="Corsair_Steady_MovementSpeed" isPercentage="true"/>
+<stat id="268464104" name="Debilitating Counter Debuff Potency" key="Corsair_Riposte_Debuff_Potency" isPercentage="true"/>
+<stat id="268464105" name="Damage Reduction from Step Back" key="Corsair_Stepback_DR_Potency" isPercentage="true"/>
+<stat id="268464106" name="DNT - King of Trinkets 1" key="Trait_Corsair_KingofTrinkets_1" type="ARRAY"/>
+<stat id="268464107" name="DNT - King of Trinkets 2" key="Trait_Corsair_KingofTrinkets_2" type="ARRAY"/>
+<stat id="268464108" name="Daze and Root Durations" key="Corsair_Stupor_DurationMod"/>
+<stat id="268464109" name="Shanty Healing Potency" key="Corsair_ShantyHeal_Potency" isPercentage="true"/>
+<stat id="268464110" name="DNT - King of Trinkets 3" key="Trait_Corsair_KingofTrinkets_3" type="ARRAY"/>
+<stat id="268464111" name="Temporary Damage Reduction from Aftward balance" key="Corsair_Aft_DamageReduction" isPercentage="true"/>
+<stat id="268464112" name="Critical hits increase your Swordplay Damage" key="Corsair_CritProc_Damage_AppChance" isPercentage="true"/>
+<stat id="268464113" name="Wind Shanty Durations" key="Corsair_WindEffect_Duration"/>
+<stat id="268464114" name="Steady Critical Chance" key="Corsair_Steady_CritChance" isPercentage="true"/>
+<stat id="268464115" name="Advance after Thrust gains the ability to stun" key="Corsair_Advance_Stun_Trait" isPercentage="true"/>
+<stat id="268464116" name="North Wind reduces Critical Defence" key="Corsair_NorthWind_Blue_AppChance" isPercentage="true"/>
+<stat id="268464117" name="Wind Buff Potency" key="Corsair_Wind_Buff_Potency" isPercentage="true"/>
+<stat id="268464118" name="Caustic Brew is especially potent when first cracked open" key="Trait_Corsair_Potent_CausticBrew" type="ARRAY"/>
+<stat id="268464119" name="Extreme Balance Grace Periods" key="Corsair_Countdown_GracePeriod"/>
+<stat id="268464120" name="Test Defences Buff Potency" key="Corsair_CritBuff_Damage_Potency" isPercentage="true"/>
+<stat id="268464121" name="Finisher Damage Bonus from Advance" key="Corsair_Advance_Finisher_Bonus" isPercentage="true"/>
+<stat id="268464122" name="Finishers Inspire Allies" key="Trait_Corsair_Inspire" type="ARRAY"/>
+<stat id="268464123" name="Chance for Shanties to Restore Power" key="Corsair_Shanty_Power_AppChance" isPercentage="true"/>
+<stat id="268464124" name="Aftward Pips from Step Back or Check Step" key="Corsair_StepBack_PipMod" type="INTEGER"/>
+<stat id="268464125" name="Reduces Active Lunge Cooldown" key="Trait_Corsair_LungeCD" type="ARRAY"/>
+<stat id="268464126" name="North Wind reduces Incoming Healing" key="Corsair_NorthWind_Yellow_AppChance" isPercentage="true"/>
+<stat id="268464127" name="AoE Daze Grace Period" key="Corsair_AoE_Mez_GracePeriod"/>
+<stat id="268464128" name="Shanty Cooldowns" key="Corsair_Shanty_Cooldowns"/>
+<stat id="268464129" name="Belly of Brine Cleanses Multiple Effects" key="Trait_Corsair_MultiCleanse" type="ARRAY"/>
+<stat id="268464130" name="Temporary Balance Buff Durations" key="Corsair_Shanty_BuffDuration"/>
+<stat id="268464140" name="Fore State Buff Damage" key="Corsair_Balance_Fore_BonusDamage" isPercentage="true"/>
+<stat id="268464141" name="DNT - Shanties Splash Heal" key="Trait_Corsair_ShantyHeal" type="ARRAY"/>
+<stat id="268464144" name="Pip Cost" key="Skill_Beorning_PipCost_Fifty" type="INTEGER"/>
+<stat id="268464145" name="Pip Cost" key="Skill_Beorning_PipMinMod_Fifty" type="INTEGER"/>
+<stat id="268464146" name="Pip Cost" key="Skill_Beorning_PipCost_Thirty" type="INTEGER"/>
+<stat id="268464147" name="Pip Cost" key="Skill_Beorning_PipMinMod_Thirty" type="INTEGER"/>
+<stat id="268464148" name="Nature's Salve Cooldown" key="Skill_Beorning_NaturesSalve_Cooldown"/>
+<stat id="268464149" name="Thorned Armour Cooldown" key="Skill_Beorning_ThornedArmour_Cooldown"/>
+<stat id="268464150" name="Final Strike Damage" key="Skill_Beorning_FinalStrike_DamageMod" isPercentage="true"/>
+<stat id="268464151" name="Savage Knockdown Damage" key="Skill_Beorning_SavageKnockdown_DamageMod" isPercentage="true"/>
+<stat id="268464152" name="Target Block, Parry &amp; Evade" key="Skill_Beorning_Trample_BPEMod" isPercentage="true"/>
+<stat id="268464153" name="Savage Knockdown Duration" key="Skill_Beorning_SavageKnockdown_DurMod"/>
+<stat id="268464154" name="To Your Aid Heal" key="Skill_Beorning_ToYourAid_HealMod" isPercentage="true"/>
+<stat id="268464155" name="Nature's Wrath Damage" key="Skill_Beorning_NaturesWrath_DamageMod" isPercentage="true"/>
+<stat id="268464156" name="To Your Aid Mitigation Duration" key="Skill_Beorning_ToYourAid_DurMod"/>
+<stat id="268464157" name="Nature's Salve Heal" key="Skill_Beorning_NaturesSalve_HealMod" isPercentage="true"/>
+<stat id="268464158" name="Thorned Armour Damage Redirected" key="Skill_Beorning_ThornedArmour_DamageRedirectMod" isPercentage="true"/>
+<stat id="268464159" name="Trample Damage" key="Skill_Beorning_Trample_DamageMod" isPercentage="true"/>
+<stat id="268464161" name="Critical Healing Magnitude" key="Skill_Beorning_Healing_CriticalMod" isPercentage="true"/>
+<stat id="268464164" name="Disarming Strikes after Advance reduce your opponent's damage" key="Corsair_Disarm_Debuff_Trait" isPercentage="true"/>
+<stat id="268464165" name="Pip Cost" key="Skill_Beorning_PipMinMod_SeventyFive" type="INTEGER"/>
+<stat id="268464166" name="Pip Cost" key="Skill_Beorning_PipCost_SeventyFive" type="INTEGER"/>
+<stat id="268464167" name="DNT - Threat increase" key="Trait_Beorning_Low_ToT" type="ARRAY"/>
+<stat id="268464168" name="DNT - Threat increase" key="Trait_Beorning_High_ToT" type="ARRAY"/>
+<stat id="268464169" name="DNT - Threat increase" key="Trait_Beorning_Med_ToT" type="ARRAY"/>
+<stat id="268464170" name="To Your Aid Physical Mitigation" key="Skill_Beorning_ToYourAid_MitigationMod" isPercentage="true"/>
+<stat id="268464171" name="To Your Aid Tactical Mitigation" key="Skill_Beorning_ToYourAid_TacMitigationMod" isPercentage="true"/>
+<stat id="268464172" name="Claw Swipe Area Effect Damage" key="Skill_Beorning_ClawSwipe_AEDamageMod" isPercentage="true"/>
+<stat id="268464173" name="Claw Swipe Cooldown" key="Skill_Beorning_ClawSwipe_CooldownMod"/>
+<stat id="268464174" name="Crafting Bonus Result" key="Craft_Bonus_Result" isPercentage="true"/>
+<stat id="268464175" name="Finisher Damage" key="Skill_Beorning_Finisher_DamageMod" isPercentage="true"/>
+<stat id="268464176" name="Thorned Armour Duration" key="Skill_Beorning_ThornedArmour_DurMod"/>
+<stat id="268464178" name="Blood Prize Bleed and Wrath Builder Damage" key="Skill_Beorning_BloodPrize_DamageMod" isPercentage="true"/>
+<stat id="268464179" name="Trample Critical Defence Debuff" key="Trait_Beorning_Trample_CritDef_Debuff" type="ARRAY"/>
+<stat id="268464180" name="Target Block, Parry &amp; Evade" key="Trait_Beorning_Trample_BPEMod" isPercentage="true" type="ARRAY"/>
+<stat id="268464181" name="Trample Critical Defence Debuff" key="Skill_Beorning_Trample_CritDef_Debuff" isPercentage="true"/>
+<stat id="268464182" name="Incoming Heal Modifier" key="Skill_Beorning_DancingBear_IncHealMod" isPercentage="true"/>
+<stat id="268464183" name="Claw Swipe Heal" key="Trait_Beorning_ClawSwipe_Heal" type="ARRAY"/>
+<stat id="268464185" name="Wrath Builder Damage" key="Trait_Beorning_WrathBuilder_DamageMod" isPercentage="true"/>
+<stat id="268464188" name="Claw Swipe Damage" key="Skill_Beorning_ClawSwipe_DamageMod" isPercentage="true"/>
+<stat id="268464204" name="Cleanse Cooldown" key="Trait_Beorning_PDFW_CooldownTrait" type="ARRAY"/>
 </stats>
