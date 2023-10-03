@@ -3743,7 +3743,7 @@
 </trait>
 <trait identifier="1879268089" name="Armour Rend" iconId="1091829815" tiers="5" tierProperty="trait_class_hunter_rank_31" nature="21" description="key:620919323:54354734"/>
 <trait identifier="1879268090" name="Bodkin Arrows" iconId="1091798546" tiers="5" tierProperty="trait_class_hunter_rank_15" nature="21" description="key:620919306:54354734">
-<stat name="Itemset_Skill_DamageMitigation" operator="SUBSTRACT" descriptionOverride="key:620919306:106251889" scaling="1879268023"/>
+<stat name="Trait_Hunter_InductionBow_DamageMod" scaling="1879268047"/>
 </trait>
 <trait identifier="1879268091" name="The One Trap" iconId="1091798545" tierProperty="trait_class_hunter_rank_34" nature="21" description="key:620919320:54354734"/>
 <trait identifier="1879268093" name="Wounded Prey" iconId="1091798519" tierProperty="trait_class_hunter_rank_33" nature="21" description="key:620919307:54354734"/>
@@ -4096,7 +4096,7 @@
 </trait>
 <trait identifier="1879270106" name="Location is Everything" iconId="1091840428" nature="30" description="key:620920962:54354734">
 <stat name="Skill_Burglar_FlashingBlades_Penetrate_Defenses" descriptionOverride="key:620920962:106251889" constant="-0.01"/>
-<stat name="Skill_Burglar_CritChain_MitPen" descriptionOverride="key:620920962:106251890" constant="-10.0"/>
+<stat name="IA_Burglar_Damage_CritResponceSkills" constant="10.0"/>
 </trait>
 <trait identifier="1879270107" name="Critical Magnitude" iconId="1091829381" nature="30" description="key:620920956:54354734">
 <stat name="Burglar_Skill_CriticalMagnitude" descriptionOverride="key:620920956:106251889" constant="10.0"/>
@@ -4312,8 +4312,7 @@
 <specialEffect label="key:620921431:106251889"/>
 </trait>
 <trait identifier="1879270683" name="Ancient Craft" iconId="1091806010" tiers="4" tierProperty="trait_class_loremaster_rank_42" nature="20" description="key:620921432:54354734">
-<stat name="Skill_Loremaster_AncientCraft" descriptionOverride="-" scaling="1879271260"/>
-<stat name="Skill_Loremaster_AncientCraft_StringDummy" scaling="1879286648"/>
+<stat name="Skill_Loremaster_AncientCraft" scaling="1879271260"/>
 <stat name="Combat_Agent_Armor_Value_Float" operator="MULTIPLY" scaling="1879311673"/>
 <stat name="Skill_Loremaster_AncientCraft_ArmourbonusStringDummy" scaling="1879314102"/>
 </trait>
@@ -7477,9 +7476,12 @@
 <trait identifier="1879457951" name="Extended Stupor" iconId="1092830935" nature="30" description="key:621072117:54354734">
 <stat name="Corsair_Stupor_DurationMod" constant="10.0"/>
 </trait>
-<trait identifier="1879457956" name="King of Trinkets" iconId="1092830913" nature="30" description="key:621072029:54354734"/>
-<trait identifier="1879457996" name="Rare Herbs" iconId="1092830956" nature="30" description="key:621071999:54354734"/>
-<trait identifier="1879458002" name="Corrosive Salts" iconId="1092830950" nature="30" description="key:621072045:54354734"/>
+<trait identifier="1879457996" name="Rare Herbs" iconId="1092830956" nature="30" description="key:621071999:54354734">
+<stat name="Corsair_CleanseHeal_AppChance" constant="100.0"/>
+</trait>
+<trait identifier="1879458002" name="Corrosive Salts" iconId="1092830950" nature="30" description="key:621072045:54354734">
+<specialEffect label="key:621072045:106251889"/>
+</trait>
 <trait identifier="1879458004" name="Check-step" iconId="1092830951" nature="30" description="key:621072058:54354734">
 <specialEffect label="key:621072058:106251889"/>
 </trait>
@@ -7488,16 +7490,17 @@
 </trait>
 <trait identifier="1879458044" name="Lightweight Blade" iconId="1092830933" nature="30" description="key:621072113:54354734">
 <stat name="Skill_PowerCost_AllSkills" constant="-15.000001"/>
+<stat name="ATTACK_DURATION_PERCENTAGE" constant="-10.0"/>
 </trait>
 <trait identifier="1879458054" name="Inspiring Presence" iconId="1092830882" nature="30" description="key:621072038:54354734"/>
-<trait identifier="1879458060" name="Relentless Advance" iconId="1092830868" nature="30" description="key:621072044:54354734"/>
+<trait identifier="1879458060" name="Relentless Advance" iconId="1092903902" nature="30" description="key:621072044:54354734"/>
 <trait identifier="1879458068" name="Explosive Lunge" iconId="1092830934" nature="30" description="key:621072107:54354734">
-<stat name="Corsair_LungeFM_Trait" constant="100.0"/>
+<stat name="Corsair_LungeFM_Trait" descriptionOverride="key:621072107:106251889" constant="100.0"/>
 </trait>
 <trait identifier="1879458077" name="Between the Links" iconId="1092830893" nature="30" description="key:621072024:54354734">
 <stat name="Corsair_Skill_CriticalMagnitude" constant="10.0"/>
 </trait>
-<trait identifier="1879458093" name="Buoying Winds" iconId="1090519170" nature="30" description="key:621072096:54354734">
+<trait identifier="1879458093" name="Buoying Winds" iconId="1092903901" nature="30" description="key:621072096:54354734">
 <stat name="Corsair_Wind_Buff_Potency" descriptionOverride="key:621072096:106251889" constant="5.0"/>
 <stat name="Corsair_SouthWind_Potency" descriptionOverride="key:621072096:106251890" constant="10.0"/>
 </trait>
@@ -7529,6 +7532,7 @@
 </trait>
 <trait identifier="1879458219" name="The Rover" iconId="1091618504" tierProperty="trait_class_specialization_corsair_three" nature="28" description="key:621072212:54354734">
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
+<specialEffect label="key:621072212:106251889"/>
 </trait>
 <trait identifier="1879458221" name="The Shanty-caller" iconId="1091564746" tierProperty="trait_class_specialization_corsair_one" nature="28" description="key:621072215:54354734">
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
@@ -7906,8 +7910,8 @@
 <trait identifier="1879467388" name="Pitch Pot" iconId="1092830887" category="11" nature="30" tooltip="key:621078792:191029568" description="key:621078792:54354734">
 <skill id="1879467245" name="Pitch Pot"/>
 </trait>
-<trait identifier="1879467389" name="Fleché" iconId="1092830961" category="11" nature="30" tooltip="key:621078789:191029568" description="key:621078789:54354734">
-<skill id="1879467256" name="Fleché"/>
+<trait identifier="1879467389" name="Flèche" iconId="1092830961" category="11" nature="30" tooltip="key:621078789:191029568" description="key:621078789:54354734">
+<skill id="1879467256" name="Flèche"/>
 </trait>
 <trait identifier="1879467390" name="Cut-over" iconId="1092830962" category="11" nature="30" tooltip="key:621078790:191029568" description="key:621078790:54354734">
 <skill id="1879466274" name="Cut-over"/>
@@ -7924,7 +7928,7 @@
 <trait identifier="1879467394" name="The Breaking of Thangorodrim" iconId="1092830929" category="11" nature="30" tooltip="key:621078795:191029568" description="key:621078795:54354734">
 <skill id="1879467263" name="The Breaking of Thangorodrim"/>
 </trait>
-<trait identifier="1879467428" name="A Little Something Extra" iconId="1092830891" tierProperty="trait_class_corsair_rank_54" nature="33" description="key:621078837:54354734"/>
+<trait identifier="1879467428" name="Traveller" iconId="1092903900" tierProperty="trait_class_corsair_rank_54" nature="33" description="key:621078837:54354734"/>
 <trait identifier="1879467429" name="The South Wind" iconId="1092830862" tiers="3" tierProperty="trait_class_corsair_rank_9" nature="33" description="key:621078840:54354734">
 <stat name="Corsair_SouthWind_Potency" scaling="1879467797"/>
 </trait>
@@ -7935,21 +7939,22 @@
 <stat name="Corsair_ShantyHeal_Potency" scaling="1879467795"/>
 </trait>
 <trait identifier="1879467432" name="Double-time" iconId="1092830877" tierProperty="trait_class_corsair_rank_34" nature="33" description="key:621078813:54354734">
-<stat name="Corsair_Shanty_Foretoggle_Cooldown" constant="118.0"/>
+<stat name="Corsair_Shanty_Foretoggle_Cooldown" descriptionOverride="-" constant="118.0"/>
 <specialEffect label="key:621078813:106251889"/>
 </trait>
 <trait identifier="1879467434" name="Test Defences" iconId="1092830880" tiers="3" tierProperty="trait_class_corsair_rank_33" nature="33" description="key:621078820:54354734">
-<stat name="Corsair_CritBuff_Damage_Potency" scaling="1879467760"/>
-<stat name="Corsair_CritProc_Damage_AppChance" constant="100.0"/>
+<specialEffect label="key:621078820:106251889"/>
 </trait>
-<trait identifier="1879467435" name="Relaxing Wind" iconId="1092830888" tiers="5" tierProperty="trait_class_corsair_rank_12" nature="33" description="key:621078825:54354734"/>
+<trait identifier="1879467435" name="Relaxing Wind" iconId="1092830888" tiers="5" tierProperty="trait_class_corsair_rank_12" nature="33" description="key:621078825:54354734">
+<stat name="Corsair_Wind_SelfHeal_Potency" scaling="1879469760"/>
+</trait>
 <trait identifier="1879467436" name="Fighting Smarter" iconId="1092830870" tiers="4" tierProperty="trait_class_corsair_rank_43" nature="33" description="key:621078861:54354734">
 <stat name="Corsair_Aft_DamageReduction" scaling="1879467783"/>
 </trait>
 <trait identifier="1879467437" name="Sharpened Blades" iconId="1092830863" tiers="5" tierProperty="trait_class_corsair_rank_20" nature="33" description="key:621078859:54354734">
 <stat name="Corsair_Skilldamage_Swordplay" scaling="1879467785"/>
 </trait>
-<trait identifier="1879467438" name="Final Strike" iconId="1092830895" tiers="3" tierProperty="trait_class_corsair_rank_32" nature="33" description="key:621078851:54354734">
+<trait identifier="1879467438" name="Conclusive Strike" iconId="1092830895" tiers="3" tierProperty="trait_class_corsair_rank_32" nature="33" description="key:621078851:54354734">
 <stat name="Corsair_Skilldamage_Finisher" scaling="1879467782"/>
 </trait>
 <trait identifier="1879467439" name="The Biting North Wind" iconId="1092830901" tiers="3" tierProperty="trait_class_corsair_rank_28" nature="33" description="key:621078812:54354734">
@@ -7958,31 +7963,33 @@
 <trait identifier="1879467440" name="Compound Attack" iconId="1092830886" tiers="3" tierProperty="trait_class_corsair_rank_30" nature="33" description="key:621078848:54354734">
 <stat name="Corsair_Skilldamage_CompoundAttack" scaling="1879467775"/>
 </trait>
-<trait identifier="1879467441" name="Sea Legs" iconId="1092830871" tiers="3" tierProperty="trait_class_corsair_rank_4" nature="33" description="key:621078860:54354734">
+<trait identifier="1879467441" name="Stormy Seas" iconId="1092830871" tiers="3" tierProperty="trait_class_corsair_rank_4" nature="33" description="key:621078860:54354734">
 <stat name="Corsair_Countdown_GracePeriod" scaling="1879467789"/>
 </trait>
 <trait identifier="1879467442" name="Guided by the Stars" iconId="1092830930" tierProperty="trait_class_corsair_rank_16" nature="33" description="key:621078814:54354734"/>
-<trait identifier="1879467443" name="Shocking Counterattack" iconId="1092830955" tiers="3" tierProperty="trait_class_corsair_rank_38" nature="33" description="key:621078847:54354734">
+<trait identifier="1879467443" name="Shocking Counterattack" iconId="1092903903" tiers="3" tierProperty="trait_class_corsair_rank_38" nature="33" description="key:621078847:54354734">
 <stat name="Corsair_Advance_Stun_Trait" scaling="1879467773"/>
 </trait>
 <trait identifier="1879467444" name="Slashing Blade" iconId="1092830918" tiers="3" tierProperty="trait_class_corsair_rank_31" nature="33" description="key:621078827:54354734">
 <stat name="Corsair_Advance_Cooldown" scaling="1879467788"/>
 <specialEffect label="key:621078827:106251889"/>
 </trait>
-<trait identifier="1879467445" name="Booming Voice" iconId="1092830890" tierProperty="trait_class_corsair_rank_17" nature="33" description="key:621078839:54354734"/>
-<trait identifier="1879467446" name="Flexible Netting" iconId="1092830937" tierProperty="trait_class_corsair_rank_36" nature="33" description="key:621078831:54354734"/>
-<trait identifier="1879467447" name="Tempered Steel" iconId="1092830947" tiers="5" tierProperty="trait_class_corsair_rank_22" nature="33" description="key:621078862:54354734">
-<stat name="Skill_CritChanceMod_MeleeSkills" scaling="1879467780"/>
+<trait identifier="1879467445" name="Booming Voice" iconId="1092830890" tierProperty="trait_class_corsair_rank_17" nature="33" description="key:621078839:54354734">
+<specialEffect label="key:621078839:106251889"/>
 </trait>
-<trait identifier="1879467448" name="Woven Metal" iconId="1092830922" tiers="4" tierProperty="trait_class_corsair_rank_44" nature="33" description="key:621078832:54354734">
+<trait identifier="1879467446" name="Entangling Lines" iconId="1092830937" tierProperty="trait_class_corsair_rank_36" nature="33" description="key:621078831:54354734"/>
+<trait identifier="1879467447" name="Tempered Steel" iconId="1092830947" tiers="5" tierProperty="trait_class_corsair_rank_22" nature="33" description="key:621078862:54354734">
+<stat name="CRITICAL_MELEE_PERCENTAGE" scaling="1879297174"/>
+</trait>
+<trait identifier="1879467448" name="Dense Padding" iconId="1092830922" tiers="4" tierProperty="trait_class_corsair_rank_44" nature="33" description="key:621078832:54354734">
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" scaling="1879467767"/>
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" scaling="1879467786"/>
 </trait>
-<trait identifier="1879467449" name="Marked Foes" iconId="1092830869" tierProperty="trait_class_corsair_rank_13" nature="33" description="key:621078816:54354734"/>
+<trait identifier="1879467449" name="Bloodied Foes" iconId="1092830869" tierProperty="trait_class_corsair_rank_13" nature="33" description="key:621078816:54354734"/>
 <trait identifier="1879467450" name="Cleansing Salts" iconId="1092830946" tiers="2" tierProperty="trait_class_corsair_rank_6" nature="33" description="key:621078823:54354734">
 <stat name="Corsair_CR_debuff_AppChance" scaling="1879467787"/>
 </trait>
-<trait identifier="1879467451" name="DNT - Thrown or Animal" iconId="1092830907" tierProperty="trait_class_corsair_rank_41" nature="33" description="key:621078842:54354734"/>
+<trait identifier="1879467451" name="Ragged Knife" iconId="1092830907" tierProperty="trait_class_corsair_rank_41" nature="33" description="key:621078842:54354734"/>
 <trait identifier="1879467452" name="Salted Wounds" iconId="1092830953" tiers="2" tierProperty="trait_class_corsair_rank_29" nature="33" description="key:621078846:54354734">
 <stat name="Corsair_Bleed_Damage" scaling="1879467765"/>
 </trait>
@@ -7994,13 +8001,15 @@
 <stat name="Corsair_Balance_TempBuff_Duration" scaling="1879467764"/>
 </trait>
 <trait identifier="1879467456" name="A Watched Pot" iconId="1092830883" tierProperty="trait_class_corsair_rank_55" nature="33" description="key:621078829:54354734"/>
-<trait identifier="1879467457" name="Rare Ingredients" iconId="1092830957" tiers="4" tierProperty="trait_class_corsair_rank_40" nature="33" description="key:621078843:54354734">
-<stat name="Corsair_Skilldamage_Thrown" scaling="1879467769"/>
+<trait identifier="1879467457" name="Rare Ingredients" iconId="1092830957" tiers="3" tierProperty="trait_class_corsair_rank_40" nature="33" description="key:621078843:54354734">
+<stat name="Corsair_Cleanse_AdditionalDisease_Count" descriptionOverride="-" scaling="1879469803"/>
+<stat name="Corsair_CleanseDisease_AppChance" scaling="1879469807"/>
+<specialEffect label="key:621078843:106251889"/>
 </trait>
 <trait identifier="1879467458" name="Keen Sight" iconId="1092830912" tiers="3" tierProperty="trait_class_corsair_rank_11" nature="33" description="key:621078830:54354734">
 <stat name="Corsair_Steady_CritChance" scaling="1879467766"/>
 </trait>
-<trait identifier="1879467459" name="Many Hands" iconId="1092830884" tiers="2" tierProperty="trait_class_corsair_rank_46" nature="33" description="key:621078819:54354734">
+<trait identifier="1879467459" name="Many Hands" iconId="1092830884" tiers="3" tierProperty="trait_class_corsair_rank_46" nature="33" description="key:621078819:54354734">
 <stat name="Corsair_Shanty_Power_AppChance" scaling="1879467776"/>
 </trait>
 <trait identifier="1879467460" name="Novel Compounds" iconId="1092830889" tiers="4" tierProperty="trait_class_corsair_rank_50" nature="33" description="key:621078852:54354734">
@@ -8009,7 +8018,7 @@
 <trait identifier="1879467461" name="Deep Punctures" iconId="1092830916" tiers="3" tierProperty="trait_class_corsair_rank_19" nature="33" description="key:621078841:54354734">
 <stat name="Corsair_Bleed_Pulses" scaling="1879467771"/>
 </trait>
-<trait identifier="1879467462" name="A Duelist's Honour" iconId="1092830897" tiers="5" tierProperty="trait_class_corsair_rank_21" nature="33" description="key:621078833:54354734">
+<trait identifier="1879467462" name="A Duellist's Honour" iconId="1092830897" tiers="5" tierProperty="trait_class_corsair_rank_21" nature="33" description="key:621078833:54354734">
 <stat name="Corsair_Positional_Bonus" scaling="1879467800"/>
 </trait>
 <trait identifier="1879467463" name="Spitting Spirits" iconId="1092830938" tiers="3" tierProperty="trait_class_corsair_rank_39" nature="33" description="key:621078810:54354734">
@@ -8023,24 +8032,24 @@
 <stat name="Corsair_NorthWind_Blue_AppChance" scaling="1879467784"/>
 </trait>
 <trait identifier="1879467467" name="Natural Explorer" iconId="1092830875" tiers="5" tierProperty="trait_class_corsair_rank_37" nature="33" description="key:621078822:54354734">
-<stat name="FATE" tieredScaling="1879366664;1879366654;1879366651;1879366663;1879366657"/>
+<stat name="VITALITY" tieredScaling="1879366659;1879366643;1879366650;1879366645;1879366641"/>
 </trait>
-<trait identifier="1879467468" name="DNT - Fear" iconId="1092830920" tierProperty="trait_class_corsair_rank_48" nature="33" description="key:621078850:54354734"/>
+<trait identifier="1879467468" name="Intimidating Challenge" iconId="1092830920" tierProperty="trait_class_corsair_rank_48" nature="33" description="key:621078850:54354734"/>
 <trait identifier="1879467469" name="Masterful Disarm" iconId="1092830952" tiers="3" tierProperty="trait_class_corsair_rank_53" nature="33" description="key:621078856:54354734">
-<stat name="Corsair_Disarm_Debuff_Trait" constant="100.0"/>
+<stat name="Corsair_Disarm_Debuff_Trait" descriptionOverride="key:621078856:106251889" constant="100.0"/>
 <stat name="Corsair_Disarm_Cooldown" scaling="1879467791"/>
 </trait>
 <trait identifier="1879467470" name="Strong Arms" iconId="1092830926" tiers="3" tierProperty="trait_class_corsair_rank_47" nature="33" description="key:621078834:54354734">
 <stat name="Corsair_ThrownRange_Bonus" scaling="1879467792"/>
 </trait>
-<trait identifier="1879467471" name="Easily Inspired" iconId="1092830914" tiers="4" tierProperty="trait_class_corsair_rank_8" nature="33" description="key:621078818:54354734">
+<trait identifier="1879467471" name="Light of Spirit" iconId="1092830914" tiers="4" tierProperty="trait_class_corsair_rank_8" nature="33" description="key:621078818:54354734">
 <stat name="INCOMING_HEALING_PERCENTAGE" scaling="1879467781"/>
 </trait>
 <trait identifier="1879467472" name="Coordinated Movement" iconId="1092830885" tierProperty="trait_class_corsair_rank_49" nature="33" description="key:621078836:54354734">
-<stat name="Corsair_Disengage_AoE" constant="100.0"/>
+<stat name="Corsair_Disengage_AoE_Trait" descriptionOverride="key:621078836:106251889" constant="100.0"/>
 </trait>
-<trait identifier="1879467473" name="Debilitating Counter" iconId="1092830876" tiers="2" tierProperty="trait_class_corsair_rank_52" nature="33" description="key:621078828:54354734">
-<stat name="Corsair_RiposteDebuff_Trait" constant="100.0"/>
+<trait identifier="1879467473" name="Enervating Counter" iconId="1092830876" tiers="2" tierProperty="trait_class_corsair_rank_52" nature="33" description="key:621078828:54354734">
+<stat name="Corsair_RiposteDebuff_Trait" descriptionOverride="key:621078828:106251889" constant="100.0"/>
 <stat name="Corsair_Riposte_Debuff_Potency" scaling="1879467774"/>
 </trait>
 <trait identifier="1879467474" name="Dodge" iconId="1092830923" tierProperty="trait_class_corsair_rank_26" nature="33" description="key:621078835:54354734"/>
@@ -8066,7 +8075,7 @@
 <stat name="Corsair_Stepback_DamageReduction" scaling="1879467796"/>
 </trait>
 <trait identifier="1879467482" name="Attacker's Advantage" iconId="1092830868" tierProperty="trait_class_corsair_rank_25" nature="33" description="key:621078826:54354734">
-<stat name="Corsair_AdvanceBleed_Trait" constant="100.0"/>
+<stat name="Corsair_AdvanceBleed_Trait" descriptionOverride="key:621078826:106251889" constant="100.0"/>
 </trait>
 <trait identifier="1879467703" name="Cultivate" iconId="1092830166" nature="30" description="key:621079060:54354734">
 <stat name="Skill_Beorning_BearForm_PipCost" descriptionOverride="key:621079060:106251889" constant="2.0"/>
@@ -8162,4 +8171,40 @@
 <trait identifier="1879469358" name="Hardy Holbytlan" iconId="1092833758" category="45" nature="1" tooltip="key:621080325:191029568" description="key:621080325:54354734">
 <stat name="MORALE" scaling="1879391054"/>
 </trait>
+<trait identifier="1879469806" name="Jugglery Proficiency" iconId="1092830913" category="11" nature="30" tooltip="key:621080676:191029568" description="key:621080676:54354734">
+<skill id="1879469746" name="Jugglery Proficiency"/>
+</trait>
+<trait identifier="1879470594" name="Well Disciplined" iconId="1091785109" tierProperty="Trait_MountedCombat_Rank_Corsair2" nature="14" description="key:621081441:54354734">
+<stat name="Corsair_MC_damagedebuff_potency" constant="10.0"/>
+<stat name="Trait_Mounted_Guardian_Rohirrim_Armour" constant="100.0"/>
+</trait>
+<trait identifier="1879470595" name="Thunderous Charge" iconId="1091787037" tierProperty="Trait_MountedCombat_Rank_Corsair4" nature="14" description="key:621081437:54354734">
+<stat name="Corsair_MC_MeleeSkill_Damage" constant="15.000001"/>
+</trait>
+<trait identifier="1879470596" name="Mounted: Pitch Pot" iconId="1091785108" tierProperty="Trait_MountedCombat_Rank_Corsair3" nature="14" description="key:621081436:54354734"/>
+<trait identifier="1879470597" name="Riding Song" iconId="1091787276" tierProperty="Trait_MountedCombat_Rank_Corsair1" nature="14" description="key:621081442:54354734"/>
+<trait identifier="1879470598" name="Easy Melodies" iconId="1091787276" tierProperty="Trait_MountedCombat_Rank_Corsair7" nature="14" description="key:621081438:54354734">
+<stat name="Corsair_MC_shanty_cooldowns" constant="-5.0"/>
+</trait>
+<trait identifier="1879470599" name="Ride Without Fear" iconId="1091785110" tierProperty="Trait_MountedCombat_Rank_Corsair8" nature="14" description="key:621081440:54354734">
+<stat name="Trait_DamageMultiplier_PositionalBonus" constant="15.000001"/>
+</trait>
+<trait identifier="1879470600" name="Fresh Pitch" iconId="1091787041" tierProperty="Trait_MountedCombat_Rank_Corsair5" nature="14" description="key:621081443:54354734">
+<stat name="Corsair_MC_pitchpot_potency" constant="5.0"/>
+</trait>
+<trait identifier="1879470601" name="Resonant Riding Songs" iconId="1091787278" tierProperty="Trait_MountedCombat_Rank_Corsair6" nature="14" description="key:621081439:54354734">
+<stat name="Corsair_MC_shantybuff_potency" constant="5.0"/>
+</trait>
+<trait identifier="1879471150" name="Balance Flow" iconId="1090561221" category="21" nature="1" description="key:621081733:54354734"/>
+<trait identifier="1879473836" name="Fleet Merchant's Saddle" iconId="1092905253" category="54" nature="16"/>
+<trait identifier="1879473837" name="Tide-breaker's Saddle" iconId="1092905249" category="54" nature="16"/>
+<trait identifier="1879473838" name="Tide-breaker's Caparison" iconId="1092905254" category="54" nature="16"/>
+<trait identifier="1879473839" name="Tide-breaker's Accessory" iconId="1092905250" category="54" nature="16"/>
+<trait identifier="1879473840" name="Fleet Merchant's Caparison" iconId="1092905252" category="54" nature="16"/>
+<trait identifier="1879473841" name="Tide-breaker's Tail" iconId="1092905251" category="54" nature="16"/>
+<trait identifier="1879473843" name="Fleet Merchant's Leg-guards" iconId="1092905245" category="54" nature="16"/>
+<trait identifier="1879473844" name="Tide-breaker's Head-piece" iconId="1092905246" category="54" nature="16"/>
+<trait identifier="1879473845" name="Fleet Merchant's Head-piece" iconId="1092905248" category="54" nature="16"/>
+<trait identifier="1879473846" name="Tide-breaker's Leg-guards" iconId="1092905255" category="54" nature="16"/>
+<trait identifier="1879473847" name="Fleet Merchant's Accessory" iconId="1092905247" category="54" nature="16"/>
 </traits>
