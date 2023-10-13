@@ -1121,7 +1121,7 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="Corsair_Recentre_Cooldown" constant="-2.0"/>
 </bonus>
 </set>
 <set id="1879109983" name="Cobalt Armour" level="50" maxLevel="59" description="">
@@ -14231,6 +14231,34 @@
 <stat name="MIGHT" scaling="1879211532"/>
 </bonus>
 </set>
+<set id="1879320593" name="Lesser Wind of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
+<item id="1879475894" name="Lesser Wind of the West Boots"/>
+<item id="1879475928" name="Lesser Wind of the West Leggings"/>
+<item id="1879475925" name="Lesser Wind of the West Gauntlets"/>
+<item id="1879475910" name="Lesser Wind of the West Breastplate"/>
+<item id="1879475921" name="Lesser Wind of the West Shoulder Guards"/>
+<item id="1879475903" name="Lesser Wind of the West Helmet"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_WindEffect_Duration" constant="4.0"/>
+</bonus>
+</set>
+<set id="1879320594" name="Rover of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
+<item id="1879475908" name="Boots of the the Wilderlands"/>
+<item id="1879475904" name="Leggings of the Wilderlands"/>
+<item id="1879475900" name="Gauntlets of the Wilderlands"/>
+<item id="1879475896" name="Breastplate of the Wilderlands"/>
+<item id="1879475909" name="Shoulder Guard of the Wilderlands"/>
+<item id="1879475927" name="Helmet of the Wilderlands"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_Skilldamage_Swordplay" constant="10.0"/>
+</bonus>
+</set>
 <set id="1879320598" name="Armour of the Feral Protector&#10;(Max Level: 74)" level="63" maxLevel="74" description="">
 <item id="1879320597" name="Gauntlets of the Feral Protector"/>
 <item id="1879320600" name="Boots of the Feral Protector"/>
@@ -14239,7 +14267,7 @@
 <item id="1879320609" name="Shoulders of the Feral Protector"/>
 <item id="1879320611" name="Helm of the Feral Protector"/>
 <bonus nbItems="4">
-<stat name="MIGHT" scaling="1879211532"/>
+<stat name="VITALITY" scaling="1879211544"/>
 </bonus>
 </set>
 <set id="1879320602" name="Nature-guard's Armour&#10;(Max Level: 74)" level="63" maxLevel="74" description="">
@@ -22984,9 +23012,7 @@
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
 </bonus>
-<bonus nbItems="4">
-<specialEffect label="key:621079965:108054836"/>
-</bonus>
+<bonus nbItems="4"/>
 <bonus nbItems="5"/>
 </set>
 <set id="1879468851" name="Armour of the Hiddenhoard Shanty-caller&#10;(Max Level: 144)" level="475" maxLevel="144" description="">
@@ -23023,9 +23049,373 @@
 <bonus nbItems="3">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
 </bonus>
+<bonus nbItems="4"/>
+<bonus nbItems="5"/>
+</set>
+<set id="1879476033" name="Shanty-caller's Battle-dress of the Abyss&#10;(Max Level: 119)" level="345" maxLevel="119" description="">
+<item id="1879473364" name="Shanty-caller's Coif of the Abyss"/>
+<item id="1879473362" name="Shanty-caller's Camail of the Abyss"/>
+<item id="1879473370" name="Shanty-caller's Hauberk of the Abyss"/>
+<item id="1879473369" name="Shanty-caller's Gages of the Abyss"/>
+<item id="1879473361" name="Shanty-caller's Leggings of the Abyss"/>
+<item id="1879473376" name="Shanty-caller's Boots of the Abyss"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
 <bonus nbItems="4">
-<specialEffect label="key:621079955:108054836"/>
+<stat name="Corsair_WarofWrath_Cooldown" operator="SUBSTRACT" constant="45.0"/>
+</bonus>
+</set>
+<set id="1879476034" name="Greater Battle-dress of Inspired Striking&#10;(Max Level: 119)" level="234" maxLevel="119" description="">
+<item id="1879473395" name="Greater Helm of Inspired Striking"/>
+<item id="1879473392" name="Greater Shoulders of Inspired Striking"/>
+<item id="1879473396" name="Greater Chestplate of Inspired Striking"/>
+<item id="1879473385" name="Greater Gauntlets of Inspired Striking"/>
+<item id="1879473405" name="Greater Leggings of Inspired Striking"/>
+<item id="1879473389" name="Greater Boots of Inspired Striking"/>
+<bonus nbItems="2"/>
+<bonus nbItems="3"/>
+<bonus nbItems="4">
+<stat name="Corsair_Skilldamage_Fore" constant="15.000001"/>
+<stat name="Corsair_Bleed_Damage" constant="10.0"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="SHADOW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="FIRE_MITIGATION_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879476036" name="Greater Battle-dress of the Barrelman&#10;(Max Level: 119)" level="234" maxLevel="119" description="">
+<item id="1879473406" name="Greater Helm of the Barrelman"/>
+<item id="1879473388" name="Greater Shoulders of the Barrelman"/>
+<item id="1879473383" name="Greater Chestplate of the Barrelman"/>
+<item id="1879473417" name="Greater Gauntlets of the Barrelman"/>
+<item id="1879473402" name="Greater Leggings of the Barrelman"/>
+<item id="1879473400" name="Greater Boots of the Barrelman"/>
+<bonus nbItems="2">
+<stat name="Corsair_STMez_Cooldown" operator="SUBSTRACT" constant="10.0"/>
+</bonus>
+<bonus nbItems="3"/>
+<bonus nbItems="4"/>
+<bonus nbItems="5">
+<stat name="SHADOW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="FIRE_MITIGATION_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879476038" name="Battle-dress of Deft Manoeuvres&#10;(Max Level: 134)" level="430" maxLevel="134" description="">
+<item id="1879470902" name="Mariner's Silk-hide Helm of the Deft Manouvers"/>
+<item id="1879470914" name="Mariner's Silk-hide Camail of the Deft Manouvers"/>
+<item id="1879470909" name="Mariner's Silk-hide Cuirass of the Deft Manouvers"/>
+<item id="1879470901" name="Mariner's Silk-hide Gloves of the Deft Manouvers"/>
+<item id="1879470908" name="Mariner's Silk-hide Leggings of the Deft Manouvers"/>
+<item id="1879470915" name="Mariner's Silk-hide Boots of the Deft Manouvers"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="4"/>
+<bonus nbItems="5"/>
+</set>
+<set id="1879476039" name="Greater Armour of the Erebor Sailor&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
+<item id="1879471119" name="Greater Helm of the Erebor Sailor"/>
+<item id="1879471125" name="Greater Shoulderpads of the Erebor Sailor"/>
+<item id="1879471126" name="Greater Jacket of the Erebor Sailor"/>
+<item id="1879471111" name="Greater Gloves of the Erebor Sailor"/>
+<item id="1879471110" name="Greater Leggings of the Erebor Sailor"/>
+<item id="1879471116" name="Greater Boots of the Erebor Sailor"/>
+<bonus nbItems="2">
+<stat name="Corsair_Disengage_Mitigations" constant="10.0"/>
+</bonus>
+<bonus nbItems="4"/>
+</set>
+<set id="1879476041" name="Battle-dress of Inspired Striking&#10;(Max Level: 119)" level="222" maxLevel="119" description="">
+<item id="1879473407" name="Helm of Inspired Striking"/>
+<item id="1879473401" name="Shoulders of Inspired Striking"/>
+<item id="1879473403" name="Chestplate of Inspired Striking"/>
+<item id="1879473416" name="Gauntlets of Inspired Striking"/>
+<item id="1879473390" name="Leggings of Inspired Striking"/>
+<item id="1879473398" name="Boots of Inspired Striking"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="4"/>
+<bonus nbItems="5"/>
+</set>
+<set id="1879476042" name="Armour of the Erebor Sailor&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
+<item id="1879471130" name="Helm of the Erebor Sailor"/>
+<item id="1879471140" name="Shoulderpads of the Erebor Sailor"/>
+<item id="1879471127" name="Jacket of the Erebor Sailor"/>
+<item id="1879471142" name="Gloves of the Erebor Sailor"/>
+<item id="1879471128" name="Leggings of the Erebor Sailor"/>
+<item id="1879471118" name="Boots of the Erebor Sailor"/>
+<bonus nbItems="2">
+<stat name="Corsair_Disengage_Mitigations" constant="10.0"/>
+</bonus>
+</set>
+<set id="1879476043" name="Armour of the Sea-tamer&#10;(Max Level: 114)" level="100" maxLevel="114" description="">
+<item id="1879473972" name="Eye-patch of the Sea-tamer"/>
+<item id="1879473973" name="Pauldrons of the Sea-tamer"/>
+<item id="1879473977" name="Jacket of the Sea-tamer"/>
+<item id="1879473974" name="Gloves of the Sea-tamer"/>
+<item id="1879473975" name="Leggings of the Sea-tamer"/>
+<item id="1879473976" name="Boots of the Sea-tamer"/>
+<bonus nbItems="2">
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="key:621085423:108054834" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_Warden_SpearGambitDamage" constant="10.0"/>
+</bonus>
+</set>
+<set id="1879476044" name="Battle-dress of Elegant Shanties&#10;(Max Level: 134)" level="430" maxLevel="134" description="">
+<item id="1879470906" name="Mariner's Silk-hide Helm of Elegant Shanties"/>
+<item id="1879470907" name="Mariner's Silk-hide Camail of Elegant Shanties"/>
+<item id="1879470904" name="Mariner's Silk-hide Cuirass of Elegant Shanties"/>
+<item id="1879470912" name="Mariner's Silk-hide Gloves of Elegant Shanties"/>
+<item id="1879470903" name="Mariner's Silk-hide Leggings of Elegant Shanties"/>
+<item id="1879470905" name="Mariner's Silk-hide Boots of Elegant Shanties"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="4"/>
+<bonus nbItems="5"/>
+</set>
+<set id="1879476045" name="Armour of the Ambitious Sailor&#10;(Max Level: 59)" level="50" maxLevel="59" description="key:621085426:54354734">
+<item id="1879470940" name="Ambitious Sailor's Gloves"/>
+<item id="1879470943" name="Ambitious Sailor's Boots"/>
+<item id="1879470942" name="Ambitious Sailor's Leggings"/>
+<item id="1879470939" name="Ambitious Sailor's Jacket"/>
+<item id="1879470941" name="Ambitious Sailor's Shoulders"/>
+<item id="1879470938" name="Ambitious Sailor's Helm"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_Recentre_Cooldown" constant="-5.0"/>
+<stat name="Corsair_Stupor_DurationMod" constant="10.0"/>
+</bonus>
+<bonus nbItems="6"/>
+</set>
+<set id="1879476046" name="Wind of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
+<item id="1879475920" name="Wind of the West Boots"/>
+<item id="1879475905" name="Wind of the West Leggings"/>
+<item id="1879475901" name="Wind of the West Gauntlets"/>
+<item id="1879475911" name="Wind of the West Breastplate"/>
+<item id="1879475895" name="Wind of the West Shoulder Guards"/>
+<item id="1879475906" name="Wind of the West Helmet"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_WindEffect_Duration" constant="7.0"/>
+<stat name="Combat_OutgoingHeals_EffectMod" constant="20.0"/>
+</bonus>
+</set>
+<set id="1879476047" name="Wave-walker's Armour&#10;(Max Level: 59)" level="50" maxLevel="59" description="">
+<item id="1879475899" name="Wave-walker Gloves"/>
+<item id="1879475929" name="Wave-walker Shoes"/>
+<item id="1879475919" name="Wave-walker Leggings"/>
+<item id="1879475916" name="Wave-walker Jacket"/>
+<item id="1879475924" name="Wave-walker Shoulders"/>
+<item id="1879475907" name="Wave-walker Hood"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_Recentre_Cooldown" constant="-2.0"/>
+</bonus>
+</set>
+<set id="1879476049" name="Battle-dress of the Barrelman&#10;(Max Level: 119)" level="222" maxLevel="119" description="">
+<item id="1879473414" name="Helm of the Barrelman"/>
+<item id="1879473391" name="Shoulders of the Barrelman"/>
+<item id="1879473412" name="Chestplate of the Barrelman"/>
+<item id="1879473394" name="Gauntlets of the Barrelman"/>
+<item id="1879473386" name="Leggings of the Barrelman"/>
+<item id="1879473408" name="Boots of the Barrelman"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_STMez_Cooldown" operator="SUBSTRACT" constant="10.0"/>
 </bonus>
 <bonus nbItems="5"/>
+</set>
+<set id="1879476050" name="Deck-walker's Armour&#10;(Max Level: 74)" level="63" maxLevel="74" description="">
+<item id="1879470979" name="Deck-walker's Boots"/>
+<item id="1879470961" name="Deck-walker's Shoulders"/>
+<item id="1879470977" name="Deck-walker's Hood"/>
+<bonus nbItems="3">
+<stat name="FIRE_MITIGATION" scaling="1879143996"/>
+</bonus>
+</set>
+<set id="1879476051" name="Armour of the Lady's Inspiration&#10;(Max Level: 69)" level="60" maxLevel="69" description="key:621085399:54354734">
+<item id="1879470973" name="Gauntlets of the Lady's Inspiration"/>
+<item id="1879470975" name="Boots of the Lady's Inspiration"/>
+<item id="1879470968" name="Leggings of the Lady's Inspiration"/>
+<item id="1879470964" name="Jacket of the Lady's Inspiration"/>
+<item id="1879470962" name="Shoulders of the Lady's Inspiration"/>
+<item id="1879470971" name="Helm of the Lady's Inspiration"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
+</bonus>
+</set>
+<set id="1879476054" name="Armour of the Erebor Blade&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
+<item id="1879471136" name="Helm of the Erebor Blade"/>
+<item id="1879471112" name="Shoulderpads of the Erebor Blade"/>
+<item id="1879471131" name="Jacket of the Erebor Blade"/>
+<item id="1879471141" name="Gloves of the Erebor Blade"/>
+<item id="1879471122" name="Leggings of the Erebor Blade"/>
+<item id="1879471138" name="Boots of the Erebor Blade"/>
+<bonus nbItems="2">
+<stat name="Corsair_Skilldamage_Swordplay" constant="10.0"/>
+</bonus>
+</set>
+<set id="1879476057" name="Greater Armour of the Erebor Rover&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
+<item id="1879471124" name="Greater Helm of the Erebor Rover"/>
+<item id="1879471132" name="Greater Shoulderpads of the Erebor Rover"/>
+<item id="1879471133" name="Greater Jacket of the Erebor Rover"/>
+<item id="1879471115" name="Greater Gloves of the Erebor Rover"/>
+<item id="1879471114" name="Greater Leggings of the Erebor Rover"/>
+<item id="1879471113" name="Greater Boots of the Erebor Rover"/>
+<bonus nbItems="2">
+<stat name="Corsair_Wind_Shanty_Cooldowns" operator="SUBSTRACT" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_Stupor_DurationMod" constant="10.0"/>
+</bonus>
+</set>
+<set id="1879476058" name="Armour of the Guided Blade&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
+<item id="1879470959" name="Gauntlets of the Guided Blade"/>
+<item id="1879470967" name="Boots of the Guided Blade"/>
+<item id="1879470957" name="Leggings of the Guided Blade"/>
+<item id="1879470972" name="Jacket of the Guided Blade"/>
+<item id="1879470970" name="Shoulders of the Guided Blade"/>
+<item id="1879470963" name="Hood of the Guided Blade"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="VITALITY" scaling="1879211533"/>
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+</set>
+<set id="1879476060" name="Battle-dress of Bracing Adaptability&#10;(Max Level: 134)" level="430" maxLevel="134" description="">
+<item id="1879470900" name="Mariner's Silk-hide Helm of Bracing Adapatability"/>
+<item id="1879470911" name="Mariner's Silk-hide Camail of Bracing Adapatability"/>
+<item id="1879470913" name="Mariner's Silk-hide Cuirass of Bracing Adapatability"/>
+<item id="1879470916" name="Mariner's Silk-hide Gloves of Bracing Adapatability"/>
+<item id="1879470910" name="Mariner's Silk-hide Leggings of Bracing Adapatability"/>
+<item id="1879470917" name="Mariner's Silk-hide Boots of Bracing Adapatability"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="4"/>
+<bonus nbItems="5"/>
+</set>
+<set id="1879476061" name="Lesser Rover of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
+<item id="1879475898" name="Lesser Boots of the the Wilderlands"/>
+<item id="1879475902" name="Lesser Leggings of the Wilderlands"/>
+<item id="1879475922" name="Lesser Gauntlets of the Wilderlands"/>
+<item id="1879475912" name="Lesser Breastplate of the Wilderlands"/>
+<item id="1879475915" name="Lesser Shoulder Guard of the Wilderlands"/>
+<item id="1879475923" name="Lesser Helmet of the Wilderlands"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_Skilldamage_Swordplay" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879476062" name="Greater Battle-dress of the Hearty Caller&#10;(Max Level: 119)" level="234" maxLevel="119" description="">
+<item id="1879473410" name="Greater Helm of the Hearty Caller"/>
+<item id="1879473393" name="Greater Shoulders of the Hearty Caller"/>
+<item id="1879473413" name="Greater Chestplate of the Hearty Caller"/>
+<item id="1879473387" name="Greater Gauntlets of the Hearty Caller"/>
+<item id="1879473397" name="Greater Leggings of the Hearty Caller"/>
+<item id="1879473404" name="Greater Boots of the Hearty Caller"/>
+<bonus nbItems="2">
+<stat name="Corsair_StarGuide_Cooldown" operator="SUBSTRACT" constant="30.0"/>
+</bonus>
+<bonus nbItems="3"/>
+<bonus nbItems="4">
+<stat name="Corsair_WarofWrath_Cooldown" operator="SUBSTRACT" constant="30.0"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="SHADOW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="FIRE_MITIGATION_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879476066" name="Rover's Battle-dress of the Abyss&#10;(Max Level: 119)" level="345" maxLevel="119" description="">
+<item id="1879473374" name="Rover's Coif of the Abyss"/>
+<item id="1879473360" name="Rover's Camail of the Abyss"/>
+<item id="1879473363" name="Rover's Hauberk of the Abyss"/>
+<item id="1879473373" name="Rover's Gages of the Abyss"/>
+<item id="1879473380" name="Rover's Leggings of the Abyss"/>
+<item id="1879473359" name="Rover's Boots of the Abyss"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="4"/>
+</set>
+<set id="1879476067" name="Duellist's Battle-dress of the Abyss&#10;(Max Level: 119)" level="345" maxLevel="119" description="">
+<item id="1879473372" name="Duellist's Coif of the Abyss"/>
+<item id="1879473381" name="Duellist's Camail of the Abyss"/>
+<item id="1879473371" name="Duellist's Hauberk of the Abyss"/>
+<item id="1879473368" name="Duellist's Gages of the Abyss"/>
+<item id="1879473379" name="Duellist's Leggings of the Abyss"/>
+<item id="1879473377" name="Duellist's Boots of the Abyss"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_Bleed_Pulses" constant="2.0"/>
+</bonus>
+</set>
+<set id="1879476068" name="Battle-dress of the Hearty Caller&#10;(Max Level: 119)" level="222" maxLevel="119" description="">
+<item id="1879473384" name="Helm of the Hearty Caller"/>
+<item id="1879473382" name="Shoulders of the Hearty Caller"/>
+<item id="1879473409" name="Chestplate of the Hearty Caller"/>
+<item id="1879473399" name="Gauntlets of the Hearty Caller"/>
+<item id="1879473415" name="Leggings of the Hearty Caller"/>
+<item id="1879473411" name="Boots of the Hearty Caller"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_StarGuide_Cooldown" operator="SUBSTRACT" constant="30.0"/>
+</bonus>
+<bonus nbItems="5"/>
+</set>
+<set id="1879476069" name="Armour of the Erebor Rover&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
+<item id="1879471121" name="Helm of the Erebor Rover"/>
+<item id="1879471144" name="Shoulderpads of the Erebor Rover"/>
+<item id="1879471134" name="Jacket of the Erebor Rover"/>
+<item id="1879471137" name="Gloves of the Erebor Rover"/>
+<item id="1879471135" name="Leggings of the Erebor Rover"/>
+<item id="1879471123" name="Boots of the Erebor Rover"/>
+<bonus nbItems="2">
+<stat name="Corsair_Wind_Shanty_Cooldowns" operator="SUBSTRACT" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879476071" name="Greater Armour of the Erebor Blade&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
+<item id="1879471139" name="Greater Helm of the Erebor Blade"/>
+<item id="1879471120" name="Greater Shoulderpads of the Erebor Blade"/>
+<item id="1879471129" name="Greater Jacket of the Erebor Blade"/>
+<item id="1879471117" name="Greater Gloves of the Erebor Blade"/>
+<item id="1879471143" name="Greater Leggings of the Erebor Blade"/>
+<item id="1879471109" name="Greater Boots of the Erebor Blade"/>
+<bonus nbItems="2">
+<stat name="Corsair_Skilldamage_Swordplay" constant="10.0"/>
+</bonus>
+<bonus nbItems="4"/>
+</set>
+<set id="1879476074" name="Armour of the Sailor's Tune&#10;(Max Level: 74)" level="63" maxLevel="74" description="">
+<item id="1879470956" name="Gauntlets of the Sailor's Tune"/>
+<item id="1879470966" name="Boots of the Sailor's Tune"/>
+<item id="1879470974" name="Leggings of the Sailor's Tune"/>
+<item id="1879470958" name="Jacket of the Sailor's Tune"/>
+<item id="1879470976" name="Shoulders of the Sailor's Tune"/>
+<item id="1879470965" name="Helm of the Sailor's Tune"/>
+<bonus nbItems="4"/>
 </set>
 </sets>
