@@ -2059,10 +2059,10 @@
 <stat name="Trait_Runekeeper_NukeDot_Power" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <specialEffect label="Next Induction cannot be interrupted"/>
 </propertyModEffect>
-<propertyModEffect id="1879153792" name="Harsh Debate" iconId="1091454410" duration="20.0" probability="1.0">
+<propertyModEffect id="1879153792" name="Harsh Debate" iconId="1091454410" duration="20.0" probability="1.0" probabilityModProperty="268445305">
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" scaling="1879271536"/>
 </propertyModEffect>
-<propertyModEffect id="1879153793" name="Thunderous Words" iconId="1091454169" duration="20.0" probability="1.0">
+<propertyModEffect id="1879153793" name="Thunderous Words" iconId="1091454169" duration="20.0" probability="1.0" probabilityModProperty="268445303">
 <stat name="Trait_Runekeeper_Lightning_CriticalHitChance" scaling="1879271552"/>
 </propertyModEffect>
 <genesis id="1879153823" name="Nanu the Turtle" appliedDescription=".." summonDuration="290.0">
@@ -7264,7 +7264,7 @@
 </propertyModEffect>
 <effect id="1879389244" name="DNT - Red Gamble Tier Up"/>
 <effect id="1879389258" name="DNT - Red Gamble Tier Up"/>
-<effect id="1879389263" name="DNT - Blue Gamble Tier Up"/>
+<effect id="1879389263" name="DNT - Blue Gamble Tier Up" probabilityModProperty="268443775"/>
 <genesis id="1879389675" name="Create Standard Training Dummy" appliedDescription=".." summonDuration="300.0">
 <summoned id="1879366224" name="DPS target dummy[e]"/>
 </genesis>
@@ -7995,7 +7995,7 @@
 <effect id="1879447418" name="Lighting Fireworks" appliedDescription="Fireworks are spinning."/>
 <effect id="1879447420" name="Lighting Fireworks" appliedDescription="Fireworks are spinning."/>
 <effect id="1879447591" name="DNT - Burning Embers Tierup"/>
-<effect id="1879447931" name="DNT"/>
+<effect id="1879447931" name="DNT" probabilityModProperty="268457686"/>
 <effect id="1879448720"/>
 <propertyModEffect id="1879449388" name="Summoning Horn" appliedDescription="You are holding a summoning horn." iconId="1090552839"/>
 <effect id="1879449900" name="Call Rendal"/>
