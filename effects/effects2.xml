@@ -33,7 +33,7 @@
 <reactiveVital progressionID="1879272442" probability="0.75"/>
 </defender>
 </reactiveVitalEffect>
-<induceCombatState id="1879051312" name="Induce Stunned" state="15" duration="3.0"/>
+<induceCombatState id="1879051312" name="Induce Stunned" state="15" stateDuration="3.0"/>
 <effect id="1879051593" name="Launching Fireworks" appliedDescription="Fireworks are going off."/>
 <instantVitalEffect id="1879051614" name="Increased Morale" stat="Health_MaxLevel">
 <vitalChange progressionID="1879467700" variance="0.05"/>
@@ -189,7 +189,7 @@
 <stat name="BLADE_LINE_AOE_POWER_COST_PERCENTAGE" constant="-1.0"/>
 </propertyModEffect>
 <effect id="1879060052" name="Calenthon's Spyglass"/>
-<induceCombatState id="1879060074" name="Induce Improved Rooted" state="10" duration="30.0"/>
+<induceCombatState id="1879060074" name="Induce Improved Rooted" state="10" stateDuration="30.0"/>
 <instantVitalEffect id="1879060075" name="Bear Trap Damage" stat="Health_MaxLevel">
 <vitalChange progressionID="1879467544"/>
 </instantVitalEffect>
@@ -245,7 +245,7 @@
 <initialChange progressionID="1879068279"/>
 <overTimeChange progressionID="1879068279"/>
 </vitalOverTimeEffect>
-<induceCombatState id="1879068284" name="Marbles Tier 1" state="9" duration="4.0"/>
+<induceCombatState id="1879068284" name="Marbles Tier 1" state="9" stateDuration="4.0"/>
 <propertyModEffect id="1879068292" name="Rune of Striking" iconId="1090519170">
 <stat name="STRIKE_SKILLS_POWER_COST_PERCENTAGE" constant="-2.0"/>
 </propertyModEffect>
@@ -305,7 +305,7 @@
 <initialChange progressionID="1879068279"/>
 <overTimeChange progressionID="1879068279"/>
 </vitalOverTimeEffect>
-<induceCombatState id="1879070123" name="Marbles Tier 2" state="9" duration="5.0"/>
+<induceCombatState id="1879070123" name="Marbles Tier 2" state="9" stateDuration="5.0"/>
 <fellowshipEffect id="1879070151" name="Star Glass" applyToTarget="true" range="20.0">
 <effect id="1879070152" name="Glossy Edhelharn Token: Give Hope[e]"/>
 </fellowshipEffect>
@@ -360,7 +360,7 @@
 <initialChange progressionID="1879068279"/>
 <overTimeChange progressionID="1879068279"/>
 </vitalOverTimeEffect>
-<induceCombatState id="1879070448" name="Marbles Tier 3" state="9" duration="6.0"/>
+<induceCombatState id="1879070448" name="Marbles Tier 3" state="9" stateDuration="6.0"/>
 <propertyModEffect id="1879070473" name="Rune of Striking" iconId="1090519170">
 <stat name="STRIKE_SKILLS_POWER_COST_PERCENTAGE" constant="-5.0"/>
 </propertyModEffect>
@@ -1031,7 +1031,7 @@
 <effect id="1879098176" name="Virulent Mushroom Miasma" spellcraft="50.0"/>
 </hotspot>
 </genesis>
-<induceCombatState id="1879098376" name="Induce Feared" state="2" duration="10.0"/>
+<induceCombatState id="1879098376" name="Induce Feared" state="2" stateDuration="10.0"/>
 <propertyModEffect id="1879098830" name="DNT - Gift of the Hammerhand receives Song of the Hammerhand effects" iconId="1090519170"/>
 <effect id="1879098901" name="Bird Call"/>
 <effect id="1879098902" name="Rabbit Call"/>
@@ -1243,7 +1243,7 @@
 <effect id="1879108453" name="Scroll Case"/>
 <effect id="1879108454" name="Scroll Case"/>
 <effect id="1879109579" name="Throwing Feathers"/>
-<induceCombatState id="1879110020" name="Induce Dazed" state="3" duration="15.0"/>
+<induceCombatState id="1879110020" name="Induce Dazed" state="3" stateDuration="15.0"/>
 <reactiveVitalEffect id="1879110027" name="Warden's Barb" description="Warden's Barb-" appliedDescription="20% chance of reflecting a portion of damage back to the attacker in the form of Beleriand damage." iconId="1090527700" damageTypes="1" damageTypeOverride="8">
 <attacker>
 <reactiveVital progressionID="1879470511" probability="0.2"/>
@@ -2059,10 +2059,10 @@
 <stat name="Trait_Runekeeper_NukeDot_Power" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <specialEffect label="Next Induction cannot be interrupted"/>
 </propertyModEffect>
-<propertyModEffect id="1879153792" name="Harsh Debate" iconId="1091454410" duration="20.0" probability="1.0" probabilityModProperty="268445305">
+<propertyModEffect id="1879153792" name="Harsh Debate" iconId="1091454410" duration="20.0" probabilityModProperty="268445305">
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" scaling="1879271536"/>
 </propertyModEffect>
-<propertyModEffect id="1879153793" name="Thunderous Words" iconId="1091454169" duration="20.0" probability="1.0" probabilityModProperty="268445303">
+<propertyModEffect id="1879153793" name="Thunderous Words" iconId="1091454169" duration="20.0" probabilityModProperty="268445303">
 <stat name="Trait_Runekeeper_Lightning_CriticalHitChance" scaling="1879271552"/>
 </propertyModEffect>
 <genesis id="1879153823" name="Nanu the Turtle" appliedDescription=".." summonDuration="290.0">
@@ -3105,7 +3105,7 @@
 <effect id="1879163412" name="Emblem of Power"/>
 </hotspot>
 </genesis>
-<induceCombatState id="1879165462" name="Induce Stunned" state="15" duration="6.0"/>
+<induceCombatState id="1879165462" name="Induce Stunned" state="15" stateDuration="6.0"/>
 <effect id="1879166266" name="Secrets of Beasts"/>
 <effect id="1879172244" name="Participating in a Skirmish" appliedDescription="You are in a skirmish." iconId="1091537510"/>
 <instantVitalEffect id="1879172949" name="Restored Power" stat="Power_MaxLevel">
@@ -5533,40 +5533,40 @@
 <effect id="1879262545" name="Call Property Guard" description="Summons a property guard"/>
 <effect id="1879262546" name="Call Property Guard" description="Summons a property guard"/>
 <effect id="1879262883" name="Call the Cow" description="Summons the Cow"/>
-<procEffect id="1879263176" name="Might Boost (Major)" iconId="1090552382" skillTypes="36" probability="0.1">
+<procEffect id="1879263176" name="Might Boost (Major)" iconId="1090552382" skillTypes="36" procProbability="0.1">
 <effect id="1879263179" name="Major Might Boost"/>
 </procEffect>
-<procEffect id="1879263178" name="Might Boost (Minor)" iconId="1090552382" skillTypes="36" probability="0.05">
+<procEffect id="1879263178" name="Might Boost (Minor)" iconId="1090552382" skillTypes="36" procProbability="0.05">
 <effect id="1879263179" name="Major Might Boost"/>
 </procEffect>
 <propertyModEffect id="1879263179" name="Major Might Boost" iconId="1090648220" duration="20.0">
 <stat name="MIGHT" scaling="1879211577"/>
 </propertyModEffect>
-<procEffect id="1879263181" name="Might Boost (Greater)" iconId="1090552382" skillTypes="36" probability="0.15">
+<procEffect id="1879263181" name="Might Boost (Greater)" iconId="1090552382" skillTypes="36" procProbability="0.15">
 <effect id="1879263179" name="Major Might Boost"/>
 </procEffect>
-<procEffect id="1879263520" name="" appliedDescription="On Single Target Heal: chance to apply a small fellowship heal" iconId="1090552382" skillTypes="59" probability="0.15" cooldown="30.0">
+<procEffect id="1879263520" name="" appliedDescription="On Single Target Heal: chance to apply a small fellowship heal" iconId="1090552382" skillTypes="59" procProbability="0.15" cooldown="30.0">
 <effect id="1879263521" name="DNT - Skill Proc Minor Area Heal"/>
 </procEffect>
 <fellowshipEffect id="1879263521" name="DNT - Skill Proc Minor Area Heal" applyToPets="true" applyToTarget="true" range="20.0">
 <effect id="1879263526" name="Increased Morale"/>
 </fellowshipEffect>
-<procEffect id="1879263523" name="" appliedDescription="On Single Target Heal: chance to apply a small fellowship heal" iconId="1090552382" skillTypes="59" probability="0.1" cooldown="30.0">
+<procEffect id="1879263523" name="" appliedDescription="On Single Target Heal: chance to apply a small fellowship heal" iconId="1090552382" skillTypes="59" procProbability="0.1" cooldown="30.0">
 <effect id="1879263521" name="DNT - Skill Proc Minor Area Heal"/>
 </procEffect>
-<procEffect id="1879263524" name="" appliedDescription="On Single Target Heal: chance to apply a small fellowship heal" iconId="1090552382" skillTypes="59" probability="0.05" cooldown="30.0">
+<procEffect id="1879263524" name="" appliedDescription="On Single Target Heal: chance to apply a small fellowship heal" iconId="1090552382" skillTypes="59" procProbability="0.05" cooldown="30.0">
 <effect id="1879263521" name="DNT - Skill Proc Minor Area Heal"/>
 </procEffect>
 <instantVitalEffect id="1879263526" name="Increased Morale" stat="Health_MaxLevel">
 <vitalChange progressionID="1879398441" variance="0.3"/>
 </instantVitalEffect>
-<procEffect id="1879263682" name="" appliedDescription="DNT - HoT on Damage (Minor)" iconId="1090552382" skillTypes="36" probability="0.1" cooldown="45.0">
+<procEffect id="1879263682" name="" appliedDescription="DNT - HoT on Damage (Minor)" iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="45.0">
 <effect id="1879263685" name="Minor HoT"/>
 </procEffect>
-<procEffect id="1879263683" name="" appliedDescription="DNT - HoT on Damage (Greater)" iconId="1090552382" skillTypes="36" probability="0.1" cooldown="45.0">
+<procEffect id="1879263683" name="" appliedDescription="DNT - HoT on Damage (Greater)" iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="45.0">
 <effect id="1879263687" name="Greater HoT"/>
 </procEffect>
-<procEffect id="1879263684" name="" appliedDescription="DNT - HoT on Damage (Major)" iconId="1090552382" skillTypes="36" probability="0.1" cooldown="45.0">
+<procEffect id="1879263684" name="" appliedDescription="DNT - HoT on Damage (Major)" iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="45.0">
 <effect id="1879263686" name="Major HoT"/>
 </procEffect>
 <vitalOverTimeEffect id="1879263685" name="Minor HoT" iconId="1090641236" duration="3.0" pulseCount="5" stat="Health_MaxLevel">
@@ -5592,29 +5592,29 @@
 <fellowshipEffect id="1879264260" name="DNT - Skill Proc Critical Rating Buff" applyToPets="true" applyToTarget="true" range="30.0">
 <effect id="1879264259" name="Critical Rating"/>
 </fellowshipEffect>
-<procEffect id="1879264278" name="Armour of the Erebor Mischief-maker" appliedDescription="DNT - On Hit: Refresh the current Damage or Debuffing Gamble" iconId="1090552382" skillTypes="36" probability="0.15" cooldown="1.0">
+<procEffect id="1879264278" name="Armour of the Erebor Mischief-maker" appliedDescription="DNT - On Hit: Refresh the current Damage or Debuffing Gamble" iconId="1090552382" skillTypes="36" procProbability="0.15" cooldown="1.0">
 <effect id="1879389263" name="DNT - Blue Gamble Tier Up"/>
 <effect id="1879389258" name="DNT - Red Gamble Tier Up"/>
 <effect id="1879389244" name="DNT - Red Gamble Tier Up"/>
 </procEffect>
-<procEffect id="1879264279" name="Armour of the Erebor Knife" appliedDescription="DNT - On Crit: Apply Critical Rating Buff to Fellowship" iconId="1090552382" skillTypes="36" probability="0.3">
+<procEffect id="1879264279" name="Armour of the Erebor Knife" appliedDescription="DNT - On Crit: Apply Critical Rating Buff to Fellowship" iconId="1090552382" skillTypes="36" procProbability="0.3">
 <effect id="1879264260" name="DNT - Skill Proc Critical Rating Buff"/>
 </procEffect>
 <effect id="1879264289" name="DNT - Reset Heart Seeker" description="Recover Heart Seeker"/>
 <propertyModEffect id="1879264290" name="Heart Seeker" iconId="1091388859" duration="20.0">
 <stat name="Skill_HeartSeeker_Induction" operator="SUBSTRACT" descriptionOverride="Your next Heart Seeker is instant cast" constant="0.99"/>
 </propertyModEffect>
-<procEffect id="1879264291" name="Armour of the Erebor Bowmaster" appliedDescription="DNT - Focus Bow Attacks have a chance to reset Heart Seeker cooldown and make next cast instant" iconId="1090552382" skillTypes="41" probability="0.1" cooldown="30.0">
+<procEffect id="1879264291" name="Armour of the Erebor Bowmaster" appliedDescription="DNT - Focus Bow Attacks have a chance to reset Heart Seeker cooldown and make next cast instant" iconId="1090552382" skillTypes="41" procProbability="0.1" cooldown="30.0">
 <effect id="1879264289" name="DNT - Reset Heart Seeker"/>
 <effect id="1879264290" name="Heart Seeker"/>
 </procEffect>
 <propertyModEffect id="1879264293" name="Weakened Defences" iconId="1090531635" duration="20.0">
 <stat name="CRITICAL_DEFENCE" operator="SUBSTRACT" scaling="1879260945"/>
 </propertyModEffect>
-<procEffect id="1879264294" name="Armour of the Erebor Trapper" appliedDescription="DNT - Chance on hit to apply a Critical Defence debuff" iconId="1090552382" skillTypes="36" probability="0.2">
+<procEffect id="1879264294" name="Armour of the Erebor Trapper" appliedDescription="DNT - Chance on hit to apply a Critical Defence debuff" iconId="1090552382" skillTypes="36" procProbability="0.2">
 <effect id="1879264293" name="Weakened Defences"/>
 </procEffect>
-<procEffect id="1879264297" name="Armour of the Erebor Huntsman" appliedDescription="DNT - Focus Bow Chance on hit to make next Induction Bow instant" iconId="1090552382" skillTypes="41" probability="0.2">
+<procEffect id="1879264297" name="Armour of the Erebor Huntsman" appliedDescription="DNT - Focus Bow Chance on hit to make next Induction Bow instant" iconId="1090552382" skillTypes="41" procProbability="0.2">
 <effect id="1879265569" name="Bodkin Arrows"/>
 </procEffect>
 <effect id="1879264333" name="DNT - Enter a Villager's Home"/>
@@ -5634,12 +5634,12 @@
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="15.000001"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </propertyModEffect>
-<procEffect id="1879264538" name="Armour of the Erebor Shadow-fighter" description="Challenge has a chance to proc a melee offence debuff on your target. You cannot gain this effect more than once every 1m30s." appliedDescription="DNT - Catch a Breath has a chance to proc a block chance buff" iconId="1090552382" skillTypes="1" probability="0.3" cooldown="90.0">
+<procEffect id="1879264538" name="Armour of the Erebor Shadow-fighter" description="Challenge has a chance to proc a melee offence debuff on your target. You cannot gain this effect more than once every 1m30s." appliedDescription="DNT - Catch a Breath has a chance to proc a block chance buff" iconId="1090552382" skillTypes="1" procProbability="0.3" cooldown="90.0">
 <effect id="1879264537" name="Challenge - Weakened by Fear"/>
 </procEffect>
 <propertyModEffect id="1879264550" name="DNT - Lightning Storm CDMod" iconId="1090519170"/>
 <propertyModEffect id="1879264551" name="DNT - See All Ends Crit Defence Debuff" iconId="1090519170"/>
-<procEffect id="1879264558" name="Ancient Erebor Armour" description="Beacon of Hope has a chance to add a Heal over Time effect to your target. In-combat only." appliedDescription="Beacon of Hope has a chance to add a Heal over Time effect to your target" iconId="1090552382" skillTypes="5" probability="0.3" cooldown="90.0">
+<procEffect id="1879264558" name="Ancient Erebor Armour" description="Beacon of Hope has a chance to add a Heal over Time effect to your target. In-combat only." appliedDescription="Beacon of Hope has a chance to add a Heal over Time effect to your target" iconId="1090552382" skillTypes="5" procProbability="0.3" cooldown="90.0">
 <effect id="1879267233" name="Lasting Hope"/>
 </procEffect>
 <propertyModEffect id="1879264561" name="Water-lore Incoming Healing Buff" iconId="1091456257">
@@ -5657,13 +5657,13 @@
 <propertyModEffect id="1879264619" name="Bolster Courage" iconId="1090519170"/>
 <effect id="1879264621" name="DNT"/>
 <effect id="1879264633" name="Scroll Case"/>
-<procEffect id="1879264875" name="Armour of the Erebor Cleanser" appliedDescription="DNT - Fire skills have a chance refresh your writ of fire on the target" iconId="1090552382" skillTypes="24" probability="0.15">
+<procEffect id="1879264875" name="Armour of the Erebor Cleanser" appliedDescription="DNT - Fire skills have a chance refresh your writ of fire on the target" iconId="1090552382" skillTypes="24" procProbability="0.15">
 <effect id="1879264621" name="DNT"/>
 </procEffect>
-<procEffect id="1879264876" name="Armour of the Erebor Storm" appliedDescription="DNT - Blade skills have a chance to make your next Blade-storm cost no fervour" iconId="1090552382" skillTypes="3" probability="0.15" cooldown="30.0">
+<procEffect id="1879264876" name="Armour of the Erebor Storm" appliedDescription="DNT - Blade skills have a chance to make your next Blade-storm cost no fervour" iconId="1090552382" skillTypes="3" procProbability="0.15" cooldown="30.0">
 <effect id="1879264574" name="Blade-storm Fervour Cost"/>
 </procEffect>
-<procEffect id="1879264878" name="Armour of the Erebor Beserker" appliedDescription="DNT - Strike skills have a chance to make your next Remorseless Strike cost no fervour" iconId="1090552382" skillTypes="33" probability="0.15" cooldown="30.0">
+<procEffect id="1879264878" name="Armour of the Erebor Beserker" appliedDescription="DNT - Strike skills have a chance to make your next Remorseless Strike cost no fervour" iconId="1090552382" skillTypes="33" procProbability="0.15" cooldown="30.0">
 <effect id="1879264575" name="Remorseless Strike Fervour Cost"/>
 </procEffect>
 <propertyModEffect id="1879264961" name="Choice Words" iconId="1090553779" duration="12.0">
@@ -5672,20 +5672,20 @@
 <propertyModEffect id="1879264963" name="Tactical Defence" iconId="1091476092" duration="12.0">
 <stat name="TACTICAL_MITIGATION" scaling="1879215076"/>
 </propertyModEffect>
-<procEffect id="1879264964" name="Tactical Mitigation" appliedDescription="Sure Strike has a chance to proc a tactical mitigation buff." iconId="1090552382" skillTypes="30" probability="0.15" cooldown="60.0">
+<procEffect id="1879264964" name="Tactical Mitigation" appliedDescription="Sure Strike has a chance to proc a tactical mitigation buff." iconId="1090552382" skillTypes="30" procProbability="0.15" cooldown="60.0">
 <effect id="1879264963" name="Tactical Defence"/>
 </procEffect>
-<procEffect id="1879264967" name="Armour of the Erebor Leader" description="Shadow's Lament has a chance to reset Oathbreaker's Shame. You cannot gain this effect more than once every 1m30s" appliedDescription="Shadow's Lament has a chance to reset Oathbreaker's Shame" iconId="1090552382" skillTypes="57" probability="0.3" cooldown="90.0">
+<procEffect id="1879264967" name="Armour of the Erebor Leader" description="Shadow's Lament has a chance to reset Oathbreaker's Shame. You cannot gain this effect more than once every 1m30s" appliedDescription="Shadow's Lament has a chance to reset Oathbreaker's Shame" iconId="1090552382" skillTypes="57" procProbability="0.3" cooldown="90.0">
 <effect id="1879201642" name="Oathbreaker's Shame Reset"/>
 </procEffect>
-<procEffect id="1879264969" name="Armour of the Erebor Healer" description="Words of Courage has a chance to grant a Critical Chance buff for healing skills. You cannot gain this effect more than once every 60s.   In-combat only" appliedDescription="Words of Courage has a chance to proc a critical chance buff for healing skills." iconId="1090552382" skillTypes="10" probability="0.15" cooldown="60.0">
+<procEffect id="1879264969" name="Armour of the Erebor Healer" description="Words of Courage has a chance to grant a Critical Chance buff for healing skills. You cannot gain this effect more than once every 60s.   In-combat only" appliedDescription="Words of Courage has a chance to proc a critical chance buff for healing skills." iconId="1090552382" skillTypes="10" procProbability="0.15" cooldown="60.0">
 <effect id="1879264961" name="Choice Words"/>
 </procEffect>
 <effect id="1879265134" name="Scroll Case"/>
-<procEffect id="1879265137" name="Armour of the Erebor Shield" description="+15% chance to grant the Warden some Morale when Conviction is used. The heal will increase for each ally affected by the skill. You cannot gain this effect more than once every 60s." appliedDescription="DNT - Conviction has a chance to restore morale for every fellowship member" iconId="1090552382" skillTypes="2" probability="0.15" cooldown="60.0">
+<procEffect id="1879265137" name="Armour of the Erebor Shield" description="+15% chance to grant the Warden some Morale when Conviction is used. The heal will increase for each ally affected by the skill. You cannot gain this effect more than once every 60s." appliedDescription="DNT - Conviction has a chance to restore morale for every fellowship member" iconId="1090552382" skillTypes="2" procProbability="0.15" cooldown="60.0">
 <effect id="1879264533" name="Conviction Morale Heal"/>
 </procEffect>
-<procEffect id="1879265138" name="Armour of the Erebor Spear" description="Adroit Manoeuvre and Warden's Triumph have a chance to trigger Dark before the Dawn's power restoration. You cannot gain this effect more than once every 80s." appliedDescription="DNT - Adroit Manoeuvre and Warden's Triumph have a chance to trigger Dark before the Dawn's power HoT" iconId="1090552382" skillTypes="52" probability="0.15" cooldown="80.0">
+<procEffect id="1879265138" name="Armour of the Erebor Spear" description="Adroit Manoeuvre and Warden's Triumph have a chance to trigger Dark before the Dawn's power restoration. You cannot gain this effect more than once every 80s." appliedDescription="DNT - Adroit Manoeuvre and Warden's Triumph have a chance to trigger Dark before the Dawn's power HoT" iconId="1090552382" skillTypes="52" procProbability="0.15" cooldown="80.0">
 <effect id="1879138115" name="The Dark Before Dawn"/>
 <effect id="1879264528" name="Darkest Before Dawn"/>
 </procEffect>
@@ -5695,31 +5695,31 @@
 <propertyModEffect id="1879265208" name="Major Will Boost" iconId="1090648223" duration="20.0">
 <stat name="WILL" scaling="1879211564"/>
 </propertyModEffect>
-<procEffect id="1879265217" name="Agility Boost (Minor)" iconId="1090552382" skillTypes="36" probability="0.05">
+<procEffect id="1879265217" name="Agility Boost (Minor)" iconId="1090552382" skillTypes="36" procProbability="0.05">
 <effect id="1879265206" name="Major Agility Boost"/>
 </procEffect>
-<procEffect id="1879265218" name="Will Boost (Major)" iconId="1090552382" skillTypes="36" probability="0.1">
+<procEffect id="1879265218" name="Will Boost (Major)" iconId="1090552382" skillTypes="36" procProbability="0.1">
 <effect id="1879265208" name="Major Will Boost"/>
 </procEffect>
-<procEffect id="1879265219" name="Agility Boost (Greater)" iconId="1090552382" skillTypes="36" probability="0.15">
+<procEffect id="1879265219" name="Agility Boost (Greater)" iconId="1090552382" skillTypes="36" procProbability="0.15">
 <effect id="1879265206" name="Major Agility Boost"/>
 </procEffect>
-<procEffect id="1879265220" name="Agility Boost (Major)" iconId="1090552382" skillTypes="36" probability="0.1">
+<procEffect id="1879265220" name="Agility Boost (Major)" iconId="1090552382" skillTypes="36" procProbability="0.1">
 <effect id="1879265206" name="Major Agility Boost"/>
 </procEffect>
-<procEffect id="1879265221" name="Will Boost (Greater)" iconId="1090552382" skillTypes="36" probability="0.15">
+<procEffect id="1879265221" name="Will Boost (Greater)" iconId="1090552382" skillTypes="36" procProbability="0.15">
 <effect id="1879265208" name="Major Will Boost"/>
 </procEffect>
-<procEffect id="1879265222" name="Will Boost (Minor)" iconId="1090552382" skillTypes="36" probability="0.05">
+<procEffect id="1879265222" name="Will Boost (Minor)" iconId="1090552382" skillTypes="36" procProbability="0.05">
 <effect id="1879265208" name="Major Will Boost"/>
 </procEffect>
-<procEffect id="1879265226" name="Critical Defence Boost (Major)" appliedDescription="On Being Hit: Chance to proc a Critical Defence Buff on the player" iconId="1090552382" skillTypes="36" probability="0.1">
+<procEffect id="1879265226" name="Critical Defence Boost (Major)" appliedDescription="On Being Hit: Chance to proc a Critical Defence Buff on the player" iconId="1090552382" skillTypes="36" procProbability="0.1">
 <effect id="1879265230" name="Major Critical Defence Boost"/>
 </procEffect>
-<procEffect id="1879265227" name="Critical Defence Boost (Minor)" appliedDescription="On Being Hit: Chance to proc a Critical Defence Buff on the player" iconId="1090552382" skillTypes="36" probability="0.1">
+<procEffect id="1879265227" name="Critical Defence Boost (Minor)" appliedDescription="On Being Hit: Chance to proc a Critical Defence Buff on the player" iconId="1090552382" skillTypes="36" procProbability="0.1">
 <effect id="1879265232" name="Minor Critical Defence Boost"/>
 </procEffect>
-<procEffect id="1879265228" name="Critical Defence Boost (Greater)" appliedDescription="On Being Hit: Chance to proc a Critical Defence Buff on the player" iconId="1090552382" skillTypes="36" probability="0.1">
+<procEffect id="1879265228" name="Critical Defence Boost (Greater)" appliedDescription="On Being Hit: Chance to proc a Critical Defence Buff on the player" iconId="1090552382" skillTypes="36" procProbability="0.1">
 <effect id="1879265231" name="Greater Critical Defence Boost"/>
 </procEffect>
 <propertyModEffect id="1879265230" name="Major Critical Defence Boost" iconId="1090648226" duration="20.0">
@@ -5745,13 +5745,13 @@
 <stat name="PHYSICAL_MITIGATION" scaling="1879215054"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879215082"/>
 </propertyModEffect>
-<procEffect id="1879265346" name="Mitigation Boost (Major)" appliedDescription="On Being Hit: Chance to proc a Mitigatoin Buff on the player" iconId="1090552382" skillTypes="36" probability="0.1">
+<procEffect id="1879265346" name="Mitigation Boost (Major)" appliedDescription="On Being Hit: Chance to proc a Mitigatoin Buff on the player" iconId="1090552382" skillTypes="36" procProbability="0.1">
 <effect id="1879265343" name="Major Mitigation Boost"/>
 </procEffect>
-<procEffect id="1879265347" name="Outgoing Heal Boost (Minor)" appliedDescription="On Heal: Chance to apply an Outgoing Heal Buff to the caster" iconId="1090552382" skillTypes="35" probability="0.1">
+<procEffect id="1879265347" name="Outgoing Heal Boost (Minor)" appliedDescription="On Heal: Chance to apply an Outgoing Heal Buff to the caster" iconId="1090552382" skillTypes="35" procProbability="0.1">
 <effect id="1879265341" name="Minor Outgoing Healing Boost"/>
 </procEffect>
-<procEffect id="1879265348" name="Mitigation Boost (Greater)" appliedDescription="On Being Hit: Chance to proc a Mitigatoin Buff on the player" iconId="1090552382" skillTypes="36" probability="0.1">
+<procEffect id="1879265348" name="Mitigation Boost (Greater)" appliedDescription="On Being Hit: Chance to proc a Mitigatoin Buff on the player" iconId="1090552382" skillTypes="36" procProbability="0.1">
 <effect id="1879265349" name="Greater Mitigation Boost"/>
 </procEffect>
 <propertyModEffect id="1879265349" name="Greater Mitigation Boost" iconId="1090563511" duration="20.0">
@@ -5762,28 +5762,28 @@
 <stat name="PHYSICAL_MITIGATION" scaling="1879215069"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879215079"/>
 </propertyModEffect>
-<procEffect id="1879265351" name="Mitigation Boost (Minor)" appliedDescription="On Being Hit: Chance to proc a Mitigatoin Buff on the player" iconId="1090552382" skillTypes="36" probability="0.1">
+<procEffect id="1879265351" name="Mitigation Boost (Minor)" appliedDescription="On Being Hit: Chance to proc a Mitigatoin Buff on the player" iconId="1090552382" skillTypes="36" procProbability="0.1">
 <effect id="1879265350" name="Minor Mitigation Boost"/>
 </procEffect>
-<procEffect id="1879265368" name="Critical Rating Boost (Minor)" description="On Hit: 10% chance to apply a stacking Critical Rating Buff (stacks 3 times)" appliedDescription="Applies Stacking Crit Rating Buff On Hit- application chance increases with each proc tier" iconId="1090552382" skillTypes="36" probability="0.1">
+<procEffect id="1879265368" name="Critical Rating Boost (Minor)" description="On Hit: 10% chance to apply a stacking Critical Rating Buff (stacks 3 times)" appliedDescription="Applies Stacking Crit Rating Buff On Hit- application chance increases with each proc tier" iconId="1090552382" skillTypes="36" procProbability="0.1">
 <effect id="1879265319" name="DNT"/>
 </procEffect>
-<procEffect id="1879265370" name="Critical Rating Boost (Major)" description="On Hit: 15% chance to apply a stacking Critical Rating Buff (stacks 3 times)" appliedDescription="Applies Stacking Crit Rating Buff On Hit- application chance increases with each proc tier" iconId="1090552382" skillTypes="36" probability="0.15">
+<procEffect id="1879265370" name="Critical Rating Boost (Major)" description="On Hit: 15% chance to apply a stacking Critical Rating Buff (stacks 3 times)" appliedDescription="Applies Stacking Crit Rating Buff On Hit- application chance increases with each proc tier" iconId="1090552382" skillTypes="36" procProbability="0.15">
 <effect id="1879265319" name="DNT"/>
 </procEffect>
-<procEffect id="1879265371" name="Critical Rating Boost (Greater)" description="On Hit: 20% chance to apply a stacking Critical Rating Buff (stacks 3 times)" appliedDescription="Applies Stacking Crit Rating Buff On Hit- application chance increases with each proc tier" iconId="1090552382" skillTypes="36" probability="0.2">
+<procEffect id="1879265371" name="Critical Rating Boost (Greater)" description="On Hit: 20% chance to apply a stacking Critical Rating Buff (stacks 3 times)" appliedDescription="Applies Stacking Crit Rating Buff On Hit- application chance increases with each proc tier" iconId="1090552382" skillTypes="36" procProbability="0.2">
 <effect id="1879265319" name="DNT"/>
 </procEffect>
 <instantVitalEffect id="1879265503" name="Damage" stat="Health_MaxLevel">
 <vitalChange constant="-350.0" variance="0.3"/>
 </instantVitalEffect>
-<procEffect id="1879265505" name="" description="Damage applied bypasses all mitigations" iconId="1090552382" skillTypes="39" probability="0.05">
+<procEffect id="1879265505" name="" description="Damage applied bypasses all mitigations" iconId="1090552382" skillTypes="39" procProbability="0.05">
 <effect id="1879265503" name="Damage"/>
 </procEffect>
-<procEffect id="1879265506" name="" description="Damage applied bypasses all mitigations" iconId="1090552382" skillTypes="39" probability="0.15">
+<procEffect id="1879265506" name="" description="Damage applied bypasses all mitigations" iconId="1090552382" skillTypes="39" procProbability="0.15">
 <effect id="1879265503" name="Damage"/>
 </procEffect>
-<procEffect id="1879265507" name="" description="Damage applied bypasses all mitigations" iconId="1090552382" skillTypes="39" probability="0.1">
+<procEffect id="1879265507" name="" description="Damage applied bypasses all mitigations" iconId="1090552382" skillTypes="39" procProbability="0.1">
 <effect id="1879265503" name="Damage"/>
 </procEffect>
 <effect id="1879265513" name="DNT"/>
@@ -5838,13 +5838,13 @@
 </fellowshipEffect>
 <propertyModEffect id="1879269572" name="Target Shooting" appliedDescription="Shoot targets from horseback." iconId="1090519170"/>
 <propertyModEffect id="1879269573" name="Net Fishing" appliedDescription="Net fish on the ice." iconId="1090519170" duration="120.0"/>
-<procEffect id="1879269590" name="Outgoing Heal Boost (Minor)" appliedDescription="On Captain Healing Skill: Chance to apply an Outgoing Heal Buff to the caster" iconId="1090552382" skillTypes="7" probability="0.1">
+<procEffect id="1879269590" name="Outgoing Heal Boost (Minor)" appliedDescription="On Captain Healing Skill: Chance to apply an Outgoing Heal Buff to the caster" iconId="1090552382" skillTypes="7" procProbability="0.1">
 <effect id="1879265341" name="Minor Outgoing Healing Boost"/>
 </procEffect>
-<procEffect id="1879269592" appliedDescription="On Captain Healing Skill: chance to apply a small fellowship heal" iconId="1090552382" skillTypes="7" probability="0.15" cooldown="30.0">
+<procEffect id="1879269592" appliedDescription="On Captain Healing Skill: chance to apply a small fellowship heal" iconId="1090552382" skillTypes="7" procProbability="0.15" cooldown="30.0">
 <effect id="1879263521" name="DNT - Skill Proc Minor Area Heal"/>
 </procEffect>
-<procEffect id="1879269594" name="Outgoing Heal Boost (Greater)" appliedDescription="On Captain Healing Skill: Chance to apply an Outgoing Heal Buff to the caster" iconId="1090552382" skillTypes="7" probability="0.1">
+<procEffect id="1879269594" name="Outgoing Heal Boost (Greater)" appliedDescription="On Captain Healing Skill: Chance to apply an Outgoing Heal Buff to the caster" iconId="1090552382" skillTypes="7" procProbability="0.1">
 <effect id="1879265340" name="Greater Outgoing Healing Boost"/>
 </procEffect>
 <effect id="1879270246" name="Tremor" iconId="1090523647" duration="4.0"/>
@@ -6097,17 +6097,17 @@
 <propertyModEffect id="1879300540" name="Forceful Lore-master" iconId="1090648220" duration="10.0">
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </propertyModEffect>
-<procEffect id="1879300541" name="Loremaster Heal" descriptionOverride="${PROCPROBABILITY} chance on healing (this effect applies to yourself)," iconId="1090552382" skillTypes="35" probability="0.1" cooldown="30.0">
+<procEffect id="1879300541" name="Loremaster Heal" descriptionOverride="${PROCPROBABILITY} chance on healing (this effect applies to yourself)," iconId="1090552382" skillTypes="35" procProbability="0.1" cooldown="30.0">
 <effect id="1879300574" name="Mending Lore-master"/>
 <effect id="1879300573" name="Mending Lore-master"/>
 </procEffect>
-<procEffect id="1879300542" name="Captain Tank" descriptionOverride="${PROCPROBABILITY} chance on being hit," iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879300542" name="Captain Tank" descriptionOverride="${PROCPROBABILITY} chance on being hit," iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879300568" name="DNT - Skill Proc Damage Mitigation Buff"/>
 </procEffect>
-<procEffect id="1879300543" name="Minstrel DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879300543" name="Minstrel DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879300550" name="Forceful Minstrel"/>
 </procEffect>
-<procEffect id="1879300544" name="Loremaster DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879300544" name="Loremaster DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879300540" name="Forceful Lore-master"/>
 </procEffect>
 <propertyModEffect id="1879300545" name="Tenacious Burglar" iconId="1090648220" duration="10.0">
@@ -6116,43 +6116,43 @@
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 <stat name="Burglar_Skill_CriticalMagnitude" descriptionOverride="+${PERCENTVALUE} Critical Magnitude" constant="30.000002"/>
 </propertyModEffect>
-<procEffect id="1879300547" name="Runekeeper DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" probability="0.1" cooldown="15.0">
+<procEffect id="1879300547" name="Runekeeper DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="15.0">
 <effect id="1879148074" name="Attunement shift"/>
 </procEffect>
-<procEffect id="1879300548" name="Guardian Tank" descriptionOverride="${PROCPROBABILITY} chance on being hit," iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879300548" name="Guardian Tank" descriptionOverride="${PROCPROBABILITY} chance on being hit," iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879300553" name="Hardened Guardian"/>
 </procEffect>
-<procEffect id="1879300549" name="Hunter Survive" descriptionOverride="${PROCPROBABILITY} chance on being hit," iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879300549" name="Hunter Survive" descriptionOverride="${PROCPROBABILITY} chance on being hit," iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879300565" name="Resourceful Hunter"/>
 <effect id="1879300571" name="Hunter Survive"/>
 </procEffect>
 <propertyModEffect id="1879300550" name="Forceful Minstrel" iconId="1090648220" duration="10.0"/>
-<procEffect id="1879300551" name="Champion Tank" descriptionOverride="${PROCPROBABILITY} chance on being hit," iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879300551" name="Champion Tank" descriptionOverride="${PROCPROBABILITY} chance on being hit," iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879300560" name="Hardened Champion"/>
 <effect id="1879300575" name="Champion Tank"/>
 </procEffect>
-<procEffect id="1879300552" name="Runekeeper Heal" descriptionOverride="${PROCPROBABILITY} chance on heal," iconId="1090552382" skillTypes="35" probability="0.1" cooldown="15.0">
+<procEffect id="1879300552" name="Runekeeper Heal" descriptionOverride="${PROCPROBABILITY} chance on heal," iconId="1090552382" skillTypes="35" procProbability="0.1" cooldown="15.0">
 <effect id="1879148075" name="Attunement shift"/>
 </procEffect>
 <propertyModEffect id="1879300553" name="Hardened Guardian" iconId="1090648220" duration="10.0">
 <stat name="CRITICAL_DEFENCE_PERCENTAGE" constant="20.0"/>
 </propertyModEffect>
-<procEffect id="1879300554" name="Hunter DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879300554" name="Hunter DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879300566" name="Tenacious Hunter"/>
 </procEffect>
-<procEffect id="1879300555" name="Warden Tank" descriptionOverride="${PROCPROBABILITY} chance on being healed by an ally:" iconId="1090552382" skillTypes="35" probability="0.1" cooldown="30.0">
+<procEffect id="1879300555" name="Warden Tank" descriptionOverride="${PROCPROBABILITY} chance on being healed by an ally:" iconId="1090552382" skillTypes="35" procProbability="0.1" cooldown="30.0">
 <effect id="1879300572" name="Seasoned Warden"/>
 </procEffect>
-<procEffect id="1879300556" name="Burglar DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879300556" name="Burglar DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879300545" name="Tenacious Burglar"/>
 </procEffect>
-<procEffect id="1879300557" name="Guardian DPS" descriptionOverride="${PROCPROBABILITY} chance on hit to trigger a parry response" iconId="1090552382" skillTypes="36" probability="0.1" cooldown="15.0">
+<procEffect id="1879300557" name="Guardian DPS" descriptionOverride="${PROCPROBABILITY} chance on hit to trigger a parry response" iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="15.0">
 <effect id="1879286824" name="Parry Response"/>
 </procEffect>
-<procEffect id="1879300558" name="Burglar Survive" descriptionOverride="${PROCPROBABILITY} chance on being hit," iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879300558" name="Burglar Survive" descriptionOverride="${PROCPROBABILITY} chance on being hit," iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879300561" name="Resourceful Burglar"/>
 </procEffect>
-<procEffect id="1879300559" name="Captain DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879300559" name="Captain DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879060330" name="Battle-readied"/>
 <effect id="1879275348" name="Battle-readied"/>
 </procEffect>
@@ -6162,14 +6162,14 @@
 <propertyModEffect id="1879300561" name="Resourceful Burglar" iconId="1090648220" duration="10.0">
 <stat name="PARRY_PERCENTAGE" constant="20.0"/>
 </propertyModEffect>
-<procEffect id="1879300562" name="Minstrel Heal" descriptionOverride="${PROCPROBABILITY} chance on healing (this effect applies to your target)," iconId="1090552382" skillTypes="35" probability="0.1" cooldown="30.0">
+<procEffect id="1879300562" name="Minstrel Heal" descriptionOverride="${PROCPROBABILITY} chance on healing (this effect applies to your target)," iconId="1090552382" skillTypes="35" procProbability="0.1" cooldown="30.0">
 <effect id="1879300576" name="Mending Minstrel"/>
 </procEffect>
 <propertyModEffect id="1879300563" name="Hardened Captain" iconId="1090648220" duration="10.0">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="10.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="10.0"/>
 </propertyModEffect>
-<procEffect id="1879300564" name="Champion DPS" descriptionOverride="${PROCPROBABILITY} chance on hit,&#10;Generate 2 Fervour every 2 seconds for 10 seconds" iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879300564" name="Champion DPS" descriptionOverride="${PROCPROBABILITY} chance on hit,&#10;Generate 2 Fervour every 2 seconds for 10 seconds" iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879300569" name="Stalwart Champion"/>
 </procEffect>
 <propertyModEffect id="1879300565" name="Resourceful Hunter" iconId="1090648220" duration="10.0">
@@ -6180,7 +6180,7 @@
 <stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 </propertyModEffect>
-<procEffect id="1879300567" name="Warden DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879300567" name="Warden DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879300577" name="Tenacious Warden"/>
 </procEffect>
 <fellowshipEffect id="1879300568" name="DNT - Skill Proc Damage Mitigation Buff" applyToPets="true" applyToTarget="true" range="30.0">
@@ -6368,7 +6368,7 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="20.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="20.0"/>
 </propertyModEffect>
-<procEffect id="1879315647" name="Retaliation" descriptionOverride="Captain: In retaliation to a critical hit, you have a 25% chance to increase damage by 20% for 10s." iconId="1090552382" skillTypes="36" probability="0.25">
+<procEffect id="1879315647" name="Retaliation" descriptionOverride="Captain: In retaliation to a critical hit, you have a 25% chance to increase damage by 20% for 10s." iconId="1090552382" skillTypes="36" procProbability="0.25">
 <effect id="1879315645" name="Retaliation"/>
 </procEffect>
 <propertyModEffect id="1879315659" name="Hands of Fury" iconId="1091829785" duration="20.0">
@@ -6376,10 +6376,10 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="10.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="10.0"/>
 </propertyModEffect>
-<procEffect id="1879315660" name="Hands of Fury" descriptionOverride="Captain: When performing a heal, you have a 5% chance to increase damage by 10% for 20s." iconId="1090552382" skillTypes="35" probability="0.05">
+<procEffect id="1879315660" name="Hands of Fury" descriptionOverride="Captain: When performing a heal, you have a 5% chance to increase damage by 10% for 20s." iconId="1090552382" skillTypes="35" procProbability="0.05">
 <effect id="1879315659" name="Hands of Fury"/>
 </procEffect>
-<procEffect id="1879315662" name="Healing Charge" descriptionOverride="Captain: Critical hits have a 10% chance to increase healing output by 20% for 10s." iconId="1090552382" skillTypes="36" probability="0.1">
+<procEffect id="1879315662" name="Healing Charge" descriptionOverride="Captain: Critical hits have a 10% chance to increase healing output by 20% for 10s." iconId="1090552382" skillTypes="36" procProbability="0.1">
 <effect id="1879315664" name="Healing Charge"/>
 </procEffect>
 <propertyModEffect id="1879315664" name="Healing Charge" iconId="1091829785" duration="10.0">
@@ -6388,10 +6388,10 @@
 <instantVitalEffect id="1879315685" name="A Fortunate Trick" stat="Health_MaxLevel" multiplicative="true">
 <vitalChange constant="0.1"/>
 </instantVitalEffect>
-<procEffect id="1879315686" name="A Fortunate Trick" descriptionOverride="Burglar: Tricks have a 5% chance to restore 10% of maximum morale." iconId="1090552382" skillTypes="60" probability="0.05">
+<procEffect id="1879315686" name="A Fortunate Trick" descriptionOverride="Burglar: Tricks have a 5% chance to restore 10% of maximum morale." iconId="1090552382" skillTypes="60" procProbability="0.05">
 <effect id="1879315685" name="A Fortunate Trick"/>
 </procEffect>
-<procEffect id="1879315688" name="The Power of Avoidance" descriptionOverride="Guardian: On block, parry, and evade, there is a 10% chance to restore 10% of total your Power." iconId="1090552382" skillTypes="" probability="0.1">
+<procEffect id="1879315688" name="The Power of Avoidance" descriptionOverride="Guardian: On block, parry, and evade, there is a 10% chance to restore 10% of total your Power." iconId="1090552382" skillTypes="" procProbability="0.1">
 <effect id="1879315689" name="The Power of Avoidance"/>
 </procEffect>
 <instantVitalEffect id="1879315689" name="The Power of Avoidance" stat="Power_MaxLevel" multiplicative="true">
@@ -6400,11 +6400,11 @@
 <instantVitalEffect id="1879315696" name="Determined Defender" stat="Health_MaxLevel" multiplicative="true">
 <vitalChange constant="0.1"/>
 </instantVitalEffect>
-<procEffect id="1879315697" name="Determined Defender" descriptionOverride="Warden: Dodging an attack has a 10% chance to restore 10% of your morale.&#10;This effect cannot occur more than once every 20s." iconId="1090552382" skillTypes="" probability="0.1" cooldown="10.0">
+<procEffect id="1879315697" name="Determined Defender" descriptionOverride="Warden: Dodging an attack has a 10% chance to restore 10% of your morale.&#10;This effect cannot occur more than once every 20s." iconId="1090552382" skillTypes="" procProbability="0.1" cooldown="10.0">
 <effect id="1879315696" name="Determined Defender"/>
 </procEffect>
 <propertyModEffect id="1879315701" name="Reckless Defender" descriptionOverride="Warden: Killing an enemy has a 10% chance to restore 25% of your max morale" appliedDescription="Warden: Defeating an enemy has a 10% chance to restore 25% of your max morale." iconId="1091804878"/>
-<procEffect id="1879315706" name="Cauterizing Flame" descriptionOverride="Rune-keeper: Fire skills have a 5% chance to restore 10% of morale." iconId="1090552382" skillTypes="24" probability="0.05">
+<procEffect id="1879315706" name="Cauterizing Flame" descriptionOverride="Rune-keeper: Fire skills have a 5% chance to restore 10% of morale." iconId="1090552382" skillTypes="24" procProbability="0.05">
 <effect id="1879315707" name="Cauterizing Flame"/>
 </procEffect>
 <instantVitalEffect id="1879315707" name="Cauterizing Flame" stat="Health_MaxLevel" multiplicative="true">
@@ -6413,16 +6413,16 @@
 <propertyModEffect id="1879315731" name="War Council" iconId="1091611540" duration="10.0">
 <stat name="Combat_OutgoingHeals_EffectMod" constant="10.0"/>
 </propertyModEffect>
-<procEffect id="1879315732" name="War Council" descriptionOverride="Minstrel: Call to War skills have a 5% chance to proc a 20% healing increase for 10s." iconId="1090552382" skillTypes="21" probability="0.05">
+<procEffect id="1879315732" name="War Council" descriptionOverride="Minstrel: Call to War skills have a 5% chance to proc a 20% healing increase for 10s." iconId="1090552382" skillTypes="21" procProbability="0.05">
 <effect id="1879315731" name="War Council"/>
 </procEffect>
-<procEffect id="1879315739" name="Protector of Power" descriptionOverride="Minstrel: Anthems have a 25% chance to reduce power costs by 50% for 10s." iconId="1090552382" skillTypes="17" probability="0.25">
+<procEffect id="1879315739" name="Protector of Power" descriptionOverride="Minstrel: Anthems have a 25% chance to reduce power costs by 50% for 10s." iconId="1090552382" skillTypes="17" procProbability="0.25">
 <effect id="1879315740" name="Protector of Power"/>
 </procEffect>
 <propertyModEffect id="1879315740" name="Protector of Power" iconId="1091611540" duration="10.0">
 <stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
-<procEffect id="1879315744" name="Combat Medic" descriptionOverride="Minstrel: Healing skills have a 5% chance to proc a 10% damage increase for 10s." iconId="1090552382" skillTypes="35" probability="0.05">
+<procEffect id="1879315744" name="Combat Medic" descriptionOverride="Minstrel: Healing skills have a 5% chance to proc a 10% damage increase for 10s." iconId="1090552382" skillTypes="35" procProbability="0.05">
 <effect id="1879315745" name="Combat Medic"/>
 </procEffect>
 <propertyModEffect id="1879315745" name="Combat Medic" iconId="1091611540" duration="10.0">
@@ -6431,60 +6431,60 @@
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879315750" name="Stick and Move" descriptionOverride="Guardian: Killing an enemy has a 25% chance to gain 50% run speed for 10s" appliedDescription="Guardian: On defeat of an enemy, 25% chance to gain 50% run speed for 10s" iconId="1091804878"/>
-<procEffect id="1879315752" name="Powerful Draw" descriptionOverride="Hunter: Critical Hits have a 25% chance to apply an effect that reduces power costs by 50% for 10s." iconId="1090552382" skillTypes="36" probability="0.25">
+<procEffect id="1879315752" name="Powerful Draw" descriptionOverride="Hunter: Critical Hits have a 25% chance to apply an effect that reduces power costs by 50% for 10s." iconId="1090552382" skillTypes="36" procProbability="0.25">
 <effect id="1879315753" name="Powerful Draw"/>
 </procEffect>
 <propertyModEffect id="1879315753" name="Powerful Draw" iconId="1091798514" duration="10.0">
 <stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
-<procEffect id="1879315757" name="Rune of Peace" descriptionOverride="Rune-keeper: Heals have a 5% chance to increase the healing of your next Rune of Restoration by 100%." iconId="1090552382" skillTypes="35" probability="0.05">
+<procEffect id="1879315757" name="Rune of Peace" descriptionOverride="Rune-keeper: Heals have a 5% chance to increase the healing of your next Rune of Restoration by 100%." iconId="1090552382" skillTypes="35" procProbability="0.05">
 <effect id="1879315962" name="Rune of Peace"/>
 </procEffect>
-<procEffect id="1879315800" name="The Red Storm" descriptionOverride="Champion: Melee skills have a 5% chance to apply a bleed." iconId="1090552382" skillTypes="15" probability="0.05">
+<procEffect id="1879315800" name="The Red Storm" descriptionOverride="Champion: Melee skills have a 5% chance to apply a bleed." iconId="1090552382" skillTypes="15" procProbability="0.05">
 <effect id="1879111267" name="Bleeding"/>
 </procEffect>
-<procEffect id="1879315803" name="Go Berserk" descriptionOverride="Champion: Melee skills have a 5% chance to add 5 Fervour." iconId="1090552382" skillTypes="15" probability="0.05">
+<procEffect id="1879315803" name="Go Berserk" descriptionOverride="Champion: Melee skills have a 5% chance to add 5 Fervour." iconId="1090552382" skillTypes="15" procProbability="0.05">
 <effect id="1879315804" name="Fervour Boost"/>
 </procEffect>
 <effect id="1879315804" name="Fervour Boost" description="Adds 5 Fervour"/>
 <effect id="1879315805" name="Fight On"/>
-<procEffect id="1879315807" name="Martial Arts" descriptionOverride="Champion: Melee skills have a 5% chance to reset the cooldown of Fight On." iconId="1090552382" skillTypes="3,15" probability="0.05" cooldown="45.0">
+<procEffect id="1879315807" name="Martial Arts" descriptionOverride="Champion: Melee skills have a 5% chance to reset the cooldown of Fight On." iconId="1090552382" skillTypes="3,15" procProbability="0.05" cooldown="45.0">
 <effect id="1879315805" name="Fight On"/>
 </procEffect>
-<procEffect id="1879315808" name="Stunned from Shadow" descriptionOverride="Guardian: Melee skills have a 5% chance to apply a 6s stun." iconId="1090552382" skillTypes="15" probability="0.05">
+<procEffect id="1879315808" name="Stunned from Shadow" descriptionOverride="Guardian: Melee skills have a 5% chance to apply a 6s stun." iconId="1090552382" skillTypes="15" procProbability="0.05">
 <effect id="1879165462" name="Induce Stunned"/>
 </procEffect>
 <effect id="1879315815" name="Induction Removal Penalty" iconId="1090523647" duration="10.0"/>
 <propertyModEffect id="1879315816" name="Trapper of Thorns" iconId="1091798514">
 <stat name="Skill_Loremaster_DamageBreakMod_BlindingFlash" operator="SUBSTRACT" descriptionOverride="Hunter: Reduces Rain of Thorns break chance to 10%" constant="0.15"/>
 </propertyModEffect>
-<procEffect id="1879315818" name="Free to Hunt" descriptionOverride="Hunter: On being hit, 5% chance to remove movement penalty while inducting for 10s." iconId="1090552382" skillTypes="36" probability="0.05">
+<procEffect id="1879315818" name="Free to Hunt" descriptionOverride="Hunter: On being hit, 5% chance to remove movement penalty while inducting for 10s." iconId="1090552382" skillTypes="36" procProbability="0.05">
 <effect id="1879315815" name="Induction Removal Penalty"/>
 </procEffect>
 <effect id="1879315829" name="DNT - Nature's Fury Cooldown Mod" appliedDescription="-5s Nature's Fury Cooldown"/>
 <effect id="1879315830" name="DNT - Ancient Master Cooldown Mod" appliedDescription="-5s Ancient Master Cooldown"/>
 <effect id="1879315831" name="DNT - Murder of Crows Cooldown Mod" appliedDescription="-5s Murder of Crows Cooldown"/>
-<procEffect id="1879315835" name="Nature's Wrath" descriptionOverride="Lore-master: Fury of Nature skills have a 10% chance to reduce the cooldown of Nature's Fury skill by 10s." iconId="1090552382" skillTypes="26" probability="0.1">
+<procEffect id="1879315835" name="Nature's Wrath" descriptionOverride="Lore-master: Fury of Nature skills have a 10% chance to reduce the cooldown of Nature's Fury skill by 10s." iconId="1090552382" skillTypes="26" procProbability="0.1">
 <effect id="1879315829" name="DNT - Nature's Fury Cooldown Mod"/>
 </procEffect>
-<procEffect id="1879315837" name="Wisdom" descriptionOverride="Lore-master: Lore skills have a 10% chance to reduce the cooldown of “The Ancient Master” skill by 10s." iconId="1090552382" skillTypes="21" probability="0.1">
+<procEffect id="1879315837" name="Wisdom" descriptionOverride="Lore-master: Lore skills have a 10% chance to reduce the cooldown of “The Ancient Master” skill by 10s." iconId="1090552382" skillTypes="21" procProbability="0.1">
 <effect id="1879315830" name="DNT - Ancient Master Cooldown Mod"/>
 </procEffect>
 <propertyModEffect id="1879315864" name="Critical Harmony" iconId="1091414344" duration="10.0">
 <stat name="CRITICAL_DEFENCE_PERCENTAGE" descriptionOverride="${PERCENTVALUE} Critical Defence" constant="-10.0"/>
 </propertyModEffect>
-<procEffect id="1879315875" name="Critical Harmony" descriptionOverride="Burglar: Critical Hits have a 25% chance to reduce the targets critical defence rating by 10% for 10s." iconId="1090552382" skillTypes="36,56" probability="0.25">
+<procEffect id="1879315875" name="Critical Harmony" descriptionOverride="Burglar: Critical Hits have a 25% chance to reduce the targets critical defence rating by 10% for 10s." iconId="1090552382" skillTypes="36,56" procProbability="0.25">
 <effect id="1879315864" name="Critical Harmony"/>
 </procEffect>
-<procEffect id="1879315878" name="Animal Lover" descriptionOverride="Lore-master: Critical hits have a 25% chance to lower the cooldown of A Murder of Crows by 5s." iconId="1090552382" skillTypes="35,39,56" probability="0.25">
+<procEffect id="1879315878" name="Animal Lover" descriptionOverride="Lore-master: Critical hits have a 25% chance to lower the cooldown of A Murder of Crows by 5s." iconId="1090552382" skillTypes="35,39,56" procProbability="0.25">
 <effect id="1879315831" name="DNT - Murder of Crows Cooldown Mod"/>
 </procEffect>
-<procEffect id="1879315886" name="Lightning Strikes Twice" descriptionOverride="Rune-keeper: Lightning skills have a 5% chance to trigger an additional lightning strike." iconId="1090552382" skillTypes="43" probability="0.05">
+<procEffect id="1879315886" name="Lightning Strikes Twice" descriptionOverride="Rune-keeper: Lightning skills have a 5% chance to trigger an additional lightning strike." iconId="1090552382" skillTypes="43" procProbability="0.05">
 <effect id="1879275413" name="Fulgurite Strike"/>
 <effect id="1879315899" name="DNT- Lightning Runestone Lightning Strike"/>
 </procEffect>
 <effect id="1879315899" name="DNT- Lightning Runestone Lightning Strike"/>
-<procEffect id="1879315902" name="Physical Assault" descriptionOverride="Warden: Critical hits have a 25% chance of increasing the melee damage your target takes by 5% for 10s." iconId="1090552382" skillTypes="36" probability="0.25">
+<procEffect id="1879315902" name="Physical Assault" descriptionOverride="Warden: Critical hits have a 25% chance of increasing the melee damage your target takes by 5% for 10s." iconId="1090552382" skillTypes="36" procProbability="0.25">
 <effect id="1879315903" name="Wall-Warden's Shield Mastery"/>
 </procEffect>
 <propertyModEffect id="1879315903" name="Wall-Warden's Shield Mastery" iconId="1091471248" duration="10.0">
@@ -6495,7 +6495,7 @@
 <stat name="Skill_Runekeeper_RuneRestoration_HealMod" descriptionOverride="-" constant="100.0"/>
 <effect id="1879315961" name="Rune of Peace"/>
 </procEffect>
-<procEffect id="1879315970" name="Lucky Roll" descriptionOverride="Burglar: Evading an attack has a 15% chance to restore 10% of your maximum morale.&#10;This effect cannot occur more than once every 10s." iconId="1090552382" skillTypes="" probability="0.15" cooldown="10.0">
+<procEffect id="1879315970" name="Lucky Roll" descriptionOverride="Burglar: Evading an attack has a 15% chance to restore 10% of your maximum morale.&#10;This effect cannot occur more than once every 10s." iconId="1090552382" skillTypes="" procProbability="0.15" cooldown="10.0">
 <effect id="1879315685" name="A Fortunate Trick"/>
 </procEffect>
 <effect id="1879316364" name="Gondorian Treasure Cache"/>
@@ -6569,10 +6569,10 @@
 <propertyModEffect id="1879318746" name="Berserker of the Wall" iconId="1091479052" duration="12.0">
 <stat name="CRITICAL_MELEE_PERCENTAGE" constant="5.0"/>
 </propertyModEffect>
-<procEffect id="1879318747" name="Beorning Survive" descriptionOverride="${PROCPROBABILITY} chance on being hit," iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879318747" name="Beorning Survive" descriptionOverride="${PROCPROBABILITY} chance on being hit," iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879318745" name="Defender of the Wall"/>
 </procEffect>
-<procEffect id="1879318748" name="Beorning DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879318748" name="Beorning DPS" descriptionOverride="${PROCPROBABILITY} chance on hit," iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879318746" name="Berserker of the Wall"/>
 </procEffect>
 <instantVitalEffect id="1879319178" name="A Quick Dodge" stat="Health_MaxLevel" multiplicative="true">
@@ -6581,13 +6581,13 @@
 <propertyModEffect id="1879319179" name="A Sharpened Claw" iconId="1091941779" duration="10.0">
 <stat name="CRITICAL_MELEE_PERCENTAGE" constant="5.0"/>
 </propertyModEffect>
-<procEffect id="1879319184" name="A Quick Dodge" descriptionOverride="Beorning: Evading an attack has a 15% chance to restore 10% of your maximum morale.&#10;This effect cannot occur more than once every 10s." iconId="1090552382" skillTypes="" probability="0.15" cooldown="10.0">
+<procEffect id="1879319184" name="A Quick Dodge" descriptionOverride="Beorning: Evading an attack has a 15% chance to restore 10% of your maximum morale.&#10;This effect cannot occur more than once every 10s." iconId="1090552382" skillTypes="" procProbability="0.15" cooldown="10.0">
 <effect id="1879319178" name="A Quick Dodge"/>
 </procEffect>
-<procEffect id="1879319185" name="A Sharpened Claw" descriptionOverride="Beorning: Expose has a 15% chance to grant 5% Critical Chance for 10s." iconId="1090552382" skillTypes="9" probability="0.15">
+<procEffect id="1879319185" name="A Sharpened Claw" descriptionOverride="Beorning: Expose has a 15% chance to grant 5% Critical Chance for 10s." iconId="1090552382" skillTypes="9" procProbability="0.15">
 <effect id="1879319179" name="A Sharpened Claw"/>
 </procEffect>
-<procEffect id="1879319186" name="Critical Harmony" descriptionOverride="Beorning: Encouraging Roar has a 15% chance to grant your target 5% Incoming Healing for 10s." iconId="1090552382" skillTypes="31" probability="0.15">
+<procEffect id="1879319186" name="Critical Harmony" descriptionOverride="Beorning: Encouraging Roar has a 15% chance to grant your target 5% Incoming Healing for 10s." iconId="1090552382" skillTypes="31" procProbability="0.15">
 <effect id="1879319187" name="Nature's Roar"/>
 </procEffect>
 <propertyModEffect id="1879319187" name="Nature's Roar" iconId="1091941829" duration="10.0">
@@ -6762,7 +6762,7 @@
 <specialEffect label="You are carrying a hefty powder keg and should use it against your foe!"/>
 </propertyModEffect>
 <propertyModEffect id="1879334629" name="DNT - Increases Hammer Down's vital threshold to 40% Morale" iconId="1090519170"/>
-<procEffect id="1879335376" name="Tactical Mitigation" appliedDescription="Sure Strike has a chance to proc a tactical mitigation buff." iconId="1090552382" skillTypes="30" probability="0.5" cooldown="45.0">
+<procEffect id="1879335376" name="Tactical Mitigation" appliedDescription="Sure Strike has a chance to proc a tactical mitigation buff." iconId="1090552382" skillTypes="30" procProbability="0.5" cooldown="45.0">
 <effect id="1879335377" name="Tactical Defence"/>
 </procEffect>
 <propertyModEffect id="1879335377" name="Tactical Defence" iconId="1091476092" duration="12.0">
@@ -7379,7 +7379,7 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
 </propertyModEffect>
-<procEffect id="1879402571" name="Aggressive Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of gaining +5% damage.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" probability="0.25" cooldown="30.0">
+<procEffect id="1879402571" name="Aggressive Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of gaining +5% damage.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" procProbability="0.25" cooldown="30.0">
 <effect id="1879402570" name="Aggressive Essence"/>
 </procEffect>
 <propertyModEffect id="1879402572" name="Mender's Essence" iconId="1091930623" duration="10.0">
@@ -7396,19 +7396,19 @@
 <propertyModEffect id="1879402577" name="Deft Essence" iconId="1091914764" duration="10.0">
 <stat name="FINESSE" scaling="1879367861"/>
 </propertyModEffect>
-<procEffect id="1879402578" name="Precise Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of gaining +5% critical chance.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" probability="0.25" cooldown="30.0">
+<procEffect id="1879402578" name="Precise Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of gaining +5% critical chance.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" procProbability="0.25" cooldown="30.0">
 <effect id="1879402574" name="Precise Essence"/>
 </procEffect>
-<procEffect id="1879402579" name="Ioreth's Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;When using a healing skill, there is a 25% chance of healing 5% of the target's maximum Morale.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="35" probability="0.25" cooldown="30.0">
+<procEffect id="1879402579" name="Ioreth's Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;When using a healing skill, there is a 25% chance of healing 5% of the target's maximum Morale.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="35" procProbability="0.25" cooldown="30.0">
 <effect id="1879402575" name="Morale Restoration"/>
 </procEffect>
-<procEffect id="1879402581" name="Healer's Precise Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;When using a healing skill, there is a 25% chance of gaining +5% critical chance.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="35" probability="0.25" cooldown="30.0">
+<procEffect id="1879402581" name="Healer's Precise Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;When using a healing skill, there is a 25% chance of gaining +5% critical chance.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="35" procProbability="0.25" cooldown="30.0">
 <effect id="1879402588" name="Healer's Precise Essence"/>
 </procEffect>
 <propertyModEffect id="1879402582" name="Leader's Essence" iconId="1091914759" duration="10.0">
 <stat name="INCOMING_HEALING_PERCENTAGE" constant="5.0"/>
 </propertyModEffect>
-<procEffect id="1879402584" name="Mender's Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;When using a healing skill, there is a 25% chance of gaining an Outgoing Healing bonus.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="35" probability="0.25" cooldown="30.0">
+<procEffect id="1879402584" name="Mender's Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;When using a healing skill, there is a 25% chance of gaining an Outgoing Healing bonus.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="35" procProbability="0.25" cooldown="30.0">
 <effect id="1879402572" name="Mender's Essence"/>
 </procEffect>
 <propertyModEffect id="1879402585" name="Harrier's Essence" iconId="1091930601" duration="10.0">
@@ -7418,7 +7418,7 @@
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
 </propertyModEffect>
-<procEffect id="1879402587" name="Deft Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of gaining a Finesse ratings bonus.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" probability="0.25" cooldown="30.0">
+<procEffect id="1879402587" name="Deft Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of gaining a Finesse ratings bonus.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" procProbability="0.25" cooldown="30.0">
 <effect id="1879402577" name="Deft Essence" spellcraft="130.0"/>
 </procEffect>
 <propertyModEffect id="1879402588" name="Healer's Precise Essence" iconId="1091914758" duration="10.0">
@@ -7426,7 +7426,7 @@
 <stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 </propertyModEffect>
-<procEffect id="1879402590" name="Harrier's Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of gaining +10% Attack Speed.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" probability="0.25" cooldown="30.0">
+<procEffect id="1879402590" name="Harrier's Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of gaining +10% Attack Speed.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" procProbability="0.25" cooldown="30.0">
 <effect id="1879402585" name="Harrier's Essence"/>
 </procEffect>
 <fellowshipEffect id="1879402595" name="DNT - Fellowship's Clever Essence" applyToTarget="true" range="25.0">
@@ -7483,7 +7483,7 @@
 <propertyModEffect id="1879404913" name="DNT - Trickster Cooldown" iconId="1091590422">
 <stat name="Trait_Burglar_Trickster_Cooldown" operator="SUBSTRACT" descriptionOverride="-" constant="15.0"/>
 </propertyModEffect>
-<procEffect id="1879404914" name="DNT Champion's duel reset" appliedDescription="DNT - Chance to reset Champion's Duel on skill attacks." iconId="1090552382" skillTypes="33" probability="0.1">
+<procEffect id="1879404914" name="DNT Champion's duel reset" appliedDescription="DNT - Chance to reset Champion's Duel on skill attacks." iconId="1090552382" skillTypes="33" procProbability="0.1">
 <effect id="1879404915" name="DNT - Champion's Duel"/>
 </procEffect>
 <effect id="1879404915" name="DNT - Champion's Duel"/>
@@ -7502,25 +7502,25 @@
 <propertyModEffect id="1879405118" name="DNT - Bubble Magnitude" iconId="1090553816">
 <stat name="Skill_Runekeeper_EssayExaltation_BubbleMod" constant="20.0"/>
 </propertyModEffect>
-<procEffect id="1879405143" name="Prudent Healer's Essence[e]" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;When using a healing skill, there is a 25% chance of gaining +5% Incoming Healing.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="35" probability="0.25" cooldown="30.0">
+<procEffect id="1879405143" name="Prudent Healer's Essence[e]" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;When using a healing skill, there is a 25% chance of gaining +5% Incoming Healing.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="35" procProbability="0.25" cooldown="30.0">
 <effect id="1879402582" name="Leader's Essence"/>
 </procEffect>
-<procEffect id="1879405146" name="Prudent Striker's Essence[e]" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of gaining +5% Incoming Healing.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" probability="0.25" cooldown="30.0">
+<procEffect id="1879405146" name="Prudent Striker's Essence[e]" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of gaining +5% Incoming Healing.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" procProbability="0.25" cooldown="30.0">
 <effect id="1879402582" name="Leader's Essence"/>
 </procEffect>
-<procEffect id="1879405147" name="Cautious Healer's Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;When using a healing skill, there is a 25% chance of gaining +2% Physical and 2% Tactical Mitigations.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="35" probability="0.25" cooldown="30.0">
+<procEffect id="1879405147" name="Cautious Healer's Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;When using a healing skill, there is a 25% chance of gaining +2% Physical and 2% Tactical Mitigations.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="35" procProbability="0.25" cooldown="30.0">
 <effect id="1879402586" name="Defender's Essence"/>
 </procEffect>
-<procEffect id="1879405156" name="Prudent Fellowship Healer's Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;When using a healing skill, there is a 25% chance of providing +1% Incoming Healing for your fellowship.&#10;This effect may tier up to 3 times.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="35" probability="0.25" cooldown="30.0">
+<procEffect id="1879405156" name="Prudent Fellowship Healer's Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;When using a healing skill, there is a 25% chance of providing +1% Incoming Healing for your fellowship.&#10;This effect may tier up to 3 times.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="35" procProbability="0.25" cooldown="30.0">
 <effect id="1879402603" name="DNT - Fellowship's Clever Essence"/>
 </procEffect>
-<procEffect id="1879405158" name="Cautious Striker's Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of gaining +2% Physical and 2% Tactical Mitigations.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" probability="0.25" cooldown="30.0">
+<procEffect id="1879405158" name="Cautious Striker's Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of gaining +2% Physical and 2% Tactical Mitigations.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" procProbability="0.25" cooldown="30.0">
 <effect id="1879402586" name="Defender's Essence"/>
 </procEffect>
-<procEffect id="1879405163" name="Cautious Fellowship Striker's Moonlit Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of providing +.5% Physical and .5% Tactical Mitigations for your fellowship.&#10;This effect may tier up to 3 times.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" probability="0.25" cooldown="30.0">
+<procEffect id="1879405163" name="Cautious Fellowship Striker's Moonlit Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of providing +.5% Physical and .5% Tactical Mitigations for your fellowship.&#10;This effect may tier up to 3 times.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" procProbability="0.25" cooldown="30.0">
 <effect id="1879402595" name="DNT - Fellowship's Clever Essence"/>
 </procEffect>
-<procEffect id="1879405166" name="Fellowship Aggressor's Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of providing +2.5% damage for your fellowship.&#10;This effect may tier up to 3 times.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" probability="0.25" cooldown="30.0">
+<procEffect id="1879405166" name="Fellowship Aggressor's Essence" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 25% chance of providing +2.5% damage for your fellowship.&#10;This effect may tier up to 3 times.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 30s." iconId="1090552382" skillTypes="36" procProbability="0.25" cooldown="30.0">
 <effect id="1879402631" name="DNT - Fellowship's Clever Essence"/>
 </procEffect>
 <effect id="1879405307" name="DNT - Grar's Pendant" appliedDescription="DNT - Wearing Grar's Pendant" iconId="1090519170"/>
@@ -7752,10 +7752,10 @@
 <effect id="1879416182" name="Portent of Vitality" iconId="1090644843" duration="1.0" pulseCount="2"/>
 <effect id="1879416184" name="Portent of Vitality" iconId="1090644843" duration="1.0" pulseCount="2"/>
 <effect id="1879416187" name="Portent of Vitality" iconId="1090644843" duration="1.0" pulseCount="2"/>
-<procEffect id="1879417075" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of encasing your enemy in chilling frost.&#10;This effect lasts 16s.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 5s." iconId="1090552382" skillTypes="39" probability="0.1" cooldown="5.0">
+<procEffect id="1879417075" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of encasing your enemy in chilling frost.&#10;This effect lasts 16s.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 5s." iconId="1090552382" skillTypes="39" procProbability="0.1" cooldown="5.0">
 <effect id="1879417153" name="Rime Frost"/>
 </procEffect>
-<procEffect id="1879417076" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of granting you a power regeneration effect.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 10s." iconId="1090552382" skillTypes="35,39" probability="0.1" cooldown="10.0">
+<procEffect id="1879417076" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of granting you a power regeneration effect.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 10s." iconId="1090552382" skillTypes="35,39" procProbability="0.1" cooldown="10.0">
 <effect id="1879417148" name="Flowing Vigour"/>
 </procEffect>
 <genesis id="1879417078" name=".." appliedDescription=".." summonDuration="5.0">
@@ -7763,17 +7763,17 @@
 <effect id="1879149379" name="DNT - Do Nothing"/>
 </hotspot>
 </genesis>
-<procEffect id="1879417079" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of encasing your enemy in flames.&#10;This effect lasts 10s.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 5s." iconId="1090552382" skillTypes="39" probability="0.1" cooldown="5.0">
+<procEffect id="1879417079" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of encasing your enemy in flames.&#10;This effect lasts 10s.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 5s." iconId="1090552382" skillTypes="39" procProbability="0.1" cooldown="5.0">
 <effect id="1879417151" name="Sanctified Flame"/>
 </procEffect>
-<procEffect id="1879417080" name="DNT" iconId="1090552382" skillTypes="36" probability="0.1" cooldown="15.0">
+<procEffect id="1879417080" name="DNT" iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="15.0">
 <effect id="1879417078" name=".."/>
 <effect id="1879417084" name=".."/>
 </procEffect>
-<procEffect id="1879417081" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of granting you a morale regeneration effect.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 10s." iconId="1090552382" skillTypes="35,39" probability="0.1" cooldown="10.0">
+<procEffect id="1879417081" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of granting you a morale regeneration effect.&#10;This effect lasts 10s&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 10s." iconId="1090552382" skillTypes="35,39" procProbability="0.1" cooldown="10.0">
 <effect id="1879417147" name="Firm Confidence"/>
 </procEffect>
-<procEffect id="1879417083" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of encasing your enemy in burning light.&#10;This effect lasts 20s.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 5s." iconId="1090552382" skillTypes="39" probability="0.1" cooldown="5.0">
+<procEffect id="1879417083" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of encasing your enemy in burning light.&#10;This effect lasts 20s.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 5s." iconId="1090552382" skillTypes="39" procProbability="0.1" cooldown="5.0">
 <effect id="1879417118" name="Cleansing Light"/>
 </procEffect>
 <genesis id="1879417084" name=".." appliedDescription=".." summonDuration="6.0">
@@ -7804,7 +7804,7 @@
 <instantVitalEffect id="1879417195" name="Glacial Blast" stat="Health_MaxLevel">
 <vitalChange progressionID="1879180337"/>
 </instantVitalEffect>
-<procEffect id="1879417196" name="DNT" iconId="1090552382" skillTypes="36" probability="0.1" cooldown="15.0">
+<procEffect id="1879417196" name="DNT" iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="15.0">
 <effect id="1879417197" name=".."/>
 <effect id="1879417202" name=".."/>
 </procEffect>
@@ -7843,13 +7843,13 @@
 <effect id="1879418943" name="Launching Fireworks" appliedDescription="Fireworks are going off."/>
 <effect id="1879418944" name="Launching Fireworks" appliedDescription="Fireworks are going off."/>
 <effect id="1879420805" name="Put on Costume - Hermáth Stormhammer" description="Puts on your costume!" iconId="1090519170" duration="1.0" pulseCount="1"/>
-<procEffect id="1879421004" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of creating a blast of damaging light.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 10s." iconId="1090552382" skillTypes="39" probability="0.1" cooldown="10.0">
+<procEffect id="1879421004" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of creating a blast of damaging light.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 10s." iconId="1090552382" skillTypes="39" procProbability="0.1" cooldown="10.0">
 <effect id="1879417507" name="DNT - Rune of Light"/>
 </procEffect>
-<procEffect id="1879421005" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of creating a blast of fire.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 10s." iconId="1090552382" skillTypes="39" probability="0.1" cooldown="10.0">
+<procEffect id="1879421005" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of creating a blast of fire.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 10s." iconId="1090552382" skillTypes="39" procProbability="0.1" cooldown="10.0">
 <effect id="1879417505" name="DNT - Rune of Flame"/>
 </procEffect>
-<procEffect id="1879421006" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of creating a blast of ice.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 10s." iconId="1090552382" skillTypes="39" probability="0.1" cooldown="10.0">
+<procEffect id="1879421006" name="DNT" description="&lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt;:&#10;On hit, there is a 10% chance of creating a blast of ice.&#10;Cannot &lt;rgb=#ffffff&gt;Trigger&lt;/rgb&gt; this effect more than once every 10s." iconId="1090552382" skillTypes="39" procProbability="0.1" cooldown="10.0">
 <effect id="1879417506" name="DNT - Rune of Frost"/>
 </procEffect>
 <effect id="1879421504" name="Call Horin"/>
@@ -7959,7 +7959,7 @@
 <effect id="1879444908" name="DNT - BurningIce fireproc dispel"/>
 </procEffect>
 <effect id="1879444908" name="DNT - BurningIce fireproc dispel"/>
-<procEffect id="1879444909" name="Hoarfire" appliedDescription="Fire Skills: 20% chance to trigger the Hoarfire Cycle. (20s CD)" iconId="1090552382" skillTypes="24,62" probability="0.2" cooldown="20.0">
+<procEffect id="1879444909" name="Hoarfire" appliedDescription="Fire Skills: 20% chance to trigger the Hoarfire Cycle. (20s CD)" iconId="1090552382" skillTypes="24,62" procProbability="0.2" cooldown="20.0">
 <effect id="1879444905" name="Hoarfire: Frost"/>
 </procEffect>
 <propertyModEffect id="1879444952" name="DNT - Flurry of Words puts the Frozen Armor effect on nearby allies." iconId="1090519170"/>
@@ -8143,62 +8143,62 @@
 <stat name="RANGED_DEFENCE_PERCENTAGE" constant="3.0"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" constant="3.0"/>
 </propertyModEffect>
-<procEffect id="1879455032" descriptionOverride="When you critically hit, there is a 25% chance you will reduce your target's critical defence by 10% for 15s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" probability="0.25" cooldown="30.0">
+<procEffect id="1879455032" descriptionOverride="When you critically hit, there is a 25% chance you will reduce your target's critical defence by 10% for 15s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" procProbability="0.25" cooldown="30.0">
 <effect id="1879455027" name="Critical Defences Broken"/>
 </procEffect>
 <procEffect id="1879455033" descriptionOverride="Tricks will restore 5% of your max morale when used.&#10;&#10;This effect has a 15s cooldown." iconId="1090552382" skillTypes="60" cooldown="15.0">
 <effect id="1879455028" name="A Trick's Essence of Mischief"/>
 </procEffect>
-<procEffect id="1879455045" descriptionOverride="When you critically hit, there is a 25% chance your bonus damage from Mettle will be doubled for 10s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" probability="0.25" cooldown="30.0">
+<procEffect id="1879455045" descriptionOverride="When you critically hit, there is a 25% chance your bonus damage from Mettle will be doubled for 10s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" procProbability="0.25" cooldown="30.0">
 <effect id="1879455513" name="Double Mettle Bonus Damage"/>
 </procEffect>
-<procEffect id="1879455046" descriptionOverride="When you critically hit, there is a 25% chance your Fervour bonus damage will be doubled for 10s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" probability="0.25" cooldown="30.0">
+<procEffect id="1879455046" descriptionOverride="When you critically hit, there is a 25% chance your Fervour bonus damage will be doubled for 10s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" procProbability="0.25" cooldown="30.0">
 <effect id="1879455526" name="Bonus Melee Damage from Fervour"/>
 </procEffect>
-<procEffect id="1879455047" descriptionOverride="When you critically hit, there is a 25% chance the cooldown of Battle-shout will be reset.&#10;&#10;This effect has a 20s cooldown." iconId="1090552382" skillTypes="35,36" probability="0.25" cooldown="20.0">
+<procEffect id="1879455047" descriptionOverride="When you critically hit, there is a 25% chance the cooldown of Battle-shout will be reset.&#10;&#10;This effect has a 20s cooldown." iconId="1090552382" skillTypes="35,36" procProbability="0.25" cooldown="20.0">
 <effect id="1879455091" name="Battle-shout Reset"/>
 </procEffect>
 <procEffect id="1879455048" descriptionOverride="When you critically hit, your Mastery cooldowns are reduced by 2s.&#10;&#10;This effect has a 5s cooldown." iconId="1090552382" skillTypes="36" cooldown="5.0">
 <effect id="1879455498" name="DNT - Reduce cooldown by 2s"/>
 <effect id="1879455497" name="DNT - Reduce cooldown by 2s"/>
 </procEffect>
-<procEffect id="1879455049" descriptionOverride="When you hit an enemy, there is a 10% chance the cooldown of Force Opening will be reset.&#10;&#10;This effect has a 15s cooldown." iconId="1090552382" skillTypes="36" probability="0.1" cooldown="15.0">
+<procEffect id="1879455049" descriptionOverride="When you hit an enemy, there is a 10% chance the cooldown of Force Opening will be reset.&#10;&#10;This effect has a 15s cooldown." iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="15.0">
 <effect id="1879455195" name="DNT - Force Opening Reset"/>
 </procEffect>
-<procEffect id="1879455050" descriptionOverride="When you critically hit, there is a 15% chance to trigger the Harsh Debate effect.&#10;&#10;This effect has a 20s cooldown." iconId="1090552382" skillTypes="36" probability="0.15" cooldown="20.0">
+<procEffect id="1879455050" descriptionOverride="When you critically hit, there is a 15% chance to trigger the Harsh Debate effect.&#10;&#10;This effect has a 20s cooldown." iconId="1090552382" skillTypes="36" procProbability="0.15" cooldown="20.0">
 <effect id="1879283781" name="DNT"/>
 </procEffect>
-<procEffect id="1879455051" descriptionOverride="When you hit an enemy with a Fist gambit, there is a 50% chance you will apply a -3% Light Mitigation debuff for 20s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="26" probability="0.5" cooldown="30.0">
+<procEffect id="1879455051" descriptionOverride="When you hit an enemy with a Fist gambit, there is a 50% chance you will apply a -3% Light Mitigation debuff for 20s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="26" procProbability="0.5" cooldown="30.0">
 <effect id="1879455502" name="Essence of Light"/>
 </procEffect>
 <procEffect id="1879455052" descriptionOverride="When you critically hit, the active cooldown of Murder of Crows will be reduced by 2s.&#10;&#10;This effect has a 5s cooldown." iconId="1090552382" skillTypes="36" cooldown="5.0">
 <effect id="1879455163" name="DNT - Reduce MoC cooldown by 2s"/>
 </procEffect>
-<procEffect id="1879455053" descriptionOverride="When you hit an enemy, there is a 10% chance your Set-Up skills will give you +1 extra Mettle for 10s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879455053" descriptionOverride="When you hit an enemy, there is a 10% chance your Set-Up skills will give you +1 extra Mettle for 10s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879455503" name="Bonus Set-up Mettle"/>
 </procEffect>
-<procEffect id="1879455054" descriptionOverride="When you hit an enemy, there is a 5% chance you will gain +20% Ballad and Coda Damage for 10s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879455054" descriptionOverride="When you hit an enemy, there is a 5% chance you will gain +20% Ballad and Coda Damage for 10s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879455153" name="Essence of Song"/>
 </procEffect>
-<procEffect id="1879455055" descriptionOverride="When you use a Fire skill, there is a 50% chance you will apply an additional damaging burn.&#10;&#10;This effect has a 25s cooldown." iconId="1090552382" skillTypes="24" probability="0.5" cooldown="25.0">
+<procEffect id="1879455055" descriptionOverride="When you use a Fire skill, there is a 50% chance you will apply an additional damaging burn.&#10;&#10;This effect has a 25s cooldown." iconId="1090552382" skillTypes="24" procProbability="0.5" cooldown="25.0">
 <effect id="1879455085" name="Essence: Sudden Flame"/>
 </procEffect>
-<procEffect id="1879455056" descriptionOverride="When you critically hit, there is a 10% chance you will gain +3% Critical Chance for 15s.&#10;&#10;This effect has a 45s cooldown." iconId="1090552382" skillTypes="36" probability="0.1" cooldown="45.0">
+<procEffect id="1879455056" descriptionOverride="When you critically hit, there is a 10% chance you will gain +3% Critical Chance for 15s.&#10;&#10;This effect has a 45s cooldown." iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="45.0">
 <effect id="1879455552" name="Essence: Keen Arrows"/>
 </procEffect>
-<procEffect id="1879455057" descriptionOverride="When you critically hit, there is a 10% chance you will gain +30% Echoes Damage and +5% Healing over time for 15s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="35,36" probability="0.1" cooldown="30.0">
+<procEffect id="1879455057" descriptionOverride="When you critically hit, there is a 10% chance you will gain +30% Echoes Damage and +5% Healing over time for 15s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="35,36" procProbability="0.1" cooldown="30.0">
 <effect id="1879455154" name="Essence of Echoes"/>
 </procEffect>
-<procEffect id="1879455058" descriptionOverride="When you hit an enemy with a Strike skill, there is a 10% chance you will gain an extra Fervour every second for 5s.&#10;&#10;This effect has a 20s cooldown." iconId="1090552382" skillTypes="33" probability="0.1" cooldown="20.0">
+<procEffect id="1879455058" descriptionOverride="When you hit an enemy with a Strike skill, there is a 10% chance you will gain an extra Fervour every second for 5s.&#10;&#10;This effect has a 20s cooldown." iconId="1090552382" skillTypes="33" procProbability="0.1" cooldown="20.0">
 <effect id="1879455525" name="Extra Fervour"/>
 </procEffect>
-<procEffect id="1879455059" descriptionOverride="When you hit an enemy, there is a 10% chance you will apply a -3% Tactical Mitigation debuff for 20s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879455059" descriptionOverride="When you hit an enemy, there is a 10% chance you will apply a -3% Tactical Mitigation debuff for 20s.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879455205" name="Essence: Elemental Weakness"/>
 </procEffect>
-<procEffect id="1879455061" descriptionOverride="When you hit an enemy, there is a 15% chance the cooldown of Heart Seeker will be reset.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" probability="0.15" cooldown="30.0">
+<procEffect id="1879455061" descriptionOverride="When you hit an enemy, there is a 15% chance the cooldown of Heart Seeker will be reset.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" procProbability="0.15" cooldown="30.0">
 <effect id="1879455549" name="Bard's Blessing"/>
 </procEffect>
-<procEffect id="1879455062" descriptionOverride="When you hit an enemy, there is a 10% chance you will gain a defeat response.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" probability="0.1" cooldown="30.0">
+<procEffect id="1879455062" descriptionOverride="When you hit an enemy, there is a 10% chance you will gain a defeat response.&#10;&#10;This effect has a 30s cooldown." iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="30.0">
 <effect id="1879060310" name="Enemy Defeat Response"/>
 <effect id="1879271286" name="DNT - Captain Defeat Event Skill Combo"/>
 </procEffect>
@@ -8441,31 +8441,31 @@
 <stat name="OUTGOING_HEALING_PERCENTAGE" constant="10.0"/>
 <stat name="Skill_SingleTarget_Healing_CritChance" constant="5.0"/>
 </propertyModEffect>
-<procEffect id="1879461671" name="Mighty Bulwark" descriptionOverride="${PROCPROBABILITY} chance on a partial or full Block, Parry, or Evade to proc," iconId="1092812635" skillTypes="36" probability="0.05" cooldown="10.0">
+<procEffect id="1879461671" name="Mighty Bulwark" descriptionOverride="${PROCPROBABILITY} chance on a partial or full Block, Parry, or Evade to proc," iconId="1092812635" skillTypes="36" procProbability="0.05" cooldown="10.0">
 <effect id="1879461663" name="Mighty Bulwark"/>
 </procEffect>
-<procEffect id="1879461672" name="Agile Rapscallion" descriptionOverride="Attacks have a ${PROCPROBABILITY} chance to" iconId="1092812635" skillTypes="36" probability="0.05" cooldown="3.0">
+<procEffect id="1879461672" name="Agile Rapscallion" descriptionOverride="Attacks have a ${PROCPROBABILITY} chance to" iconId="1092812635" skillTypes="36" procProbability="0.05" cooldown="3.0">
 <effect id="1879461664" name="Agile Rapscallion"/>
 </procEffect>
-<procEffect id="1879461673" name="Mighty Conqueror" descriptionOverride="Attacks have a ${PROCPROBABILITY} chance to proc," iconId="1092812635" skillTypes="36" probability="0.05" cooldown="10.0">
+<procEffect id="1879461673" name="Mighty Conqueror" descriptionOverride="Attacks have a ${PROCPROBABILITY} chance to proc," iconId="1092812635" skillTypes="36" procProbability="0.05" cooldown="10.0">
 <effect id="1879461661" name="Mighty Conqueror"/>
 </procEffect>
-<procEffect id="1879461674" name="Willful Mender" descriptionOverride="${PROCPROBABILITY} chance on heal to proc," iconId="1092812635" skillTypes="35" probability="0.1" cooldown="10.0">
+<procEffect id="1879461674" name="Willful Mender" descriptionOverride="${PROCPROBABILITY} chance on heal to proc," iconId="1092812635" skillTypes="35" procProbability="0.1" cooldown="10.0">
 <effect id="1879461666" name="Willful Mender"/>
 </procEffect>
-<procEffect id="1879461675" name="Willful Vanquisher" descriptionOverride="Attacks have a ${PROCPROBABILITY} chance to proc," iconId="1092812635" skillTypes="36" probability="0.05" cooldown="10.0">
+<procEffect id="1879461675" name="Willful Vanquisher" descriptionOverride="Attacks have a ${PROCPROBABILITY} chance to proc," iconId="1092812635" skillTypes="36" procProbability="0.05" cooldown="10.0">
 <effect id="1879461668" name="Willful Vanquisher"/>
 </procEffect>
-<procEffect id="1879461676" name="Agile Fortress" descriptionOverride="${PROCPROBABILITY} chance on a partial or full Block, Parry, or Evade to proc," iconId="1092812635" skillTypes="36" probability="0.05" cooldown="10.0">
+<procEffect id="1879461676" name="Agile Fortress" descriptionOverride="${PROCPROBABILITY} chance on a partial or full Block, Parry, or Evade to proc," iconId="1092812635" skillTypes="36" procProbability="0.05" cooldown="10.0">
 <effect id="1879461662" name="Agile Fortress"/>
 </procEffect>
-<procEffect id="1879461677" name="Agile Striker" descriptionOverride="Attacks have a ${PROCPROBABILITY} chance to proc," iconId="1092812635" skillTypes="36" probability="0.05" cooldown="10.0">
+<procEffect id="1879461677" name="Agile Striker" descriptionOverride="Attacks have a ${PROCPROBABILITY} chance to proc," iconId="1092812635" skillTypes="36" procProbability="0.05" cooldown="10.0">
 <effect id="1879461667" name="Agile Striker"/>
 </procEffect>
-<procEffect id="1879461678" name="Willful Curer" descriptionOverride="Attacks have a ${PROCPROBABILITY} chance to" iconId="1092812635" skillTypes="36" probability="0.05" cooldown="3.0">
+<procEffect id="1879461678" name="Willful Curer" descriptionOverride="Attacks have a ${PROCPROBABILITY} chance to" iconId="1092812635" skillTypes="36" procProbability="0.05" cooldown="3.0">
 <effect id="1879461665" name="Willful Curer"/>
 </procEffect>
-<procEffect id="1879461679" name="Mighty Restorer" descriptionOverride="${PROCPROBABILITY} chance on heal to proc," iconId="1092812635" skillTypes="35" probability="0.1" cooldown="10.0">
+<procEffect id="1879461679" name="Mighty Restorer" descriptionOverride="${PROCPROBABILITY} chance on heal to proc," iconId="1092812635" skillTypes="35" procProbability="0.1" cooldown="10.0">
 <effect id="1879461670" name="Mighty Restorer"/>
 </procEffect>
 <genesis id="1879462704" name="DNT -- Summon Battering Ram" permanent="true">
