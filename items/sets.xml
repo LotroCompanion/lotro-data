@@ -1167,7 +1167,7 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Corsair_Recentre_Cooldown" constant="-2.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879109983" name="Cobalt Armour" level="50" maxLevel="59" description="">
@@ -6899,7 +6899,7 @@
 <item id="1879247093" name="Leggings of the Hytbold Fist"/>
 <item id="1879247074" name="Boots of the Hytbold Fist"/>
 <bonus nbItems="2">
-<stat name="Trait_PulseCount_Warden_Dot" operator="SET" descriptionOverride="key:620906733:108054834" constant="1.0"/>
+<stat name="Trait_PulseCount_Warden_Dot" descriptionOverride="key:620906733:108054834" constant="1.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
@@ -15281,7 +15281,7 @@
 <item id="1879475904" name="Leggings of the Wilderlands"/>
 <item id="1879475900" name="Gauntlets of the Wilderlands"/>
 <item id="1879475896" name="Breastplate of the Wilderlands"/>
-<item id="1879475909" name="Shoulder Guard of the Wilderlands"/>
+<item id="1879475909" name="Shoulder-guard of the Wilderlands"/>
 <item id="1879475927" name="Helmet of the Wilderlands"/>
 <bonus nbItems="2">
 <stat name="AGILITY" scaling="1879211555"/>
@@ -22101,162 +22101,6 @@
 <stat name="VITALITY" scaling="1879211544"/>
 </bonus>
 </set>
-<set id="1879428170" name="Ascendence of Flame" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
-<item id="1879428234" name="Ascendent Flame"/>
-<item id="1879428235" name="Ascendent Flame"/>
-<item id="1879428241" name="Ascendent Flame"/>
-<item id="1879428251" name="Ascendent Flame"/>
-<item id="1879428253" name="Ascendent Flame"/>
-<item id="1879428254" name="Ascendent Flame"/>
-<item id="1879428255" name="Ascendent Flame"/>
-<item id="1879428258" name="Ascendent Flame"/>
-<item id="1879431700" name="Ascendent Flame"/>
-<item id="1879431826" name="Ascendent Flame"/>
-<item id="1879431964" name="Ascendent Flame"/>
-<item id="1879431980" name="Ascendent Flame"/>
-<item id="1879432050" name="Ascendent Flame"/>
-<item id="1879432086" name="Ascendent Flame"/>
-<item id="1879432120" name="Ascendent Flame"/>
-<item id="1879432122" name="Ascendent Flame"/>
-<item id="1879432267" name="Ascendent Flame"/>
-<item id="1879432277" name="Ascendent Flame"/>
-<item id="1879432383" name="Ascendent Flame"/>
-<item id="1879432398" name="Ascendent Flame"/>
-<item id="1879432528" name="Ascendent Flame"/>
-<item id="1879433607" name="Ascendent Flame"/>
-<item id="1879435958" name="Ascendent Flame"/>
-<item id="1879436114" name="Ascendent Flame"/>
-<item id="1879436242" name="Ascendent Flame"/>
-<item id="1879436272" name="Ascendent Flame"/>
-<item id="1879436366" name="Ascendent Flame"/>
-<item id="1879436983" name="Ascendent Flame"/>
-<item id="1879448641" name="Heraldry of the Blazing Eagle"/>
-<item id="1879448648" name="Heraldry of the Blazing Eagle"/>
-<bonus nbItems="2">
-<stat name="Combat_SkillDamageMultiplier_Fire" constant="15.000001"/>
-</bonus>
-<bonus nbItems="4">
-<stat name="TACTICAL_MASTERY" scaling="1879223958"/>
-</bonus>
-</set>
-<set id="1879428171" name="Ascendence of Frost" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
-<item id="1879428227" name="Ascendent Frost"/>
-<item id="1879428230" name="Ascendent Frost"/>
-<item id="1879428238" name="Ascendent Frost"/>
-<item id="1879428242" name="Ascendent Frost"/>
-<item id="1879428244" name="Ascendent Frost"/>
-<item id="1879428245" name="Ascendent Frost"/>
-<item id="1879428247" name="Ascendent Frost"/>
-<item id="1879428252" name="Ascendent Frost"/>
-<item id="1879431544" name="Ascendent Frost"/>
-<item id="1879432502" name="Ascendent Frost"/>
-<item id="1879432919" name="Ascendent Frost"/>
-<item id="1879433530" name="Ascendent Frost"/>
-<item id="1879433662" name="Ascendent Frost"/>
-<item id="1879435037" name="Ascendent Frost"/>
-<item id="1879435213" name="Ascendent Frost"/>
-<item id="1879435417" name="Ascendent Frost"/>
-<item id="1879435434" name="Ascendent Frost"/>
-<item id="1879435595" name="Ascendent Frost"/>
-<item id="1879435918" name="Ascendent Frost"/>
-<item id="1879436028" name="Ascendent Frost"/>
-<item id="1879436103" name="Ascendent Frost"/>
-<item id="1879436217" name="Ascendent Frost"/>
-<item id="1879436230" name="Ascendent Frost"/>
-<item id="1879436627" name="Ascendent Frost"/>
-<item id="1879437202" name="Ascendent Frost"/>
-<item id="1879437247" name="Ascendent Frost"/>
-<item id="1879437310" name="Ascendent Frost"/>
-<item id="1879437480" name="Ascendent Frost"/>
-<item id="1879448629" name="Heraldry of the Frigid Eagle"/>
-<item id="1879448633" name="Heraldry of the Frigid Eagle"/>
-<bonus nbItems="2">
-<stat name="Combat_SkillDamageMultiplier_Frost" constant="15.000001"/>
-</bonus>
-<bonus nbItems="4">
-<stat name="FINESSE" scaling="1879211717"/>
-</bonus>
-</set>
-<set id="1879428172" name="Ascendence of Light" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
-<item id="1879428228" name="Ascendent Light"/>
-<item id="1879428229" name="Ascendent Light"/>
-<item id="1879428231" name="Ascendent Light"/>
-<item id="1879428233" name="Ascendent Light"/>
-<item id="1879428237" name="Ascendent Light"/>
-<item id="1879428239" name="Ascendent Light"/>
-<item id="1879428240" name="Ascendent Light"/>
-<item id="1879428243" name="Ascendent Light"/>
-<item id="1879431739" name="Ascendent Light"/>
-<item id="1879432005" name="Ascendent Light"/>
-<item id="1879433306" name="Ascendent Light"/>
-<item id="1879434316" name="Ascendent Light"/>
-<item id="1879434656" name="Ascendent Light"/>
-<item id="1879434665" name="Ascendent Light"/>
-<item id="1879434869" name="Ascendent Light"/>
-<item id="1879435081" name="Ascendent Light"/>
-<item id="1879435227" name="Ascendent Light"/>
-<item id="1879435237" name="Ascendent Light"/>
-<item id="1879435341" name="Ascendent Light"/>
-<item id="1879435620" name="Ascendent Light"/>
-<item id="1879435863" name="Ascendent Light"/>
-<item id="1879437132" name="Ascendent Light"/>
-<item id="1879437139" name="Ascendent Light"/>
-<item id="1879437540" name="Ascendent Light"/>
-<item id="1879437542" name="Ascendent Light"/>
-<item id="1879437773" name="Ascendent Light"/>
-<item id="1879437868" name="Ascendent Light"/>
-<item id="1879437884" name="Ascendent Light"/>
-<item id="1879448632" name="Heraldry of the Bright Eagle"/>
-<item id="1879448644" name="Heraldry of the Bright Lion"/>
-<item id="1879448645" name="Heraldry of the Bright Serpent"/>
-<item id="1879448649" name="Heraldry of the Bright Serpent"/>
-<item id="1879448651" name="Heraldry of the Bright Lion"/>
-<item id="1879448665" name="Heraldry of the Bright Eagle"/>
-<bonus nbItems="2">
-<stat name="Combat_SkillDamageMultiplier_Light" constant="15.000001"/>
-</bonus>
-<bonus nbItems="4">
-<stat name="OUTGOING_HEALING" scaling="1879357899"/>
-</bonus>
-</set>
-<set id="1879428173" name="Ascendence of Lightning" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
-<item id="1879428232" name="Ascendent Lightning"/>
-<item id="1879428236" name="Ascendent Lightning"/>
-<item id="1879428246" name="Ascendent Lightning"/>
-<item id="1879428248" name="Ascendent Lightning"/>
-<item id="1879428249" name="Ascendent Lightning"/>
-<item id="1879428250" name="Ascendent Lightning"/>
-<item id="1879428256" name="Ascendent Lightning"/>
-<item id="1879428257" name="Ascendent Lightning"/>
-<item id="1879433132" name="Ascendent Lightning"/>
-<item id="1879433207" name="Ascendent Lightning"/>
-<item id="1879433280" name="Ascendent Lightning"/>
-<item id="1879433297" name="Ascendent Lightning"/>
-<item id="1879433747" name="Ascendent Lightning"/>
-<item id="1879434161" name="Ascendent Lightning"/>
-<item id="1879435360" name="Ascendent Lightning"/>
-<item id="1879435612" name="Ascendent Lightning"/>
-<item id="1879436162" name="Ascendent Lightning"/>
-<item id="1879436269" name="Ascendent Lightning"/>
-<item id="1879436273" name="Ascendent Lightning"/>
-<item id="1879436641" name="Ascendent Lightning"/>
-<item id="1879436712" name="Ascendent Lightning"/>
-<item id="1879436772" name="Ascendent Lightning"/>
-<item id="1879436780" name="Ascendent Lightning"/>
-<item id="1879437201" name="Ascendent Lightning"/>
-<item id="1879437340" name="Ascendent Lightning"/>
-<item id="1879437467" name="Ascendent Lightning"/>
-<item id="1879437479" name="Ascendent Lightning"/>
-<item id="1879437852" name="Ascendent Lightning"/>
-<item id="1879448635" name="Heraldry of the Tempestuous Eagle"/>
-<item id="1879448654" name="Heraldry of the Tempestuous Eagle"/>
-<bonus nbItems="2">
-<stat name="Combat_SkillDamageMultiplier_Lightning" constant="15.000001"/>
-</bonus>
-<bonus nbItems="4">
-<stat name="CRITICAL_RATING" scaling="1879211601"/>
-</bonus>
-</set>
 <set id="1879430391" name="Armour of the Eminent Warrior&#10;(Max Level: 134)" level="430" maxLevel="134" description="">
 <item id="1879430394" name="Brawler's Silk-steel Helm of Exhilarating Change"/>
 <item id="1879430387" name="Brawler's Silk-steel Pauldrons of Exhilarating Change"/>
@@ -23997,288 +23841,6 @@
 </bonus>
 <bonus nbItems="5"/>
 </set>
-<set id="1879447947" name="Grand Willpower" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
-<item id="1879424705" name="Grand Willpower"/>
-<item id="1879424742" name="Grand Willpower"/>
-<item id="1879424751" name="Grand Willpower"/>
-<item id="1879424757" name="Grand Willpower"/>
-<item id="1879425369" name="Grand Willpower"/>
-<item id="1879425809" name="Grand Willpower"/>
-<item id="1879425834" name="Grand Willpower"/>
-<item id="1879426049" name="Grand Willpower"/>
-<item id="1879431720" name="Grand Willpower"/>
-<item id="1879432059" name="Grand Willpower"/>
-<item id="1879432118" name="Grand Willpower"/>
-<item id="1879432197" name="Grand Willpower"/>
-<item id="1879434983" name="Grand Willpower"/>
-<item id="1879435324" name="Grand Willpower"/>
-<item id="1879435376" name="Grand Willpower"/>
-<item id="1879435441" name="Grand Willpower"/>
-<item id="1879435617" name="Grand Willpower"/>
-<item id="1879435884" name="Grand Willpower"/>
-<item id="1879436644" name="Grand Willpower"/>
-<item id="1879437012" name="Grand Willpower"/>
-<item id="1879437046" name="Grand Willpower"/>
-<item id="1879437080" name="Grand Willpower"/>
-<item id="1879437152" name="Grand Willpower"/>
-<item id="1879437165" name="Grand Willpower"/>
-<item id="1879437375" name="Grand Willpower"/>
-<item id="1879437431" name="Grand Willpower"/>
-<item id="1879437517" name="Grand Willpower"/>
-<item id="1879437952" name="Grand Willpower"/>
-<item id="1879448657" name="Heraldry of the Stalwart Sparrow"/>
-<item id="1879448659" name="Heraldry of the Stalwart Ox"/>
-<item id="1879448661" name="Heraldry of the Stalwart Ox"/>
-<item id="1879448664" name="Heraldry of the Stalwart Sparrow"/>
-<bonus nbItems="2">
-<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
-</bonus>
-<bonus nbItems="4">
-<stat name="TACTICAL_MITIGATION" scaling="1879215079"/>
-</bonus>
-</set>
-<set id="1879447948" name="Heroic Alacrity" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
-<item id="1879424675" name="Heroic Alacrity"/>
-<item id="1879424717" name="Heroic Alacrity"/>
-<item id="1879424736" name="Heroic Alacrity"/>
-<item id="1879424769" name="Heroic Alacrity"/>
-<item id="1879425277" name="Heroic Alacrity"/>
-<item id="1879425503" name="Heroic Alacrity"/>
-<item id="1879425695" name="Heroic Alacrity"/>
-<item id="1879425960" name="Heroic Alacrity"/>
-<item id="1879431508" name="Heroic Alacrity"/>
-<item id="1879431909" name="Heroic Alacrity"/>
-<item id="1879432039" name="Heroic Alacrity"/>
-<item id="1879432359" name="Heroic Alacrity"/>
-<item id="1879432460" name="Heroic Alacrity"/>
-<item id="1879432885" name="Heroic Alacrity"/>
-<item id="1879433058" name="Heroic Alacrity"/>
-<item id="1879433593" name="Heroic Alacrity"/>
-<item id="1879433946" name="Heroic Alacrity"/>
-<item id="1879435264" name="Heroic Alacrity"/>
-<item id="1879435399" name="Heroic Alacrity"/>
-<item id="1879435785" name="Heroic Alacrity"/>
-<item id="1879435888" name="Heroic Alacrity"/>
-<item id="1879435989" name="Heroic Alacrity"/>
-<item id="1879436458" name="Heroic Alacrity"/>
-<item id="1879436606" name="Heroic Alacrity"/>
-<item id="1879436624" name="Heroic Alacrity"/>
-<item id="1879437039" name="Heroic Alacrity"/>
-<item id="1879437167" name="Heroic Alacrity"/>
-<item id="1879437915" name="Heroic Alacrity"/>
-<item id="1879448630" name="Heraldry of the Swift Eagle"/>
-<item id="1879448638" name="Heraldry of the Swift Serpent"/>
-<item id="1879448650" name="Heraldry of the Swift Lion"/>
-<item id="1879448660" name="Heraldry of the Swift Eagle"/>
-<item id="1879448663" name="Heraldry of the Swift Serpent"/>
-<item id="1879448666" name="Heraldry of the Swift Lion"/>
-<bonus nbItems="2">
-<stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
-</bonus>
-<bonus nbItems="4">
-<stat name="FINESSE" scaling="1879211717"/>
-</bonus>
-</set>
-<set id="1879447949" name="Grand Armour" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
-<item id="1879424684" name="Grand Armour"/>
-<item id="1879424704" name="Grand Armour"/>
-<item id="1879424708" name="Grand Armour"/>
-<item id="1879424714" name="Grand Armor"/>
-<item id="1879425273" name="Grand Armour"/>
-<item id="1879425536" name="Grand Armour"/>
-<item id="1879425888" name="Grand Armour"/>
-<item id="1879425999" name="Grand Armour"/>
-<item id="1879431600" name="Grand Armour"/>
-<item id="1879432138" name="Grand Armour"/>
-<item id="1879434140" name="Grand Armour"/>
-<item id="1879434446" name="Grand Armour"/>
-<item id="1879434492" name="Grand Armour"/>
-<item id="1879434802" name="Grand Armour"/>
-<item id="1879434838" name="Grand Armour"/>
-<item id="1879434914" name="Grand Armour"/>
-<item id="1879435133" name="Grand Armour"/>
-<item id="1879435206" name="Grand Armour"/>
-<item id="1879435406" name="Grand Armour"/>
-<item id="1879435571" name="Grand Armour"/>
-<item id="1879435592" name="Grand Armour"/>
-<item id="1879435737" name="Grand Armour"/>
-<item id="1879435907" name="Grand Armour"/>
-<item id="1879435975" name="Grand Armour"/>
-<item id="1879436019" name="Grand Armour"/>
-<item id="1879436105" name="Grand Armour"/>
-<item id="1879436227" name="Grand Armour"/>
-<item id="1879436287" name="Grand Armour"/>
-<item id="1879448631" name="Heraldry of the Sturdy Ox"/>
-<item id="1879448634" name="Heraldry of the Sturdy Ox"/>
-<item id="1879448636" name="Heraldry of the Sturdy Sparrow"/>
-<item id="1879448647" name="Heraldry of the Sturdy Sparrow"/>
-<bonus nbItems="2">
-<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
-</bonus>
-<bonus nbItems="4">
-<stat name="PHYSICAL_MITIGATION" scaling="1879215069"/>
-</bonus>
-</set>
-<set id="1879447950" name="Perfect Recovery" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
-<item id="1879424698" name="Perfect Recovery"/>
-<item id="1879424732" name="Perfect Recovery"/>
-<item id="1879424743" name="Perfect Recovery"/>
-<item id="1879424744" name="Perfect Recovery"/>
-<item id="1879425680" name="Perfect Recovery"/>
-<item id="1879425863" name="Perfect Recovery"/>
-<item id="1879426009" name="Perfect Recovery"/>
-<item id="1879426015" name="Perfect Recovery"/>
-<item id="1879431625" name="Perfect Recovery"/>
-<item id="1879431803" name="Perfect Recovery"/>
-<item id="1879431894" name="Perfect Recovery"/>
-<item id="1879431966" name="Perfect Recovery"/>
-<item id="1879432057" name="Perfect Recovery"/>
-<item id="1879432248" name="Perfect Recovery"/>
-<item id="1879432549" name="Perfect Recovery"/>
-<item id="1879432564" name="Perfect Recovery"/>
-<item id="1879432927" name="Perfect Recovery"/>
-<item id="1879432933" name="Perfect Recovery"/>
-<item id="1879432945" name="Perfect Recovery"/>
-<item id="1879433245" name="Perfect Recovery"/>
-<item id="1879433558" name="Perfect Recovery"/>
-<item id="1879434265" name="Perfect Recovery"/>
-<item id="1879434274" name="Perfect Recovery"/>
-<item id="1879436255" name="Perfect Recovery"/>
-<item id="1879436526" name="Perfect Recovery"/>
-<item id="1879436816" name="Perfect Recovery"/>
-<item id="1879437491" name="Perfect Recovery"/>
-<item id="1879437501" name="Perfect Recovery"/>
-<item id="1879448642" name="Heraldry of the Resilient Ox"/>
-<item id="1879448643" name="Heraldry of the Resilient Ox"/>
-<item id="1879448646" name="Heraldry of the Resilient Sparrow"/>
-<item id="1879448668" name="Heraldry of the Resilient Sparrow"/>
-<bonus nbItems="2">
-<stat name="INCOMING_HEALING_PERCENTAGE" constant="3.0"/>
-</bonus>
-<bonus nbItems="4">
-<stat name="INCOMING_HEALING" scaling="1879211893"/>
-</bonus>
-</set>
-<set id="1879447951" name="Heroic Precision" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
-<item id="1879424700" name="Heroic Precision"/>
-<item id="1879424734" name="Heroic Precision"/>
-<item id="1879424740" name="Heroic Precision"/>
-<item id="1879424746" name="Heroic Precision"/>
-<item id="1879425555" name="Heroic Precision"/>
-<item id="1879425668" name="Heroic Precision"/>
-<item id="1879425758" name="Heroic Precision"/>
-<item id="1879425930" name="Heroic Precision"/>
-<item id="1879431523" name="Heroic Precision"/>
-<item id="1879431949" name="Heroic Precision"/>
-<item id="1879432936" name="Heroic Precision"/>
-<item id="1879433127" name="Heroic Precision"/>
-<item id="1879433229" name="Heroic Precision"/>
-<item id="1879433275" name="Heroic Precision"/>
-<item id="1879433277" name="Heroic Precision"/>
-<item id="1879433374" name="Heroic Precision"/>
-<item id="1879433459" name="Heroic Precision"/>
-<item id="1879433506" name="Heroic Precision"/>
-<item id="1879433597" name="Heroic Precision"/>
-<item id="1879433647" name="Heroic Precision"/>
-<item id="1879433687" name="Heroic Precision"/>
-<item id="1879433741" name="Heroic Precision"/>
-<item id="1879434383" name="Heroic Precision"/>
-<item id="1879435996" name="Heroic Precision"/>
-<item id="1879436193" name="Heroic Precision"/>
-<item id="1879436319" name="Heroic Precision"/>
-<item id="1879436395" name="Heroic Precision"/>
-<item id="1879436918" name="Heroic Precision"/>
-<item id="1879448637" name="Heraldry of the Keen Eagle"/>
-<item id="1879448640" name="Heraldry of the Keen Eagle"/>
-<item id="1879448652" name="Heraldry of the Keen Serpent"/>
-<item id="1879448658" name="Heraldry of the Keen Serpent"/>
-<item id="1879448662" name="Heraldry of the Keen Lion"/>
-<item id="1879448667" name="Heraldry of the Keen Lion"/>
-<bonus nbItems="2">
-<stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="key:621065127:103715137" constant="3.0"/>
-<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
-<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
-</bonus>
-<bonus nbItems="4">
-<stat name="CRITICAL_RATING" scaling="1879211601"/>
-</bonus>
-</set>
-<set id="1879447952" name="Perfect Healing" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
-<item id="1879424687" name="Perfect Healing"/>
-<item id="1879424707" name="Perfect Healing"/>
-<item id="1879424712" name="Perfect Healing"/>
-<item id="1879424719" name="Perfect Healing"/>
-<item id="1879425284" name="Perfect Healing"/>
-<item id="1879425732" name="Perfect Healing"/>
-<item id="1879425881" name="Perfect Healing"/>
-<item id="1879425956" name="Perfect Healing"/>
-<item id="1879431875" name="Perfect Healing"/>
-<item id="1879431953" name="Perfect Healing"/>
-<item id="1879432202" name="Perfect Healing"/>
-<item id="1879432816" name="Perfect Healing"/>
-<item id="1879432888" name="Perfect Healing"/>
-<item id="1879432952" name="Perfect Healing"/>
-<item id="1879433310" name="Perfect Healing"/>
-<item id="1879433321" name="Perfect Healing"/>
-<item id="1879433961" name="Perfect Healing"/>
-<item id="1879434040" name="Perfect Healing"/>
-<item id="1879434691" name="Perfect Healing"/>
-<item id="1879434770" name="Perfect Healing"/>
-<item id="1879435034" name="Perfect Healing"/>
-<item id="1879435098" name="Perfect Healing"/>
-<item id="1879435102" name="Perfect Healing"/>
-<item id="1879435613" name="Perfect Healing"/>
-<item id="1879435674" name="Perfect Healing"/>
-<item id="1879435693" name="Perfect Healing"/>
-<item id="1879435748" name="Perfect Healing"/>
-<item id="1879435825" name="Perfect Healing"/>
-<item id="1879448639" name="Heraldry of the Mending Owl"/>
-<item id="1879448653" name="Heraldry of the Mending Bear"/>
-<item id="1879448655" name="Heraldry of the Mending Owl"/>
-<item id="1879448656" name="Heraldry of the Mending Bear"/>
-<bonus nbItems="2">
-<stat name="OUTGOING_HEALING_PERCENTAGE" constant="3.0"/>
-</bonus>
-<bonus nbItems="4">
-<stat name="OUTGOING_HEALING" scaling="1879357899"/>
-</bonus>
-</set>
-<set id="1879459229" name="Enduring Power" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
-<item id="1879459208" name="Enduring Power"/>
-<item id="1879459209" name="Enduring Power"/>
-<item id="1879459210" name="Enduring Power"/>
-<item id="1879459211" name="Enduring Power"/>
-<item id="1879459212" name="Enduring Power"/>
-<item id="1879459213" name="Enduring Power"/>
-<item id="1879459214" name="Enduring Power"/>
-<item id="1879459215" name="Enduring Power"/>
-<item id="1879459216" name="Enduring Power"/>
-<item id="1879459217" name="Enduring Power"/>
-<item id="1879459218" name="Enduring Power"/>
-<item id="1879459219" name="Enduring Power"/>
-<item id="1879459220" name="Enduring Power"/>
-<item id="1879459221" name="Enduring Power"/>
-<item id="1879459222" name="Enduring Power"/>
-<item id="1879459223" name="Enduring Power"/>
-<item id="1879459225" name="Enduring Power"/>
-<item id="1879459227" name="Enduring Power"/>
-<item id="1879459228" name="Enduring Power"/>
-<item id="1879459230" name="Enduring Power"/>
-<item id="1879459231" name="Enduring Power"/>
-<item id="1879459232" name="Enduring Power"/>
-<item id="1879459233" name="Enduring Power"/>
-<item id="1879459234" name="Enduring Power"/>
-<item id="1879459235" name="Enduring Power"/>
-<item id="1879459236" name="Enduring Power"/>
-<item id="1879459237" name="Enduring Power"/>
-<item id="1879459238" name="Enduring Power"/>
-<bonus nbItems="2">
-<stat name="ICPR" scaling="1879212034"/>
-</bonus>
-<bonus nbItems="4">
-<stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="20.0"/>
-</bonus>
-</set>
 <set id="1879460564" name="Mighty Restorer of Carn Dûm&#10;(Max Level: 144)" level="475" maxLevel="144" description="">
 <item id="1879459891" name="Pristine Carn Dûm Etched Bracelet"/>
 <item id="1879460350" name="Immaculate Carn Dûm Etched Necklace"/>
@@ -24742,12 +24304,12 @@
 </bonus>
 </set>
 <set id="1879476038" name="Battle-dress of Deft Manoeuvres&#10;(Max Level: 134)" level="430" maxLevel="134" description="">
-<item id="1879470902" name="Mariner's Silk-hide Helm of the Deft Manouvers"/>
-<item id="1879470914" name="Mariner's Silk-hide Camail of the Deft Manouvers"/>
-<item id="1879470909" name="Mariner's Silk-hide Cuirass of the Deft Manouvers"/>
-<item id="1879470901" name="Mariner's Silk-hide Gloves of the Deft Manouvers"/>
-<item id="1879470908" name="Mariner's Silk-hide Leggings of the Deft Manouvers"/>
-<item id="1879470915" name="Mariner's Silk-hide Boots of the Deft Manouvers"/>
+<item id="1879470902" name="Mariner's Silk-hide Helm of the Deft Manoeuvres"/>
+<item id="1879470914" name="Mariner's Silk-hide Camail of the Deft Manoeuvres"/>
+<item id="1879470909" name="Mariner's Silk-hide Cuirass of the Deft Manoeuvres"/>
+<item id="1879470901" name="Mariner's Silk-hide Gloves of the Deft Manoeuvres"/>
+<item id="1879470908" name="Mariner's Silk-hide Leggings of the Deft Manoeuvres"/>
+<item id="1879470915" name="Mariner's Silk-hide Boots of the Deft Manoeuvres"/>
 <bonus nbItems="2">
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
@@ -24958,6 +24520,20 @@
 <effect id="1879476135" name="DNT - Shanties give personal DR"/>
 </bonus>
 </set>
+<set id="1879476059" name="Armour of the Navigator&#10;(Max Level: 84)" level="88" maxLevel="84" description="">
+<item id="1879473611" name="Hood of the Navigator"/>
+<item id="1879473603" name="Shoulder Guards of the Navigator"/>
+<item id="1879473576" name="Jacket of the Navigator"/>
+<item id="1879473589" name="Gloves of the Navigator"/>
+<item id="1879473599" name="Trousers of the Navigator"/>
+<item id="1879473586" name="Boots of the Navigator"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_StarGuide_Duration" constant="10.0"/>
+</bonus>
+</set>
 <set id="1879476060" name="Battle-dress of Bracing Adaptability&#10;(Max Level: 134)" level="430" maxLevel="134" description="">
 <item id="1879470900" name="Mariner's Silk-hide Helm of Bracing Adapatability"/>
 <item id="1879470911" name="Mariner's Silk-hide Camail of Bracing Adapatability"/>
@@ -24978,7 +24554,7 @@
 <item id="1879475902" name="Lesser Leggings of the Wilderlands"/>
 <item id="1879475922" name="Lesser Gauntlets of the Wilderlands"/>
 <item id="1879475912" name="Lesser Breastplate of the Wilderlands"/>
-<item id="1879475915" name="Lesser Shoulder Guard of the Wilderlands"/>
+<item id="1879475915" name="Lesser Shoulder-guard of the Wilderlands"/>
 <item id="1879475923" name="Lesser Helmet of the Wilderlands"/>
 <bonus nbItems="2">
 <stat name="AGILITY" scaling="1879211555"/>
@@ -25006,6 +24582,31 @@
 <bonus nbItems="5">
 <stat name="SHADOW_MITIGATION_PERCENTAGE" constant="5.0"/>
 <stat name="FIRE_MITIGATION_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879476063" name="Armour of the Sea Striker&#10;(Max Level: 84)" level="88" maxLevel="84" description="">
+<item id="1879473605" name="The Sea Striker's Hood"/>
+<item id="1879473600" name="The Sea Striker's Shoulder Guards"/>
+<item id="1879473580" name="The Sea Striker's Jacket"/>
+<item id="1879473593" name="The Sea Striker's Gloves"/>
+<item id="1879473596" name="The Sea Striker's Trousers"/>
+<item id="1879473581" name="The Sea Striker's Boots"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_Bleed_Pulses" constant="2.0"/>
+</bonus>
+</set>
+<set id="1879476064" name="Armour of Vigorous Shanties&#10;(Max Level: 84)" level="84" maxLevel="84" description="">
+<item id="1879473591" name="Hood of Vigorous Shanties"/>
+<item id="1879473601" name="Shoulder Guards of Vigorous Shanties"/>
+<item id="1879473578" name="Jacket of Vigorous Shanties"/>
+<item id="1879473590" name="Gloves of Vigorous Shanties"/>
+<item id="1879473609" name="Trousers of Vigorous Shanties"/>
+<item id="1879473588" name="Boots of Vigorous Shanties"/>
+<bonus nbItems="4">
+<stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 </set>
 <set id="1879476066" name="Rover's Battle-dress of the Abyss&#10;(Max Level: 119)" level="345" maxLevel="119" description="">
@@ -25064,6 +24665,17 @@
 <stat name="Corsair_Wind_Shanty_Cooldowns" operator="SUBSTRACT" constant="5.0"/>
 </bonus>
 </set>
+<set id="1879476070" name="Armour of the Sailor&#10;(Max Level: 84)" level="84" maxLevel="84" description="">
+<item id="1879473587" name="Hood of the Sailor"/>
+<item id="1879473598" name="Shoulder Guards of the Sailor"/>
+<item id="1879473583" name="Jacket of the Sailor"/>
+<item id="1879473595" name="Gloves of the Sailor"/>
+<item id="1879473602" name="Trousers of the Sailor"/>
+<item id="1879473584" name="Boots of the Sailor"/>
+<bonus nbItems="4">
+<stat name="AGILITY" scaling="1879211572"/>
+</bonus>
+</set>
 <set id="1879476071" name="Greater Armour of the Erebor Blade&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
 <item id="1879471139" name="Greater Helm of the Erebor Blade"/>
 <item id="1879471120" name="Greater Shoulderpads of the Erebor Blade"/>
@@ -25078,6 +24690,20 @@
 <effect id="1879476126" name="DNT - Recentre Heals You"/>
 </bonus>
 </set>
+<set id="1879476072" name="Armour of the Explorer&#10;(Max Level: 84)" level="88" maxLevel="84" description="">
+<item id="1879473579" name="Hood of the Explorer"/>
+<item id="1879473608" name="Shoulder Guards of the Explorer"/>
+<item id="1879473607" name="Jacket of the Explorer"/>
+<item id="1879473582" name="Gloves of the Explorer"/>
+<item id="1879473604" name="Trousers of the Explorer"/>
+<item id="1879473592" name="Boots of the Explorer"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211544"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_CausticBrew_Duration" constant="5.0"/>
+</bonus>
+</set>
 <set id="1879476074" name="Armour of the Sailor's Tune&#10;(Max Level: 74)" level="63" maxLevel="74" description="">
 <item id="1879470956" name="Gauntlets of the Sailor's Tune"/>
 <item id="1879470966" name="Boots of the Sailor's Tune"/>
@@ -25087,6 +24713,600 @@
 <item id="1879470965" name="Helm of the Sailor's Tune"/>
 <bonus nbItems="4">
 <effect id="1879476123" name="DNT - Smoking Stones Enrage"/>
+</bonus>
+</set>
+<set id="1879476075" name="Armour of Inspired Footwork&#10;(Max Level: 84)" level="84" maxLevel="84" description="">
+<item id="1879473597" name="Hood of Inspired Footwork"/>
+<item id="1879473606" name="Shoulder Guards of Inspired Footwork"/>
+<item id="1879473610" name="Jacket of Inspired Footwork"/>
+<item id="1879473585" name="Gloves of Inspired Footwork"/>
+<item id="1879473577" name="Trousers of Inspired Footwork"/>
+<item id="1879473594" name="Boots of Inspired Footwork"/>
+<bonus nbItems="4">
+<stat name="VITALITY" scaling="1879211544"/>
+</bonus>
+</set>
+<set id="1879478782" name="Armour of the Deck-walker&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
+<item id="1879470969" name="Sharp-wind Jacket"/>
+<item id="1879470960" name="Sharp-wind Leggings"/>
+<item id="1879470978" name="Sharp-wind Gauntlets"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="SHADOW_MITIGATION" scaling="1879144002"/>
+</bonus>
+</set>
+<set id="1879478887" name="Ascendence of Light" type="TRACERIES" useAverageItemLevel="true" maxLevel="150" description="">
+<item id="1879471828" name="Ascendent Light"/>
+<item id="1879472055" name="Ascendent Light"/>
+<item id="1879472707" name="Ascendent Light"/>
+<item id="1879472832" name="Ascendent Light"/>
+<bonus nbItems="2">
+<stat name="Combat_SkillDamageMultiplier_Light" constant="15.000001"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="OUTGOING_HEALING" scaling="1879357899"/>
+</bonus>
+</set>
+<set id="1879478888" name="Ascendence of Lightning" type="TRACERIES" useAverageItemLevel="true" maxLevel="150" description="">
+<item id="1879471775" name="Ascendent Lightning"/>
+<item id="1879471982" name="Ascendent Lightning"/>
+<item id="1879472116" name="Ascendent Lightning"/>
+<item id="1879472951" name="Ascendent Lightning"/>
+<bonus nbItems="2">
+<stat name="Combat_SkillDamageMultiplier_Lightning" constant="15.000001"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+</set>
+<set id="1879478889" name="Ascendence of Lightning" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879428232" name="Ascendent Lightning"/>
+<item id="1879428236" name="Ascendent Lightning"/>
+<item id="1879428246" name="Ascendent Lightning"/>
+<item id="1879428248" name="Ascendent Lightning"/>
+<item id="1879428249" name="Ascendent Lightning"/>
+<item id="1879428250" name="Ascendent Lightning"/>
+<item id="1879428256" name="Ascendent Lightning"/>
+<item id="1879428257" name="Ascendent Lightning"/>
+<item id="1879433132" name="Ascendent Lightning"/>
+<item id="1879433207" name="Ascendent Lightning"/>
+<item id="1879433280" name="Ascendent Lightning"/>
+<item id="1879433297" name="Ascendent Lightning"/>
+<item id="1879433747" name="Ascendent Lightning"/>
+<item id="1879434161" name="Ascendent Lightning"/>
+<item id="1879435360" name="Ascendent Lightning"/>
+<item id="1879435612" name="Ascendent Lightning"/>
+<item id="1879436162" name="Ascendent Lightning"/>
+<item id="1879436269" name="Ascendent Lightning"/>
+<item id="1879436273" name="Ascendent Lightning"/>
+<item id="1879436641" name="Ascendent Lightning"/>
+<item id="1879436712" name="Ascendent Lightning"/>
+<item id="1879436772" name="Ascendent Lightning"/>
+<item id="1879436780" name="Ascendent Lightning"/>
+<item id="1879437201" name="Ascendent Lightning"/>
+<item id="1879437340" name="Ascendent Lightning"/>
+<item id="1879437467" name="Ascendent Lightning"/>
+<item id="1879437479" name="Ascendent Lightning"/>
+<item id="1879437852" name="Ascendent Lightning"/>
+<item id="1879448635" name="Heraldry of the Tempestuous Eagle"/>
+<item id="1879448654" name="Heraldry of the Tempestuous Eagle"/>
+<bonus nbItems="2">
+<stat name="Combat_SkillDamageMultiplier_Lightning" constant="15.000001"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+</set>
+<set id="1879478890" name="Perfect Healing" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879424687" name="Perfect Healing"/>
+<item id="1879424707" name="Perfect Healing"/>
+<item id="1879424712" name="Perfect Healing"/>
+<item id="1879424719" name="Perfect Healing"/>
+<item id="1879425284" name="Perfect Healing"/>
+<item id="1879425732" name="Perfect Healing"/>
+<item id="1879425881" name="Perfect Healing"/>
+<item id="1879425956" name="Perfect Healing"/>
+<item id="1879431875" name="Perfect Healing"/>
+<item id="1879431953" name="Perfect Healing"/>
+<item id="1879432202" name="Perfect Healing"/>
+<item id="1879432816" name="Perfect Healing"/>
+<item id="1879432888" name="Perfect Healing"/>
+<item id="1879432952" name="Perfect Healing"/>
+<item id="1879433310" name="Perfect Healing"/>
+<item id="1879433321" name="Perfect Healing"/>
+<item id="1879433961" name="Perfect Healing"/>
+<item id="1879434040" name="Perfect Healing"/>
+<item id="1879434691" name="Perfect Healing"/>
+<item id="1879434770" name="Perfect Healing"/>
+<item id="1879435034" name="Perfect Healing"/>
+<item id="1879435098" name="Perfect Healing"/>
+<item id="1879435102" name="Perfect Healing"/>
+<item id="1879435613" name="Perfect Healing"/>
+<item id="1879435674" name="Perfect Healing"/>
+<item id="1879435693" name="Perfect Healing"/>
+<item id="1879435748" name="Perfect Healing"/>
+<item id="1879435825" name="Perfect Healing"/>
+<item id="1879448639" name="Heraldry of the Mending Owl"/>
+<item id="1879448653" name="Heraldry of the Mending Bear"/>
+<item id="1879448655" name="Heraldry of the Mending Owl"/>
+<item id="1879448656" name="Heraldry of the Mending Bear"/>
+<bonus nbItems="2">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="OUTGOING_HEALING" scaling="1879357899"/>
+</bonus>
+</set>
+<set id="1879478891" name="Grand Willpower" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879424705" name="Grand Willpower"/>
+<item id="1879424742" name="Grand Willpower"/>
+<item id="1879424751" name="Grand Willpower"/>
+<item id="1879424757" name="Grand Willpower"/>
+<item id="1879425369" name="Grand Willpower"/>
+<item id="1879425809" name="Grand Willpower"/>
+<item id="1879425834" name="Grand Willpower"/>
+<item id="1879426049" name="Grand Willpower"/>
+<item id="1879431720" name="Grand Willpower"/>
+<item id="1879432059" name="Grand Willpower"/>
+<item id="1879432118" name="Grand Willpower"/>
+<item id="1879432197" name="Grand Willpower"/>
+<item id="1879434983" name="Grand Willpower"/>
+<item id="1879435324" name="Grand Willpower"/>
+<item id="1879435376" name="Grand Willpower"/>
+<item id="1879435441" name="Grand Willpower"/>
+<item id="1879435617" name="Grand Willpower"/>
+<item id="1879435884" name="Grand Willpower"/>
+<item id="1879436644" name="Grand Willpower"/>
+<item id="1879437012" name="Grand Willpower"/>
+<item id="1879437046" name="Grand Willpower"/>
+<item id="1879437080" name="Grand Willpower"/>
+<item id="1879437152" name="Grand Willpower"/>
+<item id="1879437165" name="Grand Willpower"/>
+<item id="1879437375" name="Grand Willpower"/>
+<item id="1879437431" name="Grand Willpower"/>
+<item id="1879437517" name="Grand Willpower"/>
+<item id="1879437952" name="Grand Willpower"/>
+<item id="1879448657" name="Heraldry of the Stalwart Sparrow"/>
+<item id="1879448659" name="Heraldry of the Stalwart Ox"/>
+<item id="1879448661" name="Heraldry of the Stalwart Ox"/>
+<item id="1879448664" name="Heraldry of the Stalwart Sparrow"/>
+<bonus nbItems="2">
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="TACTICAL_MITIGATION" scaling="1879215079"/>
+</bonus>
+</set>
+<set id="1879478892" name="Heroic Precision" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879424700" name="Heroic Precision"/>
+<item id="1879424734" name="Heroic Precision"/>
+<item id="1879424740" name="Heroic Precision"/>
+<item id="1879424746" name="Heroic Precision"/>
+<item id="1879425555" name="Heroic Precision"/>
+<item id="1879425668" name="Heroic Precision"/>
+<item id="1879425758" name="Heroic Precision"/>
+<item id="1879425930" name="Heroic Precision"/>
+<item id="1879431523" name="Heroic Precision"/>
+<item id="1879431949" name="Heroic Precision"/>
+<item id="1879432936" name="Heroic Precision"/>
+<item id="1879433127" name="Heroic Precision"/>
+<item id="1879433229" name="Heroic Precision"/>
+<item id="1879433275" name="Heroic Precision"/>
+<item id="1879433277" name="Heroic Precision"/>
+<item id="1879433374" name="Heroic Precision"/>
+<item id="1879433459" name="Heroic Precision"/>
+<item id="1879433506" name="Heroic Precision"/>
+<item id="1879433597" name="Heroic Precision"/>
+<item id="1879433647" name="Heroic Precision"/>
+<item id="1879433687" name="Heroic Precision"/>
+<item id="1879433741" name="Heroic Precision"/>
+<item id="1879434383" name="Heroic Precision"/>
+<item id="1879435996" name="Heroic Precision"/>
+<item id="1879436193" name="Heroic Precision"/>
+<item id="1879436319" name="Heroic Precision"/>
+<item id="1879436395" name="Heroic Precision"/>
+<item id="1879436918" name="Heroic Precision"/>
+<item id="1879448637" name="Heraldry of the Keen Eagle"/>
+<item id="1879448640" name="Heraldry of the Keen Eagle"/>
+<item id="1879448652" name="Heraldry of the Keen Serpent"/>
+<item id="1879448658" name="Heraldry of the Keen Serpent"/>
+<item id="1879448662" name="Heraldry of the Keen Lion"/>
+<item id="1879448667" name="Heraldry of the Keen Lion"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="key:621087458:103715137" constant="3.0"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+</set>
+<set id="1879478893" name="Ascendence of Light" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879428228" name="Ascendent Light"/>
+<item id="1879428229" name="Ascendent Light"/>
+<item id="1879428231" name="Ascendent Light"/>
+<item id="1879428233" name="Ascendent Light"/>
+<item id="1879428237" name="Ascendent Light"/>
+<item id="1879428239" name="Ascendent Light"/>
+<item id="1879428240" name="Ascendent Light"/>
+<item id="1879428243" name="Ascendent Light"/>
+<item id="1879431739" name="Ascendent Light"/>
+<item id="1879432005" name="Ascendent Light"/>
+<item id="1879433306" name="Ascendent Light"/>
+<item id="1879434316" name="Ascendent Light"/>
+<item id="1879434656" name="Ascendent Light"/>
+<item id="1879434665" name="Ascendent Light"/>
+<item id="1879434869" name="Ascendent Light"/>
+<item id="1879435081" name="Ascendent Light"/>
+<item id="1879435227" name="Ascendent Light"/>
+<item id="1879435237" name="Ascendent Light"/>
+<item id="1879435341" name="Ascendent Light"/>
+<item id="1879435620" name="Ascendent Light"/>
+<item id="1879435863" name="Ascendent Light"/>
+<item id="1879437132" name="Ascendent Light"/>
+<item id="1879437139" name="Ascendent Light"/>
+<item id="1879437540" name="Ascendent Light"/>
+<item id="1879437542" name="Ascendent Light"/>
+<item id="1879437773" name="Ascendent Light"/>
+<item id="1879437868" name="Ascendent Light"/>
+<item id="1879437884" name="Ascendent Light"/>
+<item id="1879448632" name="Heraldry of the Bright Eagle"/>
+<item id="1879448644" name="Heraldry of the Bright Lion"/>
+<item id="1879448645" name="Heraldry of the Bright Serpent"/>
+<item id="1879448649" name="Heraldry of the Bright Serpent"/>
+<item id="1879448651" name="Heraldry of the Bright Lion"/>
+<item id="1879448665" name="Heraldry of the Bright Eagle"/>
+<bonus nbItems="2">
+<stat name="Combat_SkillDamageMultiplier_Light" constant="15.000001"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="OUTGOING_HEALING" scaling="1879357899"/>
+</bonus>
+</set>
+<set id="1879478894" name="Enduring Power" type="TRACERIES" useAverageItemLevel="true" maxLevel="150" description="">
+<item id="1879471821" name="Enduring Power"/>
+<item id="1879471875" name="Enduring Power"/>
+<item id="1879472410" name="Enduring Power"/>
+<item id="1879472958" name="Enduring Power"/>
+<bonus nbItems="2">
+<stat name="ICPR" scaling="1879212034"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="20.0"/>
+</bonus>
+</set>
+<set id="1879478895" name="Ascendence of Frost" type="TRACERIES" useAverageItemLevel="true" maxLevel="150" description="">
+<item id="1879471811" name="Ascendent Frost"/>
+<item id="1879472039" name="Ascendent Frost"/>
+<item id="1879472407" name="Ascendent Frost"/>
+<item id="1879472663" name="Ascendent Frost"/>
+<bonus nbItems="2">
+<stat name="Combat_SkillDamageMultiplier_Frost" constant="15.000001"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="FINESSE" scaling="1879211717"/>
+</bonus>
+</set>
+<set id="1879478896" name="Ascendence of Flame" type="TRACERIES" useAverageItemLevel="true" maxLevel="150" description="">
+<item id="1879472121" name="Ascendent Flame"/>
+<item id="1879473120" name="Ascendent Flame"/>
+<item id="1879473134" name="Ascendent Flame"/>
+<item id="1879473177" name="Ascendent Flame"/>
+<bonus nbItems="2">
+<stat name="Combat_SkillDamageMultiplier_Fire" constant="15.000001"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="TACTICAL_MASTERY" scaling="1879223958"/>
+</bonus>
+</set>
+<set id="1879478897" name="Grand Willpower" type="TRACERIES" useAverageItemLevel="true" maxLevel="150" description="">
+<item id="1879472140" name="Grand Willpower"/>
+<item id="1879472361" name="Grand Willpower"/>
+<item id="1879472764" name="Grand Willpower"/>
+<item id="1879473004" name="Grand Willpower"/>
+<bonus nbItems="2">
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="TACTICAL_MITIGATION" scaling="1879215079"/>
+</bonus>
+</set>
+<set id="1879478898" name="Heroic Alacrity" type="TRACERIES" useAverageItemLevel="true" maxLevel="150" description="">
+<item id="1879472570" name="Heroic Alacrity"/>
+<item id="1879472762" name="Heroic Alacrity"/>
+<item id="1879472885" name="Heroic Alacrity"/>
+<item id="1879472982" name="Heroic Alacrity"/>
+<bonus nbItems="2">
+<stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="FINESSE" scaling="1879211717"/>
+</bonus>
+</set>
+<set id="1879478899" name="Perfect Recovery" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879424698" name="Perfect Recovery"/>
+<item id="1879424732" name="Perfect Recovery"/>
+<item id="1879424743" name="Perfect Recovery"/>
+<item id="1879424744" name="Perfect Recovery"/>
+<item id="1879425680" name="Perfect Recovery"/>
+<item id="1879425863" name="Perfect Recovery"/>
+<item id="1879426009" name="Perfect Recovery"/>
+<item id="1879426015" name="Perfect Recovery"/>
+<item id="1879431625" name="Perfect Recovery"/>
+<item id="1879431803" name="Perfect Recovery"/>
+<item id="1879431894" name="Perfect Recovery"/>
+<item id="1879431966" name="Perfect Recovery"/>
+<item id="1879432057" name="Perfect Recovery"/>
+<item id="1879432248" name="Perfect Recovery"/>
+<item id="1879432549" name="Perfect Recovery"/>
+<item id="1879432564" name="Perfect Recovery"/>
+<item id="1879432927" name="Perfect Recovery"/>
+<item id="1879432933" name="Perfect Recovery"/>
+<item id="1879432945" name="Perfect Recovery"/>
+<item id="1879433245" name="Perfect Recovery"/>
+<item id="1879433558" name="Perfect Recovery"/>
+<item id="1879434265" name="Perfect Recovery"/>
+<item id="1879434274" name="Perfect Recovery"/>
+<item id="1879436255" name="Perfect Recovery"/>
+<item id="1879436526" name="Perfect Recovery"/>
+<item id="1879436816" name="Perfect Recovery"/>
+<item id="1879437491" name="Perfect Recovery"/>
+<item id="1879437501" name="Perfect Recovery"/>
+<item id="1879448642" name="Heraldry of the Resilient Ox"/>
+<item id="1879448643" name="Heraldry of the Resilient Ox"/>
+<item id="1879448646" name="Heraldry of the Resilient Sparrow"/>
+<item id="1879448668" name="Heraldry of the Resilient Sparrow"/>
+<bonus nbItems="2">
+<stat name="INCOMING_HEALING_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="INCOMING_HEALING" scaling="1879211893"/>
+</bonus>
+</set>
+<set id="1879478900" name="Perfect Healing" type="TRACERIES" useAverageItemLevel="true" maxLevel="150" description="">
+<item id="1879472049" name="Perfect Healing"/>
+<item id="1879472082" name="Perfect Healing"/>
+<item id="1879472242" name="Perfect Healing"/>
+<item id="1879473050" name="Perfect Healing"/>
+<bonus nbItems="2">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="OUTGOING_HEALING" scaling="1879357899"/>
+</bonus>
+</set>
+<set id="1879478901" name="Enduring Power" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879459208" name="Enduring Power"/>
+<item id="1879459209" name="Enduring Power"/>
+<item id="1879459210" name="Enduring Power"/>
+<item id="1879459211" name="Enduring Power"/>
+<item id="1879459212" name="Enduring Power"/>
+<item id="1879459213" name="Enduring Power"/>
+<item id="1879459214" name="Enduring Power"/>
+<item id="1879459215" name="Enduring Power"/>
+<item id="1879459216" name="Enduring Power"/>
+<item id="1879459217" name="Enduring Power"/>
+<item id="1879459218" name="Enduring Power"/>
+<item id="1879459219" name="Enduring Power"/>
+<item id="1879459220" name="Enduring Power"/>
+<item id="1879459221" name="Enduring Power"/>
+<item id="1879459222" name="Enduring Power"/>
+<item id="1879459223" name="Enduring Power"/>
+<item id="1879459225" name="Enduring Power"/>
+<item id="1879459227" name="Enduring Power"/>
+<item id="1879459228" name="Enduring Power"/>
+<item id="1879459230" name="Enduring Power"/>
+<item id="1879459231" name="Enduring Power"/>
+<item id="1879459232" name="Enduring Power"/>
+<item id="1879459233" name="Enduring Power"/>
+<item id="1879459234" name="Enduring Power"/>
+<item id="1879459235" name="Enduring Power"/>
+<item id="1879459236" name="Enduring Power"/>
+<item id="1879459237" name="Enduring Power"/>
+<item id="1879459238" name="Enduring Power"/>
+<bonus nbItems="2">
+<stat name="ICPR" scaling="1879212034"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="20.0"/>
+</bonus>
+</set>
+<set id="1879478902" name="Grand Armour" type="TRACERIES" useAverageItemLevel="true" maxLevel="150" description="">
+<item id="1879471868" name="Grand Armour"/>
+<item id="1879472100" name="Grand Armour"/>
+<item id="1879472211" name="Grand Armour"/>
+<item id="1879473052" name="Grand Armour"/>
+<bonus nbItems="2">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="PHYSICAL_MITIGATION" scaling="1879215069"/>
+</bonus>
+</set>
+<set id="1879478903" name="Heroic Alacrity" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879424675" name="Heroic Alacrity"/>
+<item id="1879424717" name="Heroic Alacrity"/>
+<item id="1879424736" name="Heroic Alacrity"/>
+<item id="1879424769" name="Heroic Alacrity"/>
+<item id="1879425277" name="Heroic Alacrity"/>
+<item id="1879425503" name="Heroic Alacrity"/>
+<item id="1879425695" name="Heroic Alacrity"/>
+<item id="1879425960" name="Heroic Alacrity"/>
+<item id="1879431508" name="Heroic Alacrity"/>
+<item id="1879431909" name="Heroic Alacrity"/>
+<item id="1879432039" name="Heroic Alacrity"/>
+<item id="1879432359" name="Heroic Alacrity"/>
+<item id="1879432460" name="Heroic Alacrity"/>
+<item id="1879432885" name="Heroic Alacrity"/>
+<item id="1879433058" name="Heroic Alacrity"/>
+<item id="1879433593" name="Heroic Alacrity"/>
+<item id="1879433946" name="Heroic Alacrity"/>
+<item id="1879435264" name="Heroic Alacrity"/>
+<item id="1879435399" name="Heroic Alacrity"/>
+<item id="1879435785" name="Heroic Alacrity"/>
+<item id="1879435888" name="Heroic Alacrity"/>
+<item id="1879435989" name="Heroic Alacrity"/>
+<item id="1879436458" name="Heroic Alacrity"/>
+<item id="1879436606" name="Heroic Alacrity"/>
+<item id="1879436624" name="Heroic Alacrity"/>
+<item id="1879437039" name="Heroic Alacrity"/>
+<item id="1879437167" name="Heroic Alacrity"/>
+<item id="1879437915" name="Heroic Alacrity"/>
+<item id="1879448630" name="Heraldry of the Swift Eagle"/>
+<item id="1879448638" name="Heraldry of the Swift Serpent"/>
+<item id="1879448650" name="Heraldry of the Swift Lion"/>
+<item id="1879448660" name="Heraldry of the Swift Eagle"/>
+<item id="1879448663" name="Heraldry of the Swift Serpent"/>
+<item id="1879448666" name="Heraldry of the Swift Lion"/>
+<bonus nbItems="2">
+<stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="FINESSE" scaling="1879211717"/>
+</bonus>
+</set>
+<set id="1879478904" name="Heroic Precision" type="TRACERIES" useAverageItemLevel="true" maxLevel="150" description="">
+<item id="1879471720" name="Heroic Precision"/>
+<item id="1879472199" name="Heroic Precision"/>
+<item id="1879472417" name="Heroic Precision"/>
+<item id="1879472974" name="Heroic Precision"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="key:621087452:103715137" constant="3.0"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+</set>
+<set id="1879478905" name="Ascendence of Flame" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879428234" name="Ascendent Flame"/>
+<item id="1879428235" name="Ascendent Flame"/>
+<item id="1879428241" name="Ascendent Flame"/>
+<item id="1879428251" name="Ascendent Flame"/>
+<item id="1879428253" name="Ascendent Flame"/>
+<item id="1879428254" name="Ascendent Flame"/>
+<item id="1879428255" name="Ascendent Flame"/>
+<item id="1879428258" name="Ascendent Flame"/>
+<item id="1879431700" name="Ascendent Flame"/>
+<item id="1879431826" name="Ascendent Flame"/>
+<item id="1879431964" name="Ascendent Flame"/>
+<item id="1879431980" name="Ascendent Flame"/>
+<item id="1879432050" name="Ascendent Flame"/>
+<item id="1879432086" name="Ascendent Flame"/>
+<item id="1879432120" name="Ascendent Flame"/>
+<item id="1879432122" name="Ascendent Flame"/>
+<item id="1879432267" name="Ascendent Flame"/>
+<item id="1879432277" name="Ascendent Flame"/>
+<item id="1879432383" name="Ascendent Flame"/>
+<item id="1879432398" name="Ascendent Flame"/>
+<item id="1879432528" name="Ascendent Flame"/>
+<item id="1879433607" name="Ascendent Flame"/>
+<item id="1879435958" name="Ascendent Flame"/>
+<item id="1879436114" name="Ascendent Flame"/>
+<item id="1879436242" name="Ascendent Flame"/>
+<item id="1879436272" name="Ascendent Flame"/>
+<item id="1879436366" name="Ascendent Flame"/>
+<item id="1879436983" name="Ascendent Flame"/>
+<item id="1879448641" name="Heraldry of the Blazing Eagle"/>
+<item id="1879448648" name="Heraldry of the Blazing Eagle"/>
+<bonus nbItems="2">
+<stat name="Combat_SkillDamageMultiplier_Fire" constant="15.000001"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="TACTICAL_MASTERY" scaling="1879223958"/>
+</bonus>
+</set>
+<set id="1879478906" name="Ascendence of Frost" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879428227" name="Ascendent Frost"/>
+<item id="1879428230" name="Ascendent Frost"/>
+<item id="1879428238" name="Ascendent Frost"/>
+<item id="1879428242" name="Ascendent Frost"/>
+<item id="1879428244" name="Ascendent Frost"/>
+<item id="1879428245" name="Ascendent Frost"/>
+<item id="1879428247" name="Ascendent Frost"/>
+<item id="1879428252" name="Ascendent Frost"/>
+<item id="1879431544" name="Ascendent Frost"/>
+<item id="1879432502" name="Ascendent Frost"/>
+<item id="1879432919" name="Ascendent Frost"/>
+<item id="1879433530" name="Ascendent Frost"/>
+<item id="1879433662" name="Ascendent Frost"/>
+<item id="1879435037" name="Ascendent Frost"/>
+<item id="1879435213" name="Ascendent Frost"/>
+<item id="1879435417" name="Ascendent Frost"/>
+<item id="1879435434" name="Ascendent Frost"/>
+<item id="1879435595" name="Ascendent Frost"/>
+<item id="1879435918" name="Ascendent Frost"/>
+<item id="1879436028" name="Ascendent Frost"/>
+<item id="1879436103" name="Ascendent Frost"/>
+<item id="1879436217" name="Ascendent Frost"/>
+<item id="1879436230" name="Ascendent Frost"/>
+<item id="1879436627" name="Ascendent Frost"/>
+<item id="1879437202" name="Ascendent Frost"/>
+<item id="1879437247" name="Ascendent Frost"/>
+<item id="1879437310" name="Ascendent Frost"/>
+<item id="1879437480" name="Ascendent Frost"/>
+<item id="1879448629" name="Heraldry of the Frigid Eagle"/>
+<item id="1879448633" name="Heraldry of the Frigid Eagle"/>
+<bonus nbItems="2">
+<stat name="Combat_SkillDamageMultiplier_Frost" constant="15.000001"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="FINESSE" scaling="1879211717"/>
+</bonus>
+</set>
+<set id="1879478907" name="Grand Armour" type="TRACERIES" useAverageItemLevel="true" maxLevel="140" description="">
+<item id="1879424684" name="Grand Armour"/>
+<item id="1879424704" name="Grand Armour"/>
+<item id="1879424708" name="Grand Armour"/>
+<item id="1879424714" name="Grand Armor"/>
+<item id="1879425273" name="Grand Armour"/>
+<item id="1879425536" name="Grand Armour"/>
+<item id="1879425888" name="Grand Armour"/>
+<item id="1879425999" name="Grand Armour"/>
+<item id="1879431600" name="Grand Armour"/>
+<item id="1879432138" name="Grand Armour"/>
+<item id="1879434140" name="Grand Armour"/>
+<item id="1879434446" name="Grand Armour"/>
+<item id="1879434492" name="Grand Armour"/>
+<item id="1879434802" name="Grand Armour"/>
+<item id="1879434838" name="Grand Armour"/>
+<item id="1879434914" name="Grand Armour"/>
+<item id="1879435133" name="Grand Armour"/>
+<item id="1879435206" name="Grand Armour"/>
+<item id="1879435406" name="Grand Armour"/>
+<item id="1879435571" name="Grand Armour"/>
+<item id="1879435592" name="Grand Armour"/>
+<item id="1879435737" name="Grand Armour"/>
+<item id="1879435907" name="Grand Armour"/>
+<item id="1879435975" name="Grand Armour"/>
+<item id="1879436019" name="Grand Armour"/>
+<item id="1879436105" name="Grand Armour"/>
+<item id="1879436227" name="Grand Armour"/>
+<item id="1879436287" name="Grand Armour"/>
+<item id="1879448631" name="Heraldry of the Sturdy Ox"/>
+<item id="1879448634" name="Heraldry of the Sturdy Ox"/>
+<item id="1879448636" name="Heraldry of the Sturdy Sparrow"/>
+<item id="1879448647" name="Heraldry of the Sturdy Sparrow"/>
+<bonus nbItems="2">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="PHYSICAL_MITIGATION" scaling="1879215069"/>
+</bonus>
+</set>
+<set id="1879478908" name="Perfect Recovery" type="TRACERIES" useAverageItemLevel="true" maxLevel="150" description="">
+<item id="1879472227" name="Perfect Recovery"/>
+<item id="1879472292" name="Perfect Recovery"/>
+<item id="1879472472" name="Perfect Recovery"/>
+<item id="1879473204" name="Perfect Recovery"/>
+<bonus nbItems="2">
+<stat name="INCOMING_HEALING_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="INCOMING_HEALING" scaling="1879211893"/>
 </bonus>
 </set>
 </sets>

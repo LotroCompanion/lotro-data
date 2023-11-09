@@ -17,7 +17,7 @@
 <effect id="1879049427" name="Force Attack" appliedDescription="key:620757557:54354734" iconId="1090522264" duration="10.0"/>
 <propertyModEffect id="1879049460" name="Crippled" appliedDescription="key:620757563:54354734" iconId="1090522393" duration="10.0" pulseCount="18" expiresInRealTime="true">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
-<stat name="MIGHT" scaling="1879050265"/>
+<stat name="MIGHT" operator="SUBSTRACT" scaling="1879366652"/>
 </propertyModEffect>
 <propertyModEffect id="1879049469" name="Minor Sprain" description="key:620757565:181298206" appliedDescription="key:620757565:54354734" iconId="1090522393" duration="5.0" expiresInRealTime="true">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="20.0"/>
@@ -28,7 +28,7 @@
 <stat name="BLOCK" operator="SUBSTRACT" scaling="1879120054"/>
 </propertyModEffect>
 <propertyModEffect id="1879049471" name="Minor Injury" description="key:620757569:181298206" appliedDescription="key:620757569:54354734" iconId="1090522394" duration="10.0" expiresInRealTime="true">
-<stat name="MIGHT" scaling="1879049472"/>
+<stat name="MIGHT" operator="SUBSTRACT" scaling="1879471075"/>
 </propertyModEffect>
 <propertyModEffect id="1879049474" name="Sprain" description="key:620757571:181298206" appliedDescription="key:620757571:54354734" iconId="1090522393" duration="7.0" expiresInRealTime="true">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="30.0"/>
@@ -39,24 +39,24 @@
 <stat name="BLOCK" operator="SUBSTRACT" scaling="1879120049"/>
 </propertyModEffect>
 <propertyModEffect id="1879049476" name="Injury" description="key:620757575:181298206" appliedDescription="key:620757575:54354734" iconId="1090522394" duration="10.0" expiresInRealTime="true">
-<stat name="MIGHT" scaling="1879049477"/>
+<stat name="MIGHT" operator="SUBSTRACT" scaling="1879471096"/>
 </propertyModEffect>
 <propertyModEffect id="1879049479" name="Degrading Wound" appliedDescription="key:620757577:54354734" iconId="1090522395" duration="10.0" pulseCount="2">
-<stat name="MIGHT" scaling="1879049472"/>
+<stat name="MIGHT" operator="SUBSTRACT" scaling="1879471075"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879049485" name="Minor Poison" iconId="1090522396" duration="3.0" pulseCount="4" stat="Health_MaxLevel" damageType="1">
 <initialChange progressionID="1879049486"/>
 <overTimeChange progressionID="1879049487"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879049488" name="Minor Crippling Poison" description="key:620757582:181298206" appliedDescription="key:620757582:54354734" iconId="1090522397" duration="10.0" expiresInRealTime="true">
-<stat name="AGILITY" scaling="1879049489"/>
+<stat name="AGILITY" operator="SUBSTRACT" scaling="1879471065"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879049490" name="Poison" iconId="1090522396" duration="3.0" pulseCount="7" stat="Health_MaxLevel" damageType="1">
 <initialChange progressionID="1879049491"/>
 <overTimeChange progressionID="1879049492"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879049493" name="Crippling Poison" description="key:620757586:181298206" appliedDescription="key:620757586:54354734" iconId="1090522397" duration="10.0" expiresInRealTime="true">
-<stat name="AGILITY" scaling="1879049494"/>
+<stat name="AGILITY" operator="SUBSTRACT" scaling="1879471086"/>
 </propertyModEffect>
 <propertyModEffect id="1879049495" name="Latent Poison" appliedDescription="key:620757588:54354734" iconId="1090555725" duration="10.0" pulseCount="2">
 <stat name="POWER" operator="SUBSTRACT" scaling="1879399351"/>
@@ -65,13 +65,13 @@
 <overTimeChange progressionID="1879457141"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879049534" name="Minor Diseased Frailty" description="key:620757600:181298206" appliedDescription="key:620757600:54354734" iconId="1090522616" duration="10.0" expiresInRealTime="true">
-<stat name="VITALITY" scaling="1879049535"/>
+<stat name="VITALITY" operator="SUBSTRACT" scaling="1879211969"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879049536" name="Disease" iconId="1091401231" duration="3.0" pulseCount="7" stat="Power_MaxLevel" damageType="1">
 <overTimeChange progressionID="1879457139"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879049538" name="Diseased Frailty" description="key:620757604:181298206" appliedDescription="key:620757604:54354734" iconId="1090522616" duration="10.0" expiresInRealTime="true">
-<stat name="VITALITY" scaling="1879049539"/>
+<stat name="VITALITY" operator="SUBSTRACT" scaling="1879347271"/>
 </propertyModEffect>
 <propertyModEffect id="1879049540" name="Festering Disease" appliedDescription="key:620757606:54354734" iconId="1090522617" duration="10.0" pulseCount="2">
 <stat name="ICMR" operator="SUBSTRACT" scaling="1879399433"/>
@@ -88,7 +88,7 @@
 <overTimeChange progressionID="1879049743"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879049744" name="Major Crippling Poison" description="key:620757697:181298206" appliedDescription="key:620757697:54354734" iconId="1090522397" duration="10.0" pulseCount="24" expiresInRealTime="true">
-<stat name="AGILITY" scaling="1879049745"/>
+<stat name="AGILITY" operator="SUBSTRACT" scaling="1879366647"/>
 </propertyModEffect>
 <genesis id="1879049812" name=".." appliedDescription="key:620757730:54354734" summonDuration="30.0">
 <hotspot id="1879049813" name="Slime Puddle">
@@ -153,7 +153,7 @@
 <overTimeChange progressionID="1879457136"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879050255" name="Greater Diseased Frailty" description="key:620757937:181298206" appliedDescription="key:620757937:54354734" iconId="1090522616" duration="10.0" pulseCount="30" expiresInRealTime="true">
-<stat name="VITALITY" scaling="1879050256"/>
+<stat name="VITALITY" operator="SUBSTRACT" scaling="1879211972"/>
 </propertyModEffect>
 <propertyModEffect id="1879050257" name="Lurking Sickness" appliedDescription="key:620757939:54354734" iconId="1090522617" duration="10.0" pulseCount="2">
 <stat name="ICMR" operator="SUBSTRACT" scaling="1879399433"/>
@@ -168,7 +168,7 @@
 <stat name="BLOCK" operator="SUBSTRACT" scaling="1879120059"/>
 </propertyModEffect>
 <propertyModEffect id="1879050264" name="Major Injury" description="key:620757946:181298206" appliedDescription="key:620757946:54354734" iconId="1090522394" duration="10.0" pulseCount="18" expiresInRealTime="true">
-<stat name="MIGHT" scaling="1879050265"/>
+<stat name="MIGHT" operator="SUBSTRACT" scaling="1879366652"/>
 </propertyModEffect>
 <instantVitalEffect id="1879050478" name="Increased Morale" stat="Health_MaxLevel">
 <vitalChange progressionID="1879467700" variance="0.05"/>
@@ -204,12 +204,12 @@
 <overTimeChange progressionID="1879051286"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879051287" name="Minor Fright" description="key:620758632:181298206" appliedDescription="key:620758632:54354734" iconId="1090528810" duration="10.0" expiresInRealTime="true">
-<stat name="FATE" scaling="1879051288"/>
-<stat name="WILL" scaling="1879051289"/>
+<stat name="FATE" operator="SUBSTRACT" scaling="1879450138"/>
+<stat name="WILL" operator="SUBSTRACT" scaling="1879471101"/>
 </propertyModEffect>
 <propertyModEffect id="1879051290" name="Fright" description="key:620758635:181298206" appliedDescription="key:620758635:54354734" iconId="1090528810" duration="10.0" expiresInRealTime="true">
-<stat name="FATE" scaling="1879051291"/>
-<stat name="WILL" scaling="1879051292"/>
+<stat name="FATE" operator="SUBSTRACT" scaling="1879471105"/>
+<stat name="WILL" operator="SUBSTRACT" scaling="1879471060"/>
 </propertyModEffect>
 <propertyModEffect id="1879051293" name="Suppressed Fear" appliedDescription="key:620758637:54354734" iconId="1090528811" duration="10.0" pulseCount="2">
 <stat name="MORALE" operator="SUBSTRACT" scaling="1879398432"/>
@@ -296,8 +296,8 @@
 </attacker>
 </reactiveVitalEffect>
 <propertyModEffect id="1879052662" name="Aura of Dread" appliedDescription="key:620759507:54354734" iconId="1090524461">
-<stat name="FATE" scaling="1879051288"/>
-<stat name="WILL" scaling="1879051289"/>
+<stat name="FATE" operator="SUBSTRACT" scaling="1879450138"/>
+<stat name="WILL" operator="SUBSTRACT" scaling="1879471101"/>
 </propertyModEffect>
 <propertyModEffect id="1879052671" name="Shadow Vulnerability" description="key:620759511:181298206" appliedDescription="key:620759511:54354734" iconId="1090528810" duration="3.0" pulseCount="5" expiresInRealTime="true">
 <stat name="SHADOW_MITIGATION" operator="SUBSTRACT" scaling="1879131710"/>
@@ -306,8 +306,8 @@
 <induceCombatState id="1879052685" name="Induce MonsterInvulnerability" state="4" stateDuration="10.0"/>
 <effect id="1879052686" name="Exit MonsterInvulnerability" description="key:620759524:181298206"/>
 <propertyModEffect id="1879052688" name="Major Fright" description="key:620759529:181298206" appliedDescription="key:620759529:54354734" iconId="1090528810" duration="10.0" pulseCount="24" expiresInRealTime="true">
-<stat name="FATE" scaling="1879052689"/>
-<stat name="WILL" scaling="1879052690"/>
+<stat name="FATE" operator="SUBSTRACT" scaling="1879366654"/>
+<stat name="WILL" operator="SUBSTRACT" scaling="1879366661"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879052691" name="Distraught" iconId="1090528808" duration="4.0" pulseCount="5" stat="Health_MaxLevel" damageType="32">
 <initialChange progressionID="1879052692"/>
@@ -373,84 +373,84 @@
 <overTimeChange progressionID="1879050067"/>
 </vitalOverTimeEffect>
 <effect id="1879054945" name="GrantRecipeEffect" appliedDescription="This effect grants a crafting recipe to the target player."/>
-<propertyModEffect id="1879055004" name="Metalworking Lore[E]" iconId="1090642308" duration="60.0">
+<propertyModEffect id="1879055004" name="Metalworking Lore" iconId="1090642308" duration="60.0">
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620761101:106251889" scaling="1879055005"/>
 </propertyModEffect>
-<propertyModEffect id="1879055007" name="Tailoring Lore[E]" iconId="1090642307" duration="60.0">
+<propertyModEffect id="1879055007" name="Tailoring Lore" iconId="1090642307" duration="60.0">
 <stat name="TAILOR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790531:106251889" scaling="1879055008"/>
 </propertyModEffect>
-<propertyModEffect id="1879055010" name="Weaponsmithing Lore[E]" iconId="1090642310" duration="60.0">
+<propertyModEffect id="1879055010" name="Weaponsmithing Lore" iconId="1090642310" duration="60.0">
 <stat name="WEAPONSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620761105:106251889" scaling="1879055011"/>
 </propertyModEffect>
-<propertyModEffect id="1879055013" name="Woodworking Lore[E]" iconId="1090642309" duration="60.0">
+<propertyModEffect id="1879055013" name="Woodworking Lore" iconId="1090642309" duration="60.0">
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620761107:106251889" scaling="1879055014"/>
 </propertyModEffect>
-<propertyModEffect id="1879055027" name="Metalworking Lore[E]" iconId="1090642308" duration="60.0">
+<propertyModEffect id="1879055027" name="Metalworking Lore" iconId="1090642308" duration="60.0">
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790532:106251889" scaling="1879055005"/>
 </propertyModEffect>
-<propertyModEffect id="1879055029" name="Tailoring Lore[E]" iconId="1090642307" duration="60.0">
+<propertyModEffect id="1879055029" name="Tailoring Lore" iconId="1090642307" duration="60.0">
 <stat name="TAILOR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790533:106251889" scaling="1879055008"/>
 </propertyModEffect>
-<propertyModEffect id="1879055031" name="Weaponsmithing Lore[E]" iconId="1090642310" duration="60.0">
+<propertyModEffect id="1879055031" name="Weaponsmithing Lore" iconId="1090642310" duration="60.0">
 <stat name="WEAPONSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790534:106251889" scaling="1879055011"/>
 </propertyModEffect>
-<propertyModEffect id="1879055033" name="Woodworking Lore[E]" iconId="1090642309" duration="60.0">
+<propertyModEffect id="1879055033" name="Woodworking Lore" iconId="1090642309" duration="60.0">
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790535:106251889" scaling="1879055014"/>
 </propertyModEffect>
-<propertyModEffect id="1879055038" name="Metalworking Lore[E]" iconId="1090642308" duration="60.0">
+<propertyModEffect id="1879055038" name="Metalworking Lore" iconId="1090642308" duration="60.0">
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790536:106251889" scaling="1879055005"/>
 </propertyModEffect>
-<propertyModEffect id="1879055040" name="Tailoring Lore[E]" iconId="1090642307" duration="60.0">
+<propertyModEffect id="1879055040" name="Tailoring Lore" iconId="1090642307" duration="60.0">
 <stat name="TAILOR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790537:106251889" scaling="1879055008"/>
 </propertyModEffect>
-<propertyModEffect id="1879055042" name="Weaponsmithing Lore[E]" iconId="1090642310" duration="60.0">
+<propertyModEffect id="1879055042" name="Weaponsmithing Lore" iconId="1090642310" duration="60.0">
 <stat name="WEAPONSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790538:106251889" scaling="1879055011"/>
 </propertyModEffect>
-<propertyModEffect id="1879055044" name="Woodworking Lore[E]" iconId="1090642309" duration="60.0">
+<propertyModEffect id="1879055044" name="Woodworking Lore" iconId="1090642309" duration="60.0">
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790539:106251889" scaling="1879055014"/>
 </propertyModEffect>
-<propertyModEffect id="1879055049" name="Battle Lore[e]" iconId="1090642112" duration="1800.0">
+<propertyModEffect id="1879055049" name="Battle Lore" iconId="1090642112" duration="1800.0">
 <stat name="PHYSICAL_MASTERY" scaling="1879225545"/>
 <stat name="TACTICAL_MASTERY" scaling="1879225550"/>
 </propertyModEffect>
-<propertyModEffect id="1879055052" name="Warding Lore[e]" iconId="1090642113" duration="1800.0">
+<propertyModEffect id="1879055052" name="Warding Lore" iconId="1090642113" duration="1800.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879221861"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879221860"/>
 </propertyModEffect>
-<propertyModEffect id="1879055057" name="Metalworking Lore[E]" iconId="1090642308" duration="60.0">
+<propertyModEffect id="1879055057" name="Metalworking Lore" iconId="1090642308" duration="60.0">
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790540:106251889" scaling="1879055005"/>
 </propertyModEffect>
-<propertyModEffect id="1879055059" name="Tailoring Lore[E]" iconId="1090642307" duration="60.0">
+<propertyModEffect id="1879055059" name="Tailoring Lore" iconId="1090642307" duration="60.0">
 <stat name="TAILOR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790541:106251889" scaling="1879055008"/>
 </propertyModEffect>
-<propertyModEffect id="1879055061" name="Weaponsmithing Lore[E]" iconId="1090642310" duration="60.0">
+<propertyModEffect id="1879055061" name="Weaponsmithing Lore" iconId="1090642310" duration="60.0">
 <stat name="WEAPONSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790542:106251889" scaling="1879055011"/>
 </propertyModEffect>
-<propertyModEffect id="1879055063" name="Woodworking Lore[E]" iconId="1090642309" duration="60.0">
+<propertyModEffect id="1879055063" name="Woodworking Lore" iconId="1090642309" duration="60.0">
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790543:106251889" scaling="1879055014"/>
 </propertyModEffect>
-<propertyModEffect id="1879055066" name="Metalworking Lore[E]" iconId="1090642308" duration="60.0">
+<propertyModEffect id="1879055066" name="Metalworking Lore" iconId="1090642308" duration="60.0">
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790544:106251889" scaling="1879055005"/>
 </propertyModEffect>
-<propertyModEffect id="1879055068" name="Tailoring Lore[E]" iconId="1090642307" duration="60.0">
+<propertyModEffect id="1879055068" name="Tailoring Lore" iconId="1090642307" duration="60.0">
 <stat name="TAILOR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790545:106251889" scaling="1879055008"/>
 </propertyModEffect>
-<propertyModEffect id="1879055070" name="Weaponsmithing Lore[E]" iconId="1090642310" duration="60.0">
+<propertyModEffect id="1879055070" name="Weaponsmithing Lore" iconId="1090642310" duration="60.0">
 <stat name="WEAPONSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790546:106251889" scaling="1879055011"/>
 </propertyModEffect>
-<propertyModEffect id="1879055072" name="Woodworking Lore[E]" iconId="1090642309" duration="60.0">
+<propertyModEffect id="1879055072" name="Woodworking Lore" iconId="1090642309" duration="60.0">
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790547:106251889" scaling="1879055014"/>
 </propertyModEffect>
 <fellowshipEffect id="1879055303" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879055304" name="Brilliant Edhelharn Token: Give Hope[e]"/>
+<effect id="1879055304" name="Brilliant Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<propertyModEffect id="1879055304" name="Brilliant Edhelharn Token: Give Hope[e]" appliedDescription="key:620761350:54354734" iconId="1091526109" duration="900.0">
+<propertyModEffect id="1879055304" name="Brilliant Edhelharn Token: Give Hope" appliedDescription="key:620761350:54354734" iconId="1091526109" duration="900.0">
 <stat name="HOPE" constant="5.0"/>
 </propertyModEffect>
 <fellowshipEffect id="1879055306" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879055307" name="Glorious Edhelharn Token: Give Hope[e]"/>
+<effect id="1879055307" name="Glorious Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<propertyModEffect id="1879055307" name="Glorious Edhelharn Token: Give Hope[e]" appliedDescription="key:620761354:54354734" iconId="1091526109" duration="1800.0">
+<propertyModEffect id="1879055307" name="Glorious Edhelharn Token: Give Hope" appliedDescription="key:620761354:54354734" iconId="1091526109" duration="1800.0">
 <stat name="HOPE" constant="5.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879056128" name="Refined Fire-oil" description="key:620761952:181298206" iconId="1090531555" duration="900.0"/>
@@ -693,12 +693,12 @@
 <propertyModEffect id="1879062364" name="Sticky Tar" appliedDescription="key:620767303:54354734" iconId="1090542796" duration="15.0" expiresInRealTime="true">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="40.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879062462" name="Ballad of Aiglos[sp]" iconId="1090641996" duration="1500.0">
+<propertyModEffect id="1879062462" name="Ballad of Aiglos" iconId="1090641996" duration="1500.0">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="2.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="2.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879062464" name="Chant of the Stalwart[E]" iconId="1090641995" duration="1500.0">
+<propertyModEffect id="1879062464" name="Chant of the Stalwart" iconId="1090641995" duration="1500.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879368467"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879368461"/>
 </propertyModEffect>
@@ -756,15 +756,15 @@
 <overTimeChange progressionID="1879064546"/>
 </vitalOverTimeEffect>
 <fellowshipEffect id="1879067226" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879067227" name="Dull Edhelharn Token: Give Hope[e]"/>
+<effect id="1879067227" name="Dull Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<propertyModEffect id="1879067227" name="Dull Edhelharn Token: Give Hope[e]" appliedDescription="key:620769397:54354734" iconId="1091526109" duration="900.0">
+<propertyModEffect id="1879067227" name="Dull Edhelharn Token: Give Hope" appliedDescription="key:620769397:54354734" iconId="1091526109" duration="900.0">
 <stat name="HOPE" constant="1.0"/>
 </propertyModEffect>
 <fellowshipEffect id="1879067229" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879067230" name="Dim Edhelharn Token: Give Hope[e]"/>
+<effect id="1879067230" name="Dim Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<propertyModEffect id="1879067230" name="Dim Edhelharn Token: Give Hope[e]" appliedDescription="key:620769401:54354734" iconId="1091526109" duration="1800.0">
+<propertyModEffect id="1879067230" name="Dim Edhelharn Token: Give Hope" appliedDescription="key:620769401:54354734" iconId="1091526109" duration="1800.0">
 <stat name="HOPE" constant="1.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879068277" name="Basic Caltrops Slow" iconId="1090552838" duration="30.0">
@@ -799,15 +799,15 @@
 </attacker>
 </reactiveVitalEffect>
 <fellowshipEffect id="1879069476" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879069477" name="Faint Edhelharn Token: Give Hope[e]"/>
+<effect id="1879069477" name="Faint Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<propertyModEffect id="1879069477" name="Faint Edhelharn Token: Give Hope[e]" appliedDescription="key:620771084:54354734" iconId="1091526109" duration="900.0">
+<propertyModEffect id="1879069477" name="Faint Edhelharn Token: Give Hope" appliedDescription="key:620771084:54354734" iconId="1091526109" duration="900.0">
 <stat name="HOPE" constant="2.0"/>
 </propertyModEffect>
 <fellowshipEffect id="1879069479" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879069480" name="Pale Edhelharn Token: Give Hope[e]"/>
+<effect id="1879069480" name="Pale Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<propertyModEffect id="1879069480" name="Pale Edhelharn Token: Give Hope[e]" appliedDescription="key:620771088:54354734" iconId="1091526109" duration="1800.0">
+<propertyModEffect id="1879069480" name="Pale Edhelharn Token: Give Hope" appliedDescription="key:620771088:54354734" iconId="1091526109" duration="1800.0">
 <stat name="HOPE" constant="2.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879069977" name="Call - Nature" iconId="1090519170">
@@ -839,15 +839,15 @@
 </vitalOverTimeEffect>
 <induceCombatState id="1879070123" name="Marbles Tier 2" state="9" stateDuration="5.0"/>
 <fellowshipEffect id="1879070151" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879070152" name="Glossy Edhelharn Token: Give Hope[e]"/>
+<effect id="1879070152" name="Glossy Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<propertyModEffect id="1879070152" name="Glossy Edhelharn Token: Give Hope[e]" appliedDescription="key:620771697:54354734" iconId="1091526109" duration="900.0">
+<propertyModEffect id="1879070152" name="Glossy Edhelharn Token: Give Hope" appliedDescription="key:620771697:54354734" iconId="1091526109" duration="900.0">
 <stat name="HOPE" constant="3.0"/>
 </propertyModEffect>
 <fellowshipEffect id="1879070154" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879070155" name="Polished Edhelharn Token: Give Hope[e]"/>
+<effect id="1879070155" name="Polished Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<propertyModEffect id="1879070155" name="Polished Edhelharn Token: Give Hope[e]" appliedDescription="key:620771701:54354734" iconId="1091526109" duration="1800.0">
+<propertyModEffect id="1879070155" name="Polished Edhelharn Token: Give Hope" appliedDescription="key:620771701:54354734" iconId="1091526109" duration="1800.0">
 <stat name="HOPE" constant="3.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879070159" name="Rune of Striking" iconId="1090519170">
@@ -869,15 +869,15 @@
 <vitalChange progressionID="1879467544"/>
 </instantVitalEffect>
 <fellowshipEffect id="1879070260" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879070261" name="Shining Edhelharn Token: Give Hope[e]"/>
+<effect id="1879070261" name="Shining Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<propertyModEffect id="1879070261" name="Shining Edhelharn Token: Give Hope[e]" appliedDescription="key:620771766:54354734" iconId="1091526109" duration="900.0">
+<propertyModEffect id="1879070261" name="Shining Edhelharn Token: Give Hope" appliedDescription="key:620771766:54354734" iconId="1091526109" duration="900.0">
 <stat name="HOPE" constant="4.0"/>
 </propertyModEffect>
 <fellowshipEffect id="1879070263" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879070264" name="Gleaming Edhelharn Token: Give Hope[e]"/>
+<effect id="1879070264" name="Gleaming Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<propertyModEffect id="1879070264" name="Gleaming Edhelharn Token: Give Hope[e]" appliedDescription="key:620771770:54354734" iconId="1091526109" duration="1800.0">
+<propertyModEffect id="1879070264" name="Gleaming Edhelharn Token: Give Hope" appliedDescription="key:620771770:54354734" iconId="1091526109" duration="1800.0">
 <stat name="HOPE" constant="4.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879070436" name="Large Shield Spikes" iconId="1090540518" duration="900.0">
@@ -1298,9 +1298,6 @@
 <overTimeChange progressionID="1879084205"/>
 </vitalOverTimeEffect>
 <effect id="1879084248" name="Summon Giant Polar Bear Pet" description="key:620789028:181298206"/>
-<instantVitalEffect id="1879084261" name="Increased Morale" stat="Health_MaxLevel">
-<vitalChange progressionID="1879467700" variance="0.05"/>
-</instantVitalEffect>
 <propertyModEffect id="1879084265" name="Medium Shield Spikes" iconId="1090540518" duration="600.0">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="4.0"/>
 </propertyModEffect>
@@ -1350,7 +1347,7 @@
 <fellowshipEffect id="1879084540" name="Duty Bound" description="key:620784400:181298206" appliedDescription="key:620784400:54354734" applyToPets="true" applyToTarget="true" range="20.0">
 <effect id="1879084065" name="Duty Bound"/>
 </fellowshipEffect>
-<propertyModEffect id="1879084788" name="Give Hope[e]" iconId="1090537016" duration="900.0">
+<propertyModEffect id="1879084788" name="Give Hope" iconId="1090537016" duration="900.0">
 <stat name="HOPE" constant="1.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879084939" name="Initiate Strength" appliedDescription="key:620784487:54354734" iconId="1090553358" duration="21600.0">
@@ -1479,8 +1476,8 @@
 <effect id="1879085676" name="Secret Paths: Tolascarnen Location Three" appliedDescription="key:620789288:54354734"/>
 <effect id="1879085777" name="Exit Rooted" description="key:620789323:181298206"/>
 <effect id="1879085778" name="Exit Dazed and Stunned" description="key:620783932:181298206"/>
-<instantVitalEffect id="1879085804" name="Painful Price" stat="Health_MaxLevel">
-<vitalChange constant="-250.0"/>
+<instantVitalEffect id="1879085804" name="Painful Price" stat="Health_MaxLevel" multiplicative="true">
+<vitalChange constant="-0.02"/>
 </instantVitalEffect>
 <effect id="1879085805" name="Shadow Grip" appliedDescription="key:620789350:54354734" iconId="1090532173" duration="4.0" pulseCount="3"/>
 <vitalOverTimeEffect id="1879085950" name="Piercing Wound" iconId="1090555723" duration="3.0" pulseCount="3" stat="Health_MaxLevel" damageType="8192">
@@ -1498,7 +1495,7 @@
 </propertyModEffect>
 <effect id="1879086711" name="Slope south of Calenthon" iconId="1090522263"/>
 <effect id="1879087113" name="Call to Master" appliedDescription="key:620789867:54354734"/>
-<propertyModEffect id="1879087160" name="Lore of the Ages[s]" iconId="1090642114" duration="300.0">
+<propertyModEffect id="1879087160" name="Lore of the Ages" iconId="1090642114" duration="300.0">
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620789896:106251889" constant="4.0"/>
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="-" constant="4.0"/>
 <stat name="COOK_CRIT_CHANCE_PERCENTAGE" descriptionOverride="-" constant="4.0"/>
@@ -1684,49 +1681,49 @@
 <stat name="TACTICAL_MITIGATION" scaling="1879215062"/>
 </propertyModEffect>
 <effect id="1879087967" name="Summoned Boggart" description="key:620790514:181298206"/>
-<propertyModEffect id="1879087968" name="Scholar Lore[E]" iconId="1090648232" duration="60.0">
+<propertyModEffect id="1879087968" name="Scholar Lore" iconId="1090648232" duration="60.0">
 <stat name="SCHOLAR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790516:106251889" scaling="1879087969"/>
 </propertyModEffect>
-<propertyModEffect id="1879087970" name="Jeweller Lore[E]" iconId="1090648233" duration="60.0">
+<propertyModEffect id="1879087970" name="Jeweller Lore" iconId="1090648233" duration="60.0">
 <stat name="JEWELLER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790517:106251889" scaling="1879087975"/>
 </propertyModEffect>
-<propertyModEffect id="1879087971" name="Jeweller Lore[E]" iconId="1090648233" duration="60.0">
+<propertyModEffect id="1879087971" name="Jeweller Lore" iconId="1090648233" duration="60.0">
 <stat name="JEWELLER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790518:106251889" scaling="1879087975"/>
 </propertyModEffect>
-<propertyModEffect id="1879087972" name="Scholar Lore[E]" iconId="1090648232" duration="60.0">
+<propertyModEffect id="1879087972" name="Scholar Lore" iconId="1090648232" duration="60.0">
 <stat name="SCHOLAR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790519:106251889" scaling="1879087969"/>
 </propertyModEffect>
-<propertyModEffect id="1879087973" name="Jeweller Lore[E]" iconId="1090648233" duration="60.0">
+<propertyModEffect id="1879087973" name="Jeweller Lore" iconId="1090648233" duration="60.0">
 <stat name="JEWELLER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790520:106251889" scaling="1879087975"/>
 </propertyModEffect>
-<propertyModEffect id="1879087974" name="Jeweller Lore[E]" iconId="1090648233" duration="60.0">
+<propertyModEffect id="1879087974" name="Jeweller Lore" iconId="1090648233" duration="60.0">
 <stat name="JEWELLER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790521:106251889" scaling="1879087975"/>
 </propertyModEffect>
-<propertyModEffect id="1879087976" name="Scholar Lore[E]" iconId="1090648232" duration="60.0">
+<propertyModEffect id="1879087976" name="Scholar Lore" iconId="1090648232" duration="60.0">
 <stat name="SCHOLAR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790522:106251889" scaling="1879087969"/>
 </propertyModEffect>
-<propertyModEffect id="1879087977" name="Cooking Lore[E]" iconId="1090648234" duration="60.0">
+<propertyModEffect id="1879087977" name="Cooking Lore" iconId="1090648234" duration="60.0">
 <stat name="COOK_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790523:106251889" scaling="1879087978"/>
 </propertyModEffect>
-<propertyModEffect id="1879087979" name="Cooking Lore[E]" iconId="1090648234" duration="60.0">
+<propertyModEffect id="1879087979" name="Cooking Lore" iconId="1090648234" duration="60.0">
 <stat name="COOK_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790524:106251889" scaling="1879087978"/>
 </propertyModEffect>
-<propertyModEffect id="1879087980" name="Cooking Lore[E]" iconId="1090648234" duration="60.0">
+<propertyModEffect id="1879087980" name="Cooking Lore" iconId="1090648234" duration="60.0">
 <stat name="COOK_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790525:106251889" scaling="1879087978"/>
 </propertyModEffect>
-<propertyModEffect id="1879087981" name="Scholar Lore[E]" iconId="1090648232" duration="60.0">
+<propertyModEffect id="1879087981" name="Scholar Lore" iconId="1090648232" duration="60.0">
 <stat name="SCHOLAR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790526:106251889" scaling="1879087969"/>
 </propertyModEffect>
-<propertyModEffect id="1879087982" name="Scholar Lore[E]" iconId="1090648232" duration="60.0">
+<propertyModEffect id="1879087982" name="Scholar Lore" iconId="1090648232" duration="60.0">
 <stat name="SCHOLAR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790527:106251889" scaling="1879087969"/>
 </propertyModEffect>
-<propertyModEffect id="1879087983" name="Cooking Lore[E]" iconId="1090648234" duration="60.0">
+<propertyModEffect id="1879087983" name="Cooking Lore" iconId="1090648234" duration="60.0">
 <stat name="COOK_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790528:106251889" scaling="1879087978"/>
 </propertyModEffect>
-<propertyModEffect id="1879087984" name="Jeweller Lore[E]" iconId="1090648233" duration="60.0">
+<propertyModEffect id="1879087984" name="Jeweller Lore" iconId="1090648233" duration="60.0">
 <stat name="JEWELLER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790529:106251889" scaling="1879087975"/>
 </propertyModEffect>
-<propertyModEffect id="1879087985" name="Cooking Lore[E]" iconId="1090648234" duration="60.0">
+<propertyModEffect id="1879087985" name="Cooking Lore" iconId="1090648234" duration="60.0">
 <stat name="COOK_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620790530:106251889" scaling="1879087978"/>
 </propertyModEffect>
 <propertyModEffect id="1879088052" name="Lute Strings of Minor Subtlety" iconId="1090648030" duration="300.0">
@@ -2118,7 +2115,7 @@
 <initialChange constant="-600.0"/>
 <overTimeChange constant="-1000.0"/>
 </vitalOverTimeEffect>
-<propertyModEffect id="1879095502" name="Hope[e]" iconId="1090537016" duration="600.0">
+<propertyModEffect id="1879095502" name="Hope" iconId="1090537016" duration="600.0">
 <stat name="HOPE" constant="1.0"/>
 </propertyModEffect>
 <effect id="1879095512" name="DNT - Lynx"/>
@@ -2246,11 +2243,11 @@
 <fellowshipEffect id="1879097219" name="Cheer" description="key:620795941:181298206" applyToTarget="true" range="20.0">
 <effect id="1879087516" name="Steady Morale"/>
 </fellowshipEffect>
-<propertyModEffect id="1879097229" name="Give Hope[e]" description="key:620795951:181298206" iconId="1090537016" duration="300.0">
+<propertyModEffect id="1879097229" name="Give Hope" description="key:620795951:181298206" iconId="1090537016" duration="300.0">
 <stat name="HOPE" constant="1.0"/>
 </propertyModEffect>
 <effect id="1879097234" name="Turtle"/>
-<propertyModEffect id="1879097318" name="Parry[e]" iconId="1090519700" duration="30.0">
+<propertyModEffect id="1879097318" name="Parry" iconId="1090519700" duration="30.0">
 <stat name="PARRY" constant="800.0"/>
 </propertyModEffect>
 <effect id="1879097338" name="Back from the Brink"/>
@@ -2569,7 +2566,7 @@
 <effect id="1879102821" name="DNT"/>
 <effect id="1879103110" name="Drain Power" iconId="1090519170"/>
 <effect id="1879103111" name="Drain Life" iconId="1090519170"/>
-<propertyModEffect id="1879103149" name="Give Hope[e]" iconId="1090537016">
+<propertyModEffect id="1879103149" name="Give Hope" iconId="1090537016">
 <stat name="HOPE" constant="2.0"/>
 </propertyModEffect>
 <effect id="1879103200" name="Disarm Immunity" appliedDescription="key:620800776:54354734" iconId="1090553766" duration="15.0"/>
@@ -2640,7 +2637,7 @@
 <overTimeChange progressionID="1879413256" variance="0.3"/>
 </vitalOverTimeEffect>
 <effect id="1879104869" name="Fell Sacrifice"/>
-<propertyModEffect id="1879105178" name="Curse of Sticky Feet" iconId="1091429134" duration="10.0">
+<propertyModEffect id="1879105178" name="Curse of Sticky Feet" iconId="1091429134" duration="15.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620802479:106251889" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879105179" name="Curse of Deadly Sorrows" iconId="1091429132" duration="20.0">
@@ -2692,22 +2689,22 @@
 </attacker>
 </reactiveVitalEffect>
 <effect id="1879107484" name="Summon Giant Polar Bear Pet" description="key:620803548:181298206"/>
-<propertyModEffect id="1879107847" name="Hustle[e]" appliedDescription="key:620803823:54354734" iconId="1090553944">
+<propertyModEffect id="1879107847" name="Hustle" appliedDescription="key:620803823:54354734" iconId="1090553944">
 <stat name="Movement_OutOfCombat_Speed_AddMod" constant="5.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879107851" name="Hustle[e]" appliedDescription="key:620803826:54354734" iconId="1090553944">
+<propertyModEffect id="1879107851" name="Hustle" appliedDescription="key:620803826:54354734" iconId="1090553944">
 <stat name="Movement_OutOfCombat_Speed_AddMod" constant="8.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879108033" name="Sparkling Edhelharn Token: Give Hope[e]" appliedDescription="key:620803980:54354734" iconId="1091526109" duration="1800.0">
+<propertyModEffect id="1879108033" name="Sparkling Edhelharn Token: Give Hope" appliedDescription="key:620803980:54354734" iconId="1091526109" duration="1800.0">
 <stat name="HOPE" constant="5.0"/>
 </propertyModEffect>
 <fellowshipEffect id="1879108034" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879108033" name="Sparkling Edhelharn Token: Give Hope[e]"/>
+<effect id="1879108033" name="Sparkling Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879108035" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879108038" name="Luminous Edhelharn Token: Give Hope[e]"/>
+<effect id="1879108038" name="Luminous Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<propertyModEffect id="1879108038" name="Luminous Edhelharn Token: Give Hope[e]" appliedDescription="key:620803984:54354734" iconId="1091526109" duration="2400.0">
+<propertyModEffect id="1879108038" name="Luminous Edhelharn Token: Give Hope" appliedDescription="key:620803984:54354734" iconId="1091526109" duration="2400.0">
 <stat name="HOPE" constant="5.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879108214" name="Increased Morale" stat="Health_MaxLevel">
@@ -2716,13 +2713,13 @@
 <instantVitalEffect id="1879108215" name="Increased Morale" stat="Health_MaxLevel">
 <vitalChange progressionID="1879467700" variance="0.05"/>
 </instantVitalEffect>
-<propertyModEffect id="1879108217" name="Tailoring Lore[E]" iconId="1090642307" duration="60.0">
+<propertyModEffect id="1879108217" name="Tailoring Lore" iconId="1090642307" duration="60.0">
 <stat name="TAILOR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620804157:106251889" scaling="1879055008"/>
 </propertyModEffect>
-<propertyModEffect id="1879108219" name="Scholar Lore[E]" iconId="1090648232" duration="60.0">
+<propertyModEffect id="1879108219" name="Scholar Lore" iconId="1090648232" duration="60.0">
 <stat name="SCHOLAR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620804175:106251889" scaling="1879087969"/>
 </propertyModEffect>
-<propertyModEffect id="1879108221" name="Cooking Lore[E]" iconId="1090648234" duration="60.0">
+<propertyModEffect id="1879108221" name="Cooking Lore" iconId="1090648234" duration="60.0">
 <stat name="COOK_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620804170:106251889" scaling="1879087978"/>
 </propertyModEffect>
 <instantVitalEffect id="1879108224" name="Restored Power" stat="Power_MaxLevel">
@@ -2731,22 +2728,19 @@
 <instantVitalEffect id="1879108225" name="Increased Morale" stat="Health_MaxLevel">
 <vitalChange progressionID="1879467700" variance="0.05"/>
 </instantVitalEffect>
-<propertyModEffect id="1879108231" name="Weaponsmithing Lore[E]" iconId="1090642310" duration="60.0">
+<propertyModEffect id="1879108231" name="Weaponsmithing Lore" iconId="1090642310" duration="60.0">
 <stat name="WEAPONSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620804176:106251889" scaling="1879055011"/>
 </propertyModEffect>
-<propertyModEffect id="1879108234" name="Jeweller Lore[E]" iconId="1090648233" duration="60.0">
+<propertyModEffect id="1879108234" name="Jeweller Lore" iconId="1090648233" duration="60.0">
 <stat name="JEWELLER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620804155:106251889" scaling="1879087975"/>
 </propertyModEffect>
 <instantVitalEffect id="1879108243" name="Restored Power" stat="Power_MaxLevel">
 <vitalChange progressionID="1879457140" variance="0.05"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879108244" name="Increased Morale" stat="Health_MaxLevel">
-<vitalChange progressionID="1879467700" variance="0.05"/>
-</instantVitalEffect>
-<propertyModEffect id="1879108245" name="Metalworking Lore[E]" iconId="1090642308" duration="60.0">
+<propertyModEffect id="1879108245" name="Metalworking Lore" iconId="1090642308" duration="60.0">
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620804185:106251889" scaling="1879055005"/>
 </propertyModEffect>
-<propertyModEffect id="1879108247" name="Woodworking Lore[E]" iconId="1090642309" duration="60.0">
+<propertyModEffect id="1879108247" name="Woodworking Lore" iconId="1090642309" duration="60.0">
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620804184:106251889" scaling="1879055014"/>
 </propertyModEffect>
 <effect id="1879108371" name="Scroll Case"/>
@@ -3108,58 +3102,58 @@
 <effect id="1879112821" name="DNT - Archer"/>
 <effect id="1879112956" name="Summon Bat" description="key:620807620:181298206"/>
 <effect id="1879112957" name="Summon Bat" description="key:620807621:181298206"/>
-<propertyModEffect id="1879113014" name="Gift of Charity[e]" iconId="1090553359">
+<propertyModEffect id="1879113014" name="Gift of Charity" iconId="1090553359">
 <stat name="Trait_Virtue_Rank_Charity" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113015" name="Gift of Charity[e]" iconId="1090553360">
+<propertyModEffect id="1879113015" name="Gift of Charity" iconId="1090553360">
 <stat name="Trait_Virtue_Rank_Charity" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113018" name="Gift of Compassion[e]" iconId="1090553370">
+<propertyModEffect id="1879113018" name="Gift of Compassion" iconId="1090553370">
 <stat name="Trait_Virtue_Rank_Compassionate" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113023" name="Gift of Determination[e]" iconId="1090553389">
+<propertyModEffect id="1879113023" name="Gift of Determination" iconId="1090553389">
 <stat name="Trait_Virtue_Rank_Determination" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113024" name="Gift of Determination[e]" iconId="1090553390">
+<propertyModEffect id="1879113024" name="Gift of Determination" iconId="1090553390">
 <stat name="Trait_Virtue_Rank_Determination" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113029" name="Gift of Empathy[e]" iconId="1090553409">
+<propertyModEffect id="1879113029" name="Gift of Empathy" iconId="1090553409">
 <stat name="Trait_Virtue_Rank_Empathy" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113030" name="Gift of Empathy[e]" iconId="1090553410">
+<propertyModEffect id="1879113030" name="Gift of Empathy" iconId="1090553410">
 <stat name="Trait_Virtue_Rank_Empathy" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113044" name="Gift of Idealism[e]" iconId="1090553459">
+<propertyModEffect id="1879113044" name="Gift of Idealism" iconId="1090553459">
 <stat name="Trait_Virtue_Rank_Idealism" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113045" name="Gift of Idealism[e]" iconId="1090553460">
+<propertyModEffect id="1879113045" name="Gift of Idealism" iconId="1090553460">
 <stat name="Trait_Virtue_Rank_Idealism" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113050" name="Gift of Justice[e]" iconId="1090553469">
+<propertyModEffect id="1879113050" name="Gift of Justice" iconId="1090553469">
 <stat name="Trait_Virtue_Rank_Just" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113051" name="Gift of Justice[e]" iconId="1090553470">
+<propertyModEffect id="1879113051" name="Gift of Justice" iconId="1090553470">
 <stat name="Trait_Virtue_Rank_Just" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113053" name="Gift of Loyalty[e]" iconId="1090553479">
+<propertyModEffect id="1879113053" name="Gift of Loyalty" iconId="1090553479">
 <stat name="Trait_Virtue_Rank_Loyalty" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113054" name="Gift of Loyalty[e]" iconId="1090553480">
+<propertyModEffect id="1879113054" name="Gift of Loyalty" iconId="1090553480">
 <stat name="Trait_Virtue_Rank_Loyalty" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113060" name="Gift of Patience[e]" iconId="1090553500">
+<propertyModEffect id="1879113060" name="Gift of Patience" iconId="1090553500">
 <stat name="Trait_Virtue_Rank_Patience" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113065" name="Gift of Valor[e]" iconId="1090553529">
+<propertyModEffect id="1879113065" name="Gift of Valor" iconId="1090553529">
 <stat name="Trait_Virtue_Rank_Valor" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113066" name="Gift of Valor[e]" iconId="1090553530">
+<propertyModEffect id="1879113066" name="Gift of Valor" iconId="1090553530">
 <stat name="Trait_Virtue_Rank_Valor" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113068" name="Gift of Wisdom[e]" iconId="1090553539">
+<propertyModEffect id="1879113068" name="Gift of Wisdom" iconId="1090553539">
 <stat name="Trait_Virtue_Rank_Wisdom" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879113069" name="Gift of Wisdom[e]" iconId="1090553540">
+<propertyModEffect id="1879113069" name="Gift of Wisdom" iconId="1090553540">
 <stat name="Trait_Virtue_Rank_Wisdom" constant="2.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879113239" name="Corrosion" iconId="1091479195" duration="2.0" stat="Health_MaxLevel" damageType="1024">
@@ -3312,11 +3306,11 @@
 <effect id="1879057753" name="Dread"/>
 </hotspot>
 </genesis>
-<propertyModEffect id="1879115206" name="Ancient Warding Lore[e]" iconId="1090642113" duration="2400.0">
+<propertyModEffect id="1879115206" name="Ancient Warding Lore" iconId="1090642113" duration="2400.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879221861"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879221860"/>
 </propertyModEffect>
-<propertyModEffect id="1879115208" name="Ancient Battle Lore[e]" iconId="1090642112" duration="2400.0">
+<propertyModEffect id="1879115208" name="Ancient Battle Lore" iconId="1090642112" duration="2400.0">
 <stat name="PHYSICAL_MASTERY" scaling="1879225545"/>
 <stat name="TACTICAL_MASTERY" scaling="1879225550"/>
 </propertyModEffect>
@@ -3444,21 +3438,21 @@
 </reactiveVitalEffect>
 <propertyModEffect id="1879117833" name="Oppression" iconId="1091479312" duration="60.0" expiresInRealTime="true">
 <stat name="MORALE" scaling="1879051295"/>
-<stat name="POWER" scaling="1879049497"/>
+<stat name="POWER" operator="SUBSTRACT" scaling="1879399354"/>
 </propertyModEffect>
 <effect id="1879117864" name="DNT - Random Auras" iconId="1090519170" duration="62.0"/>
 <effect id="1879117908" name="Random Hotspot"/>
 <propertyModEffect id="1879117914" name="Dulled Reflexes" iconId="1091476352" duration="60.0" expiresInRealTime="true">
-<stat name="AGILITY" scaling="1879049745"/>
-<stat name="VITALITY" scaling="1879050256"/>
+<stat name="AGILITY" operator="SUBSTRACT" scaling="1879366647"/>
+<stat name="VITALITY" operator="SUBSTRACT" scaling="1879211972"/>
 </propertyModEffect>
 <propertyModEffect id="1879117915" name="Sapped Strength" iconId="1091476352" duration="60.0" expiresInRealTime="true">
-<stat name="MIGHT" scaling="1879050265"/>
-<stat name="VITALITY" scaling="1879050256"/>
+<stat name="MIGHT" operator="SUBSTRACT" scaling="1879366652"/>
+<stat name="VITALITY" operator="SUBSTRACT" scaling="1879211972"/>
 </propertyModEffect>
 <propertyModEffect id="1879117916" name="Mind Rot" iconId="1091476352" duration="60.0" expiresInRealTime="true">
-<stat name="WILL" scaling="1879052690"/>
-<stat name="FATE" scaling="1879052689"/>
+<stat name="WILL" operator="SUBSTRACT" scaling="1879366661"/>
+<stat name="FATE" operator="SUBSTRACT" scaling="1879366654"/>
 </propertyModEffect>
 <propertyModEffect id="1879117941" name="Weakened Armour" description="key:620811263:181298206" appliedDescription="key:620811263:54354734" iconId="1091475964" duration="25.0" expiresInRealTime="true">
 <stat name="Combat_Agent_Armor_Value_Float" scaling="1879085473"/>
@@ -3528,7 +3522,7 @@
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="30.000002"/>
 <stat name="ALL_SKILL_INDUCTION" constant="30.000002"/>
 </propertyModEffect>
-<propertyModEffect id="1879120029" name="Refresh[e]" iconId="1090648231" duration="600.0">
+<propertyModEffect id="1879120029" name="Refresh" iconId="1090648231" duration="600.0">
 <stat name="ICPR" scaling="1879212043"/>
 </propertyModEffect>
 <propertyModEffect id="1879120067" name="Ally's Revenge" iconId="1091476366" duration="30.0">
@@ -3640,9 +3634,9 @@
 </propertyModEffect>
 <propertyModEffect id="1879132461" name="Herald Lossoth Male Appearance" iconId="1091037686"/>
 <propertyModEffect id="1879132474" name="Afraid of the Light" iconId="1091476352" duration="40.0" expiresInRealTime="true">
-<stat name="WILL" scaling="1879051292"/>
-<stat name="FATE" scaling="1879051291"/>
-<stat name="VITALITY" scaling="1879049539"/>
+<stat name="WILL" operator="SUBSTRACT" scaling="1879471060"/>
+<stat name="FATE" operator="SUBSTRACT" scaling="1879471105"/>
+<stat name="VITALITY" operator="SUBSTRACT" scaling="1879347271"/>
 <stat name="ALL_SKILL_INDUCTION" constant="50.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879132475" name="Closed Mouth" iconId="1091476353" duration="15.0" expiresInRealTime="true">
@@ -3680,8 +3674,8 @@
 <effect id="1879135555" name="DNT"/>
 <effect id="1879135556" name="DNT"/>
 <propertyModEffect id="1879135560" name="Cowardice" description="key:620827055:181298206" appliedDescription="key:620827055:54354734" iconId="1090528810" duration="60.0" pulseCount="1" expiresInRealTime="true">
-<stat name="WILL" scaling="1879113542"/>
-<stat name="FATE" scaling="1879113536"/>
+<stat name="WILL" operator="SUBSTRACT" scaling="1879398414"/>
+<stat name="FATE" operator="SUBSTRACT" scaling="1879398407"/>
 </propertyModEffect>
 <propertyModEffect id="1879135562" name="Lethargy" description="key:620827053:181298206" appliedDescription="key:620827053:54354734" iconId="1090623597" duration="45.0" expiresInRealTime="true">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="50.0"/>
@@ -3817,184 +3811,184 @@
 <effect id="1879255048" name="Fire Trap"/>
 </hotspot>
 </genesis>
-<propertyModEffect id="1879136898" name="Gift of Charity[e]" iconId="1090553359" duration="3600.0">
+<propertyModEffect id="1879136898" name="Gift of Charity" iconId="1090553359" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Charity" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136899" name="Gift of Charity[e]" iconId="1090553360" duration="3600.0">
+<propertyModEffect id="1879136899" name="Gift of Charity" iconId="1090553360" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Charity" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136900" name="Gift of Charity[e]" iconId="1090553361" duration="3600.0">
+<propertyModEffect id="1879136900" name="Gift of Charity" iconId="1090553361" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Charity" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136901" name="Gift of Compassion[e]" iconId="1090553369" duration="3600.0">
+<propertyModEffect id="1879136901" name="Gift of Compassion" iconId="1090553369" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Compassionate" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136902" name="Gift of Compassion[e]" iconId="1090553370" duration="3600.0">
+<propertyModEffect id="1879136902" name="Gift of Compassion" iconId="1090553370" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Compassionate" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136903" name="Gift of Compassion[e]" iconId="1090553371" duration="3600.0">
+<propertyModEffect id="1879136903" name="Gift of Compassion" iconId="1090553371" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Compassionate" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136904" name="Gift of Confidence[e]" iconId="1090553379" duration="3600.0">
+<propertyModEffect id="1879136904" name="Gift of Confidence" iconId="1090553379" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Confidence" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136905" name="Gift of Confidence[e]" iconId="1090553380" duration="3600.0">
+<propertyModEffect id="1879136905" name="Gift of Confidence" iconId="1090553380" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Confidence" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136906" name="Gift of Confidence[e]" iconId="1090553381" duration="3600.0">
+<propertyModEffect id="1879136906" name="Gift of Confidence" iconId="1090553381" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Confidence" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136907" name="Gift of Determination[e]" iconId="1090553389" duration="3600.0">
+<propertyModEffect id="1879136907" name="Gift of Determination" iconId="1090553389" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Determination" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136908" name="Gift of Determination[e]" iconId="1090553390" duration="3600.0">
+<propertyModEffect id="1879136908" name="Gift of Determination" iconId="1090553390" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Determination" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136909" name="Gift of Determination[e]" iconId="1090553391" duration="3600.0">
+<propertyModEffect id="1879136909" name="Gift of Determination" iconId="1090553391" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Determination" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136910" name="Gift of Discipline[e]" iconId="1090553399" duration="3600.0">
+<propertyModEffect id="1879136910" name="Gift of Discipline" iconId="1090553399" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Discipline" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136911" name="Gift of Discipline[e]" iconId="1090553400" duration="3600.0">
+<propertyModEffect id="1879136911" name="Gift of Discipline" iconId="1090553400" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Discipline" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136912" name="Gift of Discipline[e]" iconId="1090553401" duration="3600.0">
+<propertyModEffect id="1879136912" name="Gift of Discipline" iconId="1090553401" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Discipline" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136913" name="Gift of Empathy[e]" iconId="1090553409" duration="3600.0">
+<propertyModEffect id="1879136913" name="Gift of Empathy" iconId="1090553409" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Empathy" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136914" name="Gift of Empathy[e]" iconId="1090553410" duration="3600.0">
+<propertyModEffect id="1879136914" name="Gift of Empathy" iconId="1090553410" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Empathy" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136915" name="Gift of Empathy[e]" iconId="1090553411" duration="3600.0">
+<propertyModEffect id="1879136915" name="Gift of Empathy" iconId="1090553411" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Empathy" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136916" name="Gift of Fidelity[e]" iconId="1090553419" duration="3600.0">
+<propertyModEffect id="1879136916" name="Gift of Fidelity" iconId="1090553419" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Fidelity" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136917" name="Gift of Fidelity[e]" iconId="1090553420" duration="3600.0">
+<propertyModEffect id="1879136917" name="Gift of Fidelity" iconId="1090553420" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Fidelity" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136918" name="Gift of Fidelity[e]" iconId="1090553421" duration="3600.0">
+<propertyModEffect id="1879136918" name="Gift of Fidelity" iconId="1090553421" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Fidelity" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136919" name="Gift of Fortitude[e]" iconId="1090553429" duration="3600.0">
+<propertyModEffect id="1879136919" name="Gift of Fortitude" iconId="1090553429" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Fortitude" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136920" name="Gift of Fortitude[e]" iconId="1090553430" duration="3600.0">
+<propertyModEffect id="1879136920" name="Gift of Fortitude" iconId="1090553430" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Fortitude" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136921" name="Gift of Fortitude[e]" iconId="1090553431" duration="3600.0">
+<propertyModEffect id="1879136921" name="Gift of Fortitude" iconId="1090553431" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Fortitude" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136922" name="Gift of Honesty[e]" iconId="1090553439" duration="3600.0">
+<propertyModEffect id="1879136922" name="Gift of Honesty" iconId="1090553439" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Honesty" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136923" name="Gift of Honesty[e]" iconId="1090553440" duration="3600.0">
+<propertyModEffect id="1879136923" name="Gift of Honesty" iconId="1090553440" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Honesty" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136924" name="Gift of Honesty[e]" iconId="1090553441" duration="3600.0">
+<propertyModEffect id="1879136924" name="Gift of Honesty" iconId="1090553441" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Honesty" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136925" name="Gift of Honour[e]" iconId="1090553449" duration="3600.0">
+<propertyModEffect id="1879136925" name="Gift of Honour" iconId="1090553449" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Honour" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136926" name="Gift of Honour[e]" iconId="1090553450" duration="3600.0">
+<propertyModEffect id="1879136926" name="Gift of Honour" iconId="1090553450" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Honour" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136927" name="Gift of Honour[e]" iconId="1090553451" duration="3600.0">
+<propertyModEffect id="1879136927" name="Gift of Honour" iconId="1090553451" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Honour" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136928" name="Gift of Idealism[e]" iconId="1090553459" duration="3600.0">
+<propertyModEffect id="1879136928" name="Gift of Idealism" iconId="1090553459" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Idealism" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136929" name="Gift of Idealism[e]" iconId="1090553460" duration="3600.0">
+<propertyModEffect id="1879136929" name="Gift of Idealism" iconId="1090553460" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Idealism" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136930" name="Gift of Idealism[e]" iconId="1090553461" duration="3600.0">
+<propertyModEffect id="1879136930" name="Gift of Idealism" iconId="1090553461" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Idealism" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136931" name="Gift of Innocence[e]" iconId="1090553509" duration="3600.0">
+<propertyModEffect id="1879136931" name="Gift of Innocence" iconId="1090553509" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Innocence" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136932" name="Gift of Innocence[e]" iconId="1090553510" duration="3600.0">
+<propertyModEffect id="1879136932" name="Gift of Innocence" iconId="1090553510" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Innocence" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136933" name="Gift of Innocence[e]" iconId="1090553511" duration="3600.0">
+<propertyModEffect id="1879136933" name="Gift of Innocence" iconId="1090553511" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Innocence" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136934" name="Gift of Justice[e]" iconId="1090553469" duration="3600.0">
+<propertyModEffect id="1879136934" name="Gift of Justice" iconId="1090553469" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Just" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136935" name="Gift of Justice[e]" iconId="1090553470" duration="3600.0">
+<propertyModEffect id="1879136935" name="Gift of Justice" iconId="1090553470" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Just" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136936" name="Gift of Justice[e]" iconId="1090553471" duration="3600.0">
+<propertyModEffect id="1879136936" name="Gift of Justice" iconId="1090553471" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Just" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136937" name="Gift of Loyalty[e]" iconId="1090553479" duration="3600.0">
+<propertyModEffect id="1879136937" name="Gift of Loyalty" iconId="1090553479" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Loyalty" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136938" name="Gift of Loyalty[e]" iconId="1090553480" duration="3600.0">
+<propertyModEffect id="1879136938" name="Gift of Loyalty" iconId="1090553480" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Loyalty" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136939" name="Gift of Loyalty[e]" iconId="1090553481" duration="3600.0">
+<propertyModEffect id="1879136939" name="Gift of Loyalty" iconId="1090553481" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Loyalty" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136940" name="Gift of Mercy[e]" iconId="1090553489" duration="3600.0">
+<propertyModEffect id="1879136940" name="Gift of Mercy" iconId="1090553489" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Merciful" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136941" name="Gift of Mercy[e]" iconId="1090553490" duration="3600.0">
+<propertyModEffect id="1879136941" name="Gift of Mercy" iconId="1090553490" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Merciful" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136942" name="Gift of Mercy[e]" iconId="1090553491" duration="3600.0">
+<propertyModEffect id="1879136942" name="Gift of Mercy" iconId="1090553491" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Merciful" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136943" name="Gift of Patience[e]" iconId="1090553499" duration="3600.0">
+<propertyModEffect id="1879136943" name="Gift of Patience" iconId="1090553499" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Patience" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136944" name="Gift of Patience[e]" iconId="1090553500" duration="3600.0">
+<propertyModEffect id="1879136944" name="Gift of Patience" iconId="1090553500" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Patience" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136945" name="Gift of Patience[e]" iconId="1090553501" duration="3600.0">
+<propertyModEffect id="1879136945" name="Gift of Patience" iconId="1090553501" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Patience" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136946" name="Gift of Tolerance[e]" iconId="1090553519" duration="3600.0">
+<propertyModEffect id="1879136946" name="Gift of Tolerance" iconId="1090553519" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Tolerant" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136947" name="Gift of Tolerance[e]" iconId="1090553520" duration="3600.0">
+<propertyModEffect id="1879136947" name="Gift of Tolerance" iconId="1090553520" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Tolerant" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136948" name="Gift of Tolerance[e]" iconId="1090553521" duration="3600.0">
+<propertyModEffect id="1879136948" name="Gift of Tolerance" iconId="1090553521" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Tolerant" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136949" name="Gift of Valor[e]" iconId="1090553529" duration="3600.0">
+<propertyModEffect id="1879136949" name="Gift of Valor" iconId="1090553529" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Valor" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136950" name="Gift of Valor[e]" iconId="1090553530" duration="3600.0">
+<propertyModEffect id="1879136950" name="Gift of Valor" iconId="1090553530" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Valor" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136951" name="Gift of Valor[e]" iconId="1090553531" duration="3600.0">
+<propertyModEffect id="1879136951" name="Gift of Valor" iconId="1090553531" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Valor" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136952" name="Gift of Wisdom[e]" iconId="1090553539" duration="3600.0">
+<propertyModEffect id="1879136952" name="Gift of Wisdom" iconId="1090553539" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Wisdom" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136953" name="Gift of Wisdom[e]" iconId="1090553540" duration="3600.0">
+<propertyModEffect id="1879136953" name="Gift of Wisdom" iconId="1090553540" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Wisdom" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136954" name="Gift of Wisdom[e]" iconId="1090553541" duration="3600.0">
+<propertyModEffect id="1879136954" name="Gift of Wisdom" iconId="1090553541" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Wisdom" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136955" name="Gift of Zeal[e]" iconId="1090553549" duration="3600.0">
+<propertyModEffect id="1879136955" name="Gift of Zeal" iconId="1090553549" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Zeal" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136956" name="Gift of Zeal[e]" iconId="1090553550" duration="3600.0">
+<propertyModEffect id="1879136956" name="Gift of Zeal" iconId="1090553550" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Zeal" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879136957" name="Gift of Zeal[e]" iconId="1090553551" duration="3600.0">
+<propertyModEffect id="1879136957" name="Gift of Zeal" iconId="1090553551" duration="3600.0">
 <stat name="Trait_Virtue_Rank_Zeal" constant="3.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879136958" name="Disadvantaged" appliedDescription="key:620828113:54354734" iconId="1091472530" duration="15.0">
@@ -4395,6 +4389,7 @@
 <stat name="ItemWear_ChanceMod_SkillUse" descriptionOverride="-" constant="-100000.0"/>
 <stat name="EffectMod_Duration_CombatState_ConjunctionStunProtection" descriptionOverride="key:620832481:106251894" constant="60.0"/>
 <stat name="Conjunction_ChainProtectionInterval" operator="SET" descriptionOverride="-" constant="60.0"/>
+<stat name="PvMP_EffectEnabler" constant="1.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879145204" name="Fine Drink" iconId="1091480891" duration="3600.0">
 <stat name="ItemAdvancement_XP_AwardMultiplier" constant="10.0"/>
@@ -4436,7 +4431,7 @@
 <induceCombatState id="1879146152" name="Induce Knockeddown" state="13" stateDuration="7.0"/>
 <propertyModEffect id="1879146155" name="Avalanche" appliedDescription="key:620833309:54354734" iconId="1090599071" duration="10.0" expiresInRealTime="true"/>
 <propertyModEffect id="1879146158" name="DNT - ZeroThreat" appliedDescription="key:620833312:54354734" iconId="1090519170" duration="10.0" expiresInRealTime="true"/>
-<vitalOverTimeEffect id="1879146316" name="Deep Wound" iconId="1091477789" duration="2.0" pulseCount="15" stat="Health_MaxLevel" damageType="1">
+<vitalOverTimeEffect id="1879146316" name="Deep Wound" iconId="1091477789" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="1">
 <initialChange progressionID="1879050066"/>
 <overTimeChange progressionID="1879050067"/>
 </vitalOverTimeEffect>
@@ -4518,7 +4513,7 @@
 <stat name="ATTACK_DURATION_PERCENTAGE" descriptionOverride="key:620834576:106251891" constant="-5.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879148487" name="Marked for Imprisonment" appliedDescription="key:620834624:54354734" iconId="1090617192" duration="15.0" expiresInRealTime="true"/>
-<propertyModEffect id="1879148517" name="Orkish Armour[e]" iconId="1091522016" duration="300.0">
+<propertyModEffect id="1879148517" name="Orkish Armour" iconId="1091522016" duration="300.0">
 <specialEffect label="key:620834643:106251889"/>
 </propertyModEffect>
 <effect id="1879148524" name="Token of Valor Relic"/>
@@ -4779,20 +4774,20 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="75.0"/>
 </propertyModEffect>
 <effect id="1879151557" name="Toast!" appliedDescription="key:620836633:54354734"/>
-<propertyModEffect id="1879152167" name="Fleet-footed[e]" appliedDescription="key:620837036:54354734" iconId="1090553944">
+<propertyModEffect id="1879152167" name="Fleet-footed" appliedDescription="key:620837036:54354734" iconId="1090553944">
 <stat name="Movement_OutOfCombat_Speed_AddMod" constant="5.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879152174" name="Flee![e]" appliedDescription="key:620837043:54354734" iconId="1090553944" duration="10.0">
+<propertyModEffect id="1879152174" name="Flee!" appliedDescription="key:620837043:54354734" iconId="1090553944" duration="10.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879152445" name="Party Time" description="key:620837199:181298206" appliedDescription="key:620837199:54354734" iconId="1090641205" duration="10.0" pulseCount="1">
 <stat name="Combat_BaseMissRate" constant="10.0"/>
 </propertyModEffect>
 <fellowshipEffect id="1879152470" name="Ballad of Aiglos[sp]" description="key:620837222:181298206" applyToTarget="true" range="25.0">
-<effect id="1879062462" name="Ballad of Aiglos[sp]"/>
+<effect id="1879062462" name="Ballad of Aiglos"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879152471" name="Chant of the Stalwart[E]" description="key:620837223:181298206" applyToTarget="true" range="25.0">
-<effect id="1879062464" name="Chant of the Stalwart[E]"/>
+<effect id="1879062464" name="Chant of the Stalwart"/>
 </fellowshipEffect>
 <effect id="1879152635" name="Fish-slap" appliedDescription="key:620837336:54354734"/>
 <propertyModEffect id="1879152688" name="DNT - Advanced" appliedDescription="key:620837365:54354734" iconId="1090519170" duration="10.0"/>
@@ -6773,70 +6768,70 @@
 <propertyModEffect id="1879179286" name="Impregnate" iconId="1091417880" duration="5.0" pulseCount="1"/>
 <propertyModEffect id="1879179287" name="Impregnate" iconId="1091417880" duration="5.0" pulseCount="1"/>
 <fellowshipEffect id="1879179405" name="Elder Battle Lore" applyToTarget="true" range="25.0">
-<effect id="1879179416" name="Elder Battle Lore[e]"/>
+<effect id="1879179416" name="Elder Battle Lore"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879179406" name="Elder Warding Lore" applyToTarget="true" range="25.0">
-<effect id="1879179419" name="Elder Warding Lore[e]"/>
+<effect id="1879179419" name="Elder Warding Lore"/>
 </fellowshipEffect>
-<propertyModEffect id="1879179407" name="Lesser Battle Lore[e]" iconId="1090642112" duration="1200.0">
+<propertyModEffect id="1879179407" name="Lesser Battle Lore" iconId="1090642112" duration="1200.0">
 <stat name="PHYSICAL_MASTERY" scaling="1879225545"/>
 <stat name="TACTICAL_MASTERY" scaling="1879225550"/>
 </propertyModEffect>
 <fellowshipEffect id="1879179408" name="Lesser Warding Lore" applyToTarget="true" range="25.0">
-<effect id="1879179415" name="Lesser Warding Lore[e]"/>
+<effect id="1879179415" name="Lesser Warding Lore"/>
 </fellowshipEffect>
-<propertyModEffect id="1879179409" name="Minor Battle Lore[e]" iconId="1090642112" duration="1200.0">
+<propertyModEffect id="1879179409" name="Minor Battle Lore" iconId="1090642112" duration="1200.0">
 <stat name="PHYSICAL_MASTERY" scaling="1879225545"/>
 <stat name="TACTICAL_MASTERY" scaling="1879225550"/>
 </propertyModEffect>
 <fellowshipEffect id="1879179410" name="Supreme Warding Lore" applyToTarget="true" range="25.0">
-<effect id="1879179412" name="Supreme Warding Lore[e]"/>
+<effect id="1879179412" name="Supreme Warding Lore"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879179411" name="Warding Lore" applyToTarget="true" range="25.0">
-<effect id="1879055052" name="Warding Lore[e]"/>
+<effect id="1879055052" name="Warding Lore"/>
 </fellowshipEffect>
-<propertyModEffect id="1879179412" name="Supreme Warding Lore[e]" iconId="1090642113" duration="2400.0">
+<propertyModEffect id="1879179412" name="Supreme Warding Lore" iconId="1090642113" duration="2400.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879221861"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879221860"/>
 </propertyModEffect>
 <fellowshipEffect id="1879179413" name="Ancient Warding Lore" applyToTarget="true" range="25.0">
-<effect id="1879115206" name="Ancient Warding Lore[e]"/>
+<effect id="1879115206" name="Ancient Warding Lore"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879179414" name="Minor Warding Lore" applyToTarget="true" range="25.0">
-<effect id="1879179420" name="Minor Warding Lore[e]"/>
+<effect id="1879179420" name="Minor Warding Lore"/>
 </fellowshipEffect>
-<propertyModEffect id="1879179415" name="Lesser Warding Lore[e]" iconId="1090642113" duration="1200.0">
+<propertyModEffect id="1879179415" name="Lesser Warding Lore" iconId="1090642113" duration="1200.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879221861"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879221860"/>
 </propertyModEffect>
-<propertyModEffect id="1879179416" name="Elder Battle Lore[e]" iconId="1090642112" duration="1800.0">
+<propertyModEffect id="1879179416" name="Elder Battle Lore" iconId="1090642112" duration="1800.0">
 <stat name="PHYSICAL_MASTERY" scaling="1879225545"/>
 <stat name="TACTICAL_MASTERY" scaling="1879225550"/>
 </propertyModEffect>
 <fellowshipEffect id="1879179417" name="Supreme Battle Lore" applyToTarget="true" range="25.0">
-<effect id="1879179424" name="Supreme Battle Lore[e]"/>
+<effect id="1879179424" name="Supreme Battle Lore"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879179418" name="Lesser Battle Lore" applyToTarget="true" range="25.0">
-<effect id="1879179407" name="Lesser Battle Lore[e]"/>
+<effect id="1879179407" name="Lesser Battle Lore"/>
 </fellowshipEffect>
-<propertyModEffect id="1879179419" name="Elder Warding Lore[e]" iconId="1090642113" duration="1800.0">
+<propertyModEffect id="1879179419" name="Elder Warding Lore" iconId="1090642113" duration="1800.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879221861"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879221860"/>
 </propertyModEffect>
-<propertyModEffect id="1879179420" name="Minor Warding Lore[e]" iconId="1090642113" duration="1200.0">
+<propertyModEffect id="1879179420" name="Minor Warding Lore" iconId="1090642113" duration="1200.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879221861"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879221860"/>
 </propertyModEffect>
 <fellowshipEffect id="1879179421" name="Battle Lore" applyToTarget="true" range="25.0">
-<effect id="1879055049" name="Battle Lore[e]"/>
+<effect id="1879055049" name="Battle Lore"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879179422" name="Ancient Battle Lore" applyToTarget="true" range="25.0">
-<effect id="1879115208" name="Ancient Battle Lore[e]"/>
+<effect id="1879115208" name="Ancient Battle Lore"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879179423" name="Minor Battle Lore" applyToTarget="true" range="25.0">
-<effect id="1879179409" name="Minor Battle Lore[e]"/>
+<effect id="1879179409" name="Minor Battle Lore"/>
 </fellowshipEffect>
-<propertyModEffect id="1879179424" name="Supreme Battle Lore[e]" iconId="1090642112" duration="2400.0">
+<propertyModEffect id="1879179424" name="Supreme Battle Lore" iconId="1090642112" duration="2400.0">
 <stat name="PHYSICAL_MASTERY" scaling="1879225545"/>
 <stat name="TACTICAL_MASTERY" scaling="1879225550"/>
 </propertyModEffect>
@@ -7002,7 +6997,7 @@
 </genesis>
 <reactiveVitalEffect id="1879182970" name="Charged Air" description="key:620860157:181298206" appliedDescription="key:620860157:54354734" iconId="1091829920" duration="20.0" damageTypes="65407">
 <attacker>
-<reactiveVital constant="0.15" probability="1.0" multiplicative="true"/>
+<reactiveVital constant="0.15" probability="0.5" multiplicative="true"/>
 </attacker>
 <defender>
 <reactiveVital constant="0.15" probability="0.5" multiplicative="true"/>
@@ -7481,7 +7476,7 @@
 </propertyModEffect>
 <effect id="1879190596" name="Erebrandir's Horseshoe" appliedDescription="key:620865491:54354734" iconId="1091604140"/>
 <effect id="1879190619" name="Boo!" appliedDescription="key:620865515:54354734"/>
-<propertyModEffect id="1879190942" name="You have chosen... poorly.[e]" iconId="1091476353" duration="300.0">
+<propertyModEffect id="1879190942" name="You have chosen... poorly." iconId="1091476353" duration="300.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
 <effect id="1879190943" name="Protection from Spookiness" iconId="1091559966" duration="300.0"/>
@@ -7598,9 +7593,9 @@
 <stat name="OCPR" scaling="1879399336"/>
 </propertyModEffect>
 <propertyModEffect id="1879191936" name="Cooked Food" iconId="1090641236" duration="900.0">
-<stat name="ICPR" scaling="1879399370"/>
+<stat name="ICPR" scaling="1879399374"/>
 <stat name="ICMR" scaling="1879399443"/>
-<stat name="OCMR" scaling="1879399452"/>
+<stat name="OCMR" scaling="1879399445"/>
 <stat name="OCPR" scaling="1879399340"/>
 </propertyModEffect>
 <propertyModEffect id="1879191938" name="Cooked Food" iconId="1090641236" duration="600.0">
@@ -8533,8 +8528,8 @@
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="25.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879200586" name="Essence of Mortality" appliedDescription="key:620873501:54354734" iconId="1090616965" duration="15.0">
-<stat name="VITALITY" descriptionOverride="key:620873501:106251889" scaling="1879050256"/>
-<stat name="FATE" descriptionOverride="key:620873501:106251890" scaling="1879052689"/>
+<stat name="VITALITY" operator="SUBSTRACT" descriptionOverride="key:620873501:106251889" scaling="1879211972"/>
+<stat name="FATE" operator="SUBSTRACT" descriptionOverride="key:620873501:106251890" scaling="1879366654"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879200587" name="Heavily Bleeding Wound" appliedDescription="key:620873502:54354734" iconId="1091401111" duration="10.0" pulseCount="6" stat="Health_MaxLevel" damageType="256">
 <initialChange progressionID="1879152358"/>
@@ -9034,26 +9029,26 @@
 <stat name="Skill_Champion_CriticalModifier_SeekingBlade" descriptionOverride="key:620881873:106251889" constant="1.0"/>
 </propertyModEffect>
 <fellowshipEffect id="1879212795" name="Supreme Battle Lore" applyToTarget="true" range="25.0">
-<effect id="1879212799" name="Dunlending Battle Lore[e]"/>
+<effect id="1879212799" name="Dunlending Battle Lore"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879212796" name="Supreme Warding Lore" applyToTarget="true" range="25.0">
-<effect id="1879212798" name="Dunlending Warding Lore[e]"/>
+<effect id="1879212798" name="Dunlending Warding Lore"/>
 </fellowshipEffect>
-<propertyModEffect id="1879212798" name="Dunlending Warding Lore[e]" iconId="1090642113" duration="2400.0">
+<propertyModEffect id="1879212798" name="Dunlending Warding Lore" iconId="1090642113" duration="2400.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879221861"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879221860"/>
 </propertyModEffect>
-<propertyModEffect id="1879212799" name="Dunlending Battle Lore[e]" iconId="1090642112" duration="2400.0">
+<propertyModEffect id="1879212799" name="Dunlending Battle Lore" iconId="1090642112" duration="2400.0">
 <stat name="PHYSICAL_MASTERY" scaling="1879225545"/>
 <stat name="TACTICAL_MASTERY" scaling="1879225550"/>
 </propertyModEffect>
-<propertyModEffect id="1879212805" name="Prospecting Lore[E]" iconId="1091658873" duration="60.0">
+<propertyModEffect id="1879212805" name="Prospecting Lore" iconId="1091658873" duration="60.0">
 <stat name="Craft_Prospector_CriticalChanceAddModifier" descriptionOverride="key:620882000:106251889" scaling="1879212808"/>
 </propertyModEffect>
-<propertyModEffect id="1879212806" name="Farming Lore[E]" iconId="1091658871" duration="60.0">
+<propertyModEffect id="1879212806" name="Farming Lore" iconId="1091658871" duration="60.0">
 <stat name="Craft_Farmer_CriticalChanceAddModifier" descriptionOverride="key:620882001:106251889" scaling="1879212812"/>
 </propertyModEffect>
-<propertyModEffect id="1879212807" name="Foresting Lore[E]" iconId="1091658872" duration="60.0">
+<propertyModEffect id="1879212807" name="Foresting Lore" iconId="1091658872" duration="60.0">
 <stat name="Craft_Forester_CriticalChanceAddModifier" descriptionOverride="key:620882002:106251889" scaling="1879212813"/>
 </propertyModEffect>
 <instantVitalEffect id="1879212825" name="Restored Power" stat="Power_MaxLevel">
@@ -9347,17 +9342,17 @@
 <propertyModEffect id="1879219969" name="Rampage" appliedDescription="key:620887734:54354734" iconId="1091477783">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" constant="1.5"/>
 </propertyModEffect>
-<propertyModEffect id="1879219972" name="Vitreous Edhelharn Token: Give Hope[e]" appliedDescription="key:620887743:54354734" iconId="1091526109" duration="2400.0">
+<propertyModEffect id="1879219972" name="Vitreous Edhelharn Token: Give Hope" appliedDescription="key:620887743:54354734" iconId="1091526109" duration="2400.0">
 <stat name="HOPE" constant="5.0"/>
 </propertyModEffect>
 <fellowshipEffect id="1879219974" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879219975" name="Asteric Edhelharn Token: Give Hope[v]"/>
+<effect id="1879219975" name="Asteric Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<propertyModEffect id="1879219975" name="Asteric Edhelharn Token: Give Hope[v]" appliedDescription="key:620887742:54354734" iconId="1091526109" duration="3000.0">
+<propertyModEffect id="1879219975" name="Asteric Edhelharn Token: Give Hope" appliedDescription="key:620887742:54354734" iconId="1091526109" duration="3000.0">
 <stat name="HOPE" constant="5.0"/>
 </propertyModEffect>
 <fellowshipEffect id="1879219976" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879219972" name="Vitreous Edhelharn Token: Give Hope[e]"/>
+<effect id="1879219972" name="Vitreous Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
 <effect id="1879220068" name="DNT - Travel to Isengard Depths" description="key:620887769:181298206"/>
 <genesis id="1879220205" name=".." appliedDescription="key:620887899:54354734" summonDuration="5.0">
@@ -9425,7 +9420,7 @@
 <overTimeChange progressionID="1879087297"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879220506" name="Horrifying Splinters" iconId="1090625091" duration="30.0">
-<stat name="WILL" scaling="1879051289"/>
+<stat name="WILL" operator="SUBSTRACT" scaling="1879471101"/>
 </propertyModEffect>
 <propertyModEffect id="1879220507" name="Black Eye" appliedDescription="key:620888174:54354734" iconId="1091477781" duration="10.0">
 <stat name="MELEE_DEFENCE_PERCENTAGE" constant="50.0"/>
@@ -9438,7 +9433,7 @@
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="2.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879220509" name="Slimy Attack" iconId="1090616922" duration="30.0">
-<stat name="VITALITY" scaling="1879049535"/>
+<stat name="VITALITY" operator="SUBSTRACT" scaling="1879211969"/>
 </propertyModEffect>
 <propertyModEffect id="1879220523" name="Word of Exaltation" iconId="1091454161" duration="12.0">
 <specialEffect label="key:620888189:106251889"/>
@@ -9949,14 +9944,14 @@
 <initialChange progressionID="1879085434"/>
 <overTimeChange progressionID="1879085434"/>
 </vitalOverTimeEffect>
-<propertyModEffect id="1879225311" name="Sluggishness[e]" iconId="1091476353" duration="30.0">
+<propertyModEffect id="1879225311" name="Sluggishness" iconId="1091476353" duration="30.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="30.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879225312" name="Quickening[e]" iconId="1091478917" duration="30.0">
+<propertyModEffect id="1879225312" name="Quickening" iconId="1091478917" duration="30.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="25.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879225457" name="DNT - itemset bonus, aim now causes next attack to dev crit" iconId="1090519170"/>
-<propertyModEffect id="1879225470" name="Paranoia[e]" appliedDescription="key:620891137:54354734" iconId="1090641325" duration="30.0">
+<propertyModEffect id="1879225470" name="Paranoia" appliedDescription="key:620891137:54354734" iconId="1090641325" duration="30.0">
 <stat name="ForwardSource_Boss_Zone_1" operator="SET" descriptionOverride="key:620891137:106251889" constant="1.0"/>
 </propertyModEffect>
 <effect id="1879225598" name="DNT - Pull Toward"/>
@@ -10529,8 +10524,8 @@
 <specialEffect label="key:620899609:106251889"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879238623" name="Steed Power Restore" iconId="1090553873" duration="2.0" pulseCount="5" stat="MountPower_MaxLevel">
-<initialChange constant="750.0" variance="0.3"/>
-<overTimeChange constant="500.0" variance="0.3"/>
+<initialChange progressionID="1879367806" variance="0.2"/>
+<overTimeChange progressionID="1879262634" variance="0.2"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879238634" name="Rush of Energy" iconId="1091736793" duration="10.0">
 <stat name="Trait_Mount_PowerCost_SteedSkills" operator="SUBSTRACT" constant="100.0"/>
@@ -10555,11 +10550,11 @@
 <specialEffect label="key:620900335:106251890"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879239456" name="Flayed Flesh[e]" iconId="1091737320" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468956"/>
+<overTimeChange progressionID="1879468800"/>
 </vitalOverTimeEffect>
 <effect id="1879239487" name="Mounted on a War-steed" appliedDescription="key:620900384:54354734" iconId="1090519170"/>
 <vitalOverTimeEffect id="1879239489" name="Seeking Arrow - Bleed[e]" iconId="1091737320" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468958"/>
+<overTimeChange progressionID="1879468797"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879239490" name="Riddermark" iconId="1091737491">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620900388:106251890" constant="5.0"/>
@@ -10577,8 +10572,8 @@
 <stat name="Trait_Mounted_Critical_Multiplier" descriptionOverride="key:620900391:106251893" constant="10.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879239506" name="Deadly Bleeding[e]" iconId="1091737490" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
-<initialChange progressionID="1879468795"/>
-<overTimeChange progressionID="1879468795"/>
+<initialChange progressionID="1879468798"/>
+<overTimeChange progressionID="1879468798"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879239517" name="Hit Debuff" iconId="1091737509" duration="20.0" pulseCount="1">
 <stat name="Combat_MissChanceModifier" descriptionOverride="key:620900427:106251889" constant="10.0"/>
@@ -10588,8 +10583,8 @@
 <stat name="Combat_Agent_MountArmor_Value_Float" constant="200.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879239537" name="Light Bleeding[e]" iconId="1091737490" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
-<initialChange progressionID="1879468957"/>
-<overTimeChange progressionID="1879468957"/>
+<initialChange progressionID="1879468794"/>
+<overTimeChange progressionID="1879468794"/>
 </vitalOverTimeEffect>
 <effect id="1879239540" name="Generate Threat" description="key:620900435:181298206" appliedDescription="key:620900435:54354734" iconId="1091747181" duration="4.0" pulseCount="4"/>
 <vitalOverTimeEffect id="1879239551" name="Spread of Arrows" iconId="1091737754" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
@@ -10614,7 +10609,7 @@
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="-5.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879240582" name="Swift Bleed[e]" iconId="1091739266" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468959"/>
+<overTimeChange progressionID="1879468799"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879240585" name="Dazed and Confused" iconId="1091737494" duration="10.0">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620901334:106251889" constant="20.0"/>
@@ -10622,7 +10617,7 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="20.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879240589" name="Deep Gash[e]" iconId="1091739262" duration="3.0" pulseCount="1" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468795"/>
+<overTimeChange progressionID="1879468798"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879240592" name="Discipline: Red Dawn" iconId="1091739267">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620901335:106251890" constant="10.0"/>
@@ -10710,7 +10705,7 @@
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="20.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879241975" name="Critical Bleed[e]" iconId="1091741462" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468795"/>
+<overTimeChange progressionID="1879468798"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879241983" name="Winded" iconId="1090519170" duration="10.0"/>
 <propertyModEffect id="1879242057" name="Mearas-lore - Red Dawn" iconId="1091742024" duration="15.0">
@@ -10829,8 +10824,8 @@
 <overTimeChange progressionID="1879180912"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879243302" name="Oppressive Blow - Bleed" iconId="1091742742" duration="4.0" pulseCount="5" stat="Health_MaxLevel">
-<initialChange progressionID="1879468959"/>
-<overTimeChange progressionID="1879468957"/>
+<initialChange progressionID="1879468799"/>
+<overTimeChange progressionID="1879468794"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879243323" name="Measured Armour" iconId="1091744007" duration="10.0">
 <stat name="Combat_Agent_MountArmor_Value_Float" descriptionOverride="key:620903412:106251889" constant="-0.1"/>
@@ -10878,17 +10873,17 @@
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="-" constant="50.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879244213" name="Ride By Bleed" iconId="1091737490" duration="5.0" pulseCount="2" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468795"/>
+<overTimeChange progressionID="1879468798"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879244215" name="Keen Strike Bleed" iconId="1091737490" duration="1.0" pulseCount="3" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468956"/>
+<overTimeChange progressionID="1879468800"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879244217" name="Slowed" iconId="1091744016" duration="10.0">
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" descriptionOverride="key:620904256:106251889" constant="0.9"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879244233" name="All in the Wrist Bleed" iconId="1091737490" duration="3.0" pulseCount="6" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468957"/>
+<overTimeChange progressionID="1879468794"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879244448" name="Roar of the Eorlingas" iconId="1091744644" duration="10.0">
 <stat name="AI_MovementBehavior" operator="SET" descriptionOverride="key:620904476:106251889" constant="6.0"/>
@@ -10915,7 +10910,7 @@
 <effect id="1879244522" name="Threat Increase" description="key:620904529:181298206" appliedDescription="key:620904529:54354734"/>
 <effect id="1879244523" name="Threat Increase" description="key:620904530:181298206" appliedDescription="key:620904530:54354734"/>
 <vitalOverTimeEffect id="1879244528" name="Assault of the Eorlingas" iconId="1091737490" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468956"/>
+<overTimeChange progressionID="1879468800"/>
 </vitalOverTimeEffect>
 <effect id="1879244652" name="Travel Home" description="key:620904582:181298206"/>
 <effect id="1879244653" name="Travel Home" description="key:620904587:181298206"/>
@@ -11421,17 +11416,17 @@
 <propertyModEffect id="1879251320" name="DNT - Gift of the Hammerhand receives Song of the Hammerhand effects" iconId="1090519170"/>
 <effect id="1879251343" name="Warden Travel to East Rohan"/>
 <effect id="1879251344" name="Travel to East Rohan"/>
-<propertyModEffect id="1879251350" name="Eastemnet Warding Lore[e]" iconId="1090642113" duration="3000.0">
+<propertyModEffect id="1879251350" name="Eastemnet Warding Lore" iconId="1090642113" duration="3000.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879221861"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879221860"/>
 </propertyModEffect>
 <fellowshipEffect id="1879251352" name="Eastemnet Battle Lore" applyToTarget="true" range="25.0">
-<effect id="1879251357" name="Eastemnet Battle Lore[e]"/>
+<effect id="1879251357" name="Eastemnet Battle Lore"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879251354" name="Eastemnet Warding Lore" applyToTarget="true" range="25.0">
-<effect id="1879251350" name="Eastemnet Warding Lore[e]"/>
+<effect id="1879251350" name="Eastemnet Warding Lore"/>
 </fellowshipEffect>
-<propertyModEffect id="1879251357" name="Eastemnet Battle Lore[e]" iconId="1090642112" duration="3000.0">
+<propertyModEffect id="1879251357" name="Eastemnet Battle Lore" iconId="1090642112" duration="3000.0">
 <stat name="PHYSICAL_MASTERY" scaling="1879225545"/>
 <stat name="TACTICAL_MASTERY" scaling="1879225550"/>
 </propertyModEffect>
@@ -11452,44 +11447,44 @@
 <overTimeChange progressionID="1879470558" variance="0.2"/>
 </vitalOverTimeEffect>
 <effect id="1879251556" name="Threat Increase" description="key:620909358:181298206" appliedDescription="key:620909358:54354734"/>
-<propertyModEffect id="1879251683" name="Foresting Lore[E]" iconId="1091658872" duration="120.0">
+<propertyModEffect id="1879251683" name="Foresting Lore" iconId="1091658872" duration="120.0">
 <stat name="Craft_Forester_CriticalChanceAddModifier" descriptionOverride="key:620909370:106251889" scaling="1879212813"/>
 </propertyModEffect>
-<propertyModEffect id="1879251684" name="Weaponsmithing Lore[E]" iconId="1090642310" duration="120.0">
+<propertyModEffect id="1879251684" name="Weaponsmithing Lore" iconId="1090642310" duration="120.0">
 <stat name="WEAPONSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620909372:106251889" scaling="1879055011"/>
 </propertyModEffect>
-<propertyModEffect id="1879251685" name="Cooking Lore[E]" iconId="1090648234" duration="120.0">
+<propertyModEffect id="1879251685" name="Cooking Lore" iconId="1090648234" duration="120.0">
 <stat name="COOK_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620909366:106251889" scaling="1879087978"/>
 </propertyModEffect>
-<propertyModEffect id="1879251686" name="Jeweller Lore[E]" iconId="1090648233" duration="120.0">
+<propertyModEffect id="1879251686" name="Jeweller Lore" iconId="1090648233" duration="120.0">
 <stat name="JEWELLER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620909368:106251889" scaling="1879087975"/>
 </propertyModEffect>
-<propertyModEffect id="1879251687" name="Woodworking Lore[E]" iconId="1090642309" duration="120.0">
+<propertyModEffect id="1879251687" name="Woodworking Lore" iconId="1090642309" duration="120.0">
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620909369:106251889" scaling="1879055014"/>
 </propertyModEffect>
-<propertyModEffect id="1879251688" name="Prospecting Lore[E]" iconId="1091658873" duration="120.0">
+<propertyModEffect id="1879251688" name="Prospecting Lore" iconId="1091658873" duration="120.0">
 <stat name="Craft_Prospector_CriticalChanceAddModifier" descriptionOverride="key:620909373:106251889" scaling="1879212808"/>
 </propertyModEffect>
-<propertyModEffect id="1879251689" name="Scholar Lore[E]" iconId="1090648232" duration="120.0">
+<propertyModEffect id="1879251689" name="Scholar Lore" iconId="1090648232" duration="120.0">
 <stat name="SCHOLAR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620909367:106251889" scaling="1879087969"/>
 </propertyModEffect>
-<propertyModEffect id="1879251690" name="Farming Lore[E]" iconId="1091658871" duration="120.0">
+<propertyModEffect id="1879251690" name="Farming Lore" iconId="1091658871" duration="120.0">
 <stat name="Craft_Farmer_CriticalChanceAddModifier" descriptionOverride="key:620909375:106251889" scaling="1879212812"/>
 </propertyModEffect>
-<propertyModEffect id="1879251691" name="Metalworking Lore[E]" iconId="1090642308" duration="120.0">
+<propertyModEffect id="1879251691" name="Metalworking Lore" iconId="1090642308" duration="120.0">
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620909374:106251889" scaling="1879055005"/>
 </propertyModEffect>
-<propertyModEffect id="1879251692" name="Tailoring Lore[E]" iconId="1090642307" duration="120.0">
+<propertyModEffect id="1879251692" name="Tailoring Lore" iconId="1090642307" duration="120.0">
 <stat name="TAILOR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620909371:106251889" scaling="1879055008"/>
 </propertyModEffect>
 <effect id="1879252003" name="Wearing the One Ring" appliedDescription="key:620909674:54354734" iconId="1090519170" duration="3000.0"/>
 <effect id="1879252095" name="DNT - Dispel Mount" description="key:620909703:181298206" appliedDescription="key:620909703:54354734" probability="0.1"/>
 <effect id="1879252176" name="Summon Oathbreakers"/>
 <vitalOverTimeEffect id="1879252192" name="Swift Bleed[e]" iconId="1091739266" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468959"/>
+<overTimeChange progressionID="1879468799"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879252193" name="Swift Bleed[e]" iconId="1091739266" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468959"/>
+<overTimeChange progressionID="1879468799"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879252268" name="Speed of Worry" appliedDescription="key:620909805:54354734" iconId="1090648165" duration="30.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="50.0"/>
@@ -12001,7 +11996,7 @@
 <stat name="EVADE" descriptionOverride="-" constant="-500.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879259974" name="Impugn Bleed" iconId="1091737490" duration="4.0" pulseCount="4" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468795"/>
+<overTimeChange progressionID="1879468798"/>
 </vitalOverTimeEffect>
 <reactiveVitalEffect id="1879260006" name="Mearas-Lore" iconId="1091742023" duration="10.0" damageTypes="65407" removeOnProc="true">
 <defender>
@@ -12164,8 +12159,8 @@
 </propertyModEffect>
 <propertyModEffect id="1879260568" name="The Last Stand of Helm Hammerhand" iconId="1091668185" duration="30.0"/>
 <vitalOverTimeEffect id="1879260636" name="Call of the Cavalry" iconId="1091737490" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
-<initialChange progressionID="1879468959"/>
-<overTimeChange progressionID="1879468959"/>
+<initialChange progressionID="1879468799"/>
+<overTimeChange progressionID="1879468799"/>
 </vitalOverTimeEffect>
 <effect id="1879261471" name="Tier 9"/>
 <propertyModEffect id="1879262445" name="Impugn Character" iconId="1091785048" duration="20.0" pulseCount="1">
@@ -12196,7 +12191,7 @@
 </propertyModEffect>
 <effect id="1879262846" name="Threat Increase" description="key:620915919:181298206" appliedDescription="key:620915919:54354734"/>
 <vitalOverTimeEffect id="1879262848" name="Crippling Bleed" iconId="1091739266" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468959"/>
+<overTimeChange progressionID="1879468799"/>
 </vitalOverTimeEffect>
 <effect id="1879262883" name="Call the Cow" description="key:620915951:181298206"/>
 <effect id="1879262937" name="War Wolf"/>
@@ -12602,7 +12597,7 @@
 <propertyModEffect id="1879266924" name="Crafting Experience Bonus: 100%" appliedDescription="key:620918391:54354734" iconId="1091617862" duration="600.0">
 <stat name="Craft_Recipe_CraftXP_Acceleration" descriptionOverride="-" constant="100.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879266997" name="Perfect Lore[e]" iconId="1090642114" duration="60.0">
+<propertyModEffect id="1879266997" name="Perfect Lore" iconId="1090642114" duration="60.0">
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620918465:106251889" constant="100.0"/>
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="-" constant="100.0"/>
 <stat name="COOK_CRIT_CHANCE_PERCENTAGE" descriptionOverride="-" constant="100.0"/>
@@ -12651,19 +12646,19 @@
 <effect id="1879267906" name="Song of Unity" iconId="1090519170" duration="1.0"/>
 <effect id="1879267907" name="Song of Unity" iconId="1090519170" duration="1.0"/>
 <effect id="1879267908" name="Song of Unity" iconId="1090519170" duration="1.0"/>
-<propertyModEffect id="1879269030" name="Riddermark Warding Lore[e]" iconId="1090642113" duration="3000.0">
+<propertyModEffect id="1879269030" name="Riddermark Warding Lore" iconId="1090642113" duration="3000.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879221861"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879221860"/>
 </propertyModEffect>
-<propertyModEffect id="1879269031" name="Riddermark Battle Lore[e]" iconId="1090642112" duration="3000.0">
+<propertyModEffect id="1879269031" name="Riddermark Battle Lore" iconId="1090642112" duration="3000.0">
 <stat name="PHYSICAL_MASTERY" scaling="1879225545"/>
 <stat name="TACTICAL_MASTERY" scaling="1879225550"/>
 </propertyModEffect>
 <fellowshipEffect id="1879269034" name="Riddermark Warding Lore" applyToTarget="true" range="25.0">
-<effect id="1879269030" name="Riddermark Warding Lore[e]"/>
+<effect id="1879269030" name="Riddermark Warding Lore"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879269035" name="Riddermark Battle Lore" applyToTarget="true" range="25.0">
-<effect id="1879269031" name="Riddermark Battle Lore[e]"/>
+<effect id="1879269031" name="Riddermark Battle Lore"/>
 </fellowshipEffect>
 <propertyModEffect id="1879269572" name="Target Shooting" appliedDescription="key:620920511:54354734" iconId="1090519170"/>
 <propertyModEffect id="1879269573" name="Net Fishing" appliedDescription="key:620920512:54354734" iconId="1090519170" duration="120.0"/>
@@ -12771,23 +12766,23 @@
 <fellowshipEffect id="1879270789" name="Fire at Will" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="40.0">
 <effect id="1879270784" name="Fire at Will"/>
 </fellowshipEffect>
-<propertyModEffect id="1879270792" name="Mildly Lightheaded[e]" iconId="1091476353" duration="25.0">
+<propertyModEffect id="1879270792" name="Mildly Lightheaded" iconId="1091476353" duration="25.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620921561:106251889" constant="25.0"/>
 <stat name="Combat_BaseMissRate" constant="10.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879270793" name="Moderately Lightheaded[e]" iconId="1091476353" duration="20.0">
+<propertyModEffect id="1879270793" name="Moderately Lightheaded" iconId="1091476353" duration="20.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620921545:106251889" constant="50.0"/>
 <stat name="Combat_BaseMissRate" constant="15.000001"/>
 </propertyModEffect>
-<propertyModEffect id="1879270794" name="Tipsy[e]" iconId="1091476353" duration="15.0">
+<propertyModEffect id="1879270794" name="Tipsy" iconId="1091476353" duration="15.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620921550:106251889" constant="70.0"/>
 <stat name="Combat_BaseMissRate" constant="20.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879270795" name="Drunk[e]" iconId="1091476353" duration="10.0">
+<propertyModEffect id="1879270795" name="Drunk" iconId="1091476353" duration="10.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620921583:106251889" constant="80.0"/>
 <stat name="Combat_BaseMissRate" constant="25.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879270798" name="Edge Off[e]" iconId="1091476353" duration="30.0">
+<propertyModEffect id="1879270798" name="Edge Off" iconId="1091476353" duration="30.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620921553:106251889" constant="10.0"/>
 <stat name="Combat_BaseMissRate" constant="5.0"/>
 </propertyModEffect>
@@ -12795,25 +12790,25 @@
 <effect id="1879270807" name="Excused from Table D" appliedDescription="key:620921547:54354734" iconId="1090541667" duration="30.0"/>
 <effect id="1879270808" name="Excused from Table C" appliedDescription="key:620921579:54354734" iconId="1090541667" duration="30.0"/>
 <effect id="1879270809" name="Excused from Table B" appliedDescription="key:620921560:54354734" iconId="1090541667" duration="30.0"/>
-<propertyModEffect id="1879270815" name="Edge Off[e]" iconId="1091476353" duration="30.0">
+<propertyModEffect id="1879270815" name="Edge Off" iconId="1091476353" duration="30.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620921572:106251889" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879270819" name="Heavily Full[e]" iconId="1091476353" duration="15.0">
+<propertyModEffect id="1879270819" name="Heavily Full" iconId="1091476353" duration="15.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620921574:106251889" constant="60.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879270822" name="Stuffed[e]" iconId="1091476353" duration="10.0">
+<propertyModEffect id="1879270822" name="Stuffed" iconId="1091476353" duration="10.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620921544:106251889" constant="75.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879270824" name="Lightly Full[e]" iconId="1091476353" duration="25.0">
+<propertyModEffect id="1879270824" name="Lightly Full" iconId="1091476353" duration="25.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620921539:106251889" constant="15.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879270825" name="Moderately Full[e]" iconId="1091476353" duration="20.0">
+<propertyModEffect id="1879270825" name="Moderately Full" iconId="1091476353" duration="20.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620921558:106251889" constant="40.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879270828" name="Completely Gorged[e]" iconId="1091476353" duration="5.0">
+<propertyModEffect id="1879270828" name="Completely Gorged" iconId="1091476353" duration="5.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620921563:106251889" constant="85.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879270840" name="Completely Sloshed[e]" iconId="1091476353" duration="5.0">
+<propertyModEffect id="1879270840" name="Completely Sloshed" iconId="1091476353" duration="5.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620921578:106251889" constant="90.0"/>
 <stat name="Combat_BaseMissRate" constant="30.000002"/>
 </propertyModEffect>
@@ -13083,10 +13078,10 @@
 <stat name="Skill_LightningBurst_LoreMaster_PowerCost" operator="SUBSTRACT" descriptionOverride="-" constant="75.0"/>
 <specialEffect label="key:620931482:106251889"/>
 </propertyModEffect>
-<propertyModEffect id="1879283562" name="Metalworking Lore[E]" iconId="1090642308" duration="150.0">
+<propertyModEffect id="1879283562" name="Metalworking Lore" iconId="1090642308" duration="150.0">
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620931437:106251889" scaling="1879055005"/>
 </propertyModEffect>
-<propertyModEffect id="1879283563" name="Scholar Lore[E]" iconId="1090648232" duration="150.0">
+<propertyModEffect id="1879283563" name="Scholar Lore" iconId="1090648232" duration="150.0">
 <stat name="SCHOLAR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620931428:106251889" scaling="1879087969"/>
 </propertyModEffect>
 <propertyModEffect id="1879283564" name="Battle Tonic" iconId="1091631313" duration="10.0">
@@ -13095,7 +13090,7 @@
 <propertyModEffect id="1879283565" name="Bow Chant: Foe-finder" appliedDescription="key:620931468:54354734" iconId="1091468336" duration="2100.0">
 <stat name="Skill_ChanceEvade_RangedMod" scaling="1879141213"/>
 </propertyModEffect>
-<propertyModEffect id="1879283566" name="Farming Lore[E]" iconId="1091658871" duration="150.0">
+<propertyModEffect id="1879283566" name="Farming Lore" iconId="1091658871" duration="150.0">
 <stat name="Craft_Farmer_CriticalChanceAddModifier" descriptionOverride="key:620931425:106251889" scaling="1879212812"/>
 </propertyModEffect>
 <propertyModEffect id="1879283570" name="Devastate Magnitude" iconId="1090519170" duration="15.0">
@@ -13116,9 +13111,9 @@
 <stat name="ItemAdvancement_XP_AwardMultiplier" constant="30.000002"/>
 </propertyModEffect>
 <fellowshipEffect id="1879283580" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879283623" name="Westemnet Edhelharn Token: Give Hope[e]"/>
+<effect id="1879283623" name="Westemnet Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<propertyModEffect id="1879283581" name="Jeweller Lore[E]" iconId="1090648233" duration="150.0">
+<propertyModEffect id="1879283581" name="Jeweller Lore" iconId="1090648233" duration="150.0">
 <stat name="JEWELLER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620931473:106251889" scaling="1879087975"/>
 </propertyModEffect>
 <propertyModEffect id="1879283582" name="Eorlingas Inlay[E]" iconId="1091547620" duration="10.0">
@@ -13126,16 +13121,16 @@
 <stat name="Trait_Runekeeper_NukeDot_Power" operator="SUBSTRACT" descriptionOverride="-" constant="75.0"/>
 <specialEffect label="key:620931421:106251889"/>
 </propertyModEffect>
-<propertyModEffect id="1879283584" name="Prospecting Lore[E]" iconId="1091658873" duration="150.0">
+<propertyModEffect id="1879283584" name="Prospecting Lore" iconId="1091658873" duration="150.0">
 <stat name="Craft_Prospector_CriticalChanceAddModifier" descriptionOverride="key:620931460:106251889" scaling="1879212808"/>
 </propertyModEffect>
-<propertyModEffect id="1879283586" name="Tailoring Lore[E]" iconId="1090642307" duration="150.0">
+<propertyModEffect id="1879283586" name="Tailoring Lore" iconId="1090642307" duration="150.0">
 <stat name="TAILOR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620931427:106251889" scaling="1879055008"/>
 </propertyModEffect>
-<propertyModEffect id="1879283588" name="Weaponsmithing Lore[E]" iconId="1090642310" duration="150.0">
+<propertyModEffect id="1879283588" name="Weaponsmithing Lore" iconId="1090642310" duration="150.0">
 <stat name="WEAPONSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620931439:106251889" scaling="1879055011"/>
 </propertyModEffect>
-<propertyModEffect id="1879283590" name="Westemnet Warding Lore[e]" iconId="1090642113" duration="3000.0">
+<propertyModEffect id="1879283590" name="Westemnet Warding Lore" iconId="1090642113" duration="3000.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879221861"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879221860"/>
 </propertyModEffect>
@@ -13146,27 +13141,27 @@
 <propertyModEffect id="1879283596" name="Bow Chant: Shield-bane" appliedDescription="key:620931469:54354734" iconId="1091468337" duration="2100.0">
 <stat name="Skill_ChanceBlock_RangedMod" scaling="1879141212"/>
 </propertyModEffect>
-<propertyModEffect id="1879283598" name="Woodworking Lore[E]" iconId="1090642309" duration="150.0">
+<propertyModEffect id="1879283598" name="Woodworking Lore" iconId="1090642309" duration="150.0">
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620931454:106251889" scaling="1879055014"/>
 </propertyModEffect>
 <instantVitalEffect id="1879283601" name="Increased Morale" stat="Health_MaxLevel">
 <vitalChange progressionID="1879467700" variance="0.05"/>
 </instantVitalEffect>
 <fellowshipEffect id="1879283603" name="Westemnet Warding Lore" applyToTarget="true" range="25.0">
-<effect id="1879283590" name="Westemnet Warding Lore[e]"/>
+<effect id="1879283590" name="Westemnet Warding Lore"/>
 </fellowshipEffect>
-<propertyModEffect id="1879283607" name="Cooking Lore[E]" iconId="1090648234" duration="150.0">
+<propertyModEffect id="1879283607" name="Cooking Lore" iconId="1090648234" duration="150.0">
 <stat name="COOK_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620931430:106251889" scaling="1879087978"/>
 </propertyModEffect>
-<propertyModEffect id="1879283610" name="Westemnet Battle Lore[e]" iconId="1090642112" duration="3000.0">
+<propertyModEffect id="1879283610" name="Westemnet Battle Lore" iconId="1090642112" duration="3000.0">
 <stat name="PHYSICAL_MASTERY" scaling="1879225545"/>
 <stat name="TACTICAL_MASTERY" scaling="1879225550"/>
 </propertyModEffect>
 <fellowshipEffect id="1879283611" name="Westemnet Battle Lore" applyToTarget="true" range="25.0">
-<effect id="1879283610" name="Westemnet Battle Lore[e]"/>
+<effect id="1879283610" name="Westemnet Battle Lore"/>
 </fellowshipEffect>
 <propertyModEffect id="1879283612" name="Westemnet Fire-oil" description="key:620931445:181298206" iconId="1090531555" duration="2100.0"/>
-<propertyModEffect id="1879283614" name="Foresting Lore[E]" iconId="1091658872" duration="150.0">
+<propertyModEffect id="1879283614" name="Foresting Lore" iconId="1091658872" duration="150.0">
 <stat name="Craft_Forester_CriticalChanceAddModifier" descriptionOverride="key:620931459:106251889" scaling="1879212813"/>
 </propertyModEffect>
 <propertyModEffect id="1879283616" name="Bow Chant: Breach-finder" appliedDescription="key:620931434:54354734" iconId="1091468340" duration="2100.0">
@@ -13179,7 +13174,7 @@
 <vitalChange progressionID="1879467700" variance="0.05"/>
 </instantVitalEffect>
 <propertyModEffect id="1879283621" name="Westemnet Light-oil" description="key:620931466:181298206" iconId="1090537235" duration="2100.0"/>
-<propertyModEffect id="1879283623" name="Westemnet Edhelharn Token: Give Hope[e]" appliedDescription="key:620931416:54354734" iconId="1091526109" duration="3000.0">
+<propertyModEffect id="1879283623" name="Westemnet Edhelharn Token: Give Hope" appliedDescription="key:620931416:54354734" iconId="1091526109" duration="3000.0">
 <stat name="HOPE" constant="6.0"/>
 <stat name="RESISTANCE" scaling="1879210163"/>
 </propertyModEffect>
@@ -13268,7 +13263,7 @@
 <effect id="1879286902" name="DNT - dispels the call to Ioreth Skill Proc Effect"/>
 <effect id="1879287018" name="DNT - Bombastic Inspiration"/>
 <propertyModEffect id="1879287297" name="DNT - Venomous Bite" iconId="1090616922" duration="30.0">
-<stat name="VITALITY" scaling="1879049539"/>
+<stat name="VITALITY" operator="SUBSTRACT" scaling="1879347271"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879287298" name="Dragon's Venom" description="key:620934921:181298206" appliedDescription="key:620934921:54354734" iconId="1090616922" duration="3.0" pulseCount="10" stat="Health_MaxLevel" damageType="1024">
 <initialChange progressionID="1879049742"/>
@@ -13634,19 +13629,19 @@
 <effect id="1879303014" name="Dance" appliedDescription="key:620946594:54354734"/>
 <effect id="1879303188" name="Call a Huorn" description="key:620946749:181298206"/>
 <effect id="1879303542" name="Call a lost Huorn" description="key:620947004:181298206"/>
-<propertyModEffect id="1879303720" name="Eorlingas Battle Lore[e]" iconId="1090642112" duration="3000.0">
+<propertyModEffect id="1879303720" name="Eorlingas Battle Lore" iconId="1090642112" duration="3000.0">
 <stat name="PHYSICAL_MASTERY" scaling="1879225545"/>
 <stat name="TACTICAL_MASTERY" scaling="1879225550"/>
 </propertyModEffect>
-<propertyModEffect id="1879303721" name="Eorlingas Warding Lore[e]" iconId="1090642113" duration="3000.0">
+<propertyModEffect id="1879303721" name="Eorlingas Warding Lore" iconId="1090642113" duration="3000.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879221861"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879221860"/>
 </propertyModEffect>
 <fellowshipEffect id="1879303722" name="Eorlingas Battle Lore" applyToTarget="true" range="25.0">
-<effect id="1879303720" name="Eorlingas Battle Lore[e]"/>
+<effect id="1879303720" name="Eorlingas Battle Lore"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879303723" name="Eorlingas Warding Lore" applyToTarget="true" range="25.0">
-<effect id="1879303721" name="Eorlingas Warding Lore[e]"/>
+<effect id="1879303721" name="Eorlingas Warding Lore"/>
 </fellowshipEffect>
 <propertyModEffect id="1879303792" name="Spring Chicken" appliedDescription="key:620947188:54354734" iconId="1091388976" duration="10.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SET" constant="120.00001"/>
@@ -13816,7 +13811,7 @@
 <effect id="1879315121" name="DNT - Weakened"/>
 <propertyModEffect id="1879315134" name="Counterattack" iconId="1091940905" duration="4.0"/>
 <procEffect id="1879315135" name="Counter" appliedDescription="key:620953234:54354734" iconId="1091940905" duration="20.0" skillTypes="36">
-<stat name="EVADE_PERCENTAGE" constant="10.0"/>
+<stat name="EVADE_PERCENTAGE" constant="15.000001"/>
 <effect id="1879315134" name="Counterattack"/>
 </procEffect>
 <vitalOverTimeEffect id="1879315136" name="Recuperate" iconId="1091940911" duration="2.0" pulseCount="6" stat="Health_MaxLevel">
@@ -14067,10 +14062,10 @@
 </propertyModEffect>
 <dispelByResist id="1879316087" name="DNT - Remove Poison, Disease, Wound, or Fear" maxDispelCount="3" resistCategories="2,4,7,8" useStrengthRestriction="true" strengthOffset="5"/>
 <vitalOverTimeEffect id="1879316098" name="Slash" iconId="1091737490" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468957"/>
+<overTimeChange progressionID="1879468794"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879316139" name="Bee Swarm" iconId="1091742016" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468959"/>
+<overTimeChange progressionID="1879468799"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879316143" name="Poison Arrow" iconId="1091573752" duration="10.0" pulseCount="1"/>
 <propertyModEffect id="1879316155" name="Bee Swarm" iconId="1091742016" duration="9.0">
@@ -14079,7 +14074,7 @@
 <induceCombatState id="1879316351" name="Induce Feared" state="2" stateDuration="12.0"/>
 <effect id="1879316364" name="Gondorian Treasure Cache"/>
 <vitalOverTimeEffect id="1879316399" name="Bee Swarm" iconId="1091742016" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
-<overTimeChange progressionID="1879468957"/>
+<overTimeChange progressionID="1879468794"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879316555" name="Tome of Exceptional Experience" appliedDescription="key:620954431:54354734" iconId="1091603093" duration="3600.0">
 <stat name="XP_AwardMultiplier" descriptionOverride="key:620954431:106251889" constant="200.0"/>
@@ -14488,28 +14483,28 @@
 <stat name="MORALE" operator="MULTIPLY" constant="0.9"/>
 </propertyModEffect>
 <propertyModEffect id="1879325955" name="Corruption" appliedDescription="key:620960951:54354734" iconId="1090616965" duration="1.0" pulseCount="1"/>
-<propertyModEffect id="1879325964" name="Cooked Food" iconId="1090641236" duration="600.0">
+<propertyModEffect id="1879325964" name="Cooked Food" iconId="1090641236" duration="1800.0">
 <stat name="ICPR" scaling="1879399365"/>
 <stat name="ICMR" scaling="1879399430"/>
 <stat name="OCMR" scaling="1879399455"/>
 <stat name="OCPR" scaling="1879399339"/>
 </propertyModEffect>
-<propertyModEffect id="1879325977" name="Trail Food" iconId="1091536885" duration="1200.0">
+<propertyModEffect id="1879325977" name="Trail Food" iconId="1091536885" duration="1800.0">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620960964:106251889" constant="1.05"/>
 </propertyModEffect>
-<propertyModEffect id="1879325978" name="Trail Food" iconId="1091536885" duration="1200.0">
+<propertyModEffect id="1879325978" name="Trail Food" iconId="1091536885" duration="1800.0">
 <stat name="Resist_Additional_Resistance_Magic" constant="7.0"/>
 <stat name="Resist_Additional_Resistance_Physical" constant="7.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879325979" name="Trail Food" iconId="1091536885" duration="1200.0">
+<propertyModEffect id="1879325979" name="Trail Food" iconId="1091536885" duration="1800.0">
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="3.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="3.0"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879325980" name="Trail Food" iconId="1091536885" duration="1200.0">
+<propertyModEffect id="1879325980" name="Trail Food" iconId="1091536885" duration="1800.0">
 <stat name="POWER" operator="MULTIPLY" descriptionOverride="key:620960965:106251889" constant="1.15"/>
 </propertyModEffect>
-<propertyModEffect id="1879325981" name="Trail Food" iconId="1091536885" duration="1200.0">
+<propertyModEffect id="1879325981" name="Trail Food" iconId="1091536885" duration="1800.0">
 <stat name="RANGED_DEFENCE_PERCENTAGE" constant="-4.0"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" constant="-4.0"/>
 <stat name="MELEE_DEFENCE_PERCENTAGE" constant="-4.0"/>
@@ -16500,7 +16495,7 @@
 <summoned id="1879381352" name="Apple Goblin[v]"/>
 </genesis>
 <effect id="1879382133" name="Being in Wistmead" iconId="1091511233"/>
-<propertyModEffect id="1879382830" name="Fight the Cold[e]" iconId="1091428258" duration="12.0">
+<propertyModEffect id="1879382830" name="Fight the Cold" iconId="1091428258" duration="12.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="20.0"/>
 <stat name="ALL_SKILL_INDUCTION" constant="5.0"/>
 </propertyModEffect>
@@ -16533,16 +16528,16 @@
 <propertyModEffect id="1879383790" name="Slay Bell" appliedDescription="key:621017905:54354734" iconId="1091400591"/>
 <effect id="1879383799" name="DNT - Slay Bells" appliedDescription="key:621017909:54354734"/>
 <fellowshipEffect id="1879383949" name="Warding Lore of the Anvil" applyToTarget="true" range="25.0">
-<effect id="1879383954" name="Warding Lore of the Anvil[e]"/>
+<effect id="1879383954" name="Warding Lore of the Anvil"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879383952" name="Battle Lore of the Anvil" applyToTarget="true" range="25.0">
-<effect id="1879383955" name="Battle Lore of the Anvil[e]"/>
+<effect id="1879383955" name="Battle Lore of the Anvil"/>
 </fellowshipEffect>
-<propertyModEffect id="1879383954" name="Warding Lore of the Anvil[e]" iconId="1090642113" duration="3600.0">
+<propertyModEffect id="1879383954" name="Warding Lore of the Anvil" iconId="1090642113" duration="3600.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879368465"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879368464"/>
 </propertyModEffect>
-<propertyModEffect id="1879383955" name="Battle Lore of the Anvil[e]" iconId="1090642112" duration="3600.0">
+<propertyModEffect id="1879383955" name="Battle Lore of the Anvil" iconId="1090642112" duration="3600.0">
 <stat name="PHYSICAL_MASTERY" scaling="1879368684"/>
 <stat name="TACTICAL_MASTERY" scaling="1879368693"/>
 </propertyModEffect>
@@ -17182,19 +17177,19 @@
 </propertyModEffect>
 <effect id="1879396431" name="Summoned Orc Warg Pet" description="key:621026270:181298206"/>
 <effect id="1879396432" name="Summoned Orc Warg Pet" description="key:621026271:181298206"/>
-<propertyModEffect id="1879396544" name="Minas Ithil Warding Lore[e]" iconId="1090642113" duration="3600.0">
+<propertyModEffect id="1879396544" name="Minas Ithil Warding Lore" iconId="1090642113" duration="3600.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879368467"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879368461"/>
 </propertyModEffect>
 <fellowshipEffect id="1879396580" name="DNT" applyToTarget="true" range="25.0">
-<effect id="1879396544" name="Minas Ithil Warding Lore[e]"/>
+<effect id="1879396544" name="Minas Ithil Warding Lore"/>
 </fellowshipEffect>
-<propertyModEffect id="1879396609" name="Minas Ithil Battle Lore[e]" iconId="1090642112" duration="3600.0">
+<propertyModEffect id="1879396609" name="Minas Ithil Battle Lore" iconId="1090642112" duration="3600.0">
 <stat name="PHYSICAL_MASTERY" scaling="1879368692"/>
 <stat name="TACTICAL_MASTERY" scaling="1879368685"/>
 </propertyModEffect>
 <fellowshipEffect id="1879396617" name="DNT" applyToTarget="true" range="25.0">
-<effect id="1879396609" name="Minas Ithil Battle Lore[e]"/>
+<effect id="1879396609" name="Minas Ithil Battle Lore"/>
 </fellowshipEffect>
 <effect id="1879396806" name="Call Dornach"/>
 <effect id="1879396851" name="Guide to Estolad Lân"/>
@@ -17351,25 +17346,25 @@
 <overTimeChange progressionID="1879056994"/>
 </vitalOverTimeEffect>
 <effect id="1879400125" appliedDescription="key:621028710:54354734"/>
-<propertyModEffect id="1879400151" name="Woodworking Lore[E]" iconId="1090642309" duration="60.0">
+<propertyModEffect id="1879400151" name="Woodworking Lore" iconId="1090642309" duration="60.0">
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:621028728:106251889" scaling="1879055014"/>
 </propertyModEffect>
-<propertyModEffect id="1879400152" name="Jeweller Lore[E]" iconId="1090648233" duration="60.0">
+<propertyModEffect id="1879400152" name="Jeweller Lore" iconId="1090648233" duration="60.0">
 <stat name="JEWELLER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:621028729:106251889" scaling="1879087975"/>
 </propertyModEffect>
-<propertyModEffect id="1879400153" name="Weaponsmithing Lore[E]" iconId="1090642310" duration="60.0">
+<propertyModEffect id="1879400153" name="Weaponsmithing Lore" iconId="1090642310" duration="60.0">
 <stat name="WEAPONSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:621028734:106251889" scaling="1879055011"/>
 </propertyModEffect>
-<propertyModEffect id="1879400154" name="Tailoring Lore[E]" iconId="1090642307" duration="60.0">
+<propertyModEffect id="1879400154" name="Tailoring Lore" iconId="1090642307" duration="60.0">
 <stat name="TAILOR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:621028730:106251889" scaling="1879055008"/>
 </propertyModEffect>
-<propertyModEffect id="1879400155" name="Cooking Lore[E]" iconId="1090648234" duration="60.0">
+<propertyModEffect id="1879400155" name="Cooking Lore" iconId="1090648234" duration="60.0">
 <stat name="COOK_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:621028731:106251889" scaling="1879087978"/>
 </propertyModEffect>
-<propertyModEffect id="1879400156" name="Scholar Lore[E]" iconId="1090648232" duration="60.0">
+<propertyModEffect id="1879400156" name="Scholar Lore" iconId="1090648232" duration="60.0">
 <stat name="SCHOLAR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:621028732:106251889" scaling="1879087969"/>
 </propertyModEffect>
-<propertyModEffect id="1879400157" name="Metalworking Lore[E]" iconId="1090642308" duration="60.0">
+<propertyModEffect id="1879400157" name="Metalworking Lore" iconId="1090642308" duration="60.0">
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:621028733:106251889" scaling="1879055005"/>
 </propertyModEffect>
 <effect id="1879400648" name="Summon Spirit of Despair"/>
@@ -18270,7 +18265,7 @@
 <effect id="1879412268" name="Rowdy Crowd" appliedDescription="key:621037936:54354734" iconId="1091840218" duration="2.0" pulseCount="6"/>
 <effect id="1879412307" name="Knockback"/>
 <propertyModEffect id="1879412454" name="DNT" iconId="1091682153" duration="3600.0"/>
-<propertyModEffect id="1879412455" name="Grace of the Deathless[e]" iconId="1091631302" duration="3600.0" expiresInRealTime="true">
+<propertyModEffect id="1879412455" name="Grace of the Deathless" iconId="1091631302" duration="3600.0" expiresInRealTime="true">
 <specialEffect label="key:621038002:106251889"/>
 </propertyModEffect>
 <propertyModEffect id="1879412496" name="Clinging Shadow" appliedDescription="key:621038040:54354734" iconId="1091400591" duration="30.0">
@@ -18785,7 +18780,7 @@
 <genesis id="1879417643" name=".." appliedDescription="key:621041832:54354734" summonDuration="300.0">
 <summoned id="1879416404" name="Unstable Debris[ps]"/>
 </genesis>
-<vitalOverTimeEffect id="1879417734" name="Lacerations" description="key:621041887:181298206" appliedDescription="key:621041887:54354734" iconId="1090616922" duration="3.0" pulseCount="10" stat="Health_MaxLevel" damageType="1">
+<vitalOverTimeEffect id="1879417734" name="Lacerations" appliedDescription="key:621046502:54354734" iconId="1090580244" duration="3.0" pulseCount="4" stat="Health_MaxLevel" damageType="1">
 <initialChange progressionID="1879244293"/>
 <overTimeChange progressionID="1879244293"/>
 </vitalOverTimeEffect>
@@ -18980,7 +18975,7 @@
 <overTimeChange progressionID="1879180916"/>
 </vitalOverTimeEffect>
 <effect id="1879424504" name="Draining Rings" iconId="1090519170"/>
-<vitalOverTimeEffect id="1879424505" name="Deep Cut" appliedDescription="key:621046512:54354734" iconId="1091657097" duration="3.0" pulseCount="6" stat="Health_MaxLevel" damageType="1">
+<vitalOverTimeEffect id="1879424505" name="Lacerations" appliedDescription="key:621046512:54354734" iconId="1091657097" duration="3.0" pulseCount="6" stat="Health_MaxLevel" damageType="1">
 <initialChange progressionID="1879244292"/>
 <overTimeChange progressionID="1879180916"/>
 </vitalOverTimeEffect>
@@ -19001,7 +18996,7 @@
 <overTimeChange progressionID="1879180912"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879424511" name="Unwinding Pain" appliedDescription="key:621046506:54354734" iconId="1090522395" duration="1.0" pulseCount="5"/>
-<vitalOverTimeEffect id="1879424512" name="Minor Cut" appliedDescription="key:621046502:54354734" iconId="1091657097" duration="3.0" pulseCount="3" stat="Health_MaxLevel" damageType="1">
+<vitalOverTimeEffect id="1879424512" name="Lacerations" appliedDescription="key:621046502:54354734" iconId="1091657097" duration="3.0" pulseCount="3" stat="Health_MaxLevel" damageType="1">
 <initialChange progressionID="1879244296"/>
 <overTimeChange progressionID="1879244293"/>
 </vitalOverTimeEffect>
@@ -19118,8 +19113,8 @@
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="200.0"/>
 <stat name="ALL_SKILL_INDUCTION" constant="200.0"/>
 </propertyModEffect>
-<effect id="1879430453" name="Legacies Barred" appliedDescription="key:621050910:54354734" iconId="1090519170"/>
-<effect id="1879430454" name="Traceries Barred" appliedDescription="key:621050911:54354734" iconId="1090519170"/>
+<effect id="1879430453" name="Legendary Item with Tracery Slots already equipped" appliedDescription="key:621050910:54354734" iconId="1090519170"/>
+<effect id="1879430454" name="Deprecated Legendary Item already equipped" appliedDescription="key:621050911:54354734" iconId="1090519170"/>
 <effect id="1879430910" name="Call Diseased Bats" description="key:621051169:181298206"/>
 <effect id="1879431429" name="Sticky Bomb" appliedDescription="key:621051580:54354734" iconId="1090522398" duration="5.0"/>
 <propertyModEffect id="1879438442" name="Gift of Gundabad" appliedDescription="key:621058586:54354734" iconId="1091643193">
@@ -19254,19 +19249,19 @@
 <effect id="1879440791" name="Shadow Pool"/>
 </hotspot>
 </genesis>
-<propertyModEffect id="1879441112" name="Gundabad Warding Lore[e]" iconId="1090642113" duration="3600.0">
+<propertyModEffect id="1879441112" name="Gundabad Warding Lore" iconId="1090642113" duration="3600.0">
 <stat name="PHYSICAL_MITIGATION" scaling="1879368467"/>
 <stat name="TACTICAL_MITIGATION" scaling="1879368461"/>
 </propertyModEffect>
 <fellowshipEffect id="1879441113" name="DNT" applyToTarget="true" range="25.0">
-<effect id="1879441114" name="Gundabad Battle Lore[e]"/>
+<effect id="1879441114" name="Gundabad Battle Lore"/>
 </fellowshipEffect>
-<propertyModEffect id="1879441114" name="Gundabad Battle Lore[e]" iconId="1090642112" duration="3600.0">
+<propertyModEffect id="1879441114" name="Gundabad Battle Lore" iconId="1090642112" duration="3600.0">
 <stat name="PHYSICAL_MASTERY" scaling="1879368692"/>
 <stat name="TACTICAL_MASTERY" scaling="1879368685"/>
 </propertyModEffect>
 <fellowshipEffect id="1879441115" name="DNT" applyToTarget="true" range="25.0">
-<effect id="1879441112" name="Gundabad Warding Lore[e]"/>
+<effect id="1879441112" name="Gundabad Warding Lore"/>
 </fellowshipEffect>
 <effect id="1879441354" name="Burning" appliedDescription="key:621060666:54354734" iconId="1091510157" duration="3.0"/>
 <effect id="1879441358" name="DNT - Fray The Edge Fellowship Maneuver Chance"/>
@@ -19597,13 +19592,13 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
 </propertyModEffect>
 <effect id="1879445961" name="Expelled Frost" appliedDescription="key:621063861:54354734" iconId="1091570796" duration="3.0"/>
-<genesis id="1879445968" name=".." appliedDescription="key:621063857:54354734" summonDuration="50.0">
+<genesis id="1879445968" name=".." appliedDescription="key:621063857:54354734" summonDuration="20.0">
 <hotspot id="1879445969" name="Expelled Frost">
 <effect id="1879445973" name="Expelled Frost"/>
 <effect id="1879445956" name="Sapping Cold"/>
 </hotspot>
 </genesis>
-<genesis id="1879445970" name=".." appliedDescription="key:621063862:54354734" summonDuration="40.0">
+<genesis id="1879445970" name=".." appliedDescription="key:621063862:54354734" summonDuration="15.0">
 <hotspot id="1879445963" name="Expelled Frost">
 <effect id="1879445961" name="Expelled Frost"/>
 <effect id="1879445956" name="Sapping Cold"/>
@@ -19817,7 +19812,7 @@
 <reactiveVital constant="0.15" probability="1.0" multiplicative="true"/>
 </attacker>
 </reactiveVitalEffect>
-<genesis id="1879452211" name=".." appliedDescription="key:621068042:54354734" summonDuration="30.0">
+<genesis id="1879452211" name=".." appliedDescription="key:621068042:54354734" summonDuration="20.0">
 <hotspot id="1879452205" name="True Disease Cloud I">
 <effect id="1879452207" name="Diseased Cloud I"/>
 </hotspot>
@@ -19836,23 +19831,23 @@
 </propertyModEffect>
 <effect id="1879452403" name="DNT - Reaver Bloodlust Tierup"/>
 <dispelByResist id="1879452404" name="Blood lust" description="key:621068214:181298206" maxDispelCount="3" resistCategories="3,4" useStrengthRestriction="true" strengthOffset="5"/>
-<genesis id="1879452554" name=".." appliedDescription="key:621068349:54354734" summonDuration="30.0">
+<genesis id="1879452554" name=".." appliedDescription="key:621068349:54354734" summonDuration="10.0">
 <hotspot id="1879452567" name="Poison Puddles I">
 <effect id="1879452562" name="Poison Puddles I"/>
 </hotspot>
 </genesis>
-<genesis id="1879452555" name=".." appliedDescription="key:621068347:54354734" summonDuration="30.0">
+<genesis id="1879452555" name=".." appliedDescription="key:621068347:54354734" summonDuration="15.0">
 <hotspot id="1879452708" name="Slime Puddles II">
 <effect id="1879456559" name="Slime Puddles II"/>
 <effect id="1879056916" name="Induce KnockedOut"/>
 </hotspot>
 </genesis>
-<genesis id="1879452556" name=".." appliedDescription="key:621068348:54354734" summonDuration="30.0">
+<genesis id="1879452556" name=".." appliedDescription="key:621068348:54354734" summonDuration="20.0">
 <hotspot id="1879452568" name="Poison Puddles II">
 <effect id="1879452560" name="Poison Puddles II"/>
 </hotspot>
 </genesis>
-<genesis id="1879452558" name=".." appliedDescription="key:621068332:54354734" summonDuration="30.0">
+<genesis id="1879452558" name=".." appliedDescription="key:621068332:54354734" summonDuration="20.0">
 <hotspot id="1879452565" name="Fire-storm II">
 <effect id="1879452559" name="Fire-storm II"/>
 </hotspot>
@@ -19860,18 +19855,18 @@
 <effect id="1879452559" name="Fire-storm II" appliedDescription="key:621068341:54354734" iconId="1092807320" duration="4.0"/>
 <effect id="1879452560" name="Poison Puddles II" appliedDescription="key:621068338:54354734" iconId="1092807335" duration="3.0"/>
 <effect id="1879452562" name="Poison Puddles I" appliedDescription="key:621068334:54354734" iconId="1092807337" duration="3.0"/>
-<genesis id="1879452563" name=".." appliedDescription="key:621068350:54354734" summonDuration="30.0">
+<genesis id="1879452563" name=".." appliedDescription="key:621068350:54354734" summonDuration="10.0">
 <hotspot id="1879452710" name="Slime Puddles I">
 <effect id="1879452707" name="Slime Puddles I"/>
 </hotspot>
 </genesis>
 <effect id="1879452564" name="Fire-storm I" appliedDescription="key:621068333:54354734" iconId="1092807327" duration="3.0"/>
-<genesis id="1879452566" name=".." appliedDescription="key:621068345:54354734" summonDuration="30.0">
+<genesis id="1879452566" name=".." appliedDescription="key:621068345:54354734" summonDuration="10.0">
 <hotspot id="1879452553" name="Fire-storm I">
 <effect id="1879452564" name="Fire-storm I"/>
 </hotspot>
 </genesis>
-<genesis id="1879452569" name=".." appliedDescription="key:621068337:54354734" summonDuration="30.0">
+<genesis id="1879452569" name=".." appliedDescription="key:621068337:54354734" summonDuration="15.0">
 <hotspot id="1879452709" name="Encroaching Shadow">
 <effect id="1879452711" name="Encroaching Shadow"/>
 </hotspot>
@@ -19916,113 +19911,6 @@
 <effect id="1879453025" name="DNT"/>
 <dispelByResist id="1879453253" name="Slick Flesh Salve" description="key:621068916:181298206" maxDispelCount="2" resistCategories="3,4,7,9" useStrengthRestriction="true" strengthOffset="5"/>
 <propertyModEffect id="1879453274" name="Nature's Ward" appliedDescription="key:621068941:54354734" iconId="1091510186"/>
-<propertyModEffect id="1879453381" name="Blessing of the White Hand" appliedDescription="key:621069005:54354734" iconId="1092756650" duration="108720.0" pulseCount="3">
-<stat name="CRITICAL_DEFENCE" scaling="1879453375"/>
-<stat name="CRITICAL_RATING" scaling="1879453389"/>
-<stat name="FINESSE" scaling="1879453386"/>
-<stat name="TACTICAL_MASTERY" scaling="1879453393"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879453414"/>
-<stat name="TACTICAL_MITIGATION" scaling="1879453415"/>
-<stat name="PHYSICAL_MITIGATION" scaling="1879453368"/>
-<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:621069005:106251896" constant="1.05"/>
-<stat name="EffectMod_DoTDamage_MP" constant="10.0"/>
-<stat name="RESISTANCE" scaling="1879453385"/>
-<stat name="Combat_Class_BlockPoints" scaling="1879453390"/>
-<stat name="Combat_Class_ParryPoints" scaling="1879453416"/>
-<stat name="Combat_Class_EvadePoints" scaling="1879453373"/>
-</propertyModEffect>
-<propertyModEffect id="1879453388" name="Blessing of Shelob's Brood" appliedDescription="key:621069004:54354734" iconId="1092756646" duration="108720.0" pulseCount="3">
-<stat name="CRITICAL_DEFENCE" scaling="1879453411"/>
-<stat name="CRITICAL_RATING" scaling="1879453379"/>
-<stat name="FINESSE" scaling="1879453386"/>
-<stat name="TACTICAL_MASTERY" scaling="1879453383"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879453406"/>
-<stat name="TACTICAL_MITIGATION" scaling="1879453408"/>
-<stat name="PHYSICAL_MITIGATION" scaling="1879453358"/>
-<stat name="MORALE" operator="MULTIPLY" constant="1.0"/>
-<stat name="EffectMod_DoTDamage_MP" constant="25.0"/>
-<stat name="Skill_MC_Runekeeper_Pulses" constant="2.0"/>
-<stat name="RESISTANCE" scaling="1879453404"/>
-</propertyModEffect>
-<propertyModEffect id="1879453391" name="Blessing of the Scara-pack" appliedDescription="key:621069003:54354734" iconId="1092756645" duration="108720.0" pulseCount="3">
-<stat name="CRITICAL_DEFENCE" scaling="1879453411"/>
-<stat name="CRITICAL_RATING" scaling="1879453370"/>
-<stat name="FINESSE" scaling="1879453386"/>
-<stat name="TACTICAL_MASTERY" scaling="1879453383"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879453406"/>
-<stat name="TACTICAL_MITIGATION" scaling="1879453399"/>
-<stat name="PHYSICAL_MITIGATION" scaling="1879453358"/>
-<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:621069003:106251896" constant="1.025"/>
-<stat name="EffectMod_DoTDamage_MP" constant="10.0"/>
-<stat name="Skill_Creep_DamageMod" constant="10.0"/>
-<stat name="RESISTANCE" scaling="1879453404"/>
-<stat name="Combat_Class_BlockPoints" scaling="1879453380"/>
-<stat name="Combat_Class_ParryPoints" scaling="1879453364"/>
-<stat name="Combat_Class_EvadePoints" scaling="1879453382"/>
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="7.0"/>
-</propertyModEffect>
-<propertyModEffect id="1879453398" name="Blessing of the Tarkrîp" appliedDescription="key:621069008:54354734" iconId="1092756647" duration="108720.0" pulseCount="3">
-<stat name="CRITICAL_DEFENCE" scaling="1879453394"/>
-<stat name="CRITICAL_RATING" scaling="1879453379"/>
-<stat name="FINESSE" scaling="1879453405"/>
-<stat name="TACTICAL_MASTERY" scaling="1879453365"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879453387"/>
-<stat name="TACTICAL_MITIGATION" scaling="1879453415"/>
-<stat name="PHYSICAL_MITIGATION" scaling="1879453403"/>
-<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:621069008:106251896" constant="1.075"/>
-<stat name="EffectMod_DoTDamage_MP" constant="5.0"/>
-<stat name="INCOMING_HEALING_PERCENTAGE" constant="5.0"/>
-<stat name="RESISTANCE" scaling="1879453404"/>
-<stat name="Combat_Class_BlockPoints" scaling="1879453390"/>
-<stat name="Combat_Class_ParryPoints" scaling="1879453416"/>
-<stat name="Combat_Class_EvadePoints" scaling="1879453373"/>
-</propertyModEffect>
-<propertyModEffect id="1879453407" name="Blessing of the Krahjarn" appliedDescription="key:621069009:54354734" iconId="1092756649" duration="108720.0" pulseCount="3">
-<stat name="CRITICAL_DEFENCE" scaling="1879453411"/>
-<stat name="CRITICAL_RATING" scaling="1879453370"/>
-<stat name="FINESSE" scaling="1879453359"/>
-<stat name="TACTICAL_MASTERY" scaling="1879453383"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879453406"/>
-<stat name="TACTICAL_MITIGATION" scaling="1879453399"/>
-<stat name="PHYSICAL_MITIGATION" scaling="1879453376"/>
-<stat name="MORALE" operator="MULTIPLY" constant="1.0"/>
-<stat name="EffectMod_DoTDamage_MP" constant="15.000001"/>
-<stat name="Skill_Creep_DamageMod" constant="20.0"/>
-<stat name="Skill_InductionDuration_MonsterSkillsMod" constant="-7.5000005"/>
-<stat name="RESISTANCE" scaling="1879453404"/>
-<stat name="Combat_Class_BlockPoints" scaling="1879453410"/>
-<stat name="Combat_Class_ParryPoints" scaling="1879453362"/>
-<stat name="Combat_Class_EvadePoints" scaling="1879453417"/>
-</propertyModEffect>
-<propertyModEffect id="1879453413" name="Blessing of the Ongbúrz" appliedDescription="key:621069007:54354734" iconId="1092756651" duration="108720.0" pulseCount="3">
-<stat name="CRITICAL_DEFENCE" scaling="1879453402"/>
-<stat name="CRITICAL_RATING" scaling="1879453395"/>
-<stat name="FINESSE" scaling="1879453378"/>
-<stat name="TACTICAL_MASTERY" scaling="1879453419"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879453367"/>
-<stat name="TACTICAL_MITIGATION" scaling="1879453372"/>
-<stat name="PHYSICAL_MITIGATION" scaling="1879453412"/>
-<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:621069007:106251896" constant="1.025"/>
-<stat name="RESISTANCE" scaling="1879453396"/>
-<stat name="Combat_Class_BlockPoints" scaling="1879453380"/>
-<stat name="Combat_Class_ParryPoints" scaling="1879453364"/>
-<stat name="Combat_Class_EvadePoints" scaling="1879453382"/>
-</propertyModEffect>
-<propertyModEffect id="1879453418" name="Blessing of the Blogmal" appliedDescription="key:621069006:54354734" iconId="1092756648" duration="108720.0" pulseCount="3">
-<stat name="CRITICAL_DEFENCE" scaling="1879453384"/>
-<stat name="CRITICAL_RATING" scaling="1879453379"/>
-<stat name="FINESSE" scaling="1879453405"/>
-<stat name="TACTICAL_MASTERY" scaling="1879453383"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879453406"/>
-<stat name="TACTICAL_MITIGATION" scaling="1879453415"/>
-<stat name="PHYSICAL_MITIGATION" scaling="1879453368"/>
-<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:621069006:106251896" constant="1.075"/>
-<stat name="Skill_InductionDuration_MonsterSkillsMod" constant="-15.000001"/>
-<stat name="RESISTANCE" scaling="1879453385"/>
-<stat name="Combat_Class_BlockPoints" scaling="1879453410"/>
-<stat name="Combat_Class_ParryPoints" scaling="1879453362"/>
-<stat name="Combat_Class_EvadePoints" scaling="1879453417"/>
-</propertyModEffect>
 <effect id="1879453601" name="Summon Grave-wight Warrior"/>
 <effect id="1879453602" name="Summon Hatchling"/>
 <effect id="1879453603" name="Summon Grave-wight Archer"/>
@@ -20576,11 +20464,11 @@
 <effect id="1879457527" name="Slowed"/>
 </hotspot>
 </genesis>
-<propertyModEffect id="1879457315" name="+5 Hope Token: Give Undying Hope[e]" appliedDescription="key:621071556:54354734" iconId="1091526109" duration="2400.0">
+<propertyModEffect id="1879457315" name="+5 Hope Token: Give Undying Hope" appliedDescription="key:621071556:54354734" iconId="1091526109" duration="2400.0">
 <stat name="HOPE" constant="5.0"/>
 </propertyModEffect>
 <fellowshipEffect id="1879457316" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879457315" name="+5 Hope Token: Give Undying Hope[e]"/>
+<effect id="1879457315" name="+5 Hope Token: Give Undying Hope"/>
 </fellowshipEffect>
 <genesis id="1879457385" name=".." appliedDescription="key:621071580:54354734" summonDuration="30.0">
 <hotspot id="1879457388" name="Twisted Armour">
@@ -20767,9 +20655,9 @@
 </defender>
 </reactiveVitalEffect>
 <fellowshipEffect id="1879459094" name="Star Glass" applyToTarget="true" range="20.0">
-<effect id="1879459095" name="Gundabad Edhelharn Token: Give Hope[e]"/>
+<effect id="1879459095" name="Gundabad Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<propertyModEffect id="1879459095" name="Gundabad Edhelharn Token: Give Hope[e]" appliedDescription="key:621072940:54354734" iconId="1091526109" duration="3000.0">
+<propertyModEffect id="1879459095" name="Gundabad Edhelharn Token: Give Hope" appliedDescription="key:621072940:54354734" iconId="1091526109" duration="3000.0">
 <stat name="HOPE" constant="6.0"/>
 <stat name="RESISTANCE" scaling="1879210163"/>
 </propertyModEffect>
@@ -21488,16 +21376,34 @@
 <effect id="1879464506" name="Tauressar's Corruption"/>
 </hotspot>
 </genesis>
+<propertyModEffect id="1879465982" name="Cooked Food - War Rations" iconId="1090641236" duration="1200.0">
+<stat name="ICPR" scaling="1879399374"/>
+<stat name="ICMR" scaling="1879399433"/>
+<stat name="OCMR" scaling="1879399452"/>
+<stat name="OCPR" scaling="1879399340"/>
+</propertyModEffect>
+<propertyModEffect id="1879465983" name="Cooked Food - War Rations" iconId="1090641236" duration="1800.0">
+<stat name="ICPR" scaling="1879399373"/>
+<stat name="ICMR" scaling="1879399446"/>
+<stat name="OCMR" scaling="1879399435"/>
+<stat name="OCPR" scaling="1879399338"/>
+</propertyModEffect>
+<propertyModEffect id="1879465986" name="Cooked Food - War Rations" iconId="1090641236" duration="1800.0">
+<stat name="ICPR" scaling="1879399367"/>
+<stat name="ICMR" scaling="1879399439"/>
+<stat name="OCMR" scaling="1879399441"/>
+<stat name="OCPR" scaling="1879399343"/>
+</propertyModEffect>
 <induceCombatState id="1879466167" name="Induce Dazed" state="3" stateDuration="15.0"/>
 <induceCombatState id="1879466168" name="Induce Rooted" state="10" stateDuration="15.0"/>
 <induceCombatState id="1879466169" name="Induce Stunned" state="15" stateDuration="2.0"/>
 <induceCombatState id="1879466171" name="Induce Stunned" state="15" stateDuration="5.0"/>
 <induceCombatState id="1879466172" name="Induce Feared" state="2" stateDuration="10.0"/>
-<effect id="1879466218" name="Travel to the Brown Lands"/>
-<effect id="1879466219" name="Travel to Buckland"/>
-<effect id="1879466223" name="Travel to Celondim"/>
-<effect id="1879466231" name="Travel to Sarn Ford"/>
-<effect id="1879466234" name="Travel to Lothlórien"/>
+<effect id="1879466218" name="Sail to the Brown Lands"/>
+<effect id="1879466219" name="Sail to Buckland"/>
+<effect id="1879466223" name="Sail to Celondim"/>
+<effect id="1879466231" name="Sail to Sarn Ford"/>
+<effect id="1879466234" name="Sail to Lothlórien"/>
 <propertyModEffect id="1879466235" name="Steady" iconId="1092825093" duration="10.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="5.0"/>
 </propertyModEffect>
@@ -21513,13 +21419,13 @@
 <vitalOverTimeEffect id="1879466653" name="Stabbed" iconId="1091805247" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855"/>
 </vitalOverTimeEffect>
-<propertyModEffect id="1879466897" name="Blue Whetstone[e]" iconId="1092830716" duration="210.0">
+<propertyModEffect id="1879466897" name="Blue Whetstone" iconId="1092830716" duration="210.0">
 <stat name="Craft_Forester_CriticalChanceAddModifier" descriptionOverride="key:621078374:106251889" constant="5.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879466898" name="White Whetstone[e]" iconId="1092830717" duration="300.0">
+<propertyModEffect id="1879466898" name="White Whetstone" iconId="1092830717" duration="300.0">
 <stat name="Craft_Forester_CriticalChanceAddModifier" descriptionOverride="key:621078377:106251889" constant="5.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879466902" name="Black Whetstone[e]" iconId="1091537619" duration="120.0">
+<propertyModEffect id="1879466902" name="Black Whetstone" iconId="1091537619" duration="120.0">
 <stat name="Craft_Forester_CriticalChanceAddModifier" descriptionOverride="key:621078376:106251889" constant="5.0"/>
 </propertyModEffect>
 <effect id="1879467091" name="Call Property Guard" description="key:620897149:181298206"/>
@@ -21849,6 +21755,7 @@
 <vitalChange progressionID="1879252970"/>
 </instantVitalEffect>
 <propertyModEffect id="1879471169" name="DNT - Finishers reset CR" iconId="1090519170"/>
+<effect id="1879471263" name="Call Anyâmat"/>
 <vitalOverTimeEffect id="1879471277" name="Fire Pot Burn" iconId="1092825112" duration="2.0" pulseCount="10" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879367855"/>
 </vitalOverTimeEffect>
@@ -21875,16 +21782,45 @@
 <propertyModEffect id="1879474601" name="DNT - Fore With Haste Timeout" iconId="1090519170" duration="15.0" pulseCount="1"/>
 <effect id="1879474935" name="DNT Parrot" iconId="1090523647"/>
 <effect id="1879474953" name="DNT"/>
-<effect id="1879474968" name="Hunter Travel to Forochel"/>
-<effect id="1879474969" name="Guide to Trader's Wharf"/>
-<effect id="1879474970" name="Travel to Dol Amroth"/>
-<effect id="1879474971" name="Travel to Mirk-eaves"/>
-<effect id="1879474972" name="Travel to East Rohan"/>
-<effect id="1879474973" name="Hunter Travel to Dale"/>
-<effect id="1879474974" name="Travel to after-battle Osgiliath"/>
-<effect id="1879474975" name="Guide to Pelargir"/>
-<effect id="1879474976" name="Hunter Travel to Evendim"/>
+<effect id="1879474968" name="Sail to Forochel"/>
+<effect id="1879474969" name="Sail to Trader's Wharf"/>
+<effect id="1879474970" name="Sail to Dol Amroth"/>
+<effect id="1879474971" name="Sail to Mirk-eaves"/>
+<effect id="1879474972" name="Sail to East Rohan"/>
+<effect id="1879474973" name="Sail to Dale"/>
+<effect id="1879474974" name="Sail to after-battle Osgiliath"/>
+<effect id="1879474975" name="Sail to Pelargir"/>
+<effect id="1879474976" name="Sail to Evendim"/>
 <induceCombatState id="1879475410" name="Induce Fellowship Manoeuvre Stunned" probabilityModProperty="268464072" state="9" stateDuration="5.0"/>
+<propertyModEffect id="1879475860" name="Fever and Chills" description="key:621085224:181298206" appliedDescription="key:621085224:54354734" iconId="1090522616" duration="10.0" expiresInRealTime="true">
+<stat name="VITALITY" operator="SUBSTRACT" scaling="1879211972"/>
+<stat name="MIGHT" operator="SUBSTRACT" scaling="1879211971"/>
+<stat name="AGILITY" operator="SUBSTRACT" scaling="1879211976"/>
+<stat name="WILL" operator="SUBSTRACT" scaling="1879211978"/>
+</propertyModEffect>
+<effect id="1879475935" name="Sail to Dol Umbar"/>
+<effect id="1879475936" name="Travel to the Order of the Eagle"/>
+<effect id="1879475937" name="Travel to Jax Phanâl"/>
+<effect id="1879475939" name="Guide to Dol Amroth"/>
+<effect id="1879475940" name="Muster in Lond Cirion"/>
+<effect id="1879475941" name="Sail to Lond Cirion"/>
+<effect id="1879475943" name="Guide to Lond Cirion"/>
+<effect id="1879475944" name="Muster in Umbar"/>
+<effect id="1879475945" name="Muster in Halrax"/>
+<effect id="1879475946" name="Sail to Halrax"/>
+<effect id="1879475948" name="Travel to Lond Cirion"/>
+<effect id="1879475949" name="Guide to Halrax"/>
+<effect id="1879475950" name="Sail to Jax Phanâl"/>
+<effect id="1879475951" name="Muster in Dol Amroth"/>
+<effect id="1879475952" name="Travel to the Ledger-keepers"/>
+<effect id="1879475953" name="Travel to Dol Amroth"/>
+<effect id="1879475954" name="Travel to Halrax"/>
+<effect id="1879475955" name="Guide to Jax Phanâl"/>
+<effect id="1879475957" name="Sail to Dol Amroth"/>
+<effect id="1879475958" name="Guide to Umbar"/>
+<effect id="1879475959" name="Travel to Umbar"/>
+<effect id="1879475960" name="Muster in Jax Phanâl"/>
+<effect id="1879476078" name="DNT - Umbar"/>
 <propertyModEffect id="1879476109" name="DNT - Pots can increase inc damage" iconId="1090519170">
 <specialEffect label="key:621085490:106251889"/>
 </propertyModEffect>
@@ -21909,4 +21845,109 @@
 <propertyModEffect id="1879476135" name="DNT - Shanties give personal DR" iconId="1090519170">
 <specialEffect label="key:621085475:106251889"/>
 </propertyModEffect>
+<genesis id="1879476935" name="Create stable-master." appliedDescription="key:621086143:54354734" summonDuration="300.0">
+<summoned id="1879476945" name="Stable-master[m]"/>
+</genesis>
+<genesis id="1879476937" name="Create dock-master." appliedDescription="key:621086144:54354734" summonDuration="300.0">
+<summoned id="1879476941" name="Dock-master[m]"/>
+</genesis>
+<genesis id="1879476939" name="Create stable-master." appliedDescription="key:621086142:54354734" summonDuration="300.0">
+<summoned id="1879476933" name="Stable-master[f]"/>
+</genesis>
+<genesis id="1879476946" name="Create dock-master." appliedDescription="key:621086140:54354734" summonDuration="300.0">
+<summoned id="1879476940" name="Dock-master[f]"/>
+</genesis>
+<fellowshipEffect id="1879478147" name="DNT" applyToTarget="true" range="25.0">
+<effect id="1879478153" name="Umbari Warding Lore"/>
+</fellowshipEffect>
+<fellowshipEffect id="1879478148" name="Star Glass" applyToTarget="true" range="20.0">
+<effect id="1879478165" name="Ettenmoors Edhelharn Token: Give Hope"/>
+</fellowshipEffect>
+<propertyModEffect id="1879478151" name="Ettenmoors Battle Lore" iconId="1090642112" duration="1800.0">
+<stat name="PHYSICAL_MASTERY" scaling="1879368692"/>
+<stat name="TACTICAL_MASTERY" scaling="1879368685"/>
+</propertyModEffect>
+<propertyModEffect id="1879478153" name="Umbari Warding Lore" iconId="1090642113" duration="3600.0">
+<stat name="PHYSICAL_MITIGATION" scaling="1879368467"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879368461"/>
+</propertyModEffect>
+<propertyModEffect id="1879478154" name="Umbari Battle Lore" iconId="1090642112" duration="3600.0">
+<stat name="PHYSICAL_MASTERY" scaling="1879368692"/>
+<stat name="TACTICAL_MASTERY" scaling="1879368685"/>
+</propertyModEffect>
+<fellowshipEffect id="1879478156" name="Star Glass" applyToTarget="true" range="20.0">
+<effect id="1879478159" name="Umbari Edhelharn Token: Give Hope"/>
+</fellowshipEffect>
+<fellowshipEffect id="1879478158" name="DNT" applyToTarget="true" range="25.0">
+<effect id="1879478154" name="Umbari Battle Lore"/>
+</fellowshipEffect>
+<propertyModEffect id="1879478159" name="Umbari Edhelharn Token: Give Hope" appliedDescription="key:621086949:54354734" iconId="1091526109" duration="3000.0">
+<stat name="HOPE" constant="6.0"/>
+<stat name="RESISTANCE" scaling="1879210163"/>
+</propertyModEffect>
+<propertyModEffect id="1879478161" name="Ettenmoors Warding Lore" iconId="1090642113" duration="1800.0">
+<stat name="PHYSICAL_MITIGATION" scaling="1879368467"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879368461"/>
+</propertyModEffect>
+<propertyModEffect id="1879478165" name="Ettenmoors Edhelharn Token: Give Hope" appliedDescription="key:621086951:54354734" iconId="1091526109" duration="1800.0">
+<stat name="HOPE" constant="6.0"/>
+</propertyModEffect>
+<vitalOverTimeEffect id="1879478477" name="Lacerations" appliedDescription="key:621046512:54354734" iconId="1090625105" duration="3.0" pulseCount="4" stat="Health_MaxLevel" damageType="1">
+<initialChange progressionID="1879244293"/>
+<overTimeChange progressionID="1879244293"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879478780" name="Recuperate" iconId="1091940911" duration="2.0" pulseCount="6" stat="Health_MaxLevel">
+<initialChange progressionID="1879368264" variance="0.3"/>
+<overTimeChange progressionID="1879368264" variance="0.3"/>
+</vitalOverTimeEffect>
+<effect id="1879478781" name="Ancient Treasure Cache"/>
+<effect id="1879478806" name="Scroll Case"/>
+<effect id="1879478807" name="Scroll Case"/>
+<effect id="1879478808" name="Scroll Case"/>
+<effect id="1879478809" name="Scroll Case"/>
+<effect id="1879478810" name="Scroll Case"/>
+<propertyModEffect id="1879478824" name="Frenzied" iconId="1090528807" duration="90.0">
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="35.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="35.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="35.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="25.0"/>
+</propertyModEffect>
+<vitalOverTimeEffect id="1879478825" name="Vigour" iconId="1091534994" duration="2.0" pulseCount="7" stat="Health_MaxLevel">
+<overTimeChange progressionID="1879056994"/>
+</vitalOverTimeEffect>
+<propertyModEffect id="1879478826" name="Rent Armour" iconId="1090531635" duration="30.0">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879478827" name="Rage" iconId="1090532174" duration="60.0">
+<stat name="ATTACK_DURATION_PERCENTAGE" constant="-20.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879478830" name="Slowed" iconId="1090522260" duration="10.0" probability="0.1">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="35.0"/>
+<stat name="ALL_SKILL_INDUCTION" constant="50.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879478832" name="Weakened" iconId="1090522393" duration="10.0" probability="0.1">
+<stat name="MIGHT" operator="SUBSTRACT" scaling="1879471083"/>
+</propertyModEffect>
+<vitalOverTimeEffect id="1879478834" name="Festering Wound" iconId="1090522395" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="1">
+<initialChange progressionID="1879244293"/>
+<overTimeChange progressionID="1879343138"/>
+</vitalOverTimeEffect>
+<effect id="1879478836" name="DNT"/>
+<vitalOverTimeEffect id="1879478837" name="Deep Wound" iconId="1090580244" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="1">
+<initialChange progressionID="1879244293"/>
+<overTimeChange progressionID="1879244293"/>
+</vitalOverTimeEffect>
+<propertyModEffect id="1879478840" name="Fearful" iconId="1092402912" duration="20.0">
+<stat name="INCOMING_HEALING_PERCENTAGE" operator="SUBSTRACT" constant="30.000002"/>
+</propertyModEffect>
+<propertyModEffect id="1879478841" name="Marked Prey" iconId="1091404060" duration="15.0">
+<stat name="MELEE_DEFENCE_PERCENTAGE" constant="10.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" constant="10.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" constant="10.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879478843" name="Group Hunters" iconId="1090539274" duration="30.0">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="25.0"/>
+</propertyModEffect>
+<effect id="1879479071" name="Knockaway"/>
 </effects>
