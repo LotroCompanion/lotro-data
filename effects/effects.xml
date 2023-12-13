@@ -21604,6 +21604,7 @@
 <effect id="1879468566" name="DNT"/>
 <effect id="1879468567" name="DNT"/>
 <effect id="1879468568" name="DNT"/>
+<effect id="1879468569" name="DNT"/>
 <effect id="1879468570" name="DNT"/>
 <effect id="1879468571" name="DNT"/>
 <effect id="1879468572" name="DNT"/>
@@ -21792,6 +21793,9 @@
 <effect id="1879474975" name="Sail to Pelargir"/>
 <effect id="1879474976" name="Sail to Evendim"/>
 <induceCombatState id="1879475410" name="Induce Fellowship Manoeuvre Stunned" probabilityModProperty="268464072" state="9" stateDuration="5.0"/>
+<genesis id="1879475854" name="DNT -- Feast Creation" summonDuration="120.0">
+<summoned id="1879475845" name="Durable Umbari Feast[e]"/>
+</genesis>
 <propertyModEffect id="1879475860" name="Fever and Chills" description="key:621085224:181298206" appliedDescription="key:621085224:54354734" iconId="1090522616" duration="10.0" expiresInRealTime="true">
 <stat name="VITALITY" operator="SUBSTRACT" scaling="1879211972"/>
 <stat name="MIGHT" operator="SUBSTRACT" scaling="1879211971"/>
@@ -21950,4 +21954,58 @@
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="25.0"/>
 </propertyModEffect>
 <effect id="1879479071" name="Knockaway"/>
+<genesis id="1879479348" name="DNT -- Feast Creation" summonDuration="120.0">
+<summoned id="1879479341" name="Fortifying Umbari Feast[e]"/>
+</genesis>
+<genesis id="1879479349" name="DNT -- Feast Creation" summonDuration="120.0">
+<summoned id="1879479342" name="Enduring Umbari Feast[v]"/>
+</genesis>
+<propertyModEffect id="1879479350" name="Fortifying Feast" iconId="1091536885" duration="3600.0">
+<stat name="VITALITY" scaling="1879211544"/>
+<stat name="MIGHT" scaling="1879211532"/>
+<stat name="AGILITY" scaling="1879211572"/>
+<stat name="WILL" scaling="1879211578"/>
+<stat name="ICPR" scaling="1879399366"/>
+<stat name="ICMR" scaling="1879399453"/>
+<stat name="OCMR" scaling="1879399435"/>
+<stat name="OCPR" scaling="1879399338"/>
+</propertyModEffect>
+<propertyModEffect id="1879479351" name="Enduring Feast" iconId="1091536885" duration="2700.0">
+<stat name="VITALITY" scaling="1879211560"/>
+<stat name="MIGHT" scaling="1879211573"/>
+<stat name="AGILITY" scaling="1879211546"/>
+<stat name="WILL" scaling="1879211585"/>
+<stat name="ICPR" scaling="1879399366"/>
+<stat name="ICMR" scaling="1879399453"/>
+<stat name="OCMR" scaling="1879399435"/>
+<stat name="OCPR" scaling="1879399338"/>
+</propertyModEffect>
+<propertyModEffect id="1879479352" name="Durable Feast" iconId="1091536885" duration="1800.0">
+<stat name="VITALITY" scaling="1879211562"/>
+<stat name="MIGHT" scaling="1879211567"/>
+<stat name="AGILITY" scaling="1879211540"/>
+<stat name="WILL" scaling="1879211580"/>
+<stat name="ICPR" scaling="1879399366"/>
+<stat name="ICMR" scaling="1879399453"/>
+<stat name="OCMR" scaling="1879399435"/>
+<stat name="OCPR" scaling="1879399338"/>
+</propertyModEffect>
+<effect id="1879479415" name="Durable Fervent Morale"/>
+<effect id="1879479416" name="Durable Fervent Morale"/>
+<effect id="1879479418" name="Durable Fervent Morale"/>
+<effect id="1879480299" name="Muster to the Bloody Eagle Tavern"/>
+<effect id="1879480302" name="Guide to the Bloody Eagle Tavern"/>
+<effect id="1879480304" name="Travel to the Bloody Eagle Tavern"/>
+<propertyModEffect id="1879480323" name="Fortifying Weapon Polish" appliedDescription="key:621088275:54354734" iconId="1091537619" duration="300.0">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="0.70000005"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="0.70000005"/>
+</propertyModEffect>
+<propertyModEffect id="1879480324" name="Enduring Weapon Polish" appliedDescription="key:621088273:54354734" iconId="1091537619" duration="300.0">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="0.6"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="0.6"/>
+</propertyModEffect>
+<propertyModEffect id="1879480325" name="Durable Weapon Polish" appliedDescription="key:621088274:54354734" iconId="1091537619" duration="300.0">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="0.5"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="0.5"/>
+</propertyModEffect>
 </effects>
