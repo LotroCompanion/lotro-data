@@ -1355,18 +1355,22 @@
 <skill identifier="1879064384" name="Desperate Flight" category="48" iconId="1090553947" description="key:620775202:228830419">
 <effect id="1879238314" name="Hunter Travel to Nearest Rally Point"/>
 </skill>
-<skill identifier="1879064385" name="Guide to Thorin's Hall" category="102" iconId="1090553948" description="key:620775205:228830419">
+<travelSkill identifier="1879064385" name="Guide to Thorin's Hall" category="102" iconId="1090553948" description="key:620775205:228830419">
+<position region="1" longitude="-103.21289" latitude="-13.763378"/>
 <effect id="1879073420" name="Hunter Travel to Thorin's Hall"/>
-</skill>
-<skill identifier="1879064386" name="Guide to Bree" category="102" iconId="1090553949" description="key:620775208:228830419">
+</travelSkill>
+<travelSkill identifier="1879064386" name="Guide to Bree" category="102" iconId="1090553949" description="key:620775208:228830419">
+<position region="1" longitude="-52.950703" latitude="-29.579306"/>
 <effect id="1879073421" name="Hunter Travel to Bree"/>
-</skill>
-<skill identifier="1879064387" name="Guide to Esteldín" category="102" iconId="1090553950" description="key:620775210:228830419">
+</travelSkill>
+<travelSkill identifier="1879064387" name="Guide to Esteldín" category="102" iconId="1090553950" description="key:620775210:228830419">
+<position region="1" longitude="-42.15499" latitude="-9.621406"/>
 <effect id="1879073422" name="Hunter Travel to Esteldín"/>
-</skill>
-<skill identifier="1879064388" name="Guide to Rivendell" category="102" iconId="1090553951" description="key:620775212:228830419">
+</travelSkill>
+<travelSkill identifier="1879064388" name="Guide to Rivendell" category="102" iconId="1090553951" description="key:620775212:228830419">
+<position region="1" longitude="-4.583584" latitude="-30.496151"/>
 <effect id="1879073423" name="Hunter Travel to Rivendell"/>
-</skill>
+</travelSkill>
 <skill identifier="1879064389" name="Passage of Nature" category="18" iconId="1090553952" description="key:620775214:228830419">
 <effect id="1879060693" name="Improved Hunter Nature Tracking"/>
 </skill>
@@ -1767,9 +1771,10 @@
 <effect id="1879180043" name="Induce Dazed"/>
 <effect id="1879052127" name="Dispel Aim." type="USER"/>
 </skill>
-<skill identifier="1879073480" name="Return to the Shire" category="102" iconId="1090553971" description="key:620775249:228830419">
+<travelSkill identifier="1879073480" name="Return to the Shire" category="102" iconId="1090553971" description="key:620775249:228830419">
+<position region="1" longitude="-75.48092" latitude="-34.17793"/>
 <effect id="1879073482" name="Hobbit Travel to The Shire"/>
-</skill>
+</travelSkill>
 <skill identifier="1879073486" name="Hobbit-resilience" category="56" iconId="1090553973" description="key:620775253:228830419">
 <effect id="1879073487" name="Hobbit's Hope."/>
 </skill>
@@ -1785,9 +1790,10 @@
 <effect id="1879180043" name="Induce Dazed"/>
 <effect id="1879052127" name="Dispel Aim." type="USER"/>
 </skill>
-<skill identifier="1879073526" name="Return to Bree" category="102" iconId="1090553994" description="key:620775281:228830419">
+<travelSkill identifier="1879073526" name="Return to Bree" category="102" iconId="1090553994" description="key:620775281:228830419">
+<position region="1" longitude="-52.90737" latitude="-29.566952"/>
 <effect id="1879073527" name="Race of Man Travel to Bree"/>
-</skill>
+</travelSkill>
 <skill identifier="1879073530" name="Duty-bound" category="56" iconId="1090553996" description="key:620775285:228830419">
 <effect id="1879084540" name="Duty Bound"/>
 </skill>
@@ -1798,9 +1804,10 @@
 <effect id="1879073492" name="Hobbit Stealth" type="TOGGLE"/>
 <effect id="1879073492" name="Hobbit Stealth" type="USER_TOGGLE"/>
 </skill>
-<skill identifier="1879073567" name="Return to Rivendell" category="102" iconId="1090554013" description="key:620775310:228830419">
+<travelSkill identifier="1879073567" name="Return to Rivendell" category="102" iconId="1090554013" description="key:620775310:228830419">
+<position region="1" longitude="-5.8921485" latitude="-30.741903"/>
 <effect id="1879073568" name="Elf Travel to Rivendell"/>
-</skill>
+</travelSkill>
 <skill identifier="1879073571" name="Eldar's Grace" category="56" iconId="1090532784" description="key:620775314:228830419">
 <effect id="1879073572" name="Eldar's Grace"/>
 </skill>
@@ -1810,9 +1817,10 @@
 <skill identifier="1879073596" name="Head-butt" category="56" iconId="1090554024" description="key:620775328:228830419">
 <effect id="1879180043" name="Induce Dazed"/>
 </skill>
-<skill identifier="1879073606" name="Return to Thorin's Gate" category="102" iconId="1090554029" description="key:620775337:228830419">
+<travelSkill identifier="1879073606" name="Return to Thorin's Gate" category="102" iconId="1090554029" description="key:620775337:228830419">
+<position region="1" longitude="-103.21289" latitude="-13.763378"/>
 <effect id="1879073607" name="Dwarf Travel to Thorin's Hall"/>
-</skill>
+</travelSkill>
 <skill identifier="1879073610" name="Endurance of Stone" category="56" iconId="1090554031" description="key:620775341:228830419">
 <effect id="1879073611" name="Hunker Down"/>
 </skill>
@@ -2740,24 +2748,29 @@
 <effect id="1879089820" name="Dunedain Mark" type="USER_TOGGLE"/>
 </skill>
 <skill identifier="1879089819" name="Fly True" category="15" iconId="1091116227" description="key:620791673:228830419"/>
-<skill identifier="1879089857" name="Return to Camp" category="48" iconId="1091388857" travelType="12" description="key:620791707:228830419">
+<travelSkill identifier="1879089857" name="Return to Camp" category="48" iconId="1091388857" travelType="12" description="key:620791707:228830419">
 <effect id="1879089865" name="Return to Camp"/>
-</skill>
-<skill identifier="1879089858" name="Guide to Ost Guruth" category="102" iconId="1091388853" description="key:620791709:228830419">
+</travelSkill>
+<travelSkill identifier="1879089858" name="Guide to Ost Guruth" category="102" iconId="1091388853" description="key:620791709:228830419">
+<position region="1" longitude="-29.510273" latitude="-31.691914"/>
 <effect id="1879089866" name="Hunter Travel to Ost Guruth"/>
-</skill>
-<skill identifier="1879089859" name="Guide to Michel Delving" category="102" iconId="1091388858" description="key:620791711:228830419">
+</travelSkill>
+<travelSkill identifier="1879089859" name="Guide to Michel Delving" category="102" iconId="1091388858" description="key:620791711:228830419">
+<position region="1" longitude="-75.01005" latitude="-33.999607"/>
 <effect id="1879089867" name="Hunter Travel to Michel Delving"/>
-</skill>
-<skill identifier="1879089860" name="Guide to Evendim" category="102" iconId="1091388856" description="key:620791713:228830419">
+</travelSkill>
+<travelSkill identifier="1879089860" name="Guide to Evendim" category="102" iconId="1091388856" description="key:620791713:228830419">
+<position region="1" longitude="-67.294266" latitude="-12.4937105"/>
 <effect id="1879089868" name="Hunter Travel to Evendim"/>
-</skill>
-<skill identifier="1879089861" name="Guide to West Angmar" category="102" iconId="1091388855" description="key:620791703:228830419">
+</travelSkill>
+<travelSkill identifier="1879089861" name="Guide to West Angmar" category="102" iconId="1091388855" description="key:620791703:228830419">
+<position region="1" longitude="-39.850048" latitude="0.39217773"/>
 <effect id="1879089863" name="Hunter Travel to West Angmar"/>
-</skill>
-<skill identifier="1879089862" name="Guide to East Angmar" category="102" iconId="1091388852" description="key:620791705:228830419">
+</travelSkill>
+<travelSkill identifier="1879089862" name="Guide to East Angmar" category="102" iconId="1091388852" description="key:620791705:228830419">
+<position region="1" longitude="-24.083105" latitude="10.430693"/>
 <effect id="1879089864" name="Hunter Travel to East Angmar"/>
-</skill>
+</travelSkill>
 <skill identifier="1879089873" name="Dagger Throw" category="15" iconId="1091116224" description="key:620791716:228830419">
 <effect id="1879089968" name="Ranger Rooted"/>
 </skill>
@@ -4056,12 +4069,12 @@
 <effect id="1879099379" name="Raised Minion"/>
 <effect id="1879099379" name="Raised Minion"/>
 </skill>
-<skill identifier="1879101510" name="Travel to Personal House" category="102" iconId="1091404796" description="key:620799391:228830419">
+<travelSkill identifier="1879101510" name="Travel to Personal House" category="102" iconId="1091404796" description="key:620799391:228830419">
 <effect id="1879101509" name="Travel to Personal House"/>
-</skill>
-<skill identifier="1879101511" name="Travel to Kinship House" category="102" iconId="1091404798" description="key:620799393:228830419">
+</travelSkill>
+<travelSkill identifier="1879101511" name="Travel to Kinship House" category="102" iconId="1091404798" description="key:620799393:228830419">
 <effect id="1879101508" name="Travel to Kinship House"/>
-</skill>
+</travelSkill>
 <skill identifier="1879101638" name="Protective Flame" iconId="1090522259">
 <effect id="1879098854" name="Tempered by Flame" spellcraft="1.0"/>
 <effect id="1879083704" name="Protected"/>
@@ -6096,18 +6109,22 @@
 <skill identifier="1879131750" name="Igniting Scrape" iconId="1090522259">
 <effect id="1879131746" name="Igniting Spark"/>
 </skill>
-<skill identifier="1879132038" name="Muster in Ost Guruth" category="102" iconId="1091388853" description="key:620824202:228830419">
+<travelSkill identifier="1879132038" name="Muster in Ost Guruth" category="102" iconId="1091388853" description="key:620824202:228830419">
+<position region="1" longitude="-29.510273" latitude="-31.691914"/>
 <effect id="1879132041" name="Warden Travel to Ost Guruth"/>
-</skill>
-<skill identifier="1879132046" name="Muster in Evendim" category="102" iconId="1091388856" description="key:620824195:228830419">
+</travelSkill>
+<travelSkill identifier="1879132046" name="Muster in Evendim" category="102" iconId="1091388856" description="key:620824195:228830419">
+<position region="1" longitude="-67.294266" latitude="-12.4937105"/>
 <effect id="1879132053" name="Warden Travel to Evendim"/>
-</skill>
-<skill identifier="1879132049" name="Muster in Rivendell" category="102" iconId="1090553951" description="key:620824208:228830419">
+</travelSkill>
+<travelSkill identifier="1879132049" name="Muster in Rivendell" category="102" iconId="1090553951" description="key:620824208:228830419">
+<position region="1" longitude="-4.583584" latitude="-30.496151"/>
 <effect id="1879132044" name="Warden Travel to Rivendell"/>
-</skill>
-<skill identifier="1879132056" name="Muster in Esteldín" category="102" iconId="1090553950" description="key:620824212:228830419">
+</travelSkill>
+<travelSkill identifier="1879132056" name="Muster in Esteldín" category="102" iconId="1090553950" description="key:620824212:228830419">
+<position region="1" longitude="-42.15499" latitude="-9.621406"/>
 <effect id="1879132048" name="Warden Travel to Esteldín"/>
-</skill>
+</travelSkill>
 <skill identifier="1879132147" name="Flame Mine" iconId="1090522259">
 <effect id="1879132028" name=".."/>
 </skill>
@@ -7004,15 +7021,18 @@
 <skill identifier="1879145101" name="Desperate Flight" category="48" iconId="1090553947" description="key:620832597:228830419">
 <effect id="1879238314" name="Hunter Travel to Nearest Rally Point"/>
 </skill>
-<skill identifier="1879145594" name="Guide to the Twenty-first Hall" category="102" iconId="1091494930" description="key:620832906:228830419">
+<travelSkill identifier="1879145594" name="Guide to the Twenty-first Hall" category="102" iconId="1091494930" description="key:620832906:228830419">
+<position region="2" longitude="-105.39232" latitude="-5.812773"/>
 <effect id="1879145600" name="Hunter Travel to Moria"/>
-</skill>
-<skill identifier="1879145601" name="Guide to Echad Dúnann" category="102" iconId="1091494931" description="key:620832909:228830419">
+</travelSkill>
+<travelSkill identifier="1879145601" name="Guide to Echad Dúnann" category="102" iconId="1091494931" description="key:620832909:228830419">
+<position region="1" longitude="-7.84873" latitude="-50.509975"/>
 <effect id="1879145598" name="Hunter Travel to Eregion"/>
-</skill>
-<skill identifier="1879145602" name="Guide to Sûri-kylä" category="102" iconId="1091494932" description="key:620832912:228830419">
+</travelSkill>
+<travelSkill identifier="1879145602" name="Guide to Sûri-kylä" category="102" iconId="1091494932" description="key:620832912:228830419">
+<position region="1" longitude="-70.2618" latitude="19.055195"/>
 <effect id="1879145599" name="Hunter Travel to Forochel"/>
-</skill>
+</travelSkill>
 <skill identifier="1879145777" name="Improved Blade of Elendil" category="47" iconId="1091155262" description="key:620833119:228830419">
 <effect id="1879111269" name="Remove Corruption"/>
 <effect id="1879092635" name="Light of Elendil" type="USER"/>
@@ -7151,9 +7171,10 @@
 <effect id="1879096851" name="Serious Wound"/>
 <effect id="1879096856" name="Weeping Wound"/>
 </skill>
-<skill identifier="1879146910" name="Muster in the Twenty-first Hall" category="102" iconId="1091494930" description="key:620833532:228830419">
+<travelSkill identifier="1879146910" name="Muster in the Twenty-first Hall" category="102" iconId="1091494930" description="key:620833532:228830419">
+<position region="2" longitude="-105.39232" latitude="-5.812773"/>
 <effect id="1879146909" name="Warden Travel to Moria"/>
-</skill>
+</travelSkill>
 <skill identifier="1879147431" name="Bane of the Minstrel" iconId="1090522259">
 <effect id="1879147440" name="Bane of the Minstrel"/>
 </skill>
@@ -8532,12 +8553,14 @@
 <effect id="1879113524" name="ZeroOutThreatEffect" type="USER"/>
 </skill>
 <skill identifier="1879162455" name="Strike from Afar" iconId="1090522259"/>
-<skill identifier="1879162768" name="Return to Bree" category="102" iconId="1090553994" description="key:620843986:228830419">
+<travelSkill identifier="1879162768" name="Return to Bree" category="102" iconId="1090553994" description="key:620843986:228830419">
+<position region="1" longitude="-52.90737" latitude="-29.566952"/>
 <effect id="1879162766" name="Travel to Bree"/>
-</skill>
-<skill identifier="1879162769" name="Return to Thorin's Gate" category="102" iconId="1090554029" description="key:620843983:228830419">
+</travelSkill>
+<travelSkill identifier="1879162769" name="Return to Thorin's Gate" category="102" iconId="1090554029" description="key:620843983:228830419">
+<position region="1" longitude="-103.21289" latitude="-13.763378"/>
 <effect id="1879162767" name="Travel to Thorin's Hall"/>
-</skill>
+</travelSkill>
 <skill identifier="1879162842" name="Fear Attack" iconId="1090522259">
 <effect id="1879162862" name="DNT - Fear flag effect"/>
 </skill>
@@ -9003,9 +9026,10 @@
 <skill identifier="1879175853" name="Call to the Marsh" iconId="1090522259">
 <effect id="1879175851" name="Summoned Drown One" type="USER"/>
 </skill>
-<skill identifier="1879176052" name="Return to Mirkwood" category="102" iconId="1091576081" description="key:620854587:228830419">
+<travelSkill identifier="1879176052" name="Return to Mirkwood" category="102" iconId="1091576081" description="key:620854587:228830419">
+<position region="2" longitude="-51.529167" latitude="-14.354053"/>
 <effect id="1879176051" name="Travel to Mirkwood"/>
-</skill>
+</travelSkill>
 <skill identifier="1879176155" name="Pound of Flesh" iconId="1090522259">
 <effect id="1879119822" name="Morale Restoration" spellcraft="0.5"/>
 </skill>
@@ -9091,12 +9115,14 @@
 <effect id="1879189293" name="Snare Trap"/>
 <effect id="1879177785" name="Setting Trap" type="USER"/>
 </skill>
-<skill identifier="1879176281" name="Guide to Mirk-eaves" category="102" iconId="1091617981" description="key:620854735:228830419">
+<travelSkill identifier="1879176281" name="Guide to Mirk-eaves" category="102" iconId="1091617981" description="key:620854735:228830419">
+<position region="2" longitude="-61.24568" latitude="-15.295977"/>
 <effect id="1879176282" name="Travel to Mirk-eaves"/>
-</skill>
-<skill identifier="1879176284" name="Muster in Mirk-eaves" category="102" iconId="1091576081" description="key:620854738:228830419">
+</travelSkill>
+<travelSkill identifier="1879176284" name="Muster in Mirk-eaves" category="102" iconId="1091576081" description="key:620854738:228830419">
+<position region="2" longitude="-61.24568" latitude="-15.295977"/>
 <effect id="1879176286" name="Warden Travel to Mirk-eaves"/>
-</skill>
+</travelSkill>
 <skill identifier="1879176287" name="Improved Knowledge of Cures" category="2" iconId="1091659743" description="key:620854741:228830419">
 <effect id="1879287348" name="DNT - Remove Poison, Disease, Wound, or Fear"/>
 <effect id="1879297579" name="Prevention"/>
@@ -9209,9 +9235,10 @@
 <effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.1"/>
 <effect id="1879119822" name="Morale Restoration" spellcraft="0.5" type="USER"/>
 </skill>
-<skill identifier="1879180353" name="Return to Ost Guruth" category="102" iconId="1091617980" description="key:620858100:228830419">
+<travelSkill identifier="1879180353" name="Return to Ost Guruth" category="102" iconId="1091617980" description="key:620858100:228830419">
+<position region="1" longitude="-29.871748" latitude="-32.164433"/>
 <effect id="1879180352" name="Travel to Ost Guruth"/>
-</skill>
+</travelSkill>
 <skill identifier="1879180359" name="Static Shock" iconId="1090522259">
 <effect id="1879180373" name="Stun"/>
 <effect id="1879179105" name="Non-threatening"/>
@@ -9487,9 +9514,10 @@
 <effect id="1879187063" name="Slavering Bite" type="USER_TOGGLE"/>
 <effect id="1879078541" name="Grappled" type="USER_TOGGLE"/>
 </skill>
-<skill identifier="1879187362" name="Return to Enedwaith" category="102" iconId="1091602034" description="key:620863684:228830419">
+<travelSkill identifier="1879187362" name="Return to Enedwaith" category="102" iconId="1091602034" description="key:620863684:228830419">
+<position region="1" longitude="-16.783545" latitude="-66.91359"/>
 <effect id="1879188367" name="Travel to Enedwaith"/>
-</skill>
+</travelSkill>
 <skill identifier="1879188398" name="DNT - Corruption" iconId="1090522259">
 <effect id="1879188389" name="Reckless Assault (Tier 1)"/>
 </skill>
@@ -9897,12 +9925,14 @@
 <skill identifier="1879192113" name="Handful of Seeds" iconId="1090524209">
 <effect id="1879192118" name="Filled with delicious seeds"/>
 </skill>
-<skill identifier="1879192162" name="Return to Michel Delving" category="102" iconId="1090553971" description="key:620866962:228830419">
+<travelSkill identifier="1879192162" name="Return to Michel Delving" category="102" iconId="1090553971" description="key:620866962:228830419">
+<position region="1" longitude="-75.01005" latitude="-33.999607"/>
 <effect id="1879144702" name="Travel to Michel Delving"/>
-</skill>
-<skill identifier="1879192163" name="Return to Rivendell" category="102" iconId="1090554013" description="key:620866961:228830419">
+</travelSkill>
+<travelSkill identifier="1879192163" name="Return to Rivendell" category="102" iconId="1090554013" description="key:620866961:228830419">
+<position region="1" longitude="-5.8921485" latitude="-30.741903"/>
 <effect id="1879073568" name="Elf Travel to Rivendell"/>
-</skill>
+</travelSkill>
 <skill identifier="1879192228" name="a massive thrown attack" iconId="1090522259"/>
 <skill identifier="1879192229" name="a massive thrown attack" iconId="1090522259"/>
 <skill identifier="1879192232" name="a massive ranged attack" iconId="1090522259"/>
@@ -9962,12 +9992,14 @@
 <effect id="1879192893" name="Mounted" type="USER_TOGGLE"/>
 <effect id="1879192897" name="Your mount seems to have partaken of some festive brew." type="USER_TOGGLE"/>
 </mount>
-<skill identifier="1879193067" name="Muster in Harndirion" category="102" iconId="1091612479" description="key:620867407:228830419">
+<travelSkill identifier="1879193067" name="Muster in Harndirion" category="102" iconId="1091612479" description="key:620867407:228830419">
+<position region="1" longitude="-13.738086" latitude="-69.63574"/>
 <effect id="1879193068" name="Warden Travel to Enedwaith"/>
-</skill>
-<skill identifier="1879193071" name="Guide to Harndirion" category="102" iconId="1091612479" description="key:620867406:228830419">
+</travelSkill>
+<travelSkill identifier="1879193071" name="Guide to Harndirion" category="102" iconId="1091612479" description="key:620867406:228830419">
+<position region="1" longitude="-13.738086" latitude="-69.63574"/>
 <effect id="1879193069" name="Travel to Enedwaith"/>
-</skill>
+</travelSkill>
 <skill identifier="1879193215" name="Foul Stench" iconId="1090522259">
 <effect id="1879109106" name="Primary Weapon: Disarmed"/>
 <effect id="1879051273" name="Silenced" duration="6.0"/>
@@ -10056,9 +10088,10 @@
 <effect id="1879103216" name="Self Smite" type="USER"/>
 </skill>
 <skill identifier="1879193540" name="Succumb to Your Fears" iconId="1090522259"/>
-<skill identifier="1879193556" name="Muster in Sûri-kylä" category="102" iconId="1091494932" description="key:620867687:228830419">
+<travelSkill identifier="1879193556" name="Muster in Sûri-kylä" category="102" iconId="1091494932" description="key:620867687:228830419">
+<position region="1" longitude="-70.2618" latitude="19.055195"/>
 <effect id="1879193555" name="Warden Travel to Forochel"/>
-</skill>
+</travelSkill>
 <skill identifier="1879193560" name="Protect the Queen" iconId="1090522259">
 <effect id="1879193862" name="Protect the Queen"/>
 </skill>
@@ -11384,9 +11417,9 @@
 <effect id="1879201435" name="Covered in Wight"/>
 <effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.8" type="USER"/>
 </skill>
-<skill identifier="1879201466" name="Return Home" category="98" iconId="1091637312" travelType="3" description="key:620874102:228830419">
+<travelSkill identifier="1879201466" name="Return Home" category="98" iconId="1091637312" travelType="3" description="key:620874102:228830419">
 <effect id="1879049583" name="Travel Home"/>
-</skill>
+</travelSkill>
 <skill identifier="1879201478" name="Riddle" category="49" iconId="1091630085" description="key:620874113:228830419">
 <effect id="1879160707" name="Riddle"/>
 </skill>
@@ -11422,21 +11455,21 @@
 <skill identifier="1879201668" name="DNT - Cone Fear" iconId="1090522259">
 <effect id="1879159186" name="Running Scared"/>
 </skill>
-<skill identifier="1879201682" name="Return Home 2" category="98" iconId="1091637312" travelType="15" description="key:620874251:228830419">
+<travelSkill identifier="1879201682" name="Return Home 2" category="98" iconId="1091637312" travelType="15" description="key:620874251:228830419">
 <effect id="1879201465" name="Travel Home"/>
-</skill>
-<skill identifier="1879201683" name="Return Home 3" category="98" iconId="1091637312" travelType="16" description="key:620874252:228830419">
+</travelSkill>
+<travelSkill identifier="1879201683" name="Return Home 3" category="98" iconId="1091637312" travelType="16" description="key:620874252:228830419">
 <effect id="1879201463" name="Travel Home"/>
-</skill>
-<skill identifier="1879201684" name="Return Home 4" category="98" iconId="1091637312" travelType="17" description="key:620874253:228830419">
+</travelSkill>
+<travelSkill identifier="1879201684" name="Return Home 4" category="98" iconId="1091637312" travelType="17" description="key:620874253:228830419">
 <effect id="1879201464" name="Travel Home"/>
-</skill>
-<skill identifier="1879201685" name="Return Home 5" category="98" iconId="1091637312" travelType="18" description="key:620874254:228830419">
+</travelSkill>
+<travelSkill identifier="1879201685" name="Return Home 5" category="98" iconId="1091637312" travelType="18" description="key:620874254:228830419">
 <effect id="1879201461" name="Travel Home"/>
-</skill>
-<skill identifier="1879201686" name="Return Home 6" category="98" iconId="1091637312" travelType="19" description="key:620874255:228830419">
+</travelSkill>
+<travelSkill identifier="1879201686" name="Return Home 6" category="98" iconId="1091637312" travelType="19" description="key:620874255:228830419">
 <effect id="1879201462" name="Travel Home"/>
-</skill>
+</travelSkill>
 <skill identifier="1879201690" name="Snare" category="11" iconId="1091630872" description="key:620874261:228830419">
 <effect id="1879201699"/>
 <effect id="1879201701"/>
@@ -13051,9 +13084,10 @@
 <skill identifier="1879222525" name="Tactical Mitigation" iconId="1090524209">
 <effect id="1879139415" name="Initiate Determination"/>
 </skill>
-<skill identifier="1879222538" name="Muster in Galtrev" category="102" iconId="1091679126" description="key:620889120:228830419">
+<travelSkill identifier="1879222538" name="Muster in Galtrev" category="102" iconId="1091679126" description="key:620889120:228830419">
+<position region="1" longitude="-16.561386" latitude="-80.13851"/>
 <effect id="1879222537" name="Warden Travel to Dunland"/>
-</skill>
+</travelSkill>
 <skill identifier="1879222556" name="Smack" iconId="1090522259">
 <effect id="1879222628" name="DNT"/>
 </skill>
@@ -13078,9 +13112,10 @@
 <effect id="1879222615" name="Polarity"/>
 </skill>
 <skill identifier="1879222563" name="Electrify" iconId="1090522259"/>
-<skill identifier="1879222591" name="Guide to Galtrev" category="102" iconId="1091679126" description="key:620889153:228830419">
+<travelSkill identifier="1879222591" name="Guide to Galtrev" category="102" iconId="1091679126" description="key:620889153:228830419">
+<position region="1" longitude="-16.561386" latitude="-80.13851"/>
 <effect id="1879222589" name="Travel to Galtrev"/>
-</skill>
+</travelSkill>
 <skill identifier="1879222891" name="Explosion - Distributed" iconId="1090522259">
 <effect id="1879103216" name="Self Smite" type="USER"/>
 </skill>
@@ -13898,18 +13933,22 @@
 <effect id="1879229972" name="Mounted" type="TOGGLE"/>
 <effect id="1879229972" name="Mounted" type="USER_TOGGLE"/>
 </mount>
-<skill identifier="1879229996" name="Guide to Stangard" category="102" iconId="1091696541" description="key:620894811:228830419">
+<travelSkill identifier="1879229996" name="Guide to Stangard" category="102" iconId="1091696541" description="key:620894811:228830419">
+<position region="2" longitude="-63.067986" latitude="-26.437109"/>
 <effect id="1879229994" name="Travel to Stangard"/>
-</skill>
-<skill identifier="1879230022" name="Muster in Stangard" category="102" iconId="1091696541" description="key:620894810:228830419">
+</travelSkill>
+<travelSkill identifier="1879230022" name="Muster in Stangard" category="102" iconId="1091696541" description="key:620894810:228830419">
+<position region="2" longitude="-63.067986" latitude="-26.437109"/>
 <effect id="1879229993" name="Warden Travel to Stangard"/>
-</skill>
-<skill identifier="1879230023" name="Return to Galtrev" category="102" iconId="1091696543" description="key:620894812:228830419">
+</travelSkill>
+<travelSkill identifier="1879230023" name="Return to Galtrev" category="102" iconId="1091696543" description="key:620894812:228830419">
+<position region="1" longitude="-16.561386" latitude="-80.13851"/>
 <effect id="1879229990" name="Travel to Galtrev"/>
-</skill>
-<skill identifier="1879230045" name="Return to Stangard" category="102" iconId="1091696542" description="key:620894829:228830419">
+</travelSkill>
+<travelSkill identifier="1879230045" name="Return to Stangard" category="102" iconId="1091696542" description="key:620894829:228830419">
+<position region="2" longitude="-63.319393" latitude="-25.432167"/>
 <effect id="1879229992" name="Travel to Stangard"/>
-</skill>
+</travelSkill>
 <skill identifier="1879230252" name="Shadow" category="7" iconId="1091718775" description="key:620894991:228830419">
 <effect id="1879230251" name="Shadow" type="TOGGLE"/>
 <effect id="1879230251" name="Shadow" type="USER_TOGGLE"/>
@@ -14786,12 +14825,14 @@
 <effect id="1879052476" name="Bow of the Righteous" type="USER"/>
 <effect id="1879264296" name="DNT - Dispel Set Bonus" type="USER"/>
 </skill>
-<skill identifier="1879238484" name="Guide to Caras Galadhon" category="102" iconId="1091733826" description="key:620899572:228830419">
+<travelSkill identifier="1879238484" name="Guide to Caras Galadhon" category="102" iconId="1091733826" description="key:620899572:228830419">
+<position region="2" longitude="-67.07414" latitude="-16.131786"/>
 <effect id="1879238483" name="Travel to Caras Galadhon"/>
-</skill>
-<skill identifier="1879238486" name="Guide to the Misty Mountains" category="102" iconId="1091733825" description="key:620899571:228830419">
+</travelSkill>
+<travelSkill identifier="1879238486" name="Guide to the Misty Mountains" category="102" iconId="1091733825" description="key:620899571:228830419">
+<position region="1" longitude="6.941045" latitude="-24.43042"/>
 <effect id="1879238488" name="Travel to the Misty Mountains"/>
-</skill>
+</travelSkill>
 <skill identifier="1879238520" name="Feign Injury" category="100" iconId="1091736792" description="key:620899595:228830419">
 <effect id="1879238547" name="Reduces your threat by 25%"/>
 </skill>
@@ -15692,36 +15733,36 @@
 <effect id="1879215523" name="DNT - Dispel Battle Memory 1" type="USER"/>
 <effect id="1879457618" name="DNT - last used a shield gambit" type="USER"/>
 </skill>
-<skill identifier="1879244638" name="Return Home 16" category="98" iconId="1091637312" travelType="25" description="key:620904572:228830419">
+<travelSkill identifier="1879244638" name="Return Home 16" category="98" iconId="1091637312" travelType="25" description="key:620904572:228830419">
 <effect id="1879244658" name="Travel Home"/>
-</skill>
-<skill identifier="1879244639" name="Return Home 10" category="98" iconId="1091637312" travelType="29" description="key:620904575:228830419">
+</travelSkill>
+<travelSkill identifier="1879244639" name="Return Home 10" category="98" iconId="1091637312" travelType="29" description="key:620904575:228830419">
 <effect id="1879244652" name="Travel Home"/>
-</skill>
-<skill identifier="1879244640" name="Return Home 9" category="98" iconId="1091637312" travelType="28" description="key:620904571:228830419">
+</travelSkill>
+<travelSkill identifier="1879244640" name="Return Home 9" category="98" iconId="1091637312" travelType="28" description="key:620904571:228830419">
 <effect id="1879244653" name="Travel Home"/>
-</skill>
-<skill identifier="1879244641" name="Return Home 8" category="98" iconId="1091637312" travelType="27" description="key:620904573:228830419">
+</travelSkill>
+<travelSkill identifier="1879244641" name="Return Home 8" category="98" iconId="1091637312" travelType="27" description="key:620904573:228830419">
 <effect id="1879244660" name="Travel Home"/>
-</skill>
-<skill identifier="1879244642" name="Return Home 7" category="98" iconId="1091637312" travelType="26" description="key:620904569:228830419">
+</travelSkill>
+<travelSkill identifier="1879244642" name="Return Home 7" category="98" iconId="1091637312" travelType="26" description="key:620904569:228830419">
 <effect id="1879244661" name="Travel Home"/>
-</skill>
-<skill identifier="1879244643" name="Return Home 11" category="98" iconId="1091637312" travelType="20" description="key:620904570:228830419">
+</travelSkill>
+<travelSkill identifier="1879244643" name="Return Home 11" category="98" iconId="1091637312" travelType="20" description="key:620904570:228830419">
 <effect id="1879244655" name="Travel Home"/>
-</skill>
-<skill identifier="1879244644" name="Return Home 12" category="98" iconId="1091637312" travelType="21" description="key:620904577:228830419">
+</travelSkill>
+<travelSkill identifier="1879244644" name="Return Home 12" category="98" iconId="1091637312" travelType="21" description="key:620904577:228830419">
 <effect id="1879244654" name="Travel Home"/>
-</skill>
-<skill identifier="1879244646" name="Return Home 13" category="98" iconId="1091637312" travelType="22" description="key:620904578:228830419">
+</travelSkill>
+<travelSkill identifier="1879244646" name="Return Home 13" category="98" iconId="1091637312" travelType="22" description="key:620904578:228830419">
 <effect id="1879244657" name="Travel Home"/>
-</skill>
-<skill identifier="1879244647" name="Return Home 14" category="98" iconId="1091637312" travelType="23" description="key:620904574:228830419">
+</travelSkill>
+<travelSkill identifier="1879244647" name="Return Home 14" category="98" iconId="1091637312" travelType="23" description="key:620904574:228830419">
 <effect id="1879244656" name="Travel Home"/>
-</skill>
-<skill identifier="1879244648" name="Return Home 15" category="98" iconId="1091637312" travelType="24" description="key:620904576:228830419">
+</travelSkill>
+<travelSkill identifier="1879244648" name="Return Home 15" category="98" iconId="1091637312" travelType="24" description="key:620904576:228830419">
 <effect id="1879244659" name="Travel Home"/>
-</skill>
+</travelSkill>
 <skill identifier="1879244713" name="Poisonous Gourd" iconId="1090522259">
 <effect id="1879244711" name="Poison Gourd"/>
 <effect id="1879244710" name="Poison Gourd"/>
@@ -16047,12 +16088,14 @@
 <effect id="1879245761" name="Spur On!" type="TOGGLE"/>
 <effect id="1879245761" name="Spur On!" type="USER_TOGGLE"/>
 </skill>
-<skill identifier="1879245789" name="Muster in the Misty Mountains" category="102" iconId="1091733825" description="key:620905635:228830419">
+<travelSkill identifier="1879245789" name="Muster in the Misty Mountains" category="102" iconId="1091733825" description="key:620905635:228830419">
+<position region="1" longitude="6.941045" latitude="-24.43042"/>
 <effect id="1879245790" name="Warden Travel to the Misty Mountains"/>
-</skill>
-<skill identifier="1879245791" name="Muster in Caras Galadhon" category="102" iconId="1091733826" description="key:620905636:228830419">
+</travelSkill>
+<travelSkill identifier="1879245791" name="Muster in Caras Galadhon" category="102" iconId="1091733826" description="key:620905636:228830419">
+<position region="2" longitude="-67.07414" latitude="-16.131786"/>
 <effect id="1879245788" name="Warden Travel to Caras Galadhon"/>
-</skill>
+</travelSkill>
 <skill identifier="1879245811" name="Trample" category="100" iconId="1091747173" description="key:620905653:228830419">
 <effect id="1879245812" name="Trample"/>
 </skill>
@@ -16461,15 +16504,18 @@
 <skill identifier="1879251058" name="Use Hobbit-sense" category="7" iconId="1091116231" description="key:620909039:228830419">
 <effect id="1879149379" name="DNT - Do Nothing"/>
 </skill>
-<skill identifier="1879251341" name="Muster in Snowbourn" category="102" iconId="1091755679" description="key:620909304:228830419">
+<travelSkill identifier="1879251341" name="Muster in Snowbourn" category="102" iconId="1091755679" description="key:620909304:228830419">
+<position region="2" longitude="-61.29196" latitude="-60.486717"/>
 <effect id="1879251343" name="Warden Travel to East Rohan"/>
-</skill>
-<skill identifier="1879251342" name="Guide to Snowbourn" category="102" iconId="1091755679" description="key:620909302:228830419">
+</travelSkill>
+<travelSkill identifier="1879251342" name="Guide to Snowbourn" category="102" iconId="1091755679" description="key:620909302:228830419">
+<position region="2" longitude="-61.29196" latitude="-60.486717"/>
 <effect id="1879251344" name="Travel to East Rohan"/>
-</skill>
-<skill identifier="1879251526" name="Return to Snowbourn" category="102" iconId="1091755680" description="key:620909328:228830419">
+</travelSkill>
+<travelSkill identifier="1879251526" name="Return to Snowbourn" category="102" iconId="1091755680" description="key:620909328:228830419">
+<position region="2" longitude="-61.29196" latitude="-60.486717"/>
 <effect id="1879251525" name="Travel to Snowbourn"/>
-</skill>
+</travelSkill>
 <skill identifier="1879251717" name="The Horn of Gondor" category="7" iconId="1091739265" description="key:620909397:228830419">
 <effect id="1879072527" name="Exit All Harmful States"/>
 </skill>
@@ -18125,9 +18171,10 @@
 <skill identifier="1879270573" name="Set Trap" category="18" iconId="1090524209" description="key:620921347:228830419">
 <effect id="1879060677" name="Create Trap"/>
 </skill>
-<skill identifier="1879270577" name="Return to Lalia's Market" category="102" iconId="1090553994" description="key:620921349:228830419">
+<travelSkill identifier="1879270577" name="Return to Lalia's Market" category="102" iconId="1090553994" description="key:620921349:228830419">
+<position region="1" longitude="54.33871" latitude="-49.96957"/>
 <effect id="1879270578" name="Travel to Lalia's Market"/>
-</skill>
+</travelSkill>
 <skill identifier="1879270613" name="Lightning Strike" category="41" iconId="1092812934" description="key:620921379:228830419">
 <effect id="1879203554" name="Induce Dazed"/>
 <effect id="1879270611" name="DNT"/>
@@ -18329,15 +18376,18 @@
 <skill identifier="1879272269" name="Fulgurite Rune-stone" category="64" iconId="1091829838" description="key:620922609:228830419">
 <effect id="1879275424" name="Fulgurite Rune-stone"/>
 </skill>
-<skill identifier="1879272283" name="Muster in Forlaw" category="102" iconId="1091811064" description="key:620922624:228830419">
+<travelSkill identifier="1879272283" name="Muster in Forlaw" category="102" iconId="1091811064" description="key:620922624:228830419">
+<position region="2" longitude="-60.86841" latitude="-39.433445"/>
 <effect id="1879272282" name="Warden Travel to Forlaw"/>
-</skill>
-<skill identifier="1879272285" name="Guide to Forlaw" category="102" iconId="1091811064" description="key:620922622:228830419">
+</travelSkill>
+<travelSkill identifier="1879272285" name="Guide to Forlaw" category="102" iconId="1091811064" description="key:620922622:228830419">
+<position region="2" longitude="-60.86841" latitude="-39.433445"/>
 <effect id="1879272284" name="Travel to Forlaw"/>
-</skill>
-<skill identifier="1879272286" name="Return to Forlaw" category="102" iconId="1091811064" description="key:620922625:228830419">
+</travelSkill>
+<travelSkill identifier="1879272286" name="Return to Forlaw" category="102" iconId="1091811064" description="key:620922625:228830419">
+<position region="2" longitude="-60.86841" latitude="-39.433445"/>
 <effect id="1879272287" name="Travel to Forlaw"/>
-</skill>
+</travelSkill>
 <skill identifier="1879272367" name="Small Catapult - Place" category="101" iconId="1091840705" description="key:620922683:228830419">
 <effect id="1879272361" name=".."/>
 <effect id="1879272463" name="DNT - Dispel Camera Shake" type="USER"/>
@@ -18670,10 +18720,10 @@
 <effect id="1879276159" name="Entrenchment" type="TOGGLE"/>
 <effect id="1879276159" name="Entrenchment" type="USER_TOGGLE"/>
 </skill>
-<skill identifier="1879276393" name="Smell the Roses" category="102" iconId="1091464751" description="key:620925984:228830419">
+<travelSkill identifier="1879276393" name="Smell the Roses" category="102" iconId="1091464751" description="key:620925984:228830419">
 <effect id="1879276384" name="Smell The Roses" type="TOGGLE"/>
 <effect id="1879276384" name="Smell The Roses" type="USER_TOGGLE"/>
-</skill>
+</travelSkill>
 <skill identifier="1879276547" name="Piercing Roar" category="140" iconId="1091838417" description="key:620926105:228830419">
 <effect id="1879276101" name="Piercing Roar"/>
 </skill>
@@ -19345,24 +19395,30 @@
 <effect id="1879301195" name="Mounted" type="TOGGLE"/>
 <effect id="1879301195" name="Mounted" type="USER_TOGGLE"/>
 </mount>
-<skill identifier="1879301233" name="Guide to Aldburg" category="102" iconId="1091841001" description="key:620945576:228830419">
+<travelSkill identifier="1879301233" name="Guide to Aldburg" category="102" iconId="1091841001" description="key:620945576:228830419">
+<position region="2" longitude="-63.9837" latitude="-68.54693"/>
 <effect id="1879301236" name="Travel to Aldburg"/>
-</skill>
-<skill identifier="1879301234" name="Guide to Helm's Deep" category="102" iconId="1091841000" description="key:620945577:228830419">
+</travelSkill>
+<travelSkill identifier="1879301234" name="Guide to Helm's Deep" category="102" iconId="1091841000" description="key:620945577:228830419">
+<position region="2" longitude="-89.43089" latitude="-63.78584"/>
 <effect id="1879301238" name="Travel to Helm's Deep"/>
-</skill>
-<skill identifier="1879301241" name="Muster in Helm's Deep" category="102" iconId="1091841000" description="key:620945584:228830419">
+</travelSkill>
+<travelSkill identifier="1879301241" name="Muster in Helm's Deep" category="102" iconId="1091841000" description="key:620945584:228830419">
+<position region="2" longitude="-89.43089" latitude="-63.78584"/>
 <effect id="1879301237" name="Warden Travel to Helm's Deep"/>
-</skill>
-<skill identifier="1879301242" name="Muster in Aldburg" category="102" iconId="1091841001" description="key:620945585:228830419">
+</travelSkill>
+<travelSkill identifier="1879301242" name="Muster in Aldburg" category="102" iconId="1091841001" description="key:620945585:228830419">
+<position region="2" longitude="-63.9837" latitude="-68.54693"/>
 <effect id="1879301235" name="Warden Travel to Aldburg"/>
-</skill>
-<skill identifier="1879301249" name="Return to Aldburg" category="102" iconId="1091840998" description="key:620945592:228830419">
+</travelSkill>
+<travelSkill identifier="1879301249" name="Return to Aldburg" category="102" iconId="1091840998" description="key:620945592:228830419">
+<position region="2" longitude="-63.9837" latitude="-68.54693"/>
 <effect id="1879301240" name="Travel to Aldburg"/>
-</skill>
-<skill identifier="1879301250" name="Return to Helm's Deep" category="102" iconId="1091840999" description="key:620945593:228830419">
+</travelSkill>
+<travelSkill identifier="1879301250" name="Return to Helm's Deep" category="102" iconId="1091840999" description="key:620945593:228830419">
+<position region="2" longitude="-89.43089" latitude="-63.78584"/>
 <effect id="1879301239" name="Travel to Helm's Deep"/>
-</skill>
+</travelSkill>
 <skill identifier="1879301900" name="Improved Standard of War" category="14" iconId="1091829787" description="key:620945683:228830419">
 <effect id="1879297446" name="Standard of War"/>
 <effect id="1879302533" type="USER"/>
@@ -19736,15 +19792,18 @@
 <effect id="1879314474" name="Cave-claw" type="TOGGLE"/>
 <effect id="1879314474" name="Cave-claw" type="USER_TOGGLE"/>
 </pet>
-<skill identifier="1879314839" name="Guide to Dol Amroth" category="102" iconId="1091917530" description="key:620953010:228830419">
+<travelSkill identifier="1879314839" name="Guide to Dol Amroth" category="102" iconId="1091917530" description="key:620953010:228830419">
+<position region="3" longitude="-71.266235" latitude="-74.67648"/>
 <effect id="1879314838" name="Travel to Dol Amroth"/>
-</skill>
-<skill identifier="1879314840" name="Muster in Dol Amroth" category="102" iconId="1091917530" description="key:620953009:228830419">
+</travelSkill>
+<travelSkill identifier="1879314840" name="Muster in Dol Amroth" category="102" iconId="1091917530" description="key:620953009:228830419">
+<position region="3" longitude="-71.266235" latitude="-74.67648"/>
 <effect id="1879314835" name="Warden Travel to Dol Amroth"/>
-</skill>
-<skill identifier="1879314860" name="Return to Dol Amroth" category="102" iconId="1091917529" description="key:620953035:228830419">
+</travelSkill>
+<travelSkill identifier="1879314860" name="Return to Dol Amroth" category="102" iconId="1091917529" description="key:620953035:228830419">
+<position region="3" longitude="-71.266235" latitude="-74.67648"/>
 <effect id="1879314862" name="Travel to Dol Amroth"/>
-</skill>
+</travelSkill>
 <skill identifier="1879315027" name="Piercing Roar" category="148" iconId="1091940910" description="key:620953135:228830419">
 <effect id="1879319200" name="DNT"/>
 </skill>
@@ -19810,9 +19869,10 @@
 <effect id="1879315100" name="DNT -Guarded" type="USER"/>
 <effect id="1879320043" name="DNT - IA Give Back" type="USER"/>
 </skill>
-<skill identifier="1879315087" name="Return to Derndingle" category="102" iconId="1091576081" description="key:620953195:228830419">
+<travelSkill identifier="1879315087" name="Return to Derndingle" category="102" iconId="1091576081" description="key:620953195:228830419">
+<position region="2" longitude="-78.449394" latitude="-42.604324"/>
 <effect id="1879315089" name="Travel to Derndingle"/>
-</skill>
+</travelSkill>
 <skill identifier="1879315141" name="Snap Shot - Ambush with Flame" category="69" iconId="1091921709" description="key:620953244:228830419">
 <effect id="1879115257" name="Induce Knocked Out"/>
 <effect id="1879114432" name="Charge" type="USER"/>
@@ -20140,9 +20200,10 @@
 <effect id="1879316960" name="Relentless Maul" type="USER_TOGGLE"/>
 <effect id="1879320043" name="DNT - IA Give Back" type="USER"/>
 </skill>
-<skill identifier="1879317026" name="Return Home" category="102" iconId="1091934621" description="key:620954877:228830419">
+<travelSkill identifier="1879317026" name="Return Home" category="102" iconId="1091934621" description="key:620954877:228830419">
+<position region="2" longitude="-53.088554" latitude="13.681279"/>
 <effect id="1879316994" name="Beorning Travel Home"/>
-</skill>
+</travelSkill>
 <skill identifier="1879317039" name="Feral Presence" category="56" iconId="1091934647" description="key:620954890:228830419">
 <effect id="1879317038" name="Feral Presence"/>
 </skill>
@@ -20736,18 +20797,21 @@
 <skill identifier="1879325267" name="Dark Wings" iconId="1090522259">
 <effect id="1879325268" name="Fervour and Feathers"/>
 </skill>
-<skill identifier="1879325283" name="Guide to Arnach" category="102" iconId="1091968909" description="key:620960434:228830419">
+<travelSkill identifier="1879325283" name="Guide to Arnach" category="102" iconId="1091968909" description="key:620960434:228830419">
+<position region="3" longitude="-24.574219" latitude="-76.79697"/>
 <effect id="1879325281" name="Travel to Arnach"/>
-</skill>
-<skill identifier="1879325286" name="Muster in Arnach" category="102" iconId="1091968909" description="key:620960436:228830419">
+</travelSkill>
+<travelSkill identifier="1879325286" name="Muster in Arnach" category="102" iconId="1091968909" description="key:620960436:228830419">
+<position region="3" longitude="-24.574219" latitude="-76.79697"/>
 <effect id="1879325282" name="Warden Travel to Arnach"/>
-</skill>
+</travelSkill>
 <skill identifier="1879325287" name="a weak thrown attack" iconId="1090522259"/>
 <skill identifier="1879325288" name="a moderate thrown attack" iconId="1090522259"/>
 <skill identifier="1879325289" name="a minor thrown attack" iconId="1090522259"/>
-<skill identifier="1879325290" name="Return to Arnach" category="102" iconId="1091968909" description="key:620960438:228830419">
+<travelSkill identifier="1879325290" name="Return to Arnach" category="102" iconId="1091968909" description="key:620960438:228830419">
+<position region="3" longitude="-24.574219" latitude="-76.79697"/>
 <effect id="1879325292" name="Travel to Arnach"/>
-</skill>
+</travelSkill>
 <skill identifier="1879325580" name="Beorning's Sting" iconId="1090522259">
 <effect id="1879325581" name="Beorning's Sting"/>
 <effect id="1879198493" name="Panic"/>
@@ -20880,15 +20944,18 @@
 <effect id="1879328906" name="Mounted" type="TOGGLE"/>
 <effect id="1879328906" name="Mounted" type="USER_TOGGLE"/>
 </mount>
-<skill identifier="1879329150" name="Return to Minas Tirith" category="102" iconId="1092322885" description="key:620963675:228830419">
+<travelSkill identifier="1879329150" name="Return to Minas Tirith" category="102" iconId="1092322885" description="key:620963675:228830419">
+<position region="3" longitude="-16.68247" latitude="-65.452805"/>
 <effect id="1879329149" name="Travel to Minas Tirith"/>
-</skill>
-<skill identifier="1879329154" name="Muster in Minas Tirith" category="102" iconId="1091992664" description="key:620963681:228830419">
+</travelSkill>
+<travelSkill identifier="1879329154" name="Muster in Minas Tirith" category="102" iconId="1091992664" description="key:620963681:228830419">
+<position region="3" longitude="-16.68247" latitude="-65.452805"/>
 <effect id="1879329156" name="Warden Travel to Minas Tirith"/>
-</skill>
-<skill identifier="1879329157" name="Guide to Minas Tirith" category="102" iconId="1092322885" description="key:620963680:228830419">
+</travelSkill>
+<travelSkill identifier="1879329157" name="Guide to Minas Tirith" category="102" iconId="1092322885" description="key:620963680:228830419">
+<position region="3" longitude="-16.68247" latitude="-65.452805"/>
 <effect id="1879329155" name="Travel to Minas Tirith"/>
-</skill>
+</travelSkill>
 <pet identifier="1879329170" name="Striped Pelennor Pig" category="145" iconId="1091992727" initialName="key:620958107:33816677" sourceDescription="key:620963694:211796645" genus="14" species="27" subSpecies="132" description="key:620963694:228830419">
 <effect id="1879329171" name="Striped Pelennor Pig" type="TOGGLE"/>
 <effect id="1879329171" name="Striped Pelennor Pig" type="USER_TOGGLE"/>
@@ -21362,15 +21429,18 @@
 <effect id="1879332604" name="Old Rattlepacks" type="TOGGLE"/>
 <effect id="1879332604" name="Old Rattlepacks" type="USER_TOGGLE"/>
 </pet>
-<skill identifier="1879333289" name="Return to the War-stead" category="102" iconId="1091998404" description="key:620966703:228830419">
+<travelSkill identifier="1879333289" name="Return to the War-stead" category="102" iconId="1091998404" description="key:620966703:228830419">
+<position region="3" longitude="-26.038906" latitude="-45.35629"/>
 <effect id="1879333283" name="Travel to the War-stead"/>
-</skill>
-<skill identifier="1879333290" name="Muster in the War-stead" category="102" iconId="1091998404" description="key:620966708:228830419">
+</travelSkill>
+<travelSkill identifier="1879333290" name="Muster in the War-stead" category="102" iconId="1091998404" description="key:620966708:228830419">
+<position region="3" longitude="-26.038906" latitude="-45.35629"/>
 <effect id="1879333292" name="Warden Travel to the War-stead"/>
-</skill>
-<skill identifier="1879333295" name="Guide to the War-stead" category="102" iconId="1091998404" description="key:620966706:228830419">
+</travelSkill>
+<travelSkill identifier="1879333295" name="Guide to the War-stead" category="102" iconId="1091998404" description="key:620966706:228830419">
+<position region="3" longitude="-26.038906" latitude="-45.35629"/>
 <effect id="1879333291" name="Travel to Minas the War-stead"/>
-</skill>
+</travelSkill>
 <skill identifier="1879334571" name="Toss Keg" category="101" iconId="1091511768" description="key:620967767:228830419">
 <effect id="1879334582" name=".."/>
 </skill>
@@ -22072,15 +22142,18 @@
 <effect id="1879155287" name="Knockback"/>
 </skill>
 <skill identifier="1879336477" name="Terrible Cleave (Distributed)" iconId="1090522259"/>
-<skill identifier="1879338171" name="Guide to after-battle Minas Tirith" category="102" iconId="1091992664" description="key:620971038:228830419">
+<travelSkill identifier="1879338171" name="Guide to after-battle Minas Tirith" category="102" iconId="1091992664" description="key:620971038:228830419">
+<position region="4" longitude="-16.681797" latitude="-65.469795"/>
 <effect id="1879338172" name="Travel to after-battle Minas Tirith"/>
-</skill>
-<skill identifier="1879338175" name="Muster in after-battle Minas Tirith" category="102" iconId="1091992664" description="key:620971036:228830419">
+</travelSkill>
+<travelSkill identifier="1879338175" name="Muster in after-battle Minas Tirith" category="102" iconId="1091992664" description="key:620971036:228830419">
+<position region="4" longitude="-16.681797" latitude="-65.469795"/>
 <effect id="1879338173" name="Warden Travel to after-battle Minas Tirith"/>
-</skill>
-<skill identifier="1879338176" name="Return to after-battle Minas Tirith" category="102" iconId="1091992664" description="key:620971041:228830419">
+</travelSkill>
+<travelSkill identifier="1879338176" name="Return to after-battle Minas Tirith" category="102" iconId="1091992664" description="key:620971041:228830419">
+<position region="4" longitude="-16.681797" latitude="-65.469795"/>
 <effect id="1879338174" name="Travel to after-battle Minas Tirith"/>
-</skill>
+</travelSkill>
 <mount identifier="1879338651" name="Steed of the Gloaming Autumn" category="88" iconId="1092237895" initialName="key:620971370:138936629" mountCategory="4" mountType="1" sourceDescription="key:620995772:24893340" morale="200" speed="0.62" peerId="1879338652" description="key:620971369:228830419">
 <effect id="1879338649" name="Mounted" type="TOGGLE"/>
 <effect id="1879338649" name="Mounted" type="USER_TOGGLE"/>
@@ -22089,9 +22162,9 @@
 <effect id="1879338650" name="Mounted" type="TOGGLE"/>
 <effect id="1879338650" name="Mounted" type="USER_TOGGLE"/>
 </mount>
-<skill identifier="1879338724" name="Travel to Premium House" category="102" iconId="1092238532" description="key:620971430:228830419">
+<travelSkill identifier="1879338724" name="Travel to Premium House" category="102" iconId="1092238532" description="key:620971430:228830419">
 <effect id="1879338730" name="Travel to Premium House"/>
-</skill>
+</travelSkill>
 <pet identifier="1879338916" name="Golden Bat" category="145" iconId="1092278297" initialName="key:620971618:33816677" sourceDescription="key:620971609:211796645" genus="14" species="27" subSpecies="132" description="key:620971609:228830419">
 <effect id="1879338912" name="Golden Bat" type="TOGGLE"/>
 <effect id="1879338912" name="Golden Bat" type="USER_TOGGLE"/>
@@ -22136,24 +22209,30 @@
 <effect id="1879338948" name="Red Squirrel" type="TOGGLE"/>
 <effect id="1879338948" name="Red Squirrel" type="USER_TOGGLE"/>
 </pet>
-<skill identifier="1879339124" name="Guide to after-battle Osgiliath" category="102" iconId="1092240178" description="key:620971707:228830419">
+<travelSkill identifier="1879339124" name="Guide to after-battle Osgiliath" category="102" iconId="1092240178" description="key:620971707:228830419">
+<position region="4" longitude="-6.4909277" latitude="-63.02044"/>
 <effect id="1879339118" name="Travel to after-battle Osgiliath"/>
-</skill>
-<skill identifier="1879339125" name="Muster in Henneth Annûn" category="102" iconId="1092240177" description="key:620971709:228830419">
+</travelSkill>
+<travelSkill identifier="1879339125" name="Muster in Henneth Annûn" category="102" iconId="1092240177" description="key:620971709:228830419">
+<position region="4" longitude="-8.070996" latitude="-48.10266"/>
 <effect id="1879339120" name="Warden Travel to Henneth Annûn"/>
-</skill>
-<skill identifier="1879339126" name="Muster in after-battle Osgiliath" category="102" iconId="1092240178" description="key:620971708:228830419">
+</travelSkill>
+<travelSkill identifier="1879339126" name="Muster in after-battle Osgiliath" category="102" iconId="1092240178" description="key:620971708:228830419">
+<position region="4" longitude="-6.4909277" latitude="-63.02044"/>
 <effect id="1879339119" name="Warden Travel to after-battle Osgiliath"/>
-</skill>
-<skill identifier="1879339127" name="Guide to Henneth Annûn" category="102" iconId="1092240177" description="key:620971706:228830419">
+</travelSkill>
+<travelSkill identifier="1879339127" name="Guide to Henneth Annûn" category="102" iconId="1092240177" description="key:620971706:228830419">
+<position region="4" longitude="-8.070996" latitude="-48.10266"/>
 <effect id="1879339122" name="Travel to Henneth Annûn"/>
-</skill>
-<skill identifier="1879339133" name="Return to after-battle Osgiliath" category="102" iconId="1092240178" description="key:620971716:228830419">
+</travelSkill>
+<travelSkill identifier="1879339133" name="Return to after-battle Osgiliath" category="102" iconId="1092240178" description="key:620971716:228830419">
+<position region="4" longitude="-6.4909277" latitude="-63.02044"/>
 <effect id="1879339123" name="Travel to after-battle Osgiliath"/>
-</skill>
-<skill identifier="1879339136" name="Return to Henneth Annûn" category="102" iconId="1092240177" description="key:620971718:228830419">
+</travelSkill>
+<travelSkill identifier="1879339136" name="Return to Henneth Annûn" category="102" iconId="1092240177" description="key:620971718:228830419">
+<position region="4" longitude="-8.070996" latitude="-48.10266"/>
 <effect id="1879339121" name="Travel to Henneth Annûn"/>
-</skill>
+</travelSkill>
 <pet identifier="1879339346" name="Gloaming Kite" category="145" iconId="1092240987" initialName="key:620992342:33816677" sourceDescription="key:620992359:211796645" genus="14" species="27" subSpecies="132" description="key:620992359:228830419">
 <effect id="1879339320" name="Sunset Kite" type="TOGGLE"/>
 <effect id="1879339320" name="Sunset Kite" type="USER_TOGGLE"/>
@@ -22246,24 +22325,30 @@
 <effect id="1879215523" name="DNT - Dispel Battle Memory 1" type="USER"/>
 <effect id="1879457622" name="DNT - last used a fist gambit" type="USER"/>
 </skill>
-<skill identifier="1879342068" name="Return to the Camp of the Host" category="102" iconId="1092268438" description="key:620994861:228830419">
+<travelSkill identifier="1879342068" name="Return to the Camp of the Host" category="102" iconId="1092268438" description="key:620994861:228830419">
+<position region="4" longitude="-10.315898" latitude="-40.780586"/>
 <effect id="1879342073" name="Travel to the Camp of the Host"/>
-</skill>
-<skill identifier="1879342074" name="Guide to the Camp of the Host" category="102" iconId="1092268438" description="key:620994869:228830419">
+</travelSkill>
+<travelSkill identifier="1879342074" name="Guide to the Camp of the Host" category="102" iconId="1092268438" description="key:620994869:228830419">
+<position region="4" longitude="-10.315898" latitude="-40.780586"/>
 <effect id="1879342075" name="Travel to the Camp of the Host"/>
-</skill>
-<skill identifier="1879342076" name="Muster in the Camp of the Host" category="102" iconId="1092268438" description="key:620994868:228830419">
+</travelSkill>
+<travelSkill identifier="1879342076" name="Muster in the Camp of the Host" category="102" iconId="1092268438" description="key:620994868:228830419">
+<position region="4" longitude="-10.315898" latitude="-40.780586"/>
 <effect id="1879342070" name="Warden Travel to the Camp of the Host"/>
-</skill>
-<skill identifier="1879342107" name="Return to Haerondir" category="102" iconId="1092268552" description="key:620994902:228830419">
+</travelSkill>
+<travelSkill identifier="1879342107" name="Return to Haerondir" category="102" iconId="1092268552" description="key:620994902:228830419">
+<position region="4" longitude="-9.176699" latitude="-36.561073"/>
 <effect id="1879342111" name="Travel to Haerondir"/>
-</skill>
-<skill identifier="1879342109" name="Guide to Haerondir" category="102" iconId="1092268552" description="key:620994904:228830419">
+</travelSkill>
+<travelSkill identifier="1879342109" name="Guide to Haerondir" category="102" iconId="1092268552" description="key:620994904:228830419">
+<position region="4" longitude="-9.176699" latitude="-36.561073"/>
 <effect id="1879342113" name="Travel to Haerondir"/>
-</skill>
-<skill identifier="1879342115" name="Muster in Haerondir" category="102" iconId="1092268552" description="key:620994906:228830419">
+</travelSkill>
+<travelSkill identifier="1879342115" name="Muster in Haerondir" category="102" iconId="1092268552" description="key:620994906:228830419">
+<position region="4" longitude="-9.176699" latitude="-36.561073"/>
 <effect id="1879342106" name="Warden Travel to Haerondir"/>
-</skill>
+</travelSkill>
 <mount identifier="1879342469" name="Steed of the Moon Moth" category="88" iconId="1092269430" initialName="key:620995174:138936629" mountCategory="4" mountType="1" sourceDescription="key:620995772:183096220" morale="200" speed="0.68" tall="true" peerId="1879342475" description="key:620995170:228830419">
 <effect id="1879342476" name="Mounted" type="TOGGLE"/>
 <effect id="1879342476" name="Mounted" type="USER_TOGGLE"/>
@@ -22444,9 +22529,10 @@
 <effect id="1879239487" name="Mounted on a War-steed" type="USER_TOGGLE"/>
 <effect id="1879250994" name="DNT - Removes the MTX War-steed induction reduction effect." type="USER"/>
 </mount>
-<skill identifier="1879346316" name="Travel to Caras Galadhon in Lothlórien" category="102" iconId="1092337491" description="key:620996401:228830419">
+<travelSkill identifier="1879346316" name="Travel to Caras Galadhon in Lothlórien" category="102" iconId="1092337491" description="key:620996401:228830419">
+<position region="2" longitude="-67.07414" latitude="-16.131786"/>
 <effect id="1879346347" name="Travel to Caras Galadhon"/>
-</skill>
+</travelSkill>
 <skill identifier="1879346349" name="Grace of Valinor" category="56" iconId="1092337488" description="key:620996432:228830419">
 <effect id="1879346353" name="Grace of the Valinor"/>
 </skill>
@@ -22513,27 +22599,34 @@
 <skill identifier="1879354419" name="Hobbit-sense" category="7" iconId="1091116231" description="key:621002314:228830419">
 <effect id="1879149379" name="DNT - Do Nothing"/>
 </skill>
-<skill identifier="1879354909" name="Return to the Udûn Foothold" category="102" iconId="1092332896" description="key:621002666:228830419">
+<travelSkill identifier="1879354909" name="Return to the Udûn Foothold" category="102" iconId="1092332896" description="key:621002666:228830419">
+<position region="4" longitude="-0.5668066" latitude="-41.21418"/>
 <effect id="1879354906" name="Travel to Udûn Foothold"/>
-</skill>
-<skill identifier="1879354910" name="Guide to the Udûn Foothold" category="102" iconId="1092332896" description="key:621002668:228830419">
+</travelSkill>
+<travelSkill identifier="1879354910" name="Guide to the Udûn Foothold" category="102" iconId="1092332896" description="key:621002668:228830419">
+<position region="4" longitude="-0.5668066" latitude="-41.21418"/>
 <effect id="1879354904" name="Travel to Udûn Foothold"/>
-</skill>
-<skill identifier="1879354911" name="Muster in the Udûn Foothold" category="102" iconId="1092332896" description="key:621002667:228830419">
+</travelSkill>
+<travelSkill identifier="1879354911" name="Muster in the Udûn Foothold" category="102" iconId="1092332896" description="key:621002667:228830419">
+<position region="4" longitude="-0.5668066" latitude="-41.21418"/>
 <effect id="1879354905" name="Warden Travel to Udûn Foothold"/>
-</skill>
-<skill identifier="1879357634" name="Journey to the Court of Lothlórien" category="102" iconId="1092335386" description="key:621003532:228830419">
+</travelSkill>
+<travelSkill identifier="1879357634" name="Journey to the Court of Lothlórien" category="102" iconId="1092335386" description="key:621003532:228830419">
+<position region="4" longitude="54.815918" latitude="9.997011"/>
 <effect id="1879357603" name="Travel to the Court of Lothlórien"/>
-</skill>
-<skill identifier="1879357635" name="Journey to the Hall of the King" category="102" iconId="1092335385" description="key:621003529:228830419">
+</travelSkill>
+<travelSkill identifier="1879357635" name="Journey to the Hall of the King" category="102" iconId="1092335385" description="key:621003529:228830419">
+<position region="4" longitude="55.259686" latitude="14.795234"/>
 <effect id="1879357601" name="Travel to the Hall of the King"/>
-</skill>
-<skill identifier="1879357636" name="Journey to the Hall Under the Mountain" category="102" iconId="1092335387" description="key:621003530:228830419">
+</travelSkill>
+<travelSkill identifier="1879357636" name="Journey to the Hall Under the Mountain" category="102" iconId="1092335387" description="key:621003530:228830419">
+<position region="4" longitude="53.482147" latitude="12.061503"/>
 <effect id="1879357602" name="Travel to the Hall Under the Mountain"/>
-</skill>
-<skill identifier="1879357637" name="Journey to Bâr Thorenion" category="102" iconId="1092335384" description="key:621003531:228830419">
+</travelSkill>
+<travelSkill identifier="1879357637" name="Journey to Bâr Thorenion" category="102" iconId="1092335384" description="key:621003531:228830419">
+<position region="4" longitude="54.578144" latitude="11.715146"/>
 <effect id="1879357604" name="Travel to Bâr Thorenion"/>
-</skill>
+</travelSkill>
 <skill identifier="1879358083" name="Deadly Slash" category="8" iconId="1090553893" description="key:621003746:228830419"/>
 <skill identifier="1879358084" name="Stunning Blow" category="8" iconId="1091469971" description="key:621003744:228830419">
 <effect id="1879165462" name="Induce Stunned"/>
@@ -23378,15 +23471,18 @@
 <effect id="1879365415" name="Smaug Kite" type="TOGGLE"/>
 <effect id="1879365415" name="Smaug Kite" type="USER_TOGGLE"/>
 </pet>
-<skill identifier="1879365432" name="Return to Dale" category="102" iconId="1092362683" description="key:621008875:228830419">
+<travelSkill identifier="1879365432" name="Return to Dale" category="102" iconId="1092362683" description="key:621008875:228830419">
+<position region="2" longitude="-26.31288" latitude="23.796377"/>
 <effect id="1879365433" name="Travel to Dale"/>
-</skill>
-<skill identifier="1879365434" name="Muster in Dale" category="102" iconId="1092362683" description="key:621008873:228830419">
+</travelSkill>
+<travelSkill identifier="1879365434" name="Muster in Dale" category="102" iconId="1092362683" description="key:621008873:228830419">
+<position region="2" longitude="-26.31288" latitude="23.796377"/>
 <effect id="1879365436" name="Warden Travel to Dale"/>
-</skill>
-<skill identifier="1879365435" name="Guide to Dale" category="102" iconId="1092362683" description="key:621008877:228830419">
+</travelSkill>
+<travelSkill identifier="1879365435" name="Guide to Dale" category="102" iconId="1092362683" description="key:621008877:228830419">
+<position region="2" longitude="-26.31288" latitude="23.796377"/>
 <effect id="1879365431" name="Hunter Travel to Dale"/>
-</skill>
+</travelSkill>
 <mount identifier="1879365654" name="Lasgalen Spring Steed" category="88" iconId="1092363809" initialName="key:621009073:138936629" mountCategory="4" mountType="1" sourceDescription="key:620995772:191554332" morale="200" speed="0.62" tall="true" peerId="1879365655" description="key:621009071:228830419">
 <effect id="1879365651" name="Mounted" type="TOGGLE"/>
 <effect id="1879365651" name="Mounted" type="USER_TOGGLE"/>
@@ -23644,24 +23740,30 @@
 <skill identifier="1879373644" name="Lunge" iconId="1090522259">
 <effect id="1879085439" name="Knockaway"/>
 </skill>
-<skill identifier="1879374531" name="Return to Járnfast" category="102" iconId="1092398846" description="key:621012592:228830419">
+<travelSkill identifier="1879374531" name="Return to Járnfast" category="102" iconId="1092398846" description="key:621012592:228830419">
+<position region="2" longitude="-3.8627148" latitude="28.251581"/>
 <effect id="1879374530" name="Travel to Járnfast"/>
-</skill>
-<skill identifier="1879374533" name="Return to Skarháld" category="102" iconId="1092398845" description="key:621012593:228830419">
+</travelSkill>
+<travelSkill identifier="1879374533" name="Return to Skarháld" category="102" iconId="1092398845" description="key:621012593:228830419">
+<position region="2" longitude="-45.328995" latitude="34.61536"/>
 <effect id="1879374535" name="Travel to Skarháld"/>
-</skill>
-<skill identifier="1879374538" name="Muster in Járnfast" category="102" iconId="1092398846" description="key:621012597:228830419">
+</travelSkill>
+<travelSkill identifier="1879374538" name="Muster in Járnfast" category="102" iconId="1092398846" description="key:621012597:228830419">
+<position region="2" longitude="-3.8627148" latitude="28.251581"/>
 <effect id="1879374534" name="Warden Travel to Járnfast"/>
-</skill>
-<skill identifier="1879374539" name="Guide to Skarháld" category="102" iconId="1092398845" description="key:621012594:228830419">
+</travelSkill>
+<travelSkill identifier="1879374539" name="Guide to Skarháld" category="102" iconId="1092398845" description="key:621012594:228830419">
+<position region="2" longitude="-45.328995" latitude="34.61536"/>
 <effect id="1879374536" name="Hunter Travel to Skarháld"/>
-</skill>
-<skill identifier="1879374540" name="Guide to Járnfast" category="102" iconId="1092398846" description="key:621012596:228830419">
+</travelSkill>
+<travelSkill identifier="1879374540" name="Guide to Járnfast" category="102" iconId="1092398846" description="key:621012596:228830419">
+<position region="2" longitude="-3.8627148" latitude="28.251581"/>
 <effect id="1879374532" name="Hunter Travel to Járnfast"/>
-</skill>
-<skill identifier="1879374541" name="Muster in Skarháld" category="102" iconId="1092398845" description="key:621012595:228830419">
+</travelSkill>
+<travelSkill identifier="1879374541" name="Muster in Skarháld" category="102" iconId="1092398845" description="key:621012595:228830419">
+<position region="2" longitude="-45.328995" latitude="34.61536"/>
 <effect id="1879374537" name="Warden Travel to Skarháld"/>
-</skill>
+</travelSkill>
 <mount identifier="1879375478" name="Steed of Shifting Hues" category="88" iconId="1092409036" initialName="key:621012655:138936629" mountCategory="8" mountType="1" sourceDescription="key:620995772:114554418" morale="250" speed="0.68" tall="true" peerId="1879375479">
 <effect id="1879375477" name="Mounted" type="TOGGLE"/>
 <effect id="1879375477" name="Mounted" type="USER_TOGGLE"/>
@@ -24793,24 +24895,30 @@
 <effect id="1879387785" name="Mounted" type="TOGGLE"/>
 <effect id="1879387785" name="Mounted" type="USER_TOGGLE"/>
 </mount>
-<skill identifier="1879387908" name="Return to Hultvís" category="102" iconId="1092462539" description="key:621020390:228830419">
+<travelSkill identifier="1879387908" name="Return to Hultvís" category="102" iconId="1092462539" description="key:621020390:228830419">
+<position region="2" longitude="-55.08498" latitude="5.020332"/>
 <effect id="1879387916" name="Travel to Hultvís"/>
-</skill>
-<skill identifier="1879387910" name="Muster in Hultvís" category="102" iconId="1092462539" description="key:621020385:228830419">
+</travelSkill>
+<travelSkill identifier="1879387910" name="Muster in Hultvís" category="102" iconId="1092462539" description="key:621020385:228830419">
+<position region="2" longitude="-55.08498" latitude="5.020332"/>
 <effect id="1879387921" name="Warden Travel to Hultvís"/>
-</skill>
-<skill identifier="1879387911" name="Guide to Beorninghús" category="102" iconId="1092462538" description="key:621020389:228830419">
+</travelSkill>
+<travelSkill identifier="1879387911" name="Guide to Beorninghús" category="102" iconId="1092462538" description="key:621020389:228830419">
+<position region="2" longitude="-53.32839" latitude="14.109219"/>
 <effect id="1879387915" name="Hunter Travel to Beorninghús"/>
-</skill>
-<skill identifier="1879387912" name="Guide to Hultvís" category="102" iconId="1092462539" description="key:621020376:228830419">
+</travelSkill>
+<travelSkill identifier="1879387912" name="Guide to Hultvís" category="102" iconId="1092462539" description="key:621020376:228830419">
+<position region="2" longitude="-55.08498" latitude="5.020332"/>
 <effect id="1879387920" name="Hunter Travel to Hultvís"/>
-</skill>
-<skill identifier="1879387914" name="Muster in Beorninghús" category="102" iconId="1092462538" description="key:621020375:228830419">
+</travelSkill>
+<travelSkill identifier="1879387914" name="Muster in Beorninghús" category="102" iconId="1092462538" description="key:621020375:228830419">
+<position region="2" longitude="-53.32839" latitude="14.109219"/>
 <effect id="1879387925" name="Warden Travel to Beorninghús"/>
-</skill>
-<skill identifier="1879387922" name="Return to Beorninghús" category="102" iconId="1092462538" description="key:621020391:228830419">
+</travelSkill>
+<travelSkill identifier="1879387922" name="Return to Beorninghús" category="102" iconId="1092462538" description="key:621020391:228830419">
+<position region="2" longitude="-53.32839" latitude="14.109219"/>
 <effect id="1879387918" name="Travel to Beorninghús"/>
-</skill>
+</travelSkill>
 <pet identifier="1879388584" name="Topaz Neekerbreeker" category="145" iconId="1092463224" initialName="key:621020991:33816677" sourceDescription="key:621020994:211796645" genus="14" species="27" subSpecies="132" description="key:621020994:228830419">
 <effect id="1879388582" type="TOGGLE"/>
 <effect id="1879388582" type="USER_TOGGLE"/>
@@ -25014,9 +25122,10 @@
 <effect id="1879391238" name="Mounted" type="TOGGLE"/>
 <effect id="1879391238" name="Mounted" type="USER_TOGGLE"/>
 </mount>
-<skill identifier="1879391247" name="Travel to Thorin's Hall" category="102" iconId="1092502381" description="key:621022718:228830419">
+<travelSkill identifier="1879391247" name="Travel to Thorin's Hall" category="102" iconId="1092502381" description="key:621022718:228830419">
+<position region="1" longitude="-103.21289" latitude="-13.763378"/>
 <effect id="1879391249" name="Stout-axe Travel to Thorin's Hall"/>
-</skill>
+</travelSkill>
 <skill identifier="1879391248" name="Stout-shield" category="56" iconId="1092502382" description="key:621022720:228830419">
 <effect id="1879391269" name="Stout-shield"/>
 </skill>
@@ -25613,15 +25722,18 @@
 <effect id="1879396431" name="Summoned Orc Warg Pet"/>
 <effect id="1879396431" name="Summoned Orc Warg Pet"/>
 </skill>
-<skill identifier="1879396850" name="Muster in Estolad Lân" category="102" iconId="1092526207" description="key:621026661:228830419">
+<travelSkill identifier="1879396850" name="Muster in Estolad Lân" category="102" iconId="1092526207" description="key:621026661:228830419">
+<position region="4" longitude="-2.215205" latitude="-64.48153"/>
 <effect id="1879396857" name="Muster in Estolad Lân"/>
-</skill>
-<skill identifier="1879396852" name="Guide to Estolad Lân" category="102" iconId="1092526207" description="key:621026658:228830419">
+</travelSkill>
+<travelSkill identifier="1879396852" name="Guide to Estolad Lân" category="102" iconId="1092526207" description="key:621026658:228830419">
+<position region="4" longitude="-2.215205" latitude="-64.48153"/>
 <effect id="1879396851" name="Guide to Estolad Lân"/>
-</skill>
-<skill identifier="1879396856" name="Return to Estolad Lân" category="102" iconId="1092526207" description="key:621026664:228830419">
+</travelSkill>
+<travelSkill identifier="1879396856" name="Return to Estolad Lân" category="102" iconId="1092526207" description="key:621026664:228830419">
+<position region="4" longitude="-2.215205" latitude="-64.48153"/>
 <effect id="1879396855" name="Travel to Estolad Lân"/>
-</skill>
+</travelSkill>
 <pet identifier="1879396918" name="Black Wolf-dog" category="145" iconId="1092526444" initialName="key:621026723:33816677" sourceDescription="key:621026731:211796645" genus="14" species="27" subSpecies="132" description="key:621026731:228830419">
 <effect id="1879396915" type="TOGGLE"/>
 <effect id="1879396915" type="USER_TOGGLE"/>
@@ -26627,15 +26739,18 @@
 <effect id="1879405447" type="TOGGLE"/>
 <effect id="1879405447" type="USER_TOGGLE"/>
 </pet>
-<skill identifier="1879406121" name="Return to Limlók" category="102" iconId="1092544556" description="key:621032840:228830419">
+<travelSkill identifier="1879406121" name="Return to Limlók" category="102" iconId="1092544556" description="key:621032840:228830419">
+<position region="2" longitude="-55.89447" latitude="20.74826"/>
 <effect id="1879406126" name="Travel to Limlók"/>
-</skill>
-<skill identifier="1879406125" name="Guide to Limlók" category="102" iconId="1092544556" description="key:621032845:228830419">
+</travelSkill>
+<travelSkill identifier="1879406125" name="Guide to Limlók" category="102" iconId="1092544556" description="key:621032845:228830419">
+<position region="2" longitude="-55.89447" latitude="20.74826"/>
 <effect id="1879406118" name="Guide to Limlók"/>
-</skill>
-<skill identifier="1879406133" name="Muster in Limlók" category="102" iconId="1092544556" description="key:621032846:228830419">
+</travelSkill>
+<travelSkill identifier="1879406133" name="Muster in Limlók" category="102" iconId="1092544556" description="key:621032846:228830419">
+<position region="2" longitude="-55.89447" latitude="20.74826"/>
 <effect id="1879406129" name="Muster in Limlók"/>
-</skill>
+</travelSkill>
 <mount identifier="1879406154" name="Steed of Regal Revelry" category="88" iconId="1092544704" initialName="key:621032860:138936629" mountCategory="4" mountType="1" sourceDescription="key:620995772:224675660" morale="200" speed="0.62" tall="true" peerId="1879406156" description="key:621032864:228830419">
 <effect id="1879406158" name="Mounted" type="TOGGLE"/>
 <effect id="1879406158" name="Mounted" type="USER_TOGGLE"/>
@@ -26734,9 +26849,9 @@
 <effect id="1879407130" name="Mounted" type="TOGGLE"/>
 <effect id="1879407130" name="Mounted" type="USER_TOGGLE"/>
 </mount>
-<skill identifier="1879407670" name="Travel to Kinship Member's House" category="102" iconId="1092557574" description="key:621033976:228830419">
+<travelSkill identifier="1879407670" name="Travel to Kinship Member's House" category="102" iconId="1092557574" description="key:621033976:228830419">
 <effect id="1879407672" name="Travel to Kinship Member's House"/>
-</skill>
+</travelSkill>
 <skill identifier="1879407680" name="Call Reinforcements" iconId="1090522259">
 <effect id="1879407781" name="Call Reinforcements"/>
 </skill>
@@ -26916,15 +27031,18 @@
 <effect id="1879409775" type="TOGGLE"/>
 <effect id="1879409775" type="USER_TOGGLE"/>
 </pet>
-<skill identifier="1879410031" name="Return to Annâk-khurfu" category="102" iconId="1092586558" description="key:621035929:228830419">
+<travelSkill identifier="1879410031" name="Return to Annâk-khurfu" category="102" iconId="1092586558" description="key:621035929:228830419">
+<position region="2" longitude="-60.926697" latitude="32.797276"/>
 <effect id="1879410030" name="Travel to Annâk-khurfu"/>
-</skill>
-<skill identifier="1879410033" name="Guide to Annâk-khurfu" category="102" iconId="1092586558" description="key:621035927:228830419">
+</travelSkill>
+<travelSkill identifier="1879410033" name="Guide to Annâk-khurfu" category="102" iconId="1092586558" description="key:621035927:228830419">
+<position region="2" longitude="-60.926697" latitude="32.797276"/>
 <effect id="1879410032" name="Guide to Annâk-khurfu"/>
-</skill>
-<skill identifier="1879410034" name="Muster in Annâk-khurfu" category="102" iconId="1092586558" description="key:621035928:228830419">
+</travelSkill>
+<travelSkill identifier="1879410034" name="Muster in Annâk-khurfu" category="102" iconId="1092586558" description="key:621035928:228830419">
+<position region="2" longitude="-60.926697" latitude="32.797276"/>
 <effect id="1879410029" name="Muster in Annâk-khurfu"/>
-</skill>
+</travelSkill>
 <skill identifier="1879410121" name="Summon Bat" iconId="1090522259">
 <effect id="1879410120" name="Call Bat"/>
 </skill>
@@ -27818,24 +27936,30 @@
 <effect id="1879416034" name="Summon Root"/>
 <effect id="1879416031" name="Wild Roots" type="USER"/>
 </skill>
-<skill identifier="1879416073" name="Muster in Trader's Wharf" category="102" iconId="1092649522" description="key:621040688:228830419">
+<travelSkill identifier="1879416073" name="Muster in Trader's Wharf" category="102" iconId="1092649522" description="key:621040688:228830419">
+<position region="1" longitude="-61.43493" latitude="-21.313427"/>
 <effect id="1879416079" name="Muster in Trader's Wharf"/>
-</skill>
-<skill identifier="1879416076" name="Guide to Trader's Wharf" category="102" iconId="1092649522" description="key:621040694:228830419">
+</travelSkill>
+<travelSkill identifier="1879416076" name="Guide to Trader's Wharf" category="102" iconId="1092649522" description="key:621040694:228830419">
+<position region="1" longitude="-61.43493" latitude="-21.313427"/>
 <effect id="1879416072" name="Guide to Trader's Wharf"/>
-</skill>
-<skill identifier="1879416078" name="Return to Trader's Wharf" category="102" iconId="1092649522" description="key:621040696:228830419">
+</travelSkill>
+<travelSkill identifier="1879416078" name="Return to Trader's Wharf" category="102" iconId="1092649522" description="key:621040696:228830419">
+<position region="1" longitude="-61.43493" latitude="-21.313427"/>
 <effect id="1879416074" name="Travel to Trader's Wharf"/>
-</skill>
-<skill identifier="1879416080" name="Muster in Trestlebridge" category="102" iconId="1092649521" description="key:621040689:228830419">
+</travelSkill>
+<travelSkill identifier="1879416080" name="Muster in Trestlebridge" category="102" iconId="1092649521" description="key:621040689:228830419">
+<position region="1" longitude="-54.530945" latitude="-17.649805"/>
 <effect id="1879416083" name="Muster in Trestlebridge"/>
-</skill>
-<skill identifier="1879416082" name="Return to Trestlebridge" category="102" iconId="1092649521" description="key:621040695:228830419">
+</travelSkill>
+<travelSkill identifier="1879416082" name="Return to Trestlebridge" category="102" iconId="1092649521" description="key:621040695:228830419">
+<position region="1" longitude="-54.530945" latitude="-17.649805"/>
 <effect id="1879416071" name="Travel to Trestlebridge"/>
-</skill>
-<skill identifier="1879416086" name="Guide to Trestlebridge" category="102" iconId="1092649521" description="key:621040687:228830419">
+</travelSkill>
+<travelSkill identifier="1879416086" name="Guide to Trestlebridge" category="102" iconId="1092649521" description="key:621040687:228830419">
+<position region="1" longitude="-54.530945" latitude="-17.649805"/>
 <effect id="1879416077" name="Guide to Trestlebridge"/>
-</skill>
+</travelSkill>
 <skill identifier="1879416116" name="Stirring Darkness" iconId="1090522259"/>
 <skill identifier="1879416145" name="Bracing Guard" category="151" iconId="1092693316" description="key:621040747:228830419">
 <effect id="1879420965" name="Bracing Guard Active"/>
@@ -28142,9 +28266,10 @@
 <effect id="1879418168" name="DNT - Remove Balrog Root" type="USER"/>
 <effect id="1879418851" name=".." type="USER"/>
 </skill>
-<skill identifier="1879418262" name="Journey to the Hall of Vérnozal" category="102" iconId="1092670065" description="key:621042322:228830419">
+<travelSkill identifier="1879418262" name="Journey to the Hall of Vérnozal" category="102" iconId="1092670065" description="key:621042322:228830419">
+<position region="2" longitude="49.413807" latitude="60.638554"/>
 <effect id="1879424668" name="Travel to the Hall of Vérnozal"/>
-</skill>
+</travelSkill>
 <pet identifier="1879418601" name="Bog-lurker Buddy" category="145" iconId="1092672171" initialName="key:621042595:33816677" sourceDescription="key:621042603:211796645" genus="14" species="27" subSpecies="132" description="key:621042603:228830419">
 <effect id="1879418598" type="TOGGLE"/>
 <effect id="1879418598" type="USER_TOGGLE"/>
@@ -28210,24 +28335,30 @@
 <effect id="1879419403" name="DNT - Strike as One"/>
 <effect id="1879419406" name="Strike as One!"/>
 </skill>
-<skill identifier="1879419532" name="Muster in Azanulbizar" category="102" iconId="1092680000" description="key:621043398:228830419">
+<travelSkill identifier="1879419532" name="Muster in Azanulbizar" category="102" iconId="1092680000" description="key:621043398:228830419">
+<position region="14" longitude="-135.22842" latitude="62.567947"/>
 <effect id="1879419539" name="Muster in Azanulbizar"/>
-</skill>
-<skill identifier="1879419535" name="Muster in Akrâz-zahar" category="102" iconId="1092680001" description="key:621043399:228830419">
+</travelSkill>
+<travelSkill identifier="1879419535" name="Muster in Akrâz-zahar" category="102" iconId="1092680001" description="key:621043399:228830419">
+<position region="2" longitude="49.1599" latitude="66.20052"/>
 <effect id="1879419534" name="Muster in Akrâz-zahar"/>
-</skill>
-<skill identifier="1879419536" name="Return to Akrâz-zahar" category="102" iconId="1092680001" description="key:621043397:228830419">
+</travelSkill>
+<travelSkill identifier="1879419536" name="Return to Akrâz-zahar" category="102" iconId="1092680001" description="key:621043397:228830419">
+<position region="2" longitude="49.1599" latitude="66.20052"/>
 <effect id="1879419533" name="Travel to Akrâz-zahar"/>
-</skill>
-<skill identifier="1879419537" name="Guide to Akrâz-zahar" category="102" iconId="1092680001" description="key:621043400:228830419">
+</travelSkill>
+<travelSkill identifier="1879419537" name="Guide to Akrâz-zahar" category="102" iconId="1092680001" description="key:621043400:228830419">
+<position region="2" longitude="49.1599" latitude="66.20052"/>
 <effect id="1879419540" name="Guide to Akrâz-zahar"/>
-</skill>
-<skill identifier="1879419538" name="Return to Azanulbizar" category="102" iconId="1092680000" description="key:621043401:228830419">
+</travelSkill>
+<travelSkill identifier="1879419538" name="Return to Azanulbizar" category="102" iconId="1092680000" description="key:621043401:228830419">
+<position region="14" longitude="-135.22842" latitude="62.567947"/>
 <effect id="1879419531" name="Travel to Azanulbizar"/>
-</skill>
-<skill identifier="1879419541" name="Guide to Azanulbizar" category="102" iconId="1092680000" description="key:621043391:228830419">
+</travelSkill>
+<travelSkill identifier="1879419541" name="Guide to Azanulbizar" category="102" iconId="1092680000" description="key:621043391:228830419">
+<position region="14" longitude="-135.22842" latitude="62.567947"/>
 <effect id="1879419530" name="Guide to Azanulbizar"/>
-</skill>
+</travelSkill>
 <skill identifier="1879420207" name="Call Frost" iconId="1090522259"/>
 <skill identifier="1879420208" name="Clinging Frost" iconId="1090522259">
 <effect id="1879420247" name="Clinging Frost"/>
@@ -28353,9 +28484,10 @@
 <skill identifier="1879421420" name="Annihilation" iconId="1090522259">
 <effect id="1879419750" name="Apocalypse"/>
 </skill>
-<skill identifier="1879421838" name="Return to Glân Vraig" category="102" iconId="1091659387" description="key:620991575:228830419">
+<travelSkill identifier="1879421838" name="Return to Glân Vraig" category="102" iconId="1091659387" description="key:620991575:228830419">
+<position region="1" longitude="-13.37707" latitude="-20.772724"/>
 <effect id="1879088539" name="Travel to Glân Vraig"/>
-</skill>
+</travelSkill>
 <skill identifier="1879422226" name="Defensive Posture" category="151" iconId="1092687525" description="key:621045008:228830419">
 <effect id="1879422224" name="Defensive Posture" type="TOGGLE"/>
 <effect id="1879422224" name="Defensive Posture" type="USER_TOGGLE"/>
@@ -28638,24 +28770,30 @@
 <skill identifier="1879430146" name="Summon Dwarf-wight" iconId="1090522259">
 <effect id="1879430147" name="Summon Dwarf-wight"/>
 </skill>
-<skill identifier="1879430268" name="Return to the Noble Gate" category="102" iconId="1092695054" description="key:621050757:228830419">
+<travelSkill identifier="1879430268" name="Return to the Noble Gate" category="102" iconId="1092695054" description="key:621050757:228830419">
+<position region="2" longitude="-111.2436" latitude="-49.50762"/>
 <effect id="1879430278" name="Travel to the Noble Gate"/>
-</skill>
-<skill identifier="1879430269" name="Guide to Leitstáth" category="102" iconId="1092695055" description="key:621050747:228830419">
+</travelSkill>
+<travelSkill identifier="1879430269" name="Guide to Leitstáth" category="102" iconId="1092695055" description="key:621050747:228830419">
+<position region="2" longitude="-64.9038" latitude="46.98748"/>
 <effect id="1879430273" name="Guide to Leitstáth"/>
-</skill>
-<skill identifier="1879430276" name="Return to Leitstáth" category="102" iconId="1092695055" description="key:621050758:228830419">
+</travelSkill>
+<travelSkill identifier="1879430276" name="Return to Leitstáth" category="102" iconId="1092695055" description="key:621050758:228830419">
+<position region="2" longitude="-64.9038" latitude="46.98748"/>
 <effect id="1879430272" name="Travel to Leitstáth"/>
-</skill>
-<skill identifier="1879430279" name="Guide to the Noble Gate" category="102" iconId="1092695054" description="key:621050750:228830419">
+</travelSkill>
+<travelSkill identifier="1879430279" name="Guide to the Noble Gate" category="102" iconId="1092695054" description="key:621050750:228830419">
+<position region="2" longitude="-111.2436" latitude="-49.50762"/>
 <effect id="1879430270" name="Guide to the Noble Gate"/>
-</skill>
-<skill identifier="1879430280" name="Muster at Leitstáth" category="102" iconId="1092695055" description="key:621050743:228830419">
+</travelSkill>
+<travelSkill identifier="1879430280" name="Muster at Leitstáth" category="102" iconId="1092695055" description="key:621050743:228830419">
+<position region="2" longitude="-64.9038" latitude="46.98748"/>
 <effect id="1879430266" name="Muster at Leitstáth"/>
-</skill>
-<skill identifier="1879430282" name="Muster at the Noble Gate" category="102" iconId="1092695054" description="key:621050749:228830419">
+</travelSkill>
+<travelSkill identifier="1879430282" name="Muster at the Noble Gate" category="102" iconId="1092695054" description="key:621050749:228830419">
+<position region="2" longitude="-111.2436" latitude="-49.50762"/>
 <effect id="1879430277" name="Muster in the Noble Gate"/>
-</skill>
+</travelSkill>
 <skill identifier="1879430307" name="Brawler's Misfortune" iconId="1090522259">
 <effect id="1879420257" name="Gut Punch"/>
 <effect id="1879051273" name="Silenced"/>
@@ -29270,15 +29408,18 @@
 <skill identifier="1879444949" name="Heightened Focus" iconId="1090522259">
 <effect id="1879445023" name="Heightened Focus"/>
 </skill>
-<skill identifier="1879445157" name="Muster at Tornhad" category="102" iconId="1092709724" description="key:621063420:228830419">
+<travelSkill identifier="1879445157" name="Muster at Tornhad" category="102" iconId="1092709724" description="key:621063420:228830419">
+<position region="1" longitude="-23.227715" latitude="-42.41708"/>
 <effect id="1879445155" name="Muster in Tornhad"/>
-</skill>
-<skill identifier="1879445158" name="Guide to Tornhad" category="102" iconId="1092709724" description="key:621063421:228830419">
+</travelSkill>
+<travelSkill identifier="1879445158" name="Guide to Tornhad" category="102" iconId="1092709724" description="key:621063421:228830419">
+<position region="1" longitude="-23.227715" latitude="-42.41708"/>
 <effect id="1879445154" name="Guide to Tornhad"/>
-</skill>
-<skill identifier="1879445160" name="Return to Tornhad" category="102" iconId="1092709724" description="key:621063423:228830419">
+</travelSkill>
+<travelSkill identifier="1879445160" name="Return to Tornhad" category="102" iconId="1092709724" description="key:621063423:228830419">
+<position region="1" longitude="-23.227715" latitude="-42.41708"/>
 <effect id="1879445156" name="Travel to Tornhad"/>
-</skill>
+</travelSkill>
 <skill identifier="1879445166" name="Demoralizing Roar" iconId="1090522259">
 <effect id="1879445048" name="Demoralizing Roar"/>
 </skill>
@@ -29388,15 +29529,18 @@
 <skill identifier="1879446191" name="a rending claw attack" iconId="1090522259">
 <effect id="1879052009" name="Deep Wound"/>
 </skill>
-<skill identifier="1879446334" name="Muster at Nobottle" category="102" iconId="1092713823" description="key:621064177:228830419">
+<travelSkill identifier="1879446334" name="Muster at Nobottle" category="102" iconId="1092713823" description="key:621064177:228830419">
+<position region="1" longitude="-78.86704" latitude="-27.02003"/>
 <effect id="1879446325" name="Muster in Yondershire"/>
-</skill>
-<skill identifier="1879446335" name="Guide to Nobottle" category="102" iconId="1092713823" description="key:621064178:228830419">
+</travelSkill>
+<travelSkill identifier="1879446335" name="Guide to Nobottle" category="102" iconId="1092713823" description="key:621064178:228830419">
+<position region="1" longitude="-78.86704" latitude="-27.02003"/>
 <effect id="1879446323" name="Guide to Yondershire"/>
-</skill>
-<skill identifier="1879446336" name="Return to Nobottle" category="102" iconId="1092713823" description="key:621064179:228830419">
+</travelSkill>
+<travelSkill identifier="1879446336" name="Return to Nobottle" category="102" iconId="1092713823" description="key:621064179:228830419">
+<position region="1" longitude="-78.86704" latitude="-27.02003"/>
 <effect id="1879446324" name="Travel to Yondershire"/>
-</skill>
+</travelSkill>
 <skill identifier="1879446477" name="Frost-shard" iconId="1090522259">
 <effect id="1879446472" name=".."/>
 </skill>
@@ -30027,40 +30171,49 @@
 <effect id="1879453929" name="Mounted" type="TOGGLE"/>
 <effect id="1879453929" name="Mounted" type="USER_TOGGLE"/>
 </mount>
-<skill identifier="1879454268" name="Guide to Andrath" category="102" iconId="1092754622" description="key:621069710:228830419">
+<travelSkill identifier="1879454268" name="Guide to Andrath" category="102" iconId="1092754622" description="key:621069710:228830419">
+<position region="1" longitude="-49.844666" latitude="-37.647617"/>
 <effect id="1879454277" name="Guide to Andrath"/>
-</skill>
-<skill identifier="1879454269" name="Return to Andrath" category="102" iconId="1092754622" description="key:621069720:228830419">
+</travelSkill>
+<travelSkill identifier="1879454269" name="Return to Andrath" category="102" iconId="1092754622" description="key:621069720:228830419">
+<position region="1" longitude="-49.844666" latitude="-37.647617"/>
 <effect id="1879454273" name="Travel to Andrath"/>
-</skill>
-<skill identifier="1879454274" name="Muster at Andrath" category="102" iconId="1092754622" description="key:621069713:228830419">
+</travelSkill>
+<travelSkill identifier="1879454274" name="Muster at Andrath" category="102" iconId="1092754622" description="key:621069713:228830419">
+<position region="1" longitude="-49.844666" latitude="-37.647617"/>
 <effect id="1879454278" name="Muster in Andrath"/>
-</skill>
+</travelSkill>
 <skill identifier="1879454831" name="Diseased Bite" iconId="1090522259">
 <effect id="1879452048" name="Diseased Wound - 1"/>
 <effect id="1879452669" name="DNT - Novice"/>
 </skill>
-<skill identifier="1879454884" name="Return to Swanfleet" category="102" iconId="1092754621" description="key:621070263:228830419">
+<travelSkill identifier="1879454884" name="Return to Swanfleet" category="102" iconId="1092754621" description="key:621070263:228830419">
+<position region="1" longitude="-27.094383" latitude="-55.236317"/>
 <effect id="1879454900" name="Travel to Swanfleet"/>
-</skill>
-<skill identifier="1879454885" name="Return to the Tracery Archives in Rivendell" category="102" iconId="1090554013" description="key:621070253:228830419">
+</travelSkill>
+<travelSkill identifier="1879454885" name="Return to the Tracery Archives in Rivendell" category="102" iconId="1090554013" description="key:621070253:228830419">
 <effect id="1879439276" name="Map to the Rivendell Tracery Archive"/>
-</skill>
-<skill identifier="1879454887" name="Guide to Cardolan" category="102" iconId="1092754398" description="key:621070260:228830419">
+</travelSkill>
+<travelSkill identifier="1879454887" name="Guide to Cardolan" category="102" iconId="1092754398" description="key:621070260:228830419">
+<position region="1" longitude="-44.72664" latitude="-50.110634"/>
 <effect id="1879454891" name="Guide to Cardolan"/>
-</skill>
-<skill identifier="1879454890" name="Guide to Swanfleet" category="102" iconId="1092754621" description="key:621070250:228830419">
+</travelSkill>
+<travelSkill identifier="1879454890" name="Guide to Swanfleet" category="102" iconId="1092754621" description="key:621070250:228830419">
+<position region="1" longitude="-27.094383" latitude="-55.236317"/>
 <effect id="1879454896" name="Guide to Swanfleet"/>
-</skill>
-<skill identifier="1879454893" name="Muster at Cardolan" category="102" iconId="1092754398" description="key:621070256:228830419">
+</travelSkill>
+<travelSkill identifier="1879454893" name="Muster at Cardolan" category="102" iconId="1092754398" description="key:621070256:228830419">
+<position region="1" longitude="-44.72664" latitude="-50.110634"/>
 <effect id="1879454886" name="Muster in Cardolan"/>
-</skill>
-<skill identifier="1879454894" name="Return to Cardolan" category="102" iconId="1092754398" description="key:621070257:228830419">
+</travelSkill>
+<travelSkill identifier="1879454894" name="Return to Cardolan" category="102" iconId="1092754398" description="key:621070257:228830419">
+<position region="1" longitude="-44.72664" latitude="-50.110634"/>
 <effect id="1879454901" name="Travel to Cardolan"/>
-</skill>
-<skill identifier="1879454902" name="Muster at Swanfleet" category="102" iconId="1092754621" description="key:621070264:228830419">
+</travelSkill>
+<travelSkill identifier="1879454902" name="Muster at Swanfleet" category="102" iconId="1092754621" description="key:621070264:228830419">
+<position region="1" longitude="-27.094383" latitude="-55.236317"/>
 <effect id="1879454897" name="Muster in Swanfleet"/>
-</skill>
+</travelSkill>
 <skill identifier="1879455010" name="Spite of the Doomsman" iconId="1090522259">
 <effect id="1879456667" name="Judgement of the Doomsman"/>
 </skill>
@@ -30858,15 +31011,18 @@
 <effect id="1879460548" type="TOGGLE"/>
 <effect id="1879460548" type="USER_TOGGLE"/>
 </pet>
-<skill identifier="1879460552" name="Guide to Carn Dûm" category="102" iconId="1092813663" description="key:621073704:228830419">
+<travelSkill identifier="1879460552" name="Guide to Carn Dûm" category="102" iconId="1092813663" description="key:621073704:228830419">
+<position region="1" longitude="-27.748837" latitude="70.194786"/>
 <effect id="1879460551" name="Guide to Carn Dûm"/>
-</skill>
-<skill identifier="1879460554" name="Return to Carn Dûm" category="102" iconId="1092813663" description="key:621073697:228830419">
+</travelSkill>
+<travelSkill identifier="1879460554" name="Return to Carn Dûm" category="102" iconId="1092813663" description="key:621073697:228830419">
+<position region="1" longitude="-27.748837" latitude="70.194786"/>
 <effect id="1879460556" name="Travel to Carn Dûm"/>
-</skill>
-<skill identifier="1879460555" name="Muster at Carn Dûm" category="102" iconId="1092813663" description="key:621073698:228830419">
+</travelSkill>
+<travelSkill identifier="1879460555" name="Muster at Carn Dûm" category="102" iconId="1092813663" description="key:621073698:228830419">
+<position region="1" longitude="-27.748837" latitude="70.194786"/>
 <effect id="1879460557" name="Muster in Carn Dûm"/>
-</skill>
+</travelSkill>
 <skill identifier="1879460562" name="Venomous Renewal" iconId="1090522259">
 <effect id="1879057763" name="Healing"/>
 </skill>
@@ -30947,15 +31103,18 @@
 <effect id="1879407775" name="Curse of the Fallen"/>
 <effect id="1879103216" name="Self Smite" type="USER"/>
 </skill>
-<skill identifier="1879461703" name="Return to Clegur" category="102" iconId="1092819258" description="key:621074535:228830419">
+<travelSkill identifier="1879461703" name="Return to Clegur" category="102" iconId="1092819258" description="key:621074535:228830419">
+<position region="1" longitude="-29.328691" latitude="-64.91648"/>
 <effect id="1879461705" name="Travel to Clegur"/>
-</skill>
-<skill identifier="1879461708" name="Guide to Clegur" category="102" iconId="1092819258" description="key:621074538:228830419">
+</travelSkill>
+<travelSkill identifier="1879461708" name="Guide to Clegur" category="102" iconId="1092819258" description="key:621074538:228830419">
+<position region="1" longitude="-29.328691" latitude="-64.91648"/>
 <effect id="1879461706" name="Guide to Clegur"/>
-</skill>
-<skill identifier="1879461709" name="Muster at Clegur" category="102" iconId="1092819258" description="key:621074536:228830419">
+</travelSkill>
+<travelSkill identifier="1879461709" name="Muster at Clegur" category="102" iconId="1092819258" description="key:621074536:228830419">
+<position region="1" longitude="-29.328691" latitude="-64.91648"/>
 <effect id="1879461710" name="Muster in Clegur"/>
-</skill>
+</travelSkill>
 <mount identifier="1879461950" name="Steed of Angmar Reborn" category="88" iconId="1092815126" initialName="key:621074696:138936629" mountCategory="3" mountType="1" sourceDescription="key:620995772:193384225" morale="250" speed="0.68" peerId="1879461959">
 <effect id="1879461953" name="Mounted" type="TOGGLE"/>
 <effect id="1879461953" name="Mounted" type="USER_TOGGLE"/>
@@ -31409,15 +31568,18 @@
 <effect id="1879464127" name="Oath-bound - 2"/>
 <effect id="1879464126" name="Oath-bound - 3"/>
 </skill>
-<skill identifier="1879464168" name="Muster at Pelargir" category="102" iconId="1092819257" description="key:621075950:228830419">
+<travelSkill identifier="1879464168" name="Muster at Pelargir" category="102" iconId="1092819257" description="key:621075950:228830419">
+<position region="4" longitude="-34.82949" latitude="-82.990265"/>
 <effect id="1879464174" name="Muster in Pelargir"/>
-</skill>
-<skill identifier="1879464170" name="Guide to Pelargir" category="102" iconId="1092819257" description="key:621075947:228830419">
+</travelSkill>
+<travelSkill identifier="1879464170" name="Guide to Pelargir" category="102" iconId="1092819257" description="key:621075947:228830419">
+<position region="4" longitude="-34.82949" latitude="-82.990265"/>
 <effect id="1879464173" name="Guide to Pelargir"/>
-</skill>
-<skill identifier="1879464171" name="Return to Pelargir" category="102" iconId="1092819257" description="key:621075948:228830419">
+</travelSkill>
+<travelSkill identifier="1879464171" name="Return to Pelargir" category="102" iconId="1092819257" description="key:621075948:228830419">
+<position region="4" longitude="-34.82949" latitude="-82.990265"/>
 <effect id="1879464175" name="Travel to Pelargir"/>
-</skill>
+</travelSkill>
 <skill identifier="1879464241" name="a sweeping winged attack" iconId="1090522259"/>
 <skill identifier="1879464242" name="Illusive" iconId="1090522259">
 <effect id="1879464383" name="Essence of Illusion"/>
@@ -31593,12 +31755,14 @@
 <effect id="1879467654" name="Motivating Song"/>
 <effect id="1879467651" name="AoE Shanty Power" type="USER"/>
 </skill>
-<skill identifier="1879466240" name="Sail to Celondim" category="102" iconId="1092908288" description="key:621077821:228830419">
+<travelSkill identifier="1879466240" name="Sail to Celondim" category="102" iconId="1092908288" description="key:621077821:228830419">
+<position region="1" longitude="-92.06287" latitude="-28.214863"/>
 <effect id="1879466223" name="Sail to Celondim"/>
-</skill>
-<skill identifier="1879466241" name="Sail to the Brown Lands" category="102" iconId="1092908286" description="key:621077795:228830419">
+</travelSkill>
+<travelSkill identifier="1879466241" name="Sail to the Brown Lands" category="102" iconId="1092908286" description="key:621077795:228830419">
+<position region="2" longitude="-52.205624" latitude="-30.90452"/>
 <effect id="1879466218" name="Sail to the Brown Lands"/>
-</skill>
+</travelSkill>
 <skill identifier="1879466242" name="Flick" category="159" iconId="1092825111" description="key:621077801:228830419">
 <effect id="1879054551" name="Interrupts Inductions"/>
 </skill>
@@ -31609,9 +31773,10 @@
 <skill identifier="1879466244" name="Compound Attack" category="159" iconId="1092825098" description="key:621077804:228830419">
 <effect id="1879467329" name="Swordplay: Compound Attack" type="USER"/>
 </skill>
-<skill identifier="1879466245" name="Sail to Trader's Wharf" category="102" iconId="1092649522" description="key:621077820:228830419">
+<travelSkill identifier="1879466245" name="Sail to Trader's Wharf" category="102" iconId="1092649522" description="key:621077820:228830419">
+<position region="1" longitude="-61.43493" latitude="-21.313427"/>
 <effect id="1879474969" name="Sail to Trader's Wharf"/>
-</skill>
+</travelSkill>
 <skill identifier="1879466246" name="En Garde" category="159" iconId="1092825100" description="key:621077811:228830419">
 <effect id="1879466235" name="Steady"/>
 <effect id="1879469276" name="En Garde"/>
@@ -31629,9 +31794,10 @@
 <effect id="1879475418" type="USER"/>
 <effect id="1879467519" name="A finisher has just been used." type="USER"/>
 </skill>
-<skill identifier="1879466249" name="Sail to after-battle Osgiliath" category="102" iconId="1092240178" description="key:621077789:228830419">
+<travelSkill identifier="1879466249" name="Sail to after-battle Osgiliath" category="102" iconId="1092240178" description="key:621077789:228830419">
+<position region="4" longitude="-6.4909277" latitude="-63.02044"/>
 <effect id="1879474974" name="Sail to after-battle Osgiliath"/>
-</skill>
+</travelSkill>
 <skill identifier="1879466250" name="Dodge" category="163" iconId="1092825088" description="key:621077793:228830419">
 <effect id="1879467316" name="Dodge"/>
 <effect id="1879467661" name="Defensive Swordplay - Average"/>
@@ -31641,15 +31807,18 @@
 <effect id="1879467657" name="DNT - Remove Poison, Disease, Wound, or Fear"/>
 <effect id="1879469755" name="DNT - Remove Poison, Disease, Wound, or Fear"/>
 </skill>
-<skill identifier="1879466252" name="Sail to Lake-town" category="102" iconId="1092362683" description="key:621077809:228830419">
+<travelSkill identifier="1879466252" name="Sail to Lake-town" category="102" iconId="1092362683" description="key:621077809:228830419">
+<position region="2" longitude="-27.566952" latitude="17.139452"/>
 <effect id="1879474973" name="Sail to Dale"/>
-</skill>
-<skill identifier="1879466254" name="Sail to the Mirk-eaves" category="102" iconId="1091617981" description="key:621077806:228830419">
+</travelSkill>
+<travelSkill identifier="1879466254" name="Sail to the Mirk-eaves" category="102" iconId="1091617981" description="key:621077806:228830419">
+<position region="2" longitude="-61.24568" latitude="-15.295977"/>
 <effect id="1879474971" name="Sail to Mirk-eaves"/>
-</skill>
-<skill identifier="1879466255" name="Sail to Tinnudir" category="102" iconId="1092908291" description="key:621077805:228830419">
+</travelSkill>
+<travelSkill identifier="1879466255" name="Sail to Tinnudir" category="102" iconId="1092908291" description="key:621077805:228830419">
+<position region="1" longitude="-67.53032" latitude="-12.594209"/>
 <effect id="1879474976" name="Sail to Evendim"/>
-</skill>
+</travelSkill>
 <skill identifier="1879466256" name="Sea Legs" category="163" iconId="1092825085" description="key:621077810:228830419">
 <effect id="1879157709" name="Exits Daze, Fear, Stun, Conjunction Stun, Knockdown and Knockout combat states."/>
 </skill>
@@ -31670,9 +31839,10 @@
 <skill identifier="1879466261" name="Volatile Salts" category="162" iconId="1092825113" description="key:621077790:228830419">
 <effect id="1879467749" name="Induce Dazed"/>
 </skill>
-<skill identifier="1879466263" name="Sail to Dol Amroth" category="102" iconId="1091917530" description="key:621077799:228830419">
+<travelSkill identifier="1879466263" name="Sail to Dol Amroth" category="102" iconId="1091917530" description="key:621077799:228830419">
+<position region="3" longitude="-69.81865" latitude="-75.65264"/>
 <effect id="1879474970" name="Sail to Dol Amroth"/>
-</skill>
+</travelSkill>
 <skill identifier="1879466264" name="Feint" category="159" iconId="1092825110" description="key:621077819:228830419">
 <effect id="1879467325" name="Swordplay: Feint" type="USER"/>
 </skill>
@@ -31681,23 +31851,27 @@
 <effect id="1879474598"/>
 <effect id="1879467342" name="Swordplay: Riposte" type="USER"/>
 </skill>
-<skill identifier="1879466266" name="Sail to Buckland" category="102" iconId="1092908292" description="key:621077794:228830419">
+<travelSkill identifier="1879466266" name="Sail to Buckland" category="102" iconId="1092908292" description="key:621077794:228830419">
+<position region="1" longitude="-62.77712" latitude="-31.852821"/>
 <effect id="1879466219" name="Sail to Buckland"/>
-</skill>
-<skill identifier="1879466267" name="Sail to Pelargir" category="102" iconId="1092819257" description="key:621077808:228830419">
+</travelSkill>
+<travelSkill identifier="1879466267" name="Sail to Pelargir" category="102" iconId="1092819257" description="key:621077808:228830419">
+<position region="4" longitude="-34.779667" latitude="-84.71559"/>
 <effect id="1879474975" name="Sail to Pelargir"/>
-</skill>
-<skill identifier="1879466268" name="Sail to Sûri-kylä" category="102" iconId="1092754621" description="key:621077807:228830419">
+</travelSkill>
+<travelSkill identifier="1879466268" name="Sail to Sûri-kylä" category="102" iconId="1092754621" description="key:621077807:228830419">
+<position region="1" longitude="-70.2618" latitude="19.055195"/>
 <effect id="1879474968" name="Sail to Forochel"/>
-</skill>
+</travelSkill>
 <skill identifier="1879466269" name="Advance" category="159" iconId="1092825109" description="key:621077813:228830419">
 <effect id="1879467658" name="Attacker's Advantage"/>
 <effect id="1879467756" name="Induce Stunned"/>
 <effect id="1879467358" name="Swordplay: Advance" type="USER"/>
 </skill>
-<skill identifier="1879466270" name="Sail to Lothlórien" category="102" iconId="1092337491" description="key:621077817:228830419">
+<travelSkill identifier="1879466270" name="Sail to Lothlórien" category="102" iconId="1092337491" description="key:621077817:228830419">
+<position region="2" longitude="-64.5818" latitude="-17.58541"/>
 <effect id="1879466234" name="Sail to Lothlórien"/>
-</skill>
+</travelSkill>
 <skill identifier="1879466271" name="Disengage" category="163" iconId="1092825090" description="key:621077797:228830419">
 <effect id="1879467322" name="Disengage"/>
 <effect id="1879467317" name="Disengage Speed"/>
@@ -31705,12 +31879,14 @@
 <effect id="1879467683" name="AoE Disengage Heal"/>
 <effect id="1879467519" name="A finisher has just been used." type="USER"/>
 </skill>
-<skill identifier="1879466272" name="Sail to Tharbad" category="102" iconId="1092908289" description="key:621077814:228830419">
+<travelSkill identifier="1879466272" name="Sail to Tharbad" category="102" iconId="1092908289" description="key:621077814:228830419">
+<position region="1" longitude="-40.249706" latitude="-54.254314"/>
 <effect id="1879466231" name="Sail to Sarn Ford"/>
-</skill>
-<skill identifier="1879466273" name="Sail to Snowbourn" category="102" iconId="1091755679" description="key:621077788:228830419">
+</travelSkill>
+<travelSkill identifier="1879466273" name="Sail to Snowbourn" category="102" iconId="1091755679" description="key:621077788:228830419">
+<position region="2" longitude="-61.29196" latitude="-60.486717"/>
 <effect id="1879474972" name="Sail to East Rohan"/>
-</skill>
+</travelSkill>
 <skill identifier="1879466274" name="Cut-over" category="159" iconId="1092825084" description="key:621077800:228830419">
 <effect id="1879467336" name="Swordplay: Cut-over" type="USER"/>
 </skill>
@@ -32025,9 +32201,10 @@
 <effect id="1879315121" name="DNT - Weakened"/>
 <effect id="1879320043" name="DNT - IA Give Back" type="USER"/>
 </skill>
-<skill identifier="1879469361" name="Return to Lyndelby" category="102" iconId="1092833771" description="key:621080331:228830419">
+<travelSkill identifier="1879469361" name="Return to Lyndelby" category="102" iconId="1092833771" description="key:621080331:228830419">
+<position region="2" longitude="-65.48695" latitude="26.519188"/>
 <effect id="1879469360" name="River Hobbit Travel to Lyndelby"/>
-</skill>
+</travelSkill>
 <skill identifier="1879469362" name="Elusive Catch" category="56" iconId="1092833770" description="key:621080332:228830419">
 <effect id="1879469363" name="Elusive Catch"/>
 </skill>
@@ -32157,72 +32334,94 @@
 <skill identifier="1879475861" name="Irritating Chills" iconId="1090522259">
 <effect id="1879475860" name="Fever and Chills"/>
 </skill>
-<skill identifier="1879475966" name="Journey to the Order of the Eagle" category="102" iconId="1092909415" description="key:621085332:228830419">
+<travelSkill identifier="1879475966" name="Journey to the Order of the Eagle" category="102" iconId="1092909415" description="key:621085332:228830419">
+<position region="5" longitude="-96.51584" latitude="-20.123466"/>
 <effect id="1879475936" name="Travel to the Order of the Eagle"/>
-</skill>
-<skill identifier="1879475967" name="Return to Umbar" category="102" iconId="1092909415" description="key:621085330:228830419">
+</travelSkill>
+<travelSkill identifier="1879475967" name="Return to Umbar" category="102" iconId="1092909415" description="key:621085330:228830419">
+<position region="5" longitude="-100.72491" latitude="-18.468252"/>
 <effect id="1879475959" name="Travel to Umbar"/>
-</skill>
-<skill identifier="1879475968" name="Return to Dol Amroth" category="102" iconId="1092909417" description="key:621085331:228830419">
+</travelSkill>
+<travelSkill identifier="1879475968" name="Return to Dol Amroth" category="102" iconId="1092909417" description="key:621085331:228830419">
+<position region="4" longitude="-72.441505" latitude="-75.45934"/>
 <effect id="1879475953" name="Travel to Dol Amroth"/>
-</skill>
-<skill identifier="1879475969" name="Return to Jax Phanâl" category="102" iconId="1092909416" description="key:621085327:228830419">
+</travelSkill>
+<travelSkill identifier="1879475969" name="Return to Jax Phanâl" category="102" iconId="1092909416" description="key:621085327:228830419">
+<position region="5" longitude="-114.68099" latitude="-14.458066"/>
 <effect id="1879475937" name="Travel to Jax Phanâl"/>
-</skill>
-<skill identifier="1879475970" name="Return to Halrax" category="102" iconId="1092909415" description="key:621085329:228830419">
+</travelSkill>
+<travelSkill identifier="1879475970" name="Return to Halrax" category="102" iconId="1092909415" description="key:621085329:228830419">
+<position region="5" longitude="-126.81104" latitude="-9.6792965"/>
 <effect id="1879475954" name="Travel to Halrax"/>
-</skill>
-<skill identifier="1879475971" name="Return to Lond Cirion" category="102" iconId="1092909418" description="key:621085326:228830419">
+</travelSkill>
+<travelSkill identifier="1879475971" name="Return to Lond Cirion" category="102" iconId="1092909418" description="key:621085326:228830419">
+<position region="4" longitude="-88.844864" latitude="-68.977325"/>
 <effect id="1879475948" name="Travel to Lond Cirion"/>
-</skill>
-<skill identifier="1879475972" name="Journey to the Ledger-keepers" category="102" iconId="1092909415" description="key:621085328:228830419">
+</travelSkill>
+<travelSkill identifier="1879475972" name="Journey to the Ledger-keepers" category="102" iconId="1092909415" description="key:621085328:228830419">
+<position region="5" longitude="-98.31304" latitude="-17.3692"/>
 <effect id="1879475952" name="Travel to the Ledger-keepers"/>
-</skill>
-<skill identifier="1879475980" name="Muster at Jax Phanâl" category="102" iconId="1092909416" description="key:621085345:228830419">
+</travelSkill>
+<travelSkill identifier="1879475980" name="Muster at Jax Phanâl" category="102" iconId="1092909416" description="key:621085345:228830419">
+<position region="5" longitude="-114.68099" latitude="-14.458066"/>
 <effect id="1879475960" name="Muster in Jax Phanâl"/>
-</skill>
-<skill identifier="1879475983" name="Muster at Umbar" category="102" iconId="1092909415" description="key:621085351:228830419">
+</travelSkill>
+<travelSkill identifier="1879475983" name="Muster at Umbar" category="102" iconId="1092909415" description="key:621085351:228830419">
+<position region="5" longitude="-100.72491" latitude="-18.468252"/>
 <effect id="1879475944" name="Muster in Umbar"/>
-</skill>
-<skill identifier="1879475984" name="Muster at Halrax" category="102" iconId="1092909415" description="key:621085349:228830419">
+</travelSkill>
+<travelSkill identifier="1879475984" name="Muster at Halrax" category="102" iconId="1092909415" description="key:621085349:228830419">
+<position region="5" longitude="-126.81104" latitude="-9.6792965"/>
 <effect id="1879475945" name="Muster in Halrax"/>
-</skill>
-<skill identifier="1879475985" name="Guide to Dol Amroth" category="102" iconId="1092909417" description="key:621085344:228830419">
+</travelSkill>
+<travelSkill identifier="1879475985" name="Guide to Dol Amroth" category="102" iconId="1092909417" description="key:621085344:228830419">
+<position region="4" longitude="-72.441505" latitude="-75.45934"/>
 <effect id="1879475939" name="Guide to Dol Amroth"/>
-</skill>
-<skill identifier="1879475986" name="Muster at Dol Amroth" category="102" iconId="1092909417" description="key:621085352:228830419">
+</travelSkill>
+<travelSkill identifier="1879475986" name="Muster at Dol Amroth" category="102" iconId="1092909417" description="key:621085352:228830419">
+<position region="4" longitude="-72.441505" latitude="-75.45934"/>
 <effect id="1879475951" name="Muster in Dol Amroth"/>
-</skill>
-<skill identifier="1879475987" name="Guide to Halrax" category="102" iconId="1092909415" description="key:621085347:228830419">
+</travelSkill>
+<travelSkill identifier="1879475987" name="Guide to Halrax" category="102" iconId="1092909415" description="key:621085347:228830419">
+<position region="5" longitude="-126.81104" latitude="-9.6792965"/>
 <effect id="1879475949" name="Guide to Halrax"/>
-</skill>
-<skill identifier="1879475989" name="Muster at Lond Cirion" category="102" iconId="1092909418" description="key:621085353:228830419">
+</travelSkill>
+<travelSkill identifier="1879475989" name="Muster at Lond Cirion" category="102" iconId="1092909418" description="key:621085353:228830419">
+<position region="4" longitude="-88.844864" latitude="-68.977325"/>
 <effect id="1879475940" name="Muster in Lond Cirion"/>
-</skill>
-<skill identifier="1879475991" name="Guide to Lond Cirion" category="102" iconId="1092909418" description="key:621085343:228830419">
+</travelSkill>
+<travelSkill identifier="1879475991" name="Guide to Lond Cirion" category="102" iconId="1092909418" description="key:621085343:228830419">
+<position region="4" longitude="-88.844864" latitude="-68.977325"/>
 <effect id="1879475943" name="Guide to Lond Cirion"/>
-</skill>
-<skill identifier="1879475992" name="Guide to Umbar" category="102" iconId="1092909415" description="key:621085346:228830419">
+</travelSkill>
+<travelSkill identifier="1879475992" name="Guide to Umbar" category="102" iconId="1092909415" description="key:621085346:228830419">
+<position region="5" longitude="-100.72491" latitude="-18.468252"/>
 <effect id="1879475958" name="Guide to Umbar"/>
-</skill>
-<skill identifier="1879475993" name="Guide to Jax Phanâl" category="102" iconId="1092909416" description="key:621085340:228830419">
+</travelSkill>
+<travelSkill identifier="1879475993" name="Guide to Jax Phanâl" category="102" iconId="1092909416" description="key:621085340:228830419">
+<position region="5" longitude="-114.68099" latitude="-14.458066"/>
 <effect id="1879475955" name="Guide to Jax Phanâl"/>
-</skill>
-<skill identifier="1879476155" name="Sail to Umbar" category="102" iconId="1092909415" description="key:621085517:228830419">
+</travelSkill>
+<travelSkill identifier="1879476155" name="Sail to Umbar" category="102" iconId="1092909415" description="key:621085517:228830419">
+<position region="5" longitude="-98.45025" latitude="-19.956356"/>
 <effect id="1879475935" name="Sail to Dol Umbar"/>
-</skill>
-<skill identifier="1879476157" name="Sail to Lond Cirion" category="102" iconId="1092909418" description="key:621085515:228830419">
+</travelSkill>
+<travelSkill identifier="1879476157" name="Sail to Lond Cirion" category="102" iconId="1092909418" description="key:621085515:228830419">
+<position region="4" longitude="-89.79957" latitude="-69.66798"/>
 <effect id="1879475941" name="Sail to Lond Cirion"/>
-</skill>
-<skill identifier="1879476160" name="Sail to Jax Phanâl" category="102" iconId="1092909416" description="key:621085511:228830419">
+</travelSkill>
+<travelSkill identifier="1879476160" name="Sail to Jax Phanâl" category="102" iconId="1092909416" description="key:621085511:228830419">
+<position region="5" longitude="-114.68099" latitude="-14.458066"/>
 <effect id="1879475950" name="Sail to Jax Phanâl"/>
-</skill>
-<skill identifier="1879476161" name="Sail to Dol Amroth" category="102" iconId="1092909417" description="key:621085518:228830419">
+</travelSkill>
+<travelSkill identifier="1879476161" name="Sail to Dol Amroth" category="102" iconId="1092909417" description="key:621085518:228830419">
+<position region="4" longitude="-69.37153" latitude="-74.841866"/>
 <effect id="1879475957" name="Sail to Dol Amroth"/>
-</skill>
-<skill identifier="1879476163" name="Sail to Halrax" category="102" iconId="1092909415" description="key:621085513:228830419">
+</travelSkill>
+<travelSkill identifier="1879476163" name="Sail to Halrax" category="102" iconId="1092909415" description="key:621085513:228830419">
+<position region="5" longitude="-126.81104" latitude="-9.6792965"/>
 <effect id="1879475946" name="Sail to Halrax"/>
-</skill>
+</travelSkill>
 <pet identifier="1879476796" name="Crocodile Hatchling" category="145" iconId="1092911444" initialName="key:621086023:33816677" sourceDescription="key:621086017:211796645" genus="14" species="27" subSpecies="132" description="key:621086017:228830419">
 <effect id="1879476809" type="TOGGLE"/>
 <effect id="1879476809" type="USER_TOGGLE"/>
@@ -32377,15 +32576,18 @@
 <effect id="1879479345" type="TOGGLE"/>
 <effect id="1879479345" type="USER_TOGGLE"/>
 </pet>
-<skill identifier="1879480303" name="Guide to the Bloody Eagle Tavern" category="102" iconId="1092909415" description="key:621088260:228830419">
+<travelSkill identifier="1879480303" name="Guide to the Bloody Eagle Tavern" category="102" iconId="1092909415" description="key:621088260:228830419">
+<position region="5" longitude="54.93951" latitude="73.78045"/>
 <effect id="1879480302" name="Guide to the Bloody Eagle Tavern"/>
-</skill>
-<skill identifier="1879480306" name="Return to the Bloody Eagle Tavern" category="102" iconId="1092909415" description="key:621088261:228830419">
+</travelSkill>
+<travelSkill identifier="1879480306" name="Return to the Bloody Eagle Tavern" category="102" iconId="1092909415" description="key:621088261:228830419">
+<position region="5" longitude="54.93951" latitude="73.78045"/>
 <effect id="1879480304" name="Travel to the Bloody Eagle Tavern"/>
-</skill>
-<skill identifier="1879480307" name="Muster at the Bloody Eagle Tavern" category="102" iconId="1092909415" description="key:621088266:228830419">
+</travelSkill>
+<travelSkill identifier="1879480307" name="Muster at the Bloody Eagle Tavern" category="102" iconId="1092909415" description="key:621088266:228830419">
+<position region="5" longitude="54.93951" latitude="73.78045"/>
 <effect id="1879480299" name="Muster to the Bloody Eagle Tavern"/>
-</skill>
+</travelSkill>
 <pet identifier="1879480615" name="Vivid Green Snake" category="145" iconId="1092933464" initialName="key:621088493:33816677" sourceDescription="key:621088523:211796645" genus="14" species="27" subSpecies="132" description="key:621088523:228830419">
 <effect id="1879480604" type="TOGGLE"/>
 <effect id="1879480604" type="USER_TOGGLE"/>
