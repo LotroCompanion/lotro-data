@@ -1698,10 +1698,27 @@
 <trait identifier="1879152924" name="Trusted in Caras Galadhon" iconId="1090535587" category="29" nature="1" cosmetic="true" tooltip="key:620837558:191029568" description="key:620837558:54354734"/>
 <trait identifier="1879152925" name="Trusted in Lothlórien" iconId="1090535587" category="29" nature="1" cosmetic="true" tooltip="key:620837559:191029568" description="key:620837559:54354734"/>
 <trait identifier="1879153111" name="Carving Use" iconId="1091547193" category="29" nature="1" cosmetic="true" tooltip="key:620837616:191029568" description="key:620837616:54354734"/>
-<trait identifier="1879154338" name="Heavy Armour Training" iconId="1091550750" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_armor_heavy_Rank" nature="11" tooltip="key:620838557:191029568" description="key:620838557:54354734"/>
-<trait identifier="1879154339" name="Light Armour Training" iconId="1091550770" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_armor_light_Rank" nature="11" tooltip="key:620838558:191029568" description="key:620838558:54354734"/>
-<trait identifier="1879154340" name="Medium Armour Training" iconId="1091550790" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_armor_medium_Rank" nature="11" tooltip="key:620838559:191029568" description="key:620838559:54354734"/>
-<trait identifier="1879154341" name="Shield Training" iconId="1091550890" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_avoid_block_Rank" nature="11" tooltip="key:620838560:191029568" description="key:620838560:54354734"/>
+<trait identifier="1879154338" name="Heavy Armour Training" iconId="1091550750" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_armor_heavy_Rank" nature="11" tooltip="key:620838557:191029568" description="key:620838557:54354734">
+<compoundPrerequisite operator="ONE_OF">
+<simplePrerequisite id="1879156209" name="Role: Protector"/>
+<simplePrerequisite id="1879156204" name="Role: Bannerguard"/>
+</compoundPrerequisite>
+</trait>
+<trait identifier="1879154339" name="Light Armour Training" iconId="1091550770" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_armor_light_Rank" nature="11" tooltip="key:620838558:191029568" description="key:620838558:54354734">
+<compoundPrerequisite operator="ONE_OF">
+<simplePrerequisite id="1879156205" name="Role: Herbalist"/>
+<simplePrerequisite id="1879156208" name="Role: Sage"/>
+</compoundPrerequisite>
+</trait>
+<trait identifier="1879154340" name="Medium Armour Training" iconId="1091550790" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_armor_medium_Rank" nature="11" tooltip="key:620838559:191029568" description="key:620838559:54354734">
+<compoundPrerequisite operator="ONE_OF">
+<simplePrerequisite id="1879156207" name="Role: Archer"/>
+<simplePrerequisite id="1879156206" name="Role: Warrior"/>
+</compoundPrerequisite>
+</trait>
+<trait identifier="1879154341" name="Shield Training" iconId="1091550890" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_avoid_block_Rank" nature="11" tooltip="key:620838560:191029568" description="key:620838560:54354734">
+<simplePrerequisite id="1879156209" name="Role: Protector"/>
+</trait>
 <trait identifier="1879154342" name="Evasion Training" iconId="1091550910" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_avoid_evade_Rank" nature="11" tooltip="key:620838561:191029568" description="key:620838561:54354734"/>
 <trait identifier="1879154343" name="Parry Training" iconId="1091550930" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_avoid_parry_Rank" nature="11" tooltip="key:620838562:191029568" description="key:620838562:54354734"/>
 <trait identifier="1879154345" name="Practised Critical" iconId="1091550970" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_criticathit_melee_Rank" nature="11" tooltip="key:620838564:191029568" description="key:620838564:54354734"/>
@@ -1733,36 +1750,96 @@
 <trait identifier="1879156209" name="Role: Protector" iconId="1091551270" staticIconOverlayId="1091575522" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_role_tank_Rank" nature="8" tooltip="key:620839908:191029568" description="key:620839908:54354734">
 <stat name="ForwardSource_Skirmish_RoleCombo" operator="SET" descriptionOverride="-" constant="90.0"/>
 </trait>
-<trait identifier="1879156210" name="Removed" iconId="1091551290" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" nature="9" tooltip="key:620839909:191029568" description="key:620839909:54354734"/>
-<trait identifier="1879156211" name="Cry of the Enduring" iconId="1091551310" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_buff_morearmor_Rank" nature="9" tooltip="key:620839910:191029568" description="key:620839910:54354734"/>
-<trait identifier="1879156212" name="Inspired Retaliation" iconId="1091551330" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_buff_reflect_Rank" nature="9" tooltip="key:620839911:191029568" description="key:620839911:54354734"/>
-<trait identifier="1879156213" name="Nature's Cure" iconId="1091551350" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_heal_HoT_Rank" nature="9" tooltip="key:620839912:191029568" description="key:620839912:54354734"/>
-<trait identifier="1879156214" name="Refreshing Herbs" iconId="1091551370" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_heal_morale_weak_Rank" nature="9" tooltip="key:620839913:191029568" description="key:620839913:54354734"/>
-<trait identifier="1879156215" name="Nature's Power" iconId="1091551390" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_heal_PoT_Rank" nature="9" tooltip="key:620839914:191029568" description="key:620839914:54354734"/>
-<trait identifier="1879156216" name="Strong Sweep" iconId="1091551410" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_melee_aoe_strong_Rank" nature="9" tooltip="key:620839915:191029568" description="key:620839915:54354734"/>
-<trait identifier="1879156217" name="Quick Sweep" iconId="1091551430" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_melee_aoe_weak_Rank" nature="9" tooltip="key:620839916:191029568" description="key:620839916:54354734"/>
-<trait identifier="1879156218" name="Forceful Strike" iconId="1091551450" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_melee_bighit_Rank" nature="9" tooltip="key:620839917:191029568" description="key:620839917:54354734"/>
-<trait identifier="1879156219" name="Deadly Shot" iconId="1091551470" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_ranged_bighit_Rank" nature="9" tooltip="key:620839918:191029568" description="key:620839918:54354734"/>
-<trait identifier="1879156220" name="Removed" iconId="1091551490" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" nature="9" tooltip="key:620839919:191029568" description="key:620839919:54354734"/>
-<trait identifier="1879156221" name="Pinpoint Shot" iconId="1091551510" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_ranged_critshot_Rank" nature="9" tooltip="key:620839920:191029568" description="key:620839920:54354734"/>
-<trait identifier="1879156222" name="Chilling Winds" iconId="1091551530" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tactical_aoe_slow_Rank" nature="9" tooltip="key:620839921:191029568" description="key:620839921:54354734"/>
-<trait identifier="1879156223" name="Removed" iconId="1091551550" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" nature="9" tooltip="key:620839922:191029568" description="key:620839922:54354734"/>
-<trait identifier="1879156224" name="Word of Battle" iconId="1091551570" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tactical_bighit_Rank" nature="9" tooltip="key:620839923:191029568" description="key:620839923:54354734"/>
-<trait identifier="1879156225" name="Threatening Riposte" iconId="1091551590" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tank_reactivetaunt_Rank" nature="9" tooltip="key:620839924:191029568" description="key:620839924:54354734"/>
-<trait identifier="1879156226" name="Self-reliance" iconId="1091551610" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tank_selfheal_Rank" nature="9" tooltip="key:620839925:191029568" description="key:620839925:54354734"/>
-<trait identifier="1879156227" name="Taunting Strike" iconId="1091551630" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tank_tauntstrike_Rank" nature="9" tooltip="key:620839926:191029568" description="key:620839926:54354734"/>
-<trait identifier="1879156228" name="Ultimate: Banner of Protection" iconId="1091551650" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_buff_armorbypassaura_Rank" nature="9" tooltip="key:620839927:191029568" description="key:620839927:54354734"/>
-<trait identifier="1879156229" name="Ultimate: Banner of Precision" iconId="1091551670" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_buff_critaura_Rank" nature="9" tooltip="key:620839928:191029568" description="key:620839928:54354734"/>
-<trait identifier="1879156230" name="Ultimate: Words of Healing" iconId="1091551690" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_heal_AOE_HoT_Rank" nature="9" tooltip="key:620839929:191029568" description="key:620839929:54354734"/>
-<trait identifier="1879156231" name="Ultimate: Words of Power" iconId="1091551710" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_heal_AOE_PoT_Rank" nature="9" tooltip="key:620839930:191029568" description="key:620839930:54354734"/>
-<trait identifier="1879156232" name="Ultimate: Blood-seeker" iconId="1091551730" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_melee_AOEbleed_Rank" nature="9" tooltip="key:620839931:191029568" description="key:620839931:54354734"/>
-<trait identifier="1879156233" name="Ultimate: Berserker" iconId="1091551750" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_melee_breserk_Rank" nature="9" tooltip="key:620839932:191029568" description="key:620839932:54354734"/>
-<trait identifier="1879156234" name="Ultimate: Wound-seeker" iconId="1091551770" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_ranged_bigbleed_Rank" nature="9" tooltip="key:620839933:191029568" description="key:620839933:54354734"/>
-<trait identifier="1879156235" name="Ultimate: Bold Arrow" iconId="1091551790" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_ranged_sniperseye_Rank" nature="9" tooltip="key:620839934:191029568" description="key:620839934:54354734"/>
-<trait identifier="1879156236" name="Ultimate: Word of Flame" iconId="1091551810" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_tactical_bignuke_Rank" nature="9" tooltip="key:620839935:191029568" description="key:620839935:54354734"/>
-<trait identifier="1879156237" name="Ultimate: Word of Frost" iconId="1091551830" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_tactical_nukedebuff_Rank" nature="9" tooltip="key:620839936:191029568" description="key:620839936:54354734"/>
-<trait identifier="1879156238" name="Ultimate: Defender of All" iconId="1091551850" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_tank_AOEforce_Rank" nature="9" tooltip="key:620839937:191029568" description="key:620839937:54354734"/>
-<trait identifier="1879156239" name="Ultimate: Solitary Defender" iconId="1091551870" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_tank_force_Rank" nature="9" tooltip="key:620839938:191029568" description="key:620839938:54354734"/>
+<trait identifier="1879156210" name="Removed" iconId="1091551290" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" nature="9" tooltip="key:620839909:191029568" description="key:620839909:54354734">
+<simplePrerequisite id="1879156204" name="Role: Bannerguard"/>
+</trait>
+<trait identifier="1879156211" name="Cry of the Enduring" iconId="1091551310" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_buff_morearmor_Rank" nature="9" tooltip="key:620839910:191029568" description="key:620839910:54354734">
+<simplePrerequisite id="1879156204" name="Role: Bannerguard"/>
+</trait>
+<trait identifier="1879156212" name="Inspired Retaliation" iconId="1091551330" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_buff_reflect_Rank" nature="9" tooltip="key:620839911:191029568" description="key:620839911:54354734">
+<simplePrerequisite id="1879156204" name="Role: Bannerguard"/>
+</trait>
+<trait identifier="1879156213" name="Nature's Cure" iconId="1091551350" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_heal_HoT_Rank" nature="9" tooltip="key:620839912:191029568" description="key:620839912:54354734">
+<simplePrerequisite id="1879156205" name="Role: Herbalist"/>
+</trait>
+<trait identifier="1879156214" name="Refreshing Herbs" iconId="1091551370" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_heal_morale_weak_Rank" nature="9" tooltip="key:620839913:191029568" description="key:620839913:54354734">
+<simplePrerequisite id="1879156205" name="Role: Herbalist"/>
+</trait>
+<trait identifier="1879156215" name="Nature's Power" iconId="1091551390" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_heal_PoT_Rank" nature="9" tooltip="key:620839914:191029568" description="key:620839914:54354734">
+<simplePrerequisite id="1879156205" name="Role: Herbalist"/>
+</trait>
+<trait identifier="1879156216" name="Strong Sweep" iconId="1091551410" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_melee_aoe_strong_Rank" nature="9" tooltip="key:620839915:191029568" description="key:620839915:54354734">
+<simplePrerequisite id="1879156206" name="Role: Warrior"/>
+</trait>
+<trait identifier="1879156217" name="Quick Sweep" iconId="1091551430" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_melee_aoe_weak_Rank" nature="9" tooltip="key:620839916:191029568" description="key:620839916:54354734">
+<simplePrerequisite id="1879156206" name="Role: Warrior"/>
+</trait>
+<trait identifier="1879156218" name="Forceful Strike" iconId="1091551450" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_melee_bighit_Rank" nature="9" tooltip="key:620839917:191029568" description="key:620839917:54354734">
+<simplePrerequisite id="1879156206" name="Role: Warrior"/>
+</trait>
+<trait identifier="1879156219" name="Deadly Shot" iconId="1091551470" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_ranged_bighit_Rank" nature="9" tooltip="key:620839918:191029568" description="key:620839918:54354734">
+<simplePrerequisite id="1879156207" name="Role: Archer"/>
+</trait>
+<trait identifier="1879156220" name="Removed" iconId="1091551490" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" nature="9" tooltip="key:620839919:191029568" description="key:620839919:54354734">
+<simplePrerequisite id="1879156207" name="Role: Archer"/>
+</trait>
+<trait identifier="1879156221" name="Pinpoint Shot" iconId="1091551510" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_ranged_critshot_Rank" nature="9" tooltip="key:620839920:191029568" description="key:620839920:54354734">
+<simplePrerequisite id="1879156207" name="Role: Archer"/>
+</trait>
+<trait identifier="1879156222" name="Chilling Winds" iconId="1091551530" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tactical_aoe_slow_Rank" nature="9" tooltip="key:620839921:191029568" description="key:620839921:54354734">
+<simplePrerequisite id="1879156208" name="Role: Sage"/>
+</trait>
+<trait identifier="1879156223" name="Removed" iconId="1091551550" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" nature="9" tooltip="key:620839922:191029568" description="key:620839922:54354734">
+<simplePrerequisite id="1879156208" name="Role: Sage"/>
+</trait>
+<trait identifier="1879156224" name="Word of Battle" iconId="1091551570" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tactical_bighit_Rank" nature="9" tooltip="key:620839923:191029568" description="key:620839923:54354734">
+<simplePrerequisite id="1879156208" name="Role: Sage"/>
+</trait>
+<trait identifier="1879156225" name="Threatening Riposte" iconId="1091551590" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tank_reactivetaunt_Rank" nature="9" tooltip="key:620839924:191029568" description="key:620839924:54354734">
+<simplePrerequisite id="1879156209" name="Role: Protector"/>
+</trait>
+<trait identifier="1879156226" name="Self-reliance" iconId="1091551610" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tank_selfheal_Rank" nature="9" tooltip="key:620839925:191029568" description="key:620839925:54354734">
+<simplePrerequisite id="1879156209" name="Role: Protector"/>
+</trait>
+<trait identifier="1879156227" name="Taunting Strike" iconId="1091551630" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tank_tauntstrike_Rank" nature="9" tooltip="key:620839926:191029568" description="key:620839926:54354734">
+<simplePrerequisite id="1879156209" name="Role: Protector"/>
+</trait>
+<trait identifier="1879156228" name="Ultimate: Banner of Protection" iconId="1091551650" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_buff_armorbypassaura_Rank" nature="9" tooltip="key:620839927:191029568" description="key:620839927:54354734">
+<simplePrerequisite id="1879156204" name="Role: Bannerguard"/>
+</trait>
+<trait identifier="1879156229" name="Ultimate: Banner of Precision" iconId="1091551670" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_buff_critaura_Rank" nature="9" tooltip="key:620839928:191029568" description="key:620839928:54354734">
+<simplePrerequisite id="1879156204" name="Role: Bannerguard"/>
+</trait>
+<trait identifier="1879156230" name="Ultimate: Words of Healing" iconId="1091551690" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_heal_AOE_HoT_Rank" nature="9" tooltip="key:620839929:191029568" description="key:620839929:54354734">
+<simplePrerequisite id="1879156205" name="Role: Herbalist"/>
+</trait>
+<trait identifier="1879156231" name="Ultimate: Words of Power" iconId="1091551710" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_heal_AOE_PoT_Rank" nature="9" tooltip="key:620839930:191029568" description="key:620839930:54354734">
+<simplePrerequisite id="1879156205" name="Role: Herbalist"/>
+</trait>
+<trait identifier="1879156232" name="Ultimate: Blood-seeker" iconId="1091551730" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_melee_AOEbleed_Rank" nature="9" tooltip="key:620839931:191029568" description="key:620839931:54354734">
+<simplePrerequisite id="1879156206" name="Role: Warrior"/>
+</trait>
+<trait identifier="1879156233" name="Ultimate: Berserker" iconId="1091551750" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_melee_breserk_Rank" nature="9" tooltip="key:620839932:191029568" description="key:620839932:54354734">
+<simplePrerequisite id="1879156206" name="Role: Warrior"/>
+</trait>
+<trait identifier="1879156234" name="Ultimate: Wound-seeker" iconId="1091551770" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_ranged_bigbleed_Rank" nature="9" tooltip="key:620839933:191029568" description="key:620839933:54354734">
+<simplePrerequisite id="1879156207" name="Role: Archer"/>
+</trait>
+<trait identifier="1879156235" name="Ultimate: Bold Arrow" iconId="1091551790" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_ranged_sniperseye_Rank" nature="9" tooltip="key:620839934:191029568" description="key:620839934:54354734">
+<simplePrerequisite id="1879156207" name="Role: Archer"/>
+</trait>
+<trait identifier="1879156236" name="Ultimate: Word of Flame" iconId="1091551810" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_tactical_bignuke_Rank" nature="9" tooltip="key:620839935:191029568" description="key:620839935:54354734">
+<simplePrerequisite id="1879156208" name="Role: Sage"/>
+</trait>
+<trait identifier="1879156237" name="Ultimate: Word of Frost" iconId="1091551830" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_tactical_nukedebuff_Rank" nature="9" tooltip="key:620839936:191029568" description="key:620839936:54354734">
+<simplePrerequisite id="1879156208" name="Role: Sage"/>
+</trait>
+<trait identifier="1879156238" name="Ultimate: Defender of All" iconId="1091551850" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_tank_AOEforce_Rank" nature="9" tooltip="key:620839937:191029568" description="key:620839937:54354734">
+<simplePrerequisite id="1879156209" name="Role: Protector"/>
+</trait>
+<trait identifier="1879156239" name="Ultimate: Solitary Defender" iconId="1091551870" staticIconOverlayId="1091575523" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_ultimate_tank_force_Rank" nature="9" tooltip="key:620839938:191029568" description="key:620839938:54354734">
+<simplePrerequisite id="1879156209" name="Role: Protector"/>
+</trait>
 <trait identifier="1879156240" name="Boundless Resolve" iconId="1091551910" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_vital_moraleandpower_Rank" nature="11" tooltip="key:620839939:191029568" description="key:620839939:54354734"/>
 <trait identifier="1879157108" name="Travel Discount" iconId="1091552099" category="93" nature="1" tooltip="key:620840544:191029568" description="key:620840544:54354734"/>
 <trait identifier="1879161292" name="Mount Discount" iconId="1091564779" category="93" nature="1" tooltip="key:620843059:191029568" description="key:620843059:54354734">
@@ -1773,31 +1850,87 @@
 <stat name="Conjunction_ChainProtectionInterval" operator="SET" descriptionOverride="-" constant="60.0"/>
 </trait>
 <trait identifier="1879162928" name="Resilient Body" iconId="1091577143" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_incomminghealing_Rank" nature="11" tooltip="key:620844112:191029568" description="key:620844112:54354734"/>
-<trait identifier="1879162929" name="Physical Potency" iconId="1091577144" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_melee_auto_attack_Rank" nature="11" tooltip="key:620844113:191029568" description="key:620844113:54354734"/>
+<trait identifier="1879162929" name="Physical Potency" iconId="1091577144" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_melee_auto_attack_Rank" nature="11" tooltip="key:620844113:191029568" description="key:620844113:54354734">
+<compoundPrerequisite operator="ONE_OF">
+<simplePrerequisite id="1879156209" name="Role: Protector"/>
+<simplePrerequisite id="1879156204" name="Role: Bannerguard"/>
+<simplePrerequisite id="1879156206" name="Role: Warrior"/>
+<simplePrerequisite id="1879156207" name="Role: Archer"/>
+</compoundPrerequisite>
+</trait>
 <trait identifier="1879162930" name="Physical Resilience" iconId="1091577145" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_melee_vulnerability_Rank" nature="11" tooltip="key:620844114:191029568" description="key:620844114:54354734"/>
 <trait identifier="1879162931" name="Battle-field Finesse" iconId="1091577146" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_penetrate_defense_Rank" nature="11" tooltip="key:620844115:191029568" description="key:620844115:54354734"/>
-<trait identifier="1879162936" name="Summon the Foe" iconId="1091577151" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_buff_aoetaunt_Rank" nature="9" tooltip="key:620844120:191029568" description="key:620844120:54354734"/>
-<trait identifier="1879162937" name="Potent Strike" iconId="1091577152" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_buff_bigstrike_Rank" nature="9" tooltip="key:620844121:191029568" description="key:620844121:54354734"/>
-<trait identifier="1879162938" name="Inspiring Shout" iconId="1091576840" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_buff_hot_Rank" nature="9" tooltip="key:620844122:191029568" description="key:620844122:54354734"/>
-<trait identifier="1879162939" name="Bold Strike" iconId="1091577153" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_buff_threatstrike_Rank" nature="9" tooltip="key:620844123:191029568" description="key:620844123:54354734"/>
-<trait identifier="1879162940" name="Salve of Resolve" iconId="1091576841" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_heal_bpeheal_Rank" nature="9" tooltip="key:620844124:191029568" description="key:620844124:54354734"/>
-<trait identifier="1879162941" name="Herbs of Boundless Endurance" iconId="1091576842" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_heal_healbuffhot_Rank" nature="9" tooltip="key:620844125:191029568" description="key:620844125:54354734"/>
-<trait identifier="1879162942" name="Strengthening Draught" iconId="1091576843" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_heal_vulnerabilitybuff_Rank" nature="9" tooltip="key:620844126:191029568" description="key:620844126:54354734"/>
-<trait identifier="1879162943" name="Disarming Strikes" iconId="1091576844" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_melee_aoedisable_Rank" nature="9" tooltip="key:620844127:191029568" description="key:620844127:54354734"/>
-<trait identifier="1879162944" name="Whirling Wounds" iconId="1091576845" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_melee_aoerend_Rank" nature="9" tooltip="key:620844128:191029568" description="key:620844128:54354734"/>
-<trait identifier="1879162945" name="Carving Strike" iconId="1091576846" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_melee_dotstrike_Rank" nature="9" tooltip="key:620844129:191029568" description="key:620844129:54354734"/>
-<trait identifier="1879162946" name="Distracting Shot" iconId="1091577154" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_ranged_detauntshot_Rank" nature="9" tooltip="key:620844130:191029568" description="key:620844130:54354734"/>
-<trait identifier="1879162947" name="Marking Arrow" iconId="1091576847" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_ranged_markshot_Rank" nature="9" tooltip="key:620844131:191029568" description="key:620844131:54354734"/>
-<trait identifier="1879162948" name="Refocus" iconId="1091577155" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_ranged_powerrestore_Rank" nature="9" tooltip="key:620844132:191029568" description="key:620844132:54354734"/>
-<trait identifier="1879162949" name="Wounding Arrow" iconId="1091576839" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_ranged_stackingdot_Rank" nature="9" tooltip="key:620844133:191029568" description="key:620844133:54354734"/>
-<trait identifier="1879162950" name="Oil of the Dragon's Rage" iconId="1091577156" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tactical_aoenuke_Rank" nature="9" tooltip="key:620844134:191029568" description="key:620844134:54354734"/>
-<trait identifier="1879162951" name="Weakening Draught" iconId="1091576848" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tactical_aoeresistancedebuff_Rank" nature="9" tooltip="key:620844135:191029568" description="key:620844135:54354734"/>
-<trait identifier="1879162952" name="Fire of the Wise" iconId="1091576849" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tactical_damagedebuffnuke_Rank" nature="9" tooltip="key:620844136:191029568" description="key:620844136:54354734"/>
-<trait identifier="1879162953" name="Tanglefoot" iconId="1091577157" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tactical_rootnuke_Rank" nature="9" tooltip="key:620844137:191029568" description="key:620844137:54354734"/>
-<trait identifier="1879162954" name="Threatening Shout" iconId="1091577158" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tank_aoeshout_Rank" nature="9" tooltip="key:620844138:191029568" description="key:620844138:54354734"/>
-<trait identifier="1879162955" name="Whirl of Fury" iconId="1091577159" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tank_aoetauntstrike_Rank" nature="9" tooltip="key:620844139:191029568" description="key:620844139:54354734"/>
-<trait identifier="1879162956" name="Defender's Strike" iconId="1091577160" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tank_bighit_Rank" nature="9" tooltip="key:620844140:191029568" description="key:620844140:54354734"/>
-<trait identifier="1879162957" name="Tactical Potency" iconId="1091577161" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_tactical_auto_attack_Rank" nature="11" tooltip="key:620844141:191029568" description="key:620844141:54354734"/>
+<trait identifier="1879162936" name="Summon the Foe" iconId="1091577151" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_buff_aoetaunt_Rank" nature="9" tooltip="key:620844120:191029568" description="key:620844120:54354734">
+<simplePrerequisite id="1879156204" name="Role: Bannerguard"/>
+</trait>
+<trait identifier="1879162937" name="Potent Strike" iconId="1091577152" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_buff_bigstrike_Rank" nature="9" tooltip="key:620844121:191029568" description="key:620844121:54354734">
+<simplePrerequisite id="1879156204" name="Role: Bannerguard"/>
+</trait>
+<trait identifier="1879162938" name="Inspiring Shout" iconId="1091576840" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_buff_hot_Rank" nature="9" tooltip="key:620844122:191029568" description="key:620844122:54354734">
+<simplePrerequisite id="1879156204" name="Role: Bannerguard"/>
+</trait>
+<trait identifier="1879162939" name="Bold Strike" iconId="1091577153" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_buff_threatstrike_Rank" nature="9" tooltip="key:620844123:191029568" description="key:620844123:54354734">
+<simplePrerequisite id="1879156204" name="Role: Bannerguard"/>
+</trait>
+<trait identifier="1879162940" name="Salve of Resolve" iconId="1091576841" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_heal_bpeheal_Rank" nature="9" tooltip="key:620844124:191029568" description="key:620844124:54354734">
+<simplePrerequisite id="1879156205" name="Role: Herbalist"/>
+</trait>
+<trait identifier="1879162941" name="Herbs of Boundless Endurance" iconId="1091576842" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_heal_healbuffhot_Rank" nature="9" tooltip="key:620844125:191029568" description="key:620844125:54354734">
+<simplePrerequisite id="1879156205" name="Role: Herbalist"/>
+</trait>
+<trait identifier="1879162942" name="Strengthening Draught" iconId="1091576843" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_heal_vulnerabilitybuff_Rank" nature="9" tooltip="key:620844126:191029568" description="key:620844126:54354734">
+<simplePrerequisite id="1879156205" name="Role: Herbalist"/>
+</trait>
+<trait identifier="1879162943" name="Disarming Strikes" iconId="1091576844" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_melee_aoedisable_Rank" nature="9" tooltip="key:620844127:191029568" description="key:620844127:54354734">
+<simplePrerequisite id="1879156206" name="Role: Warrior"/>
+</trait>
+<trait identifier="1879162944" name="Whirling Wounds" iconId="1091576845" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_melee_aoerend_Rank" nature="9" tooltip="key:620844128:191029568" description="key:620844128:54354734">
+<simplePrerequisite id="1879156206" name="Role: Warrior"/>
+</trait>
+<trait identifier="1879162945" name="Carving Strike" iconId="1091576846" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_melee_dotstrike_Rank" nature="9" tooltip="key:620844129:191029568" description="key:620844129:54354734">
+<simplePrerequisite id="1879156206" name="Role: Warrior"/>
+</trait>
+<trait identifier="1879162946" name="Distracting Shot" iconId="1091577154" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_ranged_detauntshot_Rank" nature="9" tooltip="key:620844130:191029568" description="key:620844130:54354734">
+<simplePrerequisite id="1879156207" name="Role: Archer"/>
+</trait>
+<trait identifier="1879162947" name="Marking Arrow" iconId="1091576847" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_ranged_markshot_Rank" nature="9" tooltip="key:620844131:191029568" description="key:620844131:54354734">
+<simplePrerequisite id="1879156207" name="Role: Archer"/>
+</trait>
+<trait identifier="1879162948" name="Refocus" iconId="1091577155" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_ranged_powerrestore_Rank" nature="9" tooltip="key:620844132:191029568" description="key:620844132:54354734">
+<simplePrerequisite id="1879156207" name="Role: Archer"/>
+</trait>
+<trait identifier="1879162949" name="Wounding Arrow" iconId="1091576839" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_ranged_stackingdot_Rank" nature="9" tooltip="key:620844133:191029568" description="key:620844133:54354734">
+<simplePrerequisite id="1879156207" name="Role: Archer"/>
+</trait>
+<trait identifier="1879162950" name="Oil of the Dragon's Rage" iconId="1091577156" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tactical_aoenuke_Rank" nature="9" tooltip="key:620844134:191029568" description="key:620844134:54354734">
+<simplePrerequisite id="1879156208" name="Role: Sage"/>
+</trait>
+<trait identifier="1879162951" name="Weakening Draught" iconId="1091576848" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tactical_aoeresistancedebuff_Rank" nature="9" tooltip="key:620844135:191029568" description="key:620844135:54354734">
+<simplePrerequisite id="1879156208" name="Role: Sage"/>
+</trait>
+<trait identifier="1879162952" name="Fire of the Wise" iconId="1091576849" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tactical_damagedebuffnuke_Rank" nature="9" tooltip="key:620844136:191029568" description="key:620844136:54354734">
+<simplePrerequisite id="1879156208" name="Role: Sage"/>
+</trait>
+<trait identifier="1879162953" name="Tanglefoot" iconId="1091577157" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tactical_rootnuke_Rank" nature="9" tooltip="key:620844137:191029568" description="key:620844137:54354734">
+<simplePrerequisite id="1879156208" name="Role: Sage"/>
+</trait>
+<trait identifier="1879162954" name="Threatening Shout" iconId="1091577158" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tank_aoeshout_Rank" nature="9" tooltip="key:620844138:191029568" description="key:620844138:54354734">
+<simplePrerequisite id="1879156209" name="Role: Protector"/>
+</trait>
+<trait identifier="1879162955" name="Whirl of Fury" iconId="1091577159" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tank_aoetauntstrike_Rank" nature="9" tooltip="key:620844139:191029568" description="key:620844139:54354734">
+<simplePrerequisite id="1879156209" name="Role: Protector"/>
+</trait>
+<trait identifier="1879162956" name="Defender's Strike" iconId="1091577160" staticIconOverlayId="1091575519" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_skill_tank_bighit_Rank" nature="9" tooltip="key:620844140:191029568" description="key:620844140:54354734">
+<simplePrerequisite id="1879156209" name="Role: Protector"/>
+</trait>
+<trait identifier="1879162957" name="Tactical Potency" iconId="1091577161" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_tactical_auto_attack_Rank" nature="11" tooltip="key:620844141:191029568" description="key:620844141:54354734">
+<compoundPrerequisite operator="ONE_OF">
+<simplePrerequisite id="1879156208" name="Role: Sage"/>
+<simplePrerequisite id="1879156205" name="Role: Herbalist"/>
+<simplePrerequisite id="1879156204" name="Role: Bannerguard"/>
+<simplePrerequisite id="1879156209" name="Role: Protector"/>
+</compoundPrerequisite>
+</trait>
 <trait identifier="1879162958" name="Tactical Resilience" iconId="1091577162" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_tactical_vulnerability_Rank" nature="11" tooltip="key:620844142:191029568" description="key:620844142:54354734"/>
 <trait identifier="1879163315" name="Critical Defence" iconId="1091570592" category="21" nature="1" tooltip="key:620844371:191029568" description="key:620844371:54354734">
 <stat name="CRITICAL_DEFENCE" scaling="1879446021"/>
@@ -1808,59 +1941,165 @@
 <trait identifier="1879163317" name="Critical Defence" iconId="1091570592" category="21" nature="1" tooltip="key:620844372:191029568" description="key:620844372:54354734">
 <stat name="CRITICAL_DEFENCE" scaling="1879211644"/>
 </trait>
-<trait identifier="1879173716" name="Hair Colour: Red" iconId="1091581481" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_color_red_rank" nature="8" tooltip="key:620853041:191029568" description="key:620853041:54354734"/>
-<trait identifier="1879173725" name="Hair Colour: Black" iconId="1091581489" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_hair_color_black_rank" nature="8" tooltip="key:620853002:191029568" description="key:620853002:54354734"/>
-<trait identifier="1879173726" name="Long Hair - Thick Beard" iconId="1091581498" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_style_d_rank" nature="8" tooltip="key:620852952:191029568" description="key:620852952:54354734"/>
-<trait identifier="1879173735" name="Hair Colour: Red" iconId="1091581473" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_color_red_rank" nature="8" tooltip="key:620853090:191029568" description="key:620853090:54354734"/>
-<trait identifier="1879173738" name="Hair Colour: White" iconId="1091581497" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_color_white_rank" nature="8" tooltip="key:620852985:191029568" description="key:620852985:54354734"/>
-<trait identifier="1879173747" name="Medium Hair - Flip Cut" iconId="1091581490" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_hair_style_flippy_rank" nature="8" tooltip="key:620853087:191029568" description="key:620853087:54354734"/>
-<trait identifier="1879173750" name="Hair Colour: White" iconId="1091581489" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_hair_color_white_rank" nature="8" tooltip="key:620852946:191029568" description="key:620852946:54354734"/>
-<trait identifier="1879173754" name="Hair Colour: Red" iconId="1091581489" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_hair_color_red_rank" nature="8" tooltip="key:620853137:191029568" description="key:620853137:54354734"/>
-<trait identifier="1879173761" name="Short Hair - Fringe" iconId="1091581490" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_hair_style_fringed_rank" nature="8" tooltip="key:620852971:191029568" description="key:620852971:54354734"/>
-<trait identifier="1879173762" name="Hair Colour: Black" iconId="1091581497" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_color_black_rank" nature="8" tooltip="key:620852955:191029568" description="key:620852955:54354734"/>
-<trait identifier="1879173763" name="Hair Colour: Blonde" iconId="1091581489" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_hair_color_blonde_rank" nature="8" tooltip="key:620853093:191029568" description="key:620853093:54354734"/>
-<trait identifier="1879173764" name="Hair Colour: Black" iconId="1091581493" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_hair_color_black_rank" nature="8" tooltip="key:620853122:191029568" description="key:620853122:54354734"/>
-<trait identifier="1879173769" name="Hair Colour: Red" iconId="1091581493" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_hair_color_red_rank" nature="8" tooltip="key:620852970:191029568" description="key:620852970:54354734"/>
-<trait identifier="1879173774" name="Hair Colour: Blonde" iconId="1091581493" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_hair_color_blonde_rank" nature="8" tooltip="key:620853105:191029568" description="key:620853105:54354734"/>
-<trait identifier="1879173780" name="Medium Hair - Tight Bun" iconId="1091581478" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_hair_style_bun_rank" nature="8" tooltip="key:620852949:191029568" description="key:620852949:54354734"/>
-<trait identifier="1879173781" name="Short Hair - Bowl Cut" iconId="1091581490" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_hair_style_bowl_rank" nature="8" tooltip="key:620853111:191029568" description="key:620853111:54354734"/>
-<trait identifier="1879173784" name="Long Hair - Clean Shaven" iconId="1091581474" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_style_long_b_shaved_rank" nature="8" tooltip="key:620852978:191029568" description="key:620852978:54354734"/>
-<trait identifier="1879173787" name="Long Hair - Fringe Over Eye" iconId="1091581482" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_style_long_d_rank" nature="8" tooltip="key:620853077:191029568" description="key:620853077:54354734"/>
-<trait identifier="1879173793" name="Hair Colour: Black" iconId="1091581477" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_hair_color_black_rank" nature="8" tooltip="key:620853046:191029568" description="key:620853046:54354734"/>
-<trait identifier="1879173800" name="Hair Colour: Red" iconId="1091581497" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_color_red_rank" nature="8" tooltip="key:620852999:191029568" description="key:620852999:54354734"/>
-<trait identifier="1879173804" name="Hair Colour: Blonde" iconId="1091581485" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_color_blonde_rank" nature="8" tooltip="key:620853050:191029568" description="key:620853050:54354734"/>
-<trait identifier="1879173810" name="Medium Hair - Tight Bun" iconId="1091581494" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_hair_style_bun_rank" nature="8" tooltip="key:620852975:191029568" description="key:620852975:54354734"/>
-<trait identifier="1879173812" name="Short Hair - Thonged Beard" iconId="1091581498" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_style_c_rank" nature="8" tooltip="key:620853147:191029568" description="key:620853147:54354734"/>
-<trait identifier="1879173813" name="Short Hair - Goatee" iconId="1091581474" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_style_goatee_half_rank" nature="8" tooltip="key:620853064:191029568" description="key:620853064:54354734"/>
-<trait identifier="1879173820" name="Hair Colour: White" iconId="1091581481" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_color_white_rank" nature="8" tooltip="key:620852974:191029568" description="key:620852974:54354734"/>
-<trait identifier="1879173821" name="Hair Colour: Blonde" iconId="1091581477" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_hair_color_blonde_rank" nature="8" tooltip="key:620853034:191029568" description="key:620853034:54354734"/>
-<trait identifier="1879173832" name="Long Hair - Right Part" iconId="1091581486" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_style_long_e_rank" nature="8" tooltip="key:620853014:191029568" description="key:620853014:54354734"/>
-<trait identifier="1879173833" name="Long Hair - Beard" iconId="1091581474" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_style_long_a_beard_rank" nature="8" tooltip="key:620853128:191029568" description="key:620853128:54354734"/>
-<trait identifier="1879173834" name="Long Hair - Wood-elf Warrior" iconId="1091581482" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_style_haldir_a_rank" nature="8" tooltip="key:620853113:191029568" description="key:620853113:54354734"/>
-<trait identifier="1879173848" name="Hair Colour: Black" iconId="1091581481" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_color_black_rank" nature="8" tooltip="key:620853123:191029568" description="key:620853123:54354734"/>
-<trait identifier="1879173849" name="Short Hair - Left Part" iconId="1091581486" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_style_short_c_rank" nature="8" tooltip="key:620853109:191029568" description="key:620853109:54354734"/>
-<trait identifier="1879173858" name="Short Hair - Thin Beard" iconId="1091581498" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_style_a_rank" nature="8" tooltip="key:620853094:191029568" description="key:620853094:54354734"/>
-<trait identifier="1879173864" name="Hair Colour: Red" iconId="1091581477" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_hair_color_red_rank" nature="8" tooltip="key:620853011:191029568" description="key:620853011:54354734"/>
-<trait identifier="1879173866" name="Hair Colour: Blonde" iconId="1091581497" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_color_blonde_rank" nature="8" tooltip="key:620852951:191029568" description="key:620852951:54354734"/>
-<trait identifier="1879173868" name="Hair Colour: White" iconId="1091581485" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_color_white_rank" nature="8" tooltip="key:620853043:191029568" description="key:620853043:54354734"/>
-<trait identifier="1879173869" name="Hair Colour: Blonde" iconId="1091581473" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_color_blonde_rank" nature="8" tooltip="key:620853148:191029568" description="key:620853148:54354734"/>
-<trait identifier="1879173870" name="Hair Colour: Blonde" iconId="1091581481" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_color_blonde_rank" nature="8" tooltip="key:620853091:191029568" description="key:620853091:54354734"/>
-<trait identifier="1879173876" name="Medium Hair - Fancy Braid" iconId="1091581478" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_hair_style_fancybind_rank" nature="8" tooltip="key:620853023:191029568" description="key:620853023:54354734"/>
-<trait identifier="1879173877" name="Long Hair - Pulled Back" iconId="1091581494" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_hair_style_long_rank" nature="8" tooltip="key:620853129:191029568" description="key:620853129:54354734"/>
-<trait identifier="1879173879" name="Short Hair - Handlebar" iconId="1091581474" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_style_sidepart_moustache_handlebar_rank" nature="8" tooltip="key:620853024:191029568" description="key:620853024:54354734"/>
-<trait identifier="1879173881" name="Medium Hair - Fringe" iconId="1091581478" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_hair_style_neck_rank" nature="8" tooltip="key:620853156:191029568" description="key:620853156:54354734"/>
-<trait identifier="1879173884" name="Hair Colour: White" iconId="1091581477" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_hair_color_white_rank" nature="8" tooltip="key:620853012:191029568" description="key:620853012:54354734"/>
-<trait identifier="1879173891" name="Short hair - Bangs" iconId="1091581486" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_style_short_h_rank" nature="8" tooltip="key:620853080:191029568" description="key:620853080:54354734"/>
-<trait identifier="1879173893" name="Hair Colour: Black" iconId="1091581473" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_color_black_rank" nature="8" tooltip="key:620853146:191029568" description="key:620853146:54354734"/>
-<trait identifier="1879173894" name="Long Hair - Left Part" iconId="1091581486" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_style_long_a_rank" nature="8" tooltip="key:620852957:191029568" description="key:620852957:54354734"/>
-<trait identifier="1879173901" name="Medium Hair - Pigtails" iconId="1091581494" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_hair_style_pigtail_rank" nature="8" tooltip="key:620853102:191029568" description="key:620853102:54354734"/>
-<trait identifier="1879173904" name="Hair Colour: Red" iconId="1091581485" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_color_red_rank" nature="8" tooltip="key:620852960:191029568" description="key:620852960:54354734"/>
-<trait identifier="1879173909" name="Long Hair - Ponytail" iconId="1091581482" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_style_medium_b_rank" nature="8" tooltip="key:620852947:191029568" description="key:620852947:54354734"/>
-<trait identifier="1879173916" name="Hair Colour: Black" iconId="1091581485" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_color_black_rank" nature="8" tooltip="key:620853026:191029568" description="key:620853026:54354734"/>
-<trait identifier="1879173920" name="Long Hair - Straight Cut" iconId="1091581482" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_style_long_a_rank" nature="8" tooltip="key:620852991:191029568" description="key:620852991:54354734"/>
-<trait identifier="1879173924" name="Hair Colour: White" iconId="1091581493" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_hair_color_white_rank" nature="8" tooltip="key:620853145:191029568" description="key:620853145:54354734"/>
-<trait identifier="1879173926" name="Thinning Hair - Full Beard" iconId="1091581498" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_style_b_rank" nature="8" tooltip="key:620853089:191029568" description="key:620853089:54354734"/>
-<trait identifier="1879173929" name="Hair Colour: White" iconId="1091581473" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_color_white_rank" nature="8" tooltip="key:620853049:191029568" description="key:620853049:54354734"/>
+<trait identifier="1879173716" name="Hair Colour: Red" iconId="1091581481" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_color_red_rank" nature="8" tooltip="key:620853041:191029568" description="key:620853041:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879173725" name="Hair Colour: Black" iconId="1091581489" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_hair_color_black_rank" nature="8" tooltip="key:620853002:191029568" description="key:620853002:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879173726" name="Long Hair - Thick Beard" iconId="1091581498" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_style_d_rank" nature="8" tooltip="key:620852952:191029568" description="key:620852952:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879173735" name="Hair Colour: Red" iconId="1091581473" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_color_red_rank" nature="8" tooltip="key:620853090:191029568" description="key:620853090:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879173738" name="Hair Colour: White" iconId="1091581497" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_color_white_rank" nature="8" tooltip="key:620852985:191029568" description="key:620852985:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879173747" name="Medium Hair - Flip Cut" iconId="1091581490" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_hair_style_flippy_rank" nature="8" tooltip="key:620853087:191029568" description="key:620853087:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879173750" name="Hair Colour: White" iconId="1091581489" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_hair_color_white_rank" nature="8" tooltip="key:620852946:191029568" description="key:620852946:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879173754" name="Hair Colour: Red" iconId="1091581489" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_hair_color_red_rank" nature="8" tooltip="key:620853137:191029568" description="key:620853137:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879173761" name="Short Hair - Fringe" iconId="1091581490" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_hair_style_fringed_rank" nature="8" tooltip="key:620852971:191029568" description="key:620852971:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879173762" name="Hair Colour: Black" iconId="1091581497" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_color_black_rank" nature="8" tooltip="key:620852955:191029568" description="key:620852955:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879173763" name="Hair Colour: Blonde" iconId="1091581489" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_hair_color_blonde_rank" nature="8" tooltip="key:620853093:191029568" description="key:620853093:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879173764" name="Hair Colour: Black" iconId="1091581493" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_hair_color_black_rank" nature="8" tooltip="key:620853122:191029568" description="key:620853122:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879173769" name="Hair Colour: Red" iconId="1091581493" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_hair_color_red_rank" nature="8" tooltip="key:620852970:191029568" description="key:620852970:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879173774" name="Hair Colour: Blonde" iconId="1091581493" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_hair_color_blonde_rank" nature="8" tooltip="key:620853105:191029568" description="key:620853105:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879173780" name="Medium Hair - Tight Bun" iconId="1091581478" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_hair_style_bun_rank" nature="8" tooltip="key:620852949:191029568" description="key:620852949:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879173781" name="Short Hair - Bowl Cut" iconId="1091581490" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_hair_style_bowl_rank" nature="8" tooltip="key:620853111:191029568" description="key:620853111:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879173784" name="Long Hair - Clean Shaven" iconId="1091581474" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_style_long_b_shaved_rank" nature="8" tooltip="key:620852978:191029568" description="key:620852978:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879173787" name="Long Hair - Fringe Over Eye" iconId="1091581482" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_style_long_d_rank" nature="8" tooltip="key:620853077:191029568" description="key:620853077:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879173793" name="Hair Colour: Black" iconId="1091581477" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_hair_color_black_rank" nature="8" tooltip="key:620853046:191029568" description="key:620853046:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879173800" name="Hair Colour: Red" iconId="1091581497" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_color_red_rank" nature="8" tooltip="key:620852999:191029568" description="key:620852999:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879173804" name="Hair Colour: Blonde" iconId="1091581485" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_color_blonde_rank" nature="8" tooltip="key:620853050:191029568" description="key:620853050:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879173810" name="Medium Hair - Tight Bun" iconId="1091581494" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_hair_style_bun_rank" nature="8" tooltip="key:620852975:191029568" description="key:620852975:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879173812" name="Short Hair - Thonged Beard" iconId="1091581498" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_style_c_rank" nature="8" tooltip="key:620853147:191029568" description="key:620853147:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879173813" name="Short Hair - Goatee" iconId="1091581474" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_style_goatee_half_rank" nature="8" tooltip="key:620853064:191029568" description="key:620853064:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879173820" name="Hair Colour: White" iconId="1091581481" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_color_white_rank" nature="8" tooltip="key:620852974:191029568" description="key:620852974:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879173821" name="Hair Colour: Blonde" iconId="1091581477" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_hair_color_blonde_rank" nature="8" tooltip="key:620853034:191029568" description="key:620853034:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879173832" name="Long Hair - Right Part" iconId="1091581486" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_style_long_e_rank" nature="8" tooltip="key:620853014:191029568" description="key:620853014:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879173833" name="Long Hair - Beard" iconId="1091581474" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_style_long_a_beard_rank" nature="8" tooltip="key:620853128:191029568" description="key:620853128:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879173834" name="Long Hair - Wood-elf Warrior" iconId="1091581482" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_style_haldir_a_rank" nature="8" tooltip="key:620853113:191029568" description="key:620853113:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879173848" name="Hair Colour: Black" iconId="1091581481" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_color_black_rank" nature="8" tooltip="key:620853123:191029568" description="key:620853123:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879173849" name="Short Hair - Left Part" iconId="1091581486" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_style_short_c_rank" nature="8" tooltip="key:620853109:191029568" description="key:620853109:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879173858" name="Short Hair - Thin Beard" iconId="1091581498" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_style_a_rank" nature="8" tooltip="key:620853094:191029568" description="key:620853094:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879173864" name="Hair Colour: Red" iconId="1091581477" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_hair_color_red_rank" nature="8" tooltip="key:620853011:191029568" description="key:620853011:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879173866" name="Hair Colour: Blonde" iconId="1091581497" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_color_blonde_rank" nature="8" tooltip="key:620852951:191029568" description="key:620852951:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879173868" name="Hair Colour: White" iconId="1091581485" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_color_white_rank" nature="8" tooltip="key:620853043:191029568" description="key:620853043:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879173869" name="Hair Colour: Blonde" iconId="1091581473" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_color_blonde_rank" nature="8" tooltip="key:620853148:191029568" description="key:620853148:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879173870" name="Hair Colour: Blonde" iconId="1091581481" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_color_blonde_rank" nature="8" tooltip="key:620853091:191029568" description="key:620853091:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879173876" name="Medium Hair - Fancy Braid" iconId="1091581478" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_hair_style_fancybind_rank" nature="8" tooltip="key:620853023:191029568" description="key:620853023:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879173877" name="Long Hair - Pulled Back" iconId="1091581494" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_hair_style_long_rank" nature="8" tooltip="key:620853129:191029568" description="key:620853129:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879173879" name="Short Hair - Handlebar" iconId="1091581474" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_style_sidepart_moustache_handlebar_rank" nature="8" tooltip="key:620853024:191029568" description="key:620853024:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879173881" name="Medium Hair - Fringe" iconId="1091581478" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_hair_style_neck_rank" nature="8" tooltip="key:620853156:191029568" description="key:620853156:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879173884" name="Hair Colour: White" iconId="1091581477" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_hair_color_white_rank" nature="8" tooltip="key:620853012:191029568" description="key:620853012:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879173891" name="Short hair - Bangs" iconId="1091581486" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_style_short_h_rank" nature="8" tooltip="key:620853080:191029568" description="key:620853080:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879173893" name="Hair Colour: Black" iconId="1091581473" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_color_black_rank" nature="8" tooltip="key:620853146:191029568" description="key:620853146:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879173894" name="Long Hair - Left Part" iconId="1091581486" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_style_long_a_rank" nature="8" tooltip="key:620852957:191029568" description="key:620852957:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879173901" name="Medium Hair - Pigtails" iconId="1091581494" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_hair_style_pigtail_rank" nature="8" tooltip="key:620853102:191029568" description="key:620853102:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879173904" name="Hair Colour: Red" iconId="1091581485" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_color_red_rank" nature="8" tooltip="key:620852960:191029568" description="key:620852960:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879173909" name="Long Hair - Ponytail" iconId="1091581482" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_style_medium_b_rank" nature="8" tooltip="key:620852947:191029568" description="key:620852947:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879173916" name="Hair Colour: Black" iconId="1091581485" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_hair_color_black_rank" nature="8" tooltip="key:620853026:191029568" description="key:620853026:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879173920" name="Long Hair - Straight Cut" iconId="1091581482" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_hair_style_long_a_rank" nature="8" tooltip="key:620852991:191029568" description="key:620852991:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879173924" name="Hair Colour: White" iconId="1091581493" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_hair_color_white_rank" nature="8" tooltip="key:620853145:191029568" description="key:620853145:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879173926" name="Thinning Hair - Full Beard" iconId="1091581498" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_hair_style_b_rank" nature="8" tooltip="key:620853089:191029568" description="key:620853089:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879173929" name="Hair Colour: White" iconId="1091581473" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_hair_color_white_rank" nature="8" tooltip="key:620853049:191029568" description="key:620853049:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
 <trait identifier="1879173963" name="Invader of Mirkwood" iconId="1090535587" category="29" nature="1" cosmetic="true" tooltip="key:620853163:191029568" description="key:620853163:54354734"/>
 <trait identifier="1879174521" name="Armoured Assault" iconId="1091575624" staticIconOverlayId="1091575521" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_personal_armor_Rank" nature="10" tooltip="key:620853374:191029568" description="key:620853374:54354734">
 <stat name="Combat_Agent_Armor_Value_Float" scaling="1879132196"/>
@@ -1909,86 +2148,246 @@
 <trait identifier="1879174646" name="Armour Penetration" iconId="1091577186" staticIconOverlayId="1091575520" rankOverlayProgression="1879163364" tiers="50" tierProperty="trait_skirmish_soldier_penetrate_armour_Rank" nature="11" tooltip="key:620853455:191029568" description="key:620853455:54354734"/>
 <trait identifier="1879174685" name="Skirmish Basic Training II" iconId="1091573311" category="29" nature="1" cosmetic="true" tooltip="key:620853497:191029568" description="key:620853497:54354734"/>
 <trait identifier="1879174686" name="Skirmish Basic Training I" iconId="1091573311" category="29" nature="1" cosmetic="true" tooltip="key:620853496:191029568" description="key:620853496:54354734"/>
-<trait identifier="1879176726" name="Red Formalwear" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_sunday_red_rank" nature="8" tooltip="key:620855165:191029568" description="key:620855165:54354734"/>
-<trait identifier="1879176731" name="Red Burglar Garb" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_thief_red_rank" nature="8" tooltip="key:620855172:191029568" description="key:620855172:54354734"/>
-<trait identifier="1879176771" name="Blue Commoner Outfit" iconId="1091581495" staticIconOverlayId="1091575518" nature="8" tooltip="key:620856895:191029568" description="key:620856895:54354734"/>
-<trait identifier="1879176775" name="Fancy Green Commoner Outift" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_commoner_fancy_1_green_rank" nature="8" tooltip="key:620856911:191029568" description="key:620856911:54354734"/>
-<trait identifier="1879176779" name="Red Commoner Outfit" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_commoner_basic_2_red_rank" nature="8" tooltip="key:620856927:191029568" description="key:620856927:54354734"/>
-<trait identifier="1879176780" name="Fancy Blue Outfit" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_commoner_fancy_2_blue_rank" nature="8" tooltip="key:620856931:191029568" description="key:620856931:54354734"/>
-<trait identifier="1879176783" name="Chain Guard Outfit" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_guard_chain_rank" nature="8" tooltip="key:620856943:191029568" description="key:620856943:54354734"/>
-<trait identifier="1879176784" name="Leather Guard Outfit" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_guard_leather_rank" nature="8" tooltip="key:620856947:191029568" description="key:620856947:54354734"/>
-<trait identifier="1879176786" name="Scale Guard Outfit" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_guard_scale_rank" nature="8" tooltip="key:620856955:191029568" description="key:620856955:54354734"/>
-<trait identifier="1879176788" name="Dress and Coat" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_dress_with_coat_rank" nature="8" tooltip="key:620856963:191029568" description="key:620856963:54354734"/>
-<trait identifier="1879176789" name="Dwarf-surcoat" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_dwarven_surcoat_base_rank" nature="8" tooltip="key:620856967:191029568" description="key:620856967:54354734"/>
-<trait identifier="1879176807" name="Elven Surcoat" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_elven_surcoat_base_rank" nature="8" tooltip="key:620857039:191029568" description="key:620857039:54354734"/>
-<trait identifier="1879176825" name="Hobbit-surcoat" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_hobbit_surcoat_base_rank" nature="8" tooltip="key:620857111:191029568" description="key:620857111:54354734"/>
-<trait identifier="1879176843" name="Man-surcoat" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_human_surcoat_base_rank" nature="8" tooltip="key:620857183:191029568" description="key:620857183:54354734"/>
-<trait identifier="1879176862" name="Black and Red Riding Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_riding_black_red_rank" nature="8" tooltip="key:620857259:191029568" description="key:620857259:54354734"/>
-<trait identifier="1879176865" name="Gold Smoker's Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_smoker_gold_rank" nature="8" tooltip="key:620857271:191029568" description="key:620857271:54354734"/>
-<trait identifier="1879176867" name="Beige Formalwear" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_sunday_beige_rank" nature="8" tooltip="key:620857279:191029568" description="key:620857279:54354734"/>
-<trait identifier="1879176871" name="Blue Worker Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_worker_blue_rank" nature="8" tooltip="key:620857295:191029568" description="key:620857295:54354734"/>
-<trait identifier="1879176873" name="Navy Mayor's Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_mayor_navy_rank" nature="8" tooltip="key:620855353:191029568" description="key:620855353:54354734"/>
-<trait identifier="1879176878" name="Purple Mayor's Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_mayor_purple_rank" nature="8" tooltip="key:620855373:191029568" description="key:620855373:54354734"/>
-<trait identifier="1879176879" name="Green Suitcoat" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_suit_green_rank" nature="8" tooltip="key:620855377:191029568" description="key:620855377:54354734"/>
-<trait identifier="1879176881" name="Chain Guard Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_guard_chain_rank" nature="8" tooltip="key:620855385:191029568" description="key:620855385:54354734"/>
-<trait identifier="1879176882" name="Leather Guard Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_guard_leather_rank" nature="8" tooltip="key:620855389:191029568" description="key:620855389:54354734"/>
-<trait identifier="1879176884" name="Scale Guard Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_guard_scale_rank" nature="8" tooltip="key:620855397:191029568" description="key:620855397:54354734"/>
-<trait identifier="1879176887" name="Dwarf-surcoat" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_dwarven_surcoat_base_rank" nature="8" tooltip="key:620855409:191029568" description="key:620855409:54354734"/>
-<trait identifier="1879176905" name="Elven Surcoat" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_elven_surcoat_base_rank" nature="8" tooltip="key:620855481:191029568" description="key:620855481:54354734"/>
-<trait identifier="1879176923" name="Hobbit-surcoat" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_hobbit_surcoat_base_rank" nature="8" tooltip="key:620855553:191029568" description="key:620855553:54354734"/>
-<trait identifier="1879176960" name="Beige Farmer's Outfit" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_farmer_beige_rank" nature="8" tooltip="key:620855701:191029568" description="key:620855701:54354734"/>
-<trait identifier="1879176964" name="Gold Patron Outfit" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_human_patron_gold_rank" nature="8" tooltip="key:620855716:191029568" description="key:620855716:54354734"/>
-<trait identifier="1879176967" name="Dark Beggars' Garb" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_beggar_dark_rank" nature="8" tooltip="key:620855726:191029568" description="key:620855726:54354734"/>
-<trait identifier="1879176969" name="Chain Guard Outfit" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_guard_chain_rank" nature="8" tooltip="key:620855734:191029568" description="key:620855734:54354734"/>
-<trait identifier="1879176970" name="Leather Guard Outfit" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_guard_leather_rank" nature="8" tooltip="key:620855738:191029568" description="key:620855738:54354734"/>
-<trait identifier="1879176972" name="Scale Guard Outfit" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_guard_scale_rank" nature="8" tooltip="key:620855746:191029568" description="key:620855746:54354734"/>
-<trait identifier="1879176975" name="Dwarf-surcoat" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_dwarven_surcoat_base_rank" nature="8" tooltip="key:620855758:191029568" description="key:620855758:54354734"/>
-<trait identifier="1879176993" name="Elven Surcoat" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_elven_surcoat_base_rank" nature="8" tooltip="key:620855820:191029568" description="key:620855820:54354734"/>
-<trait identifier="1879177011" name="Hobbit-surcoat" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_hobbit_surcoat_base_rank" nature="8" tooltip="key:620855856:191029568" description="key:620855856:54354734"/>
-<trait identifier="1879177029" name="Man-surcoat" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_human_surcoat_base_rank" nature="8" tooltip="key:620855891:191029568" description="key:620855891:54354734"/>
-<trait identifier="1879177033" name="Blue Formalwear" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_sunday_blue_rank" nature="8" tooltip="key:620855895:191029568" description="key:620855895:54354734"/>
-<trait identifier="1879177037" name="Green Merchant's Outfit" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_marketwife_green_rank" nature="8" tooltip="key:620855903:191029568" description="key:620855903:54354734"/>
-<trait identifier="1879177039" name="Blue Goodwife's Outfit" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_housewife_blue_rank" nature="8" tooltip="key:620855907:191029568" description="key:620855907:54354734"/>
-<trait identifier="1879177044" name="Red Dress" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_tart_red_rank" nature="8" tooltip="key:620855917:191029568" description="key:620855917:54354734"/>
-<trait identifier="1879177047" name="Red Burglar Garb" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_thief_red_rank" nature="8" tooltip="key:620855923:191029568" description="key:620855923:54354734"/>
-<trait identifier="1879177048" name="Chain Guard Outfit" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_guard_chain_rank" nature="8" tooltip="key:620855925:191029568" description="key:620855925:54354734"/>
-<trait identifier="1879177049" name="Leather Guard Outfit" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_guard_leather_rank" nature="8" tooltip="key:620855927:191029568" description="key:620855927:54354734"/>
-<trait identifier="1879177051" name="Scale Guard Outfit" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_guard_scale_rank" nature="8" tooltip="key:620855931:191029568" description="key:620855931:54354734"/>
-<trait identifier="1879177053" name="Dwarf-surcoat" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_dwarven_surcoat_base_rank" nature="8" tooltip="key:620855935:191029568" description="key:620855935:54354734"/>
-<trait identifier="1879177071" name="Elven Surcoat" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_elven_surcoat_base_rank" nature="8" tooltip="key:620855971:191029568" description="key:620855971:54354734"/>
-<trait identifier="1879177089" name="Hobbit-surcoat" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_hobbit_surcoat_base_rank" nature="8" tooltip="key:620856007:191029568" description="key:620856007:54354734"/>
-<trait identifier="1879177107" name="Man-surcoat" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_human_surcoat_base_rank" nature="8" tooltip="key:620856043:191029568" description="key:620856043:54354734"/>
-<trait identifier="1879177125" name="Maiden's Dress" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_dress_b_rank" nature="8" tooltip="key:620856079:191029568" description="key:620856079:54354734"/>
-<trait identifier="1879177126" name="Matron's Dress" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_dress_c_rank" nature="8" tooltip="key:620856081:191029568" description="key:620856081:54354734"/>
-<trait identifier="1879177128" name="Green Robe" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_robe_green_rank" nature="8" tooltip="key:620856085:191029568" description="key:620856085:54354734"/>
-<trait identifier="1879177129" name="Red Robe" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_robe_red_rank" nature="8" tooltip="key:620856087:191029568" description="key:620856087:54354734"/>
-<trait identifier="1879177131" name="Chain Guard Outfit" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_guard_chain_rank" nature="8" tooltip="key:620856091:191029568" description="key:620856091:54354734"/>
-<trait identifier="1879177132" name="Leather Guard Outfit" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_guard_leather_rank" nature="8" tooltip="key:620856093:191029568" description="key:620856093:54354734"/>
-<trait identifier="1879177134" name="Scale Guard Outfit" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_guard_scale_rank" nature="8" tooltip="key:620856097:191029568" description="key:620856097:54354734"/>
-<trait identifier="1879177154" name="Elven Surcoat" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_elven_surcoat_base_rank" nature="8" tooltip="key:620856137:191029568" description="key:620856137:54354734"/>
-<trait identifier="1879177172" name="Hobbit-surcoat" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_hobbit_surcoat_base_rank" nature="8" tooltip="key:620856173:191029568" description="key:620856173:54354734"/>
-<trait identifier="1879177190" name="Man-surcoat" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_human_surcoat_base_rank" nature="8" tooltip="key:620856209:191029568" description="key:620856209:54354734"/>
-<trait identifier="1879177288" name="Commoner's Outfit" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_commoner_rank" nature="8" tooltip="key:620856405:191029568" description="key:620856405:54354734"/>
-<trait identifier="1879177289" name="Blue Nobles' Garb" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_noble_blue_rank" nature="8" tooltip="key:620856407:191029568" description="key:620856407:54354734"/>
-<trait identifier="1879177291" name="Red Nobles' Garb" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_noble_red_rank" nature="8" tooltip="key:620856411:191029568" description="key:620856411:54354734"/>
-<trait identifier="1879177293" name="Chain Guard Outfit" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_guard_chain_rank" nature="8" tooltip="key:620856415:191029568" description="key:620856415:54354734"/>
-<trait identifier="1879177294" name="Leather Guard Outfit" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_guard_leather_rank" nature="8" tooltip="key:620856417:191029568" description="key:620856417:54354734"/>
-<trait identifier="1879177296" name="Scale Guard Outfit" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_guard_scale_rank" nature="8" tooltip="key:620856421:191029568" description="key:620856421:54354734"/>
-<trait identifier="1879177299" name="Dwarf-surcoat" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_dwarven_surcoat_base_rank" nature="8" tooltip="key:620856427:191029568" description="key:620856427:54354734"/>
-<trait identifier="1879177317" name="Elven Surcoat" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_elven_surcoat_base_rank" nature="8" tooltip="key:620856463:191029568" description="key:620856463:54354734"/>
-<trait identifier="1879177335" name="Hobbit-surcoat" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_hobbit_surcoat_base_rank" nature="8" tooltip="key:620856499:191029568" description="key:620856499:54354734"/>
-<trait identifier="1879177353" name="Man-surcoat" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_human_surcoat_base_rank" nature="8" tooltip="key:620856535:191029568" description="key:620856535:54354734"/>
-<trait identifier="1879177371" name="Commoner Outfit" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_commoner_rank" nature="8" tooltip="key:620856571:191029568" description="key:620856571:54354734"/>
-<trait identifier="1879177374" name="Merchant's Outfit" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_merchant_rank" nature="8" tooltip="key:620856577:191029568" description="key:620856577:54354734"/>
-<trait identifier="1879177378" name="Noble's Outfit" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_noble_rank" nature="8" tooltip="key:620856585:191029568" description="key:620856585:54354734"/>
-<trait identifier="1879177381" name="Worker's Outfit" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_worker_rank" nature="8" tooltip="key:620856591:191029568" description="key:620856591:54354734"/>
-<trait identifier="1879177384" name="Chain Guard Outfit" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_guard_chain_rank" nature="8" tooltip="key:620856597:191029568" description="key:620856597:54354734"/>
-<trait identifier="1879177385" name="Leather Guard Outfit" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_guard_leather_rank" nature="8" tooltip="key:620856599:191029568" description="key:620856599:54354734"/>
-<trait identifier="1879177387" name="Scale Guard Outfit" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_guard_scale_rank" nature="8" tooltip="key:620856603:191029568" description="key:620856603:54354734"/>
-<trait identifier="1879177390" name="Dwarf-surcoat" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_dwarven_surcoat_base_rank" nature="8" tooltip="key:620856609:191029568" description="key:620856609:54354734"/>
-<trait identifier="1879177408" name="Elven Surcoat" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_elven_surcoat_base_rank" nature="8" tooltip="key:620856645:191029568" description="key:620856645:54354734"/>
-<trait identifier="1879177426" name="Hobbit-surcoat" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_hobbit_surcoat_base_rank" nature="8" tooltip="key:620856681:191029568" description="key:620856681:54354734"/>
-<trait identifier="1879177444" name="Man-surcoat" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_human_surcoat_base_rank" nature="8" tooltip="key:620856717:191029568" description="key:620856717:54354734"/>
+<trait identifier="1879176726" name="Red Formalwear" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_sunday_red_rank" nature="8" tooltip="key:620855165:191029568" description="key:620855165:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879176731" name="Red Burglar Garb" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_thief_red_rank" nature="8" tooltip="key:620855172:191029568" description="key:620855172:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879176771" name="Blue Commoner Outfit" iconId="1091581495" staticIconOverlayId="1091575518" nature="8" tooltip="key:620856895:191029568" description="key:620856895:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879176775" name="Fancy Green Commoner Outift" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_commoner_fancy_1_green_rank" nature="8" tooltip="key:620856911:191029568" description="key:620856911:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879176779" name="Red Commoner Outfit" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_commoner_basic_2_red_rank" nature="8" tooltip="key:620856927:191029568" description="key:620856927:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879176780" name="Fancy Blue Outfit" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_commoner_fancy_2_blue_rank" nature="8" tooltip="key:620856931:191029568" description="key:620856931:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879176783" name="Chain Guard Outfit" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_guard_chain_rank" nature="8" tooltip="key:620856943:191029568" description="key:620856943:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879176784" name="Leather Guard Outfit" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_guard_leather_rank" nature="8" tooltip="key:620856947:191029568" description="key:620856947:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879176786" name="Scale Guard Outfit" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_guard_scale_rank" nature="8" tooltip="key:620856955:191029568" description="key:620856955:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879176788" name="Dress and Coat" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_dress_with_coat_rank" nature="8" tooltip="key:620856963:191029568" description="key:620856963:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879176789" name="Dwarf-surcoat" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_dwarven_surcoat_base_rank" nature="8" tooltip="key:620856967:191029568" description="key:620856967:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879176807" name="Elven Surcoat" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_elven_surcoat_base_rank" nature="8" tooltip="key:620857039:191029568" description="key:620857039:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879176825" name="Hobbit-surcoat" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_hobbit_surcoat_base_rank" nature="8" tooltip="key:620857111:191029568" description="key:620857111:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879176843" name="Man-surcoat" iconId="1091581495" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_female_outfit_human_surcoat_base_rank" nature="8" tooltip="key:620857183:191029568" description="key:620857183:54354734">
+<simplePrerequisite id="1879179475" name="Race: Hobbit-lass"/>
+</trait>
+<trait identifier="1879176862" name="Black and Red Riding Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_riding_black_red_rank" nature="8" tooltip="key:620857259:191029568" description="key:620857259:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879176865" name="Gold Smoker's Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_smoker_gold_rank" nature="8" tooltip="key:620857271:191029568" description="key:620857271:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879176867" name="Beige Formalwear" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_sunday_beige_rank" nature="8" tooltip="key:620857279:191029568" description="key:620857279:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879176871" name="Blue Worker Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_worker_blue_rank" nature="8" tooltip="key:620857295:191029568" description="key:620857295:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879176873" name="Navy Mayor's Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_mayor_navy_rank" nature="8" tooltip="key:620855353:191029568" description="key:620855353:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879176878" name="Purple Mayor's Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_mayor_purple_rank" nature="8" tooltip="key:620855373:191029568" description="key:620855373:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879176879" name="Green Suitcoat" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_suit_green_rank" nature="8" tooltip="key:620855377:191029568" description="key:620855377:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879176881" name="Chain Guard Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_guard_chain_rank" nature="8" tooltip="key:620855385:191029568" description="key:620855385:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879176882" name="Leather Guard Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_guard_leather_rank" nature="8" tooltip="key:620855389:191029568" description="key:620855389:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879176884" name="Scale Guard Outfit" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_guard_scale_rank" nature="8" tooltip="key:620855397:191029568" description="key:620855397:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879176887" name="Dwarf-surcoat" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_dwarven_surcoat_base_rank" nature="8" tooltip="key:620855409:191029568" description="key:620855409:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879176905" name="Elven Surcoat" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_elven_surcoat_base_rank" nature="8" tooltip="key:620855481:191029568" description="key:620855481:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879176923" name="Hobbit-surcoat" iconId="1091581491" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_hobbit_male_outfit_hobbit_surcoat_base_rank" nature="8" tooltip="key:620855553:191029568" description="key:620855553:54354734">
+<simplePrerequisite id="1879179474" name="Race: Hobbit-lad"/>
+</trait>
+<trait identifier="1879176960" name="Beige Farmer's Outfit" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_farmer_beige_rank" nature="8" tooltip="key:620855701:191029568" description="key:620855701:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879176964" name="Gold Patron Outfit" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_human_patron_gold_rank" nature="8" tooltip="key:620855716:191029568" description="key:620855716:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879176967" name="Dark Beggars' Garb" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_beggar_dark_rank" nature="8" tooltip="key:620855726:191029568" description="key:620855726:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879176969" name="Chain Guard Outfit" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_guard_chain_rank" nature="8" tooltip="key:620855734:191029568" description="key:620855734:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879176970" name="Leather Guard Outfit" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_guard_leather_rank" nature="8" tooltip="key:620855738:191029568" description="key:620855738:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879176972" name="Scale Guard Outfit" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_guard_scale_rank" nature="8" tooltip="key:620855746:191029568" description="key:620855746:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879176975" name="Dwarf-surcoat" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_dwarven_surcoat_base_rank" nature="8" tooltip="key:620855758:191029568" description="key:620855758:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879176993" name="Elven Surcoat" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_elven_surcoat_base_rank" nature="8" tooltip="key:620855820:191029568" description="key:620855820:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879177011" name="Hobbit-surcoat" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_hobbit_surcoat_base_rank" nature="8" tooltip="key:620855856:191029568" description="key:620855856:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879177029" name="Man-surcoat" iconId="1091581475" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_human_surcoat_base_rank" nature="8" tooltip="key:620855891:191029568" description="key:620855891:54354734">
+<simplePrerequisite id="1879179470" name="Race: Man"/>
+</trait>
+<trait identifier="1879177033" name="Blue Formalwear" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_sunday_blue_rank" nature="8" tooltip="key:620855895:191029568" description="key:620855895:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879177037" name="Green Merchant's Outfit" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_marketwife_green_rank" nature="8" tooltip="key:620855903:191029568" description="key:620855903:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879177039" name="Blue Goodwife's Outfit" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_housewife_blue_rank" nature="8" tooltip="key:620855907:191029568" description="key:620855907:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879177044" name="Red Dress" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_tart_red_rank" nature="8" tooltip="key:620855917:191029568" description="key:620855917:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879177047" name="Red Burglar Garb" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_thief_red_rank" nature="8" tooltip="key:620855923:191029568" description="key:620855923:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879177048" name="Chain Guard Outfit" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_guard_chain_rank" nature="8" tooltip="key:620855925:191029568" description="key:620855925:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879177049" name="Leather Guard Outfit" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_guard_leather_rank" nature="8" tooltip="key:620855927:191029568" description="key:620855927:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879177051" name="Scale Guard Outfit" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_guard_scale_rank" nature="8" tooltip="key:620855931:191029568" description="key:620855931:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879177053" name="Dwarf-surcoat" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_dwarven_surcoat_base_rank" nature="8" tooltip="key:620855935:191029568" description="key:620855935:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879177071" name="Elven Surcoat" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_elven_surcoat_base_rank" nature="8" tooltip="key:620855971:191029568" description="key:620855971:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879177089" name="Hobbit-surcoat" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_hobbit_surcoat_base_rank" nature="8" tooltip="key:620856007:191029568" description="key:620856007:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879177107" name="Man-surcoat" iconId="1091581479" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_human_surcoat_base_rank" nature="8" tooltip="key:620856043:191029568" description="key:620856043:54354734">
+<simplePrerequisite id="1879179471" name="Race: Woman"/>
+</trait>
+<trait identifier="1879177125" name="Maiden's Dress" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_dress_b_rank" nature="8" tooltip="key:620856079:191029568" description="key:620856079:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879177126" name="Matron's Dress" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_dress_c_rank" nature="8" tooltip="key:620856081:191029568" description="key:620856081:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879177128" name="Green Robe" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_robe_green_rank" nature="8" tooltip="key:620856085:191029568" description="key:620856085:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879177129" name="Red Robe" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_robe_red_rank" nature="8" tooltip="key:620856087:191029568" description="key:620856087:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879177131" name="Chain Guard Outfit" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_guard_chain_rank" nature="8" tooltip="key:620856091:191029568" description="key:620856091:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879177132" name="Leather Guard Outfit" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_guard_leather_rank" nature="8" tooltip="key:620856093:191029568" description="key:620856093:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879177134" name="Scale Guard Outfit" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_guard_scale_rank" nature="8" tooltip="key:620856097:191029568" description="key:620856097:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879177154" name="Elven Surcoat" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_elven_surcoat_base_rank" nature="8" tooltip="key:620856137:191029568" description="key:620856137:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879177172" name="Hobbit-surcoat" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_hobbit_surcoat_base_rank" nature="8" tooltip="key:620856173:191029568" description="key:620856173:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879177190" name="Man-surcoat" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_human_surcoat_base_rank" nature="8" tooltip="key:620856209:191029568" description="key:620856209:54354734">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879177288" name="Commoner's Outfit" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_commoner_rank" nature="8" tooltip="key:620856405:191029568" description="key:620856405:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879177289" name="Blue Nobles' Garb" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_noble_blue_rank" nature="8" tooltip="key:620856407:191029568" description="key:620856407:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879177291" name="Red Nobles' Garb" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_noble_red_rank" nature="8" tooltip="key:620856411:191029568" description="key:620856411:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879177293" name="Chain Guard Outfit" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_guard_chain_rank" nature="8" tooltip="key:620856415:191029568" description="key:620856415:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879177294" name="Leather Guard Outfit" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_guard_leather_rank" nature="8" tooltip="key:620856417:191029568" description="key:620856417:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879177296" name="Scale Guard Outfit" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_guard_scale_rank" nature="8" tooltip="key:620856421:191029568" description="key:620856421:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879177299" name="Dwarf-surcoat" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_dwarven_surcoat_base_rank" nature="8" tooltip="key:620856427:191029568" description="key:620856427:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879177317" name="Elven Surcoat" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_elven_surcoat_base_rank" nature="8" tooltip="key:620856463:191029568" description="key:620856463:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879177335" name="Hobbit-surcoat" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_hobbit_surcoat_base_rank" nature="8" tooltip="key:620856499:191029568" description="key:620856499:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879177353" name="Man-surcoat" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_human_surcoat_base_rank" nature="8" tooltip="key:620856535:191029568" description="key:620856535:54354734">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879177371" name="Commoner Outfit" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_commoner_rank" nature="8" tooltip="key:620856571:191029568" description="key:620856571:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879177374" name="Merchant's Outfit" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_merchant_rank" nature="8" tooltip="key:620856577:191029568" description="key:620856577:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879177378" name="Noble's Outfit" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_noble_rank" nature="8" tooltip="key:620856585:191029568" description="key:620856585:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879177381" name="Worker's Outfit" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_worker_rank" nature="8" tooltip="key:620856591:191029568" description="key:620856591:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879177384" name="Chain Guard Outfit" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_guard_chain_rank" nature="8" tooltip="key:620856597:191029568" description="key:620856597:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879177385" name="Leather Guard Outfit" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_guard_leather_rank" nature="8" tooltip="key:620856599:191029568" description="key:620856599:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879177387" name="Scale Guard Outfit" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_guard_scale_rank" nature="8" tooltip="key:620856603:191029568" description="key:620856603:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879177390" name="Dwarf-surcoat" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_dwarven_surcoat_base_rank" nature="8" tooltip="key:620856609:191029568" description="key:620856609:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879177408" name="Elven Surcoat" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_elven_surcoat_base_rank" nature="8" tooltip="key:620856645:191029568" description="key:620856645:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879177426" name="Hobbit-surcoat" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_hobbit_surcoat_base_rank" nature="8" tooltip="key:620856681:191029568" description="key:620856681:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
+<trait identifier="1879177444" name="Man-surcoat" iconId="1091581499" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_dwarf_outfit_human_surcoat_base_rank" nature="8" tooltip="key:620856717:191029568" description="key:620856717:54354734">
+<simplePrerequisite id="1879179476" name="Race: Dwarf-kind"/>
+</trait>
 <trait identifier="1879179470" name="Race: Man" iconId="1091581472" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_race_human_male_Rank" nature="8" tooltip="key:620857721:191029568" description="key:620857721:54354734"/>
 <trait identifier="1879179471" name="Race: Woman" iconId="1091581476" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_race_human_female_Rank" nature="8" tooltip="key:620857722:191029568" description="key:620857722:54354734"/>
 <trait identifier="1879179472" name="Race: Elf-sire" iconId="1091581480" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_race_elf_male_Rank" nature="8" tooltip="key:620857723:191029568" description="key:620857723:54354734"/>
@@ -2675,8 +3074,12 @@
 <stat name="Trait_Enemy_BlockChanceModifier" operator="SUBSTRACT" descriptionOverride="key:620900022:106251889" scaling="1879239031"/>
 <stat name="PHYSICAL_MASTERY" tieredScaling="1879368684;1879448241;1879399437;1879448250;1879399449"/>
 </trait>
-<trait identifier="1879239042" name="Appearance - Female Rohan Warrior" iconId="1091737457" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_rohan_preorder_rank" nature="8" tooltip="key:620900035:191029568" description="key:620900035:54354734"/>
-<trait identifier="1879239044" name="Appearance -  Male Rohan Warrior" iconId="1091737458" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_rohan_preorder_rank" nature="8" tooltip="key:620900034:191029568" description="key:620900034:54354734"/>
+<trait identifier="1879239042" name="Appearance - Female Rohan Warrior" iconId="1091737457" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_female_outfit_rohan_preorder_rank" nature="8" tooltip="key:620900035:191029568" description="key:620900035:54354734">
+<simplePrerequisite id="1879239340" name="Race: Rohirrim Female"/>
+</trait>
+<trait identifier="1879239044" name="Appearance -  Male Rohan Warrior" iconId="1091737458" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_human_male_outfit_rohan_preorder_rank" nature="8" tooltip="key:620900034:191029568" description="key:620900034:54354734">
+<simplePrerequisite id="1879239341" name="Race: Rohirrim Male"/>
+</trait>
 <trait identifier="1879239047" name="Rapport" iconId="1091739045" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="Trait_MountedCombat_Rank_Medium22" nature="14" description="key:620900039:54354734">
 <stat name="Skill_AttackHook_VsMounted_Damage_Multiplier" scaling="1879239048"/>
 </trait>
@@ -7428,10 +7831,18 @@
 <trait identifier="1879452504" name="Head-piece of the Dúnedain" iconId="1092748430" category="54" nature="16"/>
 <trait identifier="1879452505" name="Flowing Silver Tail" iconId="1092748433" category="54" nature="16"/>
 <trait identifier="1879452506" name="Accessory of the Dúnedain" iconId="1092748428" category="54" nature="16"/>
-<trait identifier="1879455573" name="Mírdan Warrior Outfit" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_caras_gelebren_warrior_nohelmet_rank" nature="8" tooltip="key:621070535:191029568"/>
-<trait identifier="1879455574" name="Mírdan Warrior Outfit" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_caras_gelebren_warrior_nohelmet_rank" nature="8" tooltip="key:621070538:191029568"/>
-<trait identifier="1879455575" name="Mírdan Warrior with Helmet" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_caras_gelebren_warrior_rank" nature="8" tooltip="key:621070537:191029568"/>
-<trait identifier="1879455576" name="Mírdan Warrior with Helmet" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_caras_gelebren_warrior_rank" nature="8" tooltip="key:621070536:191029568"/>
+<trait identifier="1879455573" name="Mírdan Warrior Outfit" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_caras_gelebren_warrior_nohelmet_rank" nature="8" tooltip="key:621070535:191029568">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
+<trait identifier="1879455574" name="Mírdan Warrior Outfit" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_caras_gelebren_warrior_nohelmet_rank" nature="8" tooltip="key:621070538:191029568">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879455575" name="Mírdan Warrior with Helmet" iconId="1091581483" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_male_outfit_caras_gelebren_warrior_rank" nature="8" tooltip="key:621070537:191029568">
+<simplePrerequisite id="1879179472" name="Race: Elf-sire"/>
+</trait>
+<trait identifier="1879455576" name="Mírdan Warrior with Helmet" iconId="1091581487" staticIconOverlayId="1091575518" tierProperty="trait_skirmish_soldier_elf_female_outfit_caras_gelebren_warrior_rank" nature="8" tooltip="key:621070536:191029568">
+<simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
+</trait>
 <trait identifier="1879455632" name="Focused Strikes" iconId="1092754831" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_burglar_rank_51" nature="19" description="key:621070547:54354734">
 <specialEffect label="key:621070547:106251889"/>
 </trait>
