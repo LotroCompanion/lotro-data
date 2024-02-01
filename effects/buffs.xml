@@ -1,124 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><buffs>
-<buff key="IN_DEFENCE_OF_MIDDLE_EARTH">
-<effect id="1879053032" name="In Defence of Middle-earth" iconId="1092811854" duration="1200.0">
-<stat name="MIGHT" scaling="1879391048"/>
-<stat name="VITALITY" scaling="1879391041"/>
-<stat name="WILL" scaling="1879391039"/>
-<stat name="FATE" scaling="1879391049"/>
-<stat name="AGILITY" scaling="1879391045"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879060192" name="Guardian's Ward" iconId="1090540663" duration="10.0">
-<stat name="PARRY_PERCENTAGE" constant="2.0"/>
-<stat name="BLOCK_PERCENTAGE" constant="2.0"/>
-<stat name="PARTIAL_PARRY_PERCENTAGE" constant="2.5"/>
-<stat name="ITEM_WEAR_CHANCE_ON_HIT" operator="SUBSTRACT" descriptionOverride="key:620765232:106251892" constant="1.5"/>
-<stat name="PARTIAL_BLOCK_PERCENTAGE" constant="2.5"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879060866" name="Anthem II - War" iconId="1092752392" duration="45.0">
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="key:620765876:106251889" constant="3.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="key:620765876:106251890" constant="3.0"/>
-</effect>
-</buff>
-<buff key="MOTIVATED">
-<effect id="1879073072" name="Motivated" iconId="1090553780" duration="1200.0">
-<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620774926:106251889" constant="1.1"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879073120" name="Anthem III - Prowess" iconId="1092752393" duration="45.0">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620774973:106251889" constant="3.0"/>
-<stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
-<stat name="OCFW_MITIGATION_PERCENTAGE" descriptionOverride="key:620774973:106251892" constant="5.0"/>
-<stat name="Combat_MitigationPercentage_FellWrought" descriptionOverride="-" constant="5.0"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879073122" name="Anthem III - Composure" iconId="1092752391" duration="45.0">
-<stat name="RESISTANCE" scaling="1879381719"/>
-<stat name="TACTICAL_MITIGATION" scaling="1879399704"/>
-<stat name="SHADOW_MITIGATION_PERCENTAGE" descriptionOverride="key:620774975:106251891" constant="3.0"/>
-<stat name="ACID_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
-<stat name="FIRE_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879073616" name="Dwarf Endurance" iconId="1090554033" duration="600.0">
-<stat name="VITALITY" scaling="1879401272"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879077245" name="Veteran Fortitude" iconId="1090563514" duration="21600.0">
-<stat name="PHYSICAL_MITIGATION" scaling="1879368458"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879084065" name="Duty Bound" iconId="1090553996" duration="600.0">
-<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620784436:106251889" constant="1.05"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879095617" name="Dissonance" iconId="1091400695">
-<stat name="Skill_Minstrel_DamageMultiplier_WarspeechCalls" constant="15.000001"/>
-<stat name="BALLAD_AND_CODA_DAMAGE_PERCENTAGE" descriptionOverride="key:620795454:106251893" constant="25.0"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879139404" name="Veteran Determination" iconId="1090563514" duration="21600.0">
-<stat name="TACTICAL_MITIGATION" scaling="1879368463"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879145414" name="A Quiet Calm" iconId="1091603160">
-<stat name="XP_AwardMultiplier" descriptionOverride="key:620832974:106251889" constant="3.0"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879145605" name="Enhanced Abilities" iconId="1090541176">
-<stat name="ITEM_WEAR_CHANCE_ON_HIT" operator="SUBSTRACT" descriptionOverride="key:620832976:106251889" constant="10.0"/>
-<stat name="MORALE" constant="100.0"/>
-<stat name="Movement_OutOfCombat_Speed_AddMod" constant="5.0"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879205019" name="Anthem I - Resonance" iconId="1092752390" duration="45.0">
-<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="key:620877130:106251889" constant="5.0"/>
-<stat name="ALL_SKILL_INDUCTION" descriptionOverride="-" constant="-5.0"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879205020" name="Anthem II - Dissonance" iconId="1092752394" duration="45.0">
-<stat name="Combat_SkillDamageMultiplier_Light" descriptionOverride="key:620877129:106251889" constant="5.0"/>
-<stat name="Combat_SkillDamageMultiplier_Fire" constant="5.0"/>
-<stat name="Combat_SkillDamageMultiplier_Lightning" descriptionOverride="-" constant="5.0"/>
-<stat name="Combat_SkillDamageMultiplier_Frost" descriptionOverride="-" constant="5.0"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879216017" name="Tome of Finesse" iconId="1091631304" duration="21600.0">
-<stat name="FINESSE" scaling="1879367858"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879217087" name="Resonance" iconId="1091841012">
-<stat name="OUTGOING_HEALING_PERCENTAGE" constant="10.0"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879217358" name="Anthem of the Third Age - Melody" iconId="1091660967" duration="45.0">
-<stat name="INCOMING_HEALING_PERCENTAGE" constant="5.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="key:620885693:106251890" constant="5.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
-</effect>
-</buff>
-<buff>
-<effect id="1879239303" name="A Quiet Calm" iconId="1091603160">
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:620900255:106251889" constant="3.0"/>
-<stat name="PVPPoints_AwardMultiplier" constant="3.0"/>
-</effect>
-</buff>
+<buff key="IN_DEFENCE_OF_MIDDLE_EARTH" effectId="1879053032" effectName="In Defence of Middle-earth"/>
+<buff effectId="1879060192" effectName="Guardian's Ward"/>
+<buff effectId="1879060866" effectName="Anthem II - War"/>
+<buff key="MOTIVATED" effectId="1879073072" effectName="Motivated"/>
+<buff effectId="1879073120" effectName="Anthem III - Prowess"/>
+<buff effectId="1879073122" effectName="Anthem III - Composure"/>
+<buff effectId="1879073616" effectName="Dwarf Endurance"/>
+<buff effectId="1879077245" effectName="Veteran Fortitude"/>
+<buff effectId="1879084065" effectName="Duty Bound"/>
+<buff effectId="1879095617" effectName="Dissonance"/>
+<buff effectId="1879139404" effectName="Veteran Determination"/>
+<buff effectId="1879145414" effectName="A Quiet Calm"/>
+<buff effectId="1879145605" effectName="Enhanced Abilities"/>
+<buff effectId="1879205019" effectName="Anthem I - Resonance"/>
+<buff effectId="1879205020" effectName="Anthem II - Dissonance"/>
+<buff effectId="1879216017" effectName="Tome of Finesse"/>
+<buff effectId="1879217087" effectName="Resonance"/>
+<buff effectId="1879217358" effectName="Anthem of the Third Age - Melody"/>
+<buff effectId="1879239303" effectName="A Quiet Calm"/>
 </buffs>
