@@ -45,6 +45,7 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - skirmish traits directory
 - NPCs
 - landmarks
+- perks
 - labels for data localization
 
 In the future, it may contain:
@@ -56,4 +57,4 @@ This is clearly the weight of history. All these could be managed inside this re
 
 Deeds were managed in a separate, dedicated repository, but will be managed here from now on.
 Relics were managed in a separate, dedicated repository, but will be managed here from now on.
-From now on, icons shall be stored in the lotro-icons repository. Zipped icon archived shall be removed and put as icon files in this repository.
+Icons are stored in the lotro-icons repository.
