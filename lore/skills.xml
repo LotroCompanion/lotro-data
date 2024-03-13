@@ -376,6 +376,7 @@
 </skill>
 <skill identifier="1879053049" name="Shield of the Dúnedain" category="25" iconId="1091926678" description="key:620759766:228830419">
 <effect id="1879053050" name="Shield of the Dúnedain"/>
+<effect id="1879483915" name="Shield of the Dúnedain"/>
 </skill>
 <skill identifier="1879053062" name="Oathbreaker's Shame" category="51" iconId="1090533155" description="key:620759779:228830419">
 <effect id="1879053063" name="Oathbreaker's Shame"/>
@@ -677,17 +678,17 @@
 <effect id="1879060280" name="DNT - Herald of Victory"/>
 </skill>
 <skill identifier="1879060266" name="Herald's Weak Strike" iconId="1090531787" description="key:620765364:228830419">
-<effect id="1879311298" name="Armour Rend"/>
+<effect id="1879311298" name="Armour Break"/>
 </skill>
 <skill identifier="1879060267" name="Herald's Strike" iconId="1090531779" description="key:620765365:228830419">
-<effect id="1879311298" name="Armour Rend"/>
+<effect id="1879311298" name="Armour Break"/>
 </skill>
 <skill identifier="1879060268" name="Herald's Heavy Strike" iconId="1090531781" description="key:620765366:228830419">
-<effect id="1879311298" name="Armour Rend"/>
+<effect id="1879311298" name="Armour Break"/>
 </skill>
 <skill identifier="1879060269" name="Coordinated Attack" iconId="1091388812" description="key:620765367:228830419">
 <effect id="1879059825" name="Induce Stunned"/>
-<effect id="1879311298" name="Armour Rend"/>
+<effect id="1879311298" name="Armour Break"/>
 </skill>
 <skill identifier="1879060270" name="Infuriating Tactics" iconId="1091388813" description="key:620765368:228830419">
 <effect id="1879138960" name="Force Attack"/>
@@ -699,7 +700,9 @@
 <skill identifier="1879060303" name="Rallying Cry" category="51" iconId="1092811777" description="key:620765402:228830419">
 <effect id="1879271291" name="Rallying Cry"/>
 </skill>
-<skill identifier="1879060321" name="Routing Cry" category="51" iconId="1092811775" description="key:620765414:228830419"/>
+<skill identifier="1879060321" name="Routing Cry" category="51" iconId="1092811775" description="key:620765414:228830419">
+<effect id="1879483914" name="DNT - Dispel temporary buff" type="USER"/>
+</skill>
 <skill identifier="1879060327" name="Battle-shout" category="51" iconId="1092811858" description="key:620765417:228830419">
 <effect id="1879203553" name="Induce Feared"/>
 <effect id="1879060329" name="DNT" type="USER"/>
@@ -806,7 +809,6 @@
 <effect id="1879302213" name="DNT - Dispel Ancient Craft" type="USER"/>
 </skill>
 <skill identifier="1879060758" name="Power of Knowledge" category="19" iconId="1090541206" description="key:620765790:228830419">
-<effect id="1879271236" name="Fierce Lightning"/>
 <effect id="1879369513" name="Power of Knowledge" type="TOGGLE"/>
 <effect id="1879369513" name="Power of Knowledge" type="USER_TOGGLE"/>
 </skill>
@@ -893,6 +895,7 @@
 </skill>
 <skill identifier="1879060981" name="Diversion" category="37" iconId="1090541266" description="key:620765977:228830419">
 <effect id="1879060984" name="Distraction"/>
+<effect id="1879484030" name="Gamble"/>
 </skill>
 <skill identifier="1879060986" name="Trick: Disable" category="10" iconId="1090541269" description="key:620765983:228830419">
 <effect id="1879060990" name="Trick: Disable"/>
@@ -949,7 +952,7 @@
 <effect id="1879220596" name="Dispel Sprint Daze" type="USER"/>
 </skill>
 <skill identifier="1879064061" name="Blade Wall" category="33" iconId="1090553752" description="key:620774871:228830419">
-<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
+<effect id="1879153688" name="Armour Rend"/>
 </skill>
 <skill identifier="1879064062" name="Savage Strikes" category="38" iconId="1090553753" description="key:620774873:228830419"/>
 <skill identifier="1879064065" name="Brutal Strikes" category="38" iconId="1090553754" description="key:620774879:228830419">
@@ -1034,7 +1037,7 @@
 <effect id="1879242111" name="DNT - Remove Improved Light of Elendil" type="USER"/>
 </skill>
 <skill identifier="1879064146" name="Motivating Speech" category="14" iconId="1090553780" description="key:620774925:228830419">
-<effect id="1879421069" name="DNT - Blade-brother's Call brother-to-self" type="USER"/>
+<effect id="1879421069" type="USER"/>
 </skill>
 <skill identifier="1879064148" name="Last Stand" category="47" iconId="1090533270" description="key:620774929:228830419">
 <effect id="1879053118" name="Last Stand"/>
@@ -1249,6 +1252,7 @@
 </skill>
 <skill identifier="1879064329" name="Cunning Attack" category="37" iconId="1090541253" description="key:620775119:228830419">
 <effect id="1879387519" name="Minor Cunning Bleed"/>
+<effect id="1879483336" name="Cunning Puncture"/>
 <effect id="1879112558" name="Dispel Aim and Improved Feint." type="USER"/>
 </skill>
 <skill identifier="1879064330" name="Provoke" category="37" iconId="1090553911" description="key:620775123:228830419">
@@ -1650,7 +1654,7 @@
 <effect id="1879220596" name="Dispel Sprint Daze" type="USER"/>
 </skill>
 <skill identifier="1879073007" name="Blade Wall" category="33" iconId="1090553752" description="key:620774872:228830419">
-<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
+<effect id="1879153688" name="Armour Rend"/>
 </skill>
 <skill identifier="1879073010" name="Savage Strikes" category="38" iconId="1090553753" description="key:620774874:228830419"/>
 <skill identifier="1879073019" name="Brutal Strikes" category="38" iconId="1090553754" description="key:620774880:228830419">
@@ -1706,6 +1710,7 @@
 </skill>
 <skill identifier="1879073293" name="Stealthed Cunning Attack" category="37" iconId="1090541253" description="key:620775121:228830419">
 <effect id="1879387520" name="Major Cunning Bleed"/>
+<effect id="1879483336" name="Cunning Puncture"/>
 <effect id="1879112558" name="Dispel Aim and Improved Feint." type="USER"/>
 </skill>
 <skill identifier="1879073298" name="Stealthed Provoke" category="37" iconId="1090553911" description="key:620775124:228830419">
@@ -2848,6 +2853,7 @@
 <effect id="1879092192" name="Awaken"/>
 </skill>
 <skill identifier="1879092634" name="Blade of Elendil" category="47" iconId="1092811857" description="key:620793044:228830419">
+<effect id="1879484324" name="Armour Break"/>
 <effect id="1879092635" name="Light of Elendil" type="USER"/>
 <effect id="1879273707" name="DNT - Remove Improved Light of Elendil" type="USER"/>
 </skill>
@@ -4108,7 +4114,6 @@
 <effect id="1879102624" name="Contact Fence"/>
 </skill>
 <skill identifier="1879102532" name="Knives Out" category="49" iconId="1091414339" description="key:620800222:228830419">
-<effect id="1879387542" name="Force Attack"/>
 <effect id="1879113161" name="Knives Out" type="USER"/>
 <effect id="1879112558" name="Dispel Aim and Improved Feint." type="USER"/>
 </skill>
@@ -4613,6 +4618,7 @@
 <skill identifier="1879109286" name="Epic for the Ages" category="63" iconId="1091454160" description="key:620804874:228830419">
 <effect id="1879174182" name="Epic for the Ages"/>
 <effect id="1879239255" name="DNT - Dispel Epic of the Ages Parchement" type="USER"/>
+<effect id="1879483271" name="DNT - Bombastic Epic dispel" type="USER"/>
 </skill>
 <skill identifier="1879109287" name="Word of Exaltation" category="63" iconId="1091454161" description="key:620804876:228830419">
 <effect id="1879220523" name="Word of Exaltation"/>
@@ -4661,6 +4667,7 @@
 </skill>
 <skill identifier="1879109616" name="Writ of Fire" category="67" iconId="1091440848" description="key:620805134:228830419">
 <effect id="1879283138" name="DNT - DoT Tiers"/>
+<effect id="1879283145" name="DNT - Weakening Writ"/>
 <effect id="1879277834" name="DNT - Essay of Fire Dispel" type="USER"/>
 </skill>
 <skill identifier="1879109629" name="Steel Snaring Web" category="42" iconId="1090555726" description="key:620805150:228830419">
@@ -4792,7 +4799,6 @@
 </skill>
 <skill identifier="1879111264" name="Rend" category="33" iconId="1091459631" description="key:620806430:228830419">
 <effect id="1879283118" name="DNT - Rend Bleed"/>
-<effect id="1879153688" name="Armour Rend"/>
 </skill>
 <skill identifier="1879111285" name="Heal Wounds" iconId="1090522259">
 <effect id="1879111270" name="Vile Inspiration"/>
@@ -5029,20 +5035,20 @@
 <effect id="1879112957" name="Summon Bat"/>
 </skill>
 <skill identifier="1879112980" name="Quick Shot" iconId="1090531779" description="key:620807629:228830419">
-<effect id="1879311298" name="Armour Rend"/>
+<effect id="1879311298" name="Armour Break"/>
 </skill>
 <skill identifier="1879112981" name="Glancing Shot" iconId="1090531787" description="key:620807628:228830419">
-<effect id="1879311298" name="Armour Rend"/>
+<effect id="1879311298" name="Armour Break"/>
 </skill>
 <skill identifier="1879112982" name="Sure Aim" iconId="1090553933" description="key:620807630:228830419">
-<effect id="1879311298" name="Armour Rend"/>
+<effect id="1879311298" name="Armour Break"/>
 </skill>
 <skill identifier="1879112983" name="Expert Shot" iconId="1090531781" description="key:620807633:228830419">
-<effect id="1879311298" name="Armour Rend"/>
+<effect id="1879311298" name="Armour Break"/>
 </skill>
 <skill identifier="1879112985" name="Barbed Arrows" iconId="1090553904" description="key:620807631:228830419">
 <effect id="1879459105" name="Barbed Arrows"/>
-<effect id="1879311298" name="Armour Rend"/>
+<effect id="1879311298" name="Armour Break"/>
 </skill>
 <skill identifier="1879112986" name="Evasion" iconId="1090553825" description="key:620807632:228830419">
 <effect id="1879459104" name="Evasion"/>
@@ -9723,7 +9729,7 @@
 </skill>
 <skill identifier="1879191223" name="Coordinated Strike" iconId="1091388812" description="key:620865959:228830419">
 <effect id="1879059825" name="Induce Stunned"/>
-<effect id="1879311298" name="Armour Rend"/>
+<effect id="1879311298" name="Armour Break"/>
 </skill>
 <skill identifier="1879191224" name="Lend Resolve" iconId="1090553341" description="key:620865960:228830419">
 <effect id="1879393981" name="DNT"/>
@@ -11279,7 +11285,7 @@
 <effect id="1879199459" name="Crumbling Shell"/>
 </skill>
 <skill identifier="1879199524" name="Fiery Ridicule" category="67" iconId="1091440847" description="key:620872711:228830419">
-<effect id="1879174143" name="Fiery Ridicule"/>
+<effect id="1879290081" name="DNT - Fiery Ridicule"/>
 <effect id="1879277834" name="DNT - Essay of Fire Dispel" type="USER"/>
 </skill>
 <skill identifier="1879199726" name="Lesser Shadow Bolt" iconId="1090522259"/>
@@ -12885,11 +12891,12 @@
 <effect id="1879277834" name="DNT - Essay of Fire Dispel" type="USER"/>
 </skill>
 <skill identifier="1879221507" name="Fiery Ridicule" category="67" iconId="1091440847" description="key:620888304:228830419">
-<effect id="1879174143" name="Fiery Ridicule"/>
+<effect id="1879290081" name="DNT - Fiery Ridicule"/>
 <effect id="1879277834" name="DNT - Essay of Fire Dispel" type="USER"/>
 </skill>
 <skill identifier="1879221524" name="Routing Cry (Defeat)" category="51" iconId="1092811768" description="key:620888318:228830419">
 <effect id="1879271293" name="DNT - Dispel Defeat Event" type="USER"/>
+<effect id="1879483914" name="DNT - Dispel temporary buff" type="USER"/>
 </skill>
 <skill identifier="1879221556" name="Cry of the Chorus (Resonance)" category="53" iconId="1090541249" description="key:620888354:228830419">
 <effect id="1879060917" name="Dispel Silence"/>
@@ -14304,6 +14311,7 @@
 </skill>
 <skill identifier="1879232331" name="Writ of Fire" category="67" iconId="1091440848" description="key:620896683:228830419">
 <effect id="1879283138" name="DNT - DoT Tiers"/>
+<effect id="1879283145" name="DNT - Weakening Writ"/>
 <effect id="1879233255" name="Master of Connotation" type="USER"/>
 <effect id="1879232361" name="DNT - Dispel Mastery" type="USER"/>
 <effect id="1879277834" name="DNT - Essay of Fire Dispel" type="USER"/>
@@ -14788,7 +14796,6 @@
 <effect id="1879242069" name="Heal"/>
 </skill>
 <skill identifier="1879238096" name="Power of Knowledge" category="19" iconId="1091762336" description="key:620899296:228830419">
-<effect id="1879271236" name="Fierce Lightning"/>
 <effect id="1879369513" name="Power of Knowledge" type="TOGGLE"/>
 <effect id="1879369513" name="Power of Knowledge" type="USER_TOGGLE"/>
 </skill>
@@ -16080,9 +16087,11 @@
 <effect id="1879054551" name="Interrupts Inductions"/>
 <effect id="1879245675" name="Addle"/>
 </skill>
-<skill identifier="1879245748" name="Diversion" category="37" iconId="1090541266" description="key:620905601:228830419">
-<effect id="1879060984" name="Distraction"/>
-<effect id="1879387593" name="Gamble"/>
+<skill identifier="1879245748" name="Sudden Diversion" category="37" iconId="1092943801" description="key:620905601:228830419">
+<effect id="1879484030" name="Gamble"/>
+<effect id="1879455629" name="Combat Stealth" type="USER"/>
+<effect id="1879484033" name="DNT - Riddle Reset" type="USER"/>
+<effect id="1879270344" name="Clever Retort Heal" type="USER"/>
 </skill>
 <skill identifier="1879245762" name="Spur On" category="100" iconId="1091746500" description="key:620905611:228830419">
 <effect id="1879245761" name="Spur On!" type="TOGGLE"/>
@@ -17289,8 +17298,7 @@
 <effect id="1879247989" name="Strategic Strike Crit Chance Removal" type="USER"/>
 </skill>
 <skill identifier="1879259882" name="Explosive Arrow" category="34" iconId="1091459008" description="key:620914255:228830419">
-<effect id="1879302728" name="Create Explosive Arrow"/>
-<effect id="1879052476" name="Bow of the Righteous" type="USER"/>
+<effect id="1879302728" name="Create Explosive Arrow" type="USER"/>
 </skill>
 <skill identifier="1879259921" name="Trick: Impugn Character" category="126" iconId="1091783130" description="key:620914283:228830419">
 <effect id="1879259966" name="Punctured Armour"/>
@@ -18033,7 +18041,7 @@
 <skill identifier="1879269678" name="Trickster: Improved Counter Defence" category="10" iconId="1091659738" description="key:620920602:228830419">
 <effect id="1879269688" name="Trickster: Improved Counter Defence"/>
 <effect id="1879270379" name="DNT - Flag to allow Trickster Stackable tricks to have the appropriate equiv class for skill checks"/>
-<effect id="1879474593" name="&lt;rgb=#ff007b&gt;Major Rent Armour:&lt;/rgb&gt; Trickster"/>
+<effect id="1879482751" name="&lt;rgb=#ff007b&gt;Major Rent Armour:&lt;/rgb&gt; Trickster"/>
 <effect id="1879300487" name="DNT - Trickster Dispel Apply" type="USER"/>
 <effect id="1879112557" name="Dispel Aim and Feint." type="USER"/>
 </skill>
@@ -18045,14 +18053,14 @@
 <skill identifier="1879269680" name="Trickster: Disable" category="10" iconId="1090541269" description="key:620920601:228830419">
 <effect id="1879269686" name="Trickster: Disable"/>
 <effect id="1879270379" name="DNT - Flag to allow Trickster Stackable tricks to have the appropriate equiv class for skill checks"/>
-<effect id="1879474593" name="&lt;rgb=#ff007b&gt;Major Rent Armour:&lt;/rgb&gt; Trickster"/>
+<effect id="1879482751" name="&lt;rgb=#ff007b&gt;Major Rent Armour:&lt;/rgb&gt; Trickster"/>
 <effect id="1879300487" name="DNT - Trickster Dispel Apply" type="USER"/>
 <effect id="1879112557" name="Dispel Aim and Feint." type="USER"/>
 </skill>
 <skill identifier="1879269681" name="Trickster: Counter Defence" category="10" iconId="1092754832" description="key:620920600:228830419">
 <effect id="1879269689" name="Trickster: Counter Defence"/>
 <effect id="1879270379" name="DNT - Flag to allow Trickster Stackable tricks to have the appropriate equiv class for skill checks"/>
-<effect id="1879474593" name="&lt;rgb=#ff007b&gt;Major Rent Armour:&lt;/rgb&gt; Trickster"/>
+<effect id="1879482751" name="&lt;rgb=#ff007b&gt;Major Rent Armour:&lt;/rgb&gt; Trickster"/>
 <effect id="1879300487" name="DNT - Trickster Dispel Apply" type="USER"/>
 <effect id="1879112557" name="Dispel Aim and Feint." type="USER"/>
 </skill>
@@ -18060,7 +18068,7 @@
 <effect id="1879269684" name="Trickster: Enraged"/>
 <effect id="1879060974" name="Exit Dazed"/>
 <effect id="1879270379" name="DNT - Flag to allow Trickster Stackable tricks to have the appropriate equiv class for skill checks"/>
-<effect id="1879474593" name="&lt;rgb=#ff007b&gt;Major Rent Armour:&lt;/rgb&gt; Trickster"/>
+<effect id="1879482751" name="&lt;rgb=#ff007b&gt;Major Rent Armour:&lt;/rgb&gt; Trickster"/>
 <effect id="1879300487" name="DNT - Trickster Dispel Apply" type="USER"/>
 <effect id="1879112557" name="Dispel Aim and Feint." type="USER"/>
 </skill>
@@ -18068,7 +18076,7 @@
 <effect id="1879060973" name="Trick: Dust in the Eyes"/>
 <effect id="1879206228" name="Slowed"/>
 <effect id="1879060974" name="Exit Dazed"/>
-<effect id="1879474593" name="&lt;rgb=#ff007b&gt;Major Rent Armour:&lt;/rgb&gt; Trickster"/>
+<effect id="1879482751" name="&lt;rgb=#ff007b&gt;Major Rent Armour:&lt;/rgb&gt; Trickster"/>
 <effect id="1879300487" name="DNT - Trickster Dispel Apply" type="USER"/>
 </skill>
 <skill identifier="1879269889" name="Swamp Cabbage" iconId="1090524209">
@@ -18277,6 +18285,7 @@
 </skill>
 <skill identifier="1879271287" name="Mighty Roar" category="4" iconId="1091804933" description="key:620921850:228830419">
 <effect id="1879275292" name="DNT - Unbreakable Dispel" type="USER"/>
+<effect id="1879483661" name="DNT - Dispels the unbroken for damage debuff" type="USER"/>
 </skill>
 <skill identifier="1879271294" name="Rallying Cry (Defeat)" category="51" iconId="1092811772" description="key:620921856:228830419">
 <effect id="1879174313" name="Rallying Cry"/>
@@ -18341,6 +18350,7 @@
 <effect id="1879192479" name="Remove consumable" type="USER"/>
 </skill>
 <skill identifier="1879272129" name="Born For Combat" category="33" iconId="1091830102" description="key:620922498:228830419">
+<effect id="1879483607" name="DNT"/>
 <effect id="1879275291" name="DNT - Born for Combat Dispel" type="USER"/>
 </skill>
 <mount identifier="1879272167" name="Horse of the Midsummer" category="88" iconId="1092115667" initialName="key:620922525:138936629" mountCategory="4" mountType="1" sourceDescription="key:620995772:124050140" morale="200" speed="0.62" tall="true" peerId="1879272170" description="key:620922533:228830419">
@@ -18489,16 +18499,8 @@
 <effect id="1879273585" name="Smashing Stab Dispel" type="USER"/>
 <effect id="1879273690" name="Calculated Defences Dispel" type="USER"/>
 </skill>
-<skill identifier="1879273678" name="Redirect" category="17" iconId="1091805300" description="key:620923767:228830419">
-<effect id="1879273896" name="Damage Reflection" type="USER"/>
-<effect id="1879273690" name="Calculated Defences Dispel" type="USER"/>
-</skill>
 <skill identifier="1879273679" name="Redirect" category="17" iconId="1091805300" description="key:620923766:228830419">
 <effect id="1879273894" name="Damage Reflection" type="USER"/>
-<effect id="1879273690" name="Calculated Defences Dispel" type="USER"/>
-</skill>
-<skill identifier="1879273680" name="Redirect" category="17" iconId="1091805300" description="key:620923768:228830419">
-<effect id="1879273895" name="Damage Reflection" type="USER"/>
 <effect id="1879273690" name="Calculated Defences Dispel" type="USER"/>
 </skill>
 <skill identifier="1879274005" name="War-chant" category="46" iconId="1091805310" description="key:620924062:228830419">
@@ -18806,7 +18808,7 @@
 <effect id="1879277199" name="Mounted" type="USER_TOGGLE"/>
 </mount>
 <skill identifier="1879277416" name="Writ of Lightning" category="64" iconId="1091829864" description="key:620926834:228830419">
-<effect id="1879277502" name="DNT"/>
+<effect id="1879283145" name="DNT - Weakening Writ"/>
 </skill>
 <skill identifier="1879277561" name="Shield-smash" category="46" iconId="1090540658" description="key:620926965:228830419">
 <effect id="1879051312" name="Induce Stunned"/>
@@ -18825,10 +18827,6 @@
 <effect id="1879277655" name="DNT - Armour Generator Propagation"/>
 </skill>
 <skill identifier="1879277925" name="Smouldering Wrath" category="67" iconId="1091440849" description="key:620927296:228830419">
-<effect id="1879232629" name="Smouldering Wrath" type="TOGGLE"/>
-<effect id="1879232629" name="Smouldering Wrath" type="USER_TOGGLE"/>
-</skill>
-<skill identifier="1879277926" name="Smouldering Wrath" category="67" iconId="1091440849" description="key:620927297:228830419">
 <effect id="1879232632" name="Smouldering Wrath" type="TOGGLE"/>
 <effect id="1879232632" name="Smouldering Wrath" type="USER_TOGGLE"/>
 </skill>
@@ -18838,7 +18836,8 @@
 <effect id="1879283146" name="DNT - Concession" type="USER"/>
 </skill>
 <skill identifier="1879277985" name="Concession and Rebuttal: Writ of Lightning" category="64" iconId="1091829864" description="key:620927352:228830419">
-<effect id="1879277442" name="Writ of Lightning - Tier 3"/>
+<effect id="1879277442" name="Weakening Writ - Tier 3"/>
+<effect id="1879291007" name="Writ of Lightning - Tier 3"/>
 <effect id="1879283146" name="DNT - Concession" type="USER"/>
 </skill>
 <skill identifier="1879277986" name="Concession and Rebuttal: Epic Conclusion" category="64" iconId="1091454171" description="key:620927350:228830419">
@@ -18909,12 +18908,8 @@
 <effect id="1879278401" name="Mounted" type="TOGGLE"/>
 <effect id="1879278401" name="Mounted" type="USER_TOGGLE"/>
 </mount>
-<skill identifier="1879278696" name="Routing Cry (Defeat)" category="51" iconId="1092811768" description="key:620927977:228830419">
-<effect id="1879271293" name="DNT - Dispel Defeat Event" type="USER"/>
-<effect id="1879275234" name="DNT - Penetrating Cry" type="USER"/>
-</skill>
 <skill identifier="1879279086" name="Improved Motivating Speech" category="14" iconId="1090553780" description="key:620928270:228830419">
-<effect id="1879421070" name="DNT - Blade-brother's Call brother-to-self" type="USER"/>
+<effect id="1879421070" type="USER"/>
 </skill>
 <skill identifier="1879282892" name="Mark Target" category="101" iconId="1091833393" description="key:620930858:228830419">
 <effect id="1879282891" name="Marked"/>
@@ -19895,6 +19890,8 @@
 </skill>
 <skill identifier="1879315178" name="Nature's Mend" category="146" iconId="1091940921" description="key:620953277:228830419">
 <effect id="1879315595" name="Nature's Mend"/>
+<effect id="1879484045" name="DNT - Wrath Regen" type="USER"/>
+<effect id="1879484043" name="DNT - Dispel Mend buff" type="USER"/>
 </skill>
 <skill identifier="1879315179" name="Mark of Beorn" category="147" iconId="1091940894" description="key:620953278:228830419">
 <effect id="1879315224" name="Mark of Beorn" type="TOGGLE"/>
@@ -20445,6 +20442,8 @@
 <skill identifier="1879322078" name="Nature's Mend - Tier 1" category="146" iconId="1091940921" description="key:620958301:228830419">
 <effect id="1879315595" name="Nature's Mend"/>
 <effect id="1879468380" name="DNT - Nature's Mend" type="USER"/>
+<effect id="1879484045" name="DNT - Wrath Regen" type="USER"/>
+<effect id="1879484043" name="DNT - Dispel Mend buff" type="USER"/>
 </skill>
 <mount identifier="1879322297" name="Steed of the Woodland Realm" category="88" iconId="1091955788" initialName="key:620958512:138936629" mountCategory="4" mountType="1" sourceDescription="key:620995772:139306396" morale="200" speed="0.62" peerId="1879322298" description="key:620958511:228830419">
 <effect id="1879322296" name="Mounted" type="TOGGLE"/>
@@ -26006,7 +26005,7 @@
 <skill identifier="1879400466" name="Thrash" iconId="1090522259">
 <effect id="1879318571" name="Knockback"/>
 </skill>
-<skill identifier="1879400467" name="Summon Ancient Fell-spirit" iconId="1090522259">
+<skill identifier="1879400467" name="Summon Ancient Fell Spirit" iconId="1090522259">
 <effect id="1879400765" name=".."/>
 </skill>
 <skill identifier="1879400468" name="Blood for Morloth" iconId="1090522259">
@@ -29872,11 +29871,8 @@
 <skill identifier="1879452394" name="Damaging Cloud II" iconId="1090522259">
 <effect id="1879452213" name=".."/>
 </skill>
-<skill identifier="1879452396" name="Virulent Discharge" iconId="1090522259">
-<effect id="1879452222" name="Virulent Poison"/>
-</skill>
 <skill identifier="1879452397" name="Sauron's Defence II" iconId="1090522259">
-<effect id="1879457391" name="Sauron's Defence II (Tier II)"/>
+<effect id="1879452209" name="Sauron's Defence II"/>
 </skill>
 <skill identifier="1879452405" name="Feral Scratch and Snip" category="8" iconId="1091474186" description="key:621068210:228830419">
 <effect id="1879452078" name="Scent of Blood" type="USER"/>
@@ -30191,7 +30187,7 @@
 <position region="1" longitude="-27.094383" latitude="-55.236317"/>
 <effect id="1879454900" name="Travel to Swanfleet"/>
 </travelSkill>
-<travelSkill identifier="1879454885" name="Return to the Tracery Archives in Rivendell" category="102" iconId="1090554013" description="key:621070253:228830419">
+<travelSkill identifier="1879454885" name="Return to the Tracery Archives in Rivendell" category="102" iconId="1092943526" description="key:621070253:228830419">
 <effect id="1879439276" name="Map to the Rivendell Tracery Archive"/>
 </travelSkill>
 <travelSkill identifier="1879454887" name="Guide to Cardolan" category="102" iconId="1092754398" description="key:621070260:228830419">
@@ -30928,7 +30924,7 @@
 <effect id="1879054405" name="Healing"/>
 </skill>
 <skill identifier="1879459109" name="Cutting Strike" iconId="1091459631" description="key:621072950:228830419">
-<effect id="1879311298" name="Armour Rend"/>
+<effect id="1879311298" name="Armour Break"/>
 </skill>
 <skill identifier="1879459113" name="Valiant Strike" category="25" iconId="1092811770" description="key:621072956:228830419">
 <effect id="1879241488" name="End the Night" type="USER"/>
@@ -31969,9 +31965,8 @@
 <effect id="1879467314" name="Swordplay: Check-step" type="USER"/>
 </skill>
 <skill identifier="1879467253" name="Shanty: Fore with Haste" category="160" iconId="1092830903" description="key:621078664:228830419">
+<effect id="1879467512" name="Relentless Fore-ward Motion"/>
 <effect id="1879474601" name="DNT - Fore With Haste Timeout"/>
-<effect id="1879467512" name="Relentless Fore-ward Motion" type="TOGGLE"/>
-<effect id="1879467512" name="Relentless Fore-ward Motion" type="USER_TOGGLE"/>
 </skill>
 <skill identifier="1879467254" name="Debilitating Strike" category="159" iconId="1092830944" description="key:621078670:228830419">
 <effect id="1879469846" name="Disarming Strike"/>
@@ -32034,21 +32029,26 @@
 </skill>
 <skill identifier="1879467288" name="Rummage: Scrap of Music" category="160" iconId="1092830879" description="key:621078711:228830419">
 <effect id="1879467670" name="Heartwarming Melody"/>
+<effect id="1879481851" type="USER"/>
 </skill>
 <skill identifier="1879467291" name="Rummage: Button" category="162" iconId="1092830958" description="key:621078691:228830419">
 <effect id="1879467671" name="Memories of Home"/>
+<effect id="1879481851" type="USER"/>
 </skill>
 <skill identifier="1879467293" name="Rummage" category="162" iconId="1092830908" description="key:621078704:228830419">
 <effect id="1879467527" name="Rummage"/>
 </skill>
 <skill identifier="1879467294" name="Rummage: Salts" category="162" iconId="1092830899" description="key:621078709:228830419">
 <effect id="1879466169" name="Induce Stunned"/>
+<effect id="1879481851" type="USER"/>
 </skill>
 <skill identifier="1879467298" name="Rummage: Knife" category="162" iconId="1092830906" description="key:621078700:228830419">
 <effect id="1879467675" name="Jagged Knife Wound"/>
+<effect id="1879481851" type="USER"/>
 </skill>
 <skill identifier="1879467299" name="Rummage: Stone" category="162" iconId="1092830954" description="key:621078697:228830419">
 <effect id="1879466171" name="Induce Stunned"/>
+<effect id="1879481851" type="USER"/>
 </skill>
 <skill identifier="1879467341" name="Cut-over" category="159" iconId="1092825084" description="key:621078731:228830419">
 <effect id="1879467336" name="Swordplay: Cut-over" type="USER"/>
@@ -32062,6 +32062,7 @@
 </skill>
 <skill identifier="1879467805" name="To Your Aid" category="146" iconId="1092830181" description="key:621079123:228830419">
 <effect id="1879468337" name="To Your Aid"/>
+<effect id="1879484045" name="DNT - Wrath Regen" type="USER"/>
 </skill>
 <skill identifier="1879467806" name="Blood Prize" category="147" iconId="1092833820" description="key:621079131:228830419">
 <effect id="1879468721" name="Blood Prize" type="USER"/>
@@ -32103,21 +32104,27 @@
 <skill identifier="1879467817" name="Trample (Dual)" category="148" iconId="1092833817" description="key:621079126:228830419">
 <effect id="1879320043" name="DNT - IA Give Back" type="USER"/>
 </skill>
-<skill identifier="1879468376" name="Ferocious Roar (Any Form)" category="147" iconId="1091940918" description="key:621079616:228830419">
+<skill identifier="1879468376" name="Ferocious Roar" category="147" iconId="1091940918" description="key:621079616:228830419">
 <effect id="1879312716" name="Ferocious Roar"/>
 <effect id="1879469264" name="DNT - Ferocious Roar"/>
 </skill>
 <skill identifier="1879468381" name="Nature's Mend - Tier 4" category="146" iconId="1091940921" description="key:621079621:228830419">
 <effect id="1879468385" name="Nature's Mend - Tier 4"/>
 <effect id="1879468379" name="DNT - Tier 4 Nature's Mend Dispel" type="USER"/>
+<effect id="1879484045" name="DNT - Wrath Regen" type="USER"/>
+<effect id="1879484043" name="DNT - Dispel Mend buff" type="USER"/>
 </skill>
 <skill identifier="1879468384" name="Nature's Mend - Tier 2" category="146" iconId="1091940921" description="key:621079618:228830419">
 <effect id="1879468382" name="Nature's Mend - Tier 2"/>
 <effect id="1879468380" name="DNT - Nature's Mend" type="USER"/>
+<effect id="1879484045" name="DNT - Wrath Regen" type="USER"/>
+<effect id="1879484043" name="DNT - Dispel Mend buff" type="USER"/>
 </skill>
 <skill identifier="1879468386" name="Nature's Mend - Tier 3" category="146" iconId="1091940921" description="key:621079623:228830419">
 <effect id="1879468383" name="Nature's Mend - Tier 3"/>
 <effect id="1879468380" name="DNT - Nature's Mend" type="USER"/>
+<effect id="1879484045" name="DNT - Wrath Regen" type="USER"/>
+<effect id="1879484043" name="DNT - Dispel Mend buff" type="USER"/>
 </skill>
 <pet identifier="1879468681" name="Fire-fox Bandit" category="145" iconId="1092832717" initialName="key:621079864:33816677" sourceDescription="key:621079869:211796645" genus="14" species="27" subSpecies="132" description="key:621079869:228830419">
 <effect id="1879468679" type="TOGGLE"/>
@@ -32219,12 +32226,15 @@
 </skill>
 <skill identifier="1879469747" name="Rummage: Button" category="162" iconId="1092830958" description="key:621080615:228830419">
 <effect id="1879467671" name="Memories of Home"/>
+<effect id="1879481851" type="USER"/>
 </skill>
 <skill identifier="1879469748" name="Rummage: Salts" category="162" iconId="1092830899" description="key:621080614:228830419">
 <effect id="1879466169" name="Induce Stunned"/>
+<effect id="1879481851" type="USER"/>
 </skill>
 <skill identifier="1879469749" name="Rummage: Scrap of Music" category="160" iconId="1092830879" description="key:621080616:228830419">
 <effect id="1879467670" name="Heartwarming Melody"/>
+<effect id="1879481851" type="USER"/>
 </skill>
 <skill identifier="1879469751" name="Cleansing Spirits" category="163" iconId="1092833614" description="key:621080629:228830419">
 <effect id="1879467660" name="Bountiful Herbs"/>
@@ -32334,7 +32344,7 @@
 <skill identifier="1879475861" name="Irritating Chills" iconId="1090522259">
 <effect id="1879475860" name="Fever and Chills"/>
 </skill>
-<travelSkill identifier="1879475966" name="Journey to the Order of the Eagle" category="102" iconId="1092909415" description="key:621085332:228830419">
+<travelSkill identifier="1879475966" name="Journey to the Order of the Eagle" category="102" iconId="1092943756" description="key:621085332:228830419">
 <position region="5" longitude="-96.51584" latitude="-20.123466"/>
 <effect id="1879475936" name="Travel to the Order of the Eagle"/>
 </travelSkill>
@@ -32358,7 +32368,7 @@
 <position region="4" longitude="-88.844864" latitude="-68.977325"/>
 <effect id="1879475948" name="Travel to Lond Cirion"/>
 </travelSkill>
-<travelSkill identifier="1879475972" name="Journey to the Ledger-keepers" category="102" iconId="1092909415" description="key:621085328:228830419">
+<travelSkill identifier="1879475972" name="Journey to the Ledger-keepers" category="102" iconId="1092943757" description="key:621085328:228830419">
 <position region="5" longitude="-98.31304" latitude="-17.3692"/>
 <effect id="1879475952" name="Travel to the Ledger-keepers"/>
 </travelSkill>
@@ -32576,11 +32586,16 @@
 <effect id="1879479345" type="TOGGLE"/>
 <effect id="1879479345" type="USER_TOGGLE"/>
 </pet>
+<skill identifier="1879479362" name="Swirling Shadows" iconId="1090522259"/>
+<skill identifier="1879479515" name="Claustrophobic Horror" iconId="1090522259">
+<effect id="1879479509" name="Claustrophobic Horror"/>
+<effect id="1879479512" name="Claustrophobic Horror"/>
+</skill>
 <travelSkill identifier="1879480303" name="Guide to the Bloody Eagle Tavern" category="102" iconId="1092909415" description="key:621088260:228830419">
 <position region="5" longitude="54.93951" latitude="73.78045"/>
 <effect id="1879480302" name="Guide to the Bloody Eagle Tavern"/>
 </travelSkill>
-<travelSkill identifier="1879480306" name="Return to the Bloody Eagle Tavern" category="102" iconId="1092909415" description="key:621088261:228830419">
+<travelSkill identifier="1879480306" name="Return to the Bloody Eagle Tavern" category="102" iconId="1092943524" description="key:621088261:228830419">
 <position region="5" longitude="54.93951" latitude="73.78045"/>
 <effect id="1879480304" name="Travel to the Bloody Eagle Tavern"/>
 </travelSkill>
@@ -32588,6 +32603,58 @@
 <position region="5" longitude="54.93951" latitude="73.78045"/>
 <effect id="1879480299" name="Muster to the Bloody Eagle Tavern"/>
 </travelSkill>
+<skill identifier="1879480380" name="Chest Thump" iconId="1090522259">
+<effect id="1879480413" name="Enrage III"/>
+<effect id="1879236974" name="Removes Hint"/>
+</skill>
+<skill identifier="1879480382" name="Backhand Smash" iconId="1090522259">
+<effect id="1879334645" name="Knockback"/>
+</skill>
+<skill identifier="1879480389" name="Spinning Swipe" iconId="1090522259">
+<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
+<effect id="1879483963" name="Spinning Swipe" type="USER"/>
+</skill>
+<skill identifier="1879480391" name="Fearful Smack" iconId="1090522259">
+<effect id="1879202164" name="Trap Damage" spellcraft="200.0"/>
+</skill>
+<skill identifier="1879480392" name="Slashing Beak" iconId="1090522259">
+<effect id="1879165711" name="DNT - Advanced"/>
+</skill>
+<skill identifier="1879480396" name="Grog Barrel" iconId="1090522259">
+<effect id="1879480423" name=".."/>
+<effect id="1879482692" name=".."/>
+</skill>
+<skill identifier="1879480402" name="Fire Barrel" iconId="1090522259">
+<effect id="1879480421" name=".."/>
+</skill>
+<skill identifier="1879480404" name="Brutal Swipe" iconId="1090522259"/>
+<skill identifier="1879480407" name="Downdraft" iconId="1090522259">
+<effect id="1879481352" name="Knockback"/>
+<effect id="1879482053" name="Downdraft"/>
+</skill>
+<skill identifier="1879480411" name="Ground Pound" iconId="1090522259">
+<effect id="1879482043" name="Ground Pound" type="TOGGLE"/>
+<effect id="1879385348" name="Immobile" type="TOGGLE"/>
+<effect id="1879482043" name="Ground Pound" type="USER_TOGGLE"/>
+<effect id="1879385348" name="Immobile" type="USER_TOGGLE"/>
+</skill>
+<skill identifier="1879480416" name="Predator's Glare" iconId="1090522259">
+<effect id="1879481690" name="Predator's Glare"/>
+</skill>
+<skill identifier="1879480422" name="Vicious Bite" iconId="1090522259"/>
+<skill identifier="1879480452" name="Ghostly Cutlass" iconId="1090522259">
+<effect id="1879480441" name="DNT"/>
+</skill>
+<skill identifier="1879480507" name="Thrashing Jaws" iconId="1090522259">
+<effect id="1879481686" name="Terrible Wound"/>
+</skill>
+<skill identifier="1879480508" name="Lashing Tail" iconId="1090522259">
+<effect id="1879388658" name="Induce Stunned"/>
+</skill>
+<skill identifier="1879480509" name="Boulder Swat" iconId="1090522259"/>
+<skill identifier="1879480510" name="Septic Bite" iconId="1090522259">
+<effect id="1879480397" name="DNT"/>
+</skill>
 <pet identifier="1879480615" name="Vivid Green Snake" category="145" iconId="1092933464" initialName="key:621088493:33816677" sourceDescription="key:621088523:211796645" genus="14" species="27" subSpecies="132" description="key:621088523:228830419">
 <effect id="1879480604" type="TOGGLE"/>
 <effect id="1879480604" type="USER_TOGGLE"/>
@@ -32636,4 +32703,1408 @@
 <effect id="1879480613" type="TOGGLE"/>
 <effect id="1879480613" type="USER_TOGGLE"/>
 </pet>
+<skill identifier="1879481275" name="Surety of Death" iconId="1090522259">
+<effect id="1879481457" name="Surety of Death"/>
+<effect id="1879481706" name="Surety of Death"/>
+</skill>
+<skill identifier="1879481276" name="The Fist" iconId="1090522259"/>
+<skill identifier="1879481277" name="Exultation of Battle" iconId="1090522259">
+<effect id="1879481753" name="Exultation of Battle"/>
+</skill>
+<skill identifier="1879481278" name="Free of Shackles" iconId="1090522259">
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.1"/>
+</skill>
+<skill identifier="1879481279" name="Shield Tactics" iconId="1090522259">
+<effect id="1879481414" name="Shield Tactics" type="USER"/>
+</skill>
+<skill identifier="1879481280" name="Conviction" iconId="1090522259">
+<effect id="1879482677" name="DNT - applies hot to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879481281" name="Shield Mastery" iconId="1090522259">
+<effect id="1879481392" name="Shield Mastery" type="USER"/>
+</skill>
+<skill identifier="1879481282" name="Rune Stone" iconId="1090522259"/>
+<skill identifier="1879481283" name="Resounding Challenge" iconId="1090522259">
+<effect id="1879481701" name="Resounding Challenge"/>
+</skill>
+<skill identifier="1879481284" name="Dark Inhale" iconId="1090522259"/>
+<skill identifier="1879481285" name="Mark for Execution" iconId="1090522259">
+<effect id="1879481595" name="Marked for Death"/>
+<effect id="1879481557" name="Vanished" type="USER"/>
+</skill>
+<skill identifier="1879481286" name="Dark Cut" iconId="1090522259">
+<effect id="1879481464" name="Corrupting Wound"/>
+</skill>
+<skill identifier="1879481287" name="The Spear" iconId="1090522259"/>
+<skill identifier="1879481288" name="Mark for Execution" iconId="1090522259">
+<effect id="1879481595" name="Marked for Death"/>
+<effect id="1879481557" name="Vanished" type="USER"/>
+</skill>
+<skill identifier="1879481289" name="Mark for Execution" iconId="1090522259">
+<effect id="1879481595" name="Marked for Death"/>
+<effect id="1879481557" name="Vanished" type="USER"/>
+</skill>
+<skill identifier="1879481290" name="Heavy Javelin" iconId="1090522259"/>
+<skill identifier="1879481291" name="Power Attack" iconId="1090522259">
+<effect id="1879481716" name="Power Attack"/>
+</skill>
+<skill identifier="1879481292" name="Dark Inhale" iconId="1090522259"/>
+<skill identifier="1879481293" name="Shattered Javelin" iconId="1090522259"/>
+<skill identifier="1879481294" name="Unseen Strikes" iconId="1090522259"/>
+<skill identifier="1879481295" name="Spear of Shadow" iconId="1090522259">
+<effect id="1879481711" name="Spear of Shadow"/>
+</skill>
+<skill identifier="1879481296" name="Change Targets" iconId="1090522259">
+<effect id="1879113524" name="ZeroOutThreatEffect"/>
+<effect id="1879481557" name="Vanished" type="USER"/>
+</skill>
+<skill identifier="1879481297" name="Mighty Blow" iconId="1090522259">
+<effect id="1879481727" name="Mighty Blow"/>
+</skill>
+<skill identifier="1879481298" name="Restoration" iconId="1090522259">
+<effect id="1879481721" name="Restoration" type="USER"/>
+</skill>
+<skill identifier="1879481299" name="Boar's Rush" iconId="1090522259"/>
+<skill identifier="1879481300" name="Unseen Strikes" iconId="1090522259"/>
+<skill identifier="1879481301" name="The East Wind" iconId="1090522259">
+<effect id="1879481487" name="The East Wind"/>
+</skill>
+<skill identifier="1879481302" name="Impressive Flourish" iconId="1090522259">
+<effect id="1879481636" name="Impressive Flourish"/>
+<effect id="1879481628" name="Impressive Flourish" type="USER"/>
+</skill>
+<skill identifier="1879481303" name="Crippling Taunt" iconId="1090522259">
+<effect id="1879481514" name="Crippling Taunt"/>
+</skill>
+<skill identifier="1879481304" name="Persevere" iconId="1090522259">
+<effect id="1879481655" name="Persevere" type="USER"/>
+<effect id="1879481705" name="Persevere" type="USER"/>
+</skill>
+<skill identifier="1879481305" name="Combination Strike" iconId="1090522259"/>
+<skill identifier="1879481306" name="Maddening Strike" iconId="1090522259">
+<effect id="1879481646" name="Maddening Strike"/>
+<effect id="1879481441" name="Maddening Strike" type="USER"/>
+</skill>
+<skill identifier="1879481308" name="Song of Soothing" iconId="1090522259">
+<effect id="1879481449" name="Song of Soothing" spellcraft="0.1"/>
+<effect id="1879481736" name="Song of Soothing"/>
+</skill>
+<skill identifier="1879481309" name="Heart Seeker" iconId="1090522259">
+<effect id="1879481724" name="Heart Seeker"/>
+</skill>
+<skill identifier="1879481310" name="Bleeding Jugular" iconId="1090522259">
+<effect id="1879481728" name="Bleeding Jugular"/>
+</skill>
+<skill identifier="1879481311" name="Desperate Fist" iconId="1090522259">
+<effect id="1879481644" name="DNT - applies enrage tierups to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879481312" name="Execute" iconId="1090522259">
+<effect id="1879481737" name="Execute"/>
+</skill>
+<skill identifier="1879481313" name="Fist of Shadow" iconId="1090522259">
+<effect id="1879481470" name="Fist of Shadow"/>
+</skill>
+<skill identifier="1879481314" name="Whirling Strike" iconId="1090522259"/>
+<skill identifier="1879481315" name="The Shield" iconId="1090522259"/>
+<skill identifier="1879481316" name="Execute" iconId="1090522259">
+<effect id="1879481699" name="Execute"/>
+</skill>
+<skill identifier="1879481317" name="Execute" iconId="1090522259">
+<effect id="1879481723" name="Execute"/>
+</skill>
+<skill identifier="1879481318" name="Frigid Blade" iconId="1090522259">
+<effect id="1879481411" name="Icy Wound"/>
+</skill>
+<skill identifier="1879481319" name="Howl of the Deathless" iconId="1090522259">
+<effect id="1879481715" name="Echoing Howl"/>
+<effect id="1879481643" name="DNT - applies enrage tierups to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879481320" name="Howl of the Deathless" iconId="1090522259">
+<effect id="1879481733" name="Echoing Howl"/>
+<effect id="1879481635" name="DNT - applies enrage tierups to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879481321" name="War Cry" iconId="1090522259">
+<effect id="1879481735" name="War Cry"/>
+<effect id="1879481394" name="War Cry" type="USER"/>
+</skill>
+<skill identifier="1879481322" name="Bleeding Steel" iconId="1090522259">
+<effect id="1879481659" name="Burning Steel"/>
+</skill>
+<skill identifier="1879481323" name="Fanged Bite" iconId="1090522259">
+<effect id="1879481401" name="Corrosive Wound"/>
+<effect id="1879481729" name="Burning Acid"/>
+</skill>
+<skill identifier="1879481324" name="Night Lore" iconId="1090522259">
+<effect id="1879481515" name="Night Lore"/>
+</skill>
+<skill identifier="1879481325" name="Howl of the Deathless" iconId="1090522259">
+<effect id="1879481641" name="DNT - applies enrage tierups to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879481326" name="Shield of Discord" iconId="1090522259">
+<effect id="1879481521" name="Shield of the Corsairs"/>
+</skill>
+<skill identifier="1879481327" name="Desolation" iconId="1090522259">
+<effect id="1879481562" name="Desolation"/>
+<effect id="1879481722" name="Desolation"/>
+</skill>
+<skill identifier="1879481374" name="Light's Lament" iconId="1090522259"/>
+<skill identifier="1879481376" name="Words of Courage" iconId="1090522259">
+<effect id="1879481703" name="Words of Courage"/>
+</skill>
+<skill identifier="1879481377" name="Medium Heal" iconId="1090522259">
+<effect id="1879481654" name="Medium Heal"/>
+</skill>
+<skill identifier="1879481378" name="Lesser Unstable Creature" iconId="1090522259">
+<effect id="1879481752" name="Unstable Creature"/>
+</skill>
+<skill identifier="1879481379" name="Summon Croc" iconId="1090522259">
+<effect id="1879480656"/>
+</skill>
+<skill identifier="1879481380" name="Interrupt" iconId="1090522259">
+<effect id="1879054551" name="Interrupts Inductions"/>
+</skill>
+<skill identifier="1879481382" name="Full Draw" iconId="1090522259"/>
+<skill identifier="1879481384" name="Lesser Cleave" iconId="1090522259"/>
+<skill identifier="1879481385" name="a mighty melee attack" iconId="1090522259"/>
+<skill identifier="1879481386" name="Bolster Courage" iconId="1090522259">
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.02"/>
+</skill>
+<skill identifier="1879481388" name="Protection by the Shield" iconId="1090522259">
+<effect id="1879481604" name="Protection"/>
+</skill>
+<skill identifier="1879481393" name="Word of Power: Resilience" iconId="1090522259">
+<effect id="1879484185" name="Word of Power: Resilience"/>
+</skill>
+<skill identifier="1879481395" name="Quick Shot" iconId="1090522259"/>
+<skill identifier="1879481396" name="Dramatic Flourish" iconId="1090522259">
+<effect id="1879481634" name="DNT - applies buff to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879481397" name="Shield Smash" iconId="1090522259">
+<effect id="1879315700" name="Stun"/>
+</skill>
+<skill identifier="1879481400" name="Minor AoE Heal" iconId="1090522259">
+<effect id="1879481654" name="Medium Heal"/>
+</skill>
+<skill identifier="1879481406" name="Vanish" iconId="1090522259">
+<effect id="1879481418" name="Vanished"/>
+<effect id="1879481654" name="Medium Heal"/>
+</skill>
+<skill identifier="1879481407" name="Revel in Combat" iconId="1090522259">
+<effect id="1879149379" name="DNT - Do Nothing"/>
+</skill>
+<skill identifier="1879481408" name="Fist of Shadow" iconId="1090522259">
+<effect id="1879481551" name="Fist of Shadow"/>
+</skill>
+<skill identifier="1879481409" name="Inspire" iconId="1090522259">
+<effect id="1879481731" name="Inspire" type="USER"/>
+</skill>
+<skill identifier="1879481410" name="Rune Stone" iconId="1090522259">
+<effect id="1879481751"/>
+</skill>
+<skill identifier="1879481412" name="Persistent Flame" iconId="1090522259">
+<effect id="1879481749" name="DNT"/>
+</skill>
+<skill identifier="1879481413" name="Pressing Attack" iconId="1090522259">
+<effect id="1879481629" name="Battle-readied" type="USER"/>
+</skill>
+<skill identifier="1879481416" name="a melee attack" iconId="1090522259"/>
+<skill identifier="1879481417" name="Whirlwind (distributed)" iconId="1090522259"/>
+<skill identifier="1879481419" name="Fire Pot" iconId="1090522259">
+<effect id="1879481697" name="Fire Pot Burn"/>
+</skill>
+<skill identifier="1879481420" name="Persistent Flame" iconId="1090522259">
+<effect id="1879481750" name="DNT"/>
+</skill>
+<skill identifier="1879481422" name="Cleave" iconId="1090522259"/>
+<skill identifier="1879481423" name="Red Gamble" iconId="1090522259">
+<effect id="1879481859" name="DNT - Gamble Random Potency"/>
+</skill>
+<skill identifier="1879481427" name="Inky Tendril" iconId="1090522259">
+<effect id="1879480661"/>
+</skill>
+<skill identifier="1879481428" name="Congealed Shadow" iconId="1090522259"/>
+<skill identifier="1879481429" name="Exploit Opening" iconId="1090522259"/>
+<skill identifier="1879481430" name="Bloodied Foe" iconId="1090522259">
+<effect id="1879481566" name="Bloodied"/>
+</skill>
+<skill identifier="1879481433" name="Whirling Strike" iconId="1090522259">
+<effect id="1879481488" name="Shredded Armour"/>
+</skill>
+<skill identifier="1879481434" name="Resilient Ally" iconId="1090522259">
+<effect id="1879481695" name="Desperate Resolve"/>
+</skill>
+<skill identifier="1879481437" name="Vanish" iconId="1090522259">
+<effect id="1879481418" name="Vanished"/>
+<effect id="1879481654" name="Medium Heal"/>
+</skill>
+<skill identifier="1879481438" name="Furious Blows" iconId="1090522259"/>
+<skill identifier="1879481439" name="Sprint" iconId="1090522259">
+<effect id="1879481651" name="Sprint"/>
+</skill>
+<skill identifier="1879481440" name="Battle Shout" iconId="1090522259"/>
+<skill identifier="1879481442" name="Agile Setup" iconId="1090522259">
+<effect id="1879481541" name="Agile Setup" type="USER"/>
+</skill>
+<skill identifier="1879481443" name="Flèche (distributed)" iconId="1090522259"/>
+<skill identifier="1879481444" name="Berserk" iconId="1090522259">
+<effect id="1879481650" name="Berserk"/>
+</skill>
+<skill identifier="1879481445" name="Song of Soothing" iconId="1090522259">
+<effect id="1879481510" name="Song of Soothing"/>
+<effect id="1879481693" name="Song of Soothing"/>
+</skill>
+<skill identifier="1879481446" name="Word of Flame 2" iconId="1090522259"/>
+<skill identifier="1879481447" name="Triumphant Spirit" iconId="1090522259">
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.05"/>
+</skill>
+<skill identifier="1879481450" name="Vicious Offense" iconId="1090522259">
+<effect id="1879484236" name="Vicious Offense"/>
+</skill>
+<skill identifier="1879481452" name="Alluring Aura" iconId="1090522259">
+<effect id="1879484193" name="Alluring Aura"/>
+</skill>
+<skill identifier="1879481453" name="Puncture" iconId="1090522259">
+<effect id="1879481639" name="DNT"/>
+</skill>
+<skill identifier="1879481455" name="Envenomed Ice" iconId="1090522259">
+<effect id="1879484167" name="Envenomed Ice"/>
+</skill>
+<skill identifier="1879481460" name="Quick Strike" iconId="1090522259"/>
+<skill identifier="1879481461" name="Furious Blows" iconId="1090522259"/>
+<skill identifier="1879481462" name="Word of Frost" iconId="1090522259"/>
+<skill identifier="1879481468" name="Summon Shade" iconId="1090522259">
+<effect id="1879480669" name="Summon Oath-sworn Archer"/>
+</skill>
+<skill identifier="1879481469" name="Word of Frost 2" iconId="1090522259"/>
+<skill identifier="1879481471" name="Desperate Heal" iconId="1090522259">
+<effect id="1879481657" name="Enormous Heal"/>
+</skill>
+<skill identifier="1879481473" name="Thunderous Blast" iconId="1090522259">
+<effect id="1879256494" name="Induce Daze"/>
+</skill>
+<skill identifier="1879481474" name="Grasping Earth" iconId="1090522259">
+<effect id="1879152802" name="Induce Rooted"/>
+</skill>
+<skill identifier="1879481475" name="Night Lore" iconId="1090522259">
+<effect id="1879481426" name="Night Lore"/>
+</skill>
+<skill identifier="1879481477" name="Call to Flame" iconId="1090522259"/>
+<skill identifier="1879481479" name="Sticky Gourd" iconId="1090522259">
+<effect id="1879481707" name="Sticky Gourd Burn"/>
+</skill>
+<skill identifier="1879481482" name="Major Cleave" iconId="1090522259"/>
+<skill identifier="1879481483" name="Green Gamble" iconId="1090522259">
+<effect id="1879481860" name="DNT - Gamble Random Potency"/>
+</skill>
+<skill identifier="1879481484" name="Bloodlet" iconId="1090522259">
+<effect id="1879481760" name="Bloodlet"/>
+</skill>
+<skill identifier="1879481485" name="Minor HoT" iconId="1090522259">
+<effect id="1879481725" name="Minor Resolve"/>
+</skill>
+<skill identifier="1879481486" name="Whirlwind Cut" iconId="1090522259">
+<effect id="1879484158" name="Whirlwind Cut Bleed"/>
+</skill>
+<skill identifier="1879481489" name="Melting Armour" iconId="1090522259">
+<effect id="1879481645" name="DNT"/>
+</skill>
+<skill identifier="1879481491" name="Tale of the Ancient Seafarer" iconId="1090522259">
+<effect id="1879481456" name="Tale of the Ancient Seafarer"/>
+<effect id="1879072527" name="Exit All Harmful States"/>
+</skill>
+<skill identifier="1879481493" name="Blinding Sun" iconId="1090522259">
+<effect id="1879315700" name="Stun"/>
+<effect id="1879481732" name="Burning Sun"/>
+</skill>
+<skill identifier="1879481495" name="Crippling Taunt" iconId="1090522259">
+<effect id="1879481554" name="Crippling Taunt"/>
+<effect id="1879484079" name="Routing Fury" type="USER"/>
+</skill>
+<skill identifier="1879481496" name="Shield Wall" iconId="1090522259">
+<effect id="1879481748" name="Shield Wall"/>
+</skill>
+<skill identifier="1879481497" name="Legend of Castamir" iconId="1090522259">
+<effect id="1879481466" name="The Legend of Castamir"/>
+</skill>
+<skill identifier="1879481498" name="Gust of Wind" iconId="1090522259"/>
+<skill identifier="1879481499" name="Sudden Squall" iconId="1090522259">
+<effect id="1879110020" name="Induce Dazed"/>
+</skill>
+<skill identifier="1879481500" name="Crushing Blow" iconId="1090522259"/>
+<skill identifier="1879481503" name="The Southern Sun" iconId="1090522259">
+<effect id="1879481391" name="The Southern Sun"/>
+</skill>
+<skill identifier="1879481506" name="Shocking Setup" iconId="1090522259">
+<effect id="1879481541" name="Agile Setup" type="USER"/>
+</skill>
+<skill identifier="1879481507" name="Well-aimed Strike" iconId="1090522259">
+<effect id="1879115257" name="Induce Knocked Out"/>
+</skill>
+<skill identifier="1879481509" name="Deep Cut" iconId="1090522259">
+<effect id="1879481714" name="Bleeding Cut"/>
+</skill>
+<skill identifier="1879481512" name="Healing strike" iconId="1090522259">
+<effect id="1879481656" name="Major Heal" type="USER"/>
+</skill>
+<skill identifier="1879481516" name="Word of Flame 1" iconId="1090522259"/>
+<skill identifier="1879481518" name="Heart Seeker" iconId="1090522259">
+<effect id="1879481700" name="Heart Seeker Wound"/>
+</skill>
+<skill identifier="1879481522" name="Major Heal" iconId="1090522259">
+<effect id="1879481656" name="Major Heal"/>
+</skill>
+<skill identifier="1879481524" name="Marking Shot" iconId="1090522259">
+<effect id="1879481402" name="Marked"/>
+</skill>
+<skill identifier="1879481525" name="Strong Cleanse" iconId="1090522259">
+<effect id="1879453253" name="Slick Flesh Salve"/>
+</skill>
+<skill identifier="1879481526" name="Yearning Flame" iconId="1090522259">
+<effect id="1879484216" name="Yearning Flame Pulse"/>
+</skill>
+<skill identifier="1879481527" name="Bleeding Jugular" iconId="1090522259">
+<effect id="1879481710" name="Bleeding Jugular"/>
+<effect id="1879315700" name="Stun"/>
+</skill>
+<skill identifier="1879481528" name="Furious Blows" iconId="1090522259"/>
+<skill identifier="1879481529" name="Shanty Heal" iconId="1090522259">
+<effect id="1879481698" name="Shanty: Resolve"/>
+</skill>
+<skill identifier="1879481532" name="Ferocious Strikes" iconId="1090522259"/>
+<skill identifier="1879481533" name="Word of Frost 1" iconId="1090522259"/>
+<skill identifier="1879481537" name="Summon Grim" iconId="1090522259">
+<effect id="1879480658"/>
+</skill>
+<skill identifier="1879481538" name="Threatening Roar" iconId="1090522259">
+<effect id="1879481415" name="Threatening Roar"/>
+<effect id="1879481465" name="Threatening Roar" type="USER"/>
+</skill>
+<skill identifier="1879481539" name="Death Bringer Execute" iconId="1090522259"/>
+<skill identifier="1879481540" name="Shield of Discord" iconId="1090522259">
+<effect id="1879481523" name="Shield of the Corsairs"/>
+</skill>
+<skill identifier="1879481544" name="Greater Unstable Creature" iconId="1090522259">
+<effect id="1879481757" name="Very Unstable Creature"/>
+</skill>
+<skill identifier="1879481545" name="Minor Heal" iconId="1090522259">
+<effect id="1879481660" name="Minor Heal"/>
+</skill>
+<skill identifier="1879481547" name="Encased in Flame" iconId="1090522259">
+<effect id="1879481702" name="Encased in Flame"/>
+</skill>
+<skill identifier="1879481549" name="Summon Shade" iconId="1090522259">
+<effect id="1879480653" name="Summon Oath-sworn Warrior"/>
+</skill>
+<skill identifier="1879481550" name="Dying Heal" iconId="1090522259">
+<effect id="1879481653" name="Dying Heal"/>
+</skill>
+<skill identifier="1879481552" name="Blade Storm - Channel" iconId="1090522259">
+<effect id="1879116350" name="DNT - Ground and Pound" type="TOGGLE"/>
+<effect id="1879116350" name="DNT - Ground and Pound" type="USER_TOGGLE"/>
+</skill>
+<skill identifier="1879481553" name="Frost Blast" iconId="1090522259"/>
+<skill identifier="1879481555" name="Lunge" iconId="1090522259"/>
+<skill identifier="1879481556" name="SoP: Weakness" iconId="1090522259">
+<effect id="1879481454" name="Sign of Power: Weakness"/>
+</skill>
+<skill identifier="1879481558" name="Merciful Strike" iconId="1090522259"/>
+<skill identifier="1879481559" name="Blood Rage" iconId="1090522259">
+<effect id="1879481623" name="Blood Rage"/>
+<effect id="1879484079" name="Routing Fury" type="USER"/>
+</skill>
+<skill identifier="1879481560" name="Blade of Castamir" iconId="1090522259">
+<effect id="1879481436" name="Battle-hardened" type="USER"/>
+</skill>
+<skill identifier="1879481561" name="Burning Embers" iconId="1090522259">
+<effect id="1879481717" name="Embers"/>
+</skill>
+<skill identifier="1879481563" name="Bash" iconId="1090522259">
+<effect id="1879049736" name="Induce Knockeddown"/>
+</skill>
+<skill identifier="1879481564" name="a swift melee attack" iconId="1090522259">
+<effect id="1879054551" name="Interrupts Inductions"/>
+</skill>
+<skill identifier="1879481565" name="Riddle" iconId="1090522259">
+<effect id="1879256494" name="Induce Daze"/>
+</skill>
+<skill identifier="1879481567" name="Summon Crab" iconId="1090522259">
+<effect id="1879480655"/>
+</skill>
+<skill identifier="1879481570" name="Sticky Tar" iconId="1090522259">
+<effect id="1879481431" name="Sticky Tar"/>
+</skill>
+<skill identifier="1879481571" name="Flurry of Strikes" iconId="1090522259"/>
+<skill identifier="1879481575" name="Legend of the Squall-breaker" iconId="1090522259">
+<effect id="1879481746" name="Legend of the Squallbreaker"/>
+</skill>
+<skill identifier="1879481576" name="Inferno" iconId="1090522259">
+<effect id="1879481719" name="Inferno"/>
+<effect id="1879481756" name="Inferno"/>
+</skill>
+<skill identifier="1879481578" name="Echoing Glee" iconId="1090522259">
+<effect id="1879481725" name="Minor Resolve"/>
+</skill>
+<skill identifier="1879481579" name="Routing Cry" iconId="1090522259">
+<effect id="1879481383" name="Routing Cry"/>
+</skill>
+<skill identifier="1879481581" name="Defensive Setup" iconId="1090522259">
+<effect id="1879481541" name="Agile Setup" type="USER"/>
+</skill>
+<skill identifier="1879481582" name="Tongue of Flame" iconId="1090522259"/>
+<skill identifier="1879481583" name="Ragged Cut" iconId="1090522259">
+<effect id="1879484223" name="Ragged Cut Bleed"/>
+</skill>
+<skill identifier="1879481584" name="Rune stone (healing ocean)" iconId="1090522259">
+<effect id="1879481747"/>
+</skill>
+<skill identifier="1879481585" name="Corrosive Blade" iconId="1090522259">
+<effect id="1879481531" name="Corrosive Strike"/>
+</skill>
+<skill identifier="1879481586" name="Obliterate" iconId="1090522259"/>
+<skill identifier="1879481587" name="Blood Arrow" iconId="1090522259">
+<effect id="1879481745" name="Blood Arrow"/>
+</skill>
+<skill identifier="1879481588" name="Hungry Maw" iconId="1090522259">
+<effect id="1879484164" name="Hungry Maw"/>
+</skill>
+<skill identifier="1879481590" name="Slam" iconId="1090522259"/>
+<skill identifier="1879481591" name="a sweeping melee attack" iconId="1090522259"/>
+<skill identifier="1879481593" name="Shadow Burst" iconId="1090522259"/>
+<skill identifier="1879481594" name="Summon Lion" iconId="1090522259">
+<effect id="1879480665"/>
+</skill>
+<skill identifier="1879481596" name="Word of Storm" iconId="1090522259"/>
+<skill identifier="1879481598" name="Primer Cleave" iconId="1090522259"/>
+<skill identifier="1879481599" name="Pummel" iconId="1090522259"/>
+<skill identifier="1879481600" name="Stand Ground" iconId="1090522259"/>
+<skill identifier="1879481601" name="Rapid Shot" iconId="1090522259"/>
+<skill identifier="1879481602" name="Slam (distributed)" iconId="1090522259"/>
+<skill identifier="1879481603" name="Careful Shot" iconId="1090522259"/>
+<skill identifier="1879481606" name="Compound Attack" iconId="1090522259"/>
+<skill identifier="1879481607" name="Focus Enemy" iconId="1090522259">
+<effect id="1879384847" name="Targetted"/>
+</skill>
+<skill identifier="1879481608" name="Venomous Arrow" iconId="1090522259">
+<effect id="1879481494" name="Venomous Arrow"/>
+</skill>
+<skill identifier="1879481609" name="Raging Blade" iconId="1090522259"/>
+<skill identifier="1879481610" name="Reveal Weakness" iconId="1090522259">
+<effect id="1879481490" name="Reveal Weakness"/>
+</skill>
+<skill identifier="1879481611" name="Aching Flame" iconId="1090522259">
+<effect id="1879484189" name="Aching Flame"/>
+</skill>
+<skill identifier="1879481612" name="The East Wind" iconId="1090522259">
+<effect id="1879481624" name="The East Wind"/>
+<effect id="1879484079" name="Routing Fury" type="USER"/>
+</skill>
+<skill identifier="1879481613" name="Self Heal" iconId="1090522259">
+<effect id="1879481656" name="Major Heal"/>
+</skill>
+<skill identifier="1879481614" name="Burning Aura" iconId="1090522259">
+<effect id="1879481864" name="Wreathed in Flame"/>
+</skill>
+<skill identifier="1879481617" name="Pinning Shot" iconId="1090522259"/>
+<skill identifier="1879481618" name="Disrupting Shot" iconId="1090522259">
+<effect id="1879054551" name="Interrupts Inductions"/>
+</skill>
+<skill identifier="1879481620" name="Caltrops" iconId="1090522259">
+<effect id="1879481459" name="Caltrops"/>
+</skill>
+<skill identifier="1879481621" name="Death Bringer Mark" iconId="1090522259"/>
+<skill identifier="1879481622" name="Frenzy" iconId="1090522259">
+<effect id="1879481458" name="Frantic"/>
+</skill>
+<skill identifier="1879481625" name="Make Haste" iconId="1090522259">
+<effect id="1879481381" name="Make Haste"/>
+</skill>
+<skill identifier="1879481627" name="Hamstring" iconId="1090522259">
+<effect id="1879481605" name="Hamstring"/>
+</skill>
+<skill identifier="1879481633" name="Hampering Javelin" iconId="1090522259">
+<effect id="1879481492" name="Hampered"/>
+</skill>
+<skill identifier="1879481806" name="Keen Arrow" iconId="1090522259">
+<effect id="1879482757" name="Keen Arrow"/>
+</skill>
+<skill identifier="1879481886" name="Ghostly Cutlass" iconId="1090522259"/>
+<skill identifier="1879481887" name="Downdraft" iconId="1090522259">
+<effect id="1879481352" name="Knockback"/>
+<effect id="1879482053" name="Downdraft"/>
+</skill>
+<skill identifier="1879481888" name="Updraft" iconId="1090522259">
+<effect id="1879115007" name="Knockaway"/>
+</skill>
+<skill identifier="1879481889" name="Tornado" iconId="1090522259">
+<effect id="1879482041" name=".."/>
+</skill>
+<skill identifier="1879481893" name="Ghostly Cutlass" iconId="1090522259"/>
+<skill identifier="1879481894" name="Tornado" iconId="1090522259">
+<effect id="1879482047" name="Tornado" type="TOGGLE"/>
+<effect id="1879482047" name="Tornado" type="USER_TOGGLE"/>
+</skill>
+<skill identifier="1879481895" name="Lightning Blast" iconId="1090522259">
+<effect id="1879482711" name="Painful Shock"/>
+</skill>
+<skill identifier="1879482065" name="Downdraft" iconId="1090522259">
+<effect id="1879481352" name="Knockback"/>
+<effect id="1879482053" name="Downdraft"/>
+<effect id="1879482962"/>
+</skill>
+<skill identifier="1879482067" name="Glorious Combat" iconId="1090522259">
+<effect id="1879481623" name="Blood Rage"/>
+<effect id="1879482314" name="DNT - Glorious Combat heal"/>
+<effect id="1879482337" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879482069" name="Rain of Arrows" iconId="1090522259">
+<effect id="1879483209" name="Arrows Overhead"/>
+</skill>
+<skill identifier="1879482070" name="Concussive Slam" iconId="1090522259">
+<effect id="1879315700" name="Stun"/>
+</skill>
+<skill identifier="1879482071" name="Swipe" iconId="1090522259"/>
+<skill identifier="1879482072" name="Barrage" iconId="1090522259">
+<effect id="1879481639" name="DNT"/>
+<effect id="1879482273" name="Barrage" type="USER"/>
+</skill>
+<skill identifier="1879482073" name="Thrown Scrap" iconId="1090522259"/>
+<skill identifier="1879482074" name="Corrupted Blood" iconId="1090522259">
+<effect id="1879481418" name="Vanished"/>
+<effect id="1879481654" name="Medium Heal"/>
+<effect id="1879482343" name="DNT" type="USER"/>
+<effect id="1879482381" name="Corrupted Blood - 3" type="USER"/>
+</skill>
+<skill identifier="1879482075" name="Pound Sand" iconId="1090522259"/>
+<skill identifier="1879482076" name="Charge" iconId="1090522259"/>
+<skill identifier="1879482077" name="Low Cut" iconId="1090522259">
+<effect id="1879482349" name="Low Cut"/>
+</skill>
+<skill identifier="1879482078" name="Exploit Opening" iconId="1090522259">
+<effect id="1879481629" name="Battle-readied" type="USER"/>
+</skill>
+<skill identifier="1879482080" name="Swift Bow" iconId="1090522259"/>
+<skill identifier="1879482081" name="Furious Blows" iconId="1090522259"/>
+<skill identifier="1879482082" name="Low Cut" iconId="1090522259">
+<effect id="1879482349" name="Low Cut"/>
+<effect id="1879482349" name="Low Cut"/>
+<effect id="1879482349" name="Low Cut"/>
+</skill>
+<skill identifier="1879482084" name="Concussive Sweep" iconId="1090522259">
+<effect id="1879115257" name="Induce Knocked Out"/>
+</skill>
+<skill identifier="1879482086" name="Shadow Strike" iconId="1090522259">
+<effect id="1879481551" name="Fist of Shadow"/>
+<effect id="1879481551" name="Fist of Shadow"/>
+</skill>
+<skill identifier="1879482087" name="Inspire" iconId="1090522259">
+<effect id="1879482484" name="DNT - applies buff to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879482088" name="Rupture" iconId="1090522259"/>
+<skill identifier="1879482089" name="Charge" iconId="1090522259">
+<effect id="1879482391" name="Rush" type="USER"/>
+</skill>
+<skill identifier="1879482090" name="Haemorrhage" iconId="1090522259">
+<effect id="1879482306" name="Haemorrhage - 2"/>
+</skill>
+<skill identifier="1879482091" name="Fight Fair" iconId="1090522259">
+<effect id="1879482383" name="Unfair Fighting"/>
+</skill>
+<skill identifier="1879482092" name="Crippling Bite" iconId="1090522259">
+<effect id="1879482282" name="Hamstring"/>
+</skill>
+<skill identifier="1879482094" name="Revel in Combat" iconId="1090522259">
+<effect id="1879149379" name="DNT - Do Nothing"/>
+</skill>
+<skill identifier="1879482095" name="Quick Shot" iconId="1090522259"/>
+<skill identifier="1879482096" name="Mighty Cleave" iconId="1090522259"/>
+<skill identifier="1879482098" name="Vanish" iconId="1090522259">
+<effect id="1879481418" name="Vanished"/>
+<effect id="1879481654" name="Medium Heal"/>
+<effect id="1879113524" name="ZeroOutThreatEffect" type="USER"/>
+</skill>
+<skill identifier="1879482100" name="a strong melee attack" iconId="1090522259"/>
+<skill identifier="1879482101" name="Horn of Champions" iconId="1090522259">
+<effect id="1879482350" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879482102" name="Corrupted Blood" iconId="1090522259">
+<effect id="1879481418" name="Vanished"/>
+<effect id="1879481654" name="Medium Heal"/>
+<effect id="1879482293" name="DNT" type="USER"/>
+<effect id="1879482384" name="Corrupted Blood - 5" type="USER"/>
+</skill>
+<skill identifier="1879482105" name="a sweeping melee attack" iconId="1090522259"/>
+<skill identifier="1879482107" name="Bracing Guard" iconId="1090522259">
+<effect id="1879483238" name="Bracing Guard" type="USER"/>
+</skill>
+<skill identifier="1879482108" name="Whirling Retaliation" iconId="1090522259">
+<effect id="1879482284" name="Whirling Retaliation" type="USER"/>
+</skill>
+<skill identifier="1879482109" name="Follow" iconId="1090522259"/>
+<skill identifier="1879482110" name="Blade of Castamir" iconId="1090522259">
+<effect id="1879481436" name="Battle-hardened" type="USER"/>
+</skill>
+<skill identifier="1879482111" name="Snap" iconId="1090522259"/>
+<skill identifier="1879482112" name="Wild Attack" iconId="1090522259"/>
+<skill identifier="1879482113" name="Low Cut" iconId="1090522259">
+<effect id="1879482349" name="Low Cut"/>
+</skill>
+<skill identifier="1879482114" name="Corrosive Blade" iconId="1090522259">
+<effect id="1879482386" name="Corrosive Strike"/>
+</skill>
+<skill identifier="1879482115" name="Mighty Upheaval" iconId="1090522259">
+<effect id="1879428001" name="Induce Knockeddown"/>
+<effect id="1879483222" name="Knockback"/>
+</skill>
+<skill identifier="1879482117" name="Square Off" iconId="1090522259">
+<effect id="1879482387" name="Chosen Enemy"/>
+</skill>
+<skill identifier="1879482118" name="Horn of Champions" iconId="1090522259"/>
+<skill identifier="1879482119" name="Swift Bow" iconId="1090522259"/>
+<skill identifier="1879482120" name="Haemorrhage" iconId="1090522259">
+<effect id="1879482306" name="Haemorrhage - 2"/>
+</skill>
+<skill identifier="1879482121" name="Bracing Guard" iconId="1090522259">
+<effect id="1879483238" name="Bracing Guard" type="USER"/>
+</skill>
+<skill identifier="1879482122" name="Killing Strike" iconId="1090522259"/>
+<skill identifier="1879482123" name="Battle Shout" iconId="1090522259"/>
+<skill identifier="1879482124" name="a strong melee attack" iconId="1090522259"/>
+<skill identifier="1879482125" name="Shadow Strike" iconId="1090522259">
+<effect id="1879481551" name="Fist of Shadow"/>
+<effect id="1879481551" name="Fist of Shadow"/>
+</skill>
+<skill identifier="1879482126" name="Bite" iconId="1090522259"/>
+<skill identifier="1879482127" name="Burning Sun" iconId="1090522259"/>
+<skill identifier="1879482128" name="Prime" iconId="1090522259">
+<effect id="1879482352" name="Very Unstable Creature"/>
+</skill>
+<skill identifier="1879482129" name="Let Fly" iconId="1090522259">
+<effect id="1879482304" name="Deep Cut"/>
+</skill>
+<skill identifier="1879482130" name="Cry of the Hunter" iconId="1090522259">
+<effect id="1879366838" name="Cowering"/>
+</skill>
+<skill identifier="1879482131" name="Venomous Arrow" iconId="1090522259">
+<effect id="1879482388" name="Envenomed"/>
+</skill>
+<skill identifier="1879482132" name="Sweeping Cut" iconId="1090522259"/>
+<skill identifier="1879482133" name="Well-aimed Strike" iconId="1090522259"/>
+<skill identifier="1879482134" name="Fire Trap" iconId="1090522259">
+<effect id="1879482305" name=".."/>
+</skill>
+<skill identifier="1879482135" name="Pressing Attack" iconId="1090522259">
+<effect id="1879481629" name="Battle-readied" type="USER"/>
+</skill>
+<skill identifier="1879482136" name="Burn Hot" iconId="1090522259">
+<effect id="1879481654" name="Medium Heal"/>
+<effect id="1879482343" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879482137" name="Shield Smash" iconId="1090522259">
+<effect id="1879315700" name="Stun"/>
+</skill>
+<skill identifier="1879482138" name="Rapid Shot" iconId="1090522259"/>
+<skill identifier="1879482139" name="Snip" iconId="1090522259">
+<effect id="1879482296" name="Snipped"/>
+</skill>
+<skill identifier="1879482140" name="a melee attack" iconId="1090522259"/>
+<skill identifier="1879482141" name="Reveal Weakness" iconId="1090522259">
+<effect id="1879482389" name="Revealed Weakness"/>
+</skill>
+<skill identifier="1879482142" name="Hunter's Arrow" iconId="1090522259">
+<effect id="1879203553" name="Induce Feared"/>
+</skill>
+<skill identifier="1879482144" name="Slam" iconId="1090522259">
+<effect id="1879115257" name="Induce Knocked Out"/>
+</skill>
+<skill identifier="1879482145" name="Hammer Down" iconId="1090522259"/>
+<skill identifier="1879482146" name="Protection of the Sea" iconId="1090522259">
+<effect id="1879482283" name=".."/>
+</skill>
+<skill identifier="1879482147" name="Haemorrhage" iconId="1090522259">
+<effect id="1879482351" name="Haemorrhage - 5"/>
+</skill>
+<skill identifier="1879482148" name="Sputter" iconId="1090522259"/>
+<skill identifier="1879482149" name="Slam" iconId="1090522259">
+<effect id="1879482282" name="Hamstring"/>
+</skill>
+<skill identifier="1879482150" name="Pooling Blood" iconId="1090522259">
+<effect id="1879482328" name=".."/>
+</skill>
+<skill identifier="1879482151" name="In Harm's Way" iconId="1090522259">
+<effect id="1879482317" name="In Harm's Way"/>
+</skill>
+<skill identifier="1879482153" name="Pinning Shot" iconId="1090522259"/>
+<skill identifier="1879482154" name="Frenzy" iconId="1090522259">
+<effect id="1879482390" name="Frenzied"/>
+</skill>
+<skill identifier="1879482156" name="Furious Blows" iconId="1090522259"/>
+<skill identifier="1879482159" name="Group Hunters" iconId="1090522259">
+<effect id="1879482264" name="Pride Hunters" type="TOGGLE"/>
+<effect id="1879482264" name="Pride Hunters" type="USER_TOGGLE"/>
+</skill>
+<skill identifier="1879482160" name="Barrage" iconId="1090522259">
+<effect id="1879481639" name="DNT"/>
+<effect id="1879482266" name="Barrage" type="USER"/>
+</skill>
+<skill identifier="1879482161" name="Obliterate" iconId="1090522259"/>
+<skill identifier="1879482162" name="Persistent Flame" iconId="1090522259">
+<effect id="1879481749" name="DNT"/>
+</skill>
+<skill identifier="1879482163" name="Burn Hot" iconId="1090522259">
+<effect id="1879481654" name="Medium Heal"/>
+<effect id="1879482293" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879482164" name="Deep Cut" iconId="1090522259">
+<effect id="1879482304" name="Deep Cut"/>
+</skill>
+<skill identifier="1879482165" name="a swift melee attack" iconId="1090522259">
+<effect id="1879054551" name="Interrupts Inductions"/>
+</skill>
+<skill identifier="1879482166" name="Word of Flame 2" iconId="1090522259"/>
+<skill identifier="1879482168" name="Horn of Umbar" iconId="1090522259">
+<effect id="1879220553" name="Induce Stunned"/>
+</skill>
+<skill identifier="1879482169" name="Devastating Strike" iconId="1090522259"/>
+<skill identifier="1879482170" name="Sudden Sprint" iconId="1090522259">
+<effect id="1879481651" name="Sprint" type="USER"/>
+</skill>
+<skill identifier="1879482171" name="Choking Shadow" iconId="1090522259">
+<effect id="1879482345" name=".."/>
+<effect id="1879481654" name="Medium Heal"/>
+</skill>
+<skill identifier="1879482172" name="Gore" iconId="1090522259">
+<effect id="1879482295" name="Gored"/>
+</skill>
+<skill identifier="1879482173" name="Burning Aura" iconId="1090522259">
+<effect id="1879481864" name="Wreathed in Flame"/>
+</skill>
+<skill identifier="1879482174" name="a sweeping melee attack" iconId="1090522259"/>
+<skill identifier="1879482175" name="Tear Flesh" iconId="1090522259">
+<effect id="1879482347" name="Torn Flesh"/>
+</skill>
+<skill identifier="1879482176" name="Find Foe" iconId="1090522259">
+<effect id="1879482387" name="Chosen Enemy"/>
+</skill>
+<skill identifier="1879482177" name="Inspire" iconId="1090522259">
+<effect id="1879482484" name="DNT - applies buff to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879482178" name="Shanty Heal" iconId="1090522259">
+<effect id="1879482336" name="Shanty: Resolve"/>
+</skill>
+<skill identifier="1879482179" name="a swift melee attack" iconId="1090522259">
+<effect id="1879054551" name="Interrupts Inductions"/>
+</skill>
+<skill identifier="1879482180" name="Fleche (distributed)" iconId="1090522259"/>
+<skill identifier="1879482181" name="Roar of the Crowd" iconId="1090522259">
+<effect id="1879482333" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879482182" name="Hamstring" iconId="1090522259">
+<effect id="1879481605" name="Hamstring"/>
+</skill>
+<skill identifier="1879482183" name="Word of Frost 2" iconId="1090522259"/>
+<skill identifier="1879482184" name="Horn of Champions" iconId="1090522259">
+<effect id="1879482337" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879482185" name="Crushing Blows" iconId="1090522259">
+<effect id="1879482270" name="Crushing Blows - 3"/>
+<effect id="1879482271" name="Crushing Blows Slow"/>
+</skill>
+<skill identifier="1879482186" name="Inspire" iconId="1090522259">
+<effect id="1879482483" name="DNT - applies buff to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879482187" name="Slam (distributed)" iconId="1090522259"/>
+<skill identifier="1879482188" name="War-chant" iconId="1090522259">
+<effect id="1879483251" name="War Chant"/>
+<effect id="1879482350" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879482189" name="Pound Sand" iconId="1090522259"/>
+<skill identifier="1879482190" name="Haemorrhage" iconId="1090522259">
+<effect id="1879482351" name="Haemorrhage - 5"/>
+</skill>
+<skill identifier="1879482191" name="Ferocious Strikes" iconId="1090522259"/>
+<skill identifier="1879482192" name="Bloodlet" iconId="1090522259">
+<effect id="1879481760" name="Bloodlet"/>
+</skill>
+<skill identifier="1879482193" name="Quick Jab" iconId="1090522259"/>
+<skill identifier="1879482194" name="a melee attack" iconId="1090522259"/>
+<skill identifier="1879482195" name="Call to Flame" iconId="1090522259"/>
+<skill identifier="1879482196" name="Mighty Upheaval" iconId="1090522259">
+<effect id="1879428001" name="Induce Knockeddown"/>
+<effect id="1879483222" name="Knockback"/>
+</skill>
+<skill identifier="1879482198" name="Whirling Retaliation" iconId="1090522259">
+<effect id="1879481488" name="Shredded Armour"/>
+<effect id="1879482339" name="Whirling Retaliation" type="USER"/>
+</skill>
+<skill identifier="1879482199" name="Careful Shot" iconId="1090522259"/>
+<skill identifier="1879482200" name="Whirling Retaliation" iconId="1090522259">
+<effect id="1879482339" name="Whirling Retaliation" type="USER"/>
+</skill>
+<skill identifier="1879482201" name="Heart Seeker" iconId="1090522259">
+<effect id="1879482308" name="Heart Seeker Wound"/>
+</skill>
+<skill identifier="1879482202" name="Bash" iconId="1090522259">
+<effect id="1879049736" name="Induce Knockeddown"/>
+</skill>
+<skill identifier="1879482203" name="Brutal Strikes" iconId="1090522259">
+<effect id="1879115257" name="Induce Knocked Out"/>
+</skill>
+<skill identifier="1879482204" name="Shadow Burst" iconId="1090522259"/>
+<skill identifier="1879482205" name="Word of Frost 1" iconId="1090522259"/>
+<skill identifier="1879482207" name="Shout" iconId="1090522259"/>
+<skill identifier="1879482208" name="Hammer Down" iconId="1090522259"/>
+<skill identifier="1879482209" name="Quick Shot" iconId="1090522259"/>
+<skill identifier="1879482210" name="War-chant" iconId="1090522259">
+<effect id="1879483250" name="War Chant"/>
+<effect id="1879482337" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879482211" name="Pound Sand" iconId="1090522259"/>
+<skill identifier="1879482212" name="Stagger" iconId="1090522259">
+<effect id="1879482277" name="Stagger - 8"/>
+</skill>
+<skill identifier="1879482213" name="Summon Shade" iconId="1090522259">
+<effect id="1879480669" name="Summon Oath-sworn Archer"/>
+</skill>
+<skill identifier="1879482215" name="Subtle Strike" iconId="1090522259"/>
+<skill identifier="1879482216" name="Seeping Wound" iconId="1090522259">
+<effect id="1879482307" name="Seeping Blood"/>
+</skill>
+<skill identifier="1879482217" name="Mighty Upheaval" iconId="1090522259">
+<effect id="1879483222" name="Knockback"/>
+</skill>
+<skill identifier="1879482218" name="Shocking Setup" iconId="1090522259">
+<effect id="1879481541" name="Agile Setup" type="USER"/>
+</skill>
+<skill identifier="1879482219" name="Inferno" iconId="1090522259">
+<effect id="1879481719" name="Inferno"/>
+<effect id="1879481756" name="Inferno"/>
+</skill>
+<skill identifier="1879482220" name="Roar of the Crowd" iconId="1090522259">
+<effect id="1879482313" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879482221" name="Red Gamble" iconId="1090522259">
+<effect id="1879481859" name="DNT - Gamble Random Potency"/>
+</skill>
+<skill identifier="1879482222" name="Make Haste" iconId="1090522259">
+<effect id="1879482276" name="Make Haste"/>
+</skill>
+<skill identifier="1879482223" name="Furious Blows" iconId="1090522259"/>
+<skill identifier="1879482224" name="Strident Cry" iconId="1090522259">
+<effect id="1879482301" name="Strident Cry" type="TOGGLE"/>
+<effect id="1879482301" name="Strident Cry" type="USER_TOGGLE"/>
+</skill>
+<skill identifier="1879482225" name="Get Over Here!" iconId="1090522259">
+<effect id="1879482379" name="Get Over Here"/>
+</skill>
+<skill identifier="1879482227" name="Horn of Champions" iconId="1090522259"/>
+<skill identifier="1879482228" name="Defensive Setup" iconId="1090522259">
+<effect id="1879481541" name="Agile Setup" type="USER"/>
+</skill>
+<skill identifier="1879482229" name="Glare" iconId="1090522259">
+<effect id="1879482392" name="Fixation"/>
+</skill>
+<skill identifier="1879482231" name="Whirling Retaliation" iconId="1090522259">
+<effect id="1879481488" name="Shredded Armour"/>
+<effect id="1879482284" name="Whirling Retaliation" type="USER"/>
+</skill>
+<skill identifier="1879482233" name="Stagger" iconId="1090522259">
+<effect id="1879482281" name="Stagger - 3"/>
+</skill>
+<skill identifier="1879482234" name="Word of Flame 1" iconId="1090522259"/>
+<skill identifier="1879482237" name="Full Draw" iconId="1090522259"/>
+<skill identifier="1879482238" name="Word of Frost" iconId="1090522259"/>
+<skill identifier="1879482239" name="Iron Claw" iconId="1090522259">
+<effect id="1879482316" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879482240" name="a mighty melee attack" iconId="1090522259"/>
+<skill identifier="1879482241" name="Glorious Combat" iconId="1090522259">
+<effect id="1879481623" name="Blood Rage"/>
+<effect id="1879482314" name="DNT - Glorious Combat heal"/>
+<effect id="1879482350" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879482242" name="Swipe" iconId="1090522259"/>
+<skill identifier="1879482243" name="Upshot" iconId="1090522259">
+<effect id="1879481639" name="DNT"/>
+</skill>
+<skill identifier="1879482244" name="Persistent Flame" iconId="1090522259">
+<effect id="1879481750" name="DNT"/>
+</skill>
+<skill identifier="1879482246" name="Yearning Flame" iconId="1090522259"/>
+<skill identifier="1879482248" name="Precise Strike" iconId="1090522259"/>
+<skill identifier="1879482249" name="Jagged Cut" iconId="1090522259">
+<effect id="1879481488" name="Shredded Armour"/>
+</skill>
+<skill identifier="1879482250" name="Disrupting Shot" iconId="1090522259">
+<effect id="1879054551" name="Interrupts Inductions"/>
+</skill>
+<skill identifier="1879482252" name="Ram" iconId="1090522259"/>
+<skill identifier="1879482253" name="Strident Cry" iconId="1090522259">
+<effect id="1879482319" name="Strident Cry" type="TOGGLE"/>
+<effect id="1879482319" name="Strident Cry" type="USER_TOGGLE"/>
+</skill>
+<skill identifier="1879482254" name="The East Wind" iconId="1090522259">
+<effect id="1879482393" name="The East Wind"/>
+</skill>
+<skill identifier="1879482255" name="Roar of the Crowd" iconId="1090522259">
+<effect id="1879482292" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879482256" name="Bleeding Jugular" iconId="1090522259">
+<effect id="1879481710" name="Bleeding Jugular"/>
+<effect id="1879315700" name="Stun"/>
+</skill>
+<skill identifier="1879482257" name="Crushing Blows" iconId="1090522259">
+<effect id="1879482268" name="Crushing Blows - 5"/>
+<effect id="1879482271" name="Crushing Blows Slow"/>
+</skill>
+<skill identifier="1879482258" name="Interrupt" iconId="1090522259">
+<effect id="1879054551" name="Interrupts Inductions"/>
+</skill>
+<skill identifier="1879482259" name="Cry of Fury" iconId="1090522259">
+<effect id="1879481383" name="Routing Cry"/>
+<effect id="1879482380" name="Cry of Fury" type="USER"/>
+</skill>
+<skill identifier="1879482260" name="a melee attack" iconId="1090522259"/>
+<skill identifier="1879482261" name="Shield of Discord" iconId="1090522259">
+<effect id="1879481523" name="Shield of the Corsairs"/>
+</skill>
+<skill identifier="1879482262" name="Blood Rage" iconId="1090522259">
+<effect id="1879482394" name="Blood Rage - 15"/>
+</skill>
+<skill identifier="1879482263" name="Mark of the Desert Sun" iconId="1090522259"/>
+<skill identifier="1879482488" name="Cleave Flesh" iconId="1090522259"/>
+<skill identifier="1879482490" name="Beckoning Flame" iconId="1090522259">
+<effect id="1879482487" name="Beckoning Flame"/>
+</skill>
+<skill identifier="1879482491" name="Void Beckon" iconId="1090522259">
+<effect id="1879482489" name="Void Beckon"/>
+<effect id="1879482495" name="Void Beckon"/>
+</skill>
+<skill identifier="1879482492" name="Break Spirit" iconId="1090522259">
+<effect id="1879482486" name="Broken Spirit"/>
+</skill>
+<skill identifier="1879482494" name="Shattered Armour" iconId="1090522259">
+<effect id="1879482496" name="Shattered Armour"/>
+</skill>
+<pet identifier="1879482551" name="Ruby Sand Worm" category="145" iconId="1092939483" initialName="key:621090261:33816677" sourceDescription="key:621090267:211796645" genus="14" species="27" subSpecies="132" description="key:621090267:228830419">
+<effect id="1879482559" type="TOGGLE"/>
+<effect id="1879482559" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879482554" name="Chestnut Sand Worm" category="145" iconId="1092939482" initialName="key:621090264:33816677" sourceDescription="key:621090253:211796645" genus="14" species="27" subSpecies="132" description="key:621090253:228830419">
+<effect id="1879482561" type="TOGGLE"/>
+<effect id="1879482561" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879482558" name="Adorable Sand Worm" category="145" iconId="1092939484" initialName="key:621090257:33816677" sourceDescription="key:621090259:211796645" genus="14" species="27" subSpecies="132" description="key:621090259:228830419">
+<effect id="1879482562" type="TOGGLE"/>
+<effect id="1879482562" type="USER_TOGGLE"/>
+</pet>
+<skill identifier="1879482589" name="Ichor" iconId="1090522259">
+<effect id="1879482655" name=".."/>
+</skill>
+<skill identifier="1879482590" name="Fire Pot" iconId="1090522259">
+<effect id="1879482291" name=".."/>
+</skill>
+<skill identifier="1879482592" name="Volley" iconId="1090522259">
+<effect id="1879482661" name=".."/>
+</skill>
+<skill identifier="1879482593" name="Let Fly" iconId="1090522259"/>
+<skill identifier="1879482595" name="Volley" iconId="1090522259">
+<effect id="1879482651" name=".."/>
+</skill>
+<skill identifier="1879482599" name="Ichor" iconId="1090522259">
+<effect id="1879482650" name=".."/>
+</skill>
+<skill identifier="1879482601" name="Throw Boulder" iconId="1090522259">
+<effect id="1879332056" name="Hounding Fear"/>
+</skill>
+<skill identifier="1879482602" name="Demand" iconId="1090522259">
+<effect id="1879482379" name="Get Over Here"/>
+</skill>
+<skill identifier="1879482606" name="Stagger" iconId="1090522259">
+<effect id="1879482279" name="Stagger - 2"/>
+</skill>
+<skill identifier="1879482607" name="Frenzied Strike" iconId="1090522259">
+<effect id="1879482663" name="Frenzy - 1" type="USER"/>
+</skill>
+<skill identifier="1879482610" name="a sweeping melee attack" iconId="1090522259"/>
+<skill identifier="1879482612" name="Frenzied Strike" iconId="1090522259">
+<effect id="1879482643" name="Frenzy - 3" type="USER"/>
+</skill>
+<skill identifier="1879482615" name="Unstable Flame II" iconId="1090522259">
+<effect id="1879482654" name="Unstable Flame - 3" type="USER"/>
+</skill>
+<skill identifier="1879482616" name="Ichor" iconId="1090522259">
+<effect id="1879482660" name="Entombed in Ichor"/>
+<effect id="1879482827" name="Trapped in ichor!"/>
+<effect id="1879483011" name="DNT - applies buff to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879482617" name="Unstable Flame III" iconId="1090522259">
+<effect id="1879482657" name="Unstable Flame - 5" type="USER"/>
+</skill>
+<skill identifier="1879482618" name="Frenzy t5" iconId="1090522259">
+<effect id="1879482645" name="Frenzy - 5" type="USER"/>
+</skill>
+<skill identifier="1879482619" name="Smash" iconId="1090522259"/>
+<skill identifier="1879482620" name="Pound" iconId="1090522259"/>
+<skill identifier="1879482621" name="Unstable Flame I" iconId="1090522259">
+<effect id="1879482662" name="Unstable Flame - 1" type="USER"/>
+</skill>
+<skill identifier="1879482622" name="Bone-crusher" iconId="1090522259">
+<effect id="1879482659" name="Bone-crusher" type="USER"/>
+</skill>
+<skill identifier="1879482624" name="Ichor" iconId="1090522259">
+<effect id="1879482658" name="Entombed in Ichor"/>
+<effect id="1879482827" name="Trapped in ichor!"/>
+<effect id="1879483011" name="DNT - applies buff to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879482625" name="Flame Splitter" iconId="1090522259"/>
+<skill identifier="1879482627" name="Flame Splitter" iconId="1090522259"/>
+<skill identifier="1879482628" name="Cleave" iconId="1090522259"/>
+<skill identifier="1879482629" name="Net" iconId="1090522259">
+<effect id="1879152791" name="Induce Rooted"/>
+</skill>
+<skill identifier="1879482630" name="Net" iconId="1090522259">
+<effect id="1879152791" name="Induce Rooted"/>
+</skill>
+<skill identifier="1879482634" name="Flame Splitter" iconId="1090522259"/>
+<skill identifier="1879482637" name="Fire Pot" iconId="1090522259">
+<effect id="1879482348" name=".."/>
+</skill>
+<skill identifier="1879482638" name="Fire Pot" iconId="1090522259">
+<effect id="1879482326" name=".."/>
+</skill>
+<skill identifier="1879482639" name="Volley" iconId="1090522259">
+<effect id="1879482648" name=".."/>
+</skill>
+<skill identifier="1879482679" name="Enraged Strike" iconId="1090522259">
+<effect id="1879482680" name="DNT - Removes Player-applied Enrage effects" type="USER"/>
+</skill>
+<skill identifier="1879482681" name="Enraged Strike" iconId="1090522259">
+<effect id="1879482680" name="DNT - Removes Player-applied Enrage effects" type="USER"/>
+</skill>
+<skill identifier="1879482684" name="Chest Thump" iconId="1090522259">
+<effect id="1879480410" name="Enrage V"/>
+<effect id="1879236974" name="Removes Hint"/>
+</skill>
+<skill identifier="1879482708" name="Volley II" iconId="1090522259">
+<effect id="1879201766"/>
+</skill>
+<skill identifier="1879482709" name="Volley III" iconId="1090522259">
+<effect id="1879201768"/>
+</skill>
+<skill identifier="1879482710" name="Volley I" iconId="1090522259">
+<effect id="1879201769"/>
+</skill>
+<skill identifier="1879482718" name="Hurl Coconut" iconId="1090522259">
+<effect id="1879388658" name="Induce Stunned"/>
+</skill>
+<skill identifier="1879482724" name="Dreadful Gaze" iconId="1090522259">
+<effect id="1879482721" name="Dreadful Gaze"/>
+</skill>
+<skill identifier="1879482745" name="Lightning Bolt" iconId="1090522259">
+<effect id="1879232894" name="Induce Stunned"/>
+</skill>
+<skill identifier="1879482748" name="Chaotic Lightning" iconId="1090522259">
+<effect id="1879482712" name="Cyclonic Lightning"/>
+</skill>
+<skill identifier="1879482749" name="Errant Winds" iconId="1090522259">
+<effect id="1879115007" name="Knockaway"/>
+</skill>
+<skill identifier="1879482768" name="Rending Jaws" iconId="1090522259">
+<effect id="1879481687" name="Tattered Armour"/>
+</skill>
+<skill identifier="1879482771" name="Ground Pound" iconId="1090522259">
+<effect id="1879403939" type="USER"/>
+</skill>
+<skill identifier="1879482774" name="Mighty Blow" iconId="1090522259"/>
+<skill identifier="1879482778" name="Slashing Winds" iconId="1090522259">
+<effect id="1879482782" name="Slashing Winds III"/>
+</skill>
+<skill identifier="1879482779" name="Slashing Winds" iconId="1090522259">
+<effect id="1879482776" name="Slashing Winds V"/>
+</skill>
+<skill identifier="1879482828" name="Heavy Stone" iconId="1090522259"/>
+<skill identifier="1879482829" name="Leaded Stone" iconId="1090522259"/>
+<skill identifier="1879482868" name="Vile Scream" iconId="1090522259">
+<effect id="1879482933" name="DNT - applies enrage tierups to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879482869" name="Vile Scream" iconId="1090522259"/>
+<skill identifier="1879482871" name="Vile Scream" iconId="1090522259">
+<effect id="1879482934" name="DNT - applies enrage tierups to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879482872" name="Jagged Stones" iconId="1090522259">
+<effect id="1879482957" name="Jagged Stones"/>
+</skill>
+<skill identifier="1879482873" name="Vile Scream" iconId="1090522259">
+<effect id="1879482932" name="DNT - applies enrage tierups to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879482875" name="Unhampered Throw" iconId="1090522259">
+<effect id="1879482881" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879482877" name="a mighty strike attack" iconId="1090522259"/>
+<skill identifier="1879482880" name="Cutting Stone" iconId="1090522259">
+<effect id="1879482956" name="Cutting Stone"/>
+</skill>
+<skill identifier="1879482882" name="Cutting Stone" iconId="1090522259">
+<effect id="1879482956" name="Cutting Stone"/>
+</skill>
+<skill identifier="1879482883" name="a mighty strike attack" iconId="1090522259"/>
+<skill identifier="1879482885" name="a mighty strike attack" iconId="1090522259"/>
+<skill identifier="1879482887" name="Wild Throw" iconId="1090522259"/>
+<skill identifier="1879482888" name="a mighty swipe attack" iconId="1090522259"/>
+<skill identifier="1879482891" name="a mighty swipe attack" iconId="1090522259"/>
+<skill identifier="1879482892" name="Aid from the Deep" iconId="1090522259">
+<effect id="1879484220"/>
+</skill>
+<skill identifier="1879482894" name="a mighty strike attack" iconId="1090522259"/>
+<skill identifier="1879482898" name="a mighty swipe attack" iconId="1090522259"/>
+<skill identifier="1879482899" name="Crumbling Stones" iconId="1090522259"/>
+<skill identifier="1879482906" name="Heavy Stone" iconId="1090522259"/>
+<skill identifier="1879482907" name="a mighty swipe attack" iconId="1090522259"/>
+<skill identifier="1879482910" name="Threatening Throw" iconId="1090522259"/>
+<skill identifier="1879482911" name="Furious Throw" iconId="1090522259">
+<effect id="1879049736" name="Induce Knockeddown"/>
+<effect id="1879482955" name="Furious" type="USER"/>
+</skill>
+<skill identifier="1879482912" name="Crumbling Stones" iconId="1090522259"/>
+<skill identifier="1879482913" name="Terror of the Deep" iconId="1090522259">
+<effect id="1879098376" name="Induce Feared"/>
+</skill>
+<skill identifier="1879482915" name="Aimed Stone" iconId="1090522259">
+<effect id="1879051778" name="Induce Stunned"/>
+</skill>
+<skill identifier="1879482916" name="Rending Throw" iconId="1090522259">
+<effect id="1879482958" name="Rending Throw"/>
+</skill>
+<skill identifier="1879482917" name="Threatening Throw" iconId="1090522259"/>
+<skill identifier="1879482919" name="a mighty thrown attack" iconId="1090522259"/>
+<skill identifier="1879482920" name="Acidic Sweep" iconId="1090522259">
+<effect id="1879201764" type="USER"/>
+</skill>
+<skill identifier="1879482922" name="Caustic Stones" iconId="1090522259">
+<effect id="1879482953" name="Caustic Stones"/>
+</skill>
+<skill identifier="1879482923" name="a mighty strike attack" iconId="1090522259"/>
+<skill identifier="1879482925" name="Aimed Stone" iconId="1090522259">
+<effect id="1879051778" name="Induce Stunned"/>
+</skill>
+<skill identifier="1879482929" name="Grab" iconId="1090522259">
+<effect id="1879115317" name="DNT - Channeled Mez AOT" type="TOGGLE"/>
+<effect id="1879125176" name="Helpless" type="TOGGLE"/>
+<effect id="1879115317" name="DNT - Channeled Mez AOT" type="USER_TOGGLE"/>
+<effect id="1879125176" name="Helpless" type="USER_TOGGLE"/>
+</skill>
+<skill identifier="1879482930" name="Grip" iconId="1090522259">
+<effect id="1879125175" name="DNT - Channeled Root AOT" type="TOGGLE"/>
+<effect id="1879125177" name="Squeezed" type="TOGGLE"/>
+<effect id="1879482959" name="Crushing Agony" type="TOGGLE"/>
+<effect id="1879482960" name="Crushing Agony" type="TOGGLE"/>
+<effect id="1879125175" name="DNT - Channeled Root AOT" type="USER_TOGGLE"/>
+<effect id="1879125177" name="Squeezed" type="USER_TOGGLE"/>
+<effect id="1879482959" name="Crushing Agony" type="USER_TOGGLE"/>
+<effect id="1879482960" name="Crushing Agony" type="USER_TOGGLE"/>
+</skill>
+<skill identifier="1879482940" name="Star-glass" iconId="1090524209">
+<effect id="1879482941" name="Delving Edhelharn Token: Give Hope"/>
+</skill>
+<mount identifier="1879482943" name="Steed of Mâkhda Khorbo" category="88" iconId="1092941834" initialName="key:621090601:138936629" mountCategory="3" mountType="1" sourceDescription="key:620995772:98714676" morale="250" speed="0.68" peerId="1879482945">
+<effect id="1879482942" name="Mounted" type="TOGGLE"/>
+<effect id="1879482942" name="Mounted" type="USER_TOGGLE"/>
+</mount>
+<mount identifier="1879482945" name="Steed of Mâkhda Khorbo" category="88" iconId="1092941834" initialName="key:621090602:138936629" mountCategory="3" mountType="1" sourceDescription="key:620995772:98714676" morale="250" speed="0.68" tall="true" peerId="1879482943">
+<effect id="1879482944" name="Mounted" type="TOGGLE"/>
+<effect id="1879482944" name="Mounted" type="USER_TOGGLE"/>
+</mount>
+<skill identifier="1879482977" name="Septic Cloud" iconId="1090522259">
+<effect id="1879480397" name="DNT"/>
+<effect id="1879482974" name=".." type="USER"/>
+<effect id="1879152688" name="DNT - Advanced" type="USER"/>
+</skill>
+<skill identifier="1879483160" name="Explosive Arrow" category="34" iconId="1091459008" description="key:621090797:228830419">
+<effect id="1879483161" name="Create Explosive Arrow" type="USER"/>
+</skill>
+<skill identifier="1879483212" name="Crowd Work" iconId="1090522259">
+<effect id="1879483236" name="DNT - Random Crowd effect"/>
+</skill>
+<skill identifier="1879483239" name="Crowd Work" iconId="1090522259">
+<effect id="1879483236" name="DNT - Random Crowd effect"/>
+</skill>
+<skill identifier="1879483277" name="Reckless Slam" category="146" iconId="1092943800" description="key:621090891:228830419">
+<effect id="1879483283" name="DNT - Thickened Hide CD" type="USER"/>
+<effect id="1879320044" name="DNT - IA Slam Wrath" type="USER"/>
+</skill>
+<skill identifier="1879483280" name="Reckless Slam (Dual)" category="146" iconId="1092943800" description="key:621090896:228830419">
+<effect id="1879483283" name="DNT - Thickened Hide CD" type="USER"/>
+<effect id="1879320044" name="DNT - IA Slam Wrath" type="USER"/>
+</skill>
+<skill identifier="1879483335" name="Reveal Weakness" category="49" iconId="1090519172" description="key:621090954:228830419"/>
+<skill identifier="1879483498" name="Call For Reinforcements" iconId="1090522259">
+<effect id="1879483497" name="DNT - Summon"/>
+<effect id="1879483497" name="DNT - Summon"/>
+</skill>
+<skill identifier="1879483501" name="Mass Heal" iconId="1090522259">
+<effect id="1879483506" name="Mass Heal"/>
+</skill>
+<skill identifier="1879483504" name="Morale Boost" iconId="1090522259">
+<effect id="1879483507" name="Morale Boost"/>
+</skill>
+<skill identifier="1879483508" name="Call For Reinforcements" iconId="1090522259">
+<effect id="1879483497" name="DNT - Summon"/>
+</skill>
+<skill identifier="1879483509" name="Mass Heal" iconId="1090522259">
+<effect id="1879483499" name="Mass Heal"/>
+</skill>
+<skill identifier="1879483530" name="Punishing Blow" category="24" iconId="1091742742" description="key:621090992:228830419">
+<effect id="1879484372" name="Punishing Bleed"/>
+</skill>
+<skill identifier="1879483531" name="Punishing Blow" category="24" iconId="1091742742" description="key:621090991:228830419">
+<effect id="1879484372" name="Punishing Bleed"/>
+</skill>
+<skill identifier="1879483665" name="Bolstering Cry" category="51" iconId="1092943799" description="key:621091035:228830419">
+<effect id="1879484326"/>
+</skill>
+<skill identifier="1879483667" name="Battle-shout" category="51" iconId="1092811858" description="key:621091036:228830419">
+<effect id="1879203553" name="Induce Feared"/>
+<effect id="1879060329" name="DNT" type="USER"/>
+<effect id="1879060330" name="Battle-readied" type="USER"/>
+<effect id="1879275348" name="Battle-readied" type="USER"/>
+</skill>
+<skill identifier="1879483974" name="Follow Through" category="152" iconId="1091739138" description="key:621091105:228830419">
+<effect id="1879483977" name="Follow Through" type="USER"/>
+<effect id="1879422580" name="DNT - Dispel Builder effects from Left and Center attacks" type="USER"/>
+<effect id="1879411422" name="Dextrous Set-up" type="USER"/>
+</skill>
+<skill identifier="1879484029" name="Power of Destruction" category="19" iconId="1091762336" description="key:621091151:228830419">
+<effect id="1879484021" name="Power of Destruction" type="TOGGLE"/>
+<effect id="1879484021" name="Power of Destruction" type="USER_TOGGLE"/>
+</skill>
+<skill identifier="1879484032" name="Deep Lore" category="35" iconId="1091804914" description="key:621091166:228830419">
+<effect id="1879073247" name="Induce Rooted"/>
+<effect id="1879484037" name="Deep Tendril"/>
+</skill>
+<skill identifier="1879484097" name="Storm of Protection" iconId="1090522259">
+<effect id="1879483206" name=".."/>
+</skill>
+<skill identifier="1879484098" name="Storm of Fire" iconId="1090522259">
+<effect id="1879483204" name=".."/>
+</skill>
+<skill identifier="1879484099" name="Storm of Lightning" iconId="1090522259">
+<effect id="1879483203" name=".."/>
+</skill>
+<skill identifier="1879484102" name="Storm of Healing" iconId="1090522259">
+<effect id="1879483205" name=".."/>
+</skill>
+<pet identifier="1879484123" name="Perfect Curl Garden Snail" category="145" iconId="1092943383" initialName="key:621091249:33816677" sourceDescription="key:621091250:211796645" genus="14" species="27" subSpecies="132" description="key:621091250:228830419">
+<effect id="1879484124" type="TOGGLE"/>
+<effect id="1879484124" type="USER_TOGGLE"/>
+</pet>
+<mount identifier="1879484128" name="Steed of the Perfect Curl" category="88" iconId="1092943399" initialName="key:621091257:138936629" mountCategory="4" mountType="1" sourceDescription="key:620995772:191554332" morale="200" speed="0.62" peerId="1879484131">
+<effect id="1879484130" name="Mounted" type="TOGGLE"/>
+<effect id="1879484130" name="Mounted" type="USER_TOGGLE"/>
+</mount>
+<mount identifier="1879484131" name="Steed of the Perfect Curl" category="88" iconId="1092943399" initialName="key:621091259:138936629" mountCategory="4" mountType="1" sourceDescription="key:620995772:191554332" morale="200" speed="0.62" tall="true" peerId="1879484128">
+<effect id="1879484132" name="Mounted" type="TOGGLE"/>
+<effect id="1879484132" name="Mounted" type="USER_TOGGLE"/>
+</mount>
+<skill identifier="1879484147" name="Blind Fire" iconId="1090522259">
+<effect id="1879484157" name="Blind Fire"/>
+</skill>
+<skill identifier="1879484152" name="a strong melee attack" iconId="1090522259"/>
+<skill identifier="1879484153" name="Northern Squall" iconId="1090522259">
+<effect id="1879484237" name=".."/>
+<effect id="1879484182" name="DNT - Gives Hint to Ally" type="USER"/>
+</skill>
+<skill identifier="1879484161" name="Wild Cut" iconId="1090522259">
+<effect id="1879484160" name="Wild Cut Bleed"/>
+</skill>
+<skill identifier="1879484168" name="Crackling Conduit" iconId="1090522259">
+<effect id="1879484197" name="Static Shock"/>
+</skill>
+<skill identifier="1879484169" name="Thunderous Roar" iconId="1090522259">
+<effect id="1879484253" name="DNT - applies effect to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879484172" name="Hungering Flame" iconId="1090522259">
+<effect id="1879484145"/>
+</skill>
+<skill identifier="1879484174" name="Battle-wary" iconId="1090522259">
+<effect id="1879484224" name="Battle-wary"/>
+</skill>
+<skill identifier="1879484175" name="Power Siphon" iconId="1090522259">
+<effect id="1879484159" name="Sapped Will" type="TOGGLE"/>
+<effect id="1879484159" name="Sapped Will" type="USER_TOGGLE"/>
+</skill>
+<skill identifier="1879484177" name="Vile Fury" iconId="1090522259">
+<effect id="1879484227" name="Vile Fury"/>
+</skill>
+<skill identifier="1879484178" name="Heal-breaker" iconId="1090522259">
+<effect id="1879484211" name="Heal-breaker"/>
+</skill>
+<skill identifier="1879484181" name="Flaming Arrow" iconId="1090522259">
+<effect id="1879484146" name="DNT"/>
+</skill>
+<skill identifier="1879484183" name="Lightning Strike" iconId="1090522259">
+<effect id="1879484154" name=".."/>
+<effect id="1879484226" name=".."/>
+</skill>
+<skill identifier="1879484184" name="Tearing Bite" iconId="1090522259">
+<effect id="1879484200" name="Torn Flesh"/>
+</skill>
+<skill identifier="1879484186" name="Thunderous Roar" iconId="1090522259">
+<effect id="1879484252" name="DNT - applies effect to friendlies" type="USER"/>
+</skill>
+<skill identifier="1879484188" name="Healing Water" iconId="1090522259">
+<effect id="1879481656" name="Major Heal"/>
+</skill>
+<skill identifier="1879484194" name="a weak melee attack" iconId="1090522259"/>
+<skill identifier="1879484195" name="Wild Strike" iconId="1090522259"/>
+<skill identifier="1879484196" name="Trick Room" iconId="1090522259">
+<effect id="1879484179" name="Trick Room"/>
+<effect id="1879484222" name=".." type="USER"/>
+</skill>
+<skill identifier="1879484198" name="Vile Reach" iconId="1090522259">
+<effect id="1879484204" name="Vile Reach"/>
+</skill>
+<skill identifier="1879484201" name="Static Shock" iconId="1090522259">
+<effect id="1879484213" name="DNT - check for nearby allies"/>
+</skill>
+<skill identifier="1879484203" name="Berserker Strike" iconId="1090522259">
+<effect id="1879484162" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879484214" name="Ring of Ruin" iconId="1090522259">
+<effect id="1879484250" name=".."/>
+</skill>
+<skill identifier="1879484217" name="Break Defences" iconId="1090522259">
+<effect id="1879484150" name="Broken Defences"/>
+</skill>
+<skill identifier="1879484229" name="a melee attack" iconId="1090522259"/>
+<skill identifier="1879484230" name="Snip" iconId="1090522259"/>
+<skill identifier="1879484231" name="Tail Sweep" iconId="1090522259">
+<effect id="1879059058" name="Knockback"/>
+</skill>
+<skill identifier="1879484232" name="Killing Shot" iconId="1090522259"/>
+<skill identifier="1879484234" name="Wild Cleave" iconId="1090522259"/>
+<skill identifier="1879484239" name="Bite" iconId="1090522259"/>
+<skill identifier="1879484241" name="Shake Filth" iconId="1090522259">
+<effect id="1879484215" name="Putrid Filth"/>
+</skill>
+<skill identifier="1879484245" name="Acid Fumes" iconId="1090522259"/>
+<skill identifier="1879484246" name="Reinvigourate" iconId="1090522259">
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.2"/>
+</skill>
+<skill identifier="1879484247" name="Claw Vice" iconId="1090522259">
+<effect id="1879484166" name="Shattered Armour"/>
+</skill>
+<skill identifier="1879484272" name="Fire Pot" iconId="1090522259">
+<effect id="1879484276" name=".."/>
+</skill>
+<skill identifier="1879484278" name="Fire Pot" iconId="1090522259">
+<effect id="1879484275" name=".."/>
+</skill>
+<skill identifier="1879484373" name="Punishing Blow" category="24" iconId="1091742742" description="key:621091455:228830419">
+<effect id="1879484372" name="Punishing Bleed"/>
+<effect id="1879484378" name="DNT - Dispels the prop mod" type="USER"/>
+</skill>
+<skill identifier="1879484374" name="Punishing Blow" category="24" iconId="1091742742" description="key:621091456:228830419">
+<effect id="1879484372" name="Punishing Bleed"/>
+<effect id="1879484378" name="DNT - Dispels the prop mod" type="USER"/>
+</skill>
 </skills>

@@ -5212,7 +5212,7 @@
 <specialEffect label="key:620915340:106251889"/>
 </trait>
 <trait identifier="1879261482" name="Double Down" iconId="1091798529" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_burglar_rank_41" nature="19" description="key:620915361:54354734">
-<specialEffect label="key:620915361:106251889"/>
+<stat name="Burglar_BlueGamble_Appchance" descriptionOverride="key:620915361:106251889" constant="100.0"/>
 <effect id="1879113097" name="Provoke Daze"/>
 <effect id="1879297305" name="Provoke Gamble No Stealth"/>
 </trait>
@@ -5863,6 +5863,7 @@
 <trait identifier="1879269757" name="Heightened Allies" iconId="1091840441" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_captain_rank_46" nature="26" description="key:620920683:54354734"/>
 <trait identifier="1879269758" name="Penetrating Cry" iconId="1091830273" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_captain_rank_40" nature="26" description="key:620920658:54354734">
 <stat name="Skill_Captain_RoutingCry_AttackSpeedMod" scaling="1879270891"/>
+<effect id="1879402167" name="DNT - Penetrating Cry"/>
 </trait>
 <trait identifier="1879269760" name="Fellowship of the Shield" iconId="1092812527" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_captain_rank_31" nature="26" description="key:620920678:54354734">
 <effect id="1879215789" name="DNT - Fellowship Inspire"/>
@@ -6092,11 +6093,11 @@
 <stat name="Skill_Burglar_Allin_Duration" constant="15.0"/>
 </trait>
 <trait identifier="1879270113" name="Improved Knives Out" iconId="1091414339" nature="30" description="key:620920958:54354734">
-<stat name="Trait_Burglar_KnivesOut_Cooldown" operator="SUBSTRACT" descriptionOverride="key:620920958:106251889" constant="45.0"/>
+<stat name="Trait_Burglar_KnivesOut_Cooldown" operator="SUBSTRACT" descriptionOverride="key:620920958:106251889" constant="30.0"/>
 </trait>
 <trait identifier="1879270114" name="Reveal Weakness" iconId="1091798547" nature="30" description="key:620920955:54354734">
 <stat name="Skill_Burglar_RevealWeakness_Resist_Mod" descriptionOverride="key:620920955:106251889" constant="50.0"/>
-<effectGenerator id="1879455639" name="DNT - Reveal Weaknes now reduces your target's physmit" spellcraft="0.0"/>
+<effectGenerator id="1879455639" name="DNT - Reveal Weaknes now improves your evade and" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879270126" name="Blind Bet" iconId="1091798526" category="8" nature="30" tooltip="key:620920973:191029568" description="key:620920973:54354734">
 <skill id="1879256956" name="Blind Bet"/>
@@ -6659,6 +6660,7 @@
 </trait>
 <trait identifier="1879271360" name="Vicious Rebuttal" iconId="1091805271" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_24" nature="27" description="key:620921910:54354734">
 <stat name="Skill_Guardian_Redirect_DamageReflect" descriptionOverride="key:620921910:106251889" scaling="1879271487"/>
+<stat name="Skill_Guardian_Redirect_DamageReflect_PvMP" descriptionOverride="key:620921910:106251890" scaling="1879481853"/>
 </trait>
 <trait identifier="1879271362" name="Improved Shield Spikes" iconId="1091805283" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_37" nature="27" description="key:620921911:54354734">
 <stat name="Item_Guardian_ShieldSpikes_CritChance" scaling="1879271486"/>
@@ -6932,6 +6934,7 @@
 <effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272583" name="Benedictions of Peace" iconId="1091564746" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_runekeeper_one" nature="28" description="key:620922802:54354734">
+<stat name="Runekeeper_DoNotFall_Duration" constant="280.0"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <skill id="1879109289" name="Writ of Health"/>
 <skill id="1879182843" name="Rune-sign of Winter"/>
@@ -6952,6 +6955,7 @@
 <skill id="1879060986" name="Trick: Disable"/>
 <skill id="1879064336" name="Mischievous Glee"/>
 <effectGenerator id="1879274666" name="DNT - Subtle Stab Trick Removal Cooldown" spellcraft="0.0"/>
+<effectGenerator id="1879484035" name="DNT - Lesser Rent Armour" spellcraft="0.0"/>
 <effectGenerator id="1879457118" name="DNT" spellcraft="0.0"/>
 <effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
 </trait>
@@ -7248,7 +7252,6 @@
 </trait>
 <trait identifier="1879273795" name="Born For Combat" iconId="1091830074" minLevel="58" category="7" nature="30" tooltip="key:620923876:191029568" description="key:620923876:54354734">
 <skill id="1879272129" name="Born For Combat"/>
-<effectGenerator id="1879273794" name="Born For Combat" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879274003" name="Fire at Will" iconId="1091830187" category="11" nature="30" tooltip="key:620924061:191029568" description="key:620924061:54354734">
 <skill id="1879270738" name="Fire at Will"/>
@@ -7288,7 +7291,6 @@
 </trait>
 <trait identifier="1879274688" name="Scathing Retort" iconId="1091502140" nature="30" description="key:620924555:54354734">
 <stat name="Trait_Runekeeper_Smouldering_Wrath_CooldownMod" operator="SUBSTRACT" descriptionOverride="-" constant="5.0"/>
-<specialEffect label="key:620924555:106251889"/>
 </trait>
 <trait identifier="1879274689" name="Master of Allusion" iconId="1091502147" nature="30" description="key:620924551:54354734">
 <effectGenerator id="1879277838" name="Master of Allusion" spellcraft="0.0"/>
@@ -7732,6 +7734,7 @@
 </trait>
 <trait identifier="1879277748" name="Numbed Senses" iconId="1091805293" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_guardian_rank_61" nature="27" description="key:620927132:54354734">
 <stat name="Skill_PDFW_Dispel_Count" scaling="1879297132"/>
+<stat name="Skill_RecoveryTime_Trait_Guardian_TaketoHeart" scaling="1879481850"/>
 </trait>
 <trait identifier="1879277830" name="Radiate" iconId="1091805269" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_guardian_rank_52" nature="27" description="key:620927208:54354734">
 <effect id="1879333972" name="DNT - Radiate"/>
@@ -8150,7 +8153,8 @@
 <effect id="1879458810" name="DNT - Adds Heals to Melee Skills"/>
 </trait>
 <trait identifier="1879311300" name="Elite Companions" iconId="1091916295" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_captain_rank_59" nature="26" description="key:620950261:54354734">
-<stat name="Skill_Captain_ArmourRend_AppChance" descriptionOverride="key:620950261:106251889" constant="20.0"/>
+<stat name="Skill_Captain_ArmourRend_AppChance" descriptionOverride="key:620950261:106251889" constant="30.000002"/>
+<specialEffect label="key:620950261:106251890"/>
 </trait>
 <trait identifier="1879311401" name="Elendil's Fury" iconId="1092571761" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_captain_rank_60" nature="26" description="key:620950354:54354734">
 <stat name="Trait_Captain_ThreateningShout_CooldownMod" operator="SUBSTRACT" constant="30.0"/>
@@ -11794,7 +11798,7 @@
 <effect id="1879467779" name="DNT - Shanties Heal Allies"/>
 </trait>
 <trait identifier="1879467432" name="Double-time" iconId="1092830877" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_corsair_rank_34" nature="33" description="key:621078813:54354734">
-<stat name="Corsair_Shanty_Foretoggle_Cooldown" descriptionOverride="-" constant="118.0"/>
+<stat name="Corsair_Shanty_Foretoggle_Cooldown" descriptionOverride="-" constant="133.0"/>
 <specialEffect label="key:621078813:106251889"/>
 </trait>
 <trait identifier="1879467434" name="Test Defences" iconId="1092830880" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_corsair_rank_33" nature="33" description="key:621078820:54354734">
@@ -12349,5 +12353,35 @@
 </trait>
 <trait identifier="1879479321" name="Icy Expeditions Caparison" iconId="1092927306" category="54" nature="16">
 <group code="9" name="Body"/>
+</trait>
+<trait identifier="1879482968" name="Mâkhda Khorbo Saddle" iconId="1092941837" category="54" nature="16">
+<group code="12" name="Saddle"/>
+</trait>
+<trait identifier="1879482969" name="Mâkhda Khorbo Accessory" iconId="1092941838" category="54" nature="16">
+<group code="13" name="Gear"/>
+</trait>
+<trait identifier="1879482970" name="Mâkhda Khorbo Caparison" iconId="1092941840" category="54" nature="16">
+<group code="9" name="Body"/>
+</trait>
+<trait identifier="1879482971" name="Mâkhda Khorbo Leg-guards" iconId="1092941839" category="54" nature="16">
+<group code="10" name="Legs"/>
+</trait>
+<trait identifier="1879482972" name="Mâkhda Khorbo Head-piece" iconId="1092941836" category="54" nature="16">
+<group code="8" name="Head"/>
+</trait>
+<trait identifier="1879484133" name="Perfect Curl Saddle" iconId="1092943401" category="54" nature="16">
+<group code="12" name="Saddle"/>
+</trait>
+<trait identifier="1879484135" name="Perfect Curl Leg-guards" iconId="1092943403" category="54" nature="16">
+<group code="10" name="Legs"/>
+</trait>
+<trait identifier="1879484138" name="Perfect Curl Caparison" iconId="1092943400" category="54" nature="16">
+<group code="9" name="Body"/>
+</trait>
+<trait identifier="1879484140" name="Perfect Curl Head-piece" iconId="1092943404" category="54" nature="16">
+<group code="8" name="Head"/>
+</trait>
+<trait identifier="1879484142" name="Perfect Curl Accessory" iconId="1092943402" category="54" nature="16">
+<group code="13" name="Gear"/>
 </trait>
 </traits>
