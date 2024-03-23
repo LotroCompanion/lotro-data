@@ -32611,8 +32611,7 @@
 <effect id="1879334645" name="Knockback"/>
 </skill>
 <skill identifier="1879480389" name="Spinning Swipe" iconId="1090522259">
-<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
-<effect id="1879483963" name="Spinning Swipe" type="USER"/>
+<effect id="1879483963" name="Spinning Swipe"/>
 </skill>
 <skill identifier="1879480391" name="Fearful Smack" iconId="1090522259">
 <effect id="1879202164" name="Trap Damage" spellcraft="200.0"/>
@@ -33274,8 +33273,13 @@
 <effect id="1879482343" name="DNT" type="USER"/>
 <effect id="1879482381" name="Corrupted Blood - 3" type="USER"/>
 </skill>
-<skill identifier="1879482075" name="Pound Sand" iconId="1090522259"/>
-<skill identifier="1879482076" name="Charge" iconId="1090522259"/>
+<skill identifier="1879482075" name="Pound Sand" iconId="1090522259">
+<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
+<effect id="1879484693" name="Pound Sand" type="USER"/>
+</skill>
+<skill identifier="1879482076" name="Charge" iconId="1090522259">
+<effect id="1879483222" name="Knockback"/>
+</skill>
 <skill identifier="1879482077" name="Low Cut" iconId="1090522259">
 <effect id="1879482349" name="Low Cut"/>
 </skill>
@@ -33301,6 +33305,7 @@
 </skill>
 <skill identifier="1879482088" name="Rupture" iconId="1090522259"/>
 <skill identifier="1879482089" name="Charge" iconId="1090522259">
+<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
 <effect id="1879482391" name="Rush" type="USER"/>
 </skill>
 <skill identifier="1879482090" name="Haemorrhage" iconId="1090522259">
@@ -33380,6 +33385,7 @@
 </skill>
 <skill identifier="1879482129" name="Let Fly" iconId="1090522259">
 <effect id="1879482304" name="Deep Cut"/>
+<effect id="1879481651" name="Sprint" type="USER"/>
 </skill>
 <skill identifier="1879482130" name="Cry of the Hunter" iconId="1090522259">
 <effect id="1879366838" name="Cowering"/>
@@ -33517,7 +33523,10 @@
 <effect id="1879483251" name="War Chant"/>
 <effect id="1879482350" name="DNT" type="USER"/>
 </skill>
-<skill identifier="1879482189" name="Pound Sand" iconId="1090522259"/>
+<skill identifier="1879482189" name="Pound Sand" iconId="1090522259">
+<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
+<effect id="1879484689" name="Pound Sand" type="USER"/>
+</skill>
 <skill identifier="1879482190" name="Haemorrhage" iconId="1090522259">
 <effect id="1879482351" name="Haemorrhage - 5"/>
 </skill>
@@ -33558,7 +33567,10 @@
 <effect id="1879483250" name="War Chant"/>
 <effect id="1879482337" name="DNT" type="USER"/>
 </skill>
-<skill identifier="1879482211" name="Pound Sand" iconId="1090522259"/>
+<skill identifier="1879482211" name="Pound Sand" iconId="1090522259">
+<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
+<effect id="1879484692" name="Pound Sand" type="USER"/>
+</skill>
 <skill identifier="1879482212" name="Stagger" iconId="1090522259">
 <effect id="1879482277" name="Stagger - 8"/>
 </skill>
@@ -33697,20 +33709,20 @@
 <effect id="1879482562" type="TOGGLE"/>
 <effect id="1879482562" type="USER_TOGGLE"/>
 </pet>
-<skill identifier="1879482589" name="Ichor" iconId="1090522259">
+<skill identifier="1879482589" name="Ichor II" iconId="1090522259">
 <effect id="1879482655" name=".."/>
 </skill>
-<skill identifier="1879482590" name="Fire Pot" iconId="1090522259">
+<skill identifier="1879482590" name="Fire Pot I" iconId="1090522259">
 <effect id="1879482291" name=".."/>
 </skill>
-<skill identifier="1879482592" name="Volley" iconId="1090522259">
+<skill identifier="1879482592" name="Volley III" iconId="1090522259">
 <effect id="1879482661" name=".."/>
 </skill>
 <skill identifier="1879482593" name="Let Fly" iconId="1090522259"/>
-<skill identifier="1879482595" name="Volley" iconId="1090522259">
+<skill identifier="1879482595" name="Volley II" iconId="1090522259">
 <effect id="1879482651" name=".."/>
 </skill>
-<skill identifier="1879482599" name="Ichor" iconId="1090522259">
+<skill identifier="1879482599" name="Ichor I" iconId="1090522259">
 <effect id="1879482650" name=".."/>
 </skill>
 <skill identifier="1879482601" name="Throw Boulder" iconId="1090522259">
@@ -33722,17 +33734,17 @@
 <skill identifier="1879482606" name="Stagger" iconId="1090522259">
 <effect id="1879482279" name="Stagger - 2"/>
 </skill>
-<skill identifier="1879482607" name="Frenzied Strike" iconId="1090522259">
+<skill identifier="1879482607" name="Frenzied Strike I" iconId="1090522259">
 <effect id="1879482663" name="Frenzy - 1" type="USER"/>
 </skill>
 <skill identifier="1879482610" name="a sweeping melee attack" iconId="1090522259"/>
-<skill identifier="1879482612" name="Frenzied Strike" iconId="1090522259">
+<skill identifier="1879482612" name="Frenzied Strike II" iconId="1090522259">
 <effect id="1879482643" name="Frenzy - 3" type="USER"/>
 </skill>
 <skill identifier="1879482615" name="Unstable Flame II" iconId="1090522259">
 <effect id="1879482654" name="Unstable Flame - 3" type="USER"/>
 </skill>
-<skill identifier="1879482616" name="Ichor" iconId="1090522259">
+<skill identifier="1879482616" name="Ichor I" iconId="1090522259">
 <effect id="1879482660" name="Entombed in Ichor"/>
 <effect id="1879482827" name="Trapped in ichor!"/>
 <effect id="1879483011" name="DNT - applies buff to friendlies" type="USER"/>
@@ -33740,7 +33752,7 @@
 <skill identifier="1879482617" name="Unstable Flame III" iconId="1090522259">
 <effect id="1879482657" name="Unstable Flame - 5" type="USER"/>
 </skill>
-<skill identifier="1879482618" name="Frenzy t5" iconId="1090522259">
+<skill identifier="1879482618" name="Frenzy" iconId="1090522259">
 <effect id="1879482645" name="Frenzy - 5" type="USER"/>
 </skill>
 <skill identifier="1879482619" name="Smash" iconId="1090522259"/>
@@ -33751,28 +33763,28 @@
 <skill identifier="1879482622" name="Bone-crusher" iconId="1090522259">
 <effect id="1879482659" name="Bone-crusher" type="USER"/>
 </skill>
-<skill identifier="1879482624" name="Ichor" iconId="1090522259">
+<skill identifier="1879482624" name="Ichor II" iconId="1090522259">
 <effect id="1879482658" name="Entombed in Ichor"/>
 <effect id="1879482827" name="Trapped in ichor!"/>
 <effect id="1879483011" name="DNT - applies buff to friendlies" type="USER"/>
 </skill>
-<skill identifier="1879482625" name="Flame Splitter" iconId="1090522259"/>
-<skill identifier="1879482627" name="Flame Splitter" iconId="1090522259"/>
+<skill identifier="1879482625" name="Flame Splitter II" iconId="1090522259"/>
+<skill identifier="1879482627" name="Flame Splitter III" iconId="1090522259"/>
 <skill identifier="1879482628" name="Cleave" iconId="1090522259"/>
-<skill identifier="1879482629" name="Net" iconId="1090522259">
+<skill identifier="1879482629" name="Net I" iconId="1090522259">
 <effect id="1879152791" name="Induce Rooted"/>
 </skill>
-<skill identifier="1879482630" name="Net" iconId="1090522259">
+<skill identifier="1879482630" name="Net II" iconId="1090522259">
 <effect id="1879152791" name="Induce Rooted"/>
 </skill>
-<skill identifier="1879482634" name="Flame Splitter" iconId="1090522259"/>
-<skill identifier="1879482637" name="Fire Pot" iconId="1090522259">
+<skill identifier="1879482634" name="Flame Splitter I" iconId="1090522259"/>
+<skill identifier="1879482637" name="Fire Pot III" iconId="1090522259">
 <effect id="1879482348" name=".."/>
 </skill>
-<skill identifier="1879482638" name="Fire Pot" iconId="1090522259">
+<skill identifier="1879482638" name="Fire Pot II" iconId="1090522259">
 <effect id="1879482326" name=".."/>
 </skill>
-<skill identifier="1879482639" name="Volley" iconId="1090522259">
+<skill identifier="1879482639" name="Volley I" iconId="1090522259">
 <effect id="1879482648" name=".."/>
 </skill>
 <skill identifier="1879482679" name="Enraged Strike" iconId="1090522259">
@@ -33823,7 +33835,9 @@
 <effect id="1879482776" name="Slashing Winds V"/>
 </skill>
 <skill identifier="1879482828" name="Heavy Stone" iconId="1090522259"/>
-<skill identifier="1879482829" name="Leaded Stone" iconId="1090522259"/>
+<skill identifier="1879482829" name="Leaded Stone" iconId="1090522259">
+<effect id="1879481651" name="Sprint" type="USER"/>
+</skill>
 <skill identifier="1879482868" name="Vile Scream" iconId="1090522259">
 <effect id="1879482933" name="DNT - applies enrage tierups to friendlies" type="USER"/>
 </skill>
@@ -33925,6 +33939,9 @@
 <skill identifier="1879483212" name="Crowd Work" iconId="1090522259">
 <effect id="1879483236" name="DNT - Random Crowd effect"/>
 </skill>
+<skill identifier="1879483233" name="Bastion of Light" iconId="1090522259">
+<effect id="1879483214" name=".." type="USER"/>
+</skill>
 <skill identifier="1879483239" name="Crowd Work" iconId="1090522259">
 <effect id="1879483236" name="DNT - Random Crowd effect"/>
 </skill>
@@ -33937,20 +33954,20 @@
 <effect id="1879320044" name="DNT - IA Slam Wrath" type="USER"/>
 </skill>
 <skill identifier="1879483335" name="Reveal Weakness" category="49" iconId="1090519172" description="key:621090954:228830419"/>
-<skill identifier="1879483498" name="Call For Reinforcements" iconId="1090522259">
+<skill identifier="1879483498" name="Call For Reinforcements II" iconId="1090522259">
 <effect id="1879483497" name="DNT - Summon"/>
 <effect id="1879483497" name="DNT - Summon"/>
 </skill>
-<skill identifier="1879483501" name="Mass Heal" iconId="1090522259">
+<skill identifier="1879483501" name="Mass Heal I" iconId="1090522259">
 <effect id="1879483506" name="Mass Heal"/>
 </skill>
 <skill identifier="1879483504" name="Morale Boost" iconId="1090522259">
 <effect id="1879483507" name="Morale Boost"/>
 </skill>
-<skill identifier="1879483508" name="Call For Reinforcements" iconId="1090522259">
+<skill identifier="1879483508" name="Call For Reinforcements I" iconId="1090522259">
 <effect id="1879483497" name="DNT - Summon"/>
 </skill>
-<skill identifier="1879483509" name="Mass Heal" iconId="1090522259">
+<skill identifier="1879483509" name="Mass Heal II" iconId="1090522259">
 <effect id="1879483499" name="Mass Heal"/>
 </skill>
 <skill identifier="1879483530" name="Punishing Blow" category="24" iconId="1091742742" description="key:621090992:228830419">
@@ -34093,10 +34110,10 @@
 <skill identifier="1879484247" name="Claw Vice" iconId="1090522259">
 <effect id="1879484166" name="Shattered Armour"/>
 </skill>
-<skill identifier="1879484272" name="Fire Pot" iconId="1090522259">
+<skill identifier="1879484272" name="Fire Pot II" iconId="1090522259">
 <effect id="1879484276" name=".."/>
 </skill>
-<skill identifier="1879484278" name="Fire Pot" iconId="1090522259">
+<skill identifier="1879484278" name="Fire Pot I" iconId="1090522259">
 <effect id="1879484275" name=".."/>
 </skill>
 <skill identifier="1879484373" name="Punishing Blow" category="24" iconId="1091742742" description="key:621091455:228830419">
@@ -34107,4 +34124,16 @@
 <effect id="1879484372" name="Punishing Bleed"/>
 <effect id="1879484378" name="DNT - Dispels the prop mod" type="USER"/>
 </skill>
+<pet identifier="1879484754" name="Sitaka" category="145" iconId="1092944311" initialName="key:621091728:33816677" sourceDescription="key:621091729:211796645" genus="14" species="27" subSpecies="132" description="key:621091729:228830419">
+<effect id="1879484752" type="TOGGLE"/>
+<effect id="1879484752" type="USER_TOGGLE"/>
+</pet>
+<mount identifier="1879484759" name="Steed of the Silent Hunter" category="88" iconId="1092944314" initialName="key:621091737:138936629" mountCategory="8" mountType="1" sourceDescription="key:620995772:67798356" morale="250" speed="0.68" tall="true" peerId="1879484762">
+<effect id="1879484758" name="Mounted" type="TOGGLE"/>
+<effect id="1879484758" name="Mounted" type="USER_TOGGLE"/>
+</mount>
+<mount identifier="1879484762" name="Steed of the Silent Hunter" category="88" iconId="1092944314" initialName="key:621091734:138936629" mountCategory="8" mountType="1" sourceDescription="key:620995772:67798356" morale="250" speed="0.68" peerId="1879484759">
+<effect id="1879484760" name="Mounted" type="TOGGLE"/>
+<effect id="1879484760" name="Mounted" type="USER_TOGGLE"/>
+</mount>
 </skills>

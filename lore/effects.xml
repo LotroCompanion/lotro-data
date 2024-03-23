@@ -21470,7 +21470,6 @@
 <propertyModEffect id="1879273034" name="Fortification I" iconId="1091840994">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
-<stat name="MORALE" descriptionOverride="-" scaling="1879398432"/>
 </propertyModEffect>
 <induceCombatState id="1879273046" name="Induce Stunned" probabilityModProperty="268458328" state="15" stateDuration="5.0"/>
 <effect id="1879273067" name="Adaptability Dispel"/>
@@ -22126,23 +22125,19 @@
 <propertyModEffect id="1879277489" name="Fortification III" iconId="1091840991">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="3.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="3.0"/>
-<stat name="MORALE" descriptionOverride="-" scaling="1879446696"/>
 </propertyModEffect>
 <propertyModEffect id="1879277490" name="Fortification II" iconId="1091840981">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
-<stat name="MORALE" descriptionOverride="-" scaling="1879398422"/>
 </propertyModEffect>
 <propertyModEffect id="1879277491" name="Fortification V" iconId="1091840986">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
 <stat name="Skill_Guardian_BreakRanks_AppChance" operator="SET" descriptionOverride="-" constant="1.0"/>
-<stat name="MORALE" descriptionOverride="-" scaling="1879446691"/>
 </propertyModEffect>
 <propertyModEffect id="1879277492" name="Fortification IV" iconId="1091840993">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="4.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="4.0"/>
-<stat name="MORALE" descriptionOverride="-" scaling="1879446695"/>
 </propertyModEffect>
 <propertyModEffect id="1879277494" name="Fortification" iconId="1090519170"/>
 <propertyModEffect id="1879277510" name="Javelin Debuff" description="key:620926927:181298206" iconId="1090519170">
@@ -22186,28 +22181,23 @@
 <propertyModEffect id="1879277627" name="Improved Fortification I" iconId="1091840994">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
-<stat name="MORALE" descriptionOverride="-" scaling="1879398432"/>
 </propertyModEffect>
 <propertyModEffect id="1879277636" name="Improved Fortification III" iconId="1091840991">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="6.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="6.0"/>
-<stat name="MORALE" descriptionOverride="-" scaling="1879446696"/>
 </propertyModEffect>
 <propertyModEffect id="1879277637" name="Improved Fortification II" iconId="1091840981">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="4.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="4.0"/>
-<stat name="MORALE" descriptionOverride="-" scaling="1879398422"/>
 </propertyModEffect>
 <propertyModEffect id="1879277638" name="Improved Fortification V" iconId="1091840986">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="10.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="10.0"/>
 <stat name="Skill_Guardian_BreakRanks_AppChance" operator="SET" descriptionOverride="-" constant="1.0"/>
-<stat name="MORALE" descriptionOverride="-" scaling="1879446691"/>
 </propertyModEffect>
 <propertyModEffect id="1879277640" name="Improved Fortification IV" iconId="1091840993">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="8.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="8.0"/>
-<stat name="MORALE" descriptionOverride="-" scaling="1879446695"/>
 </propertyModEffect>
 <propertyModEffect id="1879277642" name="Fortification" iconId="1090519170"/>
 <propertyModEffect id="1879277643" name="Fortification" iconId="1090519170"/>
@@ -43495,8 +43485,8 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="0.5"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879480384" name="Burning Pitch" appliedDescription="key:621088331:54354734" iconId="1090523648" duration="2.0" stat="Health_MaxLevel" damageType="16">
-<initialChange progressionID="1879343138"/>
-<overTimeChange progressionID="1879244293"/>
+<initialChange progressionID="1879180337"/>
+<overTimeChange progressionID="1879180337"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879480395" name="Debilitating Intoxication" appliedDescription="key:621088347:54354734" iconId="1090640842" duration="20.0">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" constant="2.25"/>
@@ -43553,7 +43543,8 @@
 <tierUp id="1879480413" name="Enrage III"/>
 <tierUp id="1879480412" name="Enrage II"/>
 <tierUp id="1879480406" name="Enrage I"/>
-<tierUp id="1879153861" name="DNT - Do Nothing Harmful"/>
+<tierUp id="1879484701" name="DNT"/>
+<finalTier id="1879484701" name="DNT"/>
 </tieredEffect>
 <propertyModEffect id="1879480604" iconId="1090553792"/>
 <propertyModEffect id="1879480605" iconId="1090553792"/>
@@ -43929,7 +43920,7 @@
 <overTimeChange progressionID="1879057764" variance="0.3"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879481697" name="Fire Pot Burn" iconId="1091429137" duration="4.0" pulseCount="3" stat="Health_MaxLevel" damageType="16">
-<overTimeChange progressionID="1879265010"/>
+<overTimeChange progressionID="1879180912"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879481698" name="Shanty: Resolve" iconId="1092830879" duration="3.0" pulseCount="5" stat="Health_MaxLevel">
 <initialChange progressionID="1879050135"/>
@@ -43962,7 +43953,7 @@
 <overTimeChange progressionID="1879244296"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879481707" name="Sticky Gourd Burn" iconId="1091873733" duration="4.0" pulseCount="3" stat="Health_MaxLevel" damageType="16">
-<overTimeChange progressionID="1879180912"/>
+<overTimeChange progressionID="1879265010"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879481708" name="Persistent Flame - 6" iconId="1091510623" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879483169"/>
@@ -43983,7 +43974,7 @@
 <overTimeChange progressionID="1879483170"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879481714" name="Bleeding Cut" iconId="1091834313" duration="3.0" pulseCount="3" stat="Health_MaxLevel" damageType="1">
-<overTimeChange progressionID="1879180916"/>
+<overTimeChange progressionID="1879244292"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879481715" name="Echoing Howl" iconId="1090625091" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="32">
 <overTimeChange progressionID="1879180916"/>
@@ -43998,7 +43989,7 @@
 <overTimeChange progressionID="1879244296"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879481719" name="Inferno" iconId="1091440845" duration="2.0" pulseCount="6" stat="Health_MaxLevel" damageType="16">
-<overTimeChange progressionID="1879180913"/>
+<overTimeChange progressionID="1879483170"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879481720" name="Persistent Flame - 2" iconId="1091440846" duration="3.0" pulseCount="7" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879343138"/>
@@ -44301,7 +44292,7 @@
 <propertyModEffect id="1879482282" name="Hamstring" iconId="1090553765" duration="10.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="40.0"/>
 </propertyModEffect>
-<genesis id="1879482283" name=".." appliedDescription="key:621090017:54354734" summonDuration="8.0">
+<genesis id="1879482283" name=".." appliedDescription="key:621090017:54354734" summonDuration="10.0">
 <hotspot id="1879482325" name="Protection of the Sea">
 <effect id="1879482378" name="Protection of the Sea"/>
 </hotspot>
@@ -44349,14 +44340,14 @@
 <finalTier id="1879482372" name="Aflame - 10"/>
 </tieredEffect>
 <vitalOverTimeEffect id="1879482295" name="Gored" iconId="1090522394" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="1">
-<overTimeChange progressionID="1879343124"/>
+<overTimeChange progressionID="1879244292"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879482296" name="Snipped" iconId="1090580244" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="1">
 <overTimeChange progressionID="1879343123"/>
 </vitalOverTimeEffect>
 <effect id="1879482301" name="Strident Cry" iconId="1092811846" duration="2.0"/>
 <vitalOverTimeEffect id="1879482304" name="Deep Cut" iconId="1090522394" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="1">
-<overTimeChange progressionID="1879343138"/>
+<overTimeChange progressionID="1879180916"/>
 </vitalOverTimeEffect>
 <genesis id="1879482305" name=".." appliedDescription="key:621090062:54354734" summonDuration="12.0">
 <hotspot id="1879482297" name="Fire Trap">
@@ -44364,7 +44355,7 @@
 </hotspot>
 </genesis>
 <vitalOverTimeEffect id="1879482306" name="Haemorrhage - 2" iconId="1090529658" duration="3.0" pulseCount="7" stat="Health_MaxLevel" damageType="16">
-<overTimeChange progressionID="1879244292"/>
+<overTimeChange progressionID="1879244296"/>
 </vitalOverTimeEffect>
 <effect id="1879482307" name="Seeping Blood" iconId="1090539325" duration="2.0" pulseCount="4"/>
 <vitalOverTimeEffect id="1879482308" name="Heart Seeker Wound" iconId="1091401111" duration="3.0" pulseCount="3" stat="Health_MaxLevel" damageType="1">
@@ -44394,7 +44385,7 @@
 </tieredEffect>
 <propertyModEffect id="1879482317" name="In Harm's Way" appliedDescription="key:621090036:54354734" iconId="1091926677" duration="15.0"/>
 <vitalOverTimeEffect id="1879482318" name="Pooling Blood" iconId="1090523948" duration="3.0" pulseCount="6" stat="Health_MaxLevel" damageType="16">
-<overTimeChange progressionID="1879180339"/>
+<overTimeChange progressionID="1879343111"/>
 </vitalOverTimeEffect>
 <effect id="1879482319" name="Strident Cry" iconId="1092811846" duration="2.0"/>
 <vitalOverTimeEffect id="1879482324" name="Fire Trap Burn" iconId="1091829923" duration="4.0" pulseCount="3" stat="Health_MaxLevel" damageType="16">
@@ -44451,7 +44442,7 @@
 <tierUp id="1879482362" name="Aflame - 5"/>
 <finalTier id="1879482362" name="Aflame - 5"/>
 </tieredEffect>
-<genesis id="1879482345" name=".." appliedDescription="key:621090043:54354734" summonDuration="5.0">
+<genesis id="1879482345" name=".." appliedDescription="key:621090043:54354734" summonDuration="6.0">
 <hotspot id="1879482303" name="Choking Shadow">
 <effect id="1879224411" name="Choking Fumes"/>
 </hotspot>
@@ -44465,7 +44456,7 @@
 </hotspot>
 </genesis>
 <vitalOverTimeEffect id="1879482349" name="Low Cut" iconId="1090553940" duration="4.0" pulseCount="7" stat="Health_MaxLevel" damageType="1">
-<overTimeChange progressionID="1879343124"/>
+<overTimeChange progressionID="1879483169"/>
 </vitalOverTimeEffect>
 <tieredEffect id="1879482350" name="DNT">
 <tierUp id="1879482353" name="Momentum - 1"/>
@@ -44481,7 +44472,7 @@
 <finalTier id="1879482367" name="Momentum - 10"/>
 </tieredEffect>
 <vitalOverTimeEffect id="1879482351" name="Haemorrhage - 5" iconId="1090529658" duration="3.0" pulseCount="7" stat="Health_MaxLevel" damageType="16">
-<overTimeChange progressionID="1879180912"/>
+<overTimeChange progressionID="1879343123"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879482352" name="Very Unstable Creature" iconId="1091476097" duration="45.0"/>
 <propertyModEffect id="1879482353" name="Momentum - 1" iconId="1091479052">
@@ -44620,7 +44611,7 @@
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879482378" name="Protection of the Sea" iconId="1090623409">
-<stat name="Combat_MitigationPercentage_Light" constant="50.0"/>
+<stat name="Combat_MitigationPercentage_Light" constant="60.000004"/>
 </propertyModEffect>
 <effect id="1879482379" name="Get Over Here"/>
 <propertyModEffect id="1879482380" name="Cry of Fury" iconId="1092811846" duration="15.0">
@@ -44642,7 +44633,7 @@
 <stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879482386" name="Corrosive Strike" iconId="1092509280" duration="20.0">
+<propertyModEffect id="1879482386" name="Corrosive Strike" iconId="1092943405" duration="20.0">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </propertyModEffect>
@@ -44670,7 +44661,7 @@
 <stat name="PARRY_PERCENTAGE" operator="SUBSTRACT" constant="15.000001"/>
 <stat name="EVADE_PERCENTAGE" operator="SUBSTRACT" constant="15.000001"/>
 </propertyModEffect>
-<propertyModEffect id="1879482393" name="The East Wind" iconId="1091840570" duration="15.0">
+<propertyModEffect id="1879482393" name="The East Wind" iconId="1092943406" duration="15.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="40.0"/>
 <stat name="ALL_SKILL_INDUCTION" constant="30.000002"/>
 </propertyModEffect>
@@ -44752,7 +44743,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879482659" name="Bone-crusher" iconId="1091459632">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="20.0"/>
-<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="-" constant="10.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="key:621090347:106251890" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879482660" name="Entombed in Ichor" iconId="1090535377" duration="15.0">
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:621090345:106251889" constant="90.0"/>
@@ -44937,16 +44928,28 @@
 </hotspot>
 </genesis>
 <propertyModEffect id="1879483209" name="Arrows Overhead" iconId="1090553936" duration="1.0" pulseCount="1"/>
+<propertyModEffect id="1879483211" name="Bastion of Light" iconId="1092835508">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
+</propertyModEffect>
+<genesis id="1879483214" name=".." appliedDescription="key:621090831:54354734" summonDuration="14.0">
+<hotspot id="1879483229" name="Bastion of Light">
+<effect id="1879483240" name="Bastion of Light"/>
+<effect id="1879483211" name="Bastion of Light"/>
+</hotspot>
+</genesis>
 <effect id="1879483222" name="Knockback"/>
 <effect id="1879483236" name="DNT - Random Crowd effect" probability="0.5"/>
 <vitalOverTimeEffect id="1879483238" name="Bracing Guard" iconId="1092693316" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
 <initialChange progressionID="1879054406"/>
 <overTimeChange progressionID="1879481658" variance="0.3"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879483250" name="War Chant" iconId="1090555716" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="32">
+<vitalOverTimeEffect id="1879483240" name="Bastion of Light" iconId="1092835508" duration="2.0" stat="Health_MaxLevel" damageType="64">
+<overTimeChange progressionID="1879180345"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879483250" name="War Chant" iconId="1091805310" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="32">
 <overTimeChange progressionID="1879180916"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879483251" name="War Chant" iconId="1090555716" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="32">
+<vitalOverTimeEffect id="1879483251" name="War Chant" iconId="1091805310" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="32">
 <overTimeChange progressionID="1879244292"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879483253" name="DNT - Creates another molten runestone" iconId="1090519170"/>
@@ -45139,7 +45142,7 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="5.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879484149" name="Flaming Arrow" stat="Health_MaxLevel" multiplicative="true">
-<vitalChange constant="0.6"/>
+<vitalChange constant="-0.6"/>
 </instantVitalEffect>
 <propertyModEffect id="1879484150" name="Broken Defences" iconId="1090532210" duration="10.0">
 <stat name="BLOCK_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
@@ -45149,7 +45152,7 @@
 <effect id="1879484151" name="DNT" iconId="1090616965"/>
 <genesis id="1879484154" name=".." appliedDescription="key:621091359:54354734" summonDuration="3.0">
 <hotspot id="1879484199" name="DNT - Lightning Warning">
-<effect id="1879166826" name="DNT - Does nothing, but my hotspots needs an effect attached."/>
+<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
 </hotspot>
 </genesis>
 <propertyModEffect id="1879484157" name="Blind Fire" iconId="1091798534" duration="10.0">
@@ -45219,7 +45222,7 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="25.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879484205" name="Flaming Arrow" stat="Health_MaxLevel" multiplicative="true">
-<vitalChange constant="0.06"/>
+<vitalChange constant="-0.06"/>
 </instantVitalEffect>
 <propertyModEffect id="1879484209" name="Ring of Ruin" iconId="1091400593">
 <stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" constant="50.0"/>
@@ -45345,10 +45348,31 @@
 <reactiveVital progressionID="1879272442" probability="1.0"/>
 </defender>
 </reactiveVitalEffect>
-<effect id="1879484546" name="Fire Pot" iconId="1092402398" duration="3.0"/>
-<effect id="1879484547" name="Jephai Volley" iconId="1090553936" duration="3.0"/>
-<effect id="1879484548" name="Fire Pot" iconId="1092406562" duration="3.0"/>
-<effect id="1879484549" name="Jephai Volley" iconId="1090553936" duration="3.0"/>
-<effect id="1879484550" name="Fire Pot" iconId="1092406455" duration="3.0"/>
-<effect id="1879484551" name="Jephai Volley" iconId="1090553936" duration="3.0"/>
+<effect id="1879484546" name="Fire Pot" iconId="1092402398" duration="2.0"/>
+<effect id="1879484547" name="Jephai Volley" iconId="1090553936" duration="2.0"/>
+<effect id="1879484548" name="Fire Pot" iconId="1092406562" duration="2.0"/>
+<effect id="1879484549" name="Jephai Volley" iconId="1090553936" duration="2.0"/>
+<effect id="1879484550" name="Fire Pot" iconId="1092406455" duration="2.0"/>
+<effect id="1879484551" name="Jephai Volley" iconId="1090553936" duration="2.0"/>
+<effect id="1879484689" name="Pound Sand"/>
+<effect id="1879484692" name="Pound Sand"/>
+<effect id="1879484693" name="Pound Sand"/>
+<effect id="1879484701" name="DNT" iconId="1090616965"/>
+<propertyModEffect id="1879484752" iconId="1090553792"/>
+<propertyModEffect id="1879484758" name="Mounted" iconId="1090519170">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621091737:106251889" constant="68.0"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+<specialEffect label="key:621091737:106251890"/>
+<specialEffect label="key:621091737:106251891"/>
+<specialEffect label="key:621091737:106251892"/>
+</propertyModEffect>
+<propertyModEffect id="1879484760" name="Mounted" iconId="1090519170">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621091734:106251889" constant="68.0"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+<specialEffect label="key:621091734:106251890"/>
+<specialEffect label="key:621091734:106251891"/>
+<specialEffect label="key:621091734:106251892"/>
+</propertyModEffect>
 </effects>
