@@ -42302,7 +42302,7 @@
 <propertyModEffect id="1879467315" name="The North Wind" iconId="1092830948" duration="20.0">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="5.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879467316" name="Dodge" iconId="1092825104" duration="5.0">
+<propertyModEffect id="1879467316" name="Dodge" iconId="1092825088" duration="5.0">
 <stat name="EVADE_PERCENTAGE" constant="25.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879467317" name="Disengage Speed" iconId="1092825090" duration="5.0">
@@ -43562,7 +43562,6 @@
 <effect id="1879480655" name=""/>
 <effect id="1879480656" name=""/>
 <effect id="1879480658" name=""/>
-<effect id="1879480661" name=""/>
 <propertyModEffect id="1879480663" name="Durable Feast" iconId="1090641236" duration="1800.0">
 <stat name="ICPR" scaling="1879212024"/>
 <stat name="ICMR" scaling="1879212451"/>
@@ -44081,7 +44080,6 @@
 <tierUp id="1879481713" name="Persistent Flame - 10"/>
 <finalTier id="1879481713" name="Persistent Flame - 10"/>
 </tieredEffect>
-<effect id="1879481751" name=""/>
 <propertyModEffect id="1879481752" name="Unstable Creature" iconId="1091476097" duration="45.0">
 <specialEffect label="key:621089618:106251889"/>
 </propertyModEffect>
@@ -44280,13 +44278,13 @@
 <propertyModEffect id="1879482276" name="Make Haste" iconId="1092699454" duration="8.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="50.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879482277" name="Stagger - 8" iconId="1091415788" duration="15.0">
+<propertyModEffect id="1879482277" name="Stagger - 8" iconId="1091415788" duration="3.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="80.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879482279" name="Stagger - 2" iconId="1091415788" duration="15.0">
+<propertyModEffect id="1879482279" name="Stagger - 2" iconId="1091415788" duration="3.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="20.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879482281" name="Stagger - 3" iconId="1091415788" duration="15.0">
+<propertyModEffect id="1879482281" name="Stagger - 3" iconId="1091415788" duration="3.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="30.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879482282" name="Hamstring" iconId="1090553765" duration="10.0">
@@ -44358,8 +44356,8 @@
 <overTimeChange progressionID="1879244296"/>
 </vitalOverTimeEffect>
 <effect id="1879482307" name="Seeping Blood" iconId="1090539325" duration="2.0" pulseCount="4"/>
-<vitalOverTimeEffect id="1879482308" name="Heart Seeker Wound" iconId="1091401111" duration="3.0" pulseCount="3" stat="Health_MaxLevel" damageType="1">
-<overTimeChange progressionID="1879265010"/>
+<vitalOverTimeEffect id="1879482308" name="Heart Seeker Wound" iconId="1091734508" duration="3.0" pulseCount="3" stat="Health_MaxLevel" damageType="1">
+<overTimeChange progressionID="1879343123"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879482309" name="Medium Heal" stat="Health_MaxLevel">
 <vitalChange constant="5.0"/>
@@ -44611,7 +44609,7 @@
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879482378" name="Protection of the Sea" iconId="1090623409">
-<stat name="Combat_MitigationPercentage_Light" constant="60.000004"/>
+<stat name="Combat_MitigationPercentage_Light" constant="80.0"/>
 </propertyModEffect>
 <effect id="1879482379" name="Get Over Here"/>
 <propertyModEffect id="1879482380" name="Cry of Fury" iconId="1092811846" duration="15.0">
@@ -44642,7 +44640,7 @@
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="5.0"/>
 <stat name="INCOMING_HEALING_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="5.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879482388" name="Envenomed" iconId="1092509280">
+<propertyModEffect id="1879482388" name="Envenomed" iconId="1092943408">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
 <stat name="INCOMING_HEALING_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
@@ -44927,7 +44925,7 @@
 <effect id="1879483097" name="Storm of Protection"/>
 </hotspot>
 </genesis>
-<propertyModEffect id="1879483209" name="Arrows Overhead" iconId="1090553936" duration="1.0" pulseCount="1"/>
+<propertyModEffect id="1879483209" name="Arrows Overhead" iconId="1090553936" duration="2.0" pulseCount="1"/>
 <propertyModEffect id="1879483211" name="Bastion of Light" iconId="1092835508">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
 </propertyModEffect>
@@ -44938,7 +44936,7 @@
 </hotspot>
 </genesis>
 <effect id="1879483222" name="Knockback"/>
-<effect id="1879483236" name="DNT - Random Crowd effect" probability="0.5"/>
+<effect id="1879483236" name="DNT - Random Crowd effect"/>
 <vitalOverTimeEffect id="1879483238" name="Bracing Guard" iconId="1092693316" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
 <initialChange progressionID="1879054406"/>
 <overTimeChange progressionID="1879481658" variance="0.3"/>
@@ -45094,9 +45092,7 @@
 <effect id="1879484021" name="Power of Destruction" iconId="1090541206" duration="1.0"/>
 <effect id="1879484030" name="Gamble" probabilityModProperty="268464664"/>
 <effect id="1879484033" name="DNT - Riddle Reset"/>
-<propertyModEffect id="1879484035" name="DNT - Lesser Rent Armour" iconId="1090519170">
-<specialEffect label="key:621091167:106251889"/>
-</propertyModEffect>
+<propertyModEffect id="1879484035" name="DNT - Lesser Rent Armour" iconId="1090519170"/>
 <effect id="1879484037" name="Deep Tendril" probability="0.5"/>
 <effect id="1879484043" name="DNT - Dispel Mend buff"/>
 <effect id="1879484045" name="DNT - Wrath Regen" probabilityModProperty="268464667"/>
@@ -45129,7 +45125,6 @@
 <specialEffect label="key:621091259:106251891"/>
 <specialEffect label="key:621091259:106251892"/>
 </propertyModEffect>
-<effect id="1879484145"/>
 <comboEffect id="1879484146" name="DNT">
 <present id="1879484242" name="Frigid Squall"/>
 <toAddIfNotPresent id="1879484149" name="Flaming Arrow"/>
@@ -45149,7 +45144,7 @@
 <stat name="PARRY_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 <stat name="EVADE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </propertyModEffect>
-<effect id="1879484151" name="DNT" iconId="1090616965"/>
+<effect id="1879484151" name="Trick Haven" iconId="1090641322"/>
 <genesis id="1879484154" name=".." appliedDescription="key:621091359:54354734" summonDuration="3.0">
 <hotspot id="1879484199" name="DNT - Lightning Warning">
 <effect id="1879153861" name="DNT - Do Nothing Harmful"/>
@@ -45181,7 +45176,7 @@
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="1.15"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="30.000002"/>
 </propertyModEffect>
-<propertyModEffect id="1879484164" name="Hungry Maw" iconId="1090553936" duration="1.0" pulseCount="1"/>
+<propertyModEffect id="1879484164" name="Hungry Maw" iconId="1090553936" duration="3.0" pulseCount="1"/>
 <propertyModEffect id="1879484166" name="Shattered Armour" iconId="1092906656" duration="6.0">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="2.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="2.0"/>
@@ -45214,7 +45209,7 @@
 <stat name="PERCEIVED_THREAT" constant="100.0"/>
 <stat name="LIGHTNING_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
 </propertyModEffect>
-<effect id="1879484197" name="Static Shock" iconId="1092830932" duration="8.0"/>
+<effect id="1879484197" name="Static Shock" iconId="1091609122" duration="8.0"/>
 <vitalOverTimeEffect id="1879484200" name="Torn Flesh" iconId="1090580244" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="1">
 <overTimeChange progressionID="1879343124"/>
 </vitalOverTimeEffect>
@@ -45244,12 +45239,11 @@
 <overTimeChange progressionID="1879244484"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879484219" name="Lightning Strike" stat="Health_MaxLevel">
-<vitalChange progressionID="1879180912"/>
+<vitalChange progressionID="1879343113"/>
 </instantVitalEffect>
-<effect id="1879484220"/>
 <genesis id="1879484222" name=".." appliedDescription="key:621091337:54354734" summonDuration="12.0">
 <hotspot id="1879484243" name="Trick Haven">
-<effect id="1879484151" name="DNT"/>
+<effect id="1879484151" name="Trick Haven"/>
 </hotspot>
 </genesis>
 <vitalOverTimeEffect id="1879484223" name="Ragged Cut Bleed" iconId="1091834313" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="1">
@@ -45276,6 +45270,9 @@
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="1.1"/>
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="1.1"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879484233" name="Crackling Conduit" iconId="1091609122" duration="12.0">
+<stat name="LIGHTNING_MITIGATION_PERCENTAGE" constant="50.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879484236" name="Vicious Offense" iconId="1091474182" duration="20.0">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="75.0"/>
@@ -45375,4 +45372,25 @@
 <specialEffect label="key:621091734:106251891"/>
 <specialEffect label="key:621091734:106251892"/>
 </propertyModEffect>
+<recallEffect id="1879484861" name="Guide to the Ledger-keepers">
+<position region="5" longitude="-105.7334" latitude="-19.91836"/>
+</recallEffect>
+<recallEffect id="1879484864" name="Muster in the Ledger-keepers">
+<position region="5" longitude="-105.7334" latitude="-19.91836"/>
+</recallEffect>
+<recallEffect id="1879484867" name="Travel to the Ledger-keepers">
+<position region="5" longitude="-105.7334" latitude="-19.91836"/>
+</recallEffect>
+<genesis id="1879484873" name=".." appliedDescription="key:621091850:54354734" permanent="true">
+<summoned id="1879480643" name="Creeping Tendril[e]"/>
+</genesis>
+<genesis id="1879484874" name=".." appliedDescription="key:621091849:54354734" permanent="true">
+<summoned id="1879479207" name="Umshûra's Lesser Crushing Tentacle[n]"/>
+</genesis>
+<genesis id="1879484875" name=".." appliedDescription="key:621091848:54354734" permanent="true">
+<summoned id="1879481744" name="Molten Stone[e]"/>
+</genesis>
+<genesis id="1879484876" name=".." appliedDescription="key:621091847:54354734" summonDuration="30.0">
+<summoned id="1879484249" name="Greater Fire[e]"/>
+</genesis>
 </effects>
