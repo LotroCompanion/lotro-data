@@ -38860,7 +38860,6 @@
 <effect id="1879453015" name="DNT"/>
 </fellowshipEffect>
 <propertyModEffect id="1879449317" name="DNT - Tale of Tale Tier Up" iconId="1090519170"/>
-<effect id="1879449330" name="Song of Aid" description="key:621066025:181298206" appliedDescription="key:621066025:54354734" iconId="1090541234" duration="10.0"/>
 <fellowshipEffect id="1879449357" name="DNT - Call to Greatness Fellowship Cooldowns" applyToRaidGroups="true" applyToTarget="true" range="25.0">
 <effect id="1879449376" name="DNT"/>
 </fellowshipEffect>
@@ -38919,6 +38918,14 @@
 <propertyModEffect id="1879450107" name="Reduced Light Mitigation" iconId="1092742791" duration="20.0">
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="-3.0"/>
 </propertyModEffect>
+<reactiveVitalEffect id="1879450129" name="Song of Aid Deflection - Tier 2" appliedDescription="key:621066687:54354734" iconId="1092742459" duration="10.0" damageTypes="65407" damageTypeOverride="8">
+<attacker>
+<reactiveVital constant="0.15" probability="1.0" multiplicative="true"/>
+</attacker>
+<defender>
+<reactiveVital constant="0.15" probability="1.0" multiplicative="true"/>
+</defender>
+</reactiveVitalEffect>
 <propertyModEffect id="1879450131" name="Red Salamander" iconId="1090553792"/>
 <effect id="1879450219" name="Anthem Skills Reset" probabilityModProperty="268463285"/>
 <propertyModEffect id="1879450230" name="DNT - Thunderous Codas" iconId="1090519170">
@@ -43638,7 +43645,7 @@
 <specialEffect label="key:621089335:106251894"/>
 </propertyModEffect>
 <propertyModEffect id="1879481431" name="Sticky Tar" iconId="1090542796" duration="30.0">
-<stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="30.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879481436" name="Battle-hardened" iconId="1090541076" duration="20.0">
@@ -43676,7 +43683,7 @@
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="1.15"/>
 </propertyModEffect>
 <propertyModEffect id="1879481459" name="Caltrops" iconId="1090623481" duration="15.0">
-<stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="30.000002"/>
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="70.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879481464" name="Corrupting Wound" iconId="1090523948" duration="30.0">
@@ -44782,7 +44789,7 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SET" constant="50.0"/>
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="20.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879482751" name="&lt;rgb=#ff007b&gt;Major Rent Armour:&lt;/rgb&gt; Trickster" iconId="1090541261" duration="20.0">
+<propertyModEffect id="1879482751" name="&lt;rgb=#ff007b&gt;Major Rent Armour:&lt;/rgb&gt; Trickster" iconId="1090541261" duration="15.0">
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="-15.000001"/>
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="-15.000001"/>
 </propertyModEffect>
@@ -44806,11 +44813,11 @@
 <stat name="Skill_AttackHook_MitigationModifier" operator="SUBSTRACT" constant="12.0"/>
 </propertyModEffect>
 <induceCombatState id="1879482827" name="Trapped in ichor!" state="27" stateDuration="30.0"/>
-<procEffect id="1879482870" name="Unhampered Tentacle - 3" iconId="1092403799" skillTypes="36" cooldown="1.0">
+<procEffect id="1879482870" name="Unhampered Tentacle - 3" iconId="1092403799" skillTypes="39" cooldown="1.0">
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="30.000002"/>
 <effect id="1879482889" name="DNT - Tiers down Unhampered Tentacle"/>
 </procEffect>
-<procEffect id="1879482874" name="Unhampered Tentacle - 1" iconId="1092403827" skillTypes="36" cooldown="1.0">
+<procEffect id="1879482874" name="Unhampered Tentacle - 1" iconId="1092403827" skillTypes="39" cooldown="1.0">
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
 <effect id="1879482889" name="DNT - Tiers down Unhampered Tentacle"/>
 </procEffect>
@@ -44823,16 +44830,16 @@
 <finalTier id="1879482927" name="Unhampered Tentacle - 5"/>
 </tieredEffect>
 <effect id="1879482889" name="DNT - Tiers down Unhampered Tentacle"/>
-<procEffect id="1879482924" name="Unhampered Tentacle - 4" iconId="1092403809" skillTypes="36" cooldown="1.0">
+<procEffect id="1879482924" name="Unhampered Tentacle - 4" iconId="1092403809" skillTypes="39" cooldown="1.0">
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="50.0"/>
 <effect id="1879482889" name="DNT - Tiers down Unhampered Tentacle"/>
 </procEffect>
-<procEffect id="1879482927" name="Unhampered Tentacle - 5" iconId="1092403846" skillTypes="36" cooldown="1.0">
+<procEffect id="1879482927" name="Unhampered Tentacle - 5" iconId="1092403846" skillTypes="39" cooldown="1.0">
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="150.0"/>
 <specialEffect label="key:621090553:106251890"/>
 <effect id="1879482889" name="DNT - Tiers down Unhampered Tentacle"/>
 </procEffect>
-<procEffect id="1879482928" name="Unhampered Tentacle - 2" iconId="1092403827" skillTypes="36" cooldown="1.0">
+<procEffect id="1879482928" name="Unhampered Tentacle - 2" iconId="1092403827" skillTypes="39" cooldown="1.0">
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="15.000001"/>
 <effect id="1879482889" name="DNT - Tiers down Unhampered Tentacle"/>
 </procEffect>
@@ -44942,7 +44949,7 @@
 <overTimeChange progressionID="1879481658" variance="0.3"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879483240" name="Bastion of Light" iconId="1092835508" duration="2.0" stat="Health_MaxLevel" damageType="64">
-<overTimeChange progressionID="1879180345"/>
+<overTimeChange progressionID="1879343113"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879483250" name="War Chant" iconId="1091805310" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="32">
 <overTimeChange progressionID="1879180916"/>
@@ -45239,7 +45246,7 @@
 <overTimeChange progressionID="1879244484"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879484219" name="Lightning Strike" stat="Health_MaxLevel">
-<vitalChange progressionID="1879343113"/>
+<vitalChange progressionID="1879180345"/>
 </instantVitalEffect>
 <genesis id="1879484222" name=".." appliedDescription="key:621091337:54354734" summonDuration="12.0">
 <hotspot id="1879484243" name="Trick Haven">
@@ -45282,6 +45289,7 @@
 <genesis id="1879484237" name=".." appliedDescription="key:621091361:54354734" summonDuration="15.0">
 <hotspot id="1879484225" name="Northern Squall">
 <effect id="1879484242" name="Frigid Squall"/>
+<effect id="1879485419" name="Frigid Squall"/>
 </hotspot>
 </genesis>
 <propertyModEffect id="1879484242" name="Frigid Squall" iconId="1091439492">
@@ -45320,7 +45328,7 @@
 <specialEffect label="key:621091459:106251889"/>
 </propertyModEffect>
 <propertyModEffect id="1879484376" name="DNT - True Heroics Gives a Strikes/Punishing Skill proc" iconId="1090519170"/>
-<procEffect id="1879484377" name="DNT - Make Punishing Blow Available" iconId="1090552382" skillTypes="33" procProbability="0.15" cooldown="1.0">
+<procEffect id="1879484377" name="DNT - Make Punishing Blow Available" iconId="1090552382" skillTypes="33" procProbability="0.15" cooldown="7.0">
 <effect id="1879484375" name="Punishing Strikes"/>
 </procEffect>
 <effect id="1879484378" name="DNT - Dispels the prop mod"/>
@@ -45393,4 +45401,15 @@
 <genesis id="1879484876" name=".." appliedDescription="key:621091847:54354734" summonDuration="30.0">
 <summoned id="1879484249" name="Greater Fire[e]"/>
 </genesis>
+<induceCombatState id="1879485152" name="Daze" state="3" stateDuration="15.0"/>
+<effect id="1879485156" name="DNT - applies effect to friendlies"/>
+<propertyModEffect id="1879485180" name="Arrows Overhead" iconId="1090553936" duration="2.0" pulseCount="1"/>
+<effect id="1879485182" name="Splintering Crash"/>
+<propertyModEffect id="1879485412" name="DNT - Adds Furious" appliedDescription="key:621092248:54354734" iconId="1091400591"/>
+<effect id="1879485413" name="DNT - applies buff to friendlies"/>
+<effect id="1879485414" name="DNT - applies buff to friendlies"/>
+<propertyModEffect id="1879485417" name="DNT - Adds Battle-trance" appliedDescription="key:621092247:54354734" iconId="1091400591"/>
+<vitalOverTimeEffect id="1879485419" name="Frigid Squall" iconId="1091429123" duration="2.0" stat="Health_MaxLevel" damageType="256">
+<overTimeChange progressionID="1879180913"/>
+</vitalOverTimeEffect>
 </effects>
