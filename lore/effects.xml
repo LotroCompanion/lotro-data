@@ -11134,9 +11134,9 @@
 <stat name="CRITICAL_RATING" scaling="1879211601"/>
 </propertyModEffect>
 <propertyModEffect id="1879196665" name="Armour Rend" appliedDescription="key:620870315:54354734" iconId="1091476365" duration="30.0" pulseCount="1">
-<stat name="MELEE_DEFENCE_PERCENTAGE" constant="25.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" constant="25.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" constant="25.0"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" constant="150.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" constant="150.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" constant="150.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879196666" name="Reduced Healing" appliedDescription="key:620870316:54354734" iconId="1091479312" duration="30.0" pulseCount="1">
 <stat name="INCOMING_HEALING_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
@@ -25608,9 +25608,6 @@
 <instantVitalEffect id="1879318324" name="Thickened Hide" stat="Health_MaxLevel" multiplicative="true">
 <vitalChange constant="0.01"/>
 </instantVitalEffect>
-<propertyModEffect id="1879318341" name="DNT - Aid the Assault" iconId="1090519170">
-<specialEffect label="key:620955878:106251889"/>
-</propertyModEffect>
 <propertyModEffect id="1879318342" name="Call To Wild" iconId="1091940988" duration="15.0">
 <stat name="Skill_SingleTarget_Damage" descriptionOverride="key:620955879:106251897" constant="40.0"/>
 <stat name="Skill_AreaEffect_Damage" descriptionOverride="-" constant="30.000002"/>
@@ -43684,7 +43681,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879481459" name="Caltrops" iconId="1090623481" duration="15.0">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
-<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="70.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="40.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879481464" name="Corrupting Wound" iconId="1090523948" duration="30.0">
 <stat name="SHADOW_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
@@ -43884,8 +43881,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879481651" name="Sprint" iconId="1092940682" duration="5.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="60.000004"/>
-<stat name="CRITICAL_MELEE_PERCENTAGE" constant="25.0"/>
-<stat name="CRITICAL_RANGED_PERCENTAGE" constant="25.0"/>
+<stat name="CRITICAL_MELEE_PERCENTAGE" constant="5.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879481653" name="Dying Heal" stat="Health_MaxLevel">
 <vitalChange progressionID="1879481658"/>
@@ -43948,7 +43944,7 @@
 <initialChange progressionID="1879110871"/>
 <overTimeChange progressionID="1879057764" variance="0.3"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879481704" name="Persistent Flame - 3" iconId="1091494886" duration="3.0" pulseCount="7" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879481704" name="Persistent Flame - 3" iconId="1091494888" duration="3.0" pulseCount="7" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879180916"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879481705" name="Persevere" iconId="1092810674" duration="3.0" pulseCount="7" stat="Health_MaxLevel">
@@ -43991,13 +43987,13 @@
 <vitalOverTimeEffect id="1879481717" name="Embers" iconId="1091659750" duration="3.0" pulseCount="3" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879180916"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879481718" name="Persistent Flame - 1" iconId="1091440848" duration="3.0" pulseCount="7" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879481718" name="Persistent Flame - 1" iconId="1091494886" duration="3.0" pulseCount="7" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879244296"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879481719" name="Inferno" iconId="1091440845" duration="2.0" pulseCount="6" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879483170"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879481720" name="Persistent Flame - 2" iconId="1091440846" duration="3.0" pulseCount="7" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879481720" name="Persistent Flame - 2" iconId="1091494887" duration="3.0" pulseCount="7" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879343138"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879481721" name="Restoration" iconId="1091471247" duration="3.0" pulseCount="7" stat="Health_MaxLevel">
@@ -44017,7 +44013,7 @@
 <initialChange progressionID="1879110872"/>
 <overTimeChange progressionID="1879110872" variance="0.3"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879481726" name="Persistent Flame - 4" iconId="1091494887" duration="3.0" pulseCount="7" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879481726" name="Persistent Flame - 4" iconId="1091494888" duration="3.0" pulseCount="7" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879343124"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879481727" name="Mighty Blow" iconId="1091471263" duration="3.0" pulseCount="7" stat="Health_MaxLevel" damageType="1">
@@ -45278,7 +45274,7 @@
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="1.1"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879484233" name="Crackling Conduit" iconId="1091609122" duration="12.0">
+<propertyModEffect id="1879484233" name="Crackling Conduit" iconId="1091609122" duration="10.0">
 <stat name="LIGHTNING_MITIGATION_PERCENTAGE" constant="50.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879484236" name="Vicious Offense" iconId="1091474182" duration="20.0">
@@ -45292,7 +45288,7 @@
 <effect id="1879485419" name="Frigid Squall"/>
 </hotspot>
 </genesis>
-<propertyModEffect id="1879484242" name="Frigid Squall" iconId="1091439492">
+<propertyModEffect id="1879484242" name="Frigid Squall" appliedDescription="key:621091358:54354734" iconId="1091439492">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="40.0"/>
 <stat name="Combat_AttackerCriticalHitChanceAddMod" constant="5.0"/>
 </propertyModEffect>
@@ -45389,13 +45385,13 @@
 <recallEffect id="1879484867" name="Travel to the Ledger-keepers">
 <position region="5" longitude="-105.7334" latitude="-19.91836"/>
 </recallEffect>
-<genesis id="1879484873" name=".." appliedDescription="key:621091850:54354734" permanent="true">
+<genesis id="1879484873" name=".." appliedDescription="key:621091850:54354734" summonDuration="60.0">
 <summoned id="1879480643" name="Creeping Tendril[e]"/>
 </genesis>
-<genesis id="1879484874" name=".." appliedDescription="key:621091849:54354734" permanent="true">
+<genesis id="1879484874" name=".." appliedDescription="key:621091849:54354734" summonDuration="45.0">
 <summoned id="1879479207" name="Umshûra's Lesser Crushing Tentacle[n]"/>
 </genesis>
-<genesis id="1879484875" name=".." appliedDescription="key:621091848:54354734" permanent="true">
+<genesis id="1879484875" name=".." appliedDescription="key:621091848:54354734" summonDuration="60.0">
 <summoned id="1879481744" name="Molten Stone[e]"/>
 </genesis>
 <genesis id="1879484876" name=".." appliedDescription="key:621091847:54354734" summonDuration="30.0">
@@ -45405,6 +45401,50 @@
 <effect id="1879485156" name="DNT - applies effect to friendlies"/>
 <propertyModEffect id="1879485180" name="Arrows Overhead" iconId="1090553936" duration="2.0" pulseCount="1"/>
 <effect id="1879485182" name="Splintering Crash"/>
+<propertyModEffect id="1879485245" name="Mounted" iconId="1090519170">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621092098:106251889" constant="62.0"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+<specialEffect label="key:621092098:106251890"/>
+<specialEffect label="key:621092098:106251891"/>
+<specialEffect label="key:621092098:106251892"/>
+</propertyModEffect>
+<propertyModEffect id="1879485248" name="Mounted" iconId="1090519170">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621092095:106251889" constant="68.0"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+<specialEffect label="key:621092095:106251890"/>
+<specialEffect label="key:621092095:106251891"/>
+<specialEffect label="key:621092095:106251892"/>
+</propertyModEffect>
+<propertyModEffect id="1879485252" name="Mounted" iconId="1090519170">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621092100:106251889" constant="68.0"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+<specialEffect label="key:621092100:106251890"/>
+<specialEffect label="key:621092100:106251891"/>
+<specialEffect label="key:621092100:106251892"/>
+</propertyModEffect>
+<propertyModEffect id="1879485253" name="Mounted" iconId="1090519170">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621092101:106251889" constant="62.0"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+<specialEffect label="key:621092101:106251890"/>
+<specialEffect label="key:621092101:106251891"/>
+<specialEffect label="key:621092101:106251892"/>
+</propertyModEffect>
+<propertyModEffect id="1879485277" name="Party Time" description="key:621092123:181298206" appliedDescription="key:621092123:54354734" iconId="1090641205" duration="10.0" pulseCount="1">
+<stat name="Combat_BaseMissRate" constant="10.0"/>
+</propertyModEffect>
+<effect id="1879485285" name="Launching Fireworks" appliedDescription="key:621092137:54354734"/>
+<effect id="1879485286" name="Launching Fireworks" appliedDescription="key:621092133:54354734"/>
+<propertyModEffect id="1879485303" iconId="1090553792"/>
+<propertyModEffect id="1879485306" iconId="1090553792"/>
+<propertyModEffect id="1879485308" iconId="1090553792"/>
+<propertyModEffect id="1879485309" iconId="1090553792"/>
+<propertyModEffect id="1879485311" iconId="1090553792"/>
+<propertyModEffect id="1879485312" iconId="1090553792"/>
+<propertyModEffect id="1879485315" iconId="1090553792"/>
 <propertyModEffect id="1879485412" name="DNT - Adds Furious" appliedDescription="key:621092248:54354734" iconId="1091400591"/>
 <effect id="1879485413" name="DNT - applies buff to friendlies"/>
 <effect id="1879485414" name="DNT - applies buff to friendlies"/>
@@ -45412,4 +45452,9 @@
 <vitalOverTimeEffect id="1879485419" name="Frigid Squall" iconId="1091429123" duration="2.0" stat="Health_MaxLevel" damageType="256">
 <overTimeChange progressionID="1879180913"/>
 </vitalOverTimeEffect>
+<propertyModEffect id="1879485751" name="Cornered" iconId="1091840522" duration="30.0">
+<stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="20.0"/>
+<specialEffect label="key:621092335:106251889"/>
+</propertyModEffect>
+<propertyModEffect id="1879485752" name="Focused Enemy" iconId="1091734530" duration="10.0"/>
 </effects>

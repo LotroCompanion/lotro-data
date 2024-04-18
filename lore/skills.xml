@@ -4425,7 +4425,7 @@
 <effect id="1879106445" name="Snowblind Aura"/>
 </skill>
 <skill identifier="1879106453" name="a thrown strike attack" iconId="1090522259">
-<effect id="1879104097" name="DNT"/>
+<effect id="1879447440" name="DNT- Exposing Cold Chain Up Base"/>
 </skill>
 <skill identifier="1879106550" name="Frost Breath" iconId="1090522259">
 <effect id="1879152806" name="Induce Rooted"/>
@@ -4497,7 +4497,7 @@
 </skill>
 <skill identifier="1879107486" name="Frost Clap" iconId="1090522259">
 <effect id="1879109106" name="Primary Weapon: Disarmed"/>
-<effect id="1879104097" name="DNT"/>
+<effect id="1879447440" name="DNT- Exposing Cold Chain Up Base"/>
 </skill>
 <skill identifier="1879107504" name="Chilled to the Bone" iconId="1090522259">
 <effect id="1879051287" name="Minor Fright"/>
@@ -4516,7 +4516,7 @@
 <effect id="1879457786" name="DNT - Reduce Mastery cooldown" type="USER"/>
 </skill>
 <skill identifier="1879107703" name="a mighty melee attack" iconId="1090522259">
-<effect id="1879104097" name="DNT"/>
+<effect id="1879447440" name="DNT- Exposing Cold Chain Up Base"/>
 </skill>
 <skill identifier="1879107704" name="Surprise Attack Frost" iconId="1090522259">
 <effect id="1879104097" name="DNT"/>
@@ -27228,7 +27228,7 @@
 <skill identifier="1879411598" name="Light Draw" iconId="1090522259"/>
 <skill identifier="1879411599" name="Long Draw" iconId="1090522259"/>
 <skill identifier="1879411600" name="Light Draw" iconId="1090522259"/>
-<skill identifier="1879411601" name="Chilling Word" iconId="1090522259">
+<skill identifier="1879411601" name="Debilitating Shot" iconId="1090522259">
 <effect id="1879411977" name="Debilitating Shot - 1"/>
 <effect id="1879411900" name="Debilitating Wound"/>
 </skill>
@@ -27493,7 +27493,7 @@
 <skill identifier="1879412513" name="Weeping Wounds" iconId="1090522259">
 <effect id="1879412505" name="Weeping Wound"/>
 </skill>
-<skill identifier="1879412514" name="Chilling Word" iconId="1090522259">
+<skill identifier="1879412514" name="Debilitating Shot" iconId="1090522259">
 <effect id="1879411970" name="Debilitating Shot - 3"/>
 <effect id="1879411901" name="Debilitating Wound"/>
 </skill>
@@ -32884,12 +32884,13 @@
 <skill identifier="1879481400" name="Minor AoE Heal" iconId="1090522259">
 <effect id="1879481654" name="Medium Heal"/>
 </skill>
+<skill identifier="1879481405" name="a sweeping melee attack" iconId="1090522259"/>
 <skill identifier="1879481406" name="Vanish" iconId="1090522259">
 <effect id="1879481418" name="Vanished"/>
 <effect id="1879481654" name="Medium Heal"/>
 </skill>
 <skill identifier="1879481407" name="Revel in Combat" iconId="1090522259">
-<effect id="1879149379" name="DNT - Do Nothing"/>
+<effect id="1879485751" name="Cornered"/>
 </skill>
 <skill identifier="1879481408" name="Fist of Shadow" iconId="1090522259">
 <effect id="1879481551" name="Fist of Shadow"/>
@@ -32940,6 +32941,7 @@
 <skill identifier="1879481438" name="Furious Blows" iconId="1090522259"/>
 <skill identifier="1879481439" name="Sprint" iconId="1090522259">
 <effect id="1879481651" name="Sprint"/>
+<effect id="1879481651" name="Sprint" type="USER"/>
 </skill>
 <skill identifier="1879481440" name="Battle Shout" iconId="1090522259"/>
 <skill identifier="1879481442" name="Agile Setup" iconId="1090522259">
@@ -32980,7 +32982,7 @@
 <effect id="1879481657" name="Enormous Heal"/>
 </skill>
 <skill identifier="1879481473" name="Thunderous Blast (distributed)" iconId="1090522259">
-<effect id="1879256494" name="Induce Daze"/>
+<effect id="1879485152" name="Daze"/>
 </skill>
 <skill identifier="1879481474" name="Grasping Earth" iconId="1090522259">
 <effect id="1879152802" name="Induce Rooted"/>
@@ -32993,6 +32995,7 @@
 <skill identifier="1879481479" name="Sticky Gourd" iconId="1090522259">
 <effect id="1879481707" name="Sticky Gourd Burn"/>
 </skill>
+<skill identifier="1879481480" name="a melee attack" iconId="1090522259"/>
 <skill identifier="1879481482" name="Major Cleave" iconId="1090522259"/>
 <skill identifier="1879481483" name="Green Gamble" iconId="1090522259">
 <effect id="1879481860" name="DNT - Gamble Random Potency"/>
@@ -33047,6 +33050,7 @@
 <skill identifier="1879481512" name="Healing strike" iconId="1090522259">
 <effect id="1879481656" name="Major Heal" type="USER"/>
 </skill>
+<skill identifier="1879481513" name="a melee attack" iconId="1090522259"/>
 <skill identifier="1879481516" name="Word of Flame 1" iconId="1090522259"/>
 <skill identifier="1879481518" name="Heart Seeker" iconId="1090522259">
 <effect id="1879481700" name="Heart Seeker Wound"/>
@@ -33133,6 +33137,9 @@
 <skill identifier="1879481567" name="Summon Crab" iconId="1090522259">
 <effect id="1879480655"/>
 </skill>
+<skill identifier="1879481569" name="a swift melee attack" iconId="1090522259">
+<effect id="1879054551" name="Interrupts Inductions"/>
+</skill>
 <skill identifier="1879481570" name="Sticky Tar" iconId="1090522259">
 <effect id="1879481431" name="Sticky Tar"/>
 </skill>
@@ -33141,7 +33148,6 @@
 <effect id="1879481746" name="Legend of the Squallbreaker"/>
 </skill>
 <skill identifier="1879481576" name="Inferno" iconId="1090522259">
-<effect id="1879481719" name="Inferno"/>
 <effect id="1879481756" name="Inferno"/>
 </skill>
 <skill identifier="1879481578" name="Echoing Glee" iconId="1090522259">
@@ -33171,7 +33177,10 @@
 <skill identifier="1879481588" name="Hungry Maw" iconId="1090522259">
 <effect id="1879484164" name="Hungry Maw"/>
 </skill>
-<skill identifier="1879481590" name="Slam" iconId="1090522259"/>
+<skill identifier="1879481589" name="a strong melee attack" iconId="1090522259"/>
+<skill identifier="1879481590" name="Slam" iconId="1090522259">
+<effect id="1879481488" name="Shredded Armour"/>
+</skill>
 <skill identifier="1879481591" name="a sweeping melee attack" iconId="1090522259"/>
 <skill identifier="1879481593" name="Shadow Burst" iconId="1090522259"/>
 <skill identifier="1879481594" name="Summon Lion" iconId="1090522259">
@@ -33186,7 +33195,7 @@
 <skill identifier="1879481603" name="Careful Shot" iconId="1090522259"/>
 <skill identifier="1879481606" name="Compound Attack" iconId="1090522259"/>
 <skill identifier="1879481607" name="Focus Enemy" iconId="1090522259">
-<effect id="1879384847" name="Targetted"/>
+<effect id="1879485752" name="Focused Enemy"/>
 </skill>
 <skill identifier="1879481608" name="Venomous Arrow" iconId="1090522259">
 <effect id="1879481494" name="Venomous Arrow"/>
@@ -33848,17 +33857,17 @@
 <skill identifier="1879482829" name="Leaded Stone" iconId="1090522259">
 <effect id="1879481651" name="Sprint" type="USER"/>
 </skill>
-<skill identifier="1879482868" name="Vile Scream" iconId="1090522259">
+<skill identifier="1879482868" name="Deep Scream" iconId="1090522259">
 <effect id="1879482933" name="DNT - applies enrage tierups to friendlies" type="USER"/>
 </skill>
 <skill identifier="1879482869" name="Vile Scream" iconId="1090522259"/>
-<skill identifier="1879482871" name="Vile Scream" iconId="1090522259">
+<skill identifier="1879482871" name="Deep Scream" iconId="1090522259">
 <effect id="1879482934" name="DNT - applies enrage tierups to friendlies" type="USER"/>
 </skill>
 <skill identifier="1879482872" name="Jagged Stones" iconId="1090522259">
 <effect id="1879482957" name="Jagged Stones"/>
 </skill>
-<skill identifier="1879482873" name="Vile Scream" iconId="1090522259">
+<skill identifier="1879482873" name="Deep Scream" iconId="1090522259">
 <effect id="1879482932" name="DNT - applies enrage tierups to friendlies" type="USER"/>
 </skill>
 <skill identifier="1879482875" name="Unhampered Throw" iconId="1090522259">
@@ -34167,10 +34176,63 @@
 <skill identifier="1879485167" name="Splintering Crash" iconId="1090522259">
 <effect id="1879485182" name="Splintering Crash" type="USER"/>
 </skill>
+<mount identifier="1879485246" name="Whimsical Steed" category="88" iconId="1092945358" initialName="key:621092100:138936629" mountCategory="8" mountType="1" sourceDescription="key:620995772:92846508" morale="250" speed="0.68" peerId="1879485251">
+<effect id="1879485252" name="Mounted" type="TOGGLE"/>
+<effect id="1879485252" name="Mounted" type="USER_TOGGLE"/>
+</mount>
+<mount identifier="1879485247" name="Steed of the Green Dragon Inn" category="88" iconId="1092945361" initialName="key:621092098:138936629" mountCategory="4" mountType="1" sourceDescription="key:620995772:224675660" morale="200" speed="0.62" tall="true" peerId="1879485249">
+<effect id="1879485245" name="Mounted" type="TOGGLE"/>
+<effect id="1879485245" name="Mounted" type="USER_TOGGLE"/>
+</mount>
+<mount identifier="1879485249" name="Steed of the Green Dragon Inn" category="88" iconId="1092945361" initialName="key:621092101:138936629" mountCategory="4" mountType="1" sourceDescription="key:620995772:224675660" morale="200" speed="0.62" peerId="1879485247">
+<effect id="1879485253" name="Mounted" type="TOGGLE"/>
+<effect id="1879485253" name="Mounted" type="USER_TOGGLE"/>
+</mount>
+<mount identifier="1879485251" name="Whimsical Steed" category="88" iconId="1092945358" initialName="key:621092095:138936629" mountCategory="8" mountType="1" sourceDescription="key:620995772:92846508" morale="250" speed="0.68" tall="true" peerId="1879485246">
+<effect id="1879485248" name="Mounted" type="TOGGLE"/>
+<effect id="1879485248" name="Mounted" type="USER_TOGGLE"/>
+</mount>
+<pet identifier="1879485334" name="White Hamster" category="145" iconId="1092945411" initialName="key:621092158:33816677" sourceDescription="key:621092176:211796645" genus="14" species="27" subSpecies="132" description="key:621092176:228830419">
+<effect id="1879485311" type="TOGGLE"/>
+<effect id="1879485311" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879485335" name="Whimsical Woodland Critters" category="145" iconId="1092945408" initialName="key:621092163:33816677" sourceDescription="key:621092182:211796645" genus="14" species="27" subSpecies="132" description="key:621092182:228830419">
+<effect id="1879485315" type="TOGGLE"/>
+<effect id="1879485315" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879485336" name="Sienna Hamster" category="145" iconId="1092945407" initialName="key:621092156:33816677" sourceDescription="key:621092179:211796645" genus="14" species="27" subSpecies="132" description="key:621092179:228830419">
+<effect id="1879485308" type="TOGGLE"/>
+<effect id="1879485308" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879485337" name="Merrymaking Hamster" category="145" iconId="1092945405" initialName="key:621092157:33816677" sourceDescription="key:621092181:211796645" genus="14" species="27" subSpecies="132" description="key:621092181:228830419">
+<effect id="1879485306" type="TOGGLE"/>
+<effect id="1879485306" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879485338" name="Taupe Hamster" category="145" iconId="1092945409" initialName="key:621092165:33816677" sourceDescription="key:621092177:211796645" genus="14" species="27" subSpecies="132" description="key:621092177:228830419">
+<effect id="1879485309" type="TOGGLE"/>
+<effect id="1879485309" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879485339" name="Spotted Hamster" category="145" iconId="1092945406" initialName="key:621092153:33816677" sourceDescription="key:621092180:211796645" genus="14" species="27" subSpecies="132" description="key:621092180:228830419">
+<effect id="1879485312" type="TOGGLE"/>
+<effect id="1879485312" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879485340" name="Heather Hamster" category="145" iconId="1092945410" initialName="key:621092160:33816677" sourceDescription="key:621092178:211796645" genus="14" species="27" subSpecies="132" description="key:621092178:228830419">
+<effect id="1879485303" type="TOGGLE"/>
+<effect id="1879485303" type="USER_TOGGLE"/>
+</pet>
 <skill identifier="1879485415" name="DNT" iconId="1090522259">
 <effect id="1879485417" name="DNT - Adds Battle-trance"/>
 </skill>
 <skill identifier="1879485416" name="DNT" iconId="1090522259">
 <effect id="1879485412" name="DNT - Adds Furious"/>
+</skill>
+<skill identifier="1879485430" name="Relentless Maul" category="148" iconId="1092833823" description="key:621092259:228830419">
+<effect id="1879315021" name="Relentless Maul" type="TOGGLE"/>
+<effect id="1879315021" name="Relentless Maul" type="USER_TOGGLE"/>
+<effect id="1879320043" name="DNT - IA Give Back" type="USER"/>
+</skill>
+<skill identifier="1879485793" name="a wild thrown attack" iconId="1090522259"/>
+<skill identifier="1879485794" name="a wild thrown attack" iconId="1090522259">
+<effect id="1879051778" name="Induce Stunned"/>
 </skill>
 </skills>
