@@ -11704,6 +11704,9 @@
 <trait identifier="1879465746" name="Umbar Baharbêl - Vendor Discount" iconId="1090535587" category="93" nature="1" tooltip="key:621077401:191029568" description="key:621077401:54354734">
 <stat name="Discount_Umbar" constant="5.0"/>
 </trait>
+<trait identifier="1879465749" name="Umbar Baharbêl - Travel Discount" iconId="1091552099" category="93" nature="1" tooltip="key:621077400:191029568" description="key:621077400:54354734">
+<stat name="Discount_Travel_Umbar" constant="25.0"/>
+</trait>
 <trait identifier="1879466189" name="Shield of Light" iconId="1092835514" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_58" nature="27" description="key:621077741:54354734">
 <stat name="Trait_Guardian_ShieldLight_Boost" operator="SUBSTRACT" descriptionOverride="key:621077741:106251889" scaling="1879468186"/>
 <effect id="1879466566" name="Shield of Light I"/>
@@ -11800,7 +11803,7 @@
 <specialEffect label="key:621078813:106251889"/>
 </trait>
 <trait identifier="1879467434" name="Test Defences" iconId="1092830880" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_corsair_rank_33" nature="33" description="key:621078820:54354734">
-<specialEffect label="key:621078820:106251889"/>
+<stat name="Corsair_CritBuff_Damage_Potency_String" descriptionOverride="key:621078820:106251889" scaling="1879486542"/>
 <effect id="1879467610" name="DNT - Crits move balance fore"/>
 <effect rank="2" id="1879474982" name="DNT - Crits move balance fore"/>
 <effect rank="3" id="1879474979" name="DNT - Crits move balance fore"/>
@@ -11878,7 +11881,8 @@
 </trait>
 <trait identifier="1879467457" name="Rare Ingredients" iconId="1092830957" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_corsair_rank_40" nature="33" description="key:621078843:54354734">
 <stat name="Corsair_Cleanse_AdditionalDisease_Count" descriptionOverride="-" scaling="1879469803"/>
-<stat name="Corsair_CleanseDisease_AppChance" scaling="1879469807"/>
+<stat name="Corsair_CleanseDisease_AppChance" descriptionOverride="-" scaling="1879469807"/>
+<stat name="Corsair_Cleanse_AdditionalDisease_Count_String" scaling="1879486533"/>
 <specialEffect label="key:621078843:106251889"/>
 </trait>
 <trait identifier="1879467458" name="Keen Sight" iconId="1092830912" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_corsair_rank_11" nature="33" description="key:621078830:54354734">

@@ -53,8 +53,8 @@
 <stat name="MIGHT" operator="SUBSTRACT" scaling="1879471075"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879049485" name="Minor Poison" iconId="1090522396" duration="3.0" pulseCount="4" stat="Health_MaxLevel" damageType="1">
-<initialChange progressionID="1879049486"/>
-<overTimeChange progressionID="1879049487"/>
+<initialChange progressionID="1879244296"/>
+<overTimeChange progressionID="1879244296"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879049488" name="Minor Crippling Poison" description="key:620757582:181298206" appliedDescription="key:620757582:54354734" iconId="1090522397" duration="10.0" expiresInRealTime="true">
 <stat name="AGILITY" operator="SUBSTRACT" scaling="1879471065"/>
@@ -6954,9 +6954,9 @@
 <reactiveVital constant="0.2" probability="1.0" multiplicative="true"/>
 </attacker>
 </reactiveVitalEffect>
-<vitalOverTimeEffect id="1879156663" name="The Black Kiss" appliedDescription="key:620840261:54354734" iconId="1091510188" duration="3.0" pulseCount="15" stat="Health_MaxLevel" damageType="1024">
-<initialChange progressionID="1879149238"/>
-<overTimeChange progressionID="1879149262"/>
+<vitalOverTimeEffect id="1879156663" name="Black Venom Bite" appliedDescription="key:620840261:54354734" iconId="1091510188" duration="2.0" pulseCount="15" stat="Health_MaxLevel" damageType="1024">
+<initialChange progressionID="1879343123"/>
+<overTimeChange progressionID="1879483170"/>
 </vitalOverTimeEffect>
 <effect id="1879156669" name="DNT - Dispel DoT" description="key:620840267:181298206"/>
 <propertyModEffect id="1879156728" name="Caltrops" appliedDescription="key:620840301:54354734" iconId="1091476353">
@@ -8927,7 +8927,6 @@
 <initialChange progressionID="1879081263"/>
 <overTimeChange progressionID="1879081264"/>
 </vitalOverTimeEffect>
-<effect id="1879166826" name="DNT - Does nothing, but my hotspots needs an effect attached." iconId="1090541681"/>
 <induceCombatState id="1879167071" name="Induce Feared" state="2" stateDuration="10.0"/>
 <propertyModEffect id="1879167365" iconId="1090519170"/>
 <propertyModEffect id="1879167368" iconId="1090519170"/>
@@ -16157,7 +16156,7 @@
 <effect id="1879233234" name="Call Oathbreakers" description="key:620897490:181298206"/>
 <effect id="1879233235" name="Call Brúngwath" description="key:620897491:181298206"/>
 <instantVitalEffect id="1879233253" name="Self-motivation" stat="Power_MaxLevel">
-<vitalChange progressionID="1879457138"/>
+<vitalChange progressionID="1879457132"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879233255" name="Master of Connotation" probabilityModProperty="268451119" stat="Health_MaxLevel" multiplicative="true">
 <vitalChange constant="0.03"/>
@@ -20483,7 +20482,7 @@
 <fellowshipEffect id="1879264260" name="DNT - Skill Proc Critical Rating Buff" applyToPets="true" applyToTarget="true" range="30.0">
 <effect id="1879264259" name="Critical Rating"/>
 </fellowshipEffect>
-<procEffect id="1879264278" name="Armour of the Erebor Mischief-maker" appliedDescription="key:620916694:54354734" iconId="1090552382" skillTypes="36" procProbability="0.15" cooldown="1.0">
+<procEffect id="1879264278" name="Armour of the Erebor Mischief-maker" appliedDescription="key:620916694:54354734" iconId="1090552382" skillTypes="36" procProbability="0.2" cooldown="10.0">
 <effect id="1879389263" name="DNT - Blue Gamble Tier Up"/>
 <effect id="1879389258" name="DNT - Red Gamble Tier Up"/>
 <effect id="1879389244" name="DNT - Red Gamble Tier Up"/>
@@ -32352,13 +32351,13 @@
 <comboEffect id="1879393981" name="DNT">
 <present id="1879393979" name="Selflessness"/>
 <toAddIfNotPresent id="1879393982" name="DNT - Lend Resolve"/>
-<toExamine id="1879050134" name="Healing"/>
+<toExamine id="1879393982" name="DNT - Lend Resolve"/>
 </comboEffect>
 <effect id="1879393982" name="DNT - Lend Resolve" iconId="1090553787" duration="1.0" pulseCount="1"/>
 <comboEffect id="1879393984" name="DNT">
 <present id="1879393979" name="Selflessness"/>
 <toAddIfNotPresent id="1879393980" name="DNT - Lend Courage"/>
-<toExamine id="1879054405" name="Healing"/>
+<toExamine id="1879468822" name="Healing"/>
 </comboEffect>
 <effect id="1879394007" name="Call Legolas"/>
 <effect id="1879394083" name="Call Ungoladan"/>
@@ -41196,22 +41195,22 @@
 <effect id="1879462695" name="Deploy Ballista" appliedDescription="key:621074708:54354734" iconId="1090523647"/>
 <effect id="1879462696" name="Deploy Catapult" appliedDescription="key:621074710:54354734" iconId="1090523647"/>
 <effect id="1879462697" name="Deploy Battering Ram" appliedDescription="key:621074712:54354734" iconId="1090523647"/>
-<genesis id="1879462704" name="DNT -- Summon Battering Ram" permanent="true">
+<genesis id="1879462704" name="DNT -- Summon Battering Ram" summonDuration="300.0">
 <summoned id="1879458489" name="Battering Ram[e]"/>
 </genesis>
-<genesis id="1879462705" name="DNT -- Summon Catapult" permanent="true">
+<genesis id="1879462705" name="DNT -- Summon Catapult" summonDuration="300.0">
 <summoned id="1879458494" name="Catapult[e]"/>
 </genesis>
-<genesis id="1879462706" name="DNT -- Summon Catapult" permanent="true">
+<genesis id="1879462706" name="DNT -- Summon Catapult" summonDuration="300.0">
 <summoned id="1879458493" name="Catapult[e]"/>
 </genesis>
-<genesis id="1879462707" name="DNT -- Summon Ballista" permanent="true">
+<genesis id="1879462707" name="DNT -- Summon Ballista" summonDuration="300.0">
 <summoned id="1879458495" name="Ballista[e]"/>
 </genesis>
-<genesis id="1879462708" name="DNT -- Summon Battering Ram" permanent="true">
+<genesis id="1879462708" name="DNT -- Summon Battering Ram" summonDuration="300.0">
 <summoned id="1879458490" name="Battering Ram[e]"/>
 </genesis>
-<genesis id="1879462709" name="DNT -- Summon Ballista" permanent="true">
+<genesis id="1879462709" name="DNT -- Summon Ballista" summonDuration="300.0">
 <summoned id="1879458491" name="Ballista[e]"/>
 </genesis>
 <effect id="1879462770" name="Grant the Valar Level 140 Boosted Trait"/>
@@ -41728,7 +41727,7 @@
 </genesis>
 <genesis id="1879464354" name=".." appliedDescription="key:621076105:54354734" summonDuration="3.0">
 <hotspot id="1879464352" name="DNT - Catapult Projectile Warning">
-<effect id="1879166826" name="DNT - Does nothing, but my hotspots needs an effect attached."/>
+<effect id="1879149379" name="DNT - Do Nothing"/>
 </hotspot>
 </genesis>
 <genesis id="1879464356" name=".." appliedDescription="key:621076108:54354734" summonDuration="5.0">
@@ -42160,7 +42159,7 @@
 </vitalOverTimeEffect>
 <genesis id="1879466283" name="Bastion of Light" description="key:621077829:181298206" summonDuration="15.0">
 <hotspot id="1879466284" name="Bastion of Light">
-<effect id="1879468613" name="Bastion of Light"/>
+<effect id="1879468172" name="Bastion of Light"/>
 <effect id="1879466282" name="Bastion of Light"/>
 </hotspot>
 </genesis>
@@ -42208,7 +42207,7 @@
 </propertyModEffect>
 <genesis id="1879466442" name="Bastion of Light" description="key:621077949:181298206" summonDuration="15.0">
 <hotspot id="1879466436" name="Bastion of Light">
-<effect id="1879468613" name="Bastion of Light"/>
+<effect id="1879468172" name="Bastion of Light"/>
 <effect id="1879466282" name="Bastion of Light"/>
 </hotspot>
 </genesis>
@@ -42218,13 +42217,13 @@
 </propertyModEffect>
 <genesis id="1879466444" name="Bastion of Light" description="key:621077936:181298206" summonDuration="15.0">
 <hotspot id="1879466438" name="Bastion of Light">
-<effect id="1879468613" name="Bastion of Light"/>
+<effect id="1879468172" name="Bastion of Light"/>
 <effect id="1879466282" name="Bastion of Light"/>
 </hotspot>
 </genesis>
 <genesis id="1879466445" name="Bastion of Light" description="key:621077942:181298206" summonDuration="15.0">
 <hotspot id="1879466434" name="Bastion of Light">
-<effect id="1879468613" name="Bastion of Light"/>
+<effect id="1879468172" name="Bastion of Light"/>
 <effect id="1879466282" name="Bastion of Light"/>
 </hotspot>
 </genesis>
@@ -42709,9 +42708,6 @@
 <effect id="1879468600"/>
 <effect id="1879468607"/>
 <effect id="1879468611"/>
-<propertyModEffect id="1879468613" name="Bastion of Light" iconId="1092835508" duration="15.0">
-<stat name="Combat_MissChanceModifier" constant="5.0"/>
-</propertyModEffect>
 <propertyModEffect id="1879468678" iconId="1090553792"/>
 <propertyModEffect id="1879468679" iconId="1090553792"/>
 <propertyModEffect id="1879468680" iconId="1090553792"/>
@@ -42744,6 +42740,9 @@
 <reactiveVital constant="0.1" probability="1.0" multiplicative="true"/>
 </defender>
 </reactiveVitalEffect>
+<instantVitalEffect id="1879468822" name="Healing" stat="Health_MaxLevel">
+<vitalChange progressionID="1879446691"/>
+</instantVitalEffect>
 <propertyModEffect id="1879468835" name="Mounted" iconId="1090519170">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:620986469:106251889" constant="69.0"/>
 <stat name="Mount_Movement_Acceleration" constant="8.0"/>
@@ -42884,7 +42883,9 @@
 <effect id="1879273615" name="Bolstering Blocks"/>
 </procEffect>
 <dispelByResist id="1879469755" name="DNT - Remove Poison, Disease, Wound, or Fear" probabilityModProperty="268464209" maxDispelCount="1" resistCategories="2" useStrengthRestriction="true" strengthOffset="5"/>
-<propertyModEffect id="1879469759" name="DNT - Wind Shanties Heal Self" iconId="1090519170"/>
+<propertyModEffect id="1879469759" name="DNT - Wind Shanties Heal Self" iconId="1090519170">
+<specialEffect label="key:621080625:106251889"/>
+</propertyModEffect>
 <propertyModEffect id="1879469810" name="DNT - Shanties Apply Rousing Cry Buff" iconId="1090519170"/>
 <genesis id="1879469815" name="DNT - Caustic Brew" summonDuration="2.0">
 <hotspot id="1879469814" name="Caustic Brew">
@@ -43463,7 +43464,7 @@
 <effect id="1879479415" name="Durable Fervent Morale"/>
 <effect id="1879479416" name="Durable Fervent Morale"/>
 <effect id="1879479418" name="Durable Fervent Morale"/>
-<induceCombatState id="1879479509" name="Claustrophobic Horror" description="key:621087934:181298206" appliedDescription="key:621087934:54354734" state="15" stateDuration="12.0"/>
+<induceCombatState id="1879479509" name="Claustrophobic Horror" state="27" stateDuration="15.0"/>
 <propertyModEffect id="1879479512" name="Claustrophobic Horror" appliedDescription="key:621087936:54354734" iconId="1090524461" duration="12.0">
 <stat name="Mood_Healing_Modifier" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
@@ -45277,7 +45278,7 @@
 <propertyModEffect id="1879484233" name="Crackling Conduit" iconId="1091609122" duration="10.0">
 <stat name="LIGHTNING_MITIGATION_PERCENTAGE" constant="50.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879484236" name="Vicious Offense" iconId="1091474182" duration="20.0">
+<propertyModEffect id="1879484236" name="Vicious Offence" iconId="1091474182" duration="20.0">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="75.0"/>
 <stat name="CRITICAL_MELEE_PERCENTAGE" constant="10.0"/>
 <stat name="Combat_OutgoingHeals_EffectMod" constant="30.000002"/>
@@ -45355,6 +45356,18 @@
 <effect id="1879484549" name="Jephai Volley" iconId="1090553936" duration="2.0"/>
 <effect id="1879484550" name="Fire Pot" iconId="1092406455" duration="2.0"/>
 <effect id="1879484551" name="Jephai Volley" iconId="1090553936" duration="2.0"/>
+<effect id="1879484623" name="DNT" iconId="1090519170" duration="1.0"/>
+<effect id="1879484625" name="DNT" iconId="1090519170" duration="1.0"/>
+<effect id="1879484626" name="DNT" iconId="1090519170" duration="1.0"/>
+<effect id="1879484631" name="DNT" iconId="1090519170" duration="1.0"/>
+<effect id="1879484632" name="DNT" iconId="1090519170" duration="1.0"/>
+<effect id="1879484634" name="DNT" iconId="1090519170" duration="1.0"/>
+<effect id="1879484636" name="DNT" iconId="1090519170" duration="1.0"/>
+<effect id="1879484638" name="DNT" iconId="1090519170" duration="1.0"/>
+<effect id="1879484640" name="DNT" iconId="1090519170" duration="1.0"/>
+<effect id="1879484644" name="DNT" iconId="1090519170" duration="1.0"/>
+<effect id="1879484653" name="DNT" iconId="1090519170" duration="1.0"/>
+<effect id="1879484655" name="DNT" iconId="1090519170" duration="1.0"/>
 <effect id="1879484689" name="Pound Sand"/>
 <effect id="1879484692" name="Pound Sand"/>
 <effect id="1879484693" name="Pound Sand"/>
@@ -45379,7 +45392,7 @@
 <recallEffect id="1879484861" name="Guide to the Ledger-keepers">
 <position region="5" longitude="-105.7334" latitude="-19.91836"/>
 </recallEffect>
-<recallEffect id="1879484864" name="Muster in the Ledger-keepers">
+<recallEffect id="1879484864" name="Muster to the Ledger-keepers">
 <position region="5" longitude="-105.7334" latitude="-19.91836"/>
 </recallEffect>
 <recallEffect id="1879484867" name="Travel to the Ledger-keepers">
@@ -45388,7 +45401,7 @@
 <genesis id="1879484873" name=".." appliedDescription="key:621091850:54354734" summonDuration="60.0">
 <summoned id="1879480643" name="Creeping Tendril[e]"/>
 </genesis>
-<genesis id="1879484874" name=".." appliedDescription="key:621091849:54354734" summonDuration="45.0">
+<genesis id="1879484874" name=".." appliedDescription="key:621091849:54354734" summonDuration="50.0">
 <summoned id="1879479207" name="Umshûra's Lesser Crushing Tentacle[n]"/>
 </genesis>
 <genesis id="1879484875" name=".." appliedDescription="key:621091848:54354734" summonDuration="60.0">
@@ -45397,8 +45410,27 @@
 <genesis id="1879484876" name=".." appliedDescription="key:621091847:54354734" summonDuration="30.0">
 <summoned id="1879484249" name="Greater Fire[e]"/>
 </genesis>
+<effect id="1879484913"/>
+<effect id="1879484931"/>
+<instantVitalEffect id="1879484949" name="Acidic Burst" stat="Health_MaxLevel">
+<vitalChange progressionID="1879180337"/>
+</instantVitalEffect>
+<comboEffect id="1879484952" name="DNT">
+<present id="1879484955" name="Glutton's Gift"/>
+<toAddIfPresent id="1879484949" name="Acidic Burst"/>
+</comboEffect>
+<propertyModEffect id="1879484955" name="Glutton's Gift" appliedDescription="key:621091915:54354734" iconId="1090586731" duration="45.0" pulseCount="1" expiresInRealTime="true">
+<stat name="ACID_MITIGATION_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:621091915:106251890" constant="50.0"/>
+<specialEffect label="key:621091915:106251889"/>
+</propertyModEffect>
 <induceCombatState id="1879485152" name="Daze" state="3" stateDuration="15.0"/>
 <effect id="1879485156" name="DNT - applies effect to friendlies"/>
+<recallEffect id="1879485171" name="Lugazag Tower: Interior" appliedDescription="key:621092059:54354734">
+<position region="1" longitude="-20.158241" latitude="-15.149325"/>
+</recallEffect>
+<recallEffect id="1879485173" name="Tirîth Rhaw Tower: Interior" appliedDescription="key:621092063:54354734">
+<position region="1" longitude="-14.298213" latitude="-17.722754"/>
+</recallEffect>
 <propertyModEffect id="1879485180" name="Arrows Overhead" iconId="1090553936" duration="2.0" pulseCount="1"/>
 <effect id="1879485182" name="Splintering Crash"/>
 <propertyModEffect id="1879485245" name="Mounted" iconId="1090519170">
@@ -45445,6 +45477,8 @@
 <propertyModEffect id="1879485311" iconId="1090553792"/>
 <propertyModEffect id="1879485312" iconId="1090553792"/>
 <propertyModEffect id="1879485315" iconId="1090553792"/>
+<effect id="1879485389" name="Whimsical Movement Style" appliedDescription="key:621092223:54354734"/>
+<effect id="1879485391" name="Whimsical Milestone Style" appliedDescription="key:621092225:54354734"/>
 <propertyModEffect id="1879485412" name="DNT - Adds Furious" appliedDescription="key:621092248:54354734" iconId="1091400591"/>
 <effect id="1879485413" name="DNT - applies buff to friendlies"/>
 <effect id="1879485414" name="DNT - applies buff to friendlies"/>
@@ -45452,9 +45486,133 @@
 <vitalOverTimeEffect id="1879485419" name="Frigid Squall" iconId="1091429123" duration="2.0" stat="Health_MaxLevel" damageType="256">
 <overTimeChange progressionID="1879180913"/>
 </vitalOverTimeEffect>
+<effect id="1879485433" name="Impending Doom" iconId="1090616965" duration="10.0"/>
+<genesis id="1879485450" name=".." appliedDescription="key:621092281:54354734" summonDuration="12.0">
+<hotspot id="1879485451" name="Cage of Shadows">
+<effect id="1879485810" name="Night Terrors" spellcraft="0.9"/>
+</hotspot>
+</genesis>
+<effect id="1879485746" name="Night Terrors" appliedDescription="key:621092317:54354734" iconId="1091400591" duration="5.0" pulseCount="12"/>
 <propertyModEffect id="1879485751" name="Cornered" iconId="1091840522" duration="30.0">
 <stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="20.0"/>
 <specialEffect label="key:621092335:106251889"/>
 </propertyModEffect>
-<propertyModEffect id="1879485752" name="Focused Enemy" iconId="1091734530" duration="10.0"/>
+<propertyModEffect id="1879485752" name="Focused Enemy" appliedDescription="key:621092336:54354734" iconId="1091734530" duration="10.0"/>
+<propertyModEffect id="1879485792" name="Blank Modification" appliedDescription="key:621092374:54354734" iconId="1090519170">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="50.0"/>
+</propertyModEffect>
+<instantVitalEffect id="1879485795" name="Impending Doom" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879485797" name="Black Flame" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879485798" name="Cage of Shadows" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879485799" name="Dreadful Might" stat="Health_MaxLevel" multiplicative="true"/>
+<genesis id="1879485801" name=".." appliedDescription="key:621092400:54354734" summonDuration="4.0">
+<hotspot id="1879485796" name="Portal of Darkness">
+<effect id="1879485804" name="Portal of Darkness" spellcraft="2.0"/>
+</hotspot>
+</genesis>
+<instantVitalEffect id="1879485802" name="Inescapable Doom" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879485803" name="Shadow Bolt" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879485804" name="Portal of Darkness" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879485805" name="Horrible Twisting" stat="Health_MaxLevel" multiplicative="true"/>
+<effect id="1879485807" name="Hideous Cremation" appliedDescription="key:621092387:54354734" iconId="1091400591" duration="1.0" pulseCount="30"/>
+<instantVitalEffect id="1879485808" name="Umbral Blast" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879485809" name="Infectious Terror" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879485810" name="Night Terrors" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879485811" name="Shadow Barrage" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879485812" name="Flurry of Shadows" stat="Health_MaxLevel" multiplicative="true"/>
+<effect id="1879485813" name="Infectious Terror" appliedDescription="key:621092386:54354734" iconId="1091400591" duration="3.0" pulseCount="5"/>
+<instantVitalEffect id="1879485815" name="Shadow Blade" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879485817" name="Dark Paranoia" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879485818" name="Shadow Lance" stat="Health_MaxLevel" multiplicative="true"/>
+<propertyModEffect id="1879485820" name="DNT - Head Up Timeout" iconId="1092403424" duration="5.0" pulseCount="1"/>
+<comboEffect id="1879485823" name="DNT">
+<present id="1879484242" name="Frigid Squall"/>
+<toAddIfNotPresent id="1879485825" name="Flaming Arrow"/>
+<toAddIfPresent id="1879484205" name="Flaming Arrow"/>
+</comboEffect>
+<instantVitalEffect id="1879485825" name="Flaming Arrow" stat="Health_MaxLevel" multiplicative="true">
+<vitalChange constant="-1.2"/>
+</instantVitalEffect>
+<effect id="1879485839" name="Fixate" description="key:621092420:181298206" appliedDescription="key:621092420:54354734" iconId="1092748374" duration="30.0"/>
+<genesis id="1879485847" name=".." appliedDescription="key:621092429:54354734" probability="0.5" summonDuration="180.0">
+<summoned id="1879485371" name="TBD SUMMONED WIGHTS"/>
+</genesis>
+<genesis id="1879485848" name=".." appliedDescription="key:621092428:54354734" probability="0.5" summonDuration="180.0">
+<summoned id="1879485371" name="TBD SUMMONED WIGHTS"/>
+</genesis>
+<genesis id="1879485849" name=".." appliedDescription="key:621092425:54354734" probability="0.5" summonDuration="180.0">
+<summoned id="1879485853" name="TBD SUMMONED CRABAN"/>
+</genesis>
+<effect id="1879485991" name="DNT - Herald of Victory (Temamir Guard)"/>
+<effect id="1879485994" name="DNT - Archer (Temamir Hunter)"/>
+<effect id="1879486000" name="DNT - Herald of Hope (Umbari Guardsman)"/>
+<effect id="1879486003" name="DNT - Herald of Hope (Hobbit-lad Bounder)"/>
+<effect id="1879486005" name="DNT - Gourd-guardian[e]"/>
+<effect id="1879486006" name="DNT - Tomb-guardian[e]"/>
+<effect id="1879486012" name="DNT - Frosted Forest Owl[e]"/>
+<effect id="1879486013" name="DNT - Herald of War (Hobbit-lass)"/>
+<effect id="1879486014" name="DNT - Archer (Umbari Seafarer)"/>
+<effect id="1879486016" name="DNT - Amethyst-tailed Caller[v]"/>
+<effect id="1879486017" name="DNT - Savannah Stalker[e]"/>
+<effect id="1879486018" name="DNT - Dune-guardian[e]"/>
+<effect id="1879486020" name="DNT - Savannah Pride-keeper[e]"/>
+<effect id="1879486021" name="DNT - Herald of War (Hobbit-lad Bounder)"/>
+<effect id="1879486022" name="DNT - Archer (Hobbit Hunter)"/>
+<effect id="1879486026" name="DNT - Herald of Hope (Temamir Guard)"/>
+<effect id="1879486027" name="DNT - Lantern-guardian[e]"/>
+<effect id="1879486029" name="DNT - Herald of War (Temamir Guard)"/>
+<effect id="1879486030" name="DNT - Herald of Victory (Hobbit-lass)"/>
+<effect id="1879486031" name="DNT - Archer (Hobbit Scout)"/>
+<effect id="1879486033" name="DNT - Belegaer Gull[e]"/>
+<effect id="1879486035" name="DNT - Dune-stalker Caracal[e]"/>
+<effect id="1879486040" name="DNT - Herald of War (Umbari Guardsman)"/>
+<effect id="1879486042" name="DNT - Archer (Umbari Scout)"/>
+<effect id="1879486043" name="DNT - Herald of Victory (Umbari Guardswoman)"/>
+<effect id="1879486044" name="DNT - Savannah Hunter Juvenile[e]"/>
+<effect id="1879486046" name="DNT - Herald of Hope (Hobbit-lass)"/>
+<effect id="1879486047" name="DNT - Herald of Victory (Hobbit-lad Bounder)"/>
+<effect id="1879486049" name="DNT - Herald of Victory (Umbari Guardsman)"/>
+<effect id="1879486050" name="DNT - Herald of War (Umbari Guardswoman)"/>
+<effect id="1879486053" name="DNT - Flame-beak Caller[v]"/>
+<effect id="1879486054" name="DNT - Herald of Hope (Umbari Guardswoman)"/>
+<effect id="1879486055" name="DNT - Young Swamp-guardian[e]"/>
+<recallEffect id="1879486241" name="Tirîth Rhaw Tower: Interior" appliedDescription="key:621092717:54354734">
+<position region="1" longitude="-14.218232" latitude="-17.707245"/>
+</recallEffect>
+<recallEffect id="1879486250" name="Lugazag Tower: Interior" appliedDescription="key:621092718:54354734">
+<position region="1" longitude="-20.235975" latitude="-15.211474"/>
+</recallEffect>
+<propertyModEffect id="1879486468" iconId="1090553792"/>
+<propertyModEffect id="1879486473" iconId="1090553792"/>
+<propertyModEffect id="1879486490" iconId="1090553792"/>
+<propertyModEffect id="1879486491" iconId="1090553792"/>
+<propertyModEffect id="1879486495" iconId="1090553792"/>
+<propertyModEffect id="1879486500" iconId="1090553792"/>
+<propertyModEffect id="1879486504" iconId="1090553792"/>
+<propertyModEffect id="1879486505" iconId="1090553792"/>
+<propertyModEffect id="1879486510" iconId="1090553792"/>
+<propertyModEffect id="1879486511" iconId="1090553792"/>
+<propertyModEffect id="1879486515" iconId="1090553792"/>
+<effect id="1879486528" name="Summon Rat Pet"/>
+<effect id="1879486545" name="DNT - places portals under everyone"/>
+<propertyModEffect id="1879486705" name="Hounding Fear" iconId="1090522260" duration="5.0">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="50.0"/>
+</propertyModEffect>
+<effect id="1879486734"/>
+<propertyModEffect id="1879486738" name="Corrosive Acid" iconId="1092943408">
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="15.000001"/>
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="15.000001"/>
+</propertyModEffect>
+<vitalOverTimeEffect id="1879486739" name="Hideous Venom" iconId="1090616922" duration="4.0" pulseCount="3" stat="Health_MaxLevel" damageType="1024">
+<overTimeChange progressionID="1879265010"/>
+</vitalOverTimeEffect>
+<genesis id="1879486741" name=".." appliedDescription="key:621093181:54354734" summonDuration="12.0">
+<hotspot id="1879486742" name="Pooling Acid">
+<effect id="1879486745" name="Pooling Acid"/>
+<effect id="1879486738" name="Corrosive Acid"/>
+</hotspot>
+</genesis>
+<vitalOverTimeEffect id="1879486745" name="Pooling Acid" iconId="1090522396" duration="3.0" stat="Health_MaxLevel" damageType="1024">
+<overTimeChange progressionID="1879180913"/>
+</vitalOverTimeEffect>
 </effects>
