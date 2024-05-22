@@ -47,6 +47,8 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - landmarks
 - perks
 - labels for data localization
+- XP tables
+- PVP data (ranks...)
 
 In the future, it may contain:
 - travels
