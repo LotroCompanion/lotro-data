@@ -65,10 +65,10 @@
 <stat id="268442951" index="63" name="Acid Mitigation" key="Combat_MitigationPercentage_Acid" legacyKey="ACID_MITIGATION_PERCENTAGE" legacyName="Acid Mitigation (%)" isPercentage="true"/>
 <stat id="268444358" index="64" name="Shadow Mitigation" key="Combat_ArmorDefense_PointsModifier_Shadow" legacyKey="SHADOW_MITIGATION"/>
 <stat id="268436582" index="65" name="Shadow Mitigation" key="Combat_MitigationPercentage_Shadow" legacyKey="SHADOW_MITIGATION_PERCENTAGE" legacyName="Shadow Mitigation (%)" isPercentage="true"/>
-<stat id="268437934" index="66" name="non-Combat Morale Regen" key="Vital_HealthPeaceRegenAddMod" legacyKey="OCMR"/>
-<stat id="268438584" index="67" name="in-Combat Morale Regen" key="Vital_HealthCombatRegenAddMod" legacyKey="ICMR"/>
-<stat id="268435577" index="68" name="non-Combat Power Regen" key="Vital_PowerPeaceRegenAddMod" legacyKey="OCPR"/>
-<stat id="268435801" index="69" name="in-Combat Power Regen" key="Vital_PowerCombatRegenAddMod" legacyKey="ICPR"/>
+<stat id="268437934" index="66" name="non-Combat Morale Regen" key="Vital_HealthPeaceRegenAddMod" legacyKey="OCMR" maxDigitsAbove1="3"/>
+<stat id="268438584" index="67" name="in-Combat Morale Regen" key="Vital_HealthCombatRegenAddMod" legacyKey="ICMR" maxDigitsAbove1="3"/>
+<stat id="268435577" index="68" name="non-Combat Power Regen" key="Vital_PowerPeaceRegenAddMod" legacyKey="OCPR" maxDigitsAbove1="3"/>
+<stat id="268435801" index="69" name="in-Combat Power Regen" key="Vital_PowerCombatRegenAddMod" legacyKey="ICPR" maxDigitsAbove1="3"/>
 <stat id="268442653" index="70" name="Item Wear Chance on Hit" key="ItemWear_ChanceMod_CombatHit" legacyKey="ITEM_WEAR_CHANCE_ON_HIT" isPercentage="true"/>
 <stat id="268453899" index="71" name="Audacity" key="Trait_PvMP_BattleRank" legacyKey="AUDACITY" type="INTEGER"/>
 <stat id="268439562" index="72" name="Hope" key="Mood_Hope_Level" legacyKey="HOPE" type="INTEGER"/>
@@ -79,7 +79,7 @@
 <stat id="268437292" index="77" name="Incoming Ranged Damage" key="Combat_DamageQualifier_Ranged_Defense" legacyKey="RANGED_DEFENCE_PERCENTAGE" isPercentage="true"/>
 <stat id="268438034" index="78" name="Auto-attack Critical Hit Chance" key="Skill_AutoAttackCriticalHitChance" legacyKey="RANGED_AUTO_ATTACKS_CRIT_CHANCE_PERCENTAGE" isPercentage="true"/>
 <stat id="268443991" index="79" name="Devastate Magnitude" key="Combat_SuperCritical_Magnitude_PercentAddMod" legacyKey="DEVASTATE_MAGNITUDE_PERCENTAGE" isPercentage="true"/>
-<stat id="268439616" index="80" name="Tactical Critical Multiplier" key="Combat_EffectCriticalMultiplierMod" legacyKey="TACTICAL_CRITICAL_MULTIPLIER" isPercentage="true"/>
+<stat id="268439616" index="80" name="Tactical Critical Multiplier" key="Combat_EffectCriticalMultiplierMod" legacyKey="TACTICAL_CRITICAL_MULTIPLIER" isPercentage="true" maxDigitsBelow1="3" maxDigitsAbove1="3"/>
 <stat id="268440862" index="81" name="Blade Line AoE Power Cost" key="Skill_VitalCost_Champion_AOEMod" legacyKey="BLADE_LINE_AOE_POWER_COST_PERCENTAGE" isPercentage="true"/>
 <stat id="268440875" index="82" name="Strike Skill Power Cost" key="Skill_VitalCost_Champion_StrikeMod" legacyKey="STRIKE_SKILLS_POWER_COST_PERCENTAGE" isPercentage="true"/>
 <stat id="268438245" index="84" name="Tricks Power Cost" key="Burglar_TricksPowerReduce" legacyKey="TRICKS_POWER_COST_PERCENTAGE" isPercentage="true"/>
