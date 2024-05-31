@@ -5,6 +5,7 @@
 <propertyModEffect id="1879049213" name="Bow Precision" description="key:620757394:181298206" iconId="1090519170">
 <stat name="RANGED_AUTO_ATTACKS_CRIT_CHANCE_PERCENTAGE" constant="1.0"/>
 </propertyModEffect>
+<effect id="1879049269" name="Block Response" appliedDescription="key:620757522:54354734" iconId="1090519260" duration="6.0"/>
 <effect id="1879049270" name="Parry Response" appliedDescription="key:620757523:54354734" iconId="1090519700" duration="6.0"/>
 <propertyModEffect id="1879049330" name="Hounding Fear" appliedDescription="key:620757541:54354734" iconId="1090522260" duration="7.0" expiresInRealTime="true" probabilityModProperty="268447114">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
@@ -883,6 +884,9 @@
 <initialChange progressionID="1879064546"/>
 <overTimeChange progressionID="1879064546"/>
 </vitalOverTimeEffect>
+<propertyModEffect id="1879064672" name="Immobilize" appliedDescription="key:620768962:54354734" iconId="1090552381">
+<specialEffect label="key:620768962:106251889"/>
+</propertyModEffect>
 <effect id="1879064681" name="Knocked Down" appliedDescription="key:620768966:54354734" iconId="1090552383" duration="10.0"/>
 <fellowshipEffect id="1879067226" name="Star Glass" applyToTarget="true" range="20.0">
 <effect id="1879067227" name="Dull Edhelharn Token: Give Hope"/>
@@ -3132,6 +3136,10 @@
 <summoned id="1879102622" name="Dexter Deep-pockets[mn]"/>
 </genesis>
 <effect id="1879102625" name="Camp-site" appliedDescription="key:620800290:54354734" iconId="1091414335"/>
+<propertyModEffect id="1879102629" name="Mischievous" iconId="1091414340">
+<stat name="TRICKS_POWER_COST_PERCENTAGE" operator="SUBSTRACT" constant="25.0"/>
+<stat name="Skill_RecoveryTime_Burglar_Riddle" operator="SUBSTRACT" descriptionOverride="key:620800294:106251890" constant="30.0"/>
+</propertyModEffect>
 <propertyModEffect id="1879102646" name="Overpower" iconId="1091415794">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="15.000001"/>
 <stat name="Combat_Agent_Armor_Value_Float" operator="MULTIPLY" descriptionOverride="key:620800308:106251890" constant="0.7"/>
@@ -13354,6 +13362,7 @@
 <propertyModEffect id="1879212948" name="Potency" appliedDescription="key:620882133:54354734" iconId="1090648220">
 <specialEffect label="key:620882133:106251889"/>
 </propertyModEffect>
+<propertyModEffect id="1879212973" name="Memory Loaded" iconId="1091471233"/>
 <propertyModEffect id="1879213029" name="Guardian's Ward" iconId="1090540663" duration="10.0">
 <stat name="PARRY_PERCENTAGE" constant="2.0"/>
 <stat name="BLOCK_PERCENTAGE" constant="2.0"/>
@@ -13823,6 +13832,9 @@
 <specialEffect label="key:620884554:106251891"/>
 <specialEffect label="key:620884554:106251892"/>
 </propertyModEffect>
+<propertyModEffect id="1879215954" name="DNT - Song-brother" iconId="1091037683"/>
+<propertyModEffect id="1879215955" name="DNT - Shield-brother" iconId="1091037683"/>
+<propertyModEffect id="1879215956" name="DNT - Blade-brother" iconId="1091037683"/>
 <propertyModEffect id="1879215960" name="Mounted" iconId="1090519170">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:620884561:106251889" constant="68.0"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
@@ -15013,6 +15025,7 @@
 <specialEffect label="key:620890831:106251891"/>
 <specialEffect label="key:620890831:106251892"/>
 </propertyModEffect>
+<effect id="1879225058" name="Firework launching area" appliedDescription="key:620890938:54354734" iconId="1090523647"/>
 <propertyModEffect id="1879225097" name="Stumble" appliedDescription="key:620890974:54354734" iconId="1091476353" duration="20.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
 </propertyModEffect>
@@ -15149,7 +15162,12 @@
 <effect id="1879226905" name="Fire Used" iconId="1091472608" duration="5.0"/>
 <effect id="1879226906" name="Frost Used" iconId="1091469957" duration="5.0"/>
 <effect id="1879226907" name="Lightning Used" iconId="1091466689" duration="5.0"/>
+<effect id="1879226908" name="Attuned to Lightning" appliedDescription="key:620892360:54354734" iconId="1091466689"/>
 <effect id="1879226909" name="Shadow Used" iconId="1091477511" duration="5.0"/>
+<effect id="1879226910" name="Attuned to Frost" appliedDescription="key:620892358:54354734" iconId="1091469957"/>
+<effect id="1879226911" name="Attuned to Acid" appliedDescription="key:620892366:54354734" iconId="1091476673"/>
+<effect id="1879226912" name="Attuned to Shadow" appliedDescription="key:620892365:54354734" iconId="1091477511"/>
+<effect id="1879226913" name="Attuned to Flame" appliedDescription="key:620892362:54354734" iconId="1091472608"/>
 <effect id="1879226914" name="Acid Used" iconId="1091476673" duration="5.0"/>
 <propertyModEffect id="1879226920" name="Ring of Acid" iconId="1091476673"/>
 <propertyModEffect id="1879226921" name="Ring of Lightning" iconId="1091466689"/>
@@ -15788,6 +15806,7 @@
 <overTimeChange progressionID="1879068279"/>
 </vitalOverTimeEffect>
 <effect id="1879231972" name="DNT - Hunter Set Bonus Flag" appliedDescription="key:620896393:54354734" iconId="1091475959"/>
+<effect id="1879232022" name="On Landscape, Soldier Available" appliedDescription="key:620896405:54354734" iconId="1091537510"/>
 <propertyModEffect id="1879232054" name="Natural Sprinter" iconId="1090553762" duration="8.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="35.0"/>
 <stat name="Skill_Attunement_Runekeeper_Lightning_Stun_StunRate" descriptionOverride="key:620896427:106251890" constant="100.0"/>
@@ -18788,6 +18807,7 @@
 <stat name="TAILOR_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620909371:106251889" scaling="1879055008"/>
 </propertyModEffect>
 <effect id="1879252003" name="Wearing the One Ring" appliedDescription="key:620909674:54354734" iconId="1090519170" duration="3000.0"/>
+<effect id="1879252006" name="In Greatest Need" appliedDescription="key:620909676:54354734" iconId="1090519170" duration="3000.0"/>
 <vitalOverTimeEffect id="1879252015" name="Improved Bracing Attack" iconId="1090539151" duration="3.0" pulseCount="7" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879368264" variance="0.25"/>
 </vitalOverTimeEffect>
@@ -20808,7 +20828,10 @@
 <stat name="Glory_AwardMultiplier" descriptionOverride="key:620918823:106251889" constant="100.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879267465" name="Resilient Combatant" iconId="1091787264"/>
+<effect id="1879267557" name="DNT" appliedDescription="key:620918960:54354734" iconId="1090519170"/>
 <effect id="1879267558" name="DNT" appliedDescription="key:620918962:54354734" iconId="1090519170"/>
+<effect id="1879267560" name="DNT" appliedDescription="key:620918956:54354734" iconId="1090519170"/>
+<effect id="1879267562" name="DNT" appliedDescription="key:620918961:54354734" iconId="1090519170"/>
 <effect id="1879267564" name="Knockback"/>
 <propertyModEffect id="1879267579" name="Rider's Bond" iconId="1091668185" duration="20.0" probabilityModProperty="268457204"/>
 <reactiveVitalEffect id="1879267580" name="Rider's Bond" iconId="1091742022" damageTypes="65407">
@@ -21997,6 +22020,7 @@
 <stat name="XP_AwardMultiplier" descriptionOverride="key:620925798:106251889" constant="25.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879276173" name="DNT - Ballad Cooldown Mod" iconId="1090519170"/>
+<propertyModEffect id="1879276216" name="DNT KILL PROC" iconId="1090552382"/>
 <effect id="1879276221" name="Dispel Ballads"/>
 <comboEffect id="1879276286" name="DNT" probabilityModProperty="268458647">
 <present id="1879212948" name="Potency"/>
@@ -22882,6 +22906,7 @@
 <fellowshipEffect id="1879283819" name="DNT - Gallant Display" description="key:620931668:181298206" applyToPets="true" applyToTarget="true" range="30.0">
 <effect id="1879283818" name="Gallant Display"/>
 </fellowshipEffect>
+<effect id="1879284083" name="DNT - Snap Shot Flag" appliedDescription="key:620931882:54354734" iconId="1091471259" duration="10.0"/>
 <procEffect id="1879284090" name="Dodge This" appliedDescription="key:620931889:54354734" iconId="1090552382" skillTypes="12,41" cooldown="15.0">
 <effect id="1879284092" name="DNT - Dodge This Flag"/>
 </procEffect>
@@ -24842,6 +24867,7 @@
 <propertyModEffect id="1879313824" name="Ardent Rage" iconId="1090519170">
 <specialEffect label="key:620952128:106251889"/>
 </propertyModEffect>
+<effect id="1879313830" name="Alive and Uncursed" appliedDescription="key:620952129:54354734" iconId="1090519170" duration="3000.0"/>
 <propertyModEffect id="1879313836" name="Memories of a Life Halted and Lost" appliedDescription="key:620952135:54354734" iconId="1090541176" duration="60.0" pulseCount="1">
 <stat name="HOPE" constant="10.0"/>
 </propertyModEffect>
@@ -28066,6 +28092,7 @@
 <propertyModEffect id="1879343974" name="Party Time" description="key:620995778:181298206" appliedDescription="key:620995778:54354734" iconId="1090641205" duration="10.0" pulseCount="1">
 <stat name="Combat_BaseMissRate" constant="10.0"/>
 </propertyModEffect>
+<effect id="1879344416" name="Broken Promise" appliedDescription="key:620995825:54354734" iconId="1090553785" duration="3000.0"/>
 <propertyModEffect id="1879344422" name="Mounted" iconId="1090519170">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:620986473:106251889" constant="62.0"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
@@ -28274,6 +28301,8 @@
 <effect id="1879354066" name="Call Yordam" description="key:621002017:181298206"/>
 <effect id="1879354233" name="Mordor"/>
 <effect id="1879354416" name="Determination" appliedDescription="key:621002311:54354734" iconId="1090553975" duration="2.0" pulseCount="5"/>
+<effect id="1879354417" name="Moment of Need" appliedDescription="key:621002313:54354734" iconId="1091585358"/>
+<effect id="1879354418" name="Temptation of the One Ring" appliedDescription="key:621002312:54354734" iconId="1090524461"/>
 <effect id="1879354434" name="Ancient Treasure Cache"/>
 <effect id="1879354435" name="Rare Mordor Chest"/>
 <effect id="1879354436" name="Rare Mordor Chest"/>
@@ -29187,6 +29216,7 @@
 <specialEffect label="key:621006847:106251889"/>
 </propertyModEffect>
 <effect id="1879362762" name="Snowball Pile"/>
+<effect id="1879362763" name="DNT - Firehorn Dwarf" iconId="1090519170"/>
 <genesis id="1879362849" name=".." appliedDescription="key:621007056:54354734" summonDuration="30.0">
 <hotspot id="1879362848" name="Burst Acid">
 <effect id="1879362053" name="Acidic Secretion"/>
@@ -30260,6 +30290,7 @@
 <stat name="Mood_Healing_Modifier" operator="SUBSTRACT" constant="60.0"/>
 </propertyModEffect>
 <effect id="1879380568" name="Splinters" appliedDescription="key:621016129:54354734" iconId="1090529658" duration="2.0" pulseCount="6"/>
+<effect id="1879380575" name="DNT - Worm Target" iconId="1090523647"/>
 <propertyModEffect id="1879380577" name="Boon of Stoneface" appliedDescription="key:621016138:54354734" iconId="1091479056" duration="30.0">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" constant="1.75"/>
 <stat name="CRITICAL_MELEE_PERCENTAGE" constant="100.0"/>
@@ -30682,6 +30713,7 @@
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="95.0"/>
 </propertyModEffect>
 <effect id="1879381496" name="Deathless Resolve" appliedDescription="key:621016828:54354734" iconId="1091479308" duration="3.0"/>
+<effect id="1879381516" name="DNT - Boss Grim" iconId="1090523647"/>
 <propertyModEffect id="1879381517" name="Shield of the Bound" appliedDescription="key:621016842:54354734" iconId="1091476354" duration="4.0">
 <stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="75.0"/>
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="75.0"/>
@@ -37175,6 +37207,7 @@
 <instantVitalEffect id="1879422258" name="Like a Stinging Nettle" stat="Health_MaxLevel">
 <vitalChange progressionID="1879367855"/>
 </instantVitalEffect>
+<effect id="1879422264" name="Chilling Presence" appliedDescription="key:621045046:54354734" iconId="1091400591"/>
 <propertyModEffect id="1879422304" iconId="1090553792"/>
 <propertyModEffect id="1879422308" iconId="1090553792"/>
 <propertyModEffect id="1879422312" iconId="1090553792"/>
@@ -37213,6 +37246,7 @@
 <effect id="1879422487" name="Revel in Victory - Tier 1" appliedDescription="key:621045225:54354734" iconId="1091840478" duration="3.0" pulseCount="3"/>
 <effect id="1879422488" name="Revel in Victory - Tier 3" appliedDescription="key:621045227:54354734" iconId="1091840478" duration="3.0" pulseCount="5"/>
 <effect id="1879422489" name="Revel in Victory - Tier 2" appliedDescription="key:621045226:54354734" iconId="1091840478" duration="3.0" pulseCount="4"/>
+<effect id="1879422491" name="DNT - I have Crossbow" iconId="1091400591"/>
 <propertyModEffect id="1879422540" name="DNT - Damaging Mettle Spenders have a chance to apply the Vulnerable debuff to target" iconId="1090519170"/>
 <effect id="1879422580" name="DNT - Dispel Builder effects from Left and Center attacks"/>
 <effect id="1879422581" name="DNT - Dispel Builder effects from Left and Right attacks"/>
@@ -42147,12 +42181,14 @@
 <recallEffect id="1879466231" name="Sail to Sarn Ford">
 <position region="1" longitude="-40.249706" latitude="-54.254314"/>
 </recallEffect>
+<effect id="1879466233" name="Balance - Steady" iconId="1090523647"/>
 <recallEffect id="1879466234" name="Sail to Lothlórien">
 <position region="2" longitude="-64.5818" latitude="-17.58541"/>
 </recallEffect>
 <propertyModEffect id="1879466235" name="Steady" iconId="1092825093" duration="10.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="5.0"/>
 </propertyModEffect>
+<effect id="1879466236" name="Balance - Fore" iconId="1090523647"/>
 <vitalOverTimeEffect id="1879466282" name="Bastion of Light" iconId="1091442277" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="64">
 <initialChange progressionID="1879467544" variance="0.5"/>
 <overTimeChange progressionID="1879467544" variance="0.5"/>
