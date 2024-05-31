@@ -49,6 +49,7 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - labels for data localization
 - XP tables
 - PVP data (ranks...)
+- mood data (morale modifier from hope/dread)
 
 In the future, it may contain:
 - travels
