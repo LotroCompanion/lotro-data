@@ -1093,7 +1093,13 @@
 <stat name="ForwardSource_Combat_CurrentCombo" operator="SET" constant="34.0"/>
 <stat name="STEALTH_LEVEL" descriptionOverride="-" constant="-3.0"/>
 </propertyModEffect>
+<effect id="1879072970" name="Hope FX  10" iconId="1090523647"/>
+<effect id="1879072971" name="Hope FX  9" iconId="1090523647"/>
+<effect id="1879072972" name="Hope FX  8" iconId="1090523647"/>
+<effect id="1879072973" name="Hope FX  7" iconId="1090523647"/>
+<effect id="1879072974" name="Hope FX  6" iconId="1090523647"/>
 <effect id="1879072975" name="Hope FX  5" iconId="1090523647"/>
+<effect id="1879072976" name="Hope FX  4" iconId="1090523647"/>
 <effect id="1879072977" name="Hope FX  3" iconId="1090523647"/>
 <effect id="1879072978" name="Hope FX  2" iconId="1090523647"/>
 <effect id="1879072979" name="Hope FX 1" iconId="1090523647"/>
@@ -4681,7 +4687,7 @@
 <stat name="POWER" operator="SUBSTRACT" scaling="1879399354"/>
 </propertyModEffect>
 <propertyModEffect id="1879117834" name="Wails of Battle" iconId="1091475964">
-<stat name="SHADOW_MITIGATION" operator="SUBSTRACT" scaling="1879131668"/>
+<stat name="SHADOW_MITIGATION" scaling="1879131668"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879117839" name="Wails of Battle" iconId="1091479303" duration="4.0" stat="Health_MaxLevel" damageType="32">
 <initialChange progressionID="1879085511"/>
@@ -5439,6 +5445,11 @@
 </instantVitalEffect>
 <propertyModEffect id="1879138139" name="Improved Stealth" iconId="1090519170" duration="1.0" pulseCount="1"/>
 <propertyModEffect id="1879138327" name="Improved Upper Hand" iconId="1090519170"/>
+<effect id="1879138515" name="Hope FX  7" iconId="1090523647"/>
+<effect id="1879138516" name="Hope FX  9" iconId="1090523647"/>
+<effect id="1879138517" name="Hope FX  8" iconId="1090523647"/>
+<effect id="1879138519" name="Hope FX  10" iconId="1090523647"/>
+<effect id="1879138520" name="Hope FX  6" iconId="1090523647"/>
 <propertyModEffect id="1879138627" name="Curse of the Melancholic Heart" appliedDescription="key:620829053:54354734" iconId="1091473725" duration="15.0">
 <stat name="Skill_HealingMultiplier_Item" operator="SUBSTRACT" descriptionOverride="key:620829053:106251889" constant="50.0"/>
 </propertyModEffect>
@@ -6337,11 +6348,11 @@
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620835705:106251889" constant="78.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879150315" name="Fateful Scream" appliedDescription="key:620835703:54354734" iconId="1091476365">
-<stat name="ACID_MITIGATION" operator="SUBSTRACT" scaling="1879131648"/>
-<stat name="SHADOW_MITIGATION" operator="SUBSTRACT" scaling="1879131668"/>
-<stat name="BLOCK" operator="SUBSTRACT" scaling="1879120056"/>
-<stat name="PARRY" operator="SUBSTRACT" scaling="1879120037"/>
-<stat name="EVADE" operator="SUBSTRACT" scaling="1879120035"/>
+<stat name="ACID_MITIGATION" scaling="1879131648"/>
+<stat name="SHADOW_MITIGATION" scaling="1879131668"/>
+<stat name="BLOCK" scaling="1879120056"/>
+<stat name="PARRY" scaling="1879120037"/>
+<stat name="EVADE" scaling="1879120035"/>
 </propertyModEffect>
 <effect id="1879150316" name="DNT - Removes Hint"/>
 <propertyModEffect id="1879150325" name="Blindness" iconId="1091475965" duration="3.0" pulseCount="10" expiresInRealTime="true">
@@ -12977,6 +12988,21 @@
 </propertyModEffect>
 <effect id="1879208738" name="Heave" appliedDescription="key:620879740:54354734"/>
 <effect id="1879208739"/>
+<propertyModEffect id="1879208745" name="Mood - Max Morale Bonus" iconId="1091585358">
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620879751:106251889" constant="1.01"/>
+</propertyModEffect>
+<propertyModEffect id="1879208746" name="Mood - Max Morale Bonus" iconId="1091585358">
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620879749:106251889" constant="1.05"/>
+</propertyModEffect>
+<propertyModEffect id="1879208747" name="Mood - Max Morale Bonus" iconId="1091585358">
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620879747:106251889" constant="1.04"/>
+</propertyModEffect>
+<propertyModEffect id="1879208748" name="Mood - Max Morale Bonus" iconId="1091585358">
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620879750:106251889" constant="1.03"/>
+</propertyModEffect>
+<propertyModEffect id="1879208749" name="Mood - Max Morale Bonus" iconId="1091585358">
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620879748:106251889" constant="1.02"/>
+</propertyModEffect>
 <propertyModEffect id="1879209021" name="Scroll of Combination" iconId="1091645661" duration="900.0">
 <stat name="Relic_Success_Rate" descriptionOverride="key:620879958:106251889" constant="15.000001"/>
 </propertyModEffect>
@@ -35444,6 +35470,7 @@
 <specialEffect label="key:621037213:106251892"/>
 </propertyModEffect>
 <propertyModEffect id="1879411701" iconId="1090553792"/>
+<propertyModEffect id="1879411703" iconId="1090553792"/>
 <propertyModEffect id="1879411704" iconId="1090553792"/>
 <propertyModEffect id="1879411705" iconId="1090553792"/>
 <propertyModEffect id="1879411706" iconId="1090553792"/>
