@@ -4,7 +4,7 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - titles
 - emotes
 - commons (progressions, colors, factions, stats)
-- character data (races, classes, starts stats, stats derivations, trait points, proficiencies, initial gear)
+- character data (races, classes, starts stats, stats derivations, proficiencies, initial gear)
 - legendary stuff (legacies, legendary titles, passives, traceries)
 - warbands
 - quests, deeds
