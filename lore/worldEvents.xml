@@ -5,6 +5,7 @@
 <booleanWorldEvent id="1879087155" propertyId="268438305" propertyName="World_MPControl_Ettenmoors_Mine" default="false"/>
 <booleanWorldEvent id="1879087156" propertyId="268437616" propertyName="World_MPControl_Ettenmoors_WestTower" default="true"/>
 <booleanWorldEvent id="1879088051" propertyId="268441253" propertyName="WE_SpringFestival_FestivalActive" default="false"/>
+<booleanWorldEvent id="1879088058" propertyId="268441242" propertyName="WE_TestServer_TavernActive" default="false"/>
 <booleanWorldEvent id="1879088814" propertyId="496" propertyName="World_IsNight" default="false"/>
 <conditionWorldEvent id="1879089302" propertyId="268441358" propertyName="WE_SpringFestival_DanceDuillondActive">
 <compoundWorldEventCondition operator="AND">
@@ -90,6 +91,12 @@
 <booleanWorldEvent id="1879093545" propertyId="268441847" propertyName="WE_Annuminas_Camp2_Control" description="The Waterways of Clorhir" progress=" Clorhir is under the control of the ${VALUE:Wardens of Annúminas[1]|Invaders of Annúminas}.\n\nWhen Gwaelband, Clorhir, and Tirband are all under the control of the Wardens of Annúminas, all players receive a bonus to the Wardens of Annúminas Reputation gained from killing monsters." default="false"/>
 <booleanWorldEvent id="1879093546" propertyId="268441845" propertyName="WE_Annuminas_Camp3_Control" description="The Watchtower of Tirband" progress=" Tirband is under the control of the ${VALUE:Wardens of Annúminas[1]|Invaders of Annúminas}.\n\nWhen Gwaelband, Clorhir, and Tirband are all under the control of the Wardens of Annúminas, all players receive a bonus to the Wardens of Annúminas Reputation gained from killing monsters." default="false"/>
 <booleanWorldEvent id="1879094943" propertyId="268442030" propertyName="WE_Trollshaws_FrodoBilboBirthday_active" default="false"/>
+<booleanWorldEvent id="1879097156" propertyId="268442143" propertyName="WE_TestServer_EpicActive" default="false"/>
+<booleanWorldEvent id="1879097157" propertyId="268442138" propertyName="WE_TestServer_GearActive" default="false"/>
+<booleanWorldEvent id="1879097158" propertyId="268442140" propertyName="WE_TestServer_MPActive" default="false"/>
+<booleanWorldEvent id="1879097159" propertyId="268442136" propertyName="WE_TestServer_RacialActive" default="false"/>
+<booleanWorldEvent id="1879097160" propertyId="268442142" propertyName="WE_TestServer_ReputationActive" default="false"/>
+<booleanWorldEvent id="1879097388" propertyId="268442186" propertyName="WE_TestServer_MoneyActive" default="false"/>
 <conditionWorldEvent id="1879098803" propertyId="268442349" propertyName="WE_GenericFestival_FestivalActive">
 <compoundWorldEventCondition operator="OR">
 <worldEventCondition worldEventID="1879088051" worldEventName="WE_SpringFestival_FestivalActive" operator="EQUAL" value="1"/>
@@ -117,6 +124,7 @@
 <integerWorldEvent id="1879143629" propertyId="268445432" propertyName="we_int_daily_quest_hard_moria" default="1" min="1" max="6"/>
 <integerWorldEvent id="1879143630" propertyId="268445434" propertyName="we_int_daily_quest_normal_moria" default="1" min="1" max="8"/>
 <integerWorldEvent id="1879145348" propertyId="268445516" propertyName="WE_Ettenmoors_Troll_Sessions" max="3"/>
+<booleanWorldEvent id="1879148480" propertyId="268445950" propertyName="WE_TestServer_Moria_EpicActive" default="false"/>
 <booleanWorldEvent id="1879150696" propertyId="268446158" propertyName="WE_LorienRaid_Open" default="true"/>
 <integerWorldEvent id="1879150963" propertyId="268446180" propertyName="we_liveops_strangehappenings_phase" default="0" min="0" max="4"/>
 <integerWorldEvent id="1879152926" propertyId="268446463" propertyName="ze_skirmish_int_generic_3" default="0" min="0" max="100"/>
@@ -171,6 +179,11 @@
 <booleanWorldEvent id="1879161982" propertyId="268447667" propertyName="we_fallfestival_hauntedhouse_active" default="false"/>
 <integerWorldEvent id="1879162980" propertyId="268447838" propertyName="we_fallfestival_barfight_status" default="0" min="0" max="3"/>
 <integerWorldEvent id="1879164441" propertyId="268447978" propertyName="ze_stables_meats_eaten" default="0" min="0" max="14"/>
+<booleanWorldEvent id="1879181445" propertyId="268449742" propertyName="WE_testserver_mplevel_1" default="false"/>
+<booleanWorldEvent id="1879181446" propertyId="268449743" propertyName="WE_testserver_mplevel_2" default="false"/>
+<booleanWorldEvent id="1879181447" propertyId="268449744" propertyName="WE_testserver_mplevel_3" default="false"/>
+<booleanWorldEvent id="1879181448" propertyId="268449745" propertyName="WE_testserver_mplevel_4" default="false"/>
+<booleanWorldEvent id="1879181449" propertyId="268449746" propertyName="WE_testserver_mplevel_5" default="false"/>
 <integerWorldEvent id="1879182105" propertyId="268449775" propertyName="WE_Real_SpringFestival_Shrew_Status" default="0" min="0" max="3"/>
 <booleanWorldEvent id="1879182106" propertyId="268449774" propertyName="WE_Real_SpringFestival_Shrew_Active" default="false"/>
 <integerWorldEvent id="1879183037" propertyId="268449850" propertyName="ze_skirmish_player_groupsizechoice" default="0" min="0" max="12"/>
@@ -204,9 +217,12 @@
 <integerWorldEvent id="1879234278" propertyId="268454417" propertyName="we_rohanpreorder_repeatable_horse_quest" default="1" min="1" max="4"/>
 <integerWorldEvent id="1879234279" propertyId="268454416" propertyName="we_rohanpreorder_repeatble_farm_quest" default="1" min="1" max="4"/>
 <booleanWorldEvent id="1879259228" propertyId="268456222" propertyName="WE_hobbit_instance_story_quest" description="Have the Rohan Instance Cluster 3-mans been launched?" default="false"/>
+<booleanWorldEvent id="1879267633" propertyId="268457497" propertyName="WE_TestServer_MC_Allowance" default="false"/>
 <booleanWorldEvent id="1879283067" propertyId="268458959" propertyName="we_bounderevent_2013_serverunlock_complete" default="false"/>
 <booleanWorldEvent id="1879283077" propertyId="268458957" propertyName="we_bounderevent_2013_active" default="false"/>
 <integerWorldEvent id="1879286443" propertyId="268459106" propertyName="WE_Player_Level_Cap" description="This is the player level cap used to drive reward containers in skirmishes &amp; instances." progress="Player Level Cap ${VALUE}/${MAXVALUE}" default="150" min="0" max="150"/>
+<booleanWorldEvent id="1879301270" propertyId="268459511" propertyName="WE_TestServer_TraitPointsActive" default="false"/>
+<booleanWorldEvent id="1879302199" propertyId="268459546" propertyName="WE_TestServer_RaidDeedsActive" default="false"/>
 <integerWorldEvent id="1879303029" propertyId="268459628" propertyName="we_rohan_west_endgame_bestowal" default="1" min="1" max="30"/>
 <integerWorldEvent id="1879308561" propertyId="268459896" propertyName="WE_Gondor_West_Endgame_Unlock_1" description="Dol Amroth - Emyn Ernil\n" progress="Dol Amroth - Emyn Ernil: ${VALUE}/${MAXVALUE}\n\nTo re-open the caves of Emyn Ernil." default="0" min="0" max="8000"/>
 <integerWorldEvent id="1879308562" propertyId="268459897" propertyName="WE_Gondor_West_Endgame_Unlock_2" description="Dol Amroth - Paths of the Dead\n" progress="Dol Amroth - Paths of the Dead: ${VALUE}/${MAXVALUE}\n\nTo reopen the tunnels of the Paths of the Dead." default="0" min="0" max="12000"/>
