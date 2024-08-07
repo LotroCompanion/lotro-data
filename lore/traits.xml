@@ -5926,32 +5926,36 @@
 <trait identifier="1879269778" name="A Murder of Crows" iconId="1092720668" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_30" nature="20" description="key:620920710:54354734">
 <skill id="1879447485" name="A Murder of Crows"/>
 </trait>
-<trait identifier="1879269779" name="Knowledge of Storms" iconId="1091455330" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_4" nature="20" description="key:620920713:54354734">
+<trait identifier="1879269779" name="Master of Storms" iconId="1091455330" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_4" nature="20" description="key:620920713:54354734">
 <stat name="Combat_SkillDamageMultiplier_Lightning" scaling="1879270039"/>
 </trait>
 <trait identifier="1879269780" name="Fend Them Off" iconId="1091840540" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_10" nature="20" description="key:620920697:54354734">
-<specialEffect label="key:620920697:106251890"/>
-<stat name="Skill_Loremaster_FendThemOff_StringDummy" descriptionOverride="key:620920697:106251891" scaling="1879286651"/>
-<stat name="Skill_Loremaster_FendThemOff_FireDamage_StringDummy" descriptionOverride="key:620920697:106251892" scaling="1879286647"/>
-<effect id="1879278409" name="DNT - Fend them Off"/>
-<effect rank="2" id="1879278405" name="DNT - Fend them Off"/>
-<effect rank="3" id="1879278406" name="DNT - Fend them Off"/>
+<stat name="Skill_Loremaster_Staffstrike_Flank_Damage" scaling="1879489746"/>
 </trait>
 <trait identifier="1879269781" name="Ancient Fire" iconId="1091829938" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_5" nature="20" description="key:620920717:54354734">
 <stat name="Skill_Loremaster_AncientFire_AppChance" scaling="1879270038"/>
+<compoundPrerequisite operator="ONE_OF">
+<simplePrerequisite id="1879272597" name="Master of Nature's Fury"/>
+<simplePrerequisite id="1879272595" name="The Ancient Master"/>
+</compoundPrerequisite>
 </trait>
 <trait identifier="1879269782" name="Catmint" iconId="1091829960" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_25" nature="20" description="key:620920711:54354734">
 <skill id="1879278163" name="Catmint"/>
+<compoundPrerequisite operator="ONE_OF">
+<simplePrerequisite id="1879272580" name="The Keeper of Animals"/>
+<simplePrerequisite id="1879272595" name="The Ancient Master"/>
+</compoundPrerequisite>
 </trait>
 <trait identifier="1879269783" name="Hearty Diet" iconId="1091829939" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="6" tierProperty="trait_class_loremaster_rank_23" nature="20" description="key:620920700:54354734">
-<stat name="MORALE" tieredScaling="1879211570;1879211566;1879211584;1879211579;1879211574"/>
+<stat name="MORALE" tieredScaling="1879211570;1879211565;1879211579;1879211989;1879335557"/>
 <stat name="Skill_Loremaster_SignofProtection_Morale" scaling="1879276732"/>
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" scaling="1879311515"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" scaling="1879311516"/>
 </trait>
-<trait identifier="1879269784" name="Prepare for War" iconId="1091829949" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_21" nature="20" description="key:620920718:54354734">
+<trait identifier="1879269784" name="Prepare for War" iconId="1091829949" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="4" tierProperty="trait_class_loremaster_rank_21" nature="20" description="key:620920718:54354734">
 <stat name="TACTICAL_MASTERY" tieredScaling="1879368691;1879368688;1879368685;1879368693;1879368686"/>
-<stat name="Skill_Loremaster_Prepare_for_War_pet" tieredScaling="1879311508;1879311506;1879311505;1879311503;1879311504"/>
+<stat name="Skill_Loremaster_SignofRage_Damage" scaling="1879270042"/>
+<stat name="Loremaster_Pet_ActiveAI_DR" scaling="1879489764"/>
 </trait>
 <trait identifier="1879269785" name="Don't Interrupt Me" iconId="1091829926" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_28" nature="20" description="key:620920709:54354734">
 <stat name="Skill_Loremaster_DontInterruptMe_AppChance" constant="0.99"/>
@@ -5965,25 +5969,26 @@
 <trait identifier="1879269787" name="Nature's Fury" iconId="1091829914" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_15" nature="20" description="key:620920698:54354734">
 <skill id="1879271189" name="Nature's Fury"/>
 </trait>
-<trait identifier="1879269788" name="Prepared Materials" iconId="1091829931" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_22" nature="20" description="key:620920715:54354734">
-<stat name="ALL_SKILL_INDUCTION" scaling="1879270046"/>
+<trait identifier="1879269788" name="Need for Haste" iconId="1091829931" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_22" nature="20" description="key:620920715:54354734">
+<stat name="IA_Loremaster_Skill_InductionDuration_PetSummoningTime" scaling="1879270046"/>
+<stat name="Skill_RecoveryTime_Loremaster_CallTo" scaling="1879490516"/>
 </trait>
-<trait identifier="1879269789" name="Sign of the Wild: Protection" iconId="1091806022" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_16" nature="20" description="key:620920722:54354734">
+<trait identifier="1879269789" name="Survival Instinct" iconId="1091806022" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_16" nature="20" description="key:620920722:54354734">
 <stat name="Skill_Loremaster_SignofProtection_Morale" scaling="1879270056"/>
 <stat name="Skill_Loremaster_SignofProtection_IncDamage" scaling="1879270060"/>
 </trait>
 <trait identifier="1879269790" name="Burning Earth" iconId="1091829923" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_3" nature="20" description="key:620920725:54354734">
 <stat name="Skill_Loremaster_BurningEarth_Damage" scaling="1879270053"/>
 </trait>
-<trait identifier="1879269791" name="Synchronized Movement" iconId="1091829947" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_29" nature="20" description="key:620920720:54354734">
-<stat name="ALL_SKILL_INDUCTION" scaling="1879270044"/>
-<stat name="Skill_Loremaster_SynchronizedMovement_AD" descriptionOverride="key:620920720:106251890" scaling="1879270249"/>
+<trait identifier="1879269791" name="Critical Coordination" iconId="1091829924" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_29" nature="20" description="key:620920720:54354734">
+<specialEffect label="key:620920720:106251889"/>
 </trait>
-<trait identifier="1879269792" name="Sword and Storm" iconId="1091829915" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_6" nature="20" description="key:620920724:54354734">
+<trait identifier="1879269792" name="Storm and Staff" iconId="1091829915" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_6" nature="20" description="key:620920724:54354734">
 <specialEffect label="key:620920724:106251889"/>
-<effect id="1879270631" name="Sword and Storm"/>
+<effect id="1879489748" name="DNT - Storm Staff"/>
+<effect id="1879491221" name="DNT - Lightning Storm Crits give one charge"/>
 </trait>
-<trait identifier="1879269793" name="Loyalty" iconId="1091829944" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_26" nature="20" description="key:620920714:54354734">
+<trait identifier="1879269793" name="Loyalty" iconId="1091829944" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="2" tierProperty="trait_class_loremaster_rank_26" nature="20" description="key:620920714:54354734">
 <stat name="Skill_Loremaster_Loyalty_EffectMod" descriptionOverride="key:620920714:106251889" scaling="1879270052"/>
 <effect id="1879278712" name="Loyalty"/>
 <effect rank="2" id="1879278708" name="Loyalty"/>
@@ -5991,49 +5996,60 @@
 <effect rank="4" id="1879278710" name="Loyalty"/>
 <effect rank="5" id="1879278709" name="Loyalty"/>
 </trait>
-<trait identifier="1879269794" name="Don't You Touch Him!" iconId="1091829927" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="4" tierProperty="trait_class_loremaster_rank_24" nature="20" description="key:620920701:54354734">
+<trait identifier="1879269794" name="Don't You Touch Him!" iconId="1091829927" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_24" nature="20" description="key:620920701:54354734">
 <stat name="Skill_Loremaster_CriticalReciprocation_BuffMod" scaling="1879270040"/>
 <specialEffect label="key:620920701:106251891"/>
+<skill id="1879489220" name="Retribution"/>
+<compoundPrerequisite operator="ONE_OF">
+<simplePrerequisite id="1879272580" name="The Keeper of Animals"/>
+<simplePrerequisite id="1879272595" name="The Ancient Master"/>
+</compoundPrerequisite>
 </trait>
-<trait identifier="1879269795" name="Ring of Fire" iconId="1091829941" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="4" tierProperty="trait_class_loremaster_rank_14" nature="20" description="key:620920712:54354734">
-<stat name="Skill_Loremaster_RingofFire_AvoidanceMod" descriptionOverride="-" scaling="1879270043"/>
-<stat name="Skill_Loremaster_RingofFire_AvoidanceMod_StringDummy" scaling="1879286649"/>
+<trait identifier="1879269795" name="Ring of Fire" iconId="1091829941" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_14" nature="20" description="key:620920712:54354734">
+<stat name="Skill_Loremaster_RingofFire_AvoidanceMod" scaling="1879270043"/>
 <skill id="1879271571" name="Ring of Fire"/>
-<effect rank="4" id="1879311566" name="DNT - Ring of Fire - Tier 2"/>
 </trait>
-<trait identifier="1879269796" name="Master of Fire" iconId="1091829938" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_1" nature="20" description="key:620920721:54354734">
+<trait identifier="1879269796" name="Master of Fire" iconId="1091829938" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_1" nature="20" description="key:620920721:54354734">
 <stat name="Combat_SkillDamageMultiplier_Fire" scaling="1879270059"/>
 </trait>
-<trait identifier="1879269797" name="Lightning-storm" iconId="1091399989" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_7" nature="20" description="key:620920702:54354734">
+<trait identifier="1879269797" name="Lightning Storm" iconId="1091399989" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_7" nature="20" description="key:620920702:54354734">
 <stat name="IA_Loremaster_LightningStorm_Damage" scaling="1879283161"/>
-<skill id="1879095078" name="Lightning-storm"/>
+<skill id="1879095078" name="Lightning Storm"/>
 <effect id="1879275885" name="DNT - Lightning Storm"/>
 </trait>
-<trait identifier="1879269799" name="Dry Kindling" iconId="1091829913" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_11" nature="20" description="key:620920706:54354734">
-<stat name="Skill_Loremaster_DryKindling_AppChance" scaling="1879270058"/>
+<trait identifier="1879269799" name="Dry Kindling" iconId="1091829913" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="2" tierProperty="trait_class_loremaster_rank_11" nature="20" description="key:620920706:54354734">
+<effect id="1879302178" name="DNT - Dry Kindling"/>
+<effect id="1879491475" name="DNT"/>
+<effect rank="2" id="1879489690" name="DNT - Dry Kindling"/>
+<effect rank="2" id="1879491477" name="DNT"/>
 </trait>
-<trait identifier="1879269800" name="Inner Flame" iconId="1091829934" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_20" nature="20" description="key:620920704:54354734">
-<stat name="Skill_Loremaster_HealingMod_InnerFlame" scaling="1879270051"/>
-<stat name="Skill_Loremaster_InnerFlame_BuffMod" scaling="1879270047"/>
-<skill id="1879064246" name="Inner Flame"/>
+<trait identifier="1879269800" name="Inner Flame" iconId="1091829934" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" nature="20" description="key:620920704:54354734">
+<simplePrerequisite id="1879272597" name="Master of Nature's Fury"/>
 </trait>
-<trait identifier="1879269801" name="Sign of the Wild: Rage" iconId="1091840537" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_17" nature="20" description="key:620920716:54354734">
+<trait identifier="1879269801" name="Hunting Instinct" iconId="1091840537" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_17" nature="20" description="key:620920716:54354734">
 <stat name="Skill_Loremaster_SignofRage_AttackDuration" scaling="1879270049"/>
 <stat name="Skill_Loremaster_SignofRage_Damage" scaling="1879270042"/>
+<stat name="Skill_Loremaster_CallTo_Damage" scaling="1879490523"/>
 </trait>
-<trait identifier="1879269802" key="TACTICAL_DAMAGE" name="Tactical Damage" iconId="1091829951" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_2" nature="20" description="key:620920705:54354734">
+<trait identifier="1879269802" key="TACTICAL_DAMAGE" name="Master of the Unseen" iconId="1091829951" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_2" nature="20" description="key:620920705:54354734">
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" scaling="1879270045"/>
+</trait>
+<trait identifier="1879269803" name="Empowering Fires" iconId="1091829916" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" nature="20" description="key:620920719:54354734">
+<stat name="Skill_Loremaster_EmpoweringFires_MoraleMod" scaling="1879270054"/>
+<stat name="Skill_Loremaster_EmpoweringFires_PowerMod" scaling="1879270037"/>
+<effect id="1879271134" name="DNT - Empowering Fires"/>
 </trait>
 <trait identifier="1879269804" name="Mighty Wind" iconId="1091829945" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_13" nature="20" description="key:620920703:54354734">
 <stat name="Skill_Loremaster_MightyWind_AppChance" scaling="1879270057"/>
 </trait>
-<trait identifier="1879269805" name="Go for the Throat" iconId="1091829952" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_18" nature="20" description="key:620920707:54354734">
-<stat name="Skill_Loremaster_PetCrit" scaling="1879270036"/>
+<trait identifier="1879269805" name="Unwearied Companions" iconId="1091829952" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_18" nature="20" description="key:620920707:54354734">
+<specialEffect label="key:620920707:106251889"/>
+<stat name="Loremaster_Pet_Bubble_Mag" scaling="1879270036"/>
 </trait>
 <trait identifier="1879269806" name="Fierce Lightning" iconId="1091829942" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_12" nature="20" description="key:620920723:54354734">
 <stat name="Skill_Loremaster_FierceLightning_AppChance" descriptionOverride="key:620920723:106251889" scaling="1879271238"/>
 </trait>
-<trait identifier="1879269820" name="After-battle Treat" iconId="1091829935" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_27" nature="20" description="key:620920739:54354734">
+<trait identifier="1879269820" name="After-battle Treat" iconId="1091829935" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="2" tierProperty="trait_class_loremaster_rank_27" nature="20" description="key:620920739:54354734">
 <specialEffect label="key:620920739:106251890"/>
 <stat name="Skill_Loremaster_AfterBattleTreat_Buff" scaling="1879278306"/>
 </trait>
@@ -6321,39 +6337,37 @@
 <trait identifier="1879270674" name="Firm Grasp" iconId="1091829911" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_46" nature="20" description="key:620921426:54354734">
 <stat name="Skill_Loremaster_FirmGrasp" scaling="1879271254"/>
 </trait>
-<trait identifier="1879270675" name="Frost-lore" iconId="1091840552" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_32" nature="20" description="key:620921421:54354734">
+<trait identifier="1879270675" name="Frost-lore" iconId="1091840552" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" nature="20" description="key:620921421:54354734">
 <stat name="Skill_Loremaster_Frostlore" scaling="1879271256"/>
-<skill id="1879198695" name="Frost-lore"/>
 </trait>
 <trait identifier="1879270676" name="Disable" iconId="1091829932" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_43" nature="20" description="key:620921429:54354734">
-<stat name="Skill_Loremaster_Disable" scaling="1879271252"/>
+<stat name="Skill_Loremaster_Disable" descriptionOverride="key:620921429:106251889" scaling="1879271252"/>
 </trait>
-<trait identifier="1879270677" name="Level-headed" iconId="1091829918" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_38" nature="20" description="key:620921422:54354734">
-<stat name="Skill_PowerCost_AllSkills" scaling="1879271253"/>
+<trait identifier="1879270677" name="Shield of Knowledge" iconId="1091829918" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_38" nature="20" description="key:620921422:54354734">
+<stat name="Trait_Loremaster_KnowledgeShield_Potency" scaling="1879372918"/>
+<effect id="1879489772" name="DNT - prop mod from lore skills"/>
 </trait>
-<trait identifier="1879270678" name="Quick Hands" iconId="1091829917" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_45" nature="20" description="key:620921424:54354734">
+<trait identifier="1879270678" name="Quick Hands" iconId="1091829917" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" nature="20" description="key:620921424:54354734">
 <stat name="ALL_SKILL_INDUCTION" scaling="1879271251"/>
 </trait>
-<trait identifier="1879270679" name="Fire-lore" iconId="1091840551" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_31" nature="20" description="key:620921423:54354734">
+<trait identifier="1879270679" name="Fire-lore" iconId="1091840551" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" nature="20" description="key:620921423:54354734">
 <stat name="Skill_Loremaster_Firelore" scaling="1879271257"/>
-<skill id="1879064254" name="Fire-lore"/>
 </trait>
 <trait identifier="1879270680" name="Pleasant Breeze" iconId="1091829943" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_44" nature="20" description="key:620921430:54354734">
 <stat name="Skill_Loremaster_PleasantBreeze" scaling="1879271250"/>
 <skill id="1879291408" name="Pleasant Breeze"/>
 <effect id="1879271372" name="DNT - Pleasant Breeze"/>
 </trait>
-<trait identifier="1879270681" name="Storm-lore" iconId="1091840553" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_33" nature="20" description="key:620921420:54354734">
+<trait identifier="1879270681" name="Storm-lore" iconId="1091840553" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" nature="20" description="key:620921420:54354734">
 <stat name="Combat_SkillDamageMultiplier_Lightning" scaling="1879271255"/>
-<skill id="1879094844" name="Storm-lore"/>
 </trait>
-<trait identifier="1879270682" name="Playing with Fire" iconId="1091829912" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_36" nature="20" description="key:620921431:54354734">
+<trait identifier="1879270682" name="Playing with Fire" iconId="1091829912" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" nature="20" description="key:620921431:54354734">
 <specialEffect label="key:620921431:106251889"/>
 <effect id="1879271322" name="DNT - Fire Fire"/>
 <effect id="1879271321" name="DNT - Fire Frost"/>
 <effect id="1879271320" name="DNT - Fire Lightning"/>
 </trait>
-<trait identifier="1879270683" name="Ancient Craft" iconId="1091806010" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="4" tierProperty="trait_class_loremaster_rank_42" nature="20" description="key:620921432:54354734">
+<trait identifier="1879270683" name="Ancient Craft" iconId="1091806010" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="4" nature="20" description="key:620921432:54354734">
 <stat name="Skill_Loremaster_AncientCraft" scaling="1879271260"/>
 <stat name="Combat_Agent_Armor_Value_Float" operator="MULTIPLY" scaling="1879311673"/>
 <stat name="Skill_Loremaster_AncientCraft_ArmourbonusStringDummy" scaling="1879314102"/>
@@ -6362,17 +6376,18 @@
 <effect rank="3" id="1879302212" name="DNT - Ancient Craft - Damage Bonus"/>
 </trait>
 <trait identifier="1879270684" name="Mending Lore" iconId="1091829940" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_34" nature="20" description="key:620921427:54354734">
-<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="-" scaling="1879271258"/>
-<stat name="Skill_Loremaster_OutgoingHeals_StringDummy" scaling="1879286650"/>
-<stat name="Itemset_Loremaster_WaterLore_IncHealingMod" scaling="1879290009"/>
+<stat name="Combat_OutgoingHeals_EffectMod" scaling="1879271258"/>
 </trait>
 <trait identifier="1879270685" name="The Ancient Master" iconId="1091829937" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_47" nature="20" description="key:620921428:54354734">
 <skill id="1879271248" name="The Ancient Master"/>
+<effect id="1879490778" name="DNT - Ancient Master Proc"/>
 </trait>
 <trait identifier="1879270686" name="Flow of Power" iconId="1091829922" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_41" nature="20" description="key:620921425:54354734">
 <stat name="Skill_Loremaster_SharethePower_Multiplier" scaling="1879271259"/>
+<stat name="Skill_RecoveryTime_Loremaster_PowerShare" scaling="1879490982"/>
+<skill id="1879060843" name="Share the Power"/>
 </trait>
-<trait identifier="1879270687" name="Out in the Cold" iconId="1091829919" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_37" nature="20" description="key:620921419:54354734">
+<trait identifier="1879270687" name="Out in the Cold" iconId="1091829919" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" nature="20" description="key:620921419:54354734">
 <specialEffect label="key:620921419:106251889"/>
 <effect id="1879271318" name="DNT - Frost Frost"/>
 <effect id="1879271319" name="DNT - Frost Fire"/>
@@ -6904,11 +6919,15 @@
 <effectGenerator id="1879457119" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272580" name="The Keeper of Animals" iconId="1091564746" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_loremaster_one" nature="28" description="key:620922787:54354734">
-<specialEffect label="key:620922787:106251890"/>
-<specialEffect label="key:620922787:106251891"/>
+<specialEffect label="key:620922787:106251889"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
-<skill id="1879052210" name="Eagle-friend"/>
-<effectGenerator id="1879278143" name="Bird Flag" spellcraft="0.0"/>
+<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.67"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.67"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.67"/>
+<skill id="1879488745" name="Sign of the Wild: Rage"/>
+<skill id="1879488744" name="Sign of the Wild: Protection"/>
+<effectGenerator id="1879488848" name="DNT - Wild Sigils" spellcraft="0.0"/>
+<effectGenerator id="1879491136" name="DNT - Wild Sigils reduce the active cooldown of Sign of the Wild: Rage" spellcraft="0.0"/>
 <effectGenerator id="1879457121" name="DNT" spellcraft="0.0"/>
 <effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
 </trait>
@@ -7034,10 +7053,12 @@
 <effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272595" name="The Ancient Master" iconId="1091618504" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_loremaster_three" nature="28" description="key:620922779:54354734">
-<specialEffect label="key:620922779:106251890"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <skill id="1879064249" name="Test of Will"/>
+<skill id="1879064254" name="Fire and Frost Lore"/>
+<skill id="1879222022" name="Nature Spirit (Spirit Mote)"/>
 <effectGenerator id="1879275191" name="DNT - Injury to Insult" spellcraft="0.0"/>
+<effectGenerator id="1879290045" name="Bird Flag" spellcraft="0.0"/>
 <effectGenerator id="1879457119" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272596" name="The Gambler" iconId="1091618504" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_burglar_three" nature="28" description="key:620922781:54354734">
@@ -7051,10 +7072,8 @@
 </trait>
 <trait identifier="1879272597" name="Master of Nature's Fury" iconId="1091564741" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_loremaster_two" nature="28" description="key:620922803:54354734">
 <stat name="Combat_SkillDamageMultiplier_Fire" constant="20.0"/>
-<specialEffect label="key:620922803:106251890"/>
+<stat name="Skill_RecoveryTime_Loremaster_BE" operator="SUBSTRACT" constant="2.0"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
-<skill id="1879111679" name="Wizard's Fire"/>
-<effectGenerator id="1879275189" name="DNT - Struck Twice" spellcraft="0.0"/>
 <effectGenerator id="1879457121" name="DNT" spellcraft="0.0"/>
 <effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
 </trait>
@@ -7399,55 +7418,62 @@
 <trait identifier="1879275252" name="Continuous Blood Rage" iconId="1091830062" nature="30" tooltip="key:620924990:191029568" description="key:620924990:54354734"/>
 <trait identifier="1879275314" name="Tutelage of the Brown Wizard" iconId="1091829948" nature="30" description="key:620925043:54354734">
 <specialEffect label="key:620925043:106251889"/>
-<effectGenerator id="1879289277" name="DNT - Bog Guardian" spellcraft="0.0"/>
+<effectGenerator id="1879489047" name="DNT - Wild Sigils" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879275315" name="Exposure to the Elements" iconId="1091829946" nature="30">
-<stat name="Skill_Loremaster_Elemental_Crit" constant="20.0"/>
+<trait identifier="1879275315" name="Quickening Flame" iconId="1091829946" nature="30" description="key:620925047:54354734">
+<specialEffect label="key:620925047:106251889"/>
+<effectGenerator id="1879489696" name="Quickening Flame" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879275316" name="Critical Coordination" iconId="1091829924" nature="30" description="key:620925059:54354734"/>
-<trait identifier="1879275317" name="Bolstered Bond" iconId="1091840531" nature="30">
+<trait identifier="1879275316" name="Battle Lore" iconId="1092967973" nature="30" description="key:620925059:54354734"/>
+<trait identifier="1879275317" name="Bolstered Bond" iconId="1091840531" nature="30" description="key:620925051:54354734">
 <specialEffect label="key:620925051:106251889"/>
 </trait>
 <trait identifier="1879275318" name="Liquid Fire" iconId="1091873733" nature="30" description="key:620925049:54354734"/>
-<trait identifier="1879275319" name="Raven's Protection" iconId="1091840534" nature="30" description="key:620925056:54354734"/>
+<trait identifier="1879275319" name="Naturally Armed" iconId="1092967975" nature="30" description="key:620925056:54354734">
+<effectGenerator id="1879489929" name="DNT - To Arms 10% Damage" spellcraft="0.0"/>
+</trait>
 <trait identifier="1879275320" name="Force of Will" iconId="1091829930" nature="30" description="key:620925060:54354734">
 <stat name="Skill_Loremaster_DurationMod_SeeallEnds" descriptionOverride="key:620925060:106251889" constant="15.0"/>
 <stat name="Skill_Loremaster_ForceOfWill_MaxTargets" constant="400.0"/>
 </trait>
-<trait identifier="1879275322" name="Peerless Wisdom" iconId="1091805929" nature="30" description="key:620925042:54354734">
-<stat name="Itemset_Application_Loremaster_WoC" constant="10.0"/>
+<trait identifier="1879275322" name="Inspiring Rage" iconId="1092967983" nature="30" description="key:620925042:54354734">
+<effectGenerator id="1879489930" name="DNT - Inspire 4% Damage" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879275324" name="Advanced Knowledge of Cures" iconId="1091840550" nature="30" description="key:620925046:54354734"/>
 <trait identifier="1879275325" name="Kindred Flame" iconId="1091829934" nature="30" description="key:620925061:54354734">
 <effectGenerator id="1879447275" name="DNT -  Kindred Flame" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879275330" name="Flame of Anor" iconId="1091829928" nature="30" tooltip="key:620925057:191029568" description="key:620925057:54354734">
-<stat name="Skill_Loremaster_NaturesFury_Lightning_AppChance" constant="35.0"/>
+<trait identifier="1879275330" name="Flame of Anor" iconId="1091829928" nature="30" description="key:620925057:54354734">
+<specialEffect label="key:620925057:106251889"/>
+<stat name="Skill_Loremaster_WizardFire_PulseCountMod" constant="1.0"/>
+<stat name="Trait_Loremaster_Wizardsfire_Fixation_Appchance" descriptionOverride="-" constant="100.0"/>
+<effectGenerator id="1879489786" name="DNT - Add AoE to Wizard Fire" spellcraft="0.0"/>
+<effectGenerator id="1879491471" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879275331" name="Beacon of Hope" iconId="1091829956" nature="30" description="key:620925058:54354734"/>
-<trait identifier="1879275332" name="Master of the Elements" iconId="1091829936" nature="30">
+<trait identifier="1879275332" name="Master of the Elements" iconId="1091829936" nature="30" description="key:620925054:54354734">
 <stat name="Combat_SkillDamageMultiplier_Fire" constant="10.0"/>
-<stat name="Combat_SkillDamageMultiplier_Light" constant="10.0"/>
 <stat name="Combat_SkillDamageMultiplier_Lightning" constant="10.0"/>
 <stat name="Combat_SkillDamageMultiplier_Frost" constant="10.0"/>
+<effectGenerator id="1879489669" name="DNT - Master of Elements effects" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879275333" name="Fellowship Friend" iconId="1091840535" nature="30" description="key:620925050:54354734">
 <specialEffect label="key:620925050:106251889"/>
 </trait>
-<trait identifier="1879275334" name="Improved Ignition" iconId="1091829959" nature="30">
-<stat name="Skill_Loremaster_Lightning_Cashout_Dmg" descriptionOverride="key:620925053:106251889" constant="15.000001"/>
+<trait identifier="1879275334" name="Improved Ignition" iconId="1091829959" nature="30" description="key:620925053:54354734">
+<effectGenerator id="1879489685" name="DNT - Improved Ignition" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879275364" name="Ents go to War" iconId="1091873730" category="50" nature="30" tooltip="key:620925076:191029568" description="key:620925076:54354734">
+<trait identifier="1879275364" name="Ents go to War" iconId="1092967971" category="50" nature="30" tooltip="key:620925076:191029568" description="key:620925076:54354734">
 <skill id="1879052199" name="Ents go to War"/>
 </trait>
-<trait identifier="1879275388" name="Air-lore" iconId="1091829920" category="50" nature="30" tooltip="key:620925109:191029568" description="key:620925109:54354734">
-<skill id="1879182839" name="Air-lore"/>
+<trait identifier="1879275388" name="Air Lore" iconId="1091829920" category="50" nature="30" tooltip="key:620925109:191029568" description="key:620925109:54354734">
+<skill id="1879182839" name="Air Lore"/>
 </trait>
-<trait identifier="1879275389" name="Warding Lore" iconId="1091399325" category="50" nature="30" tooltip="key:620925110:191029568" description="key:620925110:54354734">
+<trait identifier="1879275389" name="Warding Knowledge" iconId="1092967979" category="50" nature="30" tooltip="key:620925110:191029568" description="key:620925110:54354734">
 <skill id="1879094821" name="Warding Knowledge"/>
 </trait>
-<trait identifier="1879275390" name="Herb-lore" iconId="1091829957" category="50" nature="30" tooltip="key:620925108:191029568" description="key:620925108:54354734">
-<skill id="1879064256" name="Herb-lore"/>
+<trait identifier="1879275390" name="Herb Lore" iconId="1091829957" category="50" nature="30" tooltip="key:620925108:191029568" description="key:620925108:54354734">
+<skill id="1879064256" name="Herb Lore"/>
 </trait>
 <trait identifier="1879275563" name="Caparison of the Hammerhand" iconId="1091830706" category="54" nature="16">
 <group code="9" name="Body"/>
@@ -7467,10 +7493,10 @@
 <trait identifier="1879275695" name="Power of Knowledge" iconId="1091840568" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_35" nature="20" description="key:620925353:54354734">
 <stat name="Skill_Loremaster_Power_of_Knowledge" constant="15.000001"/>
 </trait>
-<trait identifier="1879275915" name="Chill Wind" iconId="1091840570" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_40" nature="20" description="key:620925567:54354734">
+<trait identifier="1879275915" name="Chill Wind" iconId="1091840570" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" nature="20" description="key:620925567:54354734">
 <effect id="1879275764" name="DNT - Chill Wind"/>
 </trait>
-<trait identifier="1879275916" name="Wild Fire" iconId="1091840569" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_39" nature="20" description="key:620925566:54354734">
+<trait identifier="1879275916" name="Immemorial Wind" iconId="1092974381" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_39" nature="20" description="key:620925566:54354734">
 <effect id="1879275763" name="DNT - Wild Fire"/>
 </trait>
 <trait identifier="1879275937" name="Journeyman Riding" iconId="1090530243" category="29" nature="1" tooltip="key:620925591:191029568" description="key:620925591:54354734">
@@ -7741,6 +7767,10 @@
 <effect rank="2" id="1879333970" name="DNT - Radiate"/>
 <effect rank="3" id="1879333971" name="DNT - Radiate"/>
 </trait>
+<trait identifier="1879277843" name="Friend of Noble Birds" iconId="1091840538" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_19" nature="20" description="key:620927221:54354734">
+<skill id="1879052210" name="Friend of Noble Birds (Lesser Giant Eagle)"/>
+<effect id="1879278143" name="Bird Flag"/>
+</trait>
 <trait identifier="1879277910" name="Insult to Injury" iconId="1091840979" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_53" nature="27" description="key:620927283:54354734">
 <effect id="1879297101" name="Fighter of Shadow"/>
 <effect rank="2" id="1879297128" name="Fighter of Shadow"/>
@@ -7998,7 +8028,7 @@
 <trait identifier="1879287567" name="Purify Corruption" iconId="1090553789" category="21" nature="1" description="key:620935164:54354734">
 <effectGenerator id="1879287566" name="DNT - Corruption Removal" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879288926" name="Friend of Ravens" iconId="1090541226" minLevel="20" category="21" nature="1" description="key:620936084:54354734">
+<trait identifier="1879288926" name="Friend of Small Fowl" iconId="1092945801" minLevel="20" category="21" nature="1" description="key:620936084:54354734">
 <effectGenerator id="1879288925" name="Bird Flag" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879289833" name="Kingstead Saddle" iconId="1091873807" category="54" nature="16">
@@ -8040,19 +8070,19 @@
 <trait identifier="1879289847" name="Snow-beast Accessory" iconId="1091841585" category="54" nature="16">
 <group code="13" name="Gear"/>
 </trait>
-<trait identifier="1879290044" name="Friend of Sabre-cats" iconId="1090541226" minLevel="20" category="21" nature="1" description="key:620936618:54354734">
+<trait identifier="1879290044" name="Friend of Large Hunters" iconId="1092945802" minLevel="20" category="21" nature="1" description="key:620936618:54354734">
 <effectGenerator id="1879290051" name="Bird Flag" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879290048" name="Friend of Nature" iconId="1090541226" minLevel="20" category="21" nature="1" description="key:620936617:54354734">
 <effectGenerator id="1879290045" name="Bird Flag" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879290050" name="Friend of Lynx" iconId="1090541226" minLevel="20" category="21" nature="1" description="key:620936620:54354734">
+<trait identifier="1879290050" name="Friend of Small Hunters" iconId="1092945788" minLevel="20" category="21" nature="1" description="key:620936620:54354734">
 <effectGenerator id="1879290049" name="Bird Flag" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879290052" name="Friend of Bog-guardians" iconId="1090541226" minLevel="20" category="21" nature="1" description="key:620936616:54354734">
+<trait identifier="1879290052" name="Friend of the Wilds" iconId="1092945803" minLevel="20" category="21" nature="1" description="key:620936616:54354734">
 <effectGenerator id="1879290047" name="Bird Flag" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879290053" name="Friend of Bears" iconId="1090541226" minLevel="20" category="21" nature="1" description="key:620936619:54354734">
+<trait identifier="1879290053" name="Friend of Sturdy Beasts" iconId="1092945785" minLevel="20" category="21" nature="1" description="key:620936619:54354734">
 <effectGenerator id="1879290046" name="Bird Flag" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879290894" name="Brutal Strikes" iconId="1090553754" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_champion_rank_1" nature="23" description="key:620937455:54354734">
@@ -8107,14 +8137,16 @@
 <stat name="Skill_Minstrel_Perfect_Performance_Duration" scaling="1879450126"/>
 <effect id="1879297054" name="DNT - Perfect Performance"/>
 </trait>
-<trait identifier="1879297578" name="Enough for Everyone" iconId="1091840549" category="50" nature="30" tooltip="key:620942023:191029568" description="key:620942023:54354734">
+<trait identifier="1879297578" name="Bountiful Power" iconId="1091840549" category="50" nature="30" tooltip="key:620942023:191029568" description="key:620942023:54354734">
 <skill id="1879238129" name="Share the Power - Fellowship"/>
 </trait>
 <trait identifier="1879301201" name="Wintertide Caparison" iconId="1091841589" category="54" nature="16">
 <group code="9" name="Body"/>
 </trait>
-<trait identifier="1879302706" name="Rapid Fire" iconId="1091841573" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_48" nature="20" description="key:620946331:54354734">
-<stat name="ALL_SKILL_INDUCTION" scaling="1879302705"/>
+<trait identifier="1879302706" name="Unyielding Sweep" iconId="1092967972" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_48" nature="20" description="key:620946331:54354734">
+<stat name="Skill_Loremaster_StaffSweep_Buff_Duration" scaling="1879490520"/>
+<stat name="Skill_Loremaster_StaffSweep_Damage" scaling="1879490522"/>
+<effect id="1879368547" name="DNT - Hasten"/>
 </trait>
 <trait identifier="1879302930" name="Agility: Rank 10" iconId="1091590818" category="90" nature="1">
 <effectGenerator id="1879401340" name="Agility" spellcraft="71.0"/>
@@ -12423,6 +12455,134 @@
 <group code="12" name="Saddle"/>
 </trait>
 <trait identifier="1879485270" name="Green Dragon Inn Head-piece" iconId="1092945392" category="54" nature="16">
+<group code="8" name="Head"/>
+</trait>
+<trait identifier="1879487002" name="Bulbous Red Camel Appearance" iconId="1090553285" category="54" nature="2" tooltip="key:621093416:191029568" description="key:621093416:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="58.0"/>
+</trait>
+<trait identifier="1879487010" name="Flat Camel Spider Appearance" iconId="1090553285" category="54" nature="2" tooltip="key:621093417:191029568" description="key:621093417:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="55.0"/>
+</trait>
+<trait identifier="1879487121" name="Blue Golden Umbaran Battle-chanter Appearance" iconId="1092912137" category="54" nature="2" tooltip="key:621093543:191029568" description="key:621093543:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="79.0"/>
+</trait>
+<trait identifier="1879487149" name="Moss-skinned Umbaran Ruddy-scout Appearance" iconId="1092912116" category="54" nature="2" tooltip="key:621093516:191029568" description="key:621093516:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="61.0"/>
+</trait>
+<trait identifier="1879487157" name="Grey Umbaran Skirmish-chanter Appearance" iconId="1092912125" category="54" nature="2" tooltip="key:621093539:191029568" description="key:621093539:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="61.0"/>
+</trait>
+<trait identifier="1879487177" name="Emerald Umbaran Strong-Bow Appearance" iconId="1092912116" category="54" nature="2" tooltip="key:621093588:191029568" description="key:621093588:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="47.0"/>
+</trait>
+<trait identifier="1879487194" name="Pink-skinned Umbaran Cobalt-harrier Appearance" iconId="1092912116" category="54" nature="2" tooltip="key:621093546:191029568" description="key:621093546:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" constant="71.0"/>
+</trait>
+<trait identifier="1879488670" name="Sticky Gourd" iconId="1091873733" category="50" nature="30" tooltip="key:621094784:191029568" description="key:621094784:54354734">
+<specialEffect label="key:621094784:106251889"/>
+<skill id="1879111501" name="Sticky Gourd"/>
+</trait>
+<trait identifier="1879488671" name="Staff Sweep" iconId="1092967981" category="50" nature="30" tooltip="key:621094780:191029568" description="key:621094780:54354734">
+<skill id="1879197732" name="Staff Sweep"/>
+</trait>
+<trait identifier="1879488672" name="Inner Flame" iconId="1091829934" category="50" nature="30" tooltip="key:621094785:191029568" description="key:621094785:54354734">
+<skill id="1879064246" name="Inner Flame"/>
+</trait>
+<trait identifier="1879488673" name="Sticky Tar" iconId="1092967974" category="50" nature="30" tooltip="key:621094783:191029568" description="key:621094783:54354734">
+<skill id="1879094827" name="Sticky Tar"/>
+</trait>
+<trait identifier="1879488674" name="Storm Lore" iconId="1091840553" category="50" nature="30" tooltip="key:621094782:191029568" description="key:621094782:54354734">
+<skill id="1879094844" name="Storm Lore"/>
+</trait>
+<trait identifier="1879488675" name="Ancient Craft" iconId="1092967968" category="50" nature="30" tooltip="key:621094781:191029568" description="key:621094781:54354734">
+<skill id="1879094823" name="Ancient Craft"/>
+</trait>
+<trait identifier="1879488720" name="Force of Will" iconId="1091829930" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_loremaster_rank_33" nature="20" description="key:621094834:54354734">
+<stat name="Skill_Loremaster_DurationMod_SeeallEnds" scaling="1879489765"/>
+</trait>
+<trait identifier="1879488722" name="Beacon of Hope" iconId="1091829956" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_55" nature="20" description="key:621094831:54354734">
+<specialEffect label="key:621094831:106251889"/>
+<stat name="Itemset_Loremaster_WaterLore_IncHealingMod" descriptionOverride="key:621094831:106251890" scaling="1879290009"/>
+</trait>
+<trait identifier="1879488723" name="Unbreakable Bond" iconId="1092811776" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_42" nature="20" description="key:621094840:54354734">
+<skill id="1879489216" name="Unbreakable Bond"/>
+<compoundPrerequisite operator="ONE_OF">
+<simplePrerequisite id="1879272580" name="The Keeper of Animals"/>
+<simplePrerequisite id="1879272595" name="The Ancient Master"/>
+</compoundPrerequisite>
+</trait>
+<trait identifier="1879488724" name="Earth Power" iconId="1092974380" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_37" nature="20" description="key:621094844:54354734">
+<stat name="Skill_Loremaster_CrackedEarth_Root_Duration" scaling="1879489770"/>
+</trait>
+<trait identifier="1879488725" name="Wild Alacrity" iconId="1091829947" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_20" nature="20" description="key:621094821:54354734">
+<stat name="Loremaster_Pet_WildSigil_Duration" scaling="1879270044"/>
+</trait>
+<trait identifier="1879488727" name="Explosive Flash" iconId="1092974384" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_53" nature="20" description="key:621094836:54354734">
+<stat name="Skill_Duration_LoreMaster_BlindingFlash" scaling="1879489749"/>
+</trait>
+<trait identifier="1879488732" name="Grasping Earth" iconId="1092974379" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_31" nature="20" description="key:621094818:54354734">
+<stat name="Skill_Loremaster_BurningEarth_Damage" operator="SUBSTRACT" descriptionOverride="key:621094818:106251889" constant="50.0"/>
+<effect id="1879489763" name="DNT - cracked earth root"/>
+</trait>
+<trait identifier="1879488734" name="Wind Lore" iconId="1092974383" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_52" nature="20" description="key:621094828:54354734">
+<skill id="1879064255" name="Wind Lore"/>
+<compoundPrerequisite operator="ONE_OF">
+<simplePrerequisite id="1879272580" name="The Keeper of Animals"/>
+<simplePrerequisite id="1879272595" name="The Ancient Master"/>
+</compoundPrerequisite>
+</trait>
+<trait identifier="1879488736" name="Bane Flare" iconId="1092973534" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_32" nature="20" description="key:621094832:54354734">
+<stat name="Skill_RecoveryTime_Loremaster_BaneFlare" scaling="1879490483"/>
+<skill id="1879094797" name="Bane Flare"/>
+</trait>
+<trait identifier="1879488738" name="Friend of the Wilds" iconId="1092967969" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_9" nature="20" description="key:621094842:54354734">
+<skill id="1879110989" name="Friend of the Wilds (Bog-guardian)"/>
+<effect id="1879290047" name="Bird Flag"/>
+</trait>
+<trait identifier="1879488739" name="Friend of Large Hunters" iconId="1092967985" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_45" nature="20" description="key:621094829:54354734">
+<skill id="1879110960" name="Friend of Large Hunters (Sabre-tooth)"/>
+<effect id="1879290051" name="Bird Flag"/>
+</trait>
+<trait identifier="1879488741" name="Blinding Flash" iconId="1092973533" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_40" nature="20" description="key:621094839:54354734">
+<skill id="1879060818" name="Blinding Flash"/>
+</trait>
+<trait identifier="1879488742" name="Righteousness" iconId="1092974385" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_36" nature="20" description="key:621094820:54354734">
+<skill id="1879064252" name="Sign of Power: Righteousness"/>
+</trait>
+<trait identifier="1879488743" name="See All Ends" iconId="1092974386" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_loremaster_rank_56" nature="20" description="key:621094833:54354734">
+<skill id="1879111681" name="Sign of Power: See All Ends"/>
+</trait>
+<trait identifier="1879488746" name="Quick Packing" iconId="1092974382" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_loremaster_rank_54" nature="20" description="key:621094823:54354734">
+<stat name="Skill_RecoveryTime_Loremaster_BlindingFlash" scaling="1879489747"/>
+</trait>
+<trait identifier="1879489799" name="Battle Knowledge" iconId="1092967973" category="50" nature="30" tooltip="key:621095767:191029568" description="key:621095767:54354734">
+<skill id="1879489789" name="Battle Knowledge"/>
+</trait>
+<trait identifier="1879490776" name="Potent Sigils" iconId="1092967976" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="4" tierProperty="trait_class_loremaster_rank_57" nature="20" description="key:621096697:54354734">
+<stat name="Skill_Loremaster_WizardSigil_Damage" scaling="1879490779"/>
+</trait>
+<trait identifier="1879490802" name="Mirkwood Sentinel Caparison" iconId="1092965076" category="54" nature="16">
+<group code="9" name="Body"/>
+</trait>
+<trait identifier="1879490804" name="Potato Farmer's Fine Caparison" iconId="1092965071" category="54" nature="16">
+<group code="9" name="Body"/>
+</trait>
+<trait identifier="1879490805" name="Mirkwood Sentinel Leg-guards" iconId="1092965077" category="54" nature="16">
+<group code="10" name="Legs"/>
+</trait>
+<trait identifier="1879490807" name="Mirkwood Sentinel Accessory" iconId="1092965074" category="54" nature="16">
+<group code="13" name="Gear"/>
+</trait>
+<trait identifier="1879490808" name="Potato Farmer's Fine Head-piece" iconId="1092965073" category="54" nature="16">
+<group code="8" name="Head"/>
+</trait>
+<trait identifier="1879490809" name="Potato Farmer's Fine Accessory" iconId="1092965070" category="54" nature="16">
+<group code="13" name="Gear"/>
+</trait>
+<trait identifier="1879490811" name="Mirkwood Sentinel Saddle" iconId="1092965078" category="54" nature="16">
+<group code="12" name="Saddle"/>
+</trait>
+<trait identifier="1879490813" name="Mirkwood Sentinel Head-piece" iconId="1092965075" category="54" nature="16">
 <group code="8" name="Head"/>
 </trait>
 </traits>

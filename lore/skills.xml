@@ -269,26 +269,29 @@
 <effect id="1879112558" name="Dispel Aim and Improved Feint." type="USER"/>
 </skill>
 <skill identifier="1879052199" name="Ents go to War" category="41" iconId="1090531750" description="key:620759243:228830419">
-<effect id="1879052204" name="Induce Stunned"/>
+<effect id="1879489766" name="DNT - Ents Knock Down"/>
+<effect id="1879490486" name="DNT"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879052210" name="Eagle-friend" category="1" iconId="1090531754" description="key:620759256:228830419">
+<skill identifier="1879052210" name="Friend of Noble Birds (Lesser Giant Eagle)" category="1" iconId="1090531754" description="key:620759256:228830419">
 <requiredEffect id="1879278143" name="Bird Flag"/>
 <effect id="1879052213" name="DNT - Lesser Giant Eagle"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
 <skill identifier="1879052284" name="Raven's Strike" iconId="1090531779" description="key:620759291:228830419"/>
-<skill identifier="1879052286" name="Beak Rend" iconId="1090531782" description="key:620759294:228830419">
+<skill identifier="1879052286" name="Wild Peck" iconId="1090541215" description="key:620759294:228830419">
+<requiredEffect id="1879489067" name="DNT - SotW: Rage"/>
 <effect id="1879052293" name="Drain Morale"/>
+<effect id="1879489168" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
-<skill identifier="1879052287" name="Sacrifice" iconId="1090531783" description="key:620759296:228830419">
-<effect id="1879052296" name="Sacrifice"/>
-<effect id="1879052297" name="Survivor"/>
-</skill>
-<skill identifier="1879052288" name="Fan the Flames" iconId="1090531785" description="key:620759299:228830419">
-<effect id="1879052299" name="DNT"/>
+<skill identifier="1879052288" name="Fan the Flames" iconId="1092974601" description="key:620759299:228830419">
+<requiredEffect id="1879489044" name="DNT - Execute Major Pet Skill"/>
+<effect id="1879489344" name="Smouldering Embers"/>
+<effect id="1879490683" name="Fanning the Flames"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489165" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
 <skill identifier="1879052289" name="Flanking Manoeuvre" iconId="1090531787" description="key:620759302:228830419">
 <effect id="1879052302" name="Flanked!"/>
@@ -806,13 +809,14 @@
 <skill identifier="1879060716" name="Beneath Notice" category="18" iconId="1090541200" description="key:620765755:228830419">
 <effect id="1879060721" name="Beneath Notice"/>
 </skill>
-<skill identifier="1879060749" name="Staff-strike" category="8" iconId="1091829958" description="key:620765784:228830419">
+<skill identifier="1879060749" name="Staff Strike" category="8" iconId="1092954743" description="key:620765784:228830419">
 <effect id="1879060754" name="DNT"/>
-<effect id="1879302213" name="DNT - Dispel Ancient Craft" type="USER"/>
 </skill>
-<skill identifier="1879060752" name="Improved Staff-strike" category="8" iconId="1091829958" description="key:620765785:228830419">
+<skill identifier="1879060752" name="Lightning-charged Staff Strike" category="8" iconId="1092967980" description="key:620765785:228830419">
 <effect id="1879060754" name="DNT"/>
+<effect id="1879271236" name="Fierce Lightning"/>
 <effect id="1879302213" name="DNT - Dispel Ancient Craft" type="USER"/>
+<effect id="1879489768" name="DNT - Dispel Lightning Charge" type="USER"/>
 </skill>
 <skill identifier="1879060758" name="Power of Knowledge" category="19" iconId="1090541206" description="key:620765790:228830419">
 <effect id="1879369513" name="Power of Knowledge" type="TOGGLE"/>
@@ -825,25 +829,22 @@
 </skill>
 <skill identifier="1879060786" name="Knowledge of Cures" category="2" iconId="1090541224" description="key:620765810:228830419">
 <effect id="1879287348" name="DNT - Remove Poison, Disease, Wound, or Fear"/>
-<effect id="1879206195" name="DNT" type="USER"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
 <skill identifier="1879060793" name="Sign of the Wild: Rage" category="6" iconId="1090541215" description="key:620765816:228830419">
 <effect id="1879060796" name="Sign of the Wild: Rage"/>
 </skill>
 <skill identifier="1879060803" name="Cracked Earth" category="41" iconId="1090541218" description="key:620765825:228830419">
-<effect id="1879060808" name="The Shaking of Arda"/>
+<effect id="1879490487" name="Vulnerable to Marching Ents"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
 <skill identifier="1879060811" name="Wisdom of the Council" category="19" iconId="1090541220" description="key:620765831:228830419">
-<effect id="1879060814" name="Wisdom of the Council"/>
 <effect id="1879173619" name="Wisdom of the Council"/>
+<effect id="1879060814" name="Wisdom of the Council"/>
 </skill>
 <skill identifier="1879060818" name="Blinding Flash" category="19" iconId="1090541222" description="key:620765836:228830419">
 <effect id="1879060822" name="Induce Dazed"/>
 <effect id="1879054551" name="Interrupts Inductions"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
 <skill identifier="1879060843" name="Share the Power" category="19" iconId="1090541228" description="key:620765856:228830419">
 <effect id="1879173620" name="Lend Power"/>
@@ -1138,14 +1139,13 @@
 <skill identifier="1879064209" name="Story of the Hammerhand" category="26" iconId="1090553819" description="key:620775020:228830419">
 <effect id="1879218453" name="Song of the Hammerhand"/>
 </skill>
-<skill identifier="1879064244" name="Burning Embers" category="41" iconId="1090553820" description="key:620775024:228830419">
-<effect id="1879447591" name="DNT - Burning Embers Tierup"/>
-<effect id="1879052300" name="Burning Embers: Slow Burn"/>
-<effect id="1879447931" name="DNT"/>
+<skill identifier="1879064244" name="Burning Embers" category="41" iconId="1091659750" description="key:620775024:228830419">
+<effect id="1879447595" name="Smouldering Embers"/>
+<effect id="1879490488" name="Slow Burn"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879064245" name="Raven-lore" category="1" iconId="1090553821" description="key:620775027:228830419">
+<skill identifier="1879064245" name="Friend of Small Fowl (Raven)" category="1" iconId="1090553821" description="key:620775027:228830419">
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879073183" name="DNT - Raven"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -1153,16 +1153,17 @@
 </skill>
 <skill identifier="1879064246" name="Inner Flame" category="23" iconId="1091804913" description="key:620775040:228830419">
 <effect id="1879173679" name="Inner Flame" type="TOGGLE"/>
+<effect id="1879197531" name="Inner Flame" type="TOGGLE"/>
 <effect id="1879173679" name="Inner Flame" type="USER_TOGGLE"/>
+<effect id="1879197531" name="Inner Flame" type="USER_TOGGLE"/>
 </skill>
 <skill identifier="1879064247" name="Gust of Wind" category="41" iconId="1090553874" description="key:620775043:228830419">
 <effect id="1879447594" name="DNT - Gust of Wind Damage AoE"/>
 <effect id="1879271166" name="DNT"/>
-<effect id="1879447930" name="DNT"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879064248" name="Friend of Bears" category="1" iconId="1090553875" description="key:620775046:228830419">
+<skill identifier="1879064248" name="Friend of Sturdy Beasts (Bear)" category="1" iconId="1090553875" description="key:620775046:228830419">
 <requiredEffect id="1879290046" name="Bird Flag"/>
 <effect id="1879073209" name="DNT - Bear"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -1177,28 +1178,28 @@
 <effect id="1879073233" name="Sign of Power: Command"/>
 </skill>
 <skill identifier="1879064252" name="Sign of Power: Righteousness" category="6" iconId="1090553882" description="key:620775067:228830419">
-<effect id="1879291145" name="Induce Immune"/>
-<effect id="1879073236" name="Dispel Silence"/>
+<effect id="1879291145" name="Righteousness"/>
 </skill>
 <skill identifier="1879064253" name="Sign of Power: Vigilance" category="6" iconId="1090553883" description="key:620775072:228830419">
-<effect id="1879073239" name="Sign of Power: Vigilance"/>
+<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
+<effect id="1879490744" name="DNT - Power for all" type="USER"/>
+<effect id="1879490851" name="DNT - Wild Fire" type="USER"/>
+<effect id="1879489923" name="Motivating Song" type="USER"/>
 </skill>
-<skill identifier="1879064254" name="Fire-lore" category="35" iconId="1091841003" description="key:620775076:228830419">
-<effect id="1879271310" name="Fire-lore"/>
+<skill identifier="1879064254" name="Fire and Frost Lore" category="35" iconId="1092958441" description="key:620775076:228830419">
+<effect id="1879271310" name="Fire and Frost Lore"/>
 </skill>
-<skill identifier="1879064255" name="Wind-lore" category="35" iconId="1090553885" description="key:620775078:228830419">
-<effect id="1879291520" name="DNT - Wind-lore"/>
+<skill identifier="1879064255" name="Wind Lore" category="35" iconId="1090553885" description="key:620775078:228830419">
+<effect id="1879387017" name="Wind-lore"/>
 </skill>
-<skill identifier="1879064256" name="Herb-lore" category="35" iconId="1091804914" description="key:620775080:228830419">
+<skill identifier="1879064256" name="Herb Lore" category="35" iconId="1092967977" description="key:620775080:228830419">
 <effect id="1879073247" name="Induce Rooted"/>
 </skill>
 <skill identifier="1879064257" name="Call to the Valar" category="19" iconId="1090553887" description="key:620775082:228830419">
-<effect id="1879073248" name="DNT - Call to the Valar"/>
 <effect id="1879197582" name="Call to the Valar"/>
 </skill>
 <skill identifier="1879064258" name="Light of the Rising Dawn" category="41" iconId="1090553888" description="key:620775084:228830419">
-<effect id="1879073252" name="Induce Stunned"/>
-<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879054551" name="Interrupts Inductions"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
 <skill identifier="1879064286" name="Sweeping Cut" category="3" iconId="1090553893" description="key:620775094:228830419">
@@ -1689,20 +1690,29 @@
 <effect id="1879054551" name="Interrupts Inductions"/>
 </skill>
 <skill identifier="1879073192" name="Raven's Quick Strike" iconId="1090531787" description="key:620775032:228830419"/>
-<skill identifier="1879073193" name="Benediction of the Raven" iconId="1090553823" description="key:620775033:228830419">
-<effect id="1879073195" name="Benediction of the Raven" duration="60.0"/>
+<skill identifier="1879073193" name="Benediction" iconId="1090553823" description="key:620775033:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
+<effect id="1879073190" name="Benediction"/>
+<effect id="1879489323" name="Minor Command: Offence" type="USER"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
 <skill identifier="1879073196" name="Distraction" iconId="1090522261" description="key:620775036:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
+<effect id="1879049335" name="Enraged"/>
+<effect id="1879101639" name="Distraction"/>
+<effect id="1879052302" name="Flanked!"/>
 <effect id="1879049334" name="Distraction" type="TOGGLE"/>
 <effect id="1879101639" name="Distraction" type="TOGGLE"/>
 <effect id="1879049334" name="Distraction" type="USER_TOGGLE"/>
 <effect id="1879101639" name="Distraction" type="USER_TOGGLE"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
-<skill identifier="1879073198" name="Evasion" iconId="1090553825" description="key:620775038:228830419">
-<effect id="1879089320" name="Bear Flag"/>
-<effect id="1879073199" name="Evasion" type="USER"/>
+<skill identifier="1879073198" name="Evasion" iconId="1092280587" description="key:620775038:228830419">
+<requiredEffect id="1879489057" name="DNT - SotW: Protection"/>
+<effect id="1879149379" name="DNT - Do Nothing"/>
+<effect id="1879489152" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
-<skill identifier="1879073208" name="Improved Friend of Bears" category="1" iconId="1090553875" description="key:620775048:228830419">
+<skill identifier="1879073208" name="Friend of Sturdy Beasts (Bear)" category="1" iconId="1090553875" description="key:620775048:228830419">
 <requiredEffect id="1879290046" name="Bird Flag"/>
 <effect id="1879073211" name="DNT - Bear +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -1712,15 +1722,21 @@
 <skill identifier="1879073217" name="Hatchling Attack" iconId="1090531779" description="key:620775054:228830419"/>
 <skill identifier="1879073218" name="Hatchling Strong Attack" iconId="1090531781" description="key:620775051:228830419"/>
 <skill identifier="1879073219" name="Roaring Challenge" iconId="1090553876" description="key:620775052:228830419">
+<requiredEffect id="1879489044" name="DNT - Execute Major Pet Skill"/>
 <effect id="1879138960" name="Force Attack"/>
+<effect id="1879489328" name="Increase Threat"/>
+<effect id="1879489165" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
 <skill identifier="1879073221" name="Shatter Arms" iconId="1090541019" description="key:620775055:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
 <effect id="1879073222" name="Shatter Arms"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
-<skill identifier="1879073223" name="Bear Hug" iconId="1090553877" description="key:620775057:228830419">
-<effect id="1879051312" name="Induce Stunned"/>
+<skill identifier="1879073224" name="Wild Strike" iconId="1090541215" description="key:620775058:228830419">
+<requiredEffect id="1879489067" name="DNT - SotW: Rage"/>
+<effect id="1879489168" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
-<skill identifier="1879073224" name="Brutal Slash" iconId="1090553878" description="key:620775058:228830419"/>
 <skill identifier="1879073287" name="Tangle-foot" category="37" iconId="1090553909" description="key:620775116:228830419">
 <effect id="1879073312" name="Induce Fellowship Manoeuvre Stunned"/>
 <effect id="1879112558" name="Dispel Aim and Improved Feint." type="USER"/>
@@ -3058,7 +3074,7 @@
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879094821" name="Warding Knowledge" category="19" iconId="1091399325" description="key:620794631:228830419">
+<skill identifier="1879094821" name="Warding Knowledge" category="19" iconId="1092973468" description="key:620794631:228830419">
 <effect id="1879094811" name="DNT - Warding Knowledge"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
@@ -3071,10 +3087,8 @@
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879094844" name="Storm-lore" category="35" iconId="1091841005" description="key:620794652:228830419">
+<skill identifier="1879094844" name="Storm Lore" category="35" iconId="1091841005" description="key:620794652:228830419">
 <effect id="1879271381" name="Induce Stunned"/>
-<effect id="1879270611" name="DNT"/>
-<effect id="1879271236" name="Fierce Lightning"/>
 <effect id="1879302213" name="DNT - Dispel Ancient Craft" type="USER"/>
 </skill>
 <skill identifier="1879094935" name="The Melody of Battle" category="59" iconId="1091400693" description="key:620794643:228830419">
@@ -3126,8 +3140,7 @@
 <effect id="1879095065" name="Morale Drain"/>
 <effect id="1879072994" name="Induce Cowering"/>
 </skill>
-<skill identifier="1879095078" name="Lightning-storm" category="41" iconId="1091399989" description="key:620794960:228830419">
-<effect id="1879270611" name="DNT"/>
+<skill identifier="1879095078" name="Lightning Storm" category="41" iconId="1091399989" description="key:620794960:228830419">
 <effect id="1879271236" name="Fierce Lightning"/>
 <effect id="1879218792" name="Induce Dazed"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -3529,7 +3542,7 @@
 <skill identifier="1879095489" name="Scented Candle" iconId="1090524209">
 <effect id="1879095502" name="Hope"/>
 </skill>
-<skill identifier="1879095507" name="Lynx-speech" category="1" iconId="1091400702" description="key:620795374:228830419">
+<skill identifier="1879095507" name="Friend of Small Hunters (Lynx)" category="1" iconId="1091400702" description="key:620795374:228830419">
 <requiredEffect id="1879290049" name="Bird Flag"/>
 <effect id="1879095512" name="DNT - Lynx"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -3547,7 +3560,7 @@
 <effect id="1879056917" name="DNT"/>
 </skill>
 <skill identifier="1879095794" name="Wing Buffet" iconId="1090522259">
-<effect id="1879051311" name="Knockaway"/>
+<effect id="1879220209" name="Knockback"/>
 </skill>
 <skill identifier="1879095840" name="Deep Puncture" iconId="1090522259">
 <effect id="1879085501" name="Mortal Wound"/>
@@ -3678,9 +3691,22 @@
 <effect id="1879164076" name="DNT - Scribe"/>
 <effect id="1879099269" type="USER"/>
 </skill>
-<skill identifier="1879096874" name="Feral Strike" iconId="1091401080" description="key:620795857:228830419"/>
-<skill identifier="1879096875" name="Slashing Claws" iconId="1091401081" description="key:620795858:228830419"/>
-<skill identifier="1879096876" name="Surprise Attack" iconId="1091401079" description="key:620795856:228830419"/>
+<skill identifier="1879096874" name="Feral Strike" iconId="1091401080" description="key:620795857:228830419">
+<requiredEffect id="1879489044" name="DNT - Execute Major Pet Skill"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489165" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879096875" name="Slashing Claws" iconId="1090527705" description="key:620795858:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
+<effect id="1879490740" name="Deep Bleed"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489332" name="Minor Command: Offence" type="USER"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879096876" name="Wild Strike" iconId="1090541215" description="key:620795856:228830419">
+<requiredEffect id="1879489067" name="DNT - SotW: Rage"/>
+<effect id="1879489168" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
 <skill identifier="1879097069" name="Rift Item Skill" iconId="1090524209">
 <effect id="1879097165" name="Fire Oil"/>
 </skill>
@@ -3693,8 +3719,8 @@
 <effect id="1879097792" name="DNT - Bone Grind" type="USER_TOGGLE"/>
 <effect id="1879095105" name="Threatening Gaze" type="USER"/>
 </skill>
-<skill identifier="1879097096" name="Lynx's Quick Claw Slash" iconId="1090531787" description="key:620795893:228830419"/>
-<skill identifier="1879097097" name="Lynx's Claw Slash" iconId="1090531779" description="key:620795895:228830419"/>
+<skill identifier="1879097096" name="Quick Claw Slash" iconId="1090531787" description="key:620795893:228830419"/>
+<skill identifier="1879097097" name="Claw Slash" iconId="1090531779" description="key:620795895:228830419"/>
 <skill identifier="1879097132" name="Healing" iconId="1090522259">
 <effect id="1879083520" name="Healing"/>
 </skill>
@@ -3709,11 +3735,11 @@
 <effect id="1879120029" name="Refresh"/>
 </skill>
 <skill identifier="1879097179" name="Rift Item Skill" iconId="1090524209">
-<effect id="1879087511" name="Steady Morale" spellcraft="40.0"/>
-<effect id="1879087513" name="Increased Morale" spellcraft="40.0"/>
+<effect id="1879087511" name="Steady Morale" spellcraft="48.0"/>
+<effect id="1879087513" name="Increased Morale" spellcraft="48.0"/>
 </skill>
 <skill identifier="1879097180" name="Rift Item Skill" iconId="1090524209">
-<effect id="1879097219" name="Cheer" spellcraft="30.0"/>
+<effect id="1879097219" name="Cheer" spellcraft="40.0"/>
 </skill>
 <skill identifier="1879097181" name="Rift Item Skill" iconId="1090524209">
 <effect id="1879101801" name="Nature's Bounty"/>
@@ -3836,9 +3862,6 @@
 <skill identifier="1879097486" name="Summon Toads" iconId="1090522259">
 <effect id="1879097484" name="Summon Toad Pet on Left"/>
 <effect id="1879097485" name="Summon Toad Pet on Right"/>
-</skill>
-<skill identifier="1879097604" name="Enter Stealthed State" iconId="1090541275" description="key:620757890:228830419">
-<effect id="1879097605" name="Lynx Stalking"/>
 </skill>
 <skill identifier="1879097695" name="Rift Item Skill" iconId="1090524209">
 <effect id="1879097694" name="Weaken" spellcraft="50.0"/>
@@ -4135,9 +4158,6 @@
 <skill identifier="1879101638" name="Protective Flame" iconId="1090522259">
 <effect id="1879098854" name="Tempered by Flame" spellcraft="1.0"/>
 <effect id="1879083704" name="Protected"/>
-</skill>
-<skill identifier="1879101691" name="Eyepeck" iconId="1090531781" description="key:620799546:228830419">
-<effect id="1879054551" name="Interrupts Inductions"/>
 </skill>
 <skill identifier="1879101914" name="Melee Fire Max" iconId="1090522259">
 <effect id="1879054551" name="Interrupts Inductions"/>
@@ -4831,23 +4851,27 @@
 <effect id="1879110927" name="Bloodlust Armour" type="USER"/>
 <effect id="1879054405" name="Healing" type="USER"/>
 </skill>
-<skill identifier="1879110954" name="Throat Slash" iconId="1091478600" description="key:620806148:228830419">
-<effect id="1879110964" name="DNT"/>
+<skill identifier="1879110954" name="Wild Strike" iconId="1090541215" description="key:620806148:228830419">
+<requiredEffect id="1879489067" name="DNT - SotW: Rage"/>
+<effect id="1879489168" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
-<skill identifier="1879110957" name="Frostbite" iconId="1091454473" description="key:620806144:228830419">
-<effect id="1879110968" name="Frostbite"/>
-</skill>
-<skill identifier="1879110958" name="Sabertooth's Strike" iconId="1090531779" description="key:620806149:228830419"/>
-<skill identifier="1879110960" name="Friend of Feline Hunters" category="1" iconId="1091454475" description="key:620806145:228830419">
+<skill identifier="1879110958" name="Medium Strike" iconId="1090531779" description="key:620806149:228830419"/>
+<skill identifier="1879110960" name="Friend of Large Hunters (Sabre-tooth)" category="1" iconId="1091454475" description="key:620806145:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879110965" name="DNT - Sabertooth Cat"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879110961" name="Fury of Winter" iconId="1091478599" description="key:620806146:228830419"/>
-<skill identifier="1879110962" name="Sabertooth's Minor Strike" iconId="1090531787" description="key:620806141:228830419"/>
-<skill identifier="1879110963" name="Sabertooth's Strong Strike" iconId="1090531781" description="key:620806143:228830419"/>
-<skill identifier="1879110989" name="Friend of Nature" category="1" iconId="1091454478" description="key:620806165:228830419">
+<skill identifier="1879110961" name="Furious Claws" iconId="1090527705" description="key:620806146:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
+<effect id="1879097098" name="Critical Claws"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489332" name="Minor Command: Offence" type="USER"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879110962" name="'Minor Strike" iconId="1090531787" description="key:620806141:228830419"/>
+<skill identifier="1879110963" name="Strong Strike" iconId="1090531781" description="key:620806143:228830419"/>
+<skill identifier="1879110989" name="Friend of the Wilds (Bog-guardian)" category="1" iconId="1091454478" description="key:620806165:228830419">
 <requiredEffect id="1879290047" name="Bird Flag"/>
 <effect id="1879134369" name="DNT - Bog-Guardian"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -4891,8 +4915,9 @@
 <effect id="1879157709" name="Exits Daze, Fear, Stun, Conjunction Stun, Knockdown and Knockout combat states."/>
 <effect id="1879102614" name="Remove Disarm"/>
 </skill>
-<skill identifier="1879111501" name="Sticky Gourd" category="19" iconId="1091455247" description="key:620806567:228830419">
+<skill identifier="1879111501" name="Sticky Gourd" category="19" iconId="1092967978" description="key:620806567:228830419">
 <effect id="1879111504" name="Sticky Gourd"/>
+<effect id="1879490488" name="Slow Burn"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 </skill>
 <skill identifier="1879111503" name="Improved Sticky Gourd" category="19" iconId="1091522034" description="key:620806566:228830419">
@@ -4914,9 +4939,10 @@
 <skill identifier="1879111679" name="Wizard's Fire" category="6" iconId="1092754585" description="key:620806667:228830419">
 <effect id="1879277601" name="DNT"/>
 <effect id="1879220532" name="Wizard's Fire Burn"/>
+<effect id="1879490774" name="Ancient Wizard's Fire Burn"/>
 </skill>
 <skill identifier="1879111681" name="Sign of Power: See All Ends" category="6" iconId="1091456257" description="key:620806662:228830419">
-<effect id="1879111680" name="Sign of Power: See all Ends"/>
+<effect id="1879488366" name="Sign of Power: See all Ends"/>
 </skill>
 <skill identifier="1879111733" name="Burn Hot" category="28" iconId="1091456474" description="key:620806692:228830419">
 <effect id="1879111735" name="Burn Hot"/>
@@ -6261,19 +6287,25 @@
 <effect id="1879132475" name="Closed Mouth"/>
 </skill>
 <skill identifier="1879132481" name="Triple Impale" iconId="1090522259"/>
-<skill identifier="1879134312" name="Bog-guardian's Strong Melee Attack" iconId="1090531781" description="key:620826078:228830419"/>
 <skill identifier="1879134314" name="Bog-guardian's Weak Ranged Attack" iconId="1090531787" description="key:620826080:228830419"/>
 <skill identifier="1879134315" name="Bog-guardian's Ranged Attack" iconId="1090531779" description="key:620826081:228830419"/>
 <skill identifier="1879134316" name="Bog-guardian's Strong Ranged Attack" iconId="1090531781" description="key:620826082:228830419"/>
-<skill identifier="1879134317" name="Bog-guardian's Weak Melee Attack" iconId="1090531787" description="key:620826083:228830419"/>
 <skill identifier="1879134318" name="Angry Bees" iconId="1090542265" description="key:620766492:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
 <effect id="1879134378" name="Swarm of Bees"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489335" name="Minor Command: Offence" type="USER"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
-<skill identifier="1879134319" name="Root Strike" iconId="1091469990" description="key:620826084:228830419">
-<effect id="1879134379" name="Ranged Critical Chance"/>
+<skill identifier="1879134319" name="Wild Root" iconId="1090541215" description="key:620826084:228830419">
+<requiredEffect id="1879489067" name="DNT - SotW: Rage"/>
+<effect id="1879489168" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
 <skill identifier="1879134320" name="Bursting Root" iconId="1091469991" description="key:620826085:228830419">
+<requiredEffect id="1879489044" name="DNT - Execute Major Pet Skill"/>
 <effect id="1879278201" name="Induce Fellowship Manoeuvre Stunned"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489165" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
 <skill identifier="1879134360" name="Spear and Fist" category="78" iconId="1091471238" description="key:620826117:228830419">
 <effect id="1879149379" name="DNT - Do Nothing" type="USER"/>
@@ -7150,7 +7182,7 @@
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879146125" name="Warding Knowledge" category="19" iconId="1091399325" description="key:620833288:228830419">
+<skill identifier="1879146125" name="Warding Knowledge" category="19" iconId="1092973468" description="key:620833288:228830419">
 <effect id="1879111685" name="DNT - Warding Knowledge"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
@@ -9560,9 +9592,8 @@
 <effect id="1879182834" name="Shield-brother" type="USER_TOGGLE"/>
 <effect id="1879276579" name="DNT - Shield Brother's Call Target" type="USER_TOGGLE"/>
 </skill>
-<skill identifier="1879182839" name="Air-lore" category="35" iconId="1091873732" description="key:620860064:228830419">
+<skill identifier="1879182839" name="Air Lore" category="35" iconId="1091873732" description="key:620860064:228830419">
 <effect id="1879182970" name="Charged Air"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
 <skill identifier="1879182840" name="Improved Beneath Notice" category="18" iconId="1091585419" description="key:620860065:228830419">
 <effect id="1879060721" name="Beneath Notice"/>
@@ -10746,8 +10777,8 @@
 <effect id="1879085393" name="Induce Rooted"/>
 <effect id="1879152689" name="Blizzard"/>
 </skill>
-<skill identifier="1879197731" name="Staff-sweep" category="8" iconId="1091617863" description="key:620871156:228830419"/>
-<skill identifier="1879197732" name="Staff-sweep" category="8" iconId="1091617863" description="key:620871157:228830419"/>
+<skill identifier="1879197731" name="Staff Sweep" category="8" iconId="1091659746" description="key:620871156:228830419"/>
+<skill identifier="1879197732" name="Staff Sweep" category="8" iconId="1091659746" description="key:620871157:228830419"/>
 <skill identifier="1879197793" name="Creeping Infection" iconId="1090522259">
 <effect id="1879197776" name="Creeping Infection"/>
 </skill>
@@ -10809,31 +10840,31 @@
 <skill identifier="1879197891" name="Rotting Affliction" iconId="1090522259">
 <effect id="1879197886" name="Rotting Affliction"/>
 </skill>
-<skill identifier="1879197901" name="Improved Eagle-friend" category="1" iconId="1090531754" description="key:620871316:228830419">
+<skill identifier="1879197901" name="Friend of Noble Birds (Lesser Giant Eagle)" category="1" iconId="1090531754" description="key:620871316:228830419">
 <requiredEffect id="1879278143" name="Bird Flag"/>
 <effect id="1879197903" name="DNT - Lesser Giant Eagle +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879197902" name="Improved Raven-lore" category="1" iconId="1090553821" description="key:620871318:228830419">
+<skill identifier="1879197902" name="Friend of Small Fowl (Raven)" category="1" iconId="1090553821" description="key:620871318:228830419">
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879085369" name="DNT - Raven +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879197905" name="Improved Lynx-speech" category="1" iconId="1091400702" description="key:620871319:228830419">
+<skill identifier="1879197905" name="Friend of Small Hunters (Lynx)" category="1" iconId="1091400702" description="key:620871319:228830419">
 <requiredEffect id="1879290049" name="Bird Flag"/>
 <effect id="1879197900" name="DNT - Lynx +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879197906" name="Improved Friend of Nature" category="1" iconId="1091454478" description="key:620871322:228830419">
+<skill identifier="1879197906" name="Friend of the Wilds (Bog-guardian)" category="1" iconId="1091454478" description="key:620871322:228830419">
 <requiredEffect id="1879290047" name="Bird Flag"/>
 <effect id="1879197908" name="DNT - Bog-Guardian +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879197907" name="Improved Friend of Feline Hunters" category="1" iconId="1091454475" description="key:620871321:228830419">
+<skill identifier="1879197907" name="Friend of Large Hunters (Sabre-tooth)" category="1" iconId="1091454475" description="key:620871321:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879197904" name="DNT - Sabertooth Cat +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -11116,349 +11147,349 @@
 <effect id="1879198185" name="Mounted" type="TOGGLE"/>
 <effect id="1879198185" name="Mounted" type="USER_TOGGLE"/>
 </mount>
-<skill identifier="1879198299" name="Improved Raven-lore (Mottled-raven)" category="1" iconId="1091619394" description="key:620871601:228830419">
+<skill identifier="1879198299" name="Friend of Small Fowl (Mottled-raven)" category="1" iconId="1091619394" description="key:620871601:228830419">
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879198240" name="DNT - Mottled Raven +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198300" name="Improved Raven-lore (Storm-raven)" category="1" iconId="1091619396" description="key:620871596:228830419">
+<skill identifier="1879198300" name="Friend of Small Fowl (Storm-raven)" category="1" iconId="1091619396" description="key:620871596:228830419">
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879198248" name="DNT - Storm Raven +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198301" name="Raven-lore (Weathered-raven)" category="1" iconId="1091619395" description="key:620871598:228830419">
+<skill identifier="1879198301" name="Friend of Small Fowl (Weathered-raven)" category="1" iconId="1091619395" description="key:620871598:228830419">
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879198244" name="DNT - Weathered Raven"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198302" name="Improved Raven-lore (Frost-raven)" category="1" iconId="1091619393" description="key:620871594:228830419">
+<skill identifier="1879198302" name="Friend of Small Fowl (Frost-raven)" category="1" iconId="1091619393" description="key:620871594:228830419">
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879198239" name="DNT - Frost Raven +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198303" name="Raven-lore (Storm-raven)" category="1" iconId="1091619396" description="key:620871593:228830419">
+<skill identifier="1879198303" name="Friend of Small Fowl (Storm-raven)" category="1" iconId="1091619396" description="key:620871593:228830419">
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879198246" name="DNT - Storm Raven"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198304" name="Raven-lore (Mottled-raven)" category="1" iconId="1091619394" description="key:620871602:228830419">
+<skill identifier="1879198304" name="Friend of Small Fowl (Mottled-raven)" category="1" iconId="1091619394" description="key:620871602:228830419">
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879198247" name="DNT - Mottled Raven"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198305" name="Improved Raven-lore (Blood-raven)" category="1" iconId="1091619392" description="key:620871599:228830419">
+<skill identifier="1879198305" name="Friend of Small Fowl (Blood-raven)" category="1" iconId="1091619392" description="key:620871599:228830419">
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879198243" name="DNT - Blood Raven +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198306" name="Raven-lore (Frost-raven)" category="1" iconId="1091619393" description="key:620871595:228830419">
+<skill identifier="1879198306" name="Friend of Small Fowl (Frost-raven)" category="1" iconId="1091619393" description="key:620871595:228830419">
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879198241" name="DNT - Frost Raven"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198307" name="Raven-lore (Blood-raven)" category="1" iconId="1091619392" description="key:620871600:228830419">
+<skill identifier="1879198307" name="Friend of Small Fowl (Blood-raven)" category="1" iconId="1091619392" description="key:620871600:228830419">
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879198242" name="DNT - Blood Raven"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198308" name="Improved Raven-lore (Weathered-raven)" category="1" iconId="1091619395" description="key:620871597:228830419">
+<skill identifier="1879198308" name="Friend of Small Fowl (Weathered-raven)" category="1" iconId="1091619395" description="key:620871597:228830419">
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879198245" name="DNT - Weathered Raven +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198309" name="Friend of Bears (Wildpaw-bear)" category="1" iconId="1091619399" description="key:620871662:228830419">
+<skill identifier="1879198309" name="Friend of Sturdy Beasts (Wildpaw-bear)" category="1" iconId="1091619399" description="key:620871662:228830419">
 <requiredEffect id="1879290046" name="Bird Flag"/>
 <effect id="1879198250" name="DNT - Wildpaw Bear"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198310" name="Friend of Bears (Weathered-bear)" category="1" iconId="1091619401" description="key:620871659:228830419">
+<skill identifier="1879198310" name="Friend of Sturdy Beasts (Weathered-bear)" category="1" iconId="1091619401" description="key:620871659:228830419">
 <requiredEffect id="1879290046" name="Bird Flag"/>
 <effect id="1879198249" name="DNT - Weathered Bear"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198311" name="Improved Friend of Bears (Weathered-bear)" category="1" iconId="1091619401" description="key:620871663:228830419">
+<skill identifier="1879198311" name="Friend of Sturdy Beasts (Weathered-bear)" category="1" iconId="1091619401" description="key:620871663:228830419">
 <requiredEffect id="1879290046" name="Bird Flag"/>
 <effect id="1879198253" name="DNT - Weathered Bear +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198312" name="Friend of Bears (Blackpaw-bear)" category="1" iconId="1091619400" description="key:620871649:228830419">
+<skill identifier="1879198312" name="Friend of Sturdy Beasts (Blackpaw-bear)" category="1" iconId="1091619400" description="key:620871649:228830419">
 <requiredEffect id="1879290046" name="Bird Flag"/>
 <effect id="1879198251" name="DNT - Blackpaw Bear"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198313" name="Friend of Bears (Tundra Cub)" category="1" iconId="1091619402" description="key:620871668:228830419">
+<skill identifier="1879198313" name="Friend of Sturdy Beasts (Tundra Cub)" category="1" iconId="1091619402" description="key:620871668:228830419">
 <requiredEffect id="1879290046" name="Bird Flag"/>
 <effect id="1879198259" name="DNT - Tundra Cub"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198314" name="Improved Friend of Bears (Polar Bear)" category="1" iconId="1091619397" description="key:620871652:228830419">
+<skill identifier="1879198314" name="Friend of Sturdy Beasts (Polar Bear)" category="1" iconId="1091619397" description="key:620871652:228830419">
 <requiredEffect id="1879290046" name="Bird Flag"/>
 <effect id="1879198252" name="DNT - Polar Bear +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198315" name="Improved Friend of Bears (Tundra Cub)" category="1" iconId="1091619402" description="key:620871650:228830419">
+<skill identifier="1879198315" name="Friend of Sturdy Beasts (Tundra Cub)" category="1" iconId="1091619402" description="key:620871650:228830419">
 <requiredEffect id="1879290046" name="Bird Flag"/>
 <effect id="1879198260" name="DNT - Tundra Cub +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198316" name="Friend of Bears (Polar Bear)" category="1" iconId="1091619397" description="key:620871667:228830419">
+<skill identifier="1879198316" name="Friend of Sturdy Beasts (Polar Bear)" category="1" iconId="1091619397" description="key:620871667:228830419">
 <requiredEffect id="1879290046" name="Bird Flag"/>
 <effect id="1879198254" name="DNT - Polar Bear"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198317" name="Improved Friend of Bears (Black Bear)" category="1" iconId="1091619398" description="key:620871660:228830419">
+<skill identifier="1879198317" name="Friend of Sturdy Beasts (Black Bear)" category="1" iconId="1091619398" description="key:620871660:228830419">
 <requiredEffect id="1879290046" name="Bird Flag"/>
 <effect id="1879198258" name="DNT - Black Bear +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198318" name="Friend of Bears (Black Bear)" category="1" iconId="1091619398" description="key:620871654:228830419">
+<skill identifier="1879198318" name="Friend of Sturdy Beasts (Black Bear)" category="1" iconId="1091619398" description="key:620871654:228830419">
 <requiredEffect id="1879290046" name="Bird Flag"/>
 <effect id="1879198257" name="DNT - Black Bear"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198319" name="Improved Friend of Bears (Wildpaw-bear)" category="1" iconId="1091619399" description="key:620871656:228830419">
+<skill identifier="1879198319" name="Friend of Sturdy Beasts (Wildpaw-bear)" category="1" iconId="1091619399" description="key:620871656:228830419">
 <requiredEffect id="1879290046" name="Bird Flag"/>
 <effect id="1879198256" name="DNT - Wildpaw Bear +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198320" name="Improved Friend of Bears (Blackpaw-bear)" category="1" iconId="1091619400" description="key:620871665:228830419">
+<skill identifier="1879198320" name="Friend of Sturdy Beasts (Blackpaw-bear)" category="1" iconId="1091619400" description="key:620871665:228830419">
 <requiredEffect id="1879290046" name="Bird Flag"/>
 <effect id="1879198255" name="DNT - Blackpaw Bear +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198323" name="Lynx-speech (Spotted Lynx)" category="1" iconId="1091619404" description="key:620871664:228830419">
+<skill identifier="1879198323" name="Friend of Small Hunters (Spotted Lynx)" category="1" iconId="1091619404" description="key:620871664:228830419">
 <requiredEffect id="1879290049" name="Bird Flag"/>
 <effect id="1879198261" name="DNT - Leopard Lynx"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198324" name="Lynx-speech (Tundra Lynx)" category="1" iconId="1091619403" description="key:620871651:228830419">
+<skill identifier="1879198324" name="Friend of Small Hunters (Tundra Lynx)" category="1" iconId="1091619403" description="key:620871651:228830419">
 <requiredEffect id="1879290049" name="Bird Flag"/>
 <effect id="1879198262" name="DNT - Frost Lynx"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198325" name="Lynx-speech (Grey Lynx)" category="1" iconId="1091619406" description="key:620871647:228830419">
+<skill identifier="1879198325" name="Friend of Small Hunters (Grey Lynx)" category="1" iconId="1091619406" description="key:620871647:228830419">
 <requiredEffect id="1879290049" name="Bird Flag"/>
 <effect id="1879198268" name="DNT - Grey Lynx"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198326" name="Improved Lynx-speech (Spotted Lynx)" category="1" iconId="1091619404" description="key:620871661:228830419">
+<skill identifier="1879198326" name="Friend of Small Hunters (Spotted Lynx)" category="1" iconId="1091619404" description="key:620871661:228830419">
 <requiredEffect id="1879290049" name="Bird Flag"/>
 <effect id="1879198264" name="DNT - Leopard Lynx +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198327" name="Improved Lynx-speech (Onyx Lynx)" category="1" iconId="1091619405" description="key:620871653:228830419">
+<skill identifier="1879198327" name="Friend of Small Hunters (Onyx Lynx)" category="1" iconId="1091619405" description="key:620871653:228830419">
 <requiredEffect id="1879290049" name="Bird Flag"/>
 <effect id="1879198265" name="DNT - Onyx Lynx +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198328" name="Improved Lynx-speech (Mountain Lynx)" category="1" iconId="1091619407" description="key:620871657:228830419">
+<skill identifier="1879198328" name="Friend of Small Hunters (Mountain Lynx)" category="1" iconId="1091619407" description="key:620871657:228830419">
 <requiredEffect id="1879290049" name="Bird Flag"/>
 <effect id="1879198269" name="DNT - Rust Lynx +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198329" name="Lynx-speech (Mountain Lynx)" category="1" iconId="1091619407" description="key:620871658:228830419">
+<skill identifier="1879198329" name="Friend of Small Hunters (Mountain Lynx)" category="1" iconId="1091619407" description="key:620871658:228830419">
 <requiredEffect id="1879290049" name="Bird Flag"/>
 <effect id="1879198263" name="DNT - Rust Lynx"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198330" name="Lynx-speech (Onyx Lynx)" category="1" iconId="1091619405" description="key:620871655:228830419">
+<skill identifier="1879198330" name="Friend of Small Hunters (Onyx Lynx)" category="1" iconId="1091619405" description="key:620871655:228830419">
 <requiredEffect id="1879290049" name="Bird Flag"/>
 <effect id="1879198270" name="DNT - Onyx Lynx"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198331" name="Improved Lynx-speech (Tundra Lynx)" category="1" iconId="1091619403" description="key:620871648:228830419">
+<skill identifier="1879198331" name="Friend of Small Hunters (Tundra Lynx)" category="1" iconId="1091619403" description="key:620871648:228830419">
 <requiredEffect id="1879290049" name="Bird Flag"/>
 <effect id="1879198266" name="DNT - Frost Lynx +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198332" name="Improved Lynx-speech (Grey Lynx)" category="1" iconId="1091619406" description="key:620871666:228830419">
+<skill identifier="1879198332" name="Friend of Small Hunters (Grey Lynx)" category="1" iconId="1091619406" description="key:620871666:228830419">
 <requiredEffect id="1879290049" name="Bird Flag"/>
 <effect id="1879198267" name="DNT - Grey Lynx +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198333" name="Improved Eagle-friend (Ashen-eagle)" category="1" iconId="1091619415" description="key:620871670:228830419">
+<skill identifier="1879198333" name="Friend of Noble Birds (Ashen-eagle)" category="1" iconId="1091619415" description="key:620871670:228830419">
 <requiredEffect id="1879278143" name="Bird Flag"/>
 <effect id="1879198277" name="DNT - Lesser Giant Ashen Eagle +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198334" name="Eagle-friend (Ashen-eagle)" category="1" iconId="1091619415" description="key:620871675:228830419">
+<skill identifier="1879198334" name="Friend of Noble Birds (Ashen-eagle)" category="1" iconId="1091619415" description="key:620871675:228830419">
 <requiredEffect id="1879278143" name="Bird Flag"/>
 <effect id="1879198272" name="DNT - Lesser Giant Ashen Eagle"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198335" name="Improved Eagle-friend (Snowcrest-eagle)" category="1" iconId="1091619414" description="key:620871673:228830419">
+<skill identifier="1879198335" name="Friend of Noble Birds (Snowcrest-eagle)" category="1" iconId="1091619414" description="key:620871673:228830419">
 <requiredEffect id="1879278143" name="Bird Flag"/>
 <effect id="1879198273" name="DNT - Lesser Giant Snow Eagle +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198336" name="Eagle-friend (Snowcrest-eagle)" category="1" iconId="1091619414" description="key:620871671:228830419">
+<skill identifier="1879198336" name="Friend of Noble Birds (Snowcrest-eagle)" category="1" iconId="1091619414" description="key:620871671:228830419">
 <requiredEffect id="1879278143" name="Bird Flag"/>
 <effect id="1879198278" name="DNT - Lesser Giant Snow Eagle"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198337" name="Improved Eagle-friend (Tundra-eagle)" category="1" iconId="1091619417" description="key:620871676:228830419">
+<skill identifier="1879198337" name="Friend of Noble Birds (Tundra-eagle)" category="1" iconId="1091619417" description="key:620871676:228830419">
 <requiredEffect id="1879278143" name="Bird Flag"/>
 <effect id="1879198271" name="DNT - Lesser Giant Frost Eagle +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198338" name="Eagle-friend (Tundra-eagle)" category="1" iconId="1091619417" description="key:620871674:228830419">
+<skill identifier="1879198338" name="Friend of Noble Birds (Tundra-eagle)" category="1" iconId="1091619417" description="key:620871674:228830419">
 <requiredEffect id="1879278143" name="Bird Flag"/>
 <effect id="1879198276" name="DNT - Lesser Giant Frost Eagle"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198339" name="Improved Eagle-friend (Ember-eagle)" category="1" iconId="1091619416" description="key:620871672:228830419">
+<skill identifier="1879198339" name="Friend of Noble Birds (Ember-eagle)" category="1" iconId="1091619416" description="key:620871672:228830419">
 <requiredEffect id="1879278143" name="Bird Flag"/>
 <effect id="1879198275" name="DNT - Lesser Giant Ember Eagle +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198340" name="Eagle-friend (Ember-eagle)" category="1" iconId="1091619416" description="key:620871669:228830419">
+<skill identifier="1879198340" name="Friend of Noble Birds (Ember-eagle)" category="1" iconId="1091619416" description="key:620871669:228830419">
 <requiredEffect id="1879278143" name="Bird Flag"/>
 <effect id="1879198274" name="DNT - Lesser Giant Ember Eagle"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198341" name="Improved Friend of Feline Hunters (Spotted Sabre-cat)" category="1" iconId="1091619408" description="key:620871711:228830419">
+<skill identifier="1879198341" name="Friend of Large Hunters (Spotted Sabre-cat)" category="1" iconId="1091619408" description="key:620871711:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879198280" name="DNT - Spotted Sabertooth Cat +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198342" name="Improved Friend of Feline Hunters (Dusky Sabre-cat)" category="1" iconId="1091619409" description="key:620871716:228830419">
+<skill identifier="1879198342" name="Friend of Large Hunters (Dusky Sabre-cat)" category="1" iconId="1091619409" description="key:620871716:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879198281" name="DNT - Dusky Sabertooth Cat +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198343" name="Friend of Feline Hunters (Onyx Sabre-cat)" category="1" iconId="1091619412" description="key:620871713:228830419">
+<skill identifier="1879198343" name="Friend of Large Hunters (Onyx Sabre-cat)" category="1" iconId="1091619412" description="key:620871713:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879198289" name="DNT - Onyx Sabertooth Cat"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198344" name="Improved Friend of Feline Hunters (Onyx Sabre-cat)" category="1" iconId="1091619412" description="key:620871717:228830419">
+<skill identifier="1879198344" name="Friend of Large Hunters (Onyx Sabre-cat)" category="1" iconId="1091619412" description="key:620871717:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879198286" name="DNT - Onyx Sabertooth Cat +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198345" name="Friend of Feline Hunters (Spotted Sabre-cat)" category="1" iconId="1091619408" description="key:620871719:228830419">
+<skill identifier="1879198345" name="Friend of Large Hunters (Spotted Sabre-cat)" category="1" iconId="1091619408" description="key:620871719:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879198285" name="DNT - Spotted Sabertooth Cat"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198346" name="Friend of Feline Hunters (Striped Sabre-cat)" category="1" iconId="1091619411" description="key:620871715:228830419">
+<skill identifier="1879198346" name="Friend of Large Hunters (Striped Sabre-cat)" category="1" iconId="1091619411" description="key:620871715:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879198290" name="DNT - Striped Sabertooth Cat"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198347" name="Friend of Feline Hunters (Deep-wood Sabre-cat)" category="1" iconId="1091619413" description="key:620871718:228830419">
+<skill identifier="1879198347" name="Friend of Large Hunters (Deep-wood Sabre-cat)" category="1" iconId="1091619413" description="key:620871718:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879198288" name="DNT - Deep-wood Sabertooth Cat"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198348" name="Improved Friend of Feline Hunters (Deep-wood Sabre-cat)" category="1" iconId="1091619413" description="key:620871721:228830419">
+<skill identifier="1879198348" name="Friend of Large Hunters (Deep-wood Sabre-cat)" category="1" iconId="1091619413" description="key:620871721:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879198287" name="DNT - Deep-wood Sabertooth Cat +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198349" name="Friend of Feline Hunters (Dusky Sabre-cat)" category="1" iconId="1091619409" description="key:620871712:228830419">
+<skill identifier="1879198349" name="Friend of Large Hunters (Dusky Sabre-cat)" category="1" iconId="1091619409" description="key:620871712:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879198282" name="DNT - Dusky Sabertooth Cat"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198350" name="Improved Friend of Feline Hunters (Grey Sabre-cat)" category="1" iconId="1091619410" description="key:620871720:228830419">
+<skill identifier="1879198350" name="Friend of Large Hunters (Grey Sabre-cat)" category="1" iconId="1091619410" description="key:620871720:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879198283" name="DNT - Grey Sabertooth Cat +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198351" name="Friend of Feline Hunters (Grey Sabre-cat)" category="1" iconId="1091619410" description="key:620871722:228830419">
+<skill identifier="1879198351" name="Friend of Large Hunters (Grey Sabre-cat)" category="1" iconId="1091619410" description="key:620871722:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879198279" name="DNT - Grey Sabertooth Cat"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198352" name="Improved Friend of Feline Hunters (Striped Sabre-cat)" category="1" iconId="1091619411" description="key:620871714:228830419">
+<skill identifier="1879198352" name="Friend of Large Hunters (Striped Sabre-cat)" category="1" iconId="1091619411" description="key:620871714:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879198284" name="DNT - Striped Sabertooth Cat +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198353" name="Friend of Nature (Tundra-guardian)" category="1" iconId="1091619418" description="key:620871727:228830419">
+<skill identifier="1879198353" name="Friend of the Wilds (Tundra-guardian)" category="1" iconId="1091619418" description="key:620871727:228830419">
 <requiredEffect id="1879290047" name="Bird Flag"/>
 <effect id="1879198296" name="DNT - Frost-Guardian"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198354" name="Improved Friend of Nature (Tundra-guardian)" category="1" iconId="1091619418" description="key:620871728:228830419">
+<skill identifier="1879198354" name="Friend of the Wilds (Tundra-guardian)" category="1" iconId="1091619418" description="key:620871728:228830419">
 <requiredEffect id="1879290047" name="Bird Flag"/>
 <effect id="1879198295" name="DNT - Frost-Guardian +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198355" name="Friend of Nature (Swamp-guardian)" category="1" iconId="1091619420" description="key:620871729:228830419">
+<skill identifier="1879198355" name="Friend of the Wilds (Swamp-guardian)" category="1" iconId="1091619420" description="key:620871729:228830419">
 <requiredEffect id="1879290047" name="Bird Flag"/>
 <effect id="1879198291" name="DNT - Swamp-Guardian"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198356" name="Improved Friend of Nature (Swamp-guardian)" category="1" iconId="1091619420" description="key:620871730:228830419">
+<skill identifier="1879198356" name="Friend of the Wilds (Swamp-guardian)" category="1" iconId="1091619420" description="key:620871730:228830419">
 <requiredEffect id="1879290047" name="Bird Flag"/>
 <effect id="1879198293" name="DNT - Swamp-Guardian +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198357" name="Friend of Nature (Mountain-guardian)" category="1" iconId="1091619419" description="key:620871725:228830419">
+<skill identifier="1879198357" name="Friend of the Wilds (Mountain-guardian)" category="1" iconId="1091619419" description="key:620871725:228830419">
 <requiredEffect id="1879290047" name="Bird Flag"/>
 <effect id="1879198292" name="DNT - Autumn Bog-Guardian"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879198358" name="Improved Friend of Nature (Mountain-guardian)" category="1" iconId="1091619419" description="key:620871726:228830419">
+<skill identifier="1879198358" name="Friend of the Wilds (Mountain-guardian)" category="1" iconId="1091619419" description="key:620871726:228830419">
 <requiredEffect id="1879290047" name="Bird Flag"/>
 <effect id="1879198294" name="DNT -Autumn Bog-Guardian +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -11534,9 +11565,6 @@
 </skill>
 <skill identifier="1879198624" name="Moderate Power Drain" iconId="1090522259">
 <effect id="1879050253" name="Major Disease"/>
-</skill>
-<skill identifier="1879198695" name="Frost-lore" category="35" iconId="1091841004" description="key:620872049:228830419">
-<effect id="1879271305" name="Frost-lore"/>
 </skill>
 <skill identifier="1879198745" name="Septic Arrow" iconId="1090522259">
 <effect id="1879198708" name="Septic Arrow"/>
@@ -11790,7 +11818,7 @@
 <effect id="1879191974" name="DNT"/>
 </skill>
 <skill identifier="1879200822" name="Knowledge of the Lore-master" category="35" iconId="1091402423" description="key:620873657:228830419">
-<effect id="1879097822" name="Loremaster Temporary Analyze Skill Effect"/>
+<effect id="1879197589" name="Knowledge of the Lore-master"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
@@ -13015,12 +13043,8 @@
 <effect id="1879073312" name="Induce Fellowship Manoeuvre Stunned"/>
 <effect id="1879157709" name="Exits Daze, Fear, Stun, Conjunction Stun, Knockdown and Knockout combat states." type="USER"/>
 </skill>
-<skill identifier="1879215002" name="Improved Staff-sweep" category="8" iconId="1091659746" description="key:620883888:228830419">
-<effect id="1879214997" name="DNT"/>
-</skill>
-<skill identifier="1879215003" name="Improved Staff-sweep" category="8" iconId="1091659746" description="key:620883887:228830419">
-<effect id="1879214997" name="DNT"/>
-</skill>
+<skill identifier="1879215002" name="Improved Staff Sweep" category="8" iconId="1091659746" description="key:620883888:228830419"/>
+<skill identifier="1879215003" name="Improved Staff Sweep" category="8" iconId="1091659746" description="key:620883887:228830419"/>
 <skill identifier="1879215023" name="Poor Map to Isendeep" category="97" iconId="1091659378" description="key:620883920:228830419">
 <effect id="1879085669" name="Secret Paths: Grothum Location Two"/>
 </skill>
@@ -13076,9 +13100,8 @@
 <effect id="1879215254" name="Improved Sign of the Wild: Rage"/>
 </skill>
 <skill identifier="1879215265" name="Improved Burning Embers" category="41" iconId="1091659750" description="key:620884114:228830419">
-<effect id="1879447592" name="DNT - Imp. Burning Embers Tierup"/>
-<effect id="1879052300" name="Burning Embers: Slow Burn"/>
-<effect id="1879447931" name="DNT"/>
+<effect id="1879447595" name="Smouldering Embers"/>
+<effect id="1879490488" name="Slow Burn"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
@@ -13558,24 +13581,22 @@
 <skill identifier="1879222008" name="Shadow Smash" iconId="1090522259"/>
 <skill identifier="1879222009" name="Shadow Crush - Distributed" iconId="1090522259"/>
 <skill identifier="1879222015" name="Nature's Gift" iconId="1091671533" description="key:620888692:228830419">
+<requiredEffect id="1879489044" name="DNT - Execute Major Pet Skill"/>
 <effect id="1879119822" name="Morale Restoration" spellcraft="0.1"/>
+<effect id="1879489342" name="DNT - Nature's Light"/>
+<effect id="1879489165" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
 <skill identifier="1879222016" name="Flashing Flank" iconId="1091671531" description="key:620888693:228830419">
 <effect id="1879052302" name="Flanked!"/>
-<effect id="1879220411" name="DNT - Flanked 2!"/>
 </skill>
-<skill identifier="1879222017" name="Nature's Light" iconId="1091671532" description="key:620888691:228830419">
-<effect id="1879222014" name="Nature's Light"/>
+<skill identifier="1879222017" name="Nature's Bounty" iconId="1091671532" description="key:620888691:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
+<effect id="1879489356" name="DNT - Nature's Bounty"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
-<skill identifier="1879222022" name="Commune with Nature" category="1" iconId="1091671530" description="key:620888697:228830419">
+<skill identifier="1879222022" name="Nature Spirit (Spirit Mote)" category="1" iconId="1091671530" description="key:620888697:228830419">
 <requiredEffect id="1879290045" name="Bird Flag"/>
 <effect id="1879222021" name="DNT - corpse candle"/>
-<effect id="1879206195" name="DNT" type="USER"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
-</skill>
-<skill identifier="1879222023" name="Improved Commune with Nature" category="1" iconId="1091671530" description="key:620888698:228830419">
-<requiredEffect id="1879290045" name="Bird Flag"/>
-<effect id="1879222020" name="DNT - corpse candle +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
@@ -15034,87 +15055,45 @@
 <effect id="1879232428" name="Mounted" type="TOGGLE"/>
 <effect id="1879232428" name="Mounted" type="USER_TOGGLE"/>
 </mount>
-<skill identifier="1879232485" name="Commune with Nature (Spirit Boar)" category="1" iconId="1091713989" description="key:620896835:228830419">
+<skill identifier="1879232485" name="Nature Spirit (Spirit Boar)" category="1" iconId="1091713989" description="key:620896835:228830419">
 <requiredEffect id="1879290045" name="Bird Flag"/>
 <effect id="1879232511" name="DNT - Spirit Boar"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879232486" name="Commune with Nature (Spirit Lynx)" category="1" iconId="1091713985" description="key:620896839:228830419">
+<skill identifier="1879232486" name="Nature Spirit (Spirit Lynx)" category="1" iconId="1091713985" description="key:620896839:228830419">
 <requiredEffect id="1879290045" name="Bird Flag"/>
 <effect id="1879232513" name="DNT - Spirit Lynx"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879232487" name="Commune with Nature (Spirit Bear)" category="1" iconId="1091713984" description="key:620896834:228830419">
+<skill identifier="1879232487" name="Nature Spirit (Spirit Bear)" category="1" iconId="1091713984" description="key:620896834:228830419">
 <requiredEffect id="1879290045" name="Bird Flag"/>
 <effect id="1879232502" name="DNT - Spirit Bear"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879232488" name="Commune with Nature (Spirit Sabre-cat)" category="1" iconId="1091713986" description="key:620896831:228830419">
+<skill identifier="1879232488" name="Nature Spirit (Spirit Sabre-cat)" category="1" iconId="1091713986" description="key:620896831:228830419">
 <requiredEffect id="1879290045" name="Bird Flag"/>
 <effect id="1879232509" name="DNT - Spirit Sabre-cat"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879232489" name="Commune with Nature (Spirit Aurochs)" category="1" iconId="1091713987" description="key:620896838:228830419">
+<skill identifier="1879232489" name="Nature Spirit (Spirit Aurochs)" category="1" iconId="1091713987" description="key:620896838:228830419">
 <requiredEffect id="1879290045" name="Bird Flag"/>
 <effect id="1879232503" name="DNT - Spirit Aurochs"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879232490" name="Commune with Nature (Spirit Raven)" category="1" iconId="1091713983" description="key:620896842:228830419">
+<skill identifier="1879232490" name="Nature Spirit (Spirit Raven)" category="1" iconId="1091713983" description="key:620896842:228830419">
 <requiredEffect id="1879290045" name="Bird Flag"/>
 <effect id="1879232510" name="DNT - Spirit Raven"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879232491" name="Commune with Nature (Spirit Cub)" category="1" iconId="1091713988" description="key:620896843:228830419">
+<skill identifier="1879232491" name="Nature Spirit (Spirit Cub)" category="1" iconId="1091713988" description="key:620896843:228830419">
 <requiredEffect id="1879290045" name="Bird Flag"/>
 <effect id="1879232515" name="DNT - Spirit Cub"/>
-<effect id="1879206195" name="DNT" type="USER"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
-</skill>
-<skill identifier="1879232492" name="Improved Commune with Nature (Spirit Lynx)" category="1" iconId="1091713985" description="key:620896840:228830419">
-<requiredEffect id="1879290045" name="Bird Flag"/>
-<effect id="1879232505" name="DNT - Spirit Lynx +1 level"/>
-<effect id="1879206195" name="DNT" type="USER"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
-</skill>
-<skill identifier="1879232493" name="Improved Commune with Nature (Sabre-cat)" category="1" iconId="1091713986" description="key:620896832:228830419">
-<requiredEffect id="1879290045" name="Bird Flag"/>
-<effect id="1879232506" name="DNT - Spirit Sabre-cat +1 level"/>
-<effect id="1879206195" name="DNT" type="USER"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
-</skill>
-<skill identifier="1879232494" name="Improved Commune with Nature (Aurochs)" category="1" iconId="1091713987" description="key:620896830:228830419">
-<requiredEffect id="1879290045" name="Bird Flag"/>
-<effect id="1879232508" name="DNT - Spirit Aurochs +1 level"/>
-<effect id="1879206195" name="DNT" type="USER"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
-</skill>
-<skill identifier="1879232495" name="Improved Commune with Nature (Spirit Cub)" category="1" iconId="1091713988" description="key:620896836:228830419">
-<requiredEffect id="1879290045" name="Bird Flag"/>
-<effect id="1879232512" name="DNT - Spirit Cub +1 level"/>
-<effect id="1879206195" name="DNT" type="USER"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
-</skill>
-<skill identifier="1879232496" name="Improved Commune with Nature (Spirit Raven)" category="1" iconId="1091713983" description="key:620896837:228830419">
-<requiredEffect id="1879290045" name="Bird Flag"/>
-<effect id="1879232507" name="DNT - Spirit Raven +1 level"/>
-<effect id="1879206195" name="DNT" type="USER"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
-</skill>
-<skill identifier="1879232497" name="Improved Commune with Nature (Spirit Boar)" category="1" iconId="1091713989" description="key:620896833:228830419">
-<requiredEffect id="1879290045" name="Bird Flag"/>
-<effect id="1879232514" name="DNT - Spirit Boar +1 level"/>
-<effect id="1879206195" name="DNT" type="USER"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
-</skill>
-<skill identifier="1879232498" name="Improved Commune with Nature (Spirit Bear)" category="1" iconId="1091713984" description="key:620896841:228830419">
-<requiredEffect id="1879290045" name="Bird Flag"/>
-<effect id="1879232504" name="DNT - Spirit Bear +1 level"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
@@ -15456,11 +15435,9 @@
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879238159" name="Water-lore" category="23" iconId="1091768135" description="key:620899332:228830419">
+<skill identifier="1879238159" name="Water Lore" category="23" iconId="1090553873" description="key:620899332:228830419">
 <effect id="1879238163" name="Water-lore"/>
 <effect id="1879238164" name="Water-lore"/>
-<effect id="1879206195" name="DNT" type="USER"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
 <skill identifier="1879238323" name="Improved Distracting Shot" category="34" iconId="1091459007" description="key:620899427:228830419">
 <effect id="1879112106" name="Induce Dazed"/>
@@ -19397,12 +19374,8 @@
 <effect id="1879270578" name="Travel to Lalia's Market"/>
 </travelSkill>
 <skill identifier="1879270613" name="Lightning Strike" category="41" iconId="1092812934" description="key:620921379:228830419">
-<effect id="1879203554" name="Induce Dazed"/>
-<effect id="1879270611" name="DNT"/>
+<effect id="1879489793" name="DNT"/>
 <effect id="1879271236" name="Fierce Lightning"/>
-<effect id="1879206195" name="DNT" type="USER"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
-<effect id="1879302213" name="DNT - Dispel Ancient Craft" type="USER"/>
 </skill>
 <skill identifier="1879270737" name="Diminished Target" category="69" iconId="1091806157" description="key:620921482:228830419">
 <effect id="1879270785" name="Diminished Target"/>
@@ -19475,16 +19448,18 @@
 <effect id="1879243280" name="Hobbled"/>
 </skill>
 <skill identifier="1879271189" name="Nature's Fury" category="41" iconId="1091829921" description="key:620921770:228830419">
+<effect id="1879489797" name="DNT - Nature's Fury Spinoff"/>
 <effect id="1879271185" name="Nature's Fury"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
+<effect id="1879491220" name="Nature's Fury" type="USER"/>
 </skill>
 <skill identifier="1879271239" name="Fury of Blades" category="33" iconId="1091830071" description="key:620921822:228830419"/>
 <skill identifier="1879271240" name="Fury of Blades" category="33" iconId="1091830071" description="key:620921821:228830419"/>
 <skill identifier="1879271248" name="The Ancient Master" category="19" iconId="1091829950" description="key:620921829:228830419">
+<effect id="1879275702" name="The Ancient Master"/>
+<effect id="1879490761" name="Ancient Master - 5"/>
 <effect id="1879206195" name="DNT" type="USER"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
-<effect id="1879275702" name="The Ancient Master" type="USER"/>
 </skill>
 <skill identifier="1879271249" name="Sic 'em!" category="1" iconId="1091829933" description="key:620921830:228830419">
 <effect id="1879282928" name="DNT - Raven"/>
@@ -19509,10 +19484,10 @@
 <effect id="1879174313" name="Rallying Cry"/>
 <effect id="1879271293" name="DNT - Dispel Defeat Event" type="USER"/>
 </skill>
-<skill identifier="1879271571" name="Ring of Fire" category="19" iconId="1091804935" description="key:620922055:228830419">
-<effect id="1879271568" name="Ring of Fire"/>
-<effect id="1879370005" name="DNT - Ring of Fire"/>
+<skill identifier="1879271571" name="Ring of Fire" category="19" iconId="1092967970" description="key:620922055:228830419">
+<effect id="1879271566" name="Ring of Fire"/>
 <effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
 <skill identifier="1879271748" name="Hammer Down" category="3" iconId="1091805297" description="key:620922172:228830419">
 <requiredTrait id="1879271364" name="Hammer Down"/>
@@ -20148,9 +20123,9 @@
 <effect id="1879283146" name="DNT - Concession" type="USER"/>
 <effect id="1879313933" name="DNT" type="USER"/>
 </skill>
-<skill identifier="1879278163" name="Catmint" category="19" iconId="1091804905" description="key:620927462:228830419">
-<effect id="1879278148" name="DNT"/>
-<effect id="1879278206" name="Catmint" type="USER"/>
+<skill identifier="1879278163" name="Catmint" category="19" iconId="1092958440" description="key:620927462:228830419">
+<effect id="1879489794" name="Catmint"/>
+<effect id="1879489792" name="DNT - Remove Poison, Disease, Wound, or Fear"/>
 </skill>
 <skill identifier="1879278253" name="Split Shot" category="34" iconId="1090625142" description="key:620927558:228830419">
 <effect id="1879238457" name="DNT"/>
@@ -20450,9 +20425,8 @@
 <effect id="1879111269" name="Remove Corruption"/>
 <effect id="1879148719" name="Remove Corruption"/>
 </skill>
-<skill identifier="1879291048" name="Beacon of Hope" category="23" iconId="1091829956" description="key:620937498:228830419">
-<effect id="1879173618" name="Hope"/>
-<effect id="1879275394" name="DNT - Beacon of Hope"/>
+<skill identifier="1879291048" name="Beacon of Hope" category="23" iconId="1092967982" description="key:620937498:228830419">
+<effect id="1879490964" name="DNT - heal and hot"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
@@ -20491,11 +20465,10 @@
 <skill identifier="1879291125" name="Killing Blow" iconId="1090522259">
 <effect id="1879103216" name="Self Smite"/>
 </skill>
-<skill identifier="1879291306" name="Frost-lore of the Ancient Master" category="35" iconId="1091841004" description="key:620937672:228830419">
-<effect id="1879271305" name="Frost-lore"/>
-</skill>
-<skill identifier="1879291307" name="Fire-lore of the Ancient Master" category="35" iconId="1091841003" description="key:620937673:228830419">
-<effect id="1879271310" name="Fire-lore"/>
+<skill identifier="1879291307" name="Fire and Frost Lore" category="35" iconId="1092958441" description="key:620937673:228830419">
+<requiredEffect id="1879275702" name="The Ancient Master"/>
+<effect id="1879271310" name="Fire and Frost Lore"/>
+<effect id="1879490760" name="DNT - Tier Down AM" type="USER"/>
 </skill>
 <skill identifier="1879291330" name="Major Fiery Explosion" iconId="1090522259">
 <effect id="1879290080" name="Burning"/>
@@ -24874,7 +24847,8 @@
 </skill>
 <skill identifier="1879363360" name="Quickened Inner Flame" category="23" iconId="1091804913" description="key:621007485:228830419">
 <effect id="1879364685" name="Inner Flame"/>
-<effect id="1879364746" name="Inner Flame Buff" type="USER"/>
+<effect id="1879364746" name="Inner Flame"/>
+<effect id="1879364746" name="Inner Flame" type="USER"/>
 <effect id="1879364685" name="Inner Flame" type="USER"/>
 </skill>
 <skill identifier="1879363521" name="Blood Sickness" iconId="1090522259">
@@ -27717,6 +27691,14 @@
 <effect id="1879367805" name="Rush of Power" spellcraft="120.0"/>
 <effect id="1879400124" name="Bond of the Rangers"/>
 </skill>
+<skill identifier="1879400134" name="Raven's Powerful Strike" iconId="1090531781" description="key:620987399:228830419"/>
+<skill identifier="1879400135" name="Strong Slash" iconId="1090531781" description="key:620986872:228830419"/>
+<skill identifier="1879400139" name="Choking Vines" iconId="1091469990" description="key:620986990:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
+<effect id="1879489322" name="Choking Vines"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
 <skill identifier="1879400462" name="Ancient Terror" iconId="1090522259">
 <effect id="1879325198" name="Terror"/>
 </skill>
@@ -30044,7 +30026,7 @@
 <effect id="1879201764" type="USER"/>
 </skill>
 <skill identifier="1879417731" name="Deadly Pincers" iconId="1090522259">
-<effect id="1879417734" name="Lacerations"/>
+<effect id="1879417734" name="Minor Cut"/>
 </skill>
 <skill identifier="1879417732" name="Melee Knockback" iconId="1090522259">
 <effect id="1879059058" name="Knockback"/>
@@ -30056,7 +30038,7 @@
 <effect id="1879085472" name="Weakened Armour"/>
 </skill>
 <skill identifier="1879417737" name="Shrieking Maw" iconId="1090522259">
-<effect id="1879478477" name="Lacerations"/>
+<effect id="1879478477" name="Deep Cut"/>
 <effect id="1879051273" name="Silenced" duration="5.0"/>
 <effect id="1879417738" name="Swift Rage" type="USER"/>
 </skill>
@@ -30351,6 +30333,20 @@
 <skill identifier="1879421420" name="Annihilation" iconId="1090522259">
 <effect id="1879419750" name="Apocalypse"/>
 </skill>
+<skill identifier="1879421629" name="Turn Tail" iconId="1092280587" description="key:620986928:228830419">
+<requiredEffect id="1879489057" name="DNT - SotW: Protection"/>
+<effect id="1879489333" name="Turned Tail"/>
+<effect id="1879061014" name="Improved Stealth" type="TOGGLE"/>
+<effect id="1879061014" name="Improved Stealth" type="USER_TOGGLE"/>
+<effect id="1879489152" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879421653" name="Fear No Darkness" iconId="1090644839" description="key:620986982:228830419">
+<requiredEffect id="1879489044" name="DNT - Execute Major Pet Skill"/>
+<effect id="1879489349" name="DNT - Raven Cleanse"/>
+<effect id="1879489349" name="DNT - Raven Cleanse" type="USER"/>
+<effect id="1879399352" name="Fear not the Darkness" type="USER"/>
+<effect id="1879489165" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
 <travelSkill identifier="1879421838" name="Return to Glân Vraig" category="102" iconId="1091659387" description="key:620991575:228830419">
 <position region="1" longitude="-13.37707" latitude="-20.772724"/>
 <requiredTrait id="1879049557" name="Novice"/>
@@ -30454,7 +30450,7 @@
 <effect id="1879424495" name="Poison"/>
 </skill>
 <skill identifier="1879424050" name="Deep Cut" iconId="1090522259">
-<effect id="1879424505" name="Lacerations"/>
+<effect id="1879424505" name="Deep Cut"/>
 </skill>
 <skill identifier="1879424051" name="Acid" iconId="1090522259">
 <effect id="1879419978" name="Acid Vulnerability"/>
@@ -30470,7 +30466,7 @@
 <effect id="1879424503" name="Fear"/>
 </skill>
 <skill identifier="1879424056" name="Minor Cut" iconId="1090522259">
-<effect id="1879424512" name="Lacerations"/>
+<effect id="1879424512" name="Minor Cut"/>
 </skill>
 <skill identifier="1879424057" name="Piercing Stomp" iconId="1090522259">
 <effect id="1879424508" name="Deep Wound"/>
@@ -31577,13 +31573,11 @@
 <effect id="1879447368" type="TOGGLE"/>
 <effect id="1879447368" type="USER_TOGGLE"/>
 </pet>
-<skill identifier="1879447485" name="A Murder of Crows" category="1" iconId="1092720668" description="key:621064749:228830419">
+<skill identifier="1879447485" name="A Murder of Crows" category="1" iconId="1092973484" description="key:621064749:228830419">
 <effect id="1879447484" name="A Murder of Crows"/>
 <effect id="1879447483" name="Murder of Crows Debuff"/>
 <effect id="1879447482" name="DNT - A Murder of Crows"/>
 <effect id="1879384922" name="Renewed Defences"/>
-<effect id="1879206195" name="DNT" type="USER"/>
-<effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
 <skill identifier="1879447695" name="Share Innate Strength: Quickness" category="151" iconId="1092687522" description="key:621064878:228830419">
 <effect id="1879420312" name="DNT"/>
@@ -32204,6 +32198,7 @@
 </skill>
 <skill identifier="1879455086" name="Wizard's Frost" category="6" iconId="1092754584" description="key:621070400:228830419">
 <effect id="1879277600" name="DNT"/>
+<effect id="1879052300" name="Gripped by Cold"/>
 </skill>
 <skill identifier="1879455515" name="Nature's Ward" iconId="1090522259">
 <effect id="1879453274" name="Nature's Ward"/>
@@ -32876,7 +32871,7 @@
 <effect id="1879056917" name="DNT"/>
 </skill>
 <skill identifier="1879458606" name="Tail Slash" iconId="1090522259">
-<effect id="1879051311" name="Knockaway"/>
+<effect id="1879220209" name="Knockback"/>
 </skill>
 <skill identifier="1879458693" name="At the Fore" category="25" iconId="1092812518" description="key:621072573:228830419">
 <requiredTrait id="1879273261" name="Last Stand"/>
@@ -33075,7 +33070,7 @@
 <effect id="1879056917" name="DNT"/>
 </skill>
 <skill identifier="1879461645" name="Wing Buffet" iconId="1090522259">
-<effect id="1879051311" name="Knockaway"/>
+<effect id="1879220209" name="Knockback"/>
 </skill>
 <skill identifier="1879461646" name="Engulfing Flames" iconId="1090522259">
 <effect id="1879056917" name="DNT"/>
@@ -34692,13 +34687,12 @@
 <effect id="1879479345" type="TOGGLE"/>
 <effect id="1879479345" type="USER_TOGGLE"/>
 </pet>
-<skill identifier="1879479362" name="Umbral Blast" iconId="1090522259">
-<effect id="1879485808" name="Umbral Blast" spellcraft="0.5"/>
+<skill identifier="1879479362" name="Impending Doom" iconId="1090522259">
+<effect id="1879486933" name="Impending Doom"/>
 </skill>
 <skill identifier="1879479515" name="Claustrophobic Horror" iconId="1090522259">
-<effect id="1879485798" name="Cage of Shadows" spellcraft="10.0"/>
-<effect id="1879479509" name="Claustrophobic Horror"/>
 <effect id="1879479512" name="Claustrophobic Horror"/>
+<effect id="1879479509" name="Claustrophobic Horror"/>
 </skill>
 <travelSkill identifier="1879480303" name="Guide to the Bloody Eagle Tavern" category="102" iconId="1092943524" description="key:621088260:228830419">
 <position region="5" longitude="54.93951" latitude="73.78045"/>
@@ -36371,93 +36365,65 @@
 <skill identifier="1879485357" name="Portal of Darkness" iconId="1090522259">
 <effect id="1879485801" name=".."/>
 </skill>
-<skill identifier="1879485359" name="Shadow Barrage" iconId="1090522259">
-<effect id="1879485811" name="Shadow Barrage" spellcraft="0.3"/>
-</skill>
 <skill identifier="1879485362" name="Skeletal Horde" iconId="1090522259">
 <effect id="1879485847" name=".."/>
 </skill>
-<skill identifier="1879485363" name="Shadow Blade" iconId="1090522259">
-<effect id="1879485815" name="Shadow Blade" spellcraft="0.15"/>
-</skill>
-<skill identifier="1879485364" name="Shadow Bolt" iconId="1090522259">
-<effect id="1879485803" name="Shadow Bolt" spellcraft="0.12"/>
-<effect id="1879485803" name="Shadow Bolt" spellcraft="0.12"/>
-<effect id="1879485803" name="Shadow Bolt" spellcraft="0.12"/>
-</skill>
+<skill identifier="1879485363" name="Shadow Blade" iconId="1090522259"/>
+<skill identifier="1879485364" name="Shadow Bolt" iconId="1090522259"/>
 <skill identifier="1879485365" name="Gloaming Tide" iconId="1090522259">
-<effect id="1879149379" name="DNT - Do Nothing"/>
+<effect id="1879485841" name="DNT - Summon darkwaters"/>
 </skill>
-<skill identifier="1879485366" name="Impending Doom" iconId="1090522259">
+<skill identifier="1879485366" name="Curse of Cowardice" iconId="1090522259">
 <effect id="1879485795" name="Impending Doom" spellcraft="0.35"/>
-<effect id="1879485433" name="Impending Doom"/>
+<effect id="1879487824" name="Curse of Cowardice"/>
 </skill>
 <skill identifier="1879485367" name="Corrupted Ground" iconId="1090522259">
-<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
+<effect id="1879487476" name=".."/>
 </skill>
 <skill identifier="1879485368" name="Portal Storm" iconId="1090522259">
 <effect id="1879486545" name="DNT - places portals under everyone"/>
 </skill>
 <skill identifier="1879485369" name="Night Terrors" iconId="1090522259">
-<effect id="1879485809" name="Infectious Terror" spellcraft="0.15"/>
 <effect id="1879485746" name="Night Terrors"/>
 </skill>
-<skill identifier="1879485370" name="Inescapable Doom" iconId="1090522259">
-<requiredEffect id="1879485433" name="Impending Doom"/>
-<effect id="1879485802" name="Inescapable Doom" spellcraft="2.0"/>
-</skill>
-<skill identifier="1879485372" name="Cage of Shadows" iconId="1090522259">
-<effect id="1879485450" name=".."/>
-<effect id="1879232894" name="Induce Stunned"/>
+<skill identifier="1879485370" name="Fate of Cowards" iconId="1090522259">
+<effect id="1879485802" name="Inescapable Doom" spellcraft="10.0"/>
 </skill>
 <skill identifier="1879485373" name="Infectious Terror" iconId="1090522259">
 <effect id="1879485813" name="Infectious Terror"/>
 </skill>
-<skill identifier="1879485374" name="Grim Stalkers" iconId="1090522259">
-<effect id="1879149379" name="DNT - Do Nothing"/>
-</skill>
 <skill identifier="1879485394" name="Black Flame" iconId="1090522259">
-<effect id="1879485797" name="Black Flame" spellcraft="0.3"/>
+<effect id="1879488822" name="Black Flame III"/>
 </skill>
-<skill identifier="1879485395" name="Dreadful Might" iconId="1090522259">
-<effect id="1879485799" name="Dreadful Might" spellcraft="0.25"/>
-</skill>
+<skill identifier="1879485395" name="Dreadful Might" iconId="1090522259"/>
 <skill identifier="1879485398" name="Dark Storm" iconId="1090522259">
-<effect id="1879098808" name="Morale Damage" spellcraft="0.2"/>
+<effect id="1879487530" name="Dark Storm"/>
 </skill>
 <skill identifier="1879485400" name="Deadly Chill" iconId="1090522259">
-<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
+<effect id="1879487414" name="Deadly Chill 5"/>
 </skill>
 <skill identifier="1879485401" name="Shadow Wolves" iconId="1090522259">
-<effect id="1879149379" name="DNT - Do Nothing"/>
+<effect id="1879485851" name=".."/>
 </skill>
 <skill identifier="1879485402" name="Hideous Cremation" iconId="1090522259">
 <effect id="1879485807" name="Hideous Cremation"/>
 <effect id="1879479509" name="Claustrophobic Horror"/>
 </skill>
-<skill identifier="1879485404" name="Shadow Lance" iconId="1090522259">
-<effect id="1879485818" name="Shadow Lance" spellcraft="0.5"/>
-</skill>
+<skill identifier="1879485404" name="Shadow Lance" iconId="1090522259"/>
 <skill identifier="1879485405" name="Beneath Contempt" iconId="1090522259">
-<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
+<effect id="1879487901" name="Beneath Contempt"/>
 </skill>
 <skill identifier="1879485406" name="Hands of Terror" iconId="1090522259">
 <effect id="1879485848" name=".."/>
 </skill>
-<skill identifier="1879485407" name="Flurry of Shadows" iconId="1090522259">
-<effect id="1879485812" name="Flurry of Shadows" spellcraft="0.12"/>
-<effect id="1879098808" name="Morale Damage" spellcraft="0.12"/>
-<effect id="1879098808" name="Morale Damage" spellcraft="0.12"/>
-</skill>
+<skill identifier="1879485407" name="Flurry of Shadows" iconId="1090522259"/>
 <skill identifier="1879485408" name="Horrible Twisting" iconId="1090522259">
-<effect id="1879485805" name="Horrible Twisting" spellcraft="0.35"/>
+<effect id="1879487377" name="Horrible Twisting"/>
 </skill>
 <skill identifier="1879485409" name="Carrion Birds" iconId="1090522259">
 <effect id="1879485849" name=".."/>
 </skill>
-<skill identifier="1879485410" name="Dark Paranoia" iconId="1090522259">
-<effect id="1879485817" name="Dark Paranoia" spellcraft="0.35"/>
-</skill>
+<skill identifier="1879485410" name="Dark Paranoia" iconId="1090522259"/>
 <skill identifier="1879485415" name="DNT" iconId="1090522259">
 <effect id="1879485417" name="DNT - Adds Battle-trance"/>
 </skill>
@@ -36477,13 +36443,16 @@
 <skill identifier="1879485824" name="Flaming Arrow" iconId="1090522259">
 <effect id="1879485823" name="DNT"/>
 </skill>
-<skill identifier="1879485990" name="Friend of Feline Hunters (Savannah Stalker)" category="1" iconId="1092945794" description="key:621092539:228830419">
+<skill identifier="1879485838" name="Fixates upon a single enemy, ignoring most threat." iconId="1090522259">
+<effect id="1879485839" name="Fixate"/>
+</skill>
+<skill identifier="1879485990" name="Friend of Large Hunters (Savannah Stalker)" category="1" iconId="1092945794" description="key:621092539:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879486017" name="DNT - Savannah Stalker[e]"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879485992" name="Raven-lore (Flame-beak Caller)" category="1" iconId="1092945795" description="key:621092564:228830419">
+<skill identifier="1879485992" name="Friend of Small Fowl (Flame-beak Caller)" category="1" iconId="1092945795" description="key:621092564:228830419">
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879486053" name="DNT - Flame-beak Caller[v]"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -36495,7 +36464,7 @@
 <skill identifier="1879485995" name="Call to Arms: Herald of Hope (Hobbit-lass)" category="143" iconId="1092811859" description="key:621092559:228830419">
 <effect id="1879486046" name="DNT - Herald of Hope (Hobbit-lass)"/>
 </skill>
-<skill identifier="1879485996" name="Friend of Nature (Tomb-guardian)" category="1" iconId="1092945789" description="key:621092511:228830419">
+<skill identifier="1879485996" name="Friend of the Wilds (Tomb-guardian)" category="1" iconId="1092945789" description="key:621092511:228830419">
 <requiredEffect id="1879290047" name="Bird Flag"/>
 <effect id="1879486006" name="DNT - Tomb-guardian[e]"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -36522,7 +36491,7 @@
 <skill identifier="1879486007" name="Call to Arms: Archer (Umbari Seafarer)" category="143" iconId="1092811851" description="key:621092549:228830419">
 <effect id="1879486014" name="DNT - Archer (Umbari Seafarer)"/>
 </skill>
-<skill identifier="1879486008" name="Friend of Nature (Gourd-guardian)" category="1" iconId="1092945787" description="key:621092535:228830419">
+<skill identifier="1879486008" name="Friend of the Wilds (Gourd-guardian)" category="1" iconId="1092945787" description="key:621092535:228830419">
 <requiredEffect id="1879290047" name="Bird Flag"/>
 <effect id="1879486005" name="DNT - Gourd-guardian[e]"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -36534,19 +36503,19 @@
 <skill identifier="1879486010" name="Call to Arms: Herald of Victory (Temamir Guard)" category="143" iconId="1092811853" description="key:621092526:228830419">
 <effect id="1879485991" name="DNT - Herald of Victory (Temamir Guard)"/>
 </skill>
-<skill identifier="1879486011" name="Friend of Feline Hunters (Savannah Hunter Juvenile)" category="1" iconId="1092945790" description="key:621092509:228830419">
+<skill identifier="1879486011" name="Friend of Large Hunters (Savannah Hunter Juvenile)" category="1" iconId="1092945790" description="key:621092509:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879486044" name="DNT - Savannah Hunter Juvenile[e]"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879486015" name="Friend of Nature (Lantern-guardian)" category="1" iconId="1092945793" description="key:621092515:228830419">
+<skill identifier="1879486015" name="Friend of the Wilds (Lantern-guardian)" category="1" iconId="1092945793" description="key:621092515:228830419">
 <requiredEffect id="1879290047" name="Bird Flag"/>
 <effect id="1879486027" name="DNT - Lantern-guardian[e]"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879486019" name="Eagle-friend (Belegaer Gull)" category="1" iconId="1092945791" description="key:621092527:228830419">
+<skill identifier="1879486019" name="Friend of Noble Birds (Belegaer Gull)" category="1" iconId="1092945791" description="key:621092527:228830419">
 <requiredEffect id="1879278143" name="Bird Flag"/>
 <effect id="1879486033" name="DNT - Belegaer Gull[e]"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -36555,7 +36524,7 @@
 <skill identifier="1879486023" name="Call to Arms: Archer (Temamir Hunter)" category="143" iconId="1092811851" description="key:621092570:228830419">
 <effect id="1879485994" name="DNT - Archer (Temamir Hunter)"/>
 </skill>
-<skill identifier="1879486024" name="Friend of Nature (Dune-guardian)" category="1" iconId="1092945792" description="key:621092544:228830419">
+<skill identifier="1879486024" name="Friend of the Wilds (Dune-guardian)" category="1" iconId="1092945792" description="key:621092544:228830419">
 <requiredEffect id="1879290047" name="Bird Flag"/>
 <effect id="1879486018" name="DNT - Dune-guardian[e]"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -36564,13 +36533,13 @@
 <skill identifier="1879486025" name="Call to Arms: Herald of Hope (Umbari Guardsman)" category="143" iconId="1092811859" description="key:621092541:228830419">
 <effect id="1879486000" name="DNT - Herald of Hope (Umbari Guardsman)"/>
 </skill>
-<skill identifier="1879486028" name="Friend of Nature (Juvenile Swamp-guardian)" category="1" iconId="1092945797" description="key:621092550:228830419">
+<skill identifier="1879486028" name="Friend of the Wilds (Juvenile Swamp-guardian)" category="1" iconId="1092945797" description="key:621092550:228830419">
 <requiredEffect id="1879290047" name="Bird Flag"/>
 <effect id="1879486055" name="DNT - Young Swamp-guardian[e]"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879486032" name="Friend of Feline Hunters (Savannah Pride-keeper)" category="1" iconId="1092945800" description="key:621092532:228830419">
+<skill identifier="1879486032" name="Friend of Large Hunters (Savannah Pride-keeper)" category="1" iconId="1092945800" description="key:621092532:228830419">
 <requiredEffect id="1879290051" name="Bird Flag"/>
 <effect id="1879486020" name="DNT - Savannah Pride-keeper[e]"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -36582,13 +36551,13 @@
 <skill identifier="1879486036" name="Call to Arms: Herald of Victory (Hobbit-lad Bounder)" category="143" iconId="1092811853" description="key:621092557:228830419">
 <effect id="1879486047" name="DNT - Herald of Victory (Hobbit-lad Bounder)"/>
 </skill>
-<skill identifier="1879486037" name="Lynx-speech (Dune-stalker Caracal)" category="1" iconId="1092945799" description="key:621092512:228830419">
+<skill identifier="1879486037" name="Friend of Small Hunters (Dune-stalker Caracal)" category="1" iconId="1092945799" description="key:621092512:228830419">
 <requiredEffect id="1879290049" name="Bird Flag"/>
 <effect id="1879486035" name="DNT - Dune-stalker Caracal[e]"/>
 <effect id="1879206195" name="DNT" type="USER"/>
 <effect id="1879216474" name="Remove consumable" type="USER"/>
 </skill>
-<skill identifier="1879486038" name="Eagle-friend (Frosted Forest Owl)" category="1" iconId="1092945796" description="key:621092507:228830419">
+<skill identifier="1879486038" name="Friend of Noble Birds (Frosted Forest Owl)" category="1" iconId="1092945796" description="key:621092507:228830419">
 <requiredEffect id="1879278143" name="Bird Flag"/>
 <effect id="1879486012" name="DNT - Frosted Forest Owl[e]"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -36606,7 +36575,7 @@
 <skill identifier="1879486048" name="Call to Arms: Herald of Hope (Umbari Guardswoman)" category="143" iconId="1092811859" description="key:621092554:228830419">
 <effect id="1879486054" name="DNT - Herald of Hope (Umbari Guardswoman)"/>
 </skill>
-<skill identifier="1879486051" name="Raven-lore (Amethyst-tailed Caller)" category="1" iconId="1092945786" description="key:621092556:228830419">
+<skill identifier="1879486051" name="Friend of Small Fowl (Amethyst-tailed Caller)" category="1" iconId="1092945786" description="key:621092556:228830419">
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879486016" name="DNT - Amethyst-tailed Caller[v]"/>
 <effect id="1879206195" name="DNT" type="USER"/>
@@ -36672,9 +36641,6 @@
 <skill identifier="1879486527" name="Summon Rat" iconId="1090522259">
 <effect id="1879486528" name="Summon Rat Pet"/>
 </skill>
-<skill identifier="1879486546" name="Seeking Shadows" iconId="1090522259">
-<effect id="1879485811" name="Shadow Barrage" spellcraft="0.15"/>
-</skill>
 <skill identifier="1879486556" name="an interrupting attack" iconId="1090522259">
 <effect id="1879054551" name="Interrupts Inductions"/>
 </skill>
@@ -36696,8 +36662,10 @@
 <skill identifier="1879486568" name="a stunning attack" iconId="1090522259">
 <effect id="1879051778" name="Induce Stunned"/>
 </skill>
-<skill identifier="1879486704" name="Deadly Challenge" iconId="1090522259">
+<skill identifier="1879486704" name="Ominous Challenge" iconId="1090522259">
 <effect id="1879485839" name="Fixate"/>
+<effect id="1879487407" name="Ominous Challenge"/>
+<effect id="1879487412" name="DNT - Deadly Challenge Success Check"/>
 </skill>
 <skill identifier="1879486735" name="Nuisance Swipe" iconId="1090522259">
 <effect id="1879080116" name="Knockback"/>
@@ -36716,5 +36684,744 @@
 </skill>
 <skill identifier="1879486744" name="Call for Aid" iconId="1090522259">
 <effect id="1879117945" name="Broodling's Yearnings"/>
+</skill>
+<skill identifier="1879486932" name="Umbral Nova" iconId="1090522259"/>
+<skill identifier="1879487014" name="Lost in Shadow" iconId="1090522259">
+<effect id="1879488714" name="DNT"/>
+</skill>
+<skill identifier="1879487478" name="Major Pet Command" category="6" iconId="1092973532" description="key:621093838:228830419">
+<effect id="1879491455" name="DNT - Wild Sigil Effect" type="USER"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect" type="USER"/>
+</skill>
+<skill identifier="1879487480" name="Dismiss Pet" category="1" iconId="1092000221" description="key:621093839:228830419">
+<effect id="1879489160" name="DNT - Run a ScriptKey on the pet to get them to destroy themselves."/>
+</skill>
+<skill identifier="1879487481" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621093841:228830419">
+<effect id="1879491449" name="DNT - Wild Sigil Effect" type="USER"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect" type="USER"/>
+</skill>
+<skill identifier="1879487519" name="Deadly Ice" iconId="1090522259"/>
+<skill identifier="1879488014" name="Dispel Corruption" category="19" iconId="1092974603" description="key:621094360:228830419">
+<effect id="1879111269" name="Remove Corruption"/>
+</skill>
+<skill identifier="1879488015" name="Dispel Corruption" category="19" iconId="1092974602" description="key:621094354:228830419">
+<effect id="1879488362" name="DNT - Empowering Fires Dispel"/>
+</skill>
+<skill identifier="1879488016" name="Dispel Corruption" category="19" iconId="1092974607" description="key:621094347:228830419">
+<effect id="1879111269" name="Remove Corruption"/>
+</skill>
+<skill identifier="1879488017" name="Dispel Corruption" category="19" iconId="1092974606" description="key:621094344:228830419">
+<effect id="1879488361" name="Remove Corruption"/>
+</skill>
+<skill identifier="1879488018" name="Wizard's Spark" category="6" iconId="1092954742" description="key:621094345:228830419">
+<effect id="1879489793" name="DNT"/>
+<effect id="1879490773" name="Induce Stunned"/>
+<effect id="1879271236" name="Fierce Lightning"/>
+</skill>
+<skill identifier="1879488019" name="Friend of the Wilds (Gourd-guardian)" category="1" iconId="1092945787" description="key:621094356:228830419">
+<requiredEffect id="1879290047" name="Bird Flag"/>
+<effect id="1879488256" name="DNT - Gourd-guardian[e]"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879488020" name="Dispel Corruption" category="19" iconId="1092974604" description="key:621094343:228830419">
+<effect id="1879488363" name="Remove Corruption"/>
+</skill>
+<skill identifier="1879488021" name="Friend of the Wilds (Dune-guardian)" category="1" iconId="1092945792" description="key:621094361:228830419">
+<requiredEffect id="1879290047" name="Bird Flag"/>
+<effect id="1879488252" name="DNT - Dune-guardian[e]"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879488022" name="Friend of Small Fowl (Flame-beak Caller)" category="1" iconId="1092945795" description="key:621094358:228830419">
+<requiredEffect id="1879288925" name="Bird Flag"/>
+<effect id="1879488260" name="DNT - Flame-beak Caller[v]"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879488023" name="Friend of the Wilds (Tomb-guardian)" category="1" iconId="1092945789" description="key:621094359:228830419">
+<requiredEffect id="1879290047" name="Bird Flag"/>
+<effect id="1879488231" name="DNT - Tomb-guardian[e]"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879488024" name="Friend of Small Fowl (Amethyst-tailed Caller)" category="1" iconId="1092945786" description="key:621094357:228830419">
+<requiredEffect id="1879288925" name="Bird Flag"/>
+<effect id="1879488222" name="DNT - Amethyst-tailed Caller[v]"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879488025" name="Friend of the Wilds (Juvenile Swamp-guardian)" category="1" iconId="1092945797" description="key:621094355:228830419">
+<requiredEffect id="1879290047" name="Bird Flag"/>
+<effect id="1879488224" name="DNT - Young Swamp-guardian[e]"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879488026" name="Friend of Noble Birds (Belegaer Gull)" category="1" iconId="1092945791" description="key:621094349:228830419">
+<requiredEffect id="1879278143" name="Bird Flag"/>
+<effect id="1879488210" name="DNT - Belegaer Gull[e]"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879488027" name="Friend of Large Hunters (Savannah Hunter Juvenile)" category="1" iconId="1092945790" description="key:621094348:228830419">
+<requiredEffect id="1879290051" name="Bird Flag"/>
+<effect id="1879488227" name="DNT - Savannah Hunter Juvenile[e]"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879488028" name="Friend of Large Hunters (Savannah Stalker)" category="1" iconId="1092945794" description="key:621094353:228830419">
+<requiredEffect id="1879290051" name="Bird Flag"/>
+<effect id="1879488201" name="DNT - Savannah Stalker[e]"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879488029" name="Friend of Noble Birds (Frosted Forest Owl)" category="1" iconId="1092945796" description="key:621094350:228830419">
+<requiredEffect id="1879278143" name="Bird Flag"/>
+<effect id="1879488226" name="DNT - Frosted Forest Owl[e]"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879488030" name="Friend of Large Hunters (Savannah Pride-keeper)" category="1" iconId="1092945800" description="key:621094351:228830419">
+<requiredEffect id="1879290051" name="Bird Flag"/>
+<effect id="1879488258" name="DNT - Savannah Pride-keeper[e]"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879488032" name="Friend of the Wilds (Lantern-guardian)" category="1" iconId="1092945793" description="key:621094352:228830419">
+<requiredEffect id="1879290047" name="Bird Flag"/>
+<effect id="1879488206" name="DNT - Lantern-guardian[e]"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879488033" name="Friend of Small Hunters (Dune-stalker Caracal)" category="1" iconId="1092945799" description="key:621094362:228830419">
+<requiredEffect id="1879290049" name="Bird Flag"/>
+<effect id="1879488247" name="DNT - Dune-stalker Caracal[e]"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879488365" name="Gust of Wind" category="41" iconId="1090553874" description="key:621094669:228830419">
+<effect id="1879447594" name="DNT - Gust of Wind Damage AoE"/>
+<effect id="1879271166" name="DNT"/>
+<effect id="1879447930" name="DNT"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879488369" name="Grasping Hand" iconId="1090522259">
+<effect id="1879488367" name="Shadowed Fingers"/>
+</skill>
+<skill identifier="1879488632" name="Enervating Torment" iconId="1090522259">
+<effect id="1879488631" name="Enervating Torment" type="TOGGLE"/>
+<effect id="1879488631" name="Enervating Torment" type="USER_TOGGLE"/>
+</skill>
+<skill identifier="1879488721" name="Major Call - Harrying Flanks" category="1" iconId="1092973532" description="key:621094837:228830419">
+<effect id="1879489219" name="Threat Decrease"/>
+<effect id="1879052302" name="Flanked!"/>
+</skill>
+<skill identifier="1879488726" name="Call to Lynx" category="1" iconId="1092974509" description="key:621094824:228830419">
+<requiredEffect id="1879290049" name="Bird Flag"/>
+<effect id="1879489916" name="Savage Bleed"/>
+<effect id="1879491456" name="DNT - Gust of Wind Copy"/>
+<effect id="1879282929" name="DNT - Lynx" type="USER"/>
+</skill>
+<skill identifier="1879488728" name="Call to Lurkers" category="1" iconId="1092974513" description="key:621094826:228830419">
+<requiredEffect id="1879290047" name="Bird Flag"/>
+<effect id="1879276765" name="Induce Stunned"/>
+<effect id="1879491456" name="DNT - Gust of Wind Copy"/>
+<effect id="1879489915" name="Swarm of Bees"/>
+<effect id="1879289278" name="DNT - Bog-Guardian" type="USER"/>
+</skill>
+<skill identifier="1879488729" name="Major Pet Command" category="6" iconId="1092973532" description="key:621094843:228830419">
+<effect id="1879491455" name="DNT - Wild Sigil Effect" type="USER"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect" type="USER"/>
+</skill>
+<skill identifier="1879488730" name="Minor Call - Flank" category="1" iconId="1092973535" description="key:621094825:228830419">
+<effect id="1879052302" name="Flanked!"/>
+</skill>
+<skill identifier="1879488731" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621094835:228830419">
+<effect id="1879491449" name="DNT - Wild Sigil Effect" type="USER"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect" type="USER"/>
+</skill>
+<skill identifier="1879488733" name="Call to Eagles" category="1" iconId="1092974510" description="key:621094838:228830419">
+<requiredEffect id="1879278143" name="Bird Flag"/>
+<effect id="1879275341" name="Sticky Embers"/>
+<effect id="1879491456" name="DNT - Gust of Wind Copy"/>
+<effect id="1879282951" name="DNT - Lesser Giant Eagle" type="USER"/>
+</skill>
+<skill identifier="1879488735" name="Call to Ravens" category="1" iconId="1092974514" description="key:621094822:228830419">
+<requiredEffect id="1879288925" name="Bird Flag"/>
+<effect id="1879049334" name="Distraction"/>
+<effect id="1879491456" name="DNT - Gust of Wind Copy"/>
+<effect id="1879282928" name="DNT - Raven" type="USER"/>
+</skill>
+<skill identifier="1879488737" name="Call to Bears" category="1" iconId="1092974512" description="key:621094830:228830419">
+<requiredEffect id="1879290046" name="Bird Flag"/>
+<effect id="1879085385" name="Induce Feared"/>
+<effect id="1879491456" name="DNT - Gust of Wind Copy"/>
+<effect id="1879282930" name="DNT - Bear" type="USER"/>
+</skill>
+<skill identifier="1879488740" name="Call to Sabre-tooths" category="1" iconId="1092974507" description="key:621094827:228830419">
+<requiredEffect id="1879290051" name="Bird Flag"/>
+<effect id="1879491456" name="DNT - Gust of Wind Copy"/>
+<effect id="1879282950" name="DNT - Sabertooth Cat" type="USER"/>
+</skill>
+<skill identifier="1879488744" name="Sign of the Wild: Protection" category="6" iconId="1092280587" description="key:621094841:228830419">
+<effect id="1879491453" name="DNT - Wild Sigil Effect" type="USER"/>
+</skill>
+<skill identifier="1879488745" name="Sign of the Wild: Rage" category="6" iconId="1090541215" description="key:621094819:228830419">
+<effect id="1879491450" name="DNT - Wild Sigil Effect" type="USER"/>
+</skill>
+<skill identifier="1879489147" name="Shielding Roots" iconId="1092280587" description="key:621095232:228830419">
+<requiredEffect id="1879489057" name="DNT - SotW: Protection"/>
+<effect id="1879489327" name="Shielding Roots"/>
+<effect id="1879489152" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879489149" name="Harrying Strike" iconId="1090531782" description="key:621095236:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
+<effect id="1879490743" name="Harried!"/>
+<effect id="1879097098" name="Critical Claws"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489335" name="Minor Command: Offence" type="USER"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879489150" name="Hardened Hide" iconId="1092280587" description="key:621095231:228830419">
+<requiredEffect id="1879489057" name="DNT - SotW: Protection"/>
+<effect id="1879489326" name="Hardened Hide"/>
+<effect id="1879489152" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879489151" name="Bear Hug" iconId="1090553877" description="key:621095237:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
+<effect id="1879051312" name="Induce Stunned"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489323" name="Minor Command: Offence" type="USER"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879489153" name="Wild Peck" iconId="1090541215" description="key:621095235:228830419">
+<requiredEffect id="1879489067" name="DNT - SotW: Rage"/>
+<effect id="1879489168" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879489154" name="Noble Purpose" iconId="1090531778" description="key:621095228:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
+<effect id="1879489331" name="DNT - Noble Purpose AoE"/>
+<effect id="1879489331" name="DNT - Noble Purpose AoE" type="USER"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879489155" name="Flashing Flank" iconId="1091671531" description="key:621095222:228830419">
+<effect id="1879052302" name="Flanked!"/>
+</skill>
+<skill identifier="1879489156" name="Razor Claws" iconId="1091401081" description="key:621095216:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
+<effect id="1879489325" name="Razor Claws"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879489159" name="Nature's Light" iconId="1091671533" description="key:621095238:228830419">
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.015"/>
+</skill>
+<skill identifier="1879489164" name="Nature's Light" iconId="1091671533" description="key:621095227:228830419">
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.03"/>
+</skill>
+<skill identifier="1879489166" name="Cornered Vigour" iconId="1092280587" description="key:621095234:228830419">
+<requiredEffect id="1879489057" name="DNT - SotW: Protection"/>
+<effect id="1879489330" name="Cornered Vigour"/>
+<effect id="1879061014" name="Improved Stealth" type="TOGGLE"/>
+<effect id="1879061014" name="Improved Stealth" type="USER_TOGGLE"/>
+<effect id="1879489152" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879489167" name="Frostbite" iconId="1091401081" description="key:621095221:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
+<effect id="1879489325" name="Razor Claws"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879489210" name="Stalking" iconId="1090522259">
+<effect id="1879487805" name="Stalking" spellcraft="10.0"/>
+</skill>
+<skill identifier="1879489211" name="Hunting" iconId="1090522259">
+<effect id="1879487803" name="Hunting" spellcraft="10.0"/>
+</skill>
+<skill identifier="1879489213" name="Harassed" iconId="1090522259">
+<effect id="1879487804" name="Harassed" spellcraft="10.0"/>
+</skill>
+<skill identifier="1879489214" name="Surrounded" iconId="1090522259">
+<effect id="1879487801" name="Surrounded" spellcraft="10.0"/>
+</skill>
+<skill identifier="1879489215" name="Besieged" iconId="1090522259">
+<effect id="1879487802" name="Besieged" spellcraft="10.0"/>
+</skill>
+<skill identifier="1879489216" name="Unbreakable Bond" category="23" iconId="1091926677" description="key:621095285:228830419">
+<effect id="1879489217" name="Unbreakable Bond" type="TOGGLE"/>
+<effect id="1879490752" name="Unbreakable Bond" type="TOGGLE"/>
+<effect id="1879489217" name="Unbreakable Bond" type="USER_TOGGLE"/>
+<effect id="1879490752" name="Unbreakable Bond" type="USER_TOGGLE"/>
+</skill>
+<skill identifier="1879489220" name="Retribution" category="41" iconId="1092973472" description="key:621095286:228830419">
+<effect id="1879073252" name="Induce Stunned"/>
+<effect id="1879291233" name="Force Attack"/>
+<effect id="1879489784" name="DNT - 3s Light of Hope CD red" type="USER"/>
+</skill>
+<skill identifier="1879489227" name="Unbridled Fury" iconId="1091478600" description="key:621095289:228830419">
+<requiredEffect id="1879489044" name="DNT - Execute Major Pet Skill"/>
+<effect id="1879489351" name="DNT"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489165" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879489324" name="Sacrifice" iconId="1090531783" description="key:621095353:228830419">
+<requiredEffect id="1879489057" name="DNT - SotW: Protection"/>
+<effect id="1879490684" name="Sacrifice"/>
+<effect id="1879489329" name="Sacrifice" type="USER"/>
+<effect id="1879489152" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879489579" name="TBD FELL BEAST" iconId="1090522259">
+<effect id="1879489585" name=".."/>
+</skill>
+<skill identifier="1879489582" name="Tenebrous Spiders" iconId="1090522259">
+<effect id="1879489578" name=".."/>
+</skill>
+<skill identifier="1879489720" name="Tenebrous Venom" iconId="1090522259">
+<effect id="1879489728" name="Tenebrous Venom"/>
+</skill>
+<skill identifier="1879489722" name="Spider Fangs" iconId="1090522259"/>
+<skill identifier="1879489726" name="Web of Darkness" iconId="1090522259">
+<effect id="1879489711" name=".."/>
+</skill>
+<skill identifier="1879489789" name="Battle Knowledge" category="19" iconId="1092973474" description="key:621095777:228830419">
+<effect id="1879489790"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879489934" name="Enervating Grip" iconId="1090522259">
+<effect id="1879489940" name="Enervating Grip"/>
+</skill>
+<skill identifier="1879489935" name="Dark Blade" iconId="1090522259"/>
+<skill identifier="1879489939" name="Sinister Claws" iconId="1090522259"/>
+<skill identifier="1879490235" name="Dominate" iconId="1090522259"/>
+<skill identifier="1879490236" name="Grasping Shadows" iconId="1090522259">
+<effect id="1879491000" name="Grasping Shades"/>
+</skill>
+<skill identifier="1879490238" name="Invigourating Strike" iconId="1090522259">
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.05" type="USER"/>
+</skill>
+<skill identifier="1879490239" name="Metallic Ash" iconId="1090522259">
+<effect id="1879490998" name="DNT"/>
+</skill>
+<skill identifier="1879490240" name="Summon Storm Grim" iconId="1090522259">
+<effect id="1879480658"/>
+<effect id="1879490359" name="DNT - Summon a grim" type="USER"/>
+</skill>
+<skill identifier="1879490241" name="Beseech Flame" iconId="1090522259"/>
+<skill identifier="1879490243" name="Carrion Strike" iconId="1090522259">
+<effect id="1879491019" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879490244" name="Frigid Burst" iconId="1090522259">
+<effect id="1879490966" name="Frigid Burst"/>
+</skill>
+<skill identifier="1879490245" name="Shadow Strike" iconId="1090522259">
+<effect id="1879388657" name="Induce Stunned"/>
+</skill>
+<skill identifier="1879490246" name="Obliterate" iconId="1090522259">
+<effect id="1879490998" name="DNT"/>
+</skill>
+<skill identifier="1879490247" name="Tearing Bite" iconId="1090522259">
+<effect id="1879490971" name="Torn Flesh"/>
+<effect id="1879490995" name="DNT - tier down lightning debuff"/>
+</skill>
+<skill identifier="1879490249" name="Tail Sweep" iconId="1090522259">
+<effect id="1879059058" name="Knockback"/>
+<effect id="1879490995" name="DNT - tier down lightning debuff"/>
+</skill>
+<skill identifier="1879490250" name="Raging Inferno" iconId="1090522259">
+<effect id="1879490972" name="Raging Inferno"/>
+</skill>
+<skill identifier="1879490251" name="Vigour of the Deep" iconId="1090522259">
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.33"/>
+</skill>
+<skill identifier="1879490252" name="Amassed Shadow" iconId="1090522259"/>
+<skill identifier="1879490254" name="Great Crash" iconId="1090522259">
+<effect id="1879490998" name="DNT"/>
+</skill>
+<skill identifier="1879490256" name="Summon Shade" iconId="1090522259">
+<effect id="1879490360"/>
+</skill>
+<skill identifier="1879490257" name="Searing Winds" iconId="1090522259">
+<effect id="1879490990" name="DNT"/>
+</skill>
+<skill identifier="1879490258" name="Immolation" iconId="1090522259"/>
+<skill identifier="1879490259" name="Basic Strike" iconId="1090522259"/>
+<skill identifier="1879490262" name="The Glutton's Ancient Hide" iconId="1090522259">
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.1"/>
+<effect id="1879491022" name="Ancient Hide"/>
+</skill>
+<skill identifier="1879490264" name="Seeking Blade" iconId="1090522259"/>
+<skill identifier="1879490265" name="Cleaving Strike" iconId="1090522259"/>
+<skill identifier="1879490269" name="Black Strike" iconId="1090522259"/>
+<skill identifier="1879490270" name="Bursting Flame" iconId="1090522259">
+<effect id="1879490980" name="Bursting Flame"/>
+</skill>
+<skill identifier="1879490272" name="Storm Surge" iconId="1090522259">
+<effect id="1879490998" name="DNT"/>
+<effect id="1879490965" name="Storm Surge Strike" type="USER"/>
+</skill>
+<skill identifier="1879490273" name="Focus Ire" iconId="1090522259"/>
+<skill identifier="1879490274" name="Charged Air" iconId="1090522259">
+<effect id="1879490946" name="Charged Air"/>
+<effect id="1879490998" name="DNT"/>
+</skill>
+<skill identifier="1879490275" name="Hungering Fangs" iconId="1090522259">
+<effect id="1879490977" name="Hungering Fangs"/>
+</skill>
+<skill identifier="1879490276" name="Beseech Shadow" iconId="1090522259"/>
+<skill identifier="1879490277" name="Liquify Metal" iconId="1090522259">
+<effect id="1879491001" name="Boiling Armour"/>
+</skill>
+<skill identifier="1879490278" name="a savage strike" iconId="1090522259">
+<effect id="1879490995" name="DNT - tier down lightning debuff"/>
+</skill>
+<skill identifier="1879490279" name="Haunting Fear" iconId="1090522259">
+<effect id="1879203553" name="Induce Feared"/>
+</skill>
+<skill identifier="1879490280" name="Acrid Mass" iconId="1090522259">
+<effect id="1879491015" name="Acrid Pestilence - 3"/>
+</skill>
+<skill identifier="1879490281" name="Summon Storm" iconId="1090522259">
+<effect id="1879490358"/>
+</skill>
+<skill identifier="1879490283" name="Unending Well" iconId="1090522259">
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.1"/>
+</skill>
+<skill identifier="1879490284" name="Wind Buffet" iconId="1090522259">
+<effect id="1879059058" name="Knockback"/>
+<effect id="1879490998" name="DNT"/>
+</skill>
+<skill identifier="1879490285" name="Dying Burst" iconId="1090522259">
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="1.0" type="USER"/>
+</skill>
+<skill identifier="1879490286" name="Static Shock" iconId="1090522259"/>
+<skill identifier="1879490287" name="an enraged strike" iconId="1090522259">
+<effect id="1879490995" name="DNT - tier down lightning debuff"/>
+<effect id="1879482680" name="DNT - Removes Player-applied Enrage effects" type="USER"/>
+<effect id="1879490234" name="Calmed Mind" type="USER"/>
+</skill>
+<skill identifier="1879490288" name="a strong strike" iconId="1090522259">
+<effect id="1879490995" name="DNT - tier down lightning debuff"/>
+</skill>
+<skill identifier="1879490290" name="Minor Lightning Strike" iconId="1090522259"/>
+<skill identifier="1879490291" name="Shield of the Deep" iconId="1090522259">
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.1"/>
+<effect id="1879490997" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879490292" name="Call Shadow" iconId="1090522259"/>
+<skill identifier="1879490293" name="Proximity Burn" iconId="1090522259"/>
+<skill identifier="1879490296" name="Shocking Charge" iconId="1090522259">
+<effect id="1879490998" name="DNT"/>
+</skill>
+<skill identifier="1879490297" name="Abyssal Lore" iconId="1090522259">
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.05"/>
+<effect id="1879490996" name="DNT" type="USER"/>
+</skill>
+<skill identifier="1879490299" name="Thunderous Breath" iconId="1090522259">
+<effect id="1879490998" name="DNT"/>
+<effect id="1879490359" name="DNT - Summon a grim" type="USER"/>
+</skill>
+<skill identifier="1879490301" name="Bite" iconId="1090522259">
+<effect id="1879490995" name="DNT - tier down lightning debuff"/>
+</skill>
+<skill identifier="1879490345" name="Summon Storm" iconId="1090522259">
+<effect id="1879490347"/>
+</skill>
+<skill identifier="1879490346" name="Morgul Strike" iconId="1090522259"/>
+<skill identifier="1879490348" name="Summon Storm Grim" iconId="1090522259">
+<effect id="1879480658"/>
+<effect id="1879490353" name="DNT - Summon a grim" type="USER"/>
+</skill>
+<skill identifier="1879490349" name="Inferno" iconId="1090522259"/>
+<skill identifier="1879490350" name="Life Tether" iconId="1090522259">
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.05"/>
+<effect id="1879490927" name="Fell-shield" type="TOGGLE"/>
+<effect id="1879490927" name="Fell-shield" type="USER_TOGGLE"/>
+</skill>
+<skill identifier="1879490351" name="Storm Surge" iconId="1090522259">
+<effect id="1879490998" name="DNT"/>
+</skill>
+<skill identifier="1879490352" name="Proximity Burn" iconId="1090522259"/>
+<skill identifier="1879490355" name="an enraged strike" iconId="1090522259">
+<effect id="1879482680" name="DNT - Removes Player-applied Enrage effects" type="USER"/>
+<effect id="1879490234" name="Calmed Mind" type="USER"/>
+</skill>
+<skill identifier="1879490356" name="Summon Shade" iconId="1090522259">
+<effect id="1879490361"/>
+</skill>
+<skill identifier="1879490357" name="Thunderous Breath" iconId="1090522259">
+<effect id="1879490998" name="DNT"/>
+<effect id="1879490353" name="DNT - Summon a grim" type="USER"/>
+</skill>
+<skill identifier="1879490400" name="Shocking Blast" iconId="1090522259">
+<effect id="1879491027" name="Conduit Armour"/>
+<effect id="1879490998" name="DNT"/>
+</skill>
+<skill identifier="1879490450" name="Black Scream" iconId="1090522259"/>
+<skill identifier="1879490461" name="Black Ice Barrier" iconId="1090522259">
+<effect id="1879490460" name="This barrier of ice freezes the weapons of those who dare attack the one so protected."/>
+</skill>
+<skill identifier="1879490466" name="Ghostly Beak" iconId="1090522259"/>
+<skill identifier="1879490473" name="Ring of Fire" category="19" iconId="1092967970" description="key:621096401:228830419">
+<effect id="1879490472" name="Ring of Fire"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+</skill>
+<skill identifier="1879490501" name="Staff Strike" category="8" iconId="1092954743" description="key:621096428:228830419">
+<effect id="1879060754" name="DNT"/>
+</skill>
+<skill identifier="1879490593" name="Bloody Peck" iconId="1090522259">
+<effect id="1879490592" name="Bloody Peck"/>
+</skill>
+<pet identifier="1879490716" name="Shadow Nether-hound" category="145" iconId="1092964956" initialName="key:621096630:33816677" sourceDescription="key:621096638:211796645" genus="14" species="27" subSpecies="132" description="key:621096638:228830419">
+<effect id="1879490717" type="TOGGLE"/>
+<effect id="1879490717" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879490718" name="Shadow Raven" category="145" iconId="1092964955" initialName="key:621096631:33816677" sourceDescription="key:621096645:211796645" genus="14" species="27" subSpecies="132" description="key:621096645:228830419">
+<effect id="1879490725" type="TOGGLE"/>
+<effect id="1879490725" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879490720" name="Shadow Spider" category="145" iconId="1092964952" initialName="key:621096636:33816677" sourceDescription="key:621096640:211796645" genus="14" species="27" subSpecies="132" description="key:621096640:228830419">
+<effect id="1879490726" type="TOGGLE"/>
+<effect id="1879490726" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879490721" name="Shadow Hedgehog" category="145" iconId="1092964954" initialName="key:621096634:33816677" sourceDescription="key:621096652:211796645" genus="14" species="27" subSpecies="132" description="key:621096652:228830419">
+<effect id="1879490719" type="TOGGLE"/>
+<effect id="1879490719" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879490722" name="Shadow Cat" category="145" iconId="1092964957" initialName="key:621096635:33816677" sourceDescription="key:621096639:211796645" genus="14" species="27" subSpecies="132" description="key:621096639:228830419">
+<effect id="1879490730" type="TOGGLE"/>
+<effect id="1879490730" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879490723" name="Fierce Hedgehog" category="145" iconId="1092964953" initialName="key:621096629:33816677" sourceDescription="key:621096647:211796645" genus="14" species="27" subSpecies="132" description="key:621096647:228830419">
+<effect id="1879490715" type="TOGGLE"/>
+<effect id="1879490715" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879490724" name="Mirkwood Sabre-cat" category="145" iconId="1092964959" initialName="key:621096633:33816677" sourceDescription="key:621096648:211796645" genus="14" species="27" subSpecies="132" description="key:621096648:228830419">
+<effect id="1879490728" type="TOGGLE"/>
+<effect id="1879490728" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879490729" name="Shadow Lion" category="145" iconId="1092964958" initialName="key:621096632:33816677" sourceDescription="key:621096650:211796645" genus="14" species="27" subSpecies="132" description="key:621096650:228830419">
+<effect id="1879490727" type="TOGGLE"/>
+<effect id="1879490727" type="USER_TOGGLE"/>
+</pet>
+<skill identifier="1879490741" name="Furious Claws" iconId="1090527705" description="key:621096669:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
+<effect id="1879097098" name="Critical Claws"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489332" name="Minor Command: Offence" type="USER"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879490742" name="Wild Strike" iconId="1090541215" description="key:621096668:228830419">
+<requiredEffect id="1879489067" name="DNT - SotW: Rage"/>
+<effect id="1879489168" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879490745" name="Strong Strike" iconId="1090531781" description="key:621096675:228830419"/>
+<skill identifier="1879490748" name="Frostbite" iconId="1091401081" description="key:621096672:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
+<effect id="1879489325" name="Razor Claws"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879490749" name="Unbridled Fury" iconId="1091478600" description="key:621096663:228830419">
+<requiredEffect id="1879489044" name="DNT - Execute Major Pet Skill"/>
+<effect id="1879489351" name="DNT"/>
+<effect id="1879052302" name="Flanked!"/>
+<effect id="1879489165" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879490750" name="'Minor Strike" iconId="1090531787" description="key:621096662:228830419"/>
+<skill identifier="1879490751" name="Cornered Vigour" iconId="1092280587" description="key:621096664:228830419">
+<requiredEffect id="1879489057" name="DNT - SotW: Protection"/>
+<effect id="1879489330" name="Cornered Vigour"/>
+<effect id="1879061014" name="Improved Stealth" type="TOGGLE"/>
+<effect id="1879061014" name="Improved Stealth" type="USER_TOGGLE"/>
+<effect id="1879489152" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
+</skill>
+<skill identifier="1879490753" name="Medium Strike" iconId="1090531779" description="key:621096674:228830419"/>
+<skill identifier="1879490768" name="Wind Lore" category="35" iconId="1092975976" description="key:620775078:228830419">
+<requiredEffect id="1879275702" name="The Ancient Master"/>
+<effect id="1879490771" name="Wind-lore"/>
+<effect id="1879490760" name="DNT - Tier Down AM" type="USER"/>
+</skill>
+<skill identifier="1879490770" name="Wizard's Frost" category="6" iconId="1092975977" description="key:621096688:228830419">
+<requiredEffect id="1879275702" name="The Ancient Master"/>
+<effect id="1879277600" name="DNT"/>
+<effect id="1879052300" name="Gripped by Cold"/>
+<effect id="1879271300" name="Deep Freeze"/>
+<effect id="1879490760" name="DNT - Tier Down AM" type="USER"/>
+</skill>
+<mount identifier="1879490803" name="Mirkwood Sentinel Steed" category="88" iconId="1092965072" initialName="key:621096721:138936629" mountCategory="8" mountType="1" sourceDescription="key:620995772:92846508" morale="250" speed="0.68" tall="true" peerId="1879490810">
+<requiredTrait id="1879051500" name="Riding"/>
+<requiredEffect id="1879051501" name="Basic Riding"/>
+<effect id="1879490806" name="Mounted" type="TOGGLE"/>
+<effect id="1879490806" name="Mounted" type="USER_TOGGLE"/>
+</mount>
+<mount identifier="1879490810" name="Mirkwood Sentinel Steed" category="88" iconId="1092965072" initialName="key:621096732:138936629" mountCategory="8" mountType="1" sourceDescription="key:620995772:92846508" morale="250" speed="0.68" peerId="1879490803">
+<requiredTrait id="1879051500" name="Riding"/>
+<requiredEffect id="1879051501" name="Basic Riding"/>
+<effect id="1879490812" name="Mounted" type="TOGGLE"/>
+<effect id="1879490812" name="Mounted" type="USER_TOGGLE"/>
+</mount>
+<mount identifier="1879490846" name="Potato Farmer's Fine Steed" category="88" iconId="1092965131" initialName="key:621096760:138936629" mountCategory="4" mountType="1" sourceDescription="key:620995772:179617509" morale="200" speed="0.62" tall="true" peerId="1879490848">
+<requiredTrait id="1879051500" name="Riding"/>
+<requiredEffect id="1879051501" name="Basic Riding"/>
+<effect id="1879490850" name="Mounted" type="TOGGLE"/>
+<effect id="1879490850" name="Mounted" type="USER_TOGGLE"/>
+</mount>
+<mount identifier="1879490848" name="Potato Farmer's Fine Steed" category="88" iconId="1092965131" initialName="key:621096759:138936629" mountCategory="4" mountType="1" sourceDescription="key:620995772:179617509" morale="200" speed="0.62" peerId="1879490846">
+<requiredTrait id="1879051500" name="Riding"/>
+<requiredEffect id="1879051501" name="Basic Riding"/>
+<effect id="1879490849" name="Mounted" type="TOGGLE"/>
+<effect id="1879490849" name="Mounted" type="USER_TOGGLE"/>
+</mount>
+<skill identifier="1879490874" name="Gathering Energy" iconId="1090522259">
+<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
+<effect id="1879490998" name="DNT"/>
+</skill>
+<skill identifier="1879490975" name="Bitter Strike" iconId="1090522259">
+<effect id="1879491014" name="Bitter Wound"/>
+</skill>
+<pet identifier="1879490988" name="Potato Farmer's Fine Cow" category="145" iconId="1092967965" initialName="key:621096886:33816677" sourceDescription="key:621096885:211796645" genus="14" species="27" subSpecies="132" description="key:621096885:228830419">
+<effect id="1879490986" type="TOGGLE"/>
+<effect id="1879490986" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879491056" name="Golden Drakeling" category="145" iconId="1092968591" initialName="key:621096957:33816677" sourceDescription="key:621096956:211796645" genus="14" species="27" subSpecies="132" description="key:621096956:228830419">
+<effect id="1879491068" type="TOGGLE"/>
+<effect id="1879491068" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879491059" name="Moonstone Drakeling" category="145" iconId="1092968589" initialName="key:621096969:33816677" sourceDescription="key:621096955:211796645" genus="14" species="27" subSpecies="132" description="key:621096955:228830419">
+<effect id="1879491076" type="TOGGLE"/>
+<effect id="1879491076" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879491061" name="Amethyst Drakeling" category="145" iconId="1092968590" initialName="key:621096962:33816677" sourceDescription="key:621096970:211796645" genus="14" species="27" subSpecies="132" description="key:621096970:228830419">
+<effect id="1879491067" type="TOGGLE"/>
+<effect id="1879491067" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879491063" name="Sunstone Drakeling" category="145" iconId="1092968587" initialName="key:621096951:33816677" sourceDescription="key:621096966:211796645" genus="14" species="27" subSpecies="132" description="key:621096966:228830419">
+<effect id="1879491072" type="TOGGLE"/>
+<effect id="1879491072" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879491066" name="Sapphire Drakeling" category="145" iconId="1092968594" initialName="key:621096968:33816677" sourceDescription="key:621096959:211796645" genus="14" species="27" subSpecies="132" description="key:621096959:228830419">
+<effect id="1879491062" type="TOGGLE"/>
+<effect id="1879491062" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879491069" name="Ruby Drakeling" category="145" iconId="1092968592" initialName="key:621096973:33816677" sourceDescription="key:621096974:211796645" genus="14" species="27" subSpecies="132" description="key:621096974:228830419">
+<effect id="1879491079" type="TOGGLE"/>
+<effect id="1879491079" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879491073" name="Emerald Drakeling" category="145" iconId="1092968588" initialName="key:621096965:33816677" sourceDescription="key:621096972:211796645" genus="14" species="27" subSpecies="132" description="key:621096972:228830419">
+<effect id="1879491075" type="TOGGLE"/>
+<effect id="1879491075" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879491074" name="Ametrine Drakeling" category="145" iconId="1092968593" initialName="key:621096960:33816677" sourceDescription="key:621096952:211796645" genus="14" species="27" subSpecies="132" description="key:621096952:228830419">
+<effect id="1879491064" type="TOGGLE"/>
+<effect id="1879491064" type="USER_TOGGLE"/>
+</pet>
+<skill identifier="1879491115" name="Wizard's Fire" category="6" iconId="1092974515" description="key:621097016:228830419">
+<effect id="1879277601" name="DNT"/>
+<effect id="1879220532" name="Wizard's Fire Burn"/>
+<effect id="1879490774" name="Ancient Wizard's Fire Burn"/>
+<effect id="1879491112" name="DNT - Wild Sigil Effect" type="USER"/>
+<effect id="1879489219" name="Threat Decrease" type="USER"/>
+</skill>
+<skill identifier="1879491122" name="Wizard's Frost" category="6" iconId="1092974511" description="key:621097022:228830419">
+<effect id="1879277600" name="DNT"/>
+<effect id="1879052300" name="Gripped by Cold"/>
+<effect id="1879491120" name="DNT - Wild Sigil Effect" type="USER"/>
+<effect id="1879489219" name="Threat Decrease" type="USER"/>
+</skill>
+<skill identifier="1879491127" name="Wizard's Spark" category="6" iconId="1092974508" description="key:621097013:228830419">
+<effect id="1879489793" name="DNT"/>
+<effect id="1879490773" name="Induce Stunned"/>
+<effect id="1879271236" name="Fierce Lightning"/>
+<effect id="1879491116" name="DNT - Wild Sigil Effect" type="USER"/>
+<effect id="1879489219" name="Threat Decrease" type="USER"/>
+</skill>
+<skill identifier="1879491216" name="Low Pressure" category="6" iconId="1092973536" description="key:621097100:228830419">
+<effect id="1879277600" name="DNT"/>
+<effect id="1879052300" name="Gripped by Cold"/>
+</skill>
+<skill identifier="1879491217" name="Burning Gale" category="41" iconId="1092973531" description="key:621097101:228830419">
+<effect id="1879447588" name="Searing Embers"/>
+<effect id="1879490488" name="Slow Burn"/>
+</skill>
+<skill identifier="1879491550" name="Gust of Wind" category="41" iconId="1092975988" description="key:620775043:228830419">
+<requiredEffect id="1879275702" name="The Ancient Master"/>
+<effect id="1879447594" name="DNT - Gust of Wind Damage AoE"/>
+<effect id="1879271166" name="DNT"/>
+<effect id="1879491555" name="DNT - Gust of Wind Damage AoE"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+<effect id="1879490760" name="DNT - Tier Down AM" type="USER"/>
+</skill>
+<skill identifier="1879491551" name="Burning Embers" category="41" iconId="1092975975" description="key:620775024:228830419">
+<requiredEffect id="1879275702" name="The Ancient Master"/>
+<effect id="1879447595" name="Smouldering Embers"/>
+<effect id="1879490488" name="Slow Burn"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+<effect id="1879490760" name="DNT - Tier Down AM" type="USER"/>
+</skill>
+<skill identifier="1879491552" name="Water Lore" category="23" iconId="1092975978" description="key:620899332:228830419">
+<requiredEffect id="1879275702" name="The Ancient Master"/>
+<effect id="1879491563" name="DNT - heal and hot"/>
+<effect id="1879490760" name="DNT - Tier Down AM" type="USER"/>
+</skill>
+<skill identifier="1879491554" name="Wizard's Spark" category="6" iconId="1092975973" description="key:621094345:228830419">
+<requiredEffect id="1879275702" name="The Ancient Master"/>
+<effect id="1879489793" name="DNT"/>
+<effect id="1879490773" name="Induce Stunned"/>
+<effect id="1879271236" name="Fierce Lightning"/>
+<effect id="1879490760" name="DNT - Tier Down AM" type="USER"/>
+</skill>
+<skill identifier="1879491556" name="Sign of Power: Righteousness" category="6" iconId="1092975972" description="key:620775067:228830419">
+<requiredEffect id="1879275702" name="The Ancient Master"/>
+<effect id="1879291145" name="Righteousness"/>
+<effect id="1879490760" name="DNT - Tier Down AM" type="USER"/>
+</skill>
+<skill identifier="1879491557" name="Sign of Power: See All Ends" category="6" iconId="1092975986" description="key:620806662:228830419">
+<requiredEffect id="1879275702" name="The Ancient Master"/>
+<effect id="1879490777" name="Sign of Power: See all Ends"/>
+<effect id="1879490760" name="DNT - Tier Down AM" type="USER"/>
+</skill>
+<skill identifier="1879491559" name="Beacon of Hope" category="23" iconId="1092975980" description="key:620937498:228830419">
+<requiredEffect id="1879275702" name="The Ancient Master"/>
+<effect id="1879491549" name="DNT - heal and hot"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+<effect id="1879490760" name="DNT - Tier Down AM" type="USER"/>
+</skill>
+<skill identifier="1879491562" name="Light of Hope" category="23" iconId="1092975971" description="key:620765799:228830419">
+<requiredEffect id="1879275702" name="The Ancient Master"/>
+<effect id="1879491566" name="Hope"/>
+<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879216474" name="Remove consumable" type="USER"/>
+<effect id="1879490760" name="DNT - Tier Down AM" type="USER"/>
+</skill>
+<skill identifier="1879491564" name="Air Lore" category="35" iconId="1092975974" description="key:620860064:228830419">
+<requiredEffect id="1879275702" name="The Ancient Master"/>
+<effect id="1879182970" name="Charged Air"/>
+<effect id="1879490769" name="Wind Screen"/>
+<effect id="1879490760" name="DNT - Tier Down AM" type="USER"/>
+</skill>
+<skill identifier="1879491565" name="Wizard's Fire" category="6" iconId="1092975984" description="key:620806667:228830419">
+<requiredEffect id="1879275702" name="The Ancient Master"/>
+<effect id="1879277601" name="DNT"/>
+<effect id="1879220532" name="Wizard's Fire Burn"/>
+<effect id="1879490774" name="Ancient Wizard's Fire Burn"/>
+<effect id="1879490760" name="DNT - Tier Down AM" type="USER"/>
+</skill>
+<skill identifier="1879491577" name="Call to the Valar" category="19" iconId="1090553887" description="key:621097390:228830419">
+<effect id="1879073248" name="DNT - Call to the Valar"/>
+<effect id="1879197582" name="Call to the Valar"/>
+</skill>
+<skill identifier="1879491578" name="Call to the Valar" category="19" iconId="1090553887" description="key:621097391:228830419">
+<effect id="1879491580" name="DNT - Call to the Valar"/>
+<effect id="1879197582" name="Call to the Valar"/>
+</skill>
+<skill identifier="1879491581" name="Call to the Valar" category="19" iconId="1090553887" description="key:621097389:228830419">
+<effect id="1879491579" name="DNT - Call to the Valar"/>
+<effect id="1879197582" name="Call to the Valar"/>
 </skill>
 </skills>

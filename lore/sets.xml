@@ -458,7 +458,8 @@
 <effect id="1879098038" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Itemset_Application_Loremaster_LightningStorm_Daze" descriptionOverride="key:620794539:108120372" constant="20.0"/>
+<stat name="Combat_SkillDamageMultiplier_Frost" constant="20.0"/>
+<stat name="Skill_RecoveryTime_Loremaster_NaturesFury" constant="-10.0"/>
 <effect id="1879386540" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="6">
@@ -477,6 +478,7 @@
 <effect id="1879098038" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="4">
+<stat name="IA_Minstrel_Ballads_Tier3_Healing" constant="20.0"/>
 <specialEffect label="key:620794546:108120372"/>
 <effect id="1879098830" name="DNT - Gift of the Hammerhand receives Song of the Hammerhand effects"/>
 <effect id="1879251320" name="DNT - Gift of the Hammerhand receives Song of the Hammerhand effects"/>
@@ -498,7 +500,8 @@
 <effect id="1879098038" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_PenetratingShot_Hunter_PowerCost" constant="-18.0"/>
+<stat name="Skill_Hunter_Barrage_DamageMod" constant="15.000001"/>
+<stat name="Skill_RecoveryTime_HeartSeeker" constant="-7.0"/>
 <effect id="1879386540" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="6">
@@ -517,7 +520,8 @@
 <effect id="1879098038" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_CunningStrike_Burglar_CriticalDamage" constant="25.0"/>
+<stat name="Skill_RecoveryTime_Burglar_Riddle" constant="-10.0"/>
+<stat name="Skill_Burglar_TrickRemoval_Healing" constant="20.0"/>
 <effect id="1879386540" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="6">
@@ -536,8 +540,8 @@
 <effect id="1879098038" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="4">
-<specialEffect label="key:620794563:108120372"/>
-<effect id="1879248129" name="DNT - itemset bonus, rallying cry has cooldown mod effect for valiant strike"/>
+<stat name="Skill_Captain_ShadowsLament_CD" constant="-5.0"/>
+<stat name="Skill_Captain_EventChain_DamageMod" constant="10.0"/>
 <effect id="1879386540" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="6">
@@ -556,7 +560,8 @@
 <effect id="1879098038" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_RecoveryTime_Trait_Guardian_improvedthrill" operator="SUBSTRACT" descriptionOverride="key:620794564:108120372" constant="20.0"/>
+<stat name="Skill_RecoveryTime_Guardian_CatchaBreath" constant="-10.0"/>
+<stat name="Skill_RecoveryTime_Trait_Guardian_improvedthrill" operator="SUBSTRACT" constant="10.0"/>
 <effect id="1879386540" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="6">
@@ -575,7 +580,8 @@
 <effect id="1879098038" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="Skill_DamageMultiplier_BrutalStrikes" constant="20.0"/>
+<stat name="Skill_Champion_AddStrike_DamageMod" constant="10.0"/>
 <effect id="1879386540" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="6">
@@ -1210,6 +1216,7 @@
 <effect id="1879098038" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="4">
+<stat name="Trait_Runekeeper_SynergyDot_Cooldown" constant="-2.0"/>
 <stat name="Skill_Runekeeper_CeaselessArgument_PowerCost" constant="20.0"/>
 <effect id="1879386540" name="Disperse Shadow"/>
 </bonus>
@@ -1229,7 +1236,8 @@
 <effect id="1879098038" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_DamageMultiplier_Bleed_MightyBlow" descriptionOverride="key:620805366:108120372" constant="25.0"/>
+<stat name="Essence_Warden_ShieldMitigation" constant="2.0"/>
+<stat name="Skill_DamageMultiplier_Bleed_MightyBlow" constant="10.0"/>
 <effect id="1879386540" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="6">
@@ -15300,7 +15308,8 @@
 <effect id="1879098038" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="Skill_Beorning_EncouragingRoar_Initial_HealMod" constant="20.0"/>
+<stat name="Skill_Beorning_NaturesSalve_Cooldown" constant="-10.0"/>
 <effect id="1879386540" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="6">
@@ -22770,7 +22779,8 @@
 <effect id="1879098038" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="Skill_Brawler_SpenderAttack_Damage" constant="10.0"/>
+<stat name="Skill_Brawler_JoyOfBattle_CD" constant="-10.0"/>
 <effect id="1879386540" name="Disperse Shadow"/>
 </bonus>
 <bonus nbItems="6">
@@ -26241,6 +26251,29 @@
 </bonus>
 <bonus nbItems="6">
 <stat name="Itemset_Loremaster_PoD_EntsReset_Appchance" descriptionOverride="key:621088944:108054838" constant="25.0"/>
+</bonus>
+</set>
+<set id="1879490318" name="Amelia's Regalia" level="1" maxLevel="154" description="">
+<item id="1879490329" name="Amelia's Glimmering Ring"/>
+<item id="1879490341" name="Amelia's Flickering Ring"/>
+<item id="1879490330" name="Amelia's Beautiful Earring"/>
+<item id="1879490331" name="Amelia's Graceful Earring"/>
+<item id="1879490337" name="Amelia's Pure Bracer"/>
+<item id="1879490321" name="Amelia's Golden Bracer"/>
+<item id="1879490322" name="Amelia's Glimmering Ring of Hope"/>
+<item id="1879490320" name="Amelia's Flickering Ring of Hope"/>
+<item id="1879490334" name="Amelia's Beautiful Earring of Hope"/>
+<item id="1879490338" name="Amelia's Graceful Earring of Hope"/>
+<item id="1879490327" name="Amelia's Pure Bracer of Hope"/>
+<item id="1879490323" name="Amelia's Golden Bracer of Hope"/>
+<bonus nbItems="2">
+<effect id="1879490336" name="Glimmering Light"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879490324" name="Shining Light"/>
+</bonus>
+<bonus nbItems="6">
+<effect id="1879490326" name="Scintillating Light"/>
 </bonus>
 </set>
 </sets>
