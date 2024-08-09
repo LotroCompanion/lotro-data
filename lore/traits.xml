@@ -6636,7 +6636,7 @@
 </trait>
 <trait identifier="1879271352" name="Bellow" iconId="1091805291" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_31" nature="27" description="key:620921919:54354734">
 <stat name="Trait_Guardian_Taunt_Range" scaling="1879291094"/>
-<stat name="Skill_MaxRangeMod_Guardian_FrayTheEdge" scaling="1879412149"/>
+<stat name="Skill_MaxRangeMod_Guardian_FrayTheEdge" descriptionOverride="key:620921919:106251890" scaling="1879412149"/>
 <effect id="1879291107" name="DNT-Range Taunt"/>
 <effect rank="2" id="1879291108" name="DNT-Range Taunt"/>
 <effect rank="3" id="1879291109" name="DNT-Range Taunt"/>
@@ -6920,6 +6920,7 @@
 </trait>
 <trait identifier="1879272580" name="The Keeper of Animals" iconId="1091564746" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_loremaster_one" nature="28" description="key:620922787:54354734">
 <specialEffect label="key:620922787:106251889"/>
+<specialEffect label="key:620922787:106251890"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.67"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.67"/>
@@ -7053,6 +7054,7 @@
 <effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272595" name="The Ancient Master" iconId="1091618504" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_loremaster_three" nature="28" description="key:620922779:54354734">
+<specialEffect label="key:620922779:106251890"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <skill id="1879064249" name="Test of Will"/>
 <skill id="1879064254" name="Fire and Frost Lore"/>
@@ -7072,6 +7074,7 @@
 </trait>
 <trait identifier="1879272597" name="Master of Nature's Fury" iconId="1091564741" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_loremaster_two" nature="28" description="key:620922803:54354734">
 <stat name="Combat_SkillDamageMultiplier_Fire" constant="20.0"/>
+<specialEffect label="key:620922803:106251890"/>
 <stat name="Skill_RecoveryTime_Loremaster_BE" operator="SUBSTRACT" constant="2.0"/>
 <stat name="PERCEIVED_THREAT" operator="SUBSTRACT" descriptionOverride="-" constant="30.000002"/>
 <effectGenerator id="1879457121" name="DNT" spellcraft="0.0"/>
@@ -7108,14 +7111,14 @@
 <stat name="Trait_Guardian_Fortification_AppChance" constant="25.0"/>
 <effectGenerator id="1879277681" name="Shield the People" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879272905" name="Protected by the Light" iconId="1091805280" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_63" nature="27" description="key:620923092:54354734">
+<trait identifier="1879272905" name="Protected by the Light" iconId="1091805280" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_63" nature="27" tooltip="key:620923092:191029568" description="key:620923092:54354734">
 <stat name="Trait_Guardian_Protected_Light" descriptionOverride="key:620923092:106251889" constant="2.0"/>
 <effect id="1879466671" name="DNT - Damage Shield"/>
 </trait>
 <trait identifier="1879272906" name="Protection by the Sword" iconId="1092835516" minLevel="39" nature="30" tooltip="key:620923090:191029568" description="key:620923090:54354734">
 <skill id="1879060636" name="Protection by the Sword"/>
 </trait>
-<trait identifier="1879272911" name="Guardian's Pledge" iconId="1091805278" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_44" nature="27" description="key:620923091:54354734">
+<trait identifier="1879272911" name="Guardian's Pledge" iconId="1091805278" staticIconOverlayId="1091664889" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_44" nature="27" tooltip="key:620923091:191029568" description="key:620923091:54354734">
 <skill id="1879060644" name="Guardian's Pledge"/>
 </trait>
 <trait identifier="1879273250" name="Readied Blade" iconId="1091829381" nature="30" description="key:620923439:54354734">
@@ -7324,7 +7327,7 @@
 <trait identifier="1879274692" name="Master of Connotation" iconId="1091502130" nature="30" description="key:620924552:54354734">
 <effectGenerator id="1879232358" name="Trait" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879274693" name="Refutation" iconId="1091805956" nature="30">
+<trait identifier="1879274693" name="Refutation" iconId="1091805956" nature="30" description="key:620924557:54354734">
 <effectGenerator id="1879277836" name="Refutation" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879274694" name="Lightning Affinity" iconId="1091829863" nature="30" description="key:620924547:54354734">
@@ -7443,7 +7446,7 @@
 <trait identifier="1879275325" name="Kindred Flame" iconId="1091829934" nature="30" description="key:620925061:54354734">
 <effectGenerator id="1879447275" name="DNT -  Kindred Flame" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879275330" name="Flame of Anor" iconId="1091829928" nature="30" description="key:620925057:54354734">
+<trait identifier="1879275330" name="Flame of Anor" iconId="1091829928" nature="30" tooltip="key:620925057:191029568" description="key:620925057:54354734">
 <specialEffect label="key:620925057:106251889"/>
 <stat name="Skill_Loremaster_WizardFire_PulseCountMod" constant="1.0"/>
 <stat name="Trait_Loremaster_Wizardsfire_Fixation_Appchance" descriptionOverride="-" constant="100.0"/>

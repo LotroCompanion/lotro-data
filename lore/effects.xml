@@ -17953,7 +17953,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879246127" name="Protection by the Sword - Damage" iconId="1092835513" duration="10.0">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620905897:106251889" constant="3.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="3.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="key:620905897:106251890" constant="3.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
 </propertyModEffect>
 <fellowshipEffect id="1879246128" name="Protection by the Sword" description="key:620934404:181298206" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="10.0">
@@ -21882,7 +21882,8 @@
 <vitalChange progressionID="1879468797"/>
 </instantVitalEffect>
 <propertyModEffect id="1879275702" name="The Ancient Master" iconId="1091829937">
-<stat name="Skill_Loremaster_AncientMaster" operator="SET" constant="100.0"/>
+<specialEffect label="key:620925358:106251889"/>
+<stat name="Skill_Loremaster_AncientMaster" operator="SET" descriptionOverride="key:620925358:106251890" constant="100.0"/>
 <stat name="Skill_Loremaster_Righteousness_Duration" descriptionOverride="-" constant="20.0"/>
 </propertyModEffect>
 <effect id="1879275707" name="Stored Power - 5" iconId="1092973470"/>
@@ -24295,7 +24296,9 @@
 <propertyModEffect id="1879302178" name="DNT - Dry Kindling" iconId="1090519170">
 <specialEffect label="key:621065107:106251889"/>
 </propertyModEffect>
-<propertyModEffect id="1879302212" name="DNT - Ancient Craft - Damage Bonus" iconId="1090519170"/>
+<propertyModEffect id="1879302212" name="DNT - Ancient Craft - Damage Bonus" iconId="1090519170">
+<specialEffect label="key:620945878:106251889"/>
+</propertyModEffect>
 <effect id="1879302213" name="DNT - Dispel Ancient Craft"/>
 <propertyModEffect id="1879302527" name="Taunted!" iconId="1090531788" duration="15.0">
 <stat name="AIPuppet_TargetWeight_Modifier" descriptionOverride="-" constant="-1000.0"/>
@@ -24991,7 +24994,9 @@
 <effect id="1879315645" name="Retaliation"/>
 </procEffect>
 <effect id="1879315656" name="Composure" iconId="1091940912" duration="2.0" pulseCount="6"/>
-<propertyModEffect id="1879315658" name="DNT - Slam Heal" iconId="1090519170"/>
+<propertyModEffect id="1879315658" name="DNT - Slam Heal" iconId="1090519170">
+<specialEffect label="key:620953718:106251889"/>
+</propertyModEffect>
 <propertyModEffect id="1879315659" name="Hands of Fury" iconId="1091829785" duration="20.0">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="10.0"/>
@@ -25330,7 +25335,9 @@
 <instantVitalEffect id="1879316255" name="Restore Morale" stat="Health_MaxLevel" multiplicative="true">
 <vitalChange constant="0.1"/>
 </instantVitalEffect>
-<propertyModEffect id="1879316256" name="DNT - CC Breakout Bubble" iconId="1090519170"/>
+<propertyModEffect id="1879316256" name="DNT - CC Breakout Bubble" iconId="1090519170">
+<specialEffect label="key:620954168:106251889"/>
+</propertyModEffect>
 <procEffect id="1879316258" name="DNT - CC Breakout" appliedDescription="key:620954166:54354734" iconId="1091718774" skillTypes="17"/>
 <induceCombatState id="1879316351" name="Induce Feared" state="2" stateDuration="12.0"/>
 <effect id="1879316364" name="Gondorian Treasure Cache"/>
@@ -25516,7 +25523,9 @@
 <effect id="1879318550" name="DNT - Vexation"/>
 </procEffect>
 <procEffect id="1879318565" name="DNT - Karma" descriptionOverride="key:620956042:62991877" appliedDescription="key:620956042:54354734" iconId="1091718774" skillTypes="35"/>
-<propertyModEffect id="1879318568" name="DNT - CC Breakout Bubble" iconId="1090519170"/>
+<propertyModEffect id="1879318568" name="DNT - CC Breakout Bubble" iconId="1090519170">
+<specialEffect label="key:620956044:106251889"/>
+</propertyModEffect>
 <effect id="1879318571" name="Knockback"/>
 <propertyModEffect id="1879318745" name="Defender of the Wall" iconId="1091570800" duration="12.0">
 <stat name="INCOMING_HEALING_PERCENTAGE" constant="5.0"/>
@@ -25731,7 +25740,9 @@
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
 </propertyModEffect>
 <effect id="1879322022" name="Bear Up"/>
-<propertyModEffect id="1879322103" name="DNT - Serrated Edge" iconId="1090519170"/>
+<propertyModEffect id="1879322103" name="DNT - Serrated Edge" iconId="1090519170">
+<specialEffect label="key:620958325:106251889"/>
+</propertyModEffect>
 <genesis id="1879322281" name=".." appliedDescription="key:620958496:54354734" summonDuration="20.0">
 <summoned id="1879322280" name="GNDN"/>
 </genesis>
