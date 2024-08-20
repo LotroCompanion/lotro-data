@@ -4379,13 +4379,19 @@
 <effect id="1879054405" name="Healing"/>
 </skill>
 <skill identifier="1879104148" name="a strong melee attack" iconId="1090522259">
+<effect id="1879106494" name="Slowing Frost"/>
 <effect id="1879104147" name="Raging Berserk" type="USER"/>
 <effect id="1879104146" name="Summon Rider" type="USER"/>
 </skill>
-<skill identifier="1879104154" name="a moderate ranged attack" iconId="1090522259"/>
-<skill identifier="1879104155" name="a strong ranged attack" iconId="1090522259"/>
+<skill identifier="1879104154" name="a moderate ranged attack" iconId="1090522259">
+<effect id="1879106494" name="Slowing Frost"/>
+</skill>
+<skill identifier="1879104155" name="a strong ranged attack" iconId="1090522259">
+<effect id="1879106494" name="Slowing Frost"/>
+</skill>
 <skill identifier="1879104156" name="Ranged Med Bleed" iconId="1090522259">
 <effect id="1879052009" name="Deep Wound"/>
+<effect id="1879106494" name="Slowing Frost"/>
 </skill>
 <skill identifier="1879104788" name="Charge" category="3" iconId="1092835520" description="key:620802399:228830419">
 <effect id="1879104787" name="Charge"/>
@@ -4800,6 +4806,7 @@
 </skill>
 <skill identifier="1879110201" name="Mammoth's Rage" iconId="1090522259">
 <effect id="1879051311" name="Knockaway"/>
+<effect id="1879106494" name="Slowing Frost"/>
 </skill>
 <skill identifier="1879110224" name="Call to Fate" category="59" iconId="1091451599" description="key:620805565:228830419">
 <effect id="1879218509" name="Melodic Interlude" type="USER"/>
@@ -4937,9 +4944,8 @@
 <effect id="1879111268" name="Remove Corruption"/>
 </skill>
 <skill identifier="1879111679" name="Wizard's Fire" category="6" iconId="1092754585" description="key:620806667:228830419">
-<effect id="1879277601" name="DNT"/>
 <effect id="1879220532" name="Wizard's Fire Burn"/>
-<effect id="1879490774" name="Ancient Wizard's Fire Burn"/>
+<effect id="1879369625" name="Wizard's Fire: Istari Power" type="USER"/>
 </skill>
 <skill identifier="1879111681" name="Sign of Power: See All Ends" category="6" iconId="1091456257" description="key:620806662:228830419">
 <effect id="1879488366" name="Sign of Power: See all Ends"/>
@@ -30343,7 +30349,6 @@
 <skill identifier="1879421653" name="Fear No Darkness" iconId="1090644839" description="key:620986982:228830419">
 <requiredEffect id="1879489044" name="DNT - Execute Major Pet Skill"/>
 <effect id="1879489349" name="DNT - Raven Cleanse"/>
-<effect id="1879489349" name="DNT - Raven Cleanse" type="USER"/>
 <effect id="1879399352" name="Fear not the Darkness" type="USER"/>
 <effect id="1879489165" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
@@ -36851,6 +36856,7 @@
 <requiredEffect id="1879288925" name="Bird Flag"/>
 <effect id="1879049334" name="Distraction"/>
 <effect id="1879491456" name="DNT - Gust of Wind Copy"/>
+<effect id="1879049335" name="Enraged"/>
 <effect id="1879282928" name="DNT - Raven" type="USER"/>
 </skill>
 <skill identifier="1879488737" name="Call to Bears" category="1" iconId="1092974512" description="key:621094830:228830419">
@@ -36992,7 +36998,9 @@
 <skill identifier="1879489934" name="Enervating Grip" iconId="1090522259">
 <effect id="1879489940" name="Enervating Grip"/>
 </skill>
-<skill identifier="1879489935" name="Dark Blade" iconId="1090522259"/>
+<skill identifier="1879489935" name="Dark Blade" iconId="1090522259">
+<effect id="1879487573" name="DNT - removes the killproc to make sure we don't summon multiple nazgul."/>
+</skill>
 <skill identifier="1879489939" name="Sinister Claws" iconId="1090522259"/>
 <skill identifier="1879490235" name="Dominate" iconId="1090522259"/>
 <skill identifier="1879490236" name="Grasping Shadows" iconId="1090522259">
@@ -37319,10 +37327,9 @@
 <effect id="1879491064" type="USER_TOGGLE"/>
 </pet>
 <skill identifier="1879491115" name="Wizard's Fire" category="6" iconId="1092974515" description="key:621097016:228830419">
-<effect id="1879277601" name="DNT"/>
 <effect id="1879220532" name="Wizard's Fire Burn"/>
-<effect id="1879490774" name="Ancient Wizard's Fire Burn"/>
 <effect id="1879491112" name="DNT - Wild Sigil Effect" type="USER"/>
+<effect id="1879369625" name="Wizard's Fire: Istari Power" type="USER"/>
 <effect id="1879489219" name="Threat Decrease" type="USER"/>
 </skill>
 <skill identifier="1879491122" name="Wizard's Frost" category="6" iconId="1092974511" description="key:621097022:228830419">
@@ -37407,9 +37414,8 @@
 </skill>
 <skill identifier="1879491565" name="Wizard's Fire" category="6" iconId="1092975984" description="key:620806667:228830419">
 <requiredEffect id="1879275702" name="The Ancient Master"/>
-<effect id="1879277601" name="DNT"/>
-<effect id="1879220532" name="Wizard's Fire Burn"/>
 <effect id="1879490774" name="Ancient Wizard's Fire Burn"/>
+<effect id="1879369625" name="Wizard's Fire: Istari Power" type="USER"/>
 <effect id="1879490760" name="DNT - Tier Down AM" type="USER"/>
 </skill>
 <skill identifier="1879491577" name="Call to the Valar" category="19" iconId="1090553887" description="key:621097390:228830419">
@@ -37423,5 +37429,9 @@
 <skill identifier="1879491581" name="Call to the Valar" category="19" iconId="1090553887" description="key:621097389:228830419">
 <effect id="1879491579" name="DNT - Call to the Valar"/>
 <effect id="1879197582" name="Call to the Valar"/>
+</skill>
+<skill identifier="1879491938" name="Shadow Bolt" iconId="1090522259"/>
+<skill identifier="1879491940" name="Scream" iconId="1090522259">
+<effect id="1879111268" name="Remove Corruption" type="USER"/>
 </skill>
 </skills>

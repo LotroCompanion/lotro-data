@@ -1213,7 +1213,7 @@
 <propertyModEffect id="1879073222" name="Shatter Arms" iconId="1090541019" duration="45.0">
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620775056:106251889" constant="0.97"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.97"/>
-<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" constant="0.97"/>
+<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.97"/>
 </propertyModEffect>
 <propertyModEffect id="1879073233" name="Sign of Power: Command" iconId="1091659745" duration="30.0">
 <stat name="PARRY_PERCENTAGE" constant="-2.0"/>
@@ -3721,7 +3721,7 @@
 </propertyModEffect>
 <genesis id="1879109116" name="Frost AOE" summonDuration="15.0">
 <hotspot id="1879109115" name="Flurry of Words">
-<effect id="1879109516" name="Icy Windstorm"/>
+<effect id="1879109516" name="Brittle Frost"/>
 <effect id="1879251113" name="Flurry of Words"/>
 </hotspot>
 </genesis>
@@ -3739,7 +3739,7 @@
 <specialEffect label="key:620804898:106251889"/>
 </propertyModEffect>
 <effect id="1879109434" name="Summon Wolf Totem"/>
-<propertyModEffect id="1879109516" name="Icy Windstorm" iconId="1091454144">
+<propertyModEffect id="1879109516" name="Brittle Frost" iconId="1091454144">
 <stat name="Combat_AttackerCriticalHitChanceAddMod" constant="3.0"/>
 <stat name="Combat_AttackerRangedCriticalHitChanceAddMod" constant="3.0"/>
 <stat name="Combat_AttackerMagicCriticalHitChanceAddMod" constant="3.0"/>
@@ -20548,7 +20548,7 @@
 <effect id="1879267233" name="Lasting Hope"/>
 </procEffect>
 <propertyModEffect id="1879264561" name="Water-lore Incoming Healing Buff" iconId="1091456257">
-<stat name="Itemset_Loremaster_WaterLore_IncHealingMod" constant="3.0"/>
+<stat name="Itemset_Loremaster_WaterLore_IncHealDuration" constant="0.03"/>
 </propertyModEffect>
 <propertyModEffect id="1879264574" name="Blade-storm Fervour Cost" iconId="1090553756" duration="12.0">
 <stat name="ForwardSource_Skill_Pips_CostMod_Trait_Champion_CheaperBladeStormPipsMin" descriptionOverride="key:620916981:106251889" constant="-4.0"/>
@@ -26888,7 +26888,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879334543" name="DNT - Increases Hammer Down's vital threshold to 66% Morale" iconId="1090519170"/>
 <propertyModEffect id="1879334564" name="Water-lore Incoming Healing Buff" iconId="1091456257">
-<stat name="Itemset_Loremaster_WaterLore_IncHealingMod" descriptionOverride="-" constant="5.0"/>
+<stat name="Itemset_Loremaster_WaterLore_IncHealDuration" descriptionOverride="-" constant="0.05"/>
 </propertyModEffect>
 <effect id="1879334570" name="Keg Carrier" iconId="1090519170"/>
 <propertyModEffect id="1879334572" name="Keg Carrier" appliedDescription="key:620967768:54354734" iconId="1090553915">
@@ -29673,8 +29673,8 @@
 <propertyModEffect id="1879370170" name="Bow Chant: Foe-finder" appliedDescription="key:621011514:54354734" iconId="1091468336" duration="2100.0">
 <stat name="Skill_ChanceEvade_RangedMod" scaling="1879141213"/>
 </propertyModEffect>
-<propertyModEffect id="1879370173" name="Ironfold Fire-oil" description="key:621011510:181298206" iconId="1090531555" duration="2700.0"/>
-<propertyModEffect id="1879370180" name="Ironfold Light-oil" description="key:621011517:181298206" iconId="1090537235" duration="2700.0"/>
+<propertyModEffect id="1879370173" name="Crackling Fire-oil" description="key:621011510:181298206" iconId="1090531555" duration="2700.0"/>
+<propertyModEffect id="1879370180" name="Shining Light-oil" description="key:621011517:181298206" iconId="1090537235" duration="2700.0"/>
 <propertyModEffect id="1879370181" name="Bow Chant: Breach-finder" appliedDescription="key:621011511:54354734" iconId="1091468340" duration="2100.0">
 <stat name="Skill_DamageMitigation_RangedMod" scaling="1879141214"/>
 </propertyModEffect>
@@ -45518,6 +45518,7 @@
 </hotspot>
 </genesis>
 <effect id="1879487530" name="Dark Storm"/>
+<effect id="1879487573" name="DNT - removes the killproc to make sure we don't summon multiple nazgul."/>
 <vitalOverTimeEffect id="1879487746" name="Corrupted Ground" iconId="1090553954" duration="2.0" stat="Health_MaxLevel" damageType="32">
 <overTimeChange progressionID="1879343124"/>
 </vitalOverTimeEffect>
@@ -45672,8 +45673,8 @@
 <propertyModEffect id="1879489217" name="Unbreakable Bond" appliedDescription="key:621095288:54354734" iconId="1091926677"/>
 <effect id="1879489219" name="Threat Decrease" description="key:621095284:181298206" appliedDescription="key:621095284:54354734"/>
 <propertyModEffect id="1879489322" name="Choking Vines" iconId="1090536145" duration="45.0">
-<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" constant="1.02"/>
-<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" constant="1.03"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" constant="3.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" constant="2.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879489323" name="Minor Command: Offence" iconId="1092433325" duration="20.0">
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621095355:106251889" constant="1.1"/>
@@ -45681,8 +45682,8 @@
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.1"/>
 </propertyModEffect>
 <propertyModEffect id="1879489325" name="Razor Claws" iconId="1091401081" duration="45.0">
-<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" constant="1.02"/>
-<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" constant="1.03"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" constant="3.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" constant="2.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879489326" name="Hardened Hide" iconId="1092810681" duration="15.0">
 <stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621095351:106251889" constant="0.25"/>
