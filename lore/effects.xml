@@ -7146,7 +7146,9 @@
 <propertyModEffect id="1879158169" name="DNT - Run a ScriptKey on the prisoner to get them to destroy themselves." iconId="1090519170">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="0.0"/>
 </propertyModEffect>
-<effect id="1879158181" name="DNT - Teleports player to jail."/>
+<travelEffect id="1879158181" name="DNT - Teleports player to jail." sceneID="1879175167" removeFromInstance="false" privateEncounterID="1879187295">
+<position region="2" longitude="54.699997" latitude="73.799995"/>
+</travelEffect>
 <reactiveVitalEffect id="1879158183" name="" description="key:620841155:181298206" iconId="1091476095" damageTypes="65407">
 <defender>
 <effect id="1879142798" name="Intermittent Strength" probability="0.05"/>
@@ -10048,27 +10050,65 @@
 <initialChange progressionID="1879413259"/>
 <overTimeChange progressionID="1879413259"/>
 </vitalOverTimeEffect>
-<effect id="1879186965" name="Map to Gharâf-fehem" appliedDescription="key:620862420:54354734"/>
-<effect id="1879186966" name="Map to Hadudbâb" appliedDescription="key:620862421:54354734"/>
-<effect id="1879186967" name="Map to Mezer-serej" appliedDescription="key:620862422:54354734"/>
-<effect id="1879187011" name="Map to Rivendell" appliedDescription="key:620862434:54354734"/>
-<effect id="1879187012" name="Map to Echad Mirobel" appliedDescription="key:620862433:54354734"/>
-<effect id="1879187013" name="Map to Hobbiton" appliedDescription="key:620862435:54354734"/>
-<effect id="1879187014" name="Map to Forsaken Inn" appliedDescription="key:620862436:54354734"/>
-<effect id="1879187015" name="Map to West Bree" appliedDescription="key:620862438:54354734"/>
-<effect id="1879187016" name="Map to Esteldín" appliedDescription="key:620862437:54354734"/>
-<effect id="1879187017" name="Map to Sûri-kylä" appliedDescription="key:620862439:54354734"/>
-<effect id="1879187018" name="Map to Aughaire" appliedDescription="key:620862440:54354734"/>
-<effect id="1879187019" name="Map to the Misty Mountains" appliedDescription="key:620862441:54354734"/>
-<effect id="1879187026" name="Map to the Eavespires" appliedDescription="key:620862448:54354734"/>
-<effect id="1879187027" name="Map to the Northern Barrow-downs" appliedDescription="key:620862449:54354734"/>
-<effect id="1879187028" name="Map to Ost Guruth" appliedDescription="key:620862450:54354734"/>
+<travelEffect id="1879186965" name="Map to Gharâf-fehem" appliedDescription="key:620862420:54354734" sceneID="1879048837">
+<position region="2" longitude="-105.65195" latitude="-13.10168"/>
+</travelEffect>
+<travelEffect id="1879186966" name="Map to Hadudbâb" appliedDescription="key:620862421:54354734" sceneID="1879048837">
+<position region="2" longitude="-108.86724" latitude="-5.432783"/>
+</travelEffect>
+<travelEffect id="1879186967" name="Map to Mezer-serej" appliedDescription="key:620862422:54354734" sceneID="1879048837">
+<position region="2" longitude="-104.73846" latitude="-7.2135935"/>
+</travelEffect>
+<travelEffect id="1879187011" name="Map to Rivendell" appliedDescription="key:620862434:54354734" sceneID="1879048837">
+<position region="1" longitude="-5.8921485" latitude="-30.741903"/>
+</travelEffect>
+<travelEffect id="1879187012" name="Map to Echad Mirobel" appliedDescription="key:620862433:54354734" sceneID="1879048837">
+<position region="1" longitude="-17.011845" latitude="-52.27018"/>
+</travelEffect>
+<travelEffect id="1879187013" name="Map to Hobbiton" appliedDescription="key:620862435:54354734" sceneID="1879048837">
+<position region="1" longitude="-71.16929" latitude="-31.43996"/>
+</travelEffect>
+<travelEffect id="1879187014" name="Map to Forsaken Inn" appliedDescription="key:620862436:54354734" sceneID="1879048837">
+<position region="1" longitude="-40.56254" latitude="-34.37987"/>
+</travelEffect>
+<travelEffect id="1879187015" name="Map to West Bree" appliedDescription="key:620862438:54354734" sceneID="1879048837">
+<position region="1" longitude="-52.738777" latitude="-29.562187"/>
+</travelEffect>
+<travelEffect id="1879187016" name="Map to Esteldín" appliedDescription="key:620862437:54354734" sceneID="1879048837">
+<position region="1" longitude="-42.11954" latitude="-9.65625"/>
+</travelEffect>
+<travelEffect id="1879187017" name="Map to Sûri-kylä" appliedDescription="key:620862439:54354734" sceneID="1879048837">
+<position region="1" longitude="-70.75122" latitude="19.068369"/>
+</travelEffect>
+<travelEffect id="1879187018" name="Map to Aughaire" appliedDescription="key:620862440:54354734" sceneID="1879048837">
+<position region="1" longitude="-39.31407" latitude="-0.19878906"/>
+</travelEffect>
+<travelEffect id="1879187019" name="Map to the Misty Mountains" appliedDescription="key:620862441:54354734" sceneID="1879048837"/>
+<travelEffect id="1879187026" name="Map to the Eavespires" appliedDescription="key:620862448:54354734" sceneID="1879048837">
+<position region="1" longitude="-71.833176" latitude="-6.085664"/>
+</travelEffect>
+<travelEffect id="1879187027" name="Map to the Northern Barrow-downs" appliedDescription="key:620862449:54354734" sceneID="1879048837">
+<position region="1" longitude="-54.88577" latitude="-30.076883"/>
+</travelEffect>
+<travelEffect id="1879187028" name="Map to Ost Guruth" appliedDescription="key:620862450:54354734" sceneID="1879048837">
+<position region="1" longitude="-29.811483" latitude="-32.097256"/>
+</travelEffect>
 <effect id="1879187063" name="Slavering Bite" appliedDescription="key:620862478:54354734" iconId="1091478779" duration="2.0"/>
-<effect id="1879187065" name="Map to Tinnudir" appliedDescription="key:620862480:54354734"/>
-<effect id="1879187189" name="Map to Thorin's Hall" appliedDescription="key:620862589:54354734"/>
-<effect id="1879187191" name="Map to Duilond" appliedDescription="key:620862590:54354734"/>
-<effect id="1879187192" name="Map to Echad Dúnann" appliedDescription="key:620862591:54354734"/>
-<effect id="1879187197" name="Map to Emyn Lum" appliedDescription="key:620862595:54354734"/>
+<travelEffect id="1879187065" name="Map to Tinnudir" appliedDescription="key:620862480:54354734" sceneID="1879048837">
+<position region="1" longitude="-67.19464" latitude="-12.6913185"/>
+</travelEffect>
+<travelEffect id="1879187189" name="Map to Thorin's Hall" appliedDescription="key:620862589:54354734" sceneID="1879048837">
+<position region="1" longitude="-103.051285" latitude="-15.242803"/>
+</travelEffect>
+<travelEffect id="1879187191" name="Map to Duilond" appliedDescription="key:620862590:54354734" sceneID="1879048837">
+<position region="1" longitude="-93.170906" latitude="-24.366709"/>
+</travelEffect>
+<travelEffect id="1879187192" name="Map to Echad Dúnann" appliedDescription="key:620862591:54354734" sceneID="1879048837">
+<position region="1" longitude="-7.8116207" latitude="-50.6023"/>
+</travelEffect>
+<travelEffect id="1879187197" name="Map to Emyn Lum" appliedDescription="key:620862595:54354734" sceneID="1879048837">
+<position region="2" longitude="-51.223057" latitude="-14.324081"/>
+</travelEffect>
 <effect id="1879187320" name="Sneeze"/>
 <effect id="1879187321" name="Tickle"/>
 <effect id="1879187322" name="Spin"/>
@@ -11854,7 +11894,9 @@
 <initialChange progressionID="1879049486"/>
 <overTimeChange progressionID="1879049487"/>
 </vitalOverTimeEffect>
-<effect id="1879198838" name="Map to Annuminas Ranger Camp" appliedDescription="key:620872167:54354734"/>
+<travelEffect id="1879198838" name="Map to Annuminas Ranger Camp" appliedDescription="key:620872167:54354734" sceneID="1879048837">
+<position region="1" longitude="-70.922844" latitude="-19.01123"/>
+</travelEffect>
 <propertyModEffect id="1879199014" name="Sustaining Bolt" iconId="1091620589" duration="15.0">
 <stat name="Skill_PowerCost_AllSkills" constant="-5.0"/>
 </propertyModEffect>
@@ -12334,17 +12376,39 @@
 <propertyModEffect id="1879203545" name="DNT - Needful Hate recoveres Dazing Blow" appliedDescription="key:620876200:54354734" iconId="1090519170"/>
 <induceCombatState id="1879203553" name="Induce Feared" probabilityModProperty="268451131" state="2" stateDuration="10.0"/>
 <effect id="1879203566" name="DNT" description="key:620876223:181298206" appliedDescription="key:620876223:54354734" iconId="1090519170" duration="1.0" pulseCount="1" probabilityModProperty="268451129"/>
-<effect id="1879203757" name="Map to Tármunn Súrsa" appliedDescription="key:620876224:54354734"/>
-<effect id="1879203758" name="Map to the Rotting Cellar" appliedDescription="key:620876226:54354734"/>
-<effect id="1879203759" name="Map to Hrimbarg" appliedDescription="key:620876229:54354734"/>
-<effect id="1879203760" name="Map to Gath Forthnír" appliedDescription="key:620876232:54354734"/>
-<effect id="1879203761" name="Map to the First Hall" appliedDescription="key:620876228:54354734"/>
-<effect id="1879203762" name="Map to the Twenty-first Hall" appliedDescription="key:620876234:54354734"/>
-<effect id="1879203763" name="Map to Trestlebridge" appliedDescription="key:620876227:54354734"/>
-<effect id="1879203764" name="Map to Dolven-view" appliedDescription="key:620876231:54354734"/>
-<effect id="1879203765" name="Map to the Shadow Refuge" appliedDescription="key:620876230:54354734"/>
-<effect id="1879203766" name="Map to Echad Candelleth" appliedDescription="key:620876233:54354734"/>
-<effect id="1879203767" name="Map to Kauppa-kohta" appliedDescription="key:620876225:54354734"/>
+<travelEffect id="1879203757" name="Map to Tármunn Súrsa" appliedDescription="key:620876224:54354734" sceneID="1879048837">
+<position region="1" longitude="-32.142002" latitude="12.335283"/>
+</travelEffect>
+<travelEffect id="1879203758" name="Map to the Rotting Cellar" appliedDescription="key:620876226:54354734" sceneID="1879048837">
+<position region="2" longitude="-111.95801" latitude="-15.140664"/>
+</travelEffect>
+<travelEffect id="1879203759" name="Map to Hrimbarg" appliedDescription="key:620876229:54354734" sceneID="1879048837">
+<position region="1" longitude="6.941045" latitude="-24.43042"/>
+</travelEffect>
+<travelEffect id="1879203760" name="Map to Gath Forthnír" appliedDescription="key:620876232:54354734" sceneID="1879048837">
+<position region="1" longitude="-23.948847" latitude="10.866465"/>
+</travelEffect>
+<travelEffect id="1879203761" name="Map to the First Hall" appliedDescription="key:620876228:54354734" sceneID="1879048837">
+<position region="2" longitude="-95.30205" latitude="-7.983076"/>
+</travelEffect>
+<travelEffect id="1879203762" name="Map to the Twenty-first Hall" appliedDescription="key:620876234:54354734" sceneID="1879048837">
+<position region="2" longitude="-105.299" latitude="-5.7441797"/>
+</travelEffect>
+<travelEffect id="1879203763" name="Map to Trestlebridge" appliedDescription="key:620876227:54354734" sceneID="1879048837">
+<position region="1" longitude="-53.611485" latitude="-17.970146"/>
+</travelEffect>
+<travelEffect id="1879203764" name="Map to Dolven-view" appliedDescription="key:620876231:54354734" sceneID="1879048837">
+<position region="2" longitude="-112.372925" latitude="-8.436192"/>
+</travelEffect>
+<travelEffect id="1879203765" name="Map to the Shadow Refuge" appliedDescription="key:620876230:54354734" sceneID="1879048837">
+<position region="2" longitude="-101.213356" latitude="-13.100654"/>
+</travelEffect>
+<travelEffect id="1879203766" name="Map to Echad Candelleth" appliedDescription="key:620876233:54354734" sceneID="1879048837">
+<position region="1" longitude="-14.2717085" latitude="-36.78451"/>
+</travelEffect>
+<travelEffect id="1879203767" name="Map to Kauppa-kohta" appliedDescription="key:620876225:54354734" sceneID="1879048837">
+<position region="1" longitude="-58.060104" latitude="2.6294043"/>
+</travelEffect>
 <effect id="1879203790" name="Smoke" appliedDescription="key:620876257:54354734" iconId="1090553824" duration="10.0" expiresInRealTime="true"/>
 <vitalOverTimeEffect id="1879203905" name="Immolated" iconId="1090537950" duration="2.0" pulseCount="15" stat="Health_MaxLevel" damageType="16">
 <initialChange progressionID="1879149238"/>
@@ -13190,9 +13254,15 @@
 <propertyModEffect id="1879210685" name="Poisonous Silk" iconId="1091657094" duration="10.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="10.0"/>
 </propertyModEffect>
-<effect id="1879210686" name="Map to the Redhorn Lodes" appliedDescription="key:620880750:54354734"/>
-<effect id="1879210687" name="Map to the Flaming Deeps" appliedDescription="key:620880751:54354734"/>
-<effect id="1879210688" name="Map to Echad Andestel" appliedDescription="key:620880752:54354734"/>
+<travelEffect id="1879210686" name="Map to the Redhorn Lodes" appliedDescription="key:620880750:54354734" sceneID="1879048837">
+<position region="2" longitude="-106.86472" latitude="-11.133799"/>
+</travelEffect>
+<travelEffect id="1879210687" name="Map to the Flaming Deeps" appliedDescription="key:620880751:54354734" sceneID="1879048837">
+<position region="2" longitude="-107.97586" latitude="-13.2404785"/>
+</travelEffect>
+<travelEffect id="1879210688" name="Map to Echad Andestel" appliedDescription="key:620880752:54354734" sceneID="1879048837">
+<position region="2" longitude="-73.13177" latitude="-14.431933"/>
+</travelEffect>
 <vitalOverTimeEffect id="1879210690" name="Contact Poison (2)" iconId="1091657099" duration="2.0" pulseCount="10" stat="Health_MaxLevel" damageType="1024">
 <initialChange progressionID="1879413238" variance="0.3"/>
 <overTimeChange progressionID="1879413238" variance="0.3"/>
@@ -14006,11 +14076,21 @@
 <propertyModEffect id="1879216945" name="Focus Potion" iconId="1091631300" duration="30.0">
 <stat name="DEVASTATE_MAGNITUDE_PERCENTAGE" constant="28.0"/>
 </propertyModEffect>
-<effect id="1879217067" name="Map to Lhan Rhos" appliedDescription="key:620885404:54354734"/>
-<effect id="1879217068" name="Map to Grimbold's Camp" appliedDescription="key:620885406:54354734"/>
-<effect id="1879217069" name="Map to Nar's Peak" appliedDescription="key:620885403:54354734"/>
-<effect id="1879217070" name="Map to Echad Saeradan" appliedDescription="key:620885402:54354734"/>
-<effect id="1879217071" name="Map to Galtrev" appliedDescription="key:620885405:54354734"/>
+<travelEffect id="1879217067" name="Map to Lhan Rhos" appliedDescription="key:620885404:54354734" sceneID="1879048837">
+<position region="1" longitude="-22.94997" latitude="-86.77348"/>
+</travelEffect>
+<travelEffect id="1879217068" name="Map to Grimbold's Camp" appliedDescription="key:620885406:54354734" sceneID="1879048837">
+<position region="1" longitude="-4.085879" latitude="-87.99732"/>
+</travelEffect>
+<travelEffect id="1879217069" name="Map to Nar's Peak" appliedDescription="key:620885403:54354734" sceneID="1879048837">
+<position region="1" longitude="-8.480869" latitude="-65.593254"/>
+</travelEffect>
+<travelEffect id="1879217070" name="Map to Echad Saeradan" appliedDescription="key:620885402:54354734" sceneID="1879048837">
+<position region="1" longitude="-17.49702" latitude="-63.84128"/>
+</travelEffect>
+<travelEffect id="1879217071" name="Map to Galtrev" appliedDescription="key:620885405:54354734" sceneID="1879048837">
+<position region="1" longitude="-16.561386" latitude="-80.13851"/>
+</travelEffect>
 <propertyModEffect id="1879217087" name="Resonance" iconId="1091841012">
 <stat name="OUTGOING_HEALING_PERCENTAGE" constant="10.0"/>
 </propertyModEffect>
@@ -14078,21 +14158,51 @@
 <fellowshipEffect id="1879218293" name="Chord of Salvation HoT" applyToPets="true" applyToTarget="true" range="12.0">
 <effect id="1879369209" name="Chord of Our Salvation"/>
 </fellowshipEffect>
-<effect id="1879218310" name="Map to Western Malenhad" appliedDescription="key:620886636:54354734"/>
-<effect id="1879218311" name="Map to Imlad Balchorth" appliedDescription="key:620886638:54354734"/>
-<effect id="1879218313" name="Map to the Old Forest" appliedDescription="key:620886639:54354734"/>
-<effect id="1879218314" name="Map to Hengstacer Farm" appliedDescription="key:620886633:54354734"/>
-<effect id="1879218315" name="Map to Buckland" appliedDescription="key:620886640:54354734"/>
-<effect id="1879218316" name="Map to Oatbarton" appliedDescription="key:620886631:54354734"/>
-<effect id="1879218317" name="Map to Pynti-peldot" appliedDescription="key:620886634:54354734"/>
-<effect id="1879218318" name="Map to Agamaur" appliedDescription="key:620886629:54354734"/>
-<effect id="1879218319" name="Map to Harloeg" appliedDescription="key:620886635:54354734"/>
-<effect id="1879218320" name="Map to Goblin Town" appliedDescription="key:620886628:54354734"/>
-<effect id="1879218321" name="Map to Meluinen" appliedDescription="key:620886630:54354734"/>
-<effect id="1879218322" name="Map to Amon Raith" appliedDescription="key:620886642:54354734"/>
-<effect id="1879218323" name="Map to Othrikar" appliedDescription="key:620886632:54354734"/>
-<effect id="1879218324" name="Map to Thorenhad" appliedDescription="key:620886637:54354734"/>
-<effect id="1879218325" name="Map to Barachan's Camp" appliedDescription="key:620886641:54354734"/>
+<travelEffect id="1879218310" name="Map to Western Malenhad" appliedDescription="key:620886636:54354734" sceneID="1879048837">
+<position region="1" longitude="-33.5074" latitude="-1.6494336"/>
+</travelEffect>
+<travelEffect id="1879218311" name="Map to Imlad Balchorth" appliedDescription="key:620886638:54354734" sceneID="1879048837">
+<position region="1" longitude="-25.889267" latitude="6.9116993"/>
+</travelEffect>
+<travelEffect id="1879218313" name="Map to the Old Forest" appliedDescription="key:620886639:54354734" sceneID="1879048837">
+<position region="1" longitude="-57.67068" latitude="-32.448536"/>
+</travelEffect>
+<travelEffect id="1879218314" name="Map to Hengstacer Farm" appliedDescription="key:620886633:54354734" sceneID="1879048837">
+<position region="1" longitude="-52.275837" latitude="-22.253603"/>
+</travelEffect>
+<travelEffect id="1879218315" name="Map to Buckland" appliedDescription="key:620886640:54354734" sceneID="1879048837">
+<position region="1" longitude="-62.59817" latitude="-31.483925"/>
+</travelEffect>
+<travelEffect id="1879218316" name="Map to Oatbarton" appliedDescription="key:620886631:54354734" sceneID="1879048837">
+<position region="1" longitude="-67.39087" latitude="-23.400263"/>
+</travelEffect>
+<travelEffect id="1879218317" name="Map to Pynti-peldot" appliedDescription="key:620886634:54354734" sceneID="1879048837">
+<position region="1" longitude="-69.472046" latitude="11.263789"/>
+</travelEffect>
+<travelEffect id="1879218318" name="Map to Agamaur" appliedDescription="key:620886629:54354734" sceneID="1879048837">
+<position region="1" longitude="-27.379618" latitude="-29.77079"/>
+</travelEffect>
+<travelEffect id="1879218319" name="Map to Harloeg" appliedDescription="key:620886635:54354734" sceneID="1879048837">
+<position region="1" longitude="-28.093876" latitude="-37.614334"/>
+</travelEffect>
+<travelEffect id="1879218320" name="Map to Goblin Town" appliedDescription="key:620886628:54354734" sceneID="1879048837">
+<position region="1" longitude="6.159199" latitude="-20.805742"/>
+</travelEffect>
+<travelEffect id="1879218321" name="Map to Meluinen" appliedDescription="key:620886630:54354734" sceneID="1879048837">
+<position region="1" longitude="-44.58492" latitude="-13.60335"/>
+</travelEffect>
+<travelEffect id="1879218322" name="Map to Amon Raith" appliedDescription="key:620886642:54354734" sceneID="1879048837">
+<position region="1" longitude="-52.45531" latitude="-12.331845"/>
+</travelEffect>
+<travelEffect id="1879218323" name="Map to Othrikar" appliedDescription="key:620886632:54354734" sceneID="1879048837">
+<position region="1" longitude="-44.964745" latitude="-6.877998"/>
+</travelEffect>
+<travelEffect id="1879218324" name="Map to Thorenhad" appliedDescription="key:620886637:54354734" sceneID="1879048837">
+<position region="1" longitude="-14.979755" latitude="-31.661337"/>
+</travelEffect>
+<travelEffect id="1879218325" name="Map to Barachan's Camp" appliedDescription="key:620886641:54354734" sceneID="1879048837">
+<position region="1" longitude="-20.15036" latitude="-34.02156"/>
+</travelEffect>
 <propertyModEffect id="1879218439" name="Story of Courage: Fear Resistance" iconId="1090553813" duration="10.0">
 <stat name="Resist_AdditionalPoints_Resistance_Fear" scaling="1879355667"/>
 </propertyModEffect>
@@ -15418,10 +15528,18 @@
 <toAddIfPresent id="1879229178" name="DNT"/>
 <toExamine id="1879229174" name="Ensnared 1"/>
 </comboEffect>
-<effect id="1879229205" name="Map to the Chamber of the Cross-roads" appliedDescription="key:620894100:54354734"/>
-<effect id="1879229206" name="Map to Weathertop" appliedDescription="key:620894101:54354734"/>
-<effect id="1879229207" name="Map to Gwingris" appliedDescription="key:620894102:54354734"/>
-<effect id="1879229208" name="Map to the Scuttledells" appliedDescription="key:620894103:54354734"/>
+<travelEffect id="1879229205" name="Map to the Chamber of the Cross-roads" appliedDescription="key:620894100:54354734" sceneID="1879048837">
+<position region="2" longitude="-112.0803" latitude="-5.2160935"/>
+</travelEffect>
+<travelEffect id="1879229206" name="Map to Weathertop" appliedDescription="key:620894101:54354734" sceneID="1879048837">
+<position region="1" longitude="-36.88921" latitude="-31.1908"/>
+</travelEffect>
+<travelEffect id="1879229207" name="Map to Gwingris" appliedDescription="key:620894102:54354734" sceneID="1879048837">
+<position region="1" longitude="-16.045126" latitude="-40.1995"/>
+</travelEffect>
+<travelEffect id="1879229208" name="Map to the Scuttledells" appliedDescription="key:620894103:54354734" sceneID="1879048837">
+<position region="2" longitude="-51.814236" latitude="-9.39291"/>
+</travelEffect>
 <effect id="1879229213" name="Venom Increase +2"/>
 <instantVitalEffect id="1879229214" name="Envenom" stat="Health_MaxLevel">
 <vitalChange progressionID="1879413268" variance="0.2"/>
@@ -15434,10 +15552,18 @@
 <vitalChange progressionID="1879413236" variance="0.2"/>
 </instantVitalEffect>
 <effect id="1879229219" name="Venom Increase +4"/>
-<effect id="1879229235" name="Map to the Shire Homesteads" appliedDescription="key:620894126:54354734"/>
-<effect id="1879229236" name="Map to the Bree-land Homesteads" appliedDescription="key:620894127:54354734"/>
-<effect id="1879229237" name="Map to the Falathlorn Homesteads" appliedDescription="key:620894128:54354734"/>
-<effect id="1879229238" name="Map to the Thorin's Hall Homesteads" appliedDescription="key:620894129:54354734"/>
+<travelEffect id="1879229235" name="Map to the Shire Homesteads" appliedDescription="key:620894126:54354734" sceneID="1879048837">
+<position region="1" longitude="-73.19002" latitude="-36.522293"/>
+</travelEffect>
+<travelEffect id="1879229236" name="Map to the Bree-land Homesteads" appliedDescription="key:620894127:54354734" sceneID="1879048837">
+<position region="1" longitude="-46.14258" latitude="-34.901836"/>
+</travelEffect>
+<travelEffect id="1879229237" name="Map to the Falathlorn Homesteads" appliedDescription="key:620894128:54354734" sceneID="1879048837">
+<position region="1" longitude="-90.69176" latitude="-25.205448"/>
+</travelEffect>
+<travelEffect id="1879229238" name="Map to the Thorin's Hall Homesteads" appliedDescription="key:620894129:54354734" sceneID="1879048837">
+<position region="1" longitude="-104.843315" latitude="-15.712509"/>
+</travelEffect>
 <comboEffect id="1879229244" name="DNT">
 <present id="1879229175" name="Ensnared 3"/>
 <toAddIfPresent id="1879229214" name="Envenom"/>
@@ -16247,9 +16373,15 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
-<effect id="1879233636" name="DNT - Quick travel out of camp"/>
-<effect id="1879233638" name="DNT - Silvertine Complete fasttravel"/>
-<effect id="1879233639" name="DNT - Quick travel back into camp"/>
+<travelEffect id="1879233636" name="DNT - Quick travel out of camp" sceneID="1879141475">
+<position region="2" longitude="-111.855934" latitude="-10.44998"/>
+</travelEffect>
+<travelEffect id="1879233638" name="DNT - Silvertine Complete fasttravel" sceneID="1879141475">
+<position region="2" longitude="-112.45645" latitude="-9.814629"/>
+</travelEffect>
+<travelEffect id="1879233639" name="DNT - Quick travel back into camp" sceneID="1879141475">
+<position region="2" longitude="-110.89897" latitude="-10.790088"/>
+</travelEffect>
 <propertyModEffect id="1879233652" name="Torn Muscle" iconId="1090555735" duration="10.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
@@ -16545,9 +16677,15 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
-<effect id="1879239009" name="Map to Jazârgund" appliedDescription="key:620900013:54354734"/>
-<effect id="1879239012" name="Map to Zirakzigil" appliedDescription="key:620900015:54354734"/>
-<effect id="1879239013" name="Map to the Deep Descent" appliedDescription="key:620900014:54354734"/>
+<travelEffect id="1879239009" name="Map to Jazârgund" appliedDescription="key:620900013:54354734" sceneID="1879048837">
+<position region="2" longitude="-105.98361" latitude="-3.7077343"/>
+</travelEffect>
+<travelEffect id="1879239012" name="Map to Zirakzigil" appliedDescription="key:620900015:54354734" sceneID="1879048837">
+<position region="2" longitude="-110.80003" latitude="-2.9310937"/>
+</travelEffect>
+<travelEffect id="1879239013" name="Map to the Deep Descent" appliedDescription="key:620900014:54354734" sceneID="1879048837">
+<position region="2" longitude="-112.505486" latitude="-9.814043"/>
+</travelEffect>
 <instantVitalEffect id="1879239088" name="Favour of the Mearas" stat="MountEndurance_MaxLevel">
 <vitalChange constant="650.0"/>
 </instantVitalEffect>
@@ -18627,10 +18765,18 @@
 </defender>
 </reactiveVitalEffect>
 <effect id="1879250761" name="Akúlhun's Fury" iconId="1090541176" duration="10.0"/>
-<effect id="1879250783" name="Map to Eaworth" appliedDescription="key:620908833:54354734"/>
-<effect id="1879250785" name="Map to Snowbourn" appliedDescription="key:620908828:54354734"/>
-<effect id="1879250787" name="Map to Faldham" appliedDescription="key:620908831:54354734"/>
-<effect id="1879250788" name="Map to Harwick" appliedDescription="key:620908827:54354734"/>
+<travelEffect id="1879250783" name="Map to Eaworth" appliedDescription="key:620908833:54354734" sceneID="1879048837">
+<position region="2" longitude="-63.626053" latitude="-47.722054"/>
+</travelEffect>
+<travelEffect id="1879250785" name="Map to Snowbourn" appliedDescription="key:620908828:54354734" sceneID="1879048837">
+<position region="2" longitude="-61.29196" latitude="-60.486717"/>
+</travelEffect>
+<travelEffect id="1879250787" name="Map to Faldham" appliedDescription="key:620908831:54354734" sceneID="1879048837">
+<position region="2" longitude="-57.51125" latitude="-54.381306"/>
+</travelEffect>
+<travelEffect id="1879250788" name="Map to Harwick" appliedDescription="key:620908827:54354734" sceneID="1879048837">
+<position region="2" longitude="-52.807087" latitude="-39.742607"/>
+</travelEffect>
 <effect id="1879250813" name="Threat Increase" description="key:620908860:181298206" appliedDescription="key:620908860:54354734"/>
 <effect id="1879250814" name="Threat Increase" description="key:620908859:181298206" appliedDescription="key:620908859:54354734"/>
 <propertyModEffect id="1879250817" name="Rider and Steed" iconId="1091742735" duration="10.0">
@@ -18931,18 +19077,40 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
 </propertyModEffect>
 <effect id="1879253168" name="DNT"/>
-<effect id="1879253172" name="Map to Parth Celebrant" appliedDescription="key:620910354:54354734"/>
-<effect id="1879253174" name="Map to Hytbold" appliedDescription="key:620910356:54354734"/>
-<effect id="1879253175" name="Map to Cliving" appliedDescription="key:620910357:54354734"/>
-<effect id="1879253178" name="Map to Standgard" appliedDescription="key:620910352:54354734"/>
-<effect id="1879253179" name="Map to Mansig's Encampement" appliedDescription="key:620910350:54354734"/>
-<effect id="1879253180" name="Map to the Limlight Gatehouse" appliedDescription="key:620910351:54354734"/>
-<effect id="1879253182" name="Map to Langhold" appliedDescription="key:620910358:54354734"/>
-<effect id="1879253183" name="Map to Elthengels" appliedDescription="key:620910355:54354734"/>
-<effect id="1879253186" name="Map to the Dead Orc Glade" appliedDescription="key:620910353:54354734"/>
-<effect id="1879253189" name="Map to Haldirith" appliedDescription="key:620910349:54354734"/>
-<effect id="1879253192" name="Map to Parth Galen" appliedDescription="key:620910360:54354734"/>
-<effect id="1879253195" name="Map to the Entwash Fishing Camp" appliedDescription="key:620910359:54354734"/>
+<travelEffect id="1879253172" name="Map to Parth Celebrant" appliedDescription="key:620910354:54354734" sceneID="1879048837">
+<position region="2" longitude="-58.114716" latitude="-27.09083"/>
+</travelEffect>
+<travelEffect id="1879253174" name="Map to Hytbold" appliedDescription="key:620910356:54354734" sceneID="1879048837">
+<position region="2" longitude="-55.43035" latitude="-57.337284"/>
+</travelEffect>
+<travelEffect id="1879253175" name="Map to Cliving" appliedDescription="key:620910357:54354734" sceneID="1879048837"/>
+<travelEffect id="1879253178" name="Map to Standgard" appliedDescription="key:620910352:54354734" sceneID="1879048837">
+<position region="2" longitude="-62.843864" latitude="-25.621103"/>
+</travelEffect>
+<travelEffect id="1879253179" name="Map to Mansig's Encampement" appliedDescription="key:620910350:54354734" sceneID="1879048837">
+<position region="2" longitude="-51.331768" latitude="-52.25613"/>
+</travelEffect>
+<travelEffect id="1879253180" name="Map to the Limlight Gatehouse" appliedDescription="key:620910351:54354734" sceneID="1879048837">
+<position region="2" longitude="-66.972374" latitude="-25.387949"/>
+</travelEffect>
+<travelEffect id="1879253182" name="Map to Langhold" appliedDescription="key:620910358:54354734" sceneID="1879048837">
+<position region="2" longitude="-53.87169" latitude="-35.860966"/>
+</travelEffect>
+<travelEffect id="1879253183" name="Map to Elthengels" appliedDescription="key:620910355:54354734" sceneID="1879048837">
+<position region="2" longitude="-52.18834" latitude="-48.872387"/>
+</travelEffect>
+<travelEffect id="1879253186" name="Map to the Dead Orc Glade" appliedDescription="key:620910353:54354734" sceneID="1879048837">
+<position region="2" longitude="-49.71691" latitude="-56.569363"/>
+</travelEffect>
+<travelEffect id="1879253189" name="Map to Haldirith" appliedDescription="key:620910349:54354734" sceneID="1879048837">
+<position region="2" longitude="-63.417217" latitude="-21.987518"/>
+</travelEffect>
+<travelEffect id="1879253192" name="Map to Parth Galen" appliedDescription="key:620910360:54354734" sceneID="1879048837">
+<position region="2" longitude="-47.680897" latitude="-58.77466"/>
+</travelEffect>
+<travelEffect id="1879253195" name="Map to the Entwash Fishing Camp" appliedDescription="key:620910359:54354734" sceneID="1879048837">
+<position region="2" longitude="-70.43779" latitude="-42.726624"/>
+</travelEffect>
 <effect id="1879253343" name="DNT - Dispel Fervour"/>
 <effect id="1879253457" name="DNT - Knockback" description="key:620910498:181298206"/>
 <vitalOverTimeEffect id="1879253503" name="Deep Wound" iconId="1090553903" duration="2.0" pulseCount="13" stat="Health_MaxLevel">
@@ -19361,7 +19529,9 @@
 <propertyModEffect id="1879256515" name="Hallucinations" appliedDescription="key:620912073:54354734" iconId="1090641205" duration="15.0">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" constant="1.0"/>
 </propertyModEffect>
-<effect id="1879256518" name="DNT"/>
+<travelEffect id="1879256518" name="DNT" sceneID="1879200218">
+<position region="1" longitude="-95.09139" latitude="11.958056"/>
+</travelEffect>
 <effect id="1879256576" name="Knockback"/>
 <effect id="1879256593" name="DNT - Random Hotspots"/>
 <vitalOverTimeEffect id="1879256604" name="Shadow of the Dead" iconId="1091479303" duration="3.0" pulseCount="10" stat="Health_MaxLevel" damageType="32">
@@ -19501,7 +19671,9 @@
 <stat name="Resist_AdditionalPoints_Resistance_Poison" operator="SUBSTRACT" scaling="1879120050"/>
 <stat name="ACID_MITIGATION" operator="SUBSTRACT" scaling="1879131648"/>
 </propertyModEffect>
-<effect id="1879257323" name="DNT - One time goat travel to Orc-watch"/>
+<travelEffect id="1879257323" name="DNT - One time goat travel to Orc-watch" sceneID="1879141475">
+<position region="2" longitude="-106.86472" latitude="-11.133799"/>
+</travelEffect>
 <genesis id="1879257375" name=".." appliedDescription="key:620912822:54354734" summonDuration="20.0">
 <hotspot id="1879257344" name="Caltrops">
 <effect id="1879257283" name="Cruel Caltrops"/>
@@ -19593,7 +19765,9 @@
 <instantVitalEffect id="1879257738" name="Explosive Powder Keg" stat="Health_MaxLevel">
 <vitalChange progressionID="1879180347"/>
 </instantVitalEffect>
-<effect id="1879257772" name="DNT - One time drunken travel to Moria Hubs"/>
+<travelEffect id="1879257772" name="DNT - One time drunken travel to Moria Hubs" sceneID="1879141475">
+<position region="2" longitude="-104.56334" latitude="-13.353808"/>
+</travelEffect>
 <propertyModEffect id="1879257780" name="Drink to Kafli" description="key:620913175:181298206" appliedDescription="key:620913175:54354734" iconId="1090641205" duration="7.0" pulseCount="1">
 <stat name="Combat_BaseMissRate" constant="10.0"/>
 </propertyModEffect>
@@ -20515,7 +20689,9 @@
 <procEffect id="1879264297" name="Armour of the Erebor Huntsman" appliedDescription="key:620916712:54354734" iconId="1090552382" skillTypes="41" procProbability="0.2">
 <effect id="1879265569" name="Bodkin Arrows"/>
 </procEffect>
-<effect id="1879264333" name="DNT - Enter a Villager's Home"/>
+<travelEffect id="1879264333" name="DNT - Enter a Villager's Home" sceneID="1879270694" removeFromInstance="false" privateEncounterID="1879262955">
+<position region="2" longitude="46.694336" latitude="-117.26864"/>
+</travelEffect>
 <effect id="1879264515" name="Call of the Cavalry" iconId="1090519170" duration="1.0" pulseCount="2"/>
 <effect id="1879264528" name="Darkest Before Dawn" iconId="1092812619" duration="4.0" pulseCount="4"/>
 <propertyModEffect id="1879264530" name="Catch a Breath - Block" iconId="1090541168" duration="20.0">
@@ -20737,7 +20913,9 @@
 <procEffect id="1879265507" name="" description="key:620917860:181298206" iconId="1090552382" skillTypes="39" procProbability="0.1">
 <effect id="1879265503" name="Damage"/>
 </procEffect>
-<effect id="1879265513" name="DNT"/>
+<travelEffect id="1879265513" name="DNT" sceneID="1879075988">
+<position region="1" longitude="-52.10451" latitude="-29.086239"/>
+</travelEffect>
 <propertyModEffect id="1879265569" name="Bodkin Arrows" iconId="1090531635" duration="10.0">
 <stat name="Itemset_Skill_DamageMitigation" operator="SUBSTRACT" descriptionOverride="key:620917917:106251889" constant="8.0"/>
 </propertyModEffect>
@@ -20825,7 +21003,9 @@
 <effect id="1879267579" name="Rider's Bond" probability="0.15"/>
 </defender>
 </reactiveVitalEffect>
-<effect id="1879267600" name="DNT"/>
+<travelEffect id="1879267600" name="DNT" sceneID="1879261160">
+<position region="1" longitude="-50.826797" latitude="-24.784512"/>
+</travelEffect>
 <propertyModEffect id="1879267601" name="+5 Hope Boost" appliedDescription="key:620918998:54354734" iconId="1090563489" duration="5400.0">
 <stat name="HOPE" constant="5.0"/>
 </propertyModEffect>
@@ -21296,7 +21476,9 @@
 <effect id="1879271375" name="DNT -Last Stand Reset" description="key:620921933:181298206"/>
 <induceCombatState id="1879271380" name="Induce Stunned" state="15" stateDuration="5.0"/>
 <induceCombatState id="1879271381" name="Induce Stunned" state="15" stateDuration="3.0"/>
-<effect id="1879271382" name="DNT"/>
+<travelEffect id="1879271382" name="DNT" sceneID="1879076002">
+<position region="1" longitude="-71.495705" latitude="-29.819393"/>
+</travelEffect>
 <propertyModEffect id="1879271480" name="DNT - Reversal" iconId="1090519170">
 <specialEffect label="key:620922036:106251889"/>
 </propertyModEffect>
@@ -21504,7 +21686,9 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
 </propertyModEffect>
-<effect id="1879273335" name="DNT"/>
+<travelEffect id="1879273335" name="DNT" sceneID="1879076002">
+<position region="1" longitude="-69.839" latitude="-31.899061"/>
+</travelEffect>
 <instantVitalEffect id="1879273357" name="Blade's of Courage" stat="Health_MaxLevel" multiplicative="true">
 <vitalChange constant="0.05"/>
 </instantVitalEffect>
@@ -21893,7 +22077,7 @@
 <effect id="1879275718" name="Stored Power - 1" iconId="1092973473"/>
 <propertyModEffect id="1879275763" name="DNT - Wild Fire" iconId="1090519170"/>
 <propertyModEffect id="1879275764" name="DNT - Chill Wind" iconId="1090519170"/>
-<effect id="1879275870" name="DNT"/>
+<travelEffect id="1879275870" name="DNT" sceneID="1879048837"/>
 <effect id="1879275885" name="DNT - Lightning Storm" appliedDescription="key:620925529:54354734" iconId="1090531788"/>
 <procEffect id="1879275909" name="DNT - test" description="key:620925562:181298206" appliedDescription="key:620925562:54354734" iconId="1090552382" skillTypes="36,56" procProbability="0.01" cooldown="60.0">
 <effect id="1879073319" name="Mischievous Glee"/>
@@ -22060,7 +22244,9 @@
 <propertyModEffect id="1879277003" name="DNT - Captain Blood of Numenor Skill  Combo" appliedDescription="key:620926434:54354734" iconId="1091591834">
 <specialEffect label="key:620926434:106251889"/>
 </propertyModEffect>
-<effect id="1879277004" name="DNT"/>
+<travelEffect id="1879277004" name="DNT" sceneID="1879076002">
+<position region="1" longitude="-71.57588" latitude="-29.58751"/>
+</travelEffect>
 <propertyModEffect id="1879277020" name="DNT - Honourable Blow" iconId="1090519170"/>
 <propertyModEffect id="1879277033" name="Trail Food" iconId="1091536885" duration="1200.0">
 <stat name="VITALITY" scaling="1879211544"/>
@@ -22817,7 +23003,9 @@
 <effect id="1879283143" name="DNT - Furious Storm"/>
 </procEffect>
 <effect id="1879284511" name="Fight On" iconId="1090539699" duration="2.0" pulseCount="10"/>
-<effect id="1879284571" name="DNT - Travel to Entwade"/>
+<travelEffect id="1879284571" name="DNT - Travel to Entwade" sceneID="1879270711">
+<position region="2" longitude="-64.284775" latitude="-56.015774"/>
+</travelEffect>
 <comboEffect id="1879284577" name="DNT">
 <present id="1879060989" name="Trick: Disable"/>
 <toAddIfNotPresent id="1879284578" name="DNT"/>
@@ -22869,7 +23057,9 @@
 <effect id="1879284905" name="DNT"/>
 <effect id="1879284906" name="DNT"/>
 <effect id="1879285093" name="Resonant Piercing Cry" description="key:620932859:181298206" appliedDescription="key:620932859:54354734" iconId="1091840504"/>
-<effect id="1879285529" name="Map to Ráthwald" appliedDescription="key:620933285:54354734"/>
+<travelEffect id="1879285529" name="Map to Ráthwald" appliedDescription="key:620933285:54354734" sceneID="1879048837">
+<position region="1" longitude="-7.656855" latitude="-50.649765"/>
+</travelEffect>
 <effect id="1879285761" name="DNT -Last Stand Reset" description="key:620933519:181298206"/>
 <effect id="1879285762" name="DNT -Last Stand Reset" description="key:620933520:181298206"/>
 <procEffect id="1879285763" name="Stand Tall" appliedDescription="key:620933517:54354734" iconId="1090552382" skillTypes="36" cooldown="1.0">
@@ -23274,13 +23464,27 @@
 <propertyModEffect id="1879289115" name="DNT - Wounded Prey Trait Effect" iconId="1090519170">
 <specialEffect label="key:620936267:106251889"/>
 </propertyModEffect>
-<effect id="1879289123" name="Map to Aldburg" appliedDescription="key:620936269:54354734"/>
-<effect id="1879289124" name="Map to Stoke" appliedDescription="key:620936272:54354734"/>
-<effect id="1879289125" name="Map to Entwade" appliedDescription="key:620936270:54354734"/>
-<effect id="1879289126" name="Map to Woodurst" appliedDescription="key:620936274:54354734"/>
-<effect id="1879289127" name="Map to Grimslade" appliedDescription="key:620936273:54354734"/>
-<effect id="1879289128" name="Map to Edoras" appliedDescription="key:620936268:54354734"/>
-<effect id="1879289129" name="Map to Helm's Deep" appliedDescription="key:620936271:54354734"/>
+<travelEffect id="1879289123" name="Map to Aldburg" appliedDescription="key:620936269:54354734" sceneID="1879048837">
+<position region="2" longitude="-63.9837" latitude="-68.54693"/>
+</travelEffect>
+<travelEffect id="1879289124" name="Map to Stoke" appliedDescription="key:620936272:54354734" sceneID="1879048837">
+<position region="2" longitude="-70.29612" latitude="-49.436306"/>
+</travelEffect>
+<travelEffect id="1879289125" name="Map to Entwade" appliedDescription="key:620936270:54354734" sceneID="1879048837">
+<position region="2" longitude="-65.8387" latitude="-56.189568"/>
+</travelEffect>
+<travelEffect id="1879289126" name="Map to Woodurst" appliedDescription="key:620936274:54354734" sceneID="1879048837">
+<position region="2" longitude="-80.3044" latitude="-47.098404"/>
+</travelEffect>
+<travelEffect id="1879289127" name="Map to Grimslade" appliedDescription="key:620936273:54354734" sceneID="1879048837">
+<position region="2" longitude="-82.43098" latitude="-63.159065"/>
+</travelEffect>
+<travelEffect id="1879289128" name="Map to Edoras" appliedDescription="key:620936268:54354734" sceneID="1879048837">
+<position region="2" longitude="-74.191765" latitude="-60.317703"/>
+</travelEffect>
+<travelEffect id="1879289129" name="Map to Helm's Deep" appliedDescription="key:620936271:54354734" sceneID="1879048837">
+<position region="2" longitude="-89.5182" latitude="-63.900986"/>
+</travelEffect>
 <effect id="1879289173" name="Carrying Schematics" appliedDescription="key:620936293:54354734" iconId="1091561199" duration="300.0"/>
 <propertyModEffect id="1879289174" name="Fast Draw - Tier 1" description="key:620936295:181298206" iconId="1090532013" duration="6.0">
 <stat name="Skill_Hunter_Skill_InductionDuration_BowInductions" operator="SUBSTRACT" scaling="1879289175"/>
@@ -23529,7 +23733,9 @@
 <procEffect id="1879289876" name="Deadly Precision" descriptionOverride="key:620936507:62991877" appliedDescription="key:620936507:54354734" iconId="1090552382" skillTypes="36">
 <effect id="1879060710" name="Focus Increase"/>
 </procEffect>
-<effect id="1879290041" name="DNT - Teleport to Théoden"/>
+<travelEffect id="1879290041" name="DNT - Teleport to Théoden" sceneID="1879270695">
+<position region="2" longitude="-89.5182" latitude="-63.900986"/>
+</travelEffect>
 <effect id="1879290045" name="Bird Flag" iconId="1090531784"/>
 <effect id="1879290046" name="Bird Flag" iconId="1090531784"/>
 <effect id="1879290047" name="Bird Flag" iconId="1090531784"/>
@@ -24586,7 +24792,9 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
-<effect id="1879305992" name="Map to Hobnanigans" appliedDescription="key:620948326:54354734"/>
+<travelEffect id="1879305992" name="Map to Hobnanigans" appliedDescription="key:620948326:54354734" sceneID="1879048837">
+<position region="1" longitude="-51.745644" latitude="-25.249355"/>
+</travelEffect>
 <propertyModEffect id="1879306010" name="White Chicken" iconId="1090553792"/>
 <propertyModEffect id="1879306011" name="Red Chicken" iconId="1090553792"/>
 <propertyModEffect id="1879306012" name="Blue Chicken" iconId="1090553792"/>
@@ -26068,8 +26276,12 @@
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" constant="-4.0"/>
 <stat name="MELEE_DEFENCE_PERCENTAGE" constant="-4.0"/>
 </propertyModEffect>
-<effect id="1879325996" name="DNT - Causeway Forts Teleport"/>
-<effect id="1879325998" name="DNT - Morgul Base Teleport"/>
+<travelEffect id="1879325996" name="DNT - Causeway Forts Teleport">
+<position region="3" longitude="-85.80769" latitude="61.770878"/>
+</travelEffect>
+<travelEffect id="1879325998" name="DNT - Morgul Base Teleport">
+<position region="3" longitude="-79.76694" latitude="61.77578"/>
+</travelEffect>
 <propertyModEffect id="1879326052" name="Mounted" iconId="1090519170">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:620961028:106251889" constant="62.0"/>
 <specialEffect label="key:620961028:106251890"/>
@@ -26247,11 +26459,21 @@
 <genesis id="1879329391" name=".." appliedDescription="key:620964026:54354734" summonDuration="300.0">
 <summoned id="1879327596" name="Beren's Blood Wine (Empty)[n]"/>
 </genesis>
-<effect id="1879329494" name="DNT - Minas Tirith Teleport"/>
-<effect id="1879329495" name="DNT - Dol Amroth Teleport"/>
-<effect id="1879329496" name="DNT - Pelargir Teleport"/>
-<effect id="1879329497" name="DNT - Arnach Teleport"/>
-<effect id="1879329505" name="DNT - V4B1 Teleport"/>
+<travelEffect id="1879329494" name="DNT - Minas Tirith Teleport">
+<position region="3" longitude="-16.68247" latitude="-65.452805"/>
+</travelEffect>
+<travelEffect id="1879329495" name="DNT - Dol Amroth Teleport">
+<position region="3" longitude="-71.266235" latitude="-74.67648"/>
+</travelEffect>
+<travelEffect id="1879329496" name="DNT - Pelargir Teleport">
+<position region="3" longitude="-31.706923" latitude="-82.588104"/>
+</travelEffect>
+<travelEffect id="1879329497" name="DNT - Arnach Teleport">
+<position region="3" longitude="-24.205156" latitude="-76.142914"/>
+</travelEffect>
+<travelEffect id="1879329505" name="DNT - V4B1 Teleport">
+<position region="3" longitude="-16.68247" latitude="-65.452805"/>
+</travelEffect>
 <genesis id="1879329782" name="Create Supplier" appliedDescription="key:620964275:54354734" summonDuration="300.0">
 <summoned id="1879329793" name="Supplier[f]"/>
 </genesis>
@@ -28163,7 +28385,9 @@
 <stat name="XP_QuestAwardMultiplier" descriptionOverride="-" scaling="1879353805"/>
 </propertyModEffect>
 <effect id="1879354066" name="Call Yordam" description="key:621002017:181298206"/>
-<effect id="1879354233" name="Mordor"/>
+<travelEffect id="1879354233" name="Mordor">
+<position region="4" longitude="8.643076" latitude="-47.933018"/>
+</travelEffect>
 <effect id="1879354416" name="Determination" appliedDescription="key:621002311:54354734" iconId="1090553975" duration="2.0" pulseCount="5"/>
 <effect id="1879354417" name="Moment of Need" appliedDescription="key:621002313:54354734" iconId="1091585358"/>
 <effect id="1879354418" name="Temptation of the One Ring" appliedDescription="key:621002312:54354734" iconId="1090524461"/>
@@ -28186,7 +28410,9 @@
 <recallEffect id="1879354906" name="Travel to Udûn Foothold">
 <position region="4" longitude="-0.5668066" latitude="-41.21418"/>
 </recallEffect>
-<effect id="1879356012" name="Battle of Morranon"/>
+<travelEffect id="1879356012" name="Battle of Morranon">
+<position region="4" longitude="-10.315898" latitude="-40.780586"/>
+</travelEffect>
 <effect id="1879356805" name="Shadow of Sauron" appliedDescription="key:621002966:54354734"/>
 <recallEffect id="1879357601" name="Travel to the Hall of the King">
 <position region="4" longitude="55.259686" latitude="14.795234"/>
@@ -28515,12 +28741,24 @@
 <specialEffect label="key:621004653:106251890"/>
 <specialEffect label="key:621004653:106251891"/>
 </propertyModEffect>
-<effect id="1879359315" name="DNT -- Teleport to Cell 5"/>
-<effect id="1879359316" name="DNT -- Teleport to Cell 6"/>
-<effect id="1879359323" name="DNT -- Teleport to Cell 4"/>
-<effect id="1879359327" name="DNT -- Teleport to Cell 1"/>
-<effect id="1879359332" name="DNT -- Teleport to Cell 3"/>
-<effect id="1879359337" name="DNT -- Teleport to Cell 2"/>
+<travelEffect id="1879359315" name="DNT -- Teleport to Cell 5" sceneID="1879360088" removeFromInstance="false" privateEncounterID="1879358597">
+<position region="4" longitude="54.761738" latitude="39.480274"/>
+</travelEffect>
+<travelEffect id="1879359316" name="DNT -- Teleport to Cell 6" sceneID="1879360088" removeFromInstance="false" privateEncounterID="1879358597">
+<position region="4" longitude="54.617657" latitude="39.523846"/>
+</travelEffect>
+<travelEffect id="1879359323" name="DNT -- Teleport to Cell 4" sceneID="1879360088" removeFromInstance="false" privateEncounterID="1879358597">
+<position region="4" longitude="54.8358" latitude="39.48039"/>
+</travelEffect>
+<travelEffect id="1879359327" name="DNT -- Teleport to Cell 1" sceneID="1879360088" removeFromInstance="false" privateEncounterID="1879358597">
+<position region="4" longitude="54.753143" latitude="39.84574"/>
+</travelEffect>
+<travelEffect id="1879359332" name="DNT -- Teleport to Cell 3" sceneID="1879360088" removeFromInstance="false" privateEncounterID="1879358597">
+<position region="4" longitude="54.87658" latitude="39.666912"/>
+</travelEffect>
+<travelEffect id="1879359337" name="DNT -- Teleport to Cell 2" sceneID="1879360088" removeFromInstance="false" privateEncounterID="1879358597">
+<position region="4" longitude="54.83463" latitude="39.831856"/>
+</travelEffect>
 <propertyModEffect id="1879359341" name="Crippled Resolve" appliedDescription="key:621004717:54354734" iconId="1091479312" duration="20.0">
 <stat name="INCOMING_HEALING_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
 <stat name="ICMR" operator="MULTIPLY" descriptionOverride="key:621004717:106251890" constant="0.5"/>
@@ -29718,7 +29956,9 @@
 <recallEffect id="1879374537" name="Warden Travel to Skarháld">
 <position region="2" longitude="-45.328995" latitude="34.61536"/>
 </recallEffect>
-<effect id="1879375446" name="Map to Rhosgobel" appliedDescription="key:620986441:54354734"/>
+<travelEffect id="1879375446" name="Map to Rhosgobel" appliedDescription="key:620986441:54354734" sceneID="1879325548">
+<position region="2" longitude="-52.575127" latitude="0.657998"/>
+</travelEffect>
 <propertyModEffect id="1879375477" name="Mounted" iconId="1090519170">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621012655:106251889" constant="68.0"/>
 <specialEffect label="key:621012655:106251890"/>
@@ -30047,7 +30287,9 @@
 <propertyModEffect id="1879379564" name="Targetted" appliedDescription="key:621015542:54354734" iconId="1090519170" duration="30.0"/>
 <effect id="1879379726" name="Triumph" appliedDescription="key:621015575:54354734"/>
 <propertyModEffect id="1879379728" name="Call the Company" iconId="1090616965" duration="1.0" pulseCount="1"/>
-<effect id="1879380147" name="DNT - Lost in Wistmead"/>
+<travelEffect id="1879380147" name="DNT - Lost in Wistmead" sceneID="1879360092">
+<position region="1" longitude="-113.66247" latitude="70.275856"/>
+</travelEffect>
 <vitalOverTimeEffect id="1879380213" name="Resounding Challenge - Light" iconId="1091744833" duration="4.0" pulseCount="6" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855"/>
 </vitalOverTimeEffect>
@@ -32479,10 +32721,18 @@
 <propertyModEffect id="1879397724" name="Lesser Resolution of Victory" appliedDescription="key:621027285:54354734" iconId="1091753542" duration="21600.0">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:621027285:106251889" constant="1.05"/>
 </propertyModEffect>
-<effect id="1879397749" name="DNT - Teleport to Beorninghús"/>
-<effect id="1879397778" name="Map to Dale" appliedDescription="key:621027328:54354734"/>
-<effect id="1879397780" name="Map to the Camp of the Host" appliedDescription="key:621027327:54354734"/>
-<effect id="1879397824" name="DNT - Mordor Besieged"/>
+<travelEffect id="1879397749" name="DNT - Teleport to Beorninghús">
+<position region="2" longitude="53.16328" latitude="38.900185"/>
+</travelEffect>
+<travelEffect id="1879397778" name="Map to Dale" appliedDescription="key:621027328:54354734" sceneID="1879048837">
+<position region="2" longitude="-25.570526" latitude="24.876572"/>
+</travelEffect>
+<travelEffect id="1879397780" name="Map to the Camp of the Host" appliedDescription="key:621027327:54354734" sceneID="1879048837">
+<position region="4" longitude="-10.315898" latitude="-40.780586"/>
+</travelEffect>
+<travelEffect id="1879397824" name="DNT - Mordor Besieged" sceneID="1879389723">
+<position region="4" longitude="-131.24008" latitude="-97.660484"/>
+</travelEffect>
 <effect id="1879398858" name="Summon Spirit of Rage"/>
 <propertyModEffect id="1879398859" name="Gaze of Sauron" appliedDescription="key:621027884:54354734" iconId="1091475961" duration="30.0">
 <stat name="Mood_Intended_Dread_Level" constant="40.0"/>
@@ -34629,7 +34879,9 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
-<effect id="1879406179" name="DNT - Teleport to Minas Tirith (Midsummer)"/>
+<travelEffect id="1879406179" name="DNT - Teleport to Minas Tirith (Midsummer)">
+<position region="4" longitude="-52.862732" latitude="22.376484"/>
+</travelEffect>
 <propertyModEffect id="1879406456" name="Defeated" iconId="1091400591" duration="16.0"/>
 <propertyModEffect id="1879406581" iconId="1090553792"/>
 <effect id="1879406675" name="Smoking Pipe-weed"/>
@@ -35703,7 +35955,9 @@
 <overTimeChange progressionID="1879343123"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879412579" name="Gorgar's Target" appliedDescription="key:621038069:54354734" iconId="1091752940" duration="7.0"/>
-<effect id="1879412587" name="DNT - Missions Hub"/>
+<travelEffect id="1879412587" name="DNT - Missions Hub" sceneID="1879407747">
+<position region="2" longitude="47.59953" latitude="68.9048"/>
+</travelEffect>
 <propertyModEffect id="1879412596" name="Corruption of the Pack" appliedDescription="key:621038082:54354734" iconId="1091400591" duration="60.0">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" constant="1.15"/>
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="1.15"/>
@@ -37359,9 +37613,13 @@
 <propertyModEffect id="1879427901" iconId="1090553792"/>
 <effect id="1879427931" name="Summoned Ukhrash"/>
 <effect id="1879427934" name="Summoned Ukhrash"/>
-<effect id="1879427988" name="DNT - Teleport to Skarháld"/>
+<travelEffect id="1879427988" name="DNT - Teleport to Skarháld">
+<position region="2" longitude="-45.38002" latitude="34.696007"/>
+</travelEffect>
 <effect id="1879427989" name="Grant the Valar Level 120 Boosted Trait"/>
-<effect id="1879427992" name="DNT - Gundabad"/>
+<travelEffect id="1879427992" name="DNT - Gundabad" sceneID="1879400528">
+<position region="2" longitude="-114.62476" latitude="-45.62326"/>
+</travelEffect>
 <effect id="1879427994" name="Grant the Valar Level 130 Boosted Trait"/>
 <induceCombatState id="1879428001" name="Induce Knockeddown" probability="0.5" probabilityModProperty="268463110" state="13" stateDuration="2.0"/>
 <propertyModEffect id="1879428078" name="Rattled - Tier 1" iconId="1092693210" duration="10.0">
@@ -37572,7 +37830,9 @@
 <initialChange progressionID="1879180916"/>
 <overTimeChange progressionID="1879244292"/>
 </vitalOverTimeEffect>
-<effect id="1879439276" name="Map to the Rivendell Tracery Archive" appliedDescription="key:621059098:54354734"/>
+<travelEffect id="1879439276" name="Map to the Rivendell Tracery Archive" appliedDescription="key:621059098:54354734" sceneID="1879048837">
+<position region="1" longitude="54.847908" latitude="59.849823"/>
+</travelEffect>
 <effect id="1879439295" name="Three Mettle"/>
 <effect id="1879439422" name="DNT" iconId="1091940986"/>
 <instantVitalEffect id="1879439427" name="Dire Need Heal" stat="Health_MaxLevel" multiplicative="true">
@@ -39198,7 +39458,9 @@
 <stat name="STEALTH_LEVEL" constant="1.0"/>
 <stat name="AI_PerceptionRadius" constant="50.0"/>
 </propertyModEffect>
-<effect id="1879452792" name="DNT - Before the Shadow"/>
+<travelEffect id="1879452792" name="DNT - Before the Shadow" sceneID="1879446036">
+<position region="1" longitude="-22.449453" latitude="-52.773426"/>
+</travelEffect>
 <propertyModEffect id="1879452813" name="Lingering Fear" appliedDescription="key:621068576:54354734" iconId="1092752108" duration="20.0" expiresInRealTime="true">
 <stat name="INCOMING_HEALING_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:621068576:106251889" constant="50.0"/>
 <stat name="OUTGOING_HEALING_PERCENTAGE" operator="SUBSTRACT" constant="90.0"/>
@@ -41099,7 +41361,9 @@
 <summoned id="1879458491" name="Ballista[e]"/>
 </genesis>
 <effect id="1879462770" name="Grant the Valar Level 140 Boosted Trait"/>
-<effect id="1879462771" name="DNT - Teleport to Bail Avarc"/>
+<travelEffect id="1879462771" name="DNT - Teleport to Bail Avarc">
+<position region="1" longitude="-27.848085" latitude="70.26599"/>
+</travelEffect>
 <propertyModEffect id="1879462954" name="Mounted" iconId="1090519170">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621074866:106251889" constant="68.0"/>
 <specialEffect label="key:621074866:106251890"/>
@@ -41130,7 +41394,9 @@
 <propertyModEffect id="1879463035" iconId="1090553792"/>
 <propertyModEffect id="1879463036" iconId="1090553792"/>
 <propertyModEffect id="1879463039" iconId="1090553792"/>
-<effect id="1879463084" name="Map to the Keep of Annâk-khurfu" appliedDescription="key:621074981:54354734"/>
+<travelEffect id="1879463084" name="Map to the Keep of Annâk-khurfu" appliedDescription="key:621074981:54354734" sceneID="1879048837">
+<position region="2" longitude="47.57549" latitude="69.32572"/>
+</travelEffect>
 <propertyModEffect id="1879463153" name="Agility of the Duvárdain" iconId="1091479052">
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="100.0"/>
 </propertyModEffect>
@@ -43096,7 +43362,9 @@
 <recallEffect id="1879475960" name="Muster in Jax Phanâl">
 <position region="5" longitude="-114.68099" latitude="-14.458066"/>
 </recallEffect>
-<effect id="1879476078" name="DNT - Umbar"/>
+<travelEffect id="1879476078" name="DNT - Umbar" sceneID="1879475264">
+<position region="5" longitude="-96.65967" latitude="-20.564169"/>
+</travelEffect>
 <propertyModEffect id="1879476109" name="DNT - Pots can increase inc damage" iconId="1090519170">
 <specialEffect label="key:621085490:106251889"/>
 </propertyModEffect>
