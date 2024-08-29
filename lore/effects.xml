@@ -11,8 +11,9 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879049334" name="Distraction" iconId="1090522261" duration="45.0">
+<propertyModEffect id="1879049334" name="Distraction" iconId="1090522261" duration="10.0">
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.9"/>
+<specialEffect label="key:620757545:106251891"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="20.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879049335" name="Enraged" iconId="1091401433" duration="15.0">
@@ -243,7 +244,7 @@
 </vitalOverTimeEffect>
 <effect id="1879051427" name="Draining Bite" iconId="1090519170"/>
 <propertyModEffect id="1879051431" name="Susceptibility to Poison" description="key:620758728:181298206" appliedDescription="key:620758728:54354734" iconId="1090522397" duration="10.0" expiresInRealTime="true">
-<stat name="Resist_AdditionalPoints_Resistance_Poison" operator="SUBSTRACT" scaling="1879120053"/>
+<stat name="Resist_AdditionalPoints_Resistance_Poison" scaling="1879120053"/>
 </propertyModEffect>
 <propertyModEffect id="1879051473" name="Lurking Sickness" appliedDescription="key:620758770:54354734" iconId="1090522617" duration="20.0" pulseCount="1">
 <stat name="ICMR" operator="SUBSTRACT" scaling="1879399433"/>
@@ -319,7 +320,7 @@
 <stat name="WILL" operator="SUBSTRACT" scaling="1879471101"/>
 </propertyModEffect>
 <propertyModEffect id="1879052671" name="Shadow Vulnerability" description="key:620759511:181298206" appliedDescription="key:620759511:54354734" iconId="1090528810" duration="3.0" pulseCount="5" expiresInRealTime="true">
-<stat name="SHADOW_MITIGATION" operator="SUBSTRACT" scaling="1879131710"/>
+<stat name="SHADOW_MITIGATION" scaling="1879131710"/>
 </propertyModEffect>
 <effect id="1879052672" name="Summoned Fell Spirit"/>
 <induceCombatState id="1879052685" name="Induce MonsterInvulnerability" state="4" stateDuration="10.0"/>
@@ -536,7 +537,7 @@
 <vitalChange constant="5.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879057820" name="Susceptibility to Fear" description="key:620763086:181298206" appliedDescription="key:620763086:54354734" iconId="1090528810" duration="10.0" expiresInRealTime="true">
-<stat name="Resist_AdditionalPoints_Resistance_Fear" operator="SUBSTRACT" scaling="1879120042"/>
+<stat name="Resist_AdditionalPoints_Resistance_Fear" scaling="1879120042"/>
 </propertyModEffect>
 <genesis id="1879057821" name=".." appliedDescription="key:620763088:54354734" summonDuration="20.0">
 <hotspot id="1879057822" name="DNT - Offer Up The Fallen">
@@ -1746,7 +1747,7 @@
 </instantVitalEffect>
 <effect id="1879085439" name="Knockaway"/>
 <propertyModEffect id="1879085467" name="Susceptibility to Wounds" description="key:620784470:181298206" appliedDescription="key:620784470:54354734" iconId="1090522394" duration="10.0" expiresInRealTime="true">
-<stat name="Resist_AdditionalPoints_Resistance_Wound" operator="SUBSTRACT" scaling="1879120036"/>
+<stat name="Resist_AdditionalPoints_Resistance_Wound" scaling="1879120036"/>
 </propertyModEffect>
 <propertyModEffect id="1879085468" name="Burst of Competence" appliedDescription="key:620784495:54354734" iconId="1091603093" duration="1800.0">
 <stat name="XP_AwardMultiplier" descriptionOverride="key:620784495:106251889" constant="25.0"/>
@@ -1756,7 +1757,7 @@
 <stat name="Combat_Agent_Armor_Value_Float" scaling="1879085473"/>
 </propertyModEffect>
 <propertyModEffect id="1879085476" name="Susceptibility to Disease" description="key:620784443:181298206" appliedDescription="key:620784443:54354734" iconId="1090522616" duration="10.0" expiresInRealTime="true">
-<stat name="Resist_AdditionalPoints_Resistance_Disease" operator="SUBSTRACT" scaling="1879120058"/>
+<stat name="Resist_AdditionalPoints_Resistance_Disease" scaling="1879120058"/>
 </propertyModEffect>
 <propertyModEffect id="1879085478" name="Continuing Competence" appliedDescription="key:620784497:54354734" iconId="1091603093" duration="3600.0">
 <stat name="XP_AwardMultiplier" descriptionOverride="key:620784497:106251889" constant="25.0"/>
@@ -2038,16 +2039,16 @@
 <effect id="1879087907" name="Shadow Group Resistance"/>
 </fellowshipEffect>
 <propertyModEffect id="1879087905" name="Shadow Resistance" iconId="1090648290" duration="300.0">
-<stat name="TACTICAL_MITIGATION" scaling="1879215075"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
 </propertyModEffect>
 <propertyModEffect id="1879087906" name="Fire Resistance" iconId="1090648289" duration="300.0">
-<stat name="TACTICAL_MITIGATION" scaling="1879215075"/>
+<stat name="FIRE_MITIGATION" scaling="1879491145"/>
 </propertyModEffect>
 <propertyModEffect id="1879087907" name="Shadow Group Resistance" iconId="1090648290" duration="600.0">
-<stat name="TACTICAL_MITIGATION" scaling="1879215062"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489611"/>
 </propertyModEffect>
 <propertyModEffect id="1879087908" name="Fire Group Resistance" iconId="1090648289" duration="600.0">
-<stat name="TACTICAL_MITIGATION" scaling="1879215062"/>
+<stat name="FIRE_MITIGATION" scaling="1879491143"/>
 </propertyModEffect>
 <effect id="1879087967" name="Summoned Boggart" description="key:620790514:181298206"/>
 <propertyModEffect id="1879087968" name="Scholar Lore" iconId="1090648232" duration="60.0">
@@ -2143,7 +2144,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879088791" name="Vulnerable" appliedDescription="key:620790939:54354734" iconId="1090599071"/>
 <propertyModEffect id="1879088963" name="Fire Vulnerability" description="key:620791060:181298206" appliedDescription="key:620791060:54354734" iconId="1090522394" duration="10.0" expiresInRealTime="true">
-<stat name="FIRE_MITIGATION" operator="SUBSTRACT" scaling="1879131686"/>
+<stat name="FIRE_MITIGATION" scaling="1879131686"/>
 </propertyModEffect>
 <propertyModEffect id="1879088966" name="Invoke the Eye" appliedDescription="key:620791062:54354734" iconId="1091475959" duration="120.0">
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="15.000001"/>
@@ -2986,10 +2987,10 @@
 <induceCombatState id="1879098720" name="Induce Dazed" state="3" stateDuration="10.0"/>
 <instantVitalEffect id="1879098721" name="Morale Damage" stat="Health_MaxLevel" multiplicative="true"/>
 <propertyModEffect id="1879098722" name="Greater Shadow Vulnerability" description="key:620797179:181298206" appliedDescription="key:620797179:54354734" iconId="1090528810" duration="3.0" pulseCount="10" expiresInRealTime="true">
-<stat name="SHADOW_MITIGATION" operator="SUBSTRACT" scaling="1879131698"/>
+<stat name="SHADOW_MITIGATION" scaling="1879131698"/>
 </propertyModEffect>
 <propertyModEffect id="1879098723" name="Greater Susceptibility to Fear" description="key:620797180:181298206" appliedDescription="key:620797180:54354734" iconId="1090528810" duration="10.0" expiresInRealTime="true">
-<stat name="Resist_AdditionalPoints_Resistance_Fear" operator="SUBSTRACT" scaling="1879120048"/>
+<stat name="Resist_AdditionalPoints_Resistance_Fear" scaling="1879120048"/>
 </propertyModEffect>
 <instantVitalEffect id="1879098806" name="Morale Damage" stat="Health_MaxLevel" multiplicative="true"/>
 <instantVitalEffect id="1879098807" name="Morale Damage" stat="Health_MaxLevel" multiplicative="true"/>
@@ -7820,13 +7821,13 @@
 </propertyModEffect>
 <effect id="1879161379" name="Life Drain" iconId="1090519170"/>
 <propertyModEffect id="1879161387" name="Acid Vulnerability" description="key:620843131:181298206" iconId="1091561141" duration="30.0" expiresInRealTime="true">
-<stat name="ACID_MITIGATION" operator="SUBSTRACT" scaling="1879131648"/>
+<stat name="ACID_MITIGATION" scaling="1879131648"/>
 </propertyModEffect>
 <propertyModEffect id="1879161390" name="Fire Vulnerability" description="key:620843134:181298206" iconId="1091561199" duration="30.0" expiresInRealTime="true">
-<stat name="FIRE_MITIGATION" operator="SUBSTRACT" scaling="1879131701"/>
+<stat name="FIRE_MITIGATION" scaling="1879131701"/>
 </propertyModEffect>
 <propertyModEffect id="1879161400" name="Shadow Vulnerability" description="key:620843144:181298206" iconId="1091565009" duration="30.0" expiresInRealTime="true">
-<stat name="SHADOW_MITIGATION" operator="SUBSTRACT" scaling="1879131710"/>
+<stat name="SHADOW_MITIGATION" scaling="1879131710"/>
 </propertyModEffect>
 <effect id="1879161424" name="Fire Split"/>
 <genesis id="1879161445" name="DNT - Genesis" appliedDescription="key:620843186:54354734" summonDuration="15.0">
@@ -8005,7 +8006,6 @@
 <effect id="1879163411" name="Minor Emblem of Power" iconId="1091570806" duration="5.0"/>
 <effect id="1879163412" name="Emblem of Power" iconId="1091570807" duration="5.0"/>
 <instantVitalEffect id="1879163415" name="Morale Damage" stat="Health_MaxLevel" multiplicative="true"/>
-<instantVitalEffect id="1879163416" name="Morale Damage" stat="Health_MaxLevel" multiplicative="true"/>
 <propertyModEffect id="1879163543" name="Greater Emblem of the Valar" iconId="1091479054" duration="5.0">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="25.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="25.0"/>
@@ -28642,7 +28642,7 @@
 <finalTier id="1879358951" name="Stab! - 10"/>
 </tieredEffect>
 <propertyModEffect id="1879358980" name="Weak Form" appliedDescription="key:620986232:54354734" iconId="1090528810" duration="10.0">
-<stat name="FIRE_MITIGATION" operator="SUBSTRACT" scaling="1879131702"/>
+<stat name="FIRE_MITIGATION" scaling="1879131702"/>
 <stat name="Combat_ArmorDefense_PointsModifier_Light" operator="SUBSTRACT" scaling="1879131658"/>
 <stat name="Combat_ArmorDefense_PointsModifier_AncientDwarf" operator="SUBSTRACT" scaling="1879132219"/>
 <stat name="Combat_ArmorDefense_PointsModifier_Westernesse" operator="SUBSTRACT" scaling="1879132243"/>
@@ -28653,10 +28653,10 @@
 <stat name="Combat_Agent_Armor_Value_Float" descriptionOverride="-" scaling="1879131654"/>
 </propertyModEffect>
 <propertyModEffect id="1879359034" name="Fire Vulnerability" description="key:621004458:181298206" appliedDescription="key:621004458:54354734" iconId="1091565009" duration="60.0">
-<stat name="FIRE_MITIGATION" operator="SUBSTRACT" scaling="1879131701"/>
+<stat name="FIRE_MITIGATION" scaling="1879131701"/>
 </propertyModEffect>
 <propertyModEffect id="1879359036" name="Shadow Vulnerability" description="key:621004462:181298206" appliedDescription="key:621004462:54354734" iconId="1091565009" duration="60.0">
-<stat name="SHADOW_MITIGATION" operator="SUBSTRACT" scaling="1879131668"/>
+<stat name="SHADOW_MITIGATION" scaling="1879131668"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879359055" name="Infected Wound" appliedDescription="key:621004478:54354734" iconId="1091479199" duration="3.0" pulseCount="20" stat="Health_MaxLevel" damageType="1024">
 <initialChange progressionID="1879180912"/>
@@ -36394,11 +36394,21 @@
 <effect id="1879415859" name="Call Marigold"/>
 <effect id="1879416031" name="Wild Roots" iconId="1091642152" duration="90.0"/>
 <effect id="1879416034" name="Summon Root" description="key:621040658:181298206"/>
-<propertyModEffect id="1879416037" name="DNT - Pathfinder trait bonus" iconId="1090519170"/>
-<propertyModEffect id="1879416040" name="DNT - Pathfinder trait bonus" iconId="1090519170"/>
-<propertyModEffect id="1879416042" name="DNT - Pathfinder trait bonus" iconId="1090519170"/>
-<propertyModEffect id="1879416044" name="DNT - Pathfinder trait bonus" iconId="1090519170"/>
-<propertyModEffect id="1879416046" name="DNT - Pathfinder trait bonus" iconId="1090519170"/>
+<propertyModEffect id="1879416037" name="DNT - Pathfinder trait bonus" iconId="1090519170">
+<specialEffect label="key:621040663:106251889"/>
+</propertyModEffect>
+<propertyModEffect id="1879416040" name="DNT - Pathfinder trait bonus" iconId="1090519170">
+<specialEffect label="key:621040661:106251889"/>
+</propertyModEffect>
+<propertyModEffect id="1879416042" name="DNT - Pathfinder trait bonus" iconId="1090519170">
+<specialEffect label="key:621040664:106251889"/>
+</propertyModEffect>
+<propertyModEffect id="1879416044" name="DNT - Pathfinder trait bonus" iconId="1090519170">
+<specialEffect label="key:621040665:106251889"/>
+</propertyModEffect>
+<propertyModEffect id="1879416046" name="DNT - Pathfinder trait bonus" iconId="1090519170">
+<specialEffect label="key:621040662:106251889"/>
+</propertyModEffect>
 <recallEffect id="1879416071" name="Travel to Trestlebridge">
 <position region="1" longitude="-54.530945" latitude="-17.649805"/>
 </recallEffect>
@@ -36996,7 +37006,7 @@
 </vitalOverTimeEffect>
 <propertyModEffect id="1879419760" iconId="1090519170" duration="10.0"/>
 <propertyModEffect id="1879419885" name="Lightning Vulnerability" description="key:620986173:181298206" iconId="1091565008" duration="30.0" expiresInRealTime="true">
-<stat name="Combat_ArmorDefense_PointsModifier_Lightning" operator="SUBSTRACT" scaling="1879143004"/>
+<stat name="Combat_ArmorDefense_PointsModifier_Lightning" scaling="1879143004"/>
 </propertyModEffect>
 <propertyModEffect id="1879419899" name="Sprint" iconId="1090553762" duration="15.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="key:620978798:106251889" constant="35.0"/>
@@ -37005,10 +37015,10 @@
 <stat name="CRITICAL_DEFENCE" operator="MULTIPLY" descriptionOverride="key:620977207:106251889" constant="0.95"/>
 </propertyModEffect>
 <propertyModEffect id="1879419958" name="Fire Vulnerability" description="key:620985953:181298206" iconId="1091561199" duration="30.0" expiresInRealTime="true">
-<stat name="FIRE_MITIGATION" operator="SUBSTRACT" scaling="1879131686"/>
+<stat name="FIRE_MITIGATION" scaling="1879131686"/>
 </propertyModEffect>
 <propertyModEffect id="1879419978" name="Acid Vulnerability" description="key:620986275:181298206" iconId="1091561141" duration="30.0" expiresInRealTime="true">
-<stat name="ACID_MITIGATION" operator="SUBSTRACT" scaling="1879131653"/>
+<stat name="ACID_MITIGATION" scaling="1879131653"/>
 </propertyModEffect>
 <propertyModEffect id="1879420002" name="Innate Strength: Inner Resilience - Tier 4" iconId="1092693310" duration="20.0">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="2.5"/>
@@ -40556,13 +40566,6 @@
 <propertyModEffect id="1879457620" name="DNT - Manages Skillcombo effect duration" iconId="1092809837" duration="90.0"/>
 <propertyModEffect id="1879457622" name="DNT - last used a fist gambit" iconId="1091830139"/>
 <effect id="1879457624" name="Restorative Shield 2" iconId="1092812612"/>
-<tieredEffect id="1879457625" name="DNT - Desperate Combat Uses">
-<tierUp id="1879457607" name="Desperate Combat 4"/>
-<tierUp id="1879457610" name="Desperate Combat 3"/>
-<tierUp id="1879457612" name="Desperate Combat 2"/>
-<tierUp id="1879457616" name="Desperate Combat 1"/>
-<finalTier id="1879149379" name="DNT - Do Nothing"/>
-</tieredEffect>
 <propertyModEffect id="1879457626" name="DNT - last used a spear gambit" iconId="1091830139"/>
 <propertyModEffect id="1879457767" name="Harassing Swarm" appliedDescription="key:621071850:54354734" iconId="1090542265" duration="20.0">
 <specialEffect label="key:621071850:106251889"/>
@@ -42981,7 +42984,7 @@
 <stat name="FINESSE" scaling="1879399379"/>
 <stat name="OUTGOING_HEALING" scaling="1879346747"/>
 <stat name="OCMR" scaling="1879399455"/>
-<stat name="PvMP_EffectDisabler" operator="SUBSTRACT" constant="1.0"/>
+<stat name="PvMP_EffectDisabler" operator="SUBSTRACT" descriptionOverride="-" constant="1.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879469120" name="Frozen Breath" iconId="1092830892" duration="10.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="50.0"/>
@@ -45652,17 +45655,11 @@
 <propertyModEffect id="1879485792" name="Blank Modification" appliedDescription="key:621092374:54354734" iconId="1090519170">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
-<instantVitalEffect id="1879485795" name="Impending Doom" stat="Health_MaxLevel" multiplicative="true">
-<vitalChange constant="0.1"/>
-</instantVitalEffect>
 <genesis id="1879485801" name=".." appliedDescription="key:621092400:54354734" summonDuration="3.5">
 <hotspot id="1879485796" name="Portal of Darkness">
 <effect id="1879079637" name="Smite Player" spellcraft="2.0"/>
 </hotspot>
 </genesis>
-<instantVitalEffect id="1879485802" name="Inescapable Doom" stat="Health_MaxLevel" multiplicative="true">
-<vitalChange constant="-1.0"/>
-</instantVitalEffect>
 <effect id="1879485807" name="Hideous Cremation" appliedDescription="key:621092387:54354734" iconId="1090623588" duration="1.0" pulseCount="30"/>
 <effect id="1879485813" name="Infectious Terror" appliedDescription="key:621092386:54354734" iconId="1091400588" duration="2.0" pulseCount="6"/>
 <propertyModEffect id="1879485820" name="Rising Fury" iconId="1092403424" duration="195.0" pulseCount="1"/>
@@ -45790,56 +45787,6 @@
 <vitalOverTimeEffect id="1879487746" name="Corrupted Ground" iconId="1090553954" duration="2.0" stat="Health_MaxLevel" damageType="32">
 <overTimeChange progressionID="1879343124"/>
 </vitalOverTimeEffect>
-<propertyModEffect id="1879487801" name="Surrounded" appliedDescription="key:621094153:54354734" iconId="1091609214">
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="30.000002"/>
-<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621094153:106251890" constant="1.2"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.2"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.2"/>
-<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621094153:106251893" constant="0.45"/>
-<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.45"/>
-<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.45"/>
-<stat name="Boss_Skill_1_ProcChance_AddMod" descriptionOverride="-" constant="1.0"/>
-</propertyModEffect>
-<propertyModEffect id="1879487802" name="Besieged" appliedDescription="key:621094155:54354734" iconId="1091609215">
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="30.000002"/>
-<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621094155:106251890" constant="1.4"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.4"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.4"/>
-<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621094155:106251893" constant="0.3"/>
-<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.3"/>
-<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.3"/>
-<stat name="Boss_Skill_1_ProcChance_AddMod" descriptionOverride="-" constant="1.0"/>
-</propertyModEffect>
-<propertyModEffect id="1879487803" name="Hunting" appliedDescription="key:621094154:54354734" iconId="1091609212">
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
-<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621094154:106251890" constant="0.8"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.8"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.8"/>
-<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621094154:106251893" constant="0.8"/>
-<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.8"/>
-<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.8"/>
-<stat name="Boss_Skill_1_ProcChance_AddMod" descriptionOverride="-" constant="0.15"/>
-</propertyModEffect>
-<propertyModEffect id="1879487804" name="Harassed" appliedDescription="key:621094156:54354734" iconId="1091609213">
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="20.0"/>
-<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621094156:106251890" constant="1.0"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.0"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.0"/>
-<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621094156:106251893" constant="0.6"/>
-<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
-<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
-<stat name="Boss_Skill_1_ProcChance_AddMod" descriptionOverride="-" constant="0.35"/>
-</propertyModEffect>
-<propertyModEffect id="1879487805" name="Stalking" appliedDescription="key:621094157:54354734" iconId="1091609211">
-<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621094157:106251890" constant="0.6"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
-<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621094157:106251893" constant="1.0"/>
-<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.0"/>
-<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.0"/>
-<stat name="Boss_Skill_1_ProcChance_AddMod" descriptionOverride="-" constant="0.1"/>
-</propertyModEffect>
-<propertyModEffect id="1879487824" name="Curse of Cowardice" appliedDescription="key:621094176:54354734" iconId="1090616965" duration="10.0"/>
 <propertyModEffect id="1879487901" name="Beneath Contempt" appliedDescription="key:621094247:54354734" iconId="1091388980" duration="60.0" expiresInRealTime="true"/>
 <effect id="1879488201" name="DNT - Savannah Stalker[e]"/>
 <effect id="1879488206" name="DNT - Lantern-guardian[e]"/>
@@ -45864,8 +45811,8 @@
 <stat name="PARTIAL_PARRY_PERCENTAGE" constant="100.0"/>
 </propertyModEffect>
 <induceCombatState id="1879488367" name="Shadowed Fingers" state="10" stateDuration="12.0"/>
-<effect id="1879488631" name="Enervating Torment" appliedDescription="key:621094762:54354734" iconId="1092942436" duration="2.0"/>
-<propertyModEffect id="1879488696" name="Event - Delivery Boost" appliedDescription="key:621094802:54354734" iconId="1092946353" duration="120.0">
+<effect id="1879488631" name="Enervating Torment" appliedDescription="key:621094762:54354734" iconId="1092942436" duration="2.0" pulseCount="10"/>
+<propertyModEffect id="1879488696" name="Event - Delivery Boost" appliedDescription="key:621094802:54354734" iconId="1092946353" duration="240.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="key:621094802:106251889" constant="0.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879488698" name="Event - Movement Boost" appliedDescription="key:621094800:54354734" iconId="1092946353" duration="120.0">
@@ -46432,11 +46379,11 @@
 <stat name="Resist_AdditionalPoints_Resistance_Fear" descriptionOverride="-" scaling="1879489609"/>
 </propertyModEffect>
 <effect id="1879490347"/>
-<effect id="1879490353" name="DNT - Summon a grim"/>
+<effect id="1879490354"/>
 <effect id="1879490358"/>
-<effect id="1879490359" name="DNT - Summon a grim"/>
 <effect id="1879490360"/>
 <effect id="1879490361"/>
+<effect id="1879490362"/>
 <propertyModEffect id="1879490459" name="Black Ice IV" appliedDescription="key:621096389:54354734" iconId="1091609075" duration="50.0">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096389:106251889" constant="0.4"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.4"/>
@@ -46529,6 +46476,7 @@
 </propertyModEffect>
 <effect id="1879490760" name="DNT - Tier Down AM"/>
 <effect id="1879490761" name="Ancient Master - 5" appliedDescription="key:621096680:54354734" iconId="1092973479"/>
+<effect id="1879490763" name="Ancient Master - 1" appliedDescription="key:621096676:54354734" iconId="1092973483"/>
 <propertyModEffect id="1879490765" name="Battle Lore" iconId="1092973474" duration="15.0">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="25.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="25.0"/>
@@ -46597,8 +46545,19 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <effect id="1879490851" name="DNT - Wild Fire"/>
-<propertyModEffect id="1879490927" name="Fell-shield" appliedDescription="key:621096835:54354734" iconId="1090552288"/>
-<effect id="1879490946" name="Charged Air" iconId="1091734465" duration="4.0" pulseCount="4"/>
+<propertyModEffect id="1879490927" name="Fell-shield" appliedDescription="key:621096835:54354734" iconId="1092979838" duration="10.0"/>
+<effect id="1879490935" name="Trembling Air" iconId="1092979865" duration="3.0" pulseCount="5"/>
+<effect id="1879490942" name="Trembling Air" iconId="1092979865" duration="1.0" pulseCount="15"/>
+<instantVitalEffect id="1879490945" name="Lightning Strike" stat="Health_MaxLevel">
+<vitalChange progressionID="1879343130"/>
+</instantVitalEffect>
+<effect id="1879490946" name="Trembling Air" iconId="1092979865" duration="4.0" pulseCount="4"/>
+<effect id="1879490950" name="Trembling Air" iconId="1092979865" duration="2.0" pulseCount="8"/>
+<genesis id="1879490951" name=".." appliedDescription="key:621096847:54354734" summonDuration="8.0">
+<hotspot id="1879490954" name="DNT - Lightning">
+<effect id="1879490945" name="Lightning Strike"/>
+</hotspot>
+</genesis>
 <fellowshipEffect id="1879490964" name="DNT - heal and hot" applyToPets="true" applyToTarget="true" range="15.0">
 <effect id="1879489065" name="Hope"/>
 <effect id="1879201286" name="Beacon of Hope"/>
@@ -46607,24 +46566,24 @@
 <vitalOverTimeEffect id="1879490966" name="Frigid Burst" iconId="1091429121" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="256">
 <overTimeChange progressionID="1879180916"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879490971" name="Torn Flesh" iconId="1090580244" duration="1.0" pulseCount="8" stat="Health_MaxLevel" damageType="1">
+<vitalOverTimeEffect id="1879490971" name="Torn Flesh" iconId="1090580244" duration="2.0" pulseCount="8" stat="Health_MaxLevel" damageType="1">
 <overTimeChange progressionID="1879180916"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879490972" name="Raging Inferno" iconId="1090623585" duration="3.0" pulseCount="3" stat="Health_MaxLevel" damageType="16">
-<overTimeChange progressionID="1879244484"/>
+<overTimeChange progressionID="1879244293"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879490977" name="Hungering Fangs" iconId="1090522396" duration="3.0" pulseCount="10" stat="Health_MaxLevel" damageType="1024">
 <overTimeChange progressionID="1879180916"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879490980" name="Bursting Flame" iconId="1091805933" duration="2.0" pulseCount="4" stat="Health_MaxLevel" damageType="16">
-<overTimeChange progressionID="1879244484"/>
+<overTimeChange progressionID="1879244296"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879490986" iconId="1090553792"/>
 <propertyModEffect id="1879490989" name="Lingering Static - 2" iconId="1091609131" duration="12.0">
 <stat name="LIGHTNING_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </propertyModEffect>
 <tieredEffect id="1879490990" name="DNT">
-<tierUp id="1879490999" name="Searing Winds - 1"/>
+<tierUp id="1879490999" name="Molten Armour"/>
 <tierUp id="1879491002" name="Searing Winds - 2"/>
 <tierUp id="1879491003" name="Searing Winds - 3"/>
 <tierUp id="1879491005" name="Searing Winds - 4"/>
@@ -46647,12 +46606,6 @@
 <tierUp id="1879491029" name="Shield of the Deep - 3"/>
 <finalTier id="1879491029" name="Shield of the Deep - 3"/>
 </tieredEffect>
-<tieredEffect id="1879490997" name="DNT">
-<tierUp id="1879491004" name="Abyssal Lore - 1"/>
-<tierUp id="1879491009" name="Abyssal Lore - 2"/>
-<tierUp id="1879491010" name="Abyssal Lore - 3"/>
-<finalTier id="1879491010" name="Abyssal Lore - 3"/>
-</tieredEffect>
 <tieredEffect id="1879490998" name="DNT">
 <tierUp id="1879490993" name="Lingering Static - 1"/>
 <tierUp id="1879490989" name="Lingering Static - 2"/>
@@ -46661,22 +46614,16 @@
 <tierUp id="1879490991" name="Lingering Static - 5"/>
 <finalTier id="1879490991" name="Lingering Static - 5"/>
 </tieredEffect>
-<propertyModEffect id="1879490999" name="Searing Winds - 1" iconId="1090537949">
+<propertyModEffect id="1879490999" name="Molten Armour" iconId="1090537949">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879491000" name="Grasping Shades" iconId="1092402028" duration="15.0">
+<propertyModEffect id="1879491000" name="Grasping Shades" iconId="1092979845" duration="15.0">
 <stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" constant="1.05"/>
 <stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.05"/>
 <stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" constant="1.05"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
-<reactiveVitalEffect id="1879491001" name="Boiling Armour" iconId="1091582457" duration="30.0" damageTypes="65407">
-<stat name="FIRE_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
-<defender>
-<effect id="1879098807" name="Morale Damage" probability="1.0"/>
-</defender>
-</reactiveVitalEffect>
 <propertyModEffect id="1879491002" name="Searing Winds - 2" iconId="1090537949">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="6.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="6.0"/>
@@ -46684,12 +46631,6 @@
 <propertyModEffect id="1879491003" name="Searing Winds - 3" iconId="1090537949">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
-</propertyModEffect>
-<propertyModEffect id="1879491004" name="Abyssal Lore - 1" iconId="1091609049">
-<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096888:106251889" constant="1.02"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.02"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.02"/>
-<stat name="ALL_SKILL_INDUCTION" operator="SUBSTRACT" constant="5.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879491005" name="Searing Winds - 4" iconId="1090537949">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="20.0"/>
@@ -46699,27 +46640,30 @@
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879491009" name="Abyssal Lore - 2" iconId="1091609050">
-<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096890:106251889" constant="1.04"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.04"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.04"/>
-<stat name="ALL_SKILL_INDUCTION" operator="SUBSTRACT" constant="10.0"/>
+<propertyModEffect id="1879491007" name="Channeling Dominion" iconId="1090539316" duration="15.0">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="40.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879491010" name="Abyssal Lore - 3" iconId="1091609051">
-<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096918:106251889" constant="1.06"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.06"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.06"/>
+<propertyModEffect id="1879491010" name="Abyssal Lore - 3" iconId="1092979842">
+<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096918:106251889" constant="1.15"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.15"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.15"/>
 <stat name="ALL_SKILL_INDUCTION" operator="SUBSTRACT" constant="15.000001"/>
 </propertyModEffect>
-<propertyModEffect id="1879491014" name="Bitter Wound" iconId="1091829815" duration="10.0">
-<stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="15.000001"/>
+<propertyModEffect id="1879491011" name="Mark of Domination" iconId="1090528809" duration="15.0">
+<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096909:106251889" constant="1.1"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.1"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.1"/>
 </propertyModEffect>
-<propertyModEffect id="1879491015" name="Acrid Pestilence - 3" iconId="1091832539">
+<propertyModEffect id="1879491014" name="Bitter Wound" appliedDescription="key:621096922:54354734" iconId="1092979844" duration="10.0">
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="15.000001"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="7.5000005"/>
+</propertyModEffect>
+<propertyModEffect id="1879491015" name="Acrid Pestilence - 3" iconId="1092979849">
 <stat name="MELEE_DEFENCE_PERCENTAGE" constant="40.0"/>
 <stat name="RANGED_DEFENCE_PERCENTAGE" constant="40.0"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="40.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879491017" name="Carrion Visage - 1" iconId="1090528807">
+<propertyModEffect id="1879491017" name="Carrion Visage - 1" iconId="1092979863">
 <stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096892:106251889" constant="0.95"/>
 <stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.95"/>
 <stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.95"/>
@@ -46735,28 +46679,28 @@
 <tierUp id="1879491023" name="Carrion Visage - 5"/>
 <finalTier id="1879491023" name="Carrion Visage - 5"/>
 </tieredEffect>
-<propertyModEffect id="1879491021" name="Carrion Visage - 4" iconId="1090528807">
-<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096889:106251889" constant="0.8"/>
-<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.8"/>
-<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.8"/>
-<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096889:106251892" constant="1.4"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.4"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.4"/>
+<propertyModEffect id="1879491021" name="Carrion Visage - 4" iconId="1092979869">
+<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096889:106251889" constant="0.6"/>
+<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
+<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
+<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096889:106251892" constant="1.8"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.8"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.8"/>
 </propertyModEffect>
-<propertyModEffect id="1879491022" name="Ancient Hide" iconId="1091476413">
+<propertyModEffect id="1879491022" name="Ancient Hide" appliedDescription="key:621096919:54354734" iconId="1091476413">
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="100.0"/>
 <stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="100.0"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="100.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879491023" name="Carrion Visage - 5" iconId="1090528807">
-<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096914:106251889" constant="0.7"/>
-<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.7"/>
-<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.7"/>
-<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096914:106251892" constant="1.5"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.5"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.5"/>
+<propertyModEffect id="1879491023" name="Carrion Visage - 5" iconId="1092979868">
+<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096914:106251889" constant="0.2"/>
+<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.2"/>
+<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.2"/>
+<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096914:106251892" constant="2.5"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="2.5"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="2.5"/>
 </propertyModEffect>
-<propertyModEffect id="1879491024" name="Carrion Visage - 2" iconId="1090528807">
+<propertyModEffect id="1879491024" name="Carrion Visage - 2" iconId="1092979867">
 <stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096921:106251889" constant="0.9"/>
 <stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
 <stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
@@ -46764,45 +46708,40 @@
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.2"/>
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.2"/>
 </propertyModEffect>
-<propertyModEffect id="1879491026" name="Carrion Visage - 3" iconId="1090528807">
-<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096905:106251889" constant="0.85"/>
-<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.85"/>
-<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.85"/>
-<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096905:106251892" constant="1.3"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.3"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.3"/>
+<propertyModEffect id="1879491025" name="Focus of Ire" appliedDescription="key:621096906:54354734" iconId="1090616965" duration="25.0"/>
+<propertyModEffect id="1879491026" name="Carrion Visage - 3" iconId="1092979862">
+<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096905:106251889" constant="0.8"/>
+<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.8"/>
+<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.8"/>
+<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621096905:106251892" constant="1.4"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.4"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.4"/>
 </propertyModEffect>
-<reactiveVitalEffect id="1879491027" name="Conduit Armour" iconId="1092951927" duration="10.0" damageTypes="512">
-<stat name="LIGHTNING_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
-<defender>
-<effect id="1879163416" name="Morale Damage" probability="1.0"/>
-</defender>
-</reactiveVitalEffect>
-<propertyModEffect id="1879491028" name="Shield of the Deep - 1" iconId="1091618819" duration="10.0">
-<stat name="MELEE_DEFENCE_PERCENTAGE" constant="10.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" constant="10.0"/>
+<propertyModEffect id="1879491028" name="Shield of the Deep - 1" iconId="1092979864" duration="15.0">
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="2.5"/>
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="2.5"/>
 </propertyModEffect>
-<propertyModEffect id="1879491029" name="Shield of the Deep - 3" iconId="1091618819" duration="10.0">
-<stat name="MELEE_DEFENCE_PERCENTAGE" constant="10.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" constant="10.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="30.000002"/>
+<propertyModEffect id="1879491029" name="Shield of the Deep - 3" iconId="1092979866" duration="3.0">
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="7.5000005"/>
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="7.5000005"/>
 </propertyModEffect>
 <propertyModEffect id="1879491030" name="Lingering Static - 3" iconId="1091609132" duration="12.0">
 <stat name="LIGHTNING_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="15.000001"/>
 </propertyModEffect>
-<propertyModEffect id="1879491031" name="Shield of the Deep - 2" iconId="1091618819" duration="10.0">
-<stat name="MELEE_DEFENCE_PERCENTAGE" constant="10.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" constant="10.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="20.0"/>
+<propertyModEffect id="1879491031" name="Shield of the Deep - 2" iconId="1092979861" duration="6.0">
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="25.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="25.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="25.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
 </propertyModEffect>
-<effect id="1879491040" name="Building Power" iconId="1091806010" duration="1.0" pulseCount="1"/>
+<effect id="1879491040" name="Building Power" iconId="1091806010" duration="0.55" pulseCount="1"/>
 <propertyModEffect id="1879491062" iconId="1090553792"/>
 <propertyModEffect id="1879491064" iconId="1090553792"/>
 <propertyModEffect id="1879491067" iconId="1090553792"/>
@@ -46923,4 +46862,60 @@
 </instantVitalEffect>
 <effect id="1879491579" name="DNT - Call to the Valar"/>
 <effect id="1879491580" name="DNT - Call to the Valar"/>
+<propertyModEffect id="1879491724" name="DNT - start speed timer" iconId="1090552382" duration="3600.0" probabilityModProperty="268457195"/>
+<effect id="1879491726" name="Radiating Heat" iconId="1090537950" duration="6.0"/>
+<propertyModEffect id="1879491727" name="DNT - start speed timer" iconId="1090552382" duration="3600.0" probabilityModProperty="268457195"/>
+<effect id="1879491728" name="Radiating Heat" iconId="1090537950" duration="8.0"/>
+<effect id="1879491731" name="Radiating Heat" iconId="1090537950" duration="4.0"/>
+<propertyModEffect id="1879491735" name="DNT - start speed timer" iconId="1090552382" duration="3600.0" probabilityModProperty="268457195"/>
+<propertyModEffect id="1879491739" name="Body of Flame" appliedDescription="key:621097550:54354734" iconId="1092967986">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="60.000004"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="60.000004"/>
+</propertyModEffect>
+<propertyModEffect id="1879491740" name="DNT - start speed timer" iconId="1090552382" duration="3600.0" probabilityModProperty="268457195"/>
+<propertyModEffect id="1879491741" name="Body of Flame" appliedDescription="key:621097543:54354734" iconId="1092967986">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="20.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="20.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879491744" name="Body of Flame" appliedDescription="key:621097537:54354734" iconId="1092967986">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="99.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="99.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879491748" name="Channeling Dominion" iconId="1090539316" duration="30.0">
+<stat name="ForwardSource_Movement_SpeedMultiplier" constant="20.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879491749" name="Mark of Domination" iconId="1090528809" duration="30.0">
+<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621097555:106251889" constant="1.5"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.5"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.5"/>
+</propertyModEffect>
+<propertyModEffect id="1879491754" name="Unending Well" iconId="1092979838" duration="10.0">
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
+</propertyModEffect>
+<reactiveVitalEffect id="1879491756" name="Flame Ward" iconId="1091476096" damageTypes="16">
+<defender>
+<reactiveVital constant="0.1" probability="1.0" multiplicative="true"/>
+</defender>
+</reactiveVitalEffect>
+<effect id="1879491757" name="DNT - Defy Death cooldown/activator" iconId="1092406425" duration="180.0"/>
+<vitalOverTimeEffect id="1879491953" name="Storm Surge" iconId="1092967056" duration="3.0" pulseCount="2" stat="Health_MaxLevel" damageType="512">
+<overTimeChange progressionID="1879244293"/>
+</vitalOverTimeEffect>
+<propertyModEffect id="1879492167" name="Nightfang Venom" iconId="1092404193" duration="4.0" pulseCount="1"/>
+<fellowshipEffect id="1879492301" applyToPets="true" applyToTarget="true" range="80.0">
+<effect id="1879292024" name="DNT - Reform the Lines Buff"/>
+<effect id="1879459107" name="Shield-brother"/>
+</fellowshipEffect>
+<propertyModEffect id="1879492383" iconId="1090553792"/>
+<propertyModEffect id="1879492384" iconId="1090553792"/>
+<effect id="1879492390" name="DNT - Remove 1 Charge"/>
+<comboEffect id="1879492392" name="DNT">
+<present id="1879490763" name="Ancient Master - 1"/>
+<toAddIfPresent id="1879490766" name="DNT - Ancient Master"/>
+</comboEffect>
+<vitalOverTimeEffect id="1879492454" name="Summoned Flame" iconId="1091510157" duration="2.0" pulseCount="2" stat="Health_MaxLevel" damageType="16">
+<overTimeChange progressionID="1879244296"/>
+</vitalOverTimeEffect>
 </effects>

@@ -349,24 +349,23 @@
 <booleanWorldEvent id="1879482860" propertyId="268464576" propertyName="WE_umbar_3man_streets_instance_leading_charge_lock" description="Used to end the initial window of time to complete the final 3-man encounter 'challenge' of Streets Instance in Umbar on Tier 5." default="false"/>
 <booleanWorldEvent id="1879482861" propertyId="268464578" propertyName="WE_umbar_12man_raid_leading_charge_lock" description="Used to end the initial window of time to complete the final 12-man encounter 'challenge' of Raid in Umbar on Tier 5." default="false"/>
 <integerWorldEvent id="1879485754" propertyId="268464727" propertyName="WE_u40_umbar_catacombs_kindred_tales_current_week" description="Controls U40 tales of the kindred quests available." default="0" min="0" max="8"/>
-<booleanWorldEvent id="1879486974" propertyId="268464762" propertyName="we_crafting_thorinshall_pc_event_boolean" description="Sets the Thorin's Hall Prospector/Cook Event to true." default="true"/>
+<booleanWorldEvent id="1879486974" propertyId="268464762" propertyName="we_crafting_thorinshall_pc_event_boolean" description="Sets the Thorin's Hall Prospector/Cook Event to true." default="false"/>
 <conditionWorldEvent id="1879486975" propertyId="268464763" propertyName="we_crafting_thorinshall_pc_event_recruiting" description="When enabled allow players to obtain the main quests for the event to be acquired.">
 <compoundWorldEventCondition operator="AND">
 <worldEventCondition worldEventID="1879486974" worldEventName="we_crafting_thorinshall_pc_event_boolean" operator="EQUAL" value="1"/>
-<worldEventCondition worldEventID="1879486984" worldEventName="we_crafting_thorinshall_pc_event_tracker" operator="LESS_OR_EQUAL" value="6"/>
-<worldEventCondition worldEventID="1879486977" worldEventName="we_crafting_thorinshall_pc_event_cooldown" operator="EQUAL" value="0"/>
+<worldEventCondition worldEventID="1879486984" worldEventName="we_crafting_thorinshall_pc_event_tracker" operator="EQUAL" value="6"/>
 </compoundWorldEventCondition>
 </conditionWorldEvent>
 <conditionWorldEvent id="1879486976" propertyId="268464764" propertyName="we_crafting_thorinshall_pc_event_status" description="When enabled allow players to obtain the main quests and supplemental quests for the event to be acquired.">
 <compoundWorldEventCondition operator="AND">
 <worldEventCondition worldEventID="1879486974" worldEventName="we_crafting_thorinshall_pc_event_boolean" operator="EQUAL" value="1"/>
 <worldEventCondition worldEventID="1879486984" worldEventName="we_crafting_thorinshall_pc_event_tracker" operator="LESS_OR_EQUAL" value="4"/>
-<worldEventCondition worldEventID="1879486977" worldEventName="we_crafting_thorinshall_pc_event_cooldown" operator="EQUAL" value="0"/>
 </compoundWorldEventCondition>
 </conditionWorldEvent>
-<booleanWorldEvent id="1879486977" propertyId="268464765" propertyName="we_crafting_thorinshall_pc_event_cooldown" description="Determines whether or not the forester crafting events are available in the game world." default="false"/>
 <integerWorldEvent id="1879486984" propertyId="268464766" propertyName="we_crafting_thorinshall_pc_event_tracker" description="Controls the number of players that are currently enrolled in the Chetwood forester crafting event." default="12" min="0" max="12"/>
 <integerWorldEvent id="1879487885" propertyId="268464810" propertyName="we_ettenmoors_glory_seeker_active_p_int" default="0" min="0" max="4"/>
 <integerWorldEvent id="1879487886" propertyId="268464809" propertyName="we_ettenmoors_glory_seeker_active_mp_int" default="0" min="0" max="4"/>
 <booleanWorldEvent id="1879487887" propertyId="268464811" propertyName="we_ettenmoors_glory_seeker_active_bool" default="true"/>
+<integerWorldEvent id="1879488707" propertyId="268464843" propertyName="WE_Integer_Private_Scaling_Yod_Rothog_6man_Tier_Gate" description="Controls the available tiers for TBD Yod Rothog Instance." default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879491465" propertyId="268464951" propertyName="WE_Boolean_Private_Scaling_Yod_Rothog_6man_LTC_Lock" description="Used to end the initial window of time to complete the final 3-man encounter 'challenge' of Streets Instance in Umbar on Tier 5." default="false"/>
 </worldEvents>

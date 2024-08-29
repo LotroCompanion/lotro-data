@@ -1698,7 +1698,7 @@
 </skill>
 <skill identifier="1879073196" name="Distraction" iconId="1090522261" description="key:620775036:228830419">
 <requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
-<effect id="1879049335" name="Enraged"/>
+<effect id="1879049334" name="Distraction"/>
 <effect id="1879101639" name="Distraction"/>
 <effect id="1879052302" name="Flanked!"/>
 <effect id="1879049334" name="Distraction" type="TOGGLE"/>
@@ -19463,9 +19463,9 @@
 <skill identifier="1879271239" name="Fury of Blades" category="33" iconId="1091830071" description="key:620921822:228830419"/>
 <skill identifier="1879271240" name="Fury of Blades" category="33" iconId="1091830071" description="key:620921821:228830419"/>
 <skill identifier="1879271248" name="The Ancient Master" category="19" iconId="1091829950" description="key:620921829:228830419">
-<effect id="1879275702" name="The Ancient Master"/>
+<effect id="1879492392" name="DNT"/>
 <effect id="1879490761" name="Ancient Master - 5"/>
-<effect id="1879206195" name="DNT" type="USER"/>
+<effect id="1879275702" name="The Ancient Master" type="USER"/>
 </skill>
 <skill identifier="1879271249" name="Sic 'em!" category="1" iconId="1091829933" description="key:620921830:228830419">
 <effect id="1879282928" name="DNT - Raven"/>
@@ -19539,8 +19539,7 @@
 <effect id="1879271968" name="DNT"/>
 </skill>
 <skill identifier="1879271993" name="Reform the Lines!" category="25" iconId="1091829785" description="key:620922377:228830419">
-<effect id="1879292024" name="DNT - Reform the Lines Buff"/>
-<effect id="1879459107" name="Shield-brother"/>
+<effect id="1879492301"/>
 </skill>
 <skill identifier="1879272097" name="Devastating Strike" category="38" iconId="1091804923" description="key:620922469:228830419">
 <effect id="1879286491" name="Devastated"/>
@@ -20114,6 +20113,7 @@
 <requiredEffect id="1879153553" name="Damage Attuned"/>
 <effect id="1879278028" name="Epic Conclusion - Wounding Memory"/>
 <effect id="1879283814" name="DNT - Closing Remarks Dispel" type="USER"/>
+<effect id="1879203925" name="Recover Shocking Words" type="USER"/>
 <effect id="1879283146" name="DNT - Concession" type="USER"/>
 <effect id="1879313933" name="DNT" type="USER"/>
 </skill>
@@ -32152,6 +32152,7 @@
 <effect id="1879454900" name="Travel to Swanfleet"/>
 </travelSkill>
 <travelSkill identifier="1879454885" name="Return to the Tracery Archives in Rivendell" category="102" iconId="1092943526" description="key:621070253:228830419">
+<requiredTrait id="1879141627" name="Seeker of Deep Places"/>
 <effect id="1879439276" name="Map to the Rivendell Tracery Archive"/>
 </travelSkill>
 <travelSkill identifier="1879454887" name="Guide to Cardolan" category="102" iconId="1092754398" description="key:621070260:228830419">
@@ -32704,12 +32705,12 @@
 <skill identifier="1879457564" name="Desperate Fist" category="139" iconId="1092809832" description="key:621071756:228830419">
 <requiredEffect id="1879457620" name="DNT - Manages Skillcombo effect duration"/>
 <effect id="1879460109" name="DNT - Induce Stun"/>
-<effect id="1879457625" name="DNT - Desperate Combat Uses" type="USER"/>
+<effect id="1879492390" name="DNT - Remove 1 Charge" type="USER"/>
 </skill>
 <skill identifier="1879457565" name="Desperate Spear" category="139" iconId="1092809836" description="key:621071759:228830419">
 <requiredEffect id="1879457620" name="DNT - Manages Skillcombo effect duration"/>
 <effect id="1879458903" name="Broken Armour - Shattered Spear"/>
-<effect id="1879457625" name="DNT - Desperate Combat Uses" type="USER"/>
+<effect id="1879492390" name="DNT - Remove 1 Charge" type="USER"/>
 </skill>
 <skill identifier="1879457566" name="Desperate Combat" category="139" iconId="1092809837" description="key:621071758:228830419">
 <effect id="1879457611" name="DNT"/>
@@ -32721,7 +32722,7 @@
 <requiredEffect id="1879457620" name="DNT - Manages Skillcombo effect duration"/>
 <effect id="1879458467" name="DNT"/>
 <effect id="1879138960" name="Force Attack"/>
-<effect id="1879457625" name="DNT - Desperate Combat Uses" type="USER"/>
+<effect id="1879492390" name="DNT - Remove 1 Charge" type="USER"/>
 </skill>
 <skill identifier="1879457568" name="Restorative Shield-work" category="139" iconId="1092809841" description="key:621071757:228830419">
 <effect id="1879457603" name="DNT - Manages Skillcombo effect duration"/>
@@ -36378,10 +36379,6 @@
 <skill identifier="1879485365" name="Gloaming Tide" iconId="1090522259">
 <effect id="1879485841" name="DNT - Summon darkwaters"/>
 </skill>
-<skill identifier="1879485366" name="Curse of Cowardice" iconId="1090522259">
-<effect id="1879485795" name="Impending Doom" spellcraft="0.35"/>
-<effect id="1879487824" name="Curse of Cowardice"/>
-</skill>
 <skill identifier="1879485367" name="Corrupted Ground" iconId="1090522259">
 <effect id="1879487476" name=".."/>
 </skill>
@@ -36390,9 +36387,6 @@
 </skill>
 <skill identifier="1879485369" name="Night Terrors" iconId="1090522259">
 <effect id="1879485746" name="Night Terrors"/>
-</skill>
-<skill identifier="1879485370" name="Fate of Cowards" iconId="1090522259">
-<effect id="1879485802" name="Inescapable Doom" spellcraft="10.0"/>
 </skill>
 <skill identifier="1879485373" name="Infectious Terror" iconId="1090522259">
 <effect id="1879485813" name="Infectious Terror"/>
@@ -36815,8 +36809,7 @@
 <effect id="1879488367" name="Shadowed Fingers"/>
 </skill>
 <skill identifier="1879488632" name="Enervating Torment" iconId="1090522259">
-<effect id="1879488631" name="Enervating Torment" type="TOGGLE"/>
-<effect id="1879488631" name="Enervating Torment" type="USER_TOGGLE"/>
+<effect id="1879488631" name="Enervating Torment"/>
 </skill>
 <skill identifier="1879488721" name="Major Call - Harrying Flanks" category="1" iconId="1092973532" description="key:621094837:228830419">
 <effect id="1879489219" name="Threat Decrease"/>
@@ -36939,21 +36932,6 @@
 <effect id="1879052302" name="Flanked!"/>
 <effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper" type="USER"/>
 </skill>
-<skill identifier="1879489210" name="Stalking" iconId="1090522259">
-<effect id="1879487805" name="Stalking" spellcraft="10.0"/>
-</skill>
-<skill identifier="1879489211" name="Hunting" iconId="1090522259">
-<effect id="1879487803" name="Hunting" spellcraft="10.0"/>
-</skill>
-<skill identifier="1879489213" name="Harassed" iconId="1090522259">
-<effect id="1879487804" name="Harassed" spellcraft="10.0"/>
-</skill>
-<skill identifier="1879489214" name="Surrounded" iconId="1090522259">
-<effect id="1879487801" name="Surrounded" spellcraft="10.0"/>
-</skill>
-<skill identifier="1879489215" name="Besieged" iconId="1090522259">
-<effect id="1879487802" name="Besieged" spellcraft="10.0"/>
-</skill>
 <skill identifier="1879489216" name="Unbreakable Bond" category="23" iconId="1091926677" description="key:621095285:228830419">
 <effect id="1879489217" name="Unbreakable Bond" type="TOGGLE"/>
 <effect id="1879490752" name="Unbreakable Bond" type="TOGGLE"/>
@@ -37002,7 +36980,10 @@
 <effect id="1879487573" name="DNT - removes the killproc to make sure we don't summon multiple nazgul."/>
 </skill>
 <skill identifier="1879489939" name="Sinister Claws" iconId="1090522259"/>
-<skill identifier="1879490235" name="Dominate" iconId="1090522259"/>
+<skill identifier="1879490235" name="Dominate" iconId="1090522259">
+<effect id="1879491011" name="Mark of Domination"/>
+<effect id="1879491007" name="Channeling Dominion" type="USER"/>
+</skill>
 <skill identifier="1879490236" name="Grasping Shadows" iconId="1090522259">
 <effect id="1879491000" name="Grasping Shades"/>
 </skill>
@@ -37013,10 +36994,11 @@
 <effect id="1879490998" name="DNT"/>
 </skill>
 <skill identifier="1879490240" name="Summon Storm Grim" iconId="1090522259">
-<effect id="1879480658"/>
-<effect id="1879490359" name="DNT - Summon a grim" type="USER"/>
+<effect id="1879490358"/>
 </skill>
-<skill identifier="1879490241" name="Beseech Flame" iconId="1090522259"/>
+<skill identifier="1879490241" name="Beseech Flame" iconId="1090522259">
+<effect id="1879492454" name="Summoned Flame"/>
+</skill>
 <skill identifier="1879490243" name="Carrion Strike" iconId="1090522259">
 <effect id="1879491019" name="DNT" type="USER"/>
 </skill>
@@ -37024,7 +37006,7 @@
 <effect id="1879490966" name="Frigid Burst"/>
 </skill>
 <skill identifier="1879490245" name="Shadow Strike" iconId="1090522259">
-<effect id="1879388657" name="Induce Stunned"/>
+<effect id="1879492167" name="Nightfang Venom"/>
 </skill>
 <skill identifier="1879490246" name="Obliterate" iconId="1090522259">
 <effect id="1879490998" name="DNT"/>
@@ -37052,11 +37034,12 @@
 </skill>
 <skill identifier="1879490257" name="Searing Winds" iconId="1090522259">
 <effect id="1879490990" name="DNT"/>
+<effect id="1879490362" type="USER"/>
 </skill>
 <skill identifier="1879490258" name="Immolation" iconId="1090522259"/>
 <skill identifier="1879490259" name="Basic Strike" iconId="1090522259"/>
 <skill identifier="1879490262" name="The Glutton's Ancient Hide" iconId="1090522259">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.1"/>
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.25"/>
 <effect id="1879491022" name="Ancient Hide"/>
 </skill>
 <skill identifier="1879490264" name="Seeking Blade" iconId="1090522259"/>
@@ -37066,21 +37049,24 @@
 <effect id="1879490980" name="Bursting Flame"/>
 </skill>
 <skill identifier="1879490272" name="Storm Surge" iconId="1090522259">
+<effect id="1879491953" name="Storm Surge"/>
 <effect id="1879490998" name="DNT"/>
+<effect id="1879491953" name="Storm Surge"/>
+<effect id="1879491953" name="Storm Surge"/>
 <effect id="1879490965" name="Storm Surge Strike" type="USER"/>
 </skill>
-<skill identifier="1879490273" name="Focus Ire" iconId="1090522259"/>
-<skill identifier="1879490274" name="Charged Air" iconId="1090522259">
-<effect id="1879490946" name="Charged Air"/>
+<skill identifier="1879490273" name="Focus Ire" iconId="1090522259">
+<effect id="1879491025" name="Focus of Ire"/>
+</skill>
+<skill identifier="1879490274" name="Trembling Air" iconId="1090522259">
+<effect id="1879490946" name="Trembling Air"/>
 <effect id="1879490998" name="DNT"/>
 </skill>
 <skill identifier="1879490275" name="Hungering Fangs" iconId="1090522259">
 <effect id="1879490977" name="Hungering Fangs"/>
 </skill>
 <skill identifier="1879490276" name="Beseech Shadow" iconId="1090522259"/>
-<skill identifier="1879490277" name="Liquify Metal" iconId="1090522259">
-<effect id="1879491001" name="Boiling Armour"/>
-</skill>
+<skill identifier="1879490277" name="Liquify Metal" iconId="1090522259"/>
 <skill identifier="1879490278" name="a savage strike" iconId="1090522259">
 <effect id="1879490995" name="DNT - tier down lightning debuff"/>
 </skill>
@@ -37091,14 +37077,14 @@
 <effect id="1879491015" name="Acrid Pestilence - 3"/>
 </skill>
 <skill identifier="1879490281" name="Summon Storm" iconId="1090522259">
-<effect id="1879490358"/>
+<effect id="1879490362" type="USER"/>
 </skill>
 <skill identifier="1879490283" name="Unending Well" iconId="1090522259">
 <effect id="1879119822" name="Morale Restoration" spellcraft="0.1"/>
+<effect id="1879491754" name="Unending Well"/>
 </skill>
 <skill identifier="1879490284" name="Wind Buffet" iconId="1090522259">
 <effect id="1879059058" name="Knockback"/>
-<effect id="1879490998" name="DNT"/>
 </skill>
 <skill identifier="1879490285" name="Dying Burst" iconId="1090522259">
 <effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="1.0" type="USER"/>
@@ -37115,7 +37101,6 @@
 <skill identifier="1879490290" name="Minor Lightning Strike" iconId="1090522259"/>
 <skill identifier="1879490291" name="Shield of the Deep" iconId="1090522259">
 <effect id="1879119822" name="Morale Restoration" spellcraft="0.1"/>
-<effect id="1879490997" name="DNT" type="USER"/>
 </skill>
 <skill identifier="1879490292" name="Call Shadow" iconId="1090522259"/>
 <skill identifier="1879490293" name="Proximity Burn" iconId="1090522259"/>
@@ -37124,26 +37109,28 @@
 </skill>
 <skill identifier="1879490297" name="Abyssal Lore" iconId="1090522259">
 <effect id="1879119822" name="Morale Restoration" spellcraft="0.05"/>
+<effect id="1879491010" name="Abyssal Lore - 3"/>
 <effect id="1879490996" name="DNT" type="USER"/>
 </skill>
 <skill identifier="1879490299" name="Thunderous Breath" iconId="1090522259">
+<effect id="1879490951" name=".."/>
 <effect id="1879490998" name="DNT"/>
-<effect id="1879490359" name="DNT - Summon a grim" type="USER"/>
+<effect id="1879490362" type="USER"/>
 </skill>
 <skill identifier="1879490301" name="Bite" iconId="1090522259">
 <effect id="1879490995" name="DNT - tier down lightning debuff"/>
 </skill>
 <skill identifier="1879490345" name="Summon Storm" iconId="1090522259">
-<effect id="1879490347"/>
+<effect id="1879490354" type="USER"/>
 </skill>
 <skill identifier="1879490346" name="Morgul Strike" iconId="1090522259"/>
 <skill identifier="1879490348" name="Summon Storm Grim" iconId="1090522259">
-<effect id="1879480658"/>
-<effect id="1879490353" name="DNT - Summon a grim" type="USER"/>
+<effect id="1879490347"/>
 </skill>
 <skill identifier="1879490349" name="Inferno" iconId="1090522259"/>
 <skill identifier="1879490350" name="Life Tether" iconId="1090522259">
 <effect id="1879119822" name="Morale Restoration" spellcraft="0.05"/>
+<effect id="1879490927" name="Fell-shield"/>
 <effect id="1879490927" name="Fell-shield" type="TOGGLE"/>
 <effect id="1879490927" name="Fell-shield" type="USER_TOGGLE"/>
 </skill>
@@ -37160,10 +37147,9 @@
 </skill>
 <skill identifier="1879490357" name="Thunderous Breath" iconId="1090522259">
 <effect id="1879490998" name="DNT"/>
-<effect id="1879490353" name="DNT - Summon a grim" type="USER"/>
+<effect id="1879490362" type="USER"/>
 </skill>
 <skill identifier="1879490400" name="Shocking Blast" iconId="1090522259">
-<effect id="1879491027" name="Conduit Armour"/>
 <effect id="1879490998" name="DNT"/>
 </skill>
 <skill identifier="1879490450" name="Black Scream" iconId="1090522259"/>
@@ -37285,6 +37271,18 @@
 </mount>
 <skill identifier="1879490874" name="Gathering Energy" iconId="1090522259">
 <effect id="1879153861" name="DNT - Do Nothing Harmful"/>
+<effect id="1879490998" name="DNT"/>
+</skill>
+<skill identifier="1879490941" name="Trembling Air" iconId="1090522259">
+<effect id="1879490935" name="Trembling Air"/>
+<effect id="1879490998" name="DNT"/>
+</skill>
+<skill identifier="1879490943" name="Trembling Air" iconId="1090522259">
+<effect id="1879490942" name="Trembling Air"/>
+<effect id="1879490998" name="DNT"/>
+</skill>
+<skill identifier="1879490944" name="Trembling Air" iconId="1090522259">
+<effect id="1879490950" name="Trembling Air"/>
 <effect id="1879490998" name="DNT"/>
 </skill>
 <skill identifier="1879490975" name="Bitter Strike" iconId="1090522259">
@@ -37430,8 +37428,47 @@
 <effect id="1879491579" name="DNT - Call to the Valar"/>
 <effect id="1879197582" name="Call to the Valar"/>
 </skill>
+<skill identifier="1879491730" name="Conflagration 1" iconId="1090522259">
+<effect id="1879491728" name="Radiating Heat"/>
+<effect id="1879491741" name="Body of Flame"/>
+<effect id="1879491724" name="DNT - start speed timer"/>
+</skill>
+<skill identifier="1879491734" name="Conflagration 2" iconId="1090522259">
+<effect id="1879491726" name="Radiating Heat"/>
+<effect id="1879491739" name="Body of Flame"/>
+<effect id="1879491724" name="DNT - start speed timer"/>
+<effect id="1879491735" name="DNT - start speed timer" type="USER"/>
+</skill>
+<skill identifier="1879491738" name="Conflagration 3" iconId="1090522259">
+<effect id="1879491731" name="Radiating Heat"/>
+<effect id="1879491744" name="Body of Flame"/>
+<effect id="1879491724" name="DNT - start speed timer"/>
+<effect id="1879491735" name="DNT - start speed timer" type="USER"/>
+<effect id="1879491740" name="DNT - start speed timer" type="USER"/>
+<effect id="1879491727" name="DNT - start speed timer" type="USER"/>
+</skill>
+<skill identifier="1879491752" name="Dominate" iconId="1090522259">
+<effect id="1879491749" name="Mark of Domination"/>
+<effect id="1879491748" name="Channeling Dominion" type="USER"/>
+</skill>
+<skill identifier="1879491755" name="Dominate" iconId="1090522259">
+<effect id="1879491011" name="Mark of Domination"/>
+<effect id="1879491007" name="Channeling Dominion" type="USER"/>
+</skill>
 <skill identifier="1879491938" name="Shadow Bolt" iconId="1090522259"/>
 <skill identifier="1879491940" name="Scream" iconId="1090522259">
 <effect id="1879111268" name="Remove Corruption" type="USER"/>
+</skill>
+<pet identifier="1879492385" name="Sophisticated Chaffinch" category="145" iconId="1092979568" initialName="key:621098106:33816677" sourceDescription="key:621098108:211796645" genus="14" species="27" subSpecies="132" description="key:621098108:228830419">
+<effect id="1879492384" type="TOGGLE"/>
+<effect id="1879492384" type="USER_TOGGLE"/>
+</pet>
+<pet identifier="1879492386" name="Sophisticated Magpie" category="145" iconId="1092979567" initialName="key:621098104:33816677" sourceDescription="key:621098109:211796645" genus="14" species="27" subSpecies="132" description="key:621098109:228830419">
+<effect id="1879492383" type="TOGGLE"/>
+<effect id="1879492383" type="USER_TOGGLE"/>
+</pet>
+<skill identifier="1879492389" name="Strike Towards the Sky" category="153" iconId="1092686889" description="key:621098112:228830419">
+<effect id="1879459111" name="DNT" type="USER"/>
+<effect id="1879421335" name="DNT - Dispel Builder Flags" type="USER"/>
 </skill>
 </skills>
