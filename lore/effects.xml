@@ -45676,7 +45676,7 @@
 <genesis id="1879485847" name=".." appliedDescription="key:621092429:54354734" probability="0.5" summonDuration="180.0">
 <summoned id="1879485371" name="Shadowed Wight[e]"/>
 </genesis>
-<genesis id="1879485848" name=".." appliedDescription="key:621092428:54354734" probability="0.5" summonDuration="180.0">
+<genesis id="1879485848" name=".." appliedDescription="key:621092428:54354734" probability="0.4" summonDuration="180.0">
 <summoned id="1879487119" name="Hand of Terror[e]"/>
 </genesis>
 <genesis id="1879485849" name=".." appliedDescription="key:621092425:54354734" probability="0.66" summonDuration="180.0">
@@ -45819,9 +45819,6 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="key:621094800:106251889" constant="20.0"/>
 </propertyModEffect>
 <effect id="1879488706" name="Encumbrance Reduction" appliedDescription="key:621094807:54354734" iconId="1092946353" duration="180.0"/>
-<comboEffect id="1879488714" name="DNT" probability="0.33">
-<toAddIfPresent id="1879491534" name="DNT"/>
-</comboEffect>
 <effect id="1879488816" appliedDescription="key:621094908:54354734"/>
 <effect id="1879488818" appliedDescription="key:621094909:54354734"/>
 <effect id="1879488820" appliedDescription="key:621094906:54354734"/>
@@ -46777,7 +46774,6 @@
 <procEffect id="1879491136" name="DNT - Wild Sigils reduce the active cooldown of Sign of the Wild: Rage" appliedDescription="key:621097027:54354734" iconId="1090552382" skillTypes="24,32,43" cooldown="1.0">
 <effect id="1879490772" name="DNT - SotW Rage CD"/>
 </procEffect>
-<effect id="1879491202" name="Fading into Shadow" appliedDescription="key:621097087:54354734" iconId="1092751970" duration="2.5" pulseCount="1"/>
 <propertyModEffect id="1879491220" name="Nature's Fury" iconId="1091829921" duration="15.0">
 <stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="key:621097104:106251889" constant="10.0"/>
 <stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="key:621097104:106251890" constant="10.0"/>
@@ -46841,10 +46837,6 @@
 <propertyModEffect id="1879491471" name="DNT" iconId="1090519170"/>
 <propertyModEffect id="1879491475" name="DNT" iconId="1090519170"/>
 <propertyModEffect id="1879491477" name="DNT" iconId="1090519170"/>
-<comboEffect id="1879491534" name="DNT">
-<present id="1879486983" name="DNT - ringwraith event terror dispel proc"/>
-<toAddIfNotPresent id="1879491202" name="Fading into Shadow"/>
-</comboEffect>
 <fellowshipEffect id="1879491549" name="DNT - heal and hot" applyToPets="true" applyToTarget="true" range="15.0">
 <effect id="1879491566" name="Hope"/>
 <effect id="1879491558" name="Beacon of Hope"/>
@@ -46918,4 +46910,7 @@
 <vitalOverTimeEffect id="1879492454" name="Summoned Flame" iconId="1091510157" duration="2.0" pulseCount="2" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879244296"/>
 </vitalOverTimeEffect>
+<genesis id="1879492541" name=".." appliedDescription="key:621098232:54354734" summonDuration="600.0">
+<summoned id="1879492521" name="Harrowing Wraith[e]"/>
+</genesis>
 </effects>
