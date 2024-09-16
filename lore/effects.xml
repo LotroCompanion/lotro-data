@@ -675,6 +675,11 @@
 </propertyModEffect>
 <effect id="1879060575" name="Dispel Block"/>
 <effect id="1879060576" name="Shield Swipe" appliedDescription="key:620765638:54354734" iconId="1090541163" duration="6.0"/>
+<propertyModEffect id="1879060637" name="Protection by the Shield" iconId="1092835511">
+<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" constant="0.97"/>
+<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" constant="0.97"/>
+<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" constant="0.97"/>
+</propertyModEffect>
 <propertyModEffect id="1879060646" name="Guardian's Pledge" iconId="1091805278" duration="15.0">
 <stat name="EVADE_PERCENTAGE" constant="20.0"/>
 <stat name="PARRY_PERCENTAGE" constant="20.0"/>
@@ -3124,6 +3129,10 @@
 </propertyModEffect>
 <effect id="1879102559" name="Lainedhal's Protection" iconId="1090541176" duration="5.0"/>
 <effect id="1879102564" name="Sneeze!" appliedDescription="key:620800240:54354734" probability="0.5"/>
+<propertyModEffect id="1879102573" name="Shared Stealth" iconId="1090519170">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="30.0"/>
+<stat name="STEALTH_LEVEL" operator="SUBSTRACT" constant="2.0"/>
+</propertyModEffect>
 <instantVitalEffect id="1879102588" name="Second Wind" stat="Power_MaxLevel">
 <vitalChange progressionID="1879457130"/>
 </instantVitalEffect>
@@ -3288,6 +3297,15 @@
 <stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <effect id="1879103667" name="Interrogation" appliedDescription="key:620801064:54354734" iconId="1091400593" duration="2.0"/>
+<reactiveVitalEffect id="1879103668" name="Interrogator's Zeal" appliedDescription="key:620801066:54354734" iconId="1090532174" damageTypes="65407" damageTypeOverride="32">
+<attacker>
+<reactiveVital constant="0.33" probability="1.0" multiplicative="true"/>
+<effect id="1879103678" name="Cross-examination" probability="1.0"/>
+</attacker>
+</reactiveVitalEffect>
+<propertyModEffect id="1879103678" name="Cross-examination" iconId="1090625091" duration="20.0" pulseCount="3" expiresInRealTime="true">
+<stat name="INCOMING_HEALING_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
+</propertyModEffect>
 <effect id="1879103718" name="Green Giftbox Treasure Effect"/>
 <effect id="1879103719" name="Red Giftbox Treasure Effect"/>
 <effect id="1879103724" name="Blue Giftbox Treasure Effect"/>
@@ -3880,6 +3898,9 @@
 </propertyModEffect>
 <propertyModEffect id="1879110486" name="Trail Food" iconId="1091536885" duration="1800.0">
 <stat name="WILL" scaling="1879211978"/>
+</propertyModEffect>
+<propertyModEffect id="1879110750" name="Rousing Words - Less threat" iconId="1091454158">
+<stat name="ThreatInputModifier_Healing" operator="SUBSTRACT" descriptionOverride="-" constant="100.0"/>
 </propertyModEffect>
 <induceCombatState id="1879110795" name="Induce Dazed" state="3" stateDuration="10.0"/>
 <propertyModEffect id="1879110814" name="Tale of Rage - Tier 1" description="key:620806036:181298206" iconId="1091829860" duration="10.0">
@@ -6137,6 +6158,11 @@
 <reactiveVital constant="1.0" probability="-1.0" multiplicative="true"/>
 </defender>
 </reactiveVitalEffect>
+<propertyModEffect id="1879148404" name="All Fates Entwined" iconId="1091454150" duration="1.0">
+<stat name="MELEE_DEFENCE_PERCENTAGE" descriptionOverride="key:620834557:106251889" constant="-10.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
+</propertyModEffect>
 <vitalOverTimeEffect id="1879148407" name="That Which Does Not Kill Us" iconId="1091511270" duration="2.0" pulseCount="10" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264"/>
 <overTimeChange progressionID="1879368264"/>
@@ -6167,6 +6193,7 @@
 </vitalOverTimeEffect>
 <dispelByResist id="1879148537" name="Remove Fear, Poison, Disease, Wounds" maxDispelCount="3" resistCategories="2,4,7,8" useStrengthRestriction="true" strengthOffset="5"/>
 <propertyModEffect id="1879148551" name="Wait For It…" iconId="1090599071" duration="10.0"/>
+<propertyModEffect id="1879148650" name="Our Fates Entwined" iconId="1091454150" duration="1.0"/>
 <reactiveVitalEffect id="1879148683" name="Terrible Retribution" iconId="1091479294" duration="60.0" damageTypes="1,16,4,2" damageTypeOverride="32">
 <attacker>
 <reactiveVital constant="0.25" probability="1.0" multiplicative="true"/>
@@ -6274,6 +6301,9 @@
 <effect id="1879149763" name="Man Giftbox Treasure Effect"/>
 <effect id="1879149779" name="Dwarf Giftbox Treasure Effect"/>
 <effect id="1879149783" name="Elf Giftbox Treasure Effect"/>
+<vitalOverTimeEffect id="1879149903" name="Blessing of Darkness" iconId="1091473729" duration="1.0" stat="Health_MaxLevel">
+<overTimeChange progressionID="1879413256"/>
+</vitalOverTimeEffect>
 <propertyModEffect id="1879149929" name="Impending Stun" iconId="1091478908" duration="2.0" pulseCount="1"/>
 <propertyModEffect id="1879149985" name="Fortifying Food" iconId="1091536886" duration="1200.0">
 <stat name="RESISTANCE" scaling="1879399606"/>
@@ -14479,6 +14509,9 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
+<vitalOverTimeEffect id="1879221737" name="Inner Flame" iconId="1090553873" duration="1.0" stat="Health_MaxLevel">
+<overTimeChange progressionID="1879368264" variance="0.05"/>
+</vitalOverTimeEffect>
 <propertyModEffect id="1879221754" name="Feel the Burn" iconId="1090519170">
 <specialEffect label="key:620888526:106251889"/>
 </propertyModEffect>
@@ -14586,6 +14619,7 @@
 <recallEffect id="1879222537" name="Warden Travel to Dunland">
 <position region="1" longitude="-16.561386" latitude="-80.13851"/>
 </recallEffect>
+<effect id="1879222541" name="Improved Rousing Words" iconId="1091454158"/>
 <effect id="1879222575" name="Chain Lightning"/>
 <effect id="1879222576"/>
 <effect id="1879222577"/>
@@ -15430,9 +15464,11 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <effect id="1879227964"/>
+<effect id="1879228026" name="Shockwave flag" appliedDescription="key:620893166:54354734" iconId="1091609054"/>
 <instantVitalEffect id="1879228028" name="Burning Lava" stat="Health_MaxLevel">
 <vitalChange progressionID="1879180566"/>
 </instantVitalEffect>
+<effect id="1879228049" name="Ground Pound - Aura" appliedDescription="key:620893186:54354734" iconId="1091401418" duration="1.0"/>
 <effect id="1879228051" name="DNT - Do Nothing Harmful Forever" appliedDescription="key:620893189:54354734" iconId="1090519170"/>
 <effect id="1879228083" name="Remove Slow, Disarm, Silence" description="key:620893208:181298206"/>
 <effect id="1879228117" name="DNT - flag effect to dispel itemset bonus" appliedDescription="key:620893244:54354734" iconId="1091475959"/>
@@ -15485,6 +15521,7 @@
 </vitalOverTimeEffect>
 <effect id="1879228702" name="Trophy Display" description="key:620893716:181298206" appliedDescription="key:620893716:54354734" iconId="1090523647"/>
 <effect id="1879228711" name="Catch Prey" iconId="1090519170" duration="4.0"/>
+<effect id="1879228712" name="Catch Prey" iconId="1090519170" duration="4.0"/>
 <propertyModEffect id="1879228993" name="Thickening Carapace" appliedDescription="key:620893964:54354734" iconId="1091459329">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="6.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="6.0"/>
@@ -15552,6 +15589,7 @@
 <vitalChange progressionID="1879413236" variance="0.2"/>
 </instantVitalEffect>
 <effect id="1879229219" name="Venom Increase +4"/>
+<effect id="1879229222" name="Ground Pound - Aura" appliedDescription="key:620894115:54354734" iconId="1091401418" duration="1.0"/>
 <travelEffect id="1879229235" name="Map to the Shire Homesteads" appliedDescription="key:620894126:54354734" sceneID="1879048837">
 <position region="1" longitude="-73.19002" latitude="-36.522293"/>
 </travelEffect>
@@ -17571,6 +17609,7 @@
 <stat name="Trait_Mounted_Critical_Multiplier" descriptionOverride="key:620903413:106251893" constant="10.0"/>
 </propertyModEffect>
 <induceCombatState id="1879243698" name="Induce Stunned" state="15" stateDuration="10.0"/>
+<effect id="1879243706" name="Constant Pain Heal" iconId="1090553265" duration="2.0"/>
 <vitalOverTimeEffect id="1879243900" name="Trailing Flames" iconId="1091476371" duration="1.0" pulseCount="6" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879244485"/>
 </vitalOverTimeEffect>
@@ -17657,6 +17696,9 @@
 <propertyModEffect id="1879244336" name="Improved Fungal Spores" iconId="1090519170"/>
 <propertyModEffect id="1879244337" name="Improved Blessing of Darkness" iconId="1090519170"/>
 <propertyModEffect id="1879244343" name="Improved Snare" iconId="1090519170"/>
+<propertyModEffect id="1879244346" name="Steadfast Barrage" iconId="1091472162">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620904372:106251889" constant="40.0"/>
+</propertyModEffect>
 <propertyModEffect id="1879244371" name="Improved Flayer" iconId="1090519170"/>
 <propertyModEffect id="1879244373" name="Improved Set Trap" iconId="1090519170"/>
 <comboEffect id="1879244380" name="DNT">
@@ -23372,6 +23414,7 @@
 <toAddIfPresent id="1879272823" name="Relentless Attack"/>
 <toExamine id="1879272823" name="Relentless Attack"/>
 </comboEffect>
+<effect id="1879288693" name="DNT - Precision Stance Focus Gen" description="key:620935967:181298206" appliedDescription="key:620935967:54354734" iconId="1090541206" duration="5.0"/>
 <propertyModEffect id="1879288694" name="DNT - Precision Focus Gen" iconId="1090519170">
 <specialEffect label="key:620935969:106251889"/>
 </propertyModEffect>
@@ -25295,6 +25338,7 @@
 <procEffect id="1879315757" name="Rune of Peace" descriptionOverride="key:620953792:62991877" iconId="1090552382" skillTypes="35" procProbability="0.05">
 <effect id="1879315962" name="Rune of Peace"/>
 </procEffect>
+<effect id="1879315758" name="Sacrifice" appliedDescription="key:620953793:54354734" iconId="1091940986"/>
 <effect id="1879315798" name="DNT: Pet Summoned" iconId="1090519170" duration="300.0"/>
 <propertyModEffect id="1879315799" name="Debilitating Bees" iconId="1091941800" duration="12.0">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="1.0"/>
@@ -25690,6 +25734,7 @@
 <tierUp id="1879318138" name="Thrash"/>
 <finalTier id="1879318138" name="Thrash"/>
 </tieredEffect>
+<propertyModEffect id="1879318301" name="Nature's Bond" iconId="1091940986"/>
 <effect id="1879318320" name="Nature's Bond" appliedDescription="key:620955866:54354734" iconId="1091940986"/>
 <reactiveVitalEffect id="1879318322" name="Thickened Hide" iconId="1091940987" duration="15.0" damageTypes="65407">
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="60.000004"/>
@@ -25702,6 +25747,7 @@
 <instantVitalEffect id="1879318324" name="Thickened Hide" stat="Health_MaxLevel" multiplicative="true">
 <vitalChange constant="0.01"/>
 </instantVitalEffect>
+<effect id="1879318337" name="Aid the Assault" iconId="1091941767" duration="1.0"/>
 <propertyModEffect id="1879318342" name="Call To Wild" iconId="1091940988" duration="15.0">
 <stat name="Skill_SingleTarget_Damage" descriptionOverride="key:620955879:106251897" constant="40.0"/>
 <stat name="Skill_AreaEffect_Damage" descriptionOverride="-" constant="30.000002"/>
@@ -25917,6 +25963,9 @@
 <specialEffect label="key:620957878:106251892"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+</propertyModEffect>
+<propertyModEffect id="1879321729" name="Relentless Maul" iconId="1091940908">
+<specialEffect label="key:620957958:106251889"/>
 </propertyModEffect>
 <induceCombatState id="1879321965" name="Takedown" state="13" stateDuration="5.0"/>
 <propertyModEffect id="1879321966" name="Guarded - Tier 5" iconId="1091945040" duration="12.0" pulseCount="1">
@@ -29852,6 +29901,9 @@
 </vitalOverTimeEffect>
 <propertyModEffect id="1879369427" name="Songbird" iconId="1090553792"/>
 <propertyModEffect id="1879369429" name="White Fox" iconId="1090553792"/>
+<vitalOverTimeEffect id="1879369512" name="Power of Knowledge" iconId="1091762336" duration="1.0" stat="Power_MaxLevel">
+<overTimeChange progressionID="1879262619" variance="0.1"/>
+</vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879369513" name="Power of Knowledge" iconId="1091762336" duration="1.0" stat="Health_MaxLevel" damageType="512">
 <overTimeChange progressionID="1879383395" variance="0.1"/>
 </vitalOverTimeEffect>
@@ -31904,6 +31956,7 @@
 <overTimeChange progressionID="1879180912"/>
 </vitalOverTimeEffect>
 <effect id="1879390647" name="Drain Life" appliedDescription="key:621022372:54354734" iconId="1091402348" duration="1.0"/>
+<effect id="1879390649" name="Drain Life - Recourse" appliedDescription="key:621022378:54354734" iconId="1091402348" duration="1.0"/>
 <propertyModEffect id="1879390652" name="Raging Corruption" appliedDescription="key:621022371:54354734" iconId="1091475959" duration="120.0">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" constant="1.5"/>
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="1.5"/>
@@ -33425,6 +33478,7 @@
 <stat name="EVADE_PERCENTAGE" constant="60.000004"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="60.0"/>
 </propertyModEffect>
+<effect id="1879401275" name="Aura: Blood-well" iconId="1091534994"/>
 <propertyModEffect id="1879401278" name="Blood of the Unhoused" appliedDescription="key:621029578:54354734" iconId="1090539325"/>
 <propertyModEffect id="1879401280" name="Corrosive Bite - 3" appliedDescription="key:621029598:54354734" iconId="1091476365" duration="60.0">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="60.000004"/>
@@ -33477,6 +33531,7 @@
 <propertyModEffect id="1879401301" name="Corrosive Bite - 4" appliedDescription="key:621029586:54354734" iconId="1091476365" duration="60.0">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="80.0"/>
 </propertyModEffect>
+<effect id="1879401331" name="DNT - Bloodwell Effect" iconId="1091534994" duration="3.0"/>
 <propertyModEffect id="1879401339" name="Might" iconId="1090648220">
 <stat name="MIGHT" scaling="1879366646"/>
 </propertyModEffect>
@@ -45254,6 +45309,7 @@
 <propertyModEffect id="1879484011" name="DNT - Spear Bleeds Spread" iconId="1090519170"/>
 <propertyModEffect id="1879484015" name="DNT" iconId="1090519170"/>
 <effect id="1879484021" name="Power of Destruction" iconId="1092945315" duration="1.0"/>
+<effect id="1879484027" name="Power of Destruction" iconId="1092945315" duration="1.0"/>
 <effect id="1879484030" name="Gamble" probabilityModProperty="268464664"/>
 <effect id="1879484033" name="DNT - Riddle Reset"/>
 <propertyModEffect id="1879484035" name="DNT - Lesser Rent Armour" iconId="1090519170"/>
@@ -45883,6 +45939,7 @@
 <effect id="1879489165" name="DNT - Dispels Pet Skill AIHint Helper" appliedDescription="key:621095220:54354734"/>
 <effect id="1879489168" name="DNT - Dispels Pet Skill AIHint Helper" appliedDescription="key:621095229:54354734"/>
 <propertyModEffect id="1879489217" name="Unbreakable Bond" appliedDescription="key:621095288:54354734" iconId="1091926677"/>
+<propertyModEffect id="1879489218" name="Unbreakable Bond" appliedDescription="key:621095287:54354734" iconId="1091926677"/>
 <effect id="1879489219" name="Threat Decrease" description="key:621095284:181298206" appliedDescription="key:621095284:54354734"/>
 <propertyModEffect id="1879489322" name="Choking Vines" iconId="1090536145" duration="45.0">
 <stat name="RANGED_DEFENCE_PERCENTAGE" constant="3.0"/>
@@ -46542,6 +46599,7 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <effect id="1879490851" name="DNT - Wild Fire"/>
+<propertyModEffect id="1879490926" name="Life-tether" iconId="1092979838"/>
 <propertyModEffect id="1879490927" name="Fell-shield" appliedDescription="key:621096835:54354734" iconId="1092979838" duration="10.0"/>
 <effect id="1879490935" name="Trembling Air" iconId="1092979865" duration="3.0" pulseCount="5"/>
 <effect id="1879490942" name="Trembling Air" iconId="1092979865" duration="1.0" pulseCount="15"/>
