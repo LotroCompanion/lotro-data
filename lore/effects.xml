@@ -45956,7 +45956,7 @@
 </hotspot>
 </genesis>
 <effect id="1879485807" name="Hideous Cremation" appliedDescription="key:621092387:54354734" iconId="1090623588" duration="1.0" pulseCount="30"/>
-<effect id="1879485813" name="Infectious Terror" appliedDescription="key:621092386:54354734" iconId="1091400588" duration="2.0" pulseCount="6"/>
+<effect id="1879485813" name="Infectious Terror" appliedDescription="key:621092386:54354734" iconId="1091400588" duration="2.0" pulseCount="5"/>
 <propertyModEffect id="1879485820" name="Rising Fury" iconId="1092403424" duration="195.0" pulseCount="1"/>
 <comboEffect id="1879485823" name="DNT">
 <present id="1879484242" name="Frigid Squall"/>
@@ -46053,7 +46053,7 @@
 <overTimeChange progressionID="1879180913"/>
 </vitalOverTimeEffect>
 <effect id="1879486933" name="Impending Doom" appliedDescription="key:621093361:54354734" iconId="1090532173" duration="6.0" pulseCount="1"/>
-<propertyModEffect id="1879486960" name="Event - Improved Efficiency" appliedDescription="key:621093383:54354734" iconId="1092946353" duration="180.0">
+<propertyModEffect id="1879486960" name="Event - Improved Efficiency" appliedDescription="key:621093383:54354734" iconId="1092946353" duration="240.0">
 <stat name="Skill_InductionDuration_EventSkillsMod" operator="MULTIPLY" descriptionOverride="key:621093383:106251889" constant="0.33"/>
 </propertyModEffect>
 <propertyModEffect id="1879486982" name="Absolute Terror" appliedDescription="key:621093395:54354734" iconId="1090648290">
@@ -46110,7 +46110,7 @@
 <propertyModEffect id="1879488696" name="Event - Delivery Boost" appliedDescription="key:621094802:54354734" iconId="1092946353" duration="240.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="key:621094802:106251889" constant="0.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879488698" name="Event - Movement Boost" appliedDescription="key:621094800:54354734" iconId="1092946353" duration="120.0">
+<propertyModEffect id="1879488698" name="Event - Movement Boost" appliedDescription="key:621094800:54354734" iconId="1092946353" duration="240.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="key:621094800:106251889" constant="20.0"/>
 </propertyModEffect>
 <effect id="1879488706" name="Encumbrance Reduction" appliedDescription="key:621094807:54354734" iconId="1092946353" duration="180.0"/>
@@ -47210,4 +47210,61 @@
 <genesis id="1879492541" name=".." appliedDescription="key:621098232:54354734" summonDuration="600.0">
 <summoned id="1879492521" name="Harrowing Wraith[e]"/>
 </genesis>
+<propertyModEffect id="1879493429" name="Mounted" iconId="1090519170">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621098805:106251889" constant="68.0"/>
+<specialEffect label="key:621098805:106251890"/>
+<specialEffect label="key:621098805:106251891"/>
+<specialEffect label="key:621098805:106251892"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+</propertyModEffect>
+<propertyModEffect id="1879493430" name="Mounted" iconId="1090519170">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621098800:106251889" constant="68.0"/>
+<specialEffect label="key:621098800:106251890"/>
+<specialEffect label="key:621098800:106251891"/>
+<specialEffect label="key:621098800:106251892"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+</propertyModEffect>
+<propertyModEffect id="1879493432" name="Mounted" iconId="1090519170">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621098799:106251889" constant="68.0"/>
+<specialEffect label="key:621098799:106251890"/>
+<specialEffect label="key:621098799:106251891"/>
+<specialEffect label="key:621098799:106251892"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+</propertyModEffect>
+<propertyModEffect id="1879493436" name="Mounted" iconId="1090519170">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621098806:106251889" constant="68.0"/>
+<specialEffect label="key:621098806:106251890"/>
+<specialEffect label="key:621098806:106251891"/>
+<specialEffect label="key:621098806:106251892"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+</propertyModEffect>
+<propertyModEffect id="1879493437" name="Mounted" iconId="1090519170">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621098802:106251889" constant="68.0"/>
+<specialEffect label="key:621098802:106251890"/>
+<specialEffect label="key:621098802:106251891"/>
+<specialEffect label="key:621098802:106251892"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+</propertyModEffect>
+<propertyModEffect id="1879493438" name="Mounted" iconId="1090519170">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621098808:106251889" constant="68.0"/>
+<specialEffect label="key:621098808:106251890"/>
+<specialEffect label="key:621098808:106251891"/>
+<specialEffect label="key:621098808:106251892"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+</propertyModEffect>
+<propertyModEffect id="1879493461" iconId="1090553792"/>
+<propertyModEffect id="1879493462" iconId="1090553792"/>
+<propertyModEffect id="1879493463" iconId="1090553792"/>
+<propertyModEffect id="1879493464" iconId="1090553792"/>
+<effect id="1879493556" name="Journey's Start Milestone Style" appliedDescription="key:621098923:54354734"/>
+<effect id="1879493557" name="Wellspring Defender Movement Style" appliedDescription="key:621098921:54354734"/>
+<effect id="1879494880" name="Put on Costume - Battle-ready Galadriel" description="key:621099624:181298206" iconId="1090519170" duration="1.0" pulseCount="1"/>
+<effect id="1879494881" name="Put on Costume - Goblin Corsair" description="key:621099620:181298206" iconId="1090519170" duration="1.0" pulseCount="1"/>
+<effect id="1879494885" name="Put on Costume - Galadriel" description="key:621099621:181298206" iconId="1090519170" duration="1.0" pulseCount="1"/>
 </effects>
