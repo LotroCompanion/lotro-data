@@ -9124,19 +9124,19 @@
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268451195,268462739,268445385"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879173084" name="Bolster Courage" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268444873,268448151,268448537,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268444873,268448151,268448537,268462699" vpsMultiplier="26.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879173085" name="Chord of Salvation" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268443327,268448151,268448537,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268443327,268448151,268448537,268462699" vpsMultiplier="17.25"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879173086" name="Raise the Spirit" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268444867,268448151,268448537,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268444867,268448151,268448537,268462699" vpsMultiplier="6.6"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879173087" name="Triumphant Spirit" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268461534,268448151,268448537,268462707"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268461534,268448151,268448537,268462707" vpsMultiplier="32.5"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879173088" name="Inspire Fellows" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268444886,268448151,268448537,268462707"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268444886,268448151,268448537,268462707" vpsMultiplier="10.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879173107" name="DNT - Countdown to snow" iconId="1090519170" duration="1.0" pulseCount="1"/>
 <propertyModEffect id="1879173108" name="Snow Pile" description="key:620852517:181298206" iconId="1090519170" duration="1.5" pulseCount="1"/>
@@ -9246,13 +9246,13 @@
 </propertyModEffect>
 <effect id="1879173506" name="Immunity" appliedDescription="key:620852828:54354734" iconId="1091574473"/>
 <instantVitalEffect id="1879173618" name="Hope" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.05" modifiers="268441250,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.05" modifiers="268441250,268448151,268462699" vpsMultiplier="40.5"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879173619" name="Wisdom of the Council" stat="Health_MaxLevel" multiplicative="true">
-<vitalChange constant="0.5"/>
+<vitalChange constant="0.5" vpsMultiplier="0.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879173620" name="Lend Power" stat="Power_MaxLevel">
-<vitalChange progressionID="1879459355" variance="0.3" modifiers="268448538,268448151"/>
+<vitalChange progressionID="1879459355" variance="0.3" modifiers="268448538,268448151" vpsMultiplier="0.5"/>
 </instantVitalEffect>
 <propertyModEffect id="1879173653" name="Filled with Honey and Oats" iconId="1091613008" duration="600.0">
 <stat name="FIRE_MITIGATION" scaling="1879132076"/>
@@ -9389,7 +9389,7 @@
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268445803,268443435"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879174182" name="Epic for the Ages" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268445806,268448151,268459156,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268445806,268448151,268459156,268462699" vpsMultiplier="50.0"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879174313" name="Rallying Cry" iconId="1092811772" duration="3.0" pulseCount="5" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268443825,268444410,268458044,268462707"/>
@@ -9404,7 +9404,7 @@
 <overTimeChange progressionID="1879368264" modifiers="268441250,268462738,268443826,268448151"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879174454" name="Valiant Strike" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.15" modifiers="268443826,268445834,268441250,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.15" modifiers="268443826,268445834,268441250,268448151,268462699" vpsMultiplier="33.3"/>
 </instantVitalEffect>
 <propertyModEffect id="1879174894" name="Improved Sticky Tar" appliedDescription="key:620853596:54354734" iconId="1090519170"/>
 <propertyModEffect id="1879174895" name="Improved Writ of Health" iconId="1090648226" duration="20.0" probabilityModProperty="268448520">
@@ -14573,7 +14573,7 @@
 <effect id="1879221568" name="Major Ballad"/>
 </fellowshipEffect>
 <instantVitalEffect id="1879221568" name="Major Ballad" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268441250,268460892,268448151,268448537,268462707"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268441250,268460892,268448151,268448537,268462707" vpsMultiplier="4.2"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879221578" name="Quit Whining and Fight" stat="Health_MaxLevel">
 <vitalChange progressionID="1879413248" variance="0.3" modifiers="268440271,268436040,268448151"/>
@@ -14658,7 +14658,7 @@
 <effect id="1879218439" name="Story of Courage: Fear Resistance"/>
 </fellowshipEffect>
 <instantVitalEffect id="1879222100" name="Prelude to Hope Power" description="key:620888784:181298206" appliedDescription="key:620888784:54354734" stat="Power_MaxLevel">
-<vitalChange progressionID="1879262622" variance="0.1"/>
+<vitalChange progressionID="1879262622" variance="0.1" vpsMultiplier="0.3"/>
 </instantVitalEffect>
 <comboEffect id="1879222101" name="DNT">
 <toAddIfPresent id="1879222100" name="Prelude to Hope Power"/>
@@ -14686,17 +14686,17 @@
 <toAddIfPresent id="1879218058" name="Anthem of the Third Age Harmony - Coda"/>
 </comboEffect>
 <instantVitalEffect id="1879222205" name="Coda of Melody" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268448537,268462707"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268448537,268462707" vpsMultiplier="16.2"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879222206" name="Healer's Strike" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268459150,268446231,268448151,268448537,268462707"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268459150,268446231,268448151,268448537,268462707" vpsMultiplier="3.8"/>
 </instantVitalEffect>
 <effect id="1879222218" name="DNT - I am traited PoS" iconId="1090519170"/>
 <propertyModEffect id="1879222255" name="Rabid Bite" iconId="1091474191" duration="60.0">
 <stat name="Skill_PowerCost_AllSkills" constant="10.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879222275" name="Sustaining Bolt" stat="Power_MaxLevel">
-<vitalChange progressionID="1879457130" variance="0.1" modifiers="268452530,268458829"/>
+<vitalChange progressionID="1879457130" variance="0.1" modifiers="268452530,268458829" vpsMultiplier="1.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879222315" name="Aggressive Exchange" iconId="1090519170">
 <specialEffect label="key:620888937:106251889"/>
@@ -15110,7 +15110,7 @@
 <summoned id="1879223715" name="Farmers Faire Token[e]"/>
 </genesis>
 <instantVitalEffect id="1879224034" name="Coda of Resonance" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268448537,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268448537,268462699" vpsMultiplier="30.0"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879224106" name="Slashing Blow" iconId="1091479304" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="1">
 <initialChange progressionID="1879149253"/>
@@ -16734,7 +16734,7 @@
 <effect id="1879238130" name="Lend Power - Fellowship"/>
 </fellowshipEffect>
 <instantVitalEffect id="1879238130" name="Lend Power - Fellowship" stat="Power_MaxLevel">
-<vitalChange progressionID="1879457132" variance="0.3" modifiers="268448538,268448151"/>
+<vitalChange progressionID="1879457132" variance="0.3" modifiers="268448538,268448151" vpsMultiplier="1.0"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879238163" name="Water-lore" iconId="1090553873" duration="4.0" pulseCount="8" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" modifiers="268441250,268462699,268448151"/>
@@ -17360,20 +17360,20 @@
 <stat name="Skill_PowerCost_AllSkills" descriptionOverride="key:620902036:106251892" constant="-10.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879241546" name="Coda of the Eorlingas" stat="Power_MaxLevel">
-<vitalChange progressionID="1879252973" variance="0.3" modifiers="268455686,268448151"/>
+<vitalChange progressionID="1879252973" variance="0.3" modifiers="268455686,268448151" vpsMultiplier="5.6"/>
 </instantVitalEffect>
 <effect id="1879241547" name="DNT - Dispel Ballads and Anthems" probabilityModProperty="268455628"/>
 <instantVitalEffect id="1879241548" name="Call of the Eorlingas" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252943" variance="0.3" modifiers="268455680,268448151"/>
+<vitalChange progressionID="1879252943" variance="0.3" modifiers="268455680,268448151" vpsMultiplier="17.4"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879241549" name="Chant" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252968" variance="0.3" modifiers="268455680,268448151"/>
+<vitalChange progressionID="1879252968" variance="0.3" modifiers="268455680,268448151" vpsMultiplier="1.75"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879241551" name="Coda of the Eorlingas" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252970" variance="0.2" modifiers="268455680,268448151"/>
+<vitalChange progressionID="1879252970" variance="0.2" modifiers="268455680,268448151" vpsMultiplier="18.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879241552" name="Call of the Eorlingas" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252963" variance="0.3" modifiers="268455686,268448151"/>
+<vitalChange progressionID="1879252963" variance="0.3" modifiers="268455686,268448151" vpsMultiplier="9.4"/>
 </instantVitalEffect>
 <comboEffect id="1879241565" name="Hammer of the Red Dawn">
 <toAddIfPresent id="1879149379" name="DNT - Do Nothing"/>
@@ -17696,16 +17696,16 @@
 <overTimeChange progressionID="1879180912" modifiers="268437688"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879243294" name="Cry Havoc - Power" stat="Power_MaxLevel">
-<vitalChange progressionID="1879252971" variance="0.3" modifiers="268455686,268448151"/>
+<vitalChange progressionID="1879252971" variance="0.3" modifiers="268455686,268448151" vpsMultiplier="1.5"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879243296" name="Cry havoc - Morale" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252963" variance="0.3" modifiers="268455686,268448151"/>
+<vitalChange progressionID="1879252963" variance="0.3" modifiers="268455686,268448151" vpsMultiplier="1.4"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879243299" name="Cry Havoc - Power" stat="MountPower_MaxLevel">
-<vitalChange progressionID="1879252971" variance="0.3" modifiers="268455686,268448151"/>
+<vitalChange progressionID="1879252971" variance="0.3" modifiers="268455686,268448151" vpsMultiplier="1.5"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879243300" name="Cry Havoc - Morale" stat="MountEndurance_MaxLevel">
-<vitalChange progressionID="1879252963" variance="0.3" modifiers="268455686,268448151"/>
+<vitalChange progressionID="1879252963" variance="0.3" modifiers="268455686,268448151" vpsMultiplier="1.4"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879243302" name="Oppressive Blow - Bleed" iconId="1091742742" duration="4.0" pulseCount="5" stat="Health_MaxLevel">
 <initialChange progressionID="1879468799" modifiers="268456012"/>
@@ -18058,13 +18058,13 @@
 <propertyModEffect id="1879245035" name="DNT - Ranged Wages of Fear Cooldown Reset" appliedDescription="key:620904930:54354734" iconId="1090519170"/>
 <propertyModEffect id="1879245120" name="Explosive Arrow" description="key:620905020:181298206" appliedDescription="key:620905020:54354734" iconId="1091744627" duration="2.0" pulseCount="1"/>
 <instantVitalEffect id="1879245269" name="Debate the People" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252968" modifiers="268455680,268443235,268448151"/>
+<vitalChange progressionID="1879252968" modifiers="268455680,268443235,268448151" vpsMultiplier="0.79"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879245271" name="Debate the People" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252968" modifiers="268455680,268443235,268448151"/>
+<vitalChange progressionID="1879252968" modifiers="268455680,268443235,268448151" vpsMultiplier="0.79"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879245272" name="Debate Wrath" stat="Health_MaxLevel">
-<vitalChange progressionID="1879239422" variance="0.3"/>
+<vitalChange progressionID="1879239422" variance="0.3" vpsMultiplier="12.0"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879245274" name="Fixation of Health - Steed - 1" iconId="1091745001" duration="3.0" pulseCount="6" stat="MountEndurance_MaxLevel">
 <overTimeChange progressionID="1879252975" variance="0.15" modifiers="268455680,268448151,268443235"/>
@@ -18136,10 +18136,10 @@
 </attacker>
 </reactiveVitalEffect>
 <instantVitalEffect id="1879245563" name="Debate the People" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252968" modifiers="268455680,268443235,268448151"/>
+<vitalChange progressionID="1879252968" modifiers="268455680,268443235,268448151" vpsMultiplier="1.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879245564" name="Debate the People" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252968" modifiers="268455680,268443235,268448151"/>
+<vitalChange progressionID="1879252968" modifiers="268455680,268443235,268448151" vpsMultiplier="1.0"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879245566" name="Oration of Health - Rider" iconId="1091745006" duration="3.0" pulseCount="3" stat="Power_MaxLevel">
 <overTimeChange progressionID="1879252973" variance="0.1" modifiers="268455680,268448151,268443235"/>
@@ -18156,10 +18156,10 @@
 <overTimeChange progressionID="1879252973" variance="0.1" modifiers="268455680,268448151,268443235"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879245570" name="Debate the People" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252968" modifiers="268455680,268443235,268448151"/>
+<vitalChange progressionID="1879252968" modifiers="268455680,268443235,268448151" vpsMultiplier="0.23"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879245571" name="Debate the People" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252968" modifiers="268455680,268443235,268448151"/>
+<vitalChange progressionID="1879252968" modifiers="268455680,268443235,268448151" vpsMultiplier="0.23"/>
 </instantVitalEffect>
 <comboEffect id="1879245572" name="DNT - Debate Heal">
 <present id="1879245308" name="Debate the People"/>
@@ -18709,13 +18709,13 @@
 <overTimeChange progressionID="1879252973" variance="0.2" modifiers="268455686,268448151"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879248970" name="Call of the Eorlingas" stat="MountEndurance_MaxLevel">
-<vitalChange progressionID="1879252968" variance="0.3" modifiers="268455686,268448151"/>
+<vitalChange progressionID="1879252968" variance="0.3" modifiers="268455686,268448151" vpsMultiplier="7.2"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879248971" name="Call of the Eorlingas" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252968" variance="0.3" modifiers="268455686,268448151"/>
+<vitalChange progressionID="1879252968" variance="0.3" modifiers="268455686,268448151" vpsMultiplier="7.2"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879248972" name="Call of the Eorlingas" stat="MountEndurance_MaxLevel">
-<vitalChange progressionID="1879252963" variance="0.3" modifiers="268455686,268448151"/>
+<vitalChange progressionID="1879252963" variance="0.3" modifiers="268455686,268448151" vpsMultiplier="9.4"/>
 </instantVitalEffect>
 <fellowshipEffect id="1879248981" name="Anthem of the Rohirrim" applyToPets="true" applyToTarget="true" range="40.0">
 <effect id="1879241535" name="Anthem of the Rohirrim"/>
@@ -18727,10 +18727,10 @@
 <effect id="1879241538" name="Anthem of the Red Dawn"/>
 </fellowshipEffect>
 <instantVitalEffect id="1879248996" name="Call of the Eorlingas" stat="MountEndurance_MaxLevel">
-<vitalChange progressionID="1879252943" variance="0.3" modifiers="268455680,268448151"/>
+<vitalChange progressionID="1879252943" variance="0.3" modifiers="268455680,268448151" vpsMultiplier="17.4"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879248997" name="Coda of the Eorlingas" stat="MountPower_MaxLevel">
-<vitalChange progressionID="1879252973" variance="0.3" modifiers="268455686,268448151"/>
+<vitalChange progressionID="1879252973" variance="0.3" modifiers="268455686,268448151" vpsMultiplier="5.6"/>
 </instantVitalEffect>
 <effect id="1879249008"/>
 <effect id="1879249016"/>
@@ -18884,10 +18884,10 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879250577" name="Bond of the Rider - Mount Morale" stat="MountEndurance_MaxLevel">
-<vitalChange progressionID="1879252970" modifiers="268455680,268456787,268448151"/>
+<vitalChange progressionID="1879252970" modifiers="268455680,268456787,268448151" vpsMultiplier="14.4"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879250579" name="Bond of the Rider - Morale" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252970" modifiers="268455680,268456787,268448151"/>
+<vitalChange progressionID="1879252970" modifiers="268455680,268456787,268448151" vpsMultiplier="14.4"/>
 </instantVitalEffect>
 <propertyModEffect id="1879250593" name="The Gift of Carrock" appliedDescription="key:620908696:54354734" iconId="1091752904">
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
@@ -18941,7 +18941,7 @@
 <stat name="Skill_LightningBurst_LoreMaster_PowerCost" operator="SUBSTRACT" descriptionOverride="-" constant="70.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879250748" name="Inspirational Damage" stat="Health_MaxLevel">
-<vitalChange progressionID="1879239427" modifiers="268455709,268456787"/>
+<vitalChange progressionID="1879239427" modifiers="268455709,268456787" vpsMultiplier="5.0"/>
 </instantVitalEffect>
 <effect id="1879250751" name="Sign of Power: Inspiration" iconId="1090519170" duration="1.0"/>
 <effect id="1879250752" name="Sign of Power: Inspiration" iconId="1090519170" duration="1.0"/>
@@ -19323,10 +19323,10 @@
 <overTimeChange progressionID="1879367855" modifiers="268462739,268452371,268458001"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879253520" name="Bond of the Rider - Morale" stat="MountEndurance_MaxLevel">
-<vitalChange progressionID="1879252970" modifiers="268455862,268456787,268448151"/>
+<vitalChange progressionID="1879252970" modifiers="268455862,268456787,268448151" vpsMultiplier="6.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879253521" name="Bond of the Rider - Morale" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252970" modifiers="268455862,268456787,268448151"/>
+<vitalChange progressionID="1879252970" modifiers="268455862,268456787,268448151" vpsMultiplier="6.0"/>
 </instantVitalEffect>
 <fellowshipEffect id="1879253522" name="Bond of the Rider" description="key:620910518:181298206" applyToPets="true" applyToTarget="true" range="40.0">
 <effect id="1879250579" name="Bond of the Rider - Morale"/>
@@ -21205,7 +21205,7 @@
 <overTimeChange progressionID="1879383395" modifiers="268462739"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879267269" name="Sundering Blow" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252943" variance="0.3" modifiers="268455680,268448151"/>
+<vitalChange progressionID="1879252943" variance="0.3" modifiers="268455680,268448151" vpsMultiplier="17.4"/>
 </instantVitalEffect>
 <propertyModEffect id="1879267390" name="+100% Infamy/Renown Gain" appliedDescription="key:620918823:54354734" iconId="1091634811" duration="5400.0">
 <stat name="Glory_AwardMultiplier" descriptionOverride="key:620918823:106251889" constant="100.0"/>
@@ -21584,7 +21584,7 @@
 <summoned id="1879269600" name="Fish[e]"/>
 </genesis>
 <instantVitalEffect id="1879270883" name="Payout" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" variance="0.2" modifiers="268460897,268461795,268462735"/>
+<vitalChange progressionID="1879367855" variance="0.2" modifiers="268460897,268461795,268462735" vpsMultiplier="20.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879270886" name="Mounted" iconId="1090519170">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:620921621:106251889" constant="62.0"/>
@@ -21691,7 +21691,7 @@
 <propertyModEffect id="1879271323" name="DNT - Frost Lightning" iconId="1090519170"/>
 <propertyModEffect id="1879271372" name="DNT - Pleasant Breeze" iconId="1090519170"/>
 <instantVitalEffect id="1879271373" name="Pleasant Breeze" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.05" modifiers="268457783,268448151,268462707"/>
+<vitalChange progressionID="1879368264" variance="0.05" modifiers="268457783,268448151,268462707" vpsMultiplier="31.2"/>
 </instantVitalEffect>
 <procEffect id="1879271374" name="Stand Tall" appliedDescription="key:620921934:54354734" iconId="1090552382" skillTypes="36" cooldown="1.0">
 <effect id="1879271375" name="DNT -Last Stand Reset"/>
@@ -22512,7 +22512,7 @@
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="-5.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879277456" name="Prey on the Weak" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" modifiers="268457980,268462739,268462739"/>
+<vitalChange progressionID="1879367855" modifiers="268457980,268462739,268462739" vpsMultiplier="2.5"/>
 </instantVitalEffect>
 <comboEffect id="1879277458" name="DNT">
 <toAddIfPresent id="1879277456" name="Prey on the Weak"/>
@@ -23189,7 +23189,7 @@
 </comboEffect>
 <effect id="1879283814" name="DNT - Closing Remarks Dispel"/>
 <instantVitalEffect id="1879283818" name="Gallant Display" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.15" modifiers="268443826,268457767,268441250,268448151,268458044,268462707"/>
+<vitalChange progressionID="1879368264" variance="0.15" modifiers="268443826,268457767,268441250,268448151,268458044,268462707" vpsMultiplier="6.6045"/>
 </instantVitalEffect>
 <fellowshipEffect id="1879283819" name="DNT - Gallant Display" description="key:620931668:181298206" applyToPets="true" applyToTarget="true" range="30.0">
 <effect id="1879283818" name="Gallant Display"/>
@@ -23498,7 +23498,7 @@
 <specialEffect label="key:620935030:106251889"/>
 </propertyModEffect>
 <instantVitalEffect id="1879287425" name="Perfect Ending" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268448537,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268448537,268462699" vpsMultiplier="24.0"/>
 </instantVitalEffect>
 <procEffect id="1879287427" name="DNT - Snowball" iconId="1091830252" skillTypes="35">
 <effect id="1879287428" name="DNT - Snowball"/>
@@ -24470,13 +24470,13 @@
 <effect id="1879297441" name="Banner of War"/>
 <effect id="1879297442" name="Banner of Honour"/>
 <instantVitalEffect id="1879297443" name="Standard of Valour" stat="Health_MaxLevel">
-<vitalChange progressionID="1879383395" modifiers="268445385,268457753,268462736"/>
+<vitalChange progressionID="1879383395" modifiers="268445385,268457753,268462736" vpsMultiplier="2.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879297444" name="Standard of Honour" stat="Health_MaxLevel">
-<vitalChange progressionID="1879383395" modifiers="268445385,268457753,268462736"/>
+<vitalChange progressionID="1879383395" modifiers="268445385,268457753,268462736" vpsMultiplier="2.5"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879297446" name="Standard of War" stat="Health_MaxLevel">
-<vitalChange progressionID="1879383395" modifiers="268445385,268457753,268462736"/>
+<vitalChange progressionID="1879383395" modifiers="268445385,268457753,268462736" vpsMultiplier="3.5"/>
 </instantVitalEffect>
 <induceCombatState id="1879297487" name="Will of the Council" state="15" stateDuration="3.0"/>
 <procEffect id="1879297520" name="DNT - Wizard's Fire Reset" appliedDescription="key:620942002:54354734" iconId="1090552382" skillTypes="12" cooldown="60.0">
@@ -24831,7 +24831,7 @@
 <effect id="1879302583" name="DNT - Herald of Victory (Warden)"/>
 <propertyModEffect id="1879302718" name="Shatter Armour" appliedDescription="key:620946345:54354734" iconId="1091476365" duration="12.0"/>
 <instantVitalEffect id="1879302727" name="Explosive Arrow" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" variance="0.1" modifiers="268445383,268457570,268451990,268460594,268462736"/>
+<vitalChange progressionID="1879367855" variance="0.1" modifiers="268445383,268457570,268451990,268460594,268462736" vpsMultiplier="5.0"/>
 </instantVitalEffect>
 <genesis id="1879302728" name="Create Explosive Arrow" summonDuration="1.0">
 <hotspot id="1879302726" name="Explosive Arrow">
@@ -25134,7 +25134,7 @@
 <stat name="Skill_Captain_ElendilFury_AppChance" descriptionOverride="key:620950358:106251889" constant="100.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879311399" name="Elendil's Fury" probabilityModProperty="268459970" stat="Health_MaxLevel">
-<vitalChange progressionID="1879383395" modifiers="268445385"/>
+<vitalChange progressionID="1879383395" modifiers="268445385" vpsMultiplier="3.0"/>
 </instantVitalEffect>
 <reactiveVitalEffect id="1879311570" name="Fire Shield" iconId="1091916307" duration="30.0" damageTypes="65407" damageTypeOverride="16">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="2.5"/>
@@ -25172,13 +25172,13 @@
 <propertyModEffect id="1879312761" name="Black Swan" iconId="1090553792"/>
 <propertyModEffect id="1879312763" name="White Swan" iconId="1090553792"/>
 <instantVitalEffect id="1879312831" name="Stinging Bleed - Tier 1" probabilityModProperty="268460099" stat="Health_MaxLevel">
-<vitalChange progressionID="1879289382" modifiers="268457677,268445827,268462739"/>
+<vitalChange progressionID="1879289382" modifiers="268457677,268445827,268462739" vpsMultiplier="1.8"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879312832" name="Stinging Bleed - Tier 2" probabilityModProperty="268460099" stat="Health_MaxLevel">
-<vitalChange progressionID="1879289382" modifiers="268457677,268445827,268462739"/>
+<vitalChange progressionID="1879289382" modifiers="268457677,268445827,268462739" vpsMultiplier="3.6"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879312833" name="Stinging Bleed - Tier 3" probabilityModProperty="268460099" stat="Health_MaxLevel">
-<vitalChange progressionID="1879289382" modifiers="268457677,268445827,268462739"/>
+<vitalChange progressionID="1879289382" modifiers="268457677,268445827,268462739" vpsMultiplier="4.8"/>
 </instantVitalEffect>
 <effect id="1879312973" name="Call Jajax" description="key:620951357:181298206"/>
 <propertyModEffect id="1879313693" name="Little Tundra Cub" iconId="1090553792"/>
@@ -25283,7 +25283,7 @@
 <propertyModEffect id="1879314474" name="Cave-claw" iconId="1090553792"/>
 <effect id="1879314519" name="Gondorian Treasure Cache"/>
 <instantVitalEffect id="1879314527" name="Bolster Courage" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268444873,268448151,268448537,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268444873,268448151,268448537,268462699" vpsMultiplier="28.6"/>
 </instantVitalEffect>
 <comboEffect id="1879314528" name="DNT">
 <present id="1879285093" name="Resonant Piercing Cry"/>
@@ -25292,7 +25292,7 @@
 <toExamine id="1879173086" name="Raise the Spirit"/>
 </comboEffect>
 <instantVitalEffect id="1879314529" name="Raise the Spirit" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268444867,268448151,268448537,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268444867,268448151,268448537,268462699" vpsMultiplier="6.6"/>
 </instantVitalEffect>
 <comboEffect id="1879314530" name="DNT">
 <present id="1879285093" name="Resonant Piercing Cry"/>
@@ -25416,10 +25416,10 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <instantVitalEffect id="1879315595" name="Nature's Mend" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268459997,268441250,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268459997,268441250,268448151,268462699" vpsMultiplier="23.166"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879315602" name="Encouraging Roar" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268463186,268441250,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268463186,268441250,268448151,268462699" vpsMultiplier="26.1294"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879315604" name="Encouraging Roar - Tier 3" iconId="1091940904" duration="3.0" pulseCount="5" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268448151"/>
@@ -25984,7 +25984,7 @@
 <specialEffect label="key:620955922:106251889"/>
 </propertyModEffect>
 <instantVitalEffect id="1879318385" name="Rejuvenating Bellow" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268441250,268448151,268462707"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268441250,268448151,268462707" vpsMultiplier="33.12"/>
 </instantVitalEffect>
 <procEffect id="1879318388" name="DNT - Karma" appliedDescription="key:620955925:54354734" iconId="1091718774" skillTypes="35" procProbability="0.2"/>
 <effect id="1879318550" name="DNT - Vexation" description="key:620956027:181298206"/>
@@ -30026,7 +30026,7 @@
 <overTimeChange progressionID="1879180916" modifiers="268437688"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879368081" name="Hero's Strike" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268459150,268448151,268448537,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268459150,268448151,268448537,268462699" vpsMultiplier="6.8"/>
 </instantVitalEffect>
 <genesis id="1879368082" name="Oliver the Hedgehog" description="key:621010041:181298206" appliedDescription="key:621010041:54354734" summonDuration="290.0">
 <summoned id="1879368084" name="Oliver[mn]"/>
@@ -30054,10 +30054,10 @@
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268445092,268454044,268463653,268460619"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879368279" name="Self-motivation" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268441250,268457942,268445667,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268441250,268457942,268445667,268448151,268462699" vpsMultiplier="72.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879368281" name="Wizard's Frost: Istari Healing" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.05" modifiers="268441250,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.05" modifiers="268441250,268448151,268462699" vpsMultiplier="24.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879368547" name="DNT - Hasten" iconId="1090519170"/>
 <propertyModEffect id="1879368608" name="Mounted" iconId="1090519170">
@@ -30113,7 +30113,7 @@
 <effect id="1879369054" name="DNT - Oh... Excuse me"/>
 <propertyModEffect id="1879369179" name="Rain-cloud" iconId="1090553792"/>
 <instantVitalEffect id="1879369209" name="Chord of Our Salvation" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268459413,268448151,268448537,268462707"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268459413,268448151,268448537,268462707" vpsMultiplier="1.725"/>
 </instantVitalEffect>
 <effect id="1879369302" name="Call Tuhal" description="key:621010861:181298206"/>
 <vitalOverTimeEffect id="1879369413" name="Precise Blow - Light" iconId="1091471262" duration="3.0" pulseCount="6" stat="Health_MaxLevel" damageType="64">
@@ -30139,7 +30139,7 @@
 </propertyModEffect>
 <effect id="1879369603" name="DNT Summon Spall" description="key:621011102:181298206"/>
 <instantVitalEffect id="1879369625" name="Wizard's Fire: Istari Power" stat="Power_MaxLevel">
-<vitalChange progressionID="1879457130" variance="0.3"/>
+<vitalChange progressionID="1879457130" variance="0.3" vpsMultiplier="1.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879369636" name="Penetrating Shot" iconId="1090553933" duration="10.0" pulseCount="1">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
@@ -30169,10 +30169,10 @@
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268457569,268444108,268460590,268451980"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879370018" name="One Trap" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" variance="0.05" modifiers="268445385,268451980,268460590,268462735"/>
+<vitalChange progressionID="1879367855" variance="0.05" modifiers="268445385,268451980,268460590,268462735" vpsMultiplier="8.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879370019" name="Trap Damage" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" variance="0.1" modifiers="268451980,268460590,268462735"/>
+<vitalChange progressionID="1879367855" variance="0.1" modifiers="268451980,268460590,268462735" vpsMultiplier="8.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879370125" name="Large Shield Spikes" iconId="1090540518" duration="2100.0">
 <stat name="Item_Guardian_ShieldSpikes_Damage" constant="8.0"/>
@@ -31739,7 +31739,7 @@
 <stat name="Skill_CritChanceMod_MeleeSkills" descriptionOverride="key:621019322:106251889" constant="20.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879386424" name="Mischevious Glee" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268438365,268436764,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268438365,268436764,268462699" vpsMultiplier="45.0"/>
 </instantVitalEffect>
 <reactiveVitalEffect id="1879386539" name="Disperse Shadow" description="key:620796679:181298206" appliedDescription="key:620796679:54354734" iconId="1091399282" damageTypes="32">
 <defender>
@@ -35226,7 +35226,7 @@
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.7"/>
 </propertyModEffect>
 <instantVitalEffect id="1879407125" name="Scourging Blow Bleed Bonus" description="key:621033648:181298206" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" modifiers="268462739"/>
+<vitalChange progressionID="1879367855" modifiers="268462739" vpsMultiplier="12.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879407130" name="Mounted" iconId="1090519170">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621033655:106251889" constant="68.0"/>
@@ -37243,7 +37243,7 @@
 <effect id="1879418943" name="Launching Fireworks" appliedDescription="key:621042917:54354734"/>
 <effect id="1879418944" name="Launching Fireworks" appliedDescription="key:621042919:54354734"/>
 <instantVitalEffect id="1879419274" name="Latent Light - Tier 1" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" modifiers="268445385,268462641,268462742,268462735"/>
+<vitalChange progressionID="1879367855" modifiers="268445385,268462641,268462742,268462735" vpsMultiplier="4.28"/>
 </instantVitalEffect>
 <effect id="1879419313" name="DNT - Remove Defeat Immunity"/>
 <genesis id="1879419400" name=".." appliedDescription="key:621043279:54354734" summonDuration="300.0">
@@ -37444,7 +37444,7 @@
 <specialEffect label="key:620953961:106251889"/>
 </propertyModEffect>
 <instantVitalEffect id="1879420538" name="Weather Blows Heal" stat="Health_MaxLevel" multiplicative="true">
-<vitalChange constant="0.35"/>
+<vitalChange constant="0.35" vpsMultiplier="0.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879420603" name="Attack Duration Debuff" iconId="1091830133" duration="10.0" probabilityModProperty="268462941"/>
 <propertyModEffect id="1879420615" name="Mounted" iconId="1090519170">
@@ -37628,7 +37628,7 @@
 <effect id="1879422258" name="Like a Stinging Nettle"/>
 </procEffect>
 <instantVitalEffect id="1879422258" name="Like a Stinging Nettle" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" modifiers="268445385,268462641,268462742,268462735"/>
+<vitalChange progressionID="1879367855" modifiers="268445385,268462641,268462742,268462735" vpsMultiplier="1.5"/>
 </instantVitalEffect>
 <effect id="1879422264" name="Chilling Presence" appliedDescription="key:621045046:54354734" iconId="1091400591"/>
 <propertyModEffect id="1879422304" iconId="1090553792"/>
@@ -38054,10 +38054,10 @@
 <position region="2" longitude="-111.2436" latitude="-49.50762"/>
 </recallEffect>
 <instantVitalEffect id="1879430293" name="Damage Burst" stat="Health_MaxLevel">
-<vitalChange progressionID="1879244555" variance="0.2" modifiers="268438450,268447415,268457113,268462735"/>
+<vitalChange progressionID="1879244555" variance="0.2" modifiers="268438450,268447415,268457113,268462735" vpsMultiplier="0.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879430294" name="Minor Inspiration" stat="Health_MaxLevel">
-<vitalChange progressionID="1879446691" variance="0.1" modifiers="268438449,268447415,268457114,268462699"/>
+<vitalChange progressionID="1879446691" variance="0.1" modifiers="268438449,268447415,268457114,268462699" vpsMultiplier="0.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879430304" name="Bane of the Brawler" appliedDescription="key:621050775:54354734" iconId="1091475965" duration="30.0" expiresInRealTime="true">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="300.0"/>
@@ -39771,7 +39771,7 @@
 <effect id="1879452839" name="Summon Wight Archers"/>
 <propertyModEffect id="1879452873" name="DNT - Cry of the Chorus Resets Anthems" iconId="1090519170"/>
 <instantVitalEffect id="1879452875" name="Perfect Ballad" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268441250,268460892,268464606,268448151,268448537,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268441250,268460892,268464606,268448151,268448537,268462699" vpsMultiplier="5.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879452876" name="DNT - Ballad CotC Cooldown Mod" iconId="1090519170"/>
 <propertyModEffect id="1879452878" name="Enervating Toxins" appliedDescription="key:621068634:54354734" iconId="1091474612" duration="10.0">
@@ -40574,13 +40574,13 @@
 </hotspot>
 </genesis>
 <instantVitalEffect id="1879457308" name="Power Restore II" stat="Power_MaxLevel">
-<vitalChange progressionID="1879457127"/>
+<vitalChange progressionID="1879457127" vpsMultiplier="1.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879457309" name="Power Restore VII" stat="Power_MaxLevel">
-<vitalChange progressionID="1879457137"/>
+<vitalChange progressionID="1879457137" vpsMultiplier="1.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879457310" name="Power Restore III" stat="Power_MaxLevel">
-<vitalChange progressionID="1879457130"/>
+<vitalChange progressionID="1879457130" vpsMultiplier="1.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879457315" name="+5 Hope Token: Give Undying Hope" appliedDescription="key:621071556:54354734" iconId="1091526109" duration="2400.0">
 <stat name="HOPE" constant="5.0"/>
@@ -40872,7 +40872,7 @@
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268445073,268454044,268463656,268460619"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879457785" name="Celebration of Skill" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268457675,268463744,268445076,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268457675,268463744,268445076,268462699" vpsMultiplier="24.0"/>
 </instantVitalEffect>
 <effect id="1879457786" name="DNT - Reduce Mastery cooldown"/>
 <effect id="1879457789" name="DNT - Reduce Mastery cooldown"/>
@@ -40971,10 +40971,10 @@
 <toAddIfPresent id="1879457899" name="Unseen Strike"/>
 </comboEffect>
 <instantVitalEffect id="1879457899" name="Unseen Strike" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" modifiers="268445385,268454044,268464651,268462736"/>
+<vitalChange progressionID="1879367855" modifiers="268445385,268454044,268464651,268462736" vpsMultiplier="4.4"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879457900" name="Unseen Strike" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" modifiers="268445385,268445092,268454044,268464651,268462736"/>
+<vitalChange progressionID="1879367855" modifiers="268445385,268445092,268454044,268464651,268462736" vpsMultiplier="5.6"/>
 </instantVitalEffect>
 <comboEffect id="1879457901" name="DNT">
 <present id="1879368214" name="Desolation - Light"/>
@@ -40993,19 +40993,19 @@
 <toAddIfPresent id="1879457907" name="Seared Flesh"/>
 </comboEffect>
 <instantVitalEffect id="1879457905" name="Unseen Strike" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" modifiers="268445385,268454044,268464651,268462736"/>
+<vitalChange progressionID="1879367855" modifiers="268445385,268454044,268464651,268462736" vpsMultiplier="3.2"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879457906" name="Seared Flesh" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" modifiers="268445383,268445827,268454044,268457677,268464656,268462739"/>
+<vitalChange progressionID="1879367855" modifiers="268445383,268445827,268454044,268457677,268464656,268462739" vpsMultiplier="9.9"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879457907" name="Seared Flesh" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" modifiers="268445383,268445827,268454044,268457677,268464656,268462739"/>
+<vitalChange progressionID="1879367855" modifiers="268445383,268445827,268454044,268457677,268464656,268462739" vpsMultiplier="13.2"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879457908" name="Seared Flesh" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" modifiers="268445383,268445827,268454044,268457677,268464656,268462739"/>
+<vitalChange progressionID="1879367855" modifiers="268445383,268445827,268454044,268457677,268464656,268462739" vpsMultiplier="15.4"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879457909" name="Unseen Strike" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" modifiers="268445385,268454044,268464651,268462736"/>
+<vitalChange progressionID="1879367855" modifiers="268445385,268454044,268464651,268462736" vpsMultiplier="8.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879457917" name="DNT One After Another" iconId="1091804878"/>
 <procEffect id="1879457918" name="Taking Advantage" descriptionOverride="key:621071992:62991877" iconId="1091830129" skillTypes="36" procProbability="0.15" cooldown="1.0">
@@ -41015,7 +41015,7 @@
 <effect id="1879231590" name="Close Call"/>
 </procEffect>
 <instantVitalEffect id="1879457920" name="Redirected Strike" stat="Health_MaxLevel">
-<vitalChange progressionID="1879367855" modifiers="268462735"/>
+<vitalChange progressionID="1879367855" modifiers="268462735" vpsMultiplier="16.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879458116" name="Muscle Memory" iconId="1090519170"/>
 <propertyModEffect id="1879458163" iconId="1090553792"/>
@@ -41083,7 +41083,7 @@
 <toExamine id="1879458468" name="Desperate Shield"/>
 </comboEffect>
 <instantVitalEffect id="1879458468" name="Desperate Shield" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268464658,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268464658,268462699" vpsMultiplier="18.0"/>
 </instantVitalEffect>
 <effect id="1879458469" name="Threat Decrease" description="key:620981259:181298206" appliedDescription="key:620981259:54354734"/>
 <propertyModEffect id="1879458574" name="Standing Alone" appliedDescription="key:621072473:54354734" iconId="1092811848">
@@ -41095,7 +41095,7 @@
 <stat name="Effect_2H_Bonus_Mod" descriptionOverride="-" constant="20.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879458609" name="Press Onward" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268459430,268460595,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268459430,268460595,268462699" vpsMultiplier="60.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879458640" name="Cry of Fury" iconId="1092811846" duration="15.0">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621072527:106251889" constant="0.95"/>
@@ -41135,7 +41135,7 @@
 <stat name="OUTGOING_HEALING_PERCENTAGE" constant="8.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879458691" name="Focus Heal" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" modifiers="268443826,268448151,268458044,268462707"/>
+<vitalChange progressionID="1879368264" modifiers="268443826,268448151,268458044,268462707" vpsMultiplier="4.44"/>
 </instantVitalEffect>
 <tieredEffect id="1879458695" name="DNT - Inspiriting">
 <tierUp id="1879458645" name="Inspirited - 1"/>
@@ -41156,10 +41156,10 @@
 <overTimeChange progressionID="1879368264" variance="0.2" modifiers="268441250,268462738,268443825,268448151"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879458719" name="Gift of Spirit" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.15" modifiers="268443825,268441250,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.15" modifiers="268443825,268441250,268448151,268462699" vpsMultiplier="42.18"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879458720" name="Time of Need" stat="Power_MaxLevel">
-<vitalChange progressionID="1879458486"/>
+<vitalChange progressionID="1879458486" vpsMultiplier="1.5"/>
 </instantVitalEffect>
 <propertyModEffect id="1879458723" name="DNT - Personal Inspire" iconId="1090519170">
 <specialEffect label="key:621072607:106251889"/>
@@ -41303,10 +41303,10 @@
 <propertyModEffect id="1879459250" name="Blighted Bite" appliedDescription="key:621073088:54354734" iconId="1090522395" duration="10.0" pulseCount="1"/>
 <propertyModEffect id="1879459251" name="Blighted Bite" appliedDescription="key:621073090:54354734" iconId="1090522395" duration="10.0" pulseCount="1"/>
 <instantVitalEffect id="1879459342" name="Coda Vigour" stat="Power_MaxLevel">
-<vitalChange progressionID="1879457130"/>
+<vitalChange progressionID="1879457130" vpsMultiplier="1.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879459349" name="Regenerative Ward" stat="Power_MaxLevel">
-<vitalChange progressionID="1879457135"/>
+<vitalChange progressionID="1879457135" vpsMultiplier="1.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879459350" name="Test Power Restore" stat="Power_MaxLevel">
 <vitalChange progressionID="1879459367" modifiers="268448151"/>
@@ -41399,7 +41399,7 @@
 <summoned id="1879458946" name="Waterspout[e]"/>
 </genesis>
 <instantVitalEffect id="1879460995" name="Bracing Attack" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268445469,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268445469,268462699" vpsMultiplier="50.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879461075" name="Noble Battle" appliedDescription="key:621074095:54354734" iconId="1090644695" duration="5.0">
 <stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621074095:106251889" constant="0.95"/>
@@ -41481,7 +41481,7 @@
 <summoned id="1879461366" name="Waterspout[e]"/>
 </genesis>
 <instantVitalEffect id="1879461532" name="Powerful Sustenance" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268458829,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268458829,268448151,268462699" vpsMultiplier="38.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879461533" name="Charged 2" iconId="1092282930" duration="10.0">
 <stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
@@ -41522,7 +41522,7 @@
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="15.000001"/>
 </propertyModEffect>
 <instantVitalEffect id="1879461568" name="Chain Reaction" stat="Power_MaxLevel">
-<vitalChange progressionID="1879262616" variance="0.1"/>
+<vitalChange progressionID="1879262616" variance="0.1" vpsMultiplier="1.0"/>
 </instantVitalEffect>
 <procEffect id="1879461569" name="Chain Reaction" appliedDescription="key:621074419:54354734" iconId="1090552382" skillTypes="24" procProbability="0.01">
 <effect id="1879461568" name="Chain Reaction"/>
@@ -41609,10 +41609,10 @@
 <position region="1" longitude="-29.328691" latitude="-64.91648"/>
 </recallEffect>
 <instantVitalEffect id="1879461725" name="Swift Power" stat="Power_MaxLevel">
-<vitalChange progressionID="1879457127" modifiers="268447974"/>
+<vitalChange progressionID="1879457127" modifiers="268447974" vpsMultiplier="1.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879461726" name="Major Ballad - Resonance" stat="Power_MaxLevel">
-<vitalChange progressionID="1879457144" modifiers="268458217"/>
+<vitalChange progressionID="1879457144" modifiers="268458217" vpsMultiplier="0.75"/>
 </instantVitalEffect>
 <effect id="1879461933" name="DNT - Karsija Thrown Bile"/>
 <propertyModEffect id="1879461952" name="Mounted" iconId="1090519170">
@@ -42908,7 +42908,7 @@
 <effect id="1879469755" name="DNT - Remove Poison, Disease, Wound, or Fear"/>
 </fellowshipEffect>
 <instantVitalEffect id="1879467661" name="Defensive Swordplay - Average" probabilityModProperty="268464067" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268441250,268464215,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268441250,268464215,268462699" vpsMultiplier="30.0"/>
 </instantVitalEffect>
 <fellowshipEffect id="1879467662" name="The West Wind" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="10.0">
 <effect id="1879467357" name="The West Wind: To Arms"/>
@@ -42920,7 +42920,7 @@
 <effect id="1879467333" name="Banners of War"/>
 </fellowshipEffect>
 <instantVitalEffect id="1879467666" name="Motivating Song" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268441250,268464109,268462707"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268441250,268464109,268462707" vpsMultiplier="20.0"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879467667" name="Confident Flèche" iconId="1092830898" duration="1.0" pulseCount="2" probabilityModProperty="268464095" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268464094"/>
@@ -42944,13 +42944,13 @@
 <overTimeChange progressionID="1879367855" modifiers="268462739,268464094"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879467676" name="Dramatic Flourish - Heal" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268441250,268464215,268462707"/>
+<vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268441250,268464215,268462707" vpsMultiplier="12.0"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879467680" name="Confident Lunge" iconId="1092825108" duration="1.0" pulseCount="2" probabilityModProperty="268464095" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268464094"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879467681" name="Shanty Power" stat="Power_MaxLevel">
-<vitalChange progressionID="1879457144" variance="0.3" modifiers="268448151"/>
+<vitalChange progressionID="1879457144" variance="0.3" modifiers="268448151" vpsMultiplier="1.0"/>
 </instantVitalEffect>
 <fellowshipEffect id="1879467682" name="Motivating Song" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="40.0">
 <effect id="1879073072" name="Motivated"/>
@@ -42959,14 +42959,14 @@
 <effect id="1879467686" name="Defensive Swordplay - Greater"/>
 </fellowshipEffect>
 <instantVitalEffect id="1879467684" name="Bottle of Spirits" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268441250,268464223,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268441250,268464223,268462699" vpsMultiplier="75.0"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879467685" name="Scrap of Melody" iconId="1092830879" duration="3.0" pulseCount="3" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" modifiers="268462707,268448151,268441250,268464109"/>
 <overTimeChange progressionID="1879368264" modifiers="268462738,268448151,268464109"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879467686" name="Defensive Swordplay - Greater" probabilityModProperty="268464071" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268441250,268464215,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268441250,268464215,268462699" vpsMultiplier="40.0"/>
 </instantVitalEffect>
 <fellowshipEffect id="1879467687" name="Dramatic Flourish Buff" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="5.0">
 <effect id="1879467674" name="Imitating a Master of War"/>
@@ -43035,10 +43035,10 @@
 <toAddIfPresent id="1879468327" name="Cataclysmic Shout"/>
 </comboEffect>
 <instantVitalEffect id="1879468337" name="To Your Aid" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268464154,268441250,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268464154,268441250,268448151,268462699" vpsMultiplier="27.75"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879468338" name="Nature's Salve" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268464157,268441250,268448151,268462707"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268464157,268441250,268448151,268462707" vpsMultiplier="35.964"/>
 </instantVitalEffect>
 <effect id="1879468379" name="DNT - Tier 4 Nature's Mend Dispel"/>
 <tieredEffect id="1879468380" name="DNT - Nature's Mend">
@@ -43048,13 +43048,13 @@
 <finalTier id="1879468388" name="Nature's Mend - Tier 3"/>
 </tieredEffect>
 <instantVitalEffect id="1879468382" name="Nature's Mend - Tier 2" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268459997,268441250,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268459997,268441250,268448151,268462699" vpsMultiplier="25.974"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879468383" name="Nature's Mend - Tier 3" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268459997,268441250,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268459997,268441250,268448151,268462699" vpsMultiplier="28.08"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879468385" name="Nature's Mend - Tier 4" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268459997,268441250,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268459997,268441250,268448151,268462699" vpsMultiplier="29.484"/>
 </instantVitalEffect>
 <propertyModEffect id="1879468388" name="Nature's Mend - Tier 3" iconId="1091940921" duration="150.0">
 <specialEffect label="key:621079627:106251889"/>
@@ -43247,10 +43247,10 @@
 </fellowshipEffect>
 <propertyModEffect id="1879468902" name="DNT - Trample Block, Parry and Evade Debuff" iconId="1090519170"/>
 <instantVitalEffect id="1879468969" name="Warrior's Heart" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268443477,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268443477,268462699" vpsMultiplier="150.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879468970" name="Catch a Breath Morale Heal" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268443479,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268443479,268462699" vpsMultiplier="70.0"/>
 </instantVitalEffect>
 <comboEffect id="1879469010" name="DNT">
 <present id="1879277569" name="Disorientation"/>
@@ -43301,7 +43301,7 @@
 </fellowshipEffect>
 <effect id="1879469272" name="DNT - dispels the effects from being unbalanced"/>
 <instantVitalEffect id="1879469276" name="En Garde" stat="Power_MaxLevel">
-<vitalChange progressionID="1879457133" variance="0.3" modifiers="268448151"/>
+<vitalChange progressionID="1879457133" variance="0.3" modifiers="268448151" vpsMultiplier="1.0"/>
 </instantVitalEffect>
 <recallEffect id="1879469360" name="River Hobbit Travel to Lyndelby">
 <position region="2" longitude="-65.48695" latitude="26.519188"/>
@@ -43316,7 +43316,7 @@
 <stat name="STEALTH_LEVEL" constant="2.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879469446" name="Minor Inspiration - Fellowship" stat="Health_MaxLevel">
-<vitalChange progressionID="1879446699" variance="0.1" modifiers="268438449,268447415,268457114,268462707"/>
+<vitalChange progressionID="1879446699" variance="0.1" modifiers="268438449,268447415,268457114,268462707" vpsMultiplier="0.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879469500" name="DNT - Blue-spec Threat Effects" iconId="1090519170"/>
 <comboEffect id="1879469521" name="DNT">
@@ -43358,7 +43358,7 @@
 </hotspot>
 </genesis>
 <instantVitalEffect id="1879469824" name="Steady Traveller" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268441250,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268441250,268462699" vpsMultiplier="200.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879469825" name="Balanced Traveller" appliedDescription="key:621080690:54354734" iconId="1092815071" duration="10.0">
 <stat name="Corsair_Steady_MovementSpeed" constant="10.0"/>
@@ -43441,13 +43441,13 @@
 <effect id="1879470870" name="The Slaying of Scatha"/>
 </fellowshipEffect>
 <instantVitalEffect id="1879471146" name="Re-steady" stat="Power_MaxLevel">
-<vitalChange progressionID="1879252970" modifiers="268455680,268448151"/>
+<vitalChange progressionID="1879252970" modifiers="268455680,268448151" vpsMultiplier="3.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879471147" name="Swordplay: Anchored Thrust" iconId="1091744647" duration="10.0">
 <specialEffect label="key:621081729:106251889"/>
 </propertyModEffect>
 <instantVitalEffect id="1879471148" name="Re-steady" stat="Health_MaxLevel">
-<vitalChange progressionID="1879252970" modifiers="268455680,268448151"/>
+<vitalChange progressionID="1879252970" modifiers="268455680,268448151" vpsMultiplier="6.0"/>
 </instantVitalEffect>
 <procEffect id="1879471149" name="DNT - Crits move balance fore" descriptionOverride="key:621081734:62991877" iconId="1091509972" skillTypes="4" cooldown="1.0">
 <effect id="1879458251" name="One Fore"/>
@@ -45490,13 +45490,13 @@
 <stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.8"/>
 </propertyModEffect>
 <instantVitalEffect id="1879483906" name="Bolstering Cry" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.15" modifiers="268443825,268441250,268448151,268462707"/>
+<vitalChange progressionID="1879368264" variance="0.15" modifiers="268443825,268441250,268448151,268462707" vpsMultiplier="46.62"/>
 </instantVitalEffect>
 <propertyModEffect id="1879483907" name="DNT - To Arms reset Melee skills" iconId="1090519170"/>
 <propertyModEffect id="1879483910" name="DNT - In Harms Way applies Song Brother's Call" iconId="1090519170"/>
 <effect id="1879483914" name="DNT - Dispel temporary buff"/>
 <instantVitalEffect id="1879483915" name="Shield of the Dúnedain" probabilityModProperty="268464620" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.15" modifiers="268441250,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.15" modifiers="268441250,268448151,268462699" vpsMultiplier="19.98"/>
 </instantVitalEffect>
 <propertyModEffect id="1879483916" name="DNT - Dev Blow increases Routing Cry damage" iconId="1090519170"/>
 <effect id="1879483918" name="DNT" iconId="1090616965"/>
@@ -46155,7 +46155,7 @@
 <stat name="Loremaster_Pet_SotW_Rage_CritChance" constant="15.000001"/>
 </propertyModEffect>
 <instantVitalEffect id="1879489065" name="Hope" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.05" modifiers="268441250,268448537,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.05" modifiers="268441250,268448537,268448151,268462699" vpsMultiplier="20.25"/>
 </instantVitalEffect>
 <propertyModEffect id="1879489067" name="DNT - SotW: Rage" iconId="1091829933" duration="20.0">
 <specialEffect label="key:621095125:106251889"/>
@@ -46357,7 +46357,7 @@
 <specialEffect label="key:621095697:106251889"/>
 </propertyModEffect>
 <instantVitalEffect id="1879489694" name="Flanked Strike" stat="Health_MaxLevel">
-<vitalChange progressionID="1879383395" modifiers="268445386,268464883,268462736"/>
+<vitalChange progressionID="1879383395" modifiers="268445386,268464883,268462736" vpsMultiplier="13.0"/>
 </instantVitalEffect>
 <procEffect id="1879489696" name="Quickening Flame" appliedDescription="key:621095699:54354734" iconId="1090552382" skillTypes="24" cooldown="1.0">
 <effect id="1879489680" name="DNT - Quickened Flame"/>
@@ -46724,7 +46724,7 @@
 </genesis>
 <effect id="1879490479" name="Ring of Fire" iconId="1092967970" duration="2.0"/>
 <instantVitalEffect id="1879490484" name="Shaken" stat="Health_MaxLevel">
-<vitalChange progressionID="1879383395" modifiers="268444731,268444732,268462736"/>
+<vitalChange progressionID="1879383395" modifiers="268444731,268444732,268462736" vpsMultiplier="30.0"/>
 </instantVitalEffect>
 <comboEffect id="1879490486" name="DNT">
 <toAddIfPresent id="1879490484" name="Shaken"/>
@@ -47146,7 +47146,7 @@
 <effect id="1879238164" name="Water-lore"/>
 </fellowshipEffect>
 <instantVitalEffect id="1879491566" name="Hope" stat="Health_MaxLevel">
-<vitalChange progressionID="1879368264" variance="0.05" modifiers="268441250,268448151,268462699"/>
+<vitalChange progressionID="1879368264" variance="0.05" modifiers="268441250,268448151,268462699" vpsMultiplier="30.375"/>
 </instantVitalEffect>
 <effect id="1879491579" name="DNT - Call to the Valar"/>
 <effect id="1879491580" name="DNT - Call to the Valar"/>
