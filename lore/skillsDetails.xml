@@ -1912,8 +1912,8 @@
 </details>
 <details id="1879060758" name="Power of Knowledge" actionDurationContribution="1.0" channelingDuration="5.5" cooldown="5.5" flags="101" displayTypes="3">
 <geometry maxRange="30.0" maxRangeMods="268446098,268462705"/>
-<effect id="1879369513" name="Power of Knowledge" type="TOGGLE"/>
-<effect id="1879369512" name="Power of Knowledge" type="USER_TOGGLE"/>
+<effect id="1879369513" name="Power of Knowledge" type="TOGGLE" implement="4"/>
+<effect id="1879369512" name="Power of Knowledge" type="USER_TOGGLE" implement="1"/>
 <powerCost mods="268436867,268442739"/>
 <attack damageQualifier="2" damageModifierMods="268445384,268444731,268462735" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
 </details>
@@ -2387,7 +2387,7 @@
 </details>
 <details id="1879064150" name="Revealing Mark" actionDurationContribution="1.5" flags="101" displayTypes="8">
 <geometry maxRange="40.0" maxRangeMods="268446098,268462705"/>
-<effect id="1879391329" name="Revealing Mark" type="TOGGLE"/>
+<effect id="1879391329" name="Revealing Mark" type="TOGGLE" implement="1"/>
 <powerCost pointsProgression="1879262616" mods="268442739"/>
 <attack damageQualifier="2" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
 </details>
@@ -2553,9 +2553,9 @@
 </details>
 <details id="1879064246" name="Inner Flame" actionDurationContribution="1.0" channelingDuration="3.5" cooldown="3.5" flags="37" displayTypes="2,10">
 <geometry maxRange="40.0" maxRangeMods="268446098,268462703"/>
-<effect id="1879173679" name="Inner Flame" type="TOGGLE"/>
-<effect id="1879197531" name="Inner Flame" type="TOGGLE"/>
-<effect id="1879221737" name="Inner Flame" type="USER_TOGGLE"/>
+<effect id="1879173679" name="Inner Flame" type="TOGGLE" implement="1"/>
+<effect id="1879197531" name="Inner Flame" type="TOGGLE" implement="1"/>
+<effect id="1879221737" name="Inner Flame" type="USER_TOGGLE" implement="1"/>
 <powerCost pointsProgression="1879262620" mods="268440386,268442739"/>
 <powerCostPerSecond pointsProgression="1879262623"/>
 <attack damageQualifier="2" damageModifierMods="268443453,268462699" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
@@ -6508,8 +6508,8 @@
 </details>
 <details id="1879094936" name="Timeless Echoes of Battle" actionDurationContribution="0.1" flags="101" resistCategory="16">
 <geometry maxRange="30.0" maxRangeMods="268446098,268462705"/>
-<effect id="1879096323" name="Timeless Echoes of Battle" type="TOGGLE"/>
-<effect id="1879173005" name="Timeless Echoes of Battle" type="TOGGLE"/>
+<effect id="1879096323" name="Timeless Echoes of Battle" type="TOGGLE" implement="4"/>
+<effect id="1879173005" name="Timeless Echoes of Battle" type="TOGGLE" implement="4"/>
 <powerCost pointsProgression="1879262616" mods="268442739"/>
 <powerCostPerSecond points="1.0"/>
 <attack damageQualifier="2" damageModifier="0.0" damageModifierMods="268458051,268462735" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
@@ -9680,7 +9680,7 @@
 </details>
 <details id="1879107949" name="Smouldering Wrath" actionDurationContribution="0.1" channelingDuration="1.0" cooldown="1.0" flags="101" displayTypes="2">
 <geometry maxRange="30.0" maxRangeMods="268446098,268462705"/>
-<effect id="1879232629" name="Smouldering Wrath" type="TOGGLE"/>
+<effect id="1879232629" name="Smouldering Wrath" type="TOGGLE" implement="4"/>
 <powerCost pointsProgression="1879262618" mods="268443433,268459555,268445875,268442739"/>
 <powerCostPerSecond pointsProgression="1879262627"/>
 <pip type="4" towardHome="0" changePerInterval="1" secondsPerPipChange="1.0"/>
@@ -9823,11 +9823,11 @@
 <attack damageQualifier="1" damageModifierMods="268457682,268463649,268462735" damageContributionMultiplier="1.4894218" implementContributionMultiplier="1.4894218" flags="2"/>
 </details>
 <details id="1879109284" name="Rousing Words" actionDurationContribution="0.6" channelingDuration="4.5" cooldown="4.5" flags="37" displayTypes="10">
-<effect id="1879109305" name="Rousing Words" type="TOGGLE"/>
-<effect id="1879148080" name="Channeled HoT attunement growth" type="TOGGLE"/>
-<effect id="1879110750" name="Rousing Words - Less threat" type="USER_TOGGLE"/>
-<effect id="1879148080" name="Channeled HoT attunement growth" type="USER_TOGGLE"/>
-<effect id="1879222541" name="Improved Rousing Words" type="USER_TOGGLE"/>
+<effect id="1879109305" name="Rousing Words" type="TOGGLE" implement="1"/>
+<effect id="1879148080" name="Channeled HoT attunement growth" type="TOGGLE" implement="1"/>
+<effect id="1879110750" name="Rousing Words - Less threat" type="USER_TOGGLE" implement="1"/>
+<effect id="1879148080" name="Channeled HoT attunement growth" type="USER_TOGGLE" implement="1"/>
+<effect id="1879222541" name="Improved Rousing Words" type="USER_TOGGLE" implement="1"/>
 <powerCost pointsProgression="1879262633" mods="268443430,268442739"/>
 <powerCostPerSecond pointsProgression="1879262618"/>
 <pip type="4" change="1" towardHome="0"/>
@@ -11027,7 +11027,7 @@
 </attack>
 </details>
 <details id="1879113735" name="Earthborn: Strength of the Earth" actionDurationContribution="0.25" flags="5" displayTypes="10">
-<effect id="1879218025" name="Strength of the Earth" type="USER_TOGGLE"/>
+<effect id="1879218025" name="Strength of the Earth" type="USER_TOGGLE" implement="1"/>
 <effect id="1879089879" name="Strength of the Earth" type="USER"/>
 <effect id="1879218025" name="Strength of the Earth" type="USER"/>
 <powerCost pointsProgression="1879262627" mods="268442739"/>
@@ -26098,9 +26098,9 @@
 </details>
 <details id="1879218229" name="Echoes of Battle" actionDurationContribution="0.1" flags="101" resistCategory="16">
 <geometry maxRange="30.0" maxRangeMods="268446098,268462705"/>
-<effect id="1879095698" name="Echoes of Battle" type="TOGGLE"/>
-<effect id="1879272214" name="Echoes of Battle - Critical Defence" type="TOGGLE"/>
-<effect id="1879173006" name="Echoes of Battle" type="TOGGLE"/>
+<effect id="1879095698" name="Echoes of Battle" type="TOGGLE" implement="4"/>
+<effect id="1879272214" name="Echoes of Battle - Critical Defence" type="TOGGLE" implement="4"/>
+<effect id="1879173006" name="Echoes of Battle" type="TOGGLE" implement="4"/>
 <powerCost pointsProgression="1879262616" mods="268442739"/>
 <powerCostPerSecond points="1.0"/>
 <attack damageQualifier="2" damageModifier="0.0" damageModifierMods="268458051,268462735" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
@@ -26337,10 +26337,10 @@
 </attack>
 </details>
 <details id="1879219450" name="Improved Rousing Words" actionDurationContribution="0.6" channelingDuration="4.5" cooldown="4.5" flags="37" displayTypes="10">
-<effect id="1879109305" name="Rousing Words" type="TOGGLE"/>
-<effect id="1879110750" name="Rousing Words - Less threat" type="USER_TOGGLE"/>
-<effect id="1879148080" name="Channeled HoT attunement growth" type="USER_TOGGLE"/>
-<effect id="1879222541" name="Improved Rousing Words" type="USER_TOGGLE"/>
+<effect id="1879109305" name="Rousing Words" type="TOGGLE" implement="1"/>
+<effect id="1879110750" name="Rousing Words - Less threat" type="USER_TOGGLE" implement="1"/>
+<effect id="1879148080" name="Channeled HoT attunement growth" type="USER_TOGGLE" implement="1"/>
+<effect id="1879222541" name="Improved Rousing Words" type="USER_TOGGLE" implement="1"/>
 <powerCost pointsProgression="1879262633" mods="268443430,268442739"/>
 <powerCostPerSecond pointsProgression="1879262618"/>
 <pip type="4" change="1" requiredMinValue="13" towardHome="0"/>
@@ -30082,8 +30082,8 @@
 </details>
 <details id="1879238096" name="Power of Knowledge" actionDurationContribution="1.0" channelingDuration="5.5" cooldown="5.5" flags="101" displayTypes="3">
 <geometry maxRange="30.0" maxRangeMods="268446098,268462705"/>
-<effect id="1879369513" name="Power of Knowledge" type="TOGGLE"/>
-<effect id="1879369512" name="Power of Knowledge" type="USER_TOGGLE"/>
+<effect id="1879369513" name="Power of Knowledge" type="TOGGLE" implement="4"/>
+<effect id="1879369512" name="Power of Knowledge" type="USER_TOGGLE" implement="1"/>
 <powerCost mods="268436867,268442739"/>
 <attack damageQualifier="2" damageModifierMods="268445384,268444731,268462735" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
 </details>
@@ -33146,7 +33146,7 @@
 </details>
 <details id="1879250759" name="Sign of Power: Inspiration" actionDurationContribution="0.5" flags="100">
 <geometry maxRange="40.0" maxRangeMods="268441483"/>
-<effect id="1879250754" name="Sign of Power: Inspiration" type="TOGGLE"/>
+<effect id="1879250754" name="Sign of Power: Inspiration" type="TOGGLE" implement="4"/>
 <powerCost pointsProgression="1879247170" mods="268455469,268442739,268455689,268456568"/>
 <powerCostPerSecond points="8.0"/>
 <attack damageQualifier="2" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
@@ -37659,7 +37659,7 @@
 </details>
 <details id="1879277925" name="Smouldering Wrath" actionDurationContribution="0.1" channelingDuration="2.5" cooldown="2.5" flags="101" displayTypes="2">
 <geometry maxRange="30.0" maxRangeMods="268446098,268462705"/>
-<effect id="1879232632" name="Smouldering Wrath" type="TOGGLE"/>
+<effect id="1879232632" name="Smouldering Wrath" type="TOGGLE" implement="4"/>
 <powerCost pointsProgression="1879262618" mods="268443433,268459555,268445875,268442739"/>
 <powerCostPerSecond pointsProgression="1879262627"/>
 <pip type="4" towardHome="0" changePerInterval="1" secondsPerPipChange="0.5"/>
@@ -39321,7 +39321,7 @@
 <attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
 </details>
 <details id="1879311289" name="Relentless Maul" actionDurationContribution="0.5" channelingDuration="8.5" cooldown="8.5" flags="41" displayTypes="26">
-<effect id="1879315021" name="Relentless Maul" type="TOGGLE"/>
+<effect id="1879315021" name="Relentless Maul" type="TOGGLE" implement="2"/>
 <effect id="1879321729" name="Relentless Maul" type="USER_TOGGLE"/>
 <effect id="1879320043" name="DNT - IA Give Back" type="USER"/>
 <powerCost consumesAll="true" mods="268452323,268438687,268440385,268442739"/>
@@ -40183,7 +40183,7 @@
 <attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
 </details>
 <details id="1879316995" name="Brutal Maul" actionDurationContribution="0.5" channelingDuration="4.25" cooldown="4.25" flags="41" displayTypes="26">
-<effect id="1879316960" name="Relentless Maul" type="TOGGLE"/>
+<effect id="1879316960" name="Relentless Maul" type="TOGGLE" implement="2"/>
 <effect id="1879321729" name="Relentless Maul" type="USER_TOGGLE"/>
 <effect id="1879320043" name="DNT - IA Give Back" type="USER"/>
 <powerCost consumesAll="true" mods="268452323,268438687,268440385,268442739"/>
@@ -40208,7 +40208,7 @@
 </attack>
 </details>
 <details id="1879317252" name="Menacing Maul" actionDurationContribution="0.5" channelingDuration="8.5" cooldown="8.5" flags="41" displayTypes="26">
-<effect id="1879317248" name="Relentless Maul" type="TOGGLE"/>
+<effect id="1879317248" name="Relentless Maul" type="TOGGLE" implement="2"/>
 <effect id="1879321729" name="Relentless Maul" type="USER_TOGGLE"/>
 <effect id="1879320043" name="DNT - IA Give Back" type="USER"/>
 <powerCost consumesAll="true" mods="268452323,268438687,268440385,268442739"/>
@@ -54969,7 +54969,7 @@
 </details>
 <details id="1879422473" name="Pummel" actionDurationContribution="1.0" channelingDuration="3.0" cooldown="3.0" flags="105" displayTypes="13,29,31">
 <geometry maxRange="4.0" maxRangeMods="268462802"/>
-<effect id="1879447649" name="Pummel" type="TOGGLE"/>
+<effect id="1879447649" name="Pummel" type="TOGGLE" implement="2"/>
 <effect id="1879459111" name="DNT" type="USER"/>
 <effect id="1879421335" name="DNT - Dispel Builder Flags" type="USER"/>
 <powerCost pointsProgression="1879262631" mods="268438687,268442739"/>
@@ -65166,7 +65166,7 @@
 </details>
 <details id="1879484029" name="Power of Destruction" actionDurationContribution="1.0" channelingDuration="5.5" cooldown="5.5" flags="101" displayTypes="3">
 <geometry maxRange="30.0" maxRangeMods="268446098,268462705"/>
-<effect id="1879484021" name="Power of Destruction" type="TOGGLE"/>
+<effect id="1879484021" name="Power of Destruction" type="TOGGLE" implement="4"/>
 <effect id="1879484027" name="Power of Destruction" type="USER_TOGGLE"/>
 <powerCost mods="268436867,268442739"/>
 <attack damageQualifier="2" damageModifierMods="268445384,268444731,268462735" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
@@ -65698,9 +65698,9 @@
 </attack>
 </details>
 <details id="1879485430" name="Relentless Maul" actionDurationContribution="0.5" channelingDuration="8.5" cooldown="8.5" flags="41" displayTypes="26">
-<effect id="1879315021" name="Relentless Maul" type="TOGGLE"/>
-<effect id="1879321729" name="Relentless Maul" type="USER_TOGGLE"/>
-<effect id="1879318337" name="Aid the Assault" type="USER_TOGGLE"/>
+<effect id="1879315021" name="Relentless Maul" type="TOGGLE" implement="2"/>
+<effect id="1879321729" name="Relentless Maul" type="USER_TOGGLE" implement="1"/>
+<effect id="1879318337" name="Aid the Assault" type="USER_TOGGLE" implement="1"/>
 <effect id="1879320043" name="DNT - IA Give Back" type="USER"/>
 <powerCost consumesAll="true" mods="268452323,268438687,268440385,268442739"/>
 <pip type="26" change="-20" changeMods="268460382" requiredMinValue="20" requiredMinValueMods="268460386" towardHome="0"/>
@@ -66529,8 +66529,8 @@
 </details>
 <details id="1879489216" name="Unbreakable Bond" actionDurationContribution="1.0" flags="37" displayTypes="2,10">
 <geometry maxRange="40.0" maxRangeMods="268446098,268462703"/>
-<effect id="1879489217" name="Unbreakable Bond" type="TOGGLE"/>
-<effect id="1879490752" name="Unbreakable Bond" type="TOGGLE"/>
+<effect id="1879489217" name="Unbreakable Bond" type="TOGGLE" implement="1"/>
+<effect id="1879490752" name="Unbreakable Bond" type="TOGGLE" implement="1"/>
 <effect id="1879489218" name="Unbreakable Bond" type="USER_TOGGLE"/>
 <powerCost pointsProgression="1879262620" mods="268440386,268442739"/>
 <powerCostPerSecond pointsProgression="1879262633"/>
