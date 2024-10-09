@@ -621,7 +621,7 @@
 </propertyModEffect>
 <effect id="1879060052" name="Calenthon's Spyglass"/>
 <induceCombatState id="1879060074" name="Induce Improved Rooted" state="10" stateDuration="30.0"/>
-<instantVitalEffect id="1879060075" name="Bear Trap Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879060075" name="Bear Trap Damage" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879467544" modifiers="268451980"/>
 </instantVitalEffect>
 <propertyModEffect id="1879060118" name="Small Shield Spikes" iconId="1090540518" duration="300.0">
@@ -999,7 +999,7 @@
 <propertyModEffect id="1879070195" name="Burglar Tools" iconId="1090531555">
 <stat name="ItemSet_MeleeSkill_PowerCost" operator="SUBSTRACT" constant="6.0"/>
 </propertyModEffect>
-<instantVitalEffect id="1879070254" name="Bear Trap Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879070254" name="Bear Trap Damage" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879467544" modifiers="268451980"/>
 </instantVitalEffect>
 <fellowshipEffect id="1879070260" name="Star Glass" applyToTarget="true" range="20.0">
@@ -3020,9 +3020,9 @@
 <stat name="Resist_AdditionalPoints_Resistance_Fear" scaling="1879120048"/>
 </propertyModEffect>
 <effect id="1879098724" name="" iconId="1090519170" duration="1.0" pulseCount="1"/>
-<instantVitalEffect id="1879098806" name="Morale Damage" stat="Health_MaxLevel" multiplicative="true"/>
-<instantVitalEffect id="1879098807" name="Morale Damage" stat="Health_MaxLevel" multiplicative="true"/>
-<instantVitalEffect id="1879098808" name="Morale Damage" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879098806" name="Morale Damage" stat="Health_MaxLevel" damageType="1" multiplicative="true"/>
+<instantVitalEffect id="1879098807" name="Morale Damage" stat="Health_MaxLevel" damageType="16" multiplicative="true"/>
+<instantVitalEffect id="1879098808" name="Morale Damage" stat="Health_MaxLevel" damageType="32" multiplicative="true"/>
 <effect id="1879098828" name="Summoned Fire-wisp"/>
 <propertyModEffect id="1879098830" name="DNT - Gift of the Hammerhand receives Song of the Hammerhand effects" iconId="1090519170"/>
 <propertyModEffect id="1879098854" name="Tempered by Flame" iconId="1090555708">
@@ -3307,7 +3307,7 @@
 </propertyModEffect>
 <effect id="1879103167" name="Cosmetic" description="key:620800746:181298206" iconId="1090523647"/>
 <effect id="1879103200" name="Disarm Immunity" appliedDescription="key:620800776:54354734" iconId="1090553766" duration="15.0"/>
-<instantVitalEffect id="1879103216" name="Self Smite" stat="Health_MaxLevel">
+<instantVitalEffect id="1879103216" name="Self Smite" stat="Health_MaxLevel" damageType="1">
 <vitalChange constant="-1.0E9"/>
 </instantVitalEffect>
 <propertyModEffect id="1879103270" name="Exertion" appliedDescription="key:620800809:54354734" iconId="1091420977" duration="15.0" expiresInRealTime="true">
@@ -4676,13 +4676,13 @@
 <present id="1879064681" name="Knocked Down"/>
 <toAddIfPresent id="1879116439" name="Skewer"/>
 </comboEffect>
-<instantVitalEffect id="1879116437" name="Words of Command - Heal" stat="Health_MaxLevel" multiplicative="true">
+<instantVitalEffect id="1879116437" name="Words of Command - Heal" stat="Health_MaxLevel" damageType="1" multiplicative="true">
 <vitalChange constant="0.25"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879116438" name="Words of Power - Invigorate" stat="Health_MaxLevel" multiplicative="true">
+<instantVitalEffect id="1879116438" name="Words of Power - Invigorate" stat="Health_MaxLevel" damageType="1" multiplicative="true">
 <vitalChange constant="0.1"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879116439" name="Skewer" stat="Health_MaxLevel">
+<instantVitalEffect id="1879116439" name="Skewer" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879110256"/>
 </instantVitalEffect>
 <effect id="1879116449" name="Summon Lurkers"/>
@@ -4957,7 +4957,7 @@
 <propertyModEffect id="1879131725" name="Vulnerability" appliedDescription="key:620823925:54354734" iconId="1090531635" duration="30.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
 </propertyModEffect>
-<instantVitalEffect id="1879131746" name="Igniting Spark" stat="Health_MaxLevel">
+<instantVitalEffect id="1879131746" name="Igniting Spark" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879087310" modifiers="268437688"/>
 </instantVitalEffect>
 <comboEffect id="1879132027" name="DNT">
@@ -4971,7 +4971,7 @@
 <effect id="1879132030" name="DNT"/>
 </hotspot>
 </genesis>
-<instantVitalEffect id="1879132029" name="Flame Mine" stat="Health_MaxLevel">
+<instantVitalEffect id="1879132029" name="Flame Mine" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879087308" modifiers="268437688"/>
 </instantVitalEffect>
 <comboEffect id="1879132030" name="DNT">
@@ -5152,43 +5152,43 @@
 <propertyModEffect id="1879135630" name="Fragile Form" appliedDescription="key:620827135:54354734" iconId="1090528810" duration="30.0" expiresInRealTime="true">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="25.0"/>
 </propertyModEffect>
-<instantVitalEffect id="1879135807" name="Average Common Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879135807" name="Average Common Damage" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879087308" modifiers="268437688"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879135810" name="Low Common Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879135810" name="Low Common Damage" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879059708" modifiers="268437688"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879135812" name="Supreme Common Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879135812" name="Supreme Common Damage" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879119371" modifiers="268437688"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879135816" name="Deadly Fire Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879135816" name="Deadly Fire Damage" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879149244" modifiers="268437688"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879135820" name="Supreme Fire Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879135820" name="Supreme Fire Damage" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879149239" modifiers="268437688"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879135824" name="Deadly Frost Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879135824" name="Deadly Frost Damage" stat="Health_MaxLevel" damageType="256">
 <vitalChange progressionID="1879149244" modifiers="268437688"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879135840" name="Deadly Power Damage" stat="Power_MaxLevel">
+<instantVitalEffect id="1879135840" name="Deadly Power Damage" stat="Power_MaxLevel" damageType="1">
 <vitalChange progressionID="1879457134"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879135844" name="Supreme Power Damage" stat="Power_MaxLevel">
+<instantVitalEffect id="1879135844" name="Supreme Power Damage" stat="Power_MaxLevel" damageType="1">
 <vitalChange progressionID="1879457126"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879135848" name="Deadly Shadow Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879135848" name="Deadly Shadow Damage" stat="Health_MaxLevel" damageType="32">
 <vitalChange progressionID="1879149244" modifiers="268437688"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879135849" name="High Shadow Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879135849" name="High Shadow Damage" stat="Health_MaxLevel" damageType="32">
 <vitalChange progressionID="1879149234" modifiers="268437688"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879135851" name="Max Shadow Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879135851" name="Max Shadow Damage" stat="Health_MaxLevel" damageType="32">
 <vitalChange progressionID="1879149251" modifiers="268437688"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879135852" name="Supreme Shadow Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879135852" name="Supreme Shadow Damage" stat="Health_MaxLevel" damageType="32">
 <vitalChange progressionID="1879149239" modifiers="268437688"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879135853" name="Ultimate Shadow Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879135853" name="Ultimate Shadow Damage" stat="Health_MaxLevel" damageType="32">
 <vitalChange progressionID="1879149243" modifiers="268437688"/>
 </instantVitalEffect>
 <effect id="1879135890" name="DNT - Axe Flurry" iconId="1090519170"/>
@@ -6246,7 +6246,7 @@
 <initialChange progressionID="1879368264" modifiers="268441250,268443431,268462699,268448151" vpsMultiplier="6.46"/>
 <overTimeChange progressionID="1879368264" modifiers="268441250,268462738,268443431" vpsMultiplier="6.46"/>
 </vitalOverTimeEffect>
-<instantVitalEffect id="1879148423" name="Heal" stat="Health_MaxLevel">
+<instantVitalEffect id="1879148423" name="Heal" stat="Health_MaxLevel" damageType="1">
 <vitalChange constant="5000.0"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879148425" name="Tentacle Regeneration" iconId="1091479197" duration="2.0" stat="Health_MaxLevel">
@@ -6923,7 +6923,7 @@
 <specialEffect label="key:620838500:106251894"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="34.0"/>
 </propertyModEffect>
-<instantVitalEffect id="1879154295" name="Anguish" stat="Health_MaxLevel">
+<instantVitalEffect id="1879154295" name="Anguish" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879098373" modifiers="268437688"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879154297" name="Infected Bite" iconId="1090522396" duration="4.0" pulseCount="10" stat="Health_MaxLevel" damageType="1024">
@@ -7019,13 +7019,13 @@
 <propertyModEffect id="1879156379" name="Chastising Fires" appliedDescription="key:620840062:54354734" iconId="1090538926" duration="10.0" pulseCount="1"/>
 <propertyModEffect id="1879156380" name="Combustion" appliedDescription="key:620840064:54354734" iconId="1090538926" duration="10.0" pulseCount="1"/>
 <propertyModEffect id="1879156381" name="Seed of Shadow" appliedDescription="key:620840063:54354734" iconId="1090532173" duration="10.0" pulseCount="1"/>
-<instantVitalEffect id="1879156391" name="Bzzz..." stat="Health_MaxLevel">
+<instantVitalEffect id="1879156391" name="Bzzz..." stat="Health_MaxLevel" damageType="512">
 <vitalChange progressionID="1879119375"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879156392" name="Fell Breath" stat="Health_MaxLevel">
+<instantVitalEffect id="1879156392" name="Fell Breath" stat="Health_MaxLevel" damageType="32">
 <vitalChange progressionID="1879149244" variance="0.3"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879156396" name="…….zap" stat="Health_MaxLevel">
+<instantVitalEffect id="1879156396" name="…….zap" stat="Health_MaxLevel" damageType="512">
 <vitalChange progressionID="1879119375"/>
 </instantVitalEffect>
 <effect id="1879156400" name="Knockaway"/>
@@ -7198,7 +7198,7 @@
 <effect id="1879157713" name="Reflect Damage" probability="0.5"/>
 </attacker>
 </reactiveVitalEffect>
-<instantVitalEffect id="1879157713" name="Reflect Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879157713" name="Reflect Damage" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879157541"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879157714" name="Nature's Cure" iconId="1091551350" duration="3.0" pulseCount="5" stat="Health_MaxLevel">
@@ -8114,8 +8114,8 @@
 <effect id="1879163410" name="Greater Emblem of Power" iconId="1091570805" duration="5.0"/>
 <effect id="1879163411" name="Minor Emblem of Power" iconId="1091570806" duration="5.0"/>
 <effect id="1879163412" name="Emblem of Power" iconId="1091570807" duration="5.0"/>
-<instantVitalEffect id="1879163413" name="Morale Damage" stat="Health_MaxLevel" multiplicative="true"/>
-<instantVitalEffect id="1879163415" name="Morale Damage" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879163413" name="Morale Damage" stat="Health_MaxLevel" damageType="1024" multiplicative="true"/>
+<instantVitalEffect id="1879163415" name="Morale Damage" stat="Health_MaxLevel" damageType="64" multiplicative="true"/>
 <propertyModEffect id="1879163543" name="Greater Emblem of the Valar" iconId="1091479054" duration="5.0">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="25.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="25.0"/>
@@ -12409,7 +12409,7 @@
 <effect id="1879201830" name="DNT - Removes Stuck Fist Flag"/>
 <effect id="1879201831" name="DNT - Removes Healing Flag"/>
 <propertyModEffect id="1879202161" name="Improved Remorseless Strike" appliedDescription="key:620874548:54354734" iconId="1090519170"/>
-<instantVitalEffect id="1879202164" name="Trap Damage" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879202164" name="Trap Damage" stat="Health_MaxLevel" damageType="1" multiplicative="true"/>
 <effect id="1879202283" name="DNT - Boss Banner present?" iconId="1090519170" duration="1.0"/>
 <effect id="1879202284" name="DNT - Boss Banner present?" iconId="1090519170" duration="1.0"/>
 <effect id="1879202285" name="DNT - Boss Banner present?" iconId="1090519170" duration="1.0"/>
@@ -14458,7 +14458,7 @@
 <effect id="1879070254" name="Bear Trap Damage"/>
 </hotspot>
 </genesis>
-<instantVitalEffect id="1879220452" name="Tangleshot Snare Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879220452" name="Tangleshot Snare Damage" stat="Health_MaxLevel" damageType="4096">
 <vitalChange progressionID="1879413268" modifiers="268437688,268441090,268455954"/>
 </instantVitalEffect>
 <comboEffect id="1879220453" name="DNT">
@@ -15571,7 +15571,7 @@
 </propertyModEffect>
 <effect id="1879227964"/>
 <effect id="1879228026" name="Shockwave flag" appliedDescription="key:620893166:54354734" iconId="1091609054"/>
-<instantVitalEffect id="1879228028" name="Burning Lava" stat="Health_MaxLevel">
+<instantVitalEffect id="1879228028" name="Burning Lava" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879180566" modifiers="268437688"/>
 </instantVitalEffect>
 <effect id="1879228049" name="Ground Pound - Aura" appliedDescription="key:620893186:54354734" iconId="1091401418" duration="1.0"/>
@@ -15582,13 +15582,13 @@
 <specialEffect label="key:620893253:106251889"/>
 </propertyModEffect>
 <effect id="1879228168" name="Palantir" description="key:620893288:181298206" appliedDescription="key:620893288:54354734" iconId="1090519170" duration="21.0"/>
-<instantVitalEffect id="1879228282" name="Polarity" stat="Health_MaxLevel">
+<instantVitalEffect id="1879228282" name="Polarity" stat="Health_MaxLevel" damageType="512">
 <vitalChange progressionID="1879180345"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879228283" name="Frost Rock" stat="Health_MaxLevel">
+<instantVitalEffect id="1879228283" name="Frost Rock" stat="Health_MaxLevel" damageType="256">
 <vitalChange progressionID="1879180339"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879228284" name="Fire Rock" stat="Health_MaxLevel">
+<instantVitalEffect id="1879228284" name="Fire Rock" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879180339"/>
 </instantVitalEffect>
 <propertyModEffect id="1879228434" name="Devastating Strike" iconId="1090555706" duration="15.0">
@@ -15684,14 +15684,14 @@
 <position region="2" longitude="-51.814236" latitude="-9.39291"/>
 </travelEffect>
 <effect id="1879229213" name="Venom Increase +2"/>
-<instantVitalEffect id="1879229214" name="Envenom" stat="Health_MaxLevel">
+<instantVitalEffect id="1879229214" name="Envenom" stat="Health_MaxLevel" damageType="1024">
 <vitalChange progressionID="1879413268" variance="0.2" modifiers="268453871,268437688,268455955"/>
 </instantVitalEffect>
 <effect id="1879229216" name="Venom Increase +5"/>
-<instantVitalEffect id="1879229217" name="Envenom" description="key:620894110:181298206" stat="Health_MaxLevel">
+<instantVitalEffect id="1879229217" name="Envenom" description="key:620894110:181298206" stat="Health_MaxLevel" damageType="1024">
 <vitalChange progressionID="1879413246" variance="0.2" modifiers="268453871,268437688,268455955"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879229218" name="Envenom" stat="Health_MaxLevel">
+<instantVitalEffect id="1879229218" name="Envenom" stat="Health_MaxLevel" damageType="1024">
 <vitalChange progressionID="1879413236" variance="0.2" modifiers="268453871,268437688,268455955"/>
 </instantVitalEffect>
 <effect id="1879229219" name="Venom Increase +4"/>
@@ -17688,7 +17688,7 @@
 <effect id="1879243041" name="Harwick Archers" spellcraft="0.25"/>
 </hotspot>
 </genesis>
-<instantVitalEffect id="1879243041" name="Harwick Archers" stat="Health_MaxLevel" multiplicative="true"/>
+<instantVitalEffect id="1879243041" name="Harwick Archers" stat="Health_MaxLevel" damageType="1" multiplicative="true"/>
 <propertyModEffect id="1879243173" name="Improved Headshot" iconId="1090519170"/>
 <propertyModEffect id="1879243280" name="Hobbled" appliedDescription="key:620903372:54354734" iconId="1091478917" duration="10.0" expiresInRealTime="true">
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" descriptionOverride="key:620903372:106251889" constant="0.7"/>
@@ -18068,7 +18068,7 @@
 <instantVitalEffect id="1879245271" name="Debate the People" stat="Health_MaxLevel">
 <vitalChange progressionID="1879252968" modifiers="268455680,268443235,268448151" vpsMultiplier="0.79"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879245272" name="Debate Wrath" stat="Health_MaxLevel">
+<instantVitalEffect id="1879245272" name="Debate Wrath" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879239422" variance="0.3" vpsMultiplier="12.0"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879245274" name="Fixation of Health - Steed - 1" iconId="1091745001" duration="3.0" pulseCount="6" stat="MountEndurance_MaxLevel">
@@ -18951,7 +18951,7 @@
 <stat name="Item_Loremaster_Induction_PowerCost" operator="SUBSTRACT" descriptionOverride="key:620908773:106251890" constant="70.0"/>
 <stat name="Skill_LightningBurst_LoreMaster_PowerCost" operator="SUBSTRACT" descriptionOverride="-" constant="70.0"/>
 </propertyModEffect>
-<instantVitalEffect id="1879250748" name="Inspirational Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879250748" name="Inspirational Damage" stat="Health_MaxLevel" damageType="64">
 <vitalChange progressionID="1879239427" modifiers="268455709,268456787" vpsMultiplier="5.0"/>
 </instantVitalEffect>
 <effect id="1879250751" name="Sign of Power: Inspiration" iconId="1090519170" duration="1.0"/>
@@ -19989,7 +19989,7 @@
 <present id="1879257706" name="DNT - Egg Detected"/>
 <toAddIfPresent id="1879201768"/>
 </comboEffect>
-<instantVitalEffect id="1879257738" name="Explosive Powder Keg" stat="Health_MaxLevel">
+<instantVitalEffect id="1879257738" name="Explosive Powder Keg" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879180347"/>
 </instantVitalEffect>
 <travelEffect id="1879257772" name="DNT - One time drunken travel to Moria Hubs" sceneID="1879141475">
@@ -20076,7 +20076,7 @@
 <present id="1879257698" name="Marked"/>
 <toAddIfPresent id="1879257820" name="Heartseeker"/>
 </comboEffect>
-<instantVitalEffect id="1879257820" name="Heartseeker" stat="Health_MaxLevel" multiplicative="true">
+<instantVitalEffect id="1879257820" name="Heartseeker" stat="Health_MaxLevel" damageType="32" multiplicative="true">
 <vitalChange constant="0.75"/>
 </instantVitalEffect>
 <effect id="1879257821" name="Focus 8" iconId="1091783836"/>
@@ -21674,7 +21674,7 @@
 <present id="1879270998" name="Flanked!"/>
 <toGiveBackIfPresent id="1879271001" name="Metal and Mettle Flank Heal"/>
 </comboEffect>
-<instantVitalEffect id="1879271004" name="Enduring Embers Flank Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879271004" name="Enduring Embers Flank Damage" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879271005" modifiers="268455709"/>
 </instantVitalEffect>
 <propertyModEffect id="1879271045" name="DNT - Flick of the Wrist: Position Damage" iconId="1090519170"/>
@@ -22294,7 +22294,7 @@
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="25.0"/>
 <stat name="Skill_Captain_CleanseCorruption_CooldownMod" constant="-10.0"/>
 </propertyModEffect>
-<instantVitalEffect id="1879275413" name="Fulgurite Strike" stat="Health_MaxLevel">
+<instantVitalEffect id="1879275413" name="Fulgurite Strike" stat="Health_MaxLevel" damageType="512">
 <vitalChange progressionID="1879467544" variance="0.1" modifiers="268443428,268457946,268460731"/>
 </instantVitalEffect>
 <effect id="1879275424" name="Fulgurite Rune-stone"/>
@@ -22332,7 +22332,7 @@
 <procEffect id="1879275692" name="Juggernaut" appliedDescription="key:620925352:54354734" iconId="1091805299" duration="15.0" skillTypes="36">
 <effect id="1879275693" name="Juggernaut Damage Reflect"/>
 </procEffect>
-<instantVitalEffect id="1879275693" name="Juggernaut Damage Reflect" stat="Health_MaxLevel">
+<instantVitalEffect id="1879275693" name="Juggernaut Damage Reflect" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879468797" modifiers="268458336"/>
 </instantVitalEffect>
 <propertyModEffect id="1879275702" name="The Ancient Master" iconId="1091829937">
@@ -23260,7 +23260,7 @@
 <areaEffect id="1879284215" name="Combustion" description="key:620932013:181298206" appliedDescription="key:620932013:54354734" flags="62" range="5.0" maxTargets="10" maxTargetsMods="268462716">
 <effect id="1879284216" name="Combustion"/>
 </areaEffect>
-<instantVitalEffect id="1879284216" name="Combustion" stat="Health_MaxLevel">
+<instantVitalEffect id="1879284216" name="Combustion" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879383395" variance="0.3" modifiers="268445383,268459152,268443435,268460600,268462736" vpsMultiplier="9.75"/>
 </instantVitalEffect>
 <procEffect id="1879284234" name="Furious Storms" appliedDescription="key:620932029:54354734" iconId="1090552382" skillTypes="43">
@@ -24559,13 +24559,13 @@
 <areaEffect id="1879297442" name="Banner of Honour" flags="6" range="7.0" maxTargets="10" maxTargetsMods="268462716">
 <effect id="1879297444" name="Standard of Honour"/>
 </areaEffect>
-<instantVitalEffect id="1879297443" name="Standard of Valour" stat="Health_MaxLevel">
+<instantVitalEffect id="1879297443" name="Standard of Valour" stat="Health_MaxLevel" damageType="64">
 <vitalChange progressionID="1879383395" modifiers="268445385,268457753,268462736" vpsMultiplier="2.0"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879297444" name="Standard of Honour" stat="Health_MaxLevel">
+<instantVitalEffect id="1879297444" name="Standard of Honour" stat="Health_MaxLevel" damageType="64">
 <vitalChange progressionID="1879383395" modifiers="268445385,268457753,268462736" vpsMultiplier="2.5"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879297446" name="Standard of War" stat="Health_MaxLevel">
+<instantVitalEffect id="1879297446" name="Standard of War" stat="Health_MaxLevel" damageType="64">
 <vitalChange progressionID="1879383395" modifiers="268445385,268457753,268462736" vpsMultiplier="3.5"/>
 </instantVitalEffect>
 <induceCombatState id="1879297487" name="Will of the Council" state="15" stateDuration="3.0"/>
@@ -24920,7 +24920,7 @@
 <effect id="1879302582" name="DNT - Herald of War (Defender)"/>
 <effect id="1879302583" name="DNT - Herald of Victory (Warden)"/>
 <propertyModEffect id="1879302718" name="Shatter Armour" appliedDescription="key:620946345:54354734" iconId="1091476365" duration="12.0"/>
-<instantVitalEffect id="1879302727" name="Explosive Arrow" stat="Health_MaxLevel">
+<instantVitalEffect id="1879302727" name="Explosive Arrow" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879367855" variance="0.1" modifiers="268445383,268457570,268451990,268460594,268462736" vpsMultiplier="5.0"/>
 </instantVitalEffect>
 <genesis id="1879302728" name="Create Explosive Arrow" summonDuration="1.0">
@@ -25223,7 +25223,7 @@
 <propertyModEffect id="1879311397" name="Elendil's Fury" iconId="1091916298">
 <stat name="Skill_Captain_ElendilFury_AppChance" descriptionOverride="key:620950358:106251889" constant="100.0"/>
 </propertyModEffect>
-<instantVitalEffect id="1879311399" name="Elendil's Fury" probabilityModProperty="268459970" stat="Health_MaxLevel">
+<instantVitalEffect id="1879311399" name="Elendil's Fury" probabilityModProperty="268459970" stat="Health_MaxLevel" damageType="64">
 <vitalChange progressionID="1879383395" modifiers="268445385" vpsMultiplier="3.0"/>
 </instantVitalEffect>
 <reactiveVitalEffect id="1879311570" name="Fire Shield" iconId="1091916307" duration="30.0" damageTypes="65407" damageTypeOverride="16">
@@ -26377,7 +26377,7 @@
 <stat name="ALL_SKILL_INDUCTION" constant="50.0"/>
 </propertyModEffect>
 <effect id="1879323769" name="Toxic Curse" appliedDescription="key:620959613:54354734" iconId="1091400596" duration="2.0" pulseCount="4"/>
-<instantVitalEffect id="1879323773" name="Poison Breath" stat="Health_MaxLevel">
+<instantVitalEffect id="1879323773" name="Poison Breath" stat="Health_MaxLevel" damageType="1024">
 <vitalChange progressionID="1879180912"/>
 </instantVitalEffect>
 <fellowshipEffect id="1879323774" name="Poison Breath" description="key:620959619:181298206" appliedDescription="key:620959619:54354734" applyToRaidGroups="true" applyToPets="true" range="15.0">
@@ -30277,7 +30277,7 @@
 <vitalOverTimeEffect id="1879370007" name="The One Trap" iconId="1091798545" duration="2.0" pulseCount="10" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268457569,268444108,268460590,268451980" vpsMultiplier="0.55"/>
 </vitalOverTimeEffect>
-<instantVitalEffect id="1879370018" name="One Trap" stat="Health_MaxLevel">
+<instantVitalEffect id="1879370018" name="One Trap" stat="Health_MaxLevel" damageType="64">
 <vitalChange progressionID="1879367855" variance="0.05" modifiers="268445385,268451980,268460590,268462735" vpsMultiplier="8.0"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879370019" name="Trap Damage" stat="Health_MaxLevel">
@@ -30725,13 +30725,13 @@
 <finalTier id="1879380281" name="The Crow-feeder"/>
 </tieredEffect>
 <effect id="1879380320" name="Dust of Battle"/>
-<instantVitalEffect id="1879380321" name="Dragon Fire" stat="Health_MaxLevel">
+<instantVitalEffect id="1879380321" name="Dragon Fire" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879180566"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879380322" name="Dragon Fire" stat="Health_MaxLevel">
+<instantVitalEffect id="1879380322" name="Dragon Fire" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879244296"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879380323" name="Fiery Death" stat="Health_MaxLevel">
+<instantVitalEffect id="1879380323" name="Fiery Death" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879343130"/>
 </instantVitalEffect>
 <effect id="1879380487" name="Knockback"/>
@@ -31410,16 +31410,16 @@
 <instantVitalEffect id="1879383996" name="Increased Power" stat="Power_MaxLevel">
 <vitalChange progressionID="1879457140" variance="0.05"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879384008" name="Max Acid Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879384008" name="Max Acid Damage" stat="Health_MaxLevel" damageType="1024">
 <vitalChange progressionID="1879149251" modifiers="268437688"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879384048" name="Average Shadow Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879384048" name="Average Shadow Damage" stat="Health_MaxLevel" damageType="32">
 <vitalChange progressionID="1879149232" modifiers="268437688"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879384088" name="Increased Power" stat="Power_MaxLevel">
 <vitalChange progressionID="1879457138" variance="0.05"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879384109" name="Ultimate Power Damage" stat="Power_MaxLevel">
+<instantVitalEffect id="1879384109" name="Ultimate Power Damage" stat="Power_MaxLevel" damageType="1">
 <vitalChange progressionID="1879457125"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879384122" name="Increased Power" stat="Power_MaxLevel">
@@ -31610,10 +31610,10 @@
 <initialChange progressionID="1879244292" modifiers="268437688"/>
 <overTimeChange progressionID="1879180916" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<instantVitalEffect id="1879385182" name="Freezing Breath" stat="Health_MaxLevel">
+<instantVitalEffect id="1879385182" name="Freezing Breath" stat="Health_MaxLevel" damageType="256">
 <vitalChange progressionID="1879180566" modifiers="268437688"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879385184" name="Freezing Breath" stat="Health_MaxLevel">
+<instantVitalEffect id="1879385184" name="Freezing Breath" stat="Health_MaxLevel" damageType="256">
 <vitalChange progressionID="1879343130" modifiers="268437688"/>
 </instantVitalEffect>
 <effect id="1879385185" name="Sheltered" appliedDescription="key:621018459:54354734" iconId="1091476354"/>
@@ -34247,14 +34247,14 @@
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" constant="1.2"/>
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="1.2"/>
 </propertyModEffect>
-<instantVitalEffect id="1879402795" name="Enraged Attack" stat="Health_MaxLevel">
+<instantVitalEffect id="1879402795" name="Enraged Attack" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879180336" modifiers="268437688"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879402796" name="Acrid Gas - 5" appliedDescription="key:621030588:54354734" iconId="1090535376" duration="3.0" pulseCount="30" stat="Health_MaxLevel" damageType="1024">
 <initialChange progressionID="1879180912" modifiers="268437688"/>
 <overTimeChange progressionID="1879180912" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<instantVitalEffect id="1879402798" name="Enraged Attack" stat="Health_MaxLevel">
+<instantVitalEffect id="1879402798" name="Enraged Attack" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879180336" modifiers="268437688"/>
 </instantVitalEffect>
 <genesis id="1879402801" name=".." appliedDescription="key:621030562:54354734" summonDuration="300.0">
@@ -37183,7 +37183,7 @@
 <initialChange progressionID="1879265010" modifiers="268437688"/>
 <overTimeChange progressionID="1879265010" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<instantVitalEffect id="1879417195" name="Glacial Blast" stat="Health_MaxLevel">
+<instantVitalEffect id="1879417195" name="Glacial Blast" stat="Health_MaxLevel" damageType="256">
 <vitalChange progressionID="1879180337"/>
 </instantVitalEffect>
 <procEffect id="1879417196" name="DNT" iconId="1090552382" skillTypes="36" procProbability="0.1" cooldown="15.0">
@@ -37195,7 +37195,7 @@
 <effect id="1879149379" name="DNT - Do Nothing"/>
 </hotspot>
 </genesis>
-<instantVitalEffect id="1879417200" name="Fire Storm" stat="Health_MaxLevel">
+<instantVitalEffect id="1879417200" name="Fire Storm" stat="Health_MaxLevel" damageType="256">
 <vitalChange progressionID="1879180566"/>
 </instantVitalEffect>
 <genesis id="1879417202" name=".." appliedDescription="key:621041562:54354734" summonDuration="6.0">
@@ -37203,13 +37203,13 @@
 <effect id="1879417200" name="Fire Storm"/>
 </hotspot>
 </genesis>
-<instantVitalEffect id="1879417443" name="Runic Flame" stat="Health_MaxLevel">
+<instantVitalEffect id="1879417443" name="Runic Flame" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879343113"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879417444" name="Runic Light" stat="Health_MaxLevel">
+<instantVitalEffect id="1879417444" name="Runic Light" stat="Health_MaxLevel" damageType="64">
 <vitalChange progressionID="1879180347"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879417448" name="Runic Frost" stat="Health_MaxLevel">
+<instantVitalEffect id="1879417448" name="Runic Frost" stat="Health_MaxLevel" damageType="256">
 <vitalChange progressionID="1879180339"/>
 </instantVitalEffect>
 <propertyModEffect id="1879417471" name="Mark of Challenge" appliedDescription="key:621041678:54354734" iconId="1091840283" duration="90.0">
@@ -37383,7 +37383,7 @@
 </genesis>
 <effect id="1879418943" name="Launching Fireworks" appliedDescription="key:621042917:54354734"/>
 <effect id="1879418944" name="Launching Fireworks" appliedDescription="key:621042919:54354734"/>
-<instantVitalEffect id="1879419274" name="Latent Light - Tier 1" stat="Health_MaxLevel">
+<instantVitalEffect id="1879419274" name="Latent Light - Tier 1" stat="Health_MaxLevel" damageType="64">
 <vitalChange progressionID="1879367855" modifiers="268445385,268462641,268462742,268462735" vpsMultiplier="4.28"/>
 </instantVitalEffect>
 <effect id="1879419313" name="DNT - Remove Defeat Immunity"/>
@@ -37768,7 +37768,7 @@
 <procEffect id="1879422257" name="DNT - Stinging Nettle" appliedDescription="key:621045039:54354734" iconId="1090552382" skillTypes="36" cooldown="1.0">
 <effect id="1879422258" name="Like a Stinging Nettle"/>
 </procEffect>
-<instantVitalEffect id="1879422258" name="Like a Stinging Nettle" stat="Health_MaxLevel">
+<instantVitalEffect id="1879422258" name="Like a Stinging Nettle" stat="Health_MaxLevel" damageType="64">
 <vitalChange progressionID="1879367855" modifiers="268445385,268462641,268462742,268462735" vpsMultiplier="1.5"/>
 </instantVitalEffect>
 <effect id="1879422264" name="Chilling Presence" appliedDescription="key:621045046:54354734" iconId="1091400591"/>
@@ -38569,13 +38569,13 @@
 <propertyModEffect id="1879442566" name="Summoning Horn" appliedDescription="key:621061419:54354734" iconId="1090552839">
 <specialEffect label="key:621061419:106251889"/>
 </propertyModEffect>
-<instantVitalEffect id="1879442605" name="Darkness Consumes" stat="Health_MaxLevel">
+<instantVitalEffect id="1879442605" name="Darkness Consumes" stat="Health_MaxLevel" damageType="32">
 <vitalChange progressionID="1879180913" modifiers="268437688"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879442606" name="Darkness Consumes" stat="Health_MaxLevel">
+<instantVitalEffect id="1879442606" name="Darkness Consumes" stat="Health_MaxLevel" damageType="32">
 <vitalChange progressionID="1879343124" modifiers="268437688"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879442607" name="Darkness Consumes" stat="Health_MaxLevel">
+<instantVitalEffect id="1879442607" name="Darkness Consumes" stat="Health_MaxLevel" damageType="32">
 <vitalChange progressionID="1879343138" modifiers="268437688"/>
 </instantVitalEffect>
 <effect id="1879443185" name="Shadow Pool" appliedDescription="key:621061982:54354734" iconId="1091479304" duration="3.0"/>
@@ -39083,7 +39083,7 @@
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="75.0"/>
 <stat name="INCOMING_HEALING_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:621064018:106251889" constant="70.0"/>
 </propertyModEffect>
-<instantVitalEffect id="1879446169" name="Freezing Breath" stat="Health_MaxLevel">
+<instantVitalEffect id="1879446169" name="Freezing Breath" stat="Health_MaxLevel" damageType="256">
 <vitalChange progressionID="1879180347" modifiers="268437688"/>
 </instantVitalEffect>
 <propertyModEffect id="1879446170" name="Fangs of the Frost-heart - 10" appliedDescription="key:621064014:54354734" iconId="1091609148" duration="30.0">
@@ -39096,7 +39096,7 @@
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="60.000004"/>
 <stat name="INCOMING_HEALING_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:621064033:106251889" constant="60.000004"/>
 </propertyModEffect>
-<instantVitalEffect id="1879446174" name="Freezing Breath" stat="Health_MaxLevel">
+<instantVitalEffect id="1879446174" name="Freezing Breath" stat="Health_MaxLevel" damageType="256">
 <vitalChange progressionID="1879180337" modifiers="268437688"/>
 </instantVitalEffect>
 <tieredEffect id="1879446176" name="DNT - Fangs of the Frost-heart">
@@ -39368,7 +39368,7 @@
 <tierUp id="1879447588" name="Searing Embers"/>
 <finalTier id="1879447588" name="Searing Embers"/>
 </tieredEffect>
-<instantVitalEffect id="1879447593" name="Gust of Wind" stat="Health_MaxLevel">
+<instantVitalEffect id="1879447593" name="Gust of Wind" stat="Health_MaxLevel" damageType="256">
 <vitalChange progressionID="1879383395" modifiers="268445386,268444731,268444715,268462736" vpsMultiplier="5.175"/>
 </instantVitalEffect>
 <areaEffect id="1879447594" name="DNT - Gust of Wind Damage AoE" flags="6" range="5.0" maxTargets="5" maxTargetsMods="268462716">
@@ -41136,10 +41136,10 @@
 <present id="1879368216" name="Brink of Victory - Light"/>
 <toAddIfPresent id="1879457899" name="Unseen Strike"/>
 </comboEffect>
-<instantVitalEffect id="1879457899" name="Unseen Strike" stat="Health_MaxLevel">
+<instantVitalEffect id="1879457899" name="Unseen Strike" stat="Health_MaxLevel" damageType="64">
 <vitalChange progressionID="1879367855" modifiers="268445385,268454044,268464651,268462736" vpsMultiplier="4.4"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879457900" name="Unseen Strike" stat="Health_MaxLevel">
+<instantVitalEffect id="1879457900" name="Unseen Strike" stat="Health_MaxLevel" damageType="64">
 <vitalChange progressionID="1879367855" modifiers="268445385,268445092,268454044,268464651,268462736" vpsMultiplier="5.6"/>
 </instantVitalEffect>
 <comboEffect id="1879457901" name="DNT">
@@ -41158,19 +41158,19 @@
 <present id="1879303966" name="Mighty Blow Bleed"/>
 <toAddIfPresent id="1879457907" name="Seared Flesh"/>
 </comboEffect>
-<instantVitalEffect id="1879457905" name="Unseen Strike" stat="Health_MaxLevel">
+<instantVitalEffect id="1879457905" name="Unseen Strike" stat="Health_MaxLevel" damageType="64">
 <vitalChange progressionID="1879367855" modifiers="268445385,268454044,268464651,268462736" vpsMultiplier="3.2"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879457906" name="Seared Flesh" stat="Health_MaxLevel">
+<instantVitalEffect id="1879457906" name="Seared Flesh" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879367855" modifiers="268445383,268445827,268454044,268457677,268464656,268462739" vpsMultiplier="9.9"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879457907" name="Seared Flesh" stat="Health_MaxLevel">
+<instantVitalEffect id="1879457907" name="Seared Flesh" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879367855" modifiers="268445383,268445827,268454044,268457677,268464656,268462739" vpsMultiplier="13.2"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879457908" name="Seared Flesh" stat="Health_MaxLevel">
+<instantVitalEffect id="1879457908" name="Seared Flesh" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879367855" modifiers="268445383,268445827,268454044,268457677,268464656,268462739" vpsMultiplier="15.4"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879457909" name="Unseen Strike" stat="Health_MaxLevel">
+<instantVitalEffect id="1879457909" name="Unseen Strike" stat="Health_MaxLevel" damageType="64">
 <vitalChange progressionID="1879367855" modifiers="268445385,268454044,268464651,268462736" vpsMultiplier="8.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879457917" name="DNT One After Another" iconId="1091804878"/>
@@ -41480,13 +41480,13 @@
 <instantVitalEffect id="1879459351" name="Test Power Drain" stat="Power_MaxLevel">
 <vitalChange progressionID="1879459366"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879459352" name="Test Common Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879459352" name="Test Common Damage" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879459366" modifiers="268462735"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879459353" name="Test Heal" stat="Health_MaxLevel">
 <vitalChange progressionID="1879459367" modifiers="268462699,268448151"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879459354" name="Test Tactical Damage" stat="Health_MaxLevel">
+<instantVitalEffect id="1879459354" name="Test Tactical Damage" stat="Health_MaxLevel" damageType="32">
 <vitalChange progressionID="1879459366" modifiers="268462735"/>
 </instantVitalEffect>
 <propertyModEffect id="1879459385" name="Sauron's Wrath" appliedDescription="key:621073138:54354734" iconId="1092814321" duration="30.0" expiresInRealTime="true">
@@ -41499,8 +41499,8 @@
 </areaEffect>
 <instantVitalEffect id="1879459389" name="Test VPS heal effect damage" stat="Health_MaxLevel"/>
 <instantVitalEffect id="1879459392" name="Test VPS undef effect damage" stat="Health_MaxLevel"/>
-<instantVitalEffect id="1879459394" name="Test VPS fire effect damage" stat="Health_MaxLevel"/>
-<instantVitalEffect id="1879459395" name="Test VPS common effect damage" stat="Health_MaxLevel"/>
+<instantVitalEffect id="1879459394" name="Test VPS fire effect damage" stat="Health_MaxLevel" damageType="16"/>
+<instantVitalEffect id="1879459395" name="Test VPS common effect damage" stat="Health_MaxLevel" damageType="1"/>
 <propertyModEffect id="1879459413" name="Tactical DPS" appliedDescription="key:621073167:54354734" iconId="1090519170">
 <stat name="Combat_TacticalDPS_Modifier" scaling="1879459416"/>
 </propertyModEffect>
@@ -41708,7 +41708,7 @@
 <propertyModEffect id="1879461577" name="Enemy Defeat Response" appliedDescription="key:621074422:54354734" iconId="1090553785" duration="15.0">
 <stat name="ForwardSource_Combat_TraitCombo5" operator="SET" descriptionOverride="key:621074422:106251889" constant="310.0"/>
 </propertyModEffect>
-<instantVitalEffect id="1879461627" name="Toxic Curse" stat="Health_MaxLevel">
+<instantVitalEffect id="1879461627" name="Toxic Curse" stat="Health_MaxLevel" damageType="1024">
 <vitalChange progressionID="1879180913"/>
 </instantVitalEffect>
 <propertyModEffect id="1879461630" name="DNT - red used" iconId="1090617193" duration="17.0"/>
@@ -41796,7 +41796,7 @@
 <effect id="1879461934" name="Morale Drain"/>
 <effect id="1879049536" name="Disease"/>
 </areaEffect>
-<instantVitalEffect id="1879461934" name="Morale Drain" stat="Health_MaxLevel">
+<instantVitalEffect id="1879461934" name="Morale Drain" stat="Health_MaxLevel" damageType="1024">
 <vitalChange progressionID="1879180913"/>
 </instantVitalEffect>
 <propertyModEffect id="1879461952" name="Mounted" iconId="1090519170">
@@ -42067,7 +42067,7 @@
 <stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
-<instantVitalEffect id="1879463430" name="Heart of Fire" stat="Health_MaxLevel">
+<instantVitalEffect id="1879463430" name="Heart of Fire" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879180912"/>
 </instantVitalEffect>
 <vitalOverTimeEffect id="1879463431" name="Grappling Jaws" appliedDescription="key:621075298:54354734" iconId="1090529658" duration="3.0" stat="Health_MaxLevel" damageType="1">
@@ -42207,7 +42207,7 @@
 <finalTier id="1879079637" name="Smite Player"/>
 </tieredEffect>
 <effect id="1879463760" name="Overwhelming Fear" appliedDescription="key:621075602:54354734" iconId="1090532173" duration="2.0" pulseCount="3"/>
-<instantVitalEffect id="1879463761" name="Fear of the Dark" stat="Health_MaxLevel">
+<instantVitalEffect id="1879463761" name="Fear of the Dark" stat="Health_MaxLevel" damageType="32">
 <vitalChange progressionID="1879180337" modifiers="268437688"/>
 </instantVitalEffect>
 <effect id="1879463769" name="Coalescing Shadows" appliedDescription="key:621075615:54354734" iconId="1091609224" duration="2.0"/>
@@ -44747,7 +44747,7 @@
 <instantVitalEffect id="1879481657" name="Enormous Heal" stat="Health_MaxLevel">
 <vitalChange progressionID="1879481658" modifiers="268440271,268436040,268448151"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879481659" name="Burning Steel" stat="Health_MaxLevel">
+<instantVitalEffect id="1879481659" name="Burning Steel" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879180912"/>
 </instantVitalEffect>
 <instantVitalEffect id="1879481660" name="Minor Heal" stat="Health_MaxLevel">
@@ -45016,7 +45016,7 @@
 </genesis>
 <effect id="1879482043" name="Ground Pound" iconId="1090541206" duration="1.0"/>
 <effect id="1879482047" name="Tornado" iconId="1090541206" duration="1.0"/>
-<instantVitalEffect id="1879482053" name="Downdraft" stat="Health_MaxLevel">
+<instantVitalEffect id="1879482053" name="Downdraft" stat="Health_MaxLevel" damageType="256">
 <vitalChange progressionID="1879244296" modifiers="268437688"/>
 </instantVitalEffect>
 <propertyModEffect id="1879482083" name="Roar of the Arena - 1" iconId="1091834321">
@@ -45645,7 +45645,7 @@
 </hotspot>
 </genesis>
 <propertyModEffect id="1879482711" name="Painful Shock" appliedDescription="key:621090396:54354734" iconId="1091565008" duration="4.0" pulseCount="1"/>
-<instantVitalEffect id="1879482712" name="Cyclonic Lightning" stat="Power_MaxLevel">
+<instantVitalEffect id="1879482712" name="Cyclonic Lightning" stat="Power_MaxLevel" damageType="512">
 <vitalChange progressionID="1879087301" modifiers="268437688"/>
 </instantVitalEffect>
 <propertyModEffect id="1879482721" name="Dreadful Gaze" appliedDescription="key:621090406:54354734" iconId="1090616965" duration="20.0">
@@ -46105,7 +46105,7 @@
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="1.05"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="5.0"/>
 </propertyModEffect>
-<instantVitalEffect id="1879484149" name="Flaming Arrow" stat="Health_MaxLevel" multiplicative="true">
+<instantVitalEffect id="1879484149" name="Flaming Arrow" stat="Health_MaxLevel" damageType="16" multiplicative="true">
 <vitalChange constant="-0.6"/>
 </instantVitalEffect>
 <propertyModEffect id="1879484150" name="Broken Defences" iconId="1090532210" duration="10.0">
@@ -46183,7 +46183,7 @@
 <vitalOverTimeEffect id="1879484189" name="Aching Flame" iconId="1091454156" duration="2.0" pulseCount="6" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879343138" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<instantVitalEffect id="1879484191" name="Static" stat="Health_MaxLevel">
+<instantVitalEffect id="1879484191" name="Static" stat="Health_MaxLevel" damageType="512">
 <vitalChange progressionID="1879180916"/>
 </instantVitalEffect>
 <propertyModEffect id="1879484192" name="Berserker - 3" iconId="1091830083">
@@ -46203,10 +46203,10 @@
 <propertyModEffect id="1879484204" name="Vile Reach" iconId="1091401420">
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="25.0"/>
 </propertyModEffect>
-<instantVitalEffect id="1879484205" name="Flaming Arrow" stat="Health_MaxLevel" multiplicative="true">
+<instantVitalEffect id="1879484205" name="Flaming Arrow" stat="Health_MaxLevel" damageType="16" multiplicative="true">
 <vitalChange constant="-0.06"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879484207" name="Static Shock" stat="Health_MaxLevel">
+<instantVitalEffect id="1879484207" name="Static Shock" stat="Health_MaxLevel" damageType="512">
 <vitalChange progressionID="1879483170"/>
 </instantVitalEffect>
 <propertyModEffect id="1879484209" name="Ring of Ruin" iconId="1091400593">
@@ -46236,7 +46236,7 @@
 <vitalOverTimeEffect id="1879484216" name="Yearning Flame Pulse" iconId="1091454156" duration="3.0" pulseCount="3" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879244484" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<instantVitalEffect id="1879484219" name="Lightning Strike" stat="Health_MaxLevel">
+<instantVitalEffect id="1879484219" name="Lightning Strike" stat="Health_MaxLevel" damageType="512">
 <vitalChange progressionID="1879180345"/>
 </instantVitalEffect>
 <genesis id="1879484222" name=".." appliedDescription="key:621091337:54354734" summonDuration="12.0">
@@ -46369,10 +46369,10 @@
 <areaEffect id="1879484689" name="Pound Sand" flags="8" range="3.0" maxTargets="50">
 <effect id="1879484690" name="Pound Sand"/>
 </areaEffect>
-<instantVitalEffect id="1879484690" name="Pound Sand" stat="Health_MaxLevel">
+<instantVitalEffect id="1879484690" name="Pound Sand" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879180912" variance="0.15"/>
 </instantVitalEffect>
-<instantVitalEffect id="1879484691" name="Pound Sand" stat="Health_MaxLevel">
+<instantVitalEffect id="1879484691" name="Pound Sand" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879180337" variance="0.1"/>
 </instantVitalEffect>
 <areaEffect id="1879484692" name="Pound Sand" flags="8" range="4.0" maxTargets="50">
@@ -46381,7 +46381,7 @@
 <areaEffect id="1879484693" name="Pound Sand" flags="8" range="5.0" maxTargets="50">
 <effect id="1879484694" name="Pound Sand"/>
 </areaEffect>
-<instantVitalEffect id="1879484694" name="Pound Sand" stat="Health_MaxLevel">
+<instantVitalEffect id="1879484694" name="Pound Sand" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879343115"/>
 </instantVitalEffect>
 <effect id="1879484701" name="DNT" iconId="1090616965"/>
@@ -46425,7 +46425,7 @@
 </genesis>
 <effect id="1879484913"/>
 <effect id="1879484931"/>
-<instantVitalEffect id="1879484949" name="Acidic Burst" stat="Health_MaxLevel">
+<instantVitalEffect id="1879484949" name="Acidic Burst" stat="Health_MaxLevel" damageType="1024">
 <vitalChange progressionID="1879180337"/>
 </instantVitalEffect>
 <comboEffect id="1879484952" name="DNT">
@@ -46530,7 +46530,7 @@
 <toAddIfNotPresent id="1879485825" name="Flaming Arrow"/>
 <toAddIfPresent id="1879484205" name="Flaming Arrow"/>
 </comboEffect>
-<instantVitalEffect id="1879485825" name="Flaming Arrow" stat="Health_MaxLevel" multiplicative="true">
+<instantVitalEffect id="1879485825" name="Flaming Arrow" stat="Health_MaxLevel" damageType="16" multiplicative="true">
 <vitalChange constant="-1.2"/>
 </instantVitalEffect>
 <effect id="1879485839" name="Fixate" description="key:621092420:181298206" appliedDescription="key:621092420:54354734" iconId="1092748374" duration="30.0"/>
@@ -46931,7 +46931,7 @@
 <propertyModEffect id="1879489690" name="DNT - Dry Kindling" iconId="1090519170">
 <specialEffect label="key:621095697:106251889"/>
 </propertyModEffect>
-<instantVitalEffect id="1879489694" name="Flanked Strike" stat="Health_MaxLevel">
+<instantVitalEffect id="1879489694" name="Flanked Strike" stat="Health_MaxLevel" damageType="512">
 <vitalChange progressionID="1879383395" modifiers="268445386,268464883,268462736" vpsMultiplier="13.0"/>
 </instantVitalEffect>
 <procEffect id="1879489696" name="Quickening Flame" appliedDescription="key:621095699:54354734" iconId="1090552382" skillTypes="24" cooldown="1.0">
@@ -47298,7 +47298,7 @@
 </hotspot>
 </genesis>
 <effect id="1879490479" name="Ring of Fire" iconId="1092967970" duration="2.0"/>
-<instantVitalEffect id="1879490484" name="Shaken" stat="Health_MaxLevel">
+<instantVitalEffect id="1879490484" name="Shaken" stat="Health_MaxLevel" damageType="8">
 <vitalChange progressionID="1879383395" modifiers="268444731,268444732,268462736" vpsMultiplier="30.0"/>
 </instantVitalEffect>
 <comboEffect id="1879490486" name="DNT">
@@ -47418,11 +47418,11 @@
 <propertyModEffect id="1879490927" name="Fell-shield" appliedDescription="key:621096835:54354734" iconId="1092979838" duration="10.0"/>
 <effect id="1879490935" name="Trembling Air" iconId="1092979865" duration="3.0" pulseCount="5"/>
 <effect id="1879490942" name="Trembling Air" iconId="1092979865" duration="1.0" pulseCount="15"/>
-<instantVitalEffect id="1879490945" name="Lightning Strike" stat="Health_MaxLevel">
+<instantVitalEffect id="1879490945" name="Lightning Strike" stat="Health_MaxLevel" damageType="512">
 <vitalChange progressionID="1879343130"/>
 </instantVitalEffect>
 <effect id="1879490946" name="Trembling Air" iconId="1092979865" duration="4.0" pulseCount="4"/>
-<instantVitalEffect id="1879490948" name="Lightning Strike" stat="Health_MaxLevel">
+<instantVitalEffect id="1879490948" name="Lightning Strike" stat="Health_MaxLevel" damageType="512">
 <vitalChange progressionID="1879180337"/>
 </instantVitalEffect>
 <effect id="1879490950" name="Trembling Air" iconId="1092979865" duration="2.0" pulseCount="8"/>
