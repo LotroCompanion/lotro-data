@@ -1260,7 +1260,7 @@
 <effect id="1879073264" name="Retaliation" appliedDescription="key:620775099:54354734" iconId="1090553897" duration="6.0"/>
 <effect id="1879073267" name="Dispel Shield Swipe"/>
 <effect id="1879073271" name="Dispel Retaliate"/>
-<vitalOverTimeEffect id="1879073276" name="Deep Wound" iconId="1090553903" duration="2.0" pulseCount="13" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879073276" name="Deep Wound" iconId="1090553903" duration="2.0" pulseCount="13" pulseCountMods="268443484" stat="Health_MaxLevel">
 <initialChange progressionID="1879367855" modifiers="268462735,268452371,268458001" vpsMultiplier="0.2185"/>
 <overTimeChange progressionID="1879367855" modifiers="268462739,268452371,268458001" vpsMultiplier="0.1615"/>
 </vitalOverTimeEffect>
@@ -1281,7 +1281,7 @@
 <toGiveBackIfPresent id="1879386424" name="Mischevious Glee"/>
 <toExamine id="1879386424" name="Mischevious Glee"/>
 </comboEffect>
-<vitalOverTimeEffect id="1879073319" name="Mischievous Glee" iconId="1090553918" duration="3.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879073319" name="Mischievous Glee" iconId="1090553918" duration="3.0" pulseCount="6" pulseCountMods="268437810" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" modifiers="268441250,268448151,268438365,268436764,268462699" vpsMultiplier="52.0"/>
 <overTimeChange progressionID="1879368264" modifiers="268462738,268457114,268448151" vpsMultiplier="4.52"/>
 </vitalOverTimeEffect>
@@ -1867,7 +1867,7 @@
 <vitalChange constant="-0.02"/>
 </instantVitalEffect>
 <effect id="1879085805" name="Shadow Grip" appliedDescription="key:620789350:54354734" iconId="1090532173" duration="4.0" pulseCount="3"/>
-<vitalOverTimeEffect id="1879085950" name="Piercing Wound" iconId="1090555723" duration="3.0" pulseCount="3" stat="Health_MaxLevel" damageType="8192">
+<vitalOverTimeEffect id="1879085950" name="Piercing Wound" iconId="1090555723" duration="3.0" pulseCount="3" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="8192">
 <overTimeChange progressionID="1879413238" variance="0.3" modifiers="268437688,268440648,268453871,268463403"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879086274" name="Dagger Precision" iconId="1090519170">
@@ -3272,7 +3272,7 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620800448:106251889" constant="25.0"/>
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879102818" name="Aggravated Deep Wound" iconId="1091415792" duration="2.0" pulseCount="15" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879102818" name="Aggravated Deep Wound" iconId="1091415792" duration="2.0" pulseCount="15" pulseCountMods="268443484" stat="Health_MaxLevel">
 <initialChange progressionID="1879367855" modifiers="268462735,268452371,268458001" vpsMultiplier="1.045"/>
 <overTimeChange progressionID="1879367855" modifiers="268462739,268452371,268458001" vpsMultiplier="0.798"/>
 </vitalOverTimeEffect>
@@ -3288,7 +3288,7 @@
 <propertyModEffect id="1879102828" name="Fray the Edge V" appliedDescription="key:620800439:54354734" iconId="1091415791" duration="15.0">
 <stat name="Conjunction_CheckPercentChance" descriptionOverride="key:620800439:106251889" constant="15.000001"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879102851" name="Malicious Wound" iconId="1090519171" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879102851" name="Malicious Wound" iconId="1090519171" duration="2.0" pulseCount="5" pulseCountMods="268457120" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268447415,268462739,268457113" vpsMultiplier="1.55"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879102958" name="Shield Wall" appliedDescription="key:620800524:54354734" iconId="1091415795">
@@ -3994,7 +3994,7 @@
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
 <effect id="1879110965" name="DNT - Sabertooth Cat"/>
-<vitalOverTimeEffect id="1879111267" name="Bleeding" iconId="1090541133" duration="2.0" pulseCount="11" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879111267" name="Bleeding" iconId="1090541133" duration="2.0" pulseCount="11" pulseCountMods="268443885" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268443875,268462739,268463261" vpsMultiplier="1.75"/>
 </vitalOverTimeEffect>
 <dispelByResist id="1879111268" name="Remove Corruption" description="key:620806431:181298206" maxDispelCount="3" resistCategories="11"/>
@@ -4077,7 +4077,7 @@
 <stat name="Resist_Additional_Resistance_Magic" constant="50.0"/>
 </propertyModEffect>
 <effect id="1879111467" name="Exit All Harmful States"/>
-<vitalOverTimeEffect id="1879111504" name="Sticky Gourd" iconId="1091455247" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879111504" name="Sticky Gourd" iconId="1091455247" duration="2.0" pulseCount="5" pulseCountMods="268457698" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.05" modifiers="268437688,268462739,268445383,268444750,268444718" vpsMultiplier="3.5"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879111608" name="Adamant" iconId="1091459633" duration="10.0">
@@ -4416,13 +4416,13 @@
 <propertyModEffect id="1879113630" name="Greatly Confounded" appliedDescription="key:620808133:54354734" iconId="1091414348" duration="15.0" pulseCount="1">
 <stat name="ATTACK_DURATION_PERCENTAGE" descriptionOverride="key:620808133:106251889" constant="5.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879113668" name="Defiler's Poison" iconId="1091429131" duration="3.0" pulseCount="4" stat="Health_MaxLevel" damageType="1024">
+<vitalOverTimeEffect id="1879113668" name="Defiler's Poison" iconId="1091429131" duration="3.0" pulseCount="4" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="1024">
 <overTimeChange progressionID="1879413234" variance="0.3" modifiers="268437688,268440525,268455952,268463403"/>
 </vitalOverTimeEffect>
 <effect id="1879113669" name="Random Totem Effect"/>
 <propertyModEffect id="1879113673" name="DNT - Grievous Injury" iconId="1090519170"/>
 <genesis id="1879113684" name=".." appliedDescription="key:620808171:54354734" summonDuration="1800.0"/>
-<vitalOverTimeEffect id="1879113781" name="Fire Gourd" iconId="1091429137" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879113781" name="Fire Gourd" iconId="1091429137" duration="2.0" pulseCount="5" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879413238" variance="0.3" modifiers="268437688,268455952,268463403"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879113826" name="Fleetness" appliedDescription="key:620808232:54354734" iconId="1091463726" duration="20.0">
@@ -4713,7 +4713,7 @@
 <propertyModEffect id="1879117734" name="DNT - Null Effect" appliedDescription="key:620811111:54354734" iconId="1090519170" duration="5.0">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="0.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879117737" name="Safe-guard Heal over Time" iconId="1091471259" duration="3.0" pulseCount="3" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879117737" name="Safe-guard Heal over Time" iconId="1091471259" duration="3.0" pulseCount="3" pulseCountMods="268444839,268457667" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" modifiers="268444920,268457675,268445076,268448151,268463743,268462699" vpsMultiplier="7.6"/>
 <overTimeChange progressionID="1879368264" modifiers="268444920,268462738,268457675,268448151,268445076,268463743" vpsMultiplier="2.8"/>
 </vitalOverTimeEffect>
@@ -4739,7 +4739,7 @@
 <effect id="1879117774" name="DNT - Root"/>
 </hotspot>
 </genesis>
-<effect id="1879117778" name="Fierce Resolve Morale-tap" iconId="1091719863" duration="4.0" pulseCount="4"/>
+<effect id="1879117778" name="Fierce Resolve Morale-tap" iconId="1091719863" duration="4.0" pulseCount="4" pulseCountMods="268456024"/>
 <vitalOverTimeEffect id="1879117786" name="Lashing Shadows" iconId="1091479303" duration="4.0" stat="Health_MaxLevel" damageType="32">
 <initialChange progressionID="1879085511" modifiers="268437688"/>
 <overTimeChange progressionID="1879085512" modifiers="268437688"/>
@@ -5068,11 +5068,11 @@
 <effect id="1879134474" name="Exit Knocked Down and Knocked Out" description="key:620826232:181298206"/>
 <induceCombatState id="1879134521" name="Induce Rooted" state="10" stateDuration="10.0"/>
 <propertyModEffect id="1879134522" name="The Shaking of Arda" appliedDescription="key:620826247:54354734" iconId="1090541218" duration="12.0" pulseCount="1"/>
-<vitalOverTimeEffect id="1879134766" name="Restoration Heal over Time" iconId="1091471247" duration="3.0" pulseCount="3" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879134766" name="Restoration Heal over Time" iconId="1091471247" duration="3.0" pulseCount="3" pulseCountMods="268444839,268457667" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" modifiers="268444920,268457675,268445076,268448151,268463744,268462699" vpsMultiplier="11.4"/>
 <overTimeChange progressionID="1879368264" modifiers="268444920,268462738,268457675,268448151,268445076,268463744" vpsMultiplier="5.4"/>
 </vitalOverTimeEffect>
-<effect id="1879134767" name="Exultation of Battle Morale-tap" iconId="1091719853" duration="4.0" pulseCount="4"/>
+<effect id="1879134767" name="Exultation of Battle Morale-tap" iconId="1091719853" duration="4.0" pulseCount="4" pulseCountMods="268456024"/>
 <propertyModEffect id="1879134788" name="Reduced Miss Chance" iconId="1091475959" duration="5.0" expiresInRealTime="true">
 <stat name="Combat_BaseMissRate" operator="SUBSTRACT" constant="15.000001"/>
 </propertyModEffect>
@@ -5726,10 +5726,10 @@
 <effect id="1879141010" name="Scroll Case"/>
 <effect id="1879141011" name="Scroll Case"/>
 <effect id="1879141012" name="Scroll Case"/>
-<vitalOverTimeEffect id="1879141022" name="Mutilation" iconId="1091472532" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="4096">
+<vitalOverTimeEffect id="1879141022" name="Mutilation" iconId="1091472532" duration="2.0" pulseCount="5" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="4096">
 <overTimeChange progressionID="1879413249" variance="0.3" modifiers="268437688,268463404,268455951,268463403"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879141023" name="Laceration" iconId="1091472529" duration="2.0" pulseCount="10" stat="Health_MaxLevel" damageType="4096">
+<vitalOverTimeEffect id="1879141023" name="Laceration" iconId="1091472529" duration="2.0" pulseCount="10" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="4096">
 <overTimeChange progressionID="1879413249" variance="0.3" modifiers="268437688,268463404,268455951,268463403"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879141025" name="Increased Morale" stat="Health_MaxLevel">
@@ -5748,7 +5748,7 @@
 <effect id="1879141026" name="Increased Power" probability="0.1"/>
 </defender>
 </reactiveVitalEffect>
-<vitalOverTimeEffect id="1879141126" name="Vital Wound" iconId="1091405167" duration="2.0" pulseCount="10" stat="Health_MaxLevel" damageType="4096">
+<vitalOverTimeEffect id="1879141126" name="Vital Wound" iconId="1091405167" duration="2.0" pulseCount="10" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="4096">
 <overTimeChange progressionID="1879413249" variance="0.3" modifiers="268437688,268455954,268463403"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879141127" name="Increased Morale" stat="Health_MaxLevel">
@@ -6024,7 +6024,7 @@
 <effect id="1879136246" name="Horror"/>
 </hotspot>
 </genesis>
-<vitalOverTimeEffect id="1879143750" name="Conviction" iconId="1091478183" duration="3.0" pulseCount="3" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879143750" name="Conviction" iconId="1091478183" duration="3.0" pulseCount="3" pulseCountMods="268444839,268457667" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" modifiers="268444920,268445438,268445076,268448151,268463744,268462699" vpsMultiplier="6.28"/>
 <overTimeChange progressionID="1879368264" modifiers="268444920,268462738,268445438,268448151,268445076,268463744" vpsMultiplier="2.0"/>
 </vitalOverTimeEffect>
@@ -6057,10 +6057,10 @@
 <initialChange progressionID="1879056994" modifiers="268440271"/>
 <overTimeChange progressionID="1879056994" modifiers="268440271"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879143974" name="Bloody Maul" iconId="1091474180" duration="2.0" pulseCount="10" stat="Health_MaxLevel" damageType="8192">
+<vitalOverTimeEffect id="1879143974" name="Bloody Maul" iconId="1091474180" duration="2.0" pulseCount="10" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="8192">
 <overTimeChange progressionID="1879413249" variance="0.3" modifiers="268437688,268463403"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879144624" name="Maul" iconId="1091474180" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="8192">
+<vitalOverTimeEffect id="1879144624" name="Maul" iconId="1091474180" duration="2.0" pulseCount="5" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="8192">
 <overTimeChange progressionID="1879413249" variance="0.3" modifiers="268437688,268463403"/>
 </vitalOverTimeEffect>
 <recallEffect id="1879144701" name="Travel to Bree" description="key:620832282:181298206">
@@ -6136,7 +6136,7 @@
 </propertyModEffect>
 <effect id="1879145939" name="Chief Guard's Uniform"/>
 <effect id="1879145940" name="Lieutenant's Uniform"/>
-<vitalOverTimeEffect id="1879146034" name="Persevere Heal over Time" iconId="1092810674" duration="3.0" pulseCount="3" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879146034" name="Persevere Heal over Time" iconId="1092810674" duration="3.0" pulseCount="3" pulseCountMods="268444839,268457667" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" modifiers="268444920,268457675,268445076,268448151,268463742,268462699" vpsMultiplier="4.8"/>
 <overTimeChange progressionID="1879368264" modifiers="268444920,268462738,268457675,268448151,268445076,268463742" vpsMultiplier="2.14"/>
 </vitalOverTimeEffect>
@@ -6161,7 +6161,7 @@
 </fellowshipEffect>
 <effect id="1879146754" name="Distracting Flame" description="key:620833431:181298206" appliedDescription="key:620833431:54354734" iconId="1091511271" duration="3.0" pulseCount="5"/>
 <effect id="1879146759" name="Mystifying Flame" description="key:620833432:181298206" appliedDescription="key:620833432:54354734" iconId="1091511272" duration="3.0" pulseCount="5"/>
-<vitalOverTimeEffect id="1879146782" name="Tainted Kiss" iconId="1090555724" duration="3.0" pulseCount="10" stat="Health_MaxLevel" damageType="1024">
+<vitalOverTimeEffect id="1879146782" name="Tainted Kiss" iconId="1090555724" duration="3.0" pulseCount="10" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="1024">
 <overTimeChange progressionID="1879413238" variance="0.3" modifiers="268437688,268440525,268453871,268463403"/>
 </vitalOverTimeEffect>
 <recallEffect id="1879146909" name="Warden Travel to Moria">
@@ -6283,7 +6283,7 @@
 <overTimeChange progressionID="1879413239" variance="0.1"/>
 </vitalOverTimeEffect>
 <dispelByResist id="1879148723" name="Remove Corruption" probability="0.25" maxDispelCount="1" resistCategories="11"/>
-<vitalOverTimeEffect id="1879149203" name="Toxin" iconId="1091474612" duration="3.0" pulseCount="10" stat="Power_MaxLevel">
+<vitalOverTimeEffect id="1879149203" name="Toxin" iconId="1091474612" duration="3.0" pulseCount="10" pulseCountMods="268456021" stat="Power_MaxLevel">
 <overTimeChange progressionID="1879413280" variance="0.3"/>
 </vitalOverTimeEffect>
 <effect id="1879149230" name="" iconId="1090519170"/>
@@ -6293,7 +6293,7 @@
 <genesis id="1879149336" name=".." appliedDescription="key:620834991:54354734" summonDuration="1800.0"/>
 <genesis id="1879149348" name=".." appliedDescription="key:620835000:54354734" summonDuration="1800.0"/>
 <effect id="1879149379" name="DNT - Do Nothing" appliedDescription="key:620835020:54354734" iconId="1090519170" duration="1.0"/>
-<vitalOverTimeEffect id="1879149396" name="Flaming Arrow" iconId="1090553300" duration="2.0" pulseCount="10" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879149396" name="Flaming Arrow" iconId="1090553300" duration="2.0" pulseCount="10" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="16">
 <initialChange progressionID="1879413243" variance="0.3" modifiers="268437688,268455954"/>
 <overTimeChange progressionID="1879413238" variance="0.3" modifiers="268437688,268455954,268463403"/>
 </vitalOverTimeEffect>
@@ -6670,7 +6670,7 @@
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="75.0"/>
 <stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="75.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879152917" name="Savage Wound" iconId="1090529658" duration="2.0" pulseCount="10" stat="Health_MaxLevel" damageType="8192">
+<vitalOverTimeEffect id="1879152917" name="Savage Wound" iconId="1090529658" duration="2.0" pulseCount="10" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="8192">
 <initialChange progressionID="1879413249" variance="0.3" modifiers="268437688"/>
 <overTimeChange progressionID="1879413249" variance="0.3" modifiers="268437688,268463403"/>
 </vitalOverTimeEffect>
@@ -7340,7 +7340,7 @@
 <effect id="1879159419" name="Brother of Destruction"/>
 <effect id="1879159660" name="DNT - Banner of Armour" iconId="1090541115"/>
 <effect id="1879159661" name="DNT - Herbalist's Care" iconId="1090541080"/>
-<effect id="1879159684" name="Controlled Burn" appliedDescription="key:620842010:54354734" iconId="1090644843" duration="5.0" pulseCount="6"/>
+<effect id="1879159684" name="Controlled Burn" appliedDescription="key:620842010:54354734" iconId="1090644843" duration="5.0" pulseCount="6" pulseCountMods="268447332"/>
 <propertyModEffect id="1879159847" name="Welcome Back Weekend" appliedDescription="key:620842126:54354734" iconId="1090538247">
 <stat name="XP_AwardMultiplier" descriptionOverride="key:620842126:106251889" constant="100.0"/>
 <stat name="XP_QuestAwardMultiplier" descriptionOverride="-" constant="100.0"/>
@@ -9102,7 +9102,7 @@
 <effect id="1879167580" name="DNT - Healing Totem"/>
 <effect id="1879167581" name="DNT - War Banner"/>
 <effect id="1879172244" name="Participating in a Skirmish" appliedDescription="key:620852006:54354734" iconId="1091537510"/>
-<vitalOverTimeEffect id="1879172884" name="Soliloquy of Spirit" iconId="1091451423" duration="3.0" pulseCount="15" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879172884" name="Soliloquy of Spirit" iconId="1091451423" duration="3.0" pulseCount="15" pulseCountMods="268444882" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268445824,268448151,268448537" vpsMultiplier="0.73"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879172910" name="Fellowship's Heart" iconId="1090561250" duration="3.0" pulseCount="10" stat="Health_MaxLevel">
@@ -9328,66 +9328,66 @@
 <effect id="1879081262" name="Deadly Inferno"/>
 </hotspot>
 </genesis>
-<vitalOverTimeEffect id="1879174060" name="Fiery Ridicule - Tier 1" description="key:620853179:181298206" iconId="1091440847" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879174060" name="Fiery Ridicule - Tier 1" description="key:620853179:181298206" iconId="1091440847" duration="3.0" pulseCount="5" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268444775,268443435" vpsMultiplier="0.7300934"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174061" name="Writ of Fire - Tier 1" iconId="1091494886" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879174061" name="Writ of Fire - Tier 1" iconId="1091494886" duration="3.0" pulseCount="5" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <initialChange progressionID="1879383395" variance="0.3" modifiers="268445383,268443435,268462735,268445800" vpsMultiplier="1.7397324"/>
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268445800,268443435" vpsMultiplier="0.61607"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174076" name="Writ of Fire - Tier 2" iconId="1091494887" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879174076" name="Writ of Fire - Tier 2" iconId="1091494887" duration="3.0" pulseCount="5" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <initialChange progressionID="1879383395" variance="0.3" modifiers="268445383,268443435,268462735,268445800" vpsMultiplier="1.8856454"/>
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268445800,268443435" vpsMultiplier="0.7392839"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174077" name="Writ of Fire - Tier 3" iconId="1091494888" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879174077" name="Writ of Fire - Tier 3" iconId="1091494888" duration="3.0" pulseCount="5" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <initialChange progressionID="1879383395" variance="0.3" modifiers="268445383,268443435,268462735,268445800" vpsMultiplier="2.0764549"/>
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268445800,268443435" vpsMultiplier="0.8800999"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174078" name="Writ of Fire - Tier 2" iconId="1091494887" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879174078" name="Writ of Fire - Tier 2" iconId="1091494887" duration="3.0" pulseCount="5" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <initialChange progressionID="1879383395" variance="0.3" modifiers="268445383,268443435,268462735,268445800" vpsMultiplier="1.8856454"/>
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268445800,268443435" vpsMultiplier="0.7392839"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174079" name="Writ of Fire - Tier 3" iconId="1091494888" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879174079" name="Writ of Fire - Tier 3" iconId="1091494888" duration="3.0" pulseCount="5" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <initialChange progressionID="1879383395" variance="0.3" modifiers="268445383,268443435,268462735,268445800" vpsMultiplier="2.0764549"/>
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268445800,268443435" vpsMultiplier="0.8800999"/>
 </vitalOverTimeEffect>
 <effect id="1879174081" name="Terrified Mount" appliedDescription="key:620853185:54354734" iconId="1091537510"/>
-<vitalOverTimeEffect id="1879174144" name="Fiery Ridicule - Tier 2" iconId="1091440847" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879174144" name="Fiery Ridicule - Tier 2" iconId="1091440847" duration="3.0" pulseCount="5" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268444775,268443435" vpsMultiplier="0.8837973"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174145" name="Fiery Ridicule - Tier 3" iconId="1091440847" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879174145" name="Fiery Ridicule - Tier 3" iconId="1091440847" duration="3.0" pulseCount="5" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268444775,268443435" vpsMultiplier="1.0246925"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174148" name="Scathing Mockery" iconId="1091440845" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879174148" name="Scathing Mockery" iconId="1091440845" duration="3.0" pulseCount="5" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268443435" vpsMultiplier="1.188432"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174153" name="Writ of Health - Tier 1" iconId="1091478107" duration="4.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879174153" name="Writ of Health - Tier 1" iconId="1091478107" duration="4.0" pulseCount="6" pulseCountMods="268464585" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268462699,268445802" vpsMultiplier="1.881"/>
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268443431,268445802,268448151" vpsMultiplier="2.2275"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174154" name="Prelude to Hope" iconId="1091454167" duration="1.0" pulseCount="12" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879174154" name="Prelude to Hope" iconId="1091454167" duration="1.0" pulseCount="12" pulseCountMods="268445804,268464585" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268462699,268443235,268452161" vpsMultiplier="5.0"/>
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268443431,268443235,268448151" vpsMultiplier="1.75"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174155" name="Mending Verse" iconId="1091454164" duration="2.0" pulseCount="3" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879174155" name="Mending Verse" iconId="1091454164" duration="2.0" pulseCount="3" pulseCountMods="268446514,268464585" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268462699,268445802,268445808" vpsMultiplier="14.0"/>
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268443431,268445808,268448151" vpsMultiplier="0.5"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174156" name="Writ of Health - Tier 3" iconId="1091478106" duration="4.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879174156" name="Writ of Health - Tier 3" iconId="1091478106" duration="4.0" pulseCount="6" pulseCountMods="268464585" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268462699,268445802" vpsMultiplier="2.8215"/>
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268443431,268445802,268448151" vpsMultiplier="3.2175"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174158" name="Writ of Health - Tier 2" iconId="1091478108" duration="4.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879174158" name="Writ of Health - Tier 2" iconId="1091478108" duration="4.0" pulseCount="6" pulseCountMods="268464585" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268462699,268445802" vpsMultiplier="2.35125"/>
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268443431,268445802,268448151" vpsMultiplier="2.7225"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174159" name="Essay of Exaltation" iconId="1091515776" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879174159" name="Essay of Exaltation" iconId="1091515776" duration="2.0" pulseCount="5" pulseCountMods="268464585" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268443431,268448151,268459155" vpsMultiplier="1.52"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174162" name="Mystifying Flame" appliedDescription="key:620853259:54354734" iconId="1091511272" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879174162" name="Mystifying Flame" appliedDescription="key:620853259:54354734" iconId="1091511272" duration="3.0" pulseCount="5" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268443435" vpsMultiplier="1.5211929"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174163" name="Distracting Flame" appliedDescription="key:620853260:54354734" iconId="1091511271" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879174163" name="Distracting Flame" appliedDescription="key:620853260:54354734" iconId="1091511271" duration="3.0" pulseCount="5" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268445803,268443435" vpsMultiplier="0.76059645"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879174182" name="Epic for the Ages" stat="Health_MaxLevel">
@@ -9397,7 +9397,7 @@
 <initialChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268443825,268444410,268458044,268462707" vpsMultiplier="17.76"/>
 <overTimeChange progressionID="1879368264" variance="0.2" modifiers="268441250,268462738,268443825,268444410,268448151" vpsMultiplier="0.444"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879174314" name="Words of Courage" iconId="1090541083" duration="3.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879174314" name="Words of Courage" iconId="1090541083" duration="3.0" pulseCount="5" pulseCountMods="268452102" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" modifiers="268441250,268448151,268443825,268435922,268455083,268462699" vpsMultiplier="11.1"/>
 <overTimeChange progressionID="1879368264" modifiers="268441250,268462738,268443825,268435922,268448151,268455083" vpsMultiplier="1.332"/>
 </vitalOverTimeEffect>
@@ -9419,16 +9419,16 @@
 <recallEffect id="1879176051" name="Travel to Mirkwood">
 <position region="2" longitude="-51.529167" latitude="-14.354053"/>
 </recallEffect>
-<vitalOverTimeEffect id="1879176151" name="Glowing Arrow" iconId="1090553928" duration="2.0" pulseCount="6" stat="Health_MaxLevel" damageType="64">
+<vitalOverTimeEffect id="1879176151" name="Glowing Arrow" iconId="1090553928" duration="2.0" pulseCount="6" pulseCountMods="268438448,268462116" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855" modifiers="268457568,268462739,268457569,268445385,268444108" vpsMultiplier="0.65"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879176152" name="Barbed Arrow" iconId="1090553904" duration="2.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879176152" name="Barbed Arrow" iconId="1090553904" duration="2.0" pulseCount="6" pulseCountMods="268438448,268462116" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268457568,268462739,268457569,268444108" vpsMultiplier="0.65"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879176153" name="Burning Arrow" iconId="1090553929" duration="2.0" pulseCount="6" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879176153" name="Burning Arrow" iconId="1090553929" duration="2.0" pulseCount="6" pulseCountMods="268438448,268462116" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879367855" modifiers="268457568,268462739,268457569,268445383,268444108" vpsMultiplier="0.65"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879176154" name="Bleeding" iconId="1090523948" duration="2.0" pulseCount="5" probabilityModProperty="268444123" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879176154" name="Bleeding" iconId="1090523948" duration="2.0" pulseCount="5" pulseCountMods="268462116" probabilityModProperty="268444123" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268457569,268444108" vpsMultiplier="0.38"/>
 </vitalOverTimeEffect>
 <recallEffect id="1879176282" name="Travel to Mirk-eaves">
@@ -9898,7 +9898,7 @@
 <stat name="VITALITY" scaling="1879211544"/>
 <stat name="AGILITY" scaling="1879211572"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879182801" name="Mischievous Delight" iconId="1091585415" duration="3.0" pulseCount="6" stat="Power_MaxLevel">
+<vitalOverTimeEffect id="1879182801" name="Mischievous Delight" iconId="1091585415" duration="3.0" pulseCount="6" pulseCountMods="268437810" stat="Power_MaxLevel">
 <initialChange progressionID="1879262630" vpsMultiplier="1.0"/>
 <overTimeChange progressionID="1879262623" vpsMultiplier="1.0"/>
 </vitalOverTimeEffect>
@@ -13333,13 +13333,13 @@
 <toAddIfNotPresent id="1879117734" name="DNT - Null Effect"/>
 </comboEffect>
 <induceCombatState id="1879210497" name="Stunned" description="key:620880614:181298206" probabilityModProperty="268451625" state="15" stateDuration="3.0"/>
-<vitalOverTimeEffect id="1879210499" name="Savage Wound (2)" iconId="1091657096" duration="2.0" pulseCount="10" stat="Health_MaxLevel" damageType="4096">
+<vitalOverTimeEffect id="1879210499" name="Savage Wound (2)" iconId="1091657096" duration="2.0" pulseCount="10" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="4096">
 <overTimeChange progressionID="1879413252" variance="0.3" modifiers="268437688,268455951,268463403"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879210500" name="Savage Wound" iconId="1091657095" duration="2.0" pulseCount="10" stat="Health_MaxLevel" damageType="4096">
+<vitalOverTimeEffect id="1879210500" name="Savage Wound" iconId="1091657095" duration="2.0" pulseCount="10" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="4096">
 <overTimeChange progressionID="1879413238" variance="0.3" modifiers="268437688,268455951,268463403"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879210504" name="Savage Wound (3)" iconId="1091657097" duration="2.0" pulseCount="10" stat="Health_MaxLevel" damageType="4096">
+<vitalOverTimeEffect id="1879210504" name="Savage Wound (3)" iconId="1091657097" duration="2.0" pulseCount="10" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="4096">
 <overTimeChange progressionID="1879413241" variance="0.3" modifiers="268437688,268455951,268463403"/>
 </vitalOverTimeEffect>
 <effect id="1879210533" name="DNT"/>
@@ -14509,7 +14509,7 @@
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.2"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.2"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879220532" name="Wizard's Fire Burn" iconId="1092754585" duration="2.0" pulseCount="3" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879220532" name="Wizard's Fire Burn" iconId="1092754585" duration="2.0" pulseCount="3" pulseCountMods="268462788" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.1" modifiers="268443509,268462739,268445383,268444750,268464926" vpsMultiplier="0.575"/>
 </vitalOverTimeEffect>
 <induceCombatState id="1879220553" name="Induce Stunned" probabilityModProperty="268452081" state="15" stateDuration="3.0"/>
@@ -15381,7 +15381,7 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879226361" name="Mephitic Kiss" iconId="1091474607" duration="3.0" pulseCount="10" stat="Health_MaxLevel" damageType="1024">
+<vitalOverTimeEffect id="1879226361" name="Mephitic Kiss" iconId="1091474607" duration="3.0" pulseCount="10" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="1024">
 <overTimeChange progressionID="1879413238" variance="0.3" modifiers="268437688,268440525,268453871,268463403"/>
 </vitalOverTimeEffect>
 <effect id="1879226524" name="DNT - Pull Toward"/>
@@ -15622,7 +15622,7 @@
 <instantVitalEffect id="1879228581" name="Drink Deep" stat="Health_MaxLevel">
 <vitalChange progressionID="1879413261" variance="0.1" modifiers="268440271,268448151"/>
 </instantVitalEffect>
-<vitalOverTimeEffect id="1879228616" name="Virulent Poison" appliedDescription="key:620893635:54354734" iconId="1091695309" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="1024">
+<vitalOverTimeEffect id="1879228616" name="Virulent Poison" appliedDescription="key:620893635:54354734" iconId="1091695309" duration="3.0" pulseCount="5" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="1024">
 <overTimeChange progressionID="1879413234" variance="0.3" modifiers="268437688,268440525,268453871,268463403"/>
 </vitalOverTimeEffect>
 <effect id="1879228702" name="Trophy Display" description="key:620893716:181298206" appliedDescription="key:620893716:54354734" iconId="1090523647"/>
@@ -15648,7 +15648,7 @@
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="8.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="8.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879229148" name="Poison Spray" iconId="1090555728" duration="3.0" pulseCount="10" stat="Health_MaxLevel" damageType="1024">
+<vitalOverTimeEffect id="1879229148" name="Poison Spray" iconId="1090555728" duration="3.0" pulseCount="10" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="1024">
 <initialChange progressionID="1879413252" variance="0.3" modifiers="268453871,268437688"/>
 <overTimeChange progressionID="1879413243" variance="0.3" modifiers="268437688,268440525,268453871,268463403"/>
 </vitalOverTimeEffect>
@@ -15771,7 +15771,7 @@
 <recallEffect id="1879229994" name="Travel to Stangard">
 <position region="2" longitude="-63.067986" latitude="-26.437109"/>
 </recallEffect>
-<vitalOverTimeEffect id="1879230027" name="Explosive Gourd" iconId="1091473734" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879230027" name="Explosive Gourd" iconId="1091473734" duration="2.0" pulseCount="5" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879413234" variance="0.3" modifiers="268437688,268455952,268463403"/>
 </vitalOverTimeEffect>
 <effect id="1879230124" name="Bring it on"/>
@@ -15780,13 +15780,13 @@
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="15.000001"/>
 </propertyModEffect>
 <effect id="1879230271" name="Bad Smell Air!" appliedDescription="key:620894993:54354734" iconId="1090519170" duration="3.0" pulseCount="100"/>
-<vitalOverTimeEffect id="1879230321" name="Raking claw Bleed" iconId="1090555730" duration="4.0" pulseCount="4" stat="Health_MaxLevel" damageType="8192">
+<vitalOverTimeEffect id="1879230321" name="Raking claw Bleed" iconId="1090555730" duration="4.0" pulseCount="4" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="8192">
 <overTimeChange progressionID="1879413249" variance="0.3" modifiers="268437688,268463403"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879230395" name="Brute Festering Wound" iconId="1091718774" duration="10.0" probability="0.05" probabilityModProperty="268454049">
 <stat name="INCOMING_HEALING_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:620895103:106251889" constant="25.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879230396" name="Agonizing Maul" iconId="1091474180" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="8192">
+<vitalOverTimeEffect id="1879230396" name="Agonizing Maul" iconId="1091474180" duration="2.0" pulseCount="5" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="8192">
 <overTimeChange progressionID="1879413243" variance="0.3" modifiers="268437688,268463403"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879230415" name="Sudden Maul" iconId="1091474180" duration="30.0">
@@ -16267,7 +16267,7 @@
 </comboEffect>
 <effect id="1879232629" name="Smouldering Wrath" iconId="1091440849" duration="1.0"/>
 <effect id="1879232632" name="Smouldering Wrath" iconId="1091440849" duration="0.5"/>
-<vitalOverTimeEffect id="1879232649" name="Rune-sign" iconId="1092815071" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879232649" name="Rune-sign" iconId="1092815071" duration="3.0" pulseCount="4" pulseCountMods="268464585" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268462699,268459151" vpsMultiplier="22.0"/>
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268443431,268448151,268459151" vpsMultiplier="0.6"/>
 </vitalOverTimeEffect>
@@ -16738,7 +16738,7 @@
 <instantVitalEffect id="1879238130" name="Lend Power - Fellowship" stat="Power_MaxLevel">
 <vitalChange progressionID="1879457132" variance="0.3" modifiers="268448538,268448151" vpsMultiplier="1.0"/>
 </instantVitalEffect>
-<vitalOverTimeEffect id="1879238163" name="Water-lore" iconId="1090553873" duration="4.0" pulseCount="8" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879238163" name="Water-lore" iconId="1090553873" duration="4.0" pulseCount="8" pulseCountMods="268455616" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" modifiers="268441250,268462699,268448151" vpsMultiplier="3.25"/>
 <overTimeChange progressionID="1879368264" variance="0.05" modifiers="268441250,268462738,268448151" vpsMultiplier="2.0"/>
 </vitalOverTimeEffect>
@@ -16869,7 +16869,7 @@
 <propertyModEffect id="1879239433" name="Bracing Attack" iconId="1091734464" duration="5.0">
 <stat name="PVPCombat_ArmorRating_Physical" constant="5.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879239456" name="Flayed Flesh[e]" iconId="1091737320" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879239456" name="Flayed Flesh[e]" iconId="1091737320" duration="3.0" pulseCount="4" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468800" modifiers="268456012"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879239461" name="Mounted" iconId="1090519170">
@@ -16917,7 +16917,7 @@
 <propertyModEffect id="1879239478" name="Rohirrim Male - Helmet" iconId="1091414340"/>
 <propertyModEffect id="1879239479" name="Rohirrim Male - Default" iconId="1091414340"/>
 <effect id="1879239487" name="Mounted on a War-steed" appliedDescription="key:620900384:54354734" iconId="1090519170"/>
-<vitalOverTimeEffect id="1879239489" name="Seeking Arrow - Bleed[e]" iconId="1091737320" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879239489" name="Seeking Arrow - Bleed[e]" iconId="1091737320" duration="3.0" pulseCount="4" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468797" modifiers="268456012"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879239490" name="Riddermark" iconId="1091737491">
@@ -16969,18 +16969,18 @@
 <initialChange progressionID="1879468794"/>
 <overTimeChange progressionID="1879468794"/>
 </vitalOverTimeEffect>
-<effect id="1879239540" name="Generate Threat" description="key:620900435:181298206" appliedDescription="key:620900435:54354734" iconId="1091747181" duration="4.0" pulseCount="4"/>
-<vitalOverTimeEffect id="1879239551" name="Spread of Arrows" iconId="1091737754" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
+<effect id="1879239540" name="Generate Threat" description="key:620900435:181298206" appliedDescription="key:620900435:54354734" iconId="1091747181" duration="4.0" pulseCount="4" pulseCountMods="268455679"/>
+<vitalOverTimeEffect id="1879239551" name="Spread of Arrows" iconId="1091737754" duration="3.0" pulseCount="4" pulseCountMods="268456015" stat="Health_MaxLevel">
 <initialChange progressionID="1879239422" modifiers="268456012" vpsMultiplier="0.0"/>
 <overTimeChange progressionID="1879239422" modifiers="268456012" vpsMultiplier="0.0"/>
 </vitalOverTimeEffect>
 <effect id="1879239566" name="DNT - Dispel Mount" description="key:620900462:181298206" appliedDescription="key:620900462:54354734" probability="0.05"/>
 <effect id="1879239568" name="DNT - Dispel Mount" description="key:620900463:181298206" appliedDescription="key:620900463:54354734" probability="0.25"/>
-<vitalOverTimeEffect id="1879239585" name="Spread of Arrows" iconId="1091737754" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879239585" name="Spread of Arrows" iconId="1091737754" duration="3.0" pulseCount="4" pulseCountMods="268456015" stat="Health_MaxLevel">
 <initialChange progressionID="1879239422" modifiers="268456012" vpsMultiplier="0.0"/>
 <overTimeChange progressionID="1879239422" modifiers="268456012" vpsMultiplier="0.0"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879239586" name="Spread of Arrows" iconId="1091737754" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879239586" name="Spread of Arrows" iconId="1091737754" duration="3.0" pulseCount="4" pulseCountMods="268456015" stat="Health_MaxLevel">
 <initialChange progressionID="1879239422" modifiers="268456012" vpsMultiplier="0.0"/>
 <overTimeChange progressionID="1879239422" modifiers="268456012" vpsMultiplier="0.0"/>
 </vitalOverTimeEffect>
@@ -17053,7 +17053,7 @@
 <stat name="Skill_Champion_Mounted_Fervour_Pulse_Boost" descriptionOverride="-" constant="2.0"/>
 <stat name="Skill_Champion_Mounted_Fervour_Halt_Chance" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879240582" name="Swift Bleed[e]" iconId="1091739266" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879240582" name="Swift Bleed[e]" iconId="1091739266" duration="2.0" pulseCount="5" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468799" modifiers="268456012"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879240585" name="Dazed and Confused" iconId="1091737494" duration="10.0">
@@ -17061,10 +17061,10 @@
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" descriptionOverride="-" constant="0.8"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="20.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879240588" name="Critical Bleed[e]" iconId="1091739273" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879240588" name="Critical Bleed[e]" iconId="1091739273" duration="3.0" pulseCount="4" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468800" modifiers="268456012"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879240589" name="Deep Gash[e]" iconId="1091739262" duration="3.0" pulseCount="1" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879240589" name="Deep Gash[e]" iconId="1091739262" duration="3.0" pulseCount="1" pulseCountMods="268456015,268456046" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468798" modifiers="268456012"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879240592" name="Discipline: Red Dawn" iconId="1091739267">
@@ -17395,7 +17395,7 @@
 <effect id="1879241621" name="Healing Hammer - Morale"/>
 <effect id="1879248964" name="Healing Hammer - Morale"/>
 </fellowshipEffect>
-<vitalOverTimeEffect id="1879241620" name="Healing Hammer - Power" iconId="1091741030" duration="3.0" pulseCount="4" stat="Power_MaxLevel">
+<vitalOverTimeEffect id="1879241620" name="Healing Hammer - Power" iconId="1091741030" duration="3.0" pulseCount="4" pulseCountMods="268455740" stat="Power_MaxLevel">
 <initialChange progressionID="1879252971" variance="0.25" modifiers="268455686,268448151" vpsMultiplier="0.6"/>
 <overTimeChange progressionID="1879252973" variance="0.2" modifiers="268455686,268448151" vpsMultiplier="0.2"/>
 </vitalOverTimeEffect>
@@ -17469,7 +17469,7 @@
 <stat name="Combat_Agent_MountArmor_Value_Float" descriptionOverride="key:620902312:106251890" constant="250.0"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="key:620902312:106251891" constant="20.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879241975" name="Critical Bleed[e]" iconId="1091741462" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879241975" name="Critical Bleed[e]" iconId="1091741462" duration="3.0" pulseCount="4" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468798" modifiers="268456012"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879241983" name="Winded" iconId="1090519170" duration="10.0"/>
@@ -17542,7 +17542,7 @@
 <specialEffect label="key:620902407:106251889"/>
 <stat name="Combat_BaseMissRate" constant="50.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879242078" name="Enduring Embers" iconId="1091742017" duration="4.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879242078" name="Enduring Embers" iconId="1091742017" duration="4.0" pulseCount="5" pulseCountMods="268456015" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879252580" variance="0.1" modifiers="268456012,268455581" vpsMultiplier="0.3"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879242092" name="Cleanse" iconId="1091568210" duration="8.0">
@@ -17712,7 +17712,7 @@
 <instantVitalEffect id="1879243300" name="Cry Havoc - Morale" stat="MountEndurance_MaxLevel">
 <vitalChange progressionID="1879252963" variance="0.3" modifiers="268455686,268448151" vpsMultiplier="1.4"/>
 </instantVitalEffect>
-<vitalOverTimeEffect id="1879243302" name="Oppressive Blow - Bleed" iconId="1091742742" duration="4.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879243302" name="Oppressive Blow - Bleed" iconId="1091742742" duration="4.0" pulseCount="5" pulseCountMods="268456015" stat="Health_MaxLevel">
 <initialChange progressionID="1879468799" modifiers="268456012"/>
 <overTimeChange progressionID="1879468794" modifiers="268456012"/>
 </vitalOverTimeEffect>
@@ -17815,10 +17815,10 @@
 <stat name="Combat_Agent_MountArmor_Value_Float" descriptionOverride="key:620904254:106251890" constant="200.0"/>
 <stat name="Skill_PowerCost_AllSkills" descriptionOverride="-" constant="-20.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879244213" name="Ride By Bleed" iconId="1091737490" duration="5.0" pulseCount="2" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879244213" name="Ride By Bleed" iconId="1091737490" duration="5.0" pulseCount="2" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468798" modifiers="268456012,268457158"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879244215" name="Keen Strike Bleed" iconId="1091737490" duration="1.0" pulseCount="3" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879244215" name="Keen Strike Bleed" iconId="1091737490" duration="1.0" pulseCount="3" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468800" modifiers="268456012,268457158"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879244217" name="Slowed" iconId="1091744016" duration="10.0">
@@ -17832,7 +17832,7 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <effect id="1879244232" name="DNT - Dispel Burglar Trick"/>
-<vitalOverTimeEffect id="1879244233" name="All in the Wrist Bleed" iconId="1091737490" duration="3.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879244233" name="All in the Wrist Bleed" iconId="1091737490" duration="3.0" pulseCount="6" pulseCountMods="268456015,268456715" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468794" modifiers="268456012,268457158"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879244325" name="Improved Against The Odds" iconId="1090519170"/>
@@ -17966,7 +17966,7 @@
 <instantVitalEffect id="1879244526" name="Roar of the Eorlingas" stat="MountEndurance_MaxLevel">
 <vitalChange progressionID="1879253038" modifiers="268455862,268448151"/>
 </instantVitalEffect>
-<vitalOverTimeEffect id="1879244528" name="Assault of the Eorlingas" iconId="1091737490" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879244528" name="Assault of the Eorlingas" iconId="1091737490" duration="3.0" pulseCount="4" pulseCountMods="268455604,268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468800" modifiers="268456012"/>
 </vitalOverTimeEffect>
 <comboEffect id="1879244558" name="DNT">
@@ -18074,10 +18074,10 @@
 <vitalOverTimeEffect id="1879245274" name="Fixation of Health - Steed - 1" iconId="1091745001" duration="3.0" pulseCount="6" stat="MountEndurance_MaxLevel">
 <overTimeChange progressionID="1879252975" variance="0.15" modifiers="268455680,268448151,268443235" vpsMultiplier="0.5"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879245275" name="Resolution of Fire" description="key:620905169:181298206" appliedDescription="key:620905169:54354734" iconId="1091745012" duration="3.0" pulseCount="3" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879245275" name="Resolution of Fire" description="key:620905169:181298206" appliedDescription="key:620905169:54354734" iconId="1091745012" duration="3.0" pulseCount="3" pulseCountMods="268456021,268456015" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879239428" variance="0.1" modifiers="268456012,268444775" vpsMultiplier="0.5"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879245276" name="Fixation of Flame" iconId="1091745002" duration="3.0" pulseCount="6" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879245276" name="Fixation of Flame" iconId="1091745002" duration="3.0" pulseCount="6" pulseCountMods="268456021,268456015" stat="Health_MaxLevel" damageType="16">
 <initialChange progressionID="1879239430" variance="0.1" modifiers="268456012" vpsMultiplier="0.5"/>
 <overTimeChange progressionID="1879239430" variance="0.25" modifiers="268456012,268444775" vpsMultiplier="0.1"/>
 </vitalOverTimeEffect>
@@ -18149,11 +18149,11 @@
 <vitalOverTimeEffect id="1879245566" name="Oration of Health - Rider" iconId="1091745006" duration="3.0" pulseCount="3" stat="Power_MaxLevel">
 <overTimeChange progressionID="1879252973" variance="0.1" modifiers="268455680,268448151,268443235" vpsMultiplier="0.6"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879245567" name="Inspirational Verse - Rider" iconId="1091745004" duration="3.0" pulseCount="3" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879245567" name="Inspirational Verse - Rider" iconId="1091745004" duration="3.0" pulseCount="3" pulseCountMods="268455608" stat="Health_MaxLevel">
 <initialChange progressionID="1879252975" variance="0.1" modifiers="268455680,268443235" vpsMultiplier="1.0"/>
 <overTimeChange progressionID="1879252975" variance="0.1" modifiers="268455680,268443235" vpsMultiplier="0.5"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879245568" name="Inspirational Verse - Steed" iconId="1091745004" duration="3.0" pulseCount="3" stat="MountEndurance_MaxLevel">
+<vitalOverTimeEffect id="1879245568" name="Inspirational Verse - Steed" iconId="1091745004" duration="3.0" pulseCount="3" pulseCountMods="268455608" stat="MountEndurance_MaxLevel">
 <initialChange progressionID="1879252975" variance="0.1" modifiers="268455680,268443235" vpsMultiplier="1.0"/>
 <overTimeChange progressionID="1879252975" variance="0.1" modifiers="268455680,268443235" vpsMultiplier="0.5"/>
 </vitalOverTimeEffect>
@@ -18262,7 +18262,7 @@
 <recallEffect id="1879245790" name="Warden Travel to the Misty Mountains">
 <position region="1" longitude="6.941045" latitude="-24.43042"/>
 </recallEffect>
-<vitalOverTimeEffect id="1879245810" name="Sweeping Cut" iconId="1090553903" duration="2.0" pulseCount="13" probabilityModProperty="268458010" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879245810" name="Sweeping Cut" iconId="1090553903" duration="2.0" pulseCount="13" pulseCountMods="268443484" probabilityModProperty="268458010" stat="Health_MaxLevel">
 <initialChange progressionID="1879367855" modifiers="268462736,268452371,268458001" vpsMultiplier="0.4275"/>
 <overTimeChange progressionID="1879367855" modifiers="268462739,268452371,268458001" vpsMultiplier="0.1615"/>
 </vitalOverTimeEffect>
@@ -18709,7 +18709,7 @@
 <initialChange progressionID="1879252966" variance="0.25" modifiers="268455680,268448151" vpsMultiplier="0.5"/>
 <overTimeChange progressionID="1879252975" variance="0.2" modifiers="268455680,268448151" vpsMultiplier="0.4"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879248965" name="Healing Hammer - Power" iconId="1091741030" duration="3.0" pulseCount="4" stat="MountPower_MaxLevel">
+<vitalOverTimeEffect id="1879248965" name="Healing Hammer - Power" iconId="1091741030" duration="3.0" pulseCount="4" pulseCountMods="268455740" stat="MountPower_MaxLevel">
 <initialChange progressionID="1879252971" variance="0.25" modifiers="268455686,268448151" vpsMultiplier="0.6"/>
 <overTimeChange progressionID="1879252973" variance="0.2" modifiers="268455686,268448151" vpsMultiplier="0.2"/>
 </vitalOverTimeEffect>
@@ -19019,11 +19019,11 @@
 <overTimeChange progressionID="1879252972" modifiers="268455862,268455869,268448151" vpsMultiplier="0.0"/>
 </vitalOverTimeEffect>
 <effect id="1879250857" name="Oppresive Blow - Direction" description="key:620908886:181298206"/>
-<vitalOverTimeEffect id="1879250858" name="Rally the Riders - Power" iconId="1091742740" duration="3.0" pulseCount="3" stat="Power_MaxLevel">
+<vitalOverTimeEffect id="1879250858" name="Rally the Riders - Power" iconId="1091742740" duration="3.0" pulseCount="3" pulseCountMods="268455740" stat="Power_MaxLevel">
 <initialChange progressionID="1879252955" variance="0.3" modifiers="268455686,268455869,268448151" vpsMultiplier="1.0"/>
 <overTimeChange progressionID="1879252955" modifiers="268455686,268455869,268448151" vpsMultiplier="0.0"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879250859" name="Rally the Riders - Mount Power" iconId="1091742740" duration="3.0" pulseCount="3" stat="MountPower_MaxLevel">
+<vitalOverTimeEffect id="1879250859" name="Rally the Riders - Mount Power" iconId="1091742740" duration="3.0" pulseCount="3" pulseCountMods="268455740" stat="MountPower_MaxLevel">
 <initialChange progressionID="1879252955" variance="0.3" modifiers="268455686,268455869,268448151" vpsMultiplier="1.0"/>
 <overTimeChange progressionID="1879252955" modifiers="268455686,268455869,268448151" vpsMultiplier="0.0"/>
 </vitalOverTimeEffect>
@@ -19105,7 +19105,7 @@
 <propertyModEffect id="1879251538" name="Master Resolve" appliedDescription="key:620909342:54354734" iconId="1091753542" duration="21600.0">
 <stat name="MORALE" constant="60.0"/>
 </propertyModEffect>
-<effect id="1879251545" name="Clash of Steel and Will: Morale" iconId="1091744648" duration="3.0" pulseCount="3"/>
+<effect id="1879251545" name="Clash of Steel and Will: Morale" iconId="1091744648" duration="3.0" pulseCount="3" pulseCountMods="268455604,268456015"/>
 <effect id="1879251546" name="Clash of Steel and Will: Morale" iconId="1091744900" duration="1.0"/>
 <vitalOverTimeEffect id="1879251550" name="Burst of Power" iconId="1091587307" duration="2.0" pulseCount="5" stat="Power_MaxLevel">
 <initialChange progressionID="1879457127" variance="0.2"/>
@@ -19154,7 +19154,7 @@
 <vitalOverTimeEffect id="1879252015" name="Improved Bracing Attack" iconId="1090539151" duration="3.0" pulseCount="7" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879368264" variance="0.25" modifiers="268448151,268462738,268445469" vpsMultiplier="13.24"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879252081" name="Noble Arrow - Bleed[e]" iconId="1091737320" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879252081" name="Noble Arrow - Bleed[e]" iconId="1091737320" duration="3.0" pulseCount="4" pulseCountMods="268456015" stat="Health_MaxLevel">
 <initialChange progressionID="1879468797" modifiers="268456012"/>
 <overTimeChange progressionID="1879468797" modifiers="268456012"/>
 </vitalOverTimeEffect>
@@ -19170,10 +19170,10 @@
 <effect id="1879252092" name="Noble Arrow - Restoration" iconId="1090519170" duration="1.0"/>
 <effect id="1879252095" name="DNT - Dispel Mount" description="key:620909703:181298206" appliedDescription="key:620909703:54354734" probability="0.1"/>
 <effect id="1879252176" name="Summon Oathbreakers"/>
-<vitalOverTimeEffect id="1879252192" name="Swift Bleed[e]" iconId="1091739266" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879252192" name="Swift Bleed[e]" iconId="1091739266" duration="2.0" pulseCount="5" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468799" modifiers="268456012"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879252193" name="Swift Bleed[e]" iconId="1091739266" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879252193" name="Swift Bleed[e]" iconId="1091739266" duration="2.0" pulseCount="5" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468799" modifiers="268456012"/>
 </vitalOverTimeEffect>
 <effect id="1879252207" name="Recuperate" iconId="1090519170" duration="1.0"/>
@@ -19275,7 +19275,7 @@
 <stat name="Mount_Movement_Max_Speed" descriptionOverride="-" constant="1.7"/>
 </propertyModEffect>
 <effect id="1879252687" name="Oration of the Bleak Sky - Direction" description="key:620910146:181298206" probability="0.5"/>
-<vitalOverTimeEffect id="1879252691" name="Oration of Embers" iconId="1091745009" duration="3.0" pulseCount="3" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879252691" name="Oration of Embers" iconId="1091745009" duration="3.0" pulseCount="3" pulseCountMods="268456021,268456015" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879239430" variance="0.25" modifiers="268456012,268444775" vpsMultiplier="0.25"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879252702" name="Improved Hampering Javelin" iconId="1091471260" duration="20.0">
@@ -19283,10 +19283,10 @@
 </propertyModEffect>
 <effect id="1879252705" name="Ride Like the Wind" appliedDescription="key:620910161:54354734" iconId="1091743900" duration="10.0"/>
 <propertyModEffect id="1879252766" name="Radiant Burst Debuff" appliedDescription="key:620910178:54354734" iconId="1091742016" duration="6.0" pulseCount="1"/>
-<vitalOverTimeEffect id="1879252778" name="Enduring Embers" iconId="1091742017" duration="4.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879252778" name="Enduring Embers" iconId="1091742017" duration="4.0" pulseCount="5" pulseCountMods="268456015,268455740" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879252580" variance="0.1" modifiers="268456012,268455581" vpsMultiplier="0.3"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879252779" name="Enduring Embers" iconId="1091742017" duration="4.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879252779" name="Enduring Embers" iconId="1091742017" duration="4.0" pulseCount="5" pulseCountMods="268456015" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879252580" variance="0.1" modifiers="268456012,268455581" vpsMultiplier="0.3"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879253005" name="Cry of the Hunter" iconId="1090553944" duration="10.0">
@@ -19329,7 +19329,7 @@
 </travelEffect>
 <effect id="1879253343" name="DNT - Dispel Fervour"/>
 <effect id="1879253457" name="DNT - Knockback" description="key:620910498:181298206"/>
-<vitalOverTimeEffect id="1879253503" name="Deep Wound" iconId="1090553903" duration="2.0" pulseCount="13" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879253503" name="Deep Wound" iconId="1090553903" duration="2.0" pulseCount="13" pulseCountMods="268443484" stat="Health_MaxLevel">
 <initialChange progressionID="1879367855" modifiers="268462735,268452371,268458001" vpsMultiplier="0.4275"/>
 <overTimeChange progressionID="1879367855" modifiers="268462739,268452371,268458001" vpsMultiplier="0.323"/>
 </vitalOverTimeEffect>
@@ -19448,7 +19448,7 @@
 <toAddIfNotPresent id="1879254361" name="DNT - Invoke Flame"/>
 <toAddIfPresent id="1879254364" name="Invoke Flame"/>
 </comboEffect>
-<vitalOverTimeEffect id="1879254360" name="Invoke Flame" iconId="1091745000" duration="3.0" pulseCount="4" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879254360" name="Invoke Flame" iconId="1091745000" duration="3.0" pulseCount="4" pulseCountMods="268456021,268456015" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879239425" variance="0.25" modifiers="268456012,268444775" vpsMultiplier="0.05"/>
 </vitalOverTimeEffect>
 <comboEffect id="1879254361" name="DNT - Invoke Flame">
@@ -19462,10 +19462,10 @@
 <toAddIfPresent id="1879254363" name="Invoke Flame"/>
 <toExamine id="1879254360" name="Invoke Flame"/>
 </comboEffect>
-<vitalOverTimeEffect id="1879254363" name="Invoke Flame" iconId="1091745000" duration="3.0" pulseCount="4" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879254363" name="Invoke Flame" iconId="1091745000" duration="3.0" pulseCount="4" pulseCountMods="268456021,268456015" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879239425" variance="0.25" modifiers="268456012,268444775" vpsMultiplier="0.1"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879254364" name="Invoke Flame" iconId="1091745000" duration="3.0" pulseCount="4" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879254364" name="Invoke Flame" iconId="1091745000" duration="3.0" pulseCount="4" pulseCountMods="268456021,268456015" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879239425" variance="0.25" modifiers="268456012,268444775" vpsMultiplier="0.15"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879254389" name="Fixation of Health - Rider - 3" iconId="1091745001" duration="3.0" pulseCount="6" stat="Health_MaxLevel">
@@ -19525,11 +19525,11 @@
 <toAddIfPresent id="1879254504" name="Fixation of Flame"/>
 <toExamine id="1879245276" name="Fixation of Flame"/>
 </comboEffect>
-<vitalOverTimeEffect id="1879254503" name="Fixation of Flame" iconId="1091745002" duration="3.0" pulseCount="6" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879254503" name="Fixation of Flame" iconId="1091745002" duration="3.0" pulseCount="6" pulseCountMods="268456021,268456015" stat="Health_MaxLevel" damageType="16">
 <initialChange progressionID="1879239430" variance="0.1" modifiers="268456012" vpsMultiplier="0.75"/>
 <overTimeChange progressionID="1879239430" variance="0.25" modifiers="268456012,268444775" vpsMultiplier="0.15"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879254504" name="Fixation of Flame" iconId="1091745002" duration="3.0" pulseCount="6" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879254504" name="Fixation of Flame" iconId="1091745002" duration="3.0" pulseCount="6" pulseCountMods="268456021,268456015" stat="Health_MaxLevel" damageType="16">
 <initialChange progressionID="1879239430" variance="0.1" modifiers="268456012" vpsMultiplier="1.13"/>
 <overTimeChange progressionID="1879239430" variance="0.25" modifiers="268456012,268444775" vpsMultiplier="0.225"/>
 </vitalOverTimeEffect>
@@ -19555,7 +19555,7 @@
 <initialChange progressionID="1879413246" modifiers="268437688"/>
 <overTimeChange progressionID="1879413241" modifiers="268437688,268463403"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879255292" name="Piercing Trap" iconId="1090523948" duration="2.0" pulseCount="10" stat="Health_MaxLevel" damageType="4096">
+<vitalOverTimeEffect id="1879255292" name="Piercing Trap" iconId="1090523948" duration="2.0" pulseCount="10" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="4096">
 <initialChange progressionID="1879413243" modifiers="268437688"/>
 <overTimeChange progressionID="1879413238" modifiers="268437688,268463403"/>
 </vitalOverTimeEffect>
@@ -19667,19 +19667,19 @@
 </propertyModEffect>
 <propertyModEffect id="1879255397" name="Improved Bracing Attack" iconId="1090519170"/>
 <effect id="1879255483" name="Remove Fervour" iconId="1090519170" duration="1.0" pulseCount="1" probabilityModProperty="268457182"/>
-<vitalOverTimeEffect id="1879255496" name="Inspirational Verse - Steed" iconId="1091745004" duration="3.0" pulseCount="3" stat="MountEndurance_MaxLevel">
+<vitalOverTimeEffect id="1879255496" name="Inspirational Verse - Steed" iconId="1091745004" duration="3.0" pulseCount="3" pulseCountMods="268455608" stat="MountEndurance_MaxLevel">
 <initialChange progressionID="1879252975" variance="0.1" modifiers="268455862,268443235" vpsMultiplier="1.0"/>
 <overTimeChange progressionID="1879252975" variance="0.1" modifiers="268455862,268443235" vpsMultiplier="0.5"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879255497" name="Inspirational Verse - Rider" iconId="1091745004" duration="3.0" pulseCount="3" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879255497" name="Inspirational Verse - Rider" iconId="1091745004" duration="3.0" pulseCount="3" pulseCountMods="268455608" stat="Health_MaxLevel">
 <initialChange progressionID="1879252975" variance="0.1" modifiers="268455686,268443235" vpsMultiplier="1.0"/>
 <overTimeChange progressionID="1879252975" variance="0.1" modifiers="268455686,268443235" vpsMultiplier="0.5"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879255503" name="Inspirational Verse - Rider" iconId="1091745004" duration="3.0" pulseCount="3" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879255503" name="Inspirational Verse - Rider" iconId="1091745004" duration="3.0" pulseCount="3" pulseCountMods="268455608" stat="Health_MaxLevel">
 <initialChange progressionID="1879252975" variance="0.1" modifiers="268455862,268443235" vpsMultiplier="1.0"/>
 <overTimeChange progressionID="1879252975" variance="0.1" modifiers="268455862,268443235" vpsMultiplier="0.5"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879255507" name="Inspirational Verse - Steed" iconId="1091745004" duration="3.0" pulseCount="3" stat="MountEndurance_MaxLevel">
+<vitalOverTimeEffect id="1879255507" name="Inspirational Verse - Steed" iconId="1091745004" duration="3.0" pulseCount="3" pulseCountMods="268455608" stat="MountEndurance_MaxLevel">
 <initialChange progressionID="1879252975" variance="0.1" modifiers="268455686,268443235" vpsMultiplier="1.0"/>
 <overTimeChange progressionID="1879252975" variance="0.1" modifiers="268455686,268443235" vpsMultiplier="0.5"/>
 </vitalOverTimeEffect>
@@ -20308,16 +20308,16 @@
 <instantVitalEffect id="1879259860" name="The Thrill of the Fight" stat="MountEndurance_MaxLevel">
 <vitalChange progressionID="1879253038"/>
 </instantVitalEffect>
-<vitalOverTimeEffect id="1879259914" name="Lingering Wound (1)" iconId="1090553904" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879259914" name="Lingering Wound (1)" iconId="1090553904" duration="2.0" pulseCount="5" pulseCountMods="268438448,268462116" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268460589,268462739,268457569,268444108" vpsMultiplier="0.3"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879259918" name="Lingering Wound (4)" iconId="1090553928" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879259918" name="Lingering Wound (4)" iconId="1090553928" duration="2.0" pulseCount="5" pulseCountMods="268438448,268462116" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268460589,268462739,268457569,268444108" vpsMultiplier="0.6"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879259919" name="Lingering Wound (3)" iconId="1090553928" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879259919" name="Lingering Wound (3)" iconId="1090553928" duration="2.0" pulseCount="5" pulseCountMods="268438448,268462116" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268460589,268462739,268457569,268444108" vpsMultiplier="0.5"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879259920" name="Lingering Wound (2)" iconId="1090553929" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879259920" name="Lingering Wound (2)" iconId="1090553929" duration="2.0" pulseCount="5" pulseCountMods="268438448,268462116" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268460589,268462739,268457569,268444108" vpsMultiplier="0.4"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879259966" name="Punctured Armour" iconId="1091737499" duration="18.0" pulseCount="1">
@@ -20330,7 +20330,7 @@
 <stat name="Mount_Combat_EvadePoints_Modifier" descriptionOverride="key:620914328:106251889" constant="-500.0"/>
 <stat name="EVADE" descriptionOverride="-" constant="-500.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879259974" name="Impugn Bleed" iconId="1091737490" duration="4.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879259974" name="Impugn Bleed" iconId="1091737490" duration="4.0" pulseCount="4" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468798" modifiers="268456012,268457158"/>
 </vitalOverTimeEffect>
 <reactiveVitalEffect id="1879260006" name="Mearas-Lore" iconId="1091742023" duration="10.0" damageTypes="65407" removeOnProc="true">
@@ -20572,7 +20572,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879262840" name="Gift of Rohan" iconId="1090519170"/>
 <effect id="1879262846" name="Threat Increase" description="key:620915919:181298206" appliedDescription="key:620915919:54354734"/>
-<vitalOverTimeEffect id="1879262848" name="Crippling Bleed" iconId="1091739266" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879262848" name="Crippling Bleed" iconId="1091739266" duration="2.0" pulseCount="5" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468799" modifiers="268456012"/>
 </vitalOverTimeEffect>
 <effect id="1879262883" name="Call the Cow" description="key:620915951:181298206"/>
@@ -21555,7 +21555,7 @@
 <specialEffect label="key:620921344:106251889"/>
 </propertyModEffect>
 <effect id="1879270571" name="DNT - Contextual Skill Bar"/>
-<vitalOverTimeEffect id="1879270574" name="Exsanguinate" iconId="1091798532" duration="2.0" pulseCount="10" stat="Health_MaxLevel" damageType="64">
+<vitalOverTimeEffect id="1879270574" name="Exsanguinate" iconId="1091798532" duration="2.0" pulseCount="10" pulseCountMods="268438448,268462116" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268457569,268444108" vpsMultiplier="0.75"/>
 </vitalOverTimeEffect>
 <recallEffect id="1879270578" name="Travel to Lalia's Market">
@@ -21685,7 +21685,7 @@
 <specialEffect label="key:620921715:106251889"/>
 </propertyModEffect>
 <propertyModEffect id="1879271134" name="DNT - Empowering Fires" iconId="1090519170"/>
-<vitalOverTimeEffect id="1879271150" name="Heart Seeker Bleed" iconId="1091388859" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879271150" name="Heart Seeker Bleed" iconId="1091388859" duration="2.0" pulseCount="5" pulseCountMods="268461567,268462116" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268457568,268462739,268457569,268461572,268444108,268444111" vpsMultiplier="0.65"/>
 </vitalOverTimeEffect>
 <areaEffect id="1879271165" name="DNT - Copy Burning Embers" flags="6" range="5.0" maxTargets="5" maxTargetsMods="268462716">
@@ -22046,15 +22046,15 @@
 <procEffect id="1879273529" name="Flurry" descriptionOverride="key:620923630:62991877" appliedDescription="key:620923630:54354734" iconId="1090552382" skillTypes="3" procProbability="0.3">
 <effect id="1879073017" name="Flurry"/>
 </procEffect>
-<vitalOverTimeEffect id="1879273532" name="Rend Tier 2" iconId="1091459631" duration="2.0" pulseCount="10" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879273532" name="Rend Tier 2" iconId="1091459631" duration="2.0" pulseCount="10" pulseCountMods="268443885" stat="Health_MaxLevel">
 <initialChange progressionID="1879367855" modifiers="268443875,268462739,268463261" vpsMultiplier="0.77"/>
 <overTimeChange progressionID="1879367855" modifiers="268443875,268462739,268463261" vpsMultiplier="0.86625"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879273533" name="Rend Tier 3" iconId="1091459631" duration="2.0" pulseCount="10" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879273533" name="Rend Tier 3" iconId="1091459631" duration="2.0" pulseCount="10" pulseCountMods="268443885" stat="Health_MaxLevel">
 <initialChange progressionID="1879367855" modifiers="268443875,268462739,268463261" vpsMultiplier="0.858"/>
 <overTimeChange progressionID="1879367855" modifiers="268443875,268462739,268463261" vpsMultiplier="0.9867"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879273534" name="Rend Tier 1" iconId="1091459631" duration="2.0" pulseCount="10" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879273534" name="Rend Tier 1" iconId="1091459631" duration="2.0" pulseCount="10" pulseCountMods="268443885" stat="Health_MaxLevel">
 <initialChange progressionID="1879367855" modifiers="268443875,268462739,268463261" vpsMultiplier="0.682"/>
 <overTimeChange progressionID="1879367855" modifiers="268443875,268462739,268463261" vpsMultiplier="0.7502"/>
 </vitalOverTimeEffect>
@@ -22281,7 +22281,7 @@
 </reactiveVitalEffect>
 <effect id="1879275291" name="DNT - Born for Combat Dispel"/>
 <effect id="1879275292" name="DNT - Unbreakable Dispel"/>
-<effect id="1879275341" name="Sticky Embers" iconId="1091522034" duration="2.0" pulseCount="5"/>
+<effect id="1879275341" name="Sticky Embers" iconId="1091522034" duration="2.0" pulseCount="5" pulseCountMods="268457698"/>
 <propertyModEffect id="1879275347" name="Battle-hardened" description="key:620925067:181298206" iconId="1091232037" duration="15.0">
 <stat name="OUTGOING_HEALING_PERCENTAGE" constant="25.0"/>
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
@@ -22300,15 +22300,15 @@
 <effect id="1879275424" name="Fulgurite Rune-stone"/>
 <effect id="1879275433" name="Volcanic Rune-stone"/>
 <effect id="1879275437" name="Entwined Rune-stone"/>
-<vitalOverTimeEffect id="1879275452" name="Bombastic Inspiration - Tier 1" iconId="1092813468" duration="2.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879275452" name="Bombastic Inspiration - Tier 1" iconId="1092813468" duration="2.0" pulseCount="6" pulseCountMods="268464585" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268462699,268460598" vpsMultiplier="8.0"/>
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268443431,268445802,268448151,268459156" vpsMultiplier="1.25"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879275453" name="Bombastic Inspiration - Tier 2" iconId="1092813461" duration="2.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879275453" name="Bombastic Inspiration - Tier 2" iconId="1092813461" duration="2.0" pulseCount="6" pulseCountMods="268464585" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268462699,268460598" vpsMultiplier="9.0"/>
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268443431,268445802,268448151,268459156" vpsMultiplier="1.5"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879275454" name="Bombastic Inspiration - Tier 3" iconId="1092813469" duration="2.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879275454" name="Bombastic Inspiration - Tier 3" iconId="1092813469" duration="2.0" pulseCount="6" pulseCountMods="268464585" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268462699,268460598" vpsMultiplier="10.0"/>
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268443431,268445802,268448151,268459156" vpsMultiplier="1.75"/>
 </vitalOverTimeEffect>
@@ -22438,7 +22438,7 @@
 <instantVitalEffect id="1879276101" name="Piercing Roar" appliedDescription="key:620925742:54354734" stat="Health_MaxLevel">
 <vitalChange progressionID="1879180337" modifiers="268458953"/>
 </instantVitalEffect>
-<vitalOverTimeEffect id="1879276110" name="Demoralizing Shout" appliedDescription="key:620935896:54354734" iconId="1091479196" duration="3.0" pulseCount="2" stat="Health_MaxLevel" damageType="1">
+<vitalOverTimeEffect id="1879276110" name="Demoralizing Shout" appliedDescription="key:620935896:54354734" iconId="1091479196" duration="3.0" pulseCount="2" pulseCountMods="268458934" stat="Health_MaxLevel" damageType="1">
 <initialChange progressionID="1879244292" modifiers="268458951"/>
 <overTimeChange progressionID="1879244292" modifiers="268458951"/>
 </vitalOverTimeEffect>
@@ -22480,34 +22480,34 @@
 <genesis id="1879276755" name=".." appliedDescription="key:620926277:54354734" permanent="true"/>
 <induceCombatState id="1879276765" name="Induce Stunned" state="15" stateDuration="3.0"/>
 <effect id="1879276791" name="DNT"/>
-<vitalOverTimeEffect id="1879276888" name="Haemorrhaging Wound" iconId="1091449586" duration="2.0" pulseCount="4" probabilityModProperty="268457998" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879276888" name="Haemorrhaging Wound" iconId="1091449586" duration="2.0" pulseCount="4" pulseCountMods="268462122" probabilityModProperty="268457998" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268448022,268458001" vpsMultiplier="0.722"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879276889" name="Deep Wound" iconId="1090553903" duration="2.0" pulseCount="7" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879276889" name="Deep Wound" iconId="1090553903" duration="2.0" pulseCount="7" pulseCountMods="268461529,268462122" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268456830,268462739,268460652,268458001,268461574" vpsMultiplier="0.627"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879276890" name="Haemorrhaging Wound" iconId="1091449586" duration="2.0" pulseCount="5" probabilityModProperty="268457998" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879276890" name="Haemorrhaging Wound" iconId="1091449586" duration="2.0" pulseCount="5" pulseCountMods="268462122" probabilityModProperty="268457998" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268448022,268458001" vpsMultiplier="0.931"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879276891" name="Terrible Wound" iconId="1091459631" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879276891" name="Terrible Wound" iconId="1091459631" duration="2.0" pulseCount="5" pulseCountMods="268461529,268462122" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268455529,268462739,268452371,268458001,268461574" vpsMultiplier="1.0925"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879276892" name="Haemorrhaging Wound" iconId="1091449586" duration="2.0" pulseCount="4" probabilityModProperty="268457998" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879276892" name="Haemorrhaging Wound" iconId="1091449586" duration="2.0" pulseCount="4" pulseCountMods="268462122" probabilityModProperty="268457998" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268448022,268458001" vpsMultiplier="0.8265"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879276893" name="Slashing Wound" iconId="1090553893" duration="2.0" pulseCount="5" probabilityModProperty="268458010" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879276893" name="Slashing Wound" iconId="1090553893" duration="2.0" pulseCount="5" pulseCountMods="268462122" probabilityModProperty="268458010" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268444986,268462739,268452371,268458001,268456830" vpsMultiplier="0.5225"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879276894" name="Slashing Wound" iconId="1090553893" duration="2.0" pulseCount="6" probabilityModProperty="268458010" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879276894" name="Slashing Wound" iconId="1090553893" duration="2.0" pulseCount="6" pulseCountMods="268462122" probabilityModProperty="268458010" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268444986,268462739,268452371,268458001,268456830" vpsMultiplier="0.7315"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879276895" name="Slashing Wound" iconId="1090553893" duration="2.0" pulseCount="5" probabilityModProperty="268458010" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879276895" name="Slashing Wound" iconId="1090553893" duration="2.0" pulseCount="5" pulseCountMods="268462122" probabilityModProperty="268458010" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268444986,268462739,268452371,268458001,268456830" vpsMultiplier="0.627"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879276896" name="Deep Wound" iconId="1090553903" duration="2.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879276896" name="Deep Wound" iconId="1090553903" duration="2.0" pulseCount="6" pulseCountMods="268461529,268462122" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268456830,268462739,268460652,268458001,268461574" vpsMultiplier="0.5225"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879276897" name="Deep Wound" iconId="1090553903" duration="2.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879276897" name="Deep Wound" iconId="1090553903" duration="2.0" pulseCount="6" pulseCountMods="268461529,268462122" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268456830,268462739,268460652,268458001,268461574" vpsMultiplier="0.418"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879277003" name="DNT - Captain Blood of Numenor Skill  Combo" appliedDescription="key:620926434:54354734" iconId="1091591834">
@@ -22563,7 +22563,7 @@
 <comboEffect id="1879277458" name="DNT">
 <toAddIfPresent id="1879277456" name="Prey on the Weak"/>
 </comboEffect>
-<vitalOverTimeEffect id="1879277463" name="Searing Words" iconId="1091510623" duration="2.0" pulseCount="3" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879277463" name="Searing Words" iconId="1091510623" duration="2.0" pulseCount="3" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268460596" vpsMultiplier="1.8222624"/>
 </vitalOverTimeEffect>
 <procEffect id="1879277464" name="Charged" descriptionOverride="key:620926883:62991877" appliedDescription="key:620926883:54354734" iconId="1090552382" skillTypes="43" procProbability="0.15">
@@ -22688,13 +22688,13 @@
 <procEffect id="1879277840" name="Refutation Dispel" appliedDescription="key:620927217:54354734" iconId="1090552382" duration="1800.0" skillTypes="43">
 <effect id="1879277837" name="DNT - Refutation Dispel"/>
 </procEffect>
-<vitalOverTimeEffect id="1879277858" name="Extreme Heat: Searing Words - Tier 1" iconId="1091510623" duration="2.0" pulseCount="3" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879277858" name="Extreme Heat: Searing Words - Tier 1" iconId="1091510623" duration="2.0" pulseCount="3" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268460596" vpsMultiplier="1.9675152"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879277859" name="Extreme Heat: Searing Words - Tier 2" iconId="1091510623" duration="2.0" pulseCount="3" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879277859" name="Extreme Heat: Searing Words - Tier 2" iconId="1091510623" duration="2.0" pulseCount="3" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268460596" vpsMultiplier="2.178792"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879277860" name="Extreme Heat: Searing Words - Tier 3" iconId="1091510623" duration="2.0" pulseCount="3" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879277860" name="Extreme Heat: Searing Words - Tier 3" iconId="1091510623" duration="2.0" pulseCount="3" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268460596" vpsMultiplier="2.4032736"/>
 </vitalOverTimeEffect>
 <effect id="1879277861" name="Call Saburg" description="key:620927240:181298206"/>
@@ -23253,7 +23253,7 @@
 <effect id="1879284106" name="DNT"/>
 <effect id="1879284107" name="DNT"/>
 <effect id="1879284129" name="DNT - Dodge This"/>
-<vitalOverTimeEffect id="1879284214" name="Essay of Fire" iconId="1091510620" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879284214" name="Essay of Fire" iconId="1091510620" duration="2.0" pulseCount="5" pulseCountMods="268452533" stat="Health_MaxLevel" damageType="16">
 <initialChange progressionID="1879383395" variance="0.3" modifiers="268445383,268443435,268462735,268458832" vpsMultiplier="5.22"/>
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445383,268462739,268443429,268458832,268443435" vpsMultiplier="1.9609128"/>
 </vitalOverTimeEffect>
@@ -23280,7 +23280,7 @@
 <effect id="1879283143" name="DNT - Furious Storm"/>
 </procEffect>
 <effect id="1879284239" name="DNT - Furious Storm Dispel"/>
-<effect id="1879284511" name="Fight On" iconId="1090539699" duration="2.0" pulseCount="10"/>
+<effect id="1879284511" name="Fight On" iconId="1090539699" duration="2.0" pulseCount="10" pulseCountMods="268447973"/>
 <travelEffect id="1879284571" name="DNT - Travel to Entwade" sceneID="1879270711">
 <position region="2" longitude="-64.284775" latitude="-56.015774"/>
 </travelEffect>
@@ -24751,7 +24751,7 @@
 <instantVitalEffect id="1879300576" name="Mending Minstrel" stat="Health_MaxLevel" multiplicative="true">
 <vitalChange constant="0.1"/>
 </instantVitalEffect>
-<vitalOverTimeEffect id="1879300577" name="Tenacious Warden" iconId="1090519171" duration="2.0" pulseCount="7" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879300577" name="Tenacious Warden" iconId="1090519171" duration="2.0" pulseCount="7" pulseCountMods="268444856,268457673" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268457677,268445827" vpsMultiplier="4.51"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879301195" name="Mounted" iconId="1090519170">
@@ -24987,13 +24987,13 @@
 <propertyModEffect id="1879303916" name="Level Scaling" iconId="1091687158">
 <stat name="LevelScaling_ScaledLevel_Source" operator="SET" constant="150.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879303964" name="Power Attack Bleed" iconId="1091471256" duration="4.0" pulseCount="8" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879303964" name="Power Attack Bleed" iconId="1091471256" duration="4.0" pulseCount="8" pulseCountMods="268444856,268457673" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268457677,268462739,268445827,268454044,268463655" vpsMultiplier="0.9"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879303965" name="Unerring Strike Bleed" iconId="1091585378" duration="4.0" pulseCount="8" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879303965" name="Unerring Strike Bleed" iconId="1091585378" duration="4.0" pulseCount="8" pulseCountMods="268444856,268457673" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268457677,268462739,268445827,268454044,268463656" vpsMultiplier="1.4"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879303966" name="Mighty Blow Bleed" iconId="1091471263" duration="4.0" pulseCount="8" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879303966" name="Mighty Blow Bleed" iconId="1091471263" duration="4.0" pulseCount="8" pulseCountMods="268444856,268457673" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268457677,268462739,268445827,268454044,268463656" vpsMultiplier="1.2"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879304072" name="Welcome Back Weekend" appliedDescription="key:620947417:54354734" iconId="1090538247">
@@ -25247,7 +25247,7 @@
 <initialChange progressionID="1879368264" variance="0.2" modifiers="268441250,268448151,268460415,268459988,268462699" vpsMultiplier="4.995"/>
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268448151,268459988,268460415" vpsMultiplier="4.995"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879312567" name="Bee Swarm" iconId="1091940896" duration="2.0" pulseCount="6" stat="Health_MaxLevel" damageType="64">
+<vitalOverTimeEffect id="1879312567" name="Bee Swarm" iconId="1091940896" duration="2.0" pulseCount="6" pulseCountMods="268462945" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855" variance="0.3" modifiers="268445385,268462739,268460414,268460395,268463261" vpsMultiplier="0.66"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879312649" name="Rush" appliedDescription="key:620951092:54354734" iconId="1091940899" duration="6.0">
@@ -25428,7 +25428,7 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879315044" name="Bash" iconId="1091940909" duration="3.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879315044" name="Bash" iconId="1091940909" duration="3.0" pulseCount="6" pulseCountMods="268460340,268462945" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" variance="0.3" modifiers="268459975,268462739,268464586,268463261" vpsMultiplier="0.495"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879315046" name="Expose Weakness - Man Form" iconId="1091940901" duration="15.0">
@@ -25483,7 +25483,7 @@
 <stat name="EVADE_PERCENTAGE" constant="15.000001"/>
 <effect id="1879315134" name="Counterattack"/>
 </procEffect>
-<vitalOverTimeEffect id="1879315136" name="Recuperate" iconId="1091940911" duration="2.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879315136" name="Recuperate" iconId="1091940911" duration="2.0" pulseCount="6" pulseCountMods="268462890" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268460289,268462699" vpsMultiplier="22.2"/>
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268448151,268460288" vpsMultiplier="5.55"/>
 </vitalOverTimeEffect>
@@ -25678,7 +25678,7 @@
 <propertyModEffect id="1879315826" name="DNT - Lumber" iconId="1090519170">
 <specialEffect label="key:620953858:106251889"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879315828" name="Serrated Edge" iconId="1091941809" duration="3.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879315828" name="Serrated Edge" iconId="1091941809" duration="3.0" pulseCount="6" pulseCountMods="268462945" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" variance="0.3" modifiers="268459975,268462739,268459990,268463261" vpsMultiplier="0.44"/>
 </vitalOverTimeEffect>
 <effect id="1879315829" name="DNT - Nature's Fury Cooldown Mod" appliedDescription="key:620953862:54354734"/>
@@ -25813,23 +25813,23 @@
 <specialEffect label="key:620954047:106251889"/>
 </propertyModEffect>
 <dispelByResist id="1879316087" name="DNT - Remove Poison, Disease, Wound, or Fear" maxDispelCount="3" resistCategories="2,4,7,8" useStrengthRestriction="true" strengthOffset="5"/>
-<vitalOverTimeEffect id="1879316095" name="Slash" iconId="1091744012" duration="3.0" pulseCount="4" probability="0.1" stat="MountEndurance_MaxLevel">
+<vitalOverTimeEffect id="1879316095" name="Slash" iconId="1091744012" duration="3.0" pulseCount="4" pulseCountMods="268456015" probability="0.1" stat="MountEndurance_MaxLevel">
 <overTimeChange progressionID="1879468924" modifiers="268455680,268448151"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879316096" name="Slash" iconId="1091744012" duration="3.0" pulseCount="4" probability="0.1" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879316096" name="Slash" iconId="1091744012" duration="3.0" pulseCount="4" pulseCountMods="268456015" probability="0.1" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468916" modifiers="268455680,268448151"/>
 </vitalOverTimeEffect>
 <fellowshipEffect id="1879316097" name="Slash" description="key:620954079:181298206" applyToPets="true" range="20.0">
 <effect id="1879316096" name="Slash"/>
 <effect id="1879316095" name="Slash"/>
 </fellowshipEffect>
-<vitalOverTimeEffect id="1879316098" name="Slash" iconId="1091737490" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879316098" name="Slash" iconId="1091737490" duration="3.0" pulseCount="4" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468794" modifiers="268456012"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879316133" name="DNT - Turn The Tides" iconId="1090519170">
 <specialEffect label="key:620954085:106251889"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879316139" name="Bee Swarm" iconId="1091742016" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879316139" name="Bee Swarm" iconId="1091742016" duration="3.0" pulseCount="4" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468799" modifiers="268456012"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879316143" name="Poison Arrow" iconId="1091573752" duration="10.0" pulseCount="1"/>
@@ -25898,13 +25898,13 @@
 <procEffect id="1879316258" name="DNT - CC Breakout" appliedDescription="key:620954166:54354734" iconId="1091718774" skillTypes="17"/>
 <induceCombatState id="1879316351" name="Induce Feared" state="2" stateDuration="12.0"/>
 <effect id="1879316364" name="Gondorian Treasure Cache"/>
-<vitalOverTimeEffect id="1879316399" name="Bee Swarm" iconId="1091742016" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879316399" name="Bee Swarm" iconId="1091742016" duration="3.0" pulseCount="4" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468794" modifiers="268456012"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879316428" name="Restore Morale" stat="Health_MaxLevel" multiplicative="true">
 <vitalChange constant="0.05"/>
 </instantVitalEffect>
-<vitalOverTimeEffect id="1879316429" name="Recuperate" iconId="1091744012" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879316429" name="Recuperate" iconId="1091744012" duration="3.0" pulseCount="4" pulseCountMods="268460751" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468916" modifiers="268455680,268448151"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879316430" name="Recuperate" iconId="1091744012" duration="3.0" pulseCount="4" stat="Health_MaxLevel">
@@ -30150,16 +30150,16 @@
 <stat name="BLOCK_PERCENTAGE" constant="2.5"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:621010058:106251890" constant="30.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879368214" name="Desolation - Light" iconId="1091478186" duration="4.0" pulseCount="6" stat="Health_MaxLevel" damageType="64">
+<vitalOverTimeEffect id="1879368214" name="Desolation - Light" iconId="1091478186" duration="4.0" pulseCount="6" pulseCountMods="268444856,268457673" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268445092,268454044,268463656,268460619" vpsMultiplier="1.0"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879368215" name="Surety of Death - Light" iconId="1091471237" duration="4.0" pulseCount="6" stat="Health_MaxLevel" damageType="64">
+<vitalOverTimeEffect id="1879368215" name="Surety of Death - Light" iconId="1091471237" duration="4.0" pulseCount="6" pulseCountMods="268444856,268457673" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268445092,268454044,268463656,268460619" vpsMultiplier="0.7"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879368216" name="Brink of Victory - Light" iconId="1091471251" duration="4.0" pulseCount="6" stat="Health_MaxLevel" damageType="64">
+<vitalOverTimeEffect id="1879368216" name="Brink of Victory - Light" iconId="1091471251" duration="4.0" pulseCount="6" pulseCountMods="268444856,268457673" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268445092,268454044,268463655,268460619" vpsMultiplier="0.55"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879368217" name="War Cry - Light" iconId="1091471234" duration="4.0" pulseCount="6" stat="Health_MaxLevel" damageType="64">
+<vitalOverTimeEffect id="1879368217" name="War Cry - Light" iconId="1091471234" duration="4.0" pulseCount="6" pulseCountMods="268444856,268457673" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268445092,268454044,268463653,268460619" vpsMultiplier="0.4"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879368279" name="Self-motivation" stat="Health_MaxLevel">
@@ -30225,13 +30225,13 @@
 <vitalChange progressionID="1879368264" variance="0.3" modifiers="268441250,268459413,268448151,268448537,268462707" vpsMultiplier="1.725"/>
 </instantVitalEffect>
 <effect id="1879369302" name="Call Tuhal" description="key:621010861:181298206"/>
-<vitalOverTimeEffect id="1879369413" name="Precise Blow - Light" iconId="1091471262" duration="3.0" pulseCount="6" stat="Health_MaxLevel" damageType="64">
+<vitalOverTimeEffect id="1879369413" name="Precise Blow - Light" iconId="1091471262" duration="3.0" pulseCount="6" pulseCountMods="268444856,268457673" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268445073,268454044,268463653,268460619" vpsMultiplier="0.75"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879369414" name="Piercing Strike - Light" iconId="1091471245" duration="3.0" pulseCount="6" stat="Health_MaxLevel" damageType="64">
+<vitalOverTimeEffect id="1879369414" name="Piercing Strike - Light" iconId="1091471245" duration="3.0" pulseCount="6" pulseCountMods="268444856,268457673" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268445073,268454044,268463655,268460619" vpsMultiplier="1.0"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879369415" name="Spear of Virtue - Light" iconId="1091471244" duration="3.0" pulseCount="6" stat="Health_MaxLevel" damageType="64">
+<vitalOverTimeEffect id="1879369415" name="Spear of Virtue - Light" iconId="1091471244" duration="3.0" pulseCount="6" pulseCountMods="268444856,268457673" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268445073,268454044,268463656,268460619" vpsMultiplier="1.25"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879369427" name="Songbird" iconId="1090553792"/>
@@ -30677,7 +30677,7 @@
 <travelEffect id="1879380147" name="DNT - Lost in Wistmead" sceneID="1879360092">
 <position region="1" longitude="-113.66247" latitude="70.275856"/>
 </travelEffect>
-<vitalOverTimeEffect id="1879380213" name="Resounding Challenge - Light" iconId="1091744833" duration="4.0" pulseCount="6" stat="Health_MaxLevel" damageType="64">
+<vitalOverTimeEffect id="1879380213" name="Resounding Challenge - Light" iconId="1091744833" duration="4.0" pulseCount="6" pulseCountMods="268444856,268457673" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268445092,268454044,268463656,268460619" vpsMultiplier="0.9"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879380225" name="Strength of the Horde" appliedDescription="key:621016000:54354734" iconId="1091479052" duration="30.0">
@@ -31962,16 +31962,16 @@
 <effect id="1879149379" name="DNT - Do Nothing" spellcraft="1.0"/>
 </hotspot>
 </genesis>
-<vitalOverTimeEffect id="1879387519" name="Minor Cunning Bleed" iconId="1090541253" duration="2.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387519" name="Minor Cunning Bleed" iconId="1090541253" duration="2.0" pulseCount="4" pulseCountMods="268457120,268440118" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268451997,268462739,268460644" vpsMultiplier="0.35"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879387520" name="Major Cunning Bleed" iconId="1090541253" duration="2.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387520" name="Major Cunning Bleed" iconId="1090541253" duration="2.0" pulseCount="4" pulseCountMods="268457120,268440118" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268451997,268462739,268460644" vpsMultiplier="0.6"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879387521" name="Greater Cunning Bleed" iconId="1090541253" duration="2.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387521" name="Greater Cunning Bleed" iconId="1090541253" duration="2.0" pulseCount="4" pulseCountMods="268457120,268440118" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268451997,268462739,268460644" vpsMultiplier="0.85"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879387522" name="Deadly Cunning Bleed" iconId="1090541253" duration="2.0" pulseCount="4" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387522" name="Deadly Cunning Bleed" iconId="1090541253" duration="2.0" pulseCount="4" pulseCountMods="268457120,268440118" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268451997,268462739,268460644" vpsMultiplier="1.2"/>
 </vitalOverTimeEffect>
 <reactiveVitalEffect id="1879387528" name="Roll With It" appliedDescription="key:621020140:54354734" iconId="1090553911" duration="10.0" damageTypes="65407" removeOnProc="true">
@@ -31979,37 +31979,37 @@
 <reactiveVital constant="0.5" probability="-1.0" multiplicative="true"/>
 </defender>
 </reactiveVitalEffect>
-<vitalOverTimeEffect id="1879387549" name="Damaging Gamble 2" iconId="1092403389" duration="2.0" pulseCount="15" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387549" name="Damaging Gamble 2" iconId="1092403389" duration="2.0" pulseCount="15" pulseCountMods="268444441,268457120" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268451209,268462739,268461014" vpsMultiplier="0.88"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879387550" name="Damaging Gamble 6" iconId="1092403304" duration="2.0" pulseCount="15" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387550" name="Damaging Gamble 6" iconId="1092403304" duration="2.0" pulseCount="15" pulseCountMods="268444441,268457120" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268451209,268462739,268461014" vpsMultiplier="1.88"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879387552" name="Gambler's Advantage 4" iconId="1090553912" duration="2.0" pulseCount="10" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387552" name="Gambler's Advantage 4" iconId="1090553912" duration="2.0" pulseCount="10" pulseCountMods="268457120,268440118" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739" vpsMultiplier="0.84"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879387553" name="Damaging Gamble 1" iconId="1092403354" duration="2.0" pulseCount="15" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387553" name="Damaging Gamble 1" iconId="1092403354" duration="2.0" pulseCount="15" pulseCountMods="268444441,268457120" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268451209,268462739,268461014" vpsMultiplier="0.64"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879387554" name="Gambler's Advantage 3" iconId="1090553912" duration="2.0" pulseCount="10" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387554" name="Gambler's Advantage 3" iconId="1090553912" duration="2.0" pulseCount="10" pulseCountMods="268457120,268440118" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739" vpsMultiplier="0.63"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879387555" name="Gambler's Advantage 2" iconId="1090553912" duration="2.0" pulseCount="10" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387555" name="Gambler's Advantage 2" iconId="1090553912" duration="2.0" pulseCount="10" pulseCountMods="268457120,268440118" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739" vpsMultiplier="0.42"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879387556" name="Gambler's Advantage 1" iconId="1090553912" duration="2.0" pulseCount="10" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387556" name="Gambler's Advantage 1" iconId="1090553912" duration="2.0" pulseCount="10" pulseCountMods="268457120,268440118" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739" vpsMultiplier="0.21"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879387559" name="Damaging Gamble 5" iconId="1092402990" duration="2.0" pulseCount="15" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387559" name="Damaging Gamble 5" iconId="1092402990" duration="2.0" pulseCount="15" pulseCountMods="268444441,268457120" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268451209,268462739,268461014" vpsMultiplier="1.64"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879387561" name="Damaging Gamble 4" iconId="1092403282" duration="2.0" pulseCount="15" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387561" name="Damaging Gamble 4" iconId="1092403282" duration="2.0" pulseCount="15" pulseCountMods="268444441,268457120" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268451209,268462739,268461014" vpsMultiplier="1.38"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879387563" name="Damaging Gamble 3" iconId="1092403310" duration="2.0" pulseCount="15" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387563" name="Damaging Gamble 3" iconId="1092403310" duration="2.0" pulseCount="15" pulseCountMods="268444441,268457120" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268451209,268462739,268461014" vpsMultiplier="1.14"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879387564" name="Gambler's Advantage 5" iconId="1090553912" duration="2.0" pulseCount="10" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879387564" name="Gambler's Advantage 5" iconId="1090553912" duration="2.0" pulseCount="10" pulseCountMods="268457120,268440118" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739" vpsMultiplier="1.04"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879387575" name="DNT - Red Gamble Propmod" iconId="1092403354" duration="30.0">
@@ -32612,10 +32612,10 @@
 <recallEffect id="1879391249" name="Stout-axe Travel to Thorin's Hall">
 <position region="1" longitude="-103.21289" latitude="-13.763378"/>
 </recallEffect>
-<vitalOverTimeEffect id="1879391251" name="Cutting Attack - Bleed" iconId="1091659767" duration="1.0" pulseCount="10" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879391251" name="Cutting Attack - Bleed" iconId="1091659767" duration="1.0" pulseCount="10" pulseCountMods="268459482" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268444409,268462739,268457764,268460634" vpsMultiplier="0.27"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879391252" name="Grave Wound - Bleed" iconId="1091659758" duration="1.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879391252" name="Grave Wound - Bleed" iconId="1091659758" duration="1.0" pulseCount="5" pulseCountMods="268459482" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268444409,268462739,268455614,268457764,268460629" vpsMultiplier="0.4"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879391253" name="Stout-axe Craft Cleverness: 5%" appliedDescription="key:621022724:54354734" iconId="1091617862">
@@ -38450,8 +38450,8 @@
 <fellowshipEffect id="1879441115" name="DNT" applyToTarget="true" range="25.0">
 <effect id="1879441112" name="Gundabad Warding Lore"/>
 </fellowshipEffect>
-<effect id="1879441117" name="Bob and Weave HoT" iconId="1091798538" duration="3.0" pulseCount="4"/>
-<effect id="1879441119" name="Relish Battle HoT" iconId="1091829384" duration="3.0" pulseCount="4"/>
+<effect id="1879441117" name="Bob and Weave HoT" iconId="1091798538" duration="3.0" pulseCount="4" pulseCountMods="268437810"/>
+<effect id="1879441119" name="Relish Battle HoT" iconId="1091829384" duration="3.0" pulseCount="4" pulseCountMods="268437810"/>
 <effect id="1879441354" name="Burning" appliedDescription="key:621060666:54354734" iconId="1091510157" duration="3.0"/>
 <tieredEffect id="1879441358" name="DNT - Fray The Edge Fellowship Maneuver Chance">
 <tierUp id="1879102816" name="Fray the Edge I"/>
@@ -39359,7 +39359,7 @@
 <vitalOverTimeEffect id="1879447484" name="A Murder of Crows" iconId="1092720667" duration="1.0" pulseCount="15" stat="Health_MaxLevel" damageType="8">
 <overTimeChange progressionID="1879383395" modifiers="268462739" vpsMultiplier="11.04"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879447588" name="Searing Embers" iconId="1091659744" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879447588" name="Searing Embers" iconId="1091659744" duration="2.0" pulseCount="5" pulseCountMods="268457698" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.05" modifiers="268445383,268462739,268455581,268444750" vpsMultiplier="3.958875"/>
 </vitalOverTimeEffect>
 <tieredEffect id="1879447592" name="DNT - Imp. Burning Embers Tierup">
@@ -39374,10 +39374,10 @@
 <areaEffect id="1879447594" name="DNT - Gust of Wind Damage AoE" flags="6" range="5.0" maxTargets="5" maxTargetsMods="268462716">
 <effect id="1879447593" name="Gust of Wind"/>
 </areaEffect>
-<vitalOverTimeEffect id="1879447595" name="Smouldering Embers" iconId="1091659750" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879447595" name="Smouldering Embers" iconId="1091659750" duration="2.0" pulseCount="5" pulseCountMods="268457698" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.05" modifiers="268445383,268462739,268455581,268444750" vpsMultiplier="1.164375"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879447597" name="Burning Embers" iconId="1090553820" duration="2.0" pulseCount="5" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879447597" name="Burning Embers" iconId="1090553820" duration="2.0" pulseCount="5" pulseCountMods="268457698" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.05" modifiers="268445383,268462739,268455581,268444750" vpsMultiplier="2.484"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879447649" name="Pummel" iconId="1092598112" duration="0.5" stat="Health_MaxLevel">
@@ -39665,7 +39665,7 @@
 <stat name="Skill_RangedAttack_MaxRangeMod" constant="4.0"/>
 <stat name="ALL_SKILL_INDUCTION" operator="SUBSTRACT" constant="6.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879451346" name="Stinging Spores" iconId="1092746847" duration="3.0" pulseCount="5" stat="Health_MaxLevel" damageType="1024">
+<vitalOverTimeEffect id="1879451346" name="Stinging Spores" iconId="1092746847" duration="3.0" pulseCount="5" pulseCountMods="268456021" stat="Health_MaxLevel" damageType="1024">
 <overTimeChange progressionID="1879413249" variance="0.3" modifiers="268437688,268440525,268455952,268463403"/>
 </vitalOverTimeEffect>
 <effect id="1879451347" name="Constant Pain Heal" iconId="1090519170" duration="1.0"/>
@@ -41034,7 +41034,7 @@
 <propertyModEffect id="1879457779" name="DNT - Rat King Debuffs Tier 1" iconId="1090616965" duration="1.0" pulseCount="1"/>
 <propertyModEffect id="1879457782" name="DNT - Rat King Debuffs Tier 2" iconId="1090616965" duration="1.0" pulseCount="1"/>
 <propertyModEffect id="1879457783" name="DNT - Rat King Debuffs Tier 3" iconId="1090616965" duration="1.0" pulseCount="1"/>
-<vitalOverTimeEffect id="1879457784" name="Spear of Fate - Light" iconId="1092809825" duration="1.0" pulseCount="11" stat="Health_MaxLevel" damageType="64">
+<vitalOverTimeEffect id="1879457784" name="Spear of Fate - Light" iconId="1092809825" duration="1.0" pulseCount="11" pulseCountMods="268444856,268457673" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268445073,268454044,268463656,268460619" vpsMultiplier="1.25"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879457785" name="Celebration of Skill" stat="Health_MaxLevel">
@@ -41043,7 +41043,7 @@
 <effect id="1879457786" name="DNT - Reduce Mastery cooldown"/>
 <effect id="1879457789" name="DNT - Reduce Mastery cooldown"/>
 <effect id="1879457790" name="DNT - Reduce Mastery cooldown"/>
-<effect id="1879457792" name="Rapid Technique" iconId="1091719861" duration="2.0" pulseCount="5"/>
+<effect id="1879457792" name="Rapid Technique" iconId="1091719861" duration="2.0" pulseCount="5" pulseCountMods="268463647"/>
 <effect id="1879457793" name="DNT - Out of Restorative Shieldwork Uses"/>
 <procEffect id="1879457794" name="Restorative Shield-work" descriptionOverride="key:621071909:62991877" iconId="1091830129" duration="10.0" pulseCount="1" skillTypes="" cooldown="1.0">
 <stat name="PARTIAL_BLOCK_PERCENTAGE" constant="50.0"/>
@@ -42924,7 +42924,7 @@
 <propertyModEffect id="1879466637" name="Thrill of Battle" iconId="1090519170"/>
 <propertyModEffect id="1879466639" name="DNT - Thrill of Battle" iconId="1090519170"/>
 <propertyModEffect id="1879466652" name="DNT - Rupture" appliedDescription="key:621078135:54354734" iconId="1090519170"/>
-<vitalOverTimeEffect id="1879466653" name="Stabbed" iconId="1091805247" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879466653" name="Stabbed" iconId="1091805247" duration="2.0" pulseCount="5" pulseCountMods="268462122" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268452371,268458001" vpsMultiplier="0.418"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879466671" name="DNT - Damage Shield" appliedDescription="key:621078147:54354734" iconId="1090519170"/>
@@ -43093,11 +43093,11 @@
 <fellowshipEffect id="1879467654" name="Motivating Song" applyToPets="true" applyToTarget="true" range="40.0">
 <effect id="1879467666" name="Motivating Song"/>
 </fellowshipEffect>
-<vitalOverTimeEffect id="1879467655" name="Flaming Spirits" iconId="1092825095" duration="1.0" pulseCount="3" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879467655" name="Flaming Spirits" iconId="1092825095" duration="1.0" pulseCount="3" pulseCountMods="268464093" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268464094,268445383,268464040,268445383,268464054" vpsMultiplier="4.275"/>
 </vitalOverTimeEffect>
 <dispelByResist id="1879467657" name="DNT - Remove Poison, Disease, Wound, or Fear" maxDispelCount="1" resistCategories="2,4,7,8" useStrengthRestriction="true" strengthOffset="5"/>
-<vitalOverTimeEffect id="1879467658" name="Attacker's Advantage" iconId="1092825109" duration="2.0" pulseCount="2" probabilityModProperty="268464059" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879467658" name="Attacker's Advantage" iconId="1092825109" duration="2.0" pulseCount="2" pulseCountMods="268464093" probabilityModProperty="268464059" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268464094" vpsMultiplier="1.386"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879467659" name="Lightning Flèche" iconId="1092830898" duration="3.0" pulseCount="1" probabilityModProperty="268464056" stat="Health_MaxLevel">
@@ -43113,7 +43113,7 @@
 <fellowshipEffect id="1879467662" name="The West Wind" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="10.0">
 <effect id="1879467357" name="The West Wind: To Arms"/>
 </fellowshipEffect>
-<vitalOverTimeEffect id="1879467664" name="Relentless Lunge" iconId="1092825108" duration="2.0" pulseCount="2" probabilityModProperty="268464057" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879467664" name="Relentless Lunge" iconId="1092825108" duration="2.0" pulseCount="2" pulseCountMods="268464093" probabilityModProperty="268464057" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268464094" vpsMultiplier="2.6208"/>
 </vitalOverTimeEffect>
 <fellowshipEffect id="1879467665" name="Banners of War" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="40.0">
@@ -43122,7 +43122,7 @@
 <instantVitalEffect id="1879467666" name="Motivating Song" stat="Health_MaxLevel">
 <vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268441250,268464109,268462707" vpsMultiplier="20.0"/>
 </instantVitalEffect>
-<vitalOverTimeEffect id="1879467667" name="Confident Flèche" iconId="1092830898" duration="1.0" pulseCount="2" probabilityModProperty="268464095" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879467667" name="Confident Flèche" iconId="1092830898" duration="1.0" pulseCount="2" pulseCountMods="268464093" probabilityModProperty="268464095" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268464094" vpsMultiplier="1.3104"/>
 </vitalOverTimeEffect>
 <fellowshipEffect id="1879467669" name="Star Guidance" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="40.0">
@@ -43140,13 +43140,13 @@
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="25.0"/>
 <stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879467675" name="Jagged Knife Wound" iconId="1092830906" duration="2.0" pulseCount="3" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879467675" name="Jagged Knife Wound" iconId="1092830906" duration="2.0" pulseCount="3" pulseCountMods="268464093" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268464094" vpsMultiplier="5.7456"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879467676" name="Dramatic Flourish - Heal" stat="Health_MaxLevel">
 <vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268441250,268464215,268462707" vpsMultiplier="12.0"/>
 </instantVitalEffect>
-<vitalOverTimeEffect id="1879467680" name="Confident Lunge" iconId="1092825108" duration="1.0" pulseCount="2" probabilityModProperty="268464095" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879467680" name="Confident Lunge" iconId="1092825108" duration="1.0" pulseCount="2" pulseCountMods="268464093" probabilityModProperty="268464095" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268464094" vpsMultiplier="2.0592"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879467681" name="Shanty Power" stat="Power_MaxLevel">
@@ -43623,14 +43623,14 @@
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="-10.0"/>
 <stat name="RANGED_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="-10.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879470873" name="Quick Strike Bleed" iconId="1091742017" duration="1.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879470873" name="Quick Strike Bleed" iconId="1091742017" duration="1.0" pulseCount="5" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879252580" variance="0.15" modifiers="268456012" vpsMultiplier="0.8"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879470874" name="The Field of Celebrant" iconId="1091742740" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879470874" name="The Field of Celebrant" iconId="1091742740" duration="2.0" pulseCount="5" pulseCountMods="268455740" stat="Health_MaxLevel">
 <initialChange progressionID="1879252966" variance="0.25" modifiers="268455680,268448151,268464230" vpsMultiplier="1.2"/>
 <overTimeChange progressionID="1879252981" modifiers="268455680,268448151,268464230" vpsMultiplier="0.8"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879470875" name="Wounding Knife Bleed" iconId="1091745001" duration="2.0" pulseCount="7" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879470875" name="Wounding Knife Bleed" iconId="1091745001" duration="2.0" pulseCount="7" pulseCountMods="268456015" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879252975" variance="0.15" modifiers="268456012" vpsMultiplier="0.3"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879470876" name="Swordplay: Precise Blade" iconId="1091744017" duration="20.0">
@@ -43647,7 +43647,7 @@
 <fellowshipEffect id="1879470879" name="DNT - Field of Celebrant Heal" applyToPets="true" applyToTarget="true" range="60.0">
 <effect id="1879470874" name="The Field of Celebrant"/>
 </fellowshipEffect>
-<vitalOverTimeEffect id="1879470880" name="Waves of Grass" iconId="1091742740" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879470880" name="Waves of Grass" iconId="1091742740" duration="2.0" pulseCount="5" pulseCountMods="268455740" stat="Health_MaxLevel">
 <initialChange progressionID="1879252966" variance="0.25" modifiers="268455680,268448151,268464230" vpsMultiplier="0.7"/>
 <overTimeChange progressionID="1879252975" modifiers="268455680,268448151,268464230" vpsMultiplier="0.3"/>
 </vitalOverTimeEffect>
@@ -43671,7 +43671,7 @@
 </procEffect>
 <propertyModEffect id="1879471169" name="DNT - Finishers reset CR" iconId="1090519170"/>
 <effect id="1879471263" name="Call Anyâmat"/>
-<vitalOverTimeEffect id="1879471277" name="Fire Pot Burn" iconId="1092825112" duration="2.0" pulseCount="10" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879471277" name="Fire Pot Burn" iconId="1092825112" duration="2.0" pulseCount="10" pulseCountMods="268464093" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268464094,268445383,268464038,268445383,268464054" vpsMultiplier="3.42"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879471341" name="Swordplay: Marked Foes" appliedDescription="key:621081885:54354734" iconId="1092830873" duration="10.0">
@@ -43958,7 +43958,7 @@
 <initialChange progressionID="1879244293" modifiers="268437688"/>
 <overTimeChange progressionID="1879244293" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879478780" name="Recuperate" iconId="1091940911" duration="2.0" pulseCount="6" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879478780" name="Recuperate" iconId="1091940911" duration="2.0" pulseCount="6" pulseCountMods="268462890" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" variance="0.3" modifiers="268441250,268448151,268460289,268462699" vpsMultiplier="33.3"/>
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268448151,268460288" vpsMultiplier="8.88"/>
 </vitalOverTimeEffect>
@@ -46316,7 +46316,7 @@
 <effect id="1879483906" name="Bolstering Cry"/>
 <effect id="1879483904" name="Bolstering Cry"/>
 </fellowshipEffect>
-<vitalOverTimeEffect id="1879484372" name="Punishing Bleed" iconId="1091742742" duration="2.0" pulseCount="5" stat="Health_MaxLevel">
+<vitalOverTimeEffect id="1879484372" name="Punishing Bleed" iconId="1091742742" duration="2.0" pulseCount="5" pulseCountMods="268443885" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268443884,268462739,268463261" vpsMultiplier="1.3"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879484375" name="Punishing Strikes" iconId="1091742742" duration="8.0">
@@ -47365,7 +47365,7 @@
 </propertyModEffect>
 <effect id="1879490772" name="DNT - SotW Rage CD"/>
 <induceCombatState id="1879490773" name="Induce Stunned" probabilityModProperty="268464925" state="15" stateDuration="5.0"/>
-<vitalOverTimeEffect id="1879490774" name="Ancient Wizard's Fire Burn" iconId="1091456314" duration="2.0" pulseCount="5" probabilityModProperty="268464925" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879490774" name="Ancient Wizard's Fire Burn" iconId="1091456314" duration="2.0" pulseCount="5" pulseCountMods="268462788" probabilityModProperty="268464925" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.1" modifiers="268443509,268462739,268445383,268444750,268464926" vpsMultiplier="7.5"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879490777" name="Sign of Power: See all Ends" iconId="1091456257" duration="3.0" probabilityModProperty="268464925">
