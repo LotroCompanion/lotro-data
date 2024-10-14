@@ -243,7 +243,7 @@
 <onExpire id="1879051294" name="Induce Rooted"/>
 <onExpire id="1879051273" name="Silenced"/>
 </countdownEffect>
-<induceCombatState id="1879051294" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0"/>
+<induceCombatState id="1879051294" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0" stateDurationMods="268445485"/>
 <comboEffect id="1879051308" name="DNT" probability="0.25" baseFlags="3">
 <present id="1879050064" name="Flammable"/>
 <toAddIfPresent id="1879051309" name="Seared"/>
@@ -300,7 +300,7 @@
 <propertyModEffect id="1879052132" name="Aim" iconId="1090540967" duration="10.0" baseFlags="444">
 <stat name="Skill_CritChanceMod_MeleeSkills" descriptionOverride="key:620765328:106251889" constant="1000.0"/>
 </propertyModEffect>
-<induceCombatState id="1879052163" name="Induce Fellowship Manoeuvre Stunned" probability="0.2" baseFlags="3" state="9" stateDuration="6.0"/>
+<induceCombatState id="1879052163" name="Induce Fellowship Manoeuvre Stunned" probability="0.2" baseFlags="3" state="9" stateDuration="6.0" stateDurationMods="268452197"/>
 <effect id="1879052213" name="DNT - Lesser Giant Eagle"/>
 <propertyModEffect id="1879052290" name="Harried!" iconId="1090531780" duration="7.0" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
@@ -646,7 +646,7 @@
 <stat name="AI_PerceptionRadius" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
 <effect id="1879060052" name="Calenthon's Spyglass"/>
-<induceCombatState id="1879060074" name="Induce Improved Rooted" baseFlags="3" state="10" stateDuration="30.0"/>
+<induceCombatState id="1879060074" name="Induce Improved Rooted" baseFlags="3" state="10" stateDuration="30.0" gracePeriod="0.0" gracePeriodMods="268459200"/>
 <instantVitalEffect id="1879060075" name="Bear Trap Damage" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879467544" modifiers="268451980"/>
 </instantVitalEffect>
@@ -756,7 +756,7 @@
 <reactiveVital constant="0.85" probability="0.5" multiplicative="true"/>
 </defender>
 </reactiveVitalEffect>
-<induceCombatState id="1879060822" name="Induce Dazed" baseFlags="3" state="3" stateDuration="10.0"/>
+<induceCombatState id="1879060822" name="Induce Dazed" baseFlags="3" state="3" stateDuration="10.0" stateDurationMods="268443507,268446230" gracePeriod="0.0" gracePeriodMods="268457794"/>
 <propertyModEffect id="1879060866" name="Anthem II - War" iconId="1092752392" duration="45.0" baseFlags="444">
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="key:620765876:106251889" constant="3.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="key:620765876:106251890" constant="3.0"/>
@@ -940,7 +940,7 @@
 <initialChange progressionID="1879068279" modifiers="268437688"/>
 <overTimeChange progressionID="1879068280" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<induceCombatState id="1879068284" name="Marbles Tier 1" baseFlags="3" state="9" stateDuration="4.0"/>
+<induceCombatState id="1879068284" name="Marbles Tier 1" baseFlags="3" state="9" stateDuration="4.0" stateDurationMods="268452197"/>
 <propertyModEffect id="1879068292" name="Rune of Striking" iconId="1090519170" baseFlags="2188">
 <stat name="STRIKE_SKILLS_POWER_COST_PERCENTAGE" constant="-2.0"/>
 </propertyModEffect>
@@ -1002,7 +1002,7 @@
 <initialChange progressionID="1879068279" modifiers="268437688"/>
 <overTimeChange progressionID="1879068280" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<induceCombatState id="1879070123" name="Marbles Tier 2" baseFlags="3" state="9" stateDuration="5.0"/>
+<induceCombatState id="1879070123" name="Marbles Tier 2" baseFlags="3" state="9" stateDuration="5.0" stateDurationMods="268452197"/>
 <fellowshipEffect id="1879070151" name="Star Glass" applyToTarget="true" range="20.0">
 <effect id="1879070152" name="Glossy Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
@@ -1059,7 +1059,7 @@
 <initialChange progressionID="1879068279" modifiers="268437688"/>
 <overTimeChange progressionID="1879068280" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<induceCombatState id="1879070448" name="Marbles Tier 3" baseFlags="3" state="9" stateDuration="6.0"/>
+<induceCombatState id="1879070448" name="Marbles Tier 3" baseFlags="3" state="9" stateDuration="6.0" stateDurationMods="268452197"/>
 <induceCombatState id="1879070452" name="Stun Dust Tier 3" baseFlags="3" state="15" stateDuration="5.0"/>
 <propertyModEffect id="1879070473" name="Rune of Striking" iconId="1090519170" baseFlags="2188">
 <stat name="STRIKE_SKILLS_POWER_COST_PERCENTAGE" constant="-5.0"/>
@@ -1283,9 +1283,9 @@
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" constant="0.7"/>
 <stat name="Combat_BaseMissRate" constant="2.0"/>
 </propertyModEffect>
-<induceCombatState id="1879073247" name="Induce Rooted" baseFlags="3" state="10" stateDuration="30.0"/>
+<induceCombatState id="1879073247" name="Induce Rooted" baseFlags="3" state="10" stateDuration="30.0" gracePeriod="1.0" gracePeriodMods="268457794"/>
 <effect id="1879073248" name="DNT - Call to the Valar"/>
-<induceCombatState id="1879073252" name="Induce Stunned" baseFlags="3" state="15" stateDuration="3.0"/>
+<induceCombatState id="1879073252" name="Induce Stunned" baseFlags="3" state="15" stateDuration="3.0" stateDurationMods="268457786"/>
 <propertyModEffect id="1879073261" name="Guardian's Block Stance" iconId="1090553894" baseFlags="2492">
 <stat name="BLOCK_PERCENTAGE" constant="5.0"/>
 <stat name="ItemWear_ChanceMod_CombatBlock" operator="SUBSTRACT" descriptionOverride="key:620775096:106251890" constant="1.5"/>
@@ -1304,7 +1304,7 @@
 <summoned id="1879073284" name="Acorn Whistle[v]"/>
 </genesis>
 <effect id="1879073303" name="Dispel Critical" baseFlags="3"/>
-<induceCombatState id="1879073312" name="Induce Fellowship Manoeuvre Stunned" baseFlags="3" state="9" stateDuration="5.0"/>
+<induceCombatState id="1879073312" name="Induce Fellowship Manoeuvre Stunned" baseFlags="3" state="9" stateDuration="5.0" stateDurationMods="268452197"/>
 <propertyModEffect id="1879073314" name="Addle" iconId="1090553916" duration="30.0" baseFlags="447">
 <stat name="ALL_SKILL_INDUCTION" descriptionOverride="key:620775133:106251889" constant="25.0"/>
 </propertyModEffect>
@@ -1312,7 +1312,7 @@
 <toAddIfPresent id="1879073317" name="Induce Startling Twist Stunned"/>
 <toExamine id="1879073317" name="Induce Startling Twist Stunned"/>
 </comboEffect>
-<induceCombatState id="1879073317" name="Induce Startling Twist Stunned" baseFlags="3" state="15" stateDuration="8.0"/>
+<induceCombatState id="1879073317" name="Induce Startling Twist Stunned" baseFlags="3" state="15" stateDuration="8.0" stateDurationMods="268447412"/>
 <comboEffect id="1879073318" name="DNT" baseFlags="3">
 <toGiveBackIfPresent id="1879386424" name="Mischevious Glee"/>
 <toExamine id="1879386424" name="Mischevious Glee"/>
@@ -1483,10 +1483,10 @@
 <stat name="MELEE_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="20.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="20.0"/>
 </propertyModEffect>
-<induceCombatState id="1879074087" name="3 Second Knockdown" baseFlags="3" state="9" stateDuration="3.0"/>
-<induceCombatState id="1879074088" name="5 Second Knockdown" baseFlags="3" state="9" stateDuration="5.0"/>
-<induceCombatState id="1879074089" name="8 Second Knockdown" baseFlags="3" state="9" stateDuration="8.0"/>
-<induceCombatState id="1879074090" name="Ludicrous Knockdown" baseFlags="3" state="9" stateDuration="15.0"/>
+<induceCombatState id="1879074087" name="3 Second Knockdown" baseFlags="3" state="9" stateDuration="3.0" stateDurationMods="268452197"/>
+<induceCombatState id="1879074088" name="5 Second Knockdown" baseFlags="3" state="9" stateDuration="5.0" stateDurationMods="268452197"/>
+<induceCombatState id="1879074089" name="8 Second Knockdown" baseFlags="3" state="9" stateDuration="8.0" stateDurationMods="268452197"/>
+<induceCombatState id="1879074090" name="Ludicrous Knockdown" baseFlags="3" state="9" stateDuration="15.0" stateDurationMods="268452197"/>
 <effect id="1879074091" name="Test  Effect" appliedDescription="Testing" baseFlags="3"/>
 <effect id="1879074123" name="Stealth Breaker" appliedDescription="This breaks stealth" baseFlags="3"/>
 <effect id="1879074130" name="Fly Away" appliedDescription="Away you go!"/>
@@ -1792,19 +1792,19 @@
 <stat name="HOPE" constant="2.0"/>
 <stat name="INCOMING_HEALING_PERCENTAGE" constant="10.0"/>
 </propertyModEffect>
-<induceCombatState id="1879085382" name="Horn" baseFlags="3" state="15">
+<induceCombatState id="1879085382" name="Horn" baseFlags="3" state="15" stateDurationMods="268445467">
 <function minX="25.0" maxX="50.0" minY="3.0" maxY="5.0"/>
 </induceCombatState>
 <induceCombatState id="1879085383" name="Induce Cowering" baseFlags="3" state="1" stateDuration="5.0"/>
-<induceCombatState id="1879085384" name="Horn" baseFlags="3" state="15">
+<induceCombatState id="1879085384" name="Horn" baseFlags="3" state="15" stateDurationMods="268445467">
 <function minX="25.0" maxX="50.0" minY="3.0" maxY="5.0"/>
 </induceCombatState>
-<induceCombatState id="1879085385" name="Induce Feared" baseFlags="3" state="2" stateDuration="15.0"/>
+<induceCombatState id="1879085385" name="Induce Feared" baseFlags="3" state="2" stateDuration="15.0" stateDurationMods="268443551" gracePeriod="1.0"/>
 <induceCombatState id="1879085387" name="Induce Stunned" probability="0.5" baseFlags="3" state="15" stateDuration="3.0"/>
-<induceCombatState id="1879085393" name="Induce Rooted" baseFlags="3" state="10" stateDuration="60.0"/>
+<induceCombatState id="1879085393" name="Induce Rooted" baseFlags="3" state="10" stateDuration="60.0" stateDurationMods="268445485"/>
 <induceCombatState id="1879085394" name="Induce Cowering" probability="0.5" baseFlags="3" state="1" stateDuration="2.0"/>
 <induceCombatState id="1879085395" name="Induce Cowering" probability="0.75" baseFlags="3" state="1" stateDuration="3.0"/>
-<induceCombatState id="1879085397" name="Horn" baseFlags="3" state="15">
+<induceCombatState id="1879085397" name="Horn" baseFlags="3" state="15" stateDurationMods="268445467">
 <function minX="25.0" maxX="50.0" minY="3.0" maxY="5.0"/>
 </induceCombatState>
 <instantVitalEffect id="1879085433" name="Power Damage Max" baseFlags="3" stat="Power_MaxLevel">
@@ -3084,13 +3084,13 @@
 <toAddIfNotPresent id="1879097591" name="Minor Breach"/>
 <toAddIfPresent id="1879098321" name="DNT"/>
 </comboEffect>
-<induceCombatState id="1879098336" name="Induce Dazed" baseFlags="3" state="3" stateDuration="15.0"/>
-<induceCombatState id="1879098337" name="Induce Improved Riddle" appliedDescription="key:620796872:54354734" baseFlags="3" state="3" stateDuration="35.0"/>
+<induceCombatState id="1879098336" name="Induce Dazed" baseFlags="3" state="3" stateDuration="15.0" stateDurationMods="268455619" gracePeriod="2.0" gracePeriodMods="268457794"/>
+<induceCombatState id="1879098337" name="Induce Improved Riddle" appliedDescription="key:620796872:54354734" baseFlags="3" state="3" stateDuration="35.0" stateDurationMods="268447414" gracePeriod="5.0"/>
 <vitalOverTimeEffect id="1879098374" name="Ultimate Inferno" iconId="1090599442" duration="2.0" baseFlags="2491" stat="Health_MaxLevel" damageType="16">
 <initialChange progressionID="1879149240" modifiers="268437688"/>
 <overTimeChange progressionID="1879149247" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<induceCombatState id="1879098376" name="Induce Feared" baseFlags="3" state="2" stateDuration="10.0"/>
+<induceCombatState id="1879098376" name="Induce Feared" baseFlags="3" state="2" stateDuration="10.0" stateDurationMods="268443551" gracePeriod="1.0"/>
 <induceCombatState id="1879098720" name="Induce Dazed" baseFlags="3" state="3" stateDuration="10.0"/>
 <instantVitalEffect id="1879098721" name="Morale Damage" baseFlags="3" stat="Health_MaxLevel" multiplicative="true"/>
 <propertyModEffect id="1879098722" name="Greater Shadow Vulnerability" description="key:620797179:181298206" appliedDescription="key:620797179:54354734" iconId="1090528810" duration="3.0" pulseCount="10" baseFlags="1535">
@@ -3459,7 +3459,7 @@
 <stat name="PARRY_PERCENTAGE" constant="50.0"/>
 <stat name="EVADE_PERCENTAGE" constant="50.0"/>
 </propertyModEffect>
-<induceCombatState id="1879103773" name="Induce Rooted" baseFlags="3" state="10" stateDuration="30.0"/>
+<induceCombatState id="1879103773" name="Induce Rooted" baseFlags="3" state="10" stateDuration="30.0" stateDurationMods="268445485"/>
 <propertyModEffect id="1879103775" name="Crushing Pain" appliedDescription="key:620801142:54354734" iconId="1090522393" duration="10.0" pulseCount="2" baseFlags="1535">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="30.0"/>
 <stat name="EVADE" operator="SUBSTRACT" scaling="1879093771"/>
@@ -3936,7 +3936,7 @@
 <toAddIfNotPresent id="1879174077" name="Writ of Fire - Tier 3"/>
 <toAddIfPresent id="1879174077" name="Writ of Fire - Tier 3"/>
 </comboEffect>
-<induceCombatState id="1879109628" name="Induce Rooted" baseFlags="3" state="10" stateDuration="30.0"/>
+<induceCombatState id="1879109628" name="Induce Rooted" baseFlags="3" state="10" stateDuration="30.0" stateDurationMods="268445485" gracePeriod="3.0"/>
 <propertyModEffect id="1879109989" name="Northern Chill (1)" appliedDescription="key:620805378:54354734" iconId="1091428258" duration="300.0" baseFlags="1439">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="10.0"/>
 <stat name="ALL_SKILL_INDUCTION" constant="10.0"/>
@@ -4047,7 +4047,7 @@
 <effect id="1879110471" name="Induce Dazed" probability="0.3"/>
 </attacker>
 </reactiveVitalEffect>
-<induceCombatState id="1879110471" name="Induce Dazed" baseFlags="3" state="3" stateDuration="5.0"/>
+<induceCombatState id="1879110471" name="Induce Dazed" baseFlags="3" state="3" stateDuration="5.0" stateDurationMods="268457960" gracePeriod="1.0"/>
 <propertyModEffect id="1879110473" name="Rune-sign of Storm" iconId="1091478067" duration="30.0" baseFlags="444">
 <stat name="CRITICAL_RATING" scaling="1879381485"/>
 </propertyModEffect>
@@ -4064,7 +4064,7 @@
 <propertyModEffect id="1879110750" name="Rousing Words - Less threat" iconId="1091454158" baseFlags="2236">
 <stat name="ThreatInputModifier_Healing" operator="SUBSTRACT" descriptionOverride="-" constant="100.0"/>
 </propertyModEffect>
-<induceCombatState id="1879110795" name="Induce Dazed" baseFlags="3" state="3" stateDuration="10.0"/>
+<induceCombatState id="1879110795" name="Induce Dazed" baseFlags="3" state="3" stateDuration="10.0" stateDurationMods="268459158" gracePeriod="1.0"/>
 <propertyModEffect id="1879110814" name="Tale of Rage - Tier 1" description="key:620806036:181298206" iconId="1091829860" duration="10.0" baseFlags="444">
 <stat name="Combat_SkillDamageMultiplier_Fire" scaling="1879287025"/>
 </propertyModEffect>
@@ -4331,7 +4331,7 @@
 <propertyModEffect id="1879112080" name="Fire Vulnerability" description="key:620806895:181298206" appliedDescription="key:620806895:54354734" iconId="1091475964" baseFlags="2495">
 <stat name="FIRE_MITIGATION" operator="SUBSTRACT" scaling="1879131675"/>
 </propertyModEffect>
-<induceCombatState id="1879112106" name="Induce Dazed" baseFlags="3" state="3" stateDuration="10.0"/>
+<induceCombatState id="1879112106" name="Induce Dazed" baseFlags="3" state="3" stateDuration="10.0" stateDurationMods="268464630" gracePeriod="0.0" gracePeriodMods="268459378"/>
 <propertyModEffect id="1879112150" name="Blade &amp; Fire Tactics" iconId="1091478906" baseFlags="3004">
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
@@ -5371,8 +5371,8 @@
 <overTimeChange progressionID="1879475451" modifiers="268445385,268462739" vpsMultiplier="2.4"/>
 </vitalOverTimeEffect>
 <effect id="1879134474" name="Exit Knocked Down and Knocked Out" description="key:620826232:181298206" baseFlags="3"/>
-<induceCombatState id="1879134520" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0"/>
-<induceCombatState id="1879134521" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0"/>
+<induceCombatState id="1879134520" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0" stateDurationMods="268445485"/>
+<induceCombatState id="1879134521" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0" stateDurationMods="268445485"/>
 <countdownEffect id="1879134522" name="The Shaking of Arda" appliedDescription="key:620826247:54354734" iconId="1090541218" duration="12.0" pulseCount="1" baseFlags="443">
 <onExpire id="1879134520" name="Induce Rooted"/>
 </countdownEffect>
@@ -5415,7 +5415,7 @@
 <dispelByResist id="1879135443" name="Remove Wounds" maxDispelCount="3" resistCategories="4" useStrengthRestriction="true" strengthOffset="5"/>
 <dispelByResist id="1879135472" name="Remove Disease &amp; Fear" maxDispelCount="1" resistCategories="2,7" useStrengthRestriction="true" strengthOffset="5"/>
 <dispelByResist id="1879135507" name="Remove Wound &amp; Poison" maxDispelCount="1" resistCategories="4,8" useStrengthRestriction="true" strengthOffset="5"/>
-<induceCombatState id="1879135552" name="Induce Dazed" baseFlags="3" state="3" stateDuration="5.0"/>
+<induceCombatState id="1879135552" name="Induce Dazed" baseFlags="3" state="3" stateDuration="5.0" gracePeriod="1.0"/>
 <comboEffect id="1879135553" name="DNT" baseFlags="3">
 <present id="1879135569" name="Branded"/>
 <toAddIfPresent id="1879052009" name="Deep Wound"/>
@@ -7086,15 +7086,15 @@
 <dispelByResist id="1879152730" name="Remove Tactical Effect" maxDispelCount="1" resistCategories="9" useStrengthRestriction="true"/>
 <dispelByResist id="1879152735" name="Remove Cry Effect" maxDispelCount="1" resistCategories="5" useStrengthRestriction="true"/>
 <induceCombatState id="1879152790" name="Induce Rooted" baseFlags="3" state="10" stateDuration="8.0"/>
-<induceCombatState id="1879152791" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0"/>
-<induceCombatState id="1879152801" name="Induce Rooted" baseFlags="3" state="10" stateDuration="20.0"/>
-<induceCombatState id="1879152802" name="Induce Rooted" baseFlags="3" state="10" stateDuration="8.0"/>
-<induceCombatState id="1879152803" name="Induce Rooted" baseFlags="3" state="10" stateDuration="15.0"/>
-<induceCombatState id="1879152804" name="Induce Rooted" baseFlags="3" state="10" stateDuration="15.0"/>
-<induceCombatState id="1879152805" name="Induce Rooted" baseFlags="3" state="10" stateDuration="8.0"/>
-<induceCombatState id="1879152806" name="Induce Rooted" baseFlags="3" state="10" stateDuration="3.0"/>
-<induceCombatState id="1879152807" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0"/>
-<induceCombatState id="1879152808" name="Viscous Slime" baseFlags="3" state="10" stateDuration="3.0"/>
+<induceCombatState id="1879152791" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0" stateDurationMods="268445485"/>
+<induceCombatState id="1879152801" name="Induce Rooted" baseFlags="3" state="10" stateDuration="20.0" stateDurationMods="268445485"/>
+<induceCombatState id="1879152802" name="Induce Rooted" baseFlags="3" state="10" stateDuration="8.0" stateDurationMods="268445485"/>
+<induceCombatState id="1879152803" name="Induce Rooted" baseFlags="3" state="10" stateDuration="15.0" stateDurationMods="268445485"/>
+<induceCombatState id="1879152804" name="Induce Rooted" baseFlags="3" state="10" stateDuration="15.0" stateDurationMods="268445485"/>
+<induceCombatState id="1879152805" name="Induce Rooted" baseFlags="3" state="10" stateDuration="8.0" stateDurationMods="268445485"/>
+<induceCombatState id="1879152806" name="Induce Rooted" baseFlags="3" state="10" stateDuration="3.0" stateDurationMods="268445485"/>
+<induceCombatState id="1879152807" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0" stateDurationMods="268445485"/>
+<induceCombatState id="1879152808" name="Viscous Slime" baseFlags="3" state="10" stateDuration="3.0" stateDurationMods="268445485"/>
 <countdownEffect id="1879152810" name="Party Time" description="key:620837466:181298206" appliedDescription="key:620837466:54354734" iconId="1090641205" duration="15.0" pulseCount="1" baseFlags="440">
 <onExpire id="1879152811" name="Party Time"/>
 <onExpire id="1879103520" name="Flop"/>
@@ -8535,7 +8535,7 @@
 <stat name="ATTACK_DURATION_PERCENTAGE" descriptionOverride="key:620842497:106251889" constant="15.000001"/>
 </propertyModEffect>
 <effect id="1879160693" name="DNT - Bree Steed Flag" iconId="1090541681" duration="605.0" baseFlags="56"/>
-<induceCombatState id="1879160707" name="Riddle" baseFlags="3" state="3" stateDuration="30.0"/>
+<induceCombatState id="1879160707" name="Riddle" baseFlags="3" state="3" stateDuration="30.0" stateDurationMods="268447414" gracePeriod="0.0" gracePeriodMods="268457563"/>
 <effect id="1879160712" name="DNT - Othrikar Flag" iconId="1090541681" duration="1205.0" baseFlags="56"/>
 <effect id="1879160713" name="DNT - Michel Delving Steed Flag" iconId="1090541681" duration="1205.0" baseFlags="56"/>
 <propertyModEffect id="1879160858" name="DNT - Vulnerable" iconId="1090519170" baseFlags="2111"/>
@@ -10571,7 +10571,7 @@
 <countdownEffect id="1879180042" name="Impending Explosion" iconId="1091535604" duration="10.0" pulseCount="1" baseFlags="440">
 <onExpire id="1879180041" name="DNT - Response Hint"/>
 </countdownEffect>
-<induceCombatState id="1879180043" name="Induce Dazed" description="key:620857872:181298206" probability="0.15" baseFlags="3" state="3" stateDuration="3.0"/>
+<induceCombatState id="1879180043" name="Induce Dazed" description="key:620857872:181298206" probability="0.15" baseFlags="3" state="3" stateDuration="3.0" gracePeriod="1.0"/>
 <recallEffect id="1879180352" name="Travel to Ost Guruth">
 <position region="1" longitude="-29.871748" latitude="-32.164433"/>
 </recallEffect>
@@ -13766,7 +13766,7 @@
 <effect id="1879203497" name="Remove Slow"/>
 <propertyModEffect id="1879203544" name="DNT - Scourging Blow makes the next Barbed Arrow have a shorter induction time" appliedDescription="key:620876199:54354734" iconId="1090519170" baseFlags="2176"/>
 <propertyModEffect id="1879203545" name="DNT - Needful Hate recoveres Dazing Blow" appliedDescription="key:620876200:54354734" iconId="1090519170" baseFlags="2176"/>
-<induceCombatState id="1879203553" name="Induce Feared" probabilityModProperty="268451131" baseFlags="3" state="2" stateDuration="10.0"/>
+<induceCombatState id="1879203553" name="Induce Feared" probabilityModProperty="268451131" baseFlags="3" state="2" stateDuration="10.0" gracePeriod="0.5"/>
 <applyOverTimeEffect id="1879203566" name="DNT" description="key:620876223:181298206" appliedDescription="key:620876223:54354734" iconId="1090519170" duration="1.0" pulseCount="1" probabilityModProperty="268451129" baseFlags="128">
 <initiallyApplied id="1879203497" name="Remove Slow"/>
 <initiallyApplied id="1879085777" name="Exit Rooted"/>
@@ -14687,7 +14687,7 @@
 </comboEffect>
 <effect id="1879210656" name="Scytode Brood Hatchling"/>
 <effect id="1879210679" name="DNT - Summon Follower"/>
-<induceCombatState id="1879210684" name="Induce Rooted" baseFlags="3" state="10" stateDuration="30.0"/>
+<induceCombatState id="1879210684" name="Induce Rooted" baseFlags="3" state="10" stateDuration="30.0" stateDurationMods="268445485"/>
 <countdownEffect id="1879210685" name="Poisonous Silk" iconId="1091657094" duration="10.0" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="10.0"/>
 <onExpire id="1879210684" name="Induce Rooted"/>
@@ -15715,7 +15715,7 @@
 <toAddIfNotPresent id="1879275985" name="Ballad Tier 1"/>
 <toAddIfPresent id="1879275984" name="Ballad Tier 2"/>
 </comboEffect>
-<induceCombatState id="1879218792" name="Induce Dazed" probabilityModProperty="268451130" baseFlags="3" state="3" stateDuration="5.0"/>
+<induceCombatState id="1879218792" name="Induce Dazed" probabilityModProperty="268451130" baseFlags="3" state="3" stateDuration="5.0" gracePeriod="1.0" gracePeriodMods="268457794"/>
 <genesis id="1879218888" name="DNT - spider pet from an existing pet" summonDuration="60.0">
 <summoned id="1879117904" name="Globsnaga Broodling[m]"/>
 </genesis>
@@ -16334,7 +16334,7 @@
 <initialChange progressionID="1879149256"/>
 <overTimeChange progressionID="1879149256"/>
 </vitalOverTimeEffect>
-<induceCombatState id="1879223311" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0"/>
+<induceCombatState id="1879223311" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0" stateDurationMods="268445485"/>
 <propertyModEffect id="1879223315" name="Unstable Mutation" iconId="1091668185" duration="30.0" pulseCount="1" baseFlags="952"/>
 <countdownEffect id="1879223316" name="Disease" appliedDescription="key:620889679:54354734" iconId="1090522617" duration="6.0" pulseCount="1" baseFlags="443">
 <onExpire id="1879223317" name="Disease"/>
@@ -24191,8 +24191,8 @@
 <effect id="1879271375" name="DNT -Last Stand Reset"/>
 </procEffect>
 <effect id="1879271375" name="DNT -Last Stand Reset" description="key:620921933:181298206"/>
-<induceCombatState id="1879271380" name="Induce Stunned" baseFlags="3" state="15" stateDuration="5.0"/>
-<induceCombatState id="1879271381" name="Induce Stunned" baseFlags="3" state="15" stateDuration="3.0"/>
+<induceCombatState id="1879271380" name="Induce Stunned" baseFlags="3" state="15" stateDuration="5.0" stateDurationMods="268457786"/>
+<induceCombatState id="1879271381" name="Induce Stunned" baseFlags="3" state="15" stateDuration="3.0" stateDurationMods="268457786"/>
 <travelEffect id="1879271382" name="DNT" sceneID="1879076002">
 <position region="1" longitude="-71.495705" latitude="-29.819393"/>
 </travelEffect>
@@ -24967,7 +24967,7 @@
 <initialChange progressionID="1879244292" modifiers="268458951"/>
 <overTimeChange progressionID="1879244292" modifiers="268458951"/>
 </vitalOverTimeEffect>
-<induceCombatState id="1879276114" name="Stunning Bellow" appliedDescription="key:620925739:54354734" baseFlags="3" state="15" stateDuration="3.0"/>
+<induceCombatState id="1879276114" name="Stunning Bellow" appliedDescription="key:620925739:54354734" baseFlags="3" state="15" stateDuration="3.0" stateDurationMods="268458933"/>
 <propertyModEffect id="1879276151" name="Empowerment" description="key:620925790:181298206" appliedDescription="key:620925790:54354734" iconId="1091838422" baseFlags="2488"/>
 <propertyModEffect id="1879276152" name="Eye for an Eye" description="key:620925784:181298206" appliedDescription="key:620925784:54354734" iconId="1091838416" baseFlags="2488"/>
 <propertyModEffect id="1879276153" name="Rejuvenation" description="key:620925789:181298206" appliedDescription="key:620925789:54354734" iconId="1091838418" baseFlags="2488"/>
@@ -25003,7 +25003,7 @@
 <genesis id="1879276753" name=".." appliedDescription="key:620926281:54354734" permanent="true"/>
 <genesis id="1879276754" name=".." appliedDescription="key:620926279:54354734" permanent="true"/>
 <genesis id="1879276755" name=".." appliedDescription="key:620926277:54354734" permanent="true"/>
-<induceCombatState id="1879276765" name="Induce Stunned" baseFlags="3" state="15" stateDuration="3.0"/>
+<induceCombatState id="1879276765" name="Induce Stunned" baseFlags="3" state="15" stateDuration="3.0" stateDurationMods="268457786"/>
 <effect id="1879276791" name="DNT"/>
 <vitalOverTimeEffect id="1879276888" name="Haemorrhaging Wound" iconId="1091449586" duration="2.0" pulseCount="4" pulseCountMods="268462122" probabilityModProperty="268457998" baseFlags="959" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268448022,268458001" vpsMultiplier="0.722"/>
@@ -25312,7 +25312,7 @@
 <overTimeChange progressionID="1879383395" variance="0.1" modifiers="268445384,268462739,268443428,268444775,268457964" vpsMultiplier="1.92456"/>
 </vitalOverTimeEffect>
 <effect id="1879278143" name="Bird Flag" iconId="1090531784" baseFlags="2188"/>
-<induceCombatState id="1879278201" name="Induce Fellowship Manoeuvre Stunned" baseFlags="3" state="9" stateDuration="5.0"/>
+<induceCombatState id="1879278201" name="Induce Fellowship Manoeuvre Stunned" baseFlags="3" state="9" stateDuration="5.0" stateDurationMods="268452197"/>
 <countdownEffect id="1879278248" name="DNT - Concession and Rebuttal Dispel" iconId="1090533270" duration="180.0" pulseCount="1" baseFlags="184">
 <onExpire id="1879275517" name="DNT - Concession and Rebuttal Dispel"/>
 </countdownEffect>
@@ -26029,7 +26029,7 @@
 <propertyModEffect id="1879286491" name="Devastated" iconId="1090553766" duration="8.0" baseFlags="959">
 <stat name="MELEE_DEFENCE_PERCENTAGE" constant="10.0"/>
 </propertyModEffect>
-<induceCombatState id="1879286496" name="Induce Knockeddown" baseFlags="3" state="13" stateDuration="2.0"/>
+<induceCombatState id="1879286496" name="Induce Knockeddown" baseFlags="3" state="13" stateDuration="2.0" stateDurationMods="268459121"/>
 <instantVitalEffect id="1879286497" name="Bear Trap" baseFlags="3" stat="Health_MaxLevel">
 <vitalChange progressionID="1879180912" modifiers="268459116"/>
 </instantVitalEffect>
@@ -26104,7 +26104,7 @@
 <overTimeChange progressionID="1879049743" modifiers="268437688,268440525"/>
 </vitalOverTimeEffect>
 <effect id="1879287334" name="Knockback" baseFlags="3"/>
-<induceCombatState id="1879287344" name="Induce Stunned" baseFlags="3" state="15" stateDuration="1.0"/>
+<induceCombatState id="1879287344" name="Induce Stunned" baseFlags="3" state="15" stateDuration="1.0" stateDurationMods="268459158"/>
 <dispelByResist id="1879287348" name="DNT - Remove Poison, Disease, Wound, or Fear" maxDispelCount="3" resistCategories="2,4,7,8" useStrengthRestriction="true" strengthOffset="5"/>
 <fellowshipEffect id="1879287379" name="DNT - Story of Courage" applyToPets="true" applyToTarget="true" range="45.0">
 <effect id="1879205499" name="DNT - Dispel Fear"/>
@@ -26431,7 +26431,7 @@
 <finalTier id="1879289177" name="Fast Draw - Tier 3"/>
 </tieredEffect>
 <effect id="1879289278" name="DNT - Bog-Guardian"/>
-<induceCombatState id="1879289403" name="Induce Feared" baseFlags="3" state="2" stateDuration="15.0"/>
+<induceCombatState id="1879289403" name="Induce Feared" baseFlags="3" state="2" stateDuration="15.0" stateDurationMods="268443551" gracePeriod="1.0" gracePeriodMods="268459299"/>
 <propertyModEffect id="1879289524" name="DNT - Ancient Craft - Damage Bonus" iconId="1090519170" baseFlags="2176"/>
 <propertyModEffect id="1879289526" name="DNT - Ancient Craft - Damage Bonus" iconId="1090519170" baseFlags="2176">
 <specialEffect label="key:620936374:106251889"/>
@@ -26723,7 +26723,7 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
-<induceCombatState id="1879291145" name="Righteousness" state="14" stateDuration="15.0"/>
+<induceCombatState id="1879291145" name="Righteousness" state="14" stateDuration="15.0" stateDurationMods="268461450"/>
 <effect id="1879291233" name="Force Attack" iconId="1090519170" baseFlags="3"/>
 <effect id="1879291236" name="DNT"/>
 <effect id="1879291237" name="DNT"/>
@@ -26906,7 +26906,7 @@
 <procEffect id="1879291515" name="Precise Strikes" descriptionOverride="key:620937815:62991877" appliedDescription="key:620937815:54354734" iconId="1090552382" baseFlags="2184" skillTypes="33">
 <effect id="1879291514" name="DNT - Precise Strikes"/>
 </procEffect>
-<induceCombatState id="1879292015" name="Induce Rooted" baseFlags="3" state="10" stateDuration="5.0"/>
+<induceCombatState id="1879292015" name="Induce Rooted" baseFlags="3" state="10" stateDuration="5.0" gracePeriod="1.0"/>
 <applyOverTimeEffect id="1879292016" name="DNT - Elendil DPS Dispel" iconId="1090553787" duration="1.0" pulseCount="1" baseFlags="188">
 <applied id="1879273715" name="DNT - Dispel Elendil's Boon"/>
 </applyOverTimeEffect>
@@ -27248,7 +27248,7 @@
 <instantVitalEffect id="1879297446" name="Standard of War" baseFlags="3" stat="Health_MaxLevel" damageType="64">
 <vitalChange progressionID="1879383395" modifiers="268445385,268457753,268462736" vpsMultiplier="3.5"/>
 </instantVitalEffect>
-<induceCombatState id="1879297487" name="Will of the Council" baseFlags="3" state="15" stateDuration="3.0"/>
+<induceCombatState id="1879297487" name="Will of the Council" baseFlags="3" state="15" stateDuration="3.0" stateDurationMods="268457786"/>
 <procEffect id="1879297520" name="DNT - Wizard's Fire Reset" appliedDescription="key:620942002:54354734" iconId="1090552382" baseFlags="2184" skillTypes="12" cooldown="60.0">
 <effect id="1879201439" name="DNT - Reset Lightning Storm"/>
 </procEffect>
@@ -28630,7 +28630,7 @@
 </instantVitalEffect>
 <propertyModEffect id="1879316256" name="DNT - CC Breakout Bubble" iconId="1090519170" baseFlags="2176"/>
 <procEffect id="1879316258" name="DNT - CC Breakout" appliedDescription="key:620954166:54354734" iconId="1091718774" baseFlags="2184" skillTypes="17"/>
-<induceCombatState id="1879316351" name="Induce Feared" baseFlags="3" state="2" stateDuration="12.0"/>
+<induceCombatState id="1879316351" name="Induce Feared" baseFlags="3" state="2" stateDuration="12.0" stateDurationMods="268459984,268460405" gracePeriod="1.0"/>
 <effect id="1879316364" name="Gondorian Treasure Cache"/>
 <vitalOverTimeEffect id="1879316399" name="Bee Swarm" iconId="1091742016" duration="3.0" pulseCount="4" pulseCountMods="268456015" baseFlags="955" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879468794" modifiers="268456012"/>
@@ -37395,7 +37395,7 @@
 <tierUp id="1879401292" name="Overpower - 5"/>
 <finalTier id="1879401292" name="Overpower - 5"/>
 </tieredEffect>
-<induceCombatState id="1879401296" name="Ludicrous Knockdown" baseFlags="3" state="9" stateDuration="30.0"/>
+<induceCombatState id="1879401296" name="Ludicrous Knockdown" baseFlags="3" state="9" stateDuration="30.0" stateDurationMods="268452197"/>
 <propertyModEffect id="1879401298" name="Corrosive Bite - 5" appliedDescription="key:621029595:54354734" iconId="1091476365" duration="60.0" baseFlags="443">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="100.0"/>
 </propertyModEffect>
@@ -43206,7 +43206,7 @@
 </hotspot>
 </genesis>
 <effect id="1879446482" name="Quaking Terror" iconId="1090532173" duration="2.0" pulseCount="3" baseFlags="439"/>
-<induceCombatState id="1879446700" name="Induce Stunned" probabilityModProperty="268463156" baseFlags="3" state="15" stateDuration="2.0"/>
+<induceCombatState id="1879446700" name="Induce Stunned" probabilityModProperty="268463156" baseFlags="3" state="15" stateDuration="2.0" stateDurationMods="268463155"/>
 <countdownEffect id="1879447248" name="Impending Avalanche" appliedDescription="key:621064528:54354734" iconId="1090599071" duration="6.0" pulseCount="1" baseFlags="443">
 <onExpire id="1879443618" name="Avalanche"/>
 </countdownEffect>
@@ -45954,7 +45954,7 @@
 <fellowshipEffect id="1879460107" name="DNT - AT Cashout Defence Buff" probabilityModProperty="268463882" applyToPets="true" applyToTarget="true" range="40.0">
 <effect id="1879459850" name="Fellowship Protector - Advanced Defence"/>
 </fellowshipEffect>
-<induceCombatState id="1879460109" name="DNT - Induce Stun" baseFlags="3" state="15" stateDuration="3.0"/>
+<induceCombatState id="1879460109" name="DNT - Induce Stun" baseFlags="3" state="15" stateDuration="3.0" stateDurationMods="268464653"/>
 <comboEffect id="1879460271" name="DNT" baseFlags="3">
 <present id="1879303966" name="Mighty Blow Bleed"/>
 <toAddIfPresent id="1879312832" name="Stinging Bleed - Tier 2"/>
@@ -47366,11 +47366,11 @@
 <stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" constant="0.97"/>
 <stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" constant="0.97"/>
 </propertyModEffect>
-<induceCombatState id="1879466167" name="Induce Dazed" baseFlags="3" state="3" stateDuration="15.0"/>
-<induceCombatState id="1879466168" name="Induce Rooted" baseFlags="3" state="10" stateDuration="15.0"/>
+<induceCombatState id="1879466167" name="Induce Dazed" baseFlags="3" state="3" stateDuration="15.0" stateDurationMods="268464108" gracePeriod="1.0"/>
+<induceCombatState id="1879466168" name="Induce Rooted" baseFlags="3" state="10" stateDuration="15.0" stateDurationMods="268464108" gracePeriod="2.0"/>
 <induceCombatState id="1879466169" name="Induce Stunned" baseFlags="3" state="15" stateDuration="2.0"/>
 <induceCombatState id="1879466171" name="Induce Stunned" baseFlags="3" state="15" stateDuration="5.0"/>
-<induceCombatState id="1879466172" name="Induce Feared" baseFlags="3" state="2" stateDuration="10.0"/>
+<induceCombatState id="1879466172" name="Induce Feared" baseFlags="3" state="2" stateDuration="10.0" gracePeriod="1.0"/>
 <recallEffect id="1879466218" name="Sail to the Brown Lands">
 <position region="2" longitude="-52.205624" latitude="-30.90452"/>
 </recallEffect>
@@ -47829,7 +47829,7 @@
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="2.5"/>
 </propertyModEffect>
 <propertyModEffect id="1879467747" name="DNT - Compound Attack Lowers Lunge CD" iconId="1090519170" baseFlags="2176"/>
-<induceCombatState id="1879467749" name="Induce Dazed" baseFlags="3" state="3" stateDuration="10.0"/>
+<induceCombatState id="1879467749" name="Induce Dazed" baseFlags="3" state="3" stateDuration="10.0" stateDurationMods="268464108" gracePeriod="1.0" gracePeriodMods="268464127"/>
 <induceCombatState id="1879467756" name="Induce Stunned" probabilityModProperty="268464099" baseFlags="3" state="15" stateDuration="2.0"/>
 <propertyModEffect id="1879467779" name="DNT - Shanties Heal Allies" iconId="1090519170" baseFlags="2176">
 <specialEffect label="key:621079116:106251889"/>
@@ -48068,7 +48068,7 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
-<induceCombatState id="1879468720" name="Savage Knockdown" baseFlags="3" state="13" stateDuration="3.0"/>
+<induceCombatState id="1879468720" name="Savage Knockdown" baseFlags="3" state="13" stateDuration="3.0" stateDurationMods="268464153"/>
 <propertyModEffect id="1879468721" name="Blood Prize" iconId="1092833820" duration="30.0" baseFlags="444">
 <specialEffect label="key:621079907:106251889"/>
 <specialEffect label="key:621079907:106251890"/>
@@ -48494,7 +48494,7 @@
 <effect id="1879474980" name="DNT - Tierup Damage and crit buff"/>
 <effect id="1879458251" name="One Fore"/>
 </procEffect>
-<induceCombatState id="1879475410" name="Induce Fellowship Manoeuvre Stunned" probabilityModProperty="268464072" baseFlags="3" state="9" stateDuration="5.0"/>
+<induceCombatState id="1879475410" name="Induce Fellowship Manoeuvre Stunned" probabilityModProperty="268464072" baseFlags="3" state="9" stateDuration="5.0" stateDurationMods="268452197"/>
 <propertyModEffect id="1879475418" iconId="1092830944" duration="3.0" probabilityModProperty="268464072" baseFlags="188">
 <stat name="Corsair_Lunge_Cooldown" descriptionOverride="-" constant="45.0"/>
 </propertyModEffect>
@@ -51292,7 +51292,7 @@
 <specialEffect label="key:621091915:106251889"/>
 <stat name="ACID_MITIGATION_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:621091915:106251890" constant="50.0"/>
 </propertyModEffect>
-<induceCombatState id="1879485152" name="Daze" baseFlags="3" state="3" stateDuration="15.0"/>
+<induceCombatState id="1879485152" name="Daze" baseFlags="3" state="3" stateDuration="15.0" gracePeriod="2.0"/>
 <areaEffect id="1879485156" name="DNT - applies effect to friendlies" flags="4" range="7.0" maxTargets="50">
 <effect id="1879481656" name="Major Heal"/>
 </areaEffect>
@@ -52529,7 +52529,7 @@
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="7.5000005"/>
 </propertyModEffect>
 <effect id="1879490772" name="DNT - SotW Rage CD"/>
-<induceCombatState id="1879490773" name="Induce Stunned" probabilityModProperty="268464925" baseFlags="3" state="15" stateDuration="5.0"/>
+<induceCombatState id="1879490773" name="Induce Stunned" probabilityModProperty="268464925" baseFlags="3" state="15" stateDuration="5.0" stateDurationMods="268457786"/>
 <vitalOverTimeEffect id="1879490774" name="Ancient Wizard's Fire Burn" iconId="1091456314" duration="2.0" pulseCount="5" pulseCountMods="268462788" probabilityModProperty="268464925" baseFlags="959" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879383395" variance="0.1" modifiers="268443509,268462739,268445383,268444750,268464926" vpsMultiplier="7.5"/>
 </vitalOverTimeEffect>
