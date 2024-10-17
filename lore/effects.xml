@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><effects>
 <propertyModEffect id="1879049208" name="Crossbow Debuf" description="key:620757396:181298206" iconId="1090519170" baseFlags="2188">
-<stat name="Skill_AutoAttack_BlockChance" constant="-5.0"/>
+<stat name="Skill_AutoAttack_BlockChance" descriptionOverride="-" constant="-5.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879049213" name="Bow Precision" description="key:620757394:181298206" iconId="1090519170" baseFlags="2188">
-<stat name="RANGED_AUTO_ATTACKS_CRIT_CHANCE_PERCENTAGE" constant="1.0"/>
+<stat name="RANGED_AUTO_ATTACKS_CRIT_CHANCE_PERCENTAGE" descriptionOverride="-" constant="1.0"/>
 </propertyModEffect>
 <effect id="1879049269" name="Block Response" appliedDescription="key:620757522:54354734" iconId="1090519260" duration="6.0" baseFlags="444"/>
 <effect id="1879049270" name="Parry Response" appliedDescription="key:620757523:54354734" iconId="1090519700" duration="6.0" baseFlags="444"/>
@@ -311,7 +311,7 @@
 </comboEffect>
 <propertyModEffect id="1879052300" name="Gripped by Cold" iconId="1092975982" duration="4.0" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620759301:106251889" constant="30.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="30.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="30.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879052301" name="Fear" appliedDescription="key:620757727:54354734" iconId="1090523063" duration="10.0" baseFlags="259"/>
 <effect id="1879052302" name="Flanked!" appliedDescription="key:620759303:54354734" iconId="1090531788" duration="7.0" baseFlags="447"/>
@@ -371,7 +371,7 @@
 <propertyModEffect id="1879052917" name="Anthem of the Wizards: Slowed" iconId="1090532788" duration="15.0" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620759644:106251889" constant="30.0"/>
 <stat name="ATTACK_DURATION_PERCENTAGE" descriptionOverride="key:620759644:106251890" constant="20.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="30.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="30.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879052968" name="Restored Power" stat="Power_MaxLevel">
 <vitalChange progressionID="1879458486" variance="0.05"/>
@@ -774,20 +774,20 @@
 <propertyModEffect id="1879060989" name="Trick: Disable" appliedDescription="key:620765982:54354734" iconId="1090541269" duration="15.0" baseFlags="447">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="7.5000005"/>
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620765982:106251890" constant="0.95"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.95"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.9"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.95"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
 </propertyModEffect>
 <propertyModEffect id="1879060990" name="Trick: Disable" appliedDescription="key:620765984:54354734" iconId="1090541269" duration="15.0" baseFlags="447">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="5.0"/>
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620765984:106251890" constant="0.95"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.95"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.95"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.95"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.95"/>
 <stat name="Combat_Class_FinessePoints" operator="MULTIPLY" constant="1.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879060997" name="Trick: Counter Defence" appliedDescription="key:620765990:54354734" iconId="1090541271" duration="15.0" baseFlags="447">
 <stat name="PARRY" operator="SUBSTRACT" descriptionOverride="key:620765990:106251889" scaling="1879399376"/>
-<stat name="EVADE" operator="SUBSTRACT" scaling="1879399362"/>
-<stat name="BLOCK" operator="SUBSTRACT" scaling="1879399378"/>
+<stat name="EVADE" operator="SUBSTRACT" descriptionOverride="-" scaling="1879399362"/>
+<stat name="BLOCK" operator="SUBSTRACT" descriptionOverride="-" scaling="1879399378"/>
 <stat name="CRITICAL_DEFENCE" operator="SUBSTRACT" scaling="1879368454"/>
 </propertyModEffect>
 <propertyModEffect id="1879061009" name="Improved Stealth" iconId="1090541274" duration="10.0" baseFlags="432">
@@ -804,7 +804,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879061019" name="Trick: Enraged" appliedDescription="key:620766010:54354734" iconId="1090522262" duration="15.0" baseFlags="447">
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="key:620766010:106251889" constant="2.0"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" constant="2.0"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="2.0"/>
 <stat name="RANGED_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="2.0"/>
 </propertyModEffect>
 <effect id="1879061081" name="Elf-stone" appliedDescription="key:620766054:54354734"/>
@@ -934,7 +934,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879068277" name="Basic Caltrops Slow" iconId="1090552838" duration="30.0" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620770185:106251889" constant="25.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879068278" name="Basic Caltrops Bleed" iconId="1090519171" duration="3.0" pulseCount="10" baseFlags="447" stat="Health_MaxLevel" damageType="1">
 <initialChange progressionID="1879068279" modifiers="268437688"/>
@@ -996,7 +996,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879070118" name="Improved Caltrops Slow" iconId="1090552838" duration="30.0" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620771663:106251889" constant="25.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879070119" name="Improved Caltrops Bleed" iconId="1090519171" duration="3.0" pulseCount="10" baseFlags="447" stat="Health_MaxLevel" damageType="1">
 <initialChange progressionID="1879068279" modifiers="268437688"/>
@@ -1053,7 +1053,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879070443" name="Greater Caltrops Slow" iconId="1090552838" duration="30.0" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620771892:106251889" constant="25.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879070444" name="Greater Caltrops Bleed" iconId="1090519171" duration="3.0" pulseCount="10" baseFlags="447" stat="Health_MaxLevel" damageType="1">
 <initialChange progressionID="1879068279" modifiers="268437688"/>
@@ -1101,7 +1101,7 @@
 <effect id="1879072527" name="Exit All Harmful States" description="key:620774677:181298206"/>
 <propertyModEffect id="1879072532" name="Hamstrung" appliedDescription="key:620774682:54354734" iconId="1090553267" duration="15.0" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620774682:106251889" constant="25.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879072535" name="Blinding Webs" iconId="1090553282" duration="30.0" baseFlags="447">
 <stat name="Combat_BaseMissRate" constant="7.0"/>
@@ -1111,7 +1111,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879072540" name="Burrowed Stealth" iconId="1090519170" baseFlags="2224">
 <stat name="STEALTH_LEVEL" constant="10.0"/>
-<stat name="ForwardSource_Combat_CurrentCombo" operator="SET" constant="34.0"/>
+<stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="-" constant="34.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879072541" name="Hindering Shot Root" iconId="1090519170" baseFlags="2176"/>
 <propertyModEffect id="1879072553" name="Mobilize" iconId="1090553315" duration="10.0" pulseCount="1" baseFlags="436">
@@ -1122,7 +1122,7 @@
 <specialEffect label="key:620774765:106251890"/>
 </propertyModEffect>
 <propertyModEffect id="1879072566" name="Simple Stealth" iconId="1090519170" baseFlags="2224">
-<stat name="ForwardSource_Combat_CurrentCombo" operator="SET" constant="34.0"/>
+<stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="-" constant="34.0"/>
 <stat name="STEALTH_LEVEL" descriptionOverride="-" constant="-3.0"/>
 </propertyModEffect>
 <effect id="1879072970" name="Hope FX  10" iconId="1090523647" baseFlags="2188"/>
@@ -1143,7 +1143,7 @@
 <stat name="TACTICAL_MITIGATION" scaling="1879399348"/>
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 <stat name="Skill_Champion_FervourMod_SecondWind_PowerRestore" descriptionOverride="-" constant="1.25"/>
-<stat name="Skill_Champion_FervourMod_FuryBlades_Damage" constant="150.0"/>
+<stat name="Skill_Champion_FervourMod_FuryBlades_Damage" descriptionOverride="-" constant="150.0"/>
 <stat name="Skill_Champion_FervourMod_SuddenDefence" descriptionOverride="-" constant="0.1"/>
 <stat name="Skill_Champion_FervourMod_Adamant" descriptionOverride="-" constant="0.25"/>
 </propertyModEffect>
@@ -1163,7 +1163,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879073050" name="Hindering Shot" iconId="1090553356" duration="20.0" pulseCount="1" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620774902:106251889" constant="10.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="10.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <effect id="1879073055" name="Hooray!" appliedDescription="key:620774907:54354734"/>
 <propertyModEffect id="1879073061" name="Telling Mark" iconId="1092811779" baseFlags="2495">
@@ -1256,7 +1256,7 @@
 </instantVitalEffect>
 <effect id="1879073142" name="Dispel Defeat"/>
 <propertyModEffect id="1879073167" name="Song of Distraction" iconId="1090553816" duration="120.0" baseFlags="447">
-<stat name="AI_PerceptionRadius" operator="SUBSTRACT" constant="75.0"/>
+<stat name="AI_PerceptionRadius" operator="SUBSTRACT" descriptionOverride="-" constant="75.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879073174" name="Still As Death" iconId="1090553818" baseFlags="2492"/>
 <effect id="1879073183" name="DNT - Raven"/>
@@ -1268,7 +1268,7 @@
 <effect id="1879073211" name="DNT - Bear +1 level"/>
 <propertyModEffect id="1879073222" name="Shatter Arms" iconId="1090541019" duration="45.0" baseFlags="447">
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620775056:106251889" constant="0.97"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.97"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.97"/>
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.97"/>
 </propertyModEffect>
 <propertyModEffect id="1879073233" name="Sign of Power: Command" iconId="1091659745" duration="30.0" baseFlags="447">
@@ -1323,8 +1323,8 @@
 </vitalOverTimeEffect>
 <propertyModEffect id="1879073321" name="Reveal Weakness" iconId="1090519172" baseFlags="2495">
 <stat name="MELEE_DEFENCE_PERCENTAGE" descriptionOverride="key:620775143:106251889" constant="3.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" constant="3.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" constant="3.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
 <stat name="FINESSE" operator="SUBSTRACT" scaling="1879367860"/>
 <stat name="CRITICAL_DEFENCE" operator="SUBSTRACT" scaling="1879368453"/>
 <stat name="RESISTANCE" operator="SUBSTRACT" scaling="1879381720"/>
@@ -1348,7 +1348,7 @@
 </vitalOverTimeEffect>
 <propertyModEffect id="1879073391" name="Slowing Cut" iconId="1090553356" duration="10.0" pulseCount="1" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620775183:106251889" constant="50.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="50.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 </propertyModEffect>
 <comboEffect id="1879073395" name="DNT" baseFlags="3">
 <toAddIfPresent id="1879407125" name="Scourging Blow Bleed Bonus"/>
@@ -1447,7 +1447,7 @@
 </vitalOverTimeEffect>
 <propertyModEffect id="1879073708" name="Hindering Shot" iconId="1090555713" duration="8.0" pulseCount="1" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620775400:106251889" constant="40.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="40.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="40.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879073709" name="Moving Target" iconId="1090555715" duration="15.0" baseFlags="444">
 <stat name="EVADE_PERCENTAGE" constant="50.0"/>
@@ -1455,9 +1455,9 @@
 </propertyModEffect>
 <effect id="1879073731" name="On Your Feet!"/>
 <propertyModEffect id="1879073732" name="Field Promotion" description="key:620775412:181298206" appliedDescription="key:620775412:54354734" iconId="1090555720" duration="8.0" baseFlags="444">
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SET" constant="10.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" constant="10.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" constant="10.0"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="10.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="10.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <effect id="1879073734" iconId="1090519170" baseFlags="2096"/>
 <propertyModEffect id="1879073747" name="Entangled" iconId="1090555727" duration="30.0" baseFlags="447">
@@ -1470,7 +1470,7 @@
 </comboEffect>
 <propertyModEffect id="1879073760" name="Crippled" iconId="1090555733" duration="30.0" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620775431:106251889" constant="25.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <comboEffect id="1879073761" name="DNT" baseFlags="3">
 <present id="1879152899" name="Bitten"/>
@@ -1865,7 +1865,7 @@
 <overTimeChange progressionID="1879085512" modifiers="268437688"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879085535" name="Hardened Bark" appliedDescription="key:620789248:54354734" iconId="1091476366" baseFlags="3004">
-<stat name="BLOCK_PERCENTAGE" constant="10.0"/>
+<stat name="BLOCK_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879085537" name="Crushing Root" appliedDescription="key:620789249:54354734" iconId="1090536145" baseFlags="3007">
 <specialEffect label="key:620789249:106251889"/>
@@ -1927,7 +1927,7 @@
 </countdownEffect>
 <propertyModEffect id="1879086398" name="Hamstring" iconId="1090553765" duration="10.0" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620789473:106251889" constant="30.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="30.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="30.0"/>
 </propertyModEffect>
 <effect id="1879086711" name="Slope south of Calenthon" iconId="1090522263" baseFlags="2236"/>
 <effect id="1879087113" name="Call to Master" appliedDescription="key:620789867:54354734"/>
@@ -2333,7 +2333,7 @@
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="-50.0"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="key:620791979:106251889" constant="50.0"/>
 <stat name="MELEE_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" constant="10.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <effect id="1879090239" name="Knockaway" baseFlags="3"/>
 <effect id="1879090246" name="Dispel Pummel." baseFlags="3"/>
@@ -2349,7 +2349,7 @@
 <effect id="1879090792" name="Lure"/>
 <propertyModEffect id="1879090803" name="Snaring Trap" iconId="1091388957" duration="20.0" pulseCount="1" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620792056:106251889" constant="30.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="30.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="30.0"/>
 </propertyModEffect>
 <induceCombatState id="1879090809" name="Induce Trap Knocked Out" baseFlags="3" state="7" stateDuration="5.0"/>
 <induceCombatState id="1879090810" name="Induce Trap Knocked Down" baseFlags="3" state="13" stateDuration="5.0"/>
@@ -2400,7 +2400,7 @@
 </fellowshipEffect>
 <propertyModEffect id="1879092466" name="Simple Stealth" iconId="1090519170" baseFlags="2224">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620793010:106251889" constant="5.0"/>
-<stat name="ForwardSource_Combat_CurrentCombo" operator="SET" constant="34.0"/>
+<stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="-" constant="34.0"/>
 </propertyModEffect>
 <effect id="1879092469" name="Dispel Hope" baseFlags="3"/>
 <fellowshipEffect id="1879092632" name="To Arms" applyToPets="true" applyToTarget="true" range="50.0">
@@ -2415,14 +2415,14 @@
 </fellowshipEffect>
 <effect id="1879092638" name="Battle-hardened" appliedDescription="key:620793047:54354734" iconId="1091232037" duration="15.0" baseFlags="188"/>
 <propertyModEffect id="1879092722" name="Light of Dúnachar" appliedDescription="key:620793115:54354734" iconId="1090537016" duration="15.0" baseFlags="1471">
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SET" constant="190.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" constant="190.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" constant="190.0"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="190.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="190.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="190.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879092723" name="Imposing Presence" appliedDescription="key:620793116:54354734" iconId="1090648290" baseFlags="2492">
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SET" constant="5.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" constant="5.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" constant="5.0"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="5.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="5.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="5.0"/>
 </propertyModEffect>
 <effect id="1879092724" name="Dispel Imposing Presence" baseFlags="3"/>
 <propertyModEffect id="1879092776" name="Mordirith Advanced Hint" iconId="1090552382" duration="30.0" baseFlags="60"/>
@@ -2436,7 +2436,7 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="50.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879093086" name="Hunt Worms" appliedDescription="key:620793408:54354734" iconId="1091388977" duration="5.0" baseFlags="444">
-<stat name="Discovery_Tracking_Resource" operator="SET" constant="6.0"/>
+<stat name="Discovery_Tracking_Resource" operator="SET" descriptionOverride="-" constant="6.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879093087" name="Bob and Weave" iconId="1091388978" duration="30.0" baseFlags="444">
 <stat name="EVADE_PERCENTAGE" constant="50.0"/>
@@ -2549,7 +2549,7 @@
 <stat name="POWER" scaling="1879189681"/>
 </propertyModEffect>
 <propertyModEffect id="1879094298" name="Possum Impersonation" appliedDescription="key:620794199:54354734" iconId="1091388979" baseFlags="2492">
-<stat name="FeignedDeath_ResistChanceModifier" constant="-999.0"/>
+<stat name="FeignedDeath_ResistChanceModifier" descriptionOverride="-" constant="-999.0"/>
 <specialEffect label="key:620809067:106251891"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879094299" name="Blood of the Dúnedain" iconId="1090539151" duration="4.0" pulseCount="5" baseFlags="444" stat="Health_MaxLevel">
@@ -2560,15 +2560,15 @@
 <effect id="1879094623" name="Summon Blue Troll-keeper"/>
 <effect id="1879094624" name="Summon Red Troll-keeper"/>
 <propertyModEffect id="1879094625" name="Master's Command" appliedDescription="key:620794511:54354734" iconId="1090642114" baseFlags="2492">
-<stat name="AI_Threat_DesireOverride" operator="SET" constant="0.9"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="300.0"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SET" constant="25.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" constant="25.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" constant="25.0"/>
+<stat name="AI_Threat_DesireOverride" operator="SET" descriptionOverride="-" constant="0.9"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="300.0"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="25.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="25.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <effect id="1879094741" name="DNT - Aura of Command" iconId="1090519170" duration="60.0" baseFlags="184"/>
 <propertyModEffect id="1879094786" name="Paranoia" appliedDescription="key:620794612:54354734" iconId="1091399128" duration="60.0" baseFlags="444">
-<stat name="Stealth_StealthDetectionLevelModifier" constant="49.0"/>
+<stat name="Stealth_StealthDetectionLevelModifier" descriptionOverride="-" constant="49.0"/>
 </propertyModEffect>
 <reactiveVitalEffect id="1879094803" name="Disperse Fire" description="key:620794617:181298206" appliedDescription="key:620794617:54354734" iconId="1091399282" baseFlags="2444" damageTypes="16">
 <defender>
@@ -2868,7 +2868,7 @@
 </fellowshipEffect>
 <effect id="1879097227" name="Call to Greatness Pip Gain"/>
 <propertyModEffect id="1879097229" name="Give Hope" description="key:620795951:181298206" iconId="1090537016" duration="180.0" baseFlags="444">
-<stat name="HOPE" constant="1.0"/>
+<stat name="HOPE" descriptionOverride="-" constant="1.0"/>
 </propertyModEffect>
 <effect id="1879097234" name="Turtle"/>
 <propertyModEffect id="1879097318" name="Parry" iconId="1090519700" duration="10.0" baseFlags="444">
@@ -2898,28 +2898,28 @@
 </propertyModEffect>
 <propertyModEffect id="1879097591" name="Minor Breach" appliedDescription="key:620796255:54354734" iconId="1091401425" duration="15.0" baseFlags="1471">
 <stat name="Combat_AttackerCriticalHitChanceAddMod" descriptionOverride="key:620796255:106251889" constant="5.0"/>
-<stat name="CRITICAL_RANGED_PERCENTAGE" constant="5.0"/>
-<stat name="CRITICAL_TACTICAL_PERCENTAGE" constant="5.0"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879097592" name="Small Breach" appliedDescription="key:620796256:54354734" iconId="1091401426" duration="15.0" baseFlags="1471">
 <stat name="Combat_AttackerCriticalHitChanceAddMod" descriptionOverride="key:620796256:106251889" constant="10.0"/>
-<stat name="CRITICAL_RANGED_PERCENTAGE" constant="10.0"/>
-<stat name="CRITICAL_TACTICAL_PERCENTAGE" constant="10.0"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879097593" name="Large Breach" appliedDescription="key:620796257:54354734" iconId="1091401427" duration="15.0" baseFlags="1471">
 <stat name="Combat_AttackerCriticalHitChanceAddMod" descriptionOverride="key:620796257:106251889" constant="20.0"/>
-<stat name="CRITICAL_RANGED_PERCENTAGE" constant="20.0"/>
-<stat name="CRITICAL_TACTICAL_PERCENTAGE" constant="20.0"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="20.0"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="20.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879097594" name="Major Breach" appliedDescription="key:620796258:54354734" iconId="1091401428" duration="15.0" baseFlags="1471">
 <stat name="Combat_AttackerCriticalHitChanceAddMod" descriptionOverride="key:620796258:106251889" constant="40.0"/>
-<stat name="CRITICAL_RANGED_PERCENTAGE" constant="40.0"/>
-<stat name="CRITICAL_TACTICAL_PERCENTAGE" constant="40.0"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="40.0"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="40.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879097595" name="Grievous Breach" appliedDescription="key:620796259:54354734" iconId="1091401429" duration="15.0" baseFlags="1471">
 <stat name="Combat_AttackerCriticalHitChanceAddMod" descriptionOverride="key:620796259:106251889" constant="80.0"/>
-<stat name="CRITICAL_RANGED_PERCENTAGE" constant="80.0"/>
-<stat name="CRITICAL_TACTICAL_PERCENTAGE" constant="80.0"/>
+<stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="80.0"/>
+<stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="80.0"/>
 </propertyModEffect>
 <effect id="1879097598" name="Aura of Protection" appliedDescription="key:620796252:54354734" iconId="1091401422" duration="60.0" baseFlags="440"/>
 <effect id="1879097599" name="Aura of Restoration" appliedDescription="key:620796254:54354734" iconId="1091401424" duration="60.0" baseFlags="440"/>
@@ -2997,7 +2997,7 @@
 <effect id="1879097901" name="Hatchling"/>
 <propertyModEffect id="1879097902" name="Heavy Webbing" appliedDescription="key:620796491:54354734" iconId="1090555726" baseFlags="2495">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620796491:106251889" constant="50.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="50.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879097956" name="Immunity" iconId="1091423617" duration="15.0" pulseCount="1" baseFlags="444">
 <specialEffect label="key:620796505:106251889"/>
@@ -3123,8 +3123,8 @@
 <propertyModEffect id="1879098830" name="DNT - Gift of the Hammerhand receives Song of the Hammerhand effects" iconId="1090519170" baseFlags="2176"/>
 <propertyModEffect id="1879098854" name="Tempered by Flame" iconId="1090555708" baseFlags="2492">
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="key:620797287:106251889" constant="5.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" constant="5.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" constant="5.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="5.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="5.0"/>
 </propertyModEffect>
 <effect id="1879098901" name="Bird Call"/>
 <effect id="1879098902" name="Rabbit Call"/>
@@ -3183,40 +3183,40 @@
 </vitalOverTimeEffect>
 <effect id="1879101894" name="Novice Riding" appliedDescription="key:620799667:54354734" iconId="1090523647" baseFlags="2188"/>
 <propertyModEffect id="1879101901" name="Bree-land Homestead" iconId="1090519170" baseFlags="2188">
-<stat name="Discount_Housing_Breeland" constant="10.0"/>
+<stat name="Discount_Housing_Breeland" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879101902" name="Bree-land Homestead" iconId="1090519170" baseFlags="2188">
-<stat name="Discount_Housing_Breeland" constant="20.0"/>
+<stat name="Discount_Housing_Breeland" descriptionOverride="-" constant="20.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879101903" name="Bree-land Kinship Hall" iconId="1090519170" baseFlags="2188">
-<stat name="Discount_Housing_Breeland" constant="15.000001"/>
+<stat name="Discount_Housing_Breeland" descriptionOverride="-" constant="15.000001"/>
 </propertyModEffect>
 <propertyModEffect id="1879101904" name="Falathlorn Homestead" iconId="1090519170" baseFlags="2188">
-<stat name="Discount_Housing_Rivendell" constant="10.0"/>
+<stat name="Discount_Housing_Rivendell" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879101905" name="Falathlorn Homestead" iconId="1090519170" baseFlags="2188">
-<stat name="Discount_Housing_Rivendell" constant="20.0"/>
+<stat name="Discount_Housing_Rivendell" descriptionOverride="-" constant="20.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879101906" name="Falathlorn Kinship Hall" iconId="1090519170" baseFlags="2188">
-<stat name="Discount_Housing_Rivendell" constant="15.000001"/>
+<stat name="Discount_Housing_Rivendell" descriptionOverride="-" constant="15.000001"/>
 </propertyModEffect>
 <propertyModEffect id="1879101907" name="Shire Homestead" iconId="1090519170" baseFlags="2188">
-<stat name="Discount_Housing_Shire" constant="10.0"/>
+<stat name="Discount_Housing_Shire" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879101908" name="Shire Homestead" iconId="1090519170" baseFlags="2188">
-<stat name="Discount_Housing_Shire" constant="20.0"/>
+<stat name="Discount_Housing_Shire" descriptionOverride="-" constant="20.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879101909" name="Shire Kinship Hall" iconId="1090519170" baseFlags="2188">
-<stat name="Discount_Housing_Shire" constant="15.000001"/>
+<stat name="Discount_Housing_Shire" descriptionOverride="-" constant="15.000001"/>
 </propertyModEffect>
 <propertyModEffect id="1879101910" name="Thorin's Halls Homestead" iconId="1090519170" baseFlags="2188">
-<stat name="Discount_Housing_Eredluin" constant="10.0"/>
+<stat name="Discount_Housing_Eredluin" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879101911" name="Thorin's Halls Homestead" iconId="1090519170" baseFlags="2188">
-<stat name="Discount_Housing_Eredluin" constant="20.0"/>
+<stat name="Discount_Housing_Eredluin" descriptionOverride="-" constant="20.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879101912" name="Thorin's Halls Kinship Hall" iconId="1090519170" baseFlags="2188">
-<stat name="Discount_Housing_Eredluin" constant="15.000001"/>
+<stat name="Discount_Housing_Eredluin" descriptionOverride="-" constant="15.000001"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879101913" name="Fire Club" iconId="1090542795" duration="3.0" pulseCount="10" baseFlags="447" stat="Health_MaxLevel" damageType="16">
 <initialChange progressionID="1879149257"/>
@@ -3254,8 +3254,8 @@
 <effect id="1879102559" name="Lainedhal's Protection" iconId="1090541176" duration="5.0" baseFlags="180"/>
 <effect id="1879102564" name="Sneeze!" appliedDescription="key:620800240:54354734" probability="0.5"/>
 <propertyModEffect id="1879102573" name="Shared Stealth" iconId="1090519170" baseFlags="2224">
-<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="30.0"/>
-<stat name="STEALTH_LEVEL" operator="SUBSTRACT" constant="2.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="30.0"/>
+<stat name="STEALTH_LEVEL" operator="SUBSTRACT" descriptionOverride="-" constant="2.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879102588" name="Second Wind" stat="Power_MaxLevel">
 <vitalChange progressionID="1879457130" modifiers="268458383,268457852,268460584"/>
@@ -3360,14 +3360,14 @@
 </propertyModEffect>
 <propertyModEffect id="1879102814" name="Engaged" appliedDescription="key:620800447:54354734" iconId="1091415793" duration="15.0" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620800447:106251889" constant="25.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879102816" name="Fray the Edge I" appliedDescription="key:620800437:54354734" iconId="1091415791" duration="15.0" baseFlags="447">
 <stat name="Conjunction_CheckPercentChance" descriptionOverride="key:620800437:106251889" constant="1.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879102817" name="Staggered" iconId="1091415788" duration="15.0" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620800448:106251889" constant="25.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879102818" name="Aggravated Deep Wound" iconId="1091415792" duration="2.0" pulseCount="15" pulseCountMods="268443484" baseFlags="959" stat="Health_MaxLevel">
 <initialChange progressionID="1879367855" modifiers="268462735,268452371,268458001" vpsMultiplier="1.045"/>
@@ -3416,7 +3416,7 @@
 <onExpire id="1879089555" name="Wha...wait...what? Where?"/>
 </countdownEffect>
 <countdownEffect id="1879103505" name="Party Time" description="key:620800937:181298206" appliedDescription="key:620800937:54354734" iconId="1090641205" duration="10.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879103504" name="Party Time"/>
 </countdownEffect>
 <countdownEffect id="1879103506" name="Party Time" description="key:620800936:181298206" appliedDescription="key:620800936:54354734" iconId="1090641205" duration="7.0" pulseCount="1" baseFlags="440">
@@ -3514,7 +3514,7 @@
 <effect id="1879104146" name="Summon Rider"/>
 <propertyModEffect id="1879104147" name="Raging Berserk" appliedDescription="key:620801775:54354734" iconId="1090528807" baseFlags="3004">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="50.0"/>
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="200.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="-" constant="200.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879104787" name="Charge" iconId="1090553762" duration="10.0" baseFlags="444">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="50.0"/>
@@ -3649,7 +3649,7 @@
 <stat name="Skill_Runekeeper_Lightning_Damage" constant="30.000002"/>
 <stat name="Skill_Runekeeper_Lightning_CriticalHitMagnitude" constant="15.000001"/>
 <stat name="Skill_Runekeeper_Frost_Damage" constant="30.000002"/>
-<stat name="Skill_Runekeeper_SustainingBolt_healmod" constant="30.000002"/>
+<stat name="Skill_Runekeeper_SustainingBolt_healmod" descriptionOverride="-" constant="30.000002"/>
 </propertyModEffect>
 <propertyModEffect id="1879107968" name="Offence 9" iconId="1090553816" baseFlags="2188">
 <stat name="Skill_Runekeeper_Fire_Damage" constant="27.000002"/>
@@ -3658,7 +3658,7 @@
 <stat name="Skill_Runekeeper_Lightning_Damage" constant="27.000002"/>
 <stat name="Skill_Runekeeper_Lightning_CriticalHitMagnitude" constant="13.500001"/>
 <stat name="Skill_Runekeeper_Frost_Damage" constant="89.0"/>
-<stat name="Skill_Runekeeper_SustainingBolt_healmod" constant="27.000002"/>
+<stat name="Skill_Runekeeper_SustainingBolt_healmod" descriptionOverride="-" constant="27.000002"/>
 </propertyModEffect>
 <propertyModEffect id="1879107969" name="Offence 8" iconId="1090553816" baseFlags="2188">
 <stat name="Skill_Runekeeper_Fire_Damage" constant="24.0"/>
@@ -4207,12 +4207,12 @@
 <specialEffect label="key:620806549:106251889"/>
 <stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="20.0"/>
 <stat name="Resist_Additional_Resistance_Wound" descriptionOverride="key:620806549:106251892" constant="50.0"/>
-<stat name="Resist_Additional_Resistance_Poison" constant="50.0"/>
-<stat name="Resist_Additional_Resistance_Cry" constant="50.0"/>
-<stat name="Resist_Additional_Resistance_Song" constant="50.0"/>
-<stat name="Resist_Additional_Resistance_Fear" constant="50.0"/>
-<stat name="Resist_Additional_Resistance_Physical" constant="50.0"/>
-<stat name="Resist_Additional_Resistance_Magic" constant="50.0"/>
+<stat name="Resist_Additional_Resistance_Poison" descriptionOverride="-" constant="50.0"/>
+<stat name="Resist_Additional_Resistance_Cry" descriptionOverride="-" constant="50.0"/>
+<stat name="Resist_Additional_Resistance_Song" descriptionOverride="-" constant="50.0"/>
+<stat name="Resist_Additional_Resistance_Fear" descriptionOverride="-" constant="50.0"/>
+<stat name="Resist_Additional_Resistance_Physical" descriptionOverride="-" constant="50.0"/>
+<stat name="Resist_Additional_Resistance_Magic" descriptionOverride="-" constant="50.0"/>
 </propertyModEffect>
 <effect id="1879111467" name="Exit All Harmful States"/>
 <vitalOverTimeEffect id="1879111504" name="Sticky Gourd" iconId="1091455247" duration="2.0" pulseCount="5" pulseCountMods="268457698" baseFlags="443" stat="Health_MaxLevel" damageType="16">
@@ -4220,18 +4220,18 @@
 </vitalOverTimeEffect>
 <propertyModEffect id="1879111608" name="Adamant" iconId="1091459633" duration="10.0" baseFlags="444">
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:620806605:106251889" constant="4.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="4.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="4.0"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:620806605:106251891" constant="2.0"/>
 </propertyModEffect>
 <effect id="1879111609" name="Invincible"/>
 <effect id="1879111658" name="Aura: Combat Tactics" appliedDescription="key:620806635:54354734" iconId="1091478907" baseFlags="2488"/>
 <propertyModEffect id="1879111659" name="Great Cleave" iconId="1091459629" duration="30.0" baseFlags="444">
-<stat name="Skill_Pips_CostMod_Trait_Champion_CheaperAoEPips" constant="1.0"/>
-<stat name="Skill_Pips_CostMod_Trait_Champion_CheaperAoEPipsMin" operator="SUBSTRACT" constant="1.0"/>
-<stat name="Skill_Pips_CostMod_Trait_Champion_CheaperBladeStormPips" constant="1.0"/>
-<stat name="ForwardSource_Skill_Pips_CostMod_Trait_Champion_CheaperBladeStormPipsMin" operator="SUBSTRACT" constant="1.0"/>
-<stat name="Skill_Pips_CostMod_Trait_Champion_CheaperCleavePips" constant="1.0"/>
-<stat name="Skill_Pips_CostMod_Trait_Champion_CheaperCleavePipsMin" operator="SUBSTRACT" constant="1.0"/>
+<stat name="Skill_Pips_CostMod_Trait_Champion_CheaperAoEPips" descriptionOverride="-" constant="1.0"/>
+<stat name="Skill_Pips_CostMod_Trait_Champion_CheaperAoEPipsMin" operator="SUBSTRACT" descriptionOverride="-" constant="1.0"/>
+<stat name="Skill_Pips_CostMod_Trait_Champion_CheaperBladeStormPips" descriptionOverride="-" constant="1.0"/>
+<stat name="ForwardSource_Skill_Pips_CostMod_Trait_Champion_CheaperBladeStormPipsMin" operator="SUBSTRACT" descriptionOverride="-" constant="1.0"/>
+<stat name="Skill_Pips_CostMod_Trait_Champion_CheaperCleavePips" descriptionOverride="-" constant="1.0"/>
+<stat name="Skill_Pips_CostMod_Trait_Champion_CheaperCleavePipsMin" operator="SUBSTRACT" descriptionOverride="-" constant="1.0"/>
 </propertyModEffect>
 <genesis id="1879111683" name="DNT - Warding Knowledge" summonDuration="15.0">
 <hotspot id="1879111687" name="DNT - Warded Area: Dead, Unseen. Creatures of Nature, Insect, Drakes and Men, Orc-kind, Dwarves, Beasts, Trolls, Giants, Ancient Evils">
@@ -4392,14 +4392,14 @@
 <effect id="1879112558" name="Dispel Aim and Improved Feint." baseFlags="3"/>
 <propertyModEffect id="1879112585" name="A Small Snag" iconId="1091477243" duration="15.0" baseFlags="447">
 <stat name="MELEE_DEFENCE_PERCENTAGE" descriptionOverride="key:620807343:106251889" constant="2.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" constant="2.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" constant="2.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="2.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="2.0"/>
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="5.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879112586" name="Quite A Snag" iconId="1091477242" duration="15.0" baseFlags="447">
 <stat name="MELEE_DEFENCE_PERCENTAGE" descriptionOverride="key:620807344:106251889" constant="3.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" constant="3.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" constant="3.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="10.0"/>
 </propertyModEffect>
 <induceCombatState id="1879112587" name="Root" baseFlags="3" state="10" stateDuration="15.0"/>
@@ -4709,7 +4709,7 @@
 </genesis>
 <propertyModEffect id="1879115147" name="Dark Inspiration" iconId="1091464468" duration="120.0" baseFlags="444">
 <stat name="ICPR" scaling="1879399365"/>
-<stat name="OCPR" constant="480.0"/>
+<stat name="OCPR" descriptionOverride="-" constant="480.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879115154" name="Dark Future" iconId="1091464468" duration="30.0" baseFlags="447">
 <specialEffect label="key:620809063:106251889"/>
@@ -4720,25 +4720,25 @@
 </vitalOverTimeEffect>
 <propertyModEffect id="1879115158" name="Heart of Darkness" iconId="1091464466" duration="30.0" baseFlags="447">
 <specialEffect label="key:620809074:106251889"/>
-<stat name="INCOMING_HEALING_PERCENTAGE" operator="SET" constant="-100.0"/>
+<stat name="INCOMING_HEALING_PERCENTAGE" operator="SET" descriptionOverride="-" constant="-100.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879115159" name="Dark Future" iconId="1091401231" duration="2.0" pulseCount="15" baseFlags="447" stat="Power_MaxLevel" damageType="1">
 <overTimeChange progressionID="1879457128" modifiers="268437688"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879115162" name="Champion's Command" iconId="1091464469" duration="60.0" baseFlags="444">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620809067:106251889" constant="200.0"/>
-<stat name="ATTACK_DURATION_PERCENTAGE" constant="-50.0"/>
+<stat name="ATTACK_DURATION_PERCENTAGE" descriptionOverride="-" constant="-50.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879115163" name="Shadowed Heart" iconId="1091464466" duration="120.0" baseFlags="444">
 <stat name="ICMR" scaling="1879399430"/>
-<stat name="OCMR" constant="480.0"/>
-<stat name="INCOMING_HEALING_PERCENTAGE" operator="SET" constant="200.0"/>
+<stat name="OCMR" descriptionOverride="-" constant="480.0"/>
+<stat name="INCOMING_HEALING_PERCENTAGE" operator="SET" descriptionOverride="-" constant="200.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879115166" name="Terrible Beauty" iconId="1091464467" duration="60.0" baseFlags="447">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620809075:106251889" constant="0.25"/>
-<stat name="ATTACK_DURATION_PERCENTAGE" constant="50.0"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.25"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.25"/>
+<stat name="ATTACK_DURATION_PERCENTAGE" descriptionOverride="-" constant="50.0"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.25"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.25"/>
 </propertyModEffect>
 <genesis id="1879115167" name=".." appliedDescription="key:620809083:54354734" summonDuration="150.0">
 <hotspot id="1879115168" name="Dread of Amarthiel">
@@ -4762,7 +4762,7 @@
 <effect id="1879115260" name="Removes Marks" baseFlags="3"/>
 <propertyModEffect id="1879115287" name="Weighted Arrow" iconId="1091464698" duration="8.0" pulseCount="1" baseFlags="447">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620809172:106251889" constant="40.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="40.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="40.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879115293" name="Elf Enemy" iconId="1091464699" baseFlags="2495">
 <stat name="EVADE" operator="SUBSTRACT" scaling="1879368427"/>
@@ -4951,12 +4951,12 @@
 <toAddIfPresent id="1879117730" name="Impending Attack!"/>
 </comboEffect>
 <propertyModEffect id="1879117729" name="Preparing Attack..." appliedDescription="key:620811107:54354734" iconId="1090523647" baseFlags="3004">
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="100.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="-" constant="100.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879117730" name="Impending Attack!" appliedDescription="key:620811108:54354734" iconId="1091475959" baseFlags="3004"/>
 <effect id="1879117732" name="Random Buff" baseFlags="3"/>
 <propertyModEffect id="1879117734" name="DNT - Null Effect" appliedDescription="key:620811111:54354734" iconId="1090519170" duration="5.0" baseFlags="60">
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="0.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="-" constant="0.0"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879117737" name="Safe-guard Heal over Time" iconId="1091471259" duration="3.0" pulseCount="3" pulseCountMods="268444839,268457667" baseFlags="444" stat="Health_MaxLevel">
 <initialChange progressionID="1879368264" modifiers="268444920,268457675,268445076,268448151,268463743,268462699" vpsMultiplier="7.6"/>
@@ -5146,8 +5146,8 @@
 </vitalOverTimeEffect>
 <propertyModEffect id="1879119833" name="Disarmed" appliedDescription="key:620813070:54354734" iconId="1090523875" duration="10.0" baseFlags="1471">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620813070:106251889" constant="0.1"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.1"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.1"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.1"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.1"/>
 </propertyModEffect>
 <countdownEffect id="1879119834" name="Plague Infection Countdown" iconId="1090519170" duration="15.0" pulseCount="1" baseFlags="443">
 <onExpire id="1879119864" name="Infection"/>
@@ -5250,17 +5250,17 @@
 </propertyModEffect>
 <effect id="1879131625" name="Presence of the Red-Fang Behemoth" iconId="1090553331" baseFlags="2239"/>
 <propertyModEffect id="1879131722" name="Shield of Invulnerability" appliedDescription="key:620823922:54354734" iconId="1091476354" baseFlags="2492">
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="100.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="100.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="100.0"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="100.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="100.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="100.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879131723" name="Shield of Invulnerability" appliedDescription="key:620823923:54354734" iconId="1091476354" baseFlags="2492">
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="100.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="100.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="100.0"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="100.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="100.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="100.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879131725" name="Vulnerability" appliedDescription="key:620823925:54354734" iconId="1090531635" duration="30.0" baseFlags="444">
-<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879131746" name="Igniting Spark" baseFlags="3" stat="Health_MaxLevel" damageType="16">
 <vitalChange progressionID="1879087310" modifiers="268437688"/>
@@ -5460,11 +5460,11 @@
 <effect id="1879135569" name="Branded" appliedDescription="key:620827052:54354734" iconId="1090523647" duration="10.0" baseFlags="431"/>
 <effect id="1879135570" name="Shaken" appliedDescription="key:620827062:54354734" iconId="1090523647" duration="10.0" baseFlags="431"/>
 <propertyModEffect id="1879135629" name="Weak Resolve" appliedDescription="key:620827133:54354734" iconId="1090528810" duration="30.0" baseFlags="1471">
-<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="25.0"/>
-<stat name="FIRE_MITIGATION_PERCENTAGE" constant="25.0"/>
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="25.0"/>
+<stat name="FIRE_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879135630" name="Fragile Form" appliedDescription="key:620827135:54354734" iconId="1090528810" duration="30.0" baseFlags="1471">
-<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="25.0"/>
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879135799" name="Average Acid Damage" baseFlags="3" stat="Health_MaxLevel" damageType="1024">
 <vitalChange progressionID="1879149232" modifiers="268437688"/>
@@ -5524,11 +5524,11 @@
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.5"/>
 </propertyModEffect>
 <propertyModEffect id="1879135893" name="Gift of Wood" appliedDescription="key:620827282:54354734" iconId="1090586730" duration="30.0" baseFlags="444">
-<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="50.0"/>
-<stat name="FIRE_MITIGATION_PERCENTAGE" constant="50.0"/>
-<stat name="Combat_MitigationPercentage_Light" constant="50.0"/>
-<stat name="Combat_MitigationPercentage_Beleriand" constant="50.0"/>
-<stat name="Combat_MitigationPercentage_AncientDwarf" constant="50.0"/>
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="50.0"/>
+<stat name="FIRE_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="50.0"/>
+<stat name="Combat_MitigationPercentage_Light" descriptionOverride="-" constant="50.0"/>
+<stat name="Combat_MitigationPercentage_Beleriand" descriptionOverride="-" constant="50.0"/>
+<stat name="Combat_MitigationPercentage_AncientDwarf" descriptionOverride="-" constant="50.0"/>
 </propertyModEffect>
 <genesis id="1879135926" name=".." appliedDescription="key:620827311:54354734" summonDuration="20.0">
 <hotspot id="1879135902" name="Unstable Flame Shard[v]">
@@ -5622,9 +5622,9 @@
 <stat name="TACTICAL_MITIGATION" operator="SUBSTRACT" scaling="1879368460"/>
 </propertyModEffect>
 <propertyModEffect id="1879136256" name="Live Op - Invulnerability" iconId="1090648290" baseFlags="2108">
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SET" constant="1.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" constant="1.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" constant="1.0"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="1.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="1.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="1.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879136673" name="Improved BlackSpeech" iconId="1090519170" baseFlags="2176"/>
 <propertyModEffect id="1879136706" name="Improved Quitters Never Win" iconId="1090519170" baseFlags="2176"/>
@@ -5836,7 +5836,7 @@
 <propertyModEffect id="1879136966" name="Time-Out" appliedDescription="key:620828109:54354734" iconId="1091472539" duration="7.0" baseFlags="444">
 <stat name="Skill_Reaver_DamageMod" constant="-75.0"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="key:620828109:106251889" constant="-40.0"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" constant="-40.0"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="-40.0"/>
 <stat name="RANGED_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="-40.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879136967" name="Upper Hand" appliedDescription="key:620828105:54354734" iconId="1091472530" duration="20.0" baseFlags="444">
@@ -5955,7 +5955,7 @@
 <toAddIfPresent id="1879133118" name="Essence of Winter"/>
 </comboEffect>
 <propertyModEffect id="1879140221" name="Hardened Bark" appliedDescription="key:620829980:54354734" iconId="1090552382" duration="15.0" baseFlags="444">
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SET" constant="10.0"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="10.0"/>
 <stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" constant="1.0"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" constant="1.0"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SET" constant="50.0"/>
@@ -6011,11 +6011,11 @@
 <propertyModEffect id="1879140456" name="Thunder In The Hall" iconId="1090541137" duration="10.0" baseFlags="444">
 <stat name="Skill_DamageMultiplier_ChampionAoeMod" constant="25.0"/>
 <stat name="Skill_Pips_CostMod_Trait_Champion_CheaperAoEPipsMin" operator="SUBSTRACT" descriptionOverride="key:620830195:106251890" constant="5.0"/>
-<stat name="Skill_Pips_CostMod_Trait_Champion_CheaperAoEPips" constant="5.0"/>
-<stat name="ForwardSource_Skill_Pips_CostMod_Trait_Champion_CheaperBladeStormPipsMin" operator="SET" constant="-3.0"/>
-<stat name="Skill_Pips_CostMod_Trait_Champion_CheaperBladeStormPips" operator="SET" constant="3.0"/>
+<stat name="Skill_Pips_CostMod_Trait_Champion_CheaperAoEPips" descriptionOverride="-" constant="5.0"/>
+<stat name="ForwardSource_Skill_Pips_CostMod_Trait_Champion_CheaperBladeStormPipsMin" operator="SET" descriptionOverride="-" constant="-3.0"/>
+<stat name="Skill_Pips_CostMod_Trait_Champion_CheaperBladeStormPips" operator="SET" descriptionOverride="-" constant="3.0"/>
 <stat name="Skill_RecoveryTime_Trait_MP_DevastatingStrike" operator="SUBSTRACT" descriptionOverride="key:620830195:106251894" constant="30.0"/>
-<stat name="Skill_RecoveryTime_Trait_MP_Sprint" operator="SUBSTRACT" constant="5.0"/>
+<stat name="Skill_RecoveryTime_Trait_MP_Sprint" operator="SUBSTRACT" descriptionOverride="-" constant="5.0"/>
 </propertyModEffect>
 <reactiveVitalEffect id="1879140461" name="Acid Ward" description="key:620830200:181298206" appliedDescription="key:620830200:54354734" iconId="1091476095" baseFlags="2188" damageTypes="1024">
 <defender>
@@ -6040,7 +6040,6 @@
 <effect id="1879140478" name="Laerdan's Parcel"/>
 <propertyModEffect id="1879140481" name="Fire Under The Mountain" iconId="1090539703" baseFlags="2492">
 <stat name="ICPR" scaling="1879059895"/>
-<specialEffect label=""/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="7.5000005"/>
 </propertyModEffect>
 <induceCombatState id="1879140572" name="Induce Immune" state="14" stateDuration="10.0"/>
@@ -6243,23 +6242,23 @@
 </propertyModEffect>
 <propertyModEffect id="1879141619" name="Shade's Wrath" appliedDescription="key:620830704:54354734" iconId="1091475964" duration="60.0" baseFlags="1471">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620830704:106251889" constant="50.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="50.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="50.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="50.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="50.0"/>
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:620830704:106251892" constant="50.0"/>
-<stat name="SHADOW_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
+<stat name="SHADOW_MITIGATION_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879141620" name="Faltering Morale" appliedDescription="key:620830706:54354734" iconId="1091479312" duration="60.0" baseFlags="1471">
 <stat name="INCOMING_HEALING_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:620830706:106251889" constant="50.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879141621" name="Weakened Heart" appliedDescription="key:620830707:54354734" iconId="1091475965" duration="30.0" baseFlags="1471">
 <stat name="MELEE_DAMAGE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:620830707:106251889" constant="25.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="25.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="25.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879141622" name="Shadow of Fear" appliedDescription="key:620830708:54354734" iconId="1091475964" duration="60.0" baseFlags="1471">
-<stat name="MELEE_DEFENCE_PERCENTAGE" constant="30.000002"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" constant="30.000002"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" constant="30.000002"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="30.000002"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="30.000002"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="30.000002"/>
 </propertyModEffect>
 <propertyModEffect id="1879141623" name="Oakheart's Speed" appliedDescription="key:620830713:54354734" iconId="1091476353" duration="60.0" baseFlags="1471">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620830713:106251889" constant="50.0"/>
@@ -6475,7 +6474,7 @@
 </vitalOverTimeEffect>
 <effect id="1879146085" name="Tentacle Lash" appliedDescription="key:620833250:54354734" baseFlags="3"/>
 <propertyModEffect id="1879146151" name="DNT - Null Effect" appliedDescription="key:620833303:54354734" iconId="1090519170" duration="5.0" baseFlags="1087">
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="0.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="-" constant="0.0"/>
 </propertyModEffect>
 <induceCombatState id="1879146152" name="Induce Knockeddown" baseFlags="3" state="13" stateDuration="7.0"/>
 <propertyModEffect id="1879146155" name="Avalanche" appliedDescription="key:620833309:54354734" iconId="1090599071" duration="10.0" baseFlags="1087"/>
@@ -6524,7 +6523,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879147444" name="Bane of the Captain" appliedDescription="key:620833874:54354734" iconId="1091475965" duration="30.0" baseFlags="1467">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620833873:106251889" constant="0.1"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.1"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.1"/>
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="200.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879147445" name="Bane of the Hunter" appliedDescription="key:620833875:54354734" iconId="1091475965" duration="30.0" baseFlags="1467">
@@ -6535,13 +6534,13 @@
 </propertyModEffect>
 <propertyModEffect id="1879147447" name="Bane of the Champion" appliedDescription="key:620833877:54354734" iconId="1091475965" duration="30.0" baseFlags="1467">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620833876:106251889" constant="0.1"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.1"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.1"/>
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="200.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879147448" name="Bane of the Warden" appliedDescription="key:620833878:54354734" iconId="1091475965" duration="30.0" baseFlags="1467">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620833877:106251889" constant="0.1"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.1"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.1"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.1"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.1"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879147484" name="Pain's Fury" appliedDescription="key:620833853:54354734" iconId="1091479195" duration="2.0" pulseCount="15" baseFlags="447" stat="Health_MaxLevel" damageType="1024">
 <overTimeChange progressionID="1879081264" modifiers="268437688"/>
@@ -6912,7 +6911,7 @@
 <stat name="CRITICAL_RANGED_PERCENTAGE" constant="5.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879150752" name="Frenzy" appliedDescription="key:620836039:54354734" iconId="1090607905" duration="20.0" baseFlags="444">
-<stat name="AI_Threat_DesireOverride" operator="SET" constant="0.9"/>
+<stat name="AI_Threat_DesireOverride" operator="SET" descriptionOverride="-" constant="0.9"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="50.0"/>
 <stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="50.0"/>
@@ -7060,7 +7059,7 @@
 <onExpire id="1879147953" name="Huh? Where's My Trousers?"/>
 </countdownEffect>
 <countdownEffect id="1879152445" name="Party Time" description="key:620837199:181298206" appliedDescription="key:620837199:54354734" iconId="1090641205" duration="10.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879152442" name="Party Time"/>
 </countdownEffect>
 <fellowshipEffect id="1879152470" name="Ballad of Aiglos[sp]" description="key:620837222:181298206" applyToTarget="true" range="25.0">
@@ -7109,13 +7108,13 @@
 <onExpire id="1879147953" name="Huh? Where's My Trousers?"/>
 </countdownEffect>
 <countdownEffect id="1879152813" name="Maze Time" description="key:620837470:181298206" appliedDescription="key:620837470:54354734" iconId="1090641205" duration="155.0" pulseCount="1" baseFlags="1464">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SET" constant="50.0"/>
 <onExpire id="1879152815" name="DNT - Party Time"/>
 <onExpire id="1879147953" name="Huh? Where's My Trousers?"/>
 </countdownEffect>
 <countdownEffect id="1879152814" name="Party Time" description="key:620837471:181298206" appliedDescription="key:620837471:54354734" iconId="1090641205" duration="10.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879152810" name="Party Time"/>
 </countdownEffect>
 <effect id="1879152815" name="DNT - Party Time"/>
@@ -7845,7 +7844,7 @@
 <effect id="1879158109" name="Summon Skeleton" description="key:620841089:181298206"/>
 <effect id="1879158167" name="Wing Buffet Knockback" baseFlags="3"/>
 <propertyModEffect id="1879158169" name="DNT - Run a ScriptKey on the prisoner to get them to destroy themselves." iconId="1090519170" baseFlags="2107">
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="0.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="-" constant="0.0"/>
 </propertyModEffect>
 <travelEffect id="1879158181" name="DNT - Teleports player to jail." baseFlags="2" sceneID="1879175167" removeFromInstance="false" privateEncounterID="1879187295">
 <position region="2" longitude="54.699997" latitude="73.799995"/>
@@ -7864,8 +7863,8 @@
 <propertyModEffect id="1879158191" name="Blood Pact" appliedDescription="key:620841160:54354734" iconId="1090539325" duration="60.0" baseFlags="436"/>
 <propertyModEffect id="1879158213" name="Bloodpact's Shield" appliedDescription="key:620841179:54354734" iconId="1091475963" duration="60.0" baseFlags="440">
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="key:620841179:106251889" constant="5.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" constant="5.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" constant="5.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="5.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SET" descriptionOverride="-" constant="5.0"/>
 </propertyModEffect>
 <effect id="1879158231" name="DNT - I am an NPC Prisoner" iconId="1090519170" baseFlags="2056"/>
 <effect id="1879158477" name="DNT - Hit_Status_Detaunt" appliedDescription="key:620841286:54354734" baseFlags="3"/>
@@ -7965,7 +7964,7 @@
 <specialEffect label="key:620842173:106251890"/>
 <specialEffect label="key:620842173:106251891"/>
 <specialEffect label="key:620842173:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159926" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -7973,7 +7972,7 @@
 <specialEffect label="key:620842174:106251890"/>
 <specialEffect label="key:620842174:106251891"/>
 <specialEffect label="key:620842174:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159927" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -7981,7 +7980,7 @@
 <specialEffect label="key:620842175:106251890"/>
 <specialEffect label="key:620842175:106251891"/>
 <specialEffect label="key:620842175:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159928" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -7989,7 +7988,7 @@
 <specialEffect label="key:620842176:106251890"/>
 <specialEffect label="key:620842176:106251891"/>
 <specialEffect label="key:620842176:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159929" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -7997,7 +7996,7 @@
 <specialEffect label="key:620842182:106251890"/>
 <specialEffect label="key:620842182:106251891"/>
 <specialEffect label="key:620842182:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159930" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8005,7 +8004,7 @@
 <specialEffect label="key:620842183:106251890"/>
 <specialEffect label="key:620842183:106251891"/>
 <specialEffect label="key:620842183:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159931" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8013,7 +8012,7 @@
 <specialEffect label="key:620842184:106251890"/>
 <specialEffect label="key:620842184:106251891"/>
 <specialEffect label="key:620842184:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159932" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8021,7 +8020,7 @@
 <specialEffect label="key:620842185:106251890"/>
 <specialEffect label="key:620842185:106251891"/>
 <specialEffect label="key:620842185:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159933" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8029,7 +8028,7 @@
 <specialEffect label="key:620842189:106251890"/>
 <specialEffect label="key:620842189:106251891"/>
 <specialEffect label="key:620842189:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159934" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8037,7 +8036,7 @@
 <specialEffect label="key:620842191:106251890"/>
 <specialEffect label="key:620842191:106251891"/>
 <specialEffect label="key:620842191:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159935" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8045,7 +8044,7 @@
 <specialEffect label="key:620842193:106251890"/>
 <specialEffect label="key:620842193:106251891"/>
 <specialEffect label="key:620842193:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159936" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8053,7 +8052,7 @@
 <specialEffect label="key:620842195:106251890"/>
 <specialEffect label="key:620842195:106251891"/>
 <specialEffect label="key:620842195:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159937" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8061,7 +8060,7 @@
 <specialEffect label="key:620842197:106251890"/>
 <specialEffect label="key:620842197:106251891"/>
 <specialEffect label="key:620842197:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159938" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8069,7 +8068,7 @@
 <specialEffect label="key:620842199:106251890"/>
 <specialEffect label="key:620842199:106251891"/>
 <specialEffect label="key:620842199:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159939" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8077,7 +8076,7 @@
 <specialEffect label="key:620842201:106251890"/>
 <specialEffect label="key:620842201:106251891"/>
 <specialEffect label="key:620842201:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159940" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8085,7 +8084,7 @@
 <specialEffect label="key:620842203:106251890"/>
 <specialEffect label="key:620842203:106251891"/>
 <specialEffect label="key:620842203:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159941" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8093,7 +8092,7 @@
 <specialEffect label="key:620842205:106251890"/>
 <specialEffect label="key:620842205:106251891"/>
 <specialEffect label="key:620842205:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159942" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8101,7 +8100,7 @@
 <specialEffect label="key:620842207:106251890"/>
 <specialEffect label="key:620842207:106251891"/>
 <specialEffect label="key:620842207:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159943" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8109,7 +8108,7 @@
 <specialEffect label="key:620842208:106251890"/>
 <specialEffect label="key:620842208:106251891"/>
 <specialEffect label="key:620842208:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159944" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8117,7 +8116,7 @@
 <specialEffect label="key:620842209:106251890"/>
 <specialEffect label="key:620842209:106251891"/>
 <specialEffect label="key:620842209:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159945" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8125,7 +8124,7 @@
 <specialEffect label="key:620842210:106251890"/>
 <specialEffect label="key:620842210:106251891"/>
 <specialEffect label="key:620842210:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159946" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8133,7 +8132,7 @@
 <specialEffect label="key:620842211:106251890"/>
 <specialEffect label="key:620842211:106251891"/>
 <specialEffect label="key:620842211:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159947" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8141,7 +8140,7 @@
 <specialEffect label="key:620842177:106251890"/>
 <specialEffect label="key:620842177:106251891"/>
 <specialEffect label="key:620842177:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159948" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8149,7 +8148,7 @@
 <specialEffect label="key:620842178:106251890"/>
 <specialEffect label="key:620842178:106251891"/>
 <specialEffect label="key:620842178:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159949" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8157,7 +8156,7 @@
 <specialEffect label="key:620842179:106251890"/>
 <specialEffect label="key:620842179:106251891"/>
 <specialEffect label="key:620842179:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159950" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8165,7 +8164,7 @@
 <specialEffect label="key:620842180:106251890"/>
 <specialEffect label="key:620842180:106251891"/>
 <specialEffect label="key:620842180:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159951" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8173,7 +8172,7 @@
 <specialEffect label="key:620842181:106251890"/>
 <specialEffect label="key:620842181:106251891"/>
 <specialEffect label="key:620842181:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159952" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8181,7 +8180,7 @@
 <specialEffect label="key:620842186:106251890"/>
 <specialEffect label="key:620842186:106251891"/>
 <specialEffect label="key:620842186:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159953" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8189,7 +8188,7 @@
 <specialEffect label="key:620842187:106251890"/>
 <specialEffect label="key:620842187:106251891"/>
 <specialEffect label="key:620842187:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159954" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8197,7 +8196,7 @@
 <specialEffect label="key:620842188:106251890"/>
 <specialEffect label="key:620842188:106251891"/>
 <specialEffect label="key:620842188:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159955" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8205,7 +8204,7 @@
 <specialEffect label="key:620842190:106251890"/>
 <specialEffect label="key:620842190:106251891"/>
 <specialEffect label="key:620842190:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159956" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8213,7 +8212,7 @@
 <specialEffect label="key:620842192:106251890"/>
 <specialEffect label="key:620842192:106251891"/>
 <specialEffect label="key:620842192:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159957" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8221,7 +8220,7 @@
 <specialEffect label="key:620842194:106251890"/>
 <specialEffect label="key:620842194:106251891"/>
 <specialEffect label="key:620842194:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159958" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8229,7 +8228,7 @@
 <specialEffect label="key:620842196:106251890"/>
 <specialEffect label="key:620842196:106251891"/>
 <specialEffect label="key:620842196:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159959" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8237,7 +8236,7 @@
 <specialEffect label="key:620842198:106251890"/>
 <specialEffect label="key:620842198:106251891"/>
 <specialEffect label="key:620842198:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159960" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8245,7 +8244,7 @@
 <specialEffect label="key:620842200:106251890"/>
 <specialEffect label="key:620842200:106251891"/>
 <specialEffect label="key:620842200:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159961" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8253,7 +8252,7 @@
 <specialEffect label="key:620842202:106251890"/>
 <specialEffect label="key:620842202:106251891"/>
 <specialEffect label="key:620842202:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159962" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8261,7 +8260,7 @@
 <specialEffect label="key:620842204:106251890"/>
 <specialEffect label="key:620842204:106251891"/>
 <specialEffect label="key:620842204:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159963" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8269,7 +8268,7 @@
 <specialEffect label="key:620842206:106251890"/>
 <specialEffect label="key:620842206:106251891"/>
 <specialEffect label="key:620842206:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159964" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8277,7 +8276,7 @@
 <specialEffect label="key:620842212:106251890"/>
 <specialEffect label="key:620842212:106251891"/>
 <specialEffect label="key:620842212:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159965" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8285,7 +8284,7 @@
 <specialEffect label="key:620842213:106251890"/>
 <specialEffect label="key:620842213:106251891"/>
 <specialEffect label="key:620842213:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159966" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8293,7 +8292,7 @@
 <specialEffect label="key:620842214:106251890"/>
 <specialEffect label="key:620842214:106251891"/>
 <specialEffect label="key:620842214:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159967" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8301,7 +8300,7 @@
 <specialEffect label="key:620842215:106251890"/>
 <specialEffect label="key:620842215:106251891"/>
 <specialEffect label="key:620842215:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159968" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8309,7 +8308,7 @@
 <specialEffect label="key:620842216:106251890"/>
 <specialEffect label="key:620842216:106251891"/>
 <specialEffect label="key:620842216:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159969" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8317,7 +8316,7 @@
 <specialEffect label="key:620842217:106251890"/>
 <specialEffect label="key:620842217:106251891"/>
 <specialEffect label="key:620842217:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159970" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8325,7 +8324,7 @@
 <specialEffect label="key:620842218:106251890"/>
 <specialEffect label="key:620842218:106251891"/>
 <specialEffect label="key:620842218:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159971" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8333,7 +8332,7 @@
 <specialEffect label="key:620842219:106251890"/>
 <specialEffect label="key:620842219:106251891"/>
 <specialEffect label="key:620842219:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159972" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8341,7 +8340,7 @@
 <specialEffect label="key:620842220:106251890"/>
 <specialEffect label="key:620842220:106251891"/>
 <specialEffect label="key:620842220:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159973" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8349,7 +8348,7 @@
 <specialEffect label="key:620842221:106251890"/>
 <specialEffect label="key:620842221:106251891"/>
 <specialEffect label="key:620842221:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159974" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8357,7 +8356,7 @@
 <specialEffect label="key:620842222:106251890"/>
 <specialEffect label="key:620842222:106251891"/>
 <specialEffect label="key:620842222:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879159975" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8365,7 +8364,7 @@
 <specialEffect label="key:620842223:106251890"/>
 <specialEffect label="key:620842223:106251891"/>
 <specialEffect label="key:620842223:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <comboEffect id="1879160092" name="DNT" appliedDescription="key:620842341:54354734" baseFlags="3">
@@ -8379,7 +8378,7 @@
 <stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.8"/>
 </propertyModEffect>
 <propertyModEffect id="1879160096" name="Pierced Armour" appliedDescription="key:620842349:54354734" iconId="1091476095" duration="45.0" baseFlags="1467">
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="0.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="-" constant="0.0"/>
 </propertyModEffect>
 <comboEffect id="1879160097" name="DNT" appliedDescription="key:620842348:54354734" baseFlags="3">
 <present id="1879102961" name="Shield Wall"/>
@@ -8440,7 +8439,7 @@
 <specialEffect label="key:620842457:106251890"/>
 <specialEffect label="key:620842457:106251891"/>
 <specialEffect label="key:620842457:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879160252" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8448,7 +8447,7 @@
 <specialEffect label="key:620842460:106251890"/>
 <specialEffect label="key:620842460:106251891"/>
 <specialEffect label="key:620842460:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879160253" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8456,7 +8455,7 @@
 <specialEffect label="key:620842462:106251890"/>
 <specialEffect label="key:620842462:106251891"/>
 <specialEffect label="key:620842462:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879160254" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8464,7 +8463,7 @@
 <specialEffect label="key:620842464:106251890"/>
 <specialEffect label="key:620842464:106251891"/>
 <specialEffect label="key:620842464:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879160256" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8472,7 +8471,7 @@
 <specialEffect label="key:620842459:106251890"/>
 <specialEffect label="key:620842459:106251891"/>
 <specialEffect label="key:620842459:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879160257" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8480,7 +8479,7 @@
 <specialEffect label="key:620842461:106251890"/>
 <specialEffect label="key:620842461:106251891"/>
 <specialEffect label="key:620842461:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879160258" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8488,7 +8487,7 @@
 <specialEffect label="key:620842463:106251890"/>
 <specialEffect label="key:620842463:106251891"/>
 <specialEffect label="key:620842463:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879160259" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8496,7 +8495,7 @@
 <specialEffect label="key:620842458:106251890"/>
 <specialEffect label="key:620842458:106251891"/>
 <specialEffect label="key:620842458:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879160293" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8504,7 +8503,7 @@
 <specialEffect label="key:620842486:106251890"/>
 <specialEffect label="key:620842486:106251891"/>
 <specialEffect label="key:620842486:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879160294" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8512,7 +8511,7 @@
 <specialEffect label="key:620842488:106251890"/>
 <specialEffect label="key:620842488:106251891"/>
 <specialEffect label="key:620842488:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879160295" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8520,7 +8519,7 @@
 <specialEffect label="key:620842487:106251890"/>
 <specialEffect label="key:620842487:106251891"/>
 <specialEffect label="key:620842487:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879160296" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8528,7 +8527,7 @@
 <specialEffect label="key:620842489:106251890"/>
 <specialEffect label="key:620842489:106251891"/>
 <specialEffect label="key:620842489:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879160307" name="Staggered" iconId="1091415788" duration="15.0" baseFlags="447">
@@ -8659,7 +8658,7 @@
 <specialEffect label="key:620843878:106251890"/>
 <specialEffect label="key:620843878:106251891"/>
 <specialEffect label="key:620843878:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879162594" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8667,7 +8666,7 @@
 <specialEffect label="key:620843880:106251890"/>
 <specialEffect label="key:620843880:106251891"/>
 <specialEffect label="key:620843880:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <genesis id="1879162601" name="Poppy-seed Barrel" summonDuration="60.0">
@@ -8691,7 +8690,7 @@
 <specialEffect label="key:620844067:106251890"/>
 <specialEffect label="key:620844067:106251891"/>
 <specialEffect label="key:620844067:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879162881" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -8699,7 +8698,7 @@
 <specialEffect label="key:620844066:106251890"/>
 <specialEffect label="key:620844066:106251891"/>
 <specialEffect label="key:620844066:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <effect id="1879162966" name="DNT - Summon Vengeful Spirit"/>
@@ -9824,7 +9823,7 @@
 <specialEffect label="key:620846814:106251890"/>
 <specialEffect label="key:620846814:106251891"/>
 <specialEffect label="key:620846814:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879166632" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -9832,7 +9831,7 @@
 <specialEffect label="key:620846815:106251890"/>
 <specialEffect label="key:620846815:106251891"/>
 <specialEffect label="key:620846815:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879166815" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -9840,7 +9839,7 @@
 <specialEffect label="key:620846962:106251890"/>
 <specialEffect label="key:620846962:106251891"/>
 <specialEffect label="key:620846962:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879166816" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -9848,7 +9847,7 @@
 <specialEffect label="key:620846961:106251890"/>
 <specialEffect label="key:620846961:106251891"/>
 <specialEffect label="key:620846961:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879166817" name="Scent of Blood!" appliedDescription="key:620846967:54354734" iconId="1091537510" duration="10.0" baseFlags="1471"/>
@@ -10005,7 +10004,7 @@
 <specialEffect label="key:620852740:106251890"/>
 <specialEffect label="key:620852740:106251891"/>
 <specialEffect label="key:620852740:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879173354" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -10013,7 +10012,7 @@
 <specialEffect label="key:620852741:106251890"/>
 <specialEffect label="key:620852741:106251891"/>
 <specialEffect label="key:620852741:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879173355" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -10021,7 +10020,7 @@
 <specialEffect label="key:620852742:106251890"/>
 <specialEffect label="key:620852742:106251891"/>
 <specialEffect label="key:620852742:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879173356" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -10029,7 +10028,7 @@
 <specialEffect label="key:620852743:106251890"/>
 <specialEffect label="key:620852743:106251891"/>
 <specialEffect label="key:620852743:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <countdownEffect id="1879173361" name="DNT - Countdown to FX" iconId="1090519170" duration="1.8" pulseCount="1" baseFlags="184">
@@ -10040,7 +10039,7 @@
 <specialEffect label="key:620852816:106251890"/>
 <specialEffect label="key:620852816:106251891"/>
 <specialEffect label="key:620852816:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879173487" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -10048,7 +10047,7 @@
 <specialEffect label="key:620852817:106251890"/>
 <specialEffect label="key:620852817:106251891"/>
 <specialEffect label="key:620852817:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879173488" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -10056,7 +10055,7 @@
 <specialEffect label="key:620852818:106251890"/>
 <specialEffect label="key:620852818:106251891"/>
 <specialEffect label="key:620852818:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879173489" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -10064,7 +10063,7 @@
 <specialEffect label="key:620852819:106251890"/>
 <specialEffect label="key:620852819:106251891"/>
 <specialEffect label="key:620852819:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879173490" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -10072,7 +10071,7 @@
 <specialEffect label="key:620852820:106251890"/>
 <specialEffect label="key:620852820:106251891"/>
 <specialEffect label="key:620852820:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879173491" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -10080,7 +10079,7 @@
 <specialEffect label="key:620852821:106251890"/>
 <specialEffect label="key:620852821:106251891"/>
 <specialEffect label="key:620852821:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879173492" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -10088,7 +10087,7 @@
 <specialEffect label="key:620852822:106251890"/>
 <specialEffect label="key:620852822:106251891"/>
 <specialEffect label="key:620852822:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879173493" name="Mounted" iconId="1090519170" baseFlags="2212">
@@ -10096,7 +10095,7 @@
 <specialEffect label="key:620852823:106251890"/>
 <specialEffect label="key:620852823:106251891"/>
 <specialEffect label="key:620852823:106251892"/>
-<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <effect id="1879173506" name="Immunity" appliedDescription="key:620852828:54354734" iconId="1091574473" baseFlags="2440"/>
@@ -10640,10 +10639,10 @@
 </propertyModEffect>
 <propertyModEffect id="1879180638" name="Corrupt Protection" description="key:620858264:181298206" appliedDescription="key:620858264:54354734" iconId="1090586730" baseFlags="3004">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" descriptionOverride="key:620858264:106251889" constant="10.0"/>
-<stat name="FIRE_MITIGATION_PERCENTAGE" constant="10.0"/>
-<stat name="Combat_MitigationPercentage_Light" constant="10.0"/>
-<stat name="Combat_MitigationPercentage_Beleriand" constant="10.0"/>
-<stat name="Combat_MitigationPercentage_AncientDwarf" constant="10.0"/>
+<stat name="FIRE_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
+<stat name="Combat_MitigationPercentage_Light" descriptionOverride="-" constant="10.0"/>
+<stat name="Combat_MitigationPercentage_Beleriand" descriptionOverride="-" constant="10.0"/>
+<stat name="Combat_MitigationPercentage_AncientDwarf" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879180643" name="Vile Power" appliedDescription="key:620858274:54354734" iconId="1090539274" baseFlags="3004">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" constant="1.1"/>
@@ -11615,7 +11614,7 @@
 <effect id="1879191265" name="Being inside the bounds of the Shrew-garden while the challenge is underway" iconId="1091511233" baseFlags="2232"/>
 <propertyModEffect id="1879191427" name="Dúnedain Stealth" iconId="1090519170" baseFlags="2224">
 <stat name="STEALTH_LEVEL" constant="10.0"/>
-<stat name="ForwardSource_Combat_CurrentCombo" operator="SET" constant="34.0"/>
+<stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="-" constant="34.0"/>
 </propertyModEffect>
 <countdownEffect id="1879191531" name="DNT - countdown to teleport for capture" iconId="1090519170" duration="2.0" baseFlags="1211">
 <onExpire id="1879191013" name="DNT - Teleports player to jail."/>
@@ -12470,10 +12469,10 @@
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="-2.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879197727" name="Crafting Experience Bonus: 50%" appliedDescription="key:620871153:54354734" iconId="1091617862" duration="600.0" baseFlags="396">
-<stat name="Craft_Recipe_CraftXP_Acceleration" constant="50.0"/>
+<stat name="Craft_Recipe_CraftXP_Acceleration" descriptionOverride="-" constant="50.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879197729" name="Crafting Experience Bonus: 25%" appliedDescription="key:620871155:54354734" iconId="1091617862" duration="600.0" baseFlags="396">
-<stat name="Craft_Recipe_CraftXP_Acceleration" constant="25.0"/>
+<stat name="Craft_Recipe_CraftXP_Acceleration" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879197776" name="Creeping Infection" appliedDescription="key:620871299:54354734" iconId="1091476365" duration="20.0" baseFlags="1467">
 <stat name="MELEE_DEFENCE_PERCENTAGE" descriptionOverride="key:620871299:106251889" constant="20.0"/>
@@ -13676,7 +13675,7 @@
 </hotspot>
 </genesis>
 <propertyModEffect id="1879201751" name="Tiered Ballad Power Cost" iconId="1091611540" baseFlags="2188">
-<stat name="Skill_PropertyMod_Minstrel_BalladPowerBonus_Offset" constant="-2.0"/>
+<stat name="Skill_PropertyMod_Minstrel_BalladPowerBonus_Offset" descriptionOverride="-" constant="-2.0"/>
 </propertyModEffect>
 <effect id="1879201762" appliedDescription="key:620874297:54354734"/>
 <effect id="1879201763" appliedDescription="key:620874295:54354734"/>
@@ -13860,16 +13859,16 @@
 <effect id="1879204546" name="Strong Drink"/>
 <effect id="1879204552" name="Within Annúminas" appliedDescription="key:620876842:54354734" iconId="1090523647" baseFlags="2184"/>
 <countdownEffect id="1879204560" name="Maze Time" description="key:620876848:181298206" appliedDescription="key:620876848:54354734" iconId="1090641205" duration="1.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879204546" name="Strong Drink"/>
 </countdownEffect>
 <countdownEffect id="1879204561" name="Maze Time" description="key:620876850:181298206" appliedDescription="key:620876850:54354734" iconId="1090641205" duration="2.5" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879103520" name="Flop"/>
 <onExpire id="1879204562" name="Maze Time"/>
 </countdownEffect>
 <countdownEffect id="1879204562" name="Maze Time" description="key:620876849:181298206" appliedDescription="key:620876849:54354734" iconId="1090641205" duration="2.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879089481" name="Blinding Light"/>
 <onExpire id="1879204560" name="Maze Time"/>
 </countdownEffect>
@@ -13884,7 +13883,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879205020" name="Anthem II - Dissonance" iconId="1092752394" duration="45.0" baseFlags="444">
 <stat name="Combat_SkillDamageMultiplier_Light" descriptionOverride="key:620877129:106251889" constant="5.0"/>
-<stat name="Combat_SkillDamageMultiplier_Fire" constant="5.0"/>
+<stat name="Combat_SkillDamageMultiplier_Fire" descriptionOverride="-" constant="5.0"/>
 <stat name="Combat_SkillDamageMultiplier_Lightning" descriptionOverride="-" constant="5.0"/>
 <stat name="Combat_SkillDamageMultiplier_Frost" descriptionOverride="-" constant="5.0"/>
 </propertyModEffect>
@@ -14892,8 +14891,8 @@
 </propertyModEffect>
 <propertyModEffect id="1879212919" name="Trick: Improved Counter Defence" appliedDescription="key:620882109:54354734" iconId="1091659738" duration="15.0" baseFlags="447">
 <stat name="PARRY" operator="SUBSTRACT" descriptionOverride="key:620882109:106251889" scaling="1879399376"/>
-<stat name="EVADE" operator="SUBSTRACT" scaling="1879399362"/>
-<stat name="BLOCK" operator="SUBSTRACT" scaling="1879399378"/>
+<stat name="EVADE" operator="SUBSTRACT" descriptionOverride="-" scaling="1879399362"/>
+<stat name="BLOCK" operator="SUBSTRACT" descriptionOverride="-" scaling="1879399378"/>
 <stat name="CRITICAL_DEFENCE" operator="SUBSTRACT" scaling="1879368454"/>
 </propertyModEffect>
 <effect id="1879212924" name="DNT - Mischievous Glee Reset" description="key:620882113:181298206"/>
@@ -15394,7 +15393,7 @@
 <propertyModEffect id="1879216019" name="To Arms (Blade-brother)" iconId="1092812526" duration="20.0" baseFlags="444">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620884596:106251889" constant="15.000001"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="15.000001"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="15.000001"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="15.000001"/>
 </propertyModEffect>
 <comboEffect id="1879216022" name="DNT">
 <toAddIfPresent id="1879216018" name="To Arms (Song-brother)"/>
@@ -18266,11 +18265,11 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879233680" name="Audacity" description="key:620897835:181298206" appliedDescription="key:620897835:54354734" iconId="1090586730" baseFlags="2492">
-<stat name="CombatStateMod_CC_DurationMultModifier" operator="SUBSTRACT" constant="50.0"/>
+<stat name="CombatStateMod_CC_DurationMultModifier" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" constant="0.5"/>
 <stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" constant="0.5"/>
 <stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" constant="0.5"/>
-<stat name="Skill_PowerCost_AllSkills" constant="-20.0"/>
+<stat name="Skill_PowerCost_AllSkills" descriptionOverride="-" constant="-20.0"/>
 </propertyModEffect>
 <genesis id="1879233733" name="Debuff Hotspot" baseFlags="2" summonDuration="40.0">
 <hotspot id="1879233736" name="DNT">
@@ -18394,10 +18393,10 @@
 <effect id="1879233965" name="Riffler Damage Attunement" iconId="1091620587" duration="1.0" baseFlags="2236"/>
 <effect id="1879233966" name="Riffler Healing Attunement" iconId="1091620587" duration="1.0" baseFlags="2236"/>
 <propertyModEffect id="1879234140" name="Retreat" appliedDescription="key:620898194:54354734" iconId="1091565008" baseFlags="2236">
-<stat name="AI_MovementBehavior" operator="SET" constant="1.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="1.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879234142" name="Long Distance Missiles" appliedDescription="key:620898190:54354734" iconId="1091565009" baseFlags="2236">
-<stat name="AI_MovementBehavior" operator="SET" constant="6.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="6.0"/>
 <stat name="AI_Flank_MinDistance" operator="SET" constant="30.0"/>
 <stat name="AI_Flank_MaxDistance" operator="SET" constant="40.0"/>
 </propertyModEffect>
@@ -18672,7 +18671,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879239499" name="Red Dawn" iconId="1091737510" baseFlags="2480">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620900391:106251890" constant="10.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="10.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 <stat name="Trait_Mounted_Critical_Multiplier" descriptionOverride="key:620900391:106251893" constant="10.0"/>
 </propertyModEffect>
@@ -18832,7 +18831,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879240596" name="Discipline: Riddermark" iconId="1091739271" baseFlags="2480">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620901324:106251890" constant="5.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 <stat name="WARSTEED_AGILITY" constant="125.0"/>
 <stat name="WARSTEED_ENDURANCE" operator="MULTIPLY" descriptionOverride="key:620901324:106251894" constant="1.15"/>
@@ -19229,7 +19228,7 @@
 <propertyModEffect id="1879242036" name="Incoming Outgoing Healing Buff" iconId="1090519170" baseFlags="2176"/>
 <propertyModEffect id="1879242057" name="Mearas-lore - Red Dawn" iconId="1091742024" duration="15.0" baseFlags="447">
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" descriptionOverride="key:620902384:106251889" constant="-20.0"/>
-<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="-20.0"/>
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="-20.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879242058" name="Discipline: Rohirrim" iconId="1091742128" baseFlags="2480">
 <stat name="WARSTEED_ENDURANCE" operator="MULTIPLY" descriptionOverride="key:620902387:106251890" constant="1.1"/>
@@ -19248,7 +19247,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879242062" name="Discipline: Red Dawn" iconId="1091742020" baseFlags="2480">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620902389:106251890" constant="10.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="10.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 <stat name="Penetrate_Resistances" operator="SUBSTRACT" descriptionOverride="key:620902389:106251893" constant="0.1"/>
 </propertyModEffect>
@@ -19358,15 +19357,15 @@
 <propertyModEffect id="1879242334" name="Improved Trick: Disable" appliedDescription="key:620902643:54354734" iconId="1090541269" duration="15.0" baseFlags="447">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="10.0"/>
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620902643:106251890" constant="0.9"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.9"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.9"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
 <stat name="FINESSE" operator="SUBSTRACT" scaling="1879367857"/>
 </propertyModEffect>
 <propertyModEffect id="1879242335" name="Improved Trick: Disable" appliedDescription="key:620902642:54354734" iconId="1090541269" duration="15.0" baseFlags="447">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="10.0"/>
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620902642:106251890" constant="0.9"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.9"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.9"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
 <stat name="FINESSE" operator="SUBSTRACT" scaling="1879399368"/>
 </propertyModEffect>
 <propertyModEffect id="1879242379" name="Isendeep Mine" appliedDescription="key:620902656:54354734" iconId="1091659379" baseFlags="2444">
@@ -19383,12 +19382,12 @@
 </propertyModEffect>
 <propertyModEffect id="1879242382" name="Arador's End Outpost" appliedDescription="key:620902658:54354734" iconId="1091752907" baseFlags="2444">
 <stat name="Glory_AwardMultiplier" descriptionOverride="key:620902658:106251889" constant="20.0"/>
-<stat name="PVPPoints_AwardMultiplier" constant="20.0"/>
+<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="20.0"/>
 <stat name="FINESSE" scaling="1879419731"/>
 </propertyModEffect>
 <propertyModEffect id="1879242385" name="Plains of Gramsfoot Outpost" appliedDescription="key:620902652:54354734" iconId="1091752905" baseFlags="2444">
 <stat name="Glory_AwardMultiplier" descriptionOverride="key:620902652:106251889" constant="20.0"/>
-<stat name="PVPPoints_AwardMultiplier" constant="20.0"/>
+<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="20.0"/>
 <stat name="FINESSE" scaling="1879419731"/>
 </propertyModEffect>
 <propertyModEffect id="1879242387" name="Lugazag" appliedDescription="key:620902646:54354734" iconId="1091659370" baseFlags="2444">
@@ -19397,12 +19396,12 @@
 </propertyModEffect>
 <propertyModEffect id="1879242388" name="Isendeep Outpost" appliedDescription="key:620902657:54354734" iconId="1091752906" baseFlags="2444">
 <stat name="Glory_AwardMultiplier" descriptionOverride="key:620902657:106251889" constant="20.0"/>
-<stat name="PVPPoints_AwardMultiplier" constant="20.0"/>
+<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="20.0"/>
 <stat name="FINESSE" scaling="1879419731"/>
 </propertyModEffect>
 <propertyModEffect id="1879242389" name="River Outpost" appliedDescription="key:620902655:54354734" iconId="1092912188" baseFlags="2444">
 <stat name="Glory_AwardMultiplier" descriptionOverride="key:620902655:106251889" constant="20.0"/>
-<stat name="PVPPoints_AwardMultiplier" constant="20.0"/>
+<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="20.0"/>
 <stat name="FINESSE" scaling="1879419731"/>
 </propertyModEffect>
 <propertyModEffect id="1879242390" name="Tirith Rhaw" appliedDescription="key:620902647:54354734" iconId="1091659373" baseFlags="2444">
@@ -19411,7 +19410,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879242391" name="Coldfells Outpost" appliedDescription="key:620902649:54354734" iconId="1091752908" baseFlags="2444">
 <stat name="Glory_AwardMultiplier" descriptionOverride="key:620902649:106251889" constant="20.0"/>
-<stat name="PVPPoints_AwardMultiplier" constant="20.0"/>
+<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="20.0"/>
 <stat name="FINESSE" scaling="1879419731"/>
 </propertyModEffect>
 <countdownEffect id="1879242440" name="Greatly Confounded" appliedDescription="key:620902687:54354734" iconId="1091414348" duration="15.0" pulseCount="1" baseFlags="507">
@@ -19575,7 +19574,7 @@
 <effect id="1879148534" name="Rallying Howl"/>
 </fellowshipEffect>
 <propertyModEffect id="1879244190" name="Charging" appliedDescription="key:620904231:54354734" iconId="1090539274" duration="10.0" baseFlags="1468">
-<stat name="AI_MovementBehavior" operator="SET" constant="4.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="4.0"/>
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" constant="2.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879244202" name="Keen Strike" stat="MountEndurance_MaxLevel">
@@ -19631,7 +19630,7 @@
 <propertyModEffect id="1879244219" name="Discipline: Red Dawn" iconId="1091744009" baseFlags="2480">
 <stat name="Trait_Mounted_Critical_Multiplier" constant="10.0"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620904257:106251891" constant="10.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="10.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <effect id="1879244232" name="DNT - Dispel Burglar Trick"/>
@@ -19834,7 +19833,7 @@
 </vitalOverTimeEffect>
 <propertyModEffect id="1879244711" name="Poison Gourd" appliedDescription="key:620904675:54354734" iconId="1091479312" duration="20.0" baseFlags="1471">
 <stat name="INCOMING_HEALING_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
-<stat name="ICMR" operator="MULTIPLY" constant="0.5"/>
+<stat name="ICMR" operator="MULTIPLY" descriptionOverride="-" constant="0.5"/>
 </propertyModEffect>
 <propertyModEffect id="1879244825" name="Dash" iconId="1091736791" duration="10.0" baseFlags="444">
 <stat name="Mount_Movement_Max_Speed" descriptionOverride="key:620904761:106251889" constant="3.0"/>
@@ -20144,7 +20143,7 @@
 </propertyModEffect>
 <propertyModEffect id="1879246127" name="Protection by the Sword - Damage" iconId="1092835513" duration="10.0" baseFlags="444">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620905897:106251889" constant="3.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="3.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
 </propertyModEffect>
 <fellowshipEffect id="1879246128" name="Protection by the Sword" description="key:620934404:181298206" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="10.0">
@@ -20206,74 +20205,74 @@
 <effect id="1879247655"/>
 <effect id="1879247657"/>
 <propertyModEffect id="1879247709" name="Cloverleaf Jousting" appliedDescription="key:620906845:54354734" iconId="1091565007" baseFlags="2236">
-<stat name="AI_MovementBehavior" operator="SET" constant="4.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="4.0"/>
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" constant="1.25"/>
 <stat name="Mount_Movement_Acceleration" operator="SET" constant="6.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879247710" name="Cloverleaf Jousting" appliedDescription="key:620906841:54354734" iconId="1091565007" baseFlags="2236">
-<stat name="AI_MovementBehavior" operator="SET" constant="4.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="4.0"/>
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" constant="1.0"/>
 <stat name="Mount_Movement_Acceleration" operator="SET" constant="7.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879247711" name="Cloverleaf Jousting" appliedDescription="key:620906840:54354734" iconId="1091565007" baseFlags="2236">
-<stat name="AI_MovementBehavior" operator="SET" constant="4.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="4.0"/>
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" constant="1.5"/>
 <stat name="Mount_Movement_Acceleration" operator="SET" constant="5.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879247712" name="Flanking Missiles" appliedDescription="key:620906847:54354734" iconId="1091561141" baseFlags="2236">
-<stat name="AI_MovementBehavior" operator="SET" constant="6.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="6.0"/>
 <stat name="AI_Flank_MinDistance" operator="SET" constant="20.0"/>
 <stat name="AI_Flank_MaxDistance" operator="SET" constant="30.0"/>
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" constant="1.1"/>
 <stat name="Mount_Movement_Acceleration" operator="SET" constant="6.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879247713" name="Flank Alongside" appliedDescription="key:620906846:54354734" iconId="1091561199" baseFlags="2236">
-<stat name="AI_MovementBehavior" operator="SET" constant="6.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="6.0"/>
 <stat name="AI_Flank_MinDistance" operator="SET" constant="2.5"/>
 <stat name="AI_Flank_MaxDistance" operator="SET" constant="4.5"/>
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" constant="1.5"/>
 <stat name="Mount_Movement_Acceleration" operator="SET" constant="5.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879247714" name="Close Pursuit" appliedDescription="key:620906848:54354734" iconId="1090528810" baseFlags="2236">
-<stat name="AI_MovementBehavior" operator="SET" constant="2.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="2.0"/>
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" constant="1.25"/>
 <stat name="Mount_Movement_Acceleration" operator="SET" constant="6.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879247715" name="Flank Alongside" appliedDescription="key:620906843:54354734" iconId="1091561199" baseFlags="2236">
-<stat name="AI_MovementBehavior" operator="SET" constant="6.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="6.0"/>
 <stat name="AI_Flank_MinDistance" operator="SET" constant="2.5"/>
 <stat name="AI_Flank_MaxDistance" operator="SET" constant="4.5"/>
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" constant="1.0"/>
 <stat name="Mount_Movement_Acceleration" operator="SET" constant="7.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879247716" name="Flanking Missiles" appliedDescription="key:620906844:54354734" iconId="1091561141" baseFlags="2236">
-<stat name="AI_MovementBehavior" operator="SET" constant="6.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="6.0"/>
 <stat name="AI_Flank_MinDistance" operator="SET" constant="20.0"/>
 <stat name="AI_Flank_MaxDistance" operator="SET" constant="30.0"/>
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" constant="1.25"/>
 <stat name="Mount_Movement_Acceleration" operator="SET" constant="5.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879247717" name="Close Pursuit" appliedDescription="key:620906849:54354734" iconId="1090528810" baseFlags="2236">
-<stat name="AI_MovementBehavior" operator="SET" constant="2.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="2.0"/>
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" constant="1.5"/>
 <stat name="Mount_Movement_Acceleration" operator="SET" constant="5.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879247718" name="Flanking Missiles" appliedDescription="key:620906842:54354734" iconId="1091561141" baseFlags="2236">
-<stat name="AI_MovementBehavior" operator="SET" constant="6.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="6.0"/>
 <stat name="AI_Flank_MinDistance" operator="SET" constant="20.0"/>
 <stat name="AI_Flank_MaxDistance" operator="SET" constant="30.0"/>
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" constant="0.8"/>
 <stat name="Mount_Movement_Acceleration" operator="SET" constant="7.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879247719" name="Flank Alongside" appliedDescription="key:620906839:54354734" iconId="1091561199" baseFlags="2236">
-<stat name="AI_MovementBehavior" operator="SET" constant="6.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="6.0"/>
 <stat name="AI_Flank_MinDistance" operator="SET" constant="2.5"/>
 <stat name="AI_Flank_MaxDistance" operator="SET" constant="4.5"/>
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" constant="1.25"/>
 <stat name="Mount_Movement_Acceleration" operator="SET" constant="6.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879247720" name="Close Pursuit" appliedDescription="key:620906850:54354734" iconId="1090528810" baseFlags="2236">
-<stat name="AI_MovementBehavior" operator="SET" constant="2.0"/>
+<stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" constant="2.0"/>
 <stat name="Mount_Movement_Max_Speed" operator="MULTIPLY" constant="1.0"/>
 <stat name="Mount_Movement_Acceleration" operator="SET" constant="7.0"/>
 </propertyModEffect>
@@ -20640,10 +20639,10 @@
 <stat name="DEVASTATE_MAGNITUDE_PERCENTAGE" constant="35.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879248761" name="DNT - Last Stand CDR" iconId="1090541073" baseFlags="2188">
-<stat name="Skill_RecoveryTime_LastStand" operator="SUBSTRACT" constant="75.0"/>
+<stat name="Skill_RecoveryTime_LastStand" operator="SUBSTRACT" descriptionOverride="-" constant="75.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879248762" name="DNT - Defeat Event CDR" iconId="1091591834" baseFlags="2188">
-<stat name="Skill_RecoveryTime_CrySkills" constant="-3.0"/>
+<stat name="Skill_RecoveryTime_CrySkills" descriptionOverride="-" constant="-3.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879248767" name="DNT - Fire Damage Buff" iconId="1091478906" baseFlags="2188">
 <stat name="Combat_SkillDamageMultiplier_Fire" descriptionOverride="-" constant="10.0"/>
@@ -20881,7 +20880,7 @@
 <stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
 <stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="2.0"/>
 <stat name="Glory_AwardMultiplier" descriptionOverride="key:620908695:106251893" constant="50.0"/>
-<stat name="PVPPoints_AwardMultiplier" constant="50.0"/>
+<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="50.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
@@ -22013,7 +22012,7 @@
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620912547:106251889" constant="0.75"/>
 <stat name="MELEE_DEFENCE_PERCENTAGE" descriptionOverride="key:620912547:106251890" constant="25.0"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620912547:106251891" constant="0.75"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" constant="25.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="25.0"/>
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.75"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="25.0"/>
 <stat name="INCOMING_HEALING_PERCENTAGE" operator="SUBSTRACT" constant="25.0"/>
@@ -22155,7 +22154,7 @@
 <onExpire id="1879089555" name="Wha...wait...what? Where?"/>
 </countdownEffect>
 <countdownEffect id="1879257394" name="Drink to Kafli" description="key:620912839:181298206" appliedDescription="key:620912839:54354734" iconId="1090641205" duration="7.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879257393" name="Drunk for Kafli"/>
 </countdownEffect>
 <countdownEffect id="1879257395" name="Drunker..." description="key:620912836:181298206" appliedDescription="key:620912836:54354734" iconId="1090641205" duration="1.0" pulseCount="1" baseFlags="440">
@@ -22291,7 +22290,7 @@
 <onExpire id="1879089555" name="Wha...wait...what? Where?"/>
 </countdownEffect>
 <countdownEffect id="1879257780" name="Drink to Kafli" description="key:620913175:181298206" appliedDescription="key:620913175:54354734" iconId="1090641205" duration="7.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879257782" name="Drunk for Kafli"/>
 </countdownEffect>
 <countdownEffect id="1879257781" name="Drunker for Kafli" description="key:620913178:181298206" appliedDescription="key:620913178:54354734" iconId="1090641205" duration="5.0" pulseCount="1" baseFlags="440">
@@ -22304,7 +22303,7 @@
 <onExpire id="1879089555" name="Wha...wait...what? Where?"/>
 </countdownEffect>
 <countdownEffect id="1879257783" name="Drink to Kafli" description="key:620913169:181298206" appliedDescription="key:620913169:54354734" iconId="1090641205" duration="7.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879257775" name="Drunk for Kafli"/>
 </countdownEffect>
 <countdownEffect id="1879257784" name="Drunker for Kafli" description="key:620913179:181298206" appliedDescription="key:620913179:54354734" iconId="1090641205" duration="5.0" pulseCount="1" baseFlags="440">
@@ -22320,7 +22319,7 @@
 <onExpire id="1879257771" name="DNT - One time drunken travel to Moria Hubs"/>
 </countdownEffect>
 <countdownEffect id="1879257787" name="Drink to Kafli" description="key:620913172:181298206" appliedDescription="key:620913172:54354734" iconId="1090641205" duration="7.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879257790" name="Drunk for Kafli"/>
 </countdownEffect>
 <countdownEffect id="1879257788" name="Drunker for Kafli" description="key:620913180:181298206" appliedDescription="key:620913180:54354734" iconId="1090641205" duration="5.0" pulseCount="1" baseFlags="440">
@@ -22351,18 +22350,18 @@
 <onExpire id="1879089481" name="Blinding Light"/>
 </countdownEffect>
 <countdownEffect id="1879257795" name="Drink to Kafli" description="key:620913171:181298206" appliedDescription="key:620913171:54354734" iconId="1090641205" duration="7.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879257785" name="Drunk for Kafli"/>
 </countdownEffect>
 <countdownEffect id="1879257796" name="Drunker..." description="key:620913170:181298206" appliedDescription="key:620913170:54354734" iconId="1090641205" duration="1.0" pulseCount="1" baseFlags="440">
 <onExpire id="1879257773" name="DNT - One time drunken travel to Moria Hubs"/>
 </countdownEffect>
 <countdownEffect id="1879257797" name="Drink to Kafli" description="key:620913166:181298206" appliedDescription="key:620913166:54354734" iconId="1090641205" duration="7.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879257779" name="Drunk for Kafli"/>
 </countdownEffect>
 <countdownEffect id="1879257798" name="Drink to Kafli" description="key:620913182:181298206" appliedDescription="key:620913182:54354734" iconId="1090641205" duration="7.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879257789" name="Drunk for Kafli"/>
 </countdownEffect>
 <countdownEffect id="1879257799" name="Drunk for Kafli" description="key:620913173:181298206" appliedDescription="key:620913173:54354734" iconId="1090641205" duration="10.0" pulseCount="1" baseFlags="440">
@@ -22375,7 +22374,7 @@
 <onExpire id="1879089481" name="Blinding Light"/>
 </countdownEffect>
 <countdownEffect id="1879257801" name="Drink to Kafli" description="key:620913156:181298206" appliedDescription="key:620913156:54354734" iconId="1090641205" duration="7.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879257799" name="Drunk for Kafli"/>
 </countdownEffect>
 <countdownEffect id="1879257802" name="Drunker for Kafli" description="key:620913176:181298206" appliedDescription="key:620913176:54354734" iconId="1090641205" duration="5.0" pulseCount="1" baseFlags="440">
@@ -22569,7 +22568,7 @@
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620913522:106251889" constant="0.5"/>
 <stat name="MELEE_DEFENCE_PERCENTAGE" descriptionOverride="key:620913522:106251890" constant="50.0"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620913522:106251891" constant="0.5"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" constant="50.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="50.0"/>
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.5"/>
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="50.0"/>
 <stat name="INCOMING_HEALING_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
@@ -22744,7 +22743,7 @@
 <induceCombatState id="1879260359" name="Frozen Feet" baseFlags="3" state="10" stateDuration="15.0"/>
 <propertyModEffect id="1879260360" name="Weakened Defences" appliedDescription="key:620914600:54354734" iconId="1091565008" duration="20.0" baseFlags="443">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" descriptionOverride="key:620914600:106251892" constant="25.0"/>
-<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="25.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <countdownEffect id="1879260361" name="Lesser Build-up" appliedDescription="key:620914586:54354734" iconId="1091609132" duration="10.0" pulseCount="1" baseFlags="443">
 <onExpire id="1879257420" name=".."/>
@@ -23390,7 +23389,7 @@
 <effect id="1879267233" name="Lasting Hope"/>
 </procEffect>
 <propertyModEffect id="1879264561" name="Water-lore Incoming Healing Buff" iconId="1091456257" baseFlags="2191">
-<stat name="Itemset_Loremaster_WaterLore_IncHealDuration" constant="0.03"/>
+<stat name="Itemset_Loremaster_WaterLore_IncHealDuration" descriptionOverride="-" constant="0.03"/>
 </propertyModEffect>
 <propertyModEffect id="1879264574" name="Blade-storm Fervour Cost" iconId="1090553756" duration="12.0" baseFlags="140">
 <stat name="ForwardSource_Skill_Pips_CostMod_Trait_Champion_CheaperBladeStormPipsMin" descriptionOverride="key:620916981:106251889" constant="-4.0"/>
@@ -23769,27 +23768,27 @@
 <propertyModEffect id="1879269686" name="Trickster: Disable" appliedDescription="key:620920605:54354734" iconId="1090541269" duration="15.0" baseFlags="447">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="5.0"/>
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620920605:106251890" constant="0.95"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.95"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.95"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.95"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.95"/>
 <stat name="Combat_Class_FinessePoints" operator="MULTIPLY" constant="1.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879269687" name="Improved Trick: Disable" appliedDescription="key:620920604:54354734" iconId="1090541269" duration="15.0" baseFlags="447">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="10.0"/>
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620920604:106251890" constant="0.9"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.9"/>
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.9"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
 <stat name="FINESSE" operator="SUBSTRACT" scaling="1879399368"/>
 </propertyModEffect>
 <propertyModEffect id="1879269688" name="Trickster: Improved Counter Defence" appliedDescription="key:620920607:54354734" iconId="1091659738" duration="15.0" baseFlags="447">
 <stat name="PARRY" operator="SUBSTRACT" descriptionOverride="key:620920607:106251889" scaling="1879399376"/>
-<stat name="EVADE" operator="SUBSTRACT" scaling="1879399362"/>
-<stat name="BLOCK" operator="SUBSTRACT" scaling="1879399378"/>
+<stat name="EVADE" operator="SUBSTRACT" descriptionOverride="-" scaling="1879399362"/>
+<stat name="BLOCK" operator="SUBSTRACT" descriptionOverride="-" scaling="1879399378"/>
 <stat name="CRITICAL_DEFENCE" operator="SUBSTRACT" scaling="1879368454"/>
 </propertyModEffect>
 <propertyModEffect id="1879269689" name="Trickster: Counter Defence" appliedDescription="key:620920608:54354734" iconId="1090541271" duration="15.0" baseFlags="447">
 <stat name="PARRY" operator="SUBSTRACT" descriptionOverride="key:620920608:106251889" scaling="1879399376"/>
-<stat name="EVADE" operator="SUBSTRACT" scaling="1879399362"/>
-<stat name="BLOCK" operator="SUBSTRACT" scaling="1879399378"/>
+<stat name="EVADE" operator="SUBSTRACT" descriptionOverride="-" scaling="1879399362"/>
+<stat name="BLOCK" operator="SUBSTRACT" descriptionOverride="-" scaling="1879399378"/>
 <stat name="CRITICAL_DEFENCE" operator="SUBSTRACT" scaling="1879368454"/>
 </propertyModEffect>
 <propertyModEffect id="1879269776" name="Trickster" iconId="1090541261" baseFlags="3004">
@@ -24283,7 +24282,7 @@
 </applyOverTimeEffect>
 <propertyModEffect id="1879272214" name="Echoes of Battle - Critical Defence" iconId="1091661555" baseFlags="2495">
 <stat name="CRITICAL_DEFENCE" operator="SUBSTRACT" scaling="1879368457"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="30.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="30.0"/>
 </propertyModEffect>
 <recallEffect id="1879272282" name="Warden Travel to Forlaw">
 <position region="2" longitude="-60.86841" latitude="-39.433445"/>
@@ -24401,7 +24400,7 @@
 </procEffect>
 <propertyModEffect id="1879272970" name="War-chant" iconId="1091805310" duration="10.0" baseFlags="431">
 <stat name="MELEE_DAMAGE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:620923151:106251889" constant="5.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="5.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="5.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879272987" name="Hammer Down" iconId="1091682153" baseFlags="2494">
@@ -24861,7 +24860,7 @@
 <vitalChange progressionID="1879468797" modifiers="268458336"/>
 </instantVitalEffect>
 <propertyModEffect id="1879275702" name="The Ancient Master" iconId="1091829937" baseFlags="2236">
-<stat name="Skill_Loremaster_AncientMaster" operator="SET" constant="100.0"/>
+<stat name="Skill_Loremaster_AncientMaster" operator="SET" descriptionOverride="-" constant="100.0"/>
 <stat name="Skill_Loremaster_Righteousness_Duration" descriptionOverride="-" constant="20.0"/>
 </propertyModEffect>
 <effect id="1879275707" name="Stored Power - 5" iconId="1092973470" baseFlags="3004"/>
@@ -26195,7 +26194,7 @@
 <effect id="1879288369" name="DNT - Volley Dispel"/>
 </procEffect>
 <propertyModEffect id="1879288376" name="Volley" iconId="1090598919" baseFlags="3004">
-<stat name="Skill_Hunter_Skill_InductionDuration_BowInductions" operator="SUBSTRACT" constant="99.0"/>
+<stat name="Skill_Hunter_Skill_InductionDuration_BowInductions" operator="SUBSTRACT" descriptionOverride="-" constant="99.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879288588" name="Precision Stance Bonus" iconId="1090553958" duration="10.0" baseFlags="444">
 <stat name="FINESSE" scaling="1879367859"/>
@@ -26373,7 +26372,7 @@
 <propertyModEffect id="1879289060" name="In Harm's Way" appliedDescription="key:620936217:54354734" iconId="1090553786" duration="20.0" baseFlags="444">
 <stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620936217:106251889" constant="1.0"/>
 <stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.0"/>
-<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" constant="1.0"/>
+<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879289084" name="Bring On The Pain" iconId="1090519170" baseFlags="2176">
 <specialEffect label="key:620936238:106251889"/>
@@ -26990,11 +26989,11 @@
 </propertyModEffect>
 <propertyModEffect id="1879297076" name="Engaged" appliedDescription="key:620941717:54354734" iconId="1091415793" baseFlags="3007">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620941717:106251889" constant="15.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879297079" name="Staggered" iconId="1091415788" baseFlags="3007">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620941718:106251889" constant="15.0"/>
-<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" constant="25.0"/>
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 </propertyModEffect>
 <effect id="1879297088" name="Marked by Light" appliedDescription="key:620941727:54354734" iconId="1091442277" baseFlags="3005"/>
 <comboEffect id="1879297089" name="DNT" baseFlags="3">
@@ -31346,10 +31345,10 @@
 <stat name="Skill_DamageMultiplier_Champion_ControlledBurn" descriptionOverride="-" constant="7.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879337773" name="DNT - Flash of Light Damage" iconId="1090540662" baseFlags="2188">
-<stat name="Skill_Guardian_FlashOfLight_Damage" constant="30.000002"/>
+<stat name="Skill_Guardian_FlashOfLight_Damage" descriptionOverride="-" constant="30.000002"/>
 </propertyModEffect>
 <propertyModEffect id="1879337774" name="DNT - Shield Damage" iconId="1090540662" baseFlags="2188">
-<stat name="Trait_Guardian_DamageMultiplier_ShieldSkills" constant="10.0"/>
+<stat name="Trait_Guardian_DamageMultiplier_ShieldSkills" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879337775" name="DNT - Bards Arrow CD" iconId="1091463726" baseFlags="2188">
 <stat name="Itemset_Hunter_RecoveryTime_BardsArrow" descriptionOverride="-" constant="-5.0"/>
@@ -31610,7 +31609,7 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <countdownEffect id="1879343974" name="Party Time" description="key:620995778:181298206" appliedDescription="key:620995778:54354734" iconId="1090641205" duration="10.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879343982" name="Party Time"/>
 </countdownEffect>
 <countdownEffect id="1879343981" name="Party Time" description="key:620995791:181298206" appliedDescription="key:620995791:54354734" iconId="1090641205" duration="7.0" pulseCount="1" baseFlags="440">
@@ -32106,11 +32105,11 @@
 <finalTier id="1879358951" name="Stab! - 10"/>
 </tieredEffect>
 <propertyModEffect id="1879358980" name="Weak Form" appliedDescription="key:620986232:54354734" iconId="1090528810" duration="10.0" baseFlags="444">
-<stat name="FIRE_MITIGATION" scaling="1879131702"/>
-<stat name="Combat_ArmorDefense_PointsModifier_Light" operator="SUBSTRACT" scaling="1879131658"/>
-<stat name="Combat_ArmorDefense_PointsModifier_AncientDwarf" operator="SUBSTRACT" scaling="1879132219"/>
-<stat name="Combat_ArmorDefense_PointsModifier_Westernesse" operator="SUBSTRACT" scaling="1879132243"/>
-<stat name="Combat_ArmorDefense_PointsModifier_Beleriand" operator="SUBSTRACT" scaling="1879132225"/>
+<stat name="FIRE_MITIGATION" descriptionOverride="-" scaling="1879131702"/>
+<stat name="Combat_ArmorDefense_PointsModifier_Light" operator="SUBSTRACT" descriptionOverride="-" scaling="1879131658"/>
+<stat name="Combat_ArmorDefense_PointsModifier_AncientDwarf" operator="SUBSTRACT" descriptionOverride="-" scaling="1879132219"/>
+<stat name="Combat_ArmorDefense_PointsModifier_Westernesse" operator="SUBSTRACT" descriptionOverride="-" scaling="1879132243"/>
+<stat name="Combat_ArmorDefense_PointsModifier_Beleriand" operator="SUBSTRACT" descriptionOverride="-" scaling="1879132225"/>
 <stat name="Combat_ArmorDefense_PointsModifier_Common" operator="SUBSTRACT" scaling="1879132252"/>
 </propertyModEffect>
 <propertyModEffect id="1879358981" name="Shield Block" appliedDescription="key:621004415:54354734" iconId="1090552382" duration="15.0" baseFlags="440">
@@ -35254,13 +35253,13 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <propertyModEffect id="1879387137" name="Spider-form" iconId="1091459329" duration="15.0" baseFlags="1468">
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879387139" name="Spider-form" iconId="1091459329" duration="25.0" baseFlags="1468">
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879387140" name="Spider-form" iconId="1091459329" duration="20.0" baseFlags="1468">
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879387304" name="Mounted" iconId="1090519170" baseFlags="2212">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621020024:106251889" constant="68.0"/>
@@ -35496,7 +35495,7 @@
 <stat name="MORALE" scaling="1879389522"/>
 </propertyModEffect>
 <propertyModEffect id="1879389211" name="Bear-form" appliedDescription="key:621021342:54354734" iconId="1091940890" duration="30.0" baseFlags="1468">
-<stat name="ForwardSource_Movement_SpeedMultiplier" constant="10.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" descriptionOverride="-" constant="10.0"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="30.000002"/>
 </propertyModEffect>
 <tieredEffect id="1879389244" name="DNT - Red Gamble Tier Up" baseFlags="3">
@@ -42127,11 +42126,11 @@
 <vitalChange progressionID="1879446691" variance="0.1" modifiers="268438449,268447415,268457114,268462699" vpsMultiplier="0.0"/>
 </instantVitalEffect>
 <propertyModEffect id="1879430304" name="Bane of the Brawler" appliedDescription="key:621050775:54354734" iconId="1091475965" duration="30.0" baseFlags="1467">
-<stat name="ATTACK_DURATION_PERCENTAGE" constant="300.0"/>
+<stat name="ATTACK_DURATION_PERCENTAGE" descriptionOverride="-" constant="300.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879430305" name="Bane of the Beorning" appliedDescription="key:621050774:54354734" iconId="1091475965" duration="30.0" baseFlags="1467">
-<stat name="ATTACK_DURATION_PERCENTAGE" constant="200.0"/>
-<stat name="ALL_SKILL_INDUCTION" constant="200.0"/>
+<stat name="ATTACK_DURATION_PERCENTAGE" descriptionOverride="-" constant="200.0"/>
+<stat name="ALL_SKILL_INDUCTION" descriptionOverride="-" constant="200.0"/>
 </propertyModEffect>
 <effect id="1879430453" name="Legendary Item with Tracery Slots already equipped" appliedDescription="key:621050910:54354734" iconId="1090519170" baseFlags="2184"/>
 <effect id="1879430454" name="Deprecated Legendary Item already equipped" appliedDescription="key:621050911:54354734" iconId="1090519170" baseFlags="2184"/>
@@ -43493,7 +43492,7 @@
 </countdownEffect>
 <propertyModEffect id="1879448692" name="The Best Defence" iconId="1092598111" duration="20.0" baseFlags="428">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621044821:106251889" constant="20.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="20.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="20.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="20.0"/>
 </propertyModEffect>
 <fellowshipEffect id="1879448693" name="DNT - The Best Defense" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="15.0">
@@ -44120,7 +44119,7 @@
 <stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="key:621068763:106251889" constant="5.0"/>
 <stat name="ALL_SKILL_INDUCTION" descriptionOverride="-" constant="-5.0"/>
 <stat name="RANGED_DEFENCE_PERCENTAGE" descriptionOverride="key:621068763:106251891" constant="-1.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" constant="-1.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="-1.0"/>
 <stat name="MELEE_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="-1.0"/>
 <stat name="FROST_MITIGATION_PERCENTAGE" descriptionOverride="key:621068763:106251894" constant="3.0"/>
 <stat name="LIGHTNING_MITIGATION_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
@@ -44343,8 +44342,8 @@
 </propertyModEffect>
 <propertyModEffect id="1879455031" name="Surprised" iconId="1090519172" duration="8.0" baseFlags="443">
 <stat name="MELEE_DEFENCE_PERCENTAGE" descriptionOverride="key:621070352:106251889" constant="5.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" constant="3.0"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" constant="3.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
 </propertyModEffect>
 <procEffect id="1879455032" descriptionOverride="key:621070359:62991877" iconId="1090552382" baseFlags="2184" skillTypes="36" procProbability="0.25" cooldown="30.0">
 <effect id="1879455027" name="Critical Defences Broken"/>
@@ -48684,7 +48683,7 @@
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879478827" name="Rage" iconId="1090532174" duration="60.0" baseFlags="444">
-<stat name="ATTACK_DURATION_PERCENTAGE" constant="-20.0"/>
+<stat name="ATTACK_DURATION_PERCENTAGE" descriptionOverride="-" constant="-20.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879478828" name="Guarded 3" iconId="1091415795" duration="30.0" baseFlags="444">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="15.000001"/>
@@ -51362,7 +51361,7 @@
 <onExpire id="1879089481" name="Blinding Light"/>
 </countdownEffect>
 <countdownEffect id="1879485277" name="Party Time" description="key:621092123:181298206" appliedDescription="key:621092123:54354734" iconId="1090641205" duration="10.0" pulseCount="1" baseFlags="440">
-<stat name="Combat_BaseMissRate" constant="10.0"/>
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <onExpire id="1879485275" name="Party Time"/>
 </countdownEffect>
 <effect id="1879485285" name="Launching Fireworks" appliedDescription="key:621092137:54354734"/>
