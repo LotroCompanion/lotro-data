@@ -331,7 +331,7 @@
 <instantVitalEffect id="1879052476" name="Bow of the Righteous" probability="0.0" probabilityModProperty="268451119" stat="Power_MaxLevel">
 <vitalChange progressionID="1879266732" variance="0.1" modifiers="268459431"/>
 </instantVitalEffect>
-<induceCombatState id="1879052535" name="Rain of Thorns Root" baseFlags="3" state="10" stateDuration="30.0"/>
+<induceCombatState id="1879052535" name="Rain of Thorns Root" baseFlags="3" state="10" stateDuration="30.0" breakOnVitalLoss="0.25" breakOnVitalLossMods="268455721"/>
 <applyOverTimeEffect id="1879052657" name="Shadow Grip" appliedDescription="key:620759500:54354734" iconId="1090532173" duration="4.0" pulseCount="6" baseFlags="447">
 <initiallyApplied id="1879052658" name="Shadow Grip"/>
 <applied id="1879052658" name="Shadow Grip"/>
@@ -756,7 +756,7 @@
 <reactiveVital constant="0.85" probability="0.5" multiplicative="true"/>
 </defender>
 </reactiveVitalEffect>
-<induceCombatState id="1879060822" name="Induce Dazed" baseFlags="3" state="3" stateDuration="10.0" stateDurationMods="268443507,268446230" gracePeriod="0.0" gracePeriodMods="268457794"/>
+<induceCombatState id="1879060822" name="Induce Dazed" baseFlags="3" state="3" stateDuration="10.0" stateDurationMods="268443507,268446230" breakOnVitalLoss="1.0" breakOnVitalLossMods="268455721" gracePeriod="0.0" gracePeriodMods="268457794"/>
 <propertyModEffect id="1879060866" name="Anthem II - War" iconId="1092752392" duration="45.0" baseFlags="444">
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="key:620765876:106251889" constant="3.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="key:620765876:106251890" constant="3.0"/>
@@ -3459,7 +3459,7 @@
 <stat name="PARRY_PERCENTAGE" constant="50.0"/>
 <stat name="EVADE_PERCENTAGE" constant="50.0"/>
 </propertyModEffect>
-<induceCombatState id="1879103773" name="Induce Rooted" baseFlags="3" state="10" stateDuration="30.0" stateDurationMods="268445485"/>
+<induceCombatState id="1879103773" name="Induce Rooted" baseFlags="3" state="10" stateDuration="30.0" stateDurationMods="268445485" breakOnVitalLoss="0.5"/>
 <propertyModEffect id="1879103775" name="Crushing Pain" appliedDescription="key:620801142:54354734" iconId="1090522393" duration="10.0" pulseCount="2" baseFlags="1535">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="30.0"/>
 <stat name="EVADE" operator="SUBSTRACT" scaling="1879093771"/>
@@ -3936,7 +3936,7 @@
 <toAddIfNotPresent id="1879174077" name="Writ of Fire - Tier 3"/>
 <toAddIfPresent id="1879174077" name="Writ of Fire - Tier 3"/>
 </comboEffect>
-<induceCombatState id="1879109628" name="Induce Rooted" baseFlags="3" state="10" stateDuration="30.0" stateDurationMods="268445485" gracePeriod="3.0"/>
+<induceCombatState id="1879109628" name="Induce Rooted" baseFlags="3" state="10" stateDuration="30.0" stateDurationMods="268445485" breakOnVitalLoss="0.25" gracePeriod="3.0"/>
 <propertyModEffect id="1879109989" name="Northern Chill (1)" appliedDescription="key:620805378:54354734" iconId="1091428258" duration="300.0" baseFlags="1439">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="10.0"/>
 <stat name="ALL_SKILL_INDUCTION" constant="10.0"/>
@@ -4402,8 +4402,8 @@
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="10.0"/>
 </propertyModEffect>
-<induceCombatState id="1879112587" name="Root" baseFlags="3" state="10" stateDuration="15.0"/>
-<induceCombatState id="1879112588" name="Root" baseFlags="3" state="10" stateDuration="15.0"/>
+<induceCombatState id="1879112587" name="Root" baseFlags="3" state="10" stateDuration="15.0" breakOnVitalLoss="0.5"/>
+<induceCombatState id="1879112588" name="Root" baseFlags="3" state="10" stateDuration="15.0" breakOnVitalLoss="0.25"/>
 <propertyModEffect id="1879112604" name="Mark of Fear" appliedDescription="key:620807348:54354734" iconId="1090523647" duration="10.0" baseFlags="1471"/>
 <effect id="1879112607" name="Random Bat Attack" baseFlags="3"/>
 <effect id="1879112608" name="Summon Bat Pet #1"/>
@@ -5371,7 +5371,7 @@
 <overTimeChange progressionID="1879475451" modifiers="268445385,268462739" vpsMultiplier="2.4"/>
 </vitalOverTimeEffect>
 <effect id="1879134474" name="Exit Knocked Down and Knocked Out" description="key:620826232:181298206" baseFlags="3"/>
-<induceCombatState id="1879134520" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0" stateDurationMods="268445485"/>
+<induceCombatState id="1879134520" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0" stateDurationMods="268445485" breakOnVitalLoss="0.25"/>
 <induceCombatState id="1879134521" name="Induce Rooted" baseFlags="3" state="10" stateDuration="10.0" stateDurationMods="268445485"/>
 <countdownEffect id="1879134522" name="The Shaking of Arda" appliedDescription="key:620826247:54354734" iconId="1090541218" duration="12.0" pulseCount="1" baseFlags="443">
 <onExpire id="1879134520" name="Induce Rooted"/>
@@ -7441,7 +7441,7 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="25.0"/>
 <specialEffect label="key:620838535:106251892"/>
 </propertyModEffect>
-<induceCombatState id="1879154318" name="Strong Trap" appliedDescription="key:620838538:54354734" baseFlags="3" state="10" stateDuration="8.0"/>
+<induceCombatState id="1879154318" name="Strong Trap" appliedDescription="key:620838538:54354734" baseFlags="3" state="10" stateDuration="8.0" breakOnHarmfullSkill="0.0" breakOnVitalLoss="0.0"/>
 <effect id="1879155287" name="Knockback" baseFlags="3"/>
 <effect id="1879155288" name="DNT - DoT or Disarm" baseFlags="3"/>
 <reactiveVitalEffect id="1879155331" name="Luminescent Slime" appliedDescription="key:620839279:54354734" iconId="1091476365" duration="2.0" pulseCount="15" baseFlags="511" damageTypes="65407">
@@ -8652,7 +8652,7 @@
 <effect id="1879135820" name="Supreme Fire Damage" spellcraft="65.0"/>
 <effect id="1879098720" name="Induce Dazed"/>
 </fellowshipEffect>
-<induceCombatState id="1879162453" name="Light Spots" appliedDescription="key:620843755:54354734" baseFlags="3" state="10" stateDuration="4.0"/>
+<induceCombatState id="1879162453" name="Light Spots" appliedDescription="key:620843755:54354734" baseFlags="3" state="10" stateDuration="4.0" breakOnVitalLoss="0.1"/>
 <propertyModEffect id="1879162593" name="Mounted" iconId="1090519170" baseFlags="2212">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:620843878:106251889" constant="31.5"/>
 <specialEffect label="key:620843878:106251890"/>
@@ -19553,7 +19553,7 @@
 <specialEffect label="key:620903998:106251890"/>
 <stat name="Mount_Movement_Acceleration" operator="MULTIPLY" descriptionOverride="key:620903998:106251891" constant="0.5"/>
 </propertyModEffect>
-<induceCombatState id="1879243922" name="Rooted" baseFlags="3" state="10" stateDuration="2.0"/>
+<induceCombatState id="1879243922" name="Rooted" baseFlags="3" state="10" stateDuration="2.0" breakOnVitalLoss="0.0"/>
 <propertyModEffect id="1879243936" name="Improved Wild Attack" iconId="1090553751" duration="10.0" baseFlags="444">
 <stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="key:620904010:106251889" constant="5.0"/>
 <stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
@@ -21916,7 +21916,7 @@
 </comboEffect>
 <propertyModEffect id="1879255929" name="Intimidate" appliedDescription="key:620911592:54354734" iconId="1091747176" duration="10.0" baseFlags="259"/>
 <effect id="1879256041" name="Call Reinn" description="key:620911689:181298206"/>
-<induceCombatState id="1879256061" name="Light Spots" appliedDescription="key:620911708:54354734" baseFlags="3" state="3" stateDuration="4.0"/>
+<induceCombatState id="1879256061" name="Light Spots" appliedDescription="key:620911708:54354734" baseFlags="3" state="3" stateDuration="4.0" breakOnVitalLoss="0.1"/>
 <propertyModEffect id="1879256133" name="Devastate Magnitude" iconId="1090519170" duration="10.0" baseFlags="444">
 <stat name="DEVASTATE_MAGNITUDE_PERCENTAGE" constant="10.0"/>
 </propertyModEffect>
@@ -29309,7 +29309,7 @@
 </instantVitalEffect>
 <effect id="1879324573" name="Shield Bash" baseFlags="3"/>
 <propertyModEffect id="1879324576" name="Vicious Loyalty" appliedDescription="key:620960252:54354734" iconId="1090539325" duration="60.0" baseFlags="432"/>
-<induceCombatState id="1879324578" name="Constrain" baseFlags="3" state="10" stateDuration="8.0"/>
+<induceCombatState id="1879324578" name="Constrain" baseFlags="3" state="10" stateDuration="8.0" breakOnHarmfullSkill="0.0" breakOnVitalLoss="0.0"/>
 <reactiveVitalEffect id="1879324579" name="Flurry of Talons" appliedDescription="key:620960254:54354734" iconId="1090531736" duration="10.0" baseFlags="440" damageTypes="65407">
 <attacker>
 <reactiveVital constant="1.0" probability="1.0" multiplicative="true"/>
@@ -46649,7 +46649,7 @@
 <effect id="1879098808" name="Morale Damage" probability="1.0"/>
 </attacker>
 </reactiveVitalEffect>
-<induceCombatState id="1879463745" name="Subjugating Spirits" appliedDescription="key:621075586:54354734" baseFlags="3" state="10" stateDuration="10.0"/>
+<induceCombatState id="1879463745" name="Subjugating Spirits" appliedDescription="key:621075586:54354734" baseFlags="3" state="10" stateDuration="10.0" breakOnHarmfullSkill="0.0" breakOnVitalLoss="0.0"/>
 <reactiveVitalEffect id="1879463746" name="Veil of Sorcery - 1" appliedDescription="key:621075587:54354734" iconId="1091510186" baseFlags="2980" damageTypes="65407">
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
 <stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
@@ -48838,7 +48838,7 @@
 <areaEffect id="1879479418" name="Durable Fervent Morale" flags="8" range="15.0" maxTargets="12">
 <effect id="1879483027" name="Durable Fervent Morale"/>
 </areaEffect>
-<induceCombatState id="1879479509" name="Claustrophobic Horror" baseFlags="3" state="27" stateDuration="15.0"/>
+<induceCombatState id="1879479509" name="Claustrophobic Horror" baseFlags="3" state="27" stateDuration="15.0" breakOnHarmfullSkill="0.0" breakOnVitalLoss="0.0"/>
 <propertyModEffect id="1879479512" name="Claustrophobic Horror" appliedDescription="key:621087936:54354734" iconId="1090524461" duration="12.0" baseFlags="447">
 <stat name="Mood_Healing_Modifier" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
@@ -51774,7 +51774,7 @@
 <stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.45"/>
 <stat name="PARTIAL_PARRY_PERCENTAGE" constant="100.0"/>
 </propertyModEffect>
-<induceCombatState id="1879488367" name="Shadowed Fingers" baseFlags="3" state="10" stateDuration="12.0"/>
+<induceCombatState id="1879488367" name="Shadowed Fingers" baseFlags="3" state="10" stateDuration="12.0" breakOnHarmfullSkill="0.0" breakOnVitalLoss="0.0"/>
 <areaEffect id="1879488629" name="DNT - shadow damage and power drain" baseFlags="3" flags="136" range="10.0" maxTargets="12">
 <effect id="1879488630" name="Enervating Torment"/>
 <effect id="1879488633" name="Enervating Torment"/>
