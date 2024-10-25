@@ -2342,7 +2342,7 @@
 <propertyModEffect id="1879089620" name="Lesser Persistence" iconId="1090648226" duration="15.0" baseFlags="4540">
 <stat name="Combat_Agent_Armor_Value_Float" descriptionOverride="key:620791508:106251889" constant="350.0"/>
 </propertyModEffect>
-<fellowshipEffect id="1879089625" name="Inspire" baseFlags="4124" applyToPets="true" applyToTarget="true" range="20.0">
+<fellowshipEffect id="1879089625" name="Inspire" baseFlags="4124" applyToPets="true" applyToTarget="true" stringOverride="key:620791513:106620912" range="20.0">
 <effect id="1879089626" name="DNT"/>
 </fellowshipEffect>
 <comboEffect id="1879089626" name="DNT" baseFlags="4124">
@@ -2450,7 +2450,7 @@
 <stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="-" constant="34.0"/>
 </propertyModEffect>
 <effect id="1879092469" name="Dispel Hope" baseFlags="4127"/>
-<fellowshipEffect id="1879092632" name="To Arms" baseFlags="4124" applyToPets="true" applyToTarget="true" range="50.0">
+<fellowshipEffect id="1879092632" name="To Arms" baseFlags="4124" applyToPets="true" applyToTarget="true" stringOverride="key:620793041:106620912" range="50.0">
 <effect id="1879092633" name="DNT"/>
 </fellowshipEffect>
 <comboEffect id="1879092633" name="DNT" baseFlags="4124">
@@ -15522,10 +15522,10 @@
 <toAddIfPresent id="1879216019" name="To Arms (Blade-brother)"/>
 <toExamine id="1879216019" name="To Arms (Blade-brother)"/>
 </comboEffect>
-<fellowshipEffect id="1879216024" name="DNT - To Arms Song-brother" baseFlags="4124" applyToPets="true" range="50.0">
+<fellowshipEffect id="1879216024" name="DNT - To Arms Song-brother" baseFlags="4124" applyToPets="true" stringOverride="key:620884602:106620912" range="50.0">
 <effect id="1879216022" name="DNT"/>
 </fellowshipEffect>
-<fellowshipEffect id="1879216025" name="DNT - To Arms Blade-brother" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" range="50.0">
+<fellowshipEffect id="1879216025" name="DNT - To Arms Blade-brother" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" stringOverride="key:620884601:106620912" range="50.0">
 <effect id="1879216023" name="DNT"/>
 </fellowshipEffect>
 <dispelByResist id="1879216029" name="Remove Physical, Tactical, Song, Cry" baseFlags="4124" maxDispelCount="3" resistCategories="3,5,6,9"/>
@@ -15545,10 +15545,10 @@
 <toAddIfPresent id="1879458825" name="Inspire (Blade-brother)"/>
 <toExamine id="1879458825" name="Inspire (Blade-brother)"/>
 </comboEffect>
-<fellowshipEffect id="1879216312" name="DNT - Inspire (Song-brother)" baseFlags="4124" applyToPets="true" range="20.0">
+<fellowshipEffect id="1879216312" name="DNT - Inspire (Song-brother)" baseFlags="4124" applyToPets="true" stringOverride="key:620884777:106620912" range="20.0">
 <effect id="1879297582" name="DNT"/>
 </fellowshipEffect>
-<fellowshipEffect id="1879216313" name="DNT - Inspire (Blade-brother)" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" range="20.0">
+<fellowshipEffect id="1879216313" name="DNT - Inspire (Blade-brother)" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" stringOverride="key:620884776:106620912" range="20.0">
 <effect id="1879216310" name="DNT"/>
 <effect id="1879220582" name="DNT"/>
 </fellowshipEffect>
@@ -19163,7 +19163,7 @@
 <stat name="WARSTEED_AGILITY" descriptionOverride="-" constant="300.0"/>
 <stat name="Mount_Movement_Acceleration" constant="16.0"/>
 </propertyModEffect>
-<fellowshipEffect id="1879241484" name="End the Night" baseFlags="4124" applyToPets="true" applyToTarget="true" range="30.0">
+<fellowshipEffect id="1879241484" name="End the Night" baseFlags="4124" applyToPets="true" applyToTarget="true" stringOverride="key:620901970:106620912" range="30.0">
 <effect id="1879367627" name="DNT"/>
 </fellowshipEffect>
 <vitalOverTimeEffect id="1879241486" name="Valiant Strike" iconId="1092811770" duration="2.0" pulseCount="5" baseFlags="4540" stat="Health_MaxLevel">
@@ -24537,13 +24537,13 @@
 <effect id="1879272463" name="DNT - Dispel Camera Shake" baseFlags="4124"/>
 <effect id="1879272538" name="Fly Away" appliedDescription="Away you go!" baseFlags="4124"/>
 <effect id="1879272539" name="Fly Away" appliedDescription="Away you go!" baseFlags="4124"/>
-<fellowshipEffect id="1879272823" name="Relentless Attack" description="key:620923023:181298206" appliedDescription="key:620923023:54354734" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="80.0">
+<fellowshipEffect id="1879272823" name="Relentless Attack" description="key:620923023:181298206" appliedDescription="key:620923023:54354734" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" stringOverride="key:620923023:106620912" range="80.0">
 <effect id="1879073075" name="Relentless Attack"/>
 </fellowshipEffect>
-<fellowshipEffect id="1879272825" name="On Guard" description="key:620923021:181298206" appliedDescription="key:620923021:54354734" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="80.0">
+<fellowshipEffect id="1879272825" name="On Guard" description="key:620923021:181298206" appliedDescription="key:620923021:54354734" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" stringOverride="key:620923021:106620912" range="80.0">
 <effect id="1879073073" name="On Guard"/>
 </fellowshipEffect>
-<fellowshipEffect id="1879272828" name="Focus" description="key:620923015:181298206" appliedDescription="key:620923015:54354734" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="80.0">
+<fellowshipEffect id="1879272828" name="Focus" description="key:620923015:181298206" appliedDescription="key:620923015:54354734" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" stringOverride="key:620923015:106620912" range="80.0">
 <effect id="1879073090" name="Focus"/>
 <effect id="1879458691" name="Focus Heal"/>
 </fellowshipEffect>
@@ -47961,7 +47961,7 @@
 <fellowshipEffect id="1879467651" name="AoE Shanty Power" probability="0.0" probabilityModProperty="268464123" baseFlags="4124" applyToPets="true" applyToTarget="true" range="20.0">
 <effect id="1879467681" name="Shanty Power"/>
 </fellowshipEffect>
-<fellowshipEffect id="1879467652" name="The South Wind" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="10.0">
+<fellowshipEffect id="1879467652" name="The South Wind" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" stringOverride="key:621079041:106620912" range="10.0">
 <effect id="1879467327" name="The South Wind"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879467654" name="Motivating Song" baseFlags="4124" applyToPets="true" applyToTarget="true" range="40.0">
@@ -47977,20 +47977,20 @@
 <vitalOverTimeEffect id="1879467659" name="Lightning Flèche" iconId="1092830898" duration="3.0" pulseCount="1" probability="0.0" probabilityModProperty="268464056" baseFlags="5055" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462736" vpsMultiplier="5.46"/>
 </vitalOverTimeEffect>
-<fellowshipEffect id="1879467660" name="Bountiful Herbs" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="5.0">
+<fellowshipEffect id="1879467660" name="Bountiful Herbs" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" stringOverride="key:621079026:106620912" range="5.0">
 <effect id="1879467657" name="DNT - Remove Poison, Disease, Wound, or Fear"/>
 <effect id="1879469755" name="DNT - Remove Poison, Disease, Wound, or Fear"/>
 </fellowshipEffect>
 <instantVitalEffect id="1879467661" name="Defensive Swordplay - Average" probability="0.0" probabilityModProperty="268464067" baseFlags="4124" stat="Health_MaxLevel">
 <vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268441250,268464215,268462699" vpsMultiplier="30.0"/>
 </instantVitalEffect>
-<fellowshipEffect id="1879467662" name="The West Wind" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="10.0">
+<fellowshipEffect id="1879467662" name="The West Wind" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" stringOverride="key:621079039:106620912" range="10.0">
 <effect id="1879467357" name="The West Wind: To Arms"/>
 </fellowshipEffect>
 <vitalOverTimeEffect id="1879467664" name="Relentless Lunge" iconId="1092825108" duration="2.0" pulseCount="2" pulseCountMods="268464093" probability="0.0" probabilityModProperty="268464057" baseFlags="5055" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268464094" vpsMultiplier="2.6208"/>
 </vitalOverTimeEffect>
-<fellowshipEffect id="1879467665" name="Banners of War" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="40.0">
+<fellowshipEffect id="1879467665" name="Banners of War" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" stringOverride="key:621079012:106620912" range="40.0">
 <effect id="1879467333" name="Banners of War"/>
 </fellowshipEffect>
 <instantVitalEffect id="1879467666" name="Motivating Song" baseFlags="4124" stat="Health_MaxLevel">
@@ -47999,7 +47999,7 @@
 <vitalOverTimeEffect id="1879467667" name="Confident Flèche" iconId="1092830898" duration="1.0" pulseCount="2" pulseCountMods="268464093" probability="0.0" probabilityModProperty="268464095" baseFlags="5055" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268464094" vpsMultiplier="1.3104"/>
 </vitalOverTimeEffect>
-<fellowshipEffect id="1879467669" name="Star Guidance" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="40.0">
+<fellowshipEffect id="1879467669" name="Star Guidance" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" stringOverride="key:621079014:106620912" range="40.0">
 <effect id="1879467344" name="Guided by the Stars"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879467670" name="Heartwarming Melody" baseFlags="4124" applyToPets="true" applyToTarget="true" range="40.0">
@@ -48026,7 +48026,7 @@
 <instantVitalEffect id="1879467681" name="Shanty Power" baseFlags="4124" stat="Power_MaxLevel">
 <vitalChange progressionID="1879457144" variance="0.3" modifiers="268448151" vpsMultiplier="1.0"/>
 </instantVitalEffect>
-<fellowshipEffect id="1879467682" name="Motivating Song" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="40.0">
+<fellowshipEffect id="1879467682" name="Motivating Song" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" stringOverride="key:621079025:106620912" range="40.0">
 <effect id="1879073072" name="Motivated"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879467683" name="AoE Disengage Heal" probability="0.0" probabilityModProperty="268464097" baseFlags="4124" applyToPets="true" range="20.0">
@@ -48042,7 +48042,7 @@
 <instantVitalEffect id="1879467686" name="Defensive Swordplay - Greater" probability="0.0" probabilityModProperty="268464071" baseFlags="4124" stat="Health_MaxLevel">
 <vitalChange progressionID="1879368264" variance="0.2" modifiers="268448151,268441250,268464215,268462699" vpsMultiplier="40.0"/>
 </instantVitalEffect>
-<fellowshipEffect id="1879467687" name="Dramatic Flourish Buff" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="5.0">
+<fellowshipEffect id="1879467687" name="Dramatic Flourish Buff" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" stringOverride="key:621079020:106620912" range="5.0">
 <effect id="1879467674" name="Imitating a Master of War"/>
 </fellowshipEffect>
 <comboEffect id="1879467701" name="DNT" baseFlags="4127">
@@ -48443,14 +48443,14 @@
 <countdownEffect id="1879469264" name="DNT - Ferocious Roar" iconId="1090519170" duration="1.0" pulseCount="1" baseFlags="4284">
 <onExpire id="1879469263" name="Ferocious Roar"/>
 </countdownEffect>
-<fellowshipEffect id="1879469271" name="DNT - Nature's Salve Fellowship" baseFlags="4124" applyToRaidGroups="true" applyToTarget="true" range="8.0">
+<fellowshipEffect id="1879469271" name="DNT - Nature's Salve Fellowship" baseFlags="4124" applyToRaidGroups="true" applyToTarget="true" stringOverride="key:621080253:106620912" range="8.0">
 <effect id="1879468338" name="Nature's Salve"/>
 </fellowshipEffect>
 <effect id="1879469272" name="DNT - dispels the effects from being unbalanced" baseFlags="4124"/>
 <instantVitalEffect id="1879469276" name="En Garde" baseFlags="4124" stat="Power_MaxLevel">
 <vitalChange progressionID="1879457133" variance="0.3" modifiers="268448151" vpsMultiplier="1.0"/>
 </instantVitalEffect>
-<fellowshipEffect id="1879469359" name="DNT - Aid the Assault AoE heal" baseFlags="4124" applyToRaidGroups="true" applyToTarget="true" range="20.0">
+<fellowshipEffect id="1879469359" name="DNT - Aid the Assault AoE heal" baseFlags="4124" applyToRaidGroups="true" applyToTarget="true" stringOverride="key:621080330:106620912" range="20.0">
 <effect id="1879318338" name="Aid the Assault"/>
 </fellowshipEffect>
 <recallEffect id="1879469360" name="River Hobbit Travel to Lyndelby" probability="0.0" baseFlags="4124">
@@ -52407,7 +52407,7 @@
 <vitalOverTimeEffect id="1879489916" name="Savage Bleed" iconId="1091401111" duration="2.0" pulseCount="5" baseFlags="5055" stat="Health_MaxLevel" damageType="8">
 <overTimeChange progressionID="1879383395" variance="0.05" modifiers="268445383,268462739,268464921" vpsMultiplier="8.0"/>
 </vitalOverTimeEffect>
-<fellowshipEffect id="1879489923" name="Motivating Song" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="40.0">
+<fellowshipEffect id="1879489923" name="Motivating Song" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" stringOverride="key:621095903:106620912" range="40.0">
 <effect id="1879073072" name="Motivated"/>
 </fellowshipEffect>
 <propertyModEffect id="1879489929" name="DNT - To Arms 10% Damage" iconId="1090519170" baseFlags="6284">
@@ -53070,10 +53070,10 @@
 <propertyModEffect id="1879491075" iconId="1090553792" baseFlags="6332"/>
 <propertyModEffect id="1879491076" iconId="1090553792" baseFlags="6332"/>
 <propertyModEffect id="1879491079" iconId="1090553792" baseFlags="6332"/>
-<fellowshipEffect id="1879491112" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" range="60.0">
+<fellowshipEffect id="1879491112" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" stringOverride="key:621097017:106620912" range="60.0">
 <effect id="1879491125" name="DNT"/>
 </fellowshipEffect>
-<fellowshipEffect id="1879491116" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" range="60.0">
+<fellowshipEffect id="1879491116" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" stringOverride="key:621097021:106620912" range="60.0">
 <effect id="1879491126" name="DNT"/>
 </fellowshipEffect>
 <comboEffect id="1879491118" name="DNT" baseFlags="4124">
@@ -53081,7 +53081,7 @@
 <toAddIfPresent id="1879489046" name="Wild Sigil of Frost - 5"/>
 <toExamine id="1879489046" name="Wild Sigil of Frost - 5"/>
 </comboEffect>
-<fellowshipEffect id="1879491120" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" range="60.0">
+<fellowshipEffect id="1879491120" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" stringOverride="key:621097011:106620912" range="60.0">
 <effect id="1879491118" name="DNT"/>
 </fellowshipEffect>
 <comboEffect id="1879491125" name="DNT" baseFlags="4124">
@@ -53117,10 +53117,10 @@
 <toAddIfPresent id="1879489057" name="DNT - SotW: Protection"/>
 <toExamine id="1879489057" name="DNT - SotW: Protection"/>
 </comboEffect>
-<fellowshipEffect id="1879491449" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" range="60.0">
+<fellowshipEffect id="1879491449" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" stringOverride="key:621097292:106620912" range="60.0">
 <effect id="1879491458" name="DNT"/>
 </fellowshipEffect>
-<fellowshipEffect id="1879491450" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" range="60.0">
+<fellowshipEffect id="1879491450" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" stringOverride="key:621097295:106620912" range="60.0">
 <effect id="1879491459" name="DNT"/>
 </fellowshipEffect>
 <comboEffect id="1879491451" name="DNT" baseFlags="4124">
@@ -53133,13 +53133,13 @@
 <toAddIfPresent id="1879489044" name="DNT - Execute Major Pet Skill"/>
 <toExamine id="1879489044" name="DNT - Execute Major Pet Skill"/>
 </comboEffect>
-<fellowshipEffect id="1879491453" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" range="60.0">
+<fellowshipEffect id="1879491453" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" stringOverride="key:621097298:106620912" range="60.0">
 <effect id="1879491448" name="DNT"/>
 </fellowshipEffect>
-<fellowshipEffect id="1879491454" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" range="60.0">
+<fellowshipEffect id="1879491454" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" stringOverride="key:621097291:106620912" range="60.0">
 <effect id="1879491451" name="DNT"/>
 </fellowshipEffect>
-<fellowshipEffect id="1879491455" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" range="60.0">
+<fellowshipEffect id="1879491455" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" stringOverride="key:621097294:106620912" range="60.0">
 <effect id="1879491452" name="DNT"/>
 </fellowshipEffect>
 <applyOverTimeEffect id="1879491456" name="DNT - Gust of Wind Copy" appliedDescription="key:621097293:54354734" iconId="1090541206" duration="3.0" pulseCount="1" baseFlags="4287">
@@ -53160,7 +53160,7 @@
 <toAddIfPresent id="1879489067" name="DNT - SotW: Rage"/>
 <toExamine id="1879489067" name="DNT - SotW: Rage"/>
 </comboEffect>
-<fellowshipEffect id="1879491460" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" range="60.0">
+<fellowshipEffect id="1879491460" name="DNT - Wild Sigil Effect" baseFlags="4124" applyToPets="true" stringOverride="key:621097296:106620912" range="60.0">
 <effect id="1879491457" name="DNT"/>
 </fellowshipEffect>
 <propertyModEffect id="1879491471" name="DNT" iconId="1090519170" baseFlags="6284"/>
