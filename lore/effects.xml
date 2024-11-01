@@ -93,7 +93,7 @@
 <onExpire id="1879049541" name="Induce Knockedout"/>
 </countdownEffect>
 <induceCombatState id="1879049541" name="Induce Knockedout" baseFlags="4127" state="7" stateDuration="15.0"/>
-<recallEffect id="1879049583" name="Travel Home" description="key:620757625:181298206" probability="0.0" baseFlags="4124"/>
+<recallEffect id="1879049583" name="Travel Home" description="key:620757625:181298206" baseFlags="4124"/>
 <propertyModEffect id="1879049658" name="Cooked Food" iconId="1090640715" duration="300.0" baseFlags="4540">
 <stat name="OCMR" scaling="1879399452"/>
 <stat name="OCPR" scaling="1879399340"/>
@@ -647,7 +647,7 @@
 <propertyModEffect id="1879060031" name="Stationary Stealth" iconId="1090519170" baseFlags="6332">
 <stat name="AI_PerceptionRadius" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
-<effect id="1879060052" name="Calenthon's Spyglass" probability="0.0" baseFlags="4124"/>
+<effect id="1879060052" name="Calenthon's Spyglass" baseFlags="4124"/>
 <induceCombatState id="1879060074" name="Induce Improved Rooted" baseFlags="4127" state="10" stateDuration="30.0" gracePeriod="0.0" gracePeriodMods="268459200"/>
 <instantVitalEffect id="1879060075" name="Bear Trap Damage" baseFlags="4124" stat="Health_MaxLevel" damageType="1">
 <vitalChange progressionID="1879467544" modifiers="268451980"/>
@@ -743,9 +743,9 @@
 <effect id="1879370019" name="Trap Damage"/>
 </hotspot>
 </genesis>
-<effect id="1879060692" name="Improved Hunter Shadow Tracking" probability="0.0" baseFlags="4124"/>
-<effect id="1879060693" name="Improved Hunter Nature Tracking" probability="0.0" baseFlags="4124"/>
-<effect id="1879060694" name="Improved Hunter Foe Tracking" probability="0.0" baseFlags="4124"/>
+<effect id="1879060692" name="Improved Hunter Shadow Tracking" baseFlags="4124"/>
+<effect id="1879060693" name="Improved Hunter Nature Tracking" baseFlags="4124"/>
+<effect id="1879060694" name="Improved Hunter Foe Tracking" baseFlags="4124"/>
 <propertyModEffect id="1879060704" name="Centreing Self" iconId="1090519170" baseFlags="6284"/>
 <effect id="1879060710" name="Focus Increase" description="key:620765746:181298206" appliedDescription="key:620765746:54354734" baseFlags="28"/>
 <propertyModEffect id="1879060721" name="Beneath Notice" iconId="1090541200" duration="10.0" baseFlags="4540">
@@ -1397,16 +1397,16 @@
 <stat name="OCMR" scaling="1879399441"/>
 <stat name="Stealth_StealthDetectionLevelModifier" descriptionOverride="key:620775201:106251891" constant="5.0"/>
 </propertyModEffect>
-<recallEffect id="1879073420" name="Hunter Travel to Thorin's Hall" probability="0.0" baseFlags="4124">
+<recallEffect id="1879073420" name="Hunter Travel to Thorin's Hall" baseFlags="4124">
 <position region="1" longitude="-103.21289" latitude="-13.763378"/>
 </recallEffect>
-<recallEffect id="1879073421" name="Hunter Travel to Bree" probability="0.0" baseFlags="4124">
+<recallEffect id="1879073421" name="Hunter Travel to Bree" baseFlags="4124">
 <position region="1" longitude="-52.950703" latitude="-29.579306"/>
 </recallEffect>
-<recallEffect id="1879073422" name="Hunter Travel to Esteldín" probability="0.0" baseFlags="4124">
+<recallEffect id="1879073422" name="Hunter Travel to Esteldín" baseFlags="4124">
 <position region="1" longitude="-42.15499" latitude="-9.621406"/>
 </recallEffect>
-<recallEffect id="1879073423" name="Hunter Travel to Rivendell" probability="0.0" baseFlags="4124">
+<recallEffect id="1879073423" name="Hunter Travel to Rivendell" baseFlags="4124">
 <position region="1" longitude="-4.583584" latitude="-30.496151"/>
 </recallEffect>
 <propertyModEffect id="1879073429" name="Camouflage" iconId="1090519170" baseFlags="6332">
@@ -1426,7 +1426,7 @@
 <stat name="EVADE_PERCENTAGE" modifiers="268459237" constant="2.0"/>
 <stat name="Skill_VitalCost_RangedMod" operator="SUBSTRACT" constant="20.0"/>
 </propertyModEffect>
-<recallEffect id="1879073482" name="Hobbit Travel to The Shire" probability="0.0" baseFlags="4124">
+<recallEffect id="1879073482" name="Hobbit Travel to The Shire" baseFlags="4124">
 <position region="1" longitude="-75.48092" latitude="-34.17793"/>
 </recallEffect>
 <fellowshipEffect id="1879073487" name="Hobbit's Hope." description="key:620775254:181298206" appliedDescription="key:620775254:54354734" baseFlags="4124" applyToTarget="true" range="20.0">
@@ -1439,7 +1439,7 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" descriptionOverride="key:620775259:106251889" constant="60.0"/>
 <stat name="STEALTH_LEVEL" operator="SUBSTRACT" constant="3.0"/>
 </propertyModEffect>
-<recallEffect id="1879073527" name="Race of Man Travel to Bree" probability="0.0" baseFlags="4124">
+<recallEffect id="1879073527" name="Race of Man Travel to Bree" baseFlags="4124">
 <position region="1" longitude="-52.90737" latitude="-29.566952"/>
 </recallEffect>
 <fellowshipEffect id="1879073531" name="Power of the Eldar" description="key:620775286:181298206" appliedDescription="key:620775286:54354734" baseFlags="4124" applyToPets="true" applyToTarget="true" range="20.0">
@@ -1451,14 +1451,14 @@
 <instantVitalEffect id="1879073538" name="Strength of Morale" baseFlags="4124" stat="Health_MaxLevel">
 <vitalChange progressionID="1879366641"/>
 </instantVitalEffect>
-<recallEffect id="1879073568" name="Elf Travel to Rivendell" probability="0.0" baseFlags="4124">
+<recallEffect id="1879073568" name="Elf Travel to Rivendell" baseFlags="4124">
 <position region="1" longitude="-5.8921485" latitude="-30.741903"/>
 </recallEffect>
 <propertyModEffect id="1879073572" name="Eldar's Grace" appliedDescription="key:620775315:54354734" iconId="1090532784" duration="10.0" baseFlags="4540">
 <stat name="PARRY_PERCENTAGE" constant="75.0"/>
 <stat name="PARTIAL_PARRY_MITIGATION_PERCENTAGE" constant="5.0"/>
 </propertyModEffect>
-<recallEffect id="1879073607" name="Dwarf Travel to Thorin's Hall" probability="0.0" baseFlags="4124">
+<recallEffect id="1879073607" name="Dwarf Travel to Thorin's Hall" baseFlags="4124">
 <position region="1" longitude="-103.21289" latitude="-13.763378"/>
 </recallEffect>
 <propertyModEffect id="1879073611" name="Hunker Down" appliedDescription="key:620775342:54354734" iconId="1090554031" duration="10.0" baseFlags="4540">
@@ -1685,19 +1685,19 @@
 <effect id="1879082542" name="Summon Elite Angmarim" description="key:620781631:181298206" baseFlags="4124"/>
 <effect id="1879082543" name="Summon Elite Angmarim" description="key:620781632:181298206" probability="0.2" baseFlags="4124"/>
 <effect id="1879082718" name="Run Home" appliedDescription="key:620781739:54354734" baseFlags="4124"/>
-<recallEffect id="1879082987" name="Secret Paths: Grimwood Location One" appliedDescription="key:620781937:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879082987" name="Secret Paths: Grimwood Location One" appliedDescription="key:620781937:54354734" baseFlags="4124">
 <position region="1" longitude="-18.554033" latitude="-18.335741"/>
 </recallEffect>
-<recallEffect id="1879082988" name="Secret Paths: Grothum Location One" appliedDescription="key:620781941:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879082988" name="Secret Paths: Grothum Location One" appliedDescription="key:620781941:54354734" baseFlags="4124">
 <position region="1" longitude="-12.785566" latitude="-13.391152"/>
 </recallEffect>
-<recallEffect id="1879082989" name="Secret Paths: Lugazag Location One" appliedDescription="key:620781945:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879082989" name="Secret Paths: Lugazag Location One" appliedDescription="key:620781945:54354734" baseFlags="4124">
 <position region="1" longitude="-20.934795" latitude="-16.123526"/>
 </recallEffect>
-<recallEffect id="1879082990" name="Secret Paths: Tirith Rhaw Location One" appliedDescription="key:620781949:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879082990" name="Secret Paths: Tirith Rhaw Location One" appliedDescription="key:620781949:54354734" baseFlags="4124">
 <position region="1" longitude="-15.781543" latitude="-14.632958"/>
 </recallEffect>
-<recallEffect id="1879082991" name="Secret Paths: Tol Ascarnen Location One" appliedDescription="key:620781953:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879082991" name="Secret Paths: Tol Ascarnen Location One" appliedDescription="key:620781953:54354734" baseFlags="4124">
 <position region="1" longitude="-18.62002" latitude="-17.096992"/>
 </recallEffect>
 <countdownEffect id="1879083300" name="Fatal Poison" appliedDescription="key:620782202:54354734" iconId="1090616922" duration="15.0" pulseCount="1" baseFlags="4543">
@@ -1826,14 +1826,14 @@
 </countdownEffect>
 <effect id="1879085206" name="Stolen Breath" iconId="1090519170" baseFlags="4127"/>
 <effect id="1879085209" name="Noble Cry" baseFlags="4124"/>
-<effect id="1879085339" name="Track Dwarves" description="key:620789228:181298206" probability="0.0" baseFlags="4124"/>
-<effect id="1879085340" name="Improved Track Dwarves" description="key:620789229:181298206" probability="0.0" baseFlags="4124"/>
-<effect id="1879085341" name="Track Elves" description="key:620789230:181298206" probability="0.0" baseFlags="4124"/>
-<effect id="1879085342" name="Improved Track Elves" description="key:620789231:181298206" probability="0.0" baseFlags="4124"/>
-<effect id="1879085343" name="Track Hobbits" description="key:620789232:181298206" probability="0.0" baseFlags="4124"/>
-<effect id="1879085344" name="Improved Track Hobbits" description="key:620789233:181298206" probability="0.0" baseFlags="4124"/>
-<effect id="1879085345" name="Track Men" description="key:620789234:181298206" probability="0.0" baseFlags="4124"/>
-<effect id="1879085346" name="Improved Track Men" description="key:620789235:181298206" probability="0.0" baseFlags="4124"/>
+<effect id="1879085339" name="Track Dwarves" description="key:620789228:181298206" baseFlags="4124"/>
+<effect id="1879085340" name="Improved Track Dwarves" description="key:620789229:181298206" baseFlags="4124"/>
+<effect id="1879085341" name="Track Elves" description="key:620789230:181298206" baseFlags="4124"/>
+<effect id="1879085342" name="Improved Track Elves" description="key:620789231:181298206" baseFlags="4124"/>
+<effect id="1879085343" name="Track Hobbits" description="key:620789232:181298206" baseFlags="4124"/>
+<effect id="1879085344" name="Improved Track Hobbits" description="key:620789233:181298206" baseFlags="4124"/>
+<effect id="1879085345" name="Track Men" description="key:620789234:181298206" baseFlags="4124"/>
+<effect id="1879085346" name="Improved Track Men" description="key:620789235:181298206" baseFlags="4124"/>
 <effect id="1879085369" name="DNT - Raven +1 level" baseFlags="4124"/>
 <propertyModEffect id="1879085373" name="The Hopeful Heart" iconId="1090532786" baseFlags="7100">
 <stat name="HOPE" constant="2.0"/>
@@ -1882,7 +1882,7 @@
 <stat name="XP_AwardMultiplier" descriptionOverride="key:620784496:106251889" constant="25.0"/>
 <stat name="ItemAdvancement_XP_AwardMultiplier" descriptionOverride="key:620784496:106251890" constant="10.0"/>
 </propertyModEffect>
-<recallEffect id="1879085490" name="Secret Paths: Gramsfoot" appliedDescription="key:620784537:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879085490" name="Secret Paths: Gramsfoot" appliedDescription="key:620784537:54354734" baseFlags="4124">
 <position region="1" longitude="-20.88783" latitude="-12.34791"/>
 </recallEffect>
 <vitalOverTimeEffect id="1879085501" name="Mortal Wound" iconId="1090625105" duration="2.0" pulseCount="10" baseFlags="4543" stat="Health_MaxLevel" damageType="1">
@@ -1922,34 +1922,34 @@
 <overTimeChange progressionID="1879052011" modifiers="268437688"/>
 </vitalOverTimeEffect>
 <effect id="1879085539" name="Summon Root" description="key:620789252:181298206" baseFlags="4124"/>
-<recallEffect id="1879085667" name="Secret Paths: Grimwood Location Two" appliedDescription="key:620789279:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879085667" name="Secret Paths: Grimwood Location Two" appliedDescription="key:620789279:54354734" baseFlags="4124">
 <position region="1" longitude="-17.949492" latitude="-18.853662"/>
 </recallEffect>
-<recallEffect id="1879085668" name="Secret Paths: Grimwood Location Three" appliedDescription="key:620789280:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879085668" name="Secret Paths: Grimwood Location Three" appliedDescription="key:620789280:54354734" baseFlags="4124">
 <position region="1" longitude="-16.826807" latitude="-20.345957"/>
 </recallEffect>
-<recallEffect id="1879085669" name="Secret Paths: Grothum Location Two" appliedDescription="key:620789281:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879085669" name="Secret Paths: Grothum Location Two" appliedDescription="key:620789281:54354734" baseFlags="4124">
 <position region="1" longitude="-14.51082" latitude="-14.693349"/>
 </recallEffect>
-<recallEffect id="1879085670" name="Secret Paths: Grothum Location Three" appliedDescription="key:620789282:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879085670" name="Secret Paths: Grothum Location Three" appliedDescription="key:620789282:54354734" baseFlags="4124">
 <position region="1" longitude="-19.09747" latitude="-11.519707"/>
 </recallEffect>
-<recallEffect id="1879085671" name="Secret Paths: Lugazag Location Two" appliedDescription="key:620789283:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879085671" name="Secret Paths: Lugazag Location Two" appliedDescription="key:620789283:54354734" baseFlags="4124">
 <position region="1" longitude="-20.956387" latitude="-14.150478"/>
 </recallEffect>
-<recallEffect id="1879085672" name="Secret Paths: Lugazag Location Three" appliedDescription="key:620789284:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879085672" name="Secret Paths: Lugazag Location Three" appliedDescription="key:620789284:54354734" baseFlags="4124">
 <position region="1" longitude="-19.071768" latitude="-14.539277"/>
 </recallEffect>
-<recallEffect id="1879085673" name="Secret Paths: Tirith Rhaw Location Two" appliedDescription="key:620789285:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879085673" name="Secret Paths: Tirith Rhaw Location Two" appliedDescription="key:620789285:54354734" baseFlags="4124">
 <position region="1" longitude="-14.218779" latitude="-15.695518"/>
 </recallEffect>
-<recallEffect id="1879085674" name="Secret Paths: Tirith Rhaw Location Three" appliedDescription="key:620789286:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879085674" name="Secret Paths: Tirith Rhaw Location Three" appliedDescription="key:620789286:54354734" baseFlags="4124">
 <position region="1" longitude="-15.33165" latitude="-17.846582"/>
 </recallEffect>
-<recallEffect id="1879085675" name="Secret Paths: Tol Ascarnen Location Two" appliedDescription="key:620789287:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879085675" name="Secret Paths: Tol Ascarnen Location Two" appliedDescription="key:620789287:54354734" baseFlags="4124">
 <position region="1" longitude="-17.035723" latitude="-15.960712"/>
 </recallEffect>
-<recallEffect id="1879085676" name="Secret Paths: Tolascarnen Location Three" appliedDescription="key:620789288:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879085676" name="Secret Paths: Tolascarnen Location Three" appliedDescription="key:620789288:54354734" baseFlags="4124">
 <position region="1" longitude="-18.12163" latitude="-17.933653"/>
 </recallEffect>
 <effect id="1879085777" name="Exit Rooted" description="key:620789323:181298206" baseFlags="4124"/>
@@ -2128,7 +2128,7 @@
 <vitalChange progressionID="1879141030"/>
 </instantVitalEffect>
 <propertyModEffect id="1879087549" name="Protected" appliedDescription="key:620790173:54354734" iconId="1090599071" baseFlags="6175"/>
-<recallEffect id="1879087580" name="Travel to the Eyes and Guard Tavern" probability="0.0" baseFlags="4124">
+<recallEffect id="1879087580" name="Travel to the Eyes and Guard Tavern" baseFlags="4124">
 <position region="1" longitude="50.75904" latitude="-1.0710937"/>
 </recallEffect>
 <effect id="1879087641" name="Call to Pack" appliedDescription="key:620790233:54354734" baseFlags="4127"/>
@@ -2254,7 +2254,7 @@
 <effect id="1879088472" name="Launching Fireworks" appliedDescription="key:620790785:54354734" baseFlags="4124"/>
 <effect id="1879088473" name="Launching Fireworks" appliedDescription="key:620790786:54354734" baseFlags="4124"/>
 <effect id="1879088474" name="Launching Fireworks" appliedDescription="key:620790787:54354734" baseFlags="4124"/>
-<recallEffect id="1879088539" name="Travel to Glân Vraig" appliedDescription="key:620790717:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879088539" name="Travel to Glân Vraig" appliedDescription="key:620790717:54354734" baseFlags="4124">
 <position region="1" longitude="-13.37707" latitude="-20.772724"/>
 </recallEffect>
 <effect id="1879088613" name="Launching Fireworks" appliedDescription="key:620790788:54354734" baseFlags="4124"/>
@@ -2355,20 +2355,20 @@
 <stat name="PHYSICAL_MITIGATION" operator="SUBSTRACT" scaling="1879399473"/>
 <stat name="RANGED_DEFENCE_PERCENTAGE" constant="10.0"/>
 </propertyModEffect>
-<recallEffect id="1879089863" name="Hunter Travel to West Angmar" probability="0.0" baseFlags="4124">
+<recallEffect id="1879089863" name="Hunter Travel to West Angmar" baseFlags="4124">
 <position region="1" longitude="-39.850048" latitude="0.39217773"/>
 </recallEffect>
-<recallEffect id="1879089864" name="Hunter Travel to East Angmar" probability="0.0" baseFlags="4124">
+<recallEffect id="1879089864" name="Hunter Travel to East Angmar" baseFlags="4124">
 <position region="1" longitude="-24.083105" latitude="10.430693"/>
 </recallEffect>
-<recallEffect id="1879089865" name="Return to Camp" description="key:620791708:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879089866" name="Hunter Travel to Ost Guruth" probability="0.0" baseFlags="4124">
+<recallEffect id="1879089865" name="Return to Camp" description="key:620791708:181298206" baseFlags="4124"/>
+<recallEffect id="1879089866" name="Hunter Travel to Ost Guruth" baseFlags="4124">
 <position region="1" longitude="-29.510273" latitude="-31.691914"/>
 </recallEffect>
-<recallEffect id="1879089867" name="Hunter Travel to Michel Delving" probability="0.0" baseFlags="4124">
+<recallEffect id="1879089867" name="Hunter Travel to Michel Delving" baseFlags="4124">
 <position region="1" longitude="-75.01005" latitude="-33.999607"/>
 </recallEffect>
-<recallEffect id="1879089868" name="Hunter Travel to Evendim" probability="0.0" baseFlags="4124">
+<recallEffect id="1879089868" name="Hunter Travel to Evendim" baseFlags="4124">
 <position region="1" longitude="-67.294266" latitude="-12.4937105"/>
 </recallEffect>
 <vitalOverTimeEffect id="1879089879" name="Strength of the Earth" iconId="1091388956" duration="1.0" pulseCount="5" baseFlags="4540" stat="Power_MaxLevel">
@@ -3219,8 +3219,8 @@
 <dispelByResist id="1879099368" name="Remove Wounds" baseFlags="4124" maxDispelCount="-1" resistCategories="4"/>
 <propertyModEffect id="1879099376" name="Marked Prey" appliedDescription="key:620797667:54354734" iconId="1091404060" duration="15.0" baseFlags="5567"/>
 <effect id="1879099379" name="Raised Minion" baseFlags="4124"/>
-<recallEffect id="1879101508" name="Travel to Kinship House" description="key:620799394:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879101509" name="Travel to Personal House" description="key:620799392:181298206" probability="0.0" baseFlags="4124"/>
+<recallEffect id="1879101508" name="Travel to Kinship House" description="key:620799394:181298206" baseFlags="4124"/>
+<recallEffect id="1879101509" name="Travel to Personal House" description="key:620799392:181298206" baseFlags="4124"/>
 <propertyModEffect id="1879101629" name="Protected" iconId="1090607905" baseFlags="6332"/>
 <vitalOverTimeEffect id="1879101639" name="Distraction" iconId="1091404966" duration="5.0" pulseCount="5" baseFlags="5055" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879468798" modifiers="268445385,268462739" vpsMultiplier="3.0"/>
@@ -3272,22 +3272,22 @@
 <overTimeChange progressionID="1879149257"/>
 </vitalOverTimeEffect>
 <effect id="1879101996" name="Recalling Root" appliedDescription="key:620799781:54354734" baseFlags="4127"/>
-<recallEffect id="1879102249" name="Chicken Travel - Angmar" probability="0.0" baseFlags="4124">
+<recallEffect id="1879102249" name="Chicken Travel - Angmar" baseFlags="4124">
 <position region="1" longitude="-34.179462" latitude="2.1368945"/>
 </recallEffect>
-<recallEffect id="1879102250" name="Chicken Travel - Breeland" probability="0.0" baseFlags="4124">
+<recallEffect id="1879102250" name="Chicken Travel - Breeland" baseFlags="4124">
 <position region="1" longitude="-41.858074" latitude="-19.888046"/>
 </recallEffect>
-<recallEffect id="1879102251" name="Chicken Travel - Ered Luin" probability="0.0" baseFlags="4124">
+<recallEffect id="1879102251" name="Chicken Travel - Ered Luin" baseFlags="4124">
 <position region="1" longitude="-91.87839" latitude="-24.865166"/>
 </recallEffect>
-<recallEffect id="1879102252" name="Chicken Travel - Evendim" probability="0.0" baseFlags="4124">
+<recallEffect id="1879102252" name="Chicken Travel - Evendim" baseFlags="4124">
 <position region="1" longitude="-67.81258" latitude="-23.72794"/>
 </recallEffect>
-<recallEffect id="1879102253" name="Chicken Travel - North Downs" probability="0.0" baseFlags="4124">
+<recallEffect id="1879102253" name="Chicken Travel - North Downs" baseFlags="4124">
 <position region="1" longitude="-53.599766" latitude="-16.191319"/>
 </recallEffect>
-<recallEffect id="1879102254" name="Chicken Travel - Trollshaws" probability="0.0" baseFlags="4124">
+<recallEffect id="1879102254" name="Chicken Travel - Trollshaws" baseFlags="4124">
 <position region="1" longitude="-6.048574" latitude="-33.091873"/>
 </recallEffect>
 <effect id="1879102275" name="Exit all Immune States" description="key:620799982:181298206" baseFlags="4127"/>
@@ -4646,8 +4646,8 @@
 <onExpire id="1879113260" name="DNT - Fungal Disease"/>
 </countdownEffect>
 <effect id="1879113267" name="Removes Contagion" baseFlags="4127"/>
-<effect id="1879113524" name="ZeroOutThreatEffect" probability="0.0" baseFlags="4124"/>
-<effect id="1879113587" name="ZeroOutThreatForTargetEffect" probability="0.0" baseFlags="4127"/>
+<effect id="1879113524" name="ZeroOutThreatEffect" baseFlags="4124"/>
+<effect id="1879113587" name="ZeroOutThreatForTargetEffect" baseFlags="4127"/>
 <countdownEffect id="1879113592" name="Impending Blindness" iconId="1091479194" duration="12.0" pulseCount="1" baseFlags="4543">
 <onExpire id="1879111799" name="Blindness"/>
 </countdownEffect>
@@ -5351,19 +5351,19 @@
 <present id="1879131723" name="Shield of Invulnerability"/>
 <toAddIfPresent id="1879132027" name="DNT"/>
 </comboEffect>
-<recallEffect id="1879132041" name="Warden Travel to Ost Guruth" probability="0.0" baseFlags="4124">
+<recallEffect id="1879132041" name="Warden Travel to Ost Guruth" baseFlags="4124">
 <position region="1" longitude="-29.510273" latitude="-31.691914"/>
 </recallEffect>
-<recallEffect id="1879132044" name="Warden Travel to Rivendell" probability="0.0" baseFlags="4124">
+<recallEffect id="1879132044" name="Warden Travel to Rivendell" baseFlags="4124">
 <position region="1" longitude="-4.583584" latitude="-30.496151"/>
 </recallEffect>
 <propertyModEffect id="1879132045" name="Shield Piercer" iconId="1091471235" duration="20.0" baseFlags="4543">
 <stat name="BLOCK" operator="SUBSTRACT" scaling="1879368065"/>
 </propertyModEffect>
-<recallEffect id="1879132048" name="Warden Travel to Esteldín" probability="0.0" baseFlags="4124">
+<recallEffect id="1879132048" name="Warden Travel to Esteldín" baseFlags="4124">
 <position region="1" longitude="-42.15499" latitude="-9.621406"/>
 </recallEffect>
-<recallEffect id="1879132053" name="Warden Travel to Evendim" probability="0.0" baseFlags="4124">
+<recallEffect id="1879132053" name="Warden Travel to Evendim" baseFlags="4124">
 <position region="1" longitude="-67.294266" latitude="-12.4937105"/>
 </recallEffect>
 <propertyModEffect id="1879132207" name="Hampering Javelin" iconId="1091471260" duration="20.0" durationMods="268445075" baseFlags="4543">
@@ -5965,7 +5965,7 @@
 <stat name="MELEE_DEFENCE_PERCENTAGE" constant="10.0"/>
 <stat name="RANGED_DEFENCE_PERCENTAGE" constant="10.0"/>
 </propertyModEffect>
-<effect id="1879139041" name="Sense Prey" description="key:620829368:181298206" probability="0.0" baseFlags="4124"/>
+<effect id="1879139041" name="Sense Prey" description="key:620829368:181298206" baseFlags="4124"/>
 <propertyModEffect id="1879139044" name="Frenzied" iconId="1091474182" duration="30.0" baseFlags="4540">
 <stat name="CRITICAL_RATING" scaling="1879412742"/>
 <stat name="EVADE_PERCENTAGE" constant="5.0"/>
@@ -6470,13 +6470,13 @@
 <vitalOverTimeEffect id="1879144624" name="Maul" iconId="1091474180" duration="2.0" pulseCount="5" pulseCountMods="268456021" baseFlags="5055" stat="Health_MaxLevel" damageType="8192">
 <overTimeChange progressionID="1879413249" variance="0.3" modifiers="268437688,268463403"/>
 </vitalOverTimeEffect>
-<recallEffect id="1879144701" name="Travel to Bree" description="key:620832282:181298206" probability="0.0" baseFlags="4124">
+<recallEffect id="1879144701" name="Travel to Bree" description="key:620832282:181298206" baseFlags="4124">
 <position region="1" longitude="-52.950703" latitude="-29.579306"/>
 </recallEffect>
-<recallEffect id="1879144702" name="Travel to Michel Delving" description="key:620832283:181298206" probability="0.0" baseFlags="4124">
+<recallEffect id="1879144702" name="Travel to Michel Delving" description="key:620832283:181298206" baseFlags="4124">
 <position region="1" longitude="-75.01005" latitude="-33.999607"/>
 </recallEffect>
-<recallEffect id="1879144703" name="Travel to Thorin's Hall" description="key:620832284:181298206" probability="0.0" baseFlags="4124">
+<recallEffect id="1879144703" name="Travel to Thorin's Hall" description="key:620832284:181298206" baseFlags="4124">
 <position region="1" longitude="-103.20096" latitude="-15.203925"/>
 </recallEffect>
 <effect id="1879144779" name="DNT" description="key:620832405:181298206" iconId="1090523647" duration="1.0" baseFlags="4156"/>
@@ -6504,13 +6504,13 @@
 <propertyModEffect id="1879145414" name="A Quiet Calm" appliedDescription="key:620832974:54354734" iconId="1091603160" baseFlags="6540">
 <stat name="XP_AwardMultiplier" descriptionOverride="key:620832974:106251889" constant="3.0"/>
 </propertyModEffect>
-<recallEffect id="1879145598" name="Hunter Travel to Eregion" probability="0.0" baseFlags="4124">
+<recallEffect id="1879145598" name="Hunter Travel to Eregion" baseFlags="4124">
 <position region="1" longitude="-7.84873" latitude="-50.509975"/>
 </recallEffect>
-<recallEffect id="1879145599" name="Hunter Travel to Forochel" probability="0.0" baseFlags="4124">
+<recallEffect id="1879145599" name="Hunter Travel to Forochel" baseFlags="4124">
 <position region="1" longitude="-70.2618" latitude="19.055195"/>
 </recallEffect>
-<recallEffect id="1879145600" name="Hunter Travel to Moria" probability="0.0" baseFlags="4124">
+<recallEffect id="1879145600" name="Hunter Travel to Moria" baseFlags="4124">
 <position region="2" longitude="-105.39232" latitude="-5.812773"/>
 </recallEffect>
 <propertyModEffect id="1879145604" name="Enhanced Abilities" appliedDescription="key:620832975:54354734" iconId="1090541176" baseFlags="6540">
@@ -6571,7 +6571,7 @@
 <vitalOverTimeEffect id="1879146782" name="Tainted Kiss" iconId="1090555724" duration="3.0" pulseCount="10" pulseCountMods="268456021" baseFlags="5055" stat="Health_MaxLevel" damageType="1024">
 <overTimeChange progressionID="1879413238" variance="0.3" modifiers="268437688,268440525,268453871,268463403"/>
 </vitalOverTimeEffect>
-<recallEffect id="1879146909" name="Warden Travel to Moria" probability="0.0" baseFlags="4124">
+<recallEffect id="1879146909" name="Warden Travel to Moria" baseFlags="4124">
 <position region="2" longitude="-105.39232" latitude="-5.812773"/>
 </recallEffect>
 <effect id="1879147334" name="Add the Ornate Grate Key to your keyring." description="key:620833750:181298206" appliedDescription="key:620833750:54354734" baseFlags="4124"/>
@@ -8755,10 +8755,10 @@
 </hotspot>
 </genesis>
 <effect id="1879162602" name="DNT - I must sleep now" iconId="1090519170" duration="5.0" baseFlags="4106"/>
-<recallEffect id="1879162766" name="Travel to Bree" probability="0.0" baseFlags="4124">
+<recallEffect id="1879162766" name="Travel to Bree" baseFlags="4124">
 <position region="1" longitude="-52.90737" latitude="-29.566952"/>
 </recallEffect>
-<recallEffect id="1879162767" name="Travel to Thorin's Hall" probability="0.0" baseFlags="4124">
+<recallEffect id="1879162767" name="Travel to Thorin's Hall" baseFlags="4124">
 <position region="1" longitude="-103.21289" latitude="-13.763378"/>
 </recallEffect>
 <effect id="1879162853" name="DNT - Poison flag effect" iconId="1090519170" duration="2.0" pulseCount="30" baseFlags="4607"/>
@@ -9718,7 +9718,7 @@
 <effect id="1879164046" name="Running Scared" iconId="1090532173" duration="3.0" pulseCount="3" baseFlags="4543"/>
 <effect id="1879164075" name="DNT - Mentor" baseFlags="4124"/>
 <effect id="1879164076" name="DNT - Scribe" baseFlags="4124"/>
-<effect id="1879164101" name="Force Attack" iconId="1090519170" probability="0.0" baseFlags="4127"/>
+<effect id="1879164101" name="Force Attack" iconId="1090519170" baseFlags="4127"/>
 <countdownEffect id="1879164199" name="Inevitability" appliedDescription="key:620845143:54354734" iconId="1091479194" duration="10.0" pulseCount="1" baseFlags="4540">
 <stat name="MELEE_DEFENCE_PERCENTAGE" constant="10.0"/>
 <stat name="RANGED_DEFENCE_PERCENTAGE" constant="10.0"/>
@@ -9913,7 +9913,7 @@
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" constant="1.1"/>
 </propertyModEffect>
 <propertyModEffect id="1879166224" name="Ravaged Armour" iconId="1091476365" baseFlags="7103"/>
-<effect id="1879166266" name="Secrets of Beasts" probability="0.0" baseFlags="4124"/>
+<effect id="1879166266" name="Secrets of Beasts" baseFlags="4124"/>
 <propertyModEffect id="1879166631" name="Mounted" iconId="1090519170" baseFlags="6316">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:620846814:106251889" modifiers="268459053" constant="62.0"/>
 <specialEffect label="key:620846814:106251890"/>
@@ -10364,7 +10364,7 @@
 <effect id="1879175154" name="Sword-salute" appliedDescription="key:620853712:54354734" baseFlags="4124"/>
 <propertyModEffect id="1879175361" name="Piercing Swift Bow" appliedDescription="key:620854204:54354734" iconId="1090519170" baseFlags="6284"/>
 <effect id="1879175851" name="Summoned Drown One" description="key:620854450:181298206" baseFlags="4124"/>
-<recallEffect id="1879176051" name="Travel to Mirkwood" probability="0.0" baseFlags="4124">
+<recallEffect id="1879176051" name="Travel to Mirkwood" baseFlags="4124">
 <position region="2" longitude="-51.529167" latitude="-14.354053"/>
 </recallEffect>
 <vitalOverTimeEffect id="1879176151" name="Glowing Arrow" iconId="1090553928" duration="2.0" pulseCount="6" pulseCountMods="268438448,268462116" baseFlags="5055" stat="Health_MaxLevel" damageType="64">
@@ -10379,10 +10379,10 @@
 <vitalOverTimeEffect id="1879176154" name="Bleeding" iconId="1090523948" duration="2.0" pulseCount="5" pulseCountMods="268462116" probability="0.0" probabilityModProperty="268444123" baseFlags="5055" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739,268457569,268444108" vpsMultiplier="0.38"/>
 </vitalOverTimeEffect>
-<recallEffect id="1879176282" name="Travel to Mirk-eaves" probability="0.0" baseFlags="4124">
+<recallEffect id="1879176282" name="Travel to Mirk-eaves" baseFlags="4124">
 <position region="2" longitude="-61.24568" latitude="-15.295977"/>
 </recallEffect>
-<recallEffect id="1879176286" name="Warden Travel to Mirk-eaves" probability="0.0" baseFlags="4124">
+<recallEffect id="1879176286" name="Warden Travel to Mirk-eaves" baseFlags="4124">
 <position region="2" longitude="-61.24568" latitude="-15.295977"/>
 </recallEffect>
 <propertyModEffect id="1879176353" name="Shall Not Fall This Day" description="key:620854786:181298206" appliedDescription="key:620854786:54354734" iconId="1091454172" baseFlags="7100"/>
@@ -10501,7 +10501,7 @@
 <effect id="1879178951" name="Fire-breath" appliedDescription="key:620857324:54354734" baseFlags="4124"/>
 <propertyModEffect id="1879179029" name="Soul Reap: Fire" appliedDescription="key:620857392:54354734" iconId="1091440846" baseFlags="7100"/>
 <propertyModEffect id="1879179030" name="Soul Reap: Lightning" appliedDescription="key:620857390:54354734" iconId="1091399989" baseFlags="7100"/>
-<effect id="1879179039" name="Drownholt Compass" probability="0.0" baseFlags="4124"/>
+<effect id="1879179039" name="Drownholt Compass" baseFlags="4124"/>
 <propertyModEffect id="1879179061" name="Filth Crawler Goo (Tier 2)" iconId="1091570820" duration="30.0" baseFlags="5563">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="60.000004"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="20.0"/>
@@ -10667,7 +10667,7 @@
 <onExpire id="1879180041" name="DNT - Response Hint"/>
 </countdownEffect>
 <induceCombatState id="1879180043" name="Induce Dazed" description="key:620857872:181298206" probability="0.15" baseFlags="4127" state="3" stateDuration="3.0" gracePeriod="1.0"/>
-<recallEffect id="1879180352" name="Travel to Ost Guruth" probability="0.0" baseFlags="4124">
+<recallEffect id="1879180352" name="Travel to Ost Guruth" baseFlags="4124">
 <position region="1" longitude="-29.871748" latitude="-32.164433"/>
 </recallEffect>
 <comboEffect id="1879180358" name="DNT" appliedDescription="key:620858107:54354734" baseFlags="4124">
@@ -10959,20 +10959,20 @@
 <propertyModEffect id="1879183002" name="Warrior Heart in Threat" iconId="1090519170" baseFlags="6316"/>
 <propertyModEffect id="1879183004" name="Warrior Heart in Block Traited" iconId="1090519170" baseFlags="6316"/>
 <propertyModEffect id="1879183005" name="Warrior Heart in Threat Traited" iconId="1090519170" baseFlags="6316"/>
-<recallEffect id="1879184243" name="DNT - Travel to the Shire" description="key:620860364:181298206" probability="0.0" baseFlags="4124">
+<recallEffect id="1879184243" name="DNT - Travel to the Shire" description="key:620860364:181298206" baseFlags="4124">
 <position region="1" longitude="-66.42288" latitude="-27.959316"/>
 </recallEffect>
-<recallEffect id="1879184244" name="DNT - Travel to Esteldin" description="key:620860365:181298206" probability="0.0" baseFlags="4124">
+<recallEffect id="1879184244" name="DNT - Travel to Esteldin" description="key:620860365:181298206" baseFlags="4124">
 <position region="1" longitude="-42.853016" latitude="-9.625"/>
 </recallEffect>
-<recallEffect id="1879184245" name="DNT - Travel to Bree-land" description="key:620860366:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879184246" name="DNT - Travel to the Lone-lands" description="key:620860367:181298206" probability="0.0" baseFlags="4124">
+<recallEffect id="1879184245" name="DNT - Travel to Bree-land" description="key:620860366:181298206" baseFlags="4124"/>
+<recallEffect id="1879184246" name="DNT - Travel to the Lone-lands" description="key:620860367:181298206" baseFlags="4124">
 <position region="1" longitude="-38.456882" latitude="-30.98333"/>
 </recallEffect>
-<recallEffect id="1879184247" name="DNT - Travel to Forochel" description="key:620860368:181298206" probability="0.0" baseFlags="4124">
+<recallEffect id="1879184247" name="DNT - Travel to Forochel" description="key:620860368:181298206" baseFlags="4124">
 <position region="1" longitude="-71.25369" latitude="20.657373"/>
 </recallEffect>
-<recallEffect id="1879184248" name="DNT - Travel to Angmar" description="key:620860369:181298206" probability="0.0" baseFlags="4124">
+<recallEffect id="1879184248" name="DNT - Travel to Angmar" description="key:620860369:181298206" baseFlags="4124">
 <position region="1" longitude="-39.045273" latitude="1.5294726"/>
 </recallEffect>
 <propertyModEffect id="1879184306" name="DNT - increased movement speed" iconId="1091400596" baseFlags="6200">
@@ -11254,7 +11254,7 @@
 <effect id="1879187333" baseFlags="4124"/>
 <effect id="1879187334" baseFlags="4124"/>
 <effect id="1879187335" baseFlags="4124"/>
-<recallEffect id="1879188367" name="Travel to Enedwaith" probability="0.0" baseFlags="4124">
+<recallEffect id="1879188367" name="Travel to Enedwaith" baseFlags="4124">
 <position region="1" longitude="-16.783545" latitude="-66.91359"/>
 </recallEffect>
 <countdownEffect id="1879188374" name="Run Home" iconId="1090519170" duration="15.0" baseFlags="4156">
@@ -12064,10 +12064,10 @@
 <stat name="Skill_Runekeeper_ScathingMockery_MaxTargets" constant="5.0"/>
 <stat name="FINESSE" scaling="1879367859"/>
 </propertyModEffect>
-<recallEffect id="1879193068" name="Warden Travel to Enedwaith" probability="0.0" baseFlags="4124">
+<recallEffect id="1879193068" name="Warden Travel to Enedwaith" baseFlags="4124">
 <position region="1" longitude="-13.738086" latitude="-69.63574"/>
 </recallEffect>
-<recallEffect id="1879193069" name="Travel to Enedwaith" probability="0.0" baseFlags="4124">
+<recallEffect id="1879193069" name="Travel to Enedwaith" baseFlags="4124">
 <position region="1" longitude="-13.738086" latitude="-69.63574"/>
 </recallEffect>
 <effect id="1879193205" name="Howl" appliedDescription="key:620867473:54354734" baseFlags="4124"/>
@@ -12227,7 +12227,7 @@
 <specialEffect label="key:620867685:106251890"/>
 <specialEffect label="key:620867685:106251891"/>
 </propertyModEffect>
-<recallEffect id="1879193555" name="Warden Travel to Forochel" probability="0.0" baseFlags="4124">
+<recallEffect id="1879193555" name="Warden Travel to Forochel" baseFlags="4124">
 <position region="1" longitude="-70.2618" latitude="19.055195"/>
 </recallEffect>
 <propertyModEffect id="1879193742" name="Watched" appliedDescription="key:620867857:54354734" iconId="1091510187" duration="20.0" baseFlags="5563">
@@ -13384,7 +13384,7 @@
 <stat name="ATTACK_DURATION_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 <stat name="ALL_SKILL_INDUCTION" constant="10.0"/>
 </propertyModEffect>
-<effect id="1879199212" name="Tracking" probability="0.0" baseFlags="4124"/>
+<effect id="1879199212" name="Tracking" baseFlags="4124"/>
 <propertyModEffect id="1879199216" name="Winter's Chill (Tier 3)" appliedDescription="key:620872416:54354734" iconId="1091428260" duration="10.0" baseFlags="4541">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SUBSTRACT" constant="40.0"/>
 <stat name="ALL_SKILL_INDUCTION" constant="15.000001"/>
@@ -13735,11 +13735,11 @@
 <effect id="1879200587" name="Heavily Bleeding Wound"/>
 </fellowshipEffect>
 <effect id="1879201439" name="DNT - Reset Lightning Storm" baseFlags="4124"/>
-<recallEffect id="1879201461" name="Travel Home" description="key:620874097:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879201462" name="Travel Home" description="key:620874098:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879201463" name="Travel Home" description="key:620874099:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879201464" name="Travel Home" description="key:620874100:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879201465" name="Travel Home" description="key:620874101:181298206" probability="0.0" baseFlags="4124"/>
+<recallEffect id="1879201461" name="Travel Home" description="key:620874097:181298206" baseFlags="4124"/>
+<recallEffect id="1879201462" name="Travel Home" description="key:620874098:181298206" baseFlags="4124"/>
+<recallEffect id="1879201463" name="Travel Home" description="key:620874099:181298206" baseFlags="4124"/>
+<recallEffect id="1879201464" name="Travel Home" description="key:620874100:181298206" baseFlags="4124"/>
+<recallEffect id="1879201465" name="Travel Home" description="key:620874101:181298206" baseFlags="4124"/>
 <propertyModEffect id="1879201482" name="Riddle" iconId="1090519170" baseFlags="6284"/>
 <effect id="1879201490" name="Cower!" baseFlags="4127"/>
 <instantVitalEffect id="1879201515" name="Plague of Flies" baseFlags="4124" stat="Power_MaxLevel">
@@ -15437,8 +15437,8 @@
 <stat name="CRITICAL_DEFENCE" modifiers="268444840" scaling="1879368457"/>
 </propertyModEffect>
 <effect id="1879215523" name="DNT - Dispel Battle Memory 1" baseFlags="4124"/>
-<effect id="1879215527" name="Tracking" probability="0.0" baseFlags="4124"/>
-<effect id="1879215528" name="Tracking" probability="0.0" baseFlags="4124"/>
+<effect id="1879215527" name="Tracking" baseFlags="4124"/>
+<effect id="1879215528" name="Tracking" baseFlags="4124"/>
 <effect id="1879215539" name="DNT - Battle-shout Reset" description="key:620884378:181298206" baseFlags="4124"/>
 <effect id="1879215723" name="Scroll Case" baseFlags="4124"/>
 <effect id="1879215724" name="Scroll Case" baseFlags="4124"/>
@@ -15887,7 +15887,7 @@
 <fellowshipEffect id="1879219976" name="Star Glass" baseFlags="4124" applyToTarget="true" range="20.0">
 <effect id="1879219972" name="Vitreous Edhelharn Token: Give Hope"/>
 </fellowshipEffect>
-<recallEffect id="1879220068" name="DNT - Travel to Isengard Depths" description="key:620887769:181298206" probability="0.0" baseFlags="4124">
+<recallEffect id="1879220068" name="DNT - Travel to Isengard Depths" description="key:620887769:181298206" baseFlags="4124">
 <position region="1" longitude="34.369473" latitude="-79.36578"/>
 </recallEffect>
 <fellowshipEffect id="1879220089" name="True Heroics" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" range="15.0">
@@ -16250,7 +16250,7 @@
 <stat name="Skill_HealingMultiplier_Item" constant="2.25"/>
 </propertyModEffect>
 <effect id="1879222484" name="Quick Shot Focus Chance" description="key:620889066:181298206" appliedDescription="key:620889066:54354734" probability="0.3" probabilityModProperty="268457566" baseFlags="28"/>
-<recallEffect id="1879222537" name="Warden Travel to Dunland" probability="0.0" baseFlags="4124">
+<recallEffect id="1879222537" name="Warden Travel to Dunland" baseFlags="4124">
 <position region="1" longitude="-16.561386" latitude="-80.13851"/>
 </recallEffect>
 <effect id="1879222541" name="Improved Rousing Words" iconId="1091454158" baseFlags="6204"/>
@@ -16258,7 +16258,7 @@
 <effect id="1879222576" baseFlags="4124"/>
 <effect id="1879222577" baseFlags="4124"/>
 <effect id="1879222579" baseFlags="4124"/>
-<recallEffect id="1879222589" name="Travel to Galtrev" probability="0.0" baseFlags="4124">
+<recallEffect id="1879222589" name="Travel to Galtrev" baseFlags="4124">
 <position region="1" longitude="-16.561386" latitude="-80.13851"/>
 </recallEffect>
 <genesis id="1879222615" name="Polarity" baseFlags="4124" summonDuration="3.0">
@@ -17591,16 +17591,16 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
-<recallEffect id="1879229990" name="Travel to Galtrev" probability="0.0" baseFlags="4124">
+<recallEffect id="1879229990" name="Travel to Galtrev" baseFlags="4124">
 <position region="1" longitude="-16.561386" latitude="-80.13851"/>
 </recallEffect>
-<recallEffect id="1879229992" name="Travel to Stangard" probability="0.0" baseFlags="4124">
+<recallEffect id="1879229992" name="Travel to Stangard" baseFlags="4124">
 <position region="2" longitude="-63.319393" latitude="-25.432167"/>
 </recallEffect>
-<recallEffect id="1879229993" name="Warden Travel to Stangard" probability="0.0" baseFlags="4124">
+<recallEffect id="1879229993" name="Warden Travel to Stangard" baseFlags="4124">
 <position region="2" longitude="-63.067986" latitude="-26.437109"/>
 </recallEffect>
-<recallEffect id="1879229994" name="Travel to Stangard" probability="0.0" baseFlags="4124">
+<recallEffect id="1879229994" name="Travel to Stangard" baseFlags="4124">
 <position region="2" longitude="-63.067986" latitude="-26.437109"/>
 </recallEffect>
 <vitalOverTimeEffect id="1879230027" name="Explosive Gourd" iconId="1091473734" duration="2.0" pulseCount="5" pulseCountMods="268456021" baseFlags="5055" stat="Health_MaxLevel" damageType="16">
@@ -18619,7 +18619,7 @@
 <effect id="1879238283" name="Leather Hauberk of Mystery" baseFlags="4124"/>
 <effect id="1879238284" name="Chain Hauberk of Mystery" baseFlags="4124"/>
 <effect id="1879238285" name="Padded Hauberk of Mystery" baseFlags="4124"/>
-<recallEffect id="1879238314" name="Hunter Travel to Nearest Rally Point" probability="0.0" baseFlags="4124"/>
+<recallEffect id="1879238314" name="Hunter Travel to Nearest Rally Point" baseFlags="4124"/>
 <effect id="1879238330" name="An autoattack" description="key:620899430:181298206" appliedDescription="key:620899430:54354734" baseFlags="4127"/>
 <comboEffect id="1879238457" name="DNT" baseFlags="4127">
 <toGiveBackIfNotPresent id="1879060710" name="Focus Increase"/>
@@ -18631,10 +18631,10 @@
 <effect id="1879238462" name="Chain Hooded Cloak of Mystery" baseFlags="4124"/>
 <effect id="1879238463" name="Leather Cloak of Mystery" baseFlags="4124"/>
 <effect id="1879238464" name="Padded Cloak of Mystery" baseFlags="4124"/>
-<recallEffect id="1879238483" name="Travel to Caras Galadhon" probability="0.0" baseFlags="4124">
+<recallEffect id="1879238483" name="Travel to Caras Galadhon" baseFlags="4124">
 <position region="2" longitude="-67.07414" latitude="-16.131786"/>
 </recallEffect>
-<recallEffect id="1879238488" name="Travel to the Misty Mountains" probability="0.0" baseFlags="4124">
+<recallEffect id="1879238488" name="Travel to the Misty Mountains" baseFlags="4124">
 <position region="1" longitude="6.941045" latitude="-24.43042"/>
 </recallEffect>
 <propertyModEffect id="1879238541" name="Greater Gift of the Helmingas" appliedDescription="key:620899603:54354734" iconId="1091643193" baseFlags="6540">
@@ -19953,16 +19953,16 @@
 <propertyModEffect id="1879244573" name="Potent Celebration of Skill - Memory 1" iconId="1091471233" baseFlags="6716">
 <stat name="ForwardSource_Combat_TraitCombo2" operator="SET" descriptionOverride="-" constant="248.0"/>
 </propertyModEffect>
-<recallEffect id="1879244652" name="Travel Home" description="key:620904582:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879244653" name="Travel Home" description="key:620904587:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879244654" name="Travel Home" description="key:620904588:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879244655" name="Travel Home" description="key:620904584:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879244656" name="Travel Home" description="key:620904581:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879244657" name="Travel Home" description="key:620904586:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879244658" name="Travel Home" description="key:620904583:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879244659" name="Travel Home" description="key:620904589:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879244660" name="Travel Home" description="key:620904590:181298206" probability="0.0" baseFlags="4124"/>
-<recallEffect id="1879244661" name="Travel Home" description="key:620904585:181298206" probability="0.0" baseFlags="4124"/>
+<recallEffect id="1879244652" name="Travel Home" description="key:620904582:181298206" baseFlags="4124"/>
+<recallEffect id="1879244653" name="Travel Home" description="key:620904587:181298206" baseFlags="4124"/>
+<recallEffect id="1879244654" name="Travel Home" description="key:620904588:181298206" baseFlags="4124"/>
+<recallEffect id="1879244655" name="Travel Home" description="key:620904584:181298206" baseFlags="4124"/>
+<recallEffect id="1879244656" name="Travel Home" description="key:620904581:181298206" baseFlags="4124"/>
+<recallEffect id="1879244657" name="Travel Home" description="key:620904586:181298206" baseFlags="4124"/>
+<recallEffect id="1879244658" name="Travel Home" description="key:620904583:181298206" baseFlags="4124"/>
+<recallEffect id="1879244659" name="Travel Home" description="key:620904589:181298206" baseFlags="4124"/>
+<recallEffect id="1879244660" name="Travel Home" description="key:620904590:181298206" baseFlags="4124"/>
+<recallEffect id="1879244661" name="Travel Home" description="key:620904585:181298206" baseFlags="4124"/>
 <vitalOverTimeEffect id="1879244710" name="Poison Gourd" iconId="1091479196" duration="2.0" pulseCount="10" baseFlags="4543" stat="Health_MaxLevel" damageType="1024">
 <overTimeChange progressionID="1879244484" modifiers="268437688"/>
 </vitalOverTimeEffect>
@@ -20221,10 +20221,10 @@
 <vitalOverTimeEffect id="1879245783" name="Constant Pain" iconId="1091744626" duration="2.0" baseFlags="7103" stat="Health_MaxLevel" damageType="1024">
 <overTimeChange progressionID="1879413241" variance="0.3" modifiers="268437688,268440525,268455952"/>
 </vitalOverTimeEffect>
-<recallEffect id="1879245788" name="Warden Travel to Caras Galadhon" probability="0.0" baseFlags="4124">
+<recallEffect id="1879245788" name="Warden Travel to Caras Galadhon" baseFlags="4124">
 <position region="2" longitude="-67.07414" latitude="-16.131786"/>
 </recallEffect>
-<recallEffect id="1879245790" name="Warden Travel to the Misty Mountains" probability="0.0" baseFlags="4124">
+<recallEffect id="1879245790" name="Warden Travel to the Misty Mountains" baseFlags="4124">
 <position region="1" longitude="6.941045" latitude="-24.43042"/>
 </recallEffect>
 <vitalOverTimeEffect id="1879245810" name="Sweeping Cut" iconId="1090553903" duration="2.0" pulseCount="13" pulseCountMods="268443484" probability="0.0" probabilityModProperty="268458010" baseFlags="5055" stat="Health_MaxLevel">
@@ -21219,10 +21219,10 @@
 <overTimeChange progressionID="1879383395" variance="0.3" modifiers="268445386,268462739,268443436" vpsMultiplier="1.7874017"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879251320" name="DNT - Gift of the Hammerhand receives Song of the Hammerhand effects" iconId="1090519170" baseFlags="6284"/>
-<recallEffect id="1879251343" name="Warden Travel to East Rohan" probability="0.0" baseFlags="4124">
+<recallEffect id="1879251343" name="Warden Travel to East Rohan" baseFlags="4124">
 <position region="2" longitude="-61.29196" latitude="-60.486717"/>
 </recallEffect>
-<recallEffect id="1879251344" name="Travel to East Rohan" probability="0.0" baseFlags="4124">
+<recallEffect id="1879251344" name="Travel to East Rohan" baseFlags="4124">
 <position region="2" longitude="-61.29196" latitude="-60.486717"/>
 </recallEffect>
 <propertyModEffect id="1879251350" name="Eastemnet Warding Lore" iconId="1090642113" duration="3000.0" baseFlags="4540">
@@ -21239,7 +21239,7 @@
 <stat name="PHYSICAL_MASTERY" scaling="1879225545"/>
 <stat name="TACTICAL_MASTERY" scaling="1879225550"/>
 </propertyModEffect>
-<recallEffect id="1879251525" name="Travel to Snowbourn" probability="0.0" baseFlags="4124">
+<recallEffect id="1879251525" name="Travel to Snowbourn" baseFlags="4124">
 <position region="2" longitude="-61.29196" latitude="-60.486717"/>
 </recallEffect>
 <propertyModEffect id="1879251537" name="Master Vigour" appliedDescription="key:620909343:54354734" iconId="1091753541" duration="21600.0" baseFlags="4492">
@@ -23960,7 +23960,7 @@
 <toAddIfPresent id="1879254392" name="Fixation of Health - Steed - 2"/>
 </comboEffect>
 <effect id="1879270246" name="Tremor" iconId="1090523647" duration="4.0" baseFlags="4284"/>
-<effect id="1879270251" name="Force Attack" iconId="1090519170" probability="0.0" baseFlags="4127"/>
+<effect id="1879270251" name="Force Attack" iconId="1090519170" baseFlags="4127"/>
 <areaEffect id="1879270275" name="Bond of the Rider" baseFlags="4124" flags="186" range="20.0" maxTargets="5" maxTargetsMods="268462716">
 <effect id="1879250578" name="Bond of the Rider - Power"/>
 <effect id="1879250580" name="Bond of the Rider - Mount Power"/>
@@ -24137,7 +24137,7 @@
 <vitalOverTimeEffect id="1879270574" name="Exsanguinate" iconId="1091798532" duration="2.0" pulseCount="10" pulseCountMods="268438448,268462116" baseFlags="5055" stat="Health_MaxLevel" damageType="64">
 <overTimeChange progressionID="1879367855" modifiers="268445385,268462739,268457569,268444108" vpsMultiplier="0.75"/>
 </vitalOverTimeEffect>
-<recallEffect id="1879270578" name="Travel to Lalia's Market" probability="0.0" baseFlags="4124">
+<recallEffect id="1879270578" name="Travel to Lalia's Market" baseFlags="4124">
 <position region="1" longitude="54.33871" latitude="-49.96957"/>
 </recallEffect>
 <propertyModEffect id="1879270784" name="Fire at Will" iconId="1091830187" duration="10.0" baseFlags="4540">
@@ -24436,13 +24436,13 @@
 <stat name="CRITICAL_DEFENCE" operator="SUBSTRACT" scaling="1879368457"/>
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="30.0"/>
 </propertyModEffect>
-<recallEffect id="1879272282" name="Warden Travel to Forlaw" probability="0.0" baseFlags="4124">
+<recallEffect id="1879272282" name="Warden Travel to Forlaw" baseFlags="4124">
 <position region="2" longitude="-60.86841" latitude="-39.433445"/>
 </recallEffect>
-<recallEffect id="1879272284" name="Travel to Forlaw" probability="0.0" baseFlags="4124">
+<recallEffect id="1879272284" name="Travel to Forlaw" baseFlags="4124">
 <position region="2" longitude="-60.86841" latitude="-39.433445"/>
 </recallEffect>
-<recallEffect id="1879272287" name="Travel to Forlaw" probability="0.0" baseFlags="4124">
+<recallEffect id="1879272287" name="Travel to Forlaw" baseFlags="4124">
 <position region="2" longitude="-60.86841" latitude="-39.433445"/>
 </recallEffect>
 <propertyModEffect id="1879272320" name="Champion's Duel 8" iconId="1090539704" baseFlags="7100">
@@ -26900,7 +26900,7 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <induceCombatState id="1879291145" name="Righteousness" baseFlags="4124" state="14" stateDuration="15.0" stateDurationMods="268461450"/>
-<effect id="1879291233" name="Force Attack" iconId="1090519170" probability="0.0" baseFlags="4127"/>
+<effect id="1879291233" name="Force Attack" iconId="1090519170" baseFlags="4127"/>
 <effect id="1879291236" name="DNT" baseFlags="4124"/>
 <effect id="1879291237" name="DNT" baseFlags="4124"/>
 <effect id="1879291238" name="DNT" baseFlags="4124"/>
@@ -27639,22 +27639,22 @@
 </hotspot>
 </genesis>
 <effect id="1879301232" name="DNT" baseFlags="4124"/>
-<recallEffect id="1879301235" name="Warden Travel to Aldburg" probability="0.0" baseFlags="4124">
+<recallEffect id="1879301235" name="Warden Travel to Aldburg" baseFlags="4124">
 <position region="2" longitude="-63.9837" latitude="-68.54693"/>
 </recallEffect>
-<recallEffect id="1879301236" name="Travel to Aldburg" probability="0.0" baseFlags="4124">
+<recallEffect id="1879301236" name="Travel to Aldburg" baseFlags="4124">
 <position region="2" longitude="-63.9837" latitude="-68.54693"/>
 </recallEffect>
-<recallEffect id="1879301237" name="Warden Travel to Helm's Deep" probability="0.0" baseFlags="4124">
+<recallEffect id="1879301237" name="Warden Travel to Helm's Deep" baseFlags="4124">
 <position region="2" longitude="-89.43089" latitude="-63.78584"/>
 </recallEffect>
-<recallEffect id="1879301238" name="Travel to Helm's Deep" probability="0.0" baseFlags="4124">
+<recallEffect id="1879301238" name="Travel to Helm's Deep" baseFlags="4124">
 <position region="2" longitude="-89.43089" latitude="-63.78584"/>
 </recallEffect>
-<recallEffect id="1879301239" name="Travel to Helm's Deep" probability="0.0" baseFlags="4124">
+<recallEffect id="1879301239" name="Travel to Helm's Deep" baseFlags="4124">
 <position region="2" longitude="-89.43089" latitude="-63.78584"/>
 </recallEffect>
-<recallEffect id="1879301240" name="Travel to Aldburg" probability="0.0" baseFlags="4124">
+<recallEffect id="1879301240" name="Travel to Aldburg" baseFlags="4124">
 <position region="2" longitude="-63.9837" latitude="-68.54693"/>
 </recallEffect>
 <propertyModEffect id="1879301252" name="DNT" iconId="1090531788" baseFlags="6280"/>
@@ -28274,13 +28274,13 @@
 <effect id="1879314734" name="DNT - Weapon Master" iconId="1091620587" duration="1.0" baseFlags="6284"/>
 <propertyModEffect id="1879314744" name="DNT - Strike a Chord" iconId="1090519170" baseFlags="6284"/>
 <propertyModEffect id="1879314745" name="DNT - Echoes" iconId="1090519170" baseFlags="6284"/>
-<recallEffect id="1879314835" name="Warden Travel to Dol Amroth" probability="0.0" baseFlags="4124">
+<recallEffect id="1879314835" name="Warden Travel to Dol Amroth" baseFlags="4124">
 <position region="3" longitude="-71.266235" latitude="-74.67648"/>
 </recallEffect>
-<recallEffect id="1879314838" name="Travel to Dol Amroth" probability="0.0" baseFlags="4124">
+<recallEffect id="1879314838" name="Travel to Dol Amroth" baseFlags="4124">
 <position region="3" longitude="-71.266235" latitude="-74.67648"/>
 </recallEffect>
-<recallEffect id="1879314862" name="Travel to Dol Amroth" probability="0.0" baseFlags="4124">
+<recallEffect id="1879314862" name="Travel to Dol Amroth" baseFlags="4124">
 <position region="3" longitude="-71.266235" latitude="-74.67648"/>
 </recallEffect>
 <propertyModEffect id="1879315016" name="Sacrifice" iconId="1091940913" duration="20.0" baseFlags="4540"/>
@@ -28324,7 +28324,7 @@
 <propertyModEffect id="1879315071" name="Green-beak Cave-claw" iconId="1090553792" baseFlags="6332"/>
 <propertyModEffect id="1879315072" name="Pink-beak Cave-claw" iconId="1090553792" baseFlags="6332"/>
 <propertyModEffect id="1879315073" name="Black-beak Cave-claw" iconId="1090553792" baseFlags="6332"/>
-<recallEffect id="1879315089" name="Travel to Derndingle" probability="0.0" baseFlags="4124">
+<recallEffect id="1879315089" name="Travel to Derndingle" baseFlags="4124">
 <position region="2" longitude="-78.449394" latitude="-42.604324"/>
 </recallEffect>
 <tieredEffect id="1879315100" name="DNT -Guarded" baseFlags="4124">
@@ -28931,7 +28931,7 @@
 <areaEffect id="1879316993" name="DNT Relentless Maul" baseFlags="4127" flags="62" range="5.0" maxTargets="5" maxTargetsMods="268462716">
 <effect id="1879316961" name="Relentless Maul"/>
 </areaEffect>
-<recallEffect id="1879316994" name="Beorning Travel Home" probability="0.0" baseFlags="4124">
+<recallEffect id="1879316994" name="Beorning Travel Home" baseFlags="4124">
 <position region="2" longitude="-53.088554" latitude="13.681279"/>
 </recallEffect>
 <propertyModEffect id="1879317028" name="DNT - Raining Blows" iconId="1090519170" baseFlags="6284">
@@ -29630,13 +29630,13 @@
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="1.5"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="25.0"/>
 </propertyModEffect>
-<recallEffect id="1879325281" name="Travel to Arnach" probability="0.0" baseFlags="4124">
+<recallEffect id="1879325281" name="Travel to Arnach" baseFlags="4124">
 <position region="3" longitude="-24.574219" latitude="-76.79697"/>
 </recallEffect>
-<recallEffect id="1879325282" name="Warden Travel to Arnach" probability="0.0" baseFlags="4124">
+<recallEffect id="1879325282" name="Warden Travel to Arnach" baseFlags="4124">
 <position region="3" longitude="-24.574219" latitude="-76.79697"/>
 </recallEffect>
-<recallEffect id="1879325292" name="Travel to Arnach" probability="0.0" baseFlags="4124">
+<recallEffect id="1879325292" name="Travel to Arnach" baseFlags="4124">
 <position region="3" longitude="-24.574219" latitude="-76.79697"/>
 </recallEffect>
 <vitalOverTimeEffect id="1879325581" name="Beorning's Sting" appliedDescription="key:620960682:54354734" iconId="1090580244" duration="2.0" pulseCount="6" baseFlags="4539" stat="Health_MaxLevel">
@@ -29898,13 +29898,13 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <effect id="1879328940" name="The Banner of Anórien" appliedDescription="key:620963547:54354734" baseFlags="4124"/>
-<recallEffect id="1879329149" name="Travel to Minas Tirith" probability="0.0" baseFlags="4124">
+<recallEffect id="1879329149" name="Travel to Minas Tirith" baseFlags="4124">
 <position region="3" longitude="-16.68247" latitude="-65.452805"/>
 </recallEffect>
-<recallEffect id="1879329155" name="Travel to Minas Tirith" probability="0.0" baseFlags="4124">
+<recallEffect id="1879329155" name="Travel to Minas Tirith" baseFlags="4124">
 <position region="3" longitude="-16.68247" latitude="-65.452805"/>
 </recallEffect>
-<recallEffect id="1879329156" name="Warden Travel to Minas Tirith" probability="0.0" baseFlags="4124">
+<recallEffect id="1879329156" name="Warden Travel to Minas Tirith" baseFlags="4124">
 <position region="3" longitude="-16.68247" latitude="-65.452805"/>
 </recallEffect>
 <effect id="1879329164" name="Call Bergil" description="key:620963688:181298206" baseFlags="4124"/>
@@ -30393,13 +30393,13 @@
 <propertyModEffect id="1879332616" name="Willem Whisker" iconId="1090553792" baseFlags="6332"/>
 <effect id="1879332645" name="Call Property Guard" description="key:620897153:181298206" baseFlags="4124"/>
 <effect id="1879332647" name="Call Property Guard" description="key:620897153:181298206" baseFlags="4124"/>
-<recallEffect id="1879333283" name="Travel to the War-stead" probability="0.0" baseFlags="4124">
+<recallEffect id="1879333283" name="Travel to the War-stead" baseFlags="4124">
 <position region="3" longitude="-26.038906" latitude="-45.35629"/>
 </recallEffect>
-<recallEffect id="1879333291" name="Travel to Minas the War-stead" probability="0.0" baseFlags="4124">
+<recallEffect id="1879333291" name="Travel to Minas the War-stead" baseFlags="4124">
 <position region="3" longitude="-26.038906" latitude="-45.35629"/>
 </recallEffect>
-<recallEffect id="1879333292" name="Warden Travel to the War-stead" probability="0.0" baseFlags="4124">
+<recallEffect id="1879333292" name="Warden Travel to the War-stead" baseFlags="4124">
 <position region="3" longitude="-26.038906" latitude="-45.35629"/>
 </recallEffect>
 <procEffect id="1879333970" name="DNT - Radiate" appliedDescription="key:620967267:54354734" iconId="1090541172" baseFlags="2184" skillTypes="39" procProbability="0.2">
@@ -31585,13 +31585,13 @@
 <stat name="Skill_Warden_MarkedTarget_Duration" descriptionOverride="-" constant="10.0"/>
 <stat name="Skill_Warden_DiminishedTarget_Duration" descriptionOverride="-" constant="10.0"/>
 </propertyModEffect>
-<recallEffect id="1879338172" name="Travel to after-battle Minas Tirith" probability="0.0" baseFlags="4124">
+<recallEffect id="1879338172" name="Travel to after-battle Minas Tirith" baseFlags="4124">
 <position region="4" longitude="-16.681797" latitude="-65.469795"/>
 </recallEffect>
-<recallEffect id="1879338173" name="Warden Travel to after-battle Minas Tirith" probability="0.0" baseFlags="4124">
+<recallEffect id="1879338173" name="Warden Travel to after-battle Minas Tirith" baseFlags="4124">
 <position region="4" longitude="-16.681797" latitude="-65.469795"/>
 </recallEffect>
-<recallEffect id="1879338174" name="Travel to after-battle Minas Tirith" probability="0.0" baseFlags="4124">
+<recallEffect id="1879338174" name="Travel to after-battle Minas Tirith" baseFlags="4124">
 <position region="4" longitude="-16.681797" latitude="-65.469795"/>
 </recallEffect>
 <effect id="1879338328" name="Trumpet" appliedDescription="key:620971124:54354734" baseFlags="4124"/>
@@ -31612,7 +31612,7 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
-<recallEffect id="1879338730" name="Travel to Premium House" description="key:620971431:181298206" probability="0.0" baseFlags="4124"/>
+<recallEffect id="1879338730" name="Travel to Premium House" description="key:620971431:181298206" baseFlags="4124"/>
 <propertyModEffect id="1879338907" name="Tan Bat" iconId="1090553792" baseFlags="6332"/>
 <propertyModEffect id="1879338908" name="Blood-red Bat" iconId="1090553792" baseFlags="6332"/>
 <propertyModEffect id="1879338909" name="Flying Fox" iconId="1090553792" baseFlags="6332"/>
@@ -31624,22 +31624,22 @@
 <propertyModEffect id="1879338915" name="Injured Bat" iconId="1090553792" baseFlags="6332"/>
 <propertyModEffect id="1879338947" name="Red Fox" iconId="1090553792" baseFlags="6332"/>
 <propertyModEffect id="1879338948" name="Red Squirrel" iconId="1090553792" baseFlags="6332"/>
-<recallEffect id="1879339118" name="Travel to after-battle Osgiliath" probability="0.0" baseFlags="4124">
+<recallEffect id="1879339118" name="Travel to after-battle Osgiliath" baseFlags="4124">
 <position region="4" longitude="-6.4909277" latitude="-63.02044"/>
 </recallEffect>
-<recallEffect id="1879339119" name="Warden Travel to after-battle Osgiliath" probability="0.0" baseFlags="4124">
+<recallEffect id="1879339119" name="Warden Travel to after-battle Osgiliath" baseFlags="4124">
 <position region="4" longitude="-6.4909277" latitude="-63.02044"/>
 </recallEffect>
-<recallEffect id="1879339120" name="Warden Travel to Henneth Annûn" probability="0.0" baseFlags="4124">
+<recallEffect id="1879339120" name="Warden Travel to Henneth Annûn" baseFlags="4124">
 <position region="4" longitude="-8.070996" latitude="-48.10266"/>
 </recallEffect>
-<recallEffect id="1879339121" name="Travel to Henneth Annûn" probability="0.0" baseFlags="4124">
+<recallEffect id="1879339121" name="Travel to Henneth Annûn" baseFlags="4124">
 <position region="4" longitude="-8.070996" latitude="-48.10266"/>
 </recallEffect>
-<recallEffect id="1879339122" name="Travel to Henneth Annûn" probability="0.0" baseFlags="4124">
+<recallEffect id="1879339122" name="Travel to Henneth Annûn" baseFlags="4124">
 <position region="4" longitude="-8.070996" latitude="-48.10266"/>
 </recallEffect>
-<recallEffect id="1879339123" name="Travel to after-battle Osgiliath" probability="0.0" baseFlags="4124">
+<recallEffect id="1879339123" name="Travel to after-battle Osgiliath" baseFlags="4124">
 <position region="4" longitude="-6.4909277" latitude="-63.02044"/>
 </recallEffect>
 <effect id="1879339190" name="Call Shell" description="key:620973197:181298206" baseFlags="4124"/>
@@ -31732,22 +31732,22 @@
 <present id="1879212948" name="Potency"/>
 <toAddIfPresent id="1879341909" name="DNT"/>
 </comboEffect>
-<recallEffect id="1879342070" name="Warden Travel to the Camp of the Host" probability="0.0" baseFlags="4124">
+<recallEffect id="1879342070" name="Warden Travel to the Camp of the Host" baseFlags="4124">
 <position region="4" longitude="-10.315898" latitude="-40.780586"/>
 </recallEffect>
-<recallEffect id="1879342073" name="Travel to the Camp of the Host" probability="0.0" baseFlags="4124">
+<recallEffect id="1879342073" name="Travel to the Camp of the Host" baseFlags="4124">
 <position region="4" longitude="-10.315898" latitude="-40.780586"/>
 </recallEffect>
-<recallEffect id="1879342075" name="Travel to the Camp of the Host" probability="0.0" baseFlags="4124">
+<recallEffect id="1879342075" name="Travel to the Camp of the Host" baseFlags="4124">
 <position region="4" longitude="-10.315898" latitude="-40.780586"/>
 </recallEffect>
-<recallEffect id="1879342106" name="Warden Travel to Haerondir" probability="0.0" baseFlags="4124">
+<recallEffect id="1879342106" name="Warden Travel to Haerondir" baseFlags="4124">
 <position region="4" longitude="-9.176699" latitude="-36.561073"/>
 </recallEffect>
-<recallEffect id="1879342111" name="Travel to Haerondir" probability="0.0" baseFlags="4124">
+<recallEffect id="1879342111" name="Travel to Haerondir" baseFlags="4124">
 <position region="4" longitude="-9.176699" latitude="-36.561073"/>
 </recallEffect>
-<recallEffect id="1879342113" name="Travel to Haerondir" probability="0.0" baseFlags="4124">
+<recallEffect id="1879342113" name="Travel to Haerondir" baseFlags="4124">
 <position region="4" longitude="-9.176699" latitude="-36.561073"/>
 </recallEffect>
 <propertyModEffect id="1879342473" name="Mounted" iconId="1090519170" baseFlags="6316">
@@ -31885,7 +31885,7 @@
 <reactiveVitalEffect id="1879346238" name="Simple Disguise" iconId="1091522016" duration="300.0" baseFlags="4540" damageTypes="65407" removeOnProc="true">
 <specialEffect label="key:620996324:106251889"/>
 </reactiveVitalEffect>
-<recallEffect id="1879346347" name="Travel to Caras Galadhon" probability="0.0" baseFlags="4124">
+<recallEffect id="1879346347" name="Travel to Caras Galadhon" baseFlags="4124">
 <position region="2" longitude="-67.07414" latitude="-16.131786"/>
 </recallEffect>
 <fellowshipEffect id="1879346348" name="Wrath of the Firstborn" baseFlags="4124" applyToRaidGroups="true" applyToPets="true" applyToTarget="true" range="15.0">
@@ -32056,29 +32056,29 @@
 <effect id="1879354447" name="Rare Mordor Chest" baseFlags="4124"/>
 <effect id="1879354449" name="Ancient Treasure Cache" baseFlags="4124"/>
 <effect id="1879354453" name="Rare Mordor Chest" baseFlags="4124"/>
-<recallEffect id="1879354904" name="Travel to Udûn Foothold" probability="0.0" baseFlags="4124">
+<recallEffect id="1879354904" name="Travel to Udûn Foothold" baseFlags="4124">
 <position region="4" longitude="-0.5668066" latitude="-41.21418"/>
 </recallEffect>
-<recallEffect id="1879354905" name="Warden Travel to Udûn Foothold" probability="0.0" baseFlags="4124">
+<recallEffect id="1879354905" name="Warden Travel to Udûn Foothold" baseFlags="4124">
 <position region="4" longitude="-0.5668066" latitude="-41.21418"/>
 </recallEffect>
-<recallEffect id="1879354906" name="Travel to Udûn Foothold" probability="0.0" baseFlags="4124">
+<recallEffect id="1879354906" name="Travel to Udûn Foothold" baseFlags="4124">
 <position region="4" longitude="-0.5668066" latitude="-41.21418"/>
 </recallEffect>
 <travelEffect id="1879356012" name="Battle of Morranon" baseFlags="4124">
 <position region="4" longitude="-10.315898" latitude="-40.780586"/>
 </travelEffect>
 <effect id="1879356805" name="Shadow of Sauron" appliedDescription="key:621002966:54354734" baseFlags="4124"/>
-<recallEffect id="1879357601" name="Travel to the Hall of the King" probability="0.0" baseFlags="4124">
+<recallEffect id="1879357601" name="Travel to the Hall of the King" baseFlags="4124">
 <position region="4" longitude="55.259686" latitude="14.795234"/>
 </recallEffect>
-<recallEffect id="1879357602" name="Travel to the Hall Under the Mountain" probability="0.0" baseFlags="4124">
+<recallEffect id="1879357602" name="Travel to the Hall Under the Mountain" baseFlags="4124">
 <position region="4" longitude="53.482147" latitude="12.061503"/>
 </recallEffect>
-<recallEffect id="1879357603" name="Travel to the Court of Lothlórien" probability="0.0" baseFlags="4124">
+<recallEffect id="1879357603" name="Travel to the Court of Lothlórien" baseFlags="4124">
 <position region="4" longitude="54.815918" latitude="9.997011"/>
 </recallEffect>
-<recallEffect id="1879357604" name="Travel to Bâr Thorenion" probability="0.0" baseFlags="4124">
+<recallEffect id="1879357604" name="Travel to Bâr Thorenion" baseFlags="4124">
 <position region="4" longitude="54.578144" latitude="11.715146"/>
 </recallEffect>
 <effect id="1879357645" name="Grant the Aria of the Valar Trait" baseFlags="4124"/>
@@ -33313,13 +33313,13 @@
 <propertyModEffect id="1879365406" name="Lasgolin Owl" iconId="1090553792" baseFlags="6332"/>
 <propertyModEffect id="1879365408" name="Thrush" iconId="1090553792" baseFlags="6332"/>
 <propertyModEffect id="1879365415" name="Smaug Kite" iconId="1090553792" baseFlags="6332"/>
-<recallEffect id="1879365431" name="Hunter Travel to Dale" probability="0.0" baseFlags="4124">
+<recallEffect id="1879365431" name="Hunter Travel to Dale" baseFlags="4124">
 <position region="2" longitude="-26.31288" latitude="23.796377"/>
 </recallEffect>
-<recallEffect id="1879365433" name="Travel to Dale" probability="0.0" baseFlags="4124">
+<recallEffect id="1879365433" name="Travel to Dale" baseFlags="4124">
 <position region="2" longitude="-26.31288" latitude="23.796377"/>
 </recallEffect>
-<recallEffect id="1879365436" name="Warden Travel to Dale" probability="0.0" baseFlags="4124">
+<recallEffect id="1879365436" name="Warden Travel to Dale" baseFlags="4124">
 <position region="2" longitude="-26.31288" latitude="23.796377"/>
 </recallEffect>
 <propertyModEffect id="1879365651" name="Mounted" iconId="1090519170" baseFlags="6316">
@@ -33755,22 +33755,22 @@
 </propertyModEffect>
 <effect id="1879373155" name="Call Hórin" description="key:621011862:181298206" baseFlags="4124"/>
 <propertyModEffect id="1879373188" name="Storm-cloud" iconId="1090553792" baseFlags="6332"/>
-<recallEffect id="1879374530" name="Travel to Járnfast" probability="0.0" baseFlags="4124">
+<recallEffect id="1879374530" name="Travel to Járnfast" baseFlags="4124">
 <position region="2" longitude="-3.8627148" latitude="28.251581"/>
 </recallEffect>
-<recallEffect id="1879374532" name="Hunter Travel to Járnfast" probability="0.0" baseFlags="4124">
+<recallEffect id="1879374532" name="Hunter Travel to Járnfast" baseFlags="4124">
 <position region="2" longitude="-3.8627148" latitude="28.251581"/>
 </recallEffect>
-<recallEffect id="1879374534" name="Warden Travel to Járnfast" probability="0.0" baseFlags="4124">
+<recallEffect id="1879374534" name="Warden Travel to Járnfast" baseFlags="4124">
 <position region="2" longitude="-3.8627148" latitude="28.251581"/>
 </recallEffect>
-<recallEffect id="1879374535" name="Travel to Skarháld" probability="0.0" baseFlags="4124">
+<recallEffect id="1879374535" name="Travel to Skarháld" baseFlags="4124">
 <position region="2" longitude="-45.328995" latitude="34.61536"/>
 </recallEffect>
-<recallEffect id="1879374536" name="Hunter Travel to Skarháld" probability="0.0" baseFlags="4124">
+<recallEffect id="1879374536" name="Hunter Travel to Skarháld" baseFlags="4124">
 <position region="2" longitude="-45.328995" latitude="34.61536"/>
 </recallEffect>
-<recallEffect id="1879374537" name="Warden Travel to Skarháld" probability="0.0" baseFlags="4124">
+<recallEffect id="1879374537" name="Warden Travel to Skarháld" baseFlags="4124">
 <position region="2" longitude="-45.328995" latitude="34.61536"/>
 </recallEffect>
 <travelEffect id="1879375446" name="Map to Rhosgobel" appliedDescription="key:620986441:54354734" baseFlags="4124" sceneID="1879325548">
@@ -35642,22 +35642,22 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <effect id="1879387902" name="Call Pig" baseFlags="4124"/>
-<recallEffect id="1879387915" name="Hunter Travel to Beorninghús" probability="0.0" baseFlags="4124">
+<recallEffect id="1879387915" name="Hunter Travel to Beorninghús" baseFlags="4124">
 <position region="2" longitude="-53.32839" latitude="14.109219"/>
 </recallEffect>
-<recallEffect id="1879387916" name="Travel to Hultvís" probability="0.0" baseFlags="4124">
+<recallEffect id="1879387916" name="Travel to Hultvís" baseFlags="4124">
 <position region="2" longitude="-55.08498" latitude="5.020332"/>
 </recallEffect>
-<recallEffect id="1879387918" name="Travel to Beorninghús" probability="0.0" baseFlags="4124">
+<recallEffect id="1879387918" name="Travel to Beorninghús" baseFlags="4124">
 <position region="2" longitude="-53.32839" latitude="14.109219"/>
 </recallEffect>
-<recallEffect id="1879387920" name="Hunter Travel to Hultvís" probability="0.0" baseFlags="4124">
+<recallEffect id="1879387920" name="Hunter Travel to Hultvís" baseFlags="4124">
 <position region="2" longitude="-55.08498" latitude="5.020332"/>
 </recallEffect>
-<recallEffect id="1879387921" name="Warden Travel to Hultvís" probability="0.0" baseFlags="4124">
+<recallEffect id="1879387921" name="Warden Travel to Hultvís" baseFlags="4124">
 <position region="2" longitude="-55.08498" latitude="5.020332"/>
 </recallEffect>
-<recallEffect id="1879387925" name="Warden Travel to Beorninghús" probability="0.0" baseFlags="4124">
+<recallEffect id="1879387925" name="Warden Travel to Beorninghús" baseFlags="4124">
 <position region="2" longitude="-53.32839" latitude="14.109219"/>
 </recallEffect>
 <propertyModEffect id="1879388510" name="Special Trail Food" iconId="1091934652" duration="2400.0" baseFlags="4492">
@@ -36181,7 +36181,7 @@
 <vitalOverTimeEffect id="1879391246" name="Strength in Numbers I" iconId="1091831431" duration="1.0" pulseCount="5" baseFlags="4540" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879368264" variance="0.3" modifiers="268441250,268462738,268443826,268448151" vpsMultiplier="3.33"/>
 </vitalOverTimeEffect>
-<recallEffect id="1879391249" name="Stout-axe Travel to Thorin's Hall" probability="0.0" baseFlags="4124">
+<recallEffect id="1879391249" name="Stout-axe Travel to Thorin's Hall" baseFlags="4124">
 <position region="1" longitude="-103.21289" latitude="-13.763378"/>
 </recallEffect>
 <vitalOverTimeEffect id="1879391251" name="Cutting Attack - Bleed" iconId="1091659767" duration="1.0" pulseCount="10" pulseCountMods="268459482" baseFlags="5055" stat="Health_MaxLevel">
@@ -36701,13 +36701,13 @@
 <effect id="1879396609" name="Minas Ithil Battle Lore"/>
 </fellowshipEffect>
 <effect id="1879396806" name="Call Dornach" baseFlags="4124"/>
-<recallEffect id="1879396851" name="Guide to Estolad Lân" probability="0.0" baseFlags="4124">
+<recallEffect id="1879396851" name="Guide to Estolad Lân" baseFlags="4124">
 <position region="4" longitude="-2.215205" latitude="-64.48153"/>
 </recallEffect>
-<recallEffect id="1879396855" name="Travel to Estolad Lân" probability="0.0" baseFlags="4124">
+<recallEffect id="1879396855" name="Travel to Estolad Lân" baseFlags="4124">
 <position region="4" longitude="-2.215205" latitude="-64.48153"/>
 </recallEffect>
-<recallEffect id="1879396857" name="Muster in Estolad Lân" probability="0.0" baseFlags="4124">
+<recallEffect id="1879396857" name="Muster in Estolad Lân" baseFlags="4124">
 <position region="4" longitude="-2.215205" latitude="-64.48153"/>
 </recallEffect>
 <effect id="1879396895" name="Aura of Decay" iconId="1091400596" duration="20.0" baseFlags="4784"/>
@@ -39152,13 +39152,13 @@
 <propertyModEffect id="1879405447" iconId="1090553792" baseFlags="6332"/>
 <effect id="1879405457" name="DNT" baseFlags="4124"/>
 <effect id="1879405942" name="Call Frethi" baseFlags="4124"/>
-<recallEffect id="1879406118" name="Guide to Limlók" probability="0.0" baseFlags="4124">
+<recallEffect id="1879406118" name="Guide to Limlók" baseFlags="4124">
 <position region="2" longitude="-55.89447" latitude="20.74826"/>
 </recallEffect>
-<recallEffect id="1879406126" name="Travel to Limlók" probability="0.0" baseFlags="4124">
+<recallEffect id="1879406126" name="Travel to Limlók" baseFlags="4124">
 <position region="2" longitude="-55.89447" latitude="20.74826"/>
 </recallEffect>
-<recallEffect id="1879406129" name="Muster in Limlók" probability="0.0" baseFlags="4124">
+<recallEffect id="1879406129" name="Muster in Limlók" baseFlags="4124">
 <position region="2" longitude="-55.89447" latitude="20.74826"/>
 </recallEffect>
 <propertyModEffect id="1879406157" name="Mounted" iconId="1090519170" baseFlags="6316">
@@ -39258,7 +39258,7 @@
 <effect id="1879407536" name="Immunity to Silence" description="key:621033911:181298206" appliedDescription="key:621033911:54354734" iconId="1091631302" duration="20.0" baseFlags="4492"/>
 <effect id="1879407608" name="Remove Slow" description="key:621033932:181298206" baseFlags="4124"/>
 <propertyModEffect id="1879407652" name="Zone of Truce" appliedDescription="key:621033961:54354734" iconId="1091831441" baseFlags="6536"/>
-<recallEffect id="1879407672" name="Travel to Kinship Member's House" description="key:621033977:181298206" probability="0.0" baseFlags="4124"/>
+<recallEffect id="1879407672" name="Travel to Kinship Member's House" description="key:621033977:181298206" baseFlags="4124"/>
 <effect id="1879407758" name="Call Reinforcements" baseFlags="4124"/>
 <reactiveVitalEffect id="1879407760" name="Shield of Flames" appliedDescription="key:621034030:54354734" iconId="1090648289" duration="10.0" baseFlags="6588" damageTypes="65407" damageTypeOverride="16">
 <attacker>
@@ -39483,13 +39483,13 @@
 </propertyModEffect>
 <effect id="1879409738" name="Call Aighrig" description="key:621035755:181298206" baseFlags="4124"/>
 <propertyModEffect id="1879409775" iconId="1090553792" baseFlags="6332"/>
-<recallEffect id="1879410029" name="Muster in Annâk-khurfu" probability="0.0" baseFlags="4124">
+<recallEffect id="1879410029" name="Muster in Annâk-khurfu" baseFlags="4124">
 <position region="2" longitude="-60.926697" latitude="32.797276"/>
 </recallEffect>
-<recallEffect id="1879410030" name="Travel to Annâk-khurfu" probability="0.0" baseFlags="4124">
+<recallEffect id="1879410030" name="Travel to Annâk-khurfu" baseFlags="4124">
 <position region="2" longitude="-60.926697" latitude="32.797276"/>
 </recallEffect>
-<recallEffect id="1879410032" name="Guide to Annâk-khurfu" probability="0.0" baseFlags="4124">
+<recallEffect id="1879410032" name="Guide to Annâk-khurfu" baseFlags="4124">
 <position region="2" longitude="-60.926697" latitude="32.797276"/>
 </recallEffect>
 <propertyModEffect id="1879410115" name="Horn of Challenge" iconId="1090519170" baseFlags="6284">
@@ -40817,22 +40817,22 @@
 <propertyModEffect id="1879416046" name="DNT - Pathfinder trait bonus" iconId="1090519170" baseFlags="6284">
 <specialEffect label="key:621040662:106251889"/>
 </propertyModEffect>
-<recallEffect id="1879416071" name="Travel to Trestlebridge" probability="0.0" baseFlags="4124">
+<recallEffect id="1879416071" name="Travel to Trestlebridge" baseFlags="4124">
 <position region="1" longitude="-54.530945" latitude="-17.649805"/>
 </recallEffect>
-<recallEffect id="1879416072" name="Guide to Trader's Wharf" probability="0.0" baseFlags="4124">
+<recallEffect id="1879416072" name="Guide to Trader's Wharf" baseFlags="4124">
 <position region="1" longitude="-61.43493" latitude="-21.313427"/>
 </recallEffect>
-<recallEffect id="1879416074" name="Travel to Trader's Wharf" probability="0.0" baseFlags="4124">
+<recallEffect id="1879416074" name="Travel to Trader's Wharf" baseFlags="4124">
 <position region="1" longitude="-61.43493" latitude="-21.313427"/>
 </recallEffect>
-<recallEffect id="1879416077" name="Guide to Trestlebridge" probability="0.0" baseFlags="4124">
+<recallEffect id="1879416077" name="Guide to Trestlebridge" baseFlags="4124">
 <position region="1" longitude="-54.530945" latitude="-17.649805"/>
 </recallEffect>
-<recallEffect id="1879416079" name="Muster in Trader's Wharf" probability="0.0" baseFlags="4124">
+<recallEffect id="1879416079" name="Muster in Trader's Wharf" baseFlags="4124">
 <position region="1" longitude="-61.43493" latitude="-21.313427"/>
 </recallEffect>
-<recallEffect id="1879416083" name="Muster in Trestlebridge" probability="0.0" baseFlags="4124">
+<recallEffect id="1879416083" name="Muster in Trestlebridge" baseFlags="4124">
 <position region="1" longitude="-54.530945" latitude="-17.649805"/>
 </recallEffect>
 <applyOverTimeEffect id="1879416099" name="Poisoned Ground" appliedDescription="key:621040710:54354734" iconId="1091479199" duration="3.0" baseFlags="6587">
@@ -41474,22 +41474,22 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" modifiers="268462648" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" modifiers="268462648" constant="5.0"/>
 </propertyModEffect>
-<recallEffect id="1879419530" name="Guide to Azanulbizar" probability="0.0" baseFlags="4124">
+<recallEffect id="1879419530" name="Guide to Azanulbizar" baseFlags="4124">
 <position region="14" longitude="-135.22842" latitude="62.567947"/>
 </recallEffect>
-<recallEffect id="1879419531" name="Travel to Azanulbizar" probability="0.0" baseFlags="4124">
+<recallEffect id="1879419531" name="Travel to Azanulbizar" baseFlags="4124">
 <position region="14" longitude="-135.22842" latitude="62.567947"/>
 </recallEffect>
-<recallEffect id="1879419533" name="Travel to Akrâz-zahar" probability="0.0" baseFlags="4124">
+<recallEffect id="1879419533" name="Travel to Akrâz-zahar" baseFlags="4124">
 <position region="2" longitude="49.1599" latitude="66.20052"/>
 </recallEffect>
-<recallEffect id="1879419534" name="Muster in Akrâz-zahar" probability="0.0" baseFlags="4124">
+<recallEffect id="1879419534" name="Muster in Akrâz-zahar" baseFlags="4124">
 <position region="2" longitude="49.1599" latitude="66.20052"/>
 </recallEffect>
-<recallEffect id="1879419539" name="Muster in Azanulbizar" probability="0.0" baseFlags="4124">
+<recallEffect id="1879419539" name="Muster in Azanulbizar" baseFlags="4124">
 <position region="14" longitude="-135.22842" latitude="62.567947"/>
 </recallEffect>
-<recallEffect id="1879419540" name="Guide to Akrâz-zahar" probability="0.0" baseFlags="4124">
+<recallEffect id="1879419540" name="Guide to Akrâz-zahar" baseFlags="4124">
 <position region="2" longitude="49.1599" latitude="66.20052"/>
 </recallEffect>
 <vitalOverTimeEffect id="1879419750" name="Apocalypse" appliedDescription="key:621043590:54354734" iconId="1090648289" duration="3.0" pulseCount="10" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
@@ -42047,7 +42047,7 @@
 <initialChange progressionID="1879244296" modifiers="268437688"/>
 <overTimeChange progressionID="1879244293" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<recallEffect id="1879424668" name="Travel to the Hall of Vérnozal" probability="0.0" baseFlags="4124">
+<recallEffect id="1879424668" name="Travel to the Hall of Vérnozal" baseFlags="4124">
 <position region="2" longitude="49.413807" latitude="60.638554"/>
 </recallEffect>
 <propertyModEffect id="1879426076" name="Efficient Strikes" iconId="1092693209" duration="20.0" durationMods="268462776" baseFlags="4524">
@@ -42313,22 +42313,22 @@
 <stat name="Skill_AdditionalThreat_AllSkillsMod" operator="SUBSTRACT" descriptionOverride="key:621050567:106251889" modifiers="268462792" constant="15.000001"/>
 </propertyModEffect>
 <effect id="1879430147" name="Summon Dwarf-wight" baseFlags="4124"/>
-<recallEffect id="1879430266" name="Muster at Leitstáth" probability="0.0" baseFlags="4124">
+<recallEffect id="1879430266" name="Muster at Leitstáth" baseFlags="4124">
 <position region="2" longitude="-64.9038" latitude="46.98748"/>
 </recallEffect>
-<recallEffect id="1879430270" name="Guide to the Noble Gate" probability="0.0" baseFlags="4124">
+<recallEffect id="1879430270" name="Guide to the Noble Gate" baseFlags="4124">
 <position region="2" longitude="-111.2436" latitude="-49.50762"/>
 </recallEffect>
-<recallEffect id="1879430272" name="Travel to Leitstáth" probability="0.0" baseFlags="4124">
+<recallEffect id="1879430272" name="Travel to Leitstáth" baseFlags="4124">
 <position region="2" longitude="-64.9038" latitude="46.98748"/>
 </recallEffect>
-<recallEffect id="1879430273" name="Guide to Leitstáth" probability="0.0" baseFlags="4124">
+<recallEffect id="1879430273" name="Guide to Leitstáth" baseFlags="4124">
 <position region="2" longitude="-64.9038" latitude="46.98748"/>
 </recallEffect>
-<recallEffect id="1879430277" name="Muster in the Noble Gate" probability="0.0" baseFlags="4124">
+<recallEffect id="1879430277" name="Muster in the Noble Gate" baseFlags="4124">
 <position region="2" longitude="-111.2436" latitude="-49.50762"/>
 </recallEffect>
-<recallEffect id="1879430278" name="Travel to the Noble Gate" probability="0.0" baseFlags="4124">
+<recallEffect id="1879430278" name="Travel to the Noble Gate" baseFlags="4124">
 <position region="2" longitude="-111.2436" latitude="-49.50762"/>
 </recallEffect>
 <instantVitalEffect id="1879430291" name="Restored Power" baseFlags="4124" stat="Power_MaxLevel">
@@ -43192,13 +43192,13 @@
 <effect id="1879445096" name="Sapper-fire"/>
 </hotspot>
 </genesis>
-<recallEffect id="1879445154" name="Guide to Tornhad" probability="0.0" baseFlags="4124">
+<recallEffect id="1879445154" name="Guide to Tornhad" baseFlags="4124">
 <position region="1" longitude="-23.227715" latitude="-42.41708"/>
 </recallEffect>
-<recallEffect id="1879445155" name="Muster in Tornhad" probability="0.0" baseFlags="4124">
+<recallEffect id="1879445155" name="Muster in Tornhad" baseFlags="4124">
 <position region="1" longitude="-23.227715" latitude="-42.41708"/>
 </recallEffect>
-<recallEffect id="1879445156" name="Travel to Tornhad" probability="0.0" baseFlags="4124">
+<recallEffect id="1879445156" name="Travel to Tornhad" baseFlags="4124">
 <position region="1" longitude="-23.227715" latitude="-42.41708"/>
 </recallEffect>
 <propertyModEffect id="1879445171" iconId="1090553792" baseFlags="6332"/>
@@ -43380,13 +43380,13 @@
 <initiallyApplied id="1879163414" name="Morale Damage" spellcraft="0.15"/>
 <applied id="1879163414" name="Morale Damage" spellcraft="0.25"/>
 </applyOverTimeEffect>
-<recallEffect id="1879446323" name="Guide to Yondershire" probability="0.0" baseFlags="4124">
+<recallEffect id="1879446323" name="Guide to Yondershire" baseFlags="4124">
 <position region="1" longitude="-78.86704" latitude="-27.02003"/>
 </recallEffect>
-<recallEffect id="1879446324" name="Travel to Yondershire" probability="0.0" baseFlags="4124">
+<recallEffect id="1879446324" name="Travel to Yondershire" baseFlags="4124">
 <position region="1" longitude="-78.86704" latitude="-27.02003"/>
 </recallEffect>
-<recallEffect id="1879446325" name="Muster in Yondershire" probability="0.0" baseFlags="4124">
+<recallEffect id="1879446325" name="Muster in Yondershire" baseFlags="4124">
 <position region="1" longitude="-78.86704" latitude="-27.02003"/>
 </recallEffect>
 <genesis id="1879446472" name=".." appliedDescription="key:621064310:54354734" baseFlags="4127" summonDuration="30.0">
@@ -44501,31 +44501,31 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
-<recallEffect id="1879454273" name="Travel to Andrath" probability="0.0" baseFlags="4124">
+<recallEffect id="1879454273" name="Travel to Andrath" baseFlags="4124">
 <position region="1" longitude="-49.844666" latitude="-37.647617"/>
 </recallEffect>
-<recallEffect id="1879454277" name="Guide to Andrath" probability="0.0" baseFlags="4124">
+<recallEffect id="1879454277" name="Guide to Andrath" baseFlags="4124">
 <position region="1" longitude="-49.844666" latitude="-37.647617"/>
 </recallEffect>
-<recallEffect id="1879454278" name="Muster in Andrath" probability="0.0" baseFlags="4124">
+<recallEffect id="1879454278" name="Muster in Andrath" baseFlags="4124">
 <position region="1" longitude="-49.844666" latitude="-37.647617"/>
 </recallEffect>
-<recallEffect id="1879454886" name="Muster in Cardolan" probability="0.0" baseFlags="4124">
+<recallEffect id="1879454886" name="Muster in Cardolan" baseFlags="4124">
 <position region="1" longitude="-44.72664" latitude="-50.110634"/>
 </recallEffect>
-<recallEffect id="1879454891" name="Guide to Cardolan" probability="0.0" baseFlags="4124">
+<recallEffect id="1879454891" name="Guide to Cardolan" baseFlags="4124">
 <position region="1" longitude="-44.72664" latitude="-50.110634"/>
 </recallEffect>
-<recallEffect id="1879454896" name="Guide to Swanfleet" probability="0.0" baseFlags="4124">
+<recallEffect id="1879454896" name="Guide to Swanfleet" baseFlags="4124">
 <position region="1" longitude="-27.094383" latitude="-55.236317"/>
 </recallEffect>
-<recallEffect id="1879454897" name="Muster in Swanfleet" probability="0.0" baseFlags="4124">
+<recallEffect id="1879454897" name="Muster in Swanfleet" baseFlags="4124">
 <position region="1" longitude="-27.094383" latitude="-55.236317"/>
 </recallEffect>
-<recallEffect id="1879454900" name="Travel to Swanfleet" probability="0.0" baseFlags="4124">
+<recallEffect id="1879454900" name="Travel to Swanfleet" baseFlags="4124">
 <position region="1" longitude="-27.094383" latitude="-55.236317"/>
 </recallEffect>
-<recallEffect id="1879454901" name="Travel to Cardolan" probability="0.0" baseFlags="4124">
+<recallEffect id="1879454901" name="Travel to Cardolan" baseFlags="4124">
 <position region="1" longitude="-44.72664" latitude="-50.110634"/>
 </recallEffect>
 <propertyModEffect id="1879455003" name="DNT - +5 Max Wrath" iconId="1091941779" baseFlags="6284">
@@ -46198,13 +46198,13 @@
 <effect id="1879460417" name="DNT - Random Tower Teleport" baseFlags="4124"/>
 <effect id="1879460420" name="DNT - Random Tower Teleport" baseFlags="4124"/>
 <propertyModEffect id="1879460548" iconId="1090553792" baseFlags="6332"/>
-<recallEffect id="1879460551" name="Guide to Carn Dûm" probability="0.0" baseFlags="4124">
+<recallEffect id="1879460551" name="Guide to Carn Dûm" baseFlags="4124">
 <position region="1" longitude="-27.748837" latitude="70.194786"/>
 </recallEffect>
-<recallEffect id="1879460556" name="Travel to Carn Dûm" probability="0.0" baseFlags="4124">
+<recallEffect id="1879460556" name="Travel to Carn Dûm" baseFlags="4124">
 <position region="1" longitude="-27.748837" latitude="70.194786"/>
 </recallEffect>
-<recallEffect id="1879460557" name="Muster in Carn Dûm" probability="0.0" baseFlags="4124">
+<recallEffect id="1879460557" name="Muster in Carn Dûm" baseFlags="4124">
 <position region="1" longitude="-27.748837" latitude="70.194786"/>
 </recallEffect>
 <genesis id="1879460861" name="Create Training Dummy, No Defences" appliedDescription="key:621073978:54354734" baseFlags="4126" summonDuration="300.0">
@@ -46425,13 +46425,13 @@
 <procEffect id="1879461679" name="Mighty Restorer" descriptionOverride="key:621074511:62991877" iconId="1092812635" baseFlags="6276" skillTypes="35" procProbability="0.1" cooldown="10.0">
 <effect id="1879461670" name="Mighty Restorer"/>
 </procEffect>
-<recallEffect id="1879461705" name="Travel to Clegur" probability="0.0" baseFlags="4124">
+<recallEffect id="1879461705" name="Travel to Clegur" baseFlags="4124">
 <position region="1" longitude="-29.328691" latitude="-64.91648"/>
 </recallEffect>
-<recallEffect id="1879461706" name="Guide to Clegur" probability="0.0" baseFlags="4124">
+<recallEffect id="1879461706" name="Guide to Clegur" baseFlags="4124">
 <position region="1" longitude="-29.328691" latitude="-64.91648"/>
 </recallEffect>
-<recallEffect id="1879461710" name="Muster in Clegur" probability="0.0" baseFlags="4124">
+<recallEffect id="1879461710" name="Muster in Clegur" baseFlags="4124">
 <position region="1" longitude="-29.328691" latitude="-64.91648"/>
 </recallEffect>
 <instantVitalEffect id="1879461725" name="Swift Power" baseFlags="4124" stat="Power_MaxLevel">
@@ -47001,13 +47001,13 @@
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="1.35"/>
 <specialEffect label="key:621075911:106251889"/>
 </propertyModEffect>
-<recallEffect id="1879464173" name="Guide to Pelargir" probability="0.0" baseFlags="4124">
+<recallEffect id="1879464173" name="Guide to Pelargir" baseFlags="4124">
 <position region="4" longitude="-34.82949" latitude="-82.990265"/>
 </recallEffect>
-<recallEffect id="1879464174" name="Muster in Pelargir" probability="0.0" baseFlags="4124">
+<recallEffect id="1879464174" name="Muster in Pelargir" baseFlags="4124">
 <position region="4" longitude="-34.82949" latitude="-82.990265"/>
 </recallEffect>
-<recallEffect id="1879464175" name="Travel to Pelargir" probability="0.0" baseFlags="4124">
+<recallEffect id="1879464175" name="Travel to Pelargir" baseFlags="4124">
 <position region="4" longitude="-34.82949" latitude="-82.990265"/>
 </recallEffect>
 <propertyModEffect id="1879464293" name="Shield of the Witch-queen" appliedDescription="key:621076045:54354734" iconId="1090539325" baseFlags="2488"/>
@@ -47598,20 +47598,20 @@
 <induceCombatState id="1879466169" name="Induce Stunned" baseFlags="4127" state="15" stateDuration="2.0"/>
 <induceCombatState id="1879466171" name="Induce Stunned" baseFlags="4127" state="15" stateDuration="5.0"/>
 <induceCombatState id="1879466172" name="Induce Feared" baseFlags="4127" state="2" stateDuration="10.0" gracePeriod="1.0"/>
-<recallEffect id="1879466218" name="Sail to the Brown Lands" probability="0.0" baseFlags="4124">
+<recallEffect id="1879466218" name="Sail to the Brown Lands" baseFlags="4124">
 <position region="2" longitude="-52.205624" latitude="-30.90452"/>
 </recallEffect>
-<recallEffect id="1879466219" name="Sail to Buckland" probability="0.0" baseFlags="4124">
+<recallEffect id="1879466219" name="Sail to Buckland" baseFlags="4124">
 <position region="1" longitude="-62.77712" latitude="-31.852821"/>
 </recallEffect>
-<recallEffect id="1879466223" name="Sail to Celondim" probability="0.0" baseFlags="4124">
+<recallEffect id="1879466223" name="Sail to Celondim" baseFlags="4124">
 <position region="1" longitude="-92.06287" latitude="-28.214863"/>
 </recallEffect>
-<recallEffect id="1879466231" name="Sail to Sarn Ford" probability="0.0" baseFlags="4124">
+<recallEffect id="1879466231" name="Sail to Sarn Ford" baseFlags="4124">
 <position region="1" longitude="-40.249706" latitude="-54.254314"/>
 </recallEffect>
 <effect id="1879466233" name="Balance - Steady" iconId="1090523647" baseFlags="6284"/>
-<recallEffect id="1879466234" name="Sail to Lothlórien" probability="0.0" baseFlags="4124">
+<recallEffect id="1879466234" name="Sail to Lothlórien" baseFlags="4124">
 <position region="2" longitude="-64.5818" latitude="-17.58541"/>
 </recallEffect>
 <propertyModEffect id="1879466235" name="Steady" iconId="1092825093" duration="10.0" durationMods="268464101" baseFlags="4492">
@@ -48453,7 +48453,7 @@
 <fellowshipEffect id="1879469359" name="DNT - Aid the Assault AoE heal" baseFlags="4124" applyToRaidGroups="true" applyToTarget="true" stringOverride="key:621080330:106620912" range="20.0">
 <effect id="1879318338" name="Aid the Assault"/>
 </fellowshipEffect>
-<recallEffect id="1879469360" name="River Hobbit Travel to Lyndelby" probability="0.0" baseFlags="4124">
+<recallEffect id="1879469360" name="River Hobbit Travel to Lyndelby" baseFlags="4124">
 <position region="2" longitude="-65.48695" latitude="26.519188"/>
 </recallEffect>
 <fellowshipEffect id="1879469363" name="Elusive Catch" baseFlags="4124" applyToTarget="true" range="20.0">
@@ -48688,31 +48688,31 @@
 <comboEffect id="1879474953" name="DNT" baseFlags="4127">
 <toAddIfPresent id="1879474951" name="Debilitating Counter"/>
 </comboEffect>
-<recallEffect id="1879474968" name="Sail to Forochel" probability="0.0" baseFlags="4124">
+<recallEffect id="1879474968" name="Sail to Forochel" baseFlags="4124">
 <position region="1" longitude="-70.2618" latitude="19.055195"/>
 </recallEffect>
-<recallEffect id="1879474969" name="Sail to Trader's Wharf" probability="0.0" baseFlags="4124">
+<recallEffect id="1879474969" name="Sail to Trader's Wharf" baseFlags="4124">
 <position region="1" longitude="-61.43493" latitude="-21.313427"/>
 </recallEffect>
-<recallEffect id="1879474970" name="Sail to Dol Amroth" probability="0.0" baseFlags="4124">
+<recallEffect id="1879474970" name="Sail to Dol Amroth" baseFlags="4124">
 <position region="3" longitude="-69.81865" latitude="-75.65264"/>
 </recallEffect>
-<recallEffect id="1879474971" name="Sail to Mirk-eaves" probability="0.0" baseFlags="4124">
+<recallEffect id="1879474971" name="Sail to Mirk-eaves" baseFlags="4124">
 <position region="2" longitude="-61.24568" latitude="-15.295977"/>
 </recallEffect>
-<recallEffect id="1879474972" name="Sail to East Rohan" probability="0.0" baseFlags="4124">
+<recallEffect id="1879474972" name="Sail to East Rohan" baseFlags="4124">
 <position region="2" longitude="-61.29196" latitude="-60.486717"/>
 </recallEffect>
-<recallEffect id="1879474973" name="Sail to Dale" probability="0.0" baseFlags="4124">
+<recallEffect id="1879474973" name="Sail to Dale" baseFlags="4124">
 <position region="2" longitude="-27.566952" latitude="17.139452"/>
 </recallEffect>
-<recallEffect id="1879474974" name="Sail to after-battle Osgiliath" probability="0.0" baseFlags="4124">
+<recallEffect id="1879474974" name="Sail to after-battle Osgiliath" baseFlags="4124">
 <position region="4" longitude="-6.4909277" latitude="-63.02044"/>
 </recallEffect>
-<recallEffect id="1879474975" name="Sail to Pelargir" probability="0.0" baseFlags="4124">
+<recallEffect id="1879474975" name="Sail to Pelargir" baseFlags="4124">
 <position region="4" longitude="-34.779667" latitude="-84.71559"/>
 </recallEffect>
-<recallEffect id="1879474976" name="Sail to Evendim" probability="0.0" baseFlags="4124">
+<recallEffect id="1879474976" name="Sail to Evendim" baseFlags="4124">
 <position region="1" longitude="-67.53032" latitude="-12.594209"/>
 </recallEffect>
 <procEffect id="1879474979" name="DNT - Crits move balance fore" appliedDescription="key:621084552:54354734" iconId="1090552382" baseFlags="2184" skillTypes="4" cooldown="1.0">
@@ -48751,70 +48751,70 @@
 <stat name="AGILITY" operator="SUBSTRACT" scaling="1879211976"/>
 <stat name="WILL" operator="SUBSTRACT" scaling="1879211978"/>
 </propertyModEffect>
-<recallEffect id="1879475935" name="Sail to Dol Umbar" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475935" name="Sail to Dol Umbar" baseFlags="4124">
 <position region="5" longitude="-98.45025" latitude="-19.956356"/>
 </recallEffect>
-<recallEffect id="1879475936" name="Travel to the Order of the Eagle" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475936" name="Travel to the Order of the Eagle" baseFlags="4124">
 <position region="5" longitude="-96.51584" latitude="-20.123466"/>
 </recallEffect>
-<recallEffect id="1879475937" name="Travel to Jax Phanâl" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475937" name="Travel to Jax Phanâl" baseFlags="4124">
 <position region="5" longitude="-114.68099" latitude="-14.458066"/>
 </recallEffect>
-<recallEffect id="1879475939" name="Guide to Dol Amroth" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475939" name="Guide to Dol Amroth" baseFlags="4124">
 <position region="4" longitude="-72.441505" latitude="-75.45934"/>
 </recallEffect>
-<recallEffect id="1879475940" name="Muster in Lond Cirion" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475940" name="Muster in Lond Cirion" baseFlags="4124">
 <position region="4" longitude="-88.844864" latitude="-68.977325"/>
 </recallEffect>
-<recallEffect id="1879475941" name="Sail to Lond Cirion" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475941" name="Sail to Lond Cirion" baseFlags="4124">
 <position region="4" longitude="-89.79957" latitude="-69.66798"/>
 </recallEffect>
-<recallEffect id="1879475943" name="Guide to Lond Cirion" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475943" name="Guide to Lond Cirion" baseFlags="4124">
 <position region="4" longitude="-88.844864" latitude="-68.977325"/>
 </recallEffect>
-<recallEffect id="1879475944" name="Muster in Umbar" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475944" name="Muster in Umbar" baseFlags="4124">
 <position region="5" longitude="-100.72491" latitude="-18.468252"/>
 </recallEffect>
-<recallEffect id="1879475945" name="Muster in Halrax" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475945" name="Muster in Halrax" baseFlags="4124">
 <position region="5" longitude="-126.81104" latitude="-9.6792965"/>
 </recallEffect>
-<recallEffect id="1879475946" name="Sail to Halrax" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475946" name="Sail to Halrax" baseFlags="4124">
 <position region="5" longitude="-126.81104" latitude="-9.6792965"/>
 </recallEffect>
-<recallEffect id="1879475948" name="Travel to Lond Cirion" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475948" name="Travel to Lond Cirion" baseFlags="4124">
 <position region="4" longitude="-88.844864" latitude="-68.977325"/>
 </recallEffect>
-<recallEffect id="1879475949" name="Guide to Halrax" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475949" name="Guide to Halrax" baseFlags="4124">
 <position region="5" longitude="-126.81104" latitude="-9.6792965"/>
 </recallEffect>
-<recallEffect id="1879475950" name="Sail to Jax Phanâl" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475950" name="Sail to Jax Phanâl" baseFlags="4124">
 <position region="5" longitude="-114.68099" latitude="-14.458066"/>
 </recallEffect>
-<recallEffect id="1879475951" name="Muster in Dol Amroth" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475951" name="Muster in Dol Amroth" baseFlags="4124">
 <position region="4" longitude="-72.441505" latitude="-75.45934"/>
 </recallEffect>
-<recallEffect id="1879475952" name="Travel to the Ledger-keepers" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475952" name="Travel to the Ledger-keepers" baseFlags="4124">
 <position region="5" longitude="-98.31304" latitude="-17.3692"/>
 </recallEffect>
-<recallEffect id="1879475953" name="Travel to Dol Amroth" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475953" name="Travel to Dol Amroth" baseFlags="4124">
 <position region="4" longitude="-72.441505" latitude="-75.45934"/>
 </recallEffect>
-<recallEffect id="1879475954" name="Travel to Halrax" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475954" name="Travel to Halrax" baseFlags="4124">
 <position region="5" longitude="-126.81104" latitude="-9.6792965"/>
 </recallEffect>
-<recallEffect id="1879475955" name="Guide to Jax Phanâl" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475955" name="Guide to Jax Phanâl" baseFlags="4124">
 <position region="5" longitude="-114.68099" latitude="-14.458066"/>
 </recallEffect>
-<recallEffect id="1879475957" name="Sail to Dol Amroth" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475957" name="Sail to Dol Amroth" baseFlags="4124">
 <position region="4" longitude="-69.37153" latitude="-74.841866"/>
 </recallEffect>
-<recallEffect id="1879475958" name="Guide to Umbar" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475958" name="Guide to Umbar" baseFlags="4124">
 <position region="5" longitude="-100.72491" latitude="-18.468252"/>
 </recallEffect>
-<recallEffect id="1879475959" name="Travel to Umbar" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475959" name="Travel to Umbar" baseFlags="4124">
 <position region="5" longitude="-100.72491" latitude="-18.468252"/>
 </recallEffect>
-<recallEffect id="1879475960" name="Muster in Jax Phanâl" probability="0.0" baseFlags="4124">
+<recallEffect id="1879475960" name="Muster in Jax Phanâl" baseFlags="4124">
 <position region="5" longitude="-114.68099" latitude="-14.458066"/>
 </recallEffect>
 <travelEffect id="1879476078" name="DNT - Umbar" baseFlags="4124" sceneID="1879475264">
@@ -49087,13 +49087,13 @@
 <propertyModEffect id="1879479512" name="Claustrophobic Horror" appliedDescription="key:621087936:54354734" iconId="1090524461" duration="12.0" baseFlags="4543">
 <stat name="Mood_Healing_Modifier" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
-<recallEffect id="1879480299" name="Muster to the Bloody Eagle Tavern" probability="0.0" baseFlags="4124">
+<recallEffect id="1879480299" name="Muster to the Bloody Eagle Tavern" baseFlags="4124">
 <position region="5" longitude="54.93951" latitude="73.78045"/>
 </recallEffect>
-<recallEffect id="1879480302" name="Guide to the Bloody Eagle Tavern" probability="0.0" baseFlags="4124">
+<recallEffect id="1879480302" name="Guide to the Bloody Eagle Tavern" baseFlags="4124">
 <position region="5" longitude="54.93951" latitude="73.78045"/>
 </recallEffect>
-<recallEffect id="1879480304" name="Travel to the Bloody Eagle Tavern" probability="0.0" baseFlags="4124">
+<recallEffect id="1879480304" name="Travel to the Bloody Eagle Tavern" baseFlags="4124">
 <position region="5" longitude="54.93951" latitude="73.78045"/>
 </recallEffect>
 <propertyModEffect id="1879480323" name="Fortifying Weapon Polish" appliedDescription="key:621088275:54354734" iconId="1091537619" duration="300.0" baseFlags="4540">
@@ -51497,13 +51497,13 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
-<recallEffect id="1879484861" name="Guide to the Ledger-keepers" probability="0.0" baseFlags="4124">
+<recallEffect id="1879484861" name="Guide to the Ledger-keepers" baseFlags="4124">
 <position region="5" longitude="-105.7334" latitude="-19.91836"/>
 </recallEffect>
-<recallEffect id="1879484864" name="Muster to the Ledger-keepers" probability="0.0" baseFlags="4124">
+<recallEffect id="1879484864" name="Muster to the Ledger-keepers" baseFlags="4124">
 <position region="5" longitude="-105.7334" latitude="-19.91836"/>
 </recallEffect>
-<recallEffect id="1879484867" name="Travel to the Ledger-keepers" probability="0.0" baseFlags="4124">
+<recallEffect id="1879484867" name="Travel to the Ledger-keepers" baseFlags="4124">
 <position region="5" longitude="-105.7334" latitude="-19.91836"/>
 </recallEffect>
 <genesis id="1879484873" name=".." appliedDescription="key:621091850:54354734" baseFlags="4126" summonDuration="60.0">
@@ -51540,10 +51540,10 @@
 <areaEffect id="1879485156" name="DNT - applies effect to friendlies" baseFlags="4124" flags="4" range="7.0" maxTargets="50">
 <effect id="1879481656" name="Major Heal"/>
 </areaEffect>
-<recallEffect id="1879485171" name="Lugazag Tower: Interior" appliedDescription="key:621092059:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879485171" name="Lugazag Tower: Interior" appliedDescription="key:621092059:54354734" baseFlags="4124">
 <position region="1" longitude="-20.158241" latitude="-15.149325"/>
 </recallEffect>
-<recallEffect id="1879485173" name="Tirîth Rhaw Tower: Interior" appliedDescription="key:621092063:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879485173" name="Tirîth Rhaw Tower: Interior" appliedDescription="key:621092063:54354734" baseFlags="4124">
 <position region="1" longitude="-14.298213" latitude="-17.722754"/>
 </recallEffect>
 <countdownEffect id="1879485180" name="Arrows Overhead" iconId="1090553936" duration="2.0" pulseCount="1" baseFlags="4287">
@@ -51784,10 +51784,10 @@
 <effect id="1879486053" name="DNT - Flame-beak Caller[v]" baseFlags="4124"/>
 <effect id="1879486054" name="DNT - Herald of Hope (Umbari Guardswoman)" baseFlags="4124"/>
 <effect id="1879486055" name="DNT - Young Swamp-guardian[e]" baseFlags="4124"/>
-<recallEffect id="1879486241" name="Tirîth Rhaw Tower: Interior" appliedDescription="key:621092717:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879486241" name="Tirîth Rhaw Tower: Interior" appliedDescription="key:621092717:54354734" baseFlags="4124">
 <position region="1" longitude="-14.218232" latitude="-17.707245"/>
 </recallEffect>
-<recallEffect id="1879486250" name="Lugazag Tower: Interior" appliedDescription="key:621092718:54354734" probability="0.0" baseFlags="4124">
+<recallEffect id="1879486250" name="Lugazag Tower: Interior" appliedDescription="key:621092718:54354734" baseFlags="4124">
 <position region="1" longitude="-20.235975" latitude="-15.211474"/>
 </recallEffect>
 <propertyModEffect id="1879486468" iconId="1090553792" baseFlags="6332"/>
