@@ -537,7 +537,7 @@
 </trait>
 <trait identifier="1879072447" name="Steelweave Webs" iconId="1090553280" category="43" nature="3" tooltip="key:620774695:191029568" description="key:620774695:54354734">
 <stat name="EffectMod_Duration_Trait_MP_SnaringWeb" descriptionOverride="key:620774695:106251889" constant="15.0"/>
-<specialEffect label="key:620774695:106251890"/>
+<stat name="ForwardSource_Combat_TraitCombo" operator="SET" descriptionOverride="key:620774695:106251890" value="e49"/>
 </trait>
 <trait identifier="1879072448" name="Enhanced Skill: Clinging Webs" iconId="1090553281" category="43" nature="3" tooltip="key:620774696:191029568" description="key:620774696:54354734">
 <effectGenerator id="1879244330" name="Improved Clinging Webs" spellcraft="0.0"/>
@@ -699,7 +699,7 @@
 <stat name="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" constant="5.0"/>
 </trait>
 <trait identifier="1879072492" name="Shadow Fang" iconId="1090553324" category="43" nature="3" tooltip="key:620774755:191029568" description="key:620774755:54354734">
-<specialEffect label="Set damage type of all skills to Shadow"/>
+<stat name="Skill_DamageTypeOverride_AllSkillsOverride" operator="SET" value="e32"/>
 </trait>
 <trait identifier="1879072493" name="Enhanced Skill: Stealth" iconId="1090553325" category="43" nature="3" tooltip="key:620774756:191029568" description="key:620774756:54354734">
 <stat name="STEALTH_LEVEL" constant="7.0"/>
@@ -1818,7 +1818,7 @@
 <effectGenerator id="1879136836" name="Improved Death Blossom" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879136833" name="Enhanced Skill: Gash" iconId="1091472330" category="43" nature="3" tooltip="key:620828049:191029568" description="key:620828049:54354734">
-<specialEffect label="key:620828049:106251889"/>
+<stat name="ForwardSource_Combat_TraitCombo" operator="SET" descriptionOverride="key:620828049:106251889" value="e86"/>
 <stat name="Skill_ChanceCriticalHit_ChampionStrikesMod" descriptionOverride="key:620828049:106251890" constant="25.0"/>
 </trait>
 <trait identifier="1879136835" name="Enhanced Skill: Headshot" iconId="1091472333" category="43" nature="3" tooltip="key:620828048:191029568" description="key:620828048:54354734">
@@ -3166,6 +3166,7 @@
 <group code="7" name="Hatchling"/>
 </trait>
 <trait identifier="1879201534" name="Enhanced Skill: Efflorescence" iconId="1091755050" category="43" nature="3" tooltip="key:620874160:191029568" description="key:620874160:54354734">
+<stat name="ForwardSource_Combat_TraitCombo" operator="SET" descriptionOverride="-" value="e109"/>
 <stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" descriptionOverride="-" constant="15.000001"/>
 </trait>
 <trait identifier="1879201575" name="Lead the Charge!" iconId="1091631125" category="43" nature="3" tooltip="key:620874189:191029568" description="key:620874189:54354734">
