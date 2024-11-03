@@ -1834,7 +1834,7 @@
 <effectGenerator id="1879138053" name="Improved Hamstring" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879138052" name="Enhanced Skill: Upper Hand" iconId="1091472682" category="43" nature="3" tooltip="key:620828586:191029568" description="key:620828586:54354734">
-<specialEffect label="key:620828586:106251889"/>
+<stat name="EffectMod_DamageMultiplier_Trait_MP_StrongPoison" operator="SET" descriptionOverride="key:620828586:106251889" constant="0.0"/>
 <specialEffect label="key:620828586:106251890"/>
 <effectGenerator id="1879138327" name="Improved Upper Hand" spellcraft="0.0"/>
 </trait>
@@ -3270,7 +3270,7 @@
 <group code="7" name="Hatchling"/>
 </trait>
 <trait identifier="1879211599" name="Power of Fear" iconId="1091657493" category="43" nature="3" tooltip="key:620881209:191029568" description="key:620881209:54354734">
-<specialEffect label="key:620881209:106251889"/>
+<stat name="EffectMod_DamageMultiplier_Trait_MP_StrongPoison" operator="SET" descriptionOverride="key:620881209:106251889" constant="0.0"/>
 <effectGenerator id="1879211530" name="Power of Fear" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879211910" name="Enhanced Skill: Disappear" iconId="1091679753" category="43" nature="3" tooltip="key:620881360:191029568" description="key:620881360:54354734">
@@ -7946,6 +7946,7 @@
 </trait>
 <trait identifier="1879279066" name="Vanguard Rank 5" iconId="1091834310" nature="30" tooltip="key:620928250:191029568" description="key:620928250:54354734">
 <stat name="BigBattle_Adv_Vanguard_Refund_B" operator="SET" descriptionOverride="-" constant="0.05"/>
+<stat name="BigBattle_Adv_Vanguard_Refund_A" operator="SET" descriptionOverride="-" constant="0.0"/>
 <stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration" descriptionOverride="key:620928250:106251891" constant="2.0"/>
 <stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration_Pulse" descriptionOverride="-" constant="1.0"/>
 <specialEffect label="key:620928250:106251893"/>
