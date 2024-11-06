@@ -1909,9 +1909,6 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </consumable>
-<consumable identifier="1879115750" name="Amber Ring">
-<stat name="VITALITY" constant="17.2"/>
-</consumable>
 <consumable identifier="1879118642" name="Bracelet of Fleetness">
 <stat name="AGILITY" constant="19.206896"/>
 </consumable>
@@ -2133,9 +2130,6 @@
 <stat name="Inventory_AppearanceOverrideItem" operator="SET" descriptionOverride="key:620818771:106251889" value="1879138331L"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(13)"/>
 </consumable>
-<consumable identifier="1879134347" name="Jubut-rud">
-<stat name="WILL" constant="12.724138"/>
-</consumable>
 <consumable identifier="1879134356" name="Lethal-edge">
 <stat name="VITALITY" constant="8.8"/>
 </consumable>
@@ -2159,10 +2153,6 @@
 </consumable>
 <consumable identifier="1879140048" name="Naudh-caer">
 <stat name="MORALE" constant="56.0"/>
-</consumable>
-<consumable identifier="1879140320" name="Beaded Crystal Earring">
-<stat name="Resist_Additional_Resistance_Disease" constant="15.000001"/>
-<stat name="RESISTANCE" constant="250.0"/>
 </consumable>
 <consumable identifier="1879140364" name="Spicy Toad Biscuit">
 <stat name="ICPR" constant="2400.0"/>
@@ -2192,9 +2182,6 @@
 <stat name="ACID_MITIGATION" constant="63.0"/>
 <stat name="Combat_Agent_Armor_Value_Float" constant="104.5"/>
 <stat name="PERCEIVED_THREAT" constant="15.000001"/>
-</consumable>
-<consumable identifier="1879143198" name="Jofur-klath">
-<stat name="VITALITY" constant="10.0"/>
 </consumable>
 <consumable identifier="1879143217" name="Bow Chant: Shield-bane">
 <stat name="Skill_ChanceBlock_RangedMod" constant="-2.0"/>
@@ -2494,18 +2481,6 @@
 </consumable>
 <consumable identifier="1879151453" name="Lórien Sharpening Stone">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
-</consumable>
-<consumable identifier="1879152079" name="Randirchol">
-<stat name="POWER" constant="11.0"/>
-</consumable>
-<consumable identifier="1879152094" name="Túrchol">
-<stat name="WILL" constant="30.068966"/>
-</consumable>
-<consumable identifier="1879152097" name="Cururingor">
-<stat name="MORALE" constant="112.0"/>
-</consumable>
-<consumable identifier="1879152111" name="Curuthigil">
-<stat name="MIGHT" constant="30.068966"/>
 </consumable>
 <consumable identifier="1879152130" name="Cuguru">
 <stat name="MORALE" constant="56.0"/>
@@ -6942,14 +6917,14 @@
 <stat name="Craft_ExecutionTime_Override" operator="SET" descriptionOverride="key:620906623:106251889" constant="0.5"/>
 </consumable>
 <consumable identifier="1879388514" name="Special Honey-roll">
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="key:621020934:106251889" scaling="1879388518"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" scaling="1879388515"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" scaling="1879388516"/>
-<stat name="OUTGOING_HEALING_PERCENTAGE" scaling="1879388517"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="key:621020934:106251889" constant="3.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="5.0"/>
 </consumable>
 <consumable identifier="1879388686" name="Scroll of Beorn's Guard">
-<stat name="PHYSICAL_MITIGATION_PERCENTAGE" scaling="1879388689"/>
-<stat name="TACTICAL_MITIGATION_PERCENTAGE" scaling="1879388690"/>
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="0.5"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="0.5"/>
 </consumable>
 <consumable identifier="1879394086" name="Pot of Minas Ithil Honey and Oats">
 <stat name="FIRE_MITIGATION" constant="5700.0"/>
@@ -7128,20 +7103,14 @@
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 </consumable>
 <consumable identifier="1879397159" name="Ithilharn Roll">
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="key:621026892:106251889" scaling="1879397153"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" scaling="1879397156"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" scaling="1879397151"/>
-<stat name="OUTGOING_HEALING_PERCENTAGE" scaling="1879397160"/>
-<stat name="PHYSICAL_MITIGATION_PERCENTAGE" scaling="1879397155"/>
-<stat name="TACTICAL_MITIGATION_PERCENTAGE" scaling="1879397152"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="key:621026892:106251889" constant="5.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="5.0"/>
 </consumable>
 <consumable identifier="1879397271" name="Scroll of the Minas Ithil Guard">
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="key:621026894:106251889" scaling="1879397153"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" scaling="1879397156"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" scaling="1879397151"/>
-<stat name="OUTGOING_HEALING_PERCENTAGE" scaling="1879397160"/>
-<stat name="PHYSICAL_MITIGATION_PERCENTAGE" scaling="1879397155"/>
-<stat name="TACTICAL_MITIGATION_PERCENTAGE" scaling="1879397152"/>
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" descriptionOverride="key:621026894:106251889" constant="1.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
 </consumable>
 <consumable identifier="1879398704" name="Bow Chant: Gundabad Shield-bane">
 <stat name="Skill_ChanceBlock_RangedMod" constant="-2.0"/>
@@ -7882,5 +7851,8 @@
 <stat name="HOPE" constant="3.0"/>
 <stat name="SHADOW_MITIGATION" constant="272.55173"/>
 <stat name="Resist_AdditionalPoints_Resistance_Fear" constant="735.5172"/>
+</consumable>
+<consumable identifier="1879496669" name="Forgotten Fountain">
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 </consumable>
 </consumables>

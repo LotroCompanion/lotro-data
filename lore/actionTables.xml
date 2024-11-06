@@ -1796,12 +1796,12 @@
 <action skillId="1879052663" name="a melee double attack"/>
 </actionTableEntry>
 <actionTableEntry probability="25.0" requiredHints="9" disallowedHints="26,28,29,35">
-<action skillId="1879052679" name="Induction Enter Invulnerability State" recovery="2.0"/>
+<action skillId="1879492406" name="Submerging..." recovery="2.0"/>
 <action skillId="1879052680" name="Exit Invulnerability State"/>
 <action skillId="1879052681" name="Shadow Burst"/>
 </actionTableEntry>
 <actionTableEntry probability="25.0" disallowedHints="9,26,29,35">
-<action skillId="1879052679" name="Induction Enter Invulnerability State" recovery="2.0"/>
+<action skillId="1879492406" name="Submerging..." recovery="2.0"/>
 <action skillId="1879052680" name="Exit Invulnerability State"/>
 <action skillId="1879052681" name="Shadow Burst"/>
 </actionTableEntry>
@@ -1976,7 +1976,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879073196" name="Distraction"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879421653" name="Fear No Darkness"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="43">
@@ -2019,7 +2019,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879073221" name="Shatter Arms"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879073219" name="Roaring Challenge"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="43">
@@ -2094,12 +2094,12 @@
 <action skillId="1879077393" name="Water Burst"/>
 </actionTableEntry>
 <actionTableEntry probability="25.0" requiredHints="9" disallowedHints="26,28,29,35">
-<action skillId="1879052679" name="Induction Enter Invulnerability State" recovery="2.0"/>
+<action skillId="1879492406" name="Submerging..." recovery="2.0"/>
 <action skillId="1879052680" name="Exit Invulnerability State"/>
 <action skillId="1879052681" name="Shadow Burst"/>
 </actionTableEntry>
 <actionTableEntry probability="25.0" disallowedHints="9,26,29,35">
-<action skillId="1879052679" name="Induction Enter Invulnerability State" recovery="2.0"/>
+<action skillId="1879492406" name="Submerging..." recovery="2.0"/>
 <action skillId="1879052680" name="Exit Invulnerability State"/>
 <action skillId="1879052681" name="Shadow Burst"/>
 </actionTableEntry>
@@ -3550,20 +3550,20 @@
 <action skillId="1879076097" name="a mighty ranged attack"/>
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="30.0" disallowedHints="26" cooldownChannel="22">
-<action skillId="1879061553" name="Enter Invulnerability State" recovery="2.0"/>
+<action skillId="1879492406" name="Submerging..." recovery="2.0"/>
 <action skillId="1879052681" name="Shadow Burst" recovery="0.0"/>
 <action skillId="1879052681" name="Shadow Burst" recovery="0.0"/>
 <action skillId="1879052681" name="Shadow Burst" recovery="0.0"/>
 <action skillId="1879052680" name="Exit Invulnerability State"/>
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="30.0" disallowedHints="26" cooldownChannel="22">
-<action skillId="1879061553" name="Enter Invulnerability State" recovery="2.0"/>
+<action skillId="1879492406" name="Submerging..." recovery="2.0"/>
 <action skillId="1879092796" name="Dripping Hands" recovery="0.0"/>
 <action skillId="1879052680" name="Exit Invulnerability State" recovery="0.0"/>
 <action skillId="1879052681" name="Shadow Burst"/>
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="30.0" disallowedHints="26" cooldownChannel="22">
-<action skillId="1879061553" name="Enter Invulnerability State" recovery="2.0"/>
+<action skillId="1879492406" name="Submerging..." recovery="2.0"/>
 <action skillId="1879092797" name="Dark Cyclone" recovery="0.0"/>
 <action skillId="1879052680" name="Exit Invulnerability State" recovery="0.0"/>
 <action skillId="1879052681" name="Shadow Burst"/>
@@ -3908,7 +3908,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879489156" name="Razor Claws"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879096874" name="Feral Strike"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="43">
@@ -5967,7 +5967,7 @@
 <actionTableEntry probability="-1.0" disallowedHints="26" cooldownChannel="22">
 <action skillId="1879077435" name="Burning Oil"/>
 </actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="30.0">
+<actionTableEntry probability="50.0" cooldown="20.0">
 <action skillId="1879077436" name="Fire Gourd"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" requiredHints="29">
@@ -5991,13 +5991,13 @@
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879110903">
-<actionTableEntry probability="25.0" cooldown="30.0" targetCooldown="60.0">
+<actionTableEntry probability="50.0" cooldown="15.0" targetCooldown="20.0">
 <action skillId="1879051267" name="Forceful Slash"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" disallowedHints="26,27">
 <action skillId="1879051268" name="Frenzy"/>
 </actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="45.0" targetCooldown="60.0">
+<actionTableEntry probability="50.0" cooldown="30.0" targetCooldown="60.0">
 <action skillId="1879051269" name="Intimidating Roar"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="15.0" requiredHints="84" targetCooldown="45.0">
@@ -6009,7 +6009,7 @@
 <actionTableEntry probability="50.0" cooldown="60.0">
 <action skillId="1879051270" name="Aura of Command"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="26" targetRequiredHints="15" targetDisallowedHints="29">
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="26" targetRequiredHints="15">
 <action skillId="1879110908" name="Blood Letting"/>
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="5.0" requiredHints="14" cooldownChannel="22">
@@ -6232,10 +6232,10 @@
 <actionTableEntry probability="-1.0" targetCooldown="5.0" targetRequiredHints="38" targetDisallowedHints="26">
 <action skillId="1879112626" name="Heal the Beasts"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="14" cooldownChannel="22">
+<actionTableEntry probability="-1.0" cooldown="10.0" requiredHints="14" cooldownChannel="22">
 <action skillId="1879112625" name="Fire Nova"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="30.0" disallowedHints="14,26" cooldownChannel="22">
+<actionTableEntry probability="75.0" cooldown="20.0" disallowedHints="14,26" cooldownChannel="22">
 <action skillId="1879112625" name="Fire Nova"/>
 </actionTableEntry>
 </actionTable>
@@ -6418,10 +6418,10 @@
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879113628">
-<actionTableEntry probability="75.0" cooldown="30.0" targetCooldown="45.0">
+<actionTableEntry probability="75.0" cooldown="20.0" targetCooldown="35.0">
 <action skillId="1879113625" name="Cry of the Wild"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="30.0" requiredHints="17">
+<actionTableEntry probability="75.0" cooldown="20.0" requiredHints="17">
 <action skillId="1879113627" name="Wrath of the Chorus"/>
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="20.0" requiredHints="18" targetCooldown="40.0">
@@ -6900,7 +6900,7 @@
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879116423">
-<actionTableEntry probability="75.0" cooldown="30.0" targetCooldown="60.0">
+<actionTableEntry probability="75.0" cooldown="10.0" targetCooldown="15.0">
 <action skillId="1879051267" name="Forceful Slash"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" disallowedHints="26,27">
@@ -6991,19 +6991,19 @@
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879117696">
-<actionTableEntry probability="75.0" cooldown="20.0" targetCooldown="30.0">
+<actionTableEntry probability="75.0" cooldown="15.0" targetCooldown="30.0">
 <action skillId="1879117467" name="Ignite"/>
 </actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="10.0">
+<actionTableEntry probability="50.0" cooldown="5.0">
 <action skillId="1879076098" name="a melee double attack"/>
 </actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="10.0">
+<actionTableEntry probability="50.0" cooldown="3.0">
 <action skillId="1879097726" name="a weak swipe attack"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="30.0">
 <action skillId="1879117466" name="Fire Shield"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="45.0" targetCooldown="60.0">
+<actionTableEntry probability="-1.0" cooldown="30.0" targetCooldown="60.0">
 <action skillId="1879117468" name="Lava Spot"/>
 </actionTableEntry>
 </actionTable>
@@ -7045,6 +7045,9 @@
 </actionTableEntry>
 <actionTableEntry probability="-1.0" requiredHints="18">
 <action skillId="1879116361" name="Unbound Rage"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="20.0" targetCooldown="30.0" targetDisallowedHints="163">
+<action skillId="1879116357" name="Grind to Dust"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879117699">
@@ -8171,7 +8174,7 @@
 <actionTableEntry probability="75.0" cooldown="5.0">
 <action skillId="1879132481" name="Triple Impale"/>
 </actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="45.0" disallowedHints="20">
+<actionTableEntry probability="-1.0" cooldown="45.0" disallowedHints="20">
 <action skillId="1879132477" name="Bleeding Ears"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="25.0" disallowedHints="19,20" targetCooldown="60.0" targetDisallowedHints="42">
@@ -8261,21 +8264,21 @@
 <actionTableEntry probability="-1.0" disallowedHints="26,27">
 <action skillId="1879127545" name="Wounded Cry"/>
 </actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="20.0">
+<actionTableEntry probability="50.0" cooldown="10.0">
 <action skillId="1879127541" name="Two-handed Swipe"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879130780">
-<actionTableEntry probability="75.0" cooldown="3.0" disallowedHints="16">
-<action skillId="1879049322" name="a weak melee attack"/>
-</actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="3.0" disallowedHints="16">
+<actionTableEntry probability="25.0" cooldown="3.0" disallowedHints="16">
 <action skillId="1879049323" name="a minor melee attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="3.0" disallowedHints="16">
 <action skillId="1879049324" name="a moderate melee attack"/>
 </actionTableEntry>
-<actionTableEntry probability="50.0" disallowedHints="16" targetCooldown="20.0">
+<actionTableEntry probability="50.0" cooldown="3.0" disallowedHints="16">
+<action skillId="1879049324" name="a moderate melee attack"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" disallowedHints="16" targetCooldown="10.0">
 <action skillId="1879076051" name="a mighty melee attack"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="10.0" disallowedHints="15,17" targetCooldown="11.0">
@@ -8296,10 +8299,10 @@
 </actionTable>
 <actionTable id="1879131556">
 <actionTableEntry probability="75.0" cooldown="3.0" requiredHints="16">
-<action skillId="1879113545" name="a weak melee attack"/>
+<action skillId="1879113565" name="a minor melee attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="3.0" requiredHints="16">
-<action skillId="1879113565" name="a minor melee attack"/>
+<action skillId="1879113567" name="a moderate melee attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="3.0" requiredHints="16">
 <action skillId="1879113567" name="a moderate melee attack"/>
@@ -8316,10 +8319,10 @@
 </actionTable>
 <actionTable id="1879131557">
 <actionTableEntry probability="75.0" cooldown="3.0" requiredHints="17">
-<action skillId="1879051299" name="a weak melee attack"/>
+<action skillId="1879051300" name="a moderate melee attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="3.0" requiredHints="17">
-<action skillId="1879056906" name="a minor melee attack"/>
+<action skillId="1879051300" name="a moderate melee attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="3.0" requiredHints="17">
 <action skillId="1879051300" name="a moderate melee attack"/>
@@ -8336,13 +8339,13 @@
 </actionTable>
 <actionTable id="1879131558">
 <actionTableEntry probability="75.0" cooldown="3.0" requiredHints="18">
-<action skillId="1879049322" name="a weak melee attack"/>
-</actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="3.0" requiredHints="18">
-<action skillId="1879049323" name="a minor melee attack"/>
-</actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="3.0" requiredHints="18">
 <action skillId="1879049324" name="a moderate melee attack"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="3.0" requiredHints="18">
+<action skillId="1879062573" name="a strong melee attack"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="3.0" requiredHints="18">
+<action skillId="1879059699" name="a melee strike attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" requiredHints="18" targetCooldown="20.0">
 <action skillId="1879076051" name="a mighty melee attack"/>
@@ -8359,7 +8362,7 @@
 </actionTable>
 <actionTable id="1879131763">
 <actionTableEntry probability="75.0" cooldown="3.0">
-<action skillId="1879049324" name="a moderate melee attack"/>
+<action skillId="1879054542" name="a mighty swipe attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="3.0">
 <action skillId="1879062573" name="a strong melee attack"/>
@@ -8389,13 +8392,13 @@
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879132123">
-<actionTableEntry probability="50.0" cooldown="5.0" requiredHints="18">
+<actionTableEntry probability="25.0" cooldown="2.0" requiredHints="18" targetDisallowedHints="58">
 <action skillId="1879128812" name="a moderate strike attack"/>
 </actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="5.0" requiredHints="18">
+<actionTableEntry probability="25.0" cooldown="2.0" requiredHints="18">
 <action skillId="1879128814" name="a strong strike attack"/>
 </actionTableEntry>
-<actionTableEntry probability="25.0" cooldown="30.0" requiredHints="18">
+<actionTableEntry probability="25.0" cooldown="2.0" requiredHints="18">
 <action skillId="1879128813" name="a mighty strike attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="15.0" requiredHints="18">
@@ -8419,7 +8422,7 @@
 <action skillId="1879146207" name="Crushing Devastation"/>
 <action skillId="1879146208" name="Crushing Devastation"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="5.0" requiredHints="18" targetDisallowedHints="42">
+<actionTableEntry probability="-1.0" cooldown="6.0" requiredHints="18" targetDisallowedHints="167">
 <action skillId="1879128817" name="a mighty thrown attack"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="30.0" requiredHints="14">
@@ -9909,14 +9912,14 @@
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879149551">
-<actionTableEntry probability="50.0" cooldown="5.0">
+<actionTableEntry probability="50.0" cooldown="3.0">
 <action skillId="1879149563" name="Cry of Pain"/>
 </actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="5.0" cooldownChannel="25">
+<actionTableEntry probability="25.0" cooldown="10.0" cooldownChannel="25">
 <action skillId="1879149557" name="Shadow Melee Knockback"/>
 <action skillId="1879149556" name="Ranged Shadow Deadly"/>
 </actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="5.0" cooldownChannel="25" targetDisallowedHints="42">
+<actionTableEntry probability="50.0" cooldown="10.0" cooldownChannel="25" targetDisallowedHints="42">
 <action skillId="1879149556" name="Ranged Shadow Deadly"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="5.0" cooldownChannel="22">
@@ -9925,7 +9928,7 @@
 <actionTableEntry probability="50.0" cooldown="5.0" disallowedHints="26" cooldownChannel="22">
 <action skillId="1879149560" name="Melee Swipe Shadow"/>
 </actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="5.0" disallowedHints="26">
+<actionTableEntry probability="50.0" cooldown="10.0" disallowedHints="26">
 <action skillId="1879149561" name="Dark Healing"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="3.0" disallowedHints="26" targetCooldown="6.0" targetDisallowedHints="42">
@@ -9958,11 +9961,14 @@
 <action skillId="1879149634" name="Spine-barrage"/>
 </actionTableEntry>
 <actionTableEntry probability="25.0" cooldown="3.0">
-<action skillId="1879076051" name="a mighty melee attack"/>
+<action skillId="1879191091" name="a mighty swipe attack"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="1.0">
+<action skillId="1879203890" name="a massive melee attack"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879150002">
-<actionTableEntry probability="50.0" cooldown="20.0">
+<actionTableEntry probability="50.0" cooldown="10.0">
 <action skillId="1879114082" name="a melee triple attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="30.0">
@@ -10142,13 +10148,7 @@
 <actionTableEntry probability="75.0" cooldown="10.0" disallowedHints="26,27" targetCooldown="30.0" targetRequiredHints="42">
 <action skillId="1879150940" name="Shield Bash"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="27" cooldownChannel="22" targetCooldown="30.0">
-<action skillId="1879150936" name="Dishearten Foe"/>
-</actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="27" cooldownChannel="22" targetCooldown="30.0">
-<action skillId="1879150936" name="Dishearten Foe"/>
-</actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="27" cooldownChannel="22" targetCooldown="30.0">
+<actionTableEntry probability="75.0" cooldown="10.0" cooldownChannel="22" targetCooldown="30.0" targetRequiredHints="163">
 <action skillId="1879150936" name="Dishearten Foe"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="30.0" requiredHints="26" disallowedHints="7">
@@ -10233,6 +10233,12 @@
 <actionTableEntry probability="-1.0" requiredHints="17">
 <action skillId="1879156036" name="DNT - Aura"/>
 </actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0">
+<action skillId="1879495089" name="Inky Spores"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="30.0" targetDisallowedHints="157,163">
+<action skillId="1879495096" name="Virulent Contagion"/>
+</actionTableEntry>
 </actionTable>
 <actionTable id="1879151124">
 <actionTableEntry probability="75.0" cooldown="2.0">
@@ -10245,58 +10251,37 @@
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879151130">
-<actionTableEntry probability="75.0" cooldown="2.0">
+<actionTableEntry probability="75.0" cooldown="2.0" requiredHints="163">
 <action skillId="1879151133" name="DNT - Caster's Bane"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="2.0">
-<action skillId="1879151133" name="DNT - Caster's Bane"/>
-</actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="2.0">
+<actionTableEntry probability="75.0" cooldown="6.0" requiredHints="70">
 <action skillId="1879151133" name="DNT - Caster's Bane"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879151131">
-<actionTableEntry probability="75.0" cooldown="2.0">
+<actionTableEntry probability="75.0" cooldown="2.0" targetRequiredHints="159">
 <action skillId="1879151134" name="DNT - Fighter's Bane"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="2.0">
-<action skillId="1879151134" name="DNT - Fighter's Bane"/>
-</actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="2.0">
-<action skillId="1879151134" name="DNT - Fighter's Bane"/>
-</actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="2.0">
+<actionTableEntry probability="75.0" cooldown="2.0" targetDisallowedHints="157,163">
 <action skillId="1879151134" name="DNT - Fighter's Bane"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879151132">
-<actionTableEntry probability="75.0" cooldown="2.0">
+<actionTableEntry probability="75.0" cooldown="2.0" targetRequiredHints="157">
 <action skillId="1879151135" name="DNT - Defender's Bane"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="2.0">
-<action skillId="1879151135" name="DNT - Defender's Bane"/>
-</actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="2.0">
-<action skillId="1879151135" name="DNT - Defender's Bane"/>
-</actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="2.0">
+<actionTableEntry probability="75.0" cooldown="10.0" targetDisallowedHints="157">
 <action skillId="1879151135" name="DNT - Defender's Bane"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879151207">
-<actionTableEntry probability="75.0" cooldown="4.0" requiredHints="13" targetRequiredHints="42">
-<action skillId="1879151213" name="a weak swipe attack"/>
-</actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="4.0" requiredHints="13" targetRequiredHints="42">
+<actionTableEntry probability="50.0" cooldown="2.0" requiredHints="13" targetRequiredHints="42">
 <action skillId="1879151211" name="a minor swipe attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="4.0" requiredHints="13" targetRequiredHints="42">
 <action skillId="1879151212" name="a moderate swipe attack"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="4.0" requiredHints="13" targetDisallowedHints="42">
-<action skillId="1879151223" name="a weak thrown strike attack"/>
-</actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="4.0" requiredHints="13" targetDisallowedHints="42">
+<actionTableEntry probability="50.0" cooldown="2.0" requiredHints="13" targetDisallowedHints="42">
 <action skillId="1879151218" name="a minor thrown strike attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="4.0" requiredHints="13" targetDisallowedHints="42">
@@ -10319,10 +10304,7 @@
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879151208">
-<actionTableEntry probability="75.0" cooldown="4.0" disallowedHints="13" targetRequiredHints="42">
-<action skillId="1879113547" name="a weak swipe attack"/>
-</actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="4.0" disallowedHints="13" targetRequiredHints="42">
+<actionTableEntry probability="50.0" cooldown="2.0" disallowedHints="13" targetRequiredHints="42">
 <action skillId="1879113555" name="a minor swipe attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="4.0" disallowedHints="13" targetRequiredHints="42">
@@ -10331,10 +10313,7 @@
 <actionTableEntry probability="50.0" cooldown="4.0" disallowedHints="13" targetCooldown="20.0" targetRequiredHints="42">
 <action skillId="1879113548" name="a mighty swipe attack"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="4.0" disallowedHints="13" targetDisallowedHints="42">
-<action skillId="1879151222" name="a weak thrown strike attack"/>
-</actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="4.0" disallowedHints="13" targetDisallowedHints="42">
+<actionTableEntry probability="50.0" cooldown="2.0" disallowedHints="13" targetDisallowedHints="42">
 <action skillId="1879151217" name="a minor thrown strike attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="4.0" disallowedHints="13" targetDisallowedHints="42">
@@ -10362,6 +10341,15 @@
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="10.0" requiredHints="15">
 <action skillId="1879151216" name="DNT - Summon Spores"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="18">
+<action skillId="1879494436" name="DNT - Summon Spores"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="17">
+<action skillId="1879494435" name="DNT - Summon Spores"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="16">
+<action skillId="1879494437" name="DNT - Summon Spores"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879151436">
@@ -10391,9 +10379,6 @@
 <actionTableEntry probability="50.0" cooldown="4.0" requiredHints="17" targetRequiredHints="42">
 <action skillId="1879098731" name="a mighty swipe attack"/>
 </actionTableEntry>
-<actionTableEntry probability="0.0" cooldown="4.0" requiredHints="17" targetDisallowedHints="42">
-<action skillId="1879151485" name="a minor thrown strike attack"/>
-</actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="4.0" requiredHints="17" targetDisallowedHints="42">
 <action skillId="1879151489" name="a moderate thrown strike attack"/>
 </actionTableEntry>
@@ -10402,9 +10387,6 @@
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="4.0" requiredHints="17" targetDisallowedHints="42">
 <action skillId="1879151487" name="a mighty thrown strike attack"/>
-</actionTableEntry>
-<actionTableEntry probability="0.0" cooldown="4.0" requiredHints="17" targetDisallowedHints="42">
-<action skillId="1879151485" name="a minor thrown strike attack"/>
 </actionTableEntry>
 <actionTableEntry probability="25.0" cooldown="4.0" requiredHints="17" targetDisallowedHints="42">
 <action skillId="1879151489" name="a moderate thrown strike attack"/>
@@ -10429,9 +10411,6 @@
 <actionTableEntry probability="50.0" cooldown="4.0" requiredHints="19" targetRequiredHints="42" targetDisallowedHints="7">
 <action skillId="1879113548" name="a mighty swipe attack"/>
 </actionTableEntry>
-<actionTableEntry probability="0.0" cooldown="4.0" requiredHints="19" targetDisallowedHints="7,42">
-<action skillId="1879151484" name="a minor thrown strike attack"/>
-</actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="4.0" requiredHints="19" targetDisallowedHints="7,42">
 <action skillId="1879151488" name="a moderate thrown strike attack"/>
 </actionTableEntry>
@@ -10440,9 +10419,6 @@
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="4.0" requiredHints="19" targetDisallowedHints="7,42">
 <action skillId="1879151486" name="a mighty thrown strike attack"/>
-</actionTableEntry>
-<actionTableEntry probability="0.0" cooldown="4.0" requiredHints="19" targetDisallowedHints="7,42">
-<action skillId="1879151484" name="a minor thrown strike attack"/>
 </actionTableEntry>
 <actionTableEntry probability="25.0" cooldown="4.0" requiredHints="19" targetDisallowedHints="7,42">
 <action skillId="1879151488" name="a moderate thrown strike attack"/>
@@ -12493,10 +12469,10 @@
 </actionTable>
 <actionTable id="1879159483">
 <actionTableEntry probability="-1.0" cooldown="3.0" targetRequiredHints="7">
-<action skillId="1879049322" name="a weak melee attack"/>
+<action skillId="1879049323" name="a minor melee attack"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="3.0" targetRequiredHints="7">
-<action skillId="1879049323" name="a minor melee attack"/>
+<action skillId="1879049324" name="a moderate melee attack"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="3.0" targetRequiredHints="7">
 <action skillId="1879049324" name="a moderate melee attack"/>
@@ -26310,6 +26286,29 @@
 <action skillId="1879336472" name="Bite of the Dark"/>
 </actionTableEntry>
 </actionTable>
+<actionTable id="1879338823">
+<actionTableEntry probability="75.0" cooldown="25.0">
+<action skillId="1879052289" name="Flanking Manoeuvre"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0">
+<action skillId="1879338832" name="Melee Common Min"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0">
+<action skillId="1879338833" name="Melee Common Med"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0">
+<action skillId="1879338834" name="Melee Common Max"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
+<action skillId="1879489148" name="Shatter Arms"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
+<action skillId="1879489161" name="Challenge"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="43">
+<action skillId="1879197996" name="Return to Master"/>
+</actionTableEntry>
+</actionTable>
 <actionTable id="1879339923">
 <actionTableEntry probability="-1.0" cooldown="18.0">
 <action skillId="1879339922" name="Call Spirit"/>
@@ -34173,6 +34172,9 @@
 <actionTableEntry probability="75.0" cooldown="20.0" requiredHints="15,48" targetDisallowedHints="7">
 <action skillId="1879430307" name="Brawler's Misfortune"/>
 </actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="40.0" targetDisallowedHints="7">
+<action skillId="1879478183" name="The Fell North Wind"/>
+</actionTableEntry>
 </actionTable>
 <actionTable id="1879431402">
 <actionTableEntry probability="75.0" cooldown="15.0" disallowedHints="75,78">
@@ -35948,8 +35950,8 @@
 <actionTableEntry probability="75.0" cooldown="30.0" requiredHints="125" targetCooldown="30.0">
 <action skillId="1879452557" name="Poison Puddles II"/>
 </actionTableEntry>
-<actionTableEntry probability="25.0" requiredHints="126">
-<action skillId="1879080134" name="Stand Fast"/>
+<actionTableEntry probability="75.0" cooldown="30.0" requiredHints="126" targetCooldown="30.0">
+<action skillId="1879452396" name="Virulent Discharge"/>
 </actionTableEntry>
 <actionTableEntry probability="25.0" requiredHints="127">
 <action skillId="1879080134" name="Stand Fast"/>
@@ -37651,11 +37653,14 @@
 <actionTableEntry probability="75.0" cooldown="15.0" requiredHints="170" targetCooldown="45.0" targetRequiredHints="60">
 <action skillId="1879485408" name="Horrible Twisting"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="120.0" requiredHints="171">
+<actionTableEntry probability="75.0" cooldown="180.0" requiredHints="171">
 <action skillId="1879485365" name="Gloaming Tide"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="20.0" requiredHints="170" disallowedHints="167" targetRequiredHints="59">
 <action skillId="1879479362" name="Impending Doom"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="60.0" requiredHints="170">
+<action skillId="1879485362" name="Skeletal Horde"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879469423">
@@ -37668,11 +37673,11 @@
 <actionTableEntry probability="75.0" cooldown="90.0" requiredHints="171">
 <action skillId="1879485398" name="Dark Storm"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="60.0" requiredHints="171">
+<actionTableEntry probability="75.0" cooldown="60.0" requiredHints="170">
 <action skillId="1879485406" name="Hands of Terror"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="150.0" requiredHints="172">
-<action skillId="1879492543" name="Mournful Howl"/>
+<actionTableEntry probability="75.0" cooldown="210.0" requiredHints="171">
+<action skillId="1879492543" name="Harrowing Scream"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879469424">
@@ -37712,6 +37717,9 @@
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="20.0" requiredHints="170" disallowedHints="167" targetRequiredHints="59">
 <action skillId="1879479362" name="Impending Doom"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="60.0" requiredHints="170">
+<action skillId="1879485362" name="Skeletal Horde"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879469430">
@@ -37831,8 +37839,8 @@
 <actionTableEntry probability="50.0" cooldown="15.0" requiredHints="169" disallowedHints="167" targetCooldown="55.0" targetRequiredHints="60">
 <action skillId="1879485357" name="Portal of Darkness"/>
 </actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="60.0" requiredHints="170">
-<action skillId="1879485362" name="Skeletal Horde"/>
+<actionTableEntry probability="-1.0" cooldown="30.0" requiredHints="173" disallowedHints="15">
+<action skillId="1879487014" name="Lost in Shadow"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879475859">
@@ -38310,9 +38318,6 @@
 <actionTableEntry probability="90.0" cooldown="3.0" requiredHints="164" disallowedHints="77,78,79">
 <action skillId="1879482681" name="Enraged Strike"/>
 </actionTableEntry>
-<actionTableEntry probability="25.0" cooldown="15.0" targetCooldown="30.0" targetRequiredHints="40">
-<action skillId="1879481380" name="Interrupt"/>
-</actionTableEntry>
 </actionTable>
 <actionTable id="1879481786">
 <actionTableEntry probability="-1.0" cooldown="45.0" disallowedHints="77">
@@ -38410,9 +38415,6 @@
 </actionTableEntry>
 <actionTableEntry probability="90.0" cooldown="3.0" requiredHints="164" disallowedHints="77,78,79">
 <action skillId="1879482681" name="Enraged Strike"/>
-</actionTableEntry>
-<actionTableEntry probability="25.0" cooldown="15.0" targetCooldown="30.0" targetRequiredHints="40">
-<action skillId="1879481618" name="Disrupting Shot"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879481790">
@@ -38950,9 +38952,6 @@
 <actionTableEntry probability="25.0" cooldown="3.0">
 <action skillId="1879481405" name="a sweeping melee attack"/>
 </actionTableEntry>
-<actionTableEntry probability="25.0" cooldown="30.0" disallowedHints="15" targetCooldown="45.0" targetRequiredHints="40,42">
-<action skillId="1879481569" name="a swift melee attack"/>
-</actionTableEntry>
 </actionTable>
 <actionTable id="1879481814">
 <actionTableEntry probability="50.0" cooldown="5.0" disallowedHints="77">
@@ -39092,9 +39091,6 @@
 <actionTableEntry probability="25.0" cooldown="3.0">
 <action skillId="1879481385" name="a mighty melee attack"/>
 </actionTableEntry>
-<actionTableEntry probability="50.0" cooldown="20.0" targetRequiredHints="40,42">
-<action skillId="1879481564" name="a swift melee attack"/>
-</actionTableEntry>
 </actionTable>
 <actionTable id="1879481821">
 <actionTableEntry probability="90.0" cooldown="12.0" disallowedHints="48,77,81,82">
@@ -39219,11 +39215,8 @@
 <actionTableEntry probability="25.0" cooldown="2.0">
 <action skillId="1879482195" name="Call to Flame"/>
 </actionTableEntry>
-<actionTableEntry probability="25.0" cooldown="3.0">
+<actionTableEntry probability="25.0" cooldown="3.0" disallowedHints="77,79">
 <action skillId="1879482204" name="Shadow Burst (distributed)"/>
-</actionTableEntry>
-<actionTableEntry probability="25.0" cooldown="12.0" targetRequiredHints="40">
-<action skillId="1879482258" name="Interrupt"/>
 </actionTableEntry>
 <actionTableEntry probability="0.0" cooldown="1.0">
 <action skillId="1879080134" name="Stand Fast"/>
@@ -39283,9 +39276,6 @@
 <actionTableEntry probability="25.0" cooldown="3.0">
 <action skillId="1879482240" name="a mighty melee attack"/>
 </actionTableEntry>
-<actionTableEntry probability="25.0" cooldown="20.0" targetRequiredHints="40,42">
-<action skillId="1879482179" name="a swift melee attack"/>
-</actionTableEntry>
 <actionTableEntry probability="0.0" cooldown="1.0">
 <action skillId="1879080134" name="Stand Fast"/>
 </actionTableEntry>
@@ -39333,6 +39323,25 @@
 <actionTableEntry probability="-1.0" cooldown="35.0" disallowedHints="77,78,79">
 <action skillId="1879482188" name="War-chant"/>
 <action skillId="1879482182" name="Hamstring"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879481900">
+<actionTableEntry probability="25.0" cooldown="2.0">
+<action skillId="1879482068" name="Lesser Cleave"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="5.0">
+<action skillId="1879482232" name="Primer Cleave"/>
+<action skillId="1879482068" name="Lesser Cleave"/>
+<action skillId="1879482247" name="Major Cleave"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="60.0" disallowedHints="26,27">
+<action skillId="1879482143" name="Berserk"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="1.0" disallowedHints="77">
+<action skillId="1879482197" name="Radial Cut"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="1.0" disallowedHints="77">
+<action skillId="1879482235" name="Distributed Cut"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879481901">
@@ -39666,11 +39675,24 @@
 <actionTableEntry probability="25.0" cooldown="3.0">
 <action skillId="1879482174" name="a sweeping melee attack"/>
 </actionTableEntry>
-<actionTableEntry probability="25.0" cooldown="20.0" targetRequiredHints="40,42">
-<action skillId="1879482165" name="a swift melee attack"/>
-</actionTableEntry>
 <actionTableEntry probability="0.0" cooldown="1.0">
 <action skillId="1879080134" name="Stand Fast"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879481913">
+<actionTableEntry probability="25.0" cooldown="2.0">
+<action skillId="1879482106" name="Ragged Cut"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="5.0">
+<action skillId="1879482099" name="Quick Strike"/>
+<action skillId="1879482079" name="Flurry of Strikes"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="20.0" disallowedHints="77,79" targetRequiredHints="7">
+<action skillId="1879482251" name="Exploit Opening"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="30.0">
+<action skillId="1879482214" name="Death Bringer Mark"/>
+<action skillId="1879482155" name="Death Bringer Execute"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879481914">
@@ -39730,9 +39752,6 @@
 </actionTableEntry>
 <actionTableEntry probability="25.0" cooldown="3.0">
 <action skillId="1879482199" name="Careful Shot"/>
-</actionTableEntry>
-<actionTableEntry probability="25.0" cooldown="12.0" targetRequiredHints="40">
-<action skillId="1879482250" name="Disrupting Shot"/>
 </actionTableEntry>
 <actionTableEntry probability="0.0" cooldown="1.0">
 <action skillId="1879080134" name="Stand Fast"/>
@@ -40598,7 +40617,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879489151" name="Bear Hug"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879073219" name="Roaring Challenge"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="1.0" requiredHints="46">
@@ -40627,7 +40646,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879489167" name="Frostbite"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879489227" name="Unbridled Fury"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="43">
@@ -40679,7 +40698,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879222017" name="Nature's Bounty"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879222015" name="Nature's Gift"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="43">
@@ -40702,7 +40721,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879489154" name="Noble Purpose"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879052288" name="Fan the Flames"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="43">
@@ -40725,7 +40744,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879400139" name="Choking Vines"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879134320" name="Bursting Root"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="43">
@@ -40748,7 +40767,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879110961" name="Furious Claws"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879489227" name="Unbridled Fury"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="1.0" requiredHints="46">
@@ -40803,7 +40822,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879134318" name="Angry Bees"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879134320" name="Bursting Root"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="1.0" requiredHints="46">
@@ -40884,7 +40903,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879096875" name="Slashing Claws"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879096874" name="Feral Strike"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="1.0" requiredHints="46">
@@ -40913,7 +40932,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879489149" name="Harrying Strike"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879052288" name="Fan the Flames"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="1.0" requiredHints="46">
@@ -40942,7 +40961,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879073193" name="Benediction"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879421653" name="Fear No Darkness"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="1.0" requiredHints="46">
@@ -41373,7 +41392,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879490748" name="Frostbite"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879490749" name="Unbridled Fury"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="43">
@@ -41396,7 +41415,7 @@
 <actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="44">
 <action skillId="1879490741" name="Furious Claws"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="50.0" requiredHints="45">
+<actionTableEntry probability="-1.0" cooldown="40.0" requiredHints="45">
 <action skillId="1879490749" name="Unbridled Fury"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="1.0" requiredHints="46">
@@ -41440,6 +41459,1207 @@
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="30.0">
 <action skillId="1879489934" name="Enervating Grip"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879492838">
+<actionTableEntry probability="90.0" cooldown="30.0" requiredHints="48" disallowedHints="26">
+<action skillId="1879492897" name="Cornered Bellow"/>
+<action skillId="1879492887" name="Crushing Blow"/>
+<action skillId="1879492913" name="Slam"/>
+<action skillId="1879492913" name="Slam"/>
+<action skillId="1879492913" name="Slam"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="20.0" disallowedHints="26" targetCooldown="40.0" targetRequiredHints="167">
+<action skillId="1879492887" name="Crushing Blow"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="60.0" disallowedHints="26">
+<action skillId="1879492902" name="Rampage"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="30.0" requiredHints="29">
+<action skillId="1879492892" name="Endure"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879492839">
+<actionTableEntry probability="75.0" cooldown="45.0" targetDisallowedHints="33">
+<action skillId="1879160859" name="DNT - Same as above, except no Min Distance requirement"/>
+<action skillId="1879049733" name="Melee Knockdown"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="30.0">
+<action skillId="1879492913" name="Slam"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="30.0">
+<action skillId="1879492909" name="Gore"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="60.0" disallowedHints="26">
+<action skillId="1879492908" name="Bellow"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879493216">
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="75,77,78,81,82">
+<action skillId="1879493045" name="Heavy Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="75,79,81,82">
+<action skillId="1879493076" name="Heavy Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="77,78,79">
+<action skillId="1879493089" name="Heavy Strike"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879493217">
+<actionTableEntry probability="-1.0" cooldown="15.0" disallowedHints="15,75,77,78,81,82">
+<action skillId="1879493010" name="Thunderous Stomp"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="15.0" disallowedHints="15,75,79,81,82">
+<action skillId="1879493062" name="Thunderous Stomp"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="15.0" disallowedHints="15,77,78,79">
+<action skillId="1879493070" name="Thunderous Stomp"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="30.0" disallowedHints="79" targetCooldown="40.0">
+<action skillId="1879493007" name="Single Out"/>
+<action skillId="1879493032" name="Killing Blow"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="30.0" disallowedHints="15,75,78,79,81,82" targetRequiredHints="29">
+<action skillId="1879493017" name="Killing Blow"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="15,75,77,79,81,82" targetDisallowedHints="26,27">
+<action skillId="1879493086" name="Killing Blow"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="10.0" disallowedHints="15,77,78,79" targetDisallowedHints="26,27">
+<action skillId="1879493032" name="Killing Blow"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="12.0" disallowedHints="15,75,77,78,81,82">
+<action skillId="1879493060" name="Brutal Swing"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="14.0" disallowedHints="15,75,78,79,81,82">
+<action skillId="1879493050" name="Brutal Swing"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="18.0" disallowedHints="15,75,77,79,81,82">
+<action skillId="1879493124" name="Brutal Swing"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="24.0" disallowedHints="15,77,78,79">
+<action skillId="1879493063" name="Brutal Swing"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879493218">
+<actionTableEntry probability="-1.0" cooldown="25.0" disallowedHints="75,78,79,81,82" targetRequiredHints="29">
+<action skillId="1879493094" name="Blessing of the Usan-kûni"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="25.0" disallowedHints="75,77,79,81,82" targetDisallowedHints="26,27">
+<action skillId="1879493094" name="Blessing of the Usan-kûni"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="77,78,79" targetDisallowedHints="26,27">
+<action skillId="1879493087" name="Blessing of the Usan-kûni"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="30.0" disallowedHints="75,77,78,81,82">
+<action skillId="1879493026" name="Brood Call"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="75,79,81,82">
+<action skillId="1879493071" name="Brood Call"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="77,78,79">
+<action skillId="1879493122" name="Brood Call"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="10.0" disallowedHints="75,81,82">
+<action skillId="1879493022" name="Toxic Defilement"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="10.0" disallowedHints="77,78,79">
+<action skillId="1879493039" name="Toxic Defilement"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="2.0">
+<action skillId="1879495116" name="Acid Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="10.0">
+<action skillId="1879495117" name="Draining Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="5.0">
+<action skillId="1879495117" name="Draining Strike"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879493219">
+<actionTableEntry probability="90.0" cooldown="25.0" disallowedHints="75,77,78,81,82">
+<action skillId="1879493066" name="Death-light Venom"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="75,79,81,82">
+<action skillId="1879493092" name="Death-light Venom"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="77,78,79">
+<action skillId="1879493006" name="Death-light Venom"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="1.0">
+<action skillId="1879482246" name="Yearning Flame"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="2.0">
+<action skillId="1879495116" name="Acid Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="5.0" disallowedHints="77,78,79">
+<action skillId="1879495115" name="Shadow Strike"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879493220">
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="75,77,78,81,82">
+<action skillId="1879493036" name="Toxic Puncture"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="75,78,79,81,82">
+<action skillId="1879493090" name="Toxic Puncture"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879493105" name="Toxic Puncture"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="77,78,79">
+<action skillId="1879493054" name="Toxic Puncture"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="75,78,79,81,82">
+<action skillId="1879493052" name="Vile Excretion"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879493073" name="Vile Excretion"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="77,78,79">
+<action skillId="1879493126" name="Vile Excretion"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879493221">
+<actionTableEntry probability="75.0" cooldown="30.0" disallowedHints="75,77,78,81,82">
+<action skillId="1879493037" name="Venomous Sting"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="25.0" disallowedHints="75,78,79,81,82">
+<action skillId="1879493093" name="Venomous Sting"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879493078" name="Venomous Sting"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="77,78,79">
+<action skillId="1879493005" name="Venomous Sting"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879493222">
+<actionTableEntry probability="50.0" cooldown="25.0" disallowedHints="75,77,78,81,82">
+<action skillId="1879493118" name="Invigourating Fumes"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="75,78,79,81,82">
+<action skillId="1879493065" name="Invigourating Fumes"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879493125" name="Invigourating Fumes"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="10.0" disallowedHints="77,78,79">
+<action skillId="1879493074" name="Invigourating Fumes"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="2.0">
+<action skillId="1879495116" name="Acid Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="10.0">
+<action skillId="1879495117" name="Draining Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="5.0">
+<action skillId="1879495117" name="Draining Strike"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879493223">
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="75,81,82">
+<action skillId="1879493119" name="Stinging Strikes"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="77,78,79">
+<action skillId="1879493109" name="Stinging Strikes"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879493224">
+<actionTableEntry probability="25.0">
+<action skillId="1879080134" name="Stand Fast"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879493225">
+<actionTableEntry probability="-1.0" cooldown="30.0" disallowedHints="75,78,81,82">
+<action skillId="1879493069" name="Desolation Bolt"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="25.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879493042" name="Desolation Bolt"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="77,78,79">
+<action skillId="1879493108" name="Desolation Bolt"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="75,77,78,81,82">
+<action skillId="1879493055" name="Fatal Toxin"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="8.0" disallowedHints="75,78,79,81,82">
+<action skillId="1879493104" name="Fatal Toxin"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="8.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879493088" name="Fatal Toxin"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="8.0" disallowedHints="77,78,79">
+<action skillId="1879493019" name="Fatal Toxin"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="75,81,82">
+<action skillId="1879493009" name="Toxic Cloud"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="77,78,79">
+<action skillId="1879493024" name="Toxic Cloud"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="2.0">
+<action skillId="1879495116" name="Acid Strike"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879493226">
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="77,78,79">
+<action skillId="1879493014" name="Ire"/>
+<action skillId="1879493032" name="Killing Blow"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="75,81,82">
+<action skillId="1879493015" name="Serrated Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="5.0" disallowedHints="77,78,79">
+<action skillId="1879493116" name="Serrated Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="30.0" disallowedHints="75,81,82">
+<action skillId="1879493043" name="Battle Cry"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="30.0" disallowedHints="77,78,79">
+<action skillId="1879493111" name="Battle Cry"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="8.0" disallowedHints="75,77,78,81,82">
+<action skillId="1879493050" name="Brutal Swing"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="12.0" disallowedHints="75,78,79,81,82">
+<action skillId="1879493124" name="Brutal Swing"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="14.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879493063" name="Brutal Swing"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="16.0" disallowedHints="77,78,79">
+<action skillId="1879493016" name="Brutal Swing"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879493227">
+<actionTableEntry probability="90.0" cooldown="25.0" disallowedHints="75,77,78,81,82">
+<action skillId="1879493058" name="Stinger Shock"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="75,79,81,82">
+<action skillId="1879493013" name="Stinger Shock"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="77,78,79">
+<action skillId="1879493123" name="Stinger Shock"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="1.0">
+<action skillId="1879482246" name="Yearning Flame"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="2.0">
+<action skillId="1879482195" name="Call to Flame"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="5.0" disallowedHints="77,78,79">
+<action skillId="1879495115" name="Shadow Strike"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879493228">
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="75,81,82">
+<action skillId="1879493075" name="Crippling Sting"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="77,78,79">
+<action skillId="1879493068" name="Crippling Sting"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="10.0" disallowedHints="77,79">
+<action skillId="1879493191" name="Crushing Snap"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="14.0" disallowedHints="75,77,79,81,82" targetRequiredHints="42" targetDisallowedHints="26,27">
+<action skillId="1879493181" name="Killing Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="8.0" disallowedHints="77,78,79" targetRequiredHints="42" targetDisallowedHints="26">
+<action skillId="1879493187" name="Killing Strike"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879493235">
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="15,75,78,79,81,82" targetCooldown="40.0">
+<action skillId="1879493035" name="Intimidating Presence"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="15,75,77,79,81,82" targetCooldown="40.0">
+<action skillId="1879493091" name="Intimidating Presence"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="15,77,78,79" targetCooldown="40.0">
+<action skillId="1879493020" name="Intimidating Presence"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="8.0" disallowedHints="15,75,77,78,81,82">
+<action skillId="1879493121" name="Poisoned Blade"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="8.0" disallowedHints="15,75,78,79,81,82">
+<action skillId="1879493057" name="Poisoned Blade"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="8.0" disallowedHints="15,75,77,79,81,82">
+<action skillId="1879493023" name="Poisoned Blade"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="8.0" disallowedHints="15,77,78,79">
+<action skillId="1879493095" name="Poisoned Blade"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879494168">
+<actionTableEntry probability="-1.0" cooldown="15.0" disallowedHints="75,77,78,81,82" targetRequiredHints="51">
+<action skillId="1879493010" name="Thunderous Stomp"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="15.0" disallowedHints="75,79,81,82" targetRequiredHints="51">
+<action skillId="1879493062" name="Thunderous Stomp"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="15.0" disallowedHints="77,78,79" targetRequiredHints="51">
+<action skillId="1879493070" name="Thunderous Stomp"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="30.0" disallowedHints="75,78,79,81,82" targetRequiredHints="29,51">
+<action skillId="1879493017" name="Killing Blow"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="75,77,79,81,82" targetRequiredHints="51" targetDisallowedHints="26,27">
+<action skillId="1879493086" name="Killing Blow"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="10.0" disallowedHints="77,78,79" targetRequiredHints="51" targetDisallowedHints="26,27">
+<action skillId="1879493032" name="Killing Blow"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="12.0" disallowedHints="75,77,78,81,82" targetRequiredHints="51">
+<action skillId="1879493060" name="Brutal Swing"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="14.0" disallowedHints="75,78,79,81,82" targetRequiredHints="51">
+<action skillId="1879493050" name="Brutal Swing"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="18.0" disallowedHints="75,77,79,81,82" targetRequiredHints="51">
+<action skillId="1879493124" name="Brutal Swing"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="24.0" disallowedHints="77,78,79" targetRequiredHints="51">
+<action skillId="1879493063" name="Brutal Swing"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879494169">
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="75,78,81,82" targetCooldown="40.0" targetRequiredHints="51">
+<action skillId="1879493035" name="Intimidating Presence"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="75,77,79,81,82" targetCooldown="40.0" targetRequiredHints="51">
+<action skillId="1879493091" name="Intimidating Presence"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="77,78,79" targetCooldown="40.0" targetRequiredHints="51">
+<action skillId="1879493020" name="Intimidating Presence"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="8.0" disallowedHints="75,77,78,81,82" targetRequiredHints="51">
+<action skillId="1879493121" name="Poisoned Blade"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="8.0" disallowedHints="75,78,79,81,82" targetRequiredHints="51">
+<action skillId="1879493057" name="Poisoned Blade"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="8.0" disallowedHints="75,77,79,81,82" targetRequiredHints="51">
+<action skillId="1879493023" name="Poisoned Blade"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="8.0" disallowedHints="77,78,79" targetRequiredHints="51">
+<action skillId="1879493095" name="Poisoned Blade"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495375">
+<actionTableEntry probability="50.0" cooldown="10.0">
+<action skillId="1879050057" name="Poison Arrow Attack"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="10.0">
+<action skillId="1879050058" name="Fire Arrow Attack"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="20.0" targetCooldown="20.0" targetDisallowedHints="42">
+<action skillId="1879050057" name="Poison Arrow Attack"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="30.0" targetCooldown="20.0" targetDisallowedHints="42">
+<action skillId="1879050058" name="Fire Arrow Attack"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="10.0">
+<action skillId="1879367899" name="Rain of Fire"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="10.0">
+<action skillId="1879367900" name="Torching the Sands"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="30.0">
+<action skillId="1879495377" name="Savage Arrow"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" targetDisallowedHints="58">
+<action skillId="1879495377" name="Savage Arrow"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="15.0" targetRequiredHints="29">
+<action skillId="1879495378" name="Killing Shot"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495376">
+<actionTableEntry probability="-1.0" cooldown="14.0" targetCooldown="65.0">
+<action skillId="1879135582" name="Flora Burst"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" targetCooldown="45.0" targetDisallowedHints="26">
+<action skillId="1879135581" name="Fertile Restoration"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="60.0" targetDisallowedHints="26">
+<action skillId="1879135584" name="Restore Wicked"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0">
+<action skillId="1879180761" name="a mighty thrown attack"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="15.0" targetCooldown="25.0">
+<action skillId="1879077436" name="Fire Gourd"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="15.0" targetCooldown="20.0">
+<action skillId="1879059580" name="Poison Gourd"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="15.0" targetCooldown="30.0">
+<action skillId="1879117467" name="Ignite"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="30.0" targetDisallowedHints="26,27">
+<action skillId="1879495379" name="Curse of Fire"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="30.0">
+<action skillId="1879117466" name="Fire Shield"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="30.0" targetCooldown="60.0">
+<action skillId="1879117468" name="Lava Spot"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495395">
+<actionTableEntry probability="90.0" cooldown="30.0" disallowedHints="77,79">
+<action skillId="1879495332" name="Consuming Shadow"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="30.0" disallowedHints="77,78,79">
+<action skillId="1879495332" name="Consuming Shadow"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="20.0" disallowedHints="77,79">
+<action skillId="1879495470" name="Weak Ordâkhai Blessing"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495396">
+<actionTableEntry probability="75.0" cooldown="10.0">
+<action skillId="1879495476" name="Jagged Cut"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="10.0">
+<action skillId="1879495478" name="Reaching Attack"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495397">
+<actionTableEntry probability="75.0" cooldown="5.0">
+<action skillId="1879495344" name="Quick Strike"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495398">
+<actionTableEntry probability="75.0" cooldown="25.0" disallowedHints="77,79">
+<action skillId="1879495474" name="Ordâkhai Blessing"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="99999.0" disallowedHints="77,79">
+<action skillId="1879495466" name="Call Allies"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="35.0" disallowedHints="79">
+<action skillId="1879495467" name="Restore Morale"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495399">
+<actionTableEntry probability="75.0" cooldown="5.0">
+<action skillId="1879495257" name="Bite"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="12.0" disallowedHints="75,78,81,82">
+<action skillId="1879495293" name="Venomous Bite"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="12.0" disallowedHints="77,79">
+<action skillId="1879495361" name="Venomous Bite"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495400">
+<actionTableEntry probability="75.0" cooldown="3.0" disallowedHints="75,81,82">
+<action skillId="1879495465" name="Shadow Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="12.0" disallowedHints="79">
+<action skillId="1879495468" name="Shadow Cut"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="77,79">
+<action skillId="1879495471" name="Shadow Smite"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495401">
+<actionTableEntry probability="-1.0" cooldown="1.0" targetRequiredHints="71">
+<action skillId="1879495473" name="Sacrifice Self"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="3.0">
+<action skillId="1879495292" name="Bite"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495403">
+<actionTableEntry probability="90.0" cooldown="25.0" disallowedHints="75,78,81,82">
+<action skillId="1879495328" name="Blessing of the Mushid"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="25.0" disallowedHints="77,79">
+<action skillId="1879495351" name="Blessing of the Mushid"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495404">
+<actionTableEntry probability="25.0" cooldown="1.0">
+<action skillId="1879495325" name="Quick Slam"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="2.0">
+<action skillId="1879495294" name="Slam"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="8.0" disallowedHints="79">
+<action skillId="1879495275" name="Heavy Slam"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="8.0" disallowedHints="77,79" targetDisallowedHints="42">
+<action skillId="1879495305" name="Boulder"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="20.0" disallowedHints="77,79">
+<action skillId="1879497101" name="Corrupting Sweep"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="77,79" targetDisallowedHints="26,27">
+<action skillId="1879495248" name="Execute"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="25.0" disallowedHints="26,77,78,79">
+<action skillId="1879495301" name="Endure"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="45.0" disallowedHints="79">
+<action skillId="1879495306" name="Chain Breaker"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="10.0" requiredHints="48" disallowedHints="77,79" targetRequiredHints="157">
+<action skillId="1879495272" name="Waning Morale"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="10.0" requiredHints="68" disallowedHints="77,79" targetDisallowedHints="157">
+<action skillId="1879495251" name="Waning Strength"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="77,79" targetRequiredHints="29,42">
+<action skillId="1879495248" name="Execute"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495405">
+<actionTableEntry probability="90.0" cooldown="10.0">
+<action skillId="1879495472" name="Knife in the Back"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="2.0">
+<action skillId="1879495476" name="Jagged Cut"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495406">
+<actionTableEntry probability="50.0">
+<action skillId="1879495322" name="Cleaving Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="12.0">
+<action skillId="1879495309" name="Thrash"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="18.0" disallowedHints="77,79">
+<action skillId="1879495278" name="Stunning Blow"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="30.0" disallowedHints="75,79,81,82">
+<action skillId="1879495290" name="War Horn"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="30.0" disallowedHints="77,78,79">
+<action skillId="1879495316" name="War Horn"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="75,79,81,82">
+<action skillId="1879495328" name="Blessing of the Mushid"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="77,78,79">
+<action skillId="1879495351" name="Blessing of the Mushid"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495407">
+<actionTableEntry probability="75.0" cooldown="5.0">
+<action skillId="1879495257" name="Bite"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495408">
+<actionTableEntry probability="-1.0" cooldown="15.0" disallowedHints="26,27,75,79,81,82">
+<action skillId="1879495241" name="Memory of Rage"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="22.0" disallowedHints="26,27,77,78,79">
+<action skillId="1879495359" name="Memory of Rage"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="1.0">
+<action skillId="1879495311" name="Memory of Pain"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="4.0" disallowedHints="26,27">
+<action skillId="1879495253" name="Lash of Anger"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495409">
+<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="68" disallowedHints="79" targetDisallowedHints="157">
+<action skillId="1879495287" name="Crushing Blow"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="68" disallowedHints="77,79" targetDisallowedHints="157">
+<action skillId="1879495297" name="Weapon Breaker"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="30.0" requiredHints="68" disallowedHints="77,79">
+<action skillId="1879495297" name="Weapon Breaker"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="68">
+<action skillId="1879495270" name="Crushing Sweep"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="12.0" disallowedHints="77,79">
+<action skillId="1879497101" name="Corrupting Sweep"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="10.0" requiredHints="68" disallowedHints="77,78,79" targetDisallowedHints="157">
+<action skillId="1879495251" name="Waning Strength"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495410">
+<actionTableEntry probability="25.0">
+<action skillId="1879495344" name="Quick Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="10.0" disallowedHints="77,79">
+<action skillId="1879495277" name="Raking Claws"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="75,79,81,82">
+<action skillId="1879495260" name="Blessing of the Khûd"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="77,78,79">
+<action skillId="1879495318" name="Blessing of the Khûd"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495411">
+<actionTableEntry probability="25.0" cooldown="1.0">
+<action skillId="1879495345" name="Flaming Shot"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="2.0">
+<action skillId="1879495320" name="Burning Arrow"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="25.0" requiredHints="15" disallowedHints="75,79,81,82">
+<action skillId="1879495285" name="The Arrow's Kiss"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="25.0" requiredHints="15" disallowedHints="77,78,79">
+<action skillId="1879495250" name="The Arrow's Kiss"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="15" disallowedHints="75,79,81,82">
+<action skillId="1879495269" name="Piercing Arrow"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="10.0" requiredHints="15" disallowedHints="77,78,79">
+<action skillId="1879495339" name="Piercing Arrow"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="30.0" requiredHints="15" disallowedHints="77,79">
+<action skillId="1879495267" name="Consuming Fire"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" requiredHints="15" disallowedHints="58,77,78,79">
+<action skillId="1879495369" name="Sickening Water"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="30.0" disallowedHints="77,78,79">
+<action skillId="1879495369" name="Sickening Water"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495412">
+<actionTableEntry probability="90.0" cooldown="50.0" disallowedHints="75,79,81,82">
+<action skillId="1879495346" name="Memory of Contempt"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="40.0" disallowedHints="77,78,79">
+<action skillId="1879495358" name="Memory of Contempt"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="40.0" disallowedHints="75,78,81,82">
+<action skillId="1879495323" name="Memory of Shame"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="40.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879495264" name="Memory of Shame"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="40.0" disallowedHints="77,78,79">
+<action skillId="1879495333" name="Memory of Shame"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="25.0" disallowedHints="77,79">
+<action skillId="1879495296" name="Memory of Fear"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="65.0" disallowedHints="75,79,81,82" targetDisallowedHints="157,163">
+<action skillId="1879495312" name="Abolition of Self"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="65.0" disallowedHints="77,78,79" targetDisallowedHints="157,163">
+<action skillId="1879495262" name="Abolition of Self"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="40.0" disallowedHints="77,79">
+<action skillId="1879495238" name="Conflagration of Misery"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="36.0" disallowedHints="77,78,79" targetRequiredHints="159">
+<action skillId="1879495298" name="Burden of Jealousy"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="40.0" disallowedHints="77,78,79" targetRequiredHints="163">
+<action skillId="1879495274" name="Burden of Doubt"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="44.0" disallowedHints="77,78,79" targetDisallowedHints="157">
+<action skillId="1879495321" name="Burden of Fear"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495413">
+<actionTableEntry probability="75.0" cooldown="10.0" disallowedHints="75,79,81,82">
+<action skillId="1879495269" name="Piercing Arrow"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="10.0" disallowedHints="77,78,79">
+<action skillId="1879495339" name="Piercing Arrow"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495414">
+<actionTableEntry probability="-1.0" cooldown="60.0" targetCooldown="75.0" targetRequiredHints="159">
+<action skillId="1879495310" name="Memory of Strength"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495415">
+<actionTableEntry probability="-1.0" cooldown="50.0" disallowedHints="15,18,75,78,81,82">
+<action skillId="1879495337" name="Brother's Bellow"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="40.0" disallowedHints="15,18,75,77,79,81,82">
+<action skillId="1879495245" name="Brother's Bellow"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="30.0" disallowedHints="15,18,77,78,79">
+<action skillId="1879495324" name="Brother's Bellow"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="30.0" requiredHints="18" disallowedHints="75,78,81,82">
+<action skillId="1879497100" name="Mournful Bellow"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="30.0" requiredHints="18" disallowedHints="75,77,79,81,82">
+<action skillId="1879497099" name="Mournful Bellow"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="30.0" requiredHints="18" disallowedHints="77,78,79">
+<action skillId="1879497098" name="Mournful Bellow"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" requiredHints="48" disallowedHints="75,78,81,82">
+<action skillId="1879495239" name="Sludge Pot"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" requiredHints="48" disallowedHints="75,77,79,81,82">
+<action skillId="1879495317" name="Sludge Pot"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" requiredHints="48" disallowedHints="77,78,79">
+<action skillId="1879495256" name="Sludge Pot"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" requiredHints="29" disallowedHints="75,78,81,82">
+<action skillId="1879495364" name="The Water's Kiss"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="16.0" requiredHints="29" disallowedHints="75,77,79,81,82">
+<action skillId="1879495326" name="The Water's Kiss"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="12.0" requiredHints="29" disallowedHints="77,78,79">
+<action skillId="1879495249" name="The Water's Kiss"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495416">
+<actionTableEntry probability="90.0" cooldown="18.0" disallowedHints="75,78,81,82">
+<action skillId="1879495243" name="Field Survey"/>
+<action skillId="1879495266" name="Find Enemy"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="18.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879495286" name="Field Survey"/>
+<action skillId="1879495308" name="Find Enemy"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="18.0" disallowedHints="77,78,79">
+<action skillId="1879495354" name="Field Survey"/>
+<action skillId="1879495244" name="Find Enemy"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495417">
+<actionTableEntry probability="90.0" cooldown="22.0" disallowedHints="75,79,81,82">
+<action skillId="1879495247" name="Burden of Fear"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="22.0" disallowedHints="77,78,79">
+<action skillId="1879495321" name="Burden of Fear"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="75,79,81,82">
+<action skillId="1879495355" name="Burden of Doubt"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="77,78,79">
+<action skillId="1879495274" name="Burden of Doubt"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="18.0" disallowedHints="75,79,81,82">
+<action skillId="1879495289" name="Burden of Jealousy"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="18.0" disallowedHints="77,78,79">
+<action skillId="1879495298" name="Burden of Jealousy"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="60.0" disallowedHints="75,79,81,82">
+<action skillId="1879495261" name="Curse of Regret"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="60.0" disallowedHints="77,78,79">
+<action skillId="1879495348" name="Curse of Regret"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="26,27,75,79,81,82">
+<action skillId="1879495335" name="Burden of Loss"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="26,27,77,78,79">
+<action skillId="1879495338" name="Burden of Loss"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="40.0" disallowedHints="26,27,77,78,79" targetDisallowedHints="157,163">
+<action skillId="1879495338" name="Burden of Loss"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="60.0" disallowedHints="77,78,79">
+<action skillId="1879495348" name="Curse of Regret"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495418">
+<actionTableEntry probability="90.0" cooldown="18.0" disallowedHints="75,78,81,82">
+<action skillId="1879495336" name="Field Survey"/>
+<action skillId="1879495349" name="Find Enemy"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="18.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879495350" name="Field Survey"/>
+<action skillId="1879495240" name="Find Enemy"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="18.0" disallowedHints="77,78,79">
+<action skillId="1879495282" name="Field Survey"/>
+<action skillId="1879495303" name="Find Enemy"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495419">
+<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="48" disallowedHints="79" targetRequiredHints="157">
+<action skillId="1879495353" name="Armour Crusher"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="48" disallowedHints="77,79" targetRequiredHints="157">
+<action skillId="1879495281" name="Guard Breaker"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="30.0" requiredHints="48" disallowedHints="77,79">
+<action skillId="1879495281" name="Guard Breaker"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="12.0" requiredHints="48">
+<action skillId="1879495259" name="Crushing Blow"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="18.0" disallowedHints="77,79">
+<action skillId="1879497101" name="Corrupting Sweep"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="10.0" requiredHints="48" disallowedHints="77,78,79" targetRequiredHints="157">
+<action skillId="1879495272" name="Waning Morale"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495421">
+<actionTableEntry probability="-1.0" cooldown="1.0" targetRequiredHints="71">
+<action skillId="1879495475" name="Sacrifice Self"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="3.0">
+<action skillId="1879495257" name="Bite"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495422">
+<actionTableEntry probability="25.0" cooldown="1.0">
+<action skillId="1879495367" name="Shadow Spear"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="2.0">
+<action skillId="1879495283" name="Shadow Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="25.0" requiredHints="15" disallowedHints="75,79,81,82">
+<action skillId="1879495255" name="The Spear's Kiss"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="25.0" requiredHints="15" disallowedHints="77,78,79">
+<action skillId="1879495313" name="The Spear's Kiss"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="30.0" requiredHints="15" disallowedHints="77,79">
+<action skillId="1879495332" name="Consuming Shadow"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="5.0" requiredHints="15">
+<action skillId="1879495291" name="Reaching Spear"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="7.0" requiredHints="15">
+<action skillId="1879495319" name="Sweeping Spear"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="10.0" requiredHints="15" disallowedHints="79">
+<action skillId="1879495307" name="Spear of Deadly Shadow"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="30.0" disallowedHints="77,78,79">
+<action skillId="1879495332" name="Consuming Shadow"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495423">
+<actionTableEntry probability="25.0">
+<action skillId="1879495292" name="Bite"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="10.0" disallowedHints="77,79">
+<action skillId="1879495356" name="Savage Bite"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="75,78,81,82">
+<action skillId="1879495343" name="Blessing of the Ural"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879495258" name="Blessing of the Ural"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="77,78,79">
+<action skillId="1879495331" name="Blessing of the Ural"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495424">
+<actionTableEntry probability="75.0" cooldown="10.0" disallowedHints="75,79,81,82">
+<action skillId="1879495478" name="Reaching Attack"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="10.0" disallowedHints="77,78,79">
+<action skillId="1879495477" name="Sweeping Attack"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495425">
+<actionTableEntry probability="75.0" cooldown="5.0">
+<action skillId="1879495292" name="Bite"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="10.0">
+<action skillId="1879495356" name="Savage Bite"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495426">
+<actionTableEntry probability="75.0" cooldown="5.0">
+<action skillId="1879495322" name="Cleaving Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="12.0">
+<action skillId="1879495309" name="Thrash"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="25.0" disallowedHints="77,79">
+<action skillId="1879495278" name="Stunning Blow"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495427">
+<actionTableEntry probability="75.0" cooldown="5.0">
+<action skillId="1879495344" name="Quick Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="15.0">
+<action skillId="1879495277" name="Raking Claws"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495428">
+<actionTableEntry probability="-1.0" cooldown="9999.0" targetCooldown="9999.0" targetDisallowedHints="157,163">
+<action skillId="1879495362" name="Memory of an Ancient Warrior"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495429">
+<actionTableEntry probability="25.0">
+<action skillId="1879495366" name="Venomous Spit"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="2.0" disallowedHints="75,81,82">
+<action skillId="1879495257" name="Bite"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="2.0" disallowedHints="77,78,79">
+<action skillId="1879495329" name="Vampiric Bite"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="10.0" disallowedHints="75,78,81,82">
+<action skillId="1879495293" name="Venomous Bite"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="10.0" disallowedHints="77,79">
+<action skillId="1879495361" name="Venomous Bite"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="35.0" disallowedHints="77,79">
+<action skillId="1879495265" name="Cocoon"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="75,79,81,82">
+<action skillId="1879495246" name="Blessing of the Barug"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="77,78,79">
+<action skillId="1879495363" name="Blessing of the Barug"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495430">
+<actionTableEntry probability="75.0" cooldown="5.0">
+<action skillId="1879495322" name="Cleaving Strike"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495431">
+<actionTableEntry probability="75.0" cooldown="5.0">
+<action skillId="1879495292" name="Bite"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495439">
+<actionTableEntry probability="25.0">
+<action skillId="1879495453" name="Brutal Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="8.0">
+<action skillId="1879495436" name="Whirling Slash"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="15.0" targetCooldown="45.0">
+<action skillId="1879495440" name="Stunning Blow"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="12.0" disallowedHints="167">
+<action skillId="1879495446" name="Paralytic Poison"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="60.0">
+<action skillId="1879495541" name="Vengeance"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="30.0" disallowedHints="167">
+<action skillId="1879495547" name="Reckless Pursuit"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495443">
+<actionTableEntry probability="25.0">
+<action skillId="1879495452" name="Vicious Knife"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="6.0">
+<action skillId="1879495437" name="Piercing Spike"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="8.0">
+<action skillId="1879495448" name="Envenomed Blade"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="2.0" requiredHints="3">
+<action skillId="1879495438" name="Cunning Ambush"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="12.0" disallowedHints="167">
+<action skillId="1879495449" name="Lethargic Poison"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="30.0">
+<action skillId="1879495444" name="Vanish"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495454">
+<actionTableEntry probability="25.0">
+<action skillId="1879495450" name="Brutal Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="6.0">
+<action skillId="1879495435" name="Sweeping Blow"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="25.0">
+<action skillId="1879495451" name="Tremendous Impact"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="12.0" targetCooldown="45.0">
+<action skillId="1879495441" name="Stunning Roar"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="6.0" disallowedHints="167" targetCooldown="15.0">
+<action skillId="1879495442" name="Disorienting Bellow"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="25.0">
+<action skillId="1879496035" name="Corrosive Bile"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="10.0" disallowedHints="167">
+<action skillId="1879495447" name="Crushing Boulder"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="300.0" requiredHints="28">
+<action skillId="1879495445" name="Rampage"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495674">
+<actionTableEntry probability="90.0" cooldown="35.0" disallowedHints="75,78,81,82">
+<action skillId="1879495601" name="Ichor"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="30.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879495592" name="Ichor"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="30.0" disallowedHints="77,78,79">
+<action skillId="1879495640" name="Ichor"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="16.0" disallowedHints="75,79,81,82" targetCooldown="20.0">
+<action skillId="1879495581" name="Curse of Pain"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="12.0" disallowedHints="77,78,79" targetCooldown="15.0">
+<action skillId="1879495573" name="Curse of Pain"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="40.0" disallowedHints="75,78,81,82">
+<action skillId="1879495605" name="Cavernous Shout"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="40.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879495632" name="Cavernous Shout"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="40.0" disallowedHints="77,78,79">
+<action skillId="1879495572" name="Cavernous Shout"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" disallowedHints="75,78,81,82">
+<action skillId="1879495644" name="DNT - Great Slam"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879495628" name="DNT - Great Slam"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" disallowedHints="77,78,79">
+<action skillId="1879495568" name="DNT - Great Slam"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495675">
+<actionTableEntry probability="25.0" cooldown="1.0">
+<action skillId="1879495583" name="Piercing Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="2.0">
+<action skillId="1879495582" name="Sweeping Sands"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="16.0" disallowedHints="75,79,81,82">
+<action skillId="1879495589" name="Scouring Sands"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="16.0" disallowedHints="77,78,79">
+<action skillId="1879495578" name="Scouring Sands"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="16.0" disallowedHints="77,78,79" targetDisallowedHints="157,163">
+<action skillId="1879495578" name="Scouring Sands"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="24.0" disallowedHints="75,78,81,82">
+<action skillId="1879495642" name="Abrasive Storm"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="24.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879495615" name="Abrasive Storm"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="24.0" disallowedHints="77,78,79">
+<action skillId="1879495567" name="Abrasive Storm"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495676">
+<actionTableEntry probability="25.0" cooldown="1.0">
+<action skillId="1879495616" name="Weak Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="2.0">
+<action skillId="1879495627" name="Putrid Cut"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="5.0">
+<action skillId="1879495657" name="Sweeping Strike"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495677">
+<actionTableEntry probability="50.0" cooldown="1.0">
+<action skillId="1879495616" name="Weak Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="2.0">
+<action skillId="1879495627" name="Putrid Cut"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="3.0">
+<action skillId="1879495657" name="Sweeping Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="8.0" disallowedHints="75,79,81,82">
+<action skillId="1879495653" name="Great Slam"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="5.0" disallowedHints="77,78,79">
+<action skillId="1879495643" name="Great Slam"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" disallowedHints="75,79,81,82">
+<action skillId="1879495604" name="Caustic Bile"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="25.0" disallowedHints="77,78,79">
+<action skillId="1879495599" name="Caustic Bile"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="40.0" disallowedHints="75,78,81,82">
+<action skillId="1879495585" name="Weeping Ichor"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="30.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879495565" name="Weeping Ichor"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="25.0" disallowedHints="77,78,79">
+<action skillId="1879495624" name="Weeping Ichor"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495678">
+<actionTableEntry probability="90.0" cooldown="28.0" disallowedHints="75,79,81,82">
+<action skillId="1879495609" name="Stinging Sands"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="28.0" disallowedHints="77,78,79">
+<action skillId="1879495597" name="Stinging Sands"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="24.0" disallowedHints="77,79">
+<action skillId="1879495574" name="Desert Winds"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="16.0" disallowedHints="77,78,79">
+<action skillId="1879495630" name="Binding Sigil"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879495679">
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="75,79,81,82">
+<action skillId="1879495570" name="Death Burst"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="20.0" disallowedHints="77,78,79">
+<action skillId="1879495563" name="Death Burst"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="75,78,81,82">
+<action skillId="1879495651" name="Explosive Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879495662" name="Explosive Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" disallowedHints="77,78,79">
+<action skillId="1879495617" name="Explosive Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="16.0" disallowedHints="77,78,79" targetDisallowedHints="70,71">
+<action skillId="1879495630" name="Binding Sigil"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879496724">
+<actionTableEntry probability="25.0" cooldown="1.0" disallowedHints="75,78,81,82">
+<action skillId="1879496722" name="Sacrifice"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="1.0" disallowedHints="75,77,79,81,82">
+<action skillId="1879496716" name="Sacrifice"/>
+</actionTableEntry>
+<actionTableEntry probability="25.0" cooldown="1.0" disallowedHints="77,78,79">
+<action skillId="1879496719" name="Sacrifice"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879497046">
+<actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="26">
+<action skillId="1879497048" name="Call to the Beyond"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="60.0" disallowedHints="26,27">
+<action skillId="1879089386" name="Siphon Life"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="20.0" targetCooldown="30.0" targetDisallowedHints="42">
+<action skillId="1879089384" name="Shadow's Chill"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="10.0" targetCooldown="30.0">
+<action skillId="1879089385" name="Shadow's Touch"/>
 </actionTableEntry>
 </actionTable>
 </actionTables>

@@ -646,8 +646,8 @@
 <stat name="Skill_ChanceCriticalHit_Trait_MP_FromStealth" descriptionOverride="key:620774734:106251890" constant="25.0"/>
 <stat name="Skill_DamageMultiplier_WildAttack" descriptionOverride="key:620774734:106251891" constant="50.0"/>
 </trait>
-<trait identifier="1879072477" name="Enhanced Skill: On Your Feet!" iconId="1090553310" category="43" nature="3" tooltip="key:620774735:191029568" description="key:620774735:54354734">
-<stat name="Skill_RecoveryTime_Trait_MP_OnYourFeet" operator="SUBSTRACT" descriptionOverride="key:620774735:106251889" constant="60.0"/>
+<trait identifier="1879072477" name="Enhanced Skill: On Your Feet!" iconId="1092985869" category="43" nature="3" tooltip="key:620774735:191029568" description="key:620774735:54354734">
+<stat name="Skill_RecoveryTime_Trait_MP_OnYourFeet" operator="SUBSTRACT" descriptionOverride="key:620774735:106251889" constant="30.0"/>
 <stat name="EffectMod_ModType_ReviveHealthMultModifier" constant="35.0"/>
 <stat name="EffectMod_ModType_RevivePowerMultModifier" constant="35.0"/>
 </trait>
@@ -661,7 +661,7 @@
 <trait identifier="1879072480" name="Enhanced Skill: Snap Out of It!" iconId="1090553313" category="43" nature="3" tooltip="key:620774738:191029568" description="key:620774738:54354734">
 <effectGenerator id="1879244332" name="Improved Snap Out Of it!" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879072481" name="Enhanced Skill: Purge" iconId="1091472147" category="43" nature="3" tooltip="key:620774740:191029568" description="key:620774740:54354734">
+<trait identifier="1879072481" name="Enhanced Skill: Purge" iconId="1092985868" category="43" nature="3" tooltip="key:620774740:191029568" description="key:620774740:54354734">
 <effectGenerator id="1879244333" name="Improved Purge" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879072483" name="Uruk-hai Soldier Appearance" iconId="1090553317" category="54" nature="2" tooltip="key:620774746:191029568" description="key:620774746:54354734">
@@ -1124,6 +1124,7 @@
 <group code="18" name="Skin Appearance"/>
 </trait>
 <trait identifier="1879084083" name="Enhanced Skill: Blessing of Darkness" iconId="1091473785" category="43" nature="3" tooltip="key:620788946:191029568" description="key:620788946:54354734">
+<stat name="Skill_OrcShaman_Darkness_DamageReduction" constant="-50.0"/>
 <effectGenerator id="1879244337" name="Improved Blessing of Darkness" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879084085" name="Goat-masked Krahjarn Appearance" iconId="1091462231" category="54" nature="2" tooltip="key:620788934:191029568" description="key:620788934:54354734">
@@ -1175,9 +1176,8 @@
 <trait identifier="1879084117" name="Enhanced Skill: Fungal Spores" iconId="1091439830" category="43" nature="3" tooltip="key:620788945:191029568" description="key:620788945:54354734">
 <effectGenerator id="1879244336" name="Improved Fungal Spores" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879084118" name="Enhanced Skill: Fell Sacrifice" iconId="1091439828" category="43" nature="3" tooltip="key:620788943:191029568" description="key:620788943:54354734">
-<stat name="Skill_MoraleCost_Trait_MP_FellSacrifice" constant="-50.0"/>
-<stat name="Skill_PowerCost_Trait_MP_FellSacrifice" constant="-50.0"/>
+<trait identifier="1879084118" name="Enhanced Skill: Fell Restoration" iconId="1091439828" category="43" nature="3" tooltip="key:620788943:191029568" description="key:620788943:54354734">
+<stat name="Skill_PowerCost_Trait_MP_FellSacrifice" constant="-15.000001"/>
 <stat name="Skill_RecoveryTime_Trait_MP_FellSacrifice" operator="SUBSTRACT" constant="10.0"/>
 </trait>
 <trait identifier="1879084121" name="Shadow Queen Appearance" iconId="1090624034" category="54" nature="2" tooltip="key:620788948:191029568" description="key:620788948:54354734">
@@ -1807,8 +1807,7 @@
 <effectGenerator id="1879136673" name="Improved BlackSpeech" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879136704" name="Enhanced Skill: Quitters Never Win" iconId="1091472150" category="43" nature="3" tooltip="key:620827944:191029568" description="key:620827944:54354734">
-<stat name="Skill_RecoveryTime_Trait_MP_QuittersNever" operator="SUBSTRACT" constant="120.0"/>
-<effectGenerator id="1879136706" name="Improved Quitters Never Win" spellcraft="0.0"/>
+<stat name="Skill_RecoveryTime_Trait_MP_QuittersNever" operator="SUBSTRACT" constant="20.0"/>
 </trait>
 <trait identifier="1879136705" name="Enhanced Skill: Menacing Roar" iconId="1091472148" category="43" nature="3" tooltip="key:620827945:191029568" description="key:620827945:54354734">
 <stat name="Skill_RecoveryTime_Trait_MP_MenacingRoar" operator="SUBSTRACT" descriptionOverride="key:620827945:106251889" constant="15.0"/>
@@ -1846,7 +1845,7 @@
 <effectGenerator id="1879138666" name="Improved Blight" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879138671" name="Frugal Cursing" iconId="1091473855" category="43" nature="3" tooltip="key:620829090:191029568" description="key:620829090:54354734">
-<stat name="Skill_PowerCost_Trait_MP_FrugalCursing" operator="SUBSTRACT" constant="15.000001"/>
+<stat name="Skill_PowerCost_Trait_MP_FrugalCursing" operator="SUBSTRACT" constant="5.0"/>
 </trait>
 <trait identifier="1879138672" name="Fast Lob" iconId="1091473857" category="43" nature="3" tooltip="key:620829093:191029568" description="key:620829093:54354734">
 <stat name="Skill_InductionDuration_Trait_MP_FastLob" operator="SUBSTRACT" descriptionOverride="key:620829093:106251889" constant="1.0"/>
@@ -3166,13 +3165,11 @@
 <group code="7" name="Hatchling"/>
 </trait>
 <trait identifier="1879201534" name="Enhanced Skill: Efflorescence" iconId="1091755050" category="43" nature="3" tooltip="key:620874160:191029568" description="key:620874160:54354734">
-<stat name="ForwardSource_Combat_TraitCombo" operator="SET" descriptionOverride="-" value="e109"/>
-<stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" descriptionOverride="-" constant="15.000001"/>
+<stat name="Trait_Minstrel_Inspire_Fellows_Power_Cost" operator="SUBSTRACT" descriptionOverride="key:620874160:106251889" constant="15.000001"/>
+<effectGenerator id="1879492535" name="Enhanced Efflorescence" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879201575" name="Lead the Charge!" iconId="1091631125" category="43" nature="3" tooltip="key:620874189:191029568" description="key:620874189:54354734">
-<stat name="ForwardSource_Skill_Warleader_CombatSummoning" operator="SET" descriptionOverride="-" value="true"/>
-<stat name="Skill_RecoveryTime_Trait_MP_LeadTheCharge" operator="SUBSTRACT" descriptionOverride="-" constant="60.0"/>
-<stat name="Skill_Banner_Induction_MP_LeadTheCharge" operator="SUBSTRACT" descriptionOverride="key:620874189:106251891" constant="99.0"/>
+<stat name="Skill_RecoveryTime_Trait_MP_LeadTheCharge" operator="SUBSTRACT" constant="30.0"/>
 <effectGenerator id="1879201574" name="Improved Banner of Terror" spellcraft="0.0"/>
 <effectGenerator id="1879201576" name="Improved Banner of Horror" spellcraft="0.0"/>
 </trait>
@@ -6903,7 +6900,7 @@
 <stat name="ForwardSource_Combat_Champion_SkillCombo" descriptionOverride="-" value="(10)"/>
 <stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="key:620922792:106251891" value="(2,3,5,14)"/>
 <stat name="BLOCK" scaling="1879368065"/>
-<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="150.0"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="200.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
 <skill id="1879064070" name="Sudden Defence"/>
@@ -6984,7 +6981,7 @@
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="7.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="7.0"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620922782:106251892" constant="1.2"/>
-<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="150.0"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="200.0"/>
 <stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="10.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
@@ -7034,7 +7031,7 @@
 </trait>
 <trait identifier="1879272586" name="The Defender of the Free" iconId="1091564746" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_guardian_one" nature="28" description="key:620922785:54354734">
 <specialEffect label="key:620922785:106251889"/>
-<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="150.0"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="200.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
 <skill id="1879109781" name="Litany of Defiance"/>
@@ -7087,7 +7084,7 @@
 <stat name="ForwardSource_Captain_PartialParryEvent_LeaderofMen" operator="SET" descriptionOverride="key:620922794:106251890" value="true"/>
 <stat name="ForwardSource_Captain_PartialEvadeEvent_LeaderofMen" operator="SET" descriptionOverride="-" value="true"/>
 <stat name="ForwardSource_Captain_PartialBlockEvent_LeaderofMen" operator="SET" descriptionOverride="-" value="true"/>
-<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="150.0"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="200.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
 <stat name="Skill_Captain_Herald_DamageMod" descriptionOverride="-" scaling="1879394027"/>
 <stat name="Skill_Captain_Herald_MoraleMod" descriptionOverride="-" scaling="1879394026"/>
@@ -8449,7 +8446,7 @@
 <stat name="ForwardSource_Combat_Beorning_SkillCombo" descriptionOverride="-" value="(14)"/>
 <stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="key:620950483:106251891" value="(2,3,4,5,11,12,14,19,23,25,26,27)"/>
 <stat name="Trait_Beorning_PDFW_CooldownMod" operator="SUBSTRACT" constant="5.0"/>
-<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="150.0"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="200.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
 <skill id="1879315082" name="Counterattack"/>
@@ -10364,7 +10361,8 @@
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:621035445:106251890" constant="1.1"/>
 <stat name="ForwardSource_Combat_Brawler_SkillCombo" descriptionOverride="-" value="(9)"/>
-<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="150.0"/>
+<stat name="Skill_Brawler_ShrugItOff_CD" operator="SUBSTRACT" constant="7.0"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="200.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
 <skill id="1879411396" name="The Best Defence"/>
@@ -10499,9 +10497,9 @@
 <effect rank="3" id="1879414798" name="DNT - Defeating an Enemy returns 1 Mettle"/>
 </trait>
 <trait identifier="1879416111" name="Rush" iconId="1092699454" staticIconOverlayId="1091664889" pointCostProgression="1879438609" rankOverlayProgression="1879220093" tiers="2" tierProperty="trait_class_brawler_rank_23" nature="32" description="key:621040720:54354734">
-<stat name="Brawler_oocspeed_BonusMod" descriptionOverride="key:621040720:106251889" scaling="1879440309"/>
+<specialEffect label="key:621040720:106251889"/>
 <effect id="1879478971" name="DNT - OOC Run speed"/>
-<effect rank="2" id="1879478971" name="DNT - OOC Run speed"/>
+<effect rank="2" id="1879478978" name="DNT - OOC Run speed"/>
 </trait>
 <trait identifier="1879416144" name="Enhanced Guard" iconId="1091805278" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="4" tierProperty="trait_class_brawler_rank_13" nature="32" description="key:621040746:54354734">
 <stat name="Skill_Brawler_IronWillBracingGuard_DamageReduction" operator="SUBSTRACT" scaling="1879420600"/>
@@ -11004,6 +11002,13 @@
 </trait>
 <trait identifier="1879448463" name="Dúnedain of Cardolan - Travel Discount" iconId="1091552099" category="93" nature="1" tooltip="key:621065357:191029568" description="key:621065357:54354734">
 <stat name="Discount_Travel_Cardoswan" constant="25.0"/>
+</trait>
+<trait identifier="1879448877" name="Sulphurous Bloom" iconId="1090535587" category="43" nature="3" tooltip="key:620985289:191029568" description="key:620985289:54354734">
+<stat name="ICMR" constant="120.0"/>
+</trait>
+<trait identifier="1879448878" name="Ancient Boons" iconId="1090535587" category="43" nature="3" tooltip="key:620984782:191029568" description="key:620984782:54354734">
+<stat name="ICMR" constant="120.0"/>
+<effectGenerator id="1879492533" name="Improved Boon Skills" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879448975" name="Gundabad Savage Appearance" iconId="1090553268" category="54" nature="2" tooltip="key:621065829:191029568" description="key:621065829:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="33.0"/>
@@ -12831,6 +12836,9 @@
 <trait identifier="1879492375" name="Sophisticated Birder's Accessory" iconId="1092979559" category="54" nature="16">
 <group code="13" name="Gear"/>
 </trait>
+<trait identifier="1879492696" name="Clinging Fear" iconId="1092985867" category="43" nature="3" tooltip="key:621098265:191029568" description="key:621098265:54354734">
+<effectGenerator id="1879492779" name="Clinging Fear" spellcraft="0.0"/>
+</trait>
 <trait identifier="1879493443" name="Caparison of the Treasured Wellspring" iconId="1092982830" category="54" nature="16">
 <group code="9" name="Body"/>
 </trait>
@@ -12863,4 +12871,25 @@
 </trait>
 <trait identifier="1879495555" name="Valar Level 150 Boosted" iconId="1090620289" category="29" nature="1" cosmetic="true" tooltip="key:621100111:191029568" description="key:621100111:54354734"/>
 <trait identifier="1879495556" name="Level-up 150" iconId="1090620289" category="29" nature="1" cosmetic="true" tooltip="key:621100113:191029568" description="key:621100113:54354734"/>
+<trait identifier="1879496663" name="Wallet Bonus: Ikorbân Valley Landscape Barter Tokens" iconId="1091616315" category="29" nature="1" tooltip="key:621100991:191029568" description="key:621100991:54354734">
+<stat name="BarterWallet_BonusMultiplierU42Ultimate" constant="10.0"/>
+</trait>
+<trait identifier="1879496936" name="Steed of Utug-bûr Caparison" iconId="1092993528" category="54" nature="16">
+<group code="9" name="Body"/>
+</trait>
+<trait identifier="1879496937" name="Steed of Utug-bûr Saddle" iconId="1092993529" category="54" nature="16">
+<group code="12" name="Saddle"/>
+</trait>
+<trait identifier="1879496938" name="Steed of the Ikorbân Valley Head-piece" iconId="1092993525" category="54" nature="16">
+<group code="8" name="Head"/>
+</trait>
+<trait identifier="1879496939" name="Steed of Utug-bûr Head-piece" iconId="1092993526" category="54" nature="16">
+<group code="8" name="Head"/>
+</trait>
+<trait identifier="1879496940" name="Steed of the Ikorbân Valley Caparison" iconId="1092993524" category="54" nature="16">
+<group code="9" name="Body"/>
+</trait>
+<trait identifier="1879496941" name="Steed of the Ikorbân Valley Saddle" iconId="1092993527" category="54" nature="16">
+<group code="12" name="Saddle"/>
+</trait>
 </traits>

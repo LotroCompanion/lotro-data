@@ -2618,7 +2618,7 @@
 </skill>
 <skill identifier="1879072550" name="Mobilise" category="7" iconId="1090553315" description="key:620774741:228830419">
 <effectsMgr>
-<effect id="1879072553" name="Mobilize"/>
+<effect id="1879492225" name="DNT - Mobilize Buff"/>
 </effectsMgr>
 <effectsMgr type="USER">
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
@@ -2626,7 +2626,7 @@
 </skill>
 <skill identifier="1879072554" name="Quit Whining and Fight!" category="7" iconId="1090553316" description="key:620774745:228830419">
 <effectsMgr>
-<effect id="1879159316" name="Quit Whining and Fight"/>
+<effect id="1879492214" name="DNT - Quit Whining and Fight"/>
 </effectsMgr>
 <effectsMgr type="USER">
 <effect id="1879211626" name="DNT - Dispel Power of Fear"/>
@@ -3094,8 +3094,12 @@
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879073711" name="Cleave" category="8" iconId="1090555717" description="key:620775407:228830419">
+<skill identifier="1879073711" name="Cleave" category="8" iconId="1092979292" description="key:620775407:228830419">
+<effectsMgr>
+<effect id="1879492220" name="DNT"/>
+</effectsMgr>
 <effectsMgr type="USER">
+<effect id="1879495233" name="Melee Skills"/>
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
@@ -3109,7 +3113,7 @@
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879073713" name="On Your Feet!" category="7" iconId="1090555719" description="key:620775409:228830419">
+<skill identifier="1879073713" name="On Your Feet!" category="7" iconId="1092979285" description="key:620775409:228830419">
 <effectsMgr>
 <effect id="1879073731" name="On Your Feet!"/>
 </effectsMgr>
@@ -3117,7 +3121,7 @@
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879073714" name="Field Promotion" category="7" iconId="1090555720" description="key:620775411:228830419">
+<skill identifier="1879073714" name="Field Promotion" category="7" iconId="1092979297" description="key:620775411:228830419">
 <effectsMgr>
 <effect id="1879073732" name="Field Promotion"/>
 </effectsMgr>
@@ -6274,12 +6278,13 @@
 <effect id="1879056917" name="DNT"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879097861" name="Get a Grip!" category="7" iconId="1091465866" description="key:620796444:228830419">
+<skill identifier="1879097861" name="Get a Grip!" category="7" iconId="1092981818" description="key:620796444:228830419">
 <requiredTrait id="1879097858" name="Racial Skill: Get a Grip!"/>
 <effectsMgr>
 <effect id="1879097862" name="Get a Grip!"/>
 </effectsMgr>
 <effectsMgr type="USER">
+<effect id="1879495234" name="Get a Grip!"/>
 <effect id="1879465584"/>
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
@@ -6349,6 +6354,7 @@
 <requiredTrait id="1879097857" name="Racial Skill: Imposing Presence"/>
 <effectsMgr>
 <effect id="1879097875" name="Imposing Presence"/>
+<effect id="1879492227" name="Imposing Presence"/>
 </effectsMgr>
 <effectsMgr type="USER">
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
@@ -6411,11 +6417,12 @@
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879097887" name="Banner of Terror" category="11" iconId="1091405158" description="key:620796476:228830419">
+<skill identifier="1879097887" name="Banner of Terror" category="11" iconId="1092985863" description="key:620796476:228830419">
 <effectsMgr>
-<effect id="1879097890" name=".."/>
+<effect id="1879495219" name="DNT - AoE Burst"/>
 </effectsMgr>
 <effectsMgr type="USER">
+<effect id="1879097890" name=".."/>
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
@@ -6425,11 +6432,12 @@
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879097889" name="Command Post" category="11" iconId="1091405160" description="key:620796479:228830419">
+<skill identifier="1879097889" name="Command Post" category="11" iconId="1092985864" description="key:620796479:228830419">
 <effectsMgr>
-<effect id="1879101734" name="Command Post"/>
+<effect id="1879495221" name="DNT"/>
 </effectsMgr>
 <effectsMgr type="USER">
+<effect id="1879485916" name=".."/>
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
@@ -9765,23 +9773,23 @@
 <skill identifier="1879128810" name="a mighty swipe attack" iconId="1090522259"/>
 <skill identifier="1879128811" name="Melee Arc Knockback" iconId="1090522259">
 <effectsMgr>
-<effect id="1879051311" name="Knockaway"/>
+<effect id="1879155287" name="Knockback"/>
 <effect id="1879128833" name="Hotspot Immunity"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879128812" name="a moderate strike attack" iconId="1090522259">
 <effectsMgr>
-<effect id="1879049744" name="Major Crippling Poison"/>
+<effect id="1879493578" name="Suffocating Fumes"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879128813" name="a mighty strike attack" iconId="1090522259">
 <effectsMgr>
-<effect id="1879049744" name="Major Crippling Poison"/>
+<effect id="1879493578" name="Suffocating Fumes"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879128814" name="a strong strike attack" iconId="1090522259">
 <effectsMgr>
-<effect id="1879049744" name="Major Crippling Poison"/>
+<effect id="1879493578" name="Suffocating Fumes"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879128815" name="Bridge Collapse" iconId="1090522259"/>
@@ -9791,7 +9799,12 @@
 <effect id="1879128833" name="Hotspot Immunity"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879128817" name="a mighty thrown attack" iconId="1090522259"/>
+<skill identifier="1879128817" name="a mighty thrown attack" iconId="1090522259">
+<effectsMgr>
+<effect id="1879146085" name="Tentacle Lash"/>
+<effect id="1879493578" name="Suffocating Fumes"/>
+</effectsMgr>
+</skill>
 <skill identifier="1879128818" name="Thrown Stun" iconId="1090522259">
 <effectsMgr>
 <effect id="1879051778" name="Induce Stunned"/>
@@ -10274,8 +10287,8 @@
 </skill>
 <skill identifier="1879135581" name="Fertile Restoration" iconId="1090522259">
 <effectsMgr>
-<effect id="1879077346" name="Healing" spellcraft="0.1"/>
-<effect id="1879073690" name="Minor Renewal"/>
+<effect id="1879077346" name="Healing" spellcraft="0.15"/>
+<effect id="1879059591" name="Renewal"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879135582" name="Flora Burst" iconId="1090522259">
@@ -10596,6 +10609,7 @@
 <effect id="1879180499" name="DNT - Interrupt Skill - Dispel Mount"/>
 </effectsMgr>
 <effectsMgr type="USER">
+<effect id="1879495233" name="Melee Skills"/>
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
@@ -10612,6 +10626,7 @@
 <effect id="1879136212" name="Brawler's Stance"/>
 </effectsMgr>
 <effectsMgr type="USER">
+<effect id="1879211626" name="DNT - Dispel Power of Fear"/>
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
@@ -10620,12 +10635,16 @@
 <effect id="1879136210" name="Commander's Stance"/>
 </effectsMgr>
 <effectsMgr type="USER">
+<effect id="1879492697" name="DNT - Dispel Power of Fear"/>
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879136213" name="Call the Shadow" category="7" iconId="1091471922" description="key:620827488:228830419">
-<effectsMgr type="USER">
+<effectsMgr>
 <effect id="1879211486" name="Shadow's Touch"/>
+<effect id="1879492228" name="DNT - Reset Shouts"/>
+</effectsMgr>
+<effectsMgr type="USER">
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
@@ -10638,33 +10657,34 @@
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879136245" name="Banner of Horror" category="11" iconId="1091471917" description="key:620827517:228830419">
+<skill identifier="1879136245" name="Banner of Horror" category="11" iconId="1092985866" description="key:620827517:228830419">
 <effectsMgr>
-<effect id="1879143741" name=".."/>
+<effect id="1879495222" name="DNT - AoE Burst"/>
 </effectsMgr>
 <effectsMgr type="USER">
+<effect id="1879143741" name=".."/>
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879136248" name="Quitters Never Win" category="7" iconId="1091471918" description="key:620827515:228830419">
 <effectsMgr>
-<effect id="1879159317" name="Quitters Never Win"/>
-<effect id="1879108243" name="Restored Power"/>
+<effect id="1879492218" name="DNT - Quitters Never Win Heal"/>
 </effectsMgr>
 <effectsMgr type="USER">
 <effect id="1879211626" name="DNT - Dispel Power of Fear"/>
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879136251" name="Point-defence" category="11" iconId="1091471921" description="key:620827512:228830419">
+<skill identifier="1879136251" name="Point-defence" category="11" iconId="1092985865" description="key:620827512:228830419">
 <effectsMgr>
-<effect id="1879136244" name="Point-defence"/>
+<effect id="1879495220" name="DNT"/>
 </effectsMgr>
 <effectsMgr type="USER">
+<effect id="1879495206" name=".."/>
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879136736" name="Purge" category="7" iconId="1091510937" description="key:620827974:228830419">
+<skill identifier="1879136736" name="Purge" category="7" iconId="1092979287" description="key:620827974:228830419">
 <effectsMgr>
 <effect id="1879211768" name="Purge"/>
 </effectsMgr>
@@ -10883,7 +10903,7 @@
 </skill>
 <skill identifier="1879138629" name="Tenderize" category="8" iconId="1091473732" description="key:620829054:228830419">
 <effectsMgr>
-<effect id="1879231876" name="Induce Dazed"/>
+<effect id="1879496046" name="Induce Dazed"/>
 </effectsMgr>
 <effectsMgr type="USER">
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
@@ -10959,8 +10979,7 @@
 </skill>
 <skill identifier="1879138645" name="Efflorescence" category="7" iconId="1091473727" description="key:620829059:228830419">
 <effectsMgr>
-<effect id="1879138639" name="Efflorescence"/>
-<effect id="1879451348" name="DNT - Defiler Invigorated"/>
+<effect id="1879492536" name="Efflorescence"/>
 </effectsMgr>
 <effectsMgr type="USER">
 <effect id="1879465584"/>
@@ -11216,14 +11235,6 @@
 <skill identifier="1879140203" name="Bark Skin" iconId="1090522259">
 <effectsMgr>
 <effect id="1879140221" name="Hardened Bark"/>
-</effectsMgr>
-</skill>
-<skill identifier="1879140319" name="Repel Disease" iconId="1090524209">
-<effectsMgr>
-<effect id="1879135440" name="Remove Disease"/>
-</effectsMgr>
-<effectsMgr type="USER">
-<effect id="1879140325" name="Repel Disease"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879140344" name="Alert!" iconId="1090522259">
@@ -11845,7 +11856,7 @@
 <skill identifier="1879149556" name="Ranged Shadow Deadly" iconId="1090522259"/>
 <skill identifier="1879149557" name="Shadow Melee Knockback" iconId="1090522259">
 <effectsMgr>
-<effect id="1879080116" name="Knockback"/>
+<effect id="1879155287" name="Knockback"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879149558" name="Melee Fire Deadly" iconId="1090522259"/>
@@ -12250,11 +12261,6 @@
 <effect id="1879151152" name="Zholuga's Exploit"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879151213" name="a weak swipe attack" iconId="1090522259">
-<effectsMgr>
-<effect id="1879151152" name="Zholuga's Exploit"/>
-</effectsMgr>
-</skill>
 <skill identifier="1879151214" name="Uncontrolled Rage" iconId="1090522259">
 <effectsMgr>
 <effect id="1879051311" name="Knockaway"/>
@@ -12273,11 +12279,6 @@
 </skill>
 <skill identifier="1879151216" name="DNT - Summon Spores" iconId="1090522259">
 <effectsMgr>
-<effect id="1879151154" name="DNT - Summon Anti-caster Spore"/>
-<effect id="1879151155" name="DNT - Summon Anti-DPS Spore"/>
-<effect id="1879151156" name="DNT - Summon Anti-tank Spore"/>
-</effectsMgr>
-<effectsMgr type="USER">
 <effect id="1879151154" name="DNT - Summon Anti-caster Spore"/>
 <effect id="1879151155" name="DNT - Summon Anti-DPS Spore"/>
 <effect id="1879151156" name="DNT - Summon Anti-tank Spore"/>
@@ -12340,9 +12341,11 @@
 </skill>
 <skill identifier="1879151482" name="a strong thrown strike attack" iconId="1090522259"/>
 <skill identifier="1879151483" name="a strong thrown strike attack" iconId="1090522259"/>
-<skill identifier="1879151484" name="a minor thrown strike attack" iconId="1090522259"/>
-<skill identifier="1879151485" name="a minor thrown strike attack" iconId="1090522259"/>
-<skill identifier="1879151486" name="a mighty thrown strike attack" iconId="1090522259"/>
+<skill identifier="1879151486" name="a mighty thrown strike attack" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495088" name="Atrophy"/>
+</effectsMgr>
+</skill>
 <skill identifier="1879151487" name="a mighty thrown strike attack" iconId="1090522259"/>
 <skill identifier="1879151488" name="a moderate thrown strike attack" iconId="1090522259"/>
 <skill identifier="1879151489" name="a moderate thrown strike attack" iconId="1090522259"/>
@@ -15927,13 +15930,6 @@
 <effect id="1879191531" name="DNT - countdown to teleport for capture"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879191686" name="Shadow's Lament" category="47" iconId="1091476094" description="key:620866177:228830419">
-<effectsMgr type="USER">
-<effect id="1879060330" name="Battle-readied"/>
-<effect id="1879242111" name="DNT - Remove Improved Light of Elendil"/>
-<effect id="1879275348" name="Battle-readied"/>
-</effectsMgr>
-</skill>
 <skill identifier="1879191718" name="Weighted Throwing Axe" iconId="1090524209"/>
 <skill identifier="1879191735" name="Weighted Throwing Axe" iconId="1090524209"/>
 <mount identifier="1879191772" name="Skeleton Painted Horse" category="88" iconId="1091766335" initialName="key:620866246:138936629" mountCategory="4" mountType="1" sourceDescription="key:620995772:214783701" morale="100" speed="0.62" tall="true" peerId="1879191779" description="key:620866254:228830419">
@@ -18644,15 +18640,6 @@
 <effect id="1879201515" name="Plague of Flies"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879201533" name="Enhanced Efflorescence" category="7" iconId="1091473727" description="key:620874161:228830419">
-<effectsMgr>
-<effect id="1879138639" name="Efflorescence"/>
-<effect id="1879451348" name="DNT - Defiler Invigorated"/>
-</effectsMgr>
-<effectsMgr type="USER">
-<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
-</effectsMgr>
-</skill>
 <skill identifier="1879201543" name="Default Ranged Attack" iconId="1090519170" description="key:620874170:228830419"/>
 <skill identifier="1879201608" name="Clap" iconId="1090522259"/>
 <skill identifier="1879201609" name="Pound" iconId="1090522259">
@@ -18770,11 +18757,6 @@
 <skill identifier="1879202626" name="DNT - Disarm" iconId="1090522259">
 <effectsMgr>
 <effect id="1879109106" name="Primary Weapon: Disarmed"/>
-</effectsMgr>
-</skill>
-<skill identifier="1879202996" name="Restoration" iconId="1090524209" description="key:620875522:228830419">
-<effectsMgr>
-<effect id="1879204026" name="Restoration"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879203026" name="Dark Thorn" iconId="1090522259">
@@ -20217,6 +20199,7 @@
 <skill identifier="1879214588" name="Conviction" category="78" iconId="1091478183" description="key:620883505:228830419">
 <effectsMgr>
 <effect id="1879143750" name="Conviction" implement="1"/>
+<effect id="1879464012" name="Transfer To Caster"/>
 </effectsMgr>
 <effectsMgr type="USER">
 <effect id="1879270519" name="Strength of Conviction"/>
@@ -20982,6 +20965,7 @@
 <skill identifier="1879220210" name="Explosive Blackpowder" iconId="1090522259">
 <effectsMgr>
 <effect id="1879220205" name=".."/>
+<effect id="1879220209" name="Knockback"/>
 <effect id="1879056917" name="DNT"/>
 </effectsMgr>
 </skill>
@@ -21124,10 +21108,9 @@
 </skill>
 <skill identifier="1879221577" name="Brawler: Quit Whining and Fight!" category="7" iconId="1090553316" description="key:620888369:228830419">
 <effectsMgr>
-<effect id="1879221578" name="Quit Whining and Fight"/>
+<effect id="1879492219" name="DNT - Quit Whining Brawler"/>
 </effectsMgr>
 <effectsMgr type="USER">
-<effect id="1879211626" name="DNT - Dispel Power of Fear"/>
 <effect id="1879465584"/>
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
@@ -25247,7 +25230,8 @@
 <effect id="1879243698" name="Induce Stunned"/>
 </effectsMgr>
 <effectsMgr type="USER">
-<effect id="1879211487" name="DNT - Dispel Call The Shadow"/>
+<effect id="1879492697" name="DNT - Dispel Power of Fear"/>
+<effect id="1879495233" name="Melee Skills"/>
 <effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
 </effectsMgr>
 </skill>
@@ -31334,6 +31318,7 @@
 <skill identifier="1879288366" name="Conviction" category="139" iconId="1091478183" description="key:620935849:228830419">
 <effectsMgr>
 <effect id="1879143750" name="Conviction" implement="1"/>
+<effect id="1879464012" name="Transfer To Caster"/>
 </effectsMgr>
 <effectsMgr type="USER">
 <effect id="1879270519" name="Strength of Conviction"/>
@@ -36346,6 +36331,9 @@
 <effect id="1879338730" name="Travel to Premium House"/>
 </effectsMgr>
 </travelSkill>
+<skill identifier="1879338832" name="Melee Common Min" iconId="1090531787" description="key:620971525:228830419"/>
+<skill identifier="1879338833" name="Melee Common Med" iconId="1090531779" description="key:620971526:228830419"/>
+<skill identifier="1879338834" name="Melee Common Max" iconId="1090531781" description="key:620971527:228830419"/>
 <pet identifier="1879338916" name="Golden Bat" category="145" iconId="1092278297" initialName="key:620971618:33816677" sourceDescription="key:620971609:211796645" genus="14" species="27" subSpecies="132" description="key:620971609:228830419">
 <effectsMgr type="TOGGLE">
 <effect id="1879338912" name="Golden Bat"/>
@@ -38522,6 +38510,24 @@
 <skill identifier="1879368105" name="Shield Focus" category="23" iconId="1091660966" description="key:621010057:228830419">
 <effectsMgr type="TOGGLE">
 <effect id="1879368107" name="Shield Focus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879368171" name="Friend of Sturdy Beasts (Aurochs)" category="1" iconId="1092373118" description="key:620973073:228830419">
+<effectsMgr>
+<effect id="1879368176" name="DNT - Aurochs"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879206195" name="DNT"/>
+<effect id="1879216474" name="Remove consumable"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879368172" name="Friend of Sturdy Beasts (Aurochs)" category="1" iconId="1092373118" description="key:620973629:228830419">
+<effectsMgr>
+<effect id="1879368177" name="DNT - Aurochs +1 level"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879206195" name="DNT"/>
+<effect id="1879216474" name="Remove consumable"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879368191" name="Shield-slam" category="83" iconId="1090540658" description="key:620973317:228830419">
@@ -44380,6 +44386,11 @@
 <effect id="1879411709"/>
 </effectsMgr>
 </pet>
+<pet identifier="1879411756" name="Wild Black Donkey" category="145" iconId="1092596072" initialName="key:621037426:33816677" sourceDescription="key:621037469:211796645" genus="14" species="27" subSpecies="132" description="key:621037469:228830419">
+<effectsMgr type="TOGGLE">
+<effect id="1879411702"/>
+</effectsMgr>
+</pet>
 <pet identifier="1879411757" name="Treasure-laden Donkey" category="145" iconId="1092596071" initialName="key:621037423:33816677" sourceDescription="key:621037473:211796645" genus="14" species="27" subSpecies="132" description="key:621037473:228830419">
 <effectsMgr type="TOGGLE">
 <effect id="1879411712"/>
@@ -45375,7 +45386,7 @@
 <skill identifier="1879416145" name="Bracing Guard" category="151" iconId="1092693316" description="key:621040747:228830419">
 <effectsMgr>
 <effect id="1879420965" name="Bracing Guard Active"/>
-<effect id="1879420538" name="Weather Blows Heal"/>
+<effect id="1879420538" name="Bracing Guard"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879416151" name="One for All" category="151" iconId="1091805278" description="key:621040748:228830419">
@@ -48432,6 +48443,11 @@
 <skill identifier="1879452394" name="Damaging Cloud II" iconId="1090522259">
 <effectsMgr>
 <effect id="1879452213" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879452396" name="Virulent Discharge" iconId="1090522259">
+<effectsMgr>
+<effect id="1879452222" name="Virulent Poison"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879452397" name="Sauron's Defence II" iconId="1090522259">
@@ -52573,6 +52589,14 @@
 <effect id="1879478165" name="Ettenmoors Edhelharn Token: Give Hope"/>
 </effectsMgr>
 </skill>
+<skill identifier="1879478183" name="The Fell North Wind" iconId="1090522259">
+<effectsMgr>
+<effect id="1879478184" name="The Fell North Wind"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879478185" name="The Fell North Wind"/>
+</effectsMgr>
+</skill>
 <skill identifier="1879478480" name="Composure" category="147" iconId="1091940912" description="key:621087137:228830419">
 <effectsMgr>
 <effect id="1879315656" name="Composure" implement="1"/>
@@ -53203,11 +53227,6 @@
 <effect id="1879480656"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879481380" name="Interrupt" iconId="1090522259">
-<effectsMgr>
-<effect id="1879054551" name="Interrupts Inductions"/>
-</effectsMgr>
-</skill>
 <skill identifier="1879481382" name="Full Draw" iconId="1090522259"/>
 <skill identifier="1879481384" name="Lesser Cleave" iconId="1090522259"/>
 <skill identifier="1879481385" name="a mighty melee attack" iconId="1090522259"/>
@@ -53650,11 +53669,6 @@
 <effect id="1879480655"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879481569" name="a swift melee attack" iconId="1090522259">
-<effectsMgr>
-<effect id="1879054551" name="Interrupts Inductions"/>
-</effectsMgr>
-</skill>
 <skill identifier="1879481570" name="Sticky Tar" iconId="1090522259">
 <effectsMgr>
 <effect id="1879481431" name="Sticky Tar"/>
@@ -53780,11 +53794,6 @@
 </effectsMgr>
 </skill>
 <skill identifier="1879481617" name="Pinning Shot" iconId="1090522259"/>
-<skill identifier="1879481618" name="Disrupting Shot" iconId="1090522259">
-<effectsMgr>
-<effect id="1879054551" name="Interrupts Inductions"/>
-</effectsMgr>
-</skill>
 <skill identifier="1879481620" name="Caltrops" iconId="1090522259">
 <effectsMgr>
 <effect id="1879481459" name="Caltrops"/>
@@ -53863,6 +53872,7 @@
 <effect id="1879482337" name="DNT"/>
 </effectsMgr>
 </skill>
+<skill identifier="1879482068" name="Lesser Cleave" iconId="1090522259"/>
 <skill identifier="1879482069" name="Rain of Arrows" iconId="1090522259">
 <effectsMgr>
 <effect id="1879483209" name="Arrows Overhead"/>
@@ -53915,6 +53925,7 @@
 <effect id="1879481629" name="Battle-readied"/>
 </effectsMgr>
 </skill>
+<skill identifier="1879482079" name="Flurry of Strikes" iconId="1090522259"/>
 <skill identifier="1879482080" name="Swift Bow" iconId="1090522259"/>
 <skill identifier="1879482081" name="Furious Blows" iconId="1090522259"/>
 <skill identifier="1879482082" name="Low Cut" iconId="1090522259">
@@ -53981,6 +53992,7 @@
 <effect id="1879482350" name="DNT"/>
 </effectsMgr>
 </skill>
+<skill identifier="1879482099" name="Quick Strike" iconId="1090522259"/>
 <skill identifier="1879482100" name="a strong melee attack" iconId="1090522259"/>
 <skill identifier="1879482101" name="Horn of Champions" iconId="1090522259">
 <effectsMgr type="USER">
@@ -53997,6 +54009,7 @@
 </effectsMgr>
 </skill>
 <skill identifier="1879482105" name="a sweeping melee attack" iconId="1090522259"/>
+<skill identifier="1879482106" name="Ragged Cut" iconId="1090522259"/>
 <skill identifier="1879482107" name="Bracing Guard" iconId="1090522259">
 <effectsMgr type="USER">
 <effect id="1879483238" name="Bracing Guard"/>
@@ -54201,11 +54214,6 @@
 <effect id="1879482304" name="Deep Cut"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879482165" name="a swift melee attack" iconId="1090522259">
-<effectsMgr>
-<effect id="1879054551" name="Interrupts Inductions"/>
-</effectsMgr>
-</skill>
 <skill identifier="1879482166" name="Word of Flame 2" iconId="1090522259"/>
 <skill identifier="1879482168" name="Horn of Umbar" iconId="1090522259">
 <effectsMgr>
@@ -54253,11 +54261,6 @@
 <skill identifier="1879482178" name="Shanty Heal" iconId="1090522259">
 <effectsMgr>
 <effect id="1879482336" name="Shanty: Resolve"/>
-</effectsMgr>
-</skill>
-<skill identifier="1879482179" name="a swift melee attack" iconId="1090522259">
-<effectsMgr>
-<effect id="1879054551" name="Interrupts Inductions"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879482180" name="Fleche (distributed)" iconId="1090522259"/>
@@ -54325,6 +54328,7 @@
 <effect id="1879483222" name="Knockback"/>
 </effectsMgr>
 </skill>
+<skill identifier="1879482197" name="Radial Cut" iconId="1090522259"/>
 <skill identifier="1879482198" name="Whirling Retaliation" iconId="1090522259">
 <effectsMgr>
 <effect id="1879481488" name="Shredded Armour"/>
@@ -54385,6 +54389,7 @@
 <effect id="1879480669" name="Summon Oath-sworn Archer"/>
 </effectsMgr>
 </skill>
+<skill identifier="1879482214" name="Death Bringer Mark" iconId="1090522259"/>
 <skill identifier="1879482215" name="Subtle Strike" iconId="1090522259"/>
 <skill identifier="1879482216" name="Seeping Wound" iconId="1090522259">
 <effectsMgr>
@@ -54452,12 +54457,14 @@
 <effect id="1879482284" name="Whirling Retaliation"/>
 </effectsMgr>
 </skill>
+<skill identifier="1879482232" name="Primer Cleave" iconId="1090522259"/>
 <skill identifier="1879482233" name="Stagger" iconId="1090522259">
 <effectsMgr>
 <effect id="1879482281" name="Stagger - 3"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879482234" name="Word of Flame 1" iconId="1090522259"/>
+<skill identifier="1879482235" name="Distributed Cut" iconId="1090522259"/>
 <skill identifier="1879482237" name="Full Draw" iconId="1090522259"/>
 <skill identifier="1879482238" name="Word of Frost" iconId="1090522259"/>
 <skill identifier="1879482239" name="Iron Claw" iconId="1090522259">
@@ -54487,17 +54494,14 @@
 </effectsMgr>
 </skill>
 <skill identifier="1879482246" name="Yearning Flame" iconId="1090522259"/>
+<skill identifier="1879482247" name="Major Cleave" iconId="1090522259"/>
 <skill identifier="1879482248" name="Precise Strike" iconId="1090522259"/>
 <skill identifier="1879482249" name="Jagged Cut" iconId="1090522259">
 <effectsMgr>
 <effect id="1879481488" name="Shredded Armour"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879482250" name="Disrupting Shot" iconId="1090522259">
-<effectsMgr>
-<effect id="1879054551" name="Interrupts Inductions"/>
-</effectsMgr>
-</skill>
+<skill identifier="1879482251" name="Exploit Opening" iconId="1090522259"/>
 <skill identifier="1879482252" name="Ram" iconId="1090522259"/>
 <skill identifier="1879482253" name="Strident Cry" iconId="1090522259">
 <effectsMgr type="TOGGLE">
@@ -54524,11 +54528,6 @@
 <effectsMgr>
 <effect id="1879482268" name="Crushing Blows - 5"/>
 <effect id="1879482271" name="Crushing Blows Slow"/>
-</effectsMgr>
-</skill>
-<skill identifier="1879482258" name="Interrupt" iconId="1090522259">
-<effectsMgr>
-<effect id="1879054551" name="Interrupts Inductions"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879482259" name="Cry of Fury" iconId="1090522259">
@@ -55275,28 +55274,28 @@
 <effect id="1879483209" name="Arrows Overhead"/>
 </effectsMgr>
 </skill>
-<travelSkill identifier="1879484863" name="Guide to Bej Mâghda" category="102" iconId="1092943758" description="key:621091838:228830419">
+<travelSkill identifier="1879484863" name="Guide to Bej Mâgha" category="102" iconId="1092943758" description="key:621091838:228830419">
 <position region="5" longitude="-105.7334" latitude="-19.91836"/>
 <effectsMgr>
-<effect id="1879484861" name="Guide to the Ledger-keepers"/>
+<effect id="1879484861" name="Guide to the fishing village in Bej Mâgha"/>
 </effectsMgr>
 </travelSkill>
-<travelSkill identifier="1879484865" name="Return to Bej Mâghda" category="102" iconId="1092943758" description="key:621091841:228830419">
+<travelSkill identifier="1879484865" name="Return to Bej Mâgha" category="102" iconId="1092943758" description="key:621091841:228830419">
 <position region="5" longitude="-105.7334" latitude="-19.91836"/>
 <effectsMgr>
-<effect id="1879484867" name="Travel to the Ledger-keepers"/>
+<effect id="1879484867" name="Travel to the fishing village in Bej Mâgha"/>
 </effectsMgr>
 </travelSkill>
-<travelSkill identifier="1879484866" name="Muster in Bej Mâghda" category="102" iconId="1092943758" description="key:621091840:228830419">
+<travelSkill identifier="1879484866" name="Muster in Bej Mâgha" category="102" iconId="1092943758" description="key:621091840:228830419">
 <position region="5" longitude="-105.7334" latitude="-19.91836"/>
 <effectsMgr>
-<effect id="1879484864" name="Muster to the Ledger-keepers"/>
+<effect id="1879484864" name="Muster to the fishing village in Bej Mâgha"/>
 </effectsMgr>
 </travelSkill>
-<travelSkill identifier="1879484868" name="Sail to Bej Mâghda" category="102" iconId="1092943758" description="key:621091842:228830419">
+<travelSkill identifier="1879484868" name="Sail to Bej Mâgha" category="102" iconId="1092943758" description="key:621091842:228830419">
 <position region="5" longitude="-105.7334" latitude="-19.91836"/>
 <effectsMgr>
-<effect id="1879484867" name="Travel to the Ledger-keepers"/>
+<effect id="1879484862" name="Sail to the fishing village in Bej Mâgha"/>
 </effectsMgr>
 </travelSkill>
 <skill identifier="1879484917" name="Summon Tentacle" iconId="1090522259">
@@ -55884,7 +55883,13 @@
 </effectsMgr>
 </skill>
 <skill identifier="1879486932" name="Umbral Nova" iconId="1090522259"/>
+<skill identifier="1879487014" name="Lost in Shadow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879488714" name="DNT"/>
+</effectsMgr>
+</skill>
 <skill identifier="1879487478" name="Major Pet Command" category="6" iconId="1092973532" description="key:621093838:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
 <effectsMgr type="USER">
 <effect id="1879491455" name="DNT - Wild Sigil Effect"/>
 <effect id="1879491454" name="DNT - Wild Sigil Effect"/>
@@ -55896,6 +55901,7 @@
 </effectsMgr>
 </skill>
 <skill identifier="1879487481" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621093841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
 <effectsMgr type="USER">
 <effect id="1879491449" name="DNT - Wild Sigil Effect"/>
 <effect id="1879491460" name="DNT - Wild Sigil Effect"/>
@@ -56113,6 +56119,7 @@
 </effectsMgr>
 </skill>
 <skill identifier="1879488729" name="Major Pet Command" category="6" iconId="1092973532" description="key:621094843:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
 <effectsMgr type="USER">
 <effect id="1879491455" name="DNT - Wild Sigil Effect"/>
 <effect id="1879491454" name="DNT - Wild Sigil Effect"/>
@@ -56124,6 +56131,7 @@
 </effectsMgr>
 </skill>
 <skill identifier="1879488731" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621094835:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
 <effectsMgr type="USER">
 <effect id="1879491449" name="DNT - Wild Sigil Effect"/>
 <effect id="1879491460" name="DNT - Wild Sigil Effect"/>
@@ -56170,11 +56178,13 @@
 </effectsMgr>
 </skill>
 <skill identifier="1879488744" name="Sign of the Wild: Protection" category="6" iconId="1092280587" description="key:621094841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
 <effectsMgr type="USER">
 <effect id="1879491453" name="DNT - Wild Sigil Effect"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879488745" name="Sign of the Wild: Rage" category="6" iconId="1090541215" description="key:621094819:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
 <effectsMgr type="USER">
 <effect id="1879491450" name="DNT - Wild Sigil Effect"/>
 </effectsMgr>
@@ -56186,6 +56196,16 @@
 </effectsMgr>
 <effectsMgr type="USER">
 <effect id="1879489152" name="DNT - Dispels Pet Skill AIHint Helper"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879489148" name="Shatter Arms" iconId="1090541019" description="key:621095224:228830419">
+<requiredEffect id="1879489055" name="DNT - Execute Minor Pet Skill"/>
+<effectsMgr>
+<effect id="1879073222" name="Shatter Arms"/>
+<effect id="1879052302" name="Flanked!"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879489158" name="DNT - Dispels Pet Skill AIHint Helper"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879489149" name="Harrying Strike" iconId="1090531782" description="key:621095236:228830419">
@@ -56254,6 +56274,16 @@
 <skill identifier="1879489159" name="Nature's Light" iconId="1091671533" description="key:621095238:228830419">
 <effectsMgr>
 <effect id="1879119822" name="Morale Restoration" spellcraft="0.015"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879489161" name="Challenge" iconId="1090553876" description="key:621095230:228830419">
+<requiredEffect id="1879489044" name="DNT - Execute Major Pet Skill"/>
+<effectsMgr>
+<effect id="1879138960" name="Force Attack"/>
+<effect id="1879489328" name="Increase Threat"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879489165" name="DNT - Dispels Pet Skill AIHint Helper"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879489164" name="Nature's Light" iconId="1091671533" description="key:621095227:228830419">
@@ -56356,11 +56386,7 @@
 <effect id="1879489940" name="Enervating Grip"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879489935" name="Dark Blade" iconId="1090522259">
-<effectsMgr>
-<effect id="1879487573" name="DNT - removes the killproc to make sure we don't summon multiple nazgul."/>
-</effectsMgr>
-</skill>
+<skill identifier="1879489935" name="Dark Blade" iconId="1090522259"/>
 <skill identifier="1879489939" name="Sinister Claws" iconId="1090522259"/>
 <skill identifier="1879490235" name="Dominate" iconId="1090522259">
 <effectsMgr>
@@ -56645,7 +56671,7 @@
 <skill identifier="1879490450" name="Black Scream" iconId="1090522259"/>
 <skill identifier="1879490461" name="Black Ice Barrier" iconId="1090522259">
 <effectsMgr>
-<effect id="1879490460" name="This barrier of ice freezes the weapons of those who dare attack the one so protected."/>
+<effect id="1879490460" name="Black Ice"/>
 </effectsMgr>
 </skill>
 <skill identifier="1879490466" name="Ghostly Beak" iconId="1090522259"/>
@@ -56925,6 +56951,96 @@
 <effect id="1879490488" name="Slow Burn"/>
 </effectsMgr>
 </skill>
+<travelSkill identifier="1879491486" name="Guide to Jirush" category="102" iconId="1092974516" description="key:621097321:228830419">
+<position region="5" longitude="-80.1397" latitude="-37.657402"/>
+<effectsMgr>
+<effect id="1879491522" name="Guide to Jirush"/>
+</effectsMgr>
+</travelSkill>
+<travelSkill identifier="1879491489" name="Return to Iridír" category="102" iconId="1092974518" description="key:621097325:228830419">
+<position region="5" longitude="-80.93741" latitude="-21.781757"/>
+<effectsMgr>
+<effect id="1879491528" name="Travel to Iridír"/>
+</effectsMgr>
+</travelSkill>
+<travelSkill identifier="1879491490" name="Sail to Urmâkh" category="102" iconId="1092974517" description="key:621097356:228830419">
+<position region="5" longitude="-67.34636" latitude="-36.89822"/>
+<effectsMgr>
+<effect id="1879491503" name="Sail to Urmâkh"/>
+</effectsMgr>
+</travelSkill>
+<travelSkill identifier="1879491493" name="Muster at Iridír" category="102" iconId="1092974518" description="key:621097351:228830419">
+<position region="5" longitude="-80.93741" latitude="-21.781757"/>
+<effectsMgr>
+<effect id="1879491512" name="Muster in Iridír"/>
+</effectsMgr>
+</travelSkill>
+<travelSkill identifier="1879491496" name="Sail to Maurûsh" category="102" iconId="1092974519" description="key:621097345:228830419">
+<position region="5" longitude="-62.736004" latitude="-23.149881"/>
+<effectsMgr>
+<effect id="1879491526" name="Sail to Maurûsh"/>
+</effectsMgr>
+</travelSkill>
+<travelSkill identifier="1879491499" name="Guide to Urmâkh" category="102" iconId="1092974517" description="key:621097331:228830419">
+<position region="5" longitude="-67.34636" latitude="-36.89822"/>
+<effectsMgr>
+<effect id="1879491491" name="Guide to Urmâkh"/>
+</effectsMgr>
+</travelSkill>
+<travelSkill identifier="1879491504" name="Return to Urmâkh" category="102" iconId="1092974517" description="key:621097341:228830419">
+<position region="5" longitude="-67.34636" latitude="-36.89822"/>
+<effectsMgr>
+<effect id="1879491510" name="Travel to Urmâkh"/>
+</effectsMgr>
+</travelSkill>
+<travelSkill identifier="1879491505" name="Sail to Iridír" category="102" iconId="1092974518" description="key:621097347:228830419">
+<position region="5" longitude="-80.93741" latitude="-21.781757"/>
+<effectsMgr>
+<effect id="1879491519" name="Sail to Iridír"/>
+</effectsMgr>
+</travelSkill>
+<travelSkill identifier="1879491508" name="Muster at Urmâkh" category="102" iconId="1092974517" description="key:621097329:228830419">
+<position region="5" longitude="-67.34636" latitude="-36.89822"/>
+<effectsMgr>
+<effect id="1879491498" name="Muster in Urmâkh"/>
+</effectsMgr>
+</travelSkill>
+<travelSkill identifier="1879491509" name="Muster at Jirush" category="102" iconId="1092974516" description="key:621097333:228830419">
+<position region="5" longitude="-80.1397" latitude="-37.657402"/>
+<effectsMgr>
+<effect id="1879491488" name="Muster in Jirush"/>
+</effectsMgr>
+</travelSkill>
+<travelSkill identifier="1879491514" name="Guide to Maurûsh" category="102" iconId="1092974519" description="key:621097317:228830419">
+<position region="5" longitude="-62.736004" latitude="-23.149881"/>
+<effectsMgr>
+<effect id="1879491497" name="Guide to Maurûsh"/>
+</effectsMgr>
+</travelSkill>
+<travelSkill identifier="1879491516" name="Return to Maurûsh" category="102" iconId="1092974519" description="key:621097342:228830419">
+<position region="5" longitude="-62.736004" latitude="-23.149881"/>
+<effectsMgr>
+<effect id="1879491525" name="Travel to Maurûsh"/>
+</effectsMgr>
+</travelSkill>
+<travelSkill identifier="1879491518" name="Guide to Iridír" category="102" iconId="1092974518" description="key:621097358:228830419">
+<position region="5" longitude="-80.93741" latitude="-21.781757"/>
+<effectsMgr>
+<effect id="1879491507" name="Guide to Iridír"/>
+</effectsMgr>
+</travelSkill>
+<travelSkill identifier="1879491523" name="Return to Jirush" category="102" iconId="1092974516" description="key:621097354:228830419">
+<position region="5" longitude="-80.1397" latitude="-37.657402"/>
+<effectsMgr>
+<effect id="1879491513" name="Travel to Jirush"/>
+</effectsMgr>
+</travelSkill>
+<travelSkill identifier="1879491527" name="Muster at Maurûsh" category="102" iconId="1092974519" description="key:621097350:228830419">
+<position region="5" longitude="-62.736004" latitude="-23.149881"/>
+<effectsMgr>
+<effect id="1879491487" name="Muster in Maurûsh"/>
+</effectsMgr>
+</travelSkill>
 <skill identifier="1879491550" name="Gust of Wind" category="41" iconId="1092975988" description="key:620775043:228830419">
 <requiredEffect id="1879275702" name="The Ancient Master"/>
 <effectsMgr>
@@ -57099,6 +57215,130 @@
 <effect id="1879111268" name="Remove Corruption"/>
 </effectsMgr>
 </skill>
+<skill identifier="1879492157" name="Scold Slackers" category="7" iconId="1090555719" description="key:621097906:228830419">
+<effectsMgr>
+<effect id="1879104869" name="Fell Sacrifice"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879465584"/>
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492160" name="Marching Orders" category="7" iconId="1092980162" description="key:621097898:228830419">
+<effectsMgr>
+<effect id="1879492223" name="DNT - Marching Orders Commander"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492162" name="White-hot Whip" category="7" iconId="1092979295" description="key:621097899:228830419">
+<effectsMgr type="USER">
+<effect id="1879492697" name="DNT - Dispel Power of Fear"/>
+<effect id="1879495233" name="Melee Skills"/>
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492163" name="Petty Criticism" category="15" iconId="1092979291" description="key:621097913:228830419">
+<effectsMgr type="USER">
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492164" name="Scorn" category="15" iconId="1092979294" description="key:621097896:228830419">
+<effectsMgr type="USER">
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492165" name="Condemned" category="7" iconId="1092979296" description="key:621097893:228830419">
+<effectsMgr>
+<effect id="1879492205" name="Condemned"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492169" name="Scorn" category="7" iconId="1092979293" description="key:621097911:228830419">
+<effectsMgr>
+<effect id="1879492168" name="Scorn"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879211626" name="DNT - Dispel Power of Fear"/>
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492170" name="Crushing Shield" category="8" iconId="1092979289" description="key:621097901:228830419">
+<effectsMgr>
+<effect id="1879492224" name="DNT"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879492697" name="DNT - Dispel Power of Fear"/>
+<effect id="1879495233" name="Melee Skills"/>
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492172" name="Cleave" category="8" iconId="1090555717" description="key:621097905:228830419">
+<effectsMgr type="USER">
+<effect id="1879492697" name="DNT - Dispel Power of Fear"/>
+<effect id="1879495233" name="Melee Skills"/>
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492173" name="War-forged Uruk" category="7" iconId="1092980163" description="key:621097909:228830419">
+<effectsMgr>
+<effect id="1879492211" name="War-forged"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492174" name="Ambush" category="7" iconId="1092981817" description="key:621097912:228830419">
+<effectsMgr>
+<effect id="1879492217" name="DNT - Ambush"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492175" name="Quitters Die" category="7" iconId="1092980161" description="key:621097902:228830419">
+<effectsMgr type="USER">
+<effect id="1879492697" name="DNT - Dispel Power of Fear"/>
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492176" name="Acrid Salts" category="7" iconId="1092980108" description="key:621097895:228830419">
+<effectsMgr>
+<effect id="1879492226" name="Acrid Salts"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492178" name="Petty Criticism" category="7" iconId="1092979286" description="key:621097904:228830419">
+<effectsMgr>
+<effect id="1879492161" name="Petty Criticism"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492180" name="Marching Orders" category="7" iconId="1092980165" description="key:621097897:228830419">
+<effectsMgr>
+<effect id="1879492215" name="DNT - Marching Orders Brawler"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492181" name="Roaring Shield" category="8" iconId="1092979288" description="key:621097894:228830419">
+<effectsMgr>
+<effect id="1879492216" name="DNT"/>
+<effect id="1879492202" name="Crushed"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879495233" name="Melee Skills"/>
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
 <pet identifier="1879492385" name="Sophisticated Chaffinch" category="145" iconId="1092979568" initialName="key:621098106:33816677" sourceDescription="key:621098108:211796645" genus="14" species="27" subSpecies="132" description="key:621098108:228830419">
 <effectsMgr type="TOGGLE">
 <effect id="1879492384"/>
@@ -57115,9 +57355,385 @@
 <effect id="1879421335" name="DNT - Dispel Builder Flags"/>
 </effectsMgr>
 </skill>
-<skill identifier="1879492543" name="Mournful Howl" iconId="1090522259">
+<skill identifier="1879492406" name="Submerging..." iconId="1090522259">
 <effectsMgr>
-<effect id="1879492541" name=".."/>
+<effect id="1879052685" name="Induce MonsterInvulnerability"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492531" name="Miasma" category="42" iconId="1092980109" description="key:621098219:228830419">
+<effectsMgr>
+<effect id="1879492549" name="DNT"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879492548" name="DNT - AoE Burst"/>
+<effect id="1879282907" name="DNT - Dispel Mastery Bonus"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492543" name="Harrowing Scream" iconId="1090522259">
+<effectsMgr>
+<effect id="1879496913" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492887" name="Crushing Blow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879051312" name="Induce Stunned"/>
+<effect id="1879492906" name="Crushed"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492892" name="Endure" iconId="1090522259">
+<effectsMgr>
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.05"/>
+<effect id="1879492893" name="Endure - Morale"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492897" name="Cornered Bellow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879492889" name="Shaken"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879492910" name="Berserk"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492902" name="Rampage" iconId="1090522259">
+<effectsMgr>
+<effect id="1879492904" name="Rampaging"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492908" name="Bellow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879492912" name="Disheartening Bellow"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492909" name="Gore" iconId="1090522259">
+<effectsMgr>
+<effect id="1879492894" name="Gored"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879492913" name="Slam" iconId="1090522259"/>
+<skill identifier="1879493005" name="Venomous Sting" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493053" name="Venomous Sting - 4"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493006" name="Death-light Venom" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493046" name="Death-light Venom"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493007" name="Single Out" iconId="1090522259">
+<effectsMgr>
+<effect id="1879481490" name="Reveal Weakness"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879493120" name="Blood Lust"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493009" name="Toxic Cloud" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493161" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493010" name="Thunderous Stomp" iconId="1090522259">
+<effectsMgr>
+<effect id="1879232894" name="Induce Stunned"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493013" name="Stinger Shock" iconId="1090522259">
+<effectsMgr>
+<effect id="1879388657" name="Induce Stunned"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493014" name="Ire" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493080" name="Ire"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493015" name="Serrated Strike" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493049" name="Serrated Strike"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493016" name="Brutal Swing" iconId="1090522259"/>
+<skill identifier="1879493017" name="Killing Blow" iconId="1090522259"/>
+<skill identifier="1879493019" name="Fatal Toxin" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493117" name="Fatal Toxin"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493020" name="Intimidating Presence" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493059" name="Intimidating Presence"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493022" name="Toxic Defilement" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493112" name="Toxic Defilement"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493023" name="Poisoned Blade" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493083" name="Poisoned Cut"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493024" name="Toxic Cloud" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493189" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493026" name="Brood Call" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493084"/>
+<effect id="1879493084"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493032" name="Killing Blow" iconId="1090522259"/>
+<skill identifier="1879493035" name="Intimidating Presence" iconId="1090522259"/>
+<skill identifier="1879493036" name="Toxic Puncture" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493011" name="Venomous Sting - 1"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493037" name="Venomous Sting" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493011" name="Venomous Sting - 1"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493039" name="Toxic Defilement" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493072" name="Toxic Defilement"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493042" name="Desolation Bolt" iconId="1090522259"/>
+<skill identifier="1879493043" name="Battle Cry" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493038" name="Battle Cry"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493045" name="Heavy Strike" iconId="1090522259"/>
+<skill identifier="1879493050" name="Brutal Swing" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493107" name="Brutal Swing"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493052" name="Vile Excretion" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493182" name="Foul Excretion"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493054" name="Toxic Puncture" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493053" name="Venomous Sting - 4"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493055" name="Fatal Toxin" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493099" name="Fatal Toxin"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493057" name="Poisoned Blade" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493048" name="Poisoned Cut"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493058" name="Stinger Shock" iconId="1090522259">
+<effectsMgr>
+<effect id="1879388657" name="Induce Stunned"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493060" name="Brutal Swing" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493096" name="Brutal Swing"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493062" name="Thunderous Stomp" iconId="1090522259">
+<effectsMgr>
+<effect id="1879388657" name="Induce Stunned"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493063" name="Brutal Swing" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493067" name="Brutal Swing"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493065" name="Invigourating Fumes" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493175" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493066" name="Death-light Venom" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493025" name="Death-light Venom"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493068" name="Crippling Sting" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493163" name="Virulent Poison"/>
+<effect id="1879493077" name="Crippling Sting"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493069" name="Desolation Bolt" iconId="1090522259"/>
+<skill identifier="1879493070" name="Thunderous Stomp" iconId="1090522259">
+<effectsMgr>
+<effect id="1879388657" name="Induce Stunned"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493071" name="Brood Call" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493040"/>
+<effect id="1879493041"/>
+<effect id="1879493040"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493073" name="Vile Excretion" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493179" name="Foul Excretion"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493074" name="Invigourating Fumes" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493180" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493075" name="Crippling Sting" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493163" name="Virulent Poison"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493076" name="Heavy Strike" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493034" name="Heavy Bleed"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493078" name="Venomous Sting" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493103" name="Venomous Sting - 3"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493086" name="Killing Blow" iconId="1090522259"/>
+<skill identifier="1879493087" name="Blessing of the Usan-kûni" iconId="1090522259">
+<effectsMgr>
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.7"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493088" name="Fatal Toxin" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493056" name="Fatal Toxin"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493089" name="Heavy Strike" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493115" name="Heavy Bleed"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493090" name="Toxic Puncture" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493033" name="Venomous Sting - 2"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493091" name="Intimidating Presence" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493110" name="Intimidating Presence"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493092" name="Death-light Venom" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493061" name="Death-light Venom"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493093" name="Venomous Sting" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493033" name="Venomous Sting - 2"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493094" name="Blessing of the Usan-kûni" iconId="1090522259">
+<effectsMgr>
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.4"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493095" name="Poisoned Blade" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493030" name="Poisoned Cut"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493104" name="Fatal Toxin" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493079" name="Fatal Toxin"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493105" name="Toxic Puncture" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493103" name="Venomous Sting - 3"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493108" name="Desolation Bolt" iconId="1090522259"/>
+<skill identifier="1879493109" name="Stinging Strikes" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493008" name="Stinging Strikes"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493111" name="Battle Cry" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493038" name="Battle Cry"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879493029" name="Battle Cry"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493116" name="Serrated Strike" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493021" name="Serrated Strike"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493118" name="Invigourating Fumes" iconId="1090522259">
+<effectsMgr>
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.03"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493119" name="Stinging Strikes" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493018" name="Stinging Strikes"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493121" name="Poisoned Blade" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493106" name="Poisoned Cut"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493122" name="Brood Call" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493040"/>
+<effect id="1879493041"/>
+<effect id="1879493040"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879493041"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493123" name="Stinger Shock" iconId="1090522259">
+<effectsMgr>
+<effect id="1879050149" name="Induce Knocked Out"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493124" name="Brutal Swing" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493107" name="Brutal Swing"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493125" name="Invigourating Fumes" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493186" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493126" name="Vile Excretion" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493185" name="Foul Excretion"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879493181" name="Killing Strike" iconId="1090522259"/>
+<skill identifier="1879493187" name="Killing Strike" iconId="1090522259"/>
+<skill identifier="1879493191" name="Crushing Snap" iconId="1090522259">
+<effectsMgr>
+<effect id="1879493172" name="Crushing Vice"/>
 </effectsMgr>
 </skill>
 <mount identifier="1879493428" name="Oryx of the Treasured Wellspring" category="88" iconId="1092982823" initialName="key:621098800:138936629" mountCategory="9" mountType="17" sourceDescription="key:620995772:40016421" morale="250" speed="0.68" tall="true" peerId="1879493434">
@@ -57182,4 +57798,1405 @@
 <effect id="1879493464"/>
 </effectsMgr>
 </pet>
+<skill identifier="1879494093" name="Guise of Karazgar" category="166" iconId="1092604029" description="key:621098990:228830419">
+<effectsMgr type="USER">
+<effect id="1879412800" name="Put on Costume - Karazgar"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494098" name="Guise of Hermáth Stormhammer" category="166" iconId="1091999085" description="key:621098968:228830419">
+<effectsMgr type="USER">
+<effect id="1879420805" name="Put on Costume - Hermáth Stormhammer"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494099" name="Guise of Gandalf the Grey" category="166" iconId="1092604034" description="key:621098984:228830419">
+<effectsMgr type="USER">
+<effect id="1879412804" name="Put on Costume - Gandalf the Grey"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494100" name="Guise of Servant of the First Crafter" category="166" iconId="1091999085" description="key:621098967:228830419">
+<effectsMgr type="USER">
+<effect id="1879439914" name="Put on Costume - Servant of the First Crafter"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494102" name="Guise of Gollum" category="166" iconId="1092604032" description="key:621098994:228830419">
+<effectsMgr type="USER">
+<effect id="1879412799" name="Put on Costume - Gollum"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494109" name="Guise of Skorgrím Dourhand" category="166" iconId="1092433924" description="key:621098983:228830419">
+<effectsMgr type="USER">
+<effect id="1879381699" name="Put on Guise of Skorgrím Dourhand"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494111" name="Guise of Durin VI" category="166" iconId="1092604033" description="key:621098971:228830419">
+<effectsMgr type="USER">
+<effect id="1879412802" name="Put on Costume - Durin VI"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494116" name="Guise of Sara Oakheart" category="166" iconId="1092433925" description="key:621098962:228830419">
+<effectsMgr type="USER">
+<effect id="1879381703" name="Put on Guise of Sara Oakheart"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494117" name="Guise of Tom Bombadil" category="166" iconId="1092604031" description="key:621098980:228830419">
+<effectsMgr type="USER">
+<effect id="1879412806" name="Put on Costume - Tom Bombadil"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494118" name="Guise of Goldberry" category="166" iconId="1092604028" description="key:621098965:228830419">
+<effectsMgr type="USER">
+<effect id="1879412805" name="Put on Costume - Goldberry"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494123" name="Guise of Mordirith" category="166" iconId="1092433923" description="key:621098972:228830419">
+<effectsMgr type="USER">
+<effect id="1879381702" name="Put on Guise of Mordirith"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494124" name="Guise of Saruman" category="166" iconId="1092604035" description="key:621098992:228830419">
+<effectsMgr type="USER">
+<effect id="1879412801" name="Put on Costume - Saruman"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494129" name="Guise of the Witch-king of Angmar" category="166" iconId="1092433921" description="key:621098998:228830419">
+<effectsMgr type="USER">
+<effect id="1879381701" name="Put on Guise of the Witch-king of Angmar"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494131" name="Guise of Gandalf the White" category="166" iconId="1092604030" description="key:621098996:228830419">
+<effectsMgr type="USER">
+<effect id="1879412803" name="Put on Costume - Gandalf the White"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494133" name="Guise of Amarthiel" category="166" iconId="1092433922" description="key:621098989:228830419">
+<effectsMgr type="USER">
+<effect id="1879381700" name="Put on Guise of Amarthiel"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494435" name="DNT - Summon Spores" iconId="1090522259">
+<effectsMgr>
+<effect id="1879151155" name="DNT - Summon Anti-DPS Spore"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879151155" name="DNT - Summon Anti-DPS Spore"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494436" name="DNT - Summon Spores" iconId="1090522259">
+<effectsMgr>
+<effect id="1879151156" name="DNT - Summon Anti-tank Spore"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879151156" name="DNT - Summon Anti-tank Spore"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494437" name="DNT - Summon Spores" iconId="1090522259">
+<effectsMgr>
+<effect id="1879151154" name="DNT - Summon Anti-caster Spore"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879151154" name="DNT - Summon Anti-caster Spore"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494910" name="Scorpion Surprise Bauble" category="166" iconId="1092997366" description="key:621099648:228830419">
+<effectsMgr type="USER">
+<effect id="1879494894" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879494912" name="Treasured Smoking Bauble" category="166" iconId="1092997367" description="key:621099647:228830419">
+<effectsMgr type="USER">
+<effect id="1879494896" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495077" name="Cozy Camp-fire" category="166" iconId="1092994097" description="key:621099722:228830419">
+<effectsMgr type="USER">
+<effect id="1879495390" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495079" name="Mysteriously Full Pipe" category="166" iconId="1092994092" description="key:621099718:228830419">
+<effectsMgr type="USER">
+<effect id="1879496030" name="DNT - Random Pipeweed Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495089" name="Inky Spores" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495086" name="Inky Spore"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495096" name="Virulent Contagion" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495092" name="Virulent Contagion"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495115" name="Shadow Strike" iconId="1090522259"/>
+<skill identifier="1879495116" name="Acid Strike" iconId="1090522259"/>
+<skill identifier="1879495117" name="Draining Strike" iconId="1090522259">
+<effectsMgr>
+<effect id="1879163413" name="Morale Damage" spellcraft="0.03"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.03"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495129" name="Long Bird Call" category="166" iconId="1092994098" description="key:621099788:228830419"/>
+<skill identifier="1879495133" name="Prized Flower" category="166" iconId="1092994106" description="key:621099770:228830419">
+<effectsMgr type="USER">
+<effect id="1879495389" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495137" name="Fantastic Fern" category="166" iconId="1092994095" description="key:621099792:228830419">
+<effectsMgr type="USER">
+<effect id="1879495388" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495139" name="Calming Flower Pot" category="166" iconId="1092994105" description="key:621099800:228830419">
+<effectsMgr type="USER">
+<effect id="1879495384" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495142" name="Lovely Flowers" category="166" iconId="1092994104" description="key:621099810:228830419">
+<effectsMgr type="USER">
+<effect id="1879495391" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495144" name="Ominous Bird Call" category="166" iconId="1092994093" description="key:621099793:228830419"/>
+<skill identifier="1879495146" name="Golden Flowers" category="166" iconId="1092994103" description="key:621099803:228830419">
+<effectsMgr type="USER">
+<effect id="1879495385" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495149" name="Pitched Bird Call" category="166" iconId="1092994108" description="key:621099806:228830419"/>
+<skill identifier="1879495152" name="Unlabeled Firework" category="166" iconId="1092994101" description="key:621099791:228830419">
+<effectsMgr type="USER">
+<effect id="1879496097" name="DNT - Random Firework Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495154" name="Confusing Map" category="166" iconId="1092994099" description="key:621099776:228830419"/>
+<skill identifier="1879495159" name="Exotic Cheese" category="166" iconId="1092994091" description="key:621099795:228830419">
+<effectsMgr type="USER">
+<effect id="1879495386" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495160" name="Quick Bird Call" category="166" iconId="1092994096" description="key:621099778:228830419"/>
+<skill identifier="1879495171" name="Impressive Pumpkin" category="166" iconId="1092994094" description="key:621099781:228830419">
+<effectsMgr type="USER">
+<effect id="1879495387" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495238" name="Conflagration of Misery" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494941" name="Conflagration of Misery"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495239" name="Sludge Pot" iconId="1090522259">
+<effectsMgr>
+<effect id="1879163413" name="Morale Damage" spellcraft="0.2"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495240" name="Find Enemy" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494951" name="DNT"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495241" name="Memory of Rage" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494742" name="Memory of Rage"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495243" name="Field Survey" iconId="1090522259">
+<effectsMgr type="USER">
+<effect id="1879494943" name="Rising Ire"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495244" name="Find Enemy" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494950" name="DNT"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495245" name="Brother's Bellow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494803" name="DNT - shout deals damage per stacked curse"/>
+<effect id="1879494802" name="DNT - shout deals damage per stacked curse"/>
+<effect id="1879494804" name="DNT - cleanse brother's debuff"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879494875" name="DNT - brother buff swap mechanic"/>
+<effect id="1879494617" name="Brother's Keeper"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495246" name="Blessing of the Barug" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494844" name="DNT - Blessing of the Barug"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495247" name="Burden of Fear" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494847" name="DNT - Burden of Fear"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495248" name="Execute" iconId="1090522259"/>
+<skill identifier="1879495249" name="The Water's Kiss" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494870" name="The Water's Kiss"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495250" name="The Arrow's Kiss" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494673" name="The Arrow's Kiss"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495251" name="Waning Strength" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495288" name="Weakened Strength"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495252" name="Memory of Triumph" category="101" iconId="1091400031" description="key:621099978:228830419">
+<effectsMgr>
+<effect id="1879494724" name="Lesser Memory of Triumph - 2"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495253" name="Lash of Anger" iconId="1090522259"/>
+<skill identifier="1879495255" name="The Spear's Kiss" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494765" name="The Spear's Kiss"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495256" name="Sludge Pot" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494928" name=".."/>
+<effect id="1879163413" name="Morale Damage" spellcraft="1.0"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495257" name="Bite" iconId="1090522259"/>
+<skill identifier="1879495258" name="Blessing of the Ural" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494772" name="Blessing of the Ural - 3"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495259" name="Crushing Blow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495314" name="Shattered Bones"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495260" name="Blessing of the Khûd" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494833" name="DNT - Blessing of the Khud"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495261" name="Curse of Regret" iconId="1090522259"/>
+<skill identifier="1879495262" name="Abolition of Self" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494762" name="Absence of Self"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495263" name="Memory of Justice" category="101" iconId="1092812933" description="key:621099972:228830419">
+<effectsMgr>
+<effect id="1879165462" name="Induce Stunned"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495264" name="Memory of Shame" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494938" name="Memory of Shame"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495265" name="Cocoon" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494664" name="Cocooned"/>
+<effect id="1879482827" name="Trapped in ichor!"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495266" name="Find Enemy" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494950" name="DNT"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495267" name="Consuming Fire" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494946" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495268" name="Memory of Hope" category="101" iconId="1091478916" description="key:621099913:228830419">
+<effectsMgr>
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.4"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495269" name="Piercing Arrow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494767" name="Piercing Arrow"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495270" name="Crushing Sweep" iconId="1090522259">
+<effectsMgr>
+<effect id="1879059058" name="Knockback"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495272" name="Waning Morale" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495295" name="Weakened Morale"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495273" name="Memory of Purification" category="101" iconId="1092985870" description="key:621099872:228830419">
+<effectsMgr>
+<effect id="1879494871" name="DNT - player-sourced monster AoE CR"/>
+<effect id="1879494924" name="DNT"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495274" name="Burden of Doubt" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494848" name="DNT - Burden of Doubt"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495275" name="Heavy Slam" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495304" name="Concussed"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495276" name="Memory of Fellowship" category="101" iconId="1092693205" description="key:621099898:228830419">
+<effectsMgr>
+<effect id="1879494653" name="Lesser Memory of Fellowship - 1"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495277" name="Raking Claws" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494776" name="Bleeding Strike"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495278" name="Stunning Blow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879165462" name="Induce Stunned"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495281" name="Guard Breaker" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495271" name="Broken Armour"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495282" name="Field Survey" iconId="1090522259">
+<effectsMgr type="USER">
+<effect id="1879494937" name="Rising Ire"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495283" name="Shadow Strike" iconId="1090522259"/>
+<skill identifier="1879495284" name="Memory of Mercy" category="101" iconId="1092406221" description="key:621099906:228830419">
+<effectsMgr>
+<effect id="1879494809" name="Gift of Mercy"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495285" name="The Arrow's Kiss" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494763" name="The Arrow's Kiss"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495286" name="Field Survey" iconId="1090522259">
+<effectsMgr type="USER">
+<effect id="1879494936" name="Rising Ire"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495287" name="Crushing Blow" iconId="1090522259"/>
+<skill identifier="1879495289" name="Burden of Jealousy" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494835" name="DNT - Burden of Jealousy"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495290" name="War Horn" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494701" name="Death Bellow"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495291" name="Reaching Spear" iconId="1090522259"/>
+<skill identifier="1879495292" name="Bite" iconId="1090522259"/>
+<skill identifier="1879495293" name="Venomous Bite" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494641" name="Venomous Bite"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495294" name="Slam" iconId="1090522259"/>
+<skill identifier="1879495296" name="Memory of Fear" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494949" name="Memory of Fear"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495297" name="Weapon Breaker" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495360" name="Broken Weapons"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495298" name="Burden of Jealousy" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494853" name="DNT - Burden of Jealousy"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495299" name="Memory of Triumph" category="101" iconId="1091400031" description="key:621099924:228830419">
+<effectsMgr>
+<effect id="1879494646" name="Lesser Memory of Triumph - 1"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495300" name="Memory of Mercy" category="101" iconId="1092406221" description="key:621099944:228830419">
+<effectsMgr>
+<effect id="1879494812" name="Gift of Mercy"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495301" name="Endure" iconId="1090522259">
+<effectsMgr>
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.5"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495302" name="Memory of Fellowship" category="101" iconId="1092693205" description="key:621099980:228830419">
+<effectsMgr>
+<effect id="1879494697" name="Lesser Memory of Fellowship - 2"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495303" name="Find Enemy" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494951" name="DNT"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495305" name="Boulder" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495304" name="Concussed"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495306" name="Chain Breaker" iconId="1090522259">
+<effectsMgr type="USER">
+<effect id="1879495330" name="Chain Breaker"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495307" name="Spear of Deadly Shadow" iconId="1090522259"/>
+<skill identifier="1879495308" name="Find Enemy" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494950" name="DNT"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495309" name="Thrash" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494776" name="Bleeding Strike"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495310" name="Memory of Strength" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495420" name="Rising Strength"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495311" name="Memory of Pain" iconId="1090522259"/>
+<skill identifier="1879495312" name="Abolition of Self" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494762" name="Absence of Self"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495313" name="The Spear's Kiss" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494613" name="The Spear's Kiss"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495315" name="Memory of Triumph" category="101" iconId="1091400031" description="key:621099954:228830419">
+<effectsMgr>
+<effect id="1879494610" name="Lesser Memory of Triumph - 3"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495316" name="War Horn" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494753" name="Death Bellow"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495317" name="Sludge Pot" iconId="1090522259">
+<effectsMgr>
+<effect id="1879163413" name="Morale Damage" spellcraft="0.5"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495318" name="Blessing of the Khûd" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494846" name="DNT - Blessing of the Khud"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495319" name="Sweeping Spear" iconId="1090522259"/>
+<skill identifier="1879495320" name="Burning Arrow" iconId="1090522259"/>
+<skill identifier="1879495321" name="Burden of Fear" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494834" name="DNT - Burden of Fear"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495322" name="Cleaving Strike" iconId="1090522259"/>
+<skill identifier="1879495323" name="Memory of Shame" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494926" name="Memory of Shame"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495324" name="Brother's Bellow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494803" name="DNT - shout deals damage per stacked curse"/>
+<effect id="1879494802" name="DNT - shout deals damage per stacked curse"/>
+<effect id="1879494804" name="DNT - cleanse brother's debuff"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879494874" name="DNT - brother buff swap mechanic"/>
+<effect id="1879494617" name="Brother's Keeper"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495325" name="Quick Slam" iconId="1090522259"/>
+<skill identifier="1879495326" name="The Water's Kiss" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494869" name="The Water's Kiss"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495327" name="Memory of Hope" category="101" iconId="1091478916" description="key:621099930:228830419">
+<effectsMgr>
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.25"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495328" name="Blessing of the Mushid" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494756" name="Blessing of the Mushid"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495329" name="Vampiric Bite" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494810" name="Draining Strike"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495331" name="Blessing of the Ural" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494667" name="Blessing of the Ural - 5"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495332" name="Consuming Shadow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494933" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495333" name="Memory of Shame" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494935" name="Memory of Shame"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495334" name="Memory of Justice" category="101" iconId="1092812933" description="key:621099951:228830419">
+<effectsMgr>
+<effect id="1879050149" name="Induce Knocked Out"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495335" name="Burden of Loss" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494838" name="DNT - Burden of Loss"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495336" name="Field Survey" iconId="1090522259">
+<effectsMgr type="USER">
+<effect id="1879494931" name="Rising Ire"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495337" name="Brother's Bellow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494803" name="DNT - shout deals damage per stacked curse"/>
+<effect id="1879494802" name="DNT - shout deals damage per stacked curse"/>
+<effect id="1879494804" name="DNT - cleanse brother's debuff"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879494876" name="DNT - brother buff swap mechanic"/>
+<effect id="1879494617" name="Brother's Keeper"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495338" name="Burden of Loss" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494850" name="DNT - Burden of Loss"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495339" name="Piercing Arrow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494718" name="Piercing Arrow"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495340" name="Memory of Purification" category="101" iconId="1092985870" description="key:621099859:228830419">
+<effectsMgr>
+<effect id="1879494871" name="DNT - player-sourced monster AoE CR"/>
+<effect id="1879494922" name="DNT"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495341" name="Smite Evil" category="101" iconId="1091734544" description="key:621099915:228830419">
+<effectsMgr>
+<effect id="1879494929" name="DNT"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495343" name="Blessing of the Ural" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494632" name="Blessing of the Ural - 1"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495344" name="Quick Strike" iconId="1090522259"/>
+<skill identifier="1879495345" name="Flaming Shot" iconId="1090522259"/>
+<skill identifier="1879495346" name="Memory of Contempt" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494841" name="DNT - Memory of Contempt"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495347" name="Memory of Justice" category="101" iconId="1092812933" description="key:621099876:228830419">
+<effectsMgr>
+<effect id="1879073312" name="Induce Fellowship Manoeuvre Stunned"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495348" name="Curse of Regret" iconId="1090522259"/>
+<skill identifier="1879495349" name="Find Enemy" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494951" name="DNT"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495350" name="Field Survey" iconId="1090522259">
+<effectsMgr type="USER">
+<effect id="1879494940" name="Rising Ire"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495351" name="Blessing of the Mushid" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494851" name="DNT - Blessing of the Mushid"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495352" name="Memory of Purification" category="101" iconId="1092985870" description="key:621099895:228830419">
+<effectsMgr>
+<effect id="1879494871" name="DNT - player-sourced monster AoE CR"/>
+<effect id="1879494919" name="DNT"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495353" name="Armour Crusher" iconId="1090522259"/>
+<skill identifier="1879495354" name="Field Survey" iconId="1090522259">
+<effectsMgr type="USER">
+<effect id="1879494939" name="Rising Ire"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495355" name="Burden of Doubt" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494836" name="DNT - Burden of Doubt"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495356" name="Savage Bite" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494631" name="Savage Bite"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495357" name="Memory of Fellowship" category="101" iconId="1092693205" description="key:621099867:228830419">
+<effectsMgr>
+<effect id="1879494748" name="Lesser Memory of Fellowship - 3"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495358" name="Memory of Contempt" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494843" name="DNT - Memory of Contempt"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495359" name="Memory of Rage" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495342" name="DNT - Memory of Rage"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495361" name="Venomous Bite" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494720" name="Venomous Bite"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495362" name="Memory of an Ancient Warrior" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495402" name="Memory of an Ancient Warrior"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495363" name="Blessing of the Barug" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494839" name="DNT - Blessing of the Barug"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495364" name="The Water's Kiss" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494866" name="The Water's Kiss"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495365" name="Memory of Hope" category="101" iconId="1091478916" description="key:621099966:228830419">
+<effectsMgr>
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.7"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495366" name="Venomous Spit" iconId="1090522259"/>
+<skill identifier="1879495367" name="Shadow Spear" iconId="1090522259"/>
+<skill identifier="1879495368" name="Memory of Mercy" category="101" iconId="1092406221" description="key:621099958:228830419">
+<effectsMgr>
+<effect id="1879494813" name="Gift of Mercy"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495369" name="Sickening Water" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494920" name="Feeling ill . . ."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495377" name="Savage Arrow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495374" name="Savage Arrow"/>
+<effect id="1879495380" name="Savage Bleed"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495378" name="Killing Shot" iconId="1090522259"/>
+<skill identifier="1879495379" name="Curse of Fire" iconId="1090522259">
+<effectsMgr>
+<effect id="1879098190" name="Melted Armour"/>
+<effect id="1879495381" name="Curse of Fire"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495435" name="Sweeping Blow" iconId="1090522259"/>
+<skill identifier="1879495436" name="Whirling Slash" iconId="1090522259"/>
+<skill identifier="1879495437" name="Piercing Spike" iconId="1090522259"/>
+<skill identifier="1879495438" name="Cunning Ambush" iconId="1090522259"/>
+<skill identifier="1879495440" name="Stunning Blow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879165462" name="Induce Stunned"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495441" name="Stunning Roar" iconId="1090522259">
+<effectsMgr>
+<effect id="1879388657" name="Induce Stunned"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495442" name="Disorienting Bellow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879496064" name="Disoriented"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495444" name="Vanish" iconId="1090522259">
+<effectsMgr>
+<effect id="1879059813" name="Improved Stealth"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495445" name="Rampage" iconId="1090522259">
+<effectsMgr>
+<effect id="1879496071" name="Rampage"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495446" name="Paralytic Poison" iconId="1090522259">
+<effectsMgr>
+<effect id="1879496061" name="Paralytic Venom"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495447" name="Crushing Boulder" iconId="1090522259">
+<effectsMgr>
+<effect id="1879074087" name="3 Second Knockdown"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495448" name="Envenomed Blade" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495540" name="Envenomed Blade"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495449" name="Lethargic Poison" iconId="1090522259">
+<effectsMgr>
+<effect id="1879496062" name="Lethargic Poison"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495450" name="Brutal Strike" iconId="1090522259"/>
+<skill identifier="1879495451" name="Tremendous Impact" iconId="1090522259">
+<effectsMgr>
+<effect id="1879074087" name="3 Second Knockdown"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495452" name="Vicious Knife" iconId="1090522259"/>
+<skill identifier="1879495453" name="Brutal Strike" iconId="1090522259"/>
+<skill identifier="1879495465" name="Shadow Strike" iconId="1090522259"/>
+<skill identifier="1879495466" name="Call Allies" iconId="1090522259">
+<effectsMgr>
+<effect id="1879497092" name="DNT - Summon a random ordakhai"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495467" name="Restore Morale" iconId="1090522259">
+<effectsMgr>
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.3"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495468" name="Shadow Cut" iconId="1090522259"/>
+<skill identifier="1879495470" name="Weak Ordâkhai Blessing" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494724" name="Lesser Memory of Triumph - 2"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495471" name="Shadow Smite" iconId="1090522259"/>
+<skill identifier="1879495472" name="Knife in the Back" iconId="1090522259"/>
+<skill identifier="1879495473" name="Sacrifice Self" iconId="1090522259">
+<effectsMgr>
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.1"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879103216" name="Self Smite"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495474" name="Ordâkhai Blessing" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494658" name="Memory of Triumph - 2"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495475" name="Sacrifice Self" iconId="1090522259">
+<effectsMgr>
+<effect id="1879119822" name="Morale Restoration" spellcraft="0.1"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879103216" name="Self Smite"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495476" name="Jagged Cut" iconId="1090522259"/>
+<skill identifier="1879495477" name="Sweeping Attack" iconId="1090522259"/>
+<skill identifier="1879495478" name="Reaching Attack" iconId="1090522259"/>
+<skill identifier="1879495541" name="Vengeance" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495546" name="Vengeful Strikes V"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495547" name="Reckless Pursuit" iconId="1090522259">
+<effectsMgr>
+<effect id="1879153861" name="DNT - Do Nothing Harmful"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879496065" name="Reckless Pursuit"/>
+<effect id="1879496063" name="Reckless Pursuit"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495563" name="Death Burst" iconId="1090522259"/>
+<skill identifier="1879495565" name="Weeping Ichor" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495586" name="Weeping Ichor"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495567" name="Abrasive Storm" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495626" name="Rising Pressure"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495568" name="DNT - Great Slam" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495579" name="DNT - Tier Up Slam buff"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495570" name="Death Burst" iconId="1090522259"/>
+<skill identifier="1879495572" name="Cavernous Shout" iconId="1090522259">
+<effectsMgr>
+<effect id="1879149379" name="DNT - Do Nothing"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495573" name="Curse of Pain" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495561" name="Curse of Pain - 3"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495574" name="Desert Winds" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495639" name="Rising Winds"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495578" name="Scouring Sands" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495611" name="Scouring Sands"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495581" name="Curse of Pain" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495622" name="Curse of Pain"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495582" name="Sweeping Sands" iconId="1090522259"/>
+<skill identifier="1879495583" name="Piercing Strike" iconId="1090522259"/>
+<skill identifier="1879495585" name="Weeping Ichor" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495625" name="Weeping Ichor"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495589" name="Scouring Sands" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495631" name="Scouring Sands"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495592" name="Ichor" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495564" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495597" name="Stinging Sands" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495648" name="DNT - Stinging Sands"/>
+<effect id="1879495648" name="DNT - Stinging Sands"/>
+<effect id="1879495648" name="DNT - Stinging Sands"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495599" name="Caustic Bile" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495619" name="Caustic Bile"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495601" name="Ichor" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495612" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495604" name="Caustic Bile" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495603" name="Caustic Bile"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495605" name="Cavernous Shout" iconId="1090522259">
+<effectsMgr>
+<effect id="1879149379" name="DNT - Do Nothing"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495609" name="Stinging Sands" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495641" name="DNT - Stinging Sands"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495615" name="Abrasive Storm" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495575" name="Rising Pressure"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495616" name="Weak Strike" iconId="1090522259"/>
+<skill identifier="1879495617" name="Explosive Strike" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495805" name="Knockback"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495624" name="Weeping Ichor" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495634" name="Weeping Ichor"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495627" name="Putrid Cut" iconId="1090522259"/>
+<skill identifier="1879495628" name="DNT - Great Slam" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495629" name="DNT - Tier Up Slam buff"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495630" name="Binding Sigil" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495610" name="Ancient Mark"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495632" name="Cavernous Shout" iconId="1090522259">
+<effectsMgr>
+<effect id="1879149379" name="DNT - Do Nothing"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495640" name="Ichor" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495623" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495642" name="Abrasive Storm" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495635" name="Rising Pressure"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495643" name="Great Slam" iconId="1090522259">
+<effectsMgr>
+<effect id="1879496718" name="DNT"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495644" name="DNT - Great Slam" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495656" name="DNT - Tier Up Slam buff"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495651" name="Explosive Strike" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495804" name="Knockback"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495653" name="Great Slam" iconId="1090522259">
+<effectsMgr type="USER">
+<effect id="1879495671" name="DNT - Cleanse Great Slam buff"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879495657" name="Sweeping Strike" iconId="1090522259"/>
+<skill identifier="1879495662" name="Explosive Strike" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495806" name="Knockback"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879496035" name="Corrosive Bile" iconId="1090522259">
+<effectsMgr>
+<effect id="1879496060" name="Troll Bile"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879496307" name="Cozy Shelter" category="166" iconId="1092994100" description="key:621100664:228830419">
+<effectsMgr type="USER">
+<effect id="1879496474" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879496309" name="Camping Chair" category="166" iconId="1092994107" description="key:621100662:228830419">
+<effectsMgr type="USER">
+<effect id="1879496472" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879496323" name="Illuminating Lantern" category="166" iconId="1092994102" description="key:621100681:228830419">
+<effectsMgr type="USER">
+<effect id="1879496473" name=".."/>
+</effectsMgr>
+</skill>
+<skill identifier="1879496716" name="Sacrifice" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495806" name="Knockback"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="1.1"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879496719" name="Sacrifice" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495805" name="Knockback"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="1.1"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879496722" name="Sacrifice" iconId="1090522259">
+<effectsMgr>
+<effect id="1879495804" name="Knockback"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="1.1"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879496910" name="Guise of a Goblin Corsair" category="166" iconId="1091999085" description="key:621101071:228830419">
+<effectsMgr type="USER">
+<effect id="1879494881" name="Put on Costume - Goblin Corsair"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879496911" name="Guise of Battle-ready Galadriel" category="166" iconId="1092984034" description="key:621101072:228830419">
+<effectsMgr type="USER">
+<effect id="1879494880" name="Put on Costume - Battle-ready Galadriel"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879496912" name="Guise of Galadriel" category="166" iconId="1092984033" description="key:621101073:228830419">
+<effectsMgr type="USER">
+<effect id="1879494885" name="Put on Costume - Galadriel"/>
+</effectsMgr>
+</skill>
+<mount identifier="1879496932" name="Steed of the Ikorbân Valley" category="88" iconId="1092993522" initialName="key:621101089:138936629" mountCategory="3" mountType="1" sourceDescription="key:620995772:71833985" morale="250" speed="0.68" tall="true" peerId="1879496934">
+<requiredTrait id="1879051500" name="Riding"/>
+<requiredEffect id="1879051501" name="Basic Riding"/>
+<effectsMgr type="TOGGLE">
+<effect id="1879496929" name="Mounted"/>
+</effectsMgr>
+</mount>
+<mount identifier="1879496933" name="Steed of Utug-bûr" category="88" iconId="1092993523" initialName="key:621101092:138936629" mountCategory="3" mountType="1" sourceDescription="key:620995772:71606996" morale="250" speed="0.68" peerId="1879496935">
+<requiredTrait id="1879051500" name="Riding"/>
+<requiredEffect id="1879051501" name="Basic Riding"/>
+<effectsMgr type="TOGGLE">
+<effect id="1879496930" name="Mounted"/>
+</effectsMgr>
+</mount>
+<mount identifier="1879496934" name="Steed of the Ikorbân Valley" category="88" iconId="1092993522" initialName="key:621101091:138936629" mountCategory="3" mountType="1" sourceDescription="key:620995772:71833985" morale="250" speed="0.68" peerId="1879496932">
+<requiredTrait id="1879051500" name="Riding"/>
+<requiredEffect id="1879051501" name="Basic Riding"/>
+<effectsMgr type="TOGGLE">
+<effect id="1879496928" name="Mounted"/>
+</effectsMgr>
+</mount>
+<mount identifier="1879496935" name="Steed of Utug-bûr" category="88" iconId="1092993523" initialName="key:621101090:138936629" mountCategory="3" mountType="1" sourceDescription="key:620995772:71606996" morale="250" speed="0.68" tall="true" peerId="1879496933">
+<requiredTrait id="1879051500" name="Riding"/>
+<requiredEffect id="1879051501" name="Basic Riding"/>
+<effectsMgr type="TOGGLE">
+<effect id="1879496931" name="Mounted"/>
+</effectsMgr>
+</mount>
+<skill identifier="1879497048" name="Call to the Beyond" iconId="1090522259">
+<effectsMgr>
+<effect id="1879497047" name="Summon Fell Spirits"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497098" name="Mournful Bellow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494803" name="DNT - shout deals damage per stacked curse"/>
+<effect id="1879494802" name="DNT - shout deals damage per stacked curse"/>
+<effect id="1879494804" name="DNT - cleanse brother's debuff"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497099" name="Mournful Bellow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494803" name="DNT - shout deals damage per stacked curse"/>
+<effect id="1879494802" name="DNT - shout deals damage per stacked curse"/>
+<effect id="1879494804" name="DNT - cleanse brother's debuff"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497100" name="Mournful Bellow" iconId="1090522259">
+<effectsMgr>
+<effect id="1879494803" name="DNT - shout deals damage per stacked curse"/>
+<effect id="1879494802" name="DNT - shout deals damage per stacked curse"/>
+<effect id="1879494804" name="DNT - cleanse brother's debuff"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497101" name="Corrupting Sweep" iconId="1090522259">
+<effectsMgr>
+<effect id="1879497096" name="DNT"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497683" name="Major Pet Command" category="6" iconId="1092973532" description="key:621093838:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491455" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497684" name="Sign of the Wild: Protection" category="6" iconId="1092280587" description="key:621094841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491453" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497685" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621093841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491449" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497686" name="Major Pet Command" category="6" iconId="1092973532" description="key:621093838:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491455" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497687" name="Sign of the Wild: Protection" category="6" iconId="1092280587" description="key:621094841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491453" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497689" name="Sign of the Wild: Rage" category="6" iconId="1090541215" description="key:621094819:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491450" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497690" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621093841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr>
+<effect id="1879489325" name="Razor Claws"/>
+<effect id="1879491456" name="DNT - Gust of Wind Copy"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879491449" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497691" name="Sign of the Wild: Rage" category="6" iconId="1090541215" description="key:621094819:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491450" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497692" name="Major Pet Command" category="6" iconId="1092973532" description="key:621093838:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491455" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497693" name="Sign of the Wild: Rage" category="6" iconId="1090541215" description="key:621094819:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491450" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497694" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621093841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr>
+<effect id="1879049334" name="Distraction"/>
+<effect id="1879491456" name="DNT - Gust of Wind Copy"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879491449" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497695" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621094835:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491449" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497696" name="Major Pet Command" category="6" iconId="1092973532" description="key:621093838:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491455" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497697" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621093841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr>
+<effect id="1879489325" name="Razor Claws"/>
+<effect id="1879491456" name="DNT - Gust of Wind Copy"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879491449" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497698" name="Major Pet Command" category="6" iconId="1092973532" description="key:621093838:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491455" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497699" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621093841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr>
+<effect id="1879073222" name="Shatter Arms"/>
+<effect id="1879491456" name="DNT - Gust of Wind Copy"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879491449" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497700" name="Sign of the Wild: Rage" category="6" iconId="1090541215" description="key:621094819:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491450" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497701" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621094835:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491449" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497702" name="Sign of the Wild: Rage" category="6" iconId="1090541215" description="key:621094819:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491450" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497703" name="Major Pet Command" category="6" iconId="1092973532" description="key:621093838:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491455" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497704" name="Major Pet Command" category="6" iconId="1092973532" description="key:621094843:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491455" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497705" name="Major Pet Command" category="6" iconId="1092973532" description="key:621094843:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491455" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497706" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621093841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491449" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497707" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621094835:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491449" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497708" name="Sign of the Wild: Protection" category="6" iconId="1092280587" description="key:621094841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491453" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497709" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621094835:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491449" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497710" name="Major Pet Command" category="6" iconId="1092973532" description="key:621094843:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491455" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497711" name="Sign of the Wild: Protection" category="6" iconId="1092280587" description="key:621094841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491453" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497712" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621094835:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491449" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497713" name="Sign of the Wild: Protection" category="6" iconId="1092280587" description="key:621094841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491453" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497714" name="Major Pet Command" category="6" iconId="1092973532" description="key:621094843:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491455" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497715" name="Major Pet Command" category="6" iconId="1092973532" description="key:621094843:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491455" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497716" name="Sign of the Wild: Rage" category="6" iconId="1090541215" description="key:621094819:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491450" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497717" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621093841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr>
+<effect id="1879489322" name="Choking Vines"/>
+<effect id="1879491456" name="DNT - Gust of Wind Copy"/>
+</effectsMgr>
+<effectsMgr type="USER">
+<effect id="1879491449" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497718" name="Minor Pet Command" category="6" iconId="1092973535" description="key:621094835:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491449" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491460" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497719" name="Major Pet Command" category="6" iconId="1092973532" description="key:621094843:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491455" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497720" name="Major Pet Command" category="6" iconId="1092973532" description="key:621093838:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491455" name="DNT - Wild Sigil Effect"/>
+<effect id="1879491454" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
+<skill identifier="1879497721" name="Sign of the Wild: Protection" category="6" iconId="1092280587" description="key:621094841:228830419">
+<requiredEffect id="1879497688" name="DNT - flag applied to Loremaster when a pet is summoned"/>
+<effectsMgr type="USER">
+<effect id="1879491453" name="DNT - Wild Sigil Effect"/>
+</effectsMgr>
+</skill>
 </skills>

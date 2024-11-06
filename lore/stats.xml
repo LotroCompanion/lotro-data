@@ -1125,7 +1125,7 @@
 <stat id="268445103" name="Increases amount of parry and evade debuffed from target" key="Skill_EffectOverride_Trait_MP_UpperHand" type="ARRAY"/>
 <stat id="268445104" name="Area Effect Targets" key="Skill_TargetMax_Trait_MP_Extended" type="INTEGER"/>
 <stat id="268445148" name="Offensive Skill Inductions" key="Skill_InductionDuration_Trait_MP_FastLob"/>
-<stat id="268445149" name="Curse Skills Power Cost" key="Skill_PowerCost_Trait_MP_FrugalCursing" isPercentage="true"/>
+<stat id="268445149" name="Curse and Boon Cooldowns" key="Skill_PowerCost_Trait_MP_FrugalCursing"/>
 <stat id="268445151" name="Removes the countdown from Plague of Flies" key="Skill_EffectOverride_Trait_MP_PlagueFlies" type="ARRAY"/>
 <stat id="268445152" name="Blight Slime Duration" key="Skill_EffectOverride_Trait_MP_Blight" type="ARRAY"/>
 <stat id="268445238" name="Eye Rake Cooldown" key="Skill_RecoveryTime_Trait_MP_EyeRake"/>
@@ -1267,7 +1267,7 @@
 <stat id="268445808" name="Mending Verse Healing" key="IA_Runekeeper_HealHoT_Healing" isPercentage="true"/>
 <stat id="268445809" name="Distracting Flame Cooldown" key="IA_Runekeeper_DetauntDoT_Recovery"/>
 <stat id="268445810" name="Vivid Imagery Targets" key="IA_Runekeeper_AOEDaze_Targets" type="INTEGER"/>
-<stat id="268445823" name="Dance of War Threat Transfer" key="Skill_ThreatTransferMod_DanceofWar" isPercentage="true"/>
+<stat id="268445823" name="Conviction Threat Transfer" key="Skill_ThreatTransferMod_DanceofWar" isPercentage="true"/>
 <stat id="268445824" name="Soliloquy of Spirit Healing Magnitude" key="Skill_Minstrel_SoliloquyofSpirit_PowerCost" isPercentage="true"/>
 <stat id="268445825" name="Vivid Imagery Power Cost" key="Skill_Runekeeper_VividImagery_PowerCost" isPercentage="true"/>
 <stat id="268445826" name="Exploit Opening Cooldown" key="Skill_Burglar_ExploitOpening_Cooldown"/>
@@ -1285,9 +1285,9 @@
 <stat id="268446012" name="Do Not Fall This Day Cooldown" key="IA_Runekeeper_AvoidDeath_Recovery"/>
 <stat id="268446013" name="Glorious Foreshadowing Duration" key="IA_Runekeeper_IncommingHealing_Duration"/>
 <stat id="268446022" name="Fixed" key="Trait_Runekeeper_AOEPetUpgrade" type="DID"/>
-<stat id="268446058" name="Fell Sacrifice Cooldown" key="Skill_RecoveryTime_Trait_MP_FellSacrifice"/>
+<stat id="268446058" name="Fell Restoration Cooldown" key="Skill_RecoveryTime_Trait_MP_FellSacrifice"/>
 <stat id="268446059" name="Fell Sacrifice Health Cost" key="Skill_MoraleCost_Trait_MP_FellSacrifice" isPercentage="true"/>
-<stat id="268446060" name="Fell Sacrifice Power Cost" key="Skill_PowerCost_Trait_MP_FellSacrifice" isPercentage="true"/>
+<stat id="268446060" name="Fell Restoration Power Cost" key="Skill_PowerCost_Trait_MP_FellSacrifice" isPercentage="true"/>
 <stat id="268446065" name="Surprise Strike Cooldown" key="Skill_RecoveryTime_Burglar_SurpriseStrike"/>
 <stat id="268446066" name="Self Motivation Cooldown" key="Skill_RecoveryTime_Runekeeper_SelfMotivation"/>
 <stat id="268446067" name="Blinding Flash Cooldown" key="Skill_RecoveryTime_Loremaster_BlindingFlash"/>
@@ -1744,7 +1744,7 @@
 <stat id="268450962" name="Allows Banner of Horror to be used in combat and reduces its duration" key="Skill_EffectOverride_Trait_MP_LeadTheCharge_Horror" type="ARRAY"/>
 <stat id="268450963" name="Enables Critical Strike after Boar's Rush" key="Itemset_Warden_BoarsStrike" type="ARRAY"/>
 <stat id="268450964" name="Bonus Damage on Warden's Triumph buff" key="Itemset_Warden_WardensTriumph" isPercentage="true"/>
-<stat id="268450965" name="Banner Skill Cooldown" key="Skill_RecoveryTime_Trait_MP_LeadTheCharge"/>
+<stat id="268450965" name="Command Post and Point Defence Inductions" key="Skill_RecoveryTime_Trait_MP_LeadTheCharge"/>
 <stat id="268450972" name="Resets the cooldown of Battle-shout" key="Itemset_Captain_Battleshout_Reset" type="ARRAY"/>
 <stat id="268450973" name="Resets the cooldown of Oathbreaker's Shame" key="Itemset_Captain_OathbreakersShame_Reset" type="ARRAY"/>
 <stat id="268450975" name="Piercing Cry Cooldown" key="Skill_Minstrel_PiercingCry_Recovery"/>
@@ -1894,7 +1894,7 @@
 <stat id="268451823" name="Bracing Attack Cooldown" key="Skill_Champion_RecoveryTime_BracingAttack"/>
 <stat id="268451825" name="GreatCleave cooldown" key="Skill_Champion_RecoveryTime_GreatCleave"/>
 <stat id="268451833" name="Improved version of critical chance bonus to Relentless and Remorseless" key="Skill_Champion_CriticalModifier_SeekingBlade"/>
-<stat id="268451834" name="Handles the critical chance bonus on Relentless and Remorseless Strikes" key="Skill_Champion_Buff_CriticalModifier_SeekingBlade" type="INTEGER"/>
+<stat id="268451834" name="Remorseless Strikes Critical Chance Bonus" key="Skill_Champion_Buff_CriticalModifier_SeekingBlade" isPercentage="true" type="INTEGER"/>
 <stat id="268451837" name="Sets Red Haze to True" key="ForwardSource_Trait_Champion_Ardour_RedHaze" type="BOOLEAN"/>
 <stat id="268451845" name="DNT - Recently Revied: Allow in Combat" key="ForwardSource_RecentlyRevived_AllowInCombat" type="BOOLEAN"/>
 <stat id="268451846" name="Eye For Vulnerability" key="Trait_Burglar_EyeForVulnerability_Upgraded" type="ARRAY"/>
@@ -3308,7 +3308,7 @@
 <stat id="268458401" name="Crank Contribution" key="BigBattle_Interactive_Crank_User_Mod" isPercentage="true"/>
 <stat id="268458408" name="Valiant Strike grants Battle-ready" key="Trait_Captain_ValiantStrike_BattleReady" type="ARRAY"/>
 <stat id="268458414" name="Bolstering Blocks" key="ForwardSource_Trait_Guardian_BolsteringBlock_Heal" type="BOOLEAN"/>
-<stat id="268458415" name="Reactive Parry" key="ForwardSource_Trait_Guardian_ReactiveParry_Damage" type="BOOLEAN"/>
+<stat id="268458415" name="Parry Response Skill Damage" key="ForwardSource_Trait_Guardian_ReactiveParry_Damage" type="BOOLEAN"/>
 <stat id="268458421" name="Corruption Active" key="BigBattle_Commander_Corruption_Active" type="BOOLEAN"/>
 <stat id="268458423" name="Stance" key="BigBattle_Commander_Stance" type="ENUM"/>
 <stat id="268458424" name="No Respite" key="Trait_Warden_NoRespite" type="ARRAY"/>
@@ -4846,7 +4846,7 @@
 <stat id="268464659" name="Marked Foes Cooldown" key="Corsair_MarkedFoes_Cooldown"/>
 <stat id="268464660" name="Fellowship Friend Duration" key="Itemset_Loremaster_FellowshipFriend_Duration"/>
 <stat id="268464661" name="DNT - Ents Reset Chance" key="Itemset_Loremaster_PoD_EntsReset_Appchance" isPercentage="true"/>
-<stat id="268464662" name="DNT - CttV Makes Staff Strike trigger an FM" key="Itemset_Loremaster_CttV_StaffStrike_FM" isPercentage="true" type="ARRAY"/>
+<stat id="268464662" name="DNT - Staff Sweep Bonus Effect" key="Itemset_Loremaster_CttV_StaffStrike_FM" isPercentage="true" type="ARRAY"/>
 <stat id="268464663" name="Fierce Lightning Damage" key="Skill_Loremaster_FierceLightning_Damage" isPercentage="true"/>
 <stat id="268464664" name="Cash Out Damage Multiplier" key="Burglar_BlueGamble_Appchance" isPercentage="true"/>
 <stat id="268464665" name="DNT - Lesser Rent Armour" key="Trait_Burglar_Lesser_Mitshred" type="ARRAY"/>
@@ -4929,4 +4929,39 @@
 <stat id="268464945" name="Burning Embers Cooldown" key="Skill_RecoveryTime_Loremaster_BE"/>
 <stat id="268464946" name="DNT - CttV Makes Staff Strike trigger an FM" key="Loremaster_LightningStorm_Crit_Charge" isPercentage="true" type="ARRAY"/>
 <stat id="268464956" name="DNT - Wizard Fire Fixation Chance" key="Trait_Loremaster_Wizardsfire_Fixation_Appchance" isPercentage="true"/>
+<stat id="268464989" name="Absorbed Damage" key="Skill_OrcShaman_Darkness_DamageReduction" isPercentage="true"/>
+<stat id="268464990" name="DNT - Effect Override for Boon Effects" key="Skill_EffectOverride_Trait_MP_AncientBoons" type="ARRAY"/>
+<stat id="268464991" name="DNT" key="Effect_Warleader_BrawlerActivator" isPercentage="true"/>
+<stat id="268464992" name="DNT" key="Effect_Warleader_CommanderActivator" isPercentage="true"/>
+<stat id="268464993" name="DNT - Effect Override for Boon Effects" key="Skill_EffectOverride_Trait_MP_AncientBoons2" type="ARRAY"/>
+<stat id="268464994" name="DNT - Effect Override for Boon Effects" key="Skill_EffectOverride_Trait_MP_AncientBoons3" type="ARRAY"/>
+<stat id="268464995" name="DNT - Effect Override for Boon Effects" key="Skill_MP_OrcShaman_Efllorescence_Advanced" type="ARRAY"/>
+<stat id="268465002" name="DNT - Effect Override" key="Skill_EffectOverride_Trait_MP_PowerofFear_Brawler" isPercentage="true" type="ARRAY"/>
+<stat id="268465007" name="Increases amount of health and power restored." key="Skill_EffectOverride_Trait_MP_ClingingFearMelee" type="ARRAY"/>
+<stat id="268465008" name="Quitters Never Win Cooldown" key="Skill_AppChance_Trait_MP_ClingingFear" isPercentage="true"/>
+<stat id="268465009" name="Increases amount of health and power restored." key="Skill_EffectOverride_Trait_MP_ClingingFearShouts" type="ARRAY"/>
+<stat id="268465070" name="Wallet Barter Tokens: Shagâni Ghín" key="BarterWallet_BonusMultiplierU42Ultimate" isPercentage="true"/>
+<stat id="268465083" name="Way of the Spear Duration" key="Warden_Advanced_Defence_Duration"/>
+<stat id="268465084" name="Rapid Techniques Cooldown" key="Skill_Warden_RapidTechnique_Cooldown"/>
+<stat id="268465085" name="DNT - Shadows Lament bonus effect" key="ItemSet_Captain_CuttingAttack_Reset" type="ARRAY"/>
+<stat id="268465086" name="Specialization Bonus Skill Threat" key="Skill_TankSpec_BonusThreat_Mult" isPercentage="true"/>
+<stat id="268465087" name="Raging Blade Critical Chance" key="Skill_Champion_CriticalChance_RagingBlade" isPercentage="true"/>
+<stat id="268465088" name="Volcanic Rune-stone Duration" key="Runekeeper_Volcanic_Summon_Duration"/>
+<stat id="268465089" name="Invincible Duration" key="Skill_Champion_Invincible_Duration"/>
+<stat id="268465090" name="Armour of the Elements Bubble Potency" key="Skill_Runekeeper_ArmourElements_BubbleMod" isPercentage="true"/>
+<stat id="268465091" name="DNT - Inspire Fellows Bonus Effect" key="Itemset_Minstrel_InspireFellows_TS_CooldownMod" type="ARRAY"/>
+<stat id="268465092" name="Iron Will Cooldown" key="Skill_Brawler_BracingGuard_Cooldown"/>
+<stat id="268465094" name="Shield-blow Criticals Bonus Effect" key="Itemset_Guardian_Shieldblow_ResetSelf" type="ARRAY"/>
+<stat id="268465095" name="Shield-blow Critical Chance" key="Skill_Guardian_Shieldblow_CritChance" isPercentage="true"/>
+<stat id="268465096" name="Relentless Fury Buff Potency" key="Effect_Guardian_RelentlessFury_BuffPotency" isPercentage="true"/>
+<stat id="268465097" name="To Your Aid Cooldown" key="Skill_Beorning_ToYourAid_Cooldown"/>
+<stat id="268465098" name="DNT - Slam Bonus Effect" key="Itemset_Beorning_Slam_MoraleSteal" type="ARRAY"/>
+<stat id="268465099" name="Blood Prize Duration" key="Skill_Beorning_BloodPrize_Duration"/>
+<stat id="268465100" name="Hurricane Cooldown" key="Skill_Beorning_Hurricane_Cooldown"/>
+<stat id="268465101" name="Hurricane Melee Damage Buff" key="Skill_Beorning_Hurricane_DamageMod" isPercentage="true"/>
+<stat id="268465102" name="DNT - Bonus Penetrating Shot Effect" key="Itemset_Hunter_PenShot_Bleed" type="ARRAY"/>
+<stat id="268465103" name="Ragged Knife Cooldown" key="Corsair_RaggedKnife_Cooldown"/>
+<stat id="268465104" name="Sign of the Wild: Rage Cooldown" key="Skill_Loremaster_Command_Rage_Cooldown"/>
+<stat id="268465105" name="DNT - Staff Sweep Bonus Effect" key="Itemset_Loremaster_Sweep_Flank" isPercentage="true" type="ARRAY"/>
+<stat id="268465106" name="Major Command (The Ancient Master) Cooldown" key="Skill_Loremaster_Command_Major_AM_Cooldown"/>
 </stats>
