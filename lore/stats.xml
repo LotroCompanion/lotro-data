@@ -3837,7 +3837,7 @@
 <stat id="268460255" name="Current Beorning Skill Combo" key="ForwardSource_Combat_Beorning_SkillCombo" type="BITFIELD"/>
 <stat id="268460258" name="Nature's Fury Cooldown" key="Skill_RecoveryTime_Loremaster_NaturesFury"/>
 <stat id="268460259" name="Ancient Master Cooldown" key="Skill_RecoveryTime_Loremaster_AncientMaster"/>
-<stat id="268460260" name="Sic 'em! Cooldown" key="Skill_RecoveryTime_Loremaster_SicEm"/>
+<stat id="268460260" name="Murder of Crows Cooldown" key="Skill_RecoveryTime_Loremaster_SicEm"/>
 <stat id="268460267" name="DNT - Effect Override" key="Trait_Beorning_Execute_Proc" type="ARRAY"/>
 <stat id="268460271" name="Biting Edge Cooldown" key="Skill_Beorning_SliceDice_CooldownMod"/>
 <stat id="268460279" name="Mitigated Damage" key="Skill_Beorning_Sacrifice_DamageMitigationMod" isPercentage="true"/>
@@ -4018,7 +4018,7 @@
 <stat id="268460649" name="Coup de Grâce Crit Chance" key="Skill_Burglar_IA_CoupdeGras_CritRating" isPercentage="true"/>
 <stat id="268460650" name="Shield-swipe Critical Rating" key="Skill_Guardian_IA_ShieldSwipe_CriticalRating"/>
 <stat id="268460651" name="Adaptability Block and Parry Application Chance" key="Skill_Guardian_IA_Adaptability_BlockParryRating" isPercentage="true"/>
-<stat id="268460652" name="Reactive Parry Damage" key="Skill_Guardian_IA_ReactiveParry_Damage" isPercentage="true"/>
+<stat id="268460652" name="Parry Response Skill Chain Damage" key="Skill_Guardian_IA_ReactiveParry_Damage" isPercentage="true"/>
 <stat id="268460653" name="Stamp Damage" key="Skill_Guardian_IA_Stamp_Damage" isPercentage="true"/>
 <stat id="268460654" name="Shield Blow Damage" key="Skill_Guardian_IA_ShieldBlow_Damage" isPercentage="true"/>
 <stat id="268460655" name="Warrior's Heart Max Morale" key="Skill_Guardian_IA_WarriorsHeart_MaxMorale" isPercentage="true"/>
@@ -4193,9 +4193,9 @@
 <stat id="268462117" name="Press Onward Grants a temporary run speed bonus." key="Itemset_Hunter_Override_Pressonward_Runspeed" type="ARRAY"/>
 <stat id="268462118" name="DNT - Battleshout Forced Attack" key="Itemset_Captain_Battleshout_ForceAttack" isPercentage="true" type="ARRAY"/>
 <stat id="268462119" name="Battleshout Cooldown modifier" key="Itemset_Captain_Battleshout_CD"/>
-<stat id="268462120" name="DNT - Standard of Honour Cooldown modifier" key="Itemset_Captain_StandardOfHonour_CD"/>
+<stat id="268462120" name="Standard of Honour Cooldown" key="Itemset_Captain_StandardOfHonour_CD"/>
 <stat id="268462121" name="Modifies cooldown on Guardian Juggernaut skill." key="Itemset_Guardian_Juggernaut_CD"/>
-<stat id="268462122" name="Modifies number of pulses on guardian bleeds." key="Itemset_AdditivePulseCountModifier_Guardian_Bleeds" type="INTEGER"/>
+<stat id="268462122" name="Guardian Bleed Pulses" key="Itemset_AdditivePulseCountModifier_Guardian_Bleeds" type="INTEGER"/>
 <stat id="268462123" name="Adds a damage mitigation buff to the target of Protection." key="Itemset_Guardian_Protection_Mitigation" type="ARRAY"/>
 <stat id="268462124" name="DNT - Cry of the Chorous Induction Effect" key="Itemset_Minstrel_CryResonance_Inductions" type="ARRAY"/>
 <stat id="268462125" name="DNT - Anthem of Prowess Attack Speed" key="Itemset_Minstrel_AnthemOfProwess_AttackDuration" isPercentage="true"/>
@@ -4482,6 +4482,7 @@
 <stat id="268463563" name="DNT - Plant Feet Short Override" key="Essence_PlantFeet_Short_Override" type="ARRAY"/>
 <stat id="268463564" name="DNT - Efficient Strikes Makes Mettle Shield 1 Mettle per hit" key="Essence_EfficientStrikes_MettleShield" type="ARRAY"/>
 <stat id="268463570" name="Masochism Damage buff" key="Effect_Champion_Masochism_Damage" isPercentage="true"/>
+<stat id="268463571" name="Masochism Mitigation buff" key="Effect_Champion_Masochism_Mitigation" isPercentage="true"/>
 <stat id="268463572" name="Blood Arrow Damage" key="Skill_Hunter_BloodArrow_Damage" isPercentage="true"/>
 <stat id="268463573" name="Blood Arrow Initial Heal" key="Skill_Hunter_BloodArrowHeal" isPercentage="true"/>
 <stat id="268463574" name="Blood Arrow Power Cost" key="Skill_BloodArrow_Hunter_PowerCost" isPercentage="true"/>
@@ -4730,7 +4731,7 @@
 <stat id="268464236" name="Mounted Thrown Skills Damage" key="Corsair_MC_ThrownSkill_Damage" isPercentage="true"/>
 <stat id="268464237" name="DNT - Max pips for Disengage" key="Corsair_Disengage_PipMax" type="INTEGER"/>
 <stat id="268464238" name="Finishers Reset Salt Cure" key="Trait_Corsair_Finisher_CR_Reset" type="ARRAY"/>
-<stat id="268464240" name="Salt Cure Incoming Damage Debuff Duration" key="Corsair_Lunge_Cooldown"/>
+<stat id="268464240" name="Lunge Cooldown" key="Corsair_Lunge_Cooldown"/>
 <stat id="268464241" name="North Wind Frost Mitigation Debuff" key="Corsair_NorthWind_FrostMit" isPercentage="true"/>
 <stat id="268464242" name="DNT - Sludge Pot CR" key="ItemSet_Corsair_SludgePot_CR" isPercentage="true" type="ARRAY"/>
 <stat id="268464243" name="DNT - Finisher Skills Buff" key="ItemSet_Corsair_FinisherBuff" isPercentage="true" type="ARRAY"/>

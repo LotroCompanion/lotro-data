@@ -682,7 +682,7 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 </set>
-<set id="1879102187" name="Abandoned Keepsakes&#10;(Max Level: 74)" level="48" maxLevel="57" description="">
+<set id="1879102187" name="Curunam and Mirúr&#10;(Max Level: 57)" level="48" maxLevel="57" description="">
 <item id="1879102163" name="Curunam"/>
 <item id="1879102133" name="Mirúr"/>
 <bonus nbItems="2">
@@ -1260,15 +1260,15 @@
 <item id="1879112188" name="Breastplate of the Brazen Call"/>
 <item id="1879112349" name="Shoulders of the Brazen Call"/>
 <item id="1879112278" name="Helm of the Brazen Call"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211543"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879143994"/>
-<stat name="Combat_ArmorDefense_PointsModifier_Lightning" scaling="1879144000"/>
+<stat name="Trait_Captain_InHarmsWay_IncDamageMod_Itemset" constant="5.0"/>
 </bonus>
-<bonus nbItems="5">
-<stat name="MIGHT" scaling="1879211547"/>
-</bonus>
-<bonus nbItems="6">
-<stat name="VITALITY" scaling="1879211533"/>
+<bonus nbItems="4">
+<stat name="Itemset_Captain_StandardOfHonour_CD" operator="SUBSTRACT" constant="10.0"/>
+<stat name="Skill_Captain_DefensiveStrike_CooldownMod" operator="SUBSTRACT" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879112409" name="Shield-bearer's Armour&#10;(Max Level: 69)" level="58" maxLevel="69" description="">
@@ -1278,15 +1278,14 @@
 <item id="1879112190" name="Shield-bearer's Breastplate"/>
 <item id="1879112351" name="Shield-bearer's Shoulders"/>
 <item id="1879112280" name="Shield-bearer's Helm"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211543"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879143994"/>
-<stat name="Combat_ArmorDefense_PointsModifier_Lightning" scaling="1879144000"/>
+<stat name="Trait_Guardian_DamageMultiplier_ShieldSkills" constant="30.000002"/>
 </bonus>
-<bonus nbItems="5">
-<stat name="MIGHT" scaling="1879211547"/>
-</bonus>
-<bonus nbItems="6">
-<stat name="BLOCK" scaling="1879211632"/>
+<bonus nbItems="4">
+<stat name="Skill_Guardian_IA_Light_Damage" constant="15.000001"/>
 </bonus>
 </set>
 <set id="1879112410" name="Armour of the Axe-handler&#10;(Max Level: 69)" level="58" maxLevel="69" description="">
@@ -1296,15 +1295,15 @@
 <item id="1879112189" name="Breastplate of the Axe-handler"/>
 <item id="1879112350" name="Shoulders of the Axe-handler"/>
 <item id="1879112279" name="Helm of the Axe-handler"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211543"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879143994"/>
-<stat name="Combat_ArmorDefense_PointsModifier_Lightning" scaling="1879144000"/>
+<effect id="1879455527" name="DNT - Adds buffs to Masochism"/>
 </bonus>
-<bonus nbItems="5">
-<stat name="VITALITY" scaling="1879211533"/>
-</bonus>
-<bonus nbItems="6">
-<stat name="MORALE" scaling="1879211565"/>
+<bonus nbItems="4">
+<stat name="Skill_Champion_Defence_Recovery" operator="SUBSTRACT" constant="15.0"/>
+<stat name="Skill_Champion_HornChampions_DamageMod" constant="25.0"/>
 </bonus>
 </set>
 <set id="1879112411" name="Armour of the Stone-student&#10;(Max Level: 69)" level="58" maxLevel="69" description="">
@@ -1314,15 +1313,14 @@
 <item id="1879112200" name="Robe of the Stone-student"/>
 <item id="1879112361" name="Shoulders of the Stone-student"/>
 <item id="1879112290" name="Hat of the Stone-student"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211568"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879143993"/>
-<stat name="Combat_ArmorDefense_PointsModifier_Lightning" scaling="1879143999"/>
+<stat name="Skill_Loremaster_Command_Rage_Cooldown" operator="SUBSTRACT" constant="3.0"/>
 </bonus>
-<bonus nbItems="5">
-<stat name="WILL" scaling="1879211576"/>
-</bonus>
-<bonus nbItems="6">
-<stat name="TACTICAL_CRITICAL_MULTIPLIER" scaling="1879212517"/>
+<bonus nbItems="4">
+<stat name="Skill_RecoveryTime_Loremaster_SicEm" operator="SUBSTRACT" constant="15.0"/>
 </bonus>
 </set>
 <set id="1879112412" name="Song-caller's Armour&#10;(Max Level: 69)" level="58" maxLevel="69" description="">
@@ -1332,15 +1330,14 @@
 <item id="1879112201" name="Song-caller's Robe"/>
 <item id="1879112362" name="Song-caller's Shoulders"/>
 <item id="1879112291" name="Song-caller's Hat"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211568"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879143993"/>
-<stat name="Combat_ArmorDefense_PointsModifier_Lightning" scaling="1879143999"/>
+<stat name="IA_Duration_Minstrel_WarspeechTail" constant="30.0"/>
 </bonus>
-<bonus nbItems="5">
-<stat name="WILL" scaling="1879211576"/>
-</bonus>
-<bonus nbItems="6">
-<stat name="FATE" scaling="1879211541"/>
+<bonus nbItems="4">
+<stat name="IA_Minstrel_BalladofWar_Buff" constant="50.0"/>
 </bonus>
 </set>
 <set id="1879112413" name="Armour of the First Letters&#10;(Max Level: 69)" level="58" maxLevel="69" description="">
@@ -1350,15 +1347,15 @@
 <item id="1879112202" name="Robe of the First Letters"/>
 <item id="1879112363" name="Shoulders of the First Letters"/>
 <item id="1879112292" name="Hat of the First Letters"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211568"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879143993"/>
-<stat name="Combat_ArmorDefense_PointsModifier_Lightning" scaling="1879143999"/>
+<stat name="Skill_Attunement_Runekeeper_Lightning_Stun_StunRate" constant="15.000001"/>
 </bonus>
-<bonus nbItems="5">
-<stat name="WILL" scaling="1879211576"/>
-</bonus>
-<bonus nbItems="6">
-<stat name="VITALITY" scaling="1879211533"/>
+<bonus nbItems="4">
+<stat name="Trait_Runekeeper_Lightning_CriticalHitChance" constant="3.0"/>
+<stat name="Skill_SingleTarget_Damage" constant="3.0"/>
 </bonus>
 </set>
 <set id="1879112414" name="Pathfinder's Armour&#10;(Max Level: 69)" level="58" maxLevel="69" description="">
@@ -1368,15 +1365,14 @@
 <item id="1879112213" name="Pathfinder's Jacket"/>
 <item id="1879112374" name="Pathfinder's Shoulders"/>
 <item id="1879112303" name="Pathfinder's Helm"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211552"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879143993"/>
-<stat name="Combat_ArmorDefense_PointsModifier_Lightning" scaling="1879143999"/>
+<stat name="Skill_Hunter_IA_CryHunter_BubbleMod" constant="10.0"/>
 </bonus>
-<bonus nbItems="5">
-<stat name="AGILITY" scaling="1879211555"/>
-</bonus>
-<bonus nbItems="6">
-<stat name="WILL" scaling="1879211576"/>
+<bonus nbItems="4">
+<stat name="IA_Hunter_Skill_RecoveryTime_DistractingShot" operator="SUBSTRACT" constant="30.0"/>
 </bonus>
 </set>
 <set id="1879112415" name="Trickster's Garb&#10;(Max Level: 69)" level="58" maxLevel="69" description="">
@@ -1386,15 +1382,16 @@
 <item id="1879112212" name="Trickster's Jacket"/>
 <item id="1879112373" name="Trickster's Shoulders"/>
 <item id="1879112302" name="Trickster's Helm"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211552"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879143993"/>
-<stat name="Combat_ArmorDefense_PointsModifier_Lightning" scaling="1879143999"/>
+<stat name="Trait_Burglar_Allin_Cooldown" operator="SUBSTRACT" constant="10.0"/>
 </bonus>
-<bonus nbItems="5">
-<stat name="AGILITY" scaling="1879211555"/>
-</bonus>
-<bonus nbItems="6">
-<stat name="AGILITY" scaling="1879211555"/>
+<bonus nbItems="4">
+<specialEffect label="key:620807200:108054836"/>
+<stat name="Trait_Burglar_Gambler_DoT_Pulses" constant="1.0"/>
+<effect id="1879497218" name="DNT - Loaded Dice"/>
 </bonus>
 </set>
 <set id="1879112416" name="Armour of the Hall-warden&#10;(Max Level: 69)" level="58" maxLevel="69" description="">
@@ -1404,168 +1401,240 @@
 <item id="1879112214" name="Jacket of the Hall-warden"/>
 <item id="1879112375" name="Shoulders of the Hall-warden"/>
 <item id="1879112304" name="Helm of the Hall-warden"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211552"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879143993"/>
-<stat name="Combat_ArmorDefense_PointsModifier_Lightning" scaling="1879143999"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="10.0"/>
 </bonus>
-<bonus nbItems="5">
-<stat name="AGILITY" scaling="1879211555"/>
-</bonus>
-<bonus nbItems="6">
-<stat name="WILL" scaling="1879211576"/>
+<bonus nbItems="4">
+<specialEffect label="key:620807201:108054836"/>
+<effect id="1879484005" name="DNT - Cashouts reset masteries"/>
 </bonus>
 </set>
 <set id="1879112417" name="Stoutheart's Armour&#10;(Max Level: 69)" level="59" maxLevel="69" description="">
 <item id="1879112245" name="Stoutheart's Gauntlets"/>
 <item id="1879112227" name="Stoutheart's Boots"/>
 <item id="1879112316" name="Stoutheart's Leggings"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211543"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="MIGHT" scaling="1879211532"/>
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+<stat name="MIGHT" scaling="1879211543"/>
 </bonus>
 </set>
 <set id="1879112418" name="Armour of the Iron Arm&#10;(Max Level: 69)" level="59" maxLevel="69" description="">
 <item id="1879112247" name="Gauntlets of the Iron Arm"/>
 <item id="1879112229" name="Boots of the Iron Arm"/>
 <item id="1879112318" name="Leggings of the Iron Arm"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211543"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="MIGHT" scaling="1879211532"/>
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+<stat name="MIGHT" scaling="1879211543"/>
 </bonus>
 </set>
 <set id="1879112419" name="Berserker's Armour&#10;(Max Level: 69)" level="59" maxLevel="69" description="">
 <item id="1879112246" name="Berserker's Gauntlets"/>
 <item id="1879112228" name="Berserker's Boots"/>
 <item id="1879112317" name="Berserker's Leggings"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211543"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="MIGHT" scaling="1879211532"/>
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+<stat name="MIGHT" scaling="1879211543"/>
 </bonus>
 </set>
 <set id="1879112420" name="Quillmaster's Armour&#10;(Max Level: 69)" level="59" maxLevel="69" description="">
 <item id="1879112257" name="Quillmaster's Gloves"/>
 <item id="1879112233" name="Quillmaster's Shoes"/>
 <item id="1879112328" name="Quillmaster's Trousers"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211568"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="WILL" scaling="1879211578"/>
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+<stat name="WILL" scaling="1879211568"/>
 </bonus>
 </set>
 <set id="1879112421" name="Armour of the Poet's Heart&#10;(Max Level: 69)" level="59" maxLevel="69" description="">
 <item id="1879112258" name="Gloves of the Poet's Heart"/>
 <item id="1879112234" name="Shoes of the Poet's Heart"/>
 <item id="1879112329" name="Leggings of the Poet's Heart"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211568"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="WILL" scaling="1879211578"/>
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+<stat name="WILL" scaling="1879211568"/>
 </bonus>
 </set>
 <set id="1879112422" name="Certh-writer's Armour&#10;(Max Level: 69)" level="59" maxLevel="69" description="">
 <item id="1879112259" name="Certh-writer's Gloves"/>
 <item id="1879112235" name="Certh-writer's Shoes"/>
 <item id="1879112330" name="Certh-writer's Trousers"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211568"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="WILL" scaling="1879211578"/>
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+<stat name="WILL" scaling="1879211568"/>
 </bonus>
 </set>
 <set id="1879112423" name="Armour of the Swift Arrow&#10;(Max Level: 69)" level="59" maxLevel="69" description="">
 <item id="1879112270" name="Gauntlets of the Swift Arrow"/>
 <item id="1879112240" name="Boots of the Swift Arrow"/>
 <item id="1879112341" name="Leggings of the Swift Arrow"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211552"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="AGILITY" scaling="1879211572"/>
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+<stat name="AGILITY" scaling="1879211552"/>
 </bonus>
 </set>
 <set id="1879112424" name="Armour of the Quiet Step&#10;(Max Level: 69)" level="59" maxLevel="69" description="">
 <item id="1879112269" name="Gauntlets of the Quiet Step"/>
 <item id="1879112239" name="Boots of the Quiet Step"/>
 <item id="1879112340" name="Leggings of the Quiet Step"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211552"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="AGILITY" scaling="1879211572"/>
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+<stat name="AGILITY" scaling="1879211552"/>
 </bonus>
 </set>
 <set id="1879112425" name="Line-warder's Armour&#10;(Max Level: 69)" level="59" maxLevel="69" description="">
 <item id="1879112271" name="Line-warder's Gauntlets"/>
 <item id="1879112241" name="Line-warder's Boots"/>
 <item id="1879112342" name="Line-warder's Leggings"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211552"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="AGILITY" scaling="1879211572"/>
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+<stat name="AGILITY" scaling="1879211552"/>
 </bonus>
 </set>
 <set id="1879112426" name="Armour of the Rallying Shout&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879112191" name="Breastplate of the Rallying Shout"/>
 <item id="1879112352" name="Shoulders of the Rallying Shout"/>
 <item id="1879112281" name="Helm of the Rallying Shout"/>
+<bonus nbItems="2">
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144002"/>
-<stat name="MIGHT" scaling="1879211532"/>
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+<stat name="VITALITY" scaling="1879211535"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879446021"/>
 </bonus>
 </set>
 <set id="1879112427" name="Stoneheart's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879112193" name="Stoneheart's Breastplate"/>
 <item id="1879112354" name="Stoneheart's Shoulders"/>
 <item id="1879112283" name="Stoneheart's Helm"/>
+<bonus nbItems="2">
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144002"/>
-<stat name="MIGHT" scaling="1879211532"/>
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+<stat name="VITALITY" scaling="1879211535"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879446021"/>
 </bonus>
 </set>
 <set id="1879112428" name="Armour of the Whirlwind&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879112192" name="Breastplate of the Whirlwind"/>
 <item id="1879112353" name="Shoulders of the Whirlwind"/>
 <item id="1879112282" name="Helm of the Whirlwind"/>
+<bonus nbItems="2">
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144002"/>
-<stat name="MIGHT" scaling="1879211532"/>
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+<stat name="VITALITY" scaling="1879211535"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879446021"/>
 </bonus>
 </set>
 <set id="1879112429" name="Armour of Deep Lore&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879112203" name="Robe of Deep Lore"/>
 <item id="1879112364" name="Shoulders of Deep Lore"/>
 <item id="1879112293" name="Hat of Deep Lore"/>
+<bonus nbItems="2">
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144001"/>
-<stat name="WILL" scaling="1879211578"/>
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+<stat name="VITALITY" scaling="1879211535"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879446021"/>
 </bonus>
 </set>
 <set id="1879112430" name="Balladeer's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879112204" name="Balladeer's Robe"/>
 <item id="1879112365" name="Balladeer's Shoulders"/>
 <item id="1879112294" name="Balladeer's Hat"/>
+<bonus nbItems="2">
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144001"/>
-<stat name="WILL" scaling="1879211578"/>
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+<stat name="VITALITY" scaling="1879211535"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879446021"/>
 </bonus>
 </set>
 <set id="1879112431" name="Armour of the Written Word&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879112205" name="Robe of the Written Word"/>
 <item id="1879112366" name="Shoulders of the Written Word"/>
 <item id="1879112295" name="Hat of the Written Word"/>
+<bonus nbItems="2">
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144001"/>
-<stat name="WILL" scaling="1879211578"/>
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+<stat name="VITALITY" scaling="1879211535"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879446021"/>
 </bonus>
 </set>
 <set id="1879112432" name="Trapsetter's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879112216" name="Trapsetter's Jacket"/>
 <item id="1879112377" name="Trapsetter's Shoulders"/>
 <item id="1879112306" name="Trapsetter's Helm"/>
+<bonus nbItems="2">
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144001"/>
-<stat name="AGILITY" scaling="1879211572"/>
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+<stat name="VITALITY" scaling="1879211535"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879446021"/>
 </bonus>
 </set>
 <set id="1879112433" name="Soft-walker's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879112215" name="Soft-walker's Jacket"/>
 <item id="1879112376" name="Soft-walker's Shoulders"/>
 <item id="1879112305" name="Soft-walker's Helm"/>
+<bonus nbItems="2">
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144001"/>
-<stat name="AGILITY" scaling="1879211572"/>
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+<stat name="VITALITY" scaling="1879211535"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879446021"/>
 </bonus>
 </set>
 <set id="1879112434" name="Armour of the Shield-wall&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879112217" name="Jacket of the Shield-wall"/>
 <item id="1879112378" name="Shoulders of the Shield-wall"/>
 <item id="1879112307" name="Helm of the Shield-wall"/>
+<bonus nbItems="2">
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144001"/>
-<stat name="AGILITY" scaling="1879211572"/>
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+<stat name="VITALITY" scaling="1879211535"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879446021"/>
 </bonus>
 </set>
 <set id="1879112435" name="Hall-general's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -1578,8 +1647,12 @@
 <bonus nbItems="2">
 <stat name="MIGHT" scaling="1879211547"/>
 </bonus>
+<bonus nbItems="3">
+<stat name="Skill_VitalReturn_Captain_ValiantStrike" constant="15.000001"/>
+</bonus>
 <bonus nbItems="4">
-<stat name="Skill_Duration_Captain_MakeHaste" descriptionOverride="key:620807220:108054836" constant="10.0"/>
+<stat name="Skill_Captain_VocalHealBonus" constant="5.0"/>
+<effect id="1879455087" name="DNT - Improved SoD Damage Reduction"/>
 </bonus>
 </set>
 <set id="1879112436" name="Armour of Durin's Guard&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -1592,9 +1665,12 @@
 <bonus nbItems="2">
 <stat name="MIGHT" scaling="1879211547"/>
 </bonus>
+<bonus nbItems="3">
+<stat name="EffectMod_Duration_Guardian_GuardiansWard" constant="5.0"/>
+</bonus>
 <bonus nbItems="4">
-<specialEffect label="key:620807221:108054836"/>
-<effect id="1879249249" name="Protection from all disables"/>
+<stat name="Skill_Guardian_Juggernaut_Cooldown" operator="SUBSTRACT" constant="15.0"/>
+<effect id="1879264538" name="Armour of the Erebor Shadow-fighter"/>
 </bonus>
 </set>
 <set id="1879112437" name="Blademaster's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -1607,9 +1683,12 @@
 <bonus nbItems="2">
 <stat name="MIGHT" scaling="1879211547"/>
 </bonus>
+<bonus nbItems="3">
+<stat name="Skill_Champion_RecoveryTime_GreatCleave" operator="SUBSTRACT" constant="15.0"/>
+</bonus>
 <bonus nbItems="4">
-<specialEffect label="key:620807222:108054836"/>
-<effect id="1879226081" name="DNT - itemset bonus, Battle Acuity increases Crit ratings of Blade skills"/>
+<stat name="Skill_Champion_Pipmod_FuryofBlades" descriptionOverride="key:620807222:108054836" constant="2.0"/>
+<stat name="Skill_Champion_FervourMod_FuryBlades_Damage" constant="20.0"/>
 </bonus>
 </set>
 <set id="1879112438" name="Stone-reader's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -1621,6 +1700,9 @@
 <item id="1879112296" name="Stone-reader's Hat"/>
 <bonus nbItems="2">
 <stat name="WILL" scaling="1879211576"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="IA_Loremaster_GustofWindDamage" constant="15.000001"/>
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="key:620807223:108054836"/>
@@ -1637,8 +1719,11 @@
 <bonus nbItems="2">
 <stat name="WILL" scaling="1879211576"/>
 </bonus>
+<bonus nbItems="3">
+<stat name="Skill_Minstrel_DamageMultiplier_WarspeechCalls" constant="20.0"/>
+</bonus>
 <bonus nbItems="4">
-<stat name="Skill_VitalCost_SerenadeOffenseMod" operator="SUBSTRACT" descriptionOverride="key:620807224:108054836" constant="10.0"/>
+<stat name="IA_Minstrel_CalltoOrome_Damage" constant="50.0"/>
 </bonus>
 </set>
 <set id="1879112440" name="Word-smith's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -1651,8 +1736,12 @@
 <bonus nbItems="2">
 <stat name="WILL" scaling="1879211576"/>
 </bonus>
+<bonus nbItems="3">
+<effect id="1879455203" name="DNT - Steady Hands gives you Mitigations"/>
+</bonus>
 <bonus nbItems="4">
-<stat name="Skill_Runekeeper_VividImagery_PowerCost" operator="SUBSTRACT" descriptionOverride="key:620807225:108054836" constant="20.0"/>
+<stat name="Skill_Runekeeper_IA_BombasticInspiration_Heal" descriptionOverride="key:620807225:108054836" constant="15.000001"/>
+<stat name="IA_Runekeeper_BigHeal_Healing" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879112441" name="Armour of the Great Bow&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -1665,8 +1754,13 @@
 <bonus nbItems="2">
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
+<bonus nbItems="3">
+<stat name="Skill_ChanceCriticalHit_Hunter_PenetratingShot" constant="15.000001"/>
+<stat name="Skill_IA_Hunter_FocusBowDamage" constant="3.0"/>
+</bonus>
 <bonus nbItems="4">
 <stat name="Skill_Hunter_Skill_InductionDuration_BowInductions" operator="SUBSTRACT" descriptionOverride="key:620807226:108054836" constant="5.0"/>
+<effect id="1879444710" name="DNT - Rain of Arrows Bleed Itemset"/>
 </bonus>
 </set>
 <set id="1879112442" name="Armour of the Silent Knife&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -1679,9 +1773,12 @@
 <bonus nbItems="2">
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
+<bonus nbItems="3">
+<stat name="Skill_CritChanceMod_MeleeSkills" constant="2.5"/>
+</bonus>
 <bonus nbItems="4">
-<specialEffect label="key:620807227:108054836"/>
-<effect id="1879201482" name="Riddle"/>
+<stat name="IA_Burglar_Recovery_ReadyAndAble" constant="20.0"/>
+<stat name="Skill_Burglar_IA_CoupdeGras_CritRating" constant="2.5"/>
 </bonus>
 </set>
 <set id="1879112443" name="Spear-hurler's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -1694,8 +1791,12 @@
 <bonus nbItems="2">
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
+<bonus nbItems="3">
+<stat name="Skill_Warden_WayoftheX_Duration" constant="3.0"/>
+</bonus>
 <bonus nbItems="4">
-<stat name="Skill_Duration_CarefulStep" descriptionOverride="key:620807228:108054836" constant="10.0"/>
+<stat name="Skill_DamageMultiplier_Bleed_MightyBlow" constant="20.0"/>
+<stat name="Warden_WardensTriumph_BuffDuration" constant="20.0"/>
 </bonus>
 </set>
 <set id="1879112444" name="Armour of the Lady's Courage&#10;(Max Level: 69)" level="60" maxLevel="69" description="key:620807229:54354734">
@@ -1706,11 +1807,14 @@
 <item id="1879112358" name="Shoulders of the Lady's Courage"/>
 <item id="1879112287" name="Helm of the Lady's Courage"/>
 <bonus nbItems="2">
-<stat name="MIGHT" scaling="1879211547"/>
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="Skill_VitalCost_Morale_TimeofNeed" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<specialEffect label="key:620807229:108054836"/>
-<effect id="1879248762" name="DNT - Defeat Event CDR"/>
+<stat name="Skill_DamageMultiplier_Trait_MasterofWar" constant="15.000001"/>
+<stat name="Skill_ChanceCriticalHit_DevastatingBlow" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879112445" name="Armour of the Lady's Defence&#10;(Max Level: 69)" level="60" maxLevel="69" description="key:620807230:54354734">
@@ -1721,10 +1825,14 @@
 <item id="1879112360" name="Shoulders of the Lady's Defence"/>
 <item id="1879112289" name="Helm of the Lady's Defence"/>
 <bonus nbItems="2">
-<stat name="MIGHT" scaling="1879211547"/>
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="Skill_Guardian_IA_ReactiveParry_Damage" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_RecoveryTime_TurnTables" descriptionOverride="key:620807230:108054836" constant="-45.0"/>
+<stat name="Skill_Guardian_HammerDown_CD" operator="SUBSTRACT" constant="7.0"/>
+<stat name="Itemset_AdditivePulseCountModifier_Guardian_Bleeds" constant="1.0"/>
 </bonus>
 </set>
 <set id="1879112446" name="Armour of the Lady's Power&#10;(Max Level: 69)" level="60" maxLevel="69" description="key:620807231:54354734">
@@ -1735,10 +1843,15 @@
 <item id="1879112359" name="Shoulders of the Lady's Power"/>
 <item id="1879112288" name="Helm of the Lady's Power"/>
 <bonus nbItems="2">
-<stat name="MIGHT" scaling="1879211547"/>
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<specialEffect label="key:620807231:108054835"/>
+<effect id="1879226081" name="DNT - itemset bonus, Battle Acuity increases Crit ratings of Blade skills"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="BLADE_LINE_AOE_POWER_COST_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:620807231:108054836" constant="5.0"/>
+<stat name="Trait_Champion_BaseMod_Damage" constant="0.5"/>
+<stat name="Skill_DamageMultiplier_BrutalStrikes" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879112447" name="Armour of the Lady's Wisdom&#10;(Max Level: 69)" level="60" maxLevel="69" description="key:620807232:54354734">
@@ -1749,7 +1862,10 @@
 <item id="1879112370" name="Shoulders of the Lady's Wisdom"/>
 <item id="1879112299" name="Hat of the Lady's Wisdom"/>
 <bonus nbItems="2">
-<stat name="WILL" scaling="1879211576"/>
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="Skill_RecoveryTime_Loremaster_TestofWill" operator="SUBSTRACT" constant="15.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Duration_LoreMaster_BlindingFlash" descriptionOverride="key:620807232:108054836" constant="5.0"/>
@@ -1763,10 +1879,14 @@
 <item id="1879112371" name="Shoulders of the Lady's Grace"/>
 <item id="1879112300" name="Hat of the Lady's Grace"/>
 <bonus nbItems="2">
-<stat name="WILL" scaling="1879211576"/>
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="Item_Minstrel_ImprovedFellowshipHeart" constant="25.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Minstrel_HealingPowerReduce" descriptionOverride="key:620807233:108054836" constant="-15.000001"/>
+<specialEffect label="key:620807233:108054836"/>
+<effect id="1879381299" name="DNT - Snowball"/>
 </bonus>
 </set>
 <set id="1879112449" name="Armour of the Lady's Foresight&#10;(Max Level: 69)" level="60" maxLevel="69" description="key:620807234:54354734">
@@ -1777,10 +1897,14 @@
 <item id="1879112372" name="Shoulders of the Lady's Foresight"/>
 <item id="1879112301" name="Hat of the Lady's Foresight"/>
 <bonus nbItems="2">
-<stat name="WILL" scaling="1879211576"/>
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="Runekeeper_Volcanic_Summon_Duration" constant="4.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Runekeeper_SelfMotivation_PowerReturn" descriptionOverride="key:620807234:108054836" constant="20.0"/>
+<stat name="Itemset_Runekeeper_WrathofFire_PulseCount" constant="1.0"/>
+<stat name="Skill_Runekeeper_Combustion_DamageMod" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879112450" name="Armour of the Lady's Discernment&#10;(Max Level: 69)" level="60" maxLevel="69" description="key:620807235:54354734">
@@ -1791,10 +1915,14 @@
 <item id="1879112383" name="Shoulders of the Lady's Discernment"/>
 <item id="1879112311" name="Helm of the Lady's Discernment"/>
 <bonus nbItems="2">
-<stat name="AGILITY" scaling="1879211555"/>
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="Skill_Hunter_Barrage_DamageMod" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="IA_Hunter_Damage_HeartSeeker" descriptionOverride="key:620807235:108054836" constant="10.0"/>
+<specialEffect label="key:620807235:108054836"/>
+<effect id="1879444707" name="DNT - Rapidfire Barrage Itemset"/>
 </bonus>
 </set>
 <set id="1879112451" name="Armour of the Lady's Secrecy&#10;(Max Level: 69)" level="60" maxLevel="69" description="key:620807236:54354734">
@@ -1805,10 +1933,14 @@
 <item id="1879112382" name="Shoulders of the Lady's Secrecy"/>
 <item id="1879112310" name="Helm of the Lady's Secrecy"/>
 <bonus nbItems="2">
-<stat name="AGILITY" scaling="1879211555"/>
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="EffectMod_VOT_PerIntervalChangeMult_AddMod1_Trait_Tricks" constant="15.000001"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_VitalCost_MeleeMod" descriptionOverride="key:620807236:108054836" constant="-10.0"/>
+<specialEffect label="key:620807236:108054836"/>
+<effect id="1879201482" name="Riddle"/>
 </bonus>
 </set>
 <set id="1879112452" name="Armour of the Lady's Favour&#10;(Max Level: 69)" level="60" maxLevel="69" description="key:620807237:54354734">
@@ -1819,10 +1951,14 @@
 <item id="1879112384" name="Shoulders of the Lady's Favour"/>
 <item id="1879112312" name="Helm of the Lady's Favour"/>
 <bonus nbItems="2">
-<stat name="AGILITY" scaling="1879211555"/>
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="Skill_BonusThreat_WarCry" constant="20.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="Skill_Warden_PersevereHeal" constant="30.000002"/>
+<stat name="Trait_PulseCount_WardenHot" constant="1.0"/>
 </bonus>
 </set>
 <set id="1879113531" name="Limdúr Armour&#10;(Max Level: 59)" level="50" maxLevel="59" description="">
@@ -1915,8 +2051,8 @@
 <item id="1879140916" name="Fantastic Silver Bracelet"/>
 <item id="1879140917" name="Golden Earring"/>
 <bonus nbItems="2">
-<stat name="ACID_MITIGATION" scaling="1879138438"/>
-<stat name="FIRE_MITIGATION" scaling="1879138439"/>
+<stat name="ACID_MITIGATION" scaling="1879498228"/>
+<stat name="FIRE_MITIGATION" scaling="1879491144"/>
 <stat name="FROST_MITIGATION" scaling="1879382678"/>
 </bonus>
 <bonus nbItems="3">
@@ -1929,7 +2065,7 @@
 <item id="1879140766" name="Condail"/>
 <item id="1879140780" name="Gauntlets of the Bloodletter"/>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879138458"/>
+<stat name="ACID_MITIGATION" scaling="1879498229"/>
 </bonus>
 </set>
 <set id="1879141220" name="Heavy Shadow Forfend&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -1937,7 +2073,8 @@
 <item id="1879140913" name="Rodongarab"/>
 <item id="1879140772" name="Rerebracers of the Filth-pile"/>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879138460"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="ACID_MITIGATION" scaling="1879498234"/>
 </bonus>
 </set>
 <set id="1879141221" name="Light Acid Forfend&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -1945,7 +2082,7 @@
 <item id="1879140767" name="Hendail"/>
 <item id="1879140781" name="Gloves of the Handler"/>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879138458"/>
+<stat name="ACID_MITIGATION" scaling="1879498229"/>
 </bonus>
 </set>
 <set id="1879141222" name="Light Shadow Forfend&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -1953,7 +2090,8 @@
 <item id="1879140914" name="Parch-het"/>
 <item id="1879140773" name="Saellanc"/>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879138460"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="ACID_MITIGATION" scaling="1879498234"/>
 </bonus>
 </set>
 <set id="1879141223" name="Medium Acid Forfend&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -1961,7 +2099,7 @@
 <item id="1879140768" name="Shadid-jazâm"/>
 <item id="1879140782" name="Blood-stained Gauntlets"/>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879138458"/>
+<stat name="ACID_MITIGATION" scaling="1879498229"/>
 </bonus>
 </set>
 <set id="1879141224" name="Medium Shadow Forfend&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -1969,94 +2107,98 @@
 <item id="1879140915" name="Lost Helm of Skûmfil"/>
 <item id="1879140774" name="Faeranc"/>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879138460"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="ACID_MITIGATION" scaling="1879498234"/>
 </bonus>
 </set>
 <set id="1879141225" name="Heavy Shadow Forfend&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879140067" name="Hadorcham"/>
 <item id="1879140063" name="Hum-ketef"/>
 <bonus nbItems="2">
-<stat name="SHADOW_MITIGATION" scaling="1879138460"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489617"/>
 </bonus>
 </set>
 <set id="1879141226" name="Light Shadow Forfend&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879140066" name="Ferongol"/>
 <item id="1879140068" name="Gaudy Rerebraces"/>
 <bonus nbItems="2">
-<stat name="SHADOW_MITIGATION" scaling="1879138460"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489617"/>
 </bonus>
 </set>
 <set id="1879141227" name="Medium Shadow Forfend&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879140065" name="Murhul-khafâz"/>
 <item id="1879140064" name="Khudur-ketef"/>
 <bonus nbItems="2">
-<stat name="SHADOW_MITIGATION" scaling="1879138460"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489617"/>
 </bonus>
 </set>
-<set id="1879141228" name="Heavy Acid Forfend&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
+<set id="1879141228" name="Heavy Weapon Forfend&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879140208" name="Hands of the Commander"/>
 <item id="1879140212" name="Valandil"/>
 <item id="1879140209" name="Gathol"/>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879138458"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879215061"/>
 </bonus>
 </set>
-<set id="1879141229" name="Light Acid Forfend&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
+<set id="1879141229" name="Light Weapon Forfend&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879140213" name="Werthur"/>
 <item id="1879140210" name="Bal-huor"/>
 <item id="1879140206" name="Fëanor"/>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879138458"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879215061"/>
 </bonus>
 </set>
-<set id="1879141230" name="Medium Acid Forfend&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
+<set id="1879141230" name="Medium Weapon Forfend&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879140207" name="Steel Treads"/>
 <item id="1879140214" name="Thaliombadanir"/>
 <item id="1879140211" name="Mír-feredir"/>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879138458"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879215061"/>
 </bonus>
 </set>
 <set id="1879141277" name="Light Flame Forfend&#10;(Max Level: 69)" level="59" maxLevel="69" description="">
 <item id="1879114651" name="Shirt of Marks"/>
 <item id="1879114654" name="Gloves of the Deep Breath"/>
 <bonus nbItems="2">
-<stat name="FIRE_MITIGATION" scaling="1879138459"/>
+<stat name="FIRE_MITIGATION" scaling="1879498227"/>
 </bonus>
 </set>
 <set id="1879141278" name="Medium Flame Forfend&#10;(Max Level: 69)" level="59" maxLevel="69" description="">
 <item id="1879114652" name="Masterdom"/>
 <item id="1879114655" name="Rerebraces of Brawn"/>
 <bonus nbItems="2">
-<stat name="FIRE_MITIGATION" scaling="1879138459"/>
+<stat name="FIRE_MITIGATION" scaling="1879498227"/>
 </bonus>
 </set>
 <set id="1879141279" name="Heavy Flame Forfend&#10;(Max Level: 69)" level="59" maxLevel="69" description="">
 <item id="1879114649" name="Stalwart Vesture"/>
 <item id="1879114650" name="Steel-toes"/>
 <bonus nbItems="2">
-<stat name="FIRE_MITIGATION" scaling="1879138459"/>
+<stat name="FIRE_MITIGATION" scaling="1879498227"/>
 </bonus>
 </set>
 <set id="1879141301" name="Heavy Flame Forfend&#10;(Max Level: 69)" level="58" maxLevel="69" description="">
 <item id="1879134228" name="Hum-zudur"/>
 <item id="1879134349" name="Head-cage"/>
 <bonus nbItems="2">
-<stat name="FIRE_MITIGATION" scaling="1879138459"/>
+<stat name="FIRE_MITIGATION" scaling="1879491144"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879215066"/>
 </bonus>
 </set>
 <set id="1879141302" name="Light Flame Forfend&#10;(Max Level: 69)" level="58" maxLevel="69" description="">
 <item id="1879134230" name="Fancy Stitched Waistcoat"/>
 <item id="1879134350" name="Gelcharab"/>
 <bonus nbItems="2">
-<stat name="FIRE_MITIGATION" scaling="1879138459"/>
+<stat name="FIRE_MITIGATION" scaling="1879491144"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879215066"/>
 </bonus>
 </set>
 <set id="1879141303" name="Medium Flame Forfend&#10;(Max Level: 69)" level="58" maxLevel="69" description="">
 <item id="1879134232" name="Fancy Padded Shirt"/>
 <item id="1879134351" name="Razor-helm"/>
 <bonus nbItems="2">
-<stat name="FIRE_MITIGATION" scaling="1879138459"/>
+<stat name="FIRE_MITIGATION" scaling="1879491144"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879215066"/>
 </bonus>
 </set>
 <set id="1879143883" name="Armour of the Wandering Bard" level="58" maxLevel="68" description="">
@@ -2450,7 +2592,7 @@
 <item id="1879145703" name="Ring of Fate"/>
 <item id="1879145704" name="Ring of Will"/>
 <bonus nbItems="2">
-<stat name="TACTICAL_CRITICAL_MULTIPLIER" scaling="1879382668"/>
+<stat name="TACTICAL_CRITICAL_MULTIPLIER" scaling="1879212517"/>
 </bonus>
 </set>
 <set id="1879145719" name="Huntsman's Tools&#10;(Max Level: 64)" level="55" maxLevel="64" description="">
@@ -2474,7 +2616,7 @@
 <item id="1879145698" name="Survivalist's Earring"/>
 <item id="1879145695" name="Survivalist's Bracelet"/>
 <bonus nbItems="2">
-<stat name="RESISTANCE" scaling="1879210163"/>
+<stat name="RESISTANCE" scaling="1879210164"/>
 </bonus>
 <bonus nbItems="3">
 <stat name="RESISTANCE" scaling="1879210164"/>
@@ -2484,7 +2626,7 @@
 <item id="1879145712" name="Helm of Knowledge"/>
 <item id="1879145696" name="Earring of Knowledge"/>
 <bonus nbItems="2">
-<stat name="FATE" scaling="1879211541"/>
+<stat name="FATE" scaling="1879211553"/>
 <stat name="CRITICAL_RATING" scaling="1879211601"/>
 </bonus>
 </set>
@@ -2509,7 +2651,7 @@
 <item id="1879145710" name="Gauntlets of Brutal Onslaught"/>
 <bonus nbItems="3">
 <stat name="MIGHT" scaling="1879211567"/>
-<stat name="RESISTANCE" scaling="1879210164"/>
+<stat name="PHYSICAL_MASTERY" scaling="1879223974"/>
 </bonus>
 </set>
 <set id="1879145726" name="Harthad&#10;(Max Level: 64)" level="55" maxLevel="64" description="">
@@ -2517,7 +2659,7 @@
 <item id="1879145702" name="Tûr"/>
 <item id="1879145699" name="Amarth"/>
 <bonus nbItems="3">
-<stat name="FATE" scaling="1879211553"/>
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
 <stat name="TACTICAL_CRITICAL_MULTIPLIER" scaling="1879212517"/>
 </bonus>
 </set>
@@ -2565,7 +2707,8 @@
 <stat name="WILL" scaling="1879211576"/>
 </bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144001"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
 <set id="1879151813" name="Armour of the Javelin&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -2576,7 +2719,8 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144002"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
 <set id="1879151820" name="Rhymer's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -2587,7 +2731,8 @@
 <stat name="WILL" scaling="1879211576"/>
 </bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144001"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
 <set id="1879151829" name="Arrow-fletcher's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -2598,7 +2743,8 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144001"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
 <set id="1879151839" name="Hall-captain's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -2609,7 +2755,8 @@
 <stat name="MIGHT" scaling="1879211547"/>
 </bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144002"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
 <set id="1879151847" name="Swiftblade's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -2617,10 +2764,11 @@
 <item id="1879151848" name="Swiftblade's Leggings"/>
 <item id="1879151840" name="Swiftblade's Gauntlets"/>
 <bonus nbItems="2">
-<stat name="INCOMING_HEALING" scaling="1879211893"/>
+<stat name="MIGHT" scaling="1879211547"/>
 </bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144002"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
 <set id="1879151852" name="Stone-guard's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -2631,7 +2779,8 @@
 <stat name="MIGHT" scaling="1879211547"/>
 </bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144002"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
 <set id="1879151855" name="Rune-learner's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -2642,7 +2791,8 @@
 <stat name="WILL" scaling="1879211576"/>
 </bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144001"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
 <set id="1879151865" name="Deft-blade's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -2653,7 +2803,8 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144001"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
 <set id="1879158539" name="Battle-leader's Armour&#10;(Max Level: 74)" level="63" maxLevel="74" description="">
@@ -3760,7 +3911,7 @@
 <stat name="ItemSet_EpicConclusion_recovers_SustainingBolt_ApplicationChance" operator="SET" descriptionOverride="key:620873989:108054836" constant="1.0"/>
 </bonus>
 </set>
-<set id="1879202918" name="Abandoned Keepsakes&#10;(Max Level: 74)" level="48" maxLevel="74" description="">
+<set id="1879202918" name="Curunam and Mirúr&#10;(Max Level: 57)" level="48" maxLevel="74" description="">
 <item id="1879202874" name="Caecham"/>
 <item id="1879202857" name="Red Garnet Ring"/>
 <bonus nbItems="2">
@@ -3768,7 +3919,7 @@
 <stat name="TACTICAL_MASTERY" scaling="1879225866"/>
 </bonus>
 </set>
-<set id="1879202958" name="Abandoned Keepsakes&#10;(Max Level: 74)" level="48" maxLevel="74" description="">
+<set id="1879202958" name="Curunam and Mirúr&#10;(Max Level: 57)" level="48" maxLevel="74" description="">
 <item id="1879202876" name="Patron's Gauntlets"/>
 <item id="1879202867" name="Diamond Amethyst Bracelet"/>
 <bonus nbItems="2">
@@ -3776,7 +3927,7 @@
 <stat name="PHYSICAL_MASTERY" scaling="1879225867"/>
 </bonus>
 </set>
-<set id="1879202959" name="Abandoned Keepsakes&#10;(Max Level: 74)" level="48" maxLevel="74" description="">
+<set id="1879202959" name="Curunam and Mirúr&#10;(Max Level: 57)" level="48" maxLevel="74" description="">
 <item id="1879202877" name="Luth-mundar"/>
 <item id="1879202859" name="Diamond Clustered Ring"/>
 <bonus nbItems="2">
@@ -3784,7 +3935,7 @@
 <stat name="PHYSICAL_MASTERY" scaling="1879225867"/>
 </bonus>
 </set>
-<set id="1879202960" name="Abandoned Keepsakes&#10;(Max Level: 74)" level="48" maxLevel="74" description="">
+<set id="1879202960" name="Curunam and Mirúr&#10;(Max Level: 57)" level="48" maxLevel="74" description="">
 <item id="1879202961" name="Avorcham"/>
 <item id="1879202866" name="Bold Emerald Bracelet"/>
 <bonus nbItems="2">
@@ -15180,32 +15331,40 @@
 <item id="1879320505" name="Jacket of the Stone-hide"/>
 <item id="1879320499" name="Shoulders of the Stone-hide"/>
 <item id="1879320504" name="Helm of the Stone-hide"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211543"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879143993"/>
-<stat name="Combat_ArmorDefense_PointsModifier_Lightning" scaling="1879143999"/>
+<stat name="Skill_Beorning_Recuperate_PulseCount_Mod" constant="2.0"/>
 </bonus>
-<bonus nbItems="5">
-<stat name="MIGHT" scaling="1879211547"/>
-</bonus>
-<bonus nbItems="6">
-<stat name="MIGHT" scaling="1879211547"/>
+<bonus nbItems="4">
+<stat name="Skill_Beorning_Itemset_Counter_Evade" descriptionOverride="key:620957334:108054836" constant="15.000001"/>
+<effect id="1879402069" name="DNT - Counter Cooldown"/>
 </bonus>
 </set>
 <set id="1879320510" name="Cave-mauler's Armour&#10;(Max Level: 69)" level="59" maxLevel="69" description="">
 <item id="1879320497" name="Cave-mauler's Gauntlets"/>
 <item id="1879320501" name="Cave-mauler's Boots"/>
 <item id="1879320503" name="Cave-mauler's Leggings"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211543"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="MIGHT" scaling="1879211532"/>
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+<stat name="MIGHT" scaling="1879211543"/>
 </bonus>
 </set>
 <set id="1879320512" name="Armour of the Iron-tooth&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879320508" name="Jacket of the Iron-tooth"/>
 <item id="1879320507" name="Shoulders of the Iron-tooth"/>
 <item id="1879320511" name="Helm of the Iron-tooth"/>
+<bonus nbItems="2">
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144001"/>
-<stat name="MIGHT" scaling="1879211532"/>
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+<stat name="VITALITY" scaling="1879211535"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879446021"/>
 </bonus>
 </set>
 <set id="1879320593" name="Lesser Wind of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
@@ -15264,7 +15423,8 @@
 <stat name="MIGHT" scaling="1879211547"/>
 </bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144002"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
 <set id="1879320639" name="Armour of the Lady's Strength&#10;(Max Level: 69)" level="60" maxLevel="69" description="key:620957457:54354734">
@@ -15275,10 +15435,16 @@
 <item id="1879320632" name="Shoulders of the Lady's Strength"/>
 <item id="1879320637" name="Helm of the Lady's Strength"/>
 <bonus nbItems="2">
-<stat name="MIGHT" scaling="1879211547"/>
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="Skill_AreaEffect_Healing" constant="10.0"/>
+<effect id="1879455004" name="DNT - 5% Bonus Sacrifice Mitigation"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+<specialEffect label="key:620957457:108054836"/>
+<stat name="Skill_Beorning_NaturesSalve_Cooldown" operator="SUBSTRACT" constant="5.0"/>
+<effect id="1879402032" name="DNT - Transform Wrath"/>
 </bonus>
 </set>
 <set id="1879320845" name="Stone Claw's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -15291,9 +15457,12 @@
 <bonus nbItems="2">
 <stat name="MIGHT" scaling="1879211547"/>
 </bonus>
+<bonus nbItems="3">
+<stat name="Skill_Beorning_IA_CalltoWild_Physical_Mastery" constant="10.0"/>
+</bonus>
 <bonus nbItems="4">
-<stat name="MIGHT" scaling="1879211532"/>
-<stat name="AGILITY" scaling="1879211555"/>
+<stat name="Skill_Beorning_Finisher_DamageMod" constant="15.000001"/>
+<stat name="Skill_Beorning_Execute_CooldownMod" operator="SUBSTRACT" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879321041" name="Rift-reaper's Armour&#10;(Max Level: 59)" level="50" maxLevel="59" description="key:620957669:54354734">
@@ -21939,10 +22108,15 @@
 <item id="1879426891" name="Shoulders of the Lady's Decisiveness"/>
 <item id="1879426902" name="Helm of the Lady's Decisiveness"/>
 <bonus nbItems="2">
-<stat name="MIGHT" scaling="1879211547"/>
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<effect id="1879455508" name="DNT - Critical finishers generate 1 mettle."/>
+<effect id="1879455514" name="DNT -60s Plant Feet cooldown"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="Skill_Brawler_JoyOfBattle_CD" operator="SUBSTRACT" constant="15.0"/>
+<stat name="Skill_Brawler_BracingGuard_Cooldown" operator="SUBSTRACT" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879430921" name="Fighting-garb of the Steadfast Brawler&#10;(Max Level: 119)" level="222" maxLevel="119" description="">
@@ -22701,7 +22875,8 @@
 <stat name="MIGHT" scaling="1879211547"/>
 </bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144002"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
 <set id="1879438733" name="Armour of the Mountain's Vengeance&#10;(Max Level: 69)" level="58" maxLevel="69" description="">
@@ -22711,32 +22886,40 @@
 <item id="1879426885" name="Breastplate of the Mountain's Vengeance"/>
 <item id="1879426887" name="Shoulders of the Mountain's Vengeance"/>
 <item id="1879426886" name="Helm of the Mountain's Vengeance"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211543"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="ACID_MITIGATION" scaling="1879143994"/>
-<stat name="Combat_ArmorDefense_PointsModifier_Lightning" scaling="1879144000"/>
+<stat name="Skill_Brawler_SlipFree_CD" operator="SUBSTRACT" constant="10.0"/>
 </bonus>
-<bonus nbItems="5">
-<stat name="VITALITY" scaling="1879211533"/>
-</bonus>
-<bonus nbItems="6">
-<stat name="MORALE" scaling="1879211565"/>
+<bonus nbItems="4">
+<stat name="Skill_Brawler_Flex_DurationMod" constant="5.0"/>
+<stat name="Duration_Brawler_Vulnerable" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879438738" name="Armour of the Unexpected Hero&#10;(Max Level: 69)" level="59" maxLevel="69" description="">
 <item id="1879438732" name="Unexpected Hero's Gauntlets"/>
 <item id="1879438728" name="Unexpected Hero's Boots"/>
 <item id="1879438737" name="Unexpected Hero's Leggings"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211543"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="MIGHT" scaling="1879211532"/>
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+<stat name="MIGHT" scaling="1879211543"/>
 </bonus>
 </set>
 <set id="1879438740" name="Armour of the Battle-storm&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
 <item id="1879438742" name="Breastplate of the Battle-storm"/>
 <item id="1879438741" name="Shoulders of the Battle-storm"/>
 <item id="1879438739" name="Helm of the Battle-storm"/>
+<bonus nbItems="2">
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+</bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144002"/>
-<stat name="MIGHT" scaling="1879211532"/>
+<stat name="SHADOW_MITIGATION" scaling="1879144011"/>
+<stat name="VITALITY" scaling="1879211535"/>
+<stat name="CRITICAL_DEFENCE" scaling="1879446021"/>
 </bonus>
 </set>
 <set id="1879438743" name="Striker's Armour&#10;(Max Level: 69)" level="60" maxLevel="69" description="">
@@ -22749,8 +22932,13 @@
 <bonus nbItems="2">
 <stat name="MIGHT" scaling="1879211547"/>
 </bonus>
-<bonus nbItems="4">
+<bonus nbItems="3">
+<stat name="Skill_Brawler_SpenderAttack_Damage" constant="5.0"/>
 <effect id="1879438674" name="Builders may generate an additional point of Mettle."/>
+</bonus>
+<bonus nbItems="4">
+<specialEffect label="key:621058795:108054836"/>
+<effect id="1879483983" name="DNT"/>
 </bonus>
 </set>
 <set id="1879438744" name="Battle Dancer's Armour&#10;(Max Level: 59)" level="50" maxLevel="59" description="">
@@ -24183,11 +24371,14 @@
 <item id="1879470962" name="Shoulders of the Lady's Inspiration"/>
 <item id="1879470971" name="Helm of the Lady's Inspiration"/>
 <bonus nbItems="2">
-<stat name="AGILITY" scaling="1879211555"/>
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="Corsair_WindEffect_Duration" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
-<effect id="1879471405" name="DNT - Finishers give a damage buff"/>
+<stat name="Corsair_StarGuide_Cooldown" operator="SUBSTRACT" constant="15.0"/>
+<stat name="Corsair_MarkedFoes_Cooldown" operator="SUBSTRACT" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879476054" name="Armour of the Erebor Blade&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
@@ -24225,10 +24416,12 @@
 <bonus nbItems="2">
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
+<bonus nbItems="3">
+<stat name="Corsair_Lunge_Cooldown" operator="SUBSTRACT" constant="3.0"/>
+<stat name="Corsair_Skilldamage_Finisher" constant="3.0"/>
+</bonus>
 <bonus nbItems="4">
-<stat name="VITALITY" scaling="1879211533"/>
-<stat name="AGILITY" scaling="1879211555"/>
-<effect id="1879476135" name="DNT - Shanties give personal DR"/>
+<effect id="1879471405" name="DNT - Finishers give a damage buff"/>
 </bonus>
 </set>
 <set id="1879476059" name="Armour of the Navigator&#10;(Max Level: 84)" level="88" maxLevel="84" description="">
@@ -24445,7 +24638,8 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="3">
-<stat name="SHADOW_MITIGATION" scaling="1879144002"/>
+<stat name="SHADOW_MITIGATION" scaling="1879489610"/>
+<stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
 <set id="1879478887" name="Ascendence of Light (cap 150)" type="TRACERIES" useAverageItemLevel="true" maxLevel="150" description="">
@@ -26253,7 +26447,7 @@
 <stat name="Itemset_Loremaster_PoD_EntsReset_Appchance" descriptionOverride="key:621088944:108054838" constant="25.0"/>
 </bonus>
 </set>
-<set id="1879490318" name="Amelia's Regalia" level="1" maxLevel="154" description="">
+<set id="1879490318" name="Amelia's Regalia" useAverageItemLevel="true" maxLevel="1000" description="">
 <item id="1879490329" name="Amelia's Glimmering Ring"/>
 <item id="1879490341" name="Amelia's Flickering Ring"/>
 <item id="1879490330" name="Amelia's Beautiful Earring"/>
@@ -26399,7 +26593,7 @@
 <stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
-<set id="1879496944" name="Bounty Hunter's Insignia" level="1" maxLevel="154" description="">
+<set id="1879496944" name="Bounty Hunter's Guard" useAverageItemLevel="true" maxLevel="64" description="">
 <item id="1879496702" name="Tunneler's Helmet of the Centre Halls"/>
 <item id="1879496675" name="Tunneler's Gorget of the Centre Halls"/>
 <item id="1879496680" name="Tunneler's Hauberk of the Centre Halls"/>
@@ -26412,41 +26606,20 @@
 <item id="1879496699" name="Guardsman's Gloves of the Centre Halls"/>
 <item id="1879496712" name="Guardsman's Leggings of the Centre Halls"/>
 <item id="1879496673" name="Guardsman's Boots of the Centre Halls"/>
-<item id="1879496674" name="Soldier's Helm of the Lower Halls"/>
-<item id="1879496706" name="Soldier's Gorget of the Lower Halls"/>
-<item id="1879496678" name="Soldier's Hauberk of the Lower Halls"/>
-<item id="1879496670" name="Soldier's Gloves of the Lower Halls"/>
-<item id="1879496679" name="Soldier's Leggings of the Lower Halls"/>
-<item id="1879496692" name="Soldier's Boots of the Lower Halls"/>
-<item id="1879496684" name="Watchman's Helm of the Lower Halls"/>
-<item id="1879496703" name="Watchman's Gorget of the Lower Halls"/>
-<item id="1879496696" name="Watchman's Hauberk of the Lower Halls"/>
-<item id="1879496685" name="Watchman's Gloves of the Lower Halls"/>
-<item id="1879496693" name="Watchman's Leggings of the Lower Halls"/>
-<item id="1879496701" name="Watchman's Boots of the Lower Halls"/>
-<item id="1879496686" name="Sage's Helm of the Upper Halls"/>
-<item id="1879496695" name="Sage's Gorget of the Upper Halls"/>
-<item id="1879496704" name="Sage's Hauberk of the Upper Halls"/>
-<item id="1879496711" name="Sage's Gloves of the Upper Halls"/>
-<item id="1879496683" name="Sage's Leggings of the Upper Halls"/>
-<item id="1879496697" name="Sage's Boots of the Upper Halls"/>
-<item id="1879496688" name="Chirurgeon's Helm of the Upper Halls"/>
-<item id="1879496707" name="Chirurgeon's Gorget of the Upper Halls"/>
-<item id="1879496687" name="Chirurgeon's Hauberk of the Upper Halls"/>
-<item id="1879496681" name="Chirurgeon's Gloves of the Upper Halls"/>
-<item id="1879496698" name="Chirurgeon's Leggings of the Upper Halls"/>
-<item id="1879496708" name="Chirurgeon's Boots of the Upper Halls"/>
 <bonus nbItems="2">
-<stat name="Resist_AdditionalPoints_Resistance_Wound" scaling="1879496689"/>
-<stat name="OCFW_MITIGATION" scaling="1879496676"/>
+<stat name="OCFW_MITIGATION" scaling="1879496945"/>
+<stat name="Resist_AdditionalPoints_Resistance_Wound" scaling="1879496705"/>
+<stat name="Resist_AdditionalPoints_Resistance_Poison" scaling="1879498200"/>
 </bonus>
 <bonus nbItems="4">
+<stat name="OCFW_MITIGATION" scaling="1879496946"/>
 <stat name="Resist_AdditionalPoints_Resistance_Wound" scaling="1879496672"/>
-<stat name="OCFW_MITIGATION" scaling="1879496945"/>
+<stat name="Resist_AdditionalPoints_Resistance_Poison" scaling="1879498198"/>
 </bonus>
 <bonus nbItems="6">
+<stat name="OCFW_MITIGATION" scaling="1879496947"/>
 <stat name="Resist_AdditionalPoints_Resistance_Wound" scaling="1879496682"/>
-<stat name="OCFW_MITIGATION" scaling="1879496946"/>
+<stat name="Resist_AdditionalPoints_Resistance_Poison" scaling="1879498197"/>
 </bonus>
 </set>
 <set id="1879497117" name="Insignia of the Caravan Warden&#10;(Max Level: 154)" level="525" maxLevel="154" description="">
@@ -26494,7 +26667,7 @@
 <item id="1879496486" name="Banded Honour-guard's Earring"/>
 <item id="1879496500" name="Shagâni Vanguard's Crossbow"/>
 <bonus nbItems="2">
-<stat name="Skill_Champion_Invincible_Duration" constant="10.0"/>
+<stat name="Skill_Duration_Champion_Adamant" constant="7.0"/>
 <stat name="Skill_RecoveryTime_ChampionImprovedDireNeed" operator="SUBSTRACT" constant="10.0"/>
 </bonus>
 </set>
@@ -26648,7 +26821,6 @@
 <item id="1879496506" name="Plated Earring"/>
 <item id="1879496578" name="Wrought-iron Shagâni Buckle"/>
 <bonus nbItems="2">
-<specialEffect label="key:621101221:108054834"/>
 <stat name="Skill_Brawler_BracingGuard_Cooldown" operator="SUBSTRACT" descriptionOverride="key:621101221:108120370" constant="10.0"/>
 <effect id="1879497189"/>
 </bonus>
@@ -26708,6 +26880,81 @@
 <bonus nbItems="2">
 <stat name="Skill_Loremaster_Command_Rage_Cooldown" operator="SUBSTRACT" constant="5.0"/>
 <stat name="Skill_Loremaster_WizardSigil_Damage" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879497211" name="Bounty Hunter's Mail" useAverageItemLevel="true" maxLevel="64" description="">
+<item id="1879496674" name="Soldier's Helm of the Lower Halls"/>
+<item id="1879496706" name="Soldier's Gorget of the Lower Halls"/>
+<item id="1879496678" name="Soldier's Hauberk of the Lower Halls"/>
+<item id="1879496670" name="Soldier's Gloves of the Lower Halls"/>
+<item id="1879496679" name="Soldier's Leggings of the Lower Halls"/>
+<item id="1879496692" name="Soldier's Boots of the Lower Halls"/>
+<item id="1879496684" name="Watchman's Helm of the Lower Halls"/>
+<item id="1879496703" name="Watchman's Gorget of the Lower Halls"/>
+<item id="1879496696" name="Watchman's Hauberk of the Lower Halls"/>
+<item id="1879496685" name="Watchman's Gloves of the Lower Halls"/>
+<item id="1879496693" name="Watchman's Leggings of the Lower Halls"/>
+<item id="1879496701" name="Watchman's Boots of the Lower Halls"/>
+<bonus nbItems="2">
+<stat name="OCFW_MITIGATION" scaling="1879496945"/>
+<stat name="Resist_AdditionalPoints_Resistance_Wound" scaling="1879496705"/>
+<stat name="Resist_AdditionalPoints_Resistance_Poison" scaling="1879498200"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="OCFW_MITIGATION" scaling="1879496946"/>
+<stat name="Resist_AdditionalPoints_Resistance_Wound" scaling="1879496672"/>
+<stat name="Resist_AdditionalPoints_Resistance_Poison" scaling="1879498198"/>
+</bonus>
+<bonus nbItems="6">
+<stat name="OCFW_MITIGATION" scaling="1879496947"/>
+<stat name="Resist_AdditionalPoints_Resistance_Wound" scaling="1879496682"/>
+<stat name="Resist_AdditionalPoints_Resistance_Poison" scaling="1879498197"/>
+</bonus>
+</set>
+<set id="1879497212" name="Bounty Hunter's Robes" useAverageItemLevel="true" maxLevel="64" description="">
+<item id="1879496686" name="Sage's Helm of the Upper Halls"/>
+<item id="1879496695" name="Sage's Gorget of the Upper Halls"/>
+<item id="1879496704" name="Sage's Hauberk of the Upper Halls"/>
+<item id="1879496711" name="Sage's Gloves of the Upper Halls"/>
+<item id="1879496683" name="Sage's Leggings of the Upper Halls"/>
+<item id="1879496697" name="Sage's Boots of the Upper Halls"/>
+<item id="1879496688" name="Chirurgeon's Helm of the Upper Halls"/>
+<item id="1879496707" name="Chirurgeon's Gorget of the Upper Halls"/>
+<item id="1879496687" name="Chirurgeon's Hauberk of the Upper Halls"/>
+<item id="1879496681" name="Chirurgeon's Gloves of the Upper Halls"/>
+<item id="1879496698" name="Chirurgeon's Leggings of the Upper Halls"/>
+<item id="1879496708" name="Chirurgeon's Boots of the Upper Halls"/>
+<bonus nbItems="2">
+<stat name="OCFW_MITIGATION" scaling="1879496945"/>
+<stat name="Resist_AdditionalPoints_Resistance_Wound" scaling="1879496705"/>
+<stat name="Resist_AdditionalPoints_Resistance_Poison" scaling="1879498200"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="OCFW_MITIGATION" scaling="1879496946"/>
+<stat name="Resist_AdditionalPoints_Resistance_Wound" scaling="1879496672"/>
+<stat name="Resist_AdditionalPoints_Resistance_Poison" scaling="1879498198"/>
+</bonus>
+<bonus nbItems="6">
+<stat name="OCFW_MITIGATION" scaling="1879496947"/>
+<stat name="Resist_AdditionalPoints_Resistance_Wound" scaling="1879496682"/>
+<stat name="Resist_AdditionalPoints_Resistance_Poison" scaling="1879498197"/>
+</bonus>
+</set>
+<set id="1879498245" name="Armour of the Deep Delver&#10;(Max Level: 69)" level="58" maxLevel="69" description="">
+<item id="1879498243" name="Deep Delver's Gauntlets"/>
+<item id="1879498241" name="Deep Delver's Boots"/>
+<item id="1879498246" name="Deep Delver's Leggings"/>
+<item id="1879498240" name="Deep Delver's Jacket"/>
+<item id="1879498244" name="Deep Delver's Shoulders"/>
+<item id="1879498247" name="Deep Delver's Helm"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211552"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="Corsair_Bottle_CooldownMod" operator="SUBSTRACT" constant="10.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_Riposte_Debuff_Potency" constant="3.0"/>
 </bonus>
 </set>
 </sets>
