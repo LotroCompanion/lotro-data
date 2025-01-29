@@ -8195,7 +8195,7 @@
 <action skillId="1879095843" name="Call To The Void" recovery="0.0"/>
 <action skillId="1879095844" name="Channelling The Void"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" requiredHints="16,48" cooldownChannel="22">
+<actionTableEntry probability="-1.0" cooldown="30.0" requiredHints="16,48" cooldownChannel="22">
 <action skillId="1879095843" name="Call To The Void" recovery="0.0"/>
 <action skillId="1879095844" name="Channelling The Void"/>
 </actionTableEntry>
@@ -8519,31 +8519,31 @@
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879132291">
-<actionTableEntry probability="75.0" cooldown="20.0" requiredHints="19,26" targetCooldown="60.0">
+<actionTableEntry probability="25.0" cooldown="20.0" requiredHints="19,26" targetCooldown="60.0">
 <action skillId="1879132298" name="Class Debuff"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="20.0" requiredHints="19,26" targetCooldown="60.0">
+<actionTableEntry probability="25.0" cooldown="20.0" requiredHints="19,26" targetCooldown="60.0">
 <action skillId="1879132298" name="Class Debuff"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="20.0" requiredHints="19,26" targetCooldown="60.0">
+<actionTableEntry probability="25.0" cooldown="20.0" requiredHints="19,26" targetCooldown="60.0">
 <action skillId="1879132298" name="Class Debuff"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="20.0" requiredHints="19,26" targetCooldown="60.0">
+<actionTableEntry probability="25.0" cooldown="20.0" requiredHints="19,26" targetCooldown="60.0">
 <action skillId="1879132298" name="Class Debuff"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="20.0" requiredHints="19,27" targetCooldown="40.0">
+<actionTableEntry probability="25.0" cooldown="20.0" requiredHints="19,27" targetCooldown="40.0">
 <action skillId="1879132299" name="Class Debuff"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="20.0" requiredHints="19,27" targetCooldown="40.0">
+<actionTableEntry probability="25.0" cooldown="20.0" requiredHints="19,27" targetCooldown="40.0">
 <action skillId="1879132299" name="Class Debuff"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="20.0" requiredHints="19,28,29" targetCooldown="30.0">
+<actionTableEntry probability="25.0" cooldown="20.0" requiredHints="19,28,29" targetCooldown="30.0">
 <action skillId="1879132300" name="Class Debuff"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="20.0" requiredHints="19,28,29" targetCooldown="30.0">
+<actionTableEntry probability="25.0" cooldown="20.0" requiredHints="19,28,29" targetCooldown="30.0">
 <action skillId="1879132300" name="Class Debuff"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="20.0" requiredHints="19,28,29" targetCooldown="30.0">
+<actionTableEntry probability="25.0" cooldown="20.0" requiredHints="19,28,29" targetCooldown="30.0">
 <action skillId="1879132300" name="Class Debuff"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="15.0" requiredHints="19">
@@ -8650,7 +8650,7 @@
 <action skillId="1879150058" name="Agonizing Scream"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="15.0" targetDisallowedHints="26">
-<action skillId="1879150059" name="DNT - Healing Totem"/>
+<action skillId="1879150059" name="Healing Totem"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879134838">
@@ -8714,13 +8714,13 @@
 <action skillId="1879150429" name="Gnawing Hunger"/>
 </actionTableEntry>
 <actionTableEntry probability="0.0" requiredHints="27">
-<action skillId="1879151428" name="DNT - Mark"/>
+<action skillId="1879151428" name="Mark Foe"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" requiredHints="28">
-<action skillId="1879151428" name="DNT - Mark"/>
+<action skillId="1879151428" name="Mark Foe"/>
 </actionTableEntry>
 <actionTableEntry probability="0.0" requiredHints="29">
-<action skillId="1879151428" name="DNT - Mark"/>
+<action skillId="1879151428" name="Mark Foe"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="10.0" requiredHints="28" targetRequiredHints="7">
 <action skillId="1879151429" name="World-eater's Punishment"/>
@@ -9696,6 +9696,9 @@
 <actionTableEntry probability="-1.0" cooldown="20.0" cooldownChannel="22" targetCooldown="60.0" targetRequiredHints="6" targetDisallowedHints="14">
 <action skillId="1879430309" name="Bane of the Brawler"/>
 </actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" cooldownChannel="22" targetCooldown="60.0" targetRequiredHints="6" targetDisallowedHints="14">
+<action skillId="1879499512" name="Bane of the Mariner"/>
+</actionTableEntry>
 </actionTable>
 <actionTable id="1879148542">
 <actionTableEntry probability="-1.0" cooldown="45.0" targetCooldown="50.0" targetRequiredHints="13">
@@ -10120,7 +10123,7 @@
 </actionTable>
 <actionTable id="1879150751">
 <actionTableEntry probability="50.0" cooldown="30.0" disallowedHints="48">
-<action skillId="1879150758" name="DNT - Combustion"/>
+<action skillId="1879150758" name="Combustion"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="45.0" disallowedHints="48">
 <action skillId="1879150759" name="Thunderclap"/>
@@ -10158,7 +10161,7 @@
 <action skillId="1879150939" name="Flâgît's Ire: Response"/>
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="30.0" disallowedHints="26,27">
-<action skillId="1879150934" name="DNT - Enraged"/>
+<action skillId="1879150934" name="Enraged"/>
 </actionTableEntry>
 <actionTableEntry probability="-1.0" cooldown="20.0" requiredHints="27" disallowedHints="7">
 <action skillId="1879150938" name="Flâgît's Ire: Mark"/>
@@ -10192,13 +10195,10 @@
 <actionTableEntry probability="50.0" cooldown="5.0" requiredHints="18" targetRequiredHints="42">
 <action skillId="1879151098" name="Withering Strike"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="20.0" requiredHints="17" cooldownChannel="22">
+<actionTableEntry probability="75.0" cooldown="20.0" requiredHints="17" cooldownChannel="22" targetRequiredHints="163">
 <action skillId="1879151096" name="DNT - AoT on healer"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="20.0" requiredHints="17" cooldownChannel="22">
-<action skillId="1879151096" name="DNT - AoT on healer"/>
-</actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="20.0" requiredHints="17" cooldownChannel="22">
+<actionTableEntry probability="25.0" cooldown="20.0" requiredHints="17" cooldownChannel="22" targetRequiredHints="162">
 <action skillId="1879151096" name="DNT - AoT on healer"/>
 </actionTableEntry>
 </actionTable>
@@ -10252,26 +10252,26 @@
 </actionTable>
 <actionTable id="1879151130">
 <actionTableEntry probability="75.0" cooldown="2.0" targetRequiredHints="163">
-<action skillId="1879151133" name="DNT - Caster's Bane"/>
+<action skillId="1879151133" name="Caster's Bane"/>
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="6.0" targetRequiredHints="162">
-<action skillId="1879151133" name="DNT - Caster's Bane"/>
+<action skillId="1879151133" name="Caster's Bane"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879151131">
 <actionTableEntry probability="75.0" cooldown="2.0" targetRequiredHints="159">
-<action skillId="1879151134" name="DNT - Fighter's Bane"/>
+<action skillId="1879151134" name="Fighter's Bane"/>
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="2.0" targetDisallowedHints="157,163">
-<action skillId="1879151134" name="DNT - Fighter's Bane"/>
+<action skillId="1879151134" name="Fighter's Bane"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879151132">
 <actionTableEntry probability="75.0" cooldown="2.0" targetRequiredHints="157">
-<action skillId="1879151135" name="DNT - Defender's Bane"/>
+<action skillId="1879151135" name="Defender's Bane"/>
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="10.0" targetDisallowedHints="157">
-<action skillId="1879151135" name="DNT - Defender's Bane"/>
+<action skillId="1879151135" name="Defender's Bane"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879151207">
@@ -10279,13 +10279,19 @@
 <action skillId="1879151211" name="a minor swipe attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="4.0" requiredHints="13" targetRequiredHints="42">
-<action skillId="1879151212" name="a moderate swipe attack"/>
+<action skillId="1879151212" name="Paralyzing Contagion"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="2.0" requiredHints="13" targetDisallowedHints="42">
 <action skillId="1879151218" name="a minor thrown strike attack"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="4.0" requiredHints="13" targetDisallowedHints="42">
 <action skillId="1879151221" name="a moderate thrown strike attack"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" requiredHints="22" disallowedHints="73">
+<action skillId="1879499524" name="Festering Pestilence"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="22,73" disallowedHints="72">
+<action skillId="1879499525" name="Blooming Pestilence"/>
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="4.0" requiredHints="13">
 <action skillId="1879151223" name="a weak thrown strike attack"/>
@@ -10296,11 +10302,11 @@
 <actionTableEntry probability="25.0" cooldown="4.0" requiredHints="13">
 <action skillId="1879151221" name="a moderate thrown strike attack"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="15.0" requiredHints="13" targetDisallowedHints="38">
-<action skillId="1879151215" name="DNT - Root - Countdown - Spread"/>
+<actionTableEntry probability="75.0" cooldown="30.0" requiredHints="13" targetDisallowedHints="38,167">
+<action skillId="1879151215" name="Creeping Tendrils"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="10.0" requiredHints="6,13" targetDisallowedHints="38">
-<action skillId="1879151210" name="DNT - DoT - Countdown - Spread"/>
+<actionTableEntry probability="-1.0" cooldown="20.0" requiredHints="6,13" targetDisallowedHints="38">
+<action skillId="1879151210" name="Virulent Contagion"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879151208">
@@ -10336,20 +10342,26 @@
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879151209">
-<actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="14" targetRequiredHints="42">
+<actionTableEntry probability="90.0" cooldown="15.0" requiredHints="14" cooldownChannel="22" targetRequiredHints="42">
 <action skillId="1879151214" name="Uncontrolled Rage"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="15">
-<action skillId="1879151216" name="DNT - Summon Spores"/>
+<actionTableEntry probability="-1.0" cooldown="60.0">
+<action skillId="1879151216" name="Summon Spores"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="18">
-<action skillId="1879494436" name="DNT - Summon Spores"/>
+<actionTableEntry probability="75.0" cooldown="15.0" requiredHints="24">
+<action skillId="1879494436" name="Summon Spores"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="17">
-<action skillId="1879494435" name="DNT - Summon Spores"/>
+<actionTableEntry probability="75.0" cooldown="15.0" requiredHints="23">
+<action skillId="1879494435" name="Summon Spores"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="16">
-<action skillId="1879494437" name="DNT - Summon Spores"/>
+<actionTableEntry probability="75.0" cooldown="15.0" requiredHints="22">
+<action skillId="1879494437" name="Summon Spores"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="15.0" requiredHints="24">
+<action skillId="1879499505" name="Crippling Weakness"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="15.0" requiredHints="23" cooldownChannel="22">
+<action skillId="1879499508" name="Rising Fury"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879151436">
@@ -10363,7 +10375,7 @@
 <actionTable id="1879151462">
 <actionTableEntry probability="50.0" cooldown="2.0" targetDisallowedHints="7,38">
 <action skillId="1879086520" name="Pursuit"/>
-<action skillId="1879151465" name="DNT - Channeled Mez"/>
+<action skillId="1879151465" name="Mesmerize"/>
 </actionTableEntry>
 </actionTable>
 <actionTable id="1879151480">

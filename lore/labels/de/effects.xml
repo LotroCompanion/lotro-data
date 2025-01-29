@@ -2917,7 +2917,7 @@
 <label key="1879151036" value="Ansteckende Krankheit"/>
 <label key="1879151076" value="Schädliche Stärke"/>
 <label key="1879151077" value="DNT - Corrupting Strength"/>
-<label key="1879151078" value="Fluch des Zaubernden"/>
+<label key="1879151078" value="Heilersfluch"/>
 <label key="1879151079" value="Fluch des Kämpfers"/>
 <label key="1879151080" value="Schattenstrudel"/>
 <label key="1879151081" value="Fluch des Verteidigers"/>
@@ -21111,7 +21111,6 @@
 <label key="1879495661" value="DNT - Abrasive Explosion"/>
 <label key="1879495663" value="Schleifender Sturm"/>
 <label key="1879495664" value=".."/>
-<label key="1879495670" value="Verbrauchte Energie"/>
 <label key="1879495671" value="DNT - Cleanse Great Slam buff"/>
 <label key="1879495672" value="DNT - Frustration Tierdown"/>
 <label key="1879495804" value="Rückstoß"/>
@@ -21220,6 +21219,20 @@
 <label key="1879498284" value=".."/>
 <label key="1879498324" value="Hoch zu Ross"/>
 <label key="1879498327" value="Hoch zu Ross"/>
+<label key="1879499506" value="Wachsende Wut"/>
+<label key="1879499507" value="Lähmende Schwäche"/>
+<label key="1879499511" value="Fluch des Seefahrers"/>
+<label key="1879499522" value="Schwärende Seuche"/>
+<label key="1879499991" value="Tödliches Opfer"/>
+<label key="1879499998" value="Brennendes Öl"/>
+<label key="1879500000" value="Übergossen"/>
+<label key="1879500168" value="DNT - Immunity to Frustration Tier Effects"/>
+<label key="1879500341" value="DNT Frog"/>
+<label key="1879500458" value="Vorzeichen der Vitalität"/>
+<label key="1879500463" value="Portent of Deftness Absorption"/>
+<label key="1879500464" value="Vorzeichen der Stärke"/>
+<label key="1879500467" value="Vorzeichen der Vitalität"/>
+<label key="1879500468" value="Vorzeichen der Vitalität"/>
 <label key="key:620757394:181298206" value="Waffe führen: + 1 % Wahrscheinlichkeit auf kritische Treffer bei automatischen Fernangriffen."/>
 <label key="key:620757396:181298206" value="Waffe führen: Eure automatischen Fernangriffe sind 5 % schwieriger zu blocken."/>
 <label key="key:620757522:54354734" value="Jede Fertigkeit, die einen erfolgreichen Block voraussetzt, kann nun eingesetzt werden."/>
@@ -22414,11 +22427,14 @@
 <label key="key:620823889:54354734" value="Gurvand hat Euch in Eurem Versteck in der Dunkelheit entdeckt. Ihr seid erkannt."/>
 <label key="key:620823890:54354734" value="Gurvand hat Euch in Eurem Versteck in der Dunkelheit entdeckt. Ihr seid erkannt."/>
 <label key="key:620823891:54354734" value="Gurvand hat Euch in Eurem Versteck in der Dunkelheit entdeckt. Ihr seid erkannt."/>
+<label key="key:620823892:106251892" value="-${PERCENTVALUE} erlittener Schaden"/>
 <label key="key:620823892:54354734" value="Die Dunkelheit ermutigt die bösen Kreaturen und hilft ihnen, noch wirksamer und tödlicher zu werden."/>
 <label key="key:620823894:54354734" value="Ahh! The Light! It burns!"/>
 <label key="key:620823896:54354734" value="Auf Irrpfaden in der Dunkelheit lässt Euch die Einsamkeit misstrauisch und vorsichtig werden."/>
 <label key="key:620823898:54354734" value="Licht umflutet Euch."/>
+<label key="key:620823922:106251889" value="Immun gegen erlittenen Schaden"/>
 <label key="key:620823922:54354734" value="Wenn dieser Schild erhoben wird, schützt er seinen Träger vor allen Arten von Schaden."/>
+<label key="key:620823923:106251889" value="Immun gegen erlittenen Schaden"/>
 <label key="key:620823923:54354734" value="General Talugs erhobener Schild schützt ihn vor allen Arten von Schaden."/>
 <label key="key:620823925:54354734" value="Mit gesengtem Schild ist General Talug vorübergehend verletzlich!"/>
 <label key="key:620824193:54354734" value=".."/>
@@ -22426,8 +22442,7 @@
 <label key="key:620824349:54354734" value="Der Unheilbeschwörer hat die Kräfte des Finsterlings beschworen, indem er dessen Verhalten nachahmte."/>
 <label key="key:620824351:54354734" value="Der Unheilbeschwörer hat die Kräfte des Schattenschlunds beschworen, indem er dessen Verhalten nachahmte."/>
 <label key="key:620824353:54354734" value="Der Unheilbeschwörer hat die Kräfte des Aufsehers beschworen, indem er dessen Verhalten nachahmte."/>
-<label key="key:620824360:106251889" value="Immunität gegenüber Schreien und Rufen"/>
-<label key="key:620824360:106251890" value="Vor Gefährten-Manövern geschützt"/>
+<label key="key:620824360:106251892" value="Vor Gefährten-Manövern geschützt"/>
 <label key="key:620824360:54354734" value="Der Unheilbeschwörer hat die Kräfte des Weltenfressers beschworen, indem er dessen Verhalten nachahmte."/>
 <label key="key:620824457:54354734" value="Ein wirbelnder Schild umgibt und schützt Gurvand."/>
 <label key="key:620826232:181298206" value="Vom Zustand \qZu Boden geschlagen\q erholen"/>
@@ -22758,19 +22773,24 @@
 <label key="key:620833856:54354734" value="Ihr habt die Konsequenzen des \qZeichens der Qual\q erlitten!"/>
 <label key="key:620833857:54354734" value="Ihr habt unter den Folgen des \qZeichens der Angst\q zu leiden. Ihr verliert in dem Maße Lebensenergie wie Euer Feind sie gewinnt."/>
 <label key="key:620833869:54354734" value="Ihr seid in die Leere getreten. Hoffentlich wird der Verschlinger der Leere nicht auf Euch aufmerksam."/>
-<label key="key:620833870:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt. Die Anwendung Eurer Fertigkeiten dauert jetzt doppelt so lange."/>
-<label key="key:620833871:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt. Die Anwendung Eurer Fertigkeiten dauert jetzt doppelt so lange."/>
-<label key="key:620833872:106251889" value="x${VALUE} verursachter Schaden"/>
-<label key="key:620833872:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt. Die Anwendung Eurer Fertigkeiten dauert jetzt doppelt so lange."/>
+<label key="key:620833870:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt."/>
+<label key="key:620833871:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt."/>
+<label key="key:620833872:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt."/>
 <label key="key:620833873:106251889" value="x${VALUE} verursachter Schaden"/>
-<label key="key:620833873:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt. Ihr wurdet entwaffnet."/>
-<label key="key:620833874:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt. Ihr wurdet entwaffnet und Eure Angriffsgeschwindigkeit wurde halbiert."/>
-<label key="key:620833875:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt. Eure Angriffsgeschwindigkeit beträgt nur noch ein Drittel Eurer Standardgeschwindigkeit."/>
+<label key="key:620833873:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt."/>
+<label key="key:620833874:106251889" value="x${VALUE} verursachter Schaden"/>
+<label key="key:620833874:106251892" value="Keine Bedrohung"/>
+<label key="key:620833874:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt."/>
+<label key="key:620833875:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt."/>
 <label key="key:620833876:106251889" value="x${VALUE} verursachter Schaden"/>
-<label key="key:620833876:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt. Ihr könnt weder blocken noch parieren oder ausweichen. Und das Monster mag Euch auch nicht besonders."/>
+<label key="key:620833876:106251892" value="Keine Bedrohung"/>
+<label key="key:620833876:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt."/>
 <label key="key:620833877:106251889" value="x${VALUE} verursachter Schaden"/>
-<label key="key:620833877:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt. Ihr wurdet entwaffnet und Eure Angriffsgeschwindigkeit wurde halbiert."/>
-<label key="key:620833878:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt. Ihr wurdet entwaffnet und der Verschlinger der Leere sieht Euch nicht mehr als Bedrohung an."/>
+<label key="key:620833877:106251892" value="Keine Bedrohung"/>
+<label key="key:620833877:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt."/>
+<label key="key:620833878:106251889" value="x${VALUE} verursachter Schaden"/>
+<label key="key:620833878:106251892" value="Keine Bedrohung"/>
+<label key="key:620833878:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt."/>
 <label key="key:620834392:54354734" value="Ihr scheint Eure Hose verlegt zu haben. Das stimmt Euch traurig."/>
 <label key="key:620834473:54354734" value="Spielt ein Lied für Erling Gutleib"/>
 <label key="key:620834476:54354734" value="Verkündet Eure Tapferkeit im Kampf."/>
@@ -22870,9 +22890,10 @@
 <label key="key:620836253:54354734" value="Nach Ablauf der Zeit erleidet Ihr und die Charaktere in Eurer Nähe Schattenschaden."/>
 <label key="key:620836255:181298206" value="Überträgt sich auf in der Nähe befindliche Gefährten."/>
 <label key="key:620836296:106251889" value="Vorübergehend gefangen. Der Horror ... der Horror..."/>
-<label key="key:620836300:54354734" value="(Diese Schwächung wird entfernt, wenn der Boss besiegt oder zurückgesetzt wird.)"/>
-<label key="key:620836301:54354734" value="(Diese Schwächung wird entfernt, wenn der Boss besiegt oder zurückgesetzt wird.)"/>
-<label key="key:620836302:54354734" value="(Diese Schwächung wird entfernt, wenn der Boss besiegt oder zurückgesetzt wird.)"/>
+<label key="key:620836300:106251891" value="-${PERCENTVALUE} Ausmaß kritischer Heilung"/>
+<label key="key:620836300:54354734" value="Euer Körper ringt mit ansteckenden Sporen. Ihr versucht alle 10 Sekunden, dem Effekt zu widerstehen und Euch von seinen Folgen zu befreien."/>
+<label key="key:620836301:54354734" value="Euer Körper ringt mit ansteckenden Sporen. Ihr versucht alle 10 Sekunden, dem Effekt zu widerstehen und Euch von seinen Folgen zu befreien."/>
+<label key="key:620836302:54354734" value="Euer Körper ringt mit ansteckenden Sporen. Ihr versucht alle 10 Sekunden, dem Effekt zu widerstehen und Euch von seinen Folgen zu befreien."/>
 <label key="key:620836303:54354734" value=".."/>
 <label key="key:620836304:54354734" value=".."/>
 <label key="key:620836458:54354734" value="Wenn Ihr nach Ablauf der Zeit zu den bedrohlichsten Zielen des Weltenfressers gehört, reagiert dieser mit der Fertigkeit \qStrafe des Weltenfressers\q."/>
@@ -32739,8 +32760,10 @@
 <label key="key:621050492:54354734" value="Wenn Ihr an der Seite Eurer Freundin Kyrstig kämpft, erhöht sich Eure Moral!"/>
 <label key="key:621050567:106251889" value="Fertigkeiten erzeugen ${PERCENTVALUE} weniger Bedrohung."/>
 <label key="key:621050634:54354734" value="Der Berg bebt!"/>
-<label key="key:621050774:54354734" value="Ihr seid in die Leere getreten und habt die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt. Die Anwendung Eurer Fertigkeiten dauert jetzt doppelt so lange und Eure Angriffsgeschwindigkeit wurde halbiert."/>
-<label key="key:621050775:54354734" value="Ihr seid in die Leere getreten und habt die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt. Ihr könnt nicht mehr parieren und Eure Angriffsgeschwindigkeit wurde halbiert."/>
+<label key="key:621050774:106251892" value="Keine Bedrohung"/>
+<label key="key:621050774:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt."/>
+<label key="key:621050775:106251892" value="Keine Bedrohung"/>
+<label key="key:621050775:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt."/>
 <label key="key:621050910:54354734" value="Ihr könnt keinen alten LG ausrüsten, solange Ihr einen LG2-Gegenstand ausgerüstet habt."/>
 <label key="key:621050911:54354734" value="Ihr könnt keinen LG2-Gegenstand ausrüsten, solange Ihr einen alten LG ausgerüstet habt."/>
 <label key="key:621051112:54354734" value="Der Raum füllt sich mit Rauch!"/>
@@ -35882,7 +35905,6 @@
 <label key="key:621100204:106251889" value="x${VALUE} verursachter Schaden"/>
 <label key="key:621100204:106251892" value="+${PERCENTVALUE} Schaden von \qGewaltiges Niederschlagen\q"/>
 <label key="key:621100220:54354734" value=".."/>
-<label key="key:621100227:54354734" value="\QGewaltiges Niederschlagen\q schwächt diese Kreatur vorübergehend."/>
 <label key="key:621100367:106251889" value="+90 % angerichteter Schaden"/>
 <label key="key:621100367:54354734" value="Ihr habt durch die brutalen Schläge des Trolls eine Gehirnerschütterung davongetragen und es fällt Euch schwer, weiterzukämpfen."/>
 <label key="key:621100368:106251889" value="+90 % angerichteter Schaden"/>
@@ -35963,4 +35985,11 @@
 <label key="key:621101754:106251890" value="Ausweichen nicht möglich."/>
 <label key="key:621101754:106251891" value="Parieren nicht möglich."/>
 <label key="key:621101754:106251892" value="Blocken nicht möglich."/>
+<label key="key:621102785:106251889" value="x${VALUE} verursachter Schaden"/>
+<label key="key:621102785:54354734" value="Indem Ihr in die Leere getreten seid, habt Ihr die Aufmerksamkeit des Verschlingers der Leere auf Euch gelenkt."/>
+<label key="key:621102794:106251889" value="Zholugas Seuche gewinnt an Macht."/>
+<label key="key:621102794:106251890" value="x${VALUE} verursachter Schaden"/>
+<label key="key:621103201:54354734" value="Ihr wurdet mit brennbarem Öl übergossen!"/>
+<label key="key:621103490:106251889" value="+15 % maximale Moral"/>
+<label key="key:621103497:106251889" value="+${PERCENTVALUE} Schaden"/>
 </labels>
