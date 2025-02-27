@@ -6898,7 +6898,7 @@
 <trait identifier="1879272573" name="The Martial Champion" iconId="1091564746" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_champion_one" nature="28" description="key:620922792:54354734">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620922792:106251889" constant="1.2"/>
 <stat name="ForwardSource_Combat_Champion_SkillCombo" descriptionOverride="-" value="(10)"/>
-<stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="key:620922792:106251891" value="(2,3,5,14)"/>
+<stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="key:620922792:106251891" value="(2,3,4,5,11,12,14,19,23,25,26,27)"/>
 <stat name="BLOCK" scaling="1879368065"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="200.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
@@ -7362,6 +7362,7 @@
 </trait>
 <trait identifier="1879274682" name="Fire Affinity" iconId="1091805925" nature="30" description="key:620924562:54354734">
 <stat name="Skill_Runekeeper_Fire_Damage" constant="20.0"/>
+<stat name="Skill_Runekeeper_Lightning_Damage" operator="SUBSTRACT" constant="10.0"/>
 </trait>
 <trait identifier="1879274683" name="Sustenance" iconId="1091805951" nature="30" description="key:620924559:54354734">
 <effectGenerator id="1879277916" name="Trait" spellcraft="0.0"/>
@@ -10364,6 +10365,7 @@
 <stat name="Skill_Brawler_ShrugItOff_CD" operator="SUBSTRACT" constant="7.0"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="200.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
+<stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="key:621035445:106251896" value="(47)"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
 <skill rank="1" id="1879411396" name="The Best Defence"/>
 <skill rank="1" id="1879411781" name="Come At Me"/>
@@ -11347,7 +11349,7 @@
 <simplePrerequisite id="1879179473" name="Race: Elf-maiden"/>
 </trait>
 <trait identifier="1879455632" name="Focused Strikes" iconId="1092754831" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_burglar_rank_51" nature="19" description="key:621070547:54354734">
-<stat name="ForwardSource_Combat_Burglar_SkillCombo" descriptionOverride="key:621070547:106251889" value="(26)"/>
+<skill rank="1" id="1879501333" name="Focused Strikes"/>
 </trait>
 <trait identifier="1879456228" name="Basic Training in Mossward" iconId="1090522632" category="29" nature="1" cosmetic="true" tooltip="key:621070698:191029568" description="key:621070698:54354734"/>
 <trait identifier="1879456431" name="Hidden Peaks Accessory" iconId="1092756661" category="54" nature="16">
@@ -11525,6 +11527,9 @@
 </trait>
 <trait identifier="1879458221" name="The Shanty-caller" iconId="1091564746" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_corsair_one" nature="28" description="key:621072215:54354734">
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,159)"/>
 <skill rank="1" id="1879467260" name="Dramatic Flourish"/>
 <effectGenerator id="1879457118" name="DNT" spellcraft="0.0"/>
@@ -12919,5 +12924,21 @@
 </trait>
 <trait identifier="1879500353" name="Mushroom Hunter's Accessory" iconId="1093000501" category="54" nature="16">
 <group code="13" name="Gear"/>
+</trait>
+<trait identifier="1879501105" name="Rivendell Homestead" iconId="1091404800" category="60" nature="1" tooltip="key:621104095:191029568" description="key:621104095:54354734">
+<effectGenerator id="1879501115" name="Rivendell Homestead"/>
+<effectGenerator id="1879415287" name="Home Owner Discount"/>
+</trait>
+<trait identifier="1879501109" name="Rivendell Homestead" iconId="1091404801" category="60" nature="1" tooltip="key:621104093:191029568" description="key:621104093:54354734">
+<effectGenerator id="1879501108" name="Rivendell Homestead"/>
+<effectGenerator id="1879415289" name="Home Owner Discount"/>
+</trait>
+<trait identifier="1879501114" name="Rivendell Kinship Hall" iconId="1091404802" category="60" nature="1" tooltip="key:621104092:191029568" description="key:621104092:54354734">
+<effectGenerator id="1879501107" name="Rivendell Kinship Hall"/>
+<effectGenerator id="1879415288" name="Kinship Housing Discount"/>
+</trait>
+<trait identifier="1879501724" name="Hammer Affinity" iconId="1090552272" category="21" nature="1" description="key:621104658:54354734">
+<stat name="Combat_WeaponDamageMultiplier_1HHammer" constant="5.0"/>
+<stat name="Combat_WeaponDamageMultiplier_2HHammer" constant="5.0"/>
 </trait>
 </traits>

@@ -1267,7 +1267,7 @@
 <stat name="Trait_Captain_InHarmsWay_IncDamageMod_Itemset" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Itemset_Captain_StandardOfHonour_CD" operator="SUBSTRACT" constant="10.0"/>
+<stat name="Itemset_Captain_StandardOfValour_CD" operator="SUBSTRACT" constant="10.0"/>
 <stat name="Skill_Captain_DefensiveStrike_CooldownMod" operator="SUBSTRACT" constant="5.0"/>
 </bonus>
 </set>
@@ -24267,10 +24267,10 @@
 <item id="1879473975" name="Leggings of the Sea-tamer"/>
 <item id="1879473976" name="Boots of the Sea-tamer"/>
 <bonus nbItems="2">
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="key:621085423:108054834" constant="5.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Warden_SpearGambitDamage" constant="10.0"/>
+<stat name="Corsair_StarGuide_Cooldown" operator="SUBSTRACT" constant="15.0"/>
 </bonus>
 </set>
 <set id="1879476044" name="Battle-dress of Elegant Shanties&#10;(Max Level: 134)" level="430" maxLevel="134" description="">
@@ -25276,6 +25276,8 @@
 <item id="1879481076" name="Umbari Gauntlets of Regrowth"/>
 <item id="1879480843" name="Umbari Leggings of Regrowth"/>
 <item id="1879480776" name="Umbari Greaves of Regrowth"/>
+<item id="1879496147" name="Kinta Pauldrons of Regrowth"/>
+<item id="1879496292" name="Kinta Greaves of Regrowth"/>
 <bonus nbItems="2">
 <stat name="Skill_Beorning_Hearten_CooldownMod" operator="SUBSTRACT" constant="5.0"/>
 </bonus>
@@ -25296,6 +25298,8 @@
 <item id="1879481002" name="Umbari Bracers of the Stars"/>
 <item id="1879480992" name="Umbari Leggings of the Stars"/>
 <item id="1879480826" name="Umbari Boots of the Stars"/>
+<item id="1879496282" name="Kinta Shoulder-guards of the Stars"/>
+<item id="1879496229" name="Kinta Leggings of the Stars"/>
 <bonus nbItems="2">
 <stat name="Corsair_Swordplay_Defensive_Duration" constant="2.0"/>
 </bonus>
@@ -25315,6 +25319,8 @@
 <item id="1879480976" name="Umbari Gauntlets of the Lion"/>
 <item id="1879480988" name="Umbari Leggings of the Lion"/>
 <item id="1879481114" name="Umbari Greaves of the Lion"/>
+<item id="1879496121" name="Kinta Hauberk of the Lion"/>
+<item id="1879496237" name="Kinta Leggings of the Lion"/>
 <bonus nbItems="2">
 <stat name="Skill_Champion_AddStrike_DamageMod" constant="5.0"/>
 </bonus>
@@ -25349,6 +25355,8 @@
 <item id="1879481258" name="Umbari Bracers of Chance"/>
 <item id="1879480953" name="Umbari Leggings of Chance"/>
 <item id="1879481149" name="Umbari Boots of Chance"/>
+<item id="1879496259" name="Kinta Shoulder-guards of Chance"/>
+<item id="1879496295" name="Kinta Leggings of Chance"/>
 <bonus nbItems="2">
 <stat name="Trait_Burglar_Gambler_DoT_Pulses" constant="1.0"/>
 <stat name="Skill_Burglar_DamagingGamble_BleedDamage" constant="5.0"/>
@@ -25383,6 +25391,8 @@
 <item id="1879480997" name="Umbari Gloves of the Doom-caller"/>
 <item id="1879481055" name="Umbari Leggings of the Doom-caller"/>
 <item id="1879481167" name="Umbari Shoes of the Doom-caller"/>
+<item id="1879496236" name="Kinta Shoulder-guards of the Doom-caller"/>
+<item id="1879496139" name="Kinta Bracers of the Doom-caller"/>
 <bonus nbItems="2">
 <stat name="Skill_Minstrel_CriticalChance_Ballad" constant="4.0"/>
 </bonus>
@@ -25400,6 +25410,8 @@
 <item id="1879480929" name="Umbari Gauntlets of Unbreakable Steel"/>
 <item id="1879481018" name="Umbari Leggings of Unbreakable Steel"/>
 <item id="1879481111" name="Umbari Greaves of Unbreakable Steel"/>
+<item id="1879496230" name="Kinta Helmet of Unbreakable Steel"/>
+<item id="1879496201" name="Kinta Gauntlets of Unbreakable Steel"/>
 <bonus nbItems="2">
 <specialEffect label="key:621089116:108054834"/>
 <effect id="1879483645" name="DNT - Riposte reduces SD cooldown"/>
@@ -25492,6 +25504,8 @@
 <item id="1879481054" name="Umbari Bracers of the Scale-breaker"/>
 <item id="1879481081" name="Umbari Leggings of the Scale-breaker"/>
 <item id="1879480980" name="Umbari Boots of the Scale-breaker"/>
+<item id="1879496152" name="Kinta Helm of the Scale-breaker"/>
+<item id="1879496289" name="Kinta Boots of the Scale-breaker"/>
 <bonus nbItems="2">
 <stat name="Skill_Warden_SearedFlesh_Damage" constant="15.000001"/>
 <stat name="Skill_Warden_UnseenStrikes_Damage" constant="15.000001"/>
@@ -25527,6 +25541,8 @@
 <item id="1879480921" name="Umbari Gauntlets of Valour"/>
 <item id="1879480906" name="Umbari Leggings of Valour"/>
 <item id="1879480892" name="Umbari Greaves of Valour"/>
+<item id="1879496215" name="Kinta Helmet of Valour"/>
+<item id="1879496173" name="Kinta Gauntlets of Valour"/>
 <bonus nbItems="2">
 <stat name="Effect_2H_Bonus_Mod" descriptionOverride="key:621088704:108054834" constant="30.000002"/>
 </bonus>
@@ -25560,6 +25576,8 @@
 <item id="1879480831" name="Umbari Gauntlets of Practiced Movement"/>
 <item id="1879481144" name="Umbari Leggings of Practiced Movement"/>
 <item id="1879481083" name="Umbari Greaves of Practiced Movement"/>
+<item id="1879496178" name="Kinta Pauldrons of Practiced Movement"/>
+<item id="1879496158" name="Kinta Greaves of Practiced Movement"/>
 <bonus nbItems="2">
 <stat name="Skill_Brawler_Vulnerable_ProbabilityMod" constant="50.0"/>
 </bonus>
@@ -25609,6 +25627,8 @@
 <item id="1879481009" name="Umbari Gloves of the Roc"/>
 <item id="1879481206" name="Umbari Leggings of the Roc"/>
 <item id="1879480888" name="Umbari Shoes of the Roc"/>
+<item id="1879496166" name="Kinta Hood of the Roc"/>
+<item id="1879496214" name="Kinta Leggings of the Roc"/>
 <bonus nbItems="2">
 <stat name="Trait_Runekeeper_Essence_Storm_Cooldown" operator="SUBSTRACT" constant="4.0"/>
 </bonus>
@@ -25655,6 +25675,8 @@
 <item id="1879481026" name="Umbari Gauntlets of the Razor Claw"/>
 <item id="1879480805" name="Umbari Leggings of the Razor Claw"/>
 <item id="1879481259" name="Umbari Greaves of the Razor Claw"/>
+<item id="1879496175" name="Kinta Hauberk of the Razor Claw"/>
+<item id="1879496257" name="Kinta Leggings of the Razor Claw"/>
 <bonus nbItems="2">
 <stat name="Skill_Beorning_Bash_DamageMod" constant="15.000001"/>
 </bonus>
@@ -25673,6 +25695,8 @@
 <item id="1879481211" name="Umbari Gauntlets of a Thousand Blades"/>
 <item id="1879480912" name="Umbari Leggings of a Thousand Blades"/>
 <item id="1879481019" name="Umbari Greaves of a Thousand Blades"/>
+<item id="1879496159" name="Kinta Pauldrons of a Thousand Blades"/>
+<item id="1879496281" name="Kinta Greaves of a Thousand Blades"/>
 <bonus nbItems="2">
 <stat name="Skill_Champion_BladeDamage" constant="5.0"/>
 </bonus>
@@ -25691,6 +25715,8 @@
 <item id="1879481142" name="Umbari Bracers of the Blade-dancer"/>
 <item id="1879480839" name="Umbari Leggings of the Blade-dancer"/>
 <item id="1879480809" name="Umbari Boots of the Blade-dancer"/>
+<item id="1879496239" name="Kinta Helm of the Blade-dancer"/>
+<item id="1879496196" name="Kinta Boots of the Blade-dancer"/>
 <bonus nbItems="2">
 <stat name="Corsair_Skilldamage_Finisher" constant="10.0"/>
 </bonus>
@@ -25736,6 +25762,8 @@
 <item id="1879481039" name="Umbari Bracers of Hidden Blades"/>
 <item id="1879481108" name="Umbari Leggings of Hidden Blades"/>
 <item id="1879480838" name="Umbari Boots of Hidden Blades"/>
+<item id="1879496206" name="Kinta Helm of Hidden Blades"/>
+<item id="1879496246" name="Kinta Boots of Hidden Blades"/>
 <bonus nbItems="2">
 <stat name="Skill_Burglar_IA_CunningAttack_BleedDamage" constant="25.0"/>
 </bonus>
@@ -25768,6 +25796,8 @@
 <item id="1879480923" name="Umbari Gloves of Tales"/>
 <item id="1879480925" name="Umbari Leggings of Tales"/>
 <item id="1879481031" name="Umbari Shoes of Tales"/>
+<item id="1879496161" name="Kinta Hood of Tales"/>
+<item id="1879496142" name="Kinta Leggings of Tales"/>
 <bonus nbItems="2">
 <stat name="Skill_Minstrel_PerfectBallad_Healing" constant="30.000002"/>
 </bonus>
@@ -25786,6 +25816,8 @@
 <item id="1879481036" name="Umbari Gauntlets of the Vanguard"/>
 <item id="1879481050" name="Umbari Leggings of the Vanguard"/>
 <item id="1879481089" name="Umbari Greaves of the Vanguard"/>
+<item id="1879496143" name="Kinta Pauldrons of the Vanguard"/>
+<item id="1879496157" name="Kinta Greaves of the Vanguard"/>
 <bonus nbItems="2">
 <stat name="ForwardSource_Combat_Captain_SkillCombo" descriptionOverride="key:621088849:108054834" value="(29)"/>
 </bonus>
@@ -25819,6 +25851,8 @@
 <item id="1879481113" name="Umbari Gauntlets of the Iron Fist"/>
 <item id="1879481183" name="Umbari Leggings of the Iron Fist"/>
 <item id="1879480814" name="Umbari Greaves of the Iron Fist"/>
+<item id="1879496189" name="Kinta Helmet of the Iron Fist"/>
+<item id="1879496277" name="Kinta Gauntlets of the Iron Fist"/>
 <bonus nbItems="2">
 <specialEffect label="key:621089098:108054834"/>
 <effect id="1879484460" name="DNT"/>
@@ -25853,6 +25887,8 @@
 <item id="1879481201" name="Umbari Gauntlets of the Crocodile"/>
 <item id="1879481060" name="Umbari Leggings of the Crocodile"/>
 <item id="1879481067" name="Umbari Greaves of the Crocodile"/>
+<item id="1879496263" name="Kinta Hauberk of the Crocodile"/>
+<item id="1879496153" name="Kinta Leggings of the Crocodile"/>
 <bonus nbItems="2">
 <stat name="Skill_Guardian_BrutalAssault_BleedDamage" constant="5.0"/>
 </bonus>
@@ -25901,6 +25937,8 @@
 <item id="1879480993" name="Umbari Bracers of the Unyielding Wall"/>
 <item id="1879481236" name="Umbari Leggings of the Unyielding Wall"/>
 <item id="1879481056" name="Umbari Boots of the Unyielding Wall"/>
+<item id="1879496234" name="Kinta Shoulder-guards of the Unyielding Wall"/>
+<item id="1879496125" name="Kinta Leggings of the Unyielding Wall"/>
 <bonus nbItems="2">
 <stat name="Skill_Warden_MoraleTapDamage" constant="20.0"/>
 </bonus>
@@ -25949,6 +25987,8 @@
 <item id="1879481208" name="Umbari Bracers of the Jungle Ghost"/>
 <item id="1879481216" name="Umbari Leggings of the Jungle Ghost"/>
 <item id="1879480957" name="Umbari Boots of the Jungle Ghost"/>
+<item id="1879496264" name="Kinta Coat of the Jungle Ghost"/>
+<item id="1879496284" name="Kinta Bracers of the Jungle Ghost"/>
 <bonus nbItems="2">
 <stat name="Skill_Hunter_DurationMod_DistractingShot" constant="10.0"/>
 </bonus>
@@ -25968,6 +26008,8 @@
 <item id="1879481218" name="Umbari Gloves of the Nameless Deeps"/>
 <item id="1879480832" name="Umbari Leggings of the Nameless Deeps"/>
 <item id="1879480882" name="Umbari Shoes of the Nameless Deeps"/>
+<item id="1879496193" name="Kinta Hood of the Nameless Deeps"/>
+<item id="1879496185" name="Kinta Leggings of the Nameless Deeps"/>
 <bonus nbItems="2">
 <stat name="Skill_RecoveryTime_Loremaster_TestofWill" operator="SUBSTRACT" constant="10.0"/>
 </bonus>
@@ -26001,6 +26043,8 @@
 <item id="1879480922" name="Umbari Gloves of the Sooth-sayer"/>
 <item id="1879481154" name="Umbari Leggings of the Sooth-sayer"/>
 <item id="1879481239" name="Umbari Shoes of the Sooth-sayer"/>
+<item id="1879496260" name="Kinta Robe of the Sooth-sayer"/>
+<item id="1879496213" name="Kinta Shoes of the Sooth-sayer"/>
 <bonus nbItems="2">
 <stat name="Skill_Runekeeper_HoT_Pulses" constant="1.0"/>
 </bonus>
@@ -26020,6 +26064,8 @@
 <item id="1879480875" name="Umbari Gauntlets of the Protector"/>
 <item id="1879481223" name="Umbari Leggings of the Protector"/>
 <item id="1879481118" name="Umbari Greaves of the Protector"/>
+<item id="1879496249" name="Kinta Helmet of the Protector"/>
+<item id="1879496226" name="Kinta Gauntlets of the Protector"/>
 <bonus nbItems="2">
 <specialEffect label="key:621089090:108054834"/>
 <effect id="1879483945" name="DNT - Shield Skills Heal You"/>
@@ -26086,6 +26132,8 @@
 <item id="1879480840" name="Umbari Gloves of Weightless Spirit"/>
 <item id="1879480895" name="Umbari Leggings of Weightless Spirit"/>
 <item id="1879481115" name="Umbari Shoes of Weightless Spirit"/>
+<item id="1879496148" name="Kinta Robe of Weightless Spirit"/>
+<item id="1879496272" name="Kinta Shoes of Weightless Spirit"/>
 <bonus nbItems="2">
 <stat name="Skill_Minstrel_IA_CalltoIoreth_Cooldown" operator="SUBSTRACT" constant="10.0"/>
 </bonus>
@@ -26117,6 +26165,8 @@
 <item id="1879480795" name="Umbari Gauntlets of the Vigilant Bear"/>
 <item id="1879480830" name="Umbari Leggings of the Vigilant Bear"/>
 <item id="1879480991" name="Umbari Greaves of the Vigilant Bear"/>
+<item id="1879496219" name="Kinta Helmet of the Vigilant Bear"/>
+<item id="1879496275" name="Kinta Gauntlets of the Vigilant Bear"/>
 <bonus nbItems="2">
 <stat name="Skill_Beorning_ThornedArmour_DamageRedirectMod" constant="10.0"/>
 </bonus>
@@ -26148,6 +26198,8 @@
 <item id="1879481126" name="Umbari Bracers of Alchemy"/>
 <item id="1879480955" name="Umbari Leggings of Alchemy"/>
 <item id="1879480874" name="Umbari Boots of Alchemy"/>
+<item id="1879496171" name="Kinta Coat of Alchemy"/>
+<item id="1879496216" name="Kinta Bracers of Alchemy"/>
 <bonus nbItems="2">
 <stat name="Corsair_STMez_Cooldown" operator="SUBSTRACT" constant="10.0"/>
 </bonus>
@@ -26198,6 +26250,8 @@
 <item id="1879481165" name="Umbari Bracers of Stinging Darts"/>
 <item id="1879480959" name="Umbari Leggings of Stinging Darts"/>
 <item id="1879480962" name="Umbari Boots of Stinging Darts"/>
+<item id="1879496233" name="Kinta Shoulder-guards of Stinging Darts"/>
+<item id="1879496194" name="Kinta Leggings of Stinging Darts"/>
 <bonus nbItems="2">
 <stat name="Skill_Hunter_RapidFire_Duration" constant="5.0"/>
 </bonus>
@@ -26216,6 +26270,8 @@
 <item id="1879480797" name="Umbari Bracers of Twisted Ways"/>
 <item id="1879481068" name="Umbari Leggings of Twisted Ways"/>
 <item id="1879481227" name="Umbari Boots of Twisted Ways"/>
+<item id="1879496155" name="Kinta Coat of Twisted Ways"/>
+<item id="1879496163" name="Kinta Bracers of Twisted Ways"/>
 <bonus nbItems="2">
 <stat name="Skill_RecoveryTime_Burglar_Riddle" operator="SUBSTRACT" constant="5.0"/>
 </bonus>
@@ -26233,6 +26289,8 @@
 <item id="1879481249" name="Umbari Bracers of Torn Skies"/>
 <item id="1879481189" name="Umbari Leggings of Torn Skies"/>
 <item id="1879481207" name="Umbari Boots of Torn Skies"/>
+<item id="1879496286" name="Kinta Coat of Torn Skies"/>
+<item id="1879496174" name="Kinta Bracers of Torn Skies"/>
 <bonus nbItems="2">
 <stat name="Skill_Warden_Assailment_Debuff_Duration" constant="10.0"/>
 </bonus>
@@ -26264,6 +26322,8 @@
 <item id="1879481128" name="Umbari Gauntlets of the Commander"/>
 <item id="1879480981" name="Umbari Leggings of the Commander"/>
 <item id="1879481130" name="Umbari Greaves of the Commander"/>
+<item id="1879496299" name="Kinta Hauberk of the Commander"/>
+<item id="1879496170" name="Kinta Leggings of the Commander"/>
 <bonus nbItems="2">
 <stat name="Skill_Captain_DevastatingBlow_CritChance" constant="15.000001"/>
 <stat name="Skill_Captain_SA_Inspire_BuffMult" descriptionOverride="key:621088793:108120370" constant="50.0"/>
@@ -26284,6 +26344,8 @@
 <item id="1879480927" name="Umbari Gauntlets of Concussion"/>
 <item id="1879480810" name="Umbari Leggings of Concussion"/>
 <item id="1879481221" name="Umbari Greaves of Concussion"/>
+<item id="1879496191" name="Kinta Hauberk of Concussion"/>
+<item id="1879496261" name="Kinta Leggings of Concussion"/>
 <bonus nbItems="2">
 <stat name="Skill_Brawler_SpenderAttack_Damage" constant="5.0"/>
 </bonus>
@@ -26319,6 +26381,8 @@
 <item id="1879480894" name="Umbari Gauntlets of the Desert Sun"/>
 <item id="1879481225" name="Umbari Leggings of the Desert Sun"/>
 <item id="1879480851" name="Umbari Greaves of the Desert Sun"/>
+<item id="1879496167" name="Kinta Pauldrons of the Desert Sun"/>
+<item id="1879496135" name="Kinta Greaves of the Desert Sun"/>
 <bonus nbItems="2">
 <stat name="Skill_RecoveryTime_ThrillDanger" operator="SUBSTRACT" constant="10.0"/>
 </bonus>
@@ -26338,6 +26402,8 @@
 <item id="1879481178" name="Umbari Gloves of Beasts"/>
 <item id="1879480786" name="Umbari Leggings of Beasts"/>
 <item id="1879481135" name="Umbari Shoes of Beasts"/>
+<item id="1879496218" name="Kinta Robe of Beasts"/>
+<item id="1879496205" name="Kinta Shoes of Beasts"/>
 <bonus nbItems="2">
 <stat name="Skill_Loremaster_SignofProtection_IncDamage" operator="SUBSTRACT" constant="5.0"/>
 <stat name="Skill_Loremaster_SignofProtection_Morale" constant="5.0"/>
@@ -26385,6 +26451,8 @@
 <item id="1879481150" name="Umbari Gloves of the Hungering Inferno"/>
 <item id="1879480801" name="Umbari Leggings of the Hungering Inferno"/>
 <item id="1879480766" name="Umbari Shoes of the Hungering Inferno"/>
+<item id="1879496180" name="Kinta Shoulder-guards of the Hungering Inferno"/>
+<item id="1879496258" name="Kinta Bracers of the Hungering Inferno"/>
 <bonus nbItems="2">
 <stat name="ForwardSource_Combat_Runekeeper_SkillCombo" descriptionOverride="key:621088750:108054834" value="(14)"/>
 </bonus>
@@ -26418,6 +26486,8 @@
 <item id="1879480928" name="Umbari Bracers of the Unshakeable Viper"/>
 <item id="1879481123" name="Umbari Leggings of the Unshakeable Viper"/>
 <item id="1879480924" name="Umbari Boots of the Unshakeable Viper"/>
+<item id="1879496208" name="Kinta Helm of the Unshakeable Viper"/>
+<item id="1879496199" name="Kinta Boots of the Unshakeable Viper"/>
 <bonus nbItems="2">
 <stat name="Skill_ChanceCriticalHit_Hunter_Stance_Precision" constant="5.0"/>
 </bonus>
@@ -26437,6 +26507,8 @@
 <item id="1879480821" name="Umbari Gloves of the Sudden Squall"/>
 <item id="1879480827" name="Umbari Leggings of the Sudden Squall"/>
 <item id="1879481261" name="Umbari Shoes of the Sudden Squall"/>
+<item id="1879496129" name="Kinta Shoulder-guards of the Sudden Squall"/>
+<item id="1879496141" name="Kinta Bracers of the Sudden Squall"/>
 <bonus nbItems="2">
 <stat name="Skill_Loremaster_FierceLightning_Damage" constant="20.0"/>
 </bonus>
@@ -26955,6 +27027,53 @@
 </bonus>
 <bonus nbItems="4">
 <stat name="Corsair_Riposte_Debuff_Potency" constant="3.0"/>
+</bonus>
+</set>
+<set id="1879501387" name="Shield of the North&#10;(Max Level: 154)" level="525" maxLevel="154" description="">
+<item id="1879496508" name="Ring of the Ice-diamond"/>
+<item id="1879496534" name="Crackling Opal Earring"/>
+<bonus nbItems="2">
+<stat name="FROST_MITIGATION_PERCENTAGE" constant="1.5"/>
+<stat name="FIRE_MITIGATION_PERCENTAGE" constant="1.5"/>
+<effect id="1879501398" name="Shield of the North"/>
+</bonus>
+</set>
+<set id="1879501389" name="Purifier of Utug-bûr&#10;(Max Level: 154)" level="525" maxLevel="154" description="">
+<item id="1879496488" name="Earring of the Necromancer"/>
+<item id="1879496483" name="Dread Lord's Cuff"/>
+<bonus nbItems="2">
+<specialEffect label="key:621104324:108054834"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.0"/>
+<effect id="1879501388" name="Purifier of Utug-bûr"/>
+</bonus>
+</set>
+<set id="1879501391" name="Reaver of Utug-bûr&#10;(Max Level: 154)" level="525" maxLevel="154" description="">
+<item id="1879496498" name="Utugi Warrior's Ring"/>
+<item id="1879496513" name="Blademaster's Earring"/>
+<bonus nbItems="2">
+<specialEffect label="key:621104321:108054834"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.0"/>
+<effect id="1879501386" name="Reaver of Utug-bûr"/>
+</bonus>
+</set>
+<set id="1879501393" name="Shield of the South&#10;(Max Level: 154)" level="525" maxLevel="154" description="">
+<item id="1879496542" name="Flaming Zircon Earring"/>
+<item id="1879496521" name="Bracelet of the Hungry Flame"/>
+<bonus nbItems="2">
+<stat name="SHADOW_MITIGATION_PERCENTAGE" constant="1.0"/>
+<stat name="PERCEIVED_THREAT" constant="10.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879501403" name="Hope in the Shadow&#10;(Max Level: 154)" level="525" maxLevel="154" description="">
+<item id="1879496476" name="Shining Moonstone Ring"/>
+<item id="1879496530" name="Glimmering Silver Bracelet"/>
+<bonus nbItems="2">
+<specialEffect label="key:621104336:108054834"/>
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="5.0"/>
+<effect id="1879501385" name="Hope in the Shadow"/>
 </bonus>
 </set>
 </sets>

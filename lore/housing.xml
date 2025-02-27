@@ -30,6 +30,9 @@
 <houseInfo type="32" iconID="1092807068" icon16ID="1092807069" icon32ID="1092807070" largeIconID="1092237727" panoramaIconID="1092807071" price="350" upkeep="100000"/>
 <houseInfo type="33" iconID="1092807072" icon16ID="1092807073" icon32ID="1092807074" largeIconID="1092237727" panoramaIconID="1092807075" price="700" upkeep="100000"/>
 <houseInfo type="34" iconID="1092807080" icon16ID="1092807076" icon32ID="1092807077" largeIconID="1092237727" panoramaIconID="1092807078" price="1000" upkeep="500000"/>
+<houseInfo type="35" iconID="1092807060" icon16ID="1092807061" icon32ID="1092807062" largeIconID="1092237727" panoramaIconID="1092807063" price="225" upkeep="100000"/>
+<houseInfo type="36" iconID="1092807068" icon16ID="1092807069" icon32ID="1092807070" largeIconID="1092237727" panoramaIconID="1092807071" price="350" upkeep="100000"/>
+<houseInfo type="37" iconID="1092807080" icon16ID="1092807076" icon32ID="1092807077" largeIconID="1092237727" panoramaIconID="1092807078" price="1000" upkeep="500000"/>
 <house id="1879093272" address="2 Rubin Road" description="key:620793465:54354734" templateID="1879093270" type="1" price="100000" upkeep="5000">
 <position region="1" longitude="-127.56445" latitude="-104.9967"/>
 </house>
@@ -1066,6 +1069,42 @@
 <trait id="1879101614" name="Travel to Kinship House"/>
 <trait id="1879407671" name="Travel to Kinship Member's House"/>
 </house>
+<house id="1879501101" address="Rivendell" description="key:621104094:54354734" premium="true" kinship="true" templateID="1879501110" type="37" price="950" upkeep="500000">
+<position region="1" longitude="-10.017363" latitude="-25.734219"/>
+<trait id="1879501114" name="Rivendell Kinship Hall"/>
+<trait id="1879101614" name="Travel to Kinship House"/>
+<trait id="1879407671" name="Travel to Kinship Member's House"/>
+</house>
+<house id="1879501102" address="Rivendell" description="key:621104091:54354734" premium="true" templateID="1879501110" type="36" price="332" upkeep="100000">
+<position region="1" longitude="-8.760703" latitude="-26.911415"/>
+<trait id="1879501109" name="Rivendell Homestead"/>
+<trait id="1879338731" name="Travel to Premium House"/>
+</house>
+<house id="1879501103" address="Rivendell" description="key:621104096:54354734" premium="true" templateID="1879501110" type="35" price="213" upkeep="100000">
+<position region="1" longitude="-7.7790427" latitude="-27.612762"/>
+<trait id="1879501105" name="Rivendell Homestead"/>
+<trait id="1879338731" name="Travel to Premium House"/>
+</house>
+<house id="1879501104" address="Rivendell" description="key:621104085:54354734" premium="true" templateID="1879501110" type="36" price="332" upkeep="100000">
+<position region="1" longitude="-9.336445" latitude="-26.483652"/>
+<trait id="1879501109" name="Rivendell Homestead"/>
+<trait id="1879338731" name="Travel to Premium House"/>
+</house>
+<house id="1879501106" address="Rivendell" description="key:621104088:54354734" premium="true" templateID="1879501110" type="36" price="332" upkeep="100000">
+<position region="1" longitude="-8.6796875" latitude="-25.978437"/>
+<trait id="1879501109" name="Rivendell Homestead"/>
+<trait id="1879338731" name="Travel to Premium House"/>
+</house>
+<house id="1879501111" address="Rivendell" description="key:621104097:54354734" premium="true" templateID="1879501110" type="35" price="213" upkeep="100000">
+<position region="1" longitude="-9.710517" latitude="-27.836386"/>
+<trait id="1879501105" name="Rivendell Homestead"/>
+<trait id="1879338731" name="Travel to Premium House"/>
+</house>
+<house id="1879501113" address="Rivendell" description="key:621104090:54354734" premium="true" templateID="1879501110" type="36" price="332" upkeep="100000">
+<position region="1" longitude="-7.582949" latitude="-26.257421"/>
+<trait id="1879501109" name="Rivendell Homestead"/>
+<trait id="1879338731" name="Travel to Premium House"/>
+</house>
 <neighborhoodTemplate id="1879093270" name="Bree-land Homesteads">
 <houseReference id="1879094568" address="1 Long Street" type="Standard House"/>
 <houseReference id="1879094570" address="3 Long Street" type="Standard House"/>
@@ -1740,6 +1779,18 @@
 <landblock region="2" blockX="102" blockY="186"/>
 <entrance region="2" longitude="-67.94828" latitude="25.95378"/>
 <boot region="2" longitude="-67.93176" latitude="26.581728"/>
+</neighborhoodTemplate>
+<neighborhoodTemplate id="1879501110" name="Rivendell TBD">
+<houseReference id="1879501103" address="Rivendell" type="Standard House"/>
+<houseReference id="1879501111" address="Rivendell" type="Standard House"/>
+<houseReference id="1879501102" address="Rivendell" type="Deluxe House"/>
+<houseReference id="1879501104" address="Rivendell" type="Deluxe House"/>
+<houseReference id="1879501106" address="Rivendell" type="Deluxe House"/>
+<houseReference id="1879501113" address="Rivendell" type="Deluxe House"/>
+<houseReference id="1879501101" address="Rivendell" type="Kinship House"/>
+<landblock region="1" blockX="173" blockY="119"/>
+<entrance region="1" longitude="-8.343329" latitude="-28.509102"/>
+<boot region="1" longitude="-8.335146" latitude="-28.597948"/>
 </neighborhoodTemplate>
 <neighborhood id="1879093267" name="Human Test Neighbourhood" templateID="1879098371"/>
 <neighborhood id="1879094318" name="Staffold" templateID="1879093270"/>
@@ -4364,4 +4415,5 @@
 <neighborhood id="1879501028" name="Werewale" templateID="1879399646"/>
 <neighborhood id="1879501029" name="Eliagelos" templateID="1879098660"/>
 <neighborhood id="1879501030" name="Glinnael" templateID="1879098660"/>
+<neighborhood id="1879501117" name="Rivendell" templateID="1879501110"/>
 </housing>
