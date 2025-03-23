@@ -51,6 +51,9 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - PVP data (ranks...)
 - mood data (morale modifier from hope/dread)
 - action tables for mobs
+- houses description
+- baubles directory
+- birds description
 
 In the future, it may contain:
 - travels
