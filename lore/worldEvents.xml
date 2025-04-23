@@ -338,8 +338,16 @@
 <booleanWorldEvent id="1879463487" propertyId="268463915" propertyName="WE_Ettenmoors_TR_Player_Inner_Door" default="false"/>
 <booleanWorldEvent id="1879463490" propertyId="268463907" propertyName="WE_Ettenmoors_TR_Monster_Inner_Door" default="false"/>
 <booleanWorldEvent id="1879464179" propertyId="268463950" propertyName="WE_Ettenmoors_Sapling_Event_Bool" default="true"/>
+<booleanWorldEvent id="1879465729" propertyId="268463990" propertyName="we_crafting_forester_event_boolean" description="DNT - Determines whether or not the forester crafting events are available in the game world." default="false"/>
+<integerWorldEvent id="1879465730" propertyId="268463993" propertyName="we_crafting_forester_chetwood_status" description="DNT - Controls the number of players that are currently enrolled in the Chetwood forester crafting event." default="30" min="0" max="30"/>
+<conditionWorldEvent id="1879465731" propertyId="268463987" propertyName="we_crafting_forester_chetwood_recruiting" description="DNT - Determines whether the chetwood forester event is currently recruiting contestants.">
+<compoundWorldEventCondition operator="AND">
+<worldEventCondition worldEventID="1879465729" worldEventName="we_crafting_forester_event_boolean" operator="EQUAL" value="1"/>
+<worldEventCondition worldEventID="1879465730" worldEventName="we_crafting_forester_chetwood_status" operator="LESS_OR_EQUAL" value="15"/>
+<worldEventCondition worldEventID="1879465730" worldEventName="we_crafting_forester_chetwood_status" operator="GREATER_OR_EQUAL" value="11"/>
+</compoundWorldEventCondition>
+</conditionWorldEvent>
 <integerWorldEvent id="1879467638" propertyId="268463945" propertyName="we_ettenmoors_sapling_daily_int" default="1" min="1" max="4"/>
-<booleanWorldEvent id="1879468115" propertyId="268464160" propertyName="we_crafting_forester_chetwood_cooldown" description="DNT - Determines whether or not the forester crafting events are available in the game world." default="false"/>
 <booleanWorldEvent id="1879474058" propertyId="268464245" propertyName="we_boolean_umbar_cape_dead_pool" description="DNT - Determines whether or not the forester crafting events are available in the game world." default="false"/>
 <integerWorldEvent id="1879480358" propertyId="268464544" propertyName="WE_Integer_Private_Scaling_Umbar_3man_Rahal_Bakh_Tier_Gate" description="DNT - Controls the available tiers for the Streets of Râhal Bakh 3 player in Umbar." default="0" min="0" max="10"/>
 <integerWorldEvent id="1879480480" propertyId="268464545" propertyName="WE_Integer_Private_Scaling_Umbar_6man_Arean_Tier_Gate" description="DNT - Controls the available tiers for TBD  Arena of Barharbel 6player in Um bar." default="0" min="0" max="10"/>
@@ -376,4 +384,8 @@
 <booleanWorldEvent id="1879491464" propertyId="268464953" propertyName="WE_Boolean_Private_Scaling_Ikorban_Khudzagin_6man_LTC_Lock" description="DNT - Used to end the initial window of time to complete the final 6-man encounter 'challenge' of Khudzagin 6 man in Umbar on Tier 5." default="false"/>
 <booleanWorldEvent id="1879491465" propertyId="268464951" propertyName="WE_Boolean_Private_Scaling_Yod_Rothog_6man_LTC_Lock" description="DNT - Used to end the initial window of time to complete the final 3-man encounter 'challenge' of Streets Instance in Umbar on Tier 5." default="false"/>
 <integerWorldEvent id="1879495393" propertyId="268465049" propertyName="WE_Integer_U42_Ikorban_Mission_Config" description="DNT - Controls which U42 Ikorbân Valley Missions are available each day." default="1" min="1" max="5"/>
+<booleanWorldEvent id="1879501838" propertyId="268465195" propertyName="we_anniversary_missions_active" description="" default="false"/>
+<booleanWorldEvent id="1879501839" propertyId="268465196" propertyName="we_midsummerfestival_si_festivalactive" description="" default="false"/>
+<integerWorldEvent id="1879502149" propertyId="268465200" propertyName="WE_Integer_Private_Scaling_Ikorban_DunShuma_6man_Tier_Gate" description="DNT - Controls the available tiers for Dun Shuma 6man in Ikorban." default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879502152" propertyId="268465201" propertyName="WE_Boolean_Private_Scaling_Ikorban_DunShuma_6man_LTC_Lock" description="DNT - Used to end the initial window of time to complete the final 6-,am encounter 'challenge' of Dun Shuma 6man Instance in Ikorban on Tier 3." default="false"/>
 </worldEvents>
