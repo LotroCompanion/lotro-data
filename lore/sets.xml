@@ -3058,6 +3058,7 @@
 <effect id="1879455155" name="DNT - Triumphant Spirit Mitigation"/>
 </bonus>
 <bonus nbItems="4">
+<specialEffect label="key:620841365:108054836"/>
 <effect id="1879403783" name="DNT - Cry of Resonance Induction Buff"/>
 </bonus>
 <bonus nbItems="5">
@@ -3079,7 +3080,7 @@
 <stat name="Skill_Burglar_StrikeFromShadows_CritDamage" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<specialEffect label="key:620841378:108054836"/>
+<stat name="Skill_Burglar_CoupDeGrace_Cooldown" operator="SUBSTRACT" descriptionOverride="key:620841378:108054836" constant="10.0"/>
 <effect id="1879444828" name="DNT - Coup De Grace buffs crit mag"/>
 </bonus>
 <bonus nbItems="5">
@@ -3809,6 +3810,7 @@
 </bonus>
 <bonus nbItems="4">
 <stat name="ForwardSource_Combat_Captain_SkillCombo" descriptionOverride="key:620873964:108054836" value="(30)"/>
+<stat name="Skill_Captain_RoutingCry_Cooldown" descriptionOverride="-" constant="45.0"/>
 </bonus>
 <bonus nbItems="5">
 <stat name="OUTGOING_HEALING_PERCENTAGE" constant="7.5000005"/>
@@ -25051,7 +25053,7 @@
 <item id="1879470974" name="Leggings of the Sailor's Tune"/>
 <item id="1879470958" name="Jacket of the Sailor's Tune"/>
 <item id="1879470976" name="Shoulders of the Sailor's Tune"/>
-<item id="1879470965" name="Shoulders of the Sailor's Tune"/>
+<item id="1879470965" name="Cowl of the Sailor's Tune"/>
 <bonus nbItems="2">
 <stat name="VITALITY" scaling="1879211969"/>
 </bonus>
@@ -27533,8 +27535,8 @@
 <stat name="AGILITY" scaling="1879211572"/>
 </bonus>
 <bonus nbItems="4">
-<specialEffect label="key:621106748:108054836"/>
-<effect id="1879248778" name="DNT - Audacity Fist Gambit Damage Bonus"/>
+<stat name="Corsair_Recentre_Cooldown" descriptionOverride="key:621106748:108054836" constant="-2.0"/>
+<effect id="1879476126" name="DNT - Recentre Heals You"/>
 </bonus>
 </set>
 </sets>
