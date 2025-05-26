@@ -54,9 +54,9 @@ Repository for misc. LOTRO related data. This includes XML data and icons for:
 - houses description
 - baubles directory
 - birds description
+- travels
 
 In the future, it may contain:
-- travels
 - ...
 
 Note that items and maps are managed in separate, dedicated repositories.
