@@ -1309,9 +1309,6 @@
 <consumable identifier="1879097940" name="Phial of Gorgoris' Blood">
 <stat name="RESISTANCE" constant="9720.0"/>
 </consumable>
-<consumable identifier="1879097947" name="Akúlhun's Brand of the Tyrant">
-<stat name="CombatState_CurrentStateImmunities" descriptionOverride="key:620871416:106251889" value="(1,2,6,8,9,10,12,14,19,21)"/>
-</consumable>
 <consumable identifier="1879098841" name="Harvestmath Pony">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:620842198:106251889" modifiers="SET:268459053" constant="62.0"/>
 <stat name="Combat_CanEvade" operator="SET" descriptionOverride="key:620842198:106251890" value="false"/>
@@ -7888,6 +7885,40 @@
 <stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
 </consumable>
 <consumable identifier="1879503473" name="Hêlima">
+<stat name="Combat_BaseMissRate" descriptionOverride="-" constant="5.0"/>
+<stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
+</consumable>
+<consumable identifier="1879506304" name="Battle Determination Tincture">
+<stat name="PHYSICAL_MITIGATION" constant="1050.0"/>
+</consumable>
+<consumable identifier="1879506305" name="Battle Sustenance Tincture">
+<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:621106932:106251889" constant="1.025"/>
+</consumable>
+<consumable identifier="1879506306" name="Strength of Arms Tincture">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="3.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="3.0"/>
+</consumable>
+<consumable identifier="1879506307" name="Battle Fortitude Tincture">
+<stat name="TACTICAL_MITIGATION" constant="1050.0"/>
+</consumable>
+<consumable identifier="1879506308" name="Battle Hardened Tincture">
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:621106929:106251889" constant="1.025"/>
+</consumable>
+<consumable identifier="1879506309" name="Battle Fortitude Tincture">
+<stat name="TACTICAL_MITIGATION" constant="5250.0"/>
+</consumable>
+<consumable identifier="1879506310" name="Battle Determination Tincture">
+<stat name="PHYSICAL_MITIGATION" constant="5250.0"/>
+</consumable>
+<consumable identifier="1879506311" name="For the Glory of... Tincture">
+<stat name="Glory_AwardMultiplier" descriptionOverride="key:621106927:106251889" constant="10.0"/>
+<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="10.0"/>
+</consumable>
+<consumable identifier="1879506517" name="Builder's Alacrity Tincture">
+<stat name="Skill_InductionDuration_EventSkillsMod" operator="MULTIPLY" descriptionOverride="key:621107130:106251889" constant="0.85"/>
+</consumable>
+<consumable identifier="1879507813" name="Rotting Apple">
 <stat name="Combat_BaseMissRate" descriptionOverride="-" constant="5.0"/>
 <stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
 </consumable>

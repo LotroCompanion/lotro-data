@@ -110,7 +110,7 @@
 <booleanWorldEvent id="1879098804" propertyId="268442350" propertyName="WE_FallFestival_FestivalActive" default="false"/>
 <booleanWorldEvent id="1879098805" propertyId="268442351" propertyName="WE_WinterFestival_FestivalActive" default="false"/>
 <booleanWorldEvent id="1879101897" propertyId="268442513" propertyName="WE_Horse_Lvl25_Active" default="false"/>
-<integerWorldEvent id="1879102074" propertyId="268442527" propertyName="WE_Ettenmoors_Sessions" max="3"/>
+<integerWorldEvent id="1879102074" propertyId="268442527" propertyName="WE_Ettenmoors_Sessions" max="1"/>
 <booleanWorldEvent id="1879103512" propertyId="268442796" propertyName="WE_Real_SpringFestival_FestivalActive" default="false"/>
 <booleanWorldEvent id="1879108285" propertyId="268443133" propertyName="WE_Forochel_ControlPOI_Glacier" description="Hylje-leiri" progress=" Hylje-leiri is under control of the ${VALUE:Lossoth of Forochel[1]|Gauredain}." default="false"/>
 <booleanWorldEvent id="1879108286" propertyId="268443132" propertyName="WE_Forochel_ControlPOI_Icebay" description="Karhu-leiri" progress=" Karhu-leiri is under control of the ${VALUE:Lossoth of Forochel[1]|Gauredain}." default="false"/>
@@ -123,7 +123,7 @@
 <integerWorldEvent id="1879143628" propertyId="268445433" propertyName="we_int_daily_quest_easy_moria" default="1" min="1" max="6"/>
 <integerWorldEvent id="1879143629" propertyId="268445432" propertyName="we_int_daily_quest_hard_moria" default="1" min="1" max="6"/>
 <integerWorldEvent id="1879143630" propertyId="268445434" propertyName="we_int_daily_quest_normal_moria" default="1" min="1" max="8"/>
-<integerWorldEvent id="1879145348" propertyId="268445516" propertyName="WE_Ettenmoors_Troll_Sessions" max="3"/>
+<integerWorldEvent id="1879145348" propertyId="268445516" propertyName="WE_Ettenmoors_Troll_Sessions" max="1"/>
 <booleanWorldEvent id="1879148480" propertyId="268445950" propertyName="WE_TestServer_Moria_EpicActive" default="false"/>
 <booleanWorldEvent id="1879150696" propertyId="268446158" propertyName="WE_LorienRaid_Open" default="true"/>
 <integerWorldEvent id="1879150963" propertyId="268446180" propertyName="we_liveops_strangehappenings_phase" default="0" min="0" max="4"/>
@@ -330,13 +330,37 @@
 <booleanWorldEvent id="1879457730" propertyId="268463666" propertyName="WE_Boolean_Private_Scaling_Angmar_Reborn_3man_Glasshouse_LTC_Lock" description="DNT - Used to end the initial window of time to complete the final 6-man encounter 'challenge' of Gundabad on Tier 3." default="false"/>
 <booleanWorldEvent id="1879457731" propertyId="268463668" propertyName="WE_Boolean_Private_Scaling_Angmar_Reborn_6man_Sewers_LTC_Lock" description="DNT - Used to end the initial window of time to complete the final 6-man encounter 'challenge' of Gundabad on Tier 3." default="false"/>
 <booleanWorldEvent id="1879463474" propertyId="268463908" propertyName="WE_Ettenmoors_Lug_Monster_Inner_Door" default="false"/>
-<booleanWorldEvent id="1879463475" propertyId="268463900" propertyName="WE_Ettenmoors_Lug_Player_Outer_Door" default="false"/>
+<conditionWorldEvent id="1879463475" propertyId="268463900" propertyName="WE_Ettenmoors_Lug_Player_Outer_Door">
+<compoundWorldEventCondition operator="AND">
+<worldEventCondition worldEventID="1879463478" worldEventName="WE_Ettenmoors_IsSiege" operator="EQUAL" value="1"/>
+<worldEventCondition worldEventID="1879506320" worldEventName="we_ettenmoors_lug_player_ext_build" operator="EQUAL" value="10"/>
+</compoundWorldEventCondition>
+</conditionWorldEvent>
+<integerWorldEvent id="1879463476" propertyId="268463911" propertyName="we_ettenmoors_lug_player_ext_reinforce" default="0" min="0" max="5"/>
 <booleanWorldEvent id="1879463478" propertyId="268463914" propertyName="WE_Ettenmoors_IsSiege" default="false"/>
-<booleanWorldEvent id="1879463479" propertyId="268463901" propertyName="WE_Ettenmoors_Lug_Monster_Outer_Door" default="false"/>
+<conditionWorldEvent id="1879463479" propertyId="268463901" propertyName="WE_Ettenmoors_Lug_Monster_Outer_Door">
+<compoundWorldEventCondition operator="AND">
+<worldEventCondition worldEventID="1879463478" worldEventName="WE_Ettenmoors_IsSiege" operator="EQUAL" value="1"/>
+<worldEventCondition worldEventID="1879506322" worldEventName="we_ettenmoors_lug_monster_ext_build" operator="EQUAL" value="10"/>
+</compoundWorldEventCondition>
+</conditionWorldEvent>
 <booleanWorldEvent id="1879463480" propertyId="268463910" propertyName="WE_Ettenmoors_Lug_Player_Inner_Door" default="false"/>
-<booleanWorldEvent id="1879463482" propertyId="268463899" propertyName="WE_Ettenmoors_TR_Player_Outer_Door" default="false"/>
-<booleanWorldEvent id="1879463486" propertyId="268463904" propertyName="WE_Ettenmoors_TR_Monster_Outer_Door" default="false"/>
+<conditionWorldEvent id="1879463482" propertyId="268463899" propertyName="WE_Ettenmoors_TR_Player_Outer_Door">
+<compoundWorldEventCondition operator="AND">
+<worldEventCondition worldEventID="1879463478" worldEventName="WE_Ettenmoors_IsSiege" operator="EQUAL" value="1"/>
+<worldEventCondition worldEventID="1879506321" worldEventName="we_ettenmoors_tr_player_ext_build" operator="EQUAL" value="10"/>
+</compoundWorldEventCondition>
+</conditionWorldEvent>
+<integerWorldEvent id="1879463484" propertyId="268463913" propertyName="we_ettenmoors_tr_monster_ext_reinforce" default="0" min="0" max="5"/>
+<integerWorldEvent id="1879463485" propertyId="268463903" propertyName="we_ettenmoors_tr_player_ext_reinforce" default="0" min="0" max="5"/>
+<conditionWorldEvent id="1879463486" propertyId="268463904" propertyName="WE_Ettenmoors_TR_Monster_Outer_Door">
+<compoundWorldEventCondition operator="AND">
+<worldEventCondition worldEventID="1879463478" worldEventName="WE_Ettenmoors_IsSiege" operator="EQUAL" value="1"/>
+<worldEventCondition worldEventID="1879506323" worldEventName="we_ettenmoors_tr_monster_ext_build" operator="EQUAL" value="10"/>
+</compoundWorldEventCondition>
+</conditionWorldEvent>
 <booleanWorldEvent id="1879463487" propertyId="268463915" propertyName="WE_Ettenmoors_TR_Player_Inner_Door" default="false"/>
+<integerWorldEvent id="1879463489" propertyId="268463905" propertyName="we_ettenmoors_lug_monster_ext_reinforce" default="0" min="0" max="5"/>
 <booleanWorldEvent id="1879463490" propertyId="268463907" propertyName="WE_Ettenmoors_TR_Monster_Inner_Door" default="false"/>
 <booleanWorldEvent id="1879464179" propertyId="268463950" propertyName="WE_Ettenmoors_Sapling_Event_Bool" default="true"/>
 <booleanWorldEvent id="1879465729" propertyId="268463990" propertyName="we_crafting_forester_event_boolean" description="DNT - Determines whether or not the forester crafting events are available in the game world." default="false"/>
@@ -402,4 +426,8 @@
 <booleanWorldEvent id="1879501839" propertyId="268465196" propertyName="we_midsummerfestival_si_festivalactive" description="" default="false"/>
 <integerWorldEvent id="1879502149" propertyId="268465200" propertyName="WE_Integer_Private_Scaling_Ikorban_DunShuma_6man_Tier_Gate" description="DNT - Controls the available tiers for Dun Shuma 6man in Ikorban." default="0" min="0" max="10"/>
 <booleanWorldEvent id="1879502152" propertyId="268465201" propertyName="WE_Boolean_Private_Scaling_Ikorban_DunShuma_6man_LTC_Lock" description="DNT - Used to end the initial window of time to complete the final 6-,am encounter 'challenge' of Dun Shuma 6man Instance in Ikorban on Tier 3." default="false"/>
+<integerWorldEvent id="1879506320" propertyId="268465379" propertyName="we_ettenmoors_lug_player_ext_build" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879506321" propertyId="268465381" propertyName="we_ettenmoors_tr_player_ext_build" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879506322" propertyId="268465378" propertyName="we_ettenmoors_lug_monster_ext_build" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879506323" propertyId="268465380" propertyName="we_ettenmoors_tr_monster_ext_build" default="0" min="0" max="10"/>
 </worldEvents>

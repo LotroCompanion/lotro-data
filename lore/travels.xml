@@ -29598,6 +29598,18 @@
 <routeAction id="1879072630" delay="0.0"/>
 <routeAction id="1879497440" headName="travel_seg_moria_central_levels_to_twenty_first_hall"/>
 </route>
+<route id="1879509198" name="West Bree" destinationID="1879072621" mode="BOAT">
+<routeAction id="1879475371" delay="0.0" sceneID="1879475313"/>
+<routeAction id="1879072679" headName="travel_segment_seg_greenway_crossing_to_bree_west"/>
+</route>
+<route id="1879509199" name="Minas Tirith (Midsummer) - Swift Travel" destinationID="1879407848" mode="BOAT">
+<routeAction id="1879475371" delay="0.0" sceneID="1879475313"/>
+<routeAction id="1879407853" headName="travel_segment_to_minas_tirith_wedding"/>
+</route>
+<route id="1879509200" name="Umbar Baharbêl" destinationID="1879475384" mode="BOAT" minLevel="120">
+<routeAction id="1879475371" delay="0.0" sceneID="1879475313"/>
+<routeAction id="1879475326" location="travel_umbar_city_boat"/>
+</route>
 <node id="1879072570">
 <mainLocation id="1879072601" name="Aughaire"/>
 <location id="1879103925" name="Aughaire - Swift Travel"/>
@@ -36230,5 +36242,26 @@
 <route id="1879497515" name="Deep Descent - Swift" cost="4500"/>
 <route id="1879497321" name="Dolven-view" cost="3500"/>
 <route id="1879497635" name="Dolven-view - Swift" cost="4500"/>
+</node>
+<node id="1879509197">
+<mainLocation id="1879137055" name="Anazârmekhem"/>
+<location id="1879137108" name="Anazârmekhem - Swift"/>
+<location id="1879072612" name="South Bree"/>
+<location id="1879072861" name="South Bree - Swift Travel"/>
+<location id="1879072866" name="Ettenmoors"/>
+<location id="1879102111" name="Bree-land Housing Neighbourhoods"/>
+<location id="1879072728" name="Celondim - Swift Travel"/>
+<location id="1879072666" name="Michel Delving - Swift Travel"/>
+<location id="1879072662" name="Thorin's Gate - Swift Travel"/>
+<location id="1879388948" name="Bree-land Homesteads"/>
+<location id="1879388941" name="Bree-land Homesteads - Swift Travel"/>
+<location id="1879399407" name="Cape of Belfalas Homesteads - Swift Travel"/>
+<location id="1879399388" name="Neighbourhood Stable-master"/>
+<location id="1879407848" name="Minas Tirith (Midsummer) - Swift Travel"/>
+<location id="1879407839" name="Minas Tirith (Midsummer) - City Stables"/>
+<location id="1879443240" name="Abodes of Erebor - Swift Travel"/>
+<route id="1879509198" name="West Bree" cost="100"/>
+<route id="1879509199" name="Minas Tirith (Midsummer) - Swift Travel" cost="100"/>
+<route id="1879509200" name="Umbar Baharbêl" cost="18000"/>
 </node>
 </travelsWeb>
