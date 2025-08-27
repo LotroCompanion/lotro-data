@@ -5072,7 +5072,8 @@
 <stat name="WILL" scaling="1879211576"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Loremaster_SeeAllEnds_AttackerCriticalHitChance" descriptionOverride="key:620886962:108054836" constant="5.0"/>
+<stat name="Itemset_Loremaster_WaterLore_IncHealDuration" descriptionOverride="key:620886962:108054836" constant="4.0"/>
+<stat name="Itemset_Loremaster_WaterLore_PulseCount" descriptionOverride="-" constant="1.0"/>
 </bonus>
 </set>
 <set id="1879218875" name="Dirge-singer's Raiments&#10;(Max Level: 84)" level="75" maxLevel="84" description="">
@@ -5100,8 +5101,7 @@
 <stat name="AGILITY" scaling="1879211555"/>
 </bonus>
 <bonus nbItems="4">
-<specialEffect label="key:620886965:108054836"/>
-<effect id="1879222077" name="DNT Add Bow of the Righteous Effect to Intent Concentration"/>
+<stat name="Skill_RecoveryTime_Trait_HastyRecovery" constant="-20.0"/>
 </bonus>
 </set>
 <set id="1879218877" name="Armour of the Tireless Sentinel&#10;(Max Level: 84)" level="75" maxLevel="84" description="">
@@ -5718,8 +5718,7 @@
 <item id="1879224989" name="The Huntsman's Trousers"/>
 <item id="1879224995" name="The Huntsman's Boots"/>
 <bonus nbItems="4">
-<specialEffect label="key:620892441:108054836"/>
-<effect id="1879203544" name="DNT - Scourging Blow makes the next Barbed Arrow have a shorter induction time"/>
+<stat name="Hunter_Bleed_Cashout_Damage" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879227018" name="The Beast-keeper's Armour&#10;(Max Level: 84)" level="84" maxLevel="84" description="">
@@ -5753,7 +5752,8 @@
 <item id="1879225047" name="The Ancient Master's Trousers"/>
 <item id="1879225051" name="The Ancient Master's Shoes"/>
 <bonus nbItems="4">
-<stat name="Skill_Loremaster_SeeAllEnds_AttackerCriticalHitChance" descriptionOverride="key:620892444:108054836" constant="5.0"/>
+<stat name="Itemset_Loremaster_WaterLore_IncHealDuration" descriptionOverride="key:620892444:108054836" constant="12.0"/>
+<stat name="Itemset_Loremaster_WaterLore_PulseCount" constant="3.0"/>
 </bonus>
 </set>
 <set id="1879227065" name="Armour of Resolve&#10;(Max Level: 84)" level="84" maxLevel="84" description="">
@@ -6073,9 +6073,7 @@
 <item id="1879224991" name="Trousers of the Faron"/>
 <item id="1879224998" name="Boots of the Faron"/>
 <bonus nbItems="2">
-<specialEffect label="key:620892528:108054834"/>
-<effect id="1879203544" name="DNT - Scourging Blow makes the next Barbed Arrow have a shorter induction time"/>
-<effect id="1879207459" name="DNT - HeartSeeker makes the next Barbed Arrow have a shorter induction time"/>
+<stat name="Hunter_Bleed_Cashout_Damage" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="key:620892528:108054836"/>
@@ -6094,7 +6092,7 @@
 <stat name="Skill_RecoveryTime_Loremaster_InnerFlame" constant="-30.0"/>
 </bonus>
 <bonus nbItems="4">
-<specialEffect label="key:620892527:108054836"/>
+<stat name="Skill_RecoveryTime_Loremaster_SicEm" constant="-30.0"/>
 <effect id="1879226836" name="DNT - itemset bonus, +50% damage reflected by Continual Air-lore"/>
 </bonus>
 </set>
@@ -6121,7 +6119,8 @@
 <item id="1879225050" name="Trousers of the Iordúr"/>
 <item id="1879225056" name="Shoes of the Iordúr"/>
 <bonus nbItems="2">
-<stat name="Skill_Loremaster_SeeAllEnds_AttackerCriticalHitChance" descriptionOverride="key:620892530:108054834" constant="5.0"/>
+<stat name="Itemset_Loremaster_WaterLore_IncHealDuration" descriptionOverride="key:620892530:108054834" constant="12.0"/>
+<stat name="Itemset_Loremaster_WaterLore_PulseCount" constant="3.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Duration_LoreMaster_BlindingFlash" constant="5.0"/>
@@ -15509,35 +15508,10 @@
 <item id="1879319822" name="The Tower Guard's Shoulder Guards"/>
 <item id="1879319834" name="The Tower Guard's Helm"/>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_DownButNotOut_CD" descriptionOverride="key:620957035:108054836" constant="-30.0"/>
+<stat name="Skill_Beorning_ItemSet_DownButNotOut_CD" descriptionOverride="key:620957035:108054836" constant="-20.0"/>
 </bonus>
 </set>
-<set id="1879319873" name="Greater Armour of the Echoing Roar&#10;(Max Level: 84)" level="88" maxLevel="84" description="">
-<item id="1879319854" name="Greater Boots of the Echoing Roar"/>
-<item id="1879319832" name="Greater Trousers of the Echoing Roar"/>
-<item id="1879319835" name="Greater Gloves of the Echoing Roar"/>
-<item id="1879319824" name="Greater Jacket of the Echoing Roar"/>
-<item id="1879319844" name="Greater Shoulder Guards of the Echoing Roar"/>
-<item id="1879319840" name="Greater Helm of the Echoing Roar"/>
-<bonus nbItems="2">
-<stat name="FATE" scaling="1879211548"/>
-</bonus>
-<bonus nbItems="4">
-<stat name="Skill_Captain_CritHealing_Magnitude" descriptionOverride="key:620957034:108054836" constant="20.0"/>
-</bonus>
-</set>
-<set id="1879319874" name="Armour of the Echoing Roar&#10;(Max Level: 84)" level="84" maxLevel="84" description="">
-<item id="1879319853" name="Boots of the Echoing Roar"/>
-<item id="1879319829" name="Trousers of the Echoing Roar"/>
-<item id="1879319843" name="Gloves of the Echoing Roar"/>
-<item id="1879319850" name="Jacket of the Echoing Roar"/>
-<item id="1879319827" name="Shoulder Guards of the Echoing Roar"/>
-<item id="1879319838" name="Helm of the Echoing Roar"/>
-<bonus nbItems="4">
-<stat name="Skill_Captain_CritHealing_Magnitude" descriptionOverride="key:620957036:108054836" constant="20.0"/>
-</bonus>
-</set>
-<set id="1879319875" name="Greater Armour of the Tower Smasher&#10;(Max Level: 84)" level="88" maxLevel="84" description="">
+<set id="1879319873" name="Greater Armour of the Tower Smasher&#10;(Max Level: 84)" level="88" maxLevel="84" description="">
 <item id="1879319831" name="Greater Boots of the Tower Smasher"/>
 <item id="1879319821" name="Greater Trousers of the Tower Smasher"/>
 <item id="1879319825" name="Greater Gloves of the Tower Smasher"/>
@@ -15545,13 +15519,13 @@
 <item id="1879319837" name="Greater Shoulder Guards of the Tower Smasher"/>
 <item id="1879319848" name="Greater Helm of the Tower Smasher"/>
 <bonus nbItems="2">
-<stat name="MIGHT" scaling="1879211577"/>
+<stat name="Skill_CriticalDamageMultiplier_ChampionAll" descriptionOverride="key:620957034:108054834" constant="10.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_CriticalDamageMultiplier_ChampionAll" descriptionOverride="key:620957031:108054836" constant="20.0"/>
+<stat name="Skill_Beorning_Finisher_DamageMod" constant="15.000001"/>
 </bonus>
 </set>
-<set id="1879319876" name="Armour of the Tower Smasher&#10;(Max Level: 84)" level="84" maxLevel="84" description="">
+<set id="1879319874" name="Armour of the Tower Smasher&#10;(Max Level: 84)" level="84" maxLevel="84" description="">
 <item id="1879319828" name="Boots of the Tower Smasher"/>
 <item id="1879319855" name="Trousers of the Tower Smasher"/>
 <item id="1879319833" name="Gloves of the Tower Smasher"/>
@@ -15559,7 +15533,33 @@
 <item id="1879319852" name="Shoulder Guards of the Tower Smasher"/>
 <item id="1879319845" name="Helm of the Tower Smasher"/>
 <bonus nbItems="4">
-<stat name="Skill_CriticalDamageMultiplier_ChampionAll" descriptionOverride="key:620957033:108054836" constant="20.0"/>
+<stat name="Skill_CriticalDamageMultiplier_ChampionAll" descriptionOverride="key:620957036:108054836" constant="10.0"/>
+</bonus>
+</set>
+<set id="1879319875" name="Greater Armour of the Echoing Roar&#10;(Max Level: 84)" level="88" maxLevel="84" description="">
+<item id="1879319854" name="Greater Boots of the Echoing Roar"/>
+<item id="1879319832" name="Greater Trousers of the Echoing Roar"/>
+<item id="1879319835" name="Greater Gloves of the Echoing Roar"/>
+<item id="1879319824" name="Greater Jacket of the Echoing Roar"/>
+<item id="1879319844" name="Greater Shoulder Guards of the Echoing Roar"/>
+<item id="1879319840" name="Greater Helm of the Echoing Roar"/>
+<bonus nbItems="2">
+<stat name="Skill_Captain_CritHealing_Magnitude" descriptionOverride="key:620957031:108054834" constant="10.0"/>
+</bonus>
+<bonus nbItems="4">
+<specialEffect label="key:620957031:108054836"/>
+<effect id="1879402032" name="DNT - Transform Wrath"/>
+</bonus>
+</set>
+<set id="1879319876" name="Armour of the Echoing Roar&#10;(Max Level: 84)" level="84" maxLevel="84" description="">
+<item id="1879319853" name="Boots of the Echoing Roar"/>
+<item id="1879319829" name="Trousers of the Echoing Roar"/>
+<item id="1879319843" name="Gloves of the Echoing Roar"/>
+<item id="1879319850" name="Jacket of the Echoing Roar"/>
+<item id="1879319827" name="Shoulder Guards of the Echoing Roar"/>
+<item id="1879319838" name="Helm of the Echoing Roar"/>
+<bonus nbItems="4">
+<stat name="Skill_Captain_CritHealing_Magnitude" descriptionOverride="key:620957033:108054836" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879319877" name="Greater Armour of the Tower Guard&#10;(Max Level: 84)" level="88" maxLevel="84" description="">
@@ -15570,10 +15570,11 @@
 <item id="1879319842" name="The Tower Guard's Greater Shoulder Guards"/>
 <item id="1879319836" name="The Tower Guard's Greater Helm"/>
 <bonus nbItems="2">
-<stat name="VITALITY" scaling="1879211557"/>
+<stat name="Skill_Beorning_ItemSet_DownButNotOut_CD" descriptionOverride="key:620957032:108054834" constant="-20.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_Beorning_ItemSet_DownButNotOut_CD" descriptionOverride="key:620957032:108054836" constant="-30.0"/>
+<stat name="Skill_Beorning_Itemset_Counter_Evade" descriptionOverride="key:620957032:108054836" constant="10.0"/>
+<effect id="1879402069" name="DNT - Counter Cooldown"/>
 </bonus>
 </set>
 <set id="1879319878" name="Armour of the Hytbold Claw&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
@@ -16309,7 +16310,8 @@
 <stat name="MIGHT" scaling="1879211547"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="VITALITY" scaling="1879211544"/>
+<stat name="Skill_Beorning_NaturesSalve_Cooldown" operator="SUBSTRACT" constant="5.0"/>
+<stat name="Skill_Beorning_Finisher_DamageMod" constant="15.000001"/>
 </bonus>
 </set>
 <set id="1879325468" name="Armour of the Stag&#10;(Max Level: 59)" level="50" maxLevel="59" description="">
@@ -22827,18 +22829,18 @@
 </bonus>
 </set>
 <set id="1879431099" name="Greater Armour of the Tower Fulcrum&#10;(Max Level: 84)" level="88" maxLevel="84" description="">
-<item id="1879431042" name="Greater Boots of the Measured Fighter"/>
-<item id="1879431035" name="Greater Trousers of the Measured Fighter"/>
-<item id="1879431186" name="Greater Gloves of the Measured Fighter"/>
-<item id="1879431005" name="Greater Jacket of the Measured Fighter"/>
-<item id="1879431014" name="Greater Shoulder Guards of the Measured Fighter"/>
-<item id="1879431126" name="Greater Helm of the Measured Fighter"/>
+<item id="1879430980" name="Greater Boots of the Tower Fulcrum"/>
+<item id="1879430973" name="Greater Trousers of the Tower Fulcrum"/>
+<item id="1879431207" name="Greater Gloves of the Tower Fulcrum"/>
+<item id="1879431012" name="Greater Jacket of the Tower Fulcrum"/>
+<item id="1879431197" name="Greater Shoulder Guards of the Tower Fulcrum"/>
+<item id="1879431057" name="Greater Helm of the Tower Fulcrum"/>
 <bonus nbItems="2">
-<stat name="MIGHT" scaling="1879211577"/>
+<effect id="1879438606" name="Efficient Strikes Cooldown Reduction"/>
 </bonus>
 <bonus nbItems="4">
-<specialEffect label="key:621051394:108054836"/>
-<effect id="1879438678" name="DNT"/>
+<stat name="Skill_Brawler_Flex_DurationMod" constant="5.0"/>
+<stat name="Duration_Brawler_Vulnerable" constant="5.0"/>
 </bonus>
 </set>
 <set id="1879431103" name="Greater Fighting-garb of the Advancing Brawler&#10;(Max Level: 119)" level="234" maxLevel="119" description="">
@@ -22909,8 +22911,7 @@
 <item id="1879430929" name="Shoulder Guards of the Tower Fulcrum"/>
 <item id="1879431085" name="Helm of the Tower Fulcrum"/>
 <bonus nbItems="4">
-<specialEffect label="key:621051354:108054836"/>
-<effect id="1879438678" name="DNT"/>
+<effect id="1879438606" name="Efficient Strikes Cooldown Reduction"/>
 </bonus>
 </set>
 <set id="1879431139" name="Armour of the Erebor Fighter&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
@@ -22925,17 +22926,19 @@
 </bonus>
 </set>
 <set id="1879431140" name="Greater Armour of the Measured Fighter&#10;(Max Level: 84)" level="88" maxLevel="84" description="">
-<item id="1879430980" name="Greater Boots of the Tower Fulcrum"/>
-<item id="1879430973" name="Greater Trousers of the Tower Fulcrum"/>
-<item id="1879431207" name="Greater Gloves of the Tower Fulcrum"/>
-<item id="1879431012" name="Greater Jacket of the Tower Fulcrum"/>
-<item id="1879431197" name="Greater Shoulder Guards of the Tower Fulcrum"/>
-<item id="1879431057" name="Greater Helm of the Tower Fulcrum"/>
+<item id="1879431042" name="Greater Boots of the Measured Fighter"/>
+<item id="1879431035" name="Greater Trousers of the Measured Fighter"/>
+<item id="1879431186" name="Greater Gloves of the Measured Fighter"/>
+<item id="1879431005" name="Greater Jacket of the Measured Fighter"/>
+<item id="1879431014" name="Greater Shoulder Guards of the Measured Fighter"/>
+<item id="1879431126" name="Greater Helm of the Measured Fighter"/>
 <bonus nbItems="2">
-<stat name="FATE" scaling="1879211548"/>
+<specialEffect label="key:621051239:108054834"/>
+<effect id="1879438678" name="DNT"/>
 </bonus>
 <bonus nbItems="4">
-<effect id="1879438606" name="Efficient Strikes Cooldown Reduction"/>
+<stat name="Skill_Brawler_JoyOfBattle_CD" operator="SUBSTRACT" constant="15.0"/>
+<stat name="Skill_Brawler_BracingGuard_Cooldown" operator="SUBSTRACT" constant="10.0"/>
 </bonus>
 </set>
 <set id="1879431146" name="Armour of Nature's Striker&#10;(Max Level: 114)" level="100" maxLevel="114" description="">
@@ -22991,10 +22994,11 @@
 <item id="1879430951" name="The Tower Maelstrom's Greater Shoulder Guards"/>
 <item id="1879430996" name="The Tower Maelstrom's Greater Helm"/>
 <bonus nbItems="2">
-<stat name="VITALITY" scaling="1879211557"/>
+<effect id="1879438608" name="Mettle grants Critical Damage."/>
 </bonus>
 <bonus nbItems="4">
-<effect id="1879438608" name="Mettle grants Critical Damage."/>
+<specialEffect label="key:621051471:108054836"/>
+<effect id="1879483983" name="DNT"/>
 </bonus>
 </set>
 <set id="1879431166" name="Greater Fighting-garb of Vengeful Reckoning&#10;(Max Level: 134)" level="440" maxLevel="134" description="">
@@ -23024,7 +23028,8 @@
 <item id="1879431053" name="Shoulder Guards of the Measured Fighter"/>
 <item id="1879431147" name="Helm of the Measured Fighter"/>
 <bonus nbItems="4">
-<effect id="1879438606" name="Efficient Strikes Cooldown Reduction"/>
+<specialEffect label="key:621051199:108054836"/>
+<effect id="1879438678" name="DNT"/>
 </bonus>
 </set>
 <set id="1879431179" name="Armour of a Brawler's Recollection&#10;(Max Level: 114)" level="216" maxLevel="114" description="">
@@ -23189,7 +23194,9 @@
 <stat name="MIGHT" scaling="1879211547"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="VITALITY" scaling="1879211544"/>
+<specialEffect label="key:621051484:108054836"/>
+<stat name="Skill_Brawler_BracingGuard_Cooldown" operator="SUBSTRACT" constant="10.0"/>
+<effect id="1879483983" name="DNT"/>
 </bonus>
 </set>
 <set id="1879438705" name="Lesser Fist of the West&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
@@ -27638,6 +27645,20 @@
 <stat name="FROST_MITIGATION" scaling="1879382672"/>
 <stat name="Resist_AdditionalPoints_Resistance_Fear" scaling="1879489608"/>
 <effect id="1879490336" name="Glimmering Light"/>
+</bonus>
+</set>
+<set id="1879515017" name="Armour of the Serpent's Bite&#10;(Max Level: 84)" level="75" maxLevel="84" description="">
+<item id="1879475926" name="Helm of the Serpent's Bite"/>
+<item id="1879475918" name="Shoulderpads of the Serpent's Bite"/>
+<item id="1879475914" name="Jacket of the Serpent's Bite"/>
+<item id="1879475893" name="Leggings of the Serpent's Bite"/>
+<item id="1879475917" name="Gloves of the Serpent's Bite"/>
+<item id="1879475913" name="Boots of the Serpent's Bite"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_Riposte_Debuff_Potency" constant="3.0"/>
 </bonus>
 </set>
 </sets>

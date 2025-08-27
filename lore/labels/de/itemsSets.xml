@@ -2090,6 +2090,7 @@
 <label key="1879506486" value="Amelias Schleier des Inneren Lichts"/>
 <label key="1879506493" value="Amelias Gewand des Inneren Lichts"/>
 <label key="1879506500" value="Amelias Anker des Inneren Lichts"/>
+<label key="1879515017" value="Armour of the Serpent's Bite&#10;(Max Level: 84)"/>
 <label key="key:620790390:108054836" value="+5 % auf Heilung"/>
 <label key="key:620790390:54354734" value="Diese edle Rüstung ist mit Beryllen beschlagen, die auch als Elbensteine bekannt sind. Die Elben schmiedeten sie für einen angesehenen Barden."/>
 <label key="key:620790391:108054836" value="-1,5 Sek. Abklingzeit von \qDurchdringender Schuss\q"/>
@@ -2290,9 +2291,8 @@
 <label key="key:620883717:108054836" value="\qNiedriger Schnitt\q hat eine Chance von ${PERCENTVALUE}, Verlangsamungen und Wurzeln zu entfernt und 5 Sekunden lang Immunität zu verleihen."/>
 <label key="key:620883718:108054836" value="Lied der Besänftigung: -20 % empfangene Heilung"/>
 <label key="key:620886961:108054836" value="Reduziert die Abklingzeit des Effekts von \qErhabener Kämpfer\q um 30 Sekunden"/>
-<label key="key:620886962:108054836" value="Zeichen der Macht: Umsichtigkeit - +${PERCENTVALUE} Wahrscheinlichkeit für erlittene kritische Treffer"/>
+<label key="key:620886962:108054836" value="Verbessert Wasserkunde: Dauer um 4 Sek. erhöht."/>
 <label key="key:620886964:108054836" value="+5 Sek. Dauer bei allen Hymnen"/>
-<label key="key:620886965:108054836" value="\qGespannte Konzentration\q setzt alle \qDie Kunst des Bogenschützen\q-Fertigkeiten zurück."/>
 <label key="key:620886967:108054836" value="\qScharfer Spott\q verringert die Abklingzeit von \qAbhandlung des Feuers\q um 3 Sek."/>
 <label key="key:620886968:108054836" value="Blutungsschaden durch \qKraftangriff\q, \qMächtiger Schlag\q und \qZielsicherer Schlag\q um 25 % erhöht"/>
 <label key="key:620887375:54354734" value="Von Elbenmeistern hergestellt, um die Zeitlosigkeit, Stärke und den Glanz des weiten Sternenhimmels widerzuspiegeln."/>
@@ -2312,9 +2312,8 @@
 <label key="key:620892435:108054836" value="\qKlingenwand\q erhöht Euren Parier-Wert."/>
 <label key="key:620892436:108054836" value="+25 % Wächter-Blutungsschaden"/>
 <label key="key:620892437:108054836" value="-20 Erholungszeit für „Nervenkitzel der Gefahr“"/>
-<label key="key:620892441:108054836" value="\qGeißelnder Hieb\q und \qHerzsucher\q negieren die Anwendungsverzögerung für den nächsten \qStachelpfeil\q."/>
 <label key="key:620892443:108054836" value="„Blitzsturm“ wird zurückgesetzt, wenn „Zeichen der Macht: Zaubererfeuer“ einen kritischen Treffer erzielt. Ihr könnt diesen Effekt nur alle 45 Sekunden auslösen."/>
-<label key="key:620892444:108054836" value="Zeichen der Macht: Umsichtigkeit : +5 % Wahrscheinlichkeit für erlittene kritische Treffer"/>
+<label key="key:620892444:108054836" value="Verbessert Wasserkunde: Dauer um 12 Sek. erhöht."/>
 <label key="key:620892445:108054836" value="+5 % Chance auf kritische Treffer der Heilfertigkeiten"/>
 <label key="key:620892446:108054836" value="\qGabe der Hammerhand\q verschafft Eurem Ziel die gleichen Vorteile wie die selbstzielende Version dieser Fertigkeit."/>
 <label key="key:620892447:108054836" value="+10 % Schaden durch „Schrei der Valar“ und „Hymne der Zauberer“"/>
@@ -2343,8 +2342,6 @@
 <label key="key:620892524:108054836" value="„Verbessertes Stechen“ verleiht eine Chance auf eine Stärkung physischer Beherrschung."/>
 <label key="key:620892525:108054836" value="\qHeiße Flamme\q erhöht das kritische Ausmaß von Bogen-Fertigkeiten um +25 %."/>
 <label key="key:620892526:108054836" value="\qSchneller Bogen\q hat eine Chance, das Ziel mit einer Schwächung seiner physischen und taktischen Schadensminderung zu belegen."/>
-<label key="key:620892527:108054836" value="„Luftkunde“ reflektiert jetzt +25 % Schaden."/>
-<label key="key:620892528:108054834" value="\qGeißelnder Hieb\q und \qHerzsucher\q negieren die Anwendungsverzögerung für den nächsten \qStachelpfeil\q."/>
 <label key="key:620892528:108054836" value="\qSchnellfüßigkeit\q verringert die Fokuskosten von \qDurchdringender Schuss\q um 1."/>
 <label key="key:620892529:108054834" value="„Blitzsturm“ wird zurückgesetzt, wenn „Zeichen der Macht: Zaubererfeuer“ einen kritischen Treffer erzielt. Ihr könnt diesen Effekt nur alle 45 Sekunden auslösen."/>
 <label key="key:620892529:108054836" value="+ 10 % Schaden durch Feuerfertigkeiten"/>
@@ -2685,10 +2682,12 @@
 <label key="key:620957017:108054836" value="–30 Sek. Abklingzeit von \qVerdichteter Pelz\q"/>
 <label key="key:620957018:108054836" value="–30 Sekunden Abklingzeit von \qRuf der Wildnis\q"/>
 <label key="key:620957021:108054836" value="–30 Sek. Abklingzeit von \qBund der Natur\q"/>
-<label key="key:620957031:108054836" value="+${PERCENTVALUE} Kritischer Schaden"/>
+<label key="key:620957031:108054834" value="+${PERCENTVALUE} Critical Healing Magnitude"/>
+<label key="key:620957031:108054836" value="Transforming grants +10 Wrath."/>
+<label key="key:620957032:108054834" value="-20s Down but Not Out Cooldown"/>
 <label key="key:620957032:108054836" value="Die Abklingzeit von „Angeschlagen, aber nicht besiegt“ verringert sich um 30 Sek"/>
 <label key="key:620957033:108054836" value="+${PERCENTVALUE} Kritischer Schaden"/>
-<label key="key:620957034:108054836" value="+${PERCENTVALUE} Ausmaß kritischer Heilung"/>
+<label key="key:620957034:108054834" value="+${PERCENTVALUE} Critical Damage"/>
 <label key="key:620957035:108054836" value="Die Abklingzeit von „Angeschlagen, aber nicht besiegt“ verringert sich um 30 Sek"/>
 <label key="key:620957036:108054836" value="+${PERCENTVALUE} Ausmaß kritischer Heilung"/>
 <label key="key:620957037:108054836" value="\qZeichen von Grimbeorn\q verschafft Eurem markierten Verbündeten Parier-Wahrscheinlichkeit."/>
@@ -3158,10 +3157,12 @@
 <label key="key:621051157:54354734" value="Diese Rüstung wurde für jene geschmiedet, die gleichermaßen mutig wie tollkühn sind."/>
 <label key="key:621051158:54354734" value="Diese Rüstung wird Schlägern gewährt, die in der Gunst der Herrin und des Herrn der Galadhrim stehen."/>
 <label key="key:621051181:108054835" value="Fertigkeiten mit \qVerderbtheitsentfernung\q haben eine Wahrscheinlichkeit von 25 %, eine weiteThoure Verderbtheit zu entfernen."/>
+<label key="key:621051199:108054836" value="Scoring a Critical Hit grants bonus Tactical Mitigation rating for 10s"/>
 <label key="key:621051220:108054834" value="Der Einsatz einer Spottfertigkeit gewährt 8 Sek. lang +20 % Nahkampfschaden."/>
 <label key="key:621051220:108054835" value="Fertigkeiten mit \qVerderbtheitsentfernung\q haben eine Wahrscheinlichkeit von 25 %, eine weiteThoure Verderbtheit zu entfernen."/>
 <label key="key:621051220:108054836" value="Kritische Treffer gewähren 10 Sek. lang einen Bonus auf die taktische Schadensreduzierung."/>
 <label key="key:621051236:108054836" value="Kritische Treffer gewähren 10 Sek. lang einen Bonus auf die taktische Schadensreduzierung."/>
+<label key="key:621051239:108054834" value="Scoring a Critical Hit grants bonus Tactical Mitigation rating for 10s"/>
 <label key="key:621051246:108054835" value="Fertigkeiten mit \qVerderbtheitsentfernung\q haben eine Wahrscheinlichkeit von 25 %, eine weiteThoure Verderbtheit zu entfernen."/>
 <label key="key:621051247:108054834" value="Nahkampfschaden: + ${PERCENTVALUE}"/>
 <label key="key:621051275:108054835" value="Fertigkeiten mit \qVerderbtheitsentfernung\q haben eine Wahrscheinlichkeit von 25 %, eine weiteThoure Verderbtheit zu entfernen."/>
@@ -3171,10 +3172,8 @@
 <label key="key:621051301:108054836" value="Kritische Treffer gewähren 10 Sek. lang einen Bonus auf die taktische Schadensreduzierung."/>
 <label key="key:621051305:108054834" value="Jeder Punkt Mut gewährt 2 % kritischen Schaden."/>
 <label key="key:621051311:108054835" value="Fertigkeiten mit \qVerderbtheitsentfernung\q haben eine Wahrscheinlichkeit von 25 %, eine weiteThoure Verderbtheit zu entfernen."/>
-<label key="key:621051354:108054836" value="Kritische Treffer gewähren 10 Sek. lang einen Bonus auf die taktische Schadensreduzierung."/>
 <label key="key:621051366:108054837" value="Fertigkeiten mit \qVerderbtheitsentfernung\q haben eine Wahrscheinlichkeit von 25 %, eine weiteThoure Verderbtheit zu entfernen."/>
 <label key="key:621051386:108972340" value="Schaltet die Macht von Griff von Eärnil frei."/>
-<label key="key:621051394:108054836" value="Kritische Treffer gewähren 10 Sek. lang einen Bonus auf die taktische Schadensreduzierung."/>
 <label key="key:621051406:108054837" value="Fertigkeiten mit \qVerderbtheitsentfernung\q haben eine Wahrscheinlichkeit von 25 %, eine weiteThoure Verderbtheit zu entfernen."/>
 <label key="key:621051411:108054836" value="Kritische Treffer gewähren 10 Sek. lang einen Bonus auf die taktische Schadensreduzierung."/>
 <label key="key:621051419:108054836" value="Der Einsatz einer Spottfertigkeit gewährt 8 Sek. lang +10 % Nahkampfschaden."/>
@@ -3183,8 +3182,10 @@
 <label key="key:621051423:108054836" value="Kritische Treffer gewähren 10 Sek. lang einen Bonus auf die taktische Schadensreduzierung."/>
 <label key="key:621051453:108054835" value="Fertigkeiten mit \qVerderbtheitsentfernung\q haben eine Wahrscheinlichkeit von 25 %, eine weiteThoure Verderbtheit zu entfernen."/>
 <label key="key:621051462:108054835" value="Abklingzeit von \qWirksame Schläge\q um ${VALUE} Sek. reduziert."/>
+<label key="key:621051471:108054836" value="Die Abklingzeit von „Angeschlagen, aber nicht besiegt“ verringert sich um 30 Sek"/>
 <label key="key:621051475:108054836" value="Kritische Treffer gewähren 10 Sek. lang einen Bonus auf die taktische Schadensreduzierung."/>
 <label key="key:621051475:108054837" value="Fertigkeiten mit \qVerderbtheitsentfernung\q haben eine Wahrscheinlichkeit von 25 %, eine weiteThoure Verderbtheit zu entfernen."/>
+<label key="key:621051484:108054836" value="Jeder Schlag mit \qPrügeln\q erhöht die Chance, dass Eure nächste Anwendung von \qFaust der Valar\q ein kritischer Treffer wird."/>
 <label key="key:621058760:108054836" value="Jeder Schlag mit \qPrügeln\q erhöht die Chance, dass Eure nächste Anwendung von \qFaust der Valar\q ein kritischer Treffer wird."/>
 <label key="key:621058769:108054836" value="Wenn \qMutschild\q aktiv ist, stellen Eure Nahkampfangriff 2 % Eurer Moral wieder her."/>
 <label key="key:621058795:108054836" value="Jeder Schlag mit \qPrügeln\q erhöht die Chance, dass Eure nächste Anwendung von \qFaust der Valar\q ein kritischer Treffer wird."/>
