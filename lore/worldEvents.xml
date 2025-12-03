@@ -159,7 +159,7 @@
 <booleanWorldEvent id="1879153680" propertyId="268446592" propertyName="ze_skirmish_optional_4" default="false"/>
 <booleanWorldEvent id="1879153681" propertyId="268446593" propertyName="ze_skirmish_optional_5" default="false"/>
 <booleanWorldEvent id="1879153682" propertyId="268446594" propertyName="ze_skirmish_optional_6" default="false"/>
-<integerWorldEvent id="1879154062" propertyId="268446666" propertyName="ze_skirmish_level" default="0" min="0" max="150"/>
+<integerWorldEvent id="1879154062" propertyId="268446666" propertyName="ze_skirmish_level" default="0" min="0" max="160"/>
 <integerWorldEvent id="1879154063" propertyId="268446664" propertyName="ze_skirmish_group_size" default="0" min="0" max="100"/>
 <integerWorldEvent id="1879154064" propertyId="268446665" propertyName="ze_skirmish_difficulty" default="0" min="0" max="100"/>
 <integerWorldEvent id="1879154557" propertyId="268446725" propertyName="we_monsterplay_invasion_angmar" description="The invasion of Angmar." default="20" min="0" max="20"/>
@@ -220,8 +220,7 @@
 <booleanWorldEvent id="1879267633" propertyId="268457497" propertyName="WE_TestServer_MC_Allowance" default="false"/>
 <booleanWorldEvent id="1879283067" propertyId="268458959" propertyName="we_bounderevent_2013_serverunlock_complete" default="false"/>
 <booleanWorldEvent id="1879283077" propertyId="268458957" propertyName="we_bounderevent_2013_active" default="false"/>
-<integerWorldEvent id="1879286443" propertyId="268459106" propertyName="WE_Player_Level_Cap" description="DNT - This is the player level cap used to drive reward containers in skirmishes &amp; instances." progress="Player Level Cap ${VALUE}/${MAXVALUE}" default="150" min="0" max="150"/>
-<booleanWorldEvent id="1879301270" propertyId="268459511" propertyName="WE_TestServer_TraitPointsActive" default="false"/>
+<integerWorldEvent id="1879286443" propertyId="268459106" propertyName="WE_Player_Level_Cap" description="DNT - This is the player level cap used to drive reward containers in skirmishes &amp; instances." progress="Player Level Cap ${VALUE}/${MAXVALUE}" default="160" min="0" max="160"/>
 <booleanWorldEvent id="1879302199" propertyId="268459546" propertyName="WE_TestServer_RaidDeedsActive" default="false"/>
 <integerWorldEvent id="1879303029" propertyId="268459628" propertyName="we_rohan_west_endgame_bestowal" default="1" min="1" max="30"/>
 <integerWorldEvent id="1879308561" propertyId="268459896" propertyName="WE_Gondor_West_Endgame_Unlock_1" description="Dol Amroth - Emyn Ernil\n" progress="Dol Amroth - Emyn Ernil: ${VALUE}/${MAXVALUE}\n\nTo re-open the caves of Emyn Ernil." default="0" min="0" max="8000"/>
@@ -430,4 +429,12 @@
 <integerWorldEvent id="1879506321" propertyId="268465381" propertyName="we_ettenmoors_tr_player_ext_build" default="0" min="0" max="10"/>
 <integerWorldEvent id="1879506322" propertyId="268465378" propertyName="we_ettenmoors_lug_monster_ext_build" default="0" min="0" max="10"/>
 <integerWorldEvent id="1879506323" propertyId="268465380" propertyName="we_ettenmoors_tr_monster_ext_build" default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879507584" propertyId="268465392" propertyName="WE_Boolean_Private_Scaling_MurGhala_Idagal_6man_LTC_Lock" description="DNT - Used to end the initial window of time to complete the final 6-,am encounter 'challenge' of Emax Dul 6man Instance in Mur Ghala on Tier 3." default="false"/>
+<integerWorldEvent id="1879507586" propertyId="268465393" propertyName="WE_Integer_Private_Scaling_MurGhala_Idagal_6man_Tier_Gate" description="DNT - Controls the available tiers for Emax Dul 6man in Mur Ghala" default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879509761" propertyId="268465506" propertyName="WE_Boolean_Private_Scaling_MurGhala_Adagim_Raid_LTC_Lock" description="DNT - Used to end the initial window of time to complete the final encounter 'challenge' of Adagim Raid Instance in Mur Ghala on Tier 3." default="false"/>
+<integerWorldEvent id="1879513952" propertyId="268465556" propertyName="WE_Integer_Private_Scaling_MurGhala_Kighan_3man_Tier_Gate" description="DNT - Controls the available tiers for Emax Dul 6man in Mur Ghala" default="0" min="0" max="10"/>
+<integerWorldEvent id="1879513953" propertyId="268465555" propertyName="WE_Integer_Private_Scaling_MurGhala_An_Sheru_6man_Tier_Gate" description="DNT - Controls the available tiers for Emax Dul 6man in Mur Ghala" default="0" min="0" max="10"/>
+<booleanWorldEvent id="1879514831" propertyId="268465582" propertyName="WE_U46_Region_Quest_Status" description="DNT - If set to active then there are 160 end game quests available in the Mur Ghala region." default="true"/>
+<integerWorldEvent id="1879514832" propertyId="268465579" propertyName="WE_U46_Multi_Region_Quest_Status" description="DNT - Sets the current rotating end game regional daily quest for Mur Ghala, this is handled in the WES" default="1" min="1" max="5"/>
+<integerWorldEvent id="1879514833" propertyId="268465581" propertyName="WE_U46_Weekly_Region_Quest_Status" description="DNT - Sets the available weekly end game regional quest for Mur Ghala, this is handled in the WES" default="1" min="1" max="4"/>
 </worldEvents>
