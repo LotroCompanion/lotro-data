@@ -38053,6 +38053,17 @@
 <action skillId="1879479063" name="Melee Frost Med"/>
 </actionTableEntry>
 </actionTable>
+<actionTable id="1879480322">
+<actionTableEntry probability="50.0" cooldown="10.0">
+<action skillId="1879049732" name="a melee double attack"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="15.0">
+<action skillId="1879077453" name="Melee Min Bleed"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="15.0" targetRequiredHints="40">
+<action skillId="1879059657" name="Melee Interruption"/>
+</actionTableEntry>
+</actionTable>
 <actionTable id="1879480360">
 <actionTableEntry probability="25.0" targetDisallowedHints="51">
 <action skillId="1879480422" name="Vicious Bite"/>
@@ -46913,6 +46924,31 @@
 </actionTableEntry>
 <actionTableEntry probability="50.0" cooldown="20.0" disallowedHints="9" targetCooldown="40.0">
 <action skillId="1879520649" name="Stunning Swipe"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879521082">
+<actionTableEntry probability="50.0" cooldown="30.0">
+<action skillId="1879521092" name="Storm Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="15.0">
+<action skillId="1879521090" name="Terrifying Screech"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="20.0" targetRequiredHints="40">
+<action skillId="1879521087" name="Wing Buffet"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879521088">
+<actionTableEntry probability="50.0" cooldown="1.0">
+<action skillId="1879521081" name="Winged Strike"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="10.0">
+<action skillId="1879521085" name="Talon Swipe"/>
+</actionTableEntry>
+<actionTableEntry probability="75.0" cooldown="15.0" targetRequiredHints="40">
+<action skillId="1879521083" name="Winged Blast"/>
+</actionTableEntry>
+<actionTableEntry probability="50.0" cooldown="25.0" targetRequiredHints="40">
+<action skillId="1879521084" name="Talon Storm"/>
 </actionTableEntry>
 </actionTable>
 </actionTables>
