@@ -791,7 +791,7 @@
 <stat id="268443887" name="Ardour/Glory Pip Interval" key="Skill_Champion_ArdourPipRate"/>
 <stat id="268443888" name="Ardour Parry Chance" key="Skill_Ardour_ParryChanceMod"/>
 <stat id="268443889" name="Heroics Heal Magnitude" key="Skill_DamageMultiplier_Champion_HeroicsMoraleHeal" isPercentage="true"/>
-<stat id="268443890" name="Horn Damage" key="Skill_DamageMultiplier_HornofGondor" isPercentage="true"/>
+<stat id="268443890" name="Horn of Gondor Damage" key="Skill_DamageMultiplier_HornofGondor" isPercentage="true"/>
 <stat id="268443891" name="Sprint Duration" key="Skill_Duration_Mod_Sprint"/>
 <stat id="268443892" name="Ebbing Ire Cooldown" key="Skill_RecoveryTime_Champion_EbbingIre"/>
 <stat id="268443893" name="Ardour/Glory ICPR" key="Skill_Ardour_ICPRMod" isPercentage="true"/>
@@ -4142,7 +4142,7 @@
 <stat id="268461465" name="DNT - Effect Override" key="Trait_Beorning_Itemset_EncouragingRoar_FellowshipHot" type="ARRAY"/>
 <stat id="268461466" name="Crit-triggered Damage Buff" key="Skill_Captain_Itemset_LeadtheCharge_DamageBuff" isPercentage="true"/>
 <stat id="268461524" name="Melee Damage" key="Skill_Champion_GoodDefenceStrongOffence" isPercentage="true"/>
-<stat id="268461529" name="Deep Wound and Terrible Wound Pulses" key="EffectMod_BleedCount_Guardian_DeepWound" type="INTEGER"/>
+<stat id="268461529" name="Deep Wound and Overwhelming Wound Pulses" key="EffectMod_BleedCount_Guardian_DeepWound" type="INTEGER"/>
 <stat id="268461530" name="Battering Strikes, Suppression, and No Respite Duration" key="Skill_Warden_Assailment_Debuff_Duration"/>
 <stat id="268461534" name="Triumphant Spirit Healing" key="Skill_Minstrel_Triumphant_Spirit_Healing" isPercentage="true"/>
 <stat id="268461535" name="Hunter's Cry Runspeed Mod" key="Skill_Trait_HuntersCry_Runspeed_Mod" isPercentage="true"/>
@@ -4159,7 +4159,7 @@
 <stat id="268461567" name="Heartseeker Bleed Pulses" key="Trait_Hunter_Heartseeker_Duration" isPercentage="true" type="INTEGER"/>
 <stat id="268461572" name="Heartseeker Bleed Damage" key="Trait_Hunter_Heartseeker_Damage" isPercentage="true"/>
 <stat id="268461573" name="Challenge Cooldown" key="Skill_Guardian_Challenge_Cooldown"/>
-<stat id="268461574" name="Deep Wound and Terrible Wound Damage" key="EffectMod_BleedDamage_Guardian_DeepWound" isPercentage="true"/>
+<stat id="268461574" name="Deep Wound and Overwhelming Wound Damage" key="EffectMod_BleedDamage_Guardian_DeepWound" isPercentage="true"/>
 <stat id="268461575" name="Increases Bolster's Crit Defence magnitude" key="Skill_Guardian_BlockResponse_Bolster_CritDefense" isPercentage="true"/>
 <stat id="268461687" name="Changes player's physics controller to sliding on ice" key="ForwardSource_Physics_OnIce" type="BOOLEAN"/>
 <stat id="268461720" name="Sharp Eye Mitigation Bonus" key="Skill_Burglar_SharpEye_mitigationmod" isPercentage="true"/>
@@ -5047,7 +5047,7 @@
 <stat id="268465608" name="Water-lore Incoming Healing Potency" key="Loremaster_WaterLore_IncHealingMod" isPercentage="true"/>
 <stat id="268465623" name="DNT - Routing Cry DoT" key="Captain_RoutingCry_DoT" type="ARRAY"/>
 <stat id="268465624" name="DNT - Galant Display Damage Buff" key="Captain_GalantDisplay_DamageBuff" type="ARRAY"/>
-<stat id="268465625" name="Hammer Stoke Buff Experation Heal" key="Skill_ApplicationProb_Captain_HammerStrokeHeal" isPercentage="true"/>
+<stat id="268465625" name="DNT - Hammer-stroke Buff Expiration Heal App Chance" key="Skill_ApplicationProb_Captain_HammerStrokeHeal" isPercentage="true"/>
 <stat id="268465626" name="DNT - Routing Cry Damage Buff" key="Captain_RoutingCry_DamageMod" isPercentage="true"/>
 <stat id="268465627" name="DNT - Galant Display Stacking Damage Buff" key="Captain_RoutingCry_Stacking_Damage" type="ARRAY"/>
 <stat id="268465628" name="DNT - Hammer Strike Cooldown Reduction" key="Captain_HammerStroke_CooldownReduction" type="ARRAY"/>
@@ -5056,8 +5056,18 @@
 <stat id="268465632" name="DNT - Proc First Strike combo with no min health" key="Brawler_FirstStrike_NoMinHealth_Proc" isPercentage="true" type="ARRAY"/>
 <stat id="268465633" name="DNT - First Strike Crits increase Dev Chance" key="Brawler_FirstStrike_DevChance_OnCrit" isPercentage="true" type="ARRAY"/>
 <stat id="268465634" name="DNT - Thunderous Upheaval pulses its damage on targets" key="Brawler_ThunderousUpheaval_Damage_Threat_Echo" isPercentage="true" type="ARRAY"/>
+<stat id="268465635" name="DNT - Subtle Stab Reducing Clever Retort Cooldown" key="Burglar_CleverRetort_Cooldown_Reduction" type="ARRAY"/>
+<stat id="268465636" name="DNT - Bee Swarm Aura" key="Itemset_Beorning_BeeSwarm_Aura" type="ARRAY"/>
+<stat id="268465637" name="DNT - Slam increases potency of natures salve" key="Itemset_Beorning_Slam_NaturesSalve_PotencyBuff" type="ARRAY"/>
+<stat id="268465638" name="DNT - Bee Swarm gives the caster a damage reduction" key="Itemset_Beorning_BeeSwarm_DamageReduction" type="ARRAY"/>
+<stat id="268465639" name="DNT - Nature's salve applies a damage mitigation bonus to those hit by it" key="Itemset_Beorning_NaturesSalve_MitigationBuff" type="ARRAY"/>
 <stat id="268465640" name="DNT - Extra thrash damage on targets with swipe debuff" key="Itemset_Beorning_Thrash_Extra_Damage" type="ARRAY"/>
 <stat id="268465641" name="DNT - Final Strike cashes out Swipe Bleed for instant damage" key="Itemset_Beorning_Swipe_Bleed_Cashout" type="ARRAY"/>
 <stat id="268465647" name="DNT - Draining Strike spreads Disarming Strike" key="ItemSet_Corsair_DisarmingStrike_AOE" type="ARRAY"/>
 <stat id="268465681" name="Piercing Roar Cooldown" key="Beorning_PiercingRoar_CD"/>
+<stat id="268465717" name="Horn of Champions Cooldown" key="Champion_HornofChampions_Cooldown"/>
+<stat id="268465718" name="Horn Skills Damage" key="Champion_Horns_DamageMod" isPercentage="true"/>
+<stat id="268465719" name="DNT - War-chant Cooldown Effect for Response Skills" key="Guardian_Warchant_ResponseSkills_CooldownMods" type="ARRAY"/>
+<stat id="268465721" name="Champion's Challenge Cooldown" key="Champion_Challenge_Cooldown"/>
+<stat id="268465723" name="Chance for Deadly Precision to generate Focus" key="Trait_Hunter_Crit_Focus_AppChance" isPercentage="true"/>
 </stats>

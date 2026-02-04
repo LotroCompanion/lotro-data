@@ -5167,9 +5167,8 @@
 <trait identifier="1879260795" name="The Last Stand of Helm Hammerhand" iconId="1091787279" staticIconOverlayId="1091664889" pointCostProgression="1879252990" rankOverlayProgression="1879220093" tierProperty="Trait_MountedCombat_Rank_Minstrel3" nature="14" description="key:620914903:54354734">
 <skill rank="1" id="1879260479" name="The Last Stand of Helm Hammerhand"/>
 </trait>
-<trait identifier="1879260805" name="Brutal Charge" iconId="1091805264" nature="30" tooltip="key:620914923:191029568" description="key:620914923:54354734">
+<trait identifier="1879260805" name="Virtuous Charge" iconId="1091805264" nature="30" tooltip="key:620914923:191029568" description="key:620914923:54354734">
 <stat name="ForwardSource_Combat_Guardian_SkillCombo" descriptionOverride="key:620914923:106251889" value="(8)"/>
-<stat name="EffectMod_Duration_Guardian_Charge" descriptionOverride="key:620914923:106251890" constant="5.0"/>
 </trait>
 <trait identifier="1879260811" name="Invigourating Response" iconId="1091829802" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="4" tierProperty="trait_class_guardian_rank_5" nature="27" description="key:620914929:54354734">
 <effect id="1879272350" name="Invigourating Parry"/>
@@ -5440,8 +5439,8 @@
 <skill rank="1" id="1879111436" name="Great Cleave"/>
 </trait>
 <trait identifier="1879266995" name="Horn of Champions" iconId="1091840519" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="2" tierProperty="trait_class_champion_rank_26" nature="23" description="key:620918461:54354734">
+<stat name="Champion_HornofChampions_Cooldown" operator="SUBSTRACT" scaling="1879522372"/>
 <skill rank="1" id="1879243824" name="Horn of Champions"/>
-<effect rank="2" id="1879410115" name="Horn of Challenge"/>
 </trait>
 <trait identifier="1879266996" name="Wild Swings" iconId="1091840522" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_champion_rank_46" nature="23" description="key:620918457:54354734">
 <stat name="Skill_DamageMultiplier_WildAttack" scaling="1879270957"/>
@@ -5578,13 +5577,17 @@
 </trait>
 <trait identifier="1879268079" name="Volley" iconId="1091840218" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_hunter_rank_48" nature="21" description="key:620919311:54354734">
 <stat name="Trait_Hunter_Volley_AppChance" scaling="1879509436"/>
-<effect id="1879509440" name="DNT - Volley Effects"/>
+<compoundPrerequisite operator="NONE_OF">
+<simplePrerequisite id="1879272572" name="The Bowmaster"/>
+<simplePrerequisite id="1879272578" name="The Trapper"/>
+</compoundPrerequisite>
 </trait>
-<trait identifier="1879268080" name="Deadly Precision" iconId="1090541196" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_hunter_rank_7" nature="21" description="key:620919327:54354734">
+<trait identifier="1879268080" name="Deadly Precision" iconId="1090541196" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="2" tierProperty="trait_class_hunter_rank_7" nature="21" description="key:620919327:54354734">
 <effect id="1879289876" name="Deadly Precision"/>
+<effect rank="2" id="1879522491" name="Deadly Precision"/>
 </trait>
-<trait identifier="1879268081" name="Strength" iconId="1091841064" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="2" tierProperty="trait_class_hunter_rank_8" nature="21" description="key:620919309:54354734">
-<stat name="RANGED_DAMAGE_PERCENTAGE" scaling="1879373018"/>
+<trait identifier="1879268081" name="Strength" iconId="1091841064" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_hunter_rank_8" nature="21" description="key:620919309:54354734">
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
 </trait>
 <trait identifier="1879268082" name="Improved Distracting Shot" iconId="1091459007" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="4" tierProperty="trait_class_hunter_rank_32" nature="21" description="key:620919328:54354734">
 <stat name="IA_Hunter_Skill_RecoveryTime_DistractingShot" operator="SUBSTRACT" scaling="1879268024"/>
@@ -6581,7 +6584,7 @@
 </trait>
 <trait identifier="1879271330" name="Haemorrhage" iconId="1091829800" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_13" nature="27" description="key:620921900:54354734">
 <stat name="Skill_Guardian_BrutalAssault_Bleed_AppChance" scaling="1879271499"/>
-<stat name="Skill_Guardian_BrutalAssault_BleedDamage" scaling="1879271485"/>
+<stat name="Skill_Guardian_BrutalAssault_BleedDamage" descriptionOverride="-" scaling="1879271485"/>
 </trait>
 <trait identifier="1879271331" name="Tireless Defender" iconId="1091805244" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_guardian_rank_38" nature="27" description="key:620921888:54354734">
 <effect id="1879272355" name="Tireless Defender"/>
@@ -6642,9 +6645,8 @@
 <stat name="Trait_Guardian_Reversal_CC_Immunity_Duration" scaling="1879288930"/>
 <effect id="1879288931" name="Reversal"/>
 </trait>
-<trait identifier="1879271346" name="Tireless Blows" iconId="1091805262" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_10" nature="27" description="key:620921907:54354734">
-<stat name="Skill_Guardian_ParryResponse_CooldownReset_AppChance" scaling="1879271497"/>
-<effect id="1879272346" name="Tireless Blows"/>
+<trait identifier="1879271346" name="Faultless Assault" iconId="1091805262" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_10" nature="27" description="key:620921907:54354734">
+<stat name="Skill_DamageMultiplier_GuardianBrutalAssault" scaling="1879271497"/>
 </trait>
 <trait identifier="1879271347" name="Defensive Expertise" iconId="1092835502" staticIconOverlayId="1091664889" pointCostProgression="1879438609" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_35" nature="27" description="key:620921920:54354734">
 <effect id="1879466443" name="Defensive Expertise"/>
@@ -6719,15 +6721,17 @@
 <trait identifier="1879271367" name="High-spirited" iconId="1092835507" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_32" nature="27" description="key:620921921:54354734">
 <stat name="INCOMING_HEALING_PERCENTAGE" scaling="1879297099"/>
 </trait>
-<trait identifier="1879271368" name="Into the Fray" iconId="1092835510" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="6" tierProperty="trait_class_guardian_rank_6" nature="27" description="key:620921887:54354734">
-<stat name="Skill_Guardian_Charge_RunSpeed" scaling="1879271482"/>
-<stat name="EffectMod_Duration_Guardian_Charge" descriptionOverride="key:620921887:106251890" scaling="1879277010"/>
-<effect rank="6" id="1879314150" name="DNT - To the Rescue"/>
+<trait identifier="1879271368" name="Sting of Justice" iconId="1092835510" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="6" tierProperty="trait_class_guardian_rank_6" nature="27" description="key:620921887:54354734">
+<stat name="Skill_OverTime_Damage" scaling="1879522456"/>
 </trait>
 <trait identifier="1879271369" name="Demoralizing Anthem" iconId="1091805286" staticIconOverlayId="1091664889" pointCostProgression="1879438609" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_26" nature="27" description="key:620921913:54354734">
 <stat name="Trait_Guardian_CryOut_MaxTargets" scaling="1879277933"/>
 <stat name="ForwardSource_Combat_Guardian_SkillCombo" descriptionOverride="-" scaling="1879274004"/>
-<stat name="Trait_Guardian_WarChant_Range" descriptionOverride="-" scaling="1879297134"/>
+<effect id="1879522383" name="DNT - War-chant reduces active cooldowns of response skills"/>
+<effect rank="2" id="1879522388" name="DNT - War-chant reduces active cooldowns of response skills"/>
+<effect rank="3" id="1879522387" name="DNT - War-chant reduces active cooldowns of response skills"/>
+<effect rank="4" id="1879522386" name="DNT - War-chant reduces active cooldowns of response skills"/>
+<effect rank="5" id="1879522384" name="DNT - War-chant reduces active cooldowns of response skills"/>
 </trait>
 <trait identifier="1879271508" name="Returning Traveller" iconId="1091633528" category="29" nature="1" tooltip="key:620922038:191029568" description="key:620922038:54354734">
 <stat name="Travel_Skill_Cooldown" operator="SUBSTRACT" constant="1800.0"/>
@@ -6879,6 +6883,7 @@
 <trait identifier="1879272571" name="The Deadly Storm" iconId="1091618504" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_champion_three" nature="28" description="key:620922800:54354734">
 <stat name="ForwardSource_Combat_Champion_SkillCombo" descriptionOverride="-" value="(5)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,159)"/>
 <skill rank="1" id="1879111264" name="Rend"/>
 <skill rank="1" id="1879064067" name="Blade Storm"/>
@@ -6890,6 +6895,7 @@
 <stat name="Skill_RangedAttack_MaxRangeMod" descriptionOverride="key:620922791:106251889" constant="10.0"/>
 <stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="-" value="(22)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620922791:106251896" constant="1.1"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,160)"/>
 <skill rank="1" id="1879508096" name="Long Shot"/>
@@ -6900,9 +6906,11 @@
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620922792:106251889" constant="1.2"/>
 <stat name="ForwardSource_Combat_Champion_SkillCombo" descriptionOverride="-" value="(10)"/>
 <stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="key:620922792:106251891" value="(2,3,4,5,11,12,14,19,23,25,26,27)"/>
-<stat name="BLOCK" scaling="1879368065"/>
-<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="200.0"/>
+<stat name="Skill_RecoveryTime_Champion_Heroics" descriptionOverride="key:620922792:106251892" constant="-80.0"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="100.0"/>
+<stat name="ThreatInputModifier_Damage" descriptionOverride="-" constant="50.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
+<stat name="Champion_Challenge_Cooldown" operator="SUBSTRACT" constant="20.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
 <skill rank="1" id="1879064070" name="Sudden Defence"/>
 <effectGenerator id="1879273625" name="Masochism" spellcraft="0.0"/>
@@ -6913,6 +6921,7 @@
 <stat name="ForwardSource_Combat_Captain_SkillCombo" descriptionOverride="key:620922796:106251889" value="(18)"/>
 <specialEffect label="key:620922796:106251890"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="Skill_Captain_Herald_DamageMod" descriptionOverride="-" scaling="1879394027"/>
 <stat name="Skill_Captain_Herald_MoraleMod" descriptionOverride="-" scaling="1879394026"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,159)"/>
@@ -6927,6 +6936,7 @@
 <stat name="ForwardSource_Hunter_FocusLoss_OnMovement" operator="SET" descriptionOverride="key:620922805:106251891" constant="-1.0"/>
 <stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="-" value="(17)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,160)"/>
 <skill rank="1" id="1879270510" name="Barrage"/>
 <skill rank="1" id="1879064378" name="Scourging Blow"/>
@@ -6939,6 +6949,7 @@
 </trait>
 <trait identifier="1879272577" name="Assailment" iconId="1091618504" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_warden_three" nature="28" description="key:620922788:54354734">
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,160)"/>
 <effectGenerator id="1879457121" name="DNT" spellcraft="0.0"/>
 <effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
@@ -6947,6 +6958,7 @@
 <stat name="Itemset_Loremaster_WaterLore_IncHealingMod" operator="SET" descriptionOverride="-" constant="100.0"/>
 <stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="-" value="(21,23)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(161)"/>
 <skill rank="1" id="1879275154" name="Deadly Decoy"/>
 <skill rank="1" id="1879270551" name="Pinning Shot"/>
@@ -6955,7 +6967,9 @@
 <effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272579" name="The Watcher of Resolve" iconId="1091564746" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_minstrel_one" nature="28" description="key:620922798:54354734">
+<stat name="ForwardSource_Combat_Minstrel_SkillCombo" descriptionOverride="-" value="(27)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-60.000004"/>
+<stat name="ThreatInputModifier_Healing" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(162)"/>
 <skill rank="1" id="1879110132" name="Soliloquy of Spirit"/>
 <skill rank="1" id="1879205050" name="Lesser Anthem I - Resonance"/>
@@ -6967,6 +6981,7 @@
 <stat name="ForwardSource_Combat_Loremaster_SkillCombo" descriptionOverride="-" value="(5)"/>
 <stat name="Trait_Loremaster_PetModStat_Spec_KoA" operator="SET" descriptionOverride="-" value="1879287409L"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.67"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.67"/>
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.67"/>
@@ -6983,9 +6998,10 @@
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="7.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="7.0"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620922782:106251892" constant="1.2"/>
-<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="200.0"/>
-<stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="10.0"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="100.0"/>
+<stat name="ThreatInputModifier_Damage" descriptionOverride="key:620922782:106251894" constant="50.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
+<stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="10.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
 <skill rank="1" id="1879257541" name="Warning Shot"/>
 <skill rank="1" id="1879457568" name="Restorative Shield-work"/>
@@ -6994,8 +7010,9 @@
 </trait>
 <trait identifier="1879272582" name="The Warrior-skald" iconId="1091564741" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_minstrel_two" nature="28" description="key:620922780:54354734">
 <stat name="Combat_SkillDamageMultiplier_Light" constant="20.0"/>
-<stat name="Skill_MaxRangeMod_MP_VenomousHaze" descriptionOverride="key:620922780:106251890" constant="5.0"/>
+<stat name="ForwardSource_Combat_Minstrel_SkillCombo" descriptionOverride="key:620922780:106251890" value="(28)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,160)"/>
 <skill rank="1" id="1879110224" name="Call to Fate"/>
 <skill rank="1" id="1879205049" name="Lesser Anthem II - Dissonance"/>
@@ -7005,6 +7022,7 @@
 <trait identifier="1879272583" name="Benedictions of Peace" iconId="1091564746" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_runekeeper_one" nature="28" description="key:620922802:54354734">
 <stat name="Runekeeper_DoNotFall_Duration" constant="280.0"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-60.000004"/>
+<stat name="ThreatInputModifier_Healing" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(162)"/>
 <skill rank="1" id="1879109289" name="Writ of Health"/>
 <skill rank="1" id="1879182843" name="Rune-sign of Winter"/>
@@ -7013,6 +7031,7 @@
 </trait>
 <trait identifier="1879272584" name="Solitary Thunder" iconId="1091618504" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_runekeeper_three" nature="28" description="key:620922801:54354734">
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,160)"/>
 <skill rank="1" id="1879277416" name="Writ of Lightning"/>
 <skill rank="1" id="1879199034" name="Sustaining Bolt"/>
@@ -7025,6 +7044,7 @@
 <stat name="Skill_Burglar_SubtleStab_Cooldown" descriptionOverride="key:620922797:106251890" constant="1.5"/>
 <stat name="ForwardSource_Combat_Burglar_SkillCombo" descriptionOverride="-" value="(2)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,159)"/>
 <skill rank="1" id="1879061016" name="Trick: Enrage"/>
 <skill rank="1" id="1879060986" name="Trick: Disable"/>
@@ -7035,7 +7055,8 @@
 <trait identifier="1879272586" name="The Defender of the Free" iconId="1091564746" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_guardian_one" nature="28" description="key:620922785:54354734">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620922785:106251889" constant="1.1"/>
 <specialEffect label="key:620922785:106251890"/>
-<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="200.0"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="100.0"/>
+<stat name="ThreatInputModifier_Damage" descriptionOverride="-" constant="50.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
 <skill rank="1" id="1879109781" name="Litany of Defiance"/>
@@ -7048,6 +7069,7 @@
 <stat name="STEALTH_LEVEL" constant="2.0"/>
 <stat name="ForwardSource_Combat_Burglar_SkillCombo" descriptionOverride="-" value="(3)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,159)"/>
 <skill rank="1" id="1879112561" name="Feint Attack"/>
 <skill rank="1" id="1879263587" name="Coup De Grâce"/>
@@ -7056,10 +7078,12 @@
 </trait>
 <trait identifier="1879272588" name="The Protector of Song" iconId="1091618504" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_minstrel_three" nature="28" description="key:620922783:54354734">
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 </trait>
 <trait identifier="1879272589" name="Hands of Healing" iconId="1091564741" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_captain_two" nature="28" description="key:620922789:54354734">
 <stat name="ForwardSource_Combat_Captain_SkillCombo" descriptionOverride="key:620922789:106251889" value="(19)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="Skill_Captain_Herald_DamageMod" descriptionOverride="-" scaling="1879394027"/>
 <stat name="Skill_Captain_Herald_MoraleMod" descriptionOverride="-" scaling="1879394026"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(162)"/>
@@ -7068,6 +7092,7 @@
 </trait>
 <trait identifier="1879272590" name="Cleansing Flames" iconId="1091564741" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_runekeeper_two" nature="28" description="key:620922793:54354734">
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,160)"/>
 <skill rank="1" id="1879109616" name="Writ of Fire"/>
 <skill rank="1" id="1879107949" name="Smouldering Wrath"/>
@@ -7080,6 +7105,7 @@
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="-10.0"/>
 <stat name="Skill_Warden_PersevereHeal" operator="SUBSTRACT" constant="40.0"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,159)"/>
 <effectGenerator id="1879457118" name="DNT" spellcraft="0.0"/>
 <effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
@@ -7089,7 +7115,8 @@
 <stat name="ForwardSource_Captain_PartialParryEvent_LeaderofMen" operator="SET" descriptionOverride="key:620922794:106251890" value="true"/>
 <stat name="ForwardSource_Captain_PartialEvadeEvent_LeaderofMen" operator="SET" descriptionOverride="-" value="true"/>
 <stat name="ForwardSource_Captain_PartialBlockEvent_LeaderofMen" operator="SET" descriptionOverride="-" value="true"/>
-<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="200.0"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="100.0"/>
+<stat name="ThreatInputModifier_Damage" descriptionOverride="-" constant="50.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
 <stat name="Skill_Captain_Herald_DamageMod" descriptionOverride="-" scaling="1879394027"/>
 <stat name="Skill_Captain_Herald_MoraleMod" descriptionOverride="-" scaling="1879394026"/>
@@ -7102,10 +7129,12 @@
 </trait>
 <trait identifier="1879272593" name="The Keen Blade" iconId="1091564741" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_guardian_two" nature="28" description="key:620922786:54354734">
 <stat name="ForwardSource_Combat_Guardian_SkillCombo" descriptionOverride="key:620922786:106251889" value="(26)"/>
+<stat name="Skill_SingleTarget_Damage" descriptionOverride="-" constant="10.0"/>
+<stat name="Skill_AreaEffect_Damage" descriptionOverride="-" constant="10.0"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,159)"/>
 <skill rank="1" id="1879064290" name="Overwhelm"/>
-<skill rank="1" id="1879466327" name="Breach"/>
 <effectGenerator id="1879469032" name="DNT - Keen Blade" spellcraft="0.0"/>
 <effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
 <effectGenerator id="1879457118" name="DNT" spellcraft="0.0"/>
@@ -7114,6 +7143,7 @@
 <specialEffect label="key:620922784:106251889"/>
 <stat name="ForwardSource_Combat_Champion_SkillCombo" descriptionOverride="-" value="(6)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,159)"/>
 <skill rank="1" id="1879272098" name="Devastating Strike"/>
 <skill rank="1" id="1879176371" name="Remorseless Strike"/>
@@ -7125,6 +7155,7 @@
 <stat name="ForwardSource_Combat_Loremaster_SkillCombo" descriptionOverride="-" value="(11)"/>
 <stat name="Trait_Loremaster_PetModStat_Spec_KoA" operator="SET" descriptionOverride="-" value="1879287411L"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(161)"/>
 <skill rank="1" id="1879064249" name="Test of Will"/>
 <skill rank="1" id="1879064254" name="Fire and Frost Lore"/>
@@ -7138,6 +7169,7 @@
 <stat name="ForwardSource_Combat_CatchAll_SkillCombo" descriptionOverride="-" value="(8)"/>
 <stat name="ForwardSource_Combat_Burglar_SkillCombo" descriptionOverride="-" value="(7)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(161)"/>
 <skill rank="1" id="1879256957" name="Hedge Your Bet"/>
 <skill rank="1" id="1879113094" name="Lucky Strike"/>
@@ -7151,6 +7183,7 @@
 <stat name="Skill_RecoveryTime_Loremaster_BE" operator="SUBSTRACT" constant="2.0"/>
 <stat name="Trait_Loremaster_PetModStat_Spec_KoA" operator="SET" descriptionOverride="-" value="1879287410L"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,160)"/>
 <effectGenerator id="1879457121" name="DNT" spellcraft="0.0"/>
 <effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
@@ -7474,9 +7507,8 @@
 <trait identifier="1879274768" name="Swift Mercy" iconId="1090553930" nature="30" tooltip="key:620924616:191029568" description="key:620924616:54354734">
 <effectGenerator id="1879509069" name="DNT - Swift Bow makes Merciful Shot free" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879274769" name="Hunter's Voice" iconId="1091840352" nature="30" tooltip="key:620924621:191029568" description="key:620924621:54354734">
-<stat name="Skill_Trait_HuntersCry_Cooldown_Mod" operator="SUBSTRACT" descriptionOverride="key:620924621:106251889" constant="15.0"/>
-<stat name="Skill_Trait_HuntersCry_Runspeed_Mod" descriptionOverride="key:620924621:106251890" constant="10.0"/>
+<trait identifier="1879274769" name="Volley" iconId="1091840218" nature="30" tooltip="key:620924621:191029568" description="key:620924621:54354734">
+<effectGenerator id="1879509440" name="DNT - Volley Effects" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879274770" name="Cutting Wound" iconId="1090553940" nature="30" tooltip="key:620924618:191029568" description="key:620924618:54354734">
 <effectGenerator id="1879509066" name="DNT - Low Cut applies Lingering Wound" spellcraft="0.0"/>
@@ -8456,7 +8488,8 @@
 <stat name="ForwardSource_Combat_Beorning_SkillCombo" descriptionOverride="-" value="(14)"/>
 <stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="key:620950483:106251891" value="(2,3,4,5,11,12,14,19,23,25,26,27)"/>
 <stat name="Trait_Beorning_PDFW_CooldownMod" operator="SUBSTRACT" constant="5.0"/>
-<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="200.0"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="100.0"/>
+<stat name="ThreatInputModifier_Damage" descriptionOverride="-" constant="50.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
 <skill rank="1" id="1879315082" name="Counterattack"/>
@@ -8469,6 +8502,7 @@
 <stat name="ForwardSource_Combat_Beorning_SkillCombo" descriptionOverride="-" value="(13)"/>
 <stat name="Trait_Beorning_PDFW_CooldownMod" operator="SUBSTRACT" constant="8.0"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Healing" operator="SUBSTRACT" descriptionOverride="-" constant="25.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(162)"/>
 <skill rank="1" id="1879315183" name="Mark of Grimbeorn"/>
 <skill rank="1" id="1879315182" name="Encouraging Roar"/>
@@ -8479,6 +8513,7 @@
 <trait identifier="1879311676" name="The Claw" iconId="1091564741" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_beorning_two" nature="28" description="key:620950484:54354734">
 <stat name="ForwardSource_Combat_Beorning_SkillCombo" descriptionOverride="-" value="(15)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,159)"/>
 <skill rank="1" id="1879315032" name="Expose (Man)"/>
 <skill rank="1" id="1879315029" name="Bash"/>
@@ -8523,6 +8558,10 @@
 </trait>
 <trait identifier="1879312462" name="Plant Feet" iconId="1091917445" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_hunter_rank_57" nature="21" description="key:620950925:54354734">
 <stat name="Trait_Hunter_Volley_BowInduction_Mod_Add" descriptionOverride="key:620950925:106251889" constant="20.0"/>
+<compoundPrerequisite operator="ONE_OF">
+<simplePrerequisite id="1879272572" name="The Bowmaster"/>
+<simplePrerequisite id="1879272578" name="The Trapper"/>
+</compoundPrerequisite>
 </trait>
 <trait identifier="1879312463" name="Emergency Preparations" iconId="1091917447" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" nature="21" description="key:620950924:54354734">
 <specialEffect label="key:620950924:106251889"/>
@@ -8561,6 +8600,7 @@
 </trait>
 <trait identifier="1879314318" name="Rupture" iconId="1092835500" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_55" nature="27" description="key:620952541:54354734">
 <specialEffect label="key:620952541:106251889"/>
+<stat name="Skill_Guardian_HammerDown_CD" operator="SUBSTRACT" descriptionOverride="key:620952541:106251890" constant="5.0"/>
 <effect id="1879466652" name="DNT - Rupture"/>
 </trait>
 <trait identifier="1879314360" name="Singular Focus" iconId="1091916294" staticIconOverlayId="1091664889" pointCostProgression="1879438609" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_56" nature="27" description="key:620952567:54354734">
@@ -10373,13 +10413,15 @@
 </trait>
 <trait identifier="1879409398" name="The Fundament" iconId="1091618504" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_brawler_three" nature="28" description="key:621035446:54354734">
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 </trait>
 <trait identifier="1879409404" name="The Fulcrum" iconId="1091564746" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_brawler_one" nature="28" description="key:621035445:54354734">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="5.0"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:621035445:106251890" constant="1.1"/>
 <stat name="ForwardSource_Combat_Brawler_SkillCombo" descriptionOverride="-" value="(9)"/>
 <stat name="Skill_Brawler_ShrugItOff_CD" operator="SUBSTRACT" constant="7.0"/>
-<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="200.0"/>
+<stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="100.0"/>
+<stat name="ThreatInputModifier_Damage" descriptionOverride="-" constant="50.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
 <stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="key:621035445:106251896" value="(47)"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
@@ -10393,6 +10435,7 @@
 <stat name="MIGHT" descriptionOverride="key:621035447:106251889" scaling="1879366646"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,159)"/>
 <skill rank="1" id="1879411773" name="Shattering Fist"/>
 <skill rank="1" id="1879422473" name="Pummel"/>
@@ -11528,6 +11571,7 @@
 </trait>
 <trait identifier="1879458218" name="The Duellist" iconId="1091564741" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_corsair_two" nature="28" description="key:621072214:54354734">
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,159)"/>
 <skill rank="1" id="1879466264" name="Feint"/>
 <effectGenerator id="1879457118" name="DNT" spellcraft="0.0"/>
@@ -11536,6 +11580,7 @@
 <trait identifier="1879458219" name="The Rover" iconId="1091618504" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_corsair_three" nature="28" description="key:621072212:54354734">
 <stat name="ForwardSource_Combat_Corsair_SkillCombo" descriptionOverride="key:621072212:106251889" value="(16)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(161)"/>
 <skill rank="1" id="1879467258" name="Thrum of the Sea"/>
 <skill rank="1" id="1879469805" name="Draining Strike"/>
@@ -11544,6 +11589,7 @@
 </trait>
 <trait identifier="1879458221" name="The Shanty-caller" iconId="1091564746" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_corsair_one" nature="28" description="key:621072215:54354734">
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
+<stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
@@ -11898,7 +11944,7 @@
 <trait identifier="1879463955" name="Bulbous Glass Appearance" iconId="1090553285" category="54" nature="2" tooltip="key:621075736:191029568" description="key:621075736:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="48.0"/>
 </trait>
-<trait identifier="1879463956" name="Basic Glass Appearance" iconId="1092912117" category="54" nature="2" tooltip="key:621075775:191029568" description="key:621075775:54354734">
+<trait identifier="1879463956" name="Glass Spinner Appearance" iconId="1092912117" category="54" nature="2" tooltip="key:621075775:191029568" description="key:621075775:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="47.0"/>
 </trait>
 <trait identifier="1879463957" name="Vibrant Ungol Appearance" iconId="1092912132" category="54" nature="2" tooltip="key:621075753:191029568" description="key:621075753:54354734">
@@ -12015,8 +12061,8 @@
 <trait identifier="1879466194" name="Force Opening" iconId="1092831781" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_59" nature="27" description="key:621077745:54354734">
 <skill rank="1" id="1879102640" name="Force Opening"/>
 </trait>
-<trait identifier="1879466435" name="Relentless Fury" iconId="1091805258" minLevel="39" category="8" nature="30" tooltip="key:621077947:191029568" description="key:621077947:54354734">
-<skill id="1879466188" name="Relentless Fury"/>
+<trait identifier="1879466435" name="Righteous Fury" iconId="1091805258" minLevel="39" category="8" nature="30" tooltip="key:621077947:191029568" description="key:621077947:54354734">
+<skill id="1879466188" name="Righteous Fury"/>
 </trait>
 <trait identifier="1879466448" name="Disabling Strikes" iconId="1091805268" staticIconOverlayId="1091664889" pointCostProgression="1879438609" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_62" nature="27" description="key:621077954:54354734">
 <stat name="Trait_Guardian_FoS_RunSpeed_Buff" operator="SUBSTRACT" descriptionOverride="key:621077954:106251889" constant="12.5"/>
@@ -13544,5 +13590,11 @@
 </trait>
 <trait identifier="1879521074" name="Cozy Jingle Caparison" iconId="1093066533" category="54" nature="16">
 <group code="9" name="Body"/>
+</trait>
+<trait identifier="1879521644" name="War-steed's Ornate Leg-guards of the Wild Pasture" iconId="1092256814" category="54" nature="16">
+<group code="10" name="Legs"/>
+</trait>
+<trait identifier="1879521645" name="War-steed's Leggings of the Wild Pasture" iconId="1092256814" category="54" nature="16">
+<group code="10" name="Legs"/>
 </trait>
 </traits>

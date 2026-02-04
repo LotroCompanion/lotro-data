@@ -707,12 +707,6 @@
 <consumable identifier="1879085771" name="Snapper Soup">
 <stat name="VITALITY" constant="4.375"/>
 </consumable>
-<consumable identifier="1879085775" name="Odorous Salts">
-<stat name="CombatState_CurrentStateImmunities" descriptionOverride="key:620835099:106251889" value="(2,6,8,14)"/>
-</consumable>
-<consumable identifier="1879085776" name="Solvent of Painful Freedom">
-<stat name="CombatState_CurrentStateImmunities" descriptionOverride="key:620835097:106251889" value="(9)"/>
-</consumable>
 <consumable identifier="1879087161" name="Scroll of the Ages">
 <stat name="METALSMITH_CRIT_CHANCE_PERCENTAGE" descriptionOverride="key:620789896:106251889" constant="4.0"/>
 <stat name="WOODWORKER_CRIT_CHANCE_PERCENTAGE" descriptionOverride="-" constant="4.0"/>
@@ -1171,14 +1165,8 @@
 <stat name="HOPE" descriptionOverride="-" constant="1.0"/>
 <stat name="CRITICAL_MELEE_PERCENTAGE" constant="10.0"/>
 </consumable>
-<consumable identifier="1879097903" name="Phial of Gundzor's Breath">
-<stat name="CombatState_CurrentStateImmunities" descriptionOverride="key:620835099:106251889" value="(2,6,8,14)"/>
-</consumable>
 <consumable identifier="1879097904" name="Phial of Mazauk's Resolve">
 <stat name="CombatState_CurrentStateImmunities" descriptionOverride="key:620835098:106251889" value="(1)"/>
-</consumable>
-<consumable identifier="1879097906" name="Phial of Bûrzgoth's Strength">
-<stat name="CombatState_CurrentStateImmunities" descriptionOverride="key:620835097:106251889" value="(9)"/>
 </consumable>
 <consumable identifier="1879097907" name="Steamed Leg of Man">
 <stat name="ICPR" constant="12000.0"/>
@@ -7378,6 +7366,10 @@
 <stat name="Combat_BaseMissRate" descriptionOverride="-" constant="10.0"/>
 <stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="15.0"/>
 </consumable>
+<consumable identifier="1879446670" name="Gundabad-style Rations">
+<stat name="OCMR" constant="14515.201"/>
+<stat name="OCPR" constant="5702.3994"/>
+</consumable>
 <consumable identifier="1879448621" name="Tincture of the Fearless Heart">
 <stat name="PVPPoints_AwardMultiplier" descriptionOverride="key:621078024:106251889" constant="5.0"/>
 </consumable>
@@ -7695,15 +7687,15 @@
 <stat name="Trait_HotMultiplier_WardenShield4" descriptionOverride="key:620908771:106251890" constant="5.0"/>
 </consumable>
 <consumable identifier="1879478152" name="Scroll of Ettenmoors Warding Lore">
-<stat name="PHYSICAL_MITIGATION" constant="4130.0"/>
-<stat name="TACTICAL_MITIGATION" constant="4130.0"/>
+<stat name="PHYSICAL_MITIGATION" constant="7490.0"/>
+<stat name="TACTICAL_MITIGATION" constant="7490.0"/>
 </consumable>
 <consumable identifier="1879478164" name="Ettenmoors Edhelharn Token">
 <stat name="HOPE" constant="6.0"/>
 </consumable>
 <consumable identifier="1879478166" name="Scroll of Ettenmoors Battle Lore">
-<stat name="PHYSICAL_MASTERY" constant="4060.0"/>
-<stat name="TACTICAL_MASTERY" constant="4060.0"/>
+<stat name="PHYSICAL_MASTERY" constant="7830.0"/>
+<stat name="TACTICAL_MASTERY" constant="7830.0"/>
 </consumable>
 <consumable identifier="1879478912" name="Khôrob">
 <stat name="Combat_BaseMissRate" descriptionOverride="-" constant="15.000001"/>
@@ -7886,21 +7878,21 @@
 <stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
 </consumable>
 <consumable identifier="1879506304" name="Battle Determination Tincture">
-<stat name="PHYSICAL_MITIGATION" constant="1950.0"/>
+<stat name="PHYSICAL_MITIGATION" constant="9750.0"/>
 </consumable>
 <consumable identifier="1879506305" name="Battle Sustenance Tincture">
-<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:621106932:106251889" constant="1.025"/>
+<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:621106932:106251889" constant="1.05"/>
 </consumable>
 <consumable identifier="1879506306" name="Strength of Arms Tincture">
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="3.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="3.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
 </consumable>
 <consumable identifier="1879506307" name="Battle Fortitude Tincture">
-<stat name="TACTICAL_MITIGATION" constant="1950.0"/>
+<stat name="TACTICAL_MITIGATION" constant="9750.0"/>
 </consumable>
 <consumable identifier="1879506308" name="Battle Hardened Tincture">
-<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:621106929:106251889" constant="1.025"/>
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:621106929:106251889" constant="1.05"/>
 </consumable>
 <consumable identifier="1879506309" name="Battle Fortitude Tincture">
 <stat name="TACTICAL_MITIGATION" constant="9750.0"/>
@@ -7909,8 +7901,8 @@
 <stat name="PHYSICAL_MITIGATION" constant="9750.0"/>
 </consumable>
 <consumable identifier="1879506311" name="For the Glory of... Tincture">
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:621106927:106251889" constant="10.0"/>
-<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="10.0"/>
+<stat name="Glory_AwardMultiplier" descriptionOverride="key:621106927:106251889" constant="20.0"/>
+<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="20.0"/>
 </consumable>
 <consumable identifier="1879506517" name="Builder's Alacrity Tincture">
 <stat name="Skill_InductionDuration_EventSkillsMod" operator="MULTIPLY" descriptionOverride="key:621107130:106251889" constant="0.85"/>
@@ -7919,11 +7911,63 @@
 <stat name="Combat_BaseMissRate" descriptionOverride="-" constant="5.0"/>
 <stat name="Hobby_Fishing_ProficiencyModifier" operator="SUBSTRACT" descriptionOverride="-" constant="10.0"/>
 </consumable>
+<consumable identifier="1879512391" name="Rationed Roasted Oryx Shank">
+<stat name="MIGHT" constant="2530.6123"/>
+<stat name="RESISTANCE" constant="23112.244"/>
+<stat name="Resist_Additional_Resistance_Poison" constant="2.0"/>
+<stat name="Resist_Additional_Resistance_Disease" constant="2.0"/>
+<stat name="Resist_Additional_Resistance_Fear" constant="2.0"/>
+<stat name="Resist_Additional_Resistance_Wound" constant="2.0"/>
+</consumable>
+<consumable identifier="1879512392" name="Luxurious Fish and Veggie Plate">
+<stat name="ICPR" constant="4800.0"/>
+<stat name="ICMR" constant="17136.0"/>
+<stat name="OCPR" constant="96000.0"/>
+<stat name="OCMR" constant="244800.0"/>
+</consumable>
+<consumable identifier="1879512401" name="Luxurious Roasted Oryx Shank">
+<stat name="MIGHT" constant="2846.7346"/>
+<stat name="RESISTANCE" constant="23112.244"/>
+<stat name="Resist_Additional_Resistance_Poison" constant="2.5"/>
+<stat name="Resist_Additional_Resistance_Disease" constant="2.5"/>
+<stat name="Resist_Additional_Resistance_Fear" constant="2.5"/>
+<stat name="Resist_Additional_Resistance_Wound" constant="2.5"/>
+</consumable>
+<consumable identifier="1879512402" name="Luxurious Stuffed Eggplant">
+<stat name="AGILITY" constant="2846.7346"/>
+<stat name="RESISTANCE" constant="23112.244"/>
+<stat name="Resist_Additional_Resistance_Poison" constant="2.5"/>
+<stat name="Resist_Additional_Resistance_Disease" constant="2.5"/>
+<stat name="Resist_Additional_Resistance_Fear" constant="2.5"/>
+<stat name="Resist_Additional_Resistance_Wound" constant="2.5"/>
+</consumable>
 <consumable identifier="1879512403" name="Fish and Veggie Plate">
 <stat name="ICPR" constant="4800.0"/>
 <stat name="ICMR" constant="17136.0"/>
 <stat name="OCPR" constant="76800.0"/>
 <stat name="OCMR" constant="196200.0"/>
+</consumable>
+<consumable identifier="1879512404" name="Rationed Fish and Veggie Plate">
+<stat name="ICPR" constant="4800.0"/>
+<stat name="ICMR" constant="17136.0"/>
+<stat name="OCPR" constant="67200.0"/>
+<stat name="OCMR" constant="171600.0"/>
+</consumable>
+<consumable identifier="1879512422" name="Rationed Eggplant Dip">
+<stat name="WILL" constant="2530.6123"/>
+<stat name="RESISTANCE" constant="23112.244"/>
+<stat name="Resist_Additional_Resistance_Poison" constant="2.0"/>
+<stat name="Resist_Additional_Resistance_Disease" constant="2.0"/>
+<stat name="Resist_Additional_Resistance_Fear" constant="2.0"/>
+<stat name="Resist_Additional_Resistance_Wound" constant="2.0"/>
+</consumable>
+<consumable identifier="1879512427" name="Luxurious Eggplant Dip">
+<stat name="WILL" constant="2846.7346"/>
+<stat name="RESISTANCE" constant="23112.244"/>
+<stat name="Resist_Additional_Resistance_Poison" constant="2.5"/>
+<stat name="Resist_Additional_Resistance_Disease" constant="2.5"/>
+<stat name="Resist_Additional_Resistance_Fear" constant="2.5"/>
+<stat name="Resist_Additional_Resistance_Wound" constant="2.5"/>
 </consumable>
 <consumable identifier="1879512429" name="Eggplant Dip">
 <stat name="WILL" constant="2530.6123"/>
@@ -7935,6 +7979,14 @@
 </consumable>
 <consumable identifier="1879512430" name="Roasted Oryx Shank">
 <stat name="MIGHT" constant="2530.6123"/>
+<stat name="RESISTANCE" constant="23112.244"/>
+<stat name="Resist_Additional_Resistance_Poison" constant="2.0"/>
+<stat name="Resist_Additional_Resistance_Disease" constant="2.0"/>
+<stat name="Resist_Additional_Resistance_Fear" constant="2.0"/>
+<stat name="Resist_Additional_Resistance_Wound" constant="2.0"/>
+</consumable>
+<consumable identifier="1879512431" name="Rationed Stuffed Eggplant">
+<stat name="AGILITY" constant="2530.6123"/>
 <stat name="RESISTANCE" constant="23112.244"/>
 <stat name="Resist_Additional_Resistance_Poison" constant="2.0"/>
 <stat name="Resist_Additional_Resistance_Disease" constant="2.0"/>
@@ -7986,7 +8038,9 @@
 </consumable>
 <consumable identifier="1879518804" name="Mûrai Edhelharn Token">
 <stat name="HOPE" constant="6.0"/>
-<stat name="RESISTANCE" constant="592.5834"/>
+<stat name="RESISTANCE" constant="636.6666"/>
+<stat name="HOPE" constant="6.0"/>
+<stat name="RESISTANCE" constant="636.6666"/>
 </consumable>
 <consumable identifier="1879518806" name="Mûrai Westernesse Shield-spike Kit">
 <stat name="Item_Guardian_ShieldSpikes_Damage" modifiers="268458007" constant="8.0"/>
@@ -7994,14 +8048,14 @@
 <stat name="Skill_Warden_CriticalDamage_ShieldSkills" modifiers="268460097" constant="0.0"/>
 </consumable>
 <consumable identifier="1879518811" name="Pot of Mûrai Honey and Oats">
-<stat name="FIRE_MITIGATION" constant="17500.0"/>
-<stat name="SHADOW_MITIGATION" constant="5250.0"/>
-<stat name="Combat_Agent_Armor_Value_Float" constant="8750.0"/>
+<stat name="FIRE_MITIGATION" constant="32500.0"/>
+<stat name="SHADOW_MITIGATION" constant="9750.0"/>
+<stat name="Combat_Agent_Armor_Value_Float" constant="16300.0"/>
 <stat name="PERCEIVED_THREAT" constant="15.000001"/>
 </consumable>
 <consumable identifier="1879518819" name="Nakhód Júra">
-<stat name="MIGHT" constant="2905.9185"/>
-<stat name="RESISTANCE" constant="23565.307"/>
+<stat name="MIGHT" constant="2451.6326"/>
+<stat name="RESISTANCE" constant="22432.652"/>
 <stat name="Resist_Additional_Resistance_Poison" constant="2.0"/>
 <stat name="Resist_Additional_Resistance_Disease" constant="2.0"/>
 <stat name="Resist_Additional_Resistance_Fear" constant="2.0"/>
@@ -8012,19 +8066,34 @@
 <stat name="OCPR" constant="22080.0"/>
 </consumable>
 <consumable identifier="1879519245" name="Shéra Zajâna">
-<stat name="AGILITY" constant="2905.9185"/>
-<stat name="RESISTANCE" constant="23565.307"/>
+<stat name="AGILITY" constant="2451.6326"/>
+<stat name="RESISTANCE" constant="22432.652"/>
 <stat name="Resist_Additional_Resistance_Poison" constant="2.0"/>
 <stat name="Resist_Additional_Resistance_Disease" constant="2.0"/>
 <stat name="Resist_Additional_Resistance_Fear" constant="2.0"/>
 <stat name="Resist_Additional_Resistance_Wound" constant="2.0"/>
 </consumable>
 <consumable identifier="1879520449" name="Inba-hûtu">
-<stat name="WILL" constant="2905.9185"/>
-<stat name="RESISTANCE" constant="23565.307"/>
+<stat name="WILL" constant="2451.6326"/>
+<stat name="RESISTANCE" constant="22432.652"/>
 <stat name="Resist_Additional_Resistance_Poison" constant="2.0"/>
 <stat name="Resist_Additional_Resistance_Disease" constant="2.0"/>
 <stat name="Resist_Additional_Resistance_Fear" constant="2.0"/>
 <stat name="Resist_Additional_Resistance_Wound" constant="2.0"/>
+</consumable>
+<consumable identifier="1879521805" name="Splendid Mûrai Feast">
+<stat name="VITALITY" constant="1839.1837"/>
+<stat name="MIGHT" constant="1266.1224"/>
+<stat name="AGILITY" constant="1266.1224"/>
+<stat name="WILL" constant="1266.1224"/>
+<stat name="ICPR" constant="4639.592"/>
+<stat name="ICMR" constant="15744.49"/>
+<stat name="OCPR" constant="123722.445"/>
+<stat name="OCMR" constant="252232.64"/>
+<stat name="RESISTANCE" constant="23112.244"/>
+<stat name="Resist_Additional_Resistance_Poison" constant="2.5"/>
+<stat name="Resist_Additional_Resistance_Disease" constant="2.5"/>
+<stat name="Resist_Additional_Resistance_Fear" constant="2.5"/>
+<stat name="Resist_Additional_Resistance_Wound" constant="2.5"/>
 </consumable>
 </consumables>

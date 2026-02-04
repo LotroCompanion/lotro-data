@@ -17567,7 +17567,7 @@
 <effect id="1879335384" name="DNT - 5-piece greater and 3-piece lesser add 25% to remove additional corruption"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_RecoveryTime_Minstrel_CalltoGreatness" operator="SUBSTRACT" constant="60.0"/>
+<stat name="Skill_RecoveryTime_Minstrel_CalltoGreatness" operator="SUBSTRACT" constant="30.0"/>
 </bonus>
 <bonus nbItems="5">
 <stat name="SHADOW_MITIGATION_PERCENTAGE" constant="5.0"/>
@@ -19093,7 +19093,7 @@
 <effect id="1879335384" name="DNT - 5-piece greater and 3-piece lesser add 25% to remove additional corruption"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_RecoveryTime_Minstrel_CalltoGreatness" operator="SUBSTRACT" constant="60.0"/>
+<stat name="Skill_RecoveryTime_Minstrel_CalltoGreatness" operator="SUBSTRACT" constant="30.0"/>
 </bonus>
 <bonus nbItems="5">
 <stat name="SHADOW_MITIGATION_PERCENTAGE" constant="5.0"/>
@@ -23752,7 +23752,7 @@
 <stat name="ALL_SKILL_INDUCTION" constant="-10.0"/>
 </bonus>
 <bonus nbItems="4">
-<stat name="Skill_RecoveryTime_Minstrel_CalltoGreatness" operator="SUBSTRACT" descriptionOverride="key:621062838:108054836" constant="60.0"/>
+<stat name="Skill_RecoveryTime_Minstrel_CalltoGreatness" operator="SUBSTRACT" descriptionOverride="key:621062838:108054836" constant="30.0"/>
 </bonus>
 <bonus nbItems="5"/>
 </set>
@@ -26323,7 +26323,7 @@
 <item id="1879496143" name="Kinta Pauldrons of the Vanguard"/>
 <item id="1879496157" name="Kinta Greaves of the Vanguard"/>
 <bonus nbItems="2">
-<stat name="ForwardSource_Combat_Captain_SkillCombo" descriptionOverride="key:621088849:108054834" value="(29)"/>
+<stat name="Skill_Captain_IA_BattleShout_Damage" constant="25.0"/>
 </bonus>
 <bonus nbItems="4">
 <stat name="Skill_Captain_Songbrother_IncDamage" constant="10.0"/>
@@ -27052,7 +27052,7 @@
 <effect id="1879490326" name="Scintillating Light"/>
 </bonus>
 </set>
-<set id="1879491668" name="Storm-touched Uniform" useAverageItemLevel="true" description="">
+<set id="1879491668" name="Storm-touched Uniform&#10;(Max Level: 154)" level="150" maxLevel="154" description="">
 <item id="1879491184" name="Flame-licked Band"/>
 <item id="1879491194" name="Flame-licked Cops"/>
 <item id="1879491161" name="Flame-licked Robe"/>
@@ -27073,7 +27073,7 @@
 <effect id="1879491757" name="DNT - Defy Death cooldown/activator"/>
 </bonus>
 </set>
-<set id="1879491669" name="Storm-touched Garb" useAverageItemLevel="true" description="">
+<set id="1879491669" name="Storm-rent Garb" useAverageItemLevel="true" description="">
 <item id="1879491180" name="Tournament Scout's Wrap"/>
 <item id="1879491151" name="Tournament Scout's Shoulder-guards"/>
 <item id="1879491168" name="Tournament Scout's Coat"/>
@@ -27093,7 +27093,7 @@
 <stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
-<set id="1879491671" name="Storm-touched Armour" useAverageItemLevel="true" description="">
+<set id="1879491671" name="Storm-touched Armour&#10;(Max Level: 154)" level="150" maxLevel="154" description="">
 <item id="1879491157" name="Flame-licked Great Helm"/>
 <item id="1879491166" name="Flame-licked Pauldrons"/>
 <item id="1879491171" name="Flame-licked Hauberk"/>
@@ -27114,7 +27114,7 @@
 <effect id="1879491757" name="DNT - Defy Death cooldown/activator"/>
 </bonus>
 </set>
-<set id="1879491672" name="Storm-touched Armour" useAverageItemLevel="true" description="">
+<set id="1879491672" name="Storm-rent Armour" useAverageItemLevel="true" description="">
 <item id="1879491164" name="Tournament Warrior's Helm"/>
 <item id="1879491147" name="Tournament Warrior's Pauldrons"/>
 <item id="1879491153" name="Tournament Warrior's Hauberk"/>
@@ -27134,7 +27134,7 @@
 <stat name="VITALITY" scaling="1879211535"/>
 </bonus>
 </set>
-<set id="1879491673" name="Storm-touched Garb" useAverageItemLevel="true" description="">
+<set id="1879491673" name="Storm-touched Garb&#10;(Max Level: 154)" level="150" maxLevel="154" description="">
 <item id="1879491183" name="Flame-licked Medium Helm"/>
 <item id="1879491162" name="Flame-licked Shoulder-guards"/>
 <item id="1879491160" name="Flame-licked Coat"/>
@@ -27155,7 +27155,7 @@
 <effect id="1879491757" name="DNT - Defy Death cooldown/activator"/>
 </bonus>
 </set>
-<set id="1879491674" name="Storm-touched Uniform" useAverageItemLevel="true" description="">
+<set id="1879491674" name="Storm-rent Uniform" useAverageItemLevel="true" description="">
 <item id="1879491182" name="Tournament Sage's Band"/>
 <item id="1879491198" name="Tournament Sage's Cops"/>
 <item id="1879491154" name="Tournament Sage's Robe"/>
@@ -27703,6 +27703,695 @@
 </bonus>
 <bonus nbItems="4">
 <stat name="Corsair_Riposte_Debuff_Potency" constant="3.0"/>
+</bonus>
+</set>
+<set id="1879517353" name="Armour of Tempered Blades&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516834" name="Blighted Helmet of Tempered Blades"/>
+<item id="1879516807" name="Blighted Pauldrons of Tempered Blades"/>
+<item id="1879516820" name="Blighted Hauberk of Tempered Blades"/>
+<item id="1879516748" name="Blighted Gauntlets of Tempered Blades"/>
+<item id="1879516674" name="Blighted Leggings of Tempered Blades"/>
+<item id="1879516714" name="Blighted Greaves of Tempered Blades"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879517354" name="Armour of Unbroken Spirit&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516803" name="Blighted Helmet of Unbroken Spirit"/>
+<item id="1879516788" name="Blighted Pauldrons of Unbroken Spirit"/>
+<item id="1879516844" name="Blighted Hauberk of Unbroken Spirit"/>
+<item id="1879516670" name="Blighted Gauntlets of Unbroken Spirit"/>
+<item id="1879516790" name="Blighted Leggings of Unbroken Spirit"/>
+<item id="1879516734" name="Blighted Greaves of Unbroken Spirit"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<effect id="1879517542" name="DNT - Gift of Spirit Heal Echo on Shield Brother"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879517532" name="DNT - Shield of Dunedain AOE Overide"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="7.5000005"/>
+</bonus>
+</set>
+<set id="1879517355" name="Armour of the Swarm&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516850" name="Blighted Helmet of the Swarm"/>
+<item id="1879516634" name="Blighted Pauldrons of the Swarm"/>
+<item id="1879516796" name="Blighted Hauberk of the Swarm"/>
+<item id="1879516661" name="Blighted Gauntlets of the Swarm"/>
+<item id="1879516725" name="Blighted Leggings of the Swarm"/>
+<item id="1879516742" name="Blighted Greaves of the Swarm"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879517790" name="DNT - Bee Swarm gives the caster a damage reduction"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879517356" name="Armour of the War-lord&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516698" name="Blighted Helmet of the Warlord"/>
+<item id="1879516841" name="Blighted Pauldrons of the Warlord"/>
+<item id="1879516744" name="Blighted Hauberk of the Warlord"/>
+<item id="1879516830" name="Blighted Gauntlets of the Warlord"/>
+<item id="1879516718" name="Blighted Leggings of the Warlord"/>
+<item id="1879516815" name="Blighted Greaves of the Warlord"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517357" name="Armour of the Shanty-caller&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516724" name="Blighted Helm of the Shanty-caller"/>
+<item id="1879516690" name="Blighted Shoulder-guards of the Shanty-caller"/>
+<item id="1879516684" name="Blighted Coat of the Shanty-caller"/>
+<item id="1879516682" name="Blighted Bracers of the Shanty-caller"/>
+<item id="1879516771" name="Blighted Leggings of the Shanty-caller"/>
+<item id="1879516664" name="Blighted Boots of the Shanty-caller"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517358" name="Armour of the Royal Guard&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516782" name="Blighted Helmet of the Royal Guard"/>
+<item id="1879516773" name="Blighted Pauldrons of the Royal Guard"/>
+<item id="1879516633" name="Blighted Hauberk of the Royal Guard"/>
+<item id="1879516767" name="Blighted Gauntlets of the Royal Guard"/>
+<item id="1879516694" name="Blighted Leggings of the Royal Guard"/>
+<item id="1879516707" name="Blighted Greaves of the Royal Guard"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879517359" name="Armour of the Duellist&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516775" name="Blighted Helm of the Duellist"/>
+<item id="1879516644" name="Blighted Shoulder-guards of the Duellist"/>
+<item id="1879516697" name="Blighted Coat of the Duellist"/>
+<item id="1879516740" name="Blighted Bracers of the Duellist"/>
+<item id="1879516827" name="Blighted Leggings of the Duellist"/>
+<item id="1879516789" name="Blighted Boots of the Duellist"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517360" name="Armour of the Dôlo&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516653" name="Blighted Helmet of the Dôlo"/>
+<item id="1879516848" name="Blighted Pauldrons of the Dôlo"/>
+<item id="1879516816" name="Blighted Hauberk of the Dôlo"/>
+<item id="1879516752" name="Blighted Gauntlets of the Dôlo"/>
+<item id="1879516649" name="Blighted Leggings of the Dôlo"/>
+<item id="1879516824" name="Blighted Greaves of the Dôlo"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="Skill_ApplicationProb_Captain_HammerStrokeHeal" descriptionOverride="key:621116385:108054835" constant="100.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879517527" name="DNT - Pressing Attack reduces Hammer Stroke Cooldown"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879517362" name="Armour of Triumphant Song&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516692" name="Blighted Mask of Triumphant Song"/>
+<item id="1879516683" name="Blighted Shoulder-guards of Triumphant Song"/>
+<item id="1879516635" name="Blighted Shirt of Triumphant Song"/>
+<item id="1879516805" name="Blighted Gloves of Triumphant Song"/>
+<item id="1879516637" name="Blighted Leggings of Triumphant Song"/>
+<item id="1879516846" name="Blighted Shoes of Triumphant Song"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="7.5000005"/>
+</bonus>
+</set>
+<set id="1879517363" name="Armour of the Skin-changer Brute&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516672" name="Blighted Helmet of the Skin-changer Brute"/>
+<item id="1879516639" name="Blighted Pauldrons of the Skin-changer Brute"/>
+<item id="1879516761" name="Blighted Hauberk of the Skin-changer Brute"/>
+<item id="1879516636" name="Blighted Gauntlets of the Skin-changer Brute"/>
+<item id="1879516689" name="Blighted Leggings of the Skin-changer Brute"/>
+<item id="1879516733" name="Blighted Greaves of the Skin-changer Brute"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517365" name="Armour of Booming Thunder&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516808" name="Blighted Mask of Booming Thunder"/>
+<item id="1879516741" name="Blighted Shoulder-guards of Booming Thunder"/>
+<item id="1879516706" name="Blighted Shirt of Booming Thunder"/>
+<item id="1879516665" name="Blighted Gloves of Booming Thunder"/>
+<item id="1879516842" name="Blighted Leggings of Booming Thunder"/>
+<item id="1879516647" name="Blighted Shoes of Booming Thunder"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517366" name="Armour of Nature's Bounty&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516766" name="Blighted Helmet of Nature's Bounty"/>
+<item id="1879516710" name="Blighted Pauldrons of Nature's Bounty"/>
+<item id="1879516659" name="Blighted Hauberk of Nature's Bounty"/>
+<item id="1879516747" name="Blighted Gauntlets of Nature's Bounty"/>
+<item id="1879516804" name="Blighted Leggings of Nature's Bounty"/>
+<item id="1879516702" name="Blighted Greaves of Nature's Bounty"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="7.5000005"/>
+</bonus>
+</set>
+<set id="1879517367" name="Armour of the Tempest&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516806" name="Blighted Mask of the Tempest"/>
+<item id="1879516651" name="Blighted Shoulder-guards of the Tempest"/>
+<item id="1879516711" name="Blighted Shirt of the Tempest"/>
+<item id="1879516723" name="Blighted Gloves of the Tempest"/>
+<item id="1879516787" name="Blighted Leggings of the Tempest"/>
+<item id="1879516730" name="Blighted Shoes of the Tempest"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517368" name="Armour of the Keeper&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516798" name="Blighted Mask of the Keeper"/>
+<item id="1879516818" name="Blighted Shoulder-guards of the Keeper"/>
+<item id="1879516700" name="Blighted Shirt of the Keeper"/>
+<item id="1879516839" name="Blighted Gloves of the Keeper"/>
+<item id="1879516764" name="Blighted Leggings of the Keeper"/>
+<item id="1879516641" name="Blighted Shoes of the Keeper"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517370" name="Armour of Cold Comfort&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516691" name="Blighted Mask of Cold Comfort"/>
+<item id="1879516750" name="Blighted Shoulder-guards of Cold Comfort"/>
+<item id="1879516731" name="Blighted Shirt of Cold Comfort"/>
+<item id="1879516852" name="Blighted Gloves of Cold Comfort"/>
+<item id="1879516631" name="Blighted Leggings of Cold Comfort"/>
+<item id="1879516630" name="Blighted Shoes of Cold Comfort"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="7.5000005"/>
+</bonus>
+</set>
+<set id="1879517371" name="Armour of the Earth Shaker&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516638" name="Blighted Helmet of the Earth Shaker"/>
+<item id="1879516821" name="Blighted Pauldrons of the Earth Shaker"/>
+<item id="1879516681" name="Blighted Hauberk of the Earth Shaker"/>
+<item id="1879516739" name="Blighted Gauntlets of the Earth Shaker"/>
+<item id="1879516678" name="Blighted Leggings of the Earth Shaker"/>
+<item id="1879516801" name="Blighted Greaves of the Earth Shaker"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="ForwardSource_Combat_Brawler_SkillCombo" descriptionOverride="key:621116503:108054835" value="(17)"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879517601" name="DNT - Thunderous Upheaval pulses its damage on targets"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879517372" name="Armour of the Desert Sun&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516799" name="Blighted Mask of the Desert Sun"/>
+<item id="1879516792" name="Blighted Shoulder-guards of the Desert Sun"/>
+<item id="1879516817" name="Blighted Shirt of the Desert Sun"/>
+<item id="1879516728" name="Blighted Gloves of the Desert Sun"/>
+<item id="1879516849" name="Blighted Leggings of the Desert Sun"/>
+<item id="1879516793" name="Blighted Shoes of the Desert Sun"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517373" name="Armour of the Endless Flame&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516669" name="Blighted Mask of the Endless Flame"/>
+<item id="1879516791" name="Blighted Shoulder-guards of the Endless Flame"/>
+<item id="1879516847" name="Blighted Shirt of the Endless Flame"/>
+<item id="1879516785" name="Blighted Gloves of the Endless Flame"/>
+<item id="1879516754" name="Blighted Leggings of the Endless Flame"/>
+<item id="1879516829" name="Blighted Shoes of the Endless Flame"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517374" name="Armour of the Red Hand&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516642" name="Blighted Helmet of the Red Hand"/>
+<item id="1879516774" name="Blighted Pauldrons of the Red Hand"/>
+<item id="1879516826" name="Blighted Hauberk of the Red Hand"/>
+<item id="1879516719" name="Blighted Gauntlets of the Red Hand"/>
+<item id="1879516756" name="Blighted Leggings of the Red Hand"/>
+<item id="1879516753" name="Blighted Greaves of the Red Hand"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<effect id="1879517586" name="DNT - First Strike Crits increase Devestate Chance"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879517578" name="DNT - Proc new First Strike with no min health"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517375" name="Armour of the Skirmisher&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516768" name="Blighted Helm of the Skirmisher"/>
+<item id="1879516783" name="Blighted Shoulder-guards of the Skirmisher"/>
+<item id="1879516648" name="Blighted Coat of the Skirmisher"/>
+<item id="1879516686" name="Blighted Bracers of the Skirmisher"/>
+<item id="1879516749" name="Blighted Leggings of the Skirmisher"/>
+<item id="1879516704" name="Blighted Boots of the Skirmisher"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517376" name="Armour of the Herbalist&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516655" name="Blighted Mask of the Herbalist"/>
+<item id="1879516716" name="Blighted Shoulder-guards of the Herbalist"/>
+<item id="1879516795" name="Blighted Shirt of the Herbalist"/>
+<item id="1879516658" name="Blighted Gloves of the Herbalist"/>
+<item id="1879516759" name="Blighted Leggings of the Herbalist"/>
+<item id="1879516643" name="Blighted Shoes of the Herbalist"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="VITALITY" scaling="1879211533"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+</bonus>
+</set>
+<set id="1879517378" name="Armour of the Clever Thief&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516715" name="Blighted Helm of the Clever Thief"/>
+<item id="1879516699" name="Blighted Shoulder-guards of the Clever Thief"/>
+<item id="1879516646" name="Blighted Coat of the Clever Thief"/>
+<item id="1879516810" name="Blighted Bracers of the Clever Thief"/>
+<item id="1879516675" name="Blighted Leggings of the Clever Thief"/>
+<item id="1879516663" name="Blighted Boots of the Clever Thief"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<effect id="1879517605" name="DNT - Clever Retort reduces Subtle Stab Cooldown"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="ForwardSource_Combat_Burglar_SkillCombo" descriptionOverride="key:621116376:108054836" value="(28)"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="VITALITY" scaling="1879211533"/>
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+</bonus>
+</set>
+<set id="1879517379" name="Armour of the Outrider&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516732" name="Blighted Helm of the Outrider"/>
+<item id="1879516823" name="Blighted Shoulder-guards of the Outrider"/>
+<item id="1879516840" name="Blighted Coat of the Outrider"/>
+<item id="1879516685" name="Blighted Bracers of the Outrider"/>
+<item id="1879516708" name="Blighted Leggings of the Outrider"/>
+<item id="1879516721" name="Blighted Boots of the Outrider"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="VITALITY" scaling="1879211533"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+</bonus>
+</set>
+<set id="1879517380" name="Armour of Bones&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516727" name="Blighted Helm of Bones"/>
+<item id="1879516769" name="Blighted Shoulder-guards of Bones"/>
+<item id="1879516758" name="Blighted Coat of Bones"/>
+<item id="1879516812" name="Blighted Bracers of Bones"/>
+<item id="1879516786" name="Blighted Leggings of Bones"/>
+<item id="1879516667" name="Blighted Boots of Bones"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="Skill_Burglar_DamagingGamble_BleedDamage" constant="20.0"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517382" name="Armour of Shadows&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516780" name="Blighted Helm of Shadows"/>
+<item id="1879516632" name="Blighted Shoulder-guards of Shadows"/>
+<item id="1879516712" name="Blighted Coat of Shadows"/>
+<item id="1879516809" name="Blighted Bracers of Shadows"/>
+<item id="1879516660" name="Blighted Leggings of Shadows"/>
+<item id="1879516656" name="Blighted Boots of Shadows"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517383" name="Armour of the Blade Storm&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516676" name="Blighted Helmet of the Blade Storm"/>
+<item id="1879516814" name="Blighted Pauldrons of the Blade Storm"/>
+<item id="1879516832" name="Blighted Hauberk of the Blade Storm"/>
+<item id="1879516654" name="Blighted Gauntlets of the Blade Storm"/>
+<item id="1879516743" name="Blighted Leggings of the Blade Storm"/>
+<item id="1879516729" name="Blighted Greaves of the Blade Storm"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517384" name="Armour of the Far Shield&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516800" name="Blighted Helm of the Far Shield"/>
+<item id="1879516673" name="Blighted Shoulder-guards of the Far Shield"/>
+<item id="1879516757" name="Blighted Coat of the Far Shield"/>
+<item id="1879516836" name="Blighted Bracers of the Far Shield"/>
+<item id="1879516738" name="Blighted Leggings of the Far Shield"/>
+<item id="1879516629" name="Blighted Boots of the Far Shield"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879517385" name="Armour of the Silver Arrow&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516657" name="Blighted Helm of the Silver Arrow"/>
+<item id="1879516802" name="Blighted Shoulder-guards of the Silver Arrow"/>
+<item id="1879516671" name="Blighted Coat of the Silver Arrow"/>
+<item id="1879516851" name="Blighted Bracers of the Silver Arrow"/>
+<item id="1879516687" name="Blighted Leggings of the Silver Arrow"/>
+<item id="1879516828" name="Blighted Boots of the Silver Arrow"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517386" name="Armour of the Keen Blade&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516822" name="Blighted Helmet of the Keen Blade"/>
+<item id="1879516645" name="Blighted Pauldrons of the Keen Blade"/>
+<item id="1879516762" name="Blighted Hauberk of the Keen Blade"/>
+<item id="1879516784" name="Blighted Gauntlets of the Keen Blade"/>
+<item id="1879516717" name="Blighted Leggings of the Keen Blade"/>
+<item id="1879516751" name="Blighted Greaves of the Keen Blade"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517387" name="Armour of the Philosopher&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516679" name="Blighted Helm of the Philosopher"/>
+<item id="1879516693" name="Blighted Shoulder-guards of the Philosopher"/>
+<item id="1879516794" name="Blighted Coat of the Philosopher"/>
+<item id="1879516813" name="Blighted Bracers of the Philosopher"/>
+<item id="1879516662" name="Blighted Leggings of the Philosopher"/>
+<item id="1879516746" name="Blighted Boots of the Philosopher"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<effect id="1879518198" name="DNT - Draining strike spreads Disarming Strike"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="VITALITY" scaling="1879211533"/>
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+</bonus>
+</set>
+<set id="1879517388" name="Armour of the Wound Carver&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516628" name="Blighted Helm of the Wound Carver"/>
+<item id="1879516835" name="Blighted Shoulder-guards of the Wound Carver"/>
+<item id="1879516765" name="Blighted Coat of the Wound Carver"/>
+<item id="1879516779" name="Blighted Bracers of the Wound Carver"/>
+<item id="1879516709" name="Blighted Leggings of the Wound Carver"/>
+<item id="1879516838" name="Blighted Boots of the Wound Carver"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879517389" name="Armour of the Battle Cry&#10;(Max Level: 164)" level="570" maxLevel="164" description="">
+<item id="1879516837" name="Blighted Helmet of the Battle Cry"/>
+<item id="1879516745" name="Blighted Pauldrons of the Battle Cry"/>
+<item id="1879516668" name="Blighted Hauberk of the Battle Cry"/>
+<item id="1879516819" name="Blighted Gauntlets of the Battle Cry"/>
+<item id="1879516720" name="Blighted Leggings of the Battle Cry"/>
+<item id="1879516726" name="Blighted Greaves of the Battle Cry"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<effect id="1879517332" name="DNT - Routing Cry DoT and Galant Display Buff"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879517381" name="DNT - Galant Display increasing Routing Cry Damage"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879522276" name="Path-finder of the Emerald Wood&#10;(Max Level: 164)" level="565" maxLevel="164" description="">
+<item id="1879514883" name="Oasis Ghost's Band"/>
+<item id="1879514938" name="Oasis Ghost's Harness"/>
+<item id="1879514950" name="Oasis Ghost's Coat"/>
+<item id="1879514862" name="Oasis Ghost's Bracers"/>
+<item id="1879514845" name="Oasis Ghost's Leggings"/>
+<item id="1879514936" name="Oasis Ghost's Boots"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="FINESSE" scaling="1879211722"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+</bonus>
+</set>
+<set id="1879522277" name="Veteran's Knowledge&#10;(Max Level: 164)" level="565" maxLevel="164" description="">
+<item id="1879514937" name="Umbari Veteran's Circlet"/>
+<item id="1879514881" name="Umbari Veteran's Cops"/>
+<item id="1879514847" name="Umbari Veteran's Robe"/>
+<item id="1879514895" name="Umbari Veteran's Bracers"/>
+<item id="1879514886" name="Umbari Veteran's Cloth Leggings"/>
+<item id="1879514852" name="Umbari Veteran's Shoes"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="FINESSE" scaling="1879211722"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+</bonus>
+</set>
+<set id="1879522278" name="Hope of the Emerald Wood&#10;(Max Level: 164)" level="565" maxLevel="164" description="">
+<item id="1879514900" name="Forgotten Elvish Healer's Hood"/>
+<item id="1879514916" name="Forgotten Elvish Healer's Shoulder-pads"/>
+<item id="1879514913" name="Forgotten Elvish Healer's Robe"/>
+<item id="1879514949" name="Forgotten Elvish Healer's Cuffs"/>
+<item id="1879514914" name="Forgotten Elvish Healer's Leggings"/>
+<item id="1879514931" name="Forgotten Elvish Healer's Shoes"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="CRITICAL_RATING" scaling="1879211992"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="2.5"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879522279" name="Strength of the Blood-sworn&#10;(Max Level: 164)" level="565" maxLevel="164" description="">
+<item id="1879514839" name="Vanguard Blood-sworn's Helmet"/>
+<item id="1879514872" name="Vanguard Blood-sworn's Pauldrons"/>
+<item id="1879514893" name="Vanguard Blood-sworn's Scale Coat"/>
+<item id="1879514907" name="Vanguard Blood-sworn's Gauntlets"/>
+<item id="1879514920" name="Vanguard Blood-sworn's Skirt"/>
+<item id="1879514926" name="Vanguard Blood-sworn's Greaves"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="CRITICAL_RATING" scaling="1879211992"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="1.5"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
+</bonus>
+</set>
+<set id="1879522280" name="Will of the Sage&#10;(Max Level: 164)" level="565" maxLevel="164" description="">
+<item id="1879514939" name="Veteran Sage's Hooded Helm"/>
+<item id="1879514897" name="Veteran Sage's Shoulder-guard"/>
+<item id="1879514857" name="Veteran Sage's Coat"/>
+<item id="1879514877" name="Veteran Sage's Bracers"/>
+<item id="1879514840" name="Veteran Sage's Leggings"/>
+<item id="1879514876" name="Veteran Sage's Shoes"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="CRITICAL_RATING" scaling="1879211992"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="1.5"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="3.0"/>
+</bonus>
+</set>
+<set id="1879522281" name="Persistence of the Emerald Wood&#10;(Max Level: 164)" level="565" maxLevel="164" description="">
+<item id="1879514878" name="Elvish Hero's Helm"/>
+<item id="1879514942" name="Elvish Hero's Pauldrons"/>
+<item id="1879514884" name="Elvish Hero's Hauberk"/>
+<item id="1879514929" name="Elvish Hero's Vambraces"/>
+<item id="1879514898" name="Elvish Hero's Leggings"/>
+<item id="1879514933" name="Elvish Hero's Greaves"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="FINESSE" scaling="1879211722"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="0.5"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="0.5"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+</bonus>
+</set>
+<set id="1879522282" name="Veteran's Resiliance&#10;(Max Level: 164)" level="565" maxLevel="164" description="">
+<item id="1879514922" name="Umbari Veteran's Helm"/>
+<item id="1879514910" name="Umbari Veteran's Shoulder-guards"/>
+<item id="1879514841" name="Umbari Veteran's Coat"/>
+<item id="1879514899" name="Umbari Veteran's Gloves"/>
+<item id="1879514844" name="Umbari Veteran's Leggings"/>
+<item id="1879514858" name="Umbari Veteran's Boots"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="FINESSE" scaling="1879211722"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="0.5"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="0.5"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.0"/>
+</bonus>
+</set>
+<set id="1879522283" name="Veteran's Courage&#10;(Max Level: 164)" level="565" maxLevel="164" description="">
+<item id="1879514944" name="Umbari Veteran's Helmet"/>
+<item id="1879514882" name="Umbari Veteran's Pauldrons"/>
+<item id="1879514896" name="Umbari Veteran's Hauberk"/>
+<item id="1879514909" name="Umbari Veteran's Gauntlets"/>
+<item id="1879514855" name="Umbari Veteran's Padded Leggings"/>
+<item id="1879514892" name="Umbari Veteran's Greaves"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="CRITICAL_RATING" scaling="1879211992"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="2.5"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="OUTGOING_HEALING_PERCENTAGE" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879522284" name="Agility of the Blade-dancer&#10;(Max Level: 164)" level="565" maxLevel="164" description="">
+<item id="1879514905" name="Blade-dancer's Crested Helm"/>
+<item id="1879514912" name="Blade-dancer's Spaulders"/>
+<item id="1879514851" name="Blade-dancer's Hauberk"/>
+<item id="1879514932" name="Blade-dancer's Gloves"/>
+<item id="1879514837" name="Blade-dancer's Mail Fauld"/>
+<item id="1879514864" name="Blade-dancer's Boots"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211535"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="CRITICAL_RATING" scaling="1879211992"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="1.5"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="1.5"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="3.0"/>
 </bonus>
 </set>
 </sets>

@@ -333,6 +333,7 @@
 <compoundWorldEventCondition operator="AND">
 <worldEventCondition worldEventID="1879463478" worldEventName="WE_Ettenmoors_IsSiege" operator="EQUAL" value="1"/>
 <worldEventCondition worldEventID="1879506320" worldEventName="we_ettenmoors_lug_player_ext_build" operator="EQUAL" value="10"/>
+<worldEventCondition worldEventID="1879087156" worldEventName="World_MPControl_Ettenmoors_WestTower" operator="EQUAL" value="0"/>
 </compoundWorldEventCondition>
 </conditionWorldEvent>
 <integerWorldEvent id="1879463476" propertyId="268463911" propertyName="we_ettenmoors_lug_player_ext_reinforce" default="0" min="0" max="5"/>
@@ -341,6 +342,7 @@
 <compoundWorldEventCondition operator="AND">
 <worldEventCondition worldEventID="1879463478" worldEventName="WE_Ettenmoors_IsSiege" operator="EQUAL" value="1"/>
 <worldEventCondition worldEventID="1879506322" worldEventName="we_ettenmoors_lug_monster_ext_build" operator="EQUAL" value="10"/>
+<worldEventCondition worldEventID="1879087156" worldEventName="World_MPControl_Ettenmoors_WestTower" operator="EQUAL" value="1"/>
 </compoundWorldEventCondition>
 </conditionWorldEvent>
 <booleanWorldEvent id="1879463480" propertyId="268463910" propertyName="WE_Ettenmoors_Lug_Player_Inner_Door" default="false"/>
@@ -348,6 +350,7 @@
 <compoundWorldEventCondition operator="AND">
 <worldEventCondition worldEventID="1879463478" worldEventName="WE_Ettenmoors_IsSiege" operator="EQUAL" value="1"/>
 <worldEventCondition worldEventID="1879506321" worldEventName="we_ettenmoors_tr_player_ext_build" operator="EQUAL" value="10"/>
+<worldEventCondition worldEventID="1879087153" worldEventName="World_MPControl_Ettenmoors_EastTower" operator="EQUAL" value="0"/>
 </compoundWorldEventCondition>
 </conditionWorldEvent>
 <integerWorldEvent id="1879463484" propertyId="268463913" propertyName="we_ettenmoors_tr_monster_ext_reinforce" default="0" min="0" max="5"/>
@@ -356,6 +359,7 @@
 <compoundWorldEventCondition operator="AND">
 <worldEventCondition worldEventID="1879463478" worldEventName="WE_Ettenmoors_IsSiege" operator="EQUAL" value="1"/>
 <worldEventCondition worldEventID="1879506323" worldEventName="we_ettenmoors_tr_monster_ext_build" operator="EQUAL" value="10"/>
+<worldEventCondition worldEventID="1879087153" worldEventName="World_MPControl_Ettenmoors_EastTower" operator="EQUAL" value="1"/>
 </compoundWorldEventCondition>
 </conditionWorldEvent>
 <booleanWorldEvent id="1879463487" propertyId="268463915" propertyName="WE_Ettenmoors_TR_Player_Inner_Door" default="false"/>
@@ -432,6 +436,7 @@
 <booleanWorldEvent id="1879507584" propertyId="268465392" propertyName="WE_Boolean_Private_Scaling_MurGhala_Idagal_6man_LTC_Lock" description="DNT - Used to end the initial window of time to complete the final 6-,am encounter 'challenge' of Emax Dul 6man Instance in Mur Ghala on Tier 3." default="false"/>
 <integerWorldEvent id="1879507586" propertyId="268465393" propertyName="WE_Integer_Private_Scaling_MurGhala_Idagal_6man_Tier_Gate" description="DNT - Controls the available tiers for Emax Dul 6man in Mur Ghala" default="0" min="0" max="10"/>
 <booleanWorldEvent id="1879509761" propertyId="268465506" propertyName="WE_Boolean_Private_Scaling_MurGhala_Adagim_Raid_LTC_Lock" description="DNT - Used to end the initial window of time to complete the final encounter 'challenge' of Adagim Raid Instance in Mur Ghala on Tier 3." default="false"/>
+<integerWorldEvent id="1879509765" propertyId="268465507" propertyName="WE_Integer_Private_Scaling_MurGhala_Adagim_Raid_Tier_Gate" description="DNT - Controls the available tiers for Adagim Raid in Mur Ghala" default="0" min="0" max="10"/>
 <integerWorldEvent id="1879513952" propertyId="268465556" propertyName="WE_Integer_Private_Scaling_MurGhala_Kighan_3man_Tier_Gate" description="DNT - Controls the available tiers for Emax Dul 6man in Mur Ghala" default="0" min="0" max="10"/>
 <integerWorldEvent id="1879513953" propertyId="268465555" propertyName="WE_Integer_Private_Scaling_MurGhala_An_Sheru_6man_Tier_Gate" description="DNT - Controls the available tiers for Emax Dul 6man in Mur Ghala" default="0" min="0" max="10"/>
 <booleanWorldEvent id="1879514831" propertyId="268465582" propertyName="WE_U46_Region_Quest_Status" description="DNT - If set to active then there are 160 end game quests available in the Mur Ghala region." default="true"/>
