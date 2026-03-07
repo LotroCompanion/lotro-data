@@ -759,6 +759,10 @@
 <destination id="1879516363" name="The Dawn-warden - Swift" swift="true"/>
 <destination id="1879516367" name="Ahâba - Swift" swift="true"/>
 <destination id="1879516369" name="Nashûbu"/>
+<destination id="1879522855" name="MGS North Hub - Swift" swift="true"/>
+<destination id="1879522878" name="MGS Central Hub - Swift" swift="true"/>
+<destination id="1879522891" name="MGS North Hub"/>
+<destination id="1879522906" name="MGS Central Hub"/>
 <route id="1879072602" name="Esteldín" destinationID="1879072603" mode="HORSE">
 <routeAction id="1879072604" headName="travel_segment_from_nomadmoot_going_south"/>
 <routeAction id="1879072605" headName="travel_segment_seg_nomadmoot_to_nanamlug_east"/>
@@ -32627,6 +32631,157 @@
 <routeAction id="1879072630" delay="0.0"/>
 <routeAction id="1879516164" headName="travel_seg_an_sheru_to_hallows_hub"/>
 </route>
+<route id="1879522846" name="Nashûbu - Swift" destinationID="1879516334" mode="OTHER" minLevel="150">
+<routeAction id="1879522864" headName="travel_seg_mg_slopes_from_north_hub_to_south"/>
+<routeAction id="1879072630" delay="0.0"/>
+<routeAction id="1879516142" headName="travel_seg_idagal_to_sewer_entrance"/>
+</route>
+<route id="1879522847" name="Urmâkh - Swift" destinationID="1879493734" mode="OTHER" minLevel="150">
+<routeAction id="1879522864" headName="travel_seg_mg_slopes_from_north_hub_to_south"/>
+<routeAction id="1879072630" delay="0.0"/>
+<routeAction id="1879494056" headName="travel_seg_ikorban_imhular_to_urmakh"/>
+</route>
+<route id="1879522849" name="The Dawn-warden" destinationID="1879516200" mode="OTHER" minLevel="150">
+<routeAction id="1879522907" headName="travel_seg_mg_slopes_from_central_hub"/>
+<routeAction id="1879522903" headName="travel_seg_mg_slopes_central_hub_going_west"/>
+<routeAction id="1879522900" headName="travel_seg_mg_slopes_central_going_west"/>
+<routeAction id="1879522861" headName="travel_seg_mg_slopes_north_going_north"/>
+<routeAction id="1879522871" headName="travel_seg_mg_slopes_to_idagal"/>
+<routeAction id="1879515818" headName="travel_seg_idagal_shore_east_south_going_south"/>
+<routeAction id="1879516050" headName="travel_seg_idagal_shore_south_going_west"/>
+<routeAction id="1879515970" headName="travel_seg_idagal_shore_west_going_north"/>
+<routeAction id="1879516118" headName="travel_seg_idagal_to_dawns_warden_from_south"/>
+</route>
+<route id="1879522852" name="The Dawn-warden" destinationID="1879516200" mode="OTHER" minLevel="150">
+<routeAction id="1879522864" headName="travel_seg_mg_slopes_from_north_hub_to_south"/>
+<routeAction id="1879522871" headName="travel_seg_mg_slopes_to_idagal"/>
+<routeAction id="1879515818" headName="travel_seg_idagal_shore_east_south_going_south"/>
+<routeAction id="1879516050" headName="travel_seg_idagal_shore_south_going_west"/>
+<routeAction id="1879515970" headName="travel_seg_idagal_shore_west_going_north"/>
+<routeAction id="1879516118" headName="travel_seg_idagal_to_dawns_warden_from_south"/>
+</route>
+<route id="1879522853" name="Dur Nâgu" destinationID="1879515857" mode="OTHER" minLevel="150">
+<routeAction id="1879522907" headName="travel_seg_mg_slopes_from_central_hub"/>
+<routeAction id="1879522903" headName="travel_seg_mg_slopes_central_hub_going_west"/>
+<routeAction id="1879522900" headName="travel_seg_mg_slopes_central_going_west"/>
+<routeAction id="1879522861" headName="travel_seg_mg_slopes_north_going_north"/>
+<routeAction id="1879522871" headName="travel_seg_mg_slopes_to_idagal"/>
+<routeAction id="1879515818" headName="travel_seg_idagal_shore_east_south_going_south"/>
+<routeAction id="1879516050" headName="travel_seg_idagal_shore_south_going_west"/>
+<routeAction id="1879516258" headName="travel_seg_idagal_lakebed_south_going_north"/>
+<routeAction id="1879515791" headName="travel_seg_idagal_to_lakebed_hub"/>
+</route>
+<route id="1879522856" name="Nashûbu - Swift" destinationID="1879516334" mode="OTHER" minLevel="150">
+<routeAction id="1879522907" headName="travel_seg_mg_slopes_from_central_hub"/>
+<routeAction id="1879072630" delay="0.0"/>
+<routeAction id="1879516142" headName="travel_seg_idagal_to_sewer_entrance"/>
+</route>
+<route id="1879522858" name="Dur Nâgu - Swift" destinationID="1879516024" mode="OTHER" minLevel="150">
+<routeAction id="1879522907" headName="travel_seg_mg_slopes_from_central_hub"/>
+<routeAction id="1879072630" delay="0.0"/>
+<routeAction id="1879515791" headName="travel_seg_idagal_to_lakebed_hub"/>
+</route>
+<route id="1879522859" name="Ahâba" destinationID="1879516121" mode="OTHER" minLevel="150">
+<routeAction id="1879522864" headName="travel_seg_mg_slopes_from_north_hub_to_south"/>
+<routeAction id="1879522871" headName="travel_seg_mg_slopes_to_idagal"/>
+<routeAction id="1879515976" headName="travel_seg_idagal_shore_east_north_going_north"/>
+<routeAction id="1879515822" headName="travel_seg_idagal_ahaba_going_north"/>
+<routeAction id="1879516318" headName="travel_seg_idagal_to_ahaba"/>
+</route>
+<route id="1879522860" name="MGS Central Hub - Swift" destinationID="1879522878" mode="OTHER" minLevel="150">
+<routeAction id="1879522864" headName="travel_seg_mg_slopes_from_north_hub_to_south"/>
+<routeAction id="1879072630" delay="0.0"/>
+<routeAction id="1879522893" headName="travel_seg_mg_slopes_to_central_hub"/>
+</route>
+<route id="1879522868" name="Dur Nâgu" destinationID="1879515857" mode="OTHER" minLevel="150">
+<routeAction id="1879522864" headName="travel_seg_mg_slopes_from_north_hub_to_south"/>
+<routeAction id="1879522871" headName="travel_seg_mg_slopes_to_idagal"/>
+<routeAction id="1879515818" headName="travel_seg_idagal_shore_east_south_going_south"/>
+<routeAction id="1879516050" headName="travel_seg_idagal_shore_south_going_west"/>
+<routeAction id="1879516258" headName="travel_seg_idagal_lakebed_south_going_north"/>
+<routeAction id="1879515791" headName="travel_seg_idagal_to_lakebed_hub"/>
+</route>
+<route id="1879522870" name="The Dawn-warden - Swift" destinationID="1879516363" mode="OTHER" minLevel="150">
+<routeAction id="1879522864" headName="travel_seg_mg_slopes_from_north_hub_to_south"/>
+<routeAction id="1879072630" delay="0.0"/>
+<routeAction id="1879516118" headName="travel_seg_idagal_to_dawns_warden_from_south"/>
+</route>
+<route id="1879522873" name="MGS North Hub - Swift" destinationID="1879522855" mode="OTHER" minLevel="150">
+<routeAction id="1879522907" headName="travel_seg_mg_slopes_from_central_hub"/>
+<routeAction id="1879072630" delay="0.0"/>
+<routeAction id="1879522854" headName="travel_seg_mg_slopes_to_north_hub_from_south"/>
+</route>
+<route id="1879522875" name="Dur Nâgu - Swift" destinationID="1879516024" mode="OTHER" minLevel="150">
+<routeAction id="1879522864" headName="travel_seg_mg_slopes_from_north_hub_to_south"/>
+<routeAction id="1879072630" delay="0.0"/>
+<routeAction id="1879515791" headName="travel_seg_idagal_to_lakebed_hub"/>
+</route>
+<route id="1879522885" name="MGS North Hub" destinationID="1879522891" mode="OTHER" minLevel="150">
+<routeAction id="1879522907" headName="travel_seg_mg_slopes_from_central_hub"/>
+<routeAction id="1879522903" headName="travel_seg_mg_slopes_central_hub_going_west"/>
+<routeAction id="1879522900" headName="travel_seg_mg_slopes_central_going_west"/>
+<routeAction id="1879522861" headName="travel_seg_mg_slopes_north_going_north"/>
+<routeAction id="1879522854" headName="travel_seg_mg_slopes_to_north_hub_from_south"/>
+</route>
+<route id="1879522887" name="Zajâna - Swift" destinationID="1879516281" mode="OTHER" minLevel="150">
+<routeAction id="1879522864" headName="travel_seg_mg_slopes_from_north_hub_to_south"/>
+<routeAction id="1879072630" delay="0.0"/>
+<routeAction id="1879516151" headName="travel_seg_kighan_to_zajana_from_north"/>
+</route>
+<route id="1879522888" name="Ahâba" destinationID="1879516121" mode="OTHER" minLevel="150">
+<routeAction id="1879522907" headName="travel_seg_mg_slopes_from_central_hub"/>
+<routeAction id="1879522903" headName="travel_seg_mg_slopes_central_hub_going_west"/>
+<routeAction id="1879522900" headName="travel_seg_mg_slopes_central_going_west"/>
+<routeAction id="1879522861" headName="travel_seg_mg_slopes_north_going_north"/>
+<routeAction id="1879522871" headName="travel_seg_mg_slopes_to_idagal"/>
+<routeAction id="1879515976" headName="travel_seg_idagal_shore_east_north_going_north"/>
+<routeAction id="1879515822" headName="travel_seg_idagal_ahaba_going_north"/>
+<routeAction id="1879516318" headName="travel_seg_idagal_to_ahaba"/>
+</route>
+<route id="1879522890" name="Nashûbu" destinationID="1879516369" mode="OTHER" minLevel="150">
+<routeAction id="1879522864" headName="travel_seg_mg_slopes_from_north_hub_to_south"/>
+<routeAction id="1879522871" headName="travel_seg_mg_slopes_to_idagal"/>
+<routeAction id="1879515818" headName="travel_seg_idagal_shore_east_south_going_south"/>
+<routeAction id="1879516237" headName="travel_seg_idagal_valley_going_south"/>
+<routeAction id="1879516142" headName="travel_seg_idagal_to_sewer_entrance"/>
+</route>
+<route id="1879522896" name="Umbar Baharbêl - East Gate" destinationID="1879476253" mode="OTHER" minLevel="150">
+<routeAction id="1879522864" headName="travel_seg_mg_slopes_from_north_hub_to_south"/>
+<routeAction id="1879072630" delay="0.0"/>
+<routeAction id="1879476279" headName="travel_seg_umbar_cape_to_umbar_city_east_from_east"/>
+</route>
+<route id="1879522897" name="Nashûbu" destinationID="1879516369" mode="OTHER" minLevel="150">
+<routeAction id="1879522907" headName="travel_seg_mg_slopes_from_central_hub"/>
+<routeAction id="1879522903" headName="travel_seg_mg_slopes_central_hub_going_west"/>
+<routeAction id="1879522900" headName="travel_seg_mg_slopes_central_going_west"/>
+<routeAction id="1879522861" headName="travel_seg_mg_slopes_north_going_north"/>
+<routeAction id="1879522871" headName="travel_seg_mg_slopes_to_idagal"/>
+<routeAction id="1879515818" headName="travel_seg_idagal_shore_east_south_going_south"/>
+<routeAction id="1879516237" headName="travel_seg_idagal_valley_going_south"/>
+<routeAction id="1879516142" headName="travel_seg_idagal_to_sewer_entrance"/>
+</route>
+<route id="1879522898" name="Ahâba - Swift" destinationID="1879516367" mode="OTHER" minLevel="150">
+<routeAction id="1879522907" headName="travel_seg_mg_slopes_from_central_hub"/>
+<routeAction id="1879072630" delay="0.0"/>
+<routeAction id="1879516318" headName="travel_seg_idagal_to_ahaba"/>
+</route>
+<route id="1879522899" name="Ahâba - Swift" destinationID="1879516367" mode="OTHER" minLevel="150">
+<routeAction id="1879522864" headName="travel_seg_mg_slopes_from_north_hub_to_south"/>
+<routeAction id="1879072630" delay="0.0"/>
+<routeAction id="1879516318" headName="travel_seg_idagal_to_ahaba"/>
+</route>
+<route id="1879522901" name="The Dawn-warden - Swift" destinationID="1879516363" mode="OTHER" minLevel="150">
+<routeAction id="1879522907" headName="travel_seg_mg_slopes_from_central_hub"/>
+<routeAction id="1879072630" delay="0.0"/>
+<routeAction id="1879516118" headName="travel_seg_idagal_to_dawns_warden_from_south"/>
+</route>
+<route id="1879522904" name="MGS Central Hub" destinationID="1879522906" mode="OTHER" minLevel="150">
+<routeAction id="1879522864" headName="travel_seg_mg_slopes_from_north_hub_to_south"/>
+<routeAction id="1879522886" headName="travel_seg_mg_slopes_north_going_south"/>
+<routeAction id="1879522863" headName="travel_seg_mg_slopes_central_going_east"/>
+<routeAction id="1879522882" headName="travel_seg_mg_slopes_central_hub_going_east"/>
+<routeAction id="1879522893" headName="travel_seg_mg_slopes_to_central_hub"/>
+</route>
 <node id="1879072570">
 <mainLocation id="1879072601" name="Aughaire"/>
 <location id="1879103925" name="Aughaire - Swift Travel"/>
@@ -39781,5 +39936,36 @@
 <route id="1879516170" name="Fearwater Notch" cost="12800"/>
 <route id="1879516393" name="Khomar Bóha - Swift" cost="19200"/>
 <route id="1879515793" name="Fearwater Notch - Swift" cost="19200"/>
+</node>
+<node id="1879522857">
+<mainLocation id="1879522906" name="MGS Central Hub"/>
+<location id="1879522878" name="MGS Central Hub - Swift"/>
+<route id="1879522885" name="MGS North Hub" cost="12800"/>
+<route id="1879522897" name="Nashûbu" cost="12800"/>
+<route id="1879522888" name="Ahâba" cost="12800"/>
+<route id="1879522849" name="The Dawn-warden" cost="12800"/>
+<route id="1879522853" name="Dur Nâgu" cost="12800"/>
+<route id="1879522873" name="MGS North Hub - Swift" cost="19200"/>
+<route id="1879522856" name="Nashûbu - Swift" cost="19200"/>
+<route id="1879522898" name="Ahâba - Swift" cost="19200"/>
+<route id="1879522901" name="The Dawn-warden - Swift" cost="19200"/>
+<route id="1879522858" name="Dur Nâgu - Swift" cost="19200"/>
+</node>
+<node id="1879522876">
+<mainLocation id="1879522891" name="MGS North Hub"/>
+<location id="1879522855" name="MGS North Hub - Swift"/>
+<route id="1879522904" name="MGS Central Hub" cost="12800"/>
+<route id="1879522890" name="Nashûbu" cost="12800"/>
+<route id="1879522859" name="Ahâba" cost="12800"/>
+<route id="1879522852" name="The Dawn-warden" cost="12800"/>
+<route id="1879522868" name="Dur Nâgu" cost="12800"/>
+<route id="1879522860" name="MGS Central Hub - Swift" cost="19200"/>
+<route id="1879522846" name="Nashûbu - Swift" cost="19200"/>
+<route id="1879522899" name="Ahâba - Swift" cost="19200"/>
+<route id="1879522870" name="The Dawn-warden - Swift" cost="19200"/>
+<route id="1879522875" name="Dur Nâgu - Swift" cost="19200"/>
+<route id="1879522887" name="Zajâna - Swift" cost="19200"/>
+<route id="1879522847" name="Urmâkh - Swift" cost="19200"/>
+<route id="1879522896" name="Umbar Baharbêl - East Gate" cost="19200"/>
 </node>
 </travelsWeb>

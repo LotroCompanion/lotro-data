@@ -5029,7 +5029,6 @@
 </trait>
 <trait identifier="1879259992" name="Conflagration of Runes" iconId="1091502139" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_runekeeper_rank_18" nature="24" description="key:620914348:54354734">
 <stat name="Trait_Runekeeper_NukeDot_Damage" scaling="1879290078"/>
-<stat name="ForwardSource_Combat_Runekeeper_SkillCombo" descriptionOverride="-" scaling="1879290079"/>
 </trait>
 <trait identifier="1879259995" name="Scathing Mockery" iconId="1091805954" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_runekeeper_rank_28" nature="24" description="key:620914338:54354734">
 <skill rank="1" id="1879107945" name="Scathing Mockery"/>
@@ -5168,7 +5167,7 @@
 <skill rank="1" id="1879260479" name="The Last Stand of Helm Hammerhand"/>
 </trait>
 <trait identifier="1879260805" name="Virtuous Charge" iconId="1091805264" nature="30" tooltip="key:620914923:191029568" description="key:620914923:54354734">
-<stat name="ForwardSource_Combat_Guardian_SkillCombo" descriptionOverride="key:620914923:106251889" value="(8)"/>
+<stat name="ForwardSource_Combat_Guardian_SkillCombo" descriptionOverride="key:620914923:106251889" value="(4)"/>
 </trait>
 <trait identifier="1879260811" name="Invigourating Response" iconId="1091829802" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="4" tierProperty="trait_class_guardian_rank_5" nature="27" description="key:620914929:54354734">
 <effect id="1879272350" name="Invigourating Parry"/>
@@ -5342,7 +5341,6 @@
 </trait>
 <trait identifier="1879264307" name="Advanced Placement" iconId="1091798528" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="3" nature="21" description="key:620916720:54354734">
 <stat name="Trait_Hunter_Trap_MaxRangeMod" scaling="1879268027"/>
-<stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="-" value="(15)"/>
 </trait>
 <trait identifier="1879264321" key="IMPACT_ARROWS" name="Impact Arrows" iconId="1091829820" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_hunter_rank_35" nature="21" description="key:620916732:54354734">
 <stat name="RANGED_DAMAGE_PERCENTAGE" scaling="1879297186"/>
@@ -5713,10 +5711,11 @@
 <stat name="Skill_Warden_BleedDamage" scaling="1879269999"/>
 </trait>
 <trait identifier="1879269711" name="Warden's Triumph" iconId="1091830176" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_warden_rank_13" nature="25" description="key:620920632:54354734">
+<stat name="MELEE_DAMAGE_PERCENTAGE" scaling="1879270015"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" scaling="1879458117"/>
+<stat name="Trait_PulseCount_Warden_Dot" constant="1.0"/>
 <stat name="Skill_Warden_AdroitMan_AttackDuration" scaling="1879270006"/>
-<stat name="Skill_Warden_TriumphDamage" scaling="1879270015"/>
 <stat name="Skill_Duration_Warden_AdroitManeuver" scaling="1879458114"/>
-<stat name="Warden_WardensTriumph_BuffDuration" scaling="1879458117"/>
 </trait>
 <trait identifier="1879269712" name="Unassailable" iconId="1091830181" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_warden_rank_23" nature="25" description="key:620920640:54354734">
 <stat name="Skill_BonusThreat_WarCry" scaling="1879457933"/>
@@ -6245,7 +6244,7 @@
 <trait identifier="1879270450" name="Overflowing Confidence" iconId="1091502135" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_runekeeper_rank_17" nature="24" description="key:620921230:54354734">
 <stat name="Skill_Runekeeper_SelfMotivation_HealMod" scaling="1879271549"/>
 <stat name="Skill_Runekeeper_SelfMotivation_PowerCostMod" scaling="1879287021"/>
-<stat name="ForwardSource_Combat_Runekeeper_SkillCombo" descriptionOverride="-" value="(27)"/>
+<stat name="ForwardSource_Combat_Runekeeper_SkillCombo" descriptionOverride="-" value="(20)"/>
 </trait>
 <trait identifier="1879270451" name="Rune of Endurance" iconId="1091805936" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_runekeeper_rank_37" nature="24" description="key:620921238:54354734">
 <stat name="Skill_Runekeeper_RuneRestoration_HealMod" descriptionOverride="key:620921238:106251889" scaling="1879271538"/>
@@ -6584,19 +6583,13 @@
 </trait>
 <trait identifier="1879271330" name="Haemorrhage" iconId="1091829800" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_13" nature="27" description="key:620921900:54354734">
 <stat name="Skill_Guardian_BrutalAssault_Bleed_AppChance" scaling="1879271499"/>
-<stat name="Skill_Guardian_BrutalAssault_BleedDamage" descriptionOverride="-" scaling="1879271485"/>
+<stat name="Skill_Guardian_BrutalAssault_BleedDamage" scaling="1879271485"/>
 </trait>
 <trait identifier="1879271331" name="Tireless Defender" iconId="1091805244" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_guardian_rank_38" nature="27" description="key:620921888:54354734">
-<effect id="1879272355" name="Tireless Defender"/>
-<effect rank="2" id="1879277550" name="Tireless Defender"/>
-<effect rank="3" id="1879277549" name="Tireless Defender"/>
+<stat name="Skill_Guardian_BlockResponse_PowerCost_AppChance" scaling="1879372847"/>
 </trait>
 <trait identifier="1879271332" name="War-chant" iconId="1091805276" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_23" nature="27" description="key:620921895:54354734">
 <skill rank="1" id="1879271751" name="War-chant"/>
-</trait>
-<trait identifier="1879271334" name="Disorientation" iconId="1091805265" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_43" nature="27" description="key:620921889:54354734">
-<stat name="Trait_Guardian_Disorientation_MissChance" descriptionOverride="key:620921889:106251889" scaling="1879277568"/>
-<effect id="1879272344" name="Disorientation"/>
 </trait>
 <trait identifier="1879271335" name="Relentless Assault" iconId="1091805252" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_33" nature="27" description="key:620921899:54354734">
 <stat name="Skill_Guardian_Sting_CooldownReset_AppChance" scaling="1879271492"/>
@@ -6630,8 +6623,8 @@
 <stat name="PARTIAL_BLOCK_PERCENTAGE" constant="1.25"/>
 </trait>
 <trait identifier="1879271342" name="Broad Strokes" iconId="1091805282" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="2" tierProperty="trait_class_guardian_rank_4" nature="27" description="key:620921912:54354734">
-<stat name="Skill_Guardian_SweepingCut_Bleed_AppChance" scaling="1879271506"/>
 <stat name="Skill_Guardian_SweepingCut_Targets" scaling="1879271484"/>
+<effect rank="2" id="1879402252" name="Broad Strokes"/>
 </trait>
 <trait identifier="1879271343" name="Shield Wall" iconId="1091805255" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_36" nature="27" description="key:620921917:54354734">
 <skill rank="1" id="1879102638" name="Shield Wall"/>
@@ -6661,6 +6654,11 @@
 <trait identifier="1879271349" name="Shield-smash" iconId="1091805263" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_41" nature="27" description="key:620921923:54354734">
 <skill rank="1" id="1879060164" name="Shield-smash"/>
 </trait>
+<trait identifier="1879271351" name="Reckless Attack" iconId="1092405534" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_2" nature="27" description="key:620921898:54354734">
+<stat name="Trait_Guardian_RawPower_Bleed_DispelChance" scaling="1879277073"/>
+<skill rank="1" id="1879523243" name="Reckless Attack"/>
+<effect rank="5" id="1879523245" name="Reckless Opening"/>
+</trait>
 <trait identifier="1879271352" name="Bellow" iconId="1091805291" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_31" nature="27" description="key:620921919:54354734">
 <stat name="Trait_Guardian_Taunt_Range" scaling="1879291094"/>
 <stat name="Skill_MaxRangeMod_Guardian_FrayTheEdge" descriptionOverride="-" scaling="1879412149"/>
@@ -6671,7 +6669,6 @@
 <effect rank="5" id="1879291106" name="DNT-Range Taunt"/>
 </trait>
 <trait identifier="1879271353" name="Heavy Weapons Training" iconId="1091829798" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_3" nature="27" description="key:620921918:54354734">
-<stat name="Skill_SingleTarget_Damage" scaling="1879291020"/>
 <stat name="Combat_WeaponDamageMultiplier_2HSword" descriptionOverride="-" scaling="1879271518"/>
 <stat name="Combat_WeaponDamageMultiplier_2HAxe" descriptionOverride="-" scaling="1879271521"/>
 <stat name="Combat_WeaponDamageMultiplier_2HClub" descriptionOverride="-" scaling="1879271516"/>
@@ -6689,7 +6686,7 @@
 <skill rank="1" id="1879109976" name="Brutal Assault"/>
 </trait>
 <trait identifier="1879271356" name="Warrior's Advantage" iconId="1091829801" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_11" nature="27" description="key:620921901:54354734">
-<stat name="PHYSICAL_MASTERY" scaling="1879368689"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="2.5"/>
 <stat name="CRITICAL_MELEE_PERCENTAGE" constant="1.0"/>
 <stat name="PARRY_PERCENTAGE" constant="1.0"/>
 <stat name="PARTIAL_PARRY_PERCENTAGE" constant="1.25"/>
@@ -6704,9 +6701,9 @@
 <stat name="Skill_Guardian_Redirect_DamageReflect" descriptionOverride="key:620921910:106251889" scaling="1879271487"/>
 <stat name="Skill_Guardian_Redirect_DamageReflect_PvMP" descriptionOverride="key:620921910:106251890" scaling="1879481853"/>
 </trait>
-<trait identifier="1879271362" name="Improved Shield Spikes" iconId="1091805283" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_37" nature="27" description="key:620921911:54354734">
-<stat name="Item_Guardian_ShieldSpikes_CritChance" scaling="1879271486"/>
-<stat name="Item_Guardian_ShieldSpikes_Duration" scaling="1879271507"/>
+<trait identifier="1879271362" name="Wall of Thorns" iconId="1091805283" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_37" nature="27" description="key:620921911:54354734">
+<stat name="Trait_Guardian_DamageMultiplier_ShieldSkills" scaling="1879271507"/>
+<stat name="Item_Guardian_ShieldSpikes_Damage" scaling="1879271486"/>
 </trait>
 <trait identifier="1879271363" name="Deeper Wounds" iconId="1091805251" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_7" nature="27" description="key:620921916:54354734">
 <stat name="EffectMod_BleedCount_Guardian_DeepWound" scaling="1879367831"/>
@@ -6721,12 +6718,11 @@
 <trait identifier="1879271367" name="High-spirited" iconId="1092835507" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_32" nature="27" description="key:620921921:54354734">
 <stat name="INCOMING_HEALING_PERCENTAGE" scaling="1879297099"/>
 </trait>
-<trait identifier="1879271368" name="Sting of Justice" iconId="1092835510" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="6" tierProperty="trait_class_guardian_rank_6" nature="27" description="key:620921887:54354734">
+<trait identifier="1879271368" name="Sting of Justice" iconId="1092812523" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="6" tierProperty="trait_class_guardian_rank_6" nature="27" description="key:620921887:54354734">
 <stat name="Skill_OverTime_Damage" scaling="1879522456"/>
 </trait>
 <trait identifier="1879271369" name="Demoralizing Anthem" iconId="1091805286" staticIconOverlayId="1091664889" pointCostProgression="1879438609" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_26" nature="27" description="key:620921913:54354734">
 <stat name="Trait_Guardian_CryOut_MaxTargets" scaling="1879277933"/>
-<stat name="ForwardSource_Combat_Guardian_SkillCombo" descriptionOverride="-" scaling="1879274004"/>
 <effect id="1879522383" name="DNT - War-chant reduces active cooldowns of response skills"/>
 <effect rank="2" id="1879522388" name="DNT - War-chant reduces active cooldowns of response skills"/>
 <effect rank="3" id="1879522387" name="DNT - War-chant reduces active cooldowns of response skills"/>
@@ -6893,7 +6889,7 @@
 </trait>
 <trait identifier="1879272572" name="The Bowmaster" iconId="1091564746" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_hunter_two" nature="28" description="key:620922791:54354734">
 <stat name="Skill_RangedAttack_MaxRangeMod" descriptionOverride="key:620922791:106251889" constant="10.0"/>
-<stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="-" value="(22)"/>
+<stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="-" value="(3)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
 <stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:620922791:106251896" constant="1.1"/>
@@ -6904,7 +6900,7 @@
 </trait>
 <trait identifier="1879272573" name="The Martial Champion" iconId="1091564746" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_champion_one" nature="28" description="key:620922792:54354734">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620922792:106251889" constant="1.2"/>
-<stat name="ForwardSource_Combat_Champion_SkillCombo" descriptionOverride="-" value="(10)"/>
+<stat name="ForwardSource_Combat_Champion_SkillCombo" descriptionOverride="-" value="(13)"/>
 <stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="key:620922792:106251891" value="(2,3,4,5,11,12,14,19,23,25,26,27)"/>
 <stat name="Skill_RecoveryTime_Champion_Heroics" descriptionOverride="key:620922792:106251892" constant="-80.0"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="100.0"/>
@@ -6914,7 +6910,7 @@
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
 <skill rank="1" id="1879064070" name="Sudden Defence"/>
 <effectGenerator id="1879273625" name="Masochism" spellcraft="0.0"/>
-<effectGenerator id="1879477197" name="DNT - Blue-spec Threat Effects" spellcraft="0.0"/>
+<effectGenerator id="1879523637" name="DNT - Tank Shared Threat Effects" spellcraft="0.0"/>
 <effectGenerator id="1879457117" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272574" name="Lead the Charge" iconId="1091618504" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_captain_three" nature="28" description="key:620922796:54354734">
@@ -6934,7 +6930,7 @@
 <stat name="ForwardSource_Specialization_Hunter_Huntsman" operator="SET" descriptionOverride="key:620922805:106251889" value="true"/>
 <stat name="Skill_RangedAttack_MaxRangeMod" operator="SUBSTRACT" descriptionOverride="key:620922805:106251890" constant="5.0"/>
 <stat name="ForwardSource_Hunter_FocusLoss_OnMovement" operator="SET" descriptionOverride="key:620922805:106251891" constant="-1.0"/>
-<stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="-" value="(17)"/>
+<stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="-" value="(5)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
 <stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,160)"/>
@@ -6944,8 +6940,8 @@
 <effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272576" name="The Fighter of Shadow" iconId="1091618504" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_guardian_three" nature="28" description="key:620922795:54354734">
-<effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
 <effectGenerator id="1879457118" name="DNT" spellcraft="0.0"/>
+<effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272577" name="Assailment" iconId="1091618504" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_warden_three" nature="28" description="key:620922788:54354734">
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
@@ -6956,7 +6952,6 @@
 </trait>
 <trait identifier="1879272578" name="The Trapper" iconId="1091564741" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_hunter_three" nature="28" description="key:620922799:54354734">
 <stat name="Itemset_Loremaster_WaterLore_IncHealingMod" operator="SET" descriptionOverride="-" constant="100.0"/>
-<stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="-" value="(21,23)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
 <stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(161)"/>
@@ -6964,7 +6959,7 @@
 <skill rank="1" id="1879270551" name="Pinning Shot"/>
 <skill rank="1" id="1879512933" name="Kingsfoil Knowledge"/>
 <effectGenerator id="1879457121" name="DNT" spellcraft="0.0"/>
-<effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
+<effectGenerator id="1879523653" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272579" name="The Watcher of Resolve" iconId="1091564746" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_minstrel_one" nature="28" description="key:620922798:54354734">
 <stat name="ForwardSource_Combat_Minstrel_SkillCombo" descriptionOverride="-" value="(27)"/>
@@ -7005,7 +7000,7 @@
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
 <skill rank="1" id="1879257541" name="Warning Shot"/>
 <skill rank="1" id="1879457568" name="Restorative Shield-work"/>
-<effectGenerator id="1879302737" name="DNT - Determination Threat Effects" spellcraft="0.0"/>
+<effectGenerator id="1879523637" name="DNT - Tank Shared Threat Effects" spellcraft="0.0"/>
 <effectGenerator id="1879457117" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272582" name="The Warrior-skald" iconId="1091564741" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_minstrel_two" nature="28" description="key:620922780:54354734">
@@ -7050,19 +7045,21 @@
 <skill rank="1" id="1879060986" name="Trick: Disable"/>
 <effectGenerator id="1879274666" name="DNT - Subtle Stab Trick Removal Cooldown" spellcraft="0.0"/>
 <effectGenerator id="1879457118" name="DNT" spellcraft="0.0"/>
-<effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
+<effectGenerator id="1879523653" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272586" name="The Defender of the Free" iconId="1091564746" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_guardian_one" nature="28" description="key:620922785:54354734">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620922785:106251889" constant="1.1"/>
-<specialEffect label="key:620922785:106251890"/>
+<stat name="Skill_Guardian_ShieldChant_Cooldown" operator="SUBSTRACT" constant="15.0"/>
+<stat name="Trait_Guardian_Disorientation_MissChance" descriptionOverride="-" constant="1.0"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="100.0"/>
 <stat name="ThreatInputModifier_Damage" descriptionOverride="-" constant="50.0"/>
 <stat name="AIPuppet_TargetFlags_Enchantable" descriptionOverride="-" value="(20)"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
 <skill rank="1" id="1879109781" name="Litany of Defiance"/>
 <skill rank="1" id="1879064294" name="Shield-taunt"/>
+<skill rank="1" id="1879060631" name="Challenge"/>
 <effectGenerator id="1879277494" name="Fortification" spellcraft="0.0"/>
-<effectGenerator id="1879469500" name="DNT - Blue-spec Threat Effects" spellcraft="0.0"/>
+<effectGenerator id="1879523637" name="DNT - Tank Shared Threat Effects" spellcraft="0.0"/>
 <effectGenerator id="1879457117" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272587" name="The Quiet Knife" iconId="1091564746" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_burglar_one" nature="28" description="key:620922790:54354734">
@@ -7101,7 +7098,7 @@
 <effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272591" name="Recklessness" iconId="1091564741" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_warden_two" nature="28" description="key:620922804:54354734">
-<stat name="Trait_BonusDoTDamage_TerribleVisage" constant="5.0"/>
+<stat name="Skill_OverTime_Damage" constant="5.0"/>
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="-10.0"/>
 <stat name="Skill_Warden_PersevereHeal" operator="SUBSTRACT" constant="40.0"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
@@ -7124,20 +7121,18 @@
 <stat name="AI_Hints" descriptionOverride="-" value="(156)"/>
 <skill rank="1" id="1879216183" name="Elendil's Roar"/>
 <skill rank="1" id="1879458694" name="Hammer-stroke"/>
-<effectGenerator id="1879477190" name="DNT - Blue-spec Threat Effects" spellcraft="0.0"/>
+<effectGenerator id="1879523637" name="DNT - Tank Shared Threat Effects" spellcraft="0.0"/>
 <effectGenerator id="1879457117" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272593" name="The Keen Blade" iconId="1091564741" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_guardian_two" nature="28" description="key:620922786:54354734">
-<stat name="ForwardSource_Combat_Guardian_SkillCombo" descriptionOverride="key:620922786:106251889" value="(26)"/>
-<stat name="Skill_SingleTarget_Damage" descriptionOverride="-" constant="10.0"/>
-<stat name="Skill_AreaEffect_Damage" descriptionOverride="-" constant="10.0"/>
+<stat name="ForwardSource_Combat_Guardian_SkillCombo" descriptionOverride="key:620922786:106251889" value="(15)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
 <stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(158,159)"/>
 <skill rank="1" id="1879064290" name="Overwhelm"/>
 <effectGenerator id="1879469032" name="DNT - Keen Blade" spellcraft="0.0"/>
-<effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
 <effectGenerator id="1879457118" name="DNT" spellcraft="0.0"/>
+<effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272594" name="The Berserker" iconId="1091564741" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_champion_two" nature="28" description="key:620922784:54354734">
 <specialEffect label="key:620922784:106251889"/>
@@ -7162,7 +7157,7 @@
 <skill rank="1" id="1879222022" name="Nature Spirit (Spirit Mote)"/>
 <effectGenerator id="1879275191" name="DNT - Injury to Insult" spellcraft="0.0"/>
 <effectGenerator id="1879290045" name="Bird Flag" spellcraft="0.0"/>
-<effectGenerator id="1879457119" name="DNT" spellcraft="0.0"/>
+<effectGenerator id="1879523653" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879272596" name="The Gambler" iconId="1091618504" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_burglar_three" nature="28" description="key:620922781:54354734">
 <specialEffect label="key:620922781:106251889"/>
@@ -7419,7 +7414,8 @@
 <stat name="Runekeeper_Attunement_CritChance_BaseMod" operator="SET" descriptionOverride="key:620924546:106251889" constant="100.0"/>
 </trait>
 <trait identifier="1879274688" name="Scathing Retort" iconId="1091502140" nature="30" description="key:620924555:54354734">
-<stat name="Trait_Runekeeper_Smouldering_Wrath_CooldownMod" operator="SUBSTRACT" descriptionOverride="-" constant="5.0"/>
+<stat name="ForwardSource_Combat_Runekeeper_SkillCombo" descriptionOverride="key:620924555:106251889" value="(22)"/>
+<stat name="Trait_Runekeeper_Smouldering_Wrath_CooldownMod" operator="SUBSTRACT" constant="5.0"/>
 </trait>
 <trait identifier="1879274689" name="Master of Allusion" iconId="1091502147" nature="30" description="key:620924551:54354734">
 <effectGenerator id="1879277838" name="Master of Allusion" spellcraft="0.0"/>
@@ -7457,7 +7453,7 @@
 <stat name="Skill_BarbedArrow_Induction" operator="SUBSTRACT" descriptionOverride="key:620924608:106251889" constant="0.25"/>
 </trait>
 <trait identifier="1879274754" name="Triple Trap" iconId="1091840301" nature="30" tooltip="key:620924611:191029568" description="key:620924611:54354734">
-<stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="key:620924611:106251889" value="(20)"/>
+<stat name="Skill_ChanceCriticalHit_RangedMod" constant="1.0"/>
 </trait>
 <trait identifier="1879274755" name="Suppressing Stings" iconId="1093046407" nature="30" tooltip="key:620924610:191029568" description="key:620924610:54354734">
 <effectGenerator id="1879509444" name="DNT - Weakness skill proc" spellcraft="0.0"/>
@@ -7522,7 +7518,7 @@
 <effectGenerator id="1879275158" name="Heightened Senses" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879275252" name="Continuous Blood Rage" iconId="1091830062" nature="30" tooltip="key:620924990:191029568" description="key:620924990:54354734">
-<stat name="ForwardSource_Combat_Champion_SkillCombo" descriptionOverride="-" value="(19)"/>
+<stat name="ForwardSource_Combat_Champion_SkillCombo" descriptionOverride="-" value="(22)"/>
 </trait>
 <trait identifier="1879275314" name="Tutelage of the Brown Wizard" iconId="1091829948" nature="30" description="key:620925043:54354734">
 <specialEffect label="key:620925043:106251889"/>
@@ -7820,7 +7816,7 @@
 <effect id="1879290987" name="DNT"/>
 </trait>
 <trait identifier="1879277092" name="Bleed Them Dry" iconId="1091831437" nature="30" description="key:620926513:54354734">
-<stat name="Skill_Guardian_BrutalAssault_BleedDamage" constant="10.0"/>
+<stat name="EffectMod_BleedDamage_Guardian" constant="10.0"/>
 <stat name="Itemset_AdditivePulseCountModifier_Guardian_Bleeds" constant="2.0"/>
 </trait>
 <trait identifier="1879277102" name="Call to Ioreth" iconId="1091840515" category="7" nature="30" tooltip="key:620926524:191029568" description="key:620926524:54354734">
@@ -7829,13 +7825,8 @@
 <trait identifier="1879277239" name="Spooky Caparison of the Bat" iconId="1091830702" category="54" nature="16">
 <group code="9" name="Body"/>
 </trait>
-<trait identifier="1879277534" name="Smashing Stab" iconId="1091805247" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_49" nature="27" description="key:620926952:54354734">
-<skill rank="1" id="1879272909" name="Smashing Stab"/>
-<effect id="1879273583" name="Smashing Stab"/>
-<effect id="1879273582" name="Smashing Stab"/>
-</trait>
 <trait identifier="1879277535" name="Follow Through" iconId="1091840544" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_guardian_rank_48" nature="27" description="key:620926951:54354734">
-<stat name="ForwardSource_Combat_Guardian_SkillCombo" value="(23)"/>
+<stat name="ForwardSource_Combat_Guardian_SkillCombo" value="(12)"/>
 <stat name="Skill_Guardian_ShieldSmash_Targets" descriptionOverride="-" scaling="1879277562"/>
 </trait>
 <trait identifier="1879277536" name="Stoic" iconId="1091805273" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="6" tierProperty="trait_class_guardian_rank_46" nature="27" description="key:620926950:54354734">
@@ -7848,7 +7839,6 @@
 <effect rank="6" id="1879314109" name="DNT - Stoic"/>
 </trait>
 <trait identifier="1879277543" name="Guardian's Ward: Tactics" iconId="1091805275" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_47" nature="27" description="key:620926953:54354734">
-<stat name="ForwardSource_Combat_Guardian_SkillCombo" descriptionOverride="-" value="(10)"/>
 <stat name="Skill_Guardian_GuardiansWard_TacticalMitigation" tieredScaling="1879468066;1879468067;1879468062;1879468065;1879468072"/>
 <effect id="1879277621" name="Challenge the Darkness"/>
 </trait>
@@ -7887,12 +7877,8 @@
 <skill rank="1" id="1879052210" name="Friend of Noble Birds (Lesser Giant Eagle)"/>
 <effect id="1879278143" name="Bird Flag"/>
 </trait>
-<trait identifier="1879277910" name="Insult to Injury" iconId="1091840979" staticIconOverlayId="1091664889" pointCostProgression="1879438609" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_53" nature="27" description="key:620927283:54354734">
-<effect id="1879297101" name="Fighter of Shadow"/>
-<effect rank="2" id="1879297128" name="Fighter of Shadow"/>
-<effect rank="3" id="1879297129" name="Fighter of Shadow"/>
-<effect rank="4" id="1879297130" name="Fighter of Shadow"/>
-<effect rank="5" id="1879297127" name="Fighter of Shadow"/>
+<trait identifier="1879277910" name="Wary Warrior" iconId="1090540663" staticIconOverlayId="1091664889" pointCostProgression="1879438609" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_53" nature="27" description="key:620927283:54354734">
+<stat name="Skill_Guardian_BreakRanks_AppChance" scaling="1879271503"/>
 </trait>
 <trait identifier="1879278628" name="Overwhelming Odds" iconId="1090541272" nature="30" description="key:620927923:54354734">
 <stat name="ForwardSource_Trait_Burglar_FellowshipsFriend_On" operator="SET" descriptionOverride="key:620927923:106251889" value="true"/>
@@ -8495,7 +8481,7 @@
 <skill rank="1" id="1879315082" name="Counterattack"/>
 <skill rank="1" id="1879315084" name="Counter"/>
 <effectGenerator id="1879318551" name="DNT - Hide of Vexation" spellcraft="0.0"/>
-<effectGenerator id="1879468244" name="DNT - Beorning Threat Effects" spellcraft="0.0"/>
+<effectGenerator id="1879523637" name="DNT - Tank Shared Threat Effects" spellcraft="0.0"/>
 <effectGenerator id="1879457117" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879311675" name="The Roar" iconId="1091618504" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_beorning_three" nature="28" description="key:620950482:54354734">
@@ -8599,8 +8585,7 @@
 <effect id="1879441961" name="Break Ranks"/>
 </trait>
 <trait identifier="1879314318" name="Rupture" iconId="1092835500" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_55" nature="27" description="key:620952541:54354734">
-<specialEffect label="key:620952541:106251889"/>
-<stat name="Skill_Guardian_HammerDown_CD" operator="SUBSTRACT" descriptionOverride="key:620952541:106251890" constant="5.0"/>
+<stat name="Skill_Guardian_HammerDown_CD" operator="SUBSTRACT" constant="5.0"/>
 <effect id="1879466652" name="DNT - Rupture"/>
 </trait>
 <trait identifier="1879314360" name="Singular Focus" iconId="1091916294" staticIconOverlayId="1091664889" pointCostProgression="1879438609" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_56" nature="27" description="key:620952567:54354734">
@@ -10428,7 +10413,7 @@
 <skill rank="1" id="1879411396" name="The Best Defence"/>
 <skill rank="1" id="1879411781" name="Come At Me"/>
 <effectGenerator id="1879421387" name="DNT" spellcraft="0.0"/>
-<effectGenerator id="1879497173" name="DNT - Blue-spec Threat Effects" spellcraft="0.0"/>
+<effectGenerator id="1879523637" name="DNT - Tank Shared Threat Effects" spellcraft="0.0"/>
 <effectGenerator id="1879457117" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879409406" name="The Maelstrom" iconId="1091564741" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_brawler_two" nature="28" description="key:621035447:54354734">
@@ -10674,7 +10659,8 @@
 <stat name="MIGHT" tieredScaling="1879366646;1879366652;1879366655;1879366660;1879366662"/>
 </trait>
 <trait identifier="1879420305" name="Strike as One! Damage Increase" iconId="1092693204" staticIconOverlayId="1091664889" pointCostProgression="1879438609" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_brawler_rank_40" nature="32">
-<stat name="Skill_Brawler_StrikeAsOne_DamageMod" descriptionOverride="key:621043804:106251889" scaling="1879420307"/>
+<stat name="Skill_Brawler_StrikeAsOne_SoloDamageMod" scaling="1879523660"/>
+<stat name="Skill_Brawler_StrikeAsOne_DamageMod" scaling="1879420307"/>
 </trait>
 <trait identifier="1879420310" name="Deft Feint" iconId="1092693208" staticIconOverlayId="1091664889" pointCostProgression="1879438609" rankOverlayProgression="1879220093" tierProperty="trait_class_brawler_rank_41" nature="32">
 <stat name="Skills_Brawler_Feint_PipMod" descriptionOverride="key:621043807:106251889" constant="3.0"/>
@@ -11536,7 +11522,7 @@
 <stat name="Corsair_Skill_CriticalMagnitude" constant="10.0"/>
 </trait>
 <trait identifier="1879458093" name="Buoying Winds" iconId="1092903901" nature="30" description="key:621072096:54354734">
-<stat name="Corsair_Wind_Buff_Potency" descriptionOverride="key:621072096:106251889" constant="5.0"/>
+<stat name="Corsair_Wind_Buff_Potency" descriptionOverride="key:621072096:106251889" constant="2.5"/>
 <stat name="Corsair_SouthWind_Potency" descriptionOverride="key:621072096:106251890" constant="10.0"/>
 </trait>
 <trait identifier="1879458118" name="Muscle Memory" iconId="1092813487" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_warden_rank_49" nature="25" description="key:621072150:54354734">
@@ -11585,7 +11571,7 @@
 <skill rank="1" id="1879467258" name="Thrum of the Sea"/>
 <skill rank="1" id="1879469805" name="Draining Strike"/>
 <effectGenerator id="1879457118" name="DNT" spellcraft="0.0"/>
-<effectGenerator id="1879457120" name="DNT" spellcraft="0.0"/>
+<effectGenerator id="1879523653" name="DNT" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879458221" name="The Shanty-caller" iconId="1091564746" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_corsair_one" nature="28" description="key:621072215:54354734">
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
@@ -12065,13 +12051,10 @@
 <skill id="1879466188" name="Righteous Fury"/>
 </trait>
 <trait identifier="1879466448" name="Disabling Strikes" iconId="1091805268" staticIconOverlayId="1091664889" pointCostProgression="1879438609" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_62" nature="27" description="key:621077954:54354734">
-<stat name="Trait_Guardian_FoS_RunSpeed_Buff" operator="SUBSTRACT" descriptionOverride="key:621077954:106251889" constant="12.5"/>
-<stat name="Trait_Guardian_FoS_AttackSpeed_Buff" descriptionOverride="key:621077954:106251890" constant="10.0"/>
-<stat name="Trait_Guardian_FoS_OutgoingDamage_Buff" operator="SUBSTRACT" descriptionOverride="key:621077954:106251891" constant="2.5"/>
-<stat name="Trait_Guardian_FoS_MissChance_Buff" descriptionOverride="key:621077954:106251892" constant="2.5"/>
-<stat name="Skill_Warden_Recklessness_Haste" descriptionOverride="key:621077954:106251893" constant="10.0"/>
-<stat name="Trait_Guardian_FoS_MissChance_Marked_Buff" operator="SUBSTRACT" descriptionOverride="key:621077954:106251894" constant="2.5"/>
-<effect id="1879272344" name="Disorientation"/>
+<stat name="Trait_Guardian_FoS_RunSpeed_Buff" operator="SUBSTRACT" descriptionOverride="key:621077954:106251889" constant="10.0"/>
+<stat name="Trait_Guardian_FoS_AttackSpeed_Buff" descriptionOverride="key:621077954:106251890" constant="5.0"/>
+<stat name="Trait_Guardian_FoS_OutgoingDamage_Buff" descriptionOverride="key:621077954:106251891" constant="2.5"/>
+<stat name="Skill_Warden_Recklessness_Haste" descriptionOverride="key:621077954:106251892" constant="10.0"/>
 </trait>
 <trait identifier="1879466467" name="Light-touched" iconId="1091805245" staticIconOverlayId="1091664889" pointCostProgression="1879438609" rankOverlayProgression="1879220093" tiers="5" tierProperty="trait_class_guardian_rank_20" nature="27" description="key:621077974:54354734">
 <stat name="ForwardSource_Combat_Block_PrimarySlot_EquipmentCategory" operator="SET" descriptionOverride="key:621077974:106251889" value="(2,3,5,14)"/>
@@ -12082,7 +12065,7 @@
 <effect rank="5" id="1879466468" name="Light-touched"/>
 </trait>
 <trait identifier="1879466484" name="Flash of Light" iconId="1091805236" staticIconOverlayId="1091664889" pointCostProgression="1879438609" rankOverlayProgression="1879220093" tierProperty="trait_class_guardian_rank_65" nature="27" description="key:621077982:54354734">
-<stat name="ForwardSource_Combat_Guardian_SkillCombo" descriptionOverride="key:621077982:106251889" value="(30)"/>
+<stat name="ForwardSource_Combat_Guardian_SkillCombo" descriptionOverride="key:621077982:106251889" value="(19)"/>
 </trait>
 <trait identifier="1879467109" name="Competitive Forester - V" iconId="1090535587" category="31" nature="1" tooltip="key:621078522:191029568" description="key:621078522:54354734">
 <stat name="Craft_Forester_CriticalChanceAddModifier" descriptionOverride="key:621078522:106251889" constant="1.0"/>
@@ -13267,7 +13250,7 @@
 <stat name="Trait_Hunter_TrapperofFoes_GracePeriod_Mod" descriptionOverride="key:621108494:106251889" scaling="1879508132"/>
 </trait>
 <trait identifier="1879508100" name="Bountiful Purge" iconId="1091840350" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_hunter_rank_26" nature="21" description="key:621108499:54354734">
-<stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="key:621108499:106251889" value="(1)"/>
+<stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="key:621108499:106251889" value="(8)"/>
 </trait>
 <trait identifier="1879508105" name="Long Shot" iconId="1093046171" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tiers="3" tierProperty="trait_class_hunter_rank_13" nature="21" description="key:621108502:54354734">
 <stat name="Skill_Hunter_Long_Shot_Damage" scaling="1879508127"/>
@@ -13285,10 +13268,10 @@
 <effect id="1879509087" name="DNT - Melee skills bonus focus chance"/>
 </trait>
 <trait identifier="1879508145" name="Combat Focus" iconId="1090553957" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_hunter_rank_27" nature="21" description="key:621108524:54354734">
-<stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="key:621108524:106251889" value="(24)"/>
+<stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="key:621108524:106251889" value="(13)"/>
 </trait>
 <trait identifier="1879508146" name="Hunter of Evil" iconId="1091787042" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_hunter_rank_56" nature="21" description="key:621108526:54354734">
-<stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="key:621108526:106251889" value="(25)"/>
+<stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="key:621108526:106251889" value="(9)"/>
 <stat name="SHADOW_MITIGATION_PERCENTAGE" constant="2.0"/>
 </trait>
 <trait identifier="1879508252" name="Reveal Weakness" iconId="1091798547" category="8" nature="30" tooltip="key:621108594:191029568" description="key:621108594:54354734">
@@ -13342,6 +13325,9 @@
 <trait identifier="1879508309" name="Light Armour Light green Corsair Orc Appearance" iconId="1092912115" category="54" nature="2" tooltip="key:621108686:191029568" description="key:621108686:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="60.0"/>
 </trait>
+<trait identifier="1879508316" name="Blue Spider-clan Reaver Orc Appearance" iconId="1092912115" category="54" nature="2" tooltip="key:621108653:191029568" description="key:621108653:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="78.0"/>
+</trait>
 <trait identifier="1879508340" name="Black Mordor Reaver Horned Chieftain Orc Appearance" iconId="1092912115" category="54" nature="2" tooltip="key:621108645:191029568" description="key:621108645:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="99.0"/>
 </trait>
@@ -13362,6 +13348,9 @@
 </trait>
 <trait identifier="1879508363" name="Moderately Infested Blue-skinned Spider-clan Defiler Appearance" iconId="1092912135" category="54" nature="2" tooltip="key:621108699:191029568" description="key:621108699:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="58.0"/>
+</trait>
+<trait identifier="1879508367" name="Blue-skinned Spider-clan Defiler Appearance" iconId="1092912135" category="54" nature="2" tooltip="key:621108701:191029568" description="key:621108701:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="56.0"/>
 </trait>
 <trait identifier="1879508710" name="Title: Malice Incarnate" iconId="1090535587" category="29" nature="1" cosmetic="true" tooltip="key:621109033:191029568" description="key:621109033:54354734"/>
 <trait identifier="1879508711" name="Title: Benevolence Incarnate" iconId="1090535587" category="29" nature="1" cosmetic="true" tooltip="key:621109031:191029568" description="key:621109031:54354734"/>
@@ -13528,6 +13517,10 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="63.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
+<trait identifier="1879516999" name="Rift Overseer Appearance" iconId="1092912137" category="54" nature="2" tooltip="key:621116101:191029568" description="key:621116101:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="114.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
 <trait identifier="1879517003" name="Eerie Blight-crawler Appearance" iconId="1090553285" category="54" nature="2" tooltip="key:621116070:191029568" description="key:621116070:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="67.0"/>
 <group code="18" name="Skin Appearance"/>
@@ -13536,8 +13529,20 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="44.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
+<trait identifier="1879517011" name="The Rift Bow-master Appearance" iconId="1092912116" category="54" nature="2" tooltip="key:621116075:191029568" description="key:621116075:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="92.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
 <trait identifier="1879517012" name="Blood-muzzle Grey Hyena Appearance" iconId="1092912831" category="54" nature="2" tooltip="key:621116096:191029568" description="key:621116096:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="47.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879517013" name="Grey Hyena Appearance" iconId="1092912831" category="54" nature="2" tooltip="key:621116067:191029568" description="key:621116067:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="46.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879517020" name="Blue Sleek Glass Appearance" iconId="1090553285" category="54" nature="2" tooltip="key:621116065:191029568" description="key:621116065:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="74.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
 <trait identifier="1879519975" name="Leg-guards of Mûr Ghala" iconId="1093061802" category="54" nature="16">
@@ -13594,7 +13599,7 @@
 <trait identifier="1879521644" name="War-steed's Ornate Leg-guards of the Wild Pasture" iconId="1092256814" category="54" nature="16">
 <group code="10" name="Legs"/>
 </trait>
-<trait identifier="1879521645" name="War-steed's Leggings of the Wild Pasture" iconId="1092256814" category="54" nature="16">
+<trait identifier="1879521645" name="War-steed's Legs of the Wild Pasture" iconId="1093080714" category="54" nature="16">
 <group code="10" name="Legs"/>
 </trait>
 </traits>
