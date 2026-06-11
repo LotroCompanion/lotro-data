@@ -28931,8 +28931,8 @@
 <effect id="1879522475" name="DNT - Adamant Cooldown Reduction on Sweeping Reposte"/>
 </bonus>
 <bonus nbItems="5">
-<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
-<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="2.0"/>
 </bonus>
 </set>
 <set id="1879525445" name="Raiment of the Outrider&#10;(Max Level: 164)" level="580" maxLevel="164" description="">
@@ -29287,7 +29287,7 @@
 <stat name="Itemset_Minstrel_CoW_CoF_Empower_Appchance" descriptionOverride="key:621122780:108054836" constant="1.0"/>
 </bonus>
 <bonus nbItems="5">
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="7.5000005"/>
 </bonus>
 </set>
 <set id="1879525569" name="Raiment of the Skin-changer Brute&#10;(Max Level: 164)" level="580" maxLevel="164" description="">
@@ -29349,7 +29349,7 @@
 </bonus>
 <bonus nbItems="5">
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="7.5000005"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="7.5000005"/>
 </bonus>
 </set>
 <set id="1879525589" name="Raiment of the Wound Carver&#10;(Max Level: 164)" level="580" maxLevel="164" description="">
@@ -29392,6 +29392,167 @@
 </bonus>
 <bonus nbItems="5">
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="7.5000005"/>
+</bonus>
+</set>
+<set id="1879528508" name="Fallen Conjurer's Garb&#10;(Max Level: 164)" level="575" maxLevel="164" description="">
+<item id="1879525919" name="Fallen Conjurer's Coat"/>
+<item id="1879525929" name="Fallen Conjurer's Leggings"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211544"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879528509" name="Fallen Sage's Garb&#10;(Max Level: 164)" level="575" maxLevel="164" description="">
+<item id="1879525920" name="Fallen Sage's Hooded Helm"/>
+<item id="1879525927" name="Fallen Sage's Shoulder-guard"/>
+<bonus nbItems="2">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="WILL" scaling="1879211576"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879528510" name="Fallen Mystic's Garb&#10;(Max Level: 164)" level="575" maxLevel="164" description="">
+<item id="1879525923" name="Fallen Mystic's Bracers"/>
+<item id="1879525931" name="Fallen Mystic's Shoes"/>
+<bonus nbItems="2">
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.5"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="MIGHT" scaling="1879211547"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879528515" name="Fallen Warrior's Garb&#10;(Max Level: 164)" level="575" maxLevel="164" description="">
+<item id="1879525925" name="Fallen Warrior's Helmet"/>
+<item id="1879525934" name="Fallen Warrior's Pauldrons"/>
+<bonus nbItems="2">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="MIGHT" scaling="1879211547"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879528516" name="Fallen Noble's Garb&#10;(Max Level: 164)" level="575" maxLevel="164" description="">
+<item id="1879525926" name="Fallen Noble's Scale Coat"/>
+<item id="1879525933" name="Fallen Noble's Skirt"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211544"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879528517" name="Fallen Rogue's Garb&#10;(Max Level: 164)" level="575" maxLevel="164" description="">
+<item id="1879525915" name="Fallen Rogue's Gloves"/>
+<item id="1879525922" name="Fallen Rogue's Boots"/>
+<bonus nbItems="2">
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="MIGHT" scaling="1879211547"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879528518" name="Fallen Guardsman's Garb&#10;(Max Level: 164)" level="575" maxLevel="164" description="">
+<item id="1879525930" name="Fallen Guardsman's Gauntlets"/>
+<item id="1879525924" name="Fallen Guardsman's Greaves"/>
+<bonus nbItems="2">
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.5"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="WILL" scaling="1879211576"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879528519" name="Fallen Scout's Garb&#10;(Max Level: 164)" level="575" maxLevel="164" description="">
+<item id="1879525916" name="Fallen Scout's Crested Helm"/>
+<item id="1879525921" name="Fallen Scout's Spaulders"/>
+<bonus nbItems="2">
+<stat name="VITALITY" scaling="1879211544"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="AGILITY" scaling="1879211555"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="3.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879528520" name="Fallen Warden's Garb&#10;(Max Level: 164)" level="575" maxLevel="164" description="">
+<item id="1879525928" name="Fallen Warden's Hauberk"/>
+<item id="1879525918" name="Fallen Warden's Mail Fauld"/>
+<bonus nbItems="2">
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.5"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="WILL" scaling="1879211576"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="3.0"/>
+</bonus>
+<bonus nbItems="5">
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.5"/>
 </bonus>
 </set>
 </sets>
