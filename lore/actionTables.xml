@@ -47679,10 +47679,10 @@
 <actionTableEntry probability="75.0" cooldown="35.0">
 <action skillId="1879527504" name="Shadow Binding"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="12.0" disallowedHints="75">
+<actionTableEntry probability="90.0" cooldown="12.0" disallowedHints="75">
 <action skillId="1879528355" name="Shadow Spit"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="12.0" requiredHints="75" disallowedHints="77,78">
+<actionTableEntry probability="90.0" cooldown="12.0" requiredHints="75" disallowedHints="77,78">
 <action skillId="1879528356" name="Shadow Spit"/>
 </actionTableEntry>
 <actionTableEntry probability="25.0" cooldown="15.0">
@@ -47691,10 +47691,10 @@
 <actionTableEntry probability="75.0" cooldown="35.0">
 <action skillId="1879528353" name="Shadow Breath"/>
 </actionTableEntry>
-<actionTableEntry probability="-1.0" cooldown="30.0" disallowedHints="26">
+<actionTableEntry probability="50.0" cooldown="30.0" disallowedHints="26">
 <action skillId="1879528351" name="Wing Flap"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="45.0">
+<actionTableEntry probability="90.0" cooldown="45.0">
 <action skillId="1879528181" name="Rain of Shadows"/>
 </actionTableEntry>
 <actionTableEntry probability="90.0" cooldown="35.0" disallowedHints="75,77">
@@ -47915,7 +47915,7 @@
 <action skillId="1879526388" name="Weakening Blow"/>
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="25.0">
-<action skillId="1879526377" name="Roar of Terror"/>
+<action skillId="1879528687" name="Roar of Terror"/>
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="15.0">
 <action skillId="1879526376" name="Poisoned Morale"/>
@@ -47987,12 +47987,12 @@
 <action skillId="1879526388" name="Weakening Blow"/>
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="25.0">
-<action skillId="1879526377" name="Roar of Terror"/>
+<action skillId="1879528687" name="Roar of Terror"/>
 </actionTableEntry>
 <actionTableEntry probability="90.0" cooldown="15.0">
 <action skillId="1879526376" name="Poisoned Morale"/>
 </actionTableEntry>
-<actionTableEntry probability="75.0" cooldown="10.0" requiredHints="42">
+<actionTableEntry probability="75.0" cooldown="10.0" targetRequiredHints="42">
 <action skillId="1879525612" name="Vile Spew"/>
 </actionTableEntry>
 </actionTable>
@@ -48024,7 +48024,7 @@
 </actionTable>
 <actionTable id="1879525030">
 <actionTableEntry probability="-1.0" cooldown="5.0">
-<action skillId="1879526387" name="Uncontrolled Rage"/>
+<action skillId="1879528590" name="Uncontrolled Rage"/>
 </actionTableEntry>
 <actionTableEntry probability="75.0" cooldown="15.0">
 <action skillId="1879526374" name="Rending Cleave"/>
@@ -48470,6 +48470,14 @@
 <action skillId="1879527764" name="Ending Strike"/>
 </actionTableEntry>
 </actionTable>
+<actionTable id="1879527183">
+<actionTableEntry probability="90.0" cooldown="45.0" requiredHints="75">
+<action skillId="1879528957" name="Call to Nuzêru"/>
+</actionTableEntry>
+<actionTableEntry probability="-1.0" cooldown="20.0" requiredHints="72,75">
+<action skillId="1879528952" name="Song of Nuzêru"/>
+</actionTableEntry>
+</actionTable>
 <actionTable id="1879527775">
 <actionTableEntry probability="75.0" cooldown="2.0" disallowedHints="16">
 <action skillId="1879049322" name="a weak melee attack"/>
@@ -48557,6 +48565,14 @@
 <actionTable id="1879528542">
 <actionTableEntry probability="-1.0" cooldown="1.0">
 <action skillId="1879528541" name="Shattering Roar"/>
+</actionTableEntry>
+</actionTable>
+<actionTable id="1879528941">
+<actionTableEntry probability="-1.0" cooldown="3.0" targetRequiredHints="71">
+<action skillId="1879529026" name="Healing Echo"/>
+</actionTableEntry>
+<actionTableEntry probability="90.0" cooldown="1.0">
+<action skillId="1879049322" name="a weak melee attack"/>
 </actionTableEntry>
 </actionTable>
 </actionTables>
