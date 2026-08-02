@@ -1122,10 +1122,10 @@
 <label key="268445318" value="Während Ihr Euch im Zufluchtsort mit Falltür befindet, nehmen die Euch umgebenden Feinde durch eine Giftaura Schaden."/>
 <label key="268445319" value="-5 s auf Countdown von \qLatentes Gift\q"/>
 <label key="268445320" value="Im Kampf tritt die Wirkung von \qLähmendes Gift\q erst nach 5 Sekunden ein"/>
-<label key="268445383" value="Schadenstyp: Feuer"/>
-<label key="268445384" value="Schadenstyp: Blitz"/>
-<label key="268445385" value="Lichtartiger Schaden"/>
-<label key="268445386" value="Schadenstyp: Frost"/>
+<label key="268445383" value="Feuerschaden"/>
+<label key="268445384" value="Blitzschaden"/>
+<label key="268445385" value="Lichtschaden"/>
+<label key="268445386" value="Frostschaden"/>
 <label key="268445394" value="Legendäre Fertigkeit Abklingzeit"/>
 <label key="268445403" value="Stiefel entfernt"/>
 <label key="268445404" value="Überhose entfernt"/>
@@ -1260,7 +1260,7 @@
 <label key="268446059" value="Lebensenergie-Kosten: Grausames Opfer"/>
 <label key="268446060" value="Kraftkosten für \qGrausame Wiederherstellung\q"/>
 <label key="268446065" value="Überraschungsschlag Abklingzeit"/>
-<label key="268446066" value="Abklingzeit für \qSelbstmotivation\q"/>
+<label key="268446066" value="Abklingzeit von \qSelbstmotivation\q"/>
 <label key="268446067" value="Abklingzeit für \qBlendender Blitzstrahl\q"/>
 <label key="268446069" value="Schildspott: Ziele"/>
 <label key="268446070" value="Litanei des Trotzes: Ziele"/>
@@ -1519,7 +1519,7 @@
 <label key="268447928" value="Angriffswert: Fernkampf"/>
 <label key="268447948" value="Wert: Taktischer Schaden"/>
 <label key="268447950" value="Klassenwert: Taktischer Schaden"/>
-<label key="268447953" value="Modifikator: Empfangene Heilung"/>
+<label key="268447953" value="Empfangene Heilung"/>
 <label key="268447956" value="Wert: Empfangene Heilung"/>
 <label key="268447964" value="Schaden durch \qBarbarische Schläge\q/\qWilde Schläge\q"/>
 <label key="268447965" value="Schaden bei „Wilder Angriff“"/>
@@ -1543,8 +1543,8 @@
 <label key="268448027" value="Schaden durch heftigen Schlag"/>
 <label key="268448101" value="Zeichenerwerb"/>
 <label key="268448148" value="Wert: Heilung auf andere"/>
-<label key="268448149" value="Modifikator: Heilung auf andere"/>
-<label key="268448151" value="Modifikator: Heileffekte auf Andere"/>
+<label key="268448149" value="Outgoing Healing"/>
+<label key="268448151" value="Outgoing Healing"/>
 <label key="268448167" value="Schaden durch „Auf Nummer sicher gehen“"/>
 <label key="268448168" value="Multiplikator: Tumult-Anwendungsverzögerung"/>
 <label key="268448169" value="Blutungsschaden durch Schurken-Fertigkeiten"/>
@@ -4973,12 +4973,12 @@
 <label key="268465205" value="Zauberin: Schattenschaden"/>
 <label key="268465206" value="Säureschaden der Zauberin"/>
 <label key="268465207" value="Zauberin: Fertigkeitenschaden"/>
-<label key="268465208" value="Vorbereitete Zauber: Modifikator für Dauer"/>
+<label key="268465208" value="Dauer der vorbereiteten Fertigkeit"/>
 <label key="268465209" value="Zauberin: Frostschaden"/>
-<label key="268465210" value="Zauberin: Schaden durch vorbereitete Fertigkeit"/>
+<label key="268465210" value="Schaden durch vorbereitete Fertigkeit"/>
 <label key="268465211" value="Zauberin: Feuerschaden"/>
-<label key="268465278" value="Zauberin: Kritische Chance von Auflösen"/>
-<label key="268465279" value="Zauberin: Auflösungsschaden"/>
+<label key="268465278" value="Kritische Chance von \qAuflösen\q"/>
+<label key="268465279" value="Schaden durch \qAuflösen\q"/>
 <label key="268465280" value="Abklingzeit von \qVerfluchtes Wissen\q"/>
 <label key="268465315" value="Negierungsdauer von \qVordermann\q"/>
 <label key="268465316" value="Stärke der Schadensnegierung von \qVordermann\q"/>
@@ -5033,10 +5033,10 @@
 <label key="268465512" value="Kombo: Aktuelle Zauberinnen-Fertigkeit"/>
 <label key="268465515" value="Abklingzeit für \qSchlaue Erwiderung\q"/>
 <label key="268465516" value="Anwendungschance von \qGegenschlag\q"/>
-<label key="268465517" value="Schnell gelernt: Modifikator für Dauer"/>
-<label key="268465518" value="Einsicht: Abklingzeit-Regenerationstimer"/>
+<label key="268465517" value="Dauer von \qSchnell gelernt\q"/>
+<label key="268465518" value="Abklingzeit von \qEinsicht des Eisens\q"/>
 <label key="268465519" value="Schändliche Zunge: Anwendungswahrscheinlichkeit"/>
-<label key="268465520" value="Beschwörer: Modifikator für Dauer"/>
+<label key="268465520" value="Dauer von \qBeschwörer\q"/>
 <label key="268465523" value="Fokus-Kosten von \qSperrfeuer\q"/>
 <label key="268465524" value="Fokus-Kosten von \qSperrfeuer\q"/>
 <label key="268465525" value="Fokus-Kosten von \qAusbluten\q"/>
@@ -5103,6 +5103,7 @@
 <label key="268465779" value="Schaden durch \qUnsichtbarer Schlag\q-Gambit"/>
 <label key="268465780" value="Schaden durch \qKauterisierender Stahl\q"/>
 <label key="268465781" value="Schaden durch \qAnsturm des Keilers\q"/>
+<label key="268465782" value="Pip-Event immer neu in Wartschlange einreihen"/>
 <label key="268465784" value="Soloschaden von \qGreift mit vereinten Kräften an!\q"/>
 <label key="268465791" value="DNT - Oath Chance"/>
 <label key="268465792" value="DNT - Oath Chance"/>
@@ -5143,6 +5144,80 @@
 <label key="268465831" value="Schaden von \qSpeer des Schicksals\q"/>
 <label key="268465832" value="DNT - On the Hunt Effects Active"/>
 <label key="268465833" value="DNT - Add Bonus Effect"/>
+<label key="268465946" value="Rabatt bei allen Stallmeistern in Draugardh."/>
+<label key="268465947" value="Rabatt bei allen Händlern in Draugardh."/>
+<label key="268465979" value="Zaubersynergie"/>
+<label key="268465984" value="Schaden durch vorbereitete Frost-Fertigkeit"/>
+<label key="268465985" value="Schaden durch vorbereitete Feuer-Fertigkeit"/>
+<label key="268465986" value="Schaden durch vorbereitete Schatten-Fertigkeit"/>
+<label key="268465988" value="Dauer von \qTanz der Schatten\q"/>
+<label key="268465989" value="Abklingzeit von \qErgebenheit: Schattentuch\q"/>
+<label key="268465990" value="Abklingzeit von \qErgebenheit: Signalfeuer\q"/>
+<label key="268465991" value="Dauer von \qSäuremantel\q"/>
+<label key="268465992" value="Abklingzeit von \qErgebenheit: Säure\q"/>
+<label key="268465993" value="'Säurefontäne' explodiert jetzt."/>
+<label key="268465994" value="Dauer von \qEiseskälte-Ergebenheit\q"/>
+<label key="268465995" value="Dauer von \qFrostmantel\q"/>
+<label key="268465996" value="'Schattenmantel' explodiert jetzt und zieht Ziele heran."/>
+<label key="268465997" value="'Lavafontäne' explodiert jetzt und unterbricht Aktionen."/>
+<label key="268465998" value="Dauer von \qFeuermantel\q"/>
+<label key="268465999" value="'Eissäulenfontäne' explodiert jetzt und stößt Ziele zurück."/>
+<label key="268466000" value="Abklingzeit von \qErgebenheit: Wind der Eiseskälte\q"/>
+<label key="268466001" value="'Eisgrab' explodiert jetzt und stößt Ziele zurück."/>
+<label key="268466002" value="Verbesserter Frosthauch"/>
+<label key="268466003" value="Verbesserter Schattenhauch"/>
+<label key="268466004" value="Verbesserter Säurehauch"/>
+<label key="268466005" value="Verbesserter Feuerhauch"/>
+<label key="268466006" value="Verbesserter Schattenstachel"/>
+<label key="268466007" value="Verbesserter Froststachel"/>
+<label key="268466008" value="Verbesserter Feuerstachel"/>
 <label key="268466009" value="Gegner tauchen im Nazgûl-Ereignis schneller auf."/>
+<label key="268466053" value="Säureschaden"/>
+<label key="268466054" value="Schattenschaden"/>
+<label key="268466060" value="Abklingzeit von \qEisgrab\q"/>
+<label key="268466061" value="Abklingzeit von \qVerbannung des Lichts\q"/>
+<label key="268466062" value="Abklingzeit von \qSchattenhaftes Scheinbild\q"/>
+<label key="268466063" value="Abklingzeit von \qGeschenk des Raureifs\q"/>
+<label key="268466064" value="Abklingzeit von \qMit der Macht des Lindwurms\q"/>
+<label key="268466065" value="Verbesserter Säurestachel"/>
+<label key="268466066" value="Abklingzeit von \qFeuerflut\q"/>
+<label key="268466067" value="DNT - Bonus Effect"/>
+<label key="268466069" value="Impulsanzahl von \qEntzünden\q"/>
+<label key="268466071" value="DNT - Replace Bleeds"/>
+<label key="268466072" value="DNT - Replace Bleeds"/>
+<label key="268466073" value="DNT - Replace Bleeds"/>
+<label key="268466074" value="Verbessertes \qTodesfeuer\q"/>
+<label key="268466075" value="Furcht-Schonfrist von \qSchattenatem\q"/>
+<label key="268466076" value="Verbesserter \qFrostatem\q"/>
+<label key="268466077" value="Verbesserter \qSchattenatem\q"/>
+<label key="268466078" value="Verbesserter \qFlammenatem\q"/>
+<label key="268466079" value="Verbesserter \qSäureatem\q"/>
+<label key="268466080" value="Verbessert \qSchattenhauch\q - Selbst"/>
+<label key="268466081" value="Verbesserter Säurehauch - Selbst"/>
+<label key="268466082" value="Verbesserter Feuerhauch - Selbst"/>
+<label key="268466083" value="Abklingzeit von \qZaubersynergie\q"/>
+<label key="268466084" value="DNT - Bonus Effect"/>
+<label key="268466085" value="DNT Bonus Effect"/>
+<label key="268466086" value="DNT Bonus Effect"/>
+<label key="268466087" value="DNT Bonus Effect"/>
+<label key="268466098" value="DNT - Override Target Effect"/>
+<label key="268466099" value="DNT - Bonus Effects"/>
+<label key="268466107" value="In Harm's Way Incoming Healing"/>
+<label key="268466108" value="DNT - Bonus Effect"/>
+<label key="268466109" value="DNT - Bonus Effect"/>
+<label key="268466110" value="DNT"/>
+<label key="268466111" value="DNT"/>
+<label key="268466112" value="DNT"/>
+<label key="268466113" value="DNT - Bonus Effect on nh Shanties"/>
+<label key="268466114" value="DNT - Disengage Effect"/>
+<label key="268466115" value="DNT - Bonus Effect on nh Swordplays"/>
+<label key="268466124" value="DNT - Override AM WL Effects"/>
+<label key="268466125" value="DNT - Override WL Effects"/>
+<label key="268466129" value="DNT - Bonus Effect"/>
+<label key="268466130" value="DNT - Bonus Effect"/>
+<label key="268466131" value="Improved Wisp of Acid"/>
+<label key="268466132" value="Improved Wisp of Acid"/>
+<label key="268466133" value="Improved Wisp of Acid"/>
+<label key="268466134" value="Improved Wisp of Acid"/>
 <label key="2881" value="Ändert die physische Kontrolle des Spielers zu einem Gleiten"/>
 </labels>

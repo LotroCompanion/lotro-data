@@ -6281,7 +6281,7 @@
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="key:620894368:108054836"/>
-<effect id="1879229782" name="DNT - Routing cry applies a healing debuff"/>
+<effect id="1879229782" name="DNT - Horn of Gondor"/>
 </bonus>
 </set>
 <set id="1879229469" name="Arms of the Spear-lord - 75" level="88" maxLevel="85" description="">
@@ -6931,7 +6931,7 @@
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="key:620899919:108054836"/>
-<effect id="1879229782" name="DNT - Routing cry applies a healing debuff"/>
+<effect id="1879229782" name="DNT - Horn of Gondor"/>
 </bonus>
 </set>
 <set id="1879238882" name="Storm-caller's Raiment - 85" level="97" maxLevel="95" description="">
@@ -14111,7 +14111,7 @@
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="key:620945990:108054836"/>
-<effect id="1879229782" name="DNT - Routing cry applies a healing debuff"/>
+<effect id="1879229782" name="DNT - Horn of Gondor"/>
 </bonus>
 </set>
 <set id="1879302363" name="Harmonious Raiment - 95" level="176" maxLevel="105" description="">
@@ -15266,7 +15266,7 @@
 </bonus>
 <bonus nbItems="4">
 <specialEffect label="key:620952662:108054836"/>
-<effect id="1879229782" name="DNT - Routing cry applies a healing debuff"/>
+<effect id="1879229782" name="DNT - Horn of Gondor"/>
 </bonus>
 </set>
 <set id="1879314463" name="Raiment of Tradition - 100" level="176" maxLevel="115" description="">
@@ -24659,6 +24659,20 @@
 <stat name="FIRE_MITIGATION_PERCENTAGE" constant="5.0"/>
 </bonus>
 </set>
+<set id="1879476037" name="Armour of the Hytbold Shanty-caller&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
+<item id="1879526009" name="Helm of the Hytbold Shanty-caller"/>
+<item id="1879526016" name="Shoulderpads of the Hytbold Shanty-caller"/>
+<item id="1879525993" name="Jacket of the Hytbold Shanty-caller"/>
+<item id="1879526006" name="Gloves of the Hytbold Shanty-caller"/>
+<item id="1879525989" name="Leggings of the Hytbold Shanty-caller"/>
+<item id="1879526021" name="Boots of the Hytbold Shanty-caller"/>
+<bonus nbItems="2">
+<stat name="Corsair_WindEffect_Duration" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_Wind_Shanty_Cooldowns" operator="SUBSTRACT" constant="5.0"/>
+</bonus>
+</set>
 <set id="1879476038" name="Battle-dress of Deft Manoeuvres&#10;(Max Level: 134)" level="430" maxLevel="134" description="">
 <item id="1879470902" name="Mariner's Silk-hide Helm of the Deft Manoeuvres"/>
 <item id="1879470914" name="Mariner's Silk-hide Camail of the Deft Manoeuvres"/>
@@ -24890,6 +24904,20 @@
 <bonus nbItems="4">
 <stat name="Corsair_StarGuide_Cooldown" operator="SUBSTRACT" constant="15.0"/>
 <stat name="Corsair_MarkedFoes_Cooldown" operator="SUBSTRACT" constant="5.0"/>
+</bonus>
+</set>
+<set id="1879476052" name="Hytbold Duellist's Armour&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
+<item id="1879526007" name="Helm of the Hytbold Duellist"/>
+<item id="1879525992" name="Shoulderpads of the Hytbold Duellist"/>
+<item id="1879526001" name="Jacket of the Hytbold Duellist"/>
+<item id="1879525995" name="Gloves of the Hytbold Duellist"/>
+<item id="1879525988" name="Leggings of the Hytbold Duellist"/>
+<item id="1879526018" name="Boots of the Hytbold Duellist"/>
+<bonus nbItems="2">
+<effect id="1879476125" name="DNT - Feint reduces Finisher cooldowns"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="Corsair_Skilldamage_Swordplay" constant="15.000001"/>
 </bonus>
 </set>
 <set id="1879476053" name="Supreme Battle-dress of Inspired Striking&#10;(Max Level: 119)" level="258" maxLevel="119" description="">
@@ -25192,6 +25220,20 @@
 <stat name="Corsair_CausticBrew_Duration" constant="5.0"/>
 </bonus>
 </set>
+<set id="1879476073" name="Armour of the Hytbold Rover&#10;(Max Level: 94)" level="97" maxLevel="94" description="">
+<item id="1879526010" name="Helm of the Hytbold Rover"/>
+<item id="1879526015" name="Shoulderpads of the Hytbold Rover"/>
+<item id="1879526005" name="Jacket of the Hytbold Rover"/>
+<item id="1879526020" name="Gloves of the Hytbold Rover"/>
+<item id="1879525990" name="Leggings of the Hytbold Rover"/>
+<item id="1879525997" name="Boots of the Hytbold Rover"/>
+<bonus nbItems="2">
+<stat name="Corsair_Bottle_CooldownMod" operator="SUBSTRACT" constant="10.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879476109" name="DNT - Pots can increase inc damage"/>
+</bonus>
+</set>
 <set id="1879476074" name="Armour of the Sailor's Tune&#10;(Max Level: 74)" level="65" maxLevel="74" description="">
 <item id="1879470956" name="Gauntlets of the Sailor's Tune"/>
 <item id="1879470966" name="Boots of the Sailor's Tune"/>
@@ -25240,6 +25282,12 @@
 <item id="1879510595" name="Ascendent Light"/>
 <item id="1879510956" name="Ascendent Light"/>
 <item id="1879511512" name="Ascendent Light"/>
+<item id="1879529964" name="Heraldry of the Bright Serpent"/>
+<item id="1879529974" name="Heraldry of the Bright Lion"/>
+<item id="1879529976" name="Heraldry of the Bright Eagle"/>
+<item id="1879530007" name="Heraldry of the Bright Serpent"/>
+<item id="1879530008" name="Heraldry of the Bright Eagle"/>
+<item id="1879530014" name="Heraldry of the Bright Lion"/>
 <bonus nbItems="2">
 <stat name="Combat_SkillDamageMultiplier_Light" constant="15.000001"/>
 </bonus>
@@ -25252,6 +25300,8 @@
 <item id="1879510636" name="Ascendent Lightning"/>
 <item id="1879510948" name="Ascendent Lightning"/>
 <item id="1879511145" name="Ascendent Lightning"/>
+<item id="1879529972" name="Heraldry of the Tempestuous Eagle"/>
+<item id="1879529990" name="Heraldry of the Tempestuous Eagle"/>
 <bonus nbItems="2">
 <stat name="Combat_SkillDamageMultiplier_Lightning" constant="15.000001"/>
 </bonus>
@@ -25522,6 +25572,8 @@
 <item id="1879511372" name="Ascendent Frost"/>
 <item id="1879511510" name="Ascendent Frost"/>
 <item id="1879511884" name="Ascendent Frost"/>
+<item id="1879529969" name="Heraldry of the Frigid Eagle"/>
+<item id="1879529993" name="Heraldry of the Frigid Eagle"/>
 <bonus nbItems="2">
 <stat name="Combat_SkillDamageMultiplier_Frost" constant="15.000001"/>
 </bonus>
@@ -25534,6 +25586,8 @@
 <item id="1879510850" name="Ascendent Flame"/>
 <item id="1879511257" name="Ascendent Flame"/>
 <item id="1879511565" name="Ascendent Flame"/>
+<item id="1879529961" name="Heraldry of the Blazing Eagle"/>
+<item id="1879529962" name="Heraldry of the Blazing Eagle"/>
 <bonus nbItems="2">
 <stat name="Combat_SkillDamageMultiplier_Fire" constant="15.000001"/>
 </bonus>
@@ -25546,6 +25600,10 @@
 <item id="1879510799" name="Grand Willpower"/>
 <item id="1879511208" name="Grand Willpower"/>
 <item id="1879511500" name="Grand Willpower"/>
+<item id="1879529971" name="Heraldry of the Stalwart Sparrow"/>
+<item id="1879529983" name="Heraldry of the Stalwart Ox"/>
+<item id="1879529985" name="Heraldry of the Stalwart Ox"/>
+<item id="1879530002" name="Heraldry of the Stalwart Sparrow"/>
 <bonus nbItems="2">
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
 </bonus>
@@ -25558,6 +25616,12 @@
 <item id="1879511044" name="Heroic Alacrity"/>
 <item id="1879511289" name="Heroic Alacrity"/>
 <item id="1879511719" name="Heroic Alacrity"/>
+<item id="1879529978" name="Heraldry of the Swift Eagle"/>
+<item id="1879529982" name="Heraldry of the Swift Lion"/>
+<item id="1879529989" name="Heraldry of the Swift Serpent"/>
+<item id="1879530001" name="Heraldry of the Swift Lion"/>
+<item id="1879530003" name="Heraldry of the Swift Serpent"/>
+<item id="1879530006" name="Heraldry of the Swift Eagle"/>
 <bonus nbItems="2">
 <stat name="ATTACK_DURATION_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
 </bonus>
@@ -25618,6 +25682,10 @@
 <item id="1879511461" name="Perfect Healing"/>
 <item id="1879511579" name="Perfect Healing"/>
 <item id="1879511811" name="Perfect Healing"/>
+<item id="1879529960" name="Heraldry of the Mending Bear"/>
+<item id="1879529967" name="Heraldry of the Mending Bear"/>
+<item id="1879529984" name="Heraldry of the Mending Owl"/>
+<item id="1879530012" name="Heraldry of the Mending Owl"/>
 <bonus nbItems="2">
 <stat name="OUTGOING_HEALING_PERCENTAGE" constant="3.0"/>
 </bonus>
@@ -25670,6 +25738,10 @@
 <item id="1879510738" name="Grand Armour"/>
 <item id="1879511285" name="Grand Armour"/>
 <item id="1879511917" name="Grand Armour"/>
+<item id="1879529965" name="Heraldry of the Sturdy Sparrow"/>
+<item id="1879529977" name="Heraldry of the Sturdy Sparrow"/>
+<item id="1879529987" name="Heraldry of the Sturdy Ox"/>
+<item id="1879529996" name="Heraldry of the Sturdy Ox"/>
 <bonus nbItems="2">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="1.5"/>
 </bonus>
@@ -25734,6 +25806,12 @@
 <item id="1879510669" name="Heroic Precision"/>
 <item id="1879510984" name="Heroic Precision"/>
 <item id="1879511818" name="Heroic Precision"/>
+<item id="1879529973" name="Heraldry of the Keen Lion"/>
+<item id="1879529995" name="Heraldry of the Keen Eagle"/>
+<item id="1879529998" name="Heraldry of the Keen Eagle"/>
+<item id="1879530000" name="Heraldry of the Keen Serpent"/>
+<item id="1879530004" name="Heraldry of the Keen Lion"/>
+<item id="1879530016" name="Heraldry of the Keen Serpent"/>
 <bonus nbItems="2">
 <stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="key:621087452:103715137" constant="3.0"/>
 <stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
@@ -25884,6 +25962,10 @@
 <item id="1879511409" name="Perfect Recovery"/>
 <item id="1879511662" name="Perfect Recovery"/>
 <item id="1879511690" name="Perfect Recovery"/>
+<item id="1879529963" name="Heraldry of the Resilient Ox"/>
+<item id="1879529979" name="Heraldry of the Resilient Sparrow"/>
+<item id="1879529994" name="Heraldry of the Resilient Sparrow"/>
+<item id="1879530010" name="Heraldry of the Resilient Ox"/>
 <bonus nbItems="2">
 <stat name="INCOMING_HEALING_PERCENTAGE" constant="3.0"/>
 </bonus>
@@ -28110,7 +28192,7 @@
 <item id="1879516700" name="Blighted Shirt of the Keeper"/>
 <item id="1879516839" name="Blighted Gloves of the Keeper"/>
 <item id="1879516764" name="Blighted Leggings of the Keeper"/>
-<item id="1879516641" name="Blighted Shoes of the Keeper"/>
+<item id="1879516641" name="Blighted Boots of the Keeper"/>
 <bonus nbItems="2">
 <stat name="VITALITY" scaling="1879211535"/>
 </bonus>
@@ -28548,7 +28630,7 @@
 <item id="1879514913" name="Forgotten Elvish Healer's Robe"/>
 <item id="1879514949" name="Forgotten Elvish Healer's Cuffs"/>
 <item id="1879514914" name="Forgotten Elvish Healer's Leggings"/>
-<item id="1879514931" name="Forgotten Elvish Healer's Shoes"/>
+<item id="1879514931" name="Forgotten Elvish Healer's Boots"/>
 <bonus nbItems="2">
 <stat name="VITALITY" scaling="1879211535"/>
 </bonus>
@@ -29394,6 +29476,618 @@
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="7.5000005"/>
 </bonus>
 </set>
+<set id="1879526035" name="Deck-master's Armour&#10;(Max Level: 47)" level="38" maxLevel="47" description="key:621123271:54354734">
+<item id="1879526042" name="Deck-master Helmet"/>
+<item id="1879526031" name="Deck-master Shoulder Pads"/>
+<item id="1879526041" name="Deck-master Jacket"/>
+<item id="1879526037" name="Deck-master Leggings"/>
+<item id="1879526034" name="Deck-master Gloves"/>
+<item id="1879526038" name="Deck-master Boots"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211555"/>
+<stat name="VITALITY" scaling="1879211533"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="PHYSICAL_MASTERY" scaling="1879225867"/>
+</bonus>
+</set>
+<set id="1879528209" name="Garb of the Tracker - 160" level="575" maxLevel="160" description="">
+<item id="1879514133" name="Circlet of the Tracker"/>
+<item id="1879514192" name="Wrap of the Tracker"/>
+<item id="1879514221" name="Jack of the Tracker"/>
+<item id="1879514282" name="Vambraces of the Tracker"/>
+<item id="1879514136" name="Leggings of the Tracker"/>
+<item id="1879514148" name="Boots of the Tracker"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_DEFENCE" scaling="1879211642"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530024" name="DNT - Reset CC Skills"/>
+</bonus>
+</set>
+<set id="1879528210" name="Armour of the Tattered Banner - 160" level="575" maxLevel="160" description="">
+<item id="1879514160" name="Crown of the Tattered Banner"/>
+<item id="1879514217" name="Pauldrons of the Tattered Banner"/>
+<item id="1879514291" name="Hauberk of the Tattered Banner"/>
+<item id="1879514292" name="Bracers of the Tattered Banner"/>
+<item id="1879514143" name="Leggings of the Tattered Banner"/>
+<item id="1879514172" name="Sabatons of the Tattered Banner"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530177" name="DNT - Add Executes"/>
+</bonus>
+</set>
+<set id="1879528211" name="Raiment of Cool Waters - 160" level="575" maxLevel="160" description="">
+<item id="1879514290" name="Hood of Cool Waters"/>
+<item id="1879514237" name="Cops of Cool Waters"/>
+<item id="1879514225" name="Tunic of Cool Waters"/>
+<item id="1879514293" name="Cuffs of Cool Waters"/>
+<item id="1879514272" name="Leggings of Cool Waters"/>
+<item id="1879514114" name="Boots of Cool Waters"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_DEFENCE" scaling="1879211642"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530325" name="DNT - Improves WL prop mod"/>
+</bonus>
+</set>
+<set id="1879528212" name="Garb of the Sure Bet - 160" level="575" maxLevel="160" description="">
+<item id="1879514275" name="Circlet of the Sure Bet"/>
+<item id="1879514300" name="Wrap of the Sure Bet"/>
+<item id="1879514190" name="Jack of the Sure Bet"/>
+<item id="1879514162" name="Vambraces of the Sure Bet"/>
+<item id="1879514185" name="Leggings of the Sure Bet"/>
+<item id="1879514235" name="Boots of the Sure Bet"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530200" name="DNT bonus effects"/>
+</bonus>
+</set>
+<set id="1879528213" name="Armour of the Berserker - 160" level="575" maxLevel="160" description="">
+<item id="1879514178" name="Crown of the Berserker"/>
+<item id="1879514274" name="Pauldrons of the Berserker"/>
+<item id="1879514086" name="Hauberk of the Berserker"/>
+<item id="1879514271" name="Bracers of the Berserker"/>
+<item id="1879514145" name="Leggings of the Berserker"/>
+<item id="1879514301" name="Sabatons of the Berserker"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="ForwardSource_Combat_CatchAll_SkillCombo" descriptionOverride="key:621125118:108054836" value="(10)"/>
+<stat name="TraitSet_Champion_Recovery_MercifulStrike" operator="SUBSTRACT" descriptionOverride="-" constant="80.0"/>
+</bonus>
+</set>
+<set id="1879528214" name="Life-singer's Raiment - 160" level="575" maxLevel="160" description="">
+<item id="1879514219" name="Hood of the Life-singer"/>
+<item id="1879514299" name="Cops of the Life-singer"/>
+<item id="1879514128" name="Tunic of the Life-singer"/>
+<item id="1879514117" name="Cuffs of the Life-singer"/>
+<item id="1879514170" name="Leggings of the Life-singer"/>
+<item id="1879514191" name="Boots of the Life-singer"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_DEFENCE" scaling="1879211642"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530089" name="DNT"/>
+</bonus>
+</set>
+<set id="1879528215" name="Armour of the Reaver-foe - 160" level="575" maxLevel="160" description="">
+<item id="1879514232" name="Crown of the Reaver-foe"/>
+<item id="1879514223" name="Pauldrons of the Reaver-foe"/>
+<item id="1879514077" name="Hauberk of the Reaver-foe"/>
+<item id="1879514230" name="Bracers of the Reaver-foe"/>
+<item id="1879514308" name="Leggings of the Reaver-foe"/>
+<item id="1879514263" name="Sabatons of the Reaver-foe"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530118" name="DNT - AoE spenders restore morale and buff your melee defence"/>
+</bonus>
+</set>
+<set id="1879528217" name="Armour of the Raging Bear - 160" level="575" maxLevel="160" description="">
+<item id="1879514105" name="Crown of the Raging Bear"/>
+<item id="1879514183" name="Pauldrons of the Raging Bear"/>
+<item id="1879514090" name="Hauberk of the Raging Bear"/>
+<item id="1879514238" name="Bracers of the Raging Bear"/>
+<item id="1879514112" name="Leggings of the Raging Bear"/>
+<item id="1879514164" name="Sabatons of the Raging Bear"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530061" name="DNT - replaces bleed with shorter bleed that refunds wrath on end"/>
+</bonus>
+</set>
+<set id="1879528218" name="Storm-caller's Raiment - 160" level="575" maxLevel="160" description="">
+<item id="1879514310" name="Hood of Storm"/>
+<item id="1879514076" name="Cops of Storm"/>
+<item id="1879514080" name="Tunic of Storm"/>
+<item id="1879514171" name="Cuffs of Storm"/>
+<item id="1879514261" name="Leggings of Storm"/>
+<item id="1879514254" name="Boots of Storm"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530328" name="DNT"/>
+</bonus>
+</set>
+<set id="1879528219" name="Raiment of the Scathing Word - 160" level="575" maxLevel="160" description="">
+<item id="1879514092" name="Hood of the Scathing Word"/>
+<item id="1879514079" name="Cops of the Scathing Word"/>
+<item id="1879514228" name="Tunic of the Scathing Word"/>
+<item id="1879514240" name="Cuffs of the Scathing Word"/>
+<item id="1879514181" name="Leggings of the Scathing Word"/>
+<item id="1879514173" name="Boots of the Scathing Word"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530346" name="DNT"/>
+</bonus>
+</set>
+<set id="1879528220" name="Garb of the Battle-song - 160" level="575" maxLevel="160" description="">
+<item id="1879514165" name="Circlet of Battle-song"/>
+<item id="1879514273" name="Wrap of Battle-song"/>
+<item id="1879514111" name="Jack of Battle-song"/>
+<item id="1879514239" name="Vambraces of Battle-song"/>
+<item id="1879514106" name="Leggings of Battle-song"/>
+<item id="1879514163" name="Boots of Battle-song"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530216" name="DNT - Chanties cleanse PDFW"/>
+</bonus>
+</set>
+<set id="1879528222" name="Garb of the Raptor's Talon - 160" level="575" maxLevel="160" description="">
+<item id="1879514265" name="Circlet of the Raptor's Talon"/>
+<item id="1879514123" name="Wrap of the Raptor's Talon"/>
+<item id="1879514100" name="Jack of the Raptor's Talon"/>
+<item id="1879514151" name="Vambraces of the Raptor's Talon"/>
+<item id="1879514249" name="Leggings of the Raptor's Talon"/>
+<item id="1879514241" name="Boots of the Raptor's Talon"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879312898" name="DNT - Raptor's Talon"/>
+</bonus>
+</set>
+<set id="1879528223" name="Garb of the Dancing Blade - 160" level="575" maxLevel="160" description="">
+<item id="1879514208" name="Circlet of the Dancing Blade"/>
+<item id="1879514154" name="Wrap of the Dancing Blade"/>
+<item id="1879514149" name="Jack of the Dancing Blade"/>
+<item id="1879514142" name="Vambraces of the Dancing Blade"/>
+<item id="1879514097" name="Leggings of the Dancing Blade"/>
+<item id="1879514255" name="Boots of the Dancing Blade"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530213" name="DNT - Defensive Swordplay Damage"/>
+</bonus>
+</set>
+<set id="1879528225" name="Armour of the Shattered Fist - 160" level="575" maxLevel="160" description="">
+<item id="1879514287" name="Crown of the Shattered Fist"/>
+<item id="1879514252" name="Pauldrons of the Shattered Fist"/>
+<item id="1879514104" name="Hauberk of the Shattered Fist"/>
+<item id="1879514087" name="Bracers of the Shattered Fist"/>
+<item id="1879514224" name="Leggings of the Shattered Fist"/>
+<item id="1879514159" name="Sabatons of the Shattered Fist"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530120" name="DNT - Single target attacks tier up the shattering fist debuff"/>
+</bonus>
+</set>
+<set id="1879528229" name="Armour of Brotherhood - 160" level="575" maxLevel="160" description="">
+<item id="1879514088" name="Crown of Brotherhood"/>
+<item id="1879514130" name="Pauldrons of Brotherhood"/>
+<item id="1879514156" name="Hauberk of Brotherhood"/>
+<item id="1879514278" name="Bracers of Brotherhood"/>
+<item id="1879514281" name="Leggings of Brotherhood"/>
+<item id="1879514184" name="Sabatons of Brotherhood"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530704" name="DNT - Pvmp captain setbonus"/>
+</bonus>
+</set>
+<set id="1879528230" name="Armour of Noble Hands - 160" level="575" maxLevel="160" description="">
+<item id="1879514207" name="Crown of Noble Hands"/>
+<item id="1879514096" name="Pauldrons of Noble Hands"/>
+<item id="1879514216" name="Hauberk of Noble Hands"/>
+<item id="1879514226" name="Bracers of Noble Hands"/>
+<item id="1879514137" name="Leggings of Noble Hands"/>
+<item id="1879514074" name="Sabatons of Noble Hands"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_DEFENCE" scaling="1879211642"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879529665" name="DNT - Adds Heals to Melee Skills"/>
+<effect id="1879529656" name="DNT - Adds Heals to Melee Skills"/>
+</bonus>
+</set>
+<set id="1879528231" name="Armour of the Honeyed Tongue - 160" level="575" maxLevel="160" description="">
+<item id="1879514110" name="Crown of the Honeyed Tongue"/>
+<item id="1879514198" name="Pauldrons of the Honeyed Tongue"/>
+<item id="1879514266" name="Hauberk of the Honeyed Tongue"/>
+<item id="1879514284" name="Bracers of the Honeyed Tongue"/>
+<item id="1879514168" name="Leggings of the Honeyed Tongue"/>
+<item id="1879514067" name="Sabatons of the Honeyed Tongue"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_DEFENCE" scaling="1879211642"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530063" name="DNT - Encouraging roar bonus heal effect"/>
+</bonus>
+</set>
+<set id="1879528234" name="Raiment of Roaring Thunder - 160" level="575" maxLevel="160" description="">
+<item id="1879514085" name="Hood of Roaring Thunder"/>
+<item id="1879514141" name="Cops of Roaring Thunder"/>
+<item id="1879514101" name="Tunic of Roaring Thunder"/>
+<item id="1879514295" name="Cuffs of Roaring Thunder"/>
+<item id="1879514280" name="Leggings of Roaring Thunder"/>
+<item id="1879514195" name="Boots of Roaring Thunder"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530343" name="DNT - override scribe effects"/>
+</bonus>
+</set>
+<set id="1879528235" name="Armour of the Light-bringer - 160" level="575" maxLevel="160" description="">
+<item id="1879514251" name="Crown of the Light-bringer"/>
+<item id="1879514075" name="Pauldrons of the Light-bringer"/>
+<item id="1879514098" name="Hauberk of the Light-bringer"/>
+<item id="1879514246" name="Bracers of the Light-bringer"/>
+<item id="1879514260" name="Leggings of the Light-bringer"/>
+<item id="1879514139" name="Sabatons of the Light-bringer"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="ForwardSource_Combat_CatchAll_SkillCombo" descriptionOverride="key:621125163:108054836" value="(10)"/>
+</bonus>
+</set>
+<set id="1879528238" name="Garb of Distant Shores - 160" level="575" maxLevel="160" description="">
+<item id="1879514218" name="Circlet of Distant Shores"/>
+<item id="1879514176" name="Wrap of Distant Shores"/>
+<item id="1879514089" name="Jack of Distant Shores"/>
+<item id="1879514289" name="Vambraces of Distant Shores"/>
+<item id="1879514267" name="Leggings of Distant Shores"/>
+<item id="1879514288" name="Boots of Distant Shores"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_DEFENCE" scaling="1879211642"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530217" name="DNT - Haversack skills bonus"/>
+</bonus>
+</set>
+<set id="1879528239" name="Raiment of Nestad - 160" level="575" maxLevel="160" description="">
+<item id="1879514068" name="Hood of Nestad"/>
+<item id="1879514243" name="Cops of Nestad"/>
+<item id="1879514307" name="Tunic of Nestad"/>
+<item id="1879514108" name="Cuffs of Nestad"/>
+<item id="1879514296" name="Leggings of Nestad"/>
+<item id="1879514234" name="Boots of Nestad"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_DEFENCE" scaling="1879211642"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879220491" name="DNT - Prelude to Hope Removes Slows"/>
+<effect id="1879530352" name="DNT - Additional effect for rune-sign of winter"/>
+</bonus>
+</set>
+<set id="1879528240" name="Armour of Ardour - 160" level="575" maxLevel="160" description="">
+<item id="1879514082" name="Crown of Ardour"/>
+<item id="1879514161" name="Pauldrons of Ardour"/>
+<item id="1879514204" name="Hauberk of Ardour"/>
+<item id="1879514303" name="Bracers of Ardour"/>
+<item id="1879514099" name="Leggings of Ardour"/>
+<item id="1879514233" name="Sabatons of Ardour"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879229782" name="DNT - Horn of Gondor"/>
+</bonus>
+</set>
+<set id="1879528241" name="Dirge-singer's Raiment - 160" level="575" maxLevel="160" description="">
+<item id="1879514270" name="Hood of the Dirge-singer"/>
+<item id="1879514135" name="Cops of the Dirge-singer"/>
+<item id="1879514121" name="Tunic of the Dirge-singer"/>
+<item id="1879514245" name="Cuffs of the Dirge-singer"/>
+<item id="1879514138" name="Leggings of the Dirge-singer"/>
+<item id="1879514115" name="Boots of the Dirge-singer"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530084" name="DNT - Raise my Spirit and Bolster My Courage will consume ballad buffs for a defensive buff"/>
+</bonus>
+</set>
+<set id="1879528243" name="Armour of the North-hammer - 160" level="575" maxLevel="160" description="">
+<item id="1879514144" name="Crown of the North-hammer"/>
+<item id="1879514201" name="Pauldrons of the North-hammer"/>
+<item id="1879514132" name="Hauberk of the North-hammer"/>
+<item id="1879514250" name="Bracers of the North-hammer"/>
+<item id="1879514285" name="Leggings of the North-hammer"/>
+<item id="1879514073" name="Sabatons of the North-hammer"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530074" name="Prey on the Weak"/>
+</bonus>
+</set>
+<set id="1879528247" name="Raiment of Nature - 160" level="575" maxLevel="160" description="">
+<item id="1879514206" name="Hood of Nature"/>
+<item id="1879514253" name="Cops of Nature"/>
+<item id="1879514129" name="Tunic of Nature"/>
+<item id="1879514166" name="Cuffs of Nature"/>
+<item id="1879514202" name="Leggings of Nature"/>
+<item id="1879514220" name="Boots of Nature"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530332" name="DNT"/>
+</bonus>
+</set>
+<set id="1879528250" name="Garb of the Bloodied Spear - 160" level="575" maxLevel="160" description="">
+<item id="1879514186" name="Circlet of the Bloodied Spear"/>
+<item id="1879514109" name="Wrap of the Bloodied Spear"/>
+<item id="1879514150" name="Jack of the Bloodied Spear"/>
+<item id="1879514177" name="Vambraces of the Bloodied Spear"/>
+<item id="1879514091" name="Leggings of the Bloodied Spear"/>
+<item id="1879514122" name="Boots of the Bloodied Spear"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879529691" name="DNT"/>
+</bonus>
+</set>
+<set id="1879528252" name="Garb of the Fool - 160" level="575" maxLevel="160" description="">
+<item id="1879514120" name="Circlet of the Fool"/>
+<item id="1879514248" name="Wrap of the Fool"/>
+<item id="1879514119" name="Jack of the Fool"/>
+<item id="1879514182" name="Vambraces of the Fool"/>
+<item id="1879514113" name="Leggings of the Fool"/>
+<item id="1879514196" name="Boots of the Fool"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_DEFENCE" scaling="1879211642"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530197" name="DNT bonus effects"/>
+</bonus>
+</set>
+<set id="1879528254" name="Garb of the Hidden Blade - 160" level="575" maxLevel="160" description="">
+<item id="1879528227" name="Circlet of the Hidden Blade"/>
+<item id="1879528255" name="Wrap of the Hidden Blade"/>
+<item id="1879528253" name="Jack of the Hidden Blade"/>
+<item id="1879528236" name="Vambraces of the Hidden Blade"/>
+<item id="1879528208" name="Leggings of the Hidden Blade"/>
+<item id="1879528216" name="Boots of the Hidden Blade"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530191" name="DNT bonus effects"/>
+</bonus>
+</set>
+<set id="1879528256" name="Garb of the Unseen - 160" level="575" maxLevel="160" description="">
+<item id="1879514200" name="Circlet of the Unseen"/>
+<item id="1879514189" name="Wrap of the Unseen"/>
+<item id="1879514069" name="Jack of the Unseen"/>
+<item id="1879514304" name="Vambraces of the Unseen"/>
+<item id="1879514126" name="Leggings of the Unseen"/>
+<item id="1879514153" name="Boots of the Unseen"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="ForwardSource_Combat_CatchAll_SkillCombo" descriptionOverride="key:621125158:108054836" value="(10)"/>
+</bonus>
+</set>
+<set id="1879528257" name="Garb of Endless Darts - 160" level="575" maxLevel="160" description="">
+<item id="1879514070" name="Circlet of Endless Darts"/>
+<item id="1879514197" name="Wrap of Endless Darts"/>
+<item id="1879514286" name="Jack of Endless Darts"/>
+<item id="1879514071" name="Vambraces of Endless Darts"/>
+<item id="1879514212" name="Leggings of Endless Darts"/>
+<item id="1879514193" name="Boots of Endless Darts"/>
+<bonus nbItems="2">
+<stat name="CRITICAL_RATING" scaling="1879211601"/>
+</bonus>
+<bonus nbItems="3">
+<stat name="OCFW_MITIGATION_PERCENTAGE" constant="5.0"/>
+<stat name="Combat_MitigationPercentage_FellWrought" constant="5.0"/>
+</bonus>
+<bonus nbItems="4">
+<effect id="1879530022" name="DNT"/>
+</bonus>
+</set>
+<set id="1879528467" name="Barrow-scholar" useAverageItemLevel="true" maxLevel="1000" description="">
+<item id="1879528320" name="Barrow-scholar's Gloves"/>
+<item id="1879528323" name="Barrow-scholar's Shoes"/>
+<item id="1879528327" name="Barrow-scholar's Trousers"/>
+<item id="1879528313" name="Barrow-scholar's Robe"/>
+<item id="1879528318" name="Barrow-scholar's Shoulder Pads"/>
+<item id="1879528324" name="Barrow-scholar's Hat"/>
+<bonus nbItems="2">
+<stat name="WILL" scaling="1879211571"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="VITALITY" scaling="1879211533"/>
+</bonus>
+<bonus nbItems="6">
+<stat name="EVADE" scaling="1879211636"/>
+<stat name="WILL" scaling="1879211571"/>
+</bonus>
+</set>
+<set id="1879528468" name="Barrow-warrior" useAverageItemLevel="true" maxLevel="1000" description="">
+<item id="1879528312" name="Barrow-warrior's Gauntlets"/>
+<item id="1879528311" name="Barrow-warrior's Boots"/>
+<item id="1879528315" name="Barrow-warrior's Leggings"/>
+<item id="1879528322" name="Barrow-warrior's Breastplate"/>
+<item id="1879528316" name="Barrow-warrior's Shoulder Pads"/>
+<item id="1879528326" name="Barrow-warrior's Helm"/>
+<bonus nbItems="2">
+<stat name="MIGHT" scaling="1879211549"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="VITALITY" scaling="1879211533"/>
+</bonus>
+<bonus nbItems="6">
+<stat name="BLOCK" scaling="1879211632"/>
+<stat name="MIGHT" scaling="1879211549"/>
+</bonus>
+</set>
+<set id="1879528469" name="Barrow-scout" useAverageItemLevel="true" maxLevel="1000" description="">
+<item id="1879528319" name="Barrow-scout's Gauntlets"/>
+<item id="1879528310" name="Barrow-scout's Boots"/>
+<item id="1879528317" name="Barrow-scout's Leggings"/>
+<item id="1879528325" name="Barrow-scout's Jacket"/>
+<item id="1879528314" name="Barrow-scout's Shoulder Pads"/>
+<item id="1879528321" name="Barrow-scout's Helm"/>
+<bonus nbItems="2">
+<stat name="AGILITY" scaling="1879211558"/>
+</bonus>
+<bonus nbItems="4">
+<stat name="VITALITY" scaling="1879211533"/>
+</bonus>
+<bonus nbItems="6">
+<stat name="PARRY" scaling="1879211655"/>
+<stat name="AGILITY" scaling="1879211558"/>
+</bonus>
+</set>
 <set id="1879528508" name="Fallen Conjurer's Garb&#10;(Max Level: 164)" level="575" maxLevel="164" description="">
 <item id="1879525919" name="Fallen Conjurer's Coat"/>
 <item id="1879525929" name="Fallen Conjurer's Leggings"/>
@@ -29553,6 +30247,36 @@
 <bonus nbItems="5">
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="3.0"/>
 <stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="1.5"/>
+</bonus>
+</set>
+<set id="1879528651" name="First Mariner's Jewellery of Helm Hammerhand&#10;(Max Level: 105)" useAverageItemLevel="true" maxLevel="105" description="">
+<item id="1879528334" name="First Exquisite Mariner's Necklace of Helm Hammerhand"/>
+<item id="1879528330" name="First Exquisite Mariner's Earring of Helm Hammerhand"/>
+<bonus nbItems="2">
+<stat name="Corsair_Steady_CritChance" constant="2.5"/>
+</bonus>
+</set>
+<set id="1879528652" name="Fourth Mariner's Jewellery of Helm Hammerhand&#10;(Max Level: 105)" useAverageItemLevel="true" maxLevel="105" description="">
+<item id="1879528335" name="Fourth Exquisite Mariner's Token of Helm Hammerhand"/>
+<item id="1879528336" name="Fourth Exquisite Mariner's Bracelet of Helm Hammerhand"/>
+<item id="1879528333" name="Fourth Exquisite Mariner's Ring of Helm Hammerhand"/>
+<bonus nbItems="3">
+<stat name="Corsair_Wind_SelfHeal_Potency" constant="2.0"/>
+</bonus>
+</set>
+<set id="1879528653" name="Second Mariner's Jewellery of Helm Hammerhand&#10;(Max Level: 105)" useAverageItemLevel="true" maxLevel="105" description="">
+<item id="1879528329" name="Second Exquisite Mariner's Token of Helm Hammerhand"/>
+<item id="1879528338" name="Second Exquisite Mariner's Bracelet of Helm Hammerhand"/>
+<item id="1879528331" name="Second Exquisite Mariner's Ring of Helm Hammerhand"/>
+<bonus nbItems="3">
+<stat name="Corsair_Balance_Fore_BonusDamage" constant="10.0"/>
+</bonus>
+</set>
+<set id="1879528654" name="Third Mariner's Jewellery of Helm Hammerhand&#10;(Max Level: 105)" useAverageItemLevel="true" maxLevel="105" description="">
+<item id="1879528332" name="Third Exquisite Mariner's Necklace of Helm Hammerhand"/>
+<item id="1879528337" name="Third Exquisite Mariner's Earring of Helm Hammerhand"/>
+<bonus nbItems="2">
+<stat name="Corsair_Swordplay_Defensive_Duration" constant="2.0"/>
 </bonus>
 </set>
 </sets>

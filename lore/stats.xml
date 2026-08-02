@@ -25,7 +25,7 @@
 <stat id="268452193" index="23" name="Tactical Mastery Rating" key="Combat_TacticalMastery_Modifier_Unified" legacyKey="TACTICAL_MASTERY" legacyName="Tactical Mastery"/>
 <stat id="268439611" index="24" name="Tactical Damage" key="Combat_DamageQualifier_Magic_Offense" legacyKey="TACTICAL_DAMAGE_PERCENTAGE" isPercentage="true"/>
 <stat id="268448148" index="25" name="Outgoing Healing Rating" key="Combat_Modifier_OutgoingHealing_Points" legacyKey="OUTGOING_HEALING" legacyName="Outgoing Healing"/>
-<stat id="268448149" index="26" name="Outgoing Healing Modifier" key="Combat_Modifier_OutgoingHealing_Percent" legacyKey="OUTGOING_HEALING_PERCENTAGE" legacyName="Outgoing Healing (%)" isPercentage="true"/>
+<stat id="268448149" index="26" name="Outgoing Healing" key="Combat_Modifier_OutgoingHealing_Percent" legacyKey="OUTGOING_HEALING_PERCENTAGE" legacyName="Outgoing Healing (%)" isPercentage="true"/>
 <stat id="268451459" index="27" name="Resistance Rating" key="Resist_ClassPoints_Resistance_TheOneResistance" legacyKey="RESISTANCE" legacyName="Resistance"/>
 <stat id="-1007" index="28" name="Resistance (%)" key="RESISTANCE_PERCENTAGE" legacyKey="RESISTANCE_PERCENTAGE" isPercentage="true"/>
 <stat id="268447420" index="29" name="Melee Defence Rating" key="Combat_Current_DefensePoints_Melee" legacyKey="MELEE_DEFENCE" legacyName="Melee Defence"/>
@@ -37,7 +37,7 @@
 <stat id="268447890" index="35" name="Ranged Critical Defence" key="Combat_Ranged_Critical_Defense" legacyKey="RANGED_CRITICAL_DEFENCE" legacyName="Ranged Critical Defence (%)" isPercentage="true"/>
 <stat id="268447889" index="36" name="Tactical Critical Defence" key="Combat_Tactical_Critical_Defense" legacyKey="TACTICAL_CRITICAL_DEFENCE" legacyName="Tactical Critical Defence (%)" isPercentage="true"/>
 <stat id="268447956" index="37" name="Incoming Healing Rating" key="Combat_IncomingHealing_Points_Current" legacyKey="INCOMING_HEALING" legacyName="Incoming Healing"/>
-<stat id="268447953" index="38" name="Incoming Healing Modifier" key="Combat_IncomingHealing_Modifier_Current" legacyKey="INCOMING_HEALING_PERCENTAGE" legacyName="Incoming Healing (%)" isPercentage="true"/>
+<stat id="268447953" index="38" name="Incoming Healing" key="Combat_IncomingHealing_Modifier_Current" legacyKey="INCOMING_HEALING_PERCENTAGE" legacyName="Incoming Healing (%)" isPercentage="true"/>
 <stat id="268444033" index="39" name="Block Rating" key="Combat_BlockPoints_Modifier" legacyKey="BLOCK" legacyName="Block"/>
 <stat id="268436092" index="40" name="Block Chance" key="Combat_BlockChanceModifier" legacyKey="BLOCK_PERCENTAGE" isPercentage="true"/>
 <stat id="268444016" index="41" name="Partial Block Chance" key="Combat_PartialBlock_PercentageAddMod" legacyKey="PARTIAL_BLOCK_PERCENTAGE" isPercentage="true"/>
@@ -53,7 +53,7 @@
 <stat id="268451797" index="51" name="Physical Mitigation" key="Combat_ArmorDefense_PointsModifier_UnifiedPhysical" legacyKey="PHYSICAL_MITIGATION"/>
 <stat id="268451800" index="52" name="Physical Mitigation" key="Combat_MitigationPercentage_UnifiedPhysical" legacyKey="PHYSICAL_MITIGATION_PERCENTAGE" legacyName="Physical Mitigation (%)" isPercentage="true"/>
 <stat id="268444375" index="53" name="Orc-Craft Mitigation" key="Combat_ArmorDefense_PointsModifier_OrcCraft" legacyKey="OCFW_MITIGATION" legacyName="Orc-craft/Fell-wrought Mitigation"/>
-<stat id="268442950" index="54" name="OrcCraft Mitigation" key="Combat_MitigationPercentage_OrcCraft" legacyKey="OCFW_MITIGATION_PERCENTAGE" legacyName="Orc-craft/Fell-wrought Mitigation (%)" isPercentage="true"/>
+<stat id="268442950" index="54" name="Orc-craft Mitigation" key="Combat_MitigationPercentage_OrcCraft" legacyKey="OCFW_MITIGATION_PERCENTAGE" legacyName="Orc-craft/Fell-wrought Mitigation (%)" isPercentage="true"/>
 <stat id="268451895" index="55" name="Tactical Mitigation" key="Combat_ArmorDefense_PointsModifier_UnifiedTactical" legacyKey="TACTICAL_MITIGATION"/>
 <stat id="268451897" index="56" name="Tactical Mitigation" key="Combat_MitigationPercentage_UnifiedTactical" legacyKey="TACTICAL_MITIGATION_PERCENTAGE" legacyName="Tactical Mitigation (%)" isPercentage="true"/>
 <stat id="268444344" index="57" name="Fire Mitigation" key="Combat_ArmorDefense_PointsModifier_Fire" legacyKey="FIRE_MITIGATION"/>
@@ -462,7 +462,7 @@
 <stat id="268441335" name="Challenge the Darkness Cooldown" key="Skill_RecoveryTime_GuardianChallengeTheDarknessMod"/>
 <stat id="268441336" name="Escape from Darkness Cooldown" key="Skill_RecoveryTime_EscapefromDarkness"/>
 <stat id="268441337" name="Target Blinding Flash Resist Rating" key="Skill_ResistanceChance_Loremaster_BlindingFlash"/>
-<stat id="268441483" name="Max distance of ranged skills" key="Skill_RangedAttack_MaxRangeMod"/>
+<stat id="268441483" name="Max distance of long-ranged skills" key="Skill_RangedAttack_MaxRangeMod"/>
 <stat id="268441489" name="Share Tracked Target" key="Fellowship_SharedTracking_Trait" type="BOOLEAN"/>
 <stat id="268441535" name="Allow Heralds" key="AI_Pet_Enable_HeraldsPetChannel" type="BOOLEAN"/>
 <stat id="268441536" name="Allow Banner Standards" key="AI_Pet_Enable_BannerStandardsPetChannel" type="BOOLEAN"/>
@@ -563,11 +563,11 @@
 <stat id="268442916" name="Can not be detected" key="Stealth_GameplayUndetectable" type="BOOLEAN"/>
 <stat id="268442932" name="Frost Immunity" key="Combat_DamageType_Immunity_Frost" type="BOOLEAN"/>
 <stat id="268442936" name="Lightning Immunity" key="Combat_DamageType_Immunity_Lightning" type="BOOLEAN"/>
-<stat id="268442939" name="Orc-Craft Immunity" key="Combat_DamageType_Immunity_OrcCraft" type="BOOLEAN"/>
+<stat id="268442939" name="Orc-craft Immunity" key="Combat_DamageType_Immunity_OrcCraft" type="BOOLEAN"/>
 <stat id="268442941" name="MorgulForged Immunity" key="Combat_DamageType_Immunity_MorgulForged" type="BOOLEAN"/>
-<stat id="268442944" name="Fell-Wrought Immunity" key="Combat_DamageType_Immunity_FellWrought" type="BOOLEAN"/>
+<stat id="268442944" name="Fell-wrought Immunity" key="Combat_DamageType_Immunity_FellWrought" type="BOOLEAN"/>
 <stat id="268442947" name="Acid Immunity" key="Combat_DamageType_Immunity_Acid" type="BOOLEAN"/>
-<stat id="268442952" name="Fellwrought Mitigation" key="Combat_MitigationPercentage_FellWrought" isPercentage="true"/>
+<stat id="268442952" name="Fell-wrought Mitigation" key="Combat_MitigationPercentage_FellWrought" isPercentage="true"/>
 <stat id="268443010" name="Discount at most Evendim shops" key="Discount_Evendim" isPercentage="true"/>
 <stat id="268443011" name="Discount at most Forochel shops" key="Discount_Forochel" isPercentage="true"/>
 <stat id="268443045" name="Curse of Sticky Feet also reduces Fire mitigation by 10%" key="Skill_EffectOverride_Trait_MP_CurseStickyFeet" type="ARRAY"/>
@@ -1151,10 +1151,10 @@
 <stat id="268445318" name="While in Trapdoor Sanctuary, foes around you are damaged by a poison aura." key="Skill_EffectOverride_Trait_MP_TrapdoorSanctuary" type="ARRAY"/>
 <stat id="268445319" name="-5s Latent Poison Countdown" key="Skill_EffectOverride_Trait_MP_LatentPoison" type="ARRAY"/>
 <stat id="268445320" name="Adds a 5 second combat grace period to Paralytic Venom" key="Skill_EffectOverride_Trait_MP_ParalyticVenom" type="ARRAY"/>
-<stat id="268445383" name="Fire-type Damage" key="Combat_SkillDamageMultiplier_Fire" isPercentage="true"/>
-<stat id="268445384" name="Lightning-type Damage" key="Combat_SkillDamageMultiplier_Lightning" isPercentage="true"/>
-<stat id="268445385" name="Light-type Damage" key="Combat_SkillDamageMultiplier_Light" isPercentage="true"/>
-<stat id="268445386" name="Frost-type Damage" key="Combat_SkillDamageMultiplier_Frost" isPercentage="true"/>
+<stat id="268445383" name="Fire Damage" key="Combat_SkillDamageMultiplier_Fire" isPercentage="true"/>
+<stat id="268445384" name="Lightning Damage" key="Combat_SkillDamageMultiplier_Lightning" isPercentage="true"/>
+<stat id="268445385" name="Light Damage" key="Combat_SkillDamageMultiplier_Light" isPercentage="true"/>
+<stat id="268445386" name="Frost Damage" key="Combat_SkillDamageMultiplier_Frost" isPercentage="true"/>
 <stat id="268445394" name="Legendary Skill Cooldown" key="Quest_Class_LegendarySkill1_RecoveryTime"/>
 <stat id="268445403" name="Boots removed" key="Inventory_DisarmFlag_Clothing_Boots" type="BOOLEAN"/>
 <stat id="268445404" name="Leggings removed" key="Inventory_DisarmFlag_Clothing_Legs" type="BOOLEAN"/>
@@ -1205,7 +1205,7 @@
 <stat id="268445664" name="Smouldering Wrath Damage" key="Skill_Runekeeper_SmoulderingWrath_Damage" isPercentage="true"/>
 <stat id="268445665" name="Maximum targets for Distracting Wind" key="Skill_Runekeeper_DistractingWinds_MaxTargets" type="INTEGER"/>
 <stat id="268445666" name="Ceaseless Argument Damage" key="Skill_Runekeeper_CeaselessArgument_PowerCost" isPercentage="true"/>
-<stat id="268445667" name="Self Motivation Power or Morale Restore" key="Skill_Runekeeper_SelfMotivation_PowerReturn" isPercentage="true"/>
+<stat id="268445667" name="Self-motivation Power or Morale Restore" key="Skill_Runekeeper_SelfMotivation_PowerReturn" isPercentage="true"/>
 <stat id="268445669" name="Scathing Mockery Resist Rating" key="Skill_Runekeeper_ScathingMockery_Resist"/>
 <stat id="268445670" name="Shocking Words Stun Chance" key="Skill_Runekeeper_ShockingWords_StunChance"/>
 <stat id="268445672" name="Dagger Critical Multiplier" key="Combat_SkillCriticalMult_AddMod_Dagger" isPercentage="true"/>
@@ -1289,12 +1289,12 @@
 <stat id="268446059" name="Fell Sacrifice Health Cost" key="Skill_MoraleCost_Trait_MP_FellSacrifice" isPercentage="true"/>
 <stat id="268446060" name="Fell Restoration Power Cost" key="Skill_PowerCost_Trait_MP_FellSacrifice" isPercentage="true"/>
 <stat id="268446065" name="Surprise Strike Cooldown" key="Skill_RecoveryTime_Burglar_SurpriseStrike"/>
-<stat id="268446066" name="Self Motivation Cooldown" key="Skill_RecoveryTime_Runekeeper_SelfMotivation"/>
+<stat id="268446066" name="Self-motivation Cooldown" key="Skill_RecoveryTime_Runekeeper_SelfMotivation"/>
 <stat id="268446067" name="Blinding Flash Cooldown" key="Skill_RecoveryTime_Loremaster_BlindingFlash"/>
 <stat id="268446069" name="Shield Taunt Targets" key="SkillMod_AOETargets_Guardian_ShieldTaunt" type="INTEGER"/>
 <stat id="268446070" name="Litany of Defiance Targets" key="SkillMod_AOETargets_Guardian_LitanyofDefiance" type="INTEGER"/>
 <stat id="268446074" name="Challenge Additional Threat" key="Trait_Guardian_AdditionalThreat_Challenge"/>
-<stat id="268446098" name="Max distance of ranged skills" key="Skill_MaxRangeMod_MP_VenomousHaze"/>
+<stat id="268446098" name="Max distance of medium-ranged skills" key="Skill_MaxRangeMod_MP_VenomousHaze"/>
 <stat id="268446099" name="Cry of the Valar Cooldown" key="Skill_Minstrel_RecoveryTime_Anthem_of_the_Valar"/>
 <stat id="268446100" name="Cry of the Wizards Cooldown" key="Skill_Minstrel_RecoveryTime_Anthem_of_the_Wizards"/>
 <stat id="268446101" name="Ballad of Resonance Magnitude" key="Skill_PropertyMod_Minstrel_BalladofResonance" isPercentage="true"/>
@@ -1563,7 +1563,7 @@
 <stat id="268448026" name="Vexing Blow Damage" key="Skill_DamageMultiplier_GuardianVexingBlow" isPercentage="true"/>
 <stat id="268448027" name="Bash Damage" key="SkillMod_Damage_Guardian_Bash" isPercentage="true"/>
 <stat id="268448101" name="Mark Acquisition" key="Skirmish_SkirmishPointAwardMultiplier" isPercentage="true"/>
-<stat id="268448151" name="Outgoing Healing Effect Modifier" key="Combat_OutgoingHeals_EffectMod" isPercentage="true"/>
+<stat id="268448151" name="Outgoing Healing" key="Combat_OutgoingHeals_EffectMod" isPercentage="true"/>
 <stat id="268448167" name="Hedge Your Bet Damage" key="IA_Burglar_Addle_Cooldown" isPercentage="true"/>
 <stat id="268448168" name="Addle Induction Multiplier" key="IA_Burglar_Addle_InductionMultiplier" isPercentage="true"/>
 <stat id="268448169" name="Burglar Bleed Damage" key="IA_Burglar_bleed_damagemultiplier" isPercentage="true"/>
@@ -1780,7 +1780,7 @@
 <stat id="268451122" name="Skill Override : Needful Haste" key="ItemSet_EffectOverride_NeedfulHaste_recovers_DazingBlow" type="ARRAY"/>
 <stat id="268451123" name="Needful Haste mod" key="Trait_NeedfulHaste_ResoluteAim_ApplicationChance"/>
 <stat id="268451124" name="Skill Override : Quick Shot" key="ItemSet_EffectOverride_QuickShot_Recovers_SwiftBow" type="ARRAY"/>
-<stat id="268451125" name="Barbed Arrow Induction" key="Skill_BarbedArrow_Induction"/>
+<stat id="268451125" name="Barbed Arrow Induction" key="Skill_BarbedArrow_Induction" isPercentage="true"/>
 <stat id="268451126" name="Resolute Aim Trait" key="Trait_NeedfulHaste_ResoluteAim"/>
 <stat id="268451127" name="Ceaseless Argument Slow Chance" key="Itemset_Runekeeper_CeaselessArgument_SlowRate" isPercentage="true"/>
 <stat id="268451128" name="Boar's Rush Critical Chance" key="Itemset_Application_Warden_BoarsRush_Daze" isPercentage="true"/>
@@ -2878,7 +2878,7 @@
 <stat id="268457259" name="War-steed Evade" key="Trait_Mounted_Champion_WarSteed_Evade_Mod" isPercentage="true"/>
 <stat id="268457260" name="Knives Out Cooldown" key="Trait_Burglar_KnivesOut_Cooldown"/>
 <stat id="268457266" name="Hedge Your Bet Cooldown" key="Trait_Burglar_HedgeYourBet_Cooldown"/>
-<stat id="268457268" name="Heart Seeker Induction" key="Skill_HeartSeeker_Induction"/>
+<stat id="268457268" name="Heart Seeker Induction" key="Skill_HeartSeeker_Induction" isPercentage="true"/>
 <stat id="268457276" name="Glorious Foreshadowing Cooldown" key="Itemset_Runekeeper_GloriousForeshadowing_CooldownMod"/>
 <stat id="268457277" name="Essence of Storm Critical Chance" key="Itemset_Runekeeper_EssenceofStorm_CritChance" isPercentage="true"/>
 <stat id="268457278" name="Healing Critical Chance" key="Itemset_Minstrel_CriticalChance_Healing" isPercentage="true"/>
@@ -4975,12 +4975,12 @@
 <stat id="268465205" name="Sorceress Shadow Damage" key="Skill_Sorceress_ShadowMod" isPercentage="true"/>
 <stat id="268465206" name="Sorceress Acid Damage" key="Skill_Sorceress_AcidMod" isPercentage="true"/>
 <stat id="268465207" name="Sorceress Skill Damage" key="Skill_Sorceress_DamageMod" isPercentage="true"/>
-<stat id="268465208" name="Prepared Spell Duration Modifier" key="EffectMod_Duration_Trait_MP_PreparedSpell" isPercentage="true"/>
+<stat id="268465208" name="Prepared Skill Duration" key="EffectMod_Duration_Trait_MP_PreparedSpell"/>
 <stat id="268465209" name="Sorceress Frost Damage" key="Skill_Sorceress_FrostMod" isPercentage="true"/>
-<stat id="268465210" name="Sorceress Prepared Skill Damage" key="Skill_Sorceress_PreparedMod" isPercentage="true"/>
+<stat id="268465210" name="Prepared Skill Damage" key="Skill_Sorceress_PreparedMod" isPercentage="true"/>
 <stat id="268465211" name="Sorceress Fire Damage" key="Skill_Sorceress_FireMod" isPercentage="true"/>
-<stat id="268465278" name="Sorceress Dissolve Critical Chance" key="Skill_ChanceCriticalHit_Trait_MP_Dissolve" isPercentage="true"/>
-<stat id="268465279" name="Sorceress Dissolve Damage" key="Skill_Sorceress_DissolveMod" isPercentage="true"/>
+<stat id="268465278" name="Dissolve Critical Chance" key="Skill_ChanceCriticalHit_Trait_MP_Dissolve" isPercentage="true"/>
+<stat id="268465279" name="Dissolve Damage" key="Skill_Sorceress_DissolveMod" isPercentage="true"/>
 <stat id="268465280" name="Accursed Knowledge Cooldown" key="Skill_RecoveryTime_Trait_MP_Accursed_Knowledge"/>
 <stat id="268465315" name="At the Fore Negation Duration" key="EffectMod_Captain_AtTheFore_Duration"/>
 <stat id="268465316" name="At the Fore Damage Negation Potency" key="EffectMod_Captain_AtTheFore_Negate_Potency" isPercentage="true"/>
@@ -5035,10 +5035,10 @@
 <stat id="268465512" name="Current Sorceress Skill Combo" key="ForwardSource_Combat_Sorceress_SkillCombo3" type="BITFIELD"/>
 <stat id="268465515" name="Clever Retort Cooldown" key="Trait_Burglar_CleverRetort_Cooldown"/>
 <stat id="268465516" name="Return Strike Proc Chance" key="Burglar_FocusedStrike_Proc_AppChance" isPercentage="true"/>
-<stat id="268465517" name="Quick Study Duration Modifier" key="Skill_InductionDuration_Trait_MP_QuickStudy"/>
-<stat id="268465518" name="Insight Cooldown Recovery Timer" key="Skill_RecoveryTime_Trait_MP_Insight"/>
+<stat id="268465517" name="Quick Study Duration" key="Skill_InductionDuration_Trait_MP_QuickStudy"/>
+<stat id="268465518" name="Insight of Iron Cooldown" key="Skill_RecoveryTime_Trait_MP_Insight"/>
 <stat id="268465519" name="Vile Tongue Application Chance" key="Skill_Sorceress_VileTongue_Appchance" isPercentage="true"/>
-<stat id="268465520" name="Summoner Duration Modifier" key="Skill_SummonDuration_Trait_MP_Summoner"/>
+<stat id="268465520" name="Summoner Duration" key="Skill_SummonDuration_Trait_MP_Summoner"/>
 <stat id="268465523" name="Barrage Focus Cost" key="Skill_Hunter_Barrage_PipMin" type="INTEGER"/>
 <stat id="268465524" name="Barrage Focus Cost" key="Skill_Hunter_Barrage_PipCost" type="INTEGER"/>
 <stat id="268465525" name="Exsanguinate Focus Cost" key="Skill_Hunter_Exsanguinate_PipMin" type="INTEGER"/>
@@ -5105,6 +5105,7 @@
 <stat id="268465779" name="Unseen Strikes Gambit Damage" key="Warden_UnseenStrikes_Damage" isPercentage="true"/>
 <stat id="268465780" name="Cauterizing Steel Damage" key="Warden_CauterizingSteel_Damage" isPercentage="true"/>
 <stat id="268465781" name="Boars Rush Damage" key="Warden_BoarsRush_Damage" isPercentage="true"/>
+<stat id="268465782" name="Always requeue pip event" key="Pip_Aim_AdjustmentWhileMovingAlwaysRequeue" type="BOOLEAN"/>
 <stat id="268465784" name="Strike As One! Solo Damage" key="Skill_Brawler_StrikeAsOne_SoloDamageMod" isPercentage="true"/>
 <stat id="268465791" name="DNT - Oath Chance" key="Guardian_Itemset_Oath_Effects_Appchance" isPercentage="true"/>
 <stat id="268465792" name="DNT - Oath Chance" key="Guardian_Itemset_Oath_Appchance" isPercentage="true"/>
@@ -5145,5 +5146,79 @@
 <stat id="268465831" name="Spear of Fate Damage" key="Warden_Itemset_SoFate_STM_Appchance" isPercentage="true"/>
 <stat id="268465832" name="DNT - On the Hunt Effects Active" key="Hunter_Itemset_OntheHunt_Effects_AppChance" isPercentage="true"/>
 <stat id="268465833" name="DNT - Add Bonus Effect" key="Hunter_OntheHunt_Eff_3" type="ARRAY"/>
+<stat id="268465946" name="Discount at all Draugardh stable-masters." key="Discount_Travel_Draugardh" isPercentage="true"/>
+<stat id="268465947" name="Discount at all Draugardh vendors." key="Discount_Draugardh" isPercentage="true"/>
+<stat id="268465979" name="Sorcerous Synergy" key="Skill_EffectOverride_MP_Sorcerous_Synergy" type="ARRAY"/>
+<stat id="268465984" name="Frost-based Prepared Skill Damage" key="Skill_Sorceress_Frost_PreparedMod" isPercentage="true"/>
+<stat id="268465985" name="Fire-based Prepared Skill Damage" key="Skill_Sorceress_Fire_PreparedMod" isPercentage="true"/>
+<stat id="268465986" name="Shadow-based Prepared Skill Damage" key="Skill_Sorceress_Shadow_PreparedMod" isPercentage="true"/>
+<stat id="268465988" name="Shadow Sheath Duration" key="EffectMod_Duration_Trait_MP_ShadowSheath"/>
+<stat id="268465989" name="Devotion: Umbral Pall Cooldown" key="Skill_RecoveryTime_Trait_MP_ShadowDevotion"/>
+<stat id="268465990" name="Devotion: Balefire Cooldown" key="Skill_RecoveryTime_Trait_MP_FireDevotion"/>
+<stat id="268465991" name="Acidic Sheath Duration" key="EffectMod_Duration_Trait_MP_AcidSheath"/>
+<stat id="268465992" name="Devotion: Acid Cooldown" key="Skill_RecoveryTime_Trait_MP_AcidDevotion"/>
+<stat id="268465993" name="Acidic Spout now explodes." key="Skill_EffectOverride_Trait_MP_AcidSpout" isPercentage="true" type="ARRAY"/>
+<stat id="268465994" name="Gelid Devotion Duration" key="EffectMod_Duration_Trait_MP_GelidForm"/>
+<stat id="268465995" name="Frost Sheath Duration" key="EffectMod_Duration_Trait_MP_FrostSheath"/>
+<stat id="268465996" name="Umbral Spout now explodes and pulls targets toward itself." key="Skill_EffectOverride_Trait_MP_UmbralSpout" isPercentage="true" type="ARRAY"/>
+<stat id="268465997" name="Lava Spout now explodes and interrupts actions." key="Skill_EffectOverride_Trait_MP_LavaSpout" isPercentage="true" type="ARRAY"/>
+<stat id="268465998" name="Fire Sheath Duration" key="EffectMod_Duration_Trait_MP_FireSheath"/>
+<stat id="268465999" name="Ice Pillar Spout now explodes and knocks targets away." key="Skill_EffectOverride_Trait_MP_IcePillar" isPercentage="true" type="ARRAY"/>
+<stat id="268466000" name="Devotion: Gelid Wind Cooldown" key="Skill_RecoveryTime_Trait_MP_FrostDevotion"/>
+<stat id="268466001" name="Ice Tomb now explodes and knocks targets back on expiration." key="Skill_EffectOverride_Trait_MP_IceTomb" isPercentage="true" type="ARRAY"/>
+<stat id="268466002" name="Improved Wisp of Frost" key="Skill_EffectOverride_MP_ImprovedFrostWisp" type="ARRAY"/>
+<stat id="268466003" name="Improved Wisp of Shadow" key="Skill_EffectOverride_MP_ImprovedShadowWisp" type="ARRAY"/>
+<stat id="268466004" name="Improved Wisp of Acid" key="Skill_EffectOverride_MP_ImprovedAcidWisp" type="ARRAY"/>
+<stat id="268466005" name="Improved Wisp of Fire" key="Skill_EffectOverride_MP_ImprovedFireWisp" type="ARRAY"/>
+<stat id="268466006" name="Improved Shadow-spike" key="Skill_EffectOverride_MP_ImprovedShadowSpike" type="ARRAY"/>
+<stat id="268466007" name="Improved Frost-spike" key="Skill_EffectOverride_MP_ImprovedFrostSpike" type="ARRAY"/>
+<stat id="268466008" name="Improved Fire-spike" key="Skill_EffectOverride_MP_ImprovedFireSpike" type="ARRAY"/>
 <stat id="268466009" name="Faster Nazgûl event spawns" key="Ringwraith_Event_Spawn_Increase" type="BOOLEAN"/>
+<stat id="268466053" name="Acid Damage" key="Combat_SkillDamageMultiplier_Acid" isPercentage="true"/>
+<stat id="268466054" name="Shadow Damage" key="Combat_SkillDamageMultiplier_Shadow" isPercentage="true"/>
+<stat id="268466060" name="Ice Tomb Cooldown" key="Skill_MP_Sorceress_IceTomb_Cooldown"/>
+<stat id="268466061" name="Banish the Light Cooldown" key="Skill_MP_Sorceress_BanishLight_Cooldown"/>
+<stat id="268466062" name="Shadowy Simulacrum Cooldown" key="Skill_MP_Sorceress_Simulacrum_Cooldown"/>
+<stat id="268466063" name="Gift of the Rime Cooldown" key="Skill_MP_Sorceress_GiftoftheRime_Cooldown"/>
+<stat id="268466064" name="Channel the Worm Cooldown" key="Skill_MP_Sorceress_ChannelWorm_Cooldown"/>
+<stat id="268466065" name="Improved Acid-spike" key="Skill_EffectOverride_MP_ImprovedAcidSpike" type="ARRAY"/>
+<stat id="268466066" name="Torrent of Flame Cooldown" key="Skill_MP_Sorceress_TorrentFlame_Cooldown"/>
+<stat id="268466067" name="DNT - Bonus Effect" key="Sorceress_DevotionSwap_BonusEffect" isPercentage="true" type="ARRAY"/>
+<stat id="268466069" name="Ignite Pulse Count" key="Skill_Sorceress_Ignite_Pulses" type="INTEGER"/>
+<stat id="268466071" name="DNT - Replace Bleeds" key="Itemset_Warden_SpearBleeds_3" type="ARRAY"/>
+<stat id="268466072" name="DNT - Replace Bleeds" key="Itemset_Warden_SpearBleeds_1" type="ARRAY"/>
+<stat id="268466073" name="DNT - Replace Bleeds" key="Itemset_Warden_SpearBleeds_2" type="ARRAY"/>
+<stat id="268466074" name="Improved Fell-fire" key="Skill_EffectOverride_MP_ImprovedFelFire" type="ARRAY"/>
+<stat id="268466075" name="Shadow Breath Fear Grace Period" key="EffectMod_Duration_Trait_MP_UmbralFear"/>
+<stat id="268466076" name="Improved Frost Breath" key="Skill_EffectOverride_MP_ImprovedFrostBreath" type="ARRAY"/>
+<stat id="268466077" name="Improved Shadow Breath" key="Skill_EffectOverride_MP_ImprovedShadowBreath" type="ARRAY"/>
+<stat id="268466078" name="Improved Flame Breath" key="Skill_EffectOverride_MP_ImprovedFireBreath" type="ARRAY"/>
+<stat id="268466079" name="Improved Acid Breath" key="Skill_EffectOverride_MP_ImprovedAcidBreath" type="ARRAY"/>
+<stat id="268466080" name="Improved Wisp of Shadow - Self" key="Skill_EffectOverride_MP_ImprovedShadowWisp_Self" type="ARRAY"/>
+<stat id="268466081" name="Improved Wisp of Acid - Self" key="Skill_EffectOverride_MP_ImprovedAcidWisp_Self" type="ARRAY"/>
+<stat id="268466082" name="Improved Wisp of Fire - Self" key="Skill_EffectOverride_MP_ImprovedFireWisp_Self" type="ARRAY"/>
+<stat id="268466083" name="Sorcerous Synergy Cooldown" key="Skill_MP_Sorceress_Synergy_Cooldown"/>
+<stat id="268466084" name="DNT - Bonus Effect" key="Skill_EffectOverride_Trait_MP_CatchPrey" type="ARRAY"/>
+<stat id="268466085" name="DNT Bonus Effect" key="Skill_EffectOverride_Trait_MP_Snap" type="ARRAY"/>
+<stat id="268466086" name="DNT Bonus Effect" key="Skill_EffectOverride_Trait_MP_Frenzy" type="ARRAY"/>
+<stat id="268466087" name="DNT Bonus Effect" key="Skill_EffectOverride_Trait_MP_RendFlesh" type="ARRAY"/>
+<stat id="268466098" name="DNT - Override Target Effect" key="Beorning_Bash_TargetOverride" type="ARRAY"/>
+<stat id="268466099" name="DNT - Bonus Effects" key="Itemset_Minstrel_Dirgesinger_PvMP" type="ARRAY"/>
+<stat id="268466107" name="In Harm's Way Incoming Healing" key="Effect_Captain_InHarmsWay_IncHealing" isPercentage="true"/>
+<stat id="268466108" name="DNT - Bonus Effect" key="Captain_ShadowsLament_Crit_Effect" type="ARRAY"/>
+<stat id="268466109" name="DNT - Bonus Effect" key="Captain_DevBlow_Crit_Effect" type="ARRAY"/>
+<stat id="268466110" name="DNT" key="Burglar_UnseenScheme_SelfEffect" type="ARRAY"/>
+<stat id="268466111" name="DNT" key="Burglar_EventheOdds_SelfEffect" type="ARRAY"/>
+<stat id="268466112" name="DNT" key="Burglar_StealthSurpriseStrike_TargetEffect" type="ARRAY"/>
+<stat id="268466113" name="DNT - Bonus Effect on nh Shanties" key="Corsair_Shanties_nh_Effect" isPercentage="true" type="ARRAY"/>
+<stat id="268466114" name="DNT - Disengage Effect" key="Corsair_Disengage_Effect" isPercentage="true" type="ARRAY"/>
+<stat id="268466115" name="DNT - Bonus Effect on nh Swordplays" key="Corsair_Defensive_Swordplay_Effect" isPercentage="true" type="ARRAY"/>
+<stat id="268466124" name="DNT - Override AM WL Effects" key="Loremaster_WaterLore_AM_Override" isPercentage="true" type="ARRAY"/>
+<stat id="268466125" name="DNT - Override WL Effects" key="Loremaster_WaterLore_Override" isPercentage="true" type="ARRAY"/>
+<stat id="268466129" name="DNT - Bonus Effect" key="Runekeeper_Runesign_BonusEffect" type="ARRAY"/>
+<stat id="268466130" name="DNT - Bonus Effect" key="Runekeeper_ScribeCleanse_Override" type="ARRAY"/>
+<stat id="268466131" name="Improved Wisp of Acid" key="Skill_EffectOverride_MP_ImprovedFireTierup" type="ARRAY"/>
+<stat id="268466132" name="Improved Wisp of Acid" key="Skill_EffectOverride_MP_ImprovedShadowTierup" type="ARRAY"/>
+<stat id="268466133" name="Improved Wisp of Acid" key="Skill_EffectOverride_MP_ImprovedAcidTierup" type="ARRAY"/>
+<stat id="268466134" name="Improved Wisp of Acid" key="Skill_EffectOverride_MP_ImprovedFrostTierup" type="ARRAY"/>
 </stats>

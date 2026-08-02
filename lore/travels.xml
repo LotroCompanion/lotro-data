@@ -138,7 +138,7 @@
 <destination id="1879186700" name="Harndirion - Swift Travel" swift="true"/>
 <destination id="1879186888" name="Echad Daervunn"/>
 <destination id="1879186889" name="Echad Daervunn - Swift Travel" swift="true"/>
-<destination id="1879200125" name="Winter-home - Swift Travel" swift="true"/>
+<destination id="1879200125" name="Frostbluff (Yuletide Festival)" swift="true"/>
 <destination id="1879200136" name="Michel Delving - Swift Travel"/>
 <destination id="1879200137" name="West Bree - Swift Travel"/>
 <destination id="1879200138" name="Celondim - Swift Travel"/>
@@ -397,9 +397,10 @@
 <destination id="1879399275" name="Barad Angarth, the Gate-wardens' Keep" swift="true"/>
 <destination id="1879399281" name="Barad Orhant, the Tower of the Treegarth" swift="true"/>
 <destination id="1879399286" name="Barad Arthir, the Lofty Watch-fort" swift="true"/>
+<destination id="1879399383" name="Frostbluff (Yuletide Festival)" swift="true"/>
 <destination id="1879399388" name="Neighbourhood Stable-master" swift="true"/>
 <destination id="1879399407" name="Cape of Belfalas Homesteads - Swift Travel" swift="true"/>
-<destination id="1879399413" name="Wistmead - Swift Travel" swift="true"/>
+<destination id="1879399413" name="Wistmead (Harvestmath Festival)" swift="true"/>
 <destination id="1879399415" name="Bree-land Festival Grounds - Swift Travel" swift="true"/>
 <destination id="1879399416" name="The Party Tree - Swift Travel" swift="true"/>
 <destination id="1879400671" name="Kingstead Meadows Homesteads - Swift Travel" swift="true"/>
@@ -763,6 +764,7 @@
 <destination id="1879522878" name="Ingarûma - Swift" swift="true"/>
 <destination id="1879522891" name="Hanamíku"/>
 <destination id="1879522906" name="Ingarûma"/>
+<destination id="1879529799" name="Furtherholm (Midsummer Festival)" swift="true"/>
 <route id="1879072602" name="Esteldín" destinationID="1879072603" mode="HORSE">
 <routeAction id="1879072604" headName="travel_segment_from_nomadmoot_going_south"/>
 <routeAction id="1879072605" headName="travel_segment_seg_nomadmoot_to_nanamlug_east"/>
@@ -2984,22 +2986,22 @@
 <routeAction id="1879072630" delay="0.0"/>
 <routeAction id="1879072679" headName="travel_segment_seg_greenway_crossing_to_bree_west"/>
 </route>
-<route id="1879200127" name="Winter-home - Swift Travel" destinationID="1879200125" mode="SHAGGY">
+<route id="1879200127" name="Frostbluff (Yuletide Festival)" destinationID="1879200125" mode="SHAGGY">
 <routeAction id="1879072705" headName="travel_segment_from_celondim_going_north"/>
 <routeAction id="1879072630" delay="0.0"/>
 <routeAction id="1879200131" headName="travel_segment_to_winter_festival"/>
 </route>
-<route id="1879200128" name="Winter-home - Swift Travel" destinationID="1879200125" mode="SHAGGY">
+<route id="1879200128" name="Frostbluff (Yuletide Festival)" destinationID="1879200125" mode="SHAGGY">
 <routeAction id="1879086352" headName="travel_segment_from_micheldelving_going_west"/>
 <routeAction id="1879072630" delay="0.0"/>
 <routeAction id="1879200131" headName="travel_segment_to_winter_festival"/>
 </route>
-<route id="1879200129" name="Winter-home - Swift Travel" destinationID="1879200125" mode="SHAGGY">
+<route id="1879200129" name="Frostbluff (Yuletide Festival)" destinationID="1879200125" mode="SHAGGY">
 <routeAction id="1879072726" headName="travel_segment_from_thorinsgate_going_east"/>
 <routeAction id="1879072630" delay="0.0"/>
 <routeAction id="1879200131" headName="travel_segment_to_winter_festival"/>
 </route>
-<route id="1879200130" name="Winter-home - Swift Travel" destinationID="1879200125" mode="SHAGGY">
+<route id="1879200130" name="Frostbluff (Yuletide Festival)" destinationID="1879200125" mode="SHAGGY">
 <routeAction id="1879072640" headName="travel_segment_from_bree_west_going_west"/>
 <routeAction id="1879072630" delay="0.0"/>
 <routeAction id="1879200131" headName="travel_segment_to_winter_festival"/>
@@ -10240,11 +10242,11 @@
 <routeAction id="1879072630" delay="0.0"/>
 <routeAction id="1879444057" headName="travel_seg_trollshaws_to_rivendell_stables_going_north"/>
 </route>
-<route id="1879399402" name="Winter-home - Swift Travel" destinationID="1879200125" mode="HORSE">
+<route id="1879399402" name="Frostbluff (Yuletide Festival)" destinationID="1879200125" mode="HORSE">
 <routeAction id="1879072630" delay="0.0"/>
 <routeAction id="1879200131" headName="travel_segment_to_winter_festival"/>
 </route>
-<route id="1879399403" name="Wistmead - Swift Travel" destinationID="1879399413" mode="HORSE">
+<route id="1879399403" name="Wistmead (Harvestmath Festival)" destinationID="1879399413" mode="HORSE">
 <routeAction id="1879072630" delay="0.0"/>
 <routeAction id="1879399409" location="wistmead_festival_entrance"/>
 </route>
@@ -29641,11 +29643,11 @@
 </route>
 <route id="1879509198" name="West Bree" destinationID="1879072621" mode="BOAT">
 <routeAction id="1879475371" delay="0.0" sceneID="1879475313"/>
-<routeAction id="1879072679" headName="travel_segment_seg_greenway_crossing_to_bree_west"/>
+<routeAction id="1879422948" location="travel_breeland_bree_west"/>
 </route>
 <route id="1879509199" name="Minas Tirith (Midsummer) - Swift Travel" destinationID="1879407848" mode="BOAT">
 <routeAction id="1879475371" delay="0.0" sceneID="1879475313"/>
-<routeAction id="1879407853" headName="travel_segment_to_minas_tirith_wedding"/>
+<routeAction id="1879407864" location="gondor_minas_tirith_wedding_stables_low_exit"/>
 </route>
 <route id="1879509200" name="Umbar Baharbêl" destinationID="1879475384" mode="BOAT" minLevel="120">
 <routeAction id="1879475371" delay="0.0" sceneID="1879475313"/>
@@ -32909,6 +32911,18 @@
 <routeAction id="1879072630" delay="0.0"/>
 <routeAction id="1879522854" headName="travel_seg_mg_slopes_to_north_hub_from_south"/>
 </route>
+<route id="1879529791" name="Furtherholm (Midsummer Festival)" destinationID="1879529799" mode="BOAT">
+<routeAction id="1879529792" delay="0.0" sceneID="1879529795"/>
+<routeAction id="1879529794" location="travel_umbar_shield_isles_festival"/>
+</route>
+<route id="1879529793" name="Frostbluff (Yuletide Festival)" destinationID="1879399383" mode="BOAT">
+<routeAction id="1879529798" delay="0.0" sceneID="1879529790"/>
+<routeAction id="1879399396" location="travel_festival_winter_frostbluff"/>
+</route>
+<route id="1879529797" name="Wistmead (Harvestmath Festival)" destinationID="1879399413" mode="BOAT">
+<routeAction id="1879529796" delay="0.0" sceneID="1879529800"/>
+<routeAction id="1879399409" location="wistmead_festival_entrance"/>
+</route>
 <node id="1879072570">
 <mainLocation id="1879072601" name="Aughaire"/>
 <location id="1879103925" name="Aughaire - Swift Travel"/>
@@ -32937,6 +32951,9 @@
 <location id="1879407848" name="Minas Tirith (Midsummer) - Swift Travel"/>
 <location id="1879407839" name="Minas Tirith (Midsummer) - City Stables"/>
 <location id="1879443240" name="Abodes of Erebor - Swift Travel"/>
+<location id="1879399383" name="Frostbluff (Yuletide Festival)"/>
+<location id="1879399413" name="Wistmead (Harvestmath Festival)"/>
+<location id="1879529799" name="Furtherholm (Midsummer Festival)"/>
 <route id="1879072613" name="Forsaken Inn" cost="500"/>
 <route id="1879072614" name="West Bree - Swift Travel" cost="100"/>
 <route id="1879072615" name="Combe" cost="100"/>
@@ -32982,14 +32999,16 @@
 <location id="1879162406" name="Hengstacer Farm"/>
 <location id="1879399407" name="Cape of Belfalas Homesteads - Swift Travel"/>
 <location id="1879399388" name="Neighbourhood Stable-master"/>
-<location id="1879200125" name="Winter-home - Swift Travel"/>
-<location id="1879399413" name="Wistmead - Swift Travel"/>
+<location id="1879200125" name="Frostbluff (Yuletide Festival)"/>
+<location id="1879399413" name="Wistmead (Harvestmath Festival)"/>
 <location id="1879399415" name="Bree-land Festival Grounds - Swift Travel"/>
 <location id="1879399416" name="The Party Tree - Swift Travel"/>
 <location id="1879407848" name="Minas Tirith (Midsummer) - Swift Travel"/>
 <location id="1879443240" name="Abodes of Erebor - Swift Travel"/>
 <location id="1879450593" name="Mossward"/>
 <location id="1879450497" name="Mossward - Swift"/>
+<location id="1879399383" name="Frostbluff (Yuletide Festival)"/>
+<location id="1879529799" name="Furtherholm (Midsummer Festival)"/>
 <route id="1879072632" name="Buckland" cost="100"/>
 <route id="1879072633" name="South Bree - Swift Travel" cost="100"/>
 <route id="1879072634" name="Trestlebridge" cost="500"/>
@@ -33008,6 +33027,9 @@
 <route id="1879450493" name="Andrath - Swift" cost="2500"/>
 <route id="1879450494" name="Herne" cost="1500"/>
 <route id="1879450495" name="Herne - Swift" cost="2500"/>
+<route id="1879529793" name="Frostbluff (Yuletide Festival)" cost="100"/>
+<route id="1879529797" name="Wistmead (Harvestmath Festival)" cost="100"/>
+<route id="1879529791" name="Furtherholm (Midsummer Festival)" cost="100"/>
 </node>
 <node id="1879072574">
 <mainLocation id="1879072626" name="Combe"/>
@@ -33092,6 +33114,9 @@
 <location id="1879443240" name="Abodes of Erebor - Swift Travel"/>
 <location id="1879450593" name="Mossward"/>
 <location id="1879450497" name="Mossward - Swift"/>
+<location id="1879399413" name="Wistmead (Harvestmath Festival)"/>
+<location id="1879529799" name="Furtherholm (Midsummer Festival)"/>
+<location id="1879399383" name="Frostbluff (Yuletide Festival)"/>
 <route id="1879072702" name="Duillond" cost="100"/>
 <route id="1879072703" name="Thorin's Gate - Swift Travel" cost="100"/>
 <route id="1879072704" name="Michel Delving - Swift Travel" cost="100"/>
@@ -33100,6 +33125,9 @@
 <route id="1879389032" name="Falathlorn Homesteads" cost="100"/>
 <route id="1879389033" name="Falathlorn Homesteads - Swift Travel" cost="500"/>
 <route id="1879450510" name="Mossward - Swift" cost="500"/>
+<route id="1879529793" name="Frostbluff (Yuletide Festival)" cost="100"/>
+<route id="1879529797" name="Wistmead (Harvestmath Festival)" cost="100"/>
+<route id="1879529791" name="Furtherholm (Midsummer Festival)" cost="100"/>
 </node>
 <node id="1879072578">
 <mainLocation id="1879072694" name="Gondamon"/>
@@ -33133,6 +33161,9 @@
 <location id="1879443240" name="Abodes of Erebor - Swift Travel"/>
 <location id="1879450593" name="Mossward"/>
 <location id="1879450497" name="Mossward - Swift"/>
+<location id="1879399383" name="Frostbluff (Yuletide Festival)"/>
+<location id="1879399413" name="Wistmead (Harvestmath Festival)"/>
+<location id="1879529799" name="Furtherholm (Midsummer Festival)"/>
 <route id="1879072721" name="Gondamon" cost="100"/>
 <route id="1879072722" name="Duillond" cost="100"/>
 <route id="1879072723" name="Celondim - Swift Travel" cost="100"/>
@@ -33146,6 +33177,9 @@
 <route id="1879407841" name="Minas Tirith (Midsummer) - Swift Travel" cost="100"/>
 <route id="1879409874" name="Annâk-khurfu - Swift Travel" cost="0"/>
 <route id="1879450508" name="Mossward - Swift" cost="500"/>
+<route id="1879529793" name="Frostbluff (Yuletide Festival)" cost="100"/>
+<route id="1879529797" name="Wistmead (Harvestmath Festival)" cost="100"/>
+<route id="1879529791" name="Furtherholm (Midsummer Festival)" cost="100"/>
 </node>
 <node id="1879072581">
 <mainLocation id="1879072617" name="Forsaken Inn"/>
@@ -33261,6 +33295,9 @@
 <location id="1879443240" name="Abodes of Erebor - Swift Travel"/>
 <location id="1879450593" name="Mossward"/>
 <location id="1879450497" name="Mossward - Swift"/>
+<location id="1879399383" name="Frostbluff (Yuletide Festival)"/>
+<location id="1879399413" name="Wistmead (Harvestmath Festival)"/>
+<location id="1879529799" name="Furtherholm (Midsummer Festival)"/>
 <route id="1879072816" name="Hobbiton" cost="100"/>
 <route id="1879072817" name="Celondim - Swift Travel" cost="100"/>
 <route id="1879072818" name="Thorin's Gate - Swift Travel" cost="100"/>
@@ -33293,6 +33330,9 @@
 <route id="1879446823" name="Oatbarton - Swift Travel" cost="500"/>
 <route id="1879450511" name="Mossward - Swift" cost="500"/>
 <route id="1879450512" name="Sarn Ford - Swift" cost="2500"/>
+<route id="1879529793" name="Frostbluff (Yuletide Festival)" cost="100"/>
+<route id="1879529797" name="Wistmead (Harvestmath Festival)" cost="100"/>
+<route id="1879529791" name="Furtherholm (Midsummer Festival)" cost="100"/>
 </node>
 <node id="1879072591">
 <mainLocation id="1879072686" name="Needlehole"/>
@@ -33919,7 +33959,7 @@
 <route id="1879216404" name="Lhan Tarren - Swift Travel" cost="3500"/>
 </node>
 <node id="1879200120">
-<mainLocation id="1879200125" name="Winter-home - Swift Travel"/>
+<mainLocation id="1879200125" name="Frostbluff (Yuletide Festival)"/>
 <location id="1879072662" name="Thorin's Gate - Swift Travel"/>
 <location id="1879072666" name="Michel Delving - Swift Travel"/>
 <location id="1879072728" name="Celondim - Swift Travel"/>
@@ -33931,23 +33971,23 @@
 </node>
 <node id="1879200132">
 <mainLocation id="1879200138" name="Celondim - Swift Travel"/>
-<location id="1879200125" name="Winter-home - Swift Travel"/>
-<route id="1879200127" name="Winter-home - Swift Travel" cost="0"/>
+<location id="1879200125" name="Frostbluff (Yuletide Festival)"/>
+<route id="1879200127" name="Frostbluff (Yuletide Festival)" cost="0"/>
 </node>
 <node id="1879200133">
 <mainLocation id="1879200136" name="Michel Delving - Swift Travel"/>
-<location id="1879200125" name="Winter-home - Swift Travel"/>
-<route id="1879200128" name="Winter-home - Swift Travel" cost="0"/>
+<location id="1879200125" name="Frostbluff (Yuletide Festival)"/>
+<route id="1879200128" name="Frostbluff (Yuletide Festival)" cost="0"/>
 </node>
 <node id="1879200134">
 <mainLocation id="1879200139" name="Thorin's Gate - Swift Travel"/>
-<location id="1879200125" name="Winter-home - Swift Travel"/>
-<route id="1879200129" name="Winter-home - Swift Travel" cost="0"/>
+<location id="1879200125" name="Frostbluff (Yuletide Festival)"/>
+<route id="1879200129" name="Frostbluff (Yuletide Festival)" cost="0"/>
 </node>
 <node id="1879200135">
 <mainLocation id="1879200137" name="West Bree - Swift Travel"/>
-<location id="1879200125" name="Winter-home - Swift Travel"/>
-<route id="1879200130" name="Winter-home - Swift Travel" cost="0"/>
+<location id="1879200125" name="Frostbluff (Yuletide Festival)"/>
+<route id="1879200130" name="Frostbluff (Yuletide Festival)" cost="0"/>
 </node>
 <node id="1879204137">
 <mainLocation id="1879204011" name="High King's Crossing"/>
@@ -35657,8 +35697,8 @@
 <node id="1879399380">
 <mainLocation id="1879399388" name="Neighbourhood Stable-master"/>
 <location id="1879399407" name="Cape of Belfalas Homesteads - Swift Travel"/>
-<location id="1879200125" name="Winter-home - Swift Travel"/>
-<location id="1879399413" name="Wistmead - Swift Travel"/>
+<location id="1879200125" name="Frostbluff (Yuletide Festival)"/>
+<location id="1879399413" name="Wistmead (Harvestmath Festival)"/>
 <location id="1879399415" name="Bree-land Festival Grounds - Swift Travel"/>
 <location id="1879399416" name="The Party Tree - Swift Travel"/>
 <location id="1879072728" name="Celondim - Swift Travel"/>
@@ -35689,8 +35729,8 @@
 <route id="1879399393" name="Skarháld - Swift Travel" cost="12200"/>
 <route id="1879399400" name="Magh Ashtu - Swift Travel" cost="12200"/>
 <route id="1879399408" name="Estolad Lân - Swift Travel" cost="14750"/>
-<route id="1879399403" name="Wistmead - Swift Travel" cost="100"/>
-<route id="1879399402" name="Winter-home - Swift Travel" cost="100"/>
+<route id="1879399403" name="Wistmead (Harvestmath Festival)" cost="100"/>
+<route id="1879399402" name="Frostbluff (Yuletide Festival)" cost="100"/>
 <route id="1879399417" name="Bree-land Festival Grounds - Swift Travel" cost="100"/>
 <route id="1879399392" name="The Party Tree - Swift Travel" cost="100"/>
 <route id="1879399410" name="Galtrev - Swift Travel" cost="12200"/>
@@ -37143,6 +37183,9 @@
 <location id="1879443240" name="Abodes of Erebor - Swift Travel"/>
 <location id="1879450693" name="Clegur"/>
 <location id="1879450694" name="Clegur - Swift"/>
+<location id="1879399383" name="Frostbluff (Yuletide Festival)"/>
+<location id="1879399413" name="Wistmead (Harvestmath Festival)"/>
+<location id="1879529799" name="Furtherholm (Midsummer Festival)"/>
 <route id="1879450643" name="West Bree - Swift Travel" cost="500"/>
 <route id="1879450644" name="Caras Gelebren" cost="100"/>
 <route id="1879450645" name="Caras Gelebren - Swift" cost="500"/>
@@ -37165,6 +37208,9 @@
 <route id="1879450662" name="Thorin's Gate - Swift Travel" cost="500"/>
 <route id="1879450663" name="Western Eregion" cost="100"/>
 <route id="1879450664" name="Western Eregion - Swift" cost="500"/>
+<route id="1879529793" name="Frostbluff (Yuletide Festival)" cost="100"/>
+<route id="1879529797" name="Wistmead (Harvestmath Festival)" cost="100"/>
+<route id="1879529791" name="Furtherholm (Midsummer Festival)" cost="100"/>
 </node>
 <node id="1879450665">
 <mainLocation id="1879450541" name="Scurloc Farm"/>
@@ -38424,8 +38470,8 @@
 <node id="1879476943">
 <mainLocation id="1879476964" name="Neighbourhood Dock-master"/>
 <location id="1879399407" name="Cape of Belfalas Homesteads - Swift Travel"/>
-<location id="1879200125" name="Winter-home - Swift Travel"/>
-<location id="1879399413" name="Wistmead - Swift Travel"/>
+<location id="1879200125" name="Frostbluff (Yuletide Festival)"/>
+<location id="1879399413" name="Wistmead (Harvestmath Festival)"/>
 <location id="1879399415" name="Bree-land Festival Grounds - Swift Travel"/>
 <location id="1879399416" name="The Party Tree - Swift Travel"/>
 <location id="1879072728" name="Celondim - Swift Travel"/>

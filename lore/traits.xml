@@ -517,7 +517,7 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="6.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
-<trait identifier="1879072441" name="Health Boost" iconId="1090553274" category="43" nature="3" tooltip="key:620774689:191029568" description="key:620774689:54354734">
+<trait identifier="1879072441" name="Morale Boost" iconId="1090553274" category="43" nature="3" tooltip="key:620774689:191029568" description="key:620774689:54354734">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620774689:106251889" constant="1.1"/>
 </trait>
 <trait identifier="1879072442" name="Armour Boost" iconId="1090553275" category="43" nature="3" tooltip="key:620774690:191029568" description="key:620774690:54354734">
@@ -543,7 +543,7 @@
 <trait identifier="1879072448" name="Enhanced Skill: Clinging Webs" iconId="1090553281" category="43" nature="3" tooltip="key:620774696:191029568" description="key:620774696:54354734">
 <effectGenerator id="1879244330" name="Improved Clinging Webs" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879072449" name="Enhanced Skill: Feast" iconId="1091474809" category="43" nature="3" tooltip="key:620774699:191029568" description="key:620774699:54354734">
+<trait identifier="1879072449" name="Experienced Predator" iconId="1091474809" category="43" nature="3" tooltip="key:620774699:191029568" description="key:620774699:54354734">
 <effectGenerator id="1879244331" name="Improved Feast" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879072451" name="Shadow Watcher Appearance" iconId="1090553285" category="54" nature="2" tooltip="key:620774705:191029568" description="key:620774705:54354734">
@@ -585,7 +585,7 @@
 <stat name="EVADE" scaling="1879456291"/>
 </trait>
 <trait identifier="1879072461" name="Enhanced Skill: Hindering Shot" iconId="1090553294" category="43" nature="3" tooltip="key:620774715:191029568" description="key:620774715:54354734">
-<stat name="EffectMod_Duration_Trait_MP_Hinderingshot" constant="7.0"/>
+<stat name="EffectMod_Duration_Trait_MP_Hinderingshot" constant="4.0"/>
 <effectGenerator id="1879072541" name="Hindering Shot Root" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879072462" name="Penetrating Arrows" iconId="1090553295" category="43" nature="3" tooltip="key:620774717:191029568" description="key:620774717:54354734">
@@ -692,8 +692,9 @@
 <trait identifier="1879072489" name="Armour Boost" iconId="1090553275" category="43" nature="3" tooltip="key:620774752:191029568" description="key:620774752:54354734">
 <stat name="Combat_Agent_Armor_Value_Float" scaling="1879456305"/>
 </trait>
-<trait identifier="1879072490" name="Resistance Boost" iconId="1090553258" category="43" nature="3" tooltip="key:620774753:191029568" description="key:620774753:54354734">
-<stat name="RESISTANCE" scaling="1879381723"/>
+<trait identifier="1879072490" name="Dread Hunter" iconId="1093151432" category="43" nature="3" tooltip="key:620774753:191029568" description="key:620774753:54354734">
+<stat name="Corsair_Advance_Stun_AppChance" operator="SUBSTRACT" descriptionOverride="-" constant="100.0"/>
+<effectGenerator id="1879529780" name="Improved Critical Responses" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879072491" name="Long Strides" iconId="1090553323" category="43" nature="3" tooltip="key:620774754:191029568" description="key:620774754:54354734">
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="5.0"/>
@@ -706,6 +707,7 @@
 <stat name="STEALTH_LEVEL" constant="7.0"/>
 <stat name="EffectMod_MovementSpeed_Trait_MP_ImprovedStealth" descriptionOverride="key:620774756:106251890" constant="5.0"/>
 <stat name="Skill_ChanceCriticalHit_Trait_MP_FromStealth" constant="10.0"/>
+<stat name="EffectMod_Burglar_CombatStealth_DR_Potency" constant="25.0"/>
 </trait>
 <trait identifier="1879072494" name="Enhanced Skill: Sprint" iconId="1090553326" category="43" nature="3" tooltip="key:620774757:191029568" description="key:620774757:54354734">
 <stat name="Skill_RecoveryTime_Trait_MP_Sprint" operator="SUBSTRACT" descriptionOverride="key:620774757:106251889" constant="90.0"/>
@@ -743,41 +745,37 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="6.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
-<trait identifier="1879072505" name="Damage for Health (Rank 1)" iconId="1090553338" category="20" nature="5" tooltip="key:620774772:191029568" description="key:620774772:54354734">
+<trait identifier="1879072505" name="Damage for Morale (Rank 1)" iconId="1090553338" category="20" nature="5" tooltip="key:620774772:191029568" description="key:620774772:54354734">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="2.5"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="2.5"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="2.5"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620774772:106251892" constant="0.95"/>
-<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="-" constant="2.5"/>
 </trait>
-<trait identifier="1879072506" name="Damage for Power (Rank 1)" iconId="1090553339" category="20" nature="5" tooltip="key:620774773:191029568" description="key:620774773:54354734">
+<trait identifier="1879072506" name="Damage for Healing (Rank 1)" iconId="1093150865" category="20" nature="5" tooltip="key:620774773:191029568" description="key:620774773:54354734">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="2.5"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="2.5"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="2.5"/>
-<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:620774773:106251892" constant="0.95"/>
-<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="-" constant="2.5"/>
+<stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" constant="5.0"/>
 </trait>
-<trait identifier="1879072507" name="Health for Damage (Rank 1)" iconId="1090553340" category="20" nature="5" tooltip="key:620774774:191029568" description="key:620774774:54354734">
+<trait identifier="1879072507" name="Morale for Damage (Rank 1)" iconId="1090553340" category="20" nature="5" tooltip="key:620774774:191029568" description="key:620774774:54354734">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620774774:106251889" constant="1.05"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
-<stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" descriptionOverride="-" constant="2.5"/>
 </trait>
-<trait identifier="1879072508" name="Health for Power (Rank 1)" iconId="1090553341" category="20" nature="5" tooltip="key:620774775:191029568" description="key:620774775:54354734">
+<trait identifier="1879072508" name="Morale for Power (Rank 1)" iconId="1090553341" category="20" nature="5" tooltip="key:620774775:191029568" description="key:620774775:54354734">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620774775:106251889" constant="1.05"/>
-<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:620774775:106251890" constant="0.95"/>
+<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:620774775:106251890" constant="0.9"/>
 </trait>
-<trait identifier="1879072509" name="Power for Damage (Rank 1)" iconId="1090553342" category="20" nature="5" tooltip="key:620774776:191029568" description="key:620774776:54354734">
-<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:620774776:106251889" constant="1.05"/>
+<trait identifier="1879072509" name="Healing for Damage (Rank 1)" iconId="1093150869" category="20" nature="5" tooltip="key:620774776:191029568" description="key:620774776:54354734">
+<stat name="Combat_OutgoingHeals_EffectMod" constant="5.0"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
-<stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" descriptionOverride="-" constant="2.5"/>
 </trait>
-<trait identifier="1879072510" name="Power for Health (Rank 1)" iconId="1090553343" category="20" nature="5" tooltip="key:620774777:191029568" description="key:620774777:54354734">
-<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:620774777:106251889" constant="1.05"/>
-<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620774777:106251890" constant="0.95"/>
+<trait identifier="1879072510" name="Healing for Power (Rank 1)" iconId="1093150867" category="20" nature="5" tooltip="key:620774777:191029568" description="key:620774777:54354734">
+<stat name="Combat_OutgoingHeals_EffectMod" constant="5.0"/>
+<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:620774777:106251890" constant="0.9"/>
 </trait>
 <trait identifier="1879072511" name="Critical Protection Boost 4" iconId="1091637773" category="20" nature="5" tooltip="key:620774778:191029568" description="key:620774778:54354734">
 <stat name="CRITICAL_DEFENCE" scaling="1879412741"/>
@@ -815,9 +813,13 @@
 <stat name="TACTICAL_MASTERY" scaling="1879412738"/>
 <stat name="PHYSICAL_MASTERY" scaling="1879412734"/>
 </trait>
-<trait identifier="1879072521" name="Stealth Detection Boost" iconId="1090553354" category="20" nature="5" tooltip="key:620774788:191029568" description="key:620774788:54354734">
-<stat name="Stealth_StealthDetectionLevelModifier" constant="4.0"/>
-<stat name="STEALTH_LEVEL" operator="SUBSTRACT" constant="4.0"/>
+<trait identifier="1879072521" name="Corruption Skill: Shield-breaker" iconId="1093150868" category="20" nature="5" tooltip="key:620774788:191029568" description="key:620774788:54354734">
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620774788:106251889" constant="1.5"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="1.5"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="1.5"/>
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:620774788:106251892" constant="2.5"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="2.5"/>
+<skill id="1879529737" name="Shield-breaker"/>
 </trait>
 <trait identifier="1879072873" name="Charity" iconId="1091664657" staticIconOverlayId="1091664889" tiers="108" tierProperty="Trait_Virtue_Rank_Charity" nature="5" description="key:620774804:54354734">
 <stat name="RESISTANCE" scaling="1879210164"/>
@@ -1151,7 +1153,7 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="7.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
-<trait identifier="1879084104" name="Health Boost" iconId="1090553274" category="43" nature="3" tooltip="key:620788938:191029568" description="key:620788938:54354734">
+<trait identifier="1879084104" name="Morale Boost" iconId="1090553274" category="43" nature="3" tooltip="key:620788938:191029568" description="key:620788938:54354734">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620788938:106251889" constant="1.1"/>
 </trait>
 <trait identifier="1879084107" name="Bear-masked Ongbúrz Appearance" iconId="1091462233" category="54" nature="2" tooltip="key:620788936:191029568" description="key:620788936:54354734">
@@ -1192,41 +1194,37 @@
 <effectGenerator id="1879206168" name="DNT - A Minstrel has trained me to use a Theorbo" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879090925" name="Bow Chants" iconId="1091388854" category="29" nature="1" cosmetic="true" tooltip="key:620792156:191029568" description="key:620792156:54354734"/>
-<trait identifier="1879091351" name="Damage for Health (Rank 2)" iconId="1090553338" category="20" nature="5" tooltip="key:620792433:191029568" description="key:620792433:54354734">
+<trait identifier="1879091351" name="Damage for Morale (Rank 2)" iconId="1090553338" category="20" nature="5" tooltip="key:620792433:191029568" description="key:620792433:54354734">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620792433:106251892" constant="0.95"/>
-<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="-" constant="5.0"/>
 </trait>
-<trait identifier="1879091352" name="Damage for Power (Rank 2)" iconId="1090553339" category="20" nature="5" tooltip="key:620792418:191029568" description="key:620792418:54354734">
+<trait identifier="1879091352" name="Damage for Healing (Rank 2)" iconId="1093150865" category="20" nature="5" tooltip="key:620792418:191029568" description="key:620792418:54354734">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
-<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:620792418:106251892" constant="0.95"/>
-<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="-" constant="5.0"/>
+<stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" constant="5.0"/>
 </trait>
-<trait identifier="1879091353" name="Health for Damage (Rank 2)" iconId="1090553340" category="20" nature="5" tooltip="key:620792419:191029568" description="key:620792419:54354734">
+<trait identifier="1879091353" name="Morale for Damage (Rank 2)" iconId="1090553340" category="20" nature="5" tooltip="key:620792419:191029568" description="key:620792419:54354734">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620792419:106251889" constant="1.1"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
-<stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" descriptionOverride="-" constant="2.5"/>
 </trait>
-<trait identifier="1879091354" name="Health for Power (Rank 2)" iconId="1090553341" category="20" nature="5" tooltip="key:620792420:191029568" description="key:620792420:54354734">
+<trait identifier="1879091354" name="Morale for Power (Rank 2)" iconId="1090553341" category="20" nature="5" tooltip="key:620792420:191029568" description="key:620792420:54354734">
 <stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620792420:106251889" constant="1.1"/>
-<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:620792420:106251890" constant="0.95"/>
+<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:620792420:106251890" constant="0.9"/>
 </trait>
-<trait identifier="1879091355" name="Power for Damage (Rank 2)" iconId="1090553342" category="20" nature="5" tooltip="key:620792421:191029568" description="key:620792421:54354734">
-<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:620792421:106251889" constant="1.1"/>
+<trait identifier="1879091355" name="Healing for Damage (Rank 2)" iconId="1093150869" category="20" nature="5" tooltip="key:620792421:191029568" description="key:620792421:54354734">
+<stat name="Combat_OutgoingHeals_EffectMod" constant="10.0"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="2.5"/>
-<stat name="Combat_OutgoingHeals_EffectMod" operator="SUBSTRACT" descriptionOverride="-" constant="2.5"/>
 </trait>
-<trait identifier="1879091356" name="Power for Health (Rank 2)" iconId="1090553343" category="20" nature="5" tooltip="key:620792422:191029568" description="key:620792422:54354734">
-<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:620792422:106251889" constant="1.1"/>
-<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:620792422:106251890" constant="0.95"/>
+<trait identifier="1879091356" name="Healing for Power (Rank 2)" iconId="1093150867" category="20" nature="5" tooltip="key:620792422:191029568" description="key:620792422:54354734">
+<stat name="Combat_OutgoingHeals_EffectMod" constant="10.0"/>
+<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:620792422:106251890" constant="0.9"/>
 </trait>
 <trait identifier="1879091357" name="Physical Mitigation Boost 6" iconId="1090553344" category="20" nature="5" tooltip="key:620792423:191029568" description="key:620792423:54354734">
 <stat name="PHYSICAL_MITIGATION" scaling="1879412739"/>
@@ -7161,7 +7159,7 @@
 </trait>
 <trait identifier="1879272596" name="The Gambler" iconId="1091618504" staticIconOverlayId="1091664889" pointCostProgression="1879233738" rankOverlayProgression="1879220093" tierProperty="trait_class_specialization_burglar_three" nature="28" description="key:620922781:54354734">
 <specialEffect label="key:620922781:106251889"/>
-<stat name="ForwardSource_Combat_CatchAll_SkillCombo" descriptionOverride="-" value="(8)"/>
+<stat name="ForwardSource_Combat_CatchAll_SkillCombo" descriptionOverride="-" value="(2)"/>
 <stat name="ForwardSource_Combat_Burglar_SkillCombo" descriptionOverride="-" value="(7)"/>
 <stat name="PERCEIVED_THREAT" descriptionOverride="-" constant="-50.0"/>
 <stat name="ThreatInputModifier_Damage" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
@@ -7450,7 +7448,7 @@
 <stat name="Trait_Hunter_FearResistChance_Modifier" operator="SUBSTRACT" descriptionOverride="key:620924617:106251890" constant="5.0"/>
 </trait>
 <trait identifier="1879274753" name="Swift Release" iconId="1091840358" nature="30" tooltip="key:620924608:191029568" description="key:620924608:54354734">
-<stat name="Skill_BarbedArrow_Induction" operator="SUBSTRACT" descriptionOverride="key:620924608:106251889" constant="0.25"/>
+<stat name="Skill_BarbedArrow_Induction" operator="SUBSTRACT" descriptionOverride="key:620924608:106251889" constant="25.0"/>
 </trait>
 <trait identifier="1879274754" name="Triple Trap" iconId="1091840301" nature="30" tooltip="key:620924611:191029568" description="key:620924611:54354734">
 <stat name="Skill_ChanceCriticalHit_RangedMod" constant="1.0"/>
@@ -7718,7 +7716,7 @@
 <effect id="1879290987" name="DNT"/>
 </trait>
 <trait identifier="1879276237" name="Killstreak Area" iconId="1091832548" staticIconOverlayId="1091664889" pointCostProgression="1879276250" rankOverlayProgression="1879220093" tiers="5" nature="29" description="key:620925829:54354734">
-<stat name="BigBattle_Vanguard_Killstreak_Mod_Area" descriptionOverride="-" value="(4)"/>
+<stat name="BigBattle_Vanguard_Killstreak_Mod_Area" descriptionOverride="-" value="(11)"/>
 <skill rank="1" id="1879275753" name="Rending Bark"/>
 <effect id="1879290987" name="DNT"/>
 </trait>
@@ -7992,13 +7990,13 @@
 <trait identifier="1879279072" name="Vanguard Rank 3" iconId="1091834305" nature="30" tooltip="key:620928246:191029568" description="key:620928246:54354734">
 <stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration" descriptionOverride="key:620928246:106251889" constant="2.0"/>
 <stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration_Pulse" descriptionOverride="-" constant="1.0"/>
-<stat name="BigBattle_Vanguard_Killstreak_Mod_Area" descriptionOverride="key:620928246:106251891" value="(7)"/>
+<stat name="BigBattle_Vanguard_Killstreak_Mod_Area" descriptionOverride="key:620928246:106251891" value="(3)"/>
 <skill id="1879275748" name="Enfeebling Cry"/>
 <skill id="1879275755" name="Serrated"/>
 <effectGenerator id="1879276708" name="Motivating Fall" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879279073" name="Vanguard Rank 6" iconId="1091834307" nature="30" tooltip="key:620928263:191029568" description="key:620928263:54354734">
-<stat name="BigBattle_Vanguard_Killstreak_Mod_Area" descriptionOverride="-" value="(4)"/>
+<stat name="BigBattle_Vanguard_Killstreak_Mod_Area" descriptionOverride="-" value="(11)"/>
 <stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration" descriptionOverride="key:620928263:106251890" constant="2.0"/>
 <stat name="BigBattle_Vanguard_HeroesDeath_Mod_Duration_Pulse" descriptionOverride="-" constant="1.0"/>
 <stat name="BigBattle_Vanguard_Forced_Taunt_Mod_Cooldown" descriptionOverride="key:620928263:106251892" constant="-30.0"/>
@@ -9348,39 +9346,39 @@
 <stat name="ForwardSource_MP_Texture_Secondary" operator="SET" descriptionOverride="-" constant="8.0"/>
 <group code="16" name="Off-hand"/>
 </trait>
-<trait identifier="1879328821" name="TBDDNT War-paint" iconId="1091991628" category="54" nature="2" tooltip="key:620963434:191029568" description="key:620963434:54354734">
+<trait identifier="1879328821" name="Bloody Claw War-paint" iconId="1091991628" category="54" nature="2" tooltip="key:620963434:191029568" description="key:620963434:54354734">
 <stat name="ForwardSource_MP_Texture_Secondary" operator="SET" descriptionOverride="-" constant="6.0"/>
 <group code="16" name="Off-hand"/>
 </trait>
-<trait identifier="1879328822" name="TBDDNT War-paint" iconId="1091991625" category="54" nature="2" tooltip="key:620963437:191029568" description="key:620963437:54354734">
+<trait identifier="1879328822" name="Clawed Hand War-paint" iconId="1091991625" category="54" nature="2" tooltip="key:620963437:191029568" description="key:620963437:54354734">
 <stat name="ForwardSource_MP_Texture_Secondary" operator="SET" descriptionOverride="-" constant="9.0"/>
 <group code="16" name="Off-hand"/>
 </trait>
-<trait identifier="1879328823" name="TBDDNT War-paint" iconId="1091991627" category="54" nature="2" tooltip="key:620963432:191029568" description="key:620963432:54354734">
+<trait identifier="1879328823" name="White Hand War-paint" iconId="1091991627" category="54" nature="2" tooltip="key:620963432:191029568" description="key:620963432:54354734">
 <stat name="ForwardSource_MP_Texture_Secondary" operator="SET" descriptionOverride="-" constant="10.0"/>
 <group code="16" name="Off-hand"/>
 </trait>
-<trait identifier="1879328824" name="TBDDNT War-paint" iconId="1091991629" category="54" nature="2" tooltip="key:620963433:191029568" description="key:620963433:54354734">
+<trait identifier="1879328824" name="Black Tusked-skull War-paint" iconId="1091991629" category="54" nature="2" tooltip="key:620963433:191029568" description="key:620963433:54354734">
 <stat name="ForwardSource_MP_Texture_Secondary" operator="SET" descriptionOverride="-" constant="3.0"/>
 <group code="16" name="Off-hand"/>
 </trait>
-<trait identifier="1879328825" name="TBDDNT War-paint" iconId="1091991626" category="54" nature="2" tooltip="key:620963429:191029568" description="key:620963429:54354734">
+<trait identifier="1879328825" name="Red Crown War-paint" iconId="1091991626" category="54" nature="2" tooltip="key:620963429:191029568" description="key:620963429:54354734">
 <stat name="ForwardSource_MP_Texture_Secondary" operator="SET" descriptionOverride="-" constant="2.0"/>
 <group code="16" name="Off-hand"/>
 </trait>
-<trait identifier="1879328826" name="TBDDNT War-paint" iconId="1091991624" category="54" nature="2" tooltip="key:620963431:191029568" description="key:620963431:54354734">
+<trait identifier="1879328826" name="White Claw beneath the Crown War-paint" iconId="1091991624" category="54" nature="2" tooltip="key:620963431:191029568" description="key:620963431:54354734">
 <stat name="ForwardSource_MP_Texture_Secondary" operator="SET" descriptionOverride="-" constant="5.0"/>
 <group code="16" name="Off-hand"/>
 </trait>
-<trait identifier="1879328827" name="TBDDNT War-paint" iconId="1091991630" category="54" nature="2" tooltip="key:620963436:191029568" description="key:620963436:54354734">
+<trait identifier="1879328827" name="Skull over the Red Eye War-paint" iconId="1091991630" category="54" nature="2" tooltip="key:620963436:191029568" description="key:620963436:54354734">
 <stat name="ForwardSource_MP_Texture_Secondary" operator="SET" descriptionOverride="-" constant="4.0"/>
 <group code="16" name="Off-hand"/>
 </trait>
-<trait identifier="1879328828" name="TBDDNT War-paint" iconId="1091991631" category="54" nature="2" tooltip="key:620963435:191029568" description="key:620963435:54354734">
+<trait identifier="1879328828" name="White Crown War-paint" iconId="1091991631" category="54" nature="2" tooltip="key:620963435:191029568" description="key:620963435:54354734">
 <stat name="ForwardSource_MP_Texture_Secondary" operator="SET" descriptionOverride="-" constant="1.0"/>
 <group code="16" name="Off-hand"/>
 </trait>
-<trait identifier="1879328829" name="TBDDNT War-paint" iconId="1091991632" category="54" nature="2" tooltip="key:620963430:191029568" description="key:620963430:54354734">
+<trait identifier="1879328829" name="Grey Crown War-paint" iconId="1091991632" category="54" nature="2" tooltip="key:620963430:191029568" description="key:620963430:54354734">
 <stat name="ForwardSource_MP_Texture_Secondary" operator="SET" descriptionOverride="-" constant="7.0"/>
 <group code="16" name="Off-hand"/>
 </trait>
@@ -11834,7 +11832,7 @@
 <trait identifier="1879463923" name="Hefty Blue Defiler Appearance" iconId="1091462228" category="54" nature="2" tooltip="key:621075777:191029568" description="key:621075777:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="53.0"/>
 </trait>
-<trait identifier="1879463924" name="Wraith Black-arrow Appearance" iconId="1092912105" category="54" nature="2" tooltip="key:621075747:191029568" description="key:621075747:54354734">
+<trait identifier="1879463924" name="Wraith Blackarrow Appearance" iconId="1092912105" category="54" nature="2" tooltip="key:621075747:191029568" description="key:621075747:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="41.0"/>
 </trait>
 <trait identifier="1879463925" name="Spindly Glass Appearance" iconId="1090553285" category="54" nature="2" tooltip="key:621075744:191029568" description="key:621075744:54354734">
@@ -11936,7 +11934,7 @@
 <trait identifier="1879463957" name="Vibrant Ungol Appearance" iconId="1092912132" category="54" nature="2" tooltip="key:621075753:191029568" description="key:621075753:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="46.0"/>
 </trait>
-<trait identifier="1879463958" name="Withered Black-arrow Appearance" iconId="1090553301" category="54" nature="2" tooltip="key:621075757:191029568" description="key:621075757:54354734">
+<trait identifier="1879463958" name="Withered Blackarrow Appearance" iconId="1090553301" category="54" nature="2" tooltip="key:621075757:191029568" description="key:621075757:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="39.0"/>
 </trait>
 <trait identifier="1879463959" name="Hefty Heavy Armoured Blue Orc Appearance" iconId="1090553268" category="54" nature="2" tooltip="key:621075792:191029568" description="key:621075792:54354734">
@@ -11954,7 +11952,7 @@
 <trait identifier="1879464187" name="March! White Glow Appearance" iconId="1091683968" category="54" nature="2" tooltip="key:621075973:191029568" description="key:621075973:54354734">
 <stat name="ForwardSource_MP_Cosmetic_Footfall" operator="SET" descriptionOverride="-" constant="16.0"/>
 </trait>
-<trait identifier="1879464189" name="March! Blue Wisps Appearance" iconId="1091683968" category="54" nature="2" tooltip="key:621075970:191029568" description="key:621075970:54354734">
+<trait identifier="1879464189" name="March! Blue Sparkles Appearance" iconId="1091683968" category="54" nature="2" tooltip="key:621075970:191029568" description="key:621075970:54354734">
 <stat name="ForwardSource_MP_Cosmetic_Footfall" operator="SET" descriptionOverride="-" constant="20.0"/>
 </trait>
 <trait identifier="1879464191" name="March! Lightning Appearance" iconId="1091683968" category="54" nature="2" tooltip="key:621075969:191029568" description="key:621075969:54354734">
@@ -13052,102 +13050,138 @@
 <trait identifier="1879506387" name="Caparison of the Able Angler" iconId="1093030225" category="54" nature="16">
 <group code="9" name="Body"/>
 </trait>
-<trait identifier="1879506761" name="Enhanced Skill: Improved Shadow-spike" iconId="1093004441" category="43" nature="3" tooltip="key:621107388:191029568" description="key:621107388:54354734">
-<stat name="ForwardSource_Combat_Sorceress_SkillCombo" descriptionOverride="-" value="(1)"/>
+<trait identifier="1879506761" name="Shadow Mastery I" iconId="1093004441" category="43" nature="3" tooltip="key:621107388:191029568" description="key:621107388:54354734">
+<stat name="Combat_SkillDamageMultiplier_Shadow" constant="5.0"/>
+<effectGenerator id="1879528716" name="Improved Wisp of Shadow" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879506762" name="Iron's Legacy" iconId="1093031881" category="103" nature="4" tooltip="key:621107374:191029568" description="key:621107374:54354734">
 <stat name="ICMR" descriptionOverride="key:621107374:106251889" scaling="1879456301"/>
 <stat name="ICPR" descriptionOverride="key:621107374:106251890" scaling="1879456290"/>
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:621107374:106251891" constant="1.1"/>
 </trait>
-<trait identifier="1879506763" name="First Among the Wicked" iconId="1093004444" category="43" nature="3" tooltip="key:621107380:191029568" description="key:621107380:54354734">
-<stat name="Combat_Agent_Armor_Value_Float" scaling="1879456305"/>
-<stat name="CRITICAL_DEFENCE" scaling="1879456310"/>
-<stat name="MORALE" operator="MULTIPLY" constant="1.02"/>
+<trait identifier="1879506763" name="Durability of Angmar" iconId="1090553274" category="43" nature="3" tooltip="key:621107380:191029568" description="key:621107380:54354734">
+<stat name="MORALE" operator="MULTIPLY" descriptionOverride="key:621107380:106251889" constant="1.1"/>
+<stat name="TACTICAL_MITIGATION" scaling="1879456277"/>
+<stat name="PHYSICAL_MITIGATION" scaling="1879456279"/>
 </trait>
-<trait identifier="1879506764" name="Veteran of Long War" iconId="1093004442" category="43" nature="3" tooltip="key:621107384:191029568" description="key:621107384:54354734">
-<stat name="Stealth_StealthDetectionLevelModifier" constant="3.0"/>
+<trait identifier="1879506764" name="Veteran of the Long War" iconId="1090553275" category="43" nature="3" tooltip="key:621107384:191029568" description="key:621107384:54354734">
+<stat name="TACTICAL_MASTERY" scaling="1879456306"/>
+<stat name="Skill_Sorceress_DamageMod" descriptionOverride="key:621107384:106251890" constant="10.0"/>
 </trait>
 <trait identifier="1879506765" name="Wickedness Incarnate" iconId="1093031879" category="103" nature="4" tooltip="key:621107385:191029568" description="key:621107385:54354734">
 <stat name="CRITICAL_RATING" scaling="1879456299"/>
 <stat name="CRITICAL_DEFENCE" scaling="1879456302"/>
-<stat name="MORALE" operator="MULTIPLY" constant="1.05"/>
 </trait>
-<trait identifier="1879506766" name="Enhanced Skill: Improved Ice-spike" iconId="1093004438" category="43" nature="3" tooltip="key:621107381:191029568" description="key:621107381:54354734">
-<stat name="ForwardSource_Combat_Sorceress_SkillCombo" descriptionOverride="-" value="(3)"/>
+<trait identifier="1879506766" name="Frost Mastery I" iconId="1093004438" category="43" nature="3" tooltip="key:621107381:191029568" description="key:621107381:54354734">
+<stat name="Combat_SkillDamageMultiplier_Frost" constant="5.0"/>
+<effectGenerator id="1879528705" name="Improved Wisp of Frost" spellcraft="0.0"/>
 </trait>
 <trait identifier="1879506767" name="Legacy of Discord" iconId="1093004449" category="43" nature="3" tooltip="key:621107387:191029568" description="key:621107387:54354734">
-<stat name="TACTICAL_MASTERY" scaling="1879456283"/>
+<stat name="Skill_MP_Sorceress_Synergy_Cooldown" operator="SUBSTRACT" descriptionOverride="key:621107387:106251889" constant="2.0"/>
+<stat name="Resist_ClassPoints_Resistance_Song" scaling="1879139815"/>
+<stat name="Resist_ClassPoints_Resistance_Cry" scaling="1879139822"/>
 </trait>
-<trait identifier="1879506768" name="Enhanced Skill: Quick Study" iconId="1093004443" category="43" nature="3" tooltip="key:621107372:191029568" description="key:621107372:54354734">
-<stat name="Skill_Sorceress_PreparedMod" descriptionOverride="key:621107372:106251889" constant="15.000001"/>
-<stat name="Skill_InductionDuration_Trait_MP_QuickStudy" operator="SUBSTRACT" descriptionOverride="key:621107372:106251890" constant="1.0"/>
+<trait identifier="1879506768" name="Acid Mastery I" iconId="1093004443" category="43" nature="3" tooltip="key:621107372:191029568" description="key:621107372:54354734">
+<specialEffect label="key:621107372:106251889"/>
+<stat name="Combat_SkillDamageMultiplier_Acid" constant="5.0"/>
+<effectGenerator id="1879528703" name="Improved Wisp of Acid"/>
 </trait>
-<trait identifier="1879506769" name="Enhanced Skill: Improved Accursed Knowledge" iconId="1093004448" category="43" nature="3" tooltip="key:621107376:191029568" description="key:621107376:54354734">
-<stat name="Skill_RecoveryTime_Trait_MP_Accursed_Knowledge" operator="SUBSTRACT" descriptionOverride="key:621107376:106251889" constant="30.0"/>
+<trait identifier="1879506769" name="Chilling Defence" iconId="1093004448" category="43" nature="3" tooltip="key:621107376:191029568" description="key:621107376:54354734">
+<stat name="Skill_MP_Sorceress_GiftoftheRime_Cooldown" operator="SUBSTRACT" descriptionOverride="key:621107376:106251889" constant="10.0"/>
+<stat name="Skill_MP_Sorceress_IceTomb_Cooldown" operator="SUBSTRACT" descriptionOverride="key:621107376:106251890" constant="20.0"/>
+<stat name="Skill_RecoveryTime_Trait_MP_Insight" operator="SUBSTRACT" descriptionOverride="key:621107376:106251891" constant="10.0"/>
+<stat name="Skill_RecoveryTime_Trait_MP_Accursed_Knowledge" operator="SUBSTRACT" descriptionOverride="key:621107376:106251892" constant="15.0"/>
+<effectGenerator id="1879528694" name="Improved Ice Tomb" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879506770" name="Endurance of Angband" iconId="1093004446" category="43" nature="3" tooltip="key:621107383:191029568" description="key:621107383:54354734">
-<stat name="ICMR" scaling="1879136184"/>
-<stat name="ICPR" scaling="1879136185"/>
+<trait identifier="1879506770" name="Knowledge of the Elements" iconId="1093153945" category="43" nature="3" tooltip="key:621107383:191029568" description="key:621107383:54354734">
+<stat name="RESISTANCE" scaling="1879456314"/>
+<stat name="Skill_RecoveryTime_Trait_MP_AcidDevotion" operator="SUBSTRACT" descriptionOverride="key:621107383:106251891" constant="1.0"/>
+<stat name="Skill_RecoveryTime_Trait_MP_FireDevotion" operator="SUBSTRACT" descriptionOverride="-" constant="1.0"/>
+<stat name="Skill_RecoveryTime_Trait_MP_FrostDevotion" operator="SUBSTRACT" descriptionOverride="-" constant="1.0"/>
+<stat name="Skill_RecoveryTime_Trait_MP_ShadowDevotion" operator="SUBSTRACT" descriptionOverride="-" constant="1.0"/>
+<effectGenerator id="1879529619" name="" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879506771" name="Enhanced Skill: Lingering Fire-spike" iconId="1093004440" category="43" nature="3" tooltip="key:621107379:191029568" description="key:621107379:54354734">
-<stat name="ForwardSource_Combat_Sorceress_SkillCombo" descriptionOverride="-" value="(0)"/>
+<trait identifier="1879506771" name="Fire Mastery I" iconId="1093004440" category="43" nature="3" tooltip="key:621107379:191029568" description="key:621107379:54354734">
+<stat name="Combat_SkillDamageMultiplier_Fire" constant="5.0"/>
+<effectGenerator id="1879528698" name="Improved Wisp of Fire" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879506772" name="Enhanced Skill: Vile Tongue" iconId="1093004445" category="43" nature="3" tooltip="key:621107373:191029568" description="key:621107373:54354734">
-<stat name="Skill_Sorceress_PreparedMod" descriptionOverride="key:621107373:106251889" constant="15.000001"/>
-<stat name="Skill_Sorceress_VileTongue_Appchance" descriptionOverride="key:621107373:106251890" constant="25.0"/>
+<trait identifier="1879506772" name="Vile Tongue" iconId="1093004445" category="43" nature="3" tooltip="key:621107373:191029568" description="key:621107373:54354734">
+<stat name="EffectMod_Duration_Trait_MP_UmbralFear" constant="2.0"/>
+<stat name="Corsair_Skilldamage_Breath" constant="25.0"/>
+<effectGenerator id="1879529718" name="Improved Frost Breath" spellcraft="0.0"/>
 </trait>
-<trait identifier="1879506773" name="Enhanced Skill: Pinnacle of Wrath" iconId="1093004447" category="43" nature="3" tooltip="key:621107378:191029568" description="key:621107378:54354734">
-<stat name="Skill_ChanceCriticalHit_Trait_MP_Dissolve" constant="10.0"/>
-<stat name="Skill_Sorceress_DissolveMod" constant="10.0"/>
+<trait identifier="1879506773" name="Pinnacle of Wrath" iconId="1093004447" category="43" nature="3" tooltip="key:621107378:191029568" description="key:621107378:54354734">
+<stat name="Skill_ChanceCriticalHit_Trait_MP_Dissolve" descriptionOverride="key:621107378:106251889" constant="10.0"/>
+<stat name="Skill_Sorceress_DissolveMod" descriptionOverride="key:621107378:106251890" constant="10.0"/>
 </trait>
-<trait identifier="1879506774" name="Enhanced Skill: Wicked Insight" iconId="1093004437" category="43" nature="3" tooltip="key:621107375:191029568" description="key:621107375:54354734">
-<stat name="Skill_Sorceress_PreparedMod" descriptionOverride="key:621107375:106251889" constant="15.000001"/>
-<stat name="Skill_RecoveryTime_Trait_MP_Insight" operator="SUBSTRACT" descriptionOverride="key:621107375:106251890" constant="30.0"/>
+<trait identifier="1879506774" name="Wicked Mind" iconId="1093004437" category="43" nature="3" tooltip="key:621107375:191029568" description="key:621107375:54354734">
+<stat name="Skill_MP_Sorceress_BanishLight_Cooldown" operator="SUBSTRACT" descriptionOverride="key:621107375:106251889" constant="15.0"/>
+<stat name="Skill_MP_Sorceress_Simulacrum_Cooldown" operator="SUBSTRACT" descriptionOverride="key:621107375:106251890" constant="20.0"/>
+<stat name="Skill_MP_Sorceress_TorrentFlame_Cooldown" operator="SUBSTRACT" descriptionOverride="key:621107375:106251891" constant="10.0"/>
+<stat name="Skill_MP_Sorceress_ChannelWorm_Cooldown" operator="SUBSTRACT" descriptionOverride="key:621107375:106251892" constant="15.0"/>
 </trait>
-<trait identifier="1879506775" name="Enhanced Skill: Skilled Summoner" iconId="1093004439" category="43" nature="3" tooltip="key:621107386:191029568" description="key:621107386:54354734">
-<stat name="Skill_Sorceress_PreparedMod" descriptionOverride="key:621107386:106251889" constant="15.000001"/>
-<stat name="Skill_SummonDuration_Trait_MP_Summoner" descriptionOverride="key:621107386:106251890" constant="15.0"/>
+<trait identifier="1879506775" name="Dread Summons" iconId="1093004439" category="43" nature="3" tooltip="key:621107386:191029568" description="key:621107386:54354734">
+<stat name="Skill_SummonDuration_Trait_MP_Summoner" descriptionOverride="key:621107386:106251889" constant="10.0"/>
+<effectGenerator id="1879528695" name="Improved Acid Spout"/>
 </trait>
 <trait identifier="1879506776" name="First Among All" iconId="1093031880" category="103" nature="4" tooltip="key:621107377:191029568" description="key:621107377:54354734">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="3.0"/>
+<stat name="EVADE" scaling="1879456298"/>
 <stat name="FINESSE" scaling="1879456280"/>
-<stat name="CRITICAL_RATING" scaling="1879456299"/>
 </trait>
-<trait identifier="1879506777" name="True Servants" iconId="1093031877" category="103" nature="4" tooltip="key:621107389:191029568" description="key:621107389:54354734">
-<stat name="FINESSE" scaling="1879456280"/>
+<trait identifier="1879506777" name="True Servants" iconId="1091417959" category="103" nature="4" tooltip="key:621107389:191029568" description="key:621107389:54354734">
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" constant="3.0"/>
 <stat name="TACTICAL_MASTERY" scaling="1879456283"/>
+<stat name="POWER" operator="MULTIPLY" descriptionOverride="key:621107389:106251891" constant="1.1"/>
 </trait>
-<trait identifier="1879506778" name="Eldest Warriors" iconId="1093031878" category="103" nature="4" tooltip="key:621107382:191029568" description="key:621107382:54354734">
+<trait identifier="1879506778" name="Eldest Warriors" iconId="1093153946" category="103" nature="4" tooltip="key:621107382:191029568" description="key:621107382:54354734">
 <stat name="Stealth_StealthDetectionLevelModifier" constant="2.0"/>
-<stat name="PHYSICAL_MASTERY" scaling="1879456293"/>
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" constant="3.0"/>
 </trait>
-<trait identifier="1879506836" name="Racial Skill: Body of Iron" iconId="1090535587" category="7" nature="4" tooltip="key:621107444:191029568" description="key:621107444:54354734">
+<trait identifier="1879506836" name="Racial Skill: Body of Iron" iconId="1093136723" category="7" nature="4" tooltip="key:621107444:191029568" description="key:621107444:54354734">
 <skill id="1879506743" name="Body of Iron"/>
 </trait>
-<trait identifier="1879506837" name="Racial Skill: Legacy of the Witch-king" iconId="1090535587" category="11" nature="4" tooltip="key:621107446:191029568" description="key:621107446:54354734">
+<trait identifier="1879506837" name="Racial Skill: Legacy of the Witch-king" iconId="1093136722" category="11" nature="4" tooltip="key:621107446:191029568" description="key:621107446:54354734">
 <skill id="1879506741" name="Legacy of the Witch-king"/>
 </trait>
-<trait identifier="1879506973" name="Greater Shapechanger Sorceress Appearance" iconId="1093032153" category="54" nature="2" tooltip="key:621107595:191029568" description="key:621107595:54354734">
+<trait identifier="1879506973" name="Greater Shape-changer Sorceress Appearance" iconId="1093032153" category="54" nature="2" tooltip="key:621107595:191029568" description="key:621107595:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="14.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
-<trait identifier="1879506977" name="Lesser Shapechanger Sorceress Appearance" iconId="1093032122" category="54" nature="2" tooltip="key:621107604:191029568" description="key:621107604:54354734">
+<trait identifier="1879506975" name="Devotee of Blight Sorceress Appearance" iconId="1093032149" category="54" nature="2" tooltip="key:621107596:191029568" description="key:621107596:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="42.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879506977" name="Lesser Shape-changer Sorceress Appearance" iconId="1093032122" category="54" nature="2" tooltip="key:621107604:191029568" description="key:621107604:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="11.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879506979" name="Magenta Sorceress Appearance" iconId="1093032164" category="54" nature="2" tooltip="key:621107621:191029568" description="key:621107621:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="10.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879506980" name="Mordirrim Sorceress Appearance" iconId="1093032127" category="54" nature="2" tooltip="key:621107592:191029568" description="key:621107592:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="41.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879506981" name="Morgul Sorceress Appearance" iconId="1093032120" category="54" nature="2" tooltip="key:621107609:191029568" description="key:621107609:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="40.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
 <trait identifier="1879506982" name="The Risen Cultist Sorceress Appearance" iconId="1093032141" category="54" nature="2" tooltip="key:621107623:191029568" description="key:621107623:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="17.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
-<trait identifier="1879506983" name="Greater Shapechanger in Black Sorceress Appearance" iconId="1093032133" category="54" nature="2" tooltip="key:621107594:191029568" description="key:621107594:54354734">
+<trait identifier="1879506983" name="Greater Shape-changer in Black Sorceress Appearance" iconId="1093032133" category="54" nature="2" tooltip="key:621107594:191029568" description="key:621107594:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="16.0"/>
-<group code="18" name="Skin Appearance"/>
-</trait>
-<trait identifier="1879506984" name="The Risen Cultist in Black Sorceress Appearance" iconId="1093032148" category="54" nature="2" tooltip="key:621107610:191029568" description="key:621107610:54354734">
-<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="19.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
 <trait identifier="1879506985" name="The Risen Cultist in White Sorceress Appearance" iconId="1093032137" category="54" nature="2" tooltip="key:621107627:191029568" description="key:621107627:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="18.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879506987" name="Fire Cultist Appearance" iconId="1093032167" category="54" nature="2" tooltip="key:621107602:191029568" description="key:621107602:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="23.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
 <trait identifier="1879506991" name="High Cultist in White Appearance" iconId="1093032158" category="54" nature="2" tooltip="key:621107588:191029568" description="key:621107588:54354734">
@@ -13162,6 +13196,10 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="1.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
+<trait identifier="1879506995" name="Frost Cultist Appearance" iconId="1093032166" category="54" nature="2" tooltip="key:621107616:191029568" description="key:621107616:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="21.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
 <trait identifier="1879506997" name="Blue Sorceress Appearance" iconId="1093032151" category="54" nature="2" tooltip="key:621107585:191029568" description="key:621107585:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="2.0"/>
 <group code="18" name="Skin Appearance"/>
@@ -13174,16 +13212,48 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="4.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
-<trait identifier="1879507016" name="Lesser Shapechanger in Black Sorceress Appearance" iconId="1093032143" category="54" nature="2" tooltip="key:621107590:191029568" description="key:621107590:54354734">
+<trait identifier="1879507002" name="Black Sorceress Appearance" iconId="1093032159" category="54" nature="2" tooltip="key:621107589:191029568" description="key:621107589:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="7.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879507009" name="The Frost-weaver Sorceress Appearance" iconId="1093032161" category="54" nature="2" tooltip="key:621107613:191029568" description="key:621107613:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="33.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879507010" name="The Wind-weaver Sorceress Appearance" iconId="1093032156" category="54" nature="2" tooltip="key:621107583:191029568" description="key:621107583:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="32.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879507011" name="Shade-weaver Sorceress Appearance" iconId="1093032126" category="54" nature="2" tooltip="key:621107600:191029568" description="key:621107600:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="35.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879507013" name="The Soothsayer Sorceress Appearance" iconId="1093032130" category="54" nature="2" tooltip="key:621107579:191029568" description="key:621107579:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="31.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879507014" name="The Temptress Sorceress Appearance" iconId="1093032124" category="54" nature="2" tooltip="key:621107597:191029568" description="key:621107597:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="30.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879507016" name="Lesser Shape-changer in Black Sorceress Appearance" iconId="1093032143" category="54" nature="2" tooltip="key:621107590:191029568" description="key:621107590:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="13.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
-<trait identifier="1879507018" name="Lesser Shapechanger in White Sorceress Appearance" iconId="1093032140" category="54" nature="2" tooltip="key:621107608:191029568" description="key:621107608:54354734">
+<trait identifier="1879507018" name="Lesser Shape-changer in White Sorceress Appearance" iconId="1093032140" category="54" nature="2" tooltip="key:621107608:191029568" description="key:621107608:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="12.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
-<trait identifier="1879507020" name="Greater Shapechanger in White Sorceress Appearance" iconId="1093032165" category="54" nature="2" tooltip="key:621107625:191029568" description="key:621107625:54354734">
+<trait identifier="1879507019" name="Armoured Infiltrator Sorceress Appearance" iconId="1093032163" category="54" nature="2" tooltip="key:621107586:191029568" description="key:621107586:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="39.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879507020" name="Greater Shape-changer in White Sorceress Appearance" iconId="1093032165" category="54" nature="2" tooltip="key:621107625:191029568" description="key:621107625:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="15.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879507021" name="Embattled Fire-weaver Sorceress Appearance" iconId="1093032152" category="54" nature="2" tooltip="key:621107603:191029568" description="key:621107603:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="38.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
 <trait identifier="1879507690" name="Accessory of the Loyal Knight" iconId="1093033747" category="54" nature="16">
@@ -13530,7 +13600,7 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="44.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
-<trait identifier="1879517009" name="Tawny Hyena Appearance" iconId="1092912831" category="54" nature="2" tooltip="key:621116064:191029568" description="key:621116064:54354734">
+<trait identifier="1879517009" name="Tawny-fringed Hyena Appearance" iconId="1092912831" category="54" nature="2" tooltip="key:621116064:191029568" description="key:621116064:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="49.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
@@ -13625,7 +13695,7 @@
 <trait identifier="1879523440" name="Gundabad Captain's Bow Appearance" iconId="1093080628" category="54" nature="2" tooltip="key:621121002:191029568" description="key:621121002:54354734">
 <stat name="ForwardSource_MP_Weapon_Cosmetic_Ranged" operator="SET" descriptionOverride="-" value="1191248082L"/>
 </trait>
-<trait identifier="1879523442" name="High Chieftain Claghórd Shield Appearance" iconId="1093080617" category="54" nature="2" tooltip="key:621121013:191029568" description="key:621121013:54354734">
+<trait identifier="1879523442" name="High Chieftain Claghórd's Shield Appearance" iconId="1093080617" category="54" nature="2" tooltip="key:621121013:191029568" description="key:621121013:54354734">
 <stat name="ForwardSource_MP_Weapon_Cosmetic_Secondary" operator="SET" descriptionOverride="-" value="1191234282L"/>
 </trait>
 <trait identifier="1879523445" name="Gothmog's Mace Appearance (Off-hand)" iconId="1093080635" category="54" nature="2" tooltip="key:621121008:191029568" description="key:621121008:54354734">
@@ -13675,8 +13745,40 @@
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="115.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
+<trait identifier="1879526140" name="Ordâkhai Hooded Dark Novice Sorceress Appearance" iconId="1093136834" category="54" nature="2" tooltip="key:621123367:191029568" description="key:621123367:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="68.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879526148" name="Ordâkhai Dark Mistress Sorceress Appearance" iconId="1093136826" category="54" nature="2" tooltip="key:621123402:191029568" description="key:621123402:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="74.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
 <trait identifier="1879526151" name="Pale Utûgi Blackarrow Appearance" iconId="1093136828" category="54" nature="2" tooltip="key:621123395:191029568" description="key:621123395:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="93.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879526156" name="Ordâkhai Red Novice Sorceress Appearance" iconId="1093136819" category="54" nature="2" tooltip="key:621123376:191029568" description="key:621123376:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="77.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879526157" name="Order of the Eye Dark Sister Adherent Sorceress Appearance" iconId="1093136809" category="54" nature="2" tooltip="key:621123366:191029568" description="key:621123366:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="53.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879526169" name="Order of the Eye Novice Sorceress Appearance" iconId="1093136829" category="54" nature="2" tooltip="key:621123383:191029568" description="key:621123383:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="51.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879526182" name="Red Sorceress Novice Appearance" iconId="1093136812" category="54" nature="2" tooltip="key:621123394:191029568" description="key:621123394:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="59.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879526188" name="Nurn Pariah Sorceress Appearance" iconId="1093136836" category="54" nature="2" tooltip="key:621123405:191029568" description="key:621123405:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="62.0"/>
+<group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879526190" name="Ordâkhai Novice Sorceress Appearance" iconId="1093136818" category="54" nature="2" tooltip="key:621123363:191029568" description="key:621123363:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="65.0"/>
 <group code="18" name="Skin Appearance"/>
 </trait>
 <trait identifier="1879526202" name="Pale-Blue Harad Reaver Recruit Appearance" iconId="1093136841" category="54" nature="2" tooltip="key:621123416:191029568" description="key:621123416:54354734">
@@ -13686,5 +13788,45 @@
 <trait identifier="1879526205" name="Black-skinned Harad Defiler Novice Appearance" iconId="1093136839" category="54" nature="2" tooltip="key:621123417:191029568" description="key:621123417:54354734">
 <stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="67.0"/>
 <group code="18" name="Skin Appearance"/>
+</trait>
+<trait identifier="1879526632" name="Barkhuráni Appearance" iconId="1093150826" category="54" nature="2" tooltip="key:621123832:191029568" description="key:621123832:54354734">
+<stat name="ForwardSource_MP_Texture_Body" operator="SET" descriptionOverride="-" constant="82.0"/>
+</trait>
+<trait identifier="1879527809" name="March! Personal Snowfall Appearance" iconId="1091683968" category="54" nature="2" tooltip="key:621124739:191029568" description="key:621124739:54354734">
+<stat name="ForwardSource_MP_Cosmetic_Footfall" operator="SET" descriptionOverride="-" constant="23.0"/>
+</trait>
+<trait identifier="1879527811" name="March! Umbral Flame Appearance" iconId="1091683968" category="54" nature="2" tooltip="key:621124742:191029568" description="key:621124742:54354734">
+<stat name="ForwardSource_MP_Cosmetic_Footfall" operator="SET" descriptionOverride="-" constant="21.0"/>
+</trait>
+<trait identifier="1879528700" name="Shadow Mastery II" iconId="1093148453" category="43" nature="3" tooltip="key:621125534:191029568" description="key:621125534:54354734">
+<stat name="Combat_SkillDamageMultiplier_Shadow" constant="10.0"/>
+<stat name="Skill_RecoveryTime_Trait_MP_ShadowDevotion" operator="SUBSTRACT" descriptionOverride="key:621125534:106251891" constant="3.0"/>
+<stat name="EffectMod_Duration_Trait_MP_ShadowSheath" descriptionOverride="key:621125534:106251892" constant="2.0"/>
+</trait>
+<trait identifier="1879528702" name="Frost Mastery II" iconId="1093148452" category="43" nature="3" tooltip="key:621125553:191029568" description="key:621125553:54354734">
+<stat name="Combat_SkillDamageMultiplier_Frost" constant="10.0"/>
+<stat name="Skill_RecoveryTime_Trait_MP_FrostDevotion" operator="SUBSTRACT" descriptionOverride="key:621125553:106251891" constant="3.0"/>
+<stat name="EffectMod_Duration_Trait_MP_FrostSheath" descriptionOverride="key:621125553:106251892" constant="2.0"/>
+</trait>
+<trait identifier="1879528712" name="Fire Mastery II" iconId="1093148450" category="43" nature="3" tooltip="key:621125551:191029568" description="key:621125551:54354734">
+<stat name="Combat_SkillDamageMultiplier_Fire" constant="10.0"/>
+<stat name="Skill_RecoveryTime_Trait_MP_FireDevotion" operator="SUBSTRACT" descriptionOverride="key:621125551:106251891" constant="3.0"/>
+<stat name="EffectMod_Duration_Trait_MP_FireSheath" descriptionOverride="key:621125551:106251892" constant="2.0"/>
+<stat name="Skill_Sorceress_Ignite_Pulses" descriptionOverride="key:621125551:106251893" constant="2.0"/>
+</trait>
+<trait identifier="1879528714" name="Acid Mastery II" iconId="1093148451" category="43" nature="3" tooltip="key:621125538:191029568" description="key:621125538:54354734">
+<stat name="Combat_SkillDamageMultiplier_Acid" constant="10.0"/>
+<stat name="Skill_RecoveryTime_Trait_MP_AcidDevotion" operator="SUBSTRACT" descriptionOverride="key:621125538:106251891" constant="3.0"/>
+<stat name="EffectMod_Duration_Trait_MP_AcidSheath" descriptionOverride="key:621125538:106251892" constant="2.0"/>
+</trait>
+<trait identifier="1879529131" name="Skill Test" iconId="1091591966" nature="39" tooltip="key:621125954:191029568" description="key:621125954:54354734">
+<skill id="1879529136" name="Blue Fireworks"/>
+</trait>
+<trait identifier="1879529132" name="Tactics Test" iconId="1091590816" staticIconOverlayId="1091664889" tiers="50" nature="38" tooltip="key:621125953:191029568" description="key:621125953:54354734">
+<stat name="MIGHT" scaling="1879211532"/>
+<effect rank="5" id="1879402997" name="Silk-steel Protection"/>
+</trait>
+<trait identifier="1879529134" name="Lessons Test" iconId="1091590819" nature="37" tooltip="key:621125957:191029568" description="key:621125957:54354734">
+<effectGenerator id="1879389174" name="Charity Passive" spellcraft="1.0"/>
 </trait>
 </traits>
