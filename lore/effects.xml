@@ -5763,7 +5763,7 @@
 </reactiveVitalEffect>
 <propertyModEffect id="1879111437" name="Continuous Blood Rage" iconId="1091522569" duration="10.0" baseFlags="4540">
 <stat name="CombatState_CurrentStateImmunities" descriptionOverride="key:620806549:106251889" value="(1,2,4,6,7,8,9,10,12,14,17,19,21)"/>
-<stat name="Skill_PowerCost_AllSkills" constant="20.0"/>
+<stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="20.0"/>
 <stat name="Resist_Additional_Resistance_Wound" descriptionOverride="key:620806549:106251892" constant="50.0"/>
 <stat name="Resist_Additional_Resistance_Poison" descriptionOverride="-" constant="50.0"/>
 <stat name="Resist_Additional_Resistance_Cry" descriptionOverride="-" constant="50.0"/>
@@ -32504,6 +32504,7 @@
 <effect id="1879529118" name="Artifact-bearer"/>
 <effect id="1879529117" name="Artifact-bearer"/>
 <effect id="1879136722" name="Power of the First Age"/>
+<effect id="1879531171" name="DNT - barred from picking up additional CTF objects."/>
 </dispelEffect>
 <applyOverTimeEffect id="1879254084" name="Strategic Response" iconId="1090519170" duration="1.0" baseFlags="4488">
 <initiallyApplied id="1879149379" name="DNT - Do Nothing"/>
@@ -53183,11 +53184,6 @@
 <propertyModEffect id="1879383743" name="Blank Modification" appliedDescription="key:620981324:54354734" iconId="1090519170" baseFlags="6204">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="1.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879383760" name="Slow" appliedDescription="key:620988409:54354734" iconId="1090523949" duration="10.0" baseFlags="7083">
-<stat name="MELEE_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="50.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" operator="SUBSTRACT" constant="50.0"/>
-</propertyModEffect>
 <propertyModEffect id="1879383763" name="Slowed" appliedDescription="key:620988228:54354734" iconId="1090522393" duration="10.0" baseFlags="4527">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.9"/>
 </propertyModEffect>
@@ -70970,10 +70966,10 @@
 <genesis id="1879462704" name="DNT -- Summon Battering Ram" baseFlags="4126" summonDuration="120.0">
 <summoned id="1879458489" name="Battering Ram[e]"/>
 </genesis>
-<genesis id="1879462705" name="DNT -- Summon Catapult" baseFlags="4126" summonDuration="300.0">
+<genesis id="1879462705" name="DNT -- Summon Catapult" baseFlags="4126" summonDuration="180.0">
 <summoned id="1879458494" name="Catapult[e]"/>
 </genesis>
-<genesis id="1879462706" name="DNT -- Summon Catapult" baseFlags="4126" summonDuration="300.0">
+<genesis id="1879462706" name="DNT -- Summon Catapult" baseFlags="4126" summonDuration="180.0">
 <summoned id="1879458493" name="Catapult[e]"/>
 </genesis>
 <genesis id="1879462707" name="DNT -- Summon Ballista" baseFlags="4126" summonDuration="300.0">
@@ -71301,9 +71297,6 @@
 <effect id="1879463300" name="Healing Spores"/>
 </hotspot>
 </genesis>
-<areaEffect id="1879463355" name="Explosive Remnants" baseFlags="4127" flags="134" range="5.0" maxTargets="10">
-<effect id="1879135820" name="Supreme Fire Damage"/>
-</areaEffect>
 <flagEffect id="1879463356" name="Siege Deployed" appliedDescription="key:621075229:54354734" iconId="1090523647" baseFlags="6320"/>
 <flagEffect id="1879463357" name="Siege Deployment Barred" appliedDescription="key:621075230:54354734" iconId="1090523647" baseFlags="6320"/>
 <propertyModEffect id="1879463362" iconId="1090553792" baseFlags="6332">
@@ -71787,12 +71780,9 @@
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="20.0"/>
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="1.1"/>
 </propertyModEffect>
-<areaEffect id="1879464350" name="Explosive Remnants" baseFlags="4127" flags="140" range="5.0" maxTargets="10">
-<effect id="1879135820" name="Supreme Fire Damage"/>
-</areaEffect>
 <genesis id="1879464353" name=".." appliedDescription="key:621076107:54354734" baseFlags="4126" summonDuration="5.0">
 <hotspot id="1879464351" name="Flaming Debris">
-<effect id="1879463355" name="Explosive Remnants"/>
+<effect id="1879289938" name="Fire Blast"/>
 </hotspot>
 </genesis>
 <genesis id="1879464354" name=".." appliedDescription="key:621076105:54354734" baseFlags="4126" summonDuration="3.0">
@@ -71802,7 +71792,7 @@
 </genesis>
 <genesis id="1879464356" name=".." appliedDescription="key:621076108:54354734" baseFlags="4126" summonDuration="5.0">
 <hotspot id="1879464355" name="Flaming Debris">
-<effect id="1879464350" name="Explosive Remnants"/>
+<effect id="1879289938" name="Fire Blast"/>
 </hotspot>
 </genesis>
 <vitalOverTimeEffect id="1879464365" name="Consuming Flame" iconId="1091659744" duration="5.0" pulseCount="6" baseFlags="4539" stat="Health_MaxLevel" damageType="16">
@@ -87222,6 +87212,7 @@
 <effect id="1879506237" name="Relic-bearer"/>
 <effect id="1879254067" name="Protection from Stealth"/>
 <effect id="1879136722" name="Power of the First Age"/>
+<effect id="1879531171" name="DNT - barred from picking up additional CTF objects."/>
 <effect id="1879506172" name="Bearer of Sauron's Visage"/>
 <effect id="1879529250" name="Relic-bearer"/>
 <effect id="1879529251" name="Relic-bearer"/>
@@ -87442,7 +87433,7 @@
 <stat name="TACTICAL_DEFENCE_PERCENTAGE" descriptionOverride="-" constant="15.000001"/>
 </propertyModEffect>
 <propertyModEffect id="1879506616" name="Umbral Storm" iconId="1093032371" baseFlags="6587">
-<stat name="INCOMING_HEALING_PERCENTAGE" descriptionOverride="key:621107263:106251889" constant="-30.000002"/>
+<stat name="INCOMING_HEALING_PERCENTAGE" constant="-30.000002"/>
 </propertyModEffect>
 <propertyModEffect id="1879506619" name="Fell Fire V" appliedDescription="key:621107264:54354734" iconId="1092995891" duration="5.0" baseFlags="4536">
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="25.0"/>
@@ -87496,75 +87487,75 @@
 <propertyModEffect id="1879506685" name="Clever Retort" iconId="1090625121" duration="20.0" baseFlags="4492">
 <stat name="Gambit_GambitIconCountMax" operator="SET" descriptionOverride="key:621107287:106251890" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879506687" name="Shadow-spike: Prepared" iconId="1093032336" baseFlags="6584">
+<propertyModEffect id="1879506687" name="Shadow-spike: Prepared" iconId="1093032336" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo1" descriptionOverride="key:621107288:106251889" value="(6)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107288:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506690" name="Flame Breath: Prepared" iconId="1093032340" baseFlags="6584">
+<propertyModEffect id="1879506690" name="Flame Breath: Prepared" iconId="1093032340" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo1" descriptionOverride="key:621107292:106251889" value="(13)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107292:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506691" name="Shadow Breath: Prepared" iconId="1093032368" baseFlags="6584">
+<propertyModEffect id="1879506691" name="Shadow Breath: Prepared" iconId="1093032368" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo1" descriptionOverride="key:621107296:106251889" value="(3)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107296:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506696" name="Acid Breath: Prepared" iconId="1093032361" baseFlags="6584">
+<propertyModEffect id="1879506696" name="Acid Breath: Prepared" iconId="1093032361" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo1" descriptionOverride="key:621107297:106251889" value="(8)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107297:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506698" name="Frost Breath: Prepared" iconId="1093032348" baseFlags="6584">
+<propertyModEffect id="1879506698" name="Frost Breath: Prepared" iconId="1093032348" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo1" descriptionOverride="key:621107299:106251889" value="(2)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107299:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506700" name="Wisp of Frost: Prepared" iconId="1093032346" baseFlags="6584">
+<propertyModEffect id="1879506700" name="Wisp of Frost: Prepared" iconId="1093032346" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo1" descriptionOverride="key:621107289:106251889" value="(0)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107289:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506702" name="Frost Breath: Prepared" iconId="1093032348" baseFlags="6584">
+<propertyModEffect id="1879506702" name="Frost Breath: Prepared" iconId="1093032348" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo3" descriptionOverride="key:621107317:106251889" value="(7)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107317:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506703" name="Frost Breath: Prepared" iconId="1093032348" baseFlags="6584">
+<propertyModEffect id="1879506703" name="Frost Breath: Prepared" iconId="1093032348" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo2" descriptionOverride="key:621107329:106251889" value="(13)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107329:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506706" name="Flame Breath: Prepared" iconId="1093032340" baseFlags="6584">
+<propertyModEffect id="1879506706" name="Flame Breath: Prepared" iconId="1093032340" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo3" descriptionOverride="key:621107313:106251889" value="(15)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107313:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506708" name="Flame Breath: Prepared" iconId="1093032340" baseFlags="6584">
+<propertyModEffect id="1879506708" name="Flame Breath: Prepared" iconId="1093032340" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo2" descriptionOverride="key:621107324:106251889" value="(1)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107324:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506712" name="Shadow Breath: Prepared" iconId="1093032368" baseFlags="6584">
+<propertyModEffect id="1879506712" name="Shadow Breath: Prepared" iconId="1093032368" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo3" descriptionOverride="key:621107309:106251889" value="(11)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107309:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506713" name="Shadow Breath: Prepared" iconId="1093032368" baseFlags="6584">
+<propertyModEffect id="1879506713" name="Shadow Breath: Prepared" iconId="1093032368" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo2" descriptionOverride="key:621107321:106251889" value="(5)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107321:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506718" name="Acid Breath: Prepared" iconId="1093032361" baseFlags="6584">
+<propertyModEffect id="1879506718" name="Acid Breath: Prepared" iconId="1093032361" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo2" descriptionOverride="key:621107302:106251889" value="(8)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107302:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506719" name="Acid Breath: Prepared" iconId="1093032361" baseFlags="6584">
+<propertyModEffect id="1879506719" name="Acid Breath: Prepared" iconId="1093032361" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo3" descriptionOverride="key:621107314:106251889" value="(3)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107314:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506725" name="Wisp of Frost: Prepared" iconId="1093032346" baseFlags="6584">
+<propertyModEffect id="1879506725" name="Wisp of Frost: Prepared" iconId="1093032346" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo3" descriptionOverride="key:621107332:106251889" value="(6)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107332:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506727" name="Wisp of Frost: Prepared" iconId="1093032346" baseFlags="6584">
+<propertyModEffect id="1879506727" name="Wisp of Frost: Prepared" iconId="1093032346" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo2" descriptionOverride="key:621107319:106251889" value="(12)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107319:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506732" name="Shadow-spike: Prepared" iconId="1093032336" baseFlags="6584">
+<propertyModEffect id="1879506732" name="Shadow-spike: Prepared" iconId="1093032336" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo2" descriptionOverride="key:621107318:106251889" value="(7)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107318:106251890" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879506733" name="Shadow-spike: Prepared" iconId="1093032336" baseFlags="6584">
+<propertyModEffect id="1879506733" name="Shadow-spike: Prepared" iconId="1093032336" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo3" descriptionOverride="key:621107331:106251889" value="(12)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="key:621107331:106251890" constant="0.6"/>
 </propertyModEffect>
@@ -87757,7 +87748,7 @@
 <initiallyApplied id="1879507235" name="DNT - AoE Burst"/>
 <applied id="1879507235" name="DNT - AoE Burst"/>
 </applyOverTimeEffect>
-<applyOverTimeEffect id="1879507342" name="Ice Shards" iconId="1093032359" duration="3.0" pulseCount="4" baseFlags="4539">
+<applyOverTimeEffect id="1879507342" name="Ice Shards" iconId="1093032359" duration="6.0" pulseCount="2" baseFlags="4539">
 <initiallyApplied id="1879507225" name="DNT - AoE Burst"/>
 <applied id="1879507225" name="DNT - AoE Burst"/>
 </applyOverTimeEffect>
@@ -87890,8 +87881,8 @@
 <propertyModEffect id="1879507527" name="Barbed Chain" iconId="1092809833" baseFlags="7091">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.7"/>
 </propertyModEffect>
-<effect id="1879507532" name="DNT - Grasping Shard" baseFlags="4127"/>
-<effect id="1879507536" name="Chilling Escape" appliedDescription="key:621108103:54354734" baseFlags="4127"/>
+<effect id="1879507532" name="DNT - Grasping Shard" description="key:621108106:181298206" appliedDescription="key:621108106:54354734" baseFlags="4127"/>
+<effect id="1879507536" name="Chilling Escape" description="key:621108103:181298206" baseFlags="4127"/>
 <propertyModEffect id="1879507543" name="Seared Scars - 5" iconId="1091476365" duration="60.0" baseFlags="5043">
 <stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" constant="2.0"/>
 <stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" constant="2.0"/>
@@ -94221,7 +94212,7 @@
 <initialChange progressionID="1879405240"/>
 <overTimeChange progressionID="1879343138" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<propertyModEffect id="1879525909" name="Acid Cloud" iconId="1093032365" baseFlags="6587">
+<propertyModEffect id="1879525909" name="Acid Cloud" iconId="1093032357" baseFlags="6587">
 <stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="key:621123165:106251889" constant="-10.0"/>
 <stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="-10.0"/>
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="-10.0"/>
@@ -94743,11 +94734,11 @@
 <toAddIfNotPresent id="1879526595" name="DNT"/>
 <toGiveBackIfPresent id="1879526593" name="Wisp of Flame: Prepared"/>
 </comboEffect>
-<propertyModEffect id="1879526570" name="Wisp of Acid: Prepared" iconId="1093032356" baseFlags="6584">
+<propertyModEffect id="1879526570" name="Wisp of Acid: Prepared" iconId="1093032356" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo1" descriptionOverride="key:621123769:106251889" value="(5)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879526571" name="Wisp of Shadow: Prepared" iconId="1093032319" baseFlags="6584">
+<propertyModEffect id="1879526571" name="Wisp of Shadow: Prepared" iconId="1093032319" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo3" descriptionOverride="key:621123789:106251889" value="(10)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
@@ -94761,11 +94752,11 @@
 <toAddIfNotPresent id="1879526569" name="DNT"/>
 <toGiveBackIfPresent id="1879526591" name="Wisp of Flame: Prepared"/>
 </comboEffect>
-<propertyModEffect id="1879526574" name="Wisp of Shadow: Prepared" iconId="1093032319" baseFlags="6584">
+<propertyModEffect id="1879526574" name="Wisp of Shadow: Prepared" iconId="1093032319" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo1" descriptionOverride="key:621123795:106251889" value="(1)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879526575" name="Wisp of Shadow: Prepared" iconId="1093032319" baseFlags="6584">
+<propertyModEffect id="1879526575" name="Wisp of Shadow: Prepared" iconId="1093032319" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo2" descriptionOverride="key:621123771:106251889" value="(4)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
@@ -94784,7 +94775,7 @@
 <toAddIfNotPresent id="1879149379" name="DNT - Do Nothing"/>
 <toGiveBackIfPresent id="1879526571" name="Wisp of Shadow: Prepared"/>
 </comboEffect>
-<propertyModEffect id="1879526586" name="Wisp of Flame: Prepared" iconId="1093032353" baseFlags="6584">
+<propertyModEffect id="1879526586" name="Wisp of Flame: Prepared" iconId="1093032353" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo3" descriptionOverride="key:621123777:106251889" value="(14)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
@@ -94793,15 +94784,15 @@
 <toAddIfNotPresent id="1879526585" name="DNT"/>
 <toGiveBackIfPresent id="1879526575" name="Wisp of Shadow: Prepared"/>
 </comboEffect>
-<propertyModEffect id="1879526591" name="Wisp of Flame: Prepared" iconId="1093032353" baseFlags="6584">
+<propertyModEffect id="1879526591" name="Wisp of Flame: Prepared" iconId="1093032353" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo1" descriptionOverride="key:621123783:106251889" value="(11)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879526592" name="Wisp of Acid: Prepared" iconId="1093032356" baseFlags="6584">
+<propertyModEffect id="1879526592" name="Wisp of Acid: Prepared" iconId="1093032356" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo2" descriptionOverride="key:621123800:106251889" value="(6)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879526593" name="Wisp of Flame: Prepared" iconId="1093032353" baseFlags="6584">
+<propertyModEffect id="1879526593" name="Wisp of Flame: Prepared" iconId="1093032353" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo2" descriptionOverride="key:621123797:106251889" value="(0)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
@@ -94815,7 +94806,7 @@
 <toAddIfNotPresent id="1879526590" name="DNT"/>
 <toGiveBackIfPresent id="1879526574" name="Wisp of Shadow: Prepared"/>
 </comboEffect>
-<propertyModEffect id="1879526600" name="Wisp of Acid: Prepared" iconId="1093032356" baseFlags="6584">
+<propertyModEffect id="1879526600" name="Wisp of Acid: Prepared" iconId="1093032356" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo3" descriptionOverride="key:621123779:106251889" value="(2)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
@@ -95623,7 +95614,7 @@
 <effect id="1879098808" name="Morale Damage" spellcraft="0.2"/>
 </areaEffect>
 <induceCombatState id="1879527189" name="Dazed by Cold" probability="0.3" baseFlags="4127" state="3" stateDuration="3.0" breakOnVitalLoss="0.0" gracePeriod="2.0"/>
-<auraEffect id="1879527190" name="Umbral Storm" iconId="1091479205" baseFlags="6588" type="1" shouldAffectCaster="false">
+<auraEffect id="1879527190" name="Umbral Storm" iconId="1091479205" baseFlags="6332" type="1" shouldAffectCaster="false">
 <effect id="1879506616" name="Umbral Storm"/>
 </auraEffect>
 <aiPetEffect id="1879527192" name="Shadow Simulacrum" baseFlags="4127">
@@ -96442,7 +96433,7 @@
 <effect id="1879526309" name="Delving Smelter - Bright Stones"/>
 <effect id="1879526308" name="Delving Smelter - Ettendeep Ore"/>
 </dispelEffect>
-<vitalOverTimeEffect id="1879528054" name="Ignited I" iconId="1093032354" duration="2.0" pulseCount="4" pulseCountMods="268466069" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879528054" name="Ignited I" description="key:621124973:181298206" iconId="1093032354" duration="2.0" pulseCount="4" pulseCountMods="268466069" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879413238" variance="0.25" modifiers="268437688,268445383,268463403"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879528059" name="Pitted Armaments III" iconId="1093153929" duration="20.0" baseFlags="4539">
@@ -96455,10 +96446,10 @@
 <stat name="CRITICAL_RANGED_PERCENTAGE" constant="-15.000001"/>
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" constant="-15.000001"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879528061" name="Ignited II" iconId="1093032354" duration="2.0" pulseCount="6" pulseCountMods="268466069" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879528061" name="Ignited II" description="key:621124993:181298206" iconId="1093032354" duration="2.0" pulseCount="6" pulseCountMods="268466069" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879413252" variance="0.25" modifiers="268437688,268445383,268463403"/>
 </vitalOverTimeEffect>
-<propertyModEffect id="1879528062" name="Seeing Shadows I" iconId="1093032333" duration="10.0" baseFlags="4539">
+<propertyModEffect id="1879528062" name="Seeing Shadows I" description="key:621125004:181298206" iconId="1093032333" duration="10.0" baseFlags="4539">
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.95"/>
 <stat name="Skill_CritChanceMod_TacticalSkills" operator="SUBSTRACT" constant="1.0"/>
 </propertyModEffect>
@@ -96466,7 +96457,7 @@
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.8"/>
 <stat name="Skill_CritChanceMod_TacticalSkills" operator="SUBSTRACT" constant="3.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879528069" name="Pitted Armaments II" iconId="1093153929" duration="15.0" baseFlags="4539">
+<propertyModEffect id="1879528069" name="Pitted Armaments II" description="key:621124978:181298206" iconId="1093153929" duration="15.0" baseFlags="4539">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621124978:106251889" constant="0.9"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
 </propertyModEffect>
@@ -96477,7 +96468,6 @@
 <tierUp id="1879528054" name="Ignited I"/>
 <tierUp id="1879528061" name="Ignited II"/>
 <tierUp id="1879528093" name="Ignited III"/>
-<finalTier id="1879528093" name="Ignited III"/>
 </tieredEffect>
 <tieredEffect id="1879528086" name="DNT - Affliction Acid" baseFlags="4127" showInExamination="true">
 <tierUp id="1879528088" name="Pitted Armaments I"/>
@@ -96485,7 +96475,7 @@
 <tierUp id="1879528059" name="Pitted Armaments III"/>
 <finalTier id="1879528059" name="Pitted Armaments III"/>
 </tieredEffect>
-<propertyModEffect id="1879528088" name="Pitted Armaments I" iconId="1093153929" duration="10.0" baseFlags="4539">
+<propertyModEffect id="1879528088" name="Pitted Armaments I" description="key:621124970:181298206" iconId="1093153929" duration="10.0" baseFlags="4539">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621124970:106251889" constant="0.95"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.95"/>
 </propertyModEffect>
@@ -96495,25 +96485,25 @@
 <tierUp id="1879528060" name="Chilled Bones III"/>
 <finalTier id="1879528060" name="Chilled Bones III"/>
 </tieredEffect>
-<propertyModEffect id="1879528092" name="Chilled Bones II" iconId="1093146205" duration="15.0" baseFlags="4539">
+<propertyModEffect id="1879528092" name="Chilled Bones II" description="key:621125022:181298206" iconId="1093146205" duration="15.0" baseFlags="4539">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="10.0"/>
 <stat name="ALL_SKILL_INDUCTION" constant="15.000001"/>
 <stat name="CRITICAL_RANGED_PERCENTAGE" constant="-10.0"/>
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" constant="-10.0"/>
 </propertyModEffect>
-<vitalOverTimeEffect id="1879528093" name="Ignited III" iconId="1093032354" duration="2.0" pulseCount="8" pulseCountMods="268466069" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879528093" name="Ignited III" appliedDescription="key:621124989:54354734" iconId="1093032354" duration="2.0" pulseCount="8" pulseCountMods="268466069" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879413241" variance="0.25" modifiers="268437688,268445383,268463403"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879528096" name="Sorceress Study - II" appliedDescription="key:621125009:54354734" iconId="1093004450" duration="15.0" baseFlags="4536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo" descriptionOverride="-" value="(2)"/>
 </propertyModEffect>
-<propertyModEffect id="1879528099" name="Chilled Bones I" iconId="1093032344" duration="10.0" baseFlags="4539">
+<propertyModEffect id="1879528099" name="Chilled Bones I" description="key:621124981:181298206" iconId="1093032344" duration="10.0" baseFlags="4539">
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="5.0"/>
 <stat name="ALL_SKILL_INDUCTION" constant="10.0"/>
 <stat name="CRITICAL_RANGED_PERCENTAGE" constant="-5.0"/>
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" constant="-5.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879528105" name="Seeing Shadows II" iconId="1093032333" duration="15.0" baseFlags="4539">
+<propertyModEffect id="1879528105" name="Seeing Shadows II" description="key:621124992:181298206" iconId="1093032333" duration="15.0" baseFlags="4539">
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.9"/>
 <stat name="Skill_CritChanceMod_TacticalSkills" operator="SUBSTRACT" constant="1.5"/>
 </propertyModEffect>
@@ -96921,16 +96911,20 @@
 <propertyModEffect id="1879528570" name="Synergy: Chilled" iconId="1090519170" baseFlags="6796">
 <stat name="Skill_EffectOverride_MP_Sorcerous_Synergy" operator="SET" descriptionOverride="-" value="[{'Skill_Effect':1879528092,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0}]"/>
 </propertyModEffect>
-<genesis id="1879528597" name=".." appliedDescription="key:621076108:54354734" baseFlags="4126" summonDuration="5.0">
+<areaEffect id="1879528595" name="Exploding Pitch" baseFlags="4127" flags="134" range="5.0" maxTargets="10">
+<effect id="1879135820" name="Supreme Fire Damage"/>
+</areaEffect>
+<genesis id="1879528597" name=".." appliedDescription="key:621076108:54354734" baseFlags="4126" summonDuration="7.0">
 <hotspot id="1879528601" name="Sticky Tar">
 <effect id="1879529301" name="Sticky Tar"/>
-<effect id="1879383760" name="Slow"/>
 </hotspot>
 </genesis>
-<genesis id="1879528606" name=".." appliedDescription="key:621076107:54354734" baseFlags="4126" summonDuration="5.0">
+<areaEffect id="1879528598" name="Exploding Tar" baseFlags="4127" flags="140" range="5.0" maxTargets="10">
+<effect id="1879135820" name="Supreme Fire Damage"/>
+</areaEffect>
+<genesis id="1879528606" name=".." appliedDescription="key:621076107:54354734" baseFlags="4126" summonDuration="7.0">
 <hotspot id="1879528608" name="Sticky Pitch">
 <effect id="1879529301" name="Sticky Tar"/>
-<effect id="1879383760" name="Slow"/>
 </hotspot>
 </genesis>
 <propertyModEffect id="1879528620" name="Hideous Cackle" iconId="1090522260" duration="60.0" baseFlags="5047">
@@ -96994,7 +96988,7 @@
 <initiallyApplied id="1879507235" name="DNT - AoE Burst"/>
 <applied id="1879507235" name="DNT - AoE Burst"/>
 </applyOverTimeEffect>
-<applyOverTimeEffect id="1879528708" name="Ice Shards" iconId="1093032359" duration="2.0" pulseCount="6" baseFlags="4539">
+<applyOverTimeEffect id="1879528708" name="Ice Shards" iconId="1093032359" duration="4.0" pulseCount="3" baseFlags="4539">
 <initiallyApplied id="1879507225" name="DNT - AoE Burst"/>
 <applied id="1879507225" name="DNT - AoE Burst"/>
 </applyOverTimeEffect>
@@ -97044,19 +97038,19 @@
 <toAddIfNotPresent id="1879528779" name="DNT"/>
 <toGiveBackIfPresent id="1879528818" name="Frost-spike: Prepared"/>
 </comboEffect>
-<propertyModEffect id="1879528786" name="Acid-spike: Prepared" iconId="1093032375" baseFlags="6584">
+<propertyModEffect id="1879528786" name="Acid-spike: Prepared" iconId="1093032375" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo1" descriptionOverride="key:621125645:106251889" value="(10)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879528789" name="Acid-spike: Prepared" iconId="1093032375" baseFlags="6584">
+<propertyModEffect id="1879528789" name="Acid-spike: Prepared" iconId="1093032375" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo3" descriptionOverride="key:621125630:106251889" value="(4)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879528791" name="Fire-spike: Prepared" iconId="1093032343" baseFlags="6584">
+<propertyModEffect id="1879528791" name="Fire-spike: Prepared" iconId="1093032343" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo2" descriptionOverride="key:621125620:106251889" value="(2)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879528792" name="Acid-spike: Prepared" iconId="1093032375" baseFlags="6584">
+<propertyModEffect id="1879528792" name="Acid-spike: Prepared" iconId="1093032375" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo2" descriptionOverride="key:621125648:106251889" value="(10)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
@@ -97070,7 +97064,7 @@
 <toAddIfNotPresent id="1879528783" name="DNT"/>
 <toGiveBackIfPresent id="1879528814" name="Frost-spike: Prepared"/>
 </comboEffect>
-<propertyModEffect id="1879528796" name="Fire-spike: Prepared" iconId="1093032343" baseFlags="6584">
+<propertyModEffect id="1879528796" name="Fire-spike: Prepared" iconId="1093032343" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo3" descriptionOverride="key:621125649:106251889" value="(0)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
@@ -97079,7 +97073,7 @@
 <toAddIfNotPresent id="1879149379" name="DNT - Do Nothing"/>
 <toGiveBackIfPresent id="1879528789" name="Acid-spike: Prepared"/>
 </comboEffect>
-<propertyModEffect id="1879528799" name="Fire-spike: Prepared" iconId="1093032343" baseFlags="6584">
+<propertyModEffect id="1879528799" name="Fire-spike: Prepared" iconId="1093032343" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo1" descriptionOverride="key:621125612:106251889" value="(14)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
@@ -97098,15 +97092,15 @@
 <toAddIfNotPresent id="1879149379" name="DNT - Do Nothing"/>
 <toGiveBackIfPresent id="1879528796" name="Fire-spike: Prepared"/>
 </comboEffect>
-<propertyModEffect id="1879528814" name="Frost-spike: Prepared" iconId="1093032352" baseFlags="6584">
+<propertyModEffect id="1879528814" name="Frost-spike: Prepared" iconId="1093032352" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo1" descriptionOverride="key:621125613:106251889" value="(4)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879528816" name="Frost-spike: Prepared" iconId="1093032352" baseFlags="6584">
+<propertyModEffect id="1879528816" name="Frost-spike: Prepared" iconId="1093032352" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo3" descriptionOverride="key:621125618:106251889" value="(8)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
-<propertyModEffect id="1879528818" name="Frost-spike: Prepared" iconId="1093032352" baseFlags="6584">
+<propertyModEffect id="1879528818" name="Frost-spike: Prepared" iconId="1093032352" baseFlags="6536">
 <stat name="ForwardSource_Combat_Sorceress_SkillCombo2" descriptionOverride="key:621125631:106251889" value="(14)"/>
 <stat name="EffectMod_Duration_Trait_MP_PreparedSpell" operator="MULTIPLY" descriptionOverride="-" constant="0.6"/>
 </propertyModEffect>
@@ -97133,8 +97127,7 @@
 <genesis id="1879528944" name="DNT - Summons" appliedDescription="key:621125782:54354734" baseFlags="4126" summonDuration="6.0">
 <hotspot id="1879528962" name="DNT">
 <effect id="1879528951" name="Protection from Nuzêru" spellcraft="160.0"/>
-<effect id="1879528951" name="Protection from Nuzêru" spellcraft="160.0"/>
-<effect id="1879528951" name="Protection from Nuzêru" spellcraft="160.0"/>
+<effect id="1879530885" name="DNT" spellcraft="160.0"/>
 </hotspot>
 </genesis>
 <areaEffect id="1879528945" name="DNT" baseFlags="4127" flags="8" range="3.0" maxTargets="30">
@@ -97145,14 +97138,12 @@
 <initiallyApplied id="1879528942" name="DNT" spellcraft="160.0"/>
 <applied id="1879528942" name="DNT" spellcraft="160.0"/>
 </applyOverTimeEffect>
-<tieredEffect id="1879528950" name="DNT" description="key:621125772:181298206" appliedDescription="key:621125772:54354734" baseFlags="4124" showInExamination="true">
+<tieredEffect id="1879528950" name="DNT" baseFlags="4124" showInExamination="true">
 <tierUp id="1879528968" name="Volatile Flame - 7"/>
 <tierUp id="1879528967" name="Volatile Flame - 6"/>
 <tierUp id="1879528943" name="Volatile Flame - 5"/>
 <tierUp id="1879528948" name="Volatile Flame - 4"/>
 <tierUp id="1879528953" name="Volatile Flame - 3"/>
-<tierUp id="1879528963" name="Volatile Flame - 2"/>
-<tierUp id="1879528966" name="Volatile Flame - 1"/>
 <finalTier id="1879528964" name="DNT"/>
 </tieredEffect>
 <effect id="1879528951" name="Protection from Nuzêru" appliedDescription="key:621125779:54354734" iconId="1091476354" baseFlags="6584"/>
@@ -97173,7 +97164,6 @@
 <killProcEffect id="1879528959" name="Volatile Flame" appliedDescription="key:621125784:54354734" iconId="1091476099" baseFlags="6585">
 <userEffect id="1879528965" name="DNT"/>
 </killProcEffect>
-<flagEffect id="1879528963" name="Volatile Flame - 2" appliedDescription="key:621125785:54354734" iconId="1091476099" baseFlags="7100"/>
 <dispelEffect id="1879528964" name="DNT" baseFlags="4124">
 <effect id="1879528956" name="Song of Nuzêru"/>
 <effect id="1879529253" name="Nuzêru's Protection"/>
@@ -97183,7 +97173,6 @@
 <areaEffect id="1879528965" name="DNT" description="key:621125789:181298206" appliedDescription="key:621125789:54354734" baseFlags="4124" flags="4" range="15.0" maxTargets="30">
 <effect id="1879528950" name="DNT"/>
 </areaEffect>
-<flagEffect id="1879528966" name="Volatile Flame - 1" appliedDescription="key:621125794:54354734" iconId="1091476099" baseFlags="7100"/>
 <flagEffect id="1879528967" name="Volatile Flame - 6" appliedDescription="key:621125795:54354734" iconId="1091476099" baseFlags="7100"/>
 <flagEffect id="1879528968" name="Volatile Flame - 7" appliedDescription="key:621125790:54354734" iconId="1091476099" baseFlags="7100"/>
 <instantVitalEffect id="1879528969" name="Channel the Worm" baseFlags="4127" stat="Health_MaxLevel" damageType="16">
@@ -97521,7 +97510,7 @@
 <procEffect id="1879529603" name="DNT" iconId="1090552382" baseFlags="6280" skillTypes="36" cooldown="8.0">
 <effect id="1879529904" name="Resilience of the Aurochs"/>
 </procEffect>
-<procEffect id="1879529604" name="DNT" iconId="1090552382" baseFlags="6280" skillTypes="36" cooldown="5.0">
+<procEffect id="1879529604" name="DNT" iconId="1090552382" baseFlags="6280" skillTypes="36" cooldown="8.0">
 <effect id="1879529909" name="The Eagle's Talon" target="true"/>
 </procEffect>
 <propertyModEffect id="1879529610" name="Exhausted Flame" description="key:621126369:181298206" iconId="1092285198" duration="5.0" baseFlags="4536">
@@ -97635,17 +97624,17 @@
 </propertyModEffect>
 <flagEffect id="1879529693" name="Raptor's Talon Cooldown" iconId="1092813464" duration="20.0" probability="0.0" probabilityModProperty="268464303" baseFlags="4492"/>
 <dispelEffect id="1879529694" name="DNT - Dispel Skillproc Effect" baseFlags="4127"/>
-<procEffect id="1879529695" name="Greater Withered Arm" appliedDescription="key:621126455:54354734" iconId="1092752239" duration="10.0" baseFlags="395" skillTypes="39" cooldown="1.0">
-<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.0"/>
-<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" constant="0.0"/>
-<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.0"/>
-<effect id="1879529694" name="DNT - Dispel Skillproc Effect"/>
-<effect id="1879529722" name="DNT - Protect from Acid Skillproc"/>
-</procEffect>
-<procEffect id="1879529696" name="Withered Arm" appliedDescription="key:621126456:54354734" iconId="1092752239" duration="10.0" baseFlags="395" skillTypes="39" cooldown="1.0">
+<procEffect id="1879529695" name="Greater Withered Arm" appliedDescription="key:621126455:54354734" iconId="1092752239" duration="3.0" baseFlags="395" skillTypes="39" cooldown="1.0">
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.5"/>
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" constant="0.5"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.5"/>
+<effect id="1879529694" name="DNT - Dispel Skillproc Effect"/>
+<effect id="1879529722" name="DNT - Protect from Acid Skillproc"/>
+</procEffect>
+<procEffect id="1879529696" name="Withered Arm" appliedDescription="key:621126456:54354734" iconId="1092752239" duration="3.0" baseFlags="395" skillTypes="39" cooldown="1.0">
+<stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" constant="0.75"/>
+<stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" constant="0.75"/>
+<stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" constant="0.75"/>
 <effect id="1879529694" name="DNT - Dispel Skillproc Effect"/>
 <effect id="1879529722" name="DNT - Protect from Acid Skillproc"/>
 </procEffect>
@@ -97819,13 +97808,13 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="30.000002"/>
 </propertyModEffect>
 <propertyModEffect id="1879529904" name="Resilience of the Aurochs" iconId="1092817686" duration="10.0" baseFlags="4540">
-<stat name="Skill_HealingMultiplier_Item" constant="25.0"/>
-<stat name="Combat_OutgoingHeals_EffectMod" descriptionOverride="-" constant="25.0"/>
+<stat name="Skill_HealingMultiplier_Item" constant="50.0"/>
+<stat name="INCOMING_HEALING_PERCENTAGE" constant="25.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879529909" name="The Eagle's Talon" baseFlags="4127" stat="Health_MaxLevel" damageType="8">
 <vitalChange progressionID="1879468798"/>
 </instantVitalEffect>
-<auraEffect id="1879529952" name="Acid Cloud" iconId="1091561141" baseFlags="6588" type="1" shouldAffectCaster="false">
+<auraEffect id="1879529952" name="Acid Cloud" iconId="1091561141" baseFlags="6332" type="1" shouldAffectCaster="false">
 <effect id="1879525909" name="Acid Cloud"/>
 </auraEffect>
 <propertyModEffect id="1879530019" name="Unseen Hunter" iconId="1090553955" duration="3.0" baseFlags="4536">
@@ -97958,7 +97947,7 @@
 <applyOverTimeEffect id="1879530147" name="Uncontrolled Burn" iconId="1090644843" duration="3.0" baseFlags="6584">
 <applied id="1879530151" name="Uncontrolled Burn"/>
 </applyOverTimeEffect>
-<propertyModEffect id="1879530148" name="Uncontrolled Fury" appliedDescription="key:621126841:54354734" iconId="1090539703" probability="0.0" probabilityModProperty="268464303" baseFlags="6588">
+<propertyModEffect id="1879530148" name="Uncontrolled Fury" appliedDescription="key:621126841:54354734" iconId="1091830064" probability="0.0" probabilityModProperty="268464303" baseFlags="6588">
 <stat name="ICPR" scaling="1879399367"/>
 <stat name="MELEE_DAMAGE_PERCENTAGE" modifiers="268451320" constant="20.0"/>
 <stat name="ATTACK_DURATION_PERCENTAGE" constant="-10.0"/>
@@ -97972,10 +97961,10 @@
 <stat name="Captain_DevBlow_Crit_Effect" operator="SET" descriptionOverride="key:621126863:106251889" value="[{'Skill_Effect':1879530181,'Skill_EffectImplementUsage':2},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0}]"/>
 <stat name="Captain_ShadowsLament_Crit_Effect" operator="SET" descriptionOverride="key:621126863:106251890" value="[{'Skill_Effect':1879530182,'Skill_EffectImplementUsage':2},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0}]"/>
 </propertyModEffect>
-<propertyModEffect id="1879530181" name="DNT - DB" iconId="1091682153" duration="1.0" probability="0.0" probabilityModProperty="268464303" baseFlags="190">
+<propertyModEffect id="1879530181" name="DNT - DB" iconId="1091682153" duration="0.5" probability="0.0" probabilityModProperty="268464303" baseFlags="190">
 <specialEffect label="key:621126866:106251889"/>
 </propertyModEffect>
-<propertyModEffect id="1879530182" name="DNT - SL" iconId="1091682153" duration="1.0" probability="0.0" probabilityModProperty="268464303" baseFlags="190">
+<propertyModEffect id="1879530182" name="DNT - SL" iconId="1091682153" duration="0.5" probability="0.0" probabilityModProperty="268464303" baseFlags="190">
 <specialEffect label="key:621126867:106251889"/>
 </propertyModEffect>
 <induceCombatState id="1879530190" name="Induce Feared" baseFlags="4127" state="2" stateDuration="10.0" gracePeriod="2.0"/>
@@ -98113,4 +98102,20 @@
 <stat name="Trait_Captain_InHarmsWay_IncDamageMod" constant="15.000001"/>
 <stat name="Effect_Captain_InHarmsWay_IncHealing" constant="100.0"/>
 </propertyModEffect>
+<dispelEffect id="1879530885" name="DNT" baseFlags="4124">
+<effect id="1879527382" name="Twisting Shadows"/>
+<effect id="1879527376" name="Twisting Shadows"/>
+<effect id="1879527378" name="Twisting Shadows"/>
+</dispelEffect>
+<genesis id="1879531064" name=".." appliedDescription="key:621076108:54354734" baseFlags="4126" summonDuration="3.0">
+<hotspot id="1879531065" name="Explosive Debris">
+<effect id="1879135820" name="Supreme Fire Damage"/>
+</hotspot>
+</genesis>
+<genesis id="1879531066" name=".." appliedDescription="key:621076107:54354734" baseFlags="4126" summonDuration="3.0">
+<hotspot id="1879531067" name="Explosive Debris">
+<effect id="1879135820" name="Supreme Fire Damage"/>
+</hotspot>
+</genesis>
+<flagEffect id="1879531171" name="DNT - barred from picking up additional CTF objects." iconId="1090519170" baseFlags="6328"/>
 </effects>

@@ -100344,7 +100344,7 @@
 </details>
 </skill>
 <skill identifier="1879453244" name="Sprint" category="36" iconId="1090553762" description="key:621068908:228830419">
-<details actionDurationContribution="0.5" cooldown="20.0" cooldownMods="268444967" flags="1" displayTypes="9">
+<details actionDurationContribution="0.5" cooldown="30.0" cooldownMods="268444967" flags="1" displayTypes="9">
 <powerCost pointsProgression="1879262633" mods="268442739"/>
 <attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268451776">
@@ -103405,28 +103405,28 @@
 </details>
 </skill>
 <skill identifier="1879461233" name="Ballista Bolt" iconId="1090522259">
-<details actionDurationContribution="2.0" inductionId="1879461246" flags="80">
+<details actionDurationContribution="0.25" inductionId="1879461246" flags="80">
 <geometry maxRange="50.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.01"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.01"/>
 </effectsMgr>
 <attack damageQualifier="3" damageType="4" maxDamageVariance="0.15" maxDamageProgression="1879180327"/>
 </details>
 </skill>
 <skill identifier="1879461234" name="Slam" iconId="1090522259">
-<details actionDurationContribution="2.0" flags="72">
+<details actionDurationContribution="1.0" flags="72">
 <geometry maxRange="8.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.025"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.015"/>
 </effectsMgr>
-<attack damageQualifier="1" damageType="2048" maxDamageVariance="0.1" maxDamageProgression="1879343141"/>
+<attack damageQualifier="1" damageType="2048" maxDamageVariance="0.02" maxDamageProgression="1879343141"/>
 </details>
 </skill>
 <skill identifier="1879461236" name="Flying Rubble" iconId="1090522259">
-<details actionDurationContribution="2.0" inductionId="1879461235" flags="80">
+<details actionDurationContribution="0.25" inductionId="1879461235" flags="80">
 <geometry maxRange="100.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.05"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.035"/>
 </effectsMgr>
 <attack damageQualifier="3" damageType="1" maxDamageVariance="0.1" maxDamageProgression="1879264925">
 <effectsMgr>
@@ -105032,10 +105032,10 @@
 </details>
 </skill>
 <skill identifier="1879464297" name="Flying Rubble" iconId="1090522259">
-<details actionDurationContribution="2.0" inductionId="1879461235" flags="80">
+<details actionDurationContribution="0.25" inductionId="1879461235" flags="80">
 <geometry maxRange="100.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.05"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.035"/>
 </effectsMgr>
 <attack damageQualifier="3" damageType="1" maxDamageVariance="0.1" maxDamageProgression="1879264925">
 <effectsMgr>
@@ -105046,19 +105046,19 @@
 </details>
 </skill>
 <skill identifier="1879464298" name="Slam" iconId="1090522259">
-<details actionDurationContribution="2.0" flags="72">
+<details actionDurationContribution="1.0" flags="72">
 <geometry maxRange="8.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.025"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.015"/>
 </effectsMgr>
-<attack damageQualifier="1" damageType="2048" maxDamageVariance="0.1" maxDamageProgression="1879343141"/>
+<attack damageQualifier="1" damageType="2048" maxDamageVariance="0.02" maxDamageProgression="1879343141"/>
 </details>
 </skill>
 <skill identifier="1879464299" name="Orkish Bolt" iconId="1090522259">
-<details actionDurationContribution="2.0" inductionId="1879461246" flags="80">
+<details actionDurationContribution="0.25" inductionId="1879461246" flags="80">
 <geometry maxRange="50.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.01"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.01"/>
 </effectsMgr>
 <attack damageQualifier="3" damageType="4096" maxDamageVariance="0.15" maxDamageProgression="1879180334"/>
 </details>
@@ -114356,10 +114356,10 @@
 </details>
 </skill>
 <skill identifier="1879486262" name="Flaming Rubble" iconId="1090522259">
-<details actionDurationContribution="2.0" inductionId="1879461235" flags="80">
+<details actionDurationContribution="0.25" inductionId="1879461235" flags="80">
 <geometry minRange="10.0" maxRange="100.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.05"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.035"/>
 </effectsMgr>
 <attack damageQualifier="3" damageType="16" maxDamageVariance="0.1" maxDamageProgression="1879343129">
 <effectsMgr>
@@ -114370,19 +114370,19 @@
 </details>
 </skill>
 <skill identifier="1879486264" name="Flaming Bolt" iconId="1090522259">
-<details actionDurationContribution="2.0" inductionId="1879461246" flags="80">
+<details actionDurationContribution="0.25" inductionId="1879461246" flags="80">
 <geometry maxRange="50.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.01"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.01"/>
 </effectsMgr>
 <attack damageQualifier="3" damageType="16" maxDamageVariance="0.15" maxDamageProgression="1879343135"/>
 </details>
 </skill>
 <skill identifier="1879486266" name="Flaming Rubble" iconId="1090522259">
-<details actionDurationContribution="2.0" inductionId="1879461235" flags="80">
+<details actionDurationContribution="0.25" inductionId="1879461235" flags="80">
 <geometry minRange="10.0" maxRange="100.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.05"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.035"/>
 </effectsMgr>
 <attack damageQualifier="3" damageType="16" maxDamageVariance="0.1" maxDamageProgression="1879343129">
 <effectsMgr>
@@ -114393,10 +114393,10 @@
 </details>
 </skill>
 <skill identifier="1879486267" name="Flaming Bolt" iconId="1090522259">
-<details actionDurationContribution="2.0" inductionId="1879461246" flags="80">
+<details actionDurationContribution="0.25" inductionId="1879461246" flags="80">
 <geometry maxRange="50.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.01"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.01"/>
 </effectsMgr>
 <attack damageQualifier="3" damageType="16" maxDamageVariance="0.15" maxDamageProgression="1879343135"/>
 </details>
@@ -126640,7 +126640,7 @@
 </skill>
 <skill identifier="1879506586" name="Glaciate" category="8" iconId="1093032331" description="key:621107192:228830419">
 <requiredEffect id="1879506633" name="Devotion: Gelid Wind"/>
-<details actionDurationContribution="1.0" inductionId="1879506473" cooldown="20.0" flags="69" maxTargets="6" displayTypes="4">
+<details actionDurationContribution="1.0" cooldown="20.0" flags="69" maxTargets="6" displayTypes="4">
 <geometry detectionAnchor="1" maxRange="30.0" maxRangeMods="268441483" shape="sphere" radius="8.0"/>
 <effectsMgr type="USER">
 <effect id="1879528570" name="Synergy: Chilled"/>
@@ -126680,7 +126680,7 @@
 <skill identifier="1879506594" name="Conflagrate" category="15" iconId="1093032330" description="key:621107145:228830419">
 <requiredEffect id="1879506677" name="Devotion: Balefire"/>
 <details actionDurationContribution="1.0" cooldown="10.0" flags="69" maxTargets="6" displayTypes="2">
-<geometry detectionAnchor="1" maxRange="30.0" maxRangeMods="268441483" shape="sphere" radius="12.0"/>
+<geometry detectionAnchor="1" maxRange="30.0" maxRangeMods="268441483" shape="sphere" radius="7.0"/>
 <effectsMgr type="USER" override="268466074">
 <effect id="1879507098" name="DNT - Fel Fire Tiered"/>
 <effect id="1879528565" name="Synergy: Heated"/>
@@ -139202,7 +139202,7 @@
 <effect id="1879528569" name="Synergy: Doom"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262623" mods="268442739"/>
-<attack damageQualifier="2" damageType="32" maxDamageVariance="0.2" maxDamageProgression="1879413247" damageModifier="0.68" damageModifierMods="268466054,268463588,268465210,268465986" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="32" maxDamageVariance="0.2" maxDamageProgression="1879413247" damageModifier="1.665" damageModifierMods="268466054,268463588,268465210,268465986" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr override="268466003">
 <effect id="1879528062" name="Seeing Shadows I"/>
 </effectsMgr>
@@ -139217,7 +139217,7 @@
 <effect id="1879528565" name="Synergy: Heated"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262620" mods="268442739"/>
-<attack damageQualifier="2" damageType="16" maxDamageVariance="0.125" maxDamageProgression="1879413247" damageModifier="0.54" damageModifierMods="268445383,268463588,268464040,268465210,268465985" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="16" maxDamageVariance="0.125" maxDamageProgression="1879413247" damageModifier="1.48" damageModifierMods="268445383,268463588,268464040,268465210,268465985" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466131" override="268466078">
 <effect id="1879527033" name="Vile Fire"/>
 </effectsMgr>
@@ -139261,7 +139261,7 @@
 <effect id="1879528565" name="Synergy: Heated"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262620" mods="268442739"/>
-<attack damageQualifier="2" damageType="16" maxDamageVariance="0.125" maxDamageProgression="1879413247" damageModifier="0.54" damageModifierMods="268445383,268463588,268464040,268465210,268465985" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="16" maxDamageVariance="0.125" maxDamageProgression="1879413247" damageModifier="1.48" damageModifierMods="268445383,268463588,268464040,268465210,268465985" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466131" override="268466078">
 <effect id="1879527033" name="Vile Fire"/>
 </effectsMgr>
@@ -139289,7 +139289,7 @@
 <effect id="1879528570" name="Synergy: Chilled"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262626" mods="268442739"/>
-<attack damageQualifier="2" damageType="256" maxDamageVariance="0.3" maxDamageProgression="1879413247" damageModifier="0.54" damageModifierMods="268445386,268463588,268464040,268465210,268465984" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="256" maxDamageVariance="0.3" maxDamageProgression="1879413247" damageModifier="1.16" damageModifierMods="268445386,268463588,268464040,268465210,268465984" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466134" override="268466076">
 <effect id="1879507323" name="Shadow-frost Veil"/>
 </effectsMgr>
@@ -139303,7 +139303,7 @@
 <effect id="1879528569" name="Synergy: Doom"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262626" mods="268442739"/>
-<attack damageQualifier="2" damageType="32" maxDamageVariance="0.2" maxDamageProgression="1879413247" damageModifier="0.54" damageModifierMods="268466054,268463588,268464040,268465210,268465986" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="32" maxDamageVariance="0.2" maxDamageProgression="1879413247" damageModifier="1.48" damageModifierMods="268466054,268463588,268464040,268465210,268465986" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466132">
 <effect id="1879528395" name="Umbral Fear"/>
 </effectsMgr>
@@ -139317,7 +139317,7 @@
 <effect id="1879528570" name="Synergy: Chilled"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262626" mods="268442739"/>
-<attack damageQualifier="2" damageType="256" maxDamageVariance="0.3" maxDamageProgression="1879413247" damageModifier="0.54" damageModifierMods="268445386,268463588,268464040,268465210,268465984" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="256" maxDamageVariance="0.3" maxDamageProgression="1879413247" damageModifier="1.16" damageModifierMods="268445386,268463588,268464040,268465210,268465984" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466134" override="268466076">
 <effect id="1879507323" name="Shadow-frost Veil"/>
 </effectsMgr>
@@ -139331,7 +139331,7 @@
 <effect id="1879528569" name="Synergy: Doom"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262626" mods="268442739"/>
-<attack damageQualifier="2" damageType="32" maxDamageVariance="0.2" maxDamageProgression="1879413247" damageModifier="0.54" damageModifierMods="268466054,268463588,268464040,268465210,268465986" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="32" maxDamageVariance="0.2" maxDamageProgression="1879413247" damageModifier="1.48" damageModifierMods="268466054,268463588,268464040,268465210,268465986" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466132">
 <effect id="1879528395" name="Umbral Fear"/>
 </effectsMgr>
@@ -139346,7 +139346,7 @@
 <effect id="1879528564" name="Synergy: Corrosion"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262623" mods="268442739"/>
-<attack damageQualifier="2" damageType="1024" maxDamageVariance="0.25" maxDamageProgression="1879413247" damageModifier="0.54" damageModifierMods="268466053,268463588,268464040,268465210" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="1024" maxDamageVariance="0.25" maxDamageProgression="1879413247" damageModifier="1.08" damageModifierMods="268466053,268463588,268464040,268465210" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466133" override="268466079">
 <effect id="1879529696" name="Withered Arm"/>
 </effectsMgr>
@@ -139376,7 +139376,7 @@
 <effect id="1879528564" name="Synergy: Corrosion"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262623" mods="268442739"/>
-<attack damageQualifier="2" damageType="1024" maxDamageVariance="0.25" maxDamageProgression="1879413247" damageModifier="0.54" damageModifierMods="268466053,268463588,268464040,268465210" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="1024" maxDamageVariance="0.25" maxDamageProgression="1879413247" damageModifier="1.08" damageModifierMods="268466053,268463588,268464040,268465210" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466133" override="268466079">
 <effect id="1879529696" name="Withered Arm"/>
 </effectsMgr>
@@ -139750,77 +139750,75 @@
 </details>
 </skill>
 <skill identifier="1879528596" name="Slowing Ballista Bolt" iconId="1090522259">
-<details actionDurationContribution="2.0" inductionId="1879461246" flags="80">
+<details actionDurationContribution="0.25" inductionId="1879461246" flags="80">
 <geometry maxRange="50.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.01"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.01"/>
 </effectsMgr>
-<attack damageQualifier="3" damageType="4" maxDamageVariance="0.15" maxDamageProgression="1879180327">
+<attack damageQualifier="3" damageType="4" maxDamageVariance="0.15" maxDamageProgression="1879180325">
 <effectsMgr>
-<effect id="1879464354" name=".."/>
 <effect id="1879528606" name=".."/>
 </effectsMgr>
 </attack>
 </details>
 </skill>
 <skill identifier="1879528599" name="Explosive Orkish Bolt" iconId="1090522259">
-<details actionDurationContribution="2.0" inductionId="1879461246" flags="80" maxTargets="8">
-<geometry detectionAnchor="1" maxRange="50.0" shape="sphere" radius="8.0"/>
+<details actionDurationContribution="0.25" inductionId="1879461246" flags="80">
+<geometry maxRange="50.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.01"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.02"/>
 </effectsMgr>
-<attack damageQualifier="3" damageType="4096" maxDamageVariance="0.15" maxDamageProgression="1879180334">
+<attack damageQualifier="3" damageType="16" maxDamageVariance="0.15" maxDamageProgression="1879180569">
 <effectsMgr>
-<effect id="1879464354" name=".."/>
-<effect id="1879464356" name=".."/>
+<effect id="1879531064" name=".."/>
+<effect id="1879528598" name="Exploding Tar"/>
 </effectsMgr>
 </attack>
 </details>
 </skill>
 <skill identifier="1879528600" name="Bash" iconId="1090522259">
-<details actionDurationContribution="2.0" flags="72">
+<details actionDurationContribution="1.0" flags="72">
 <geometry maxRange="8.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.025"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.02"/>
 </effectsMgr>
-<attack damageQualifier="1" damageType="2048" maxDamageVariance="0.1" maxDamageProgression="1879343141" damageModifier="1.25"/>
+<attack damageQualifier="1" damageType="2048" maxDamageVariance="0.02" maxDamageProgression="1879343141" damageModifier="1.25"/>
 </details>
 </skill>
 <skill identifier="1879528603" name="Explosive Ballista Bolt" iconId="1090522259">
-<details actionDurationContribution="2.0" inductionId="1879461246" flags="80" maxTargets="8">
-<geometry detectionAnchor="1" maxRange="50.0" shape="sphere" radius="8.0"/>
+<details actionDurationContribution="0.25" inductionId="1879461246" flags="80">
+<geometry maxRange="50.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.01"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.02"/>
 </effectsMgr>
-<attack damageQualifier="3" damageType="4" maxDamageVariance="0.15" maxDamageProgression="1879180327">
+<attack damageQualifier="3" damageType="16" maxDamageVariance="0.15" maxDamageProgression="1879180323">
 <effectsMgr>
-<effect id="1879464354" name=".."/>
-<effect id="1879464353" name=".."/>
+<effect id="1879531066" name=".."/>
+<effect id="1879528595" name="Exploding Pitch"/>
 </effectsMgr>
 </attack>
 </details>
 </skill>
 <skill identifier="1879528604" name="Slowing Orkish Bolt" iconId="1090522259">
-<details actionDurationContribution="2.0" inductionId="1879461246" flags="80">
+<details actionDurationContribution="0.25" inductionId="1879461246" flags="80">
 <geometry maxRange="50.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.01"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.01"/>
 </effectsMgr>
-<attack damageQualifier="3" damageType="4096" maxDamageVariance="0.15" maxDamageProgression="1879180334">
+<attack damageQualifier="3" damageType="4096" maxDamageVariance="0.15" maxDamageProgression="1879180568">
 <effectsMgr>
-<effect id="1879464354" name=".."/>
 <effect id="1879528597" name=".."/>
 </effectsMgr>
 </attack>
 </details>
 </skill>
 <skill identifier="1879528609" name="Bash" iconId="1090522259">
-<details actionDurationContribution="2.0" flags="72">
+<details actionDurationContribution="1.0" flags="72">
 <geometry maxRange="8.0"/>
 <effectsMgr type="USER">
-<effect id="1879119822" name="Morale Restoration" spellcraft="0.025"/>
+<effect id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.02"/>
 </effectsMgr>
-<attack damageQualifier="1" damageType="2048" maxDamageVariance="0.1" maxDamageProgression="1879343141" damageModifier="1.25"/>
+<attack damageQualifier="1" damageType="2048" maxDamageVariance="0.02" maxDamageProgression="1879343141" damageModifier="1.25"/>
 </details>
 </skill>
 <skill identifier="1879528619" name="Hideous Cackle" iconId="1090522259">
@@ -139866,7 +139864,7 @@
 <effect id="1879528564" name="Synergy: Corrosion"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262616" mods="268442739"/>
-<attack damageQualifier="2" damageType="1024" maxDamageVariance="0.25" maxDamageProgression="1879413247" damageModifier="0.68" damageModifierMods="268466053,268463588,268465210" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="1024" maxDamageVariance="0.25" maxDamageProgression="1879413247" damageModifier="1.445" damageModifierMods="268466053,268463588,268465210" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466133">
 <effect id="1879529612" name="DNT - Fire Spike Tiered"/>
 </effectsMgr>
@@ -139881,7 +139879,7 @@
 <effect id="1879528570" name="Synergy: Chilled"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262618" mods="268442739"/>
-<attack damageQualifier="2" damageType="256" maxDamageVariance="0.3" maxDamageProgression="1879413247" damageModifier="0.68" damageModifierMods="268445386,268463588,268465210,268465984" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="256" maxDamageVariance="0.3" maxDamageProgression="1879413247" damageModifier="1.1475" damageModifierMods="268445386,268463588,268465210,268465984" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466134"/>
 </attack>
 </details>
@@ -139894,7 +139892,7 @@
 <effect id="1879528564" name="Synergy: Corrosion"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262616" mods="268442739"/>
-<attack damageQualifier="2" damageType="1024" maxDamageVariance="0.25" maxDamageProgression="1879413247" damageModifier="0.68" damageModifierMods="268466053,268463588,268465210" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="1024" maxDamageVariance="0.25" maxDamageProgression="1879413247" damageModifier="1.445" damageModifierMods="268466053,268463588,268465210" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466133">
 <effect id="1879529612" name="DNT - Fire Spike Tiered"/>
 </effectsMgr>
@@ -139909,7 +139907,7 @@
 <effect id="1879528570" name="Synergy: Chilled"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262618" mods="268442739"/>
-<attack damageQualifier="2" damageType="256" maxDamageVariance="0.3" maxDamageProgression="1879413247" damageModifier="0.68" damageModifierMods="268445386,268463588,268465210,268465984" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="256" maxDamageVariance="0.3" maxDamageProgression="1879413247" damageModifier="1.1475" damageModifierMods="268445386,268463588,268465210,268465984" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466134"/>
 </attack>
 </details>
@@ -139945,7 +139943,7 @@
 <effect id="1879528565" name="Synergy: Heated"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262626" mods="268442739"/>
-<attack damageQualifier="2" damageType="16" maxDamageVariance="0.125" maxDamageProgression="1879413247" damageModifier="0.68" damageModifierMods="268445383,268463588,268465210,268465985" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="16" maxDamageVariance="0.125" maxDamageProgression="1879413247" damageModifier="2.295" damageModifierMods="268445383,268463588,268465210,268465985" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466131">
 <effect id="1879507076" name="DNT - Fire Spike Tiered"/>
 </effectsMgr>
@@ -139960,7 +139958,7 @@
 <effect id="1879528565" name="Synergy: Heated"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262626" mods="268442739"/>
-<attack damageQualifier="2" damageType="16" maxDamageVariance="0.125" maxDamageProgression="1879413247" damageModifier="0.68" damageModifierMods="268445383,268463588,268465210,268465985" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="16" maxDamageVariance="0.125" maxDamageProgression="1879413247" damageModifier="2.295" damageModifierMods="268445383,268463588,268465210,268465985" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466131">
 <effect id="1879507076" name="DNT - Fire Spike Tiered"/>
 </effectsMgr>
@@ -140010,7 +140008,7 @@
 <effect id="1879528569" name="Synergy: Doom"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262633" mods="268442739"/>
-<attack damageQualifier="2" damageType="32" maxDamageProgression="1879413247" damageModifier="0.68" damageModifierMods="268466054,268463588,268465210,268465986" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="32" maxDamageProgression="1879413247" damageModifier="2.295" damageModifierMods="268466054,268463588,268465210,268465986" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466132">
 <effect id="1879507081" name="DNT - Shadow Spike Tiered"/>
 </effectsMgr>
@@ -140024,7 +140022,7 @@
 <effect id="1879528569" name="Synergy: Doom"/>
 </effectsMgr>
 <powerCost pointsProgression="1879262633" mods="268442739"/>
-<attack damageQualifier="2" damageType="32" maxDamageProgression="1879413247" damageModifier="1.665" damageModifierMods="268466054,268463588,268465210,268465986" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
+<attack damageQualifier="2" damageType="32" maxDamageProgression="1879413247" damageModifier="2.295" damageModifierMods="268466054,268463588,268465210,268465986" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr modifiers="268466132">
 <effect id="1879507081" name="DNT - Shadow Spike Tiered"/>
 </effectsMgr>
