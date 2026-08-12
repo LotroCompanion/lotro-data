@@ -139704,7 +139704,7 @@
 <geometry detectionAnchor="1" maxRange="30.0" maxRangeMods="268441483" shape="sphere" radius="12.0"/>
 <powerCost mods="268442739"/>
 <attack damageQualifier="2" damageType="256" maxDamageVariance="0.25" maxDamageProgression="1879413247" damageModifierMods="268445386,268463588,268465207" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
-<effectsMgr modifiers="268466134" override="268465979"/>
+<effectsMgr override="268465979"/>
 </attack>
 </details>
 </skill>
@@ -139713,7 +139713,7 @@
 <geometry detectionAnchor="1" maxRange="30.0" maxRangeMods="268441483" shape="sphere" radius="12.0"/>
 <powerCost mods="268442739"/>
 <attack damageQualifier="2" damageType="16" maxDamageVariance="0.25" maxDamageProgression="1879413247" damageModifier="1.75" damageModifierMods="268445383,268463588,268465207" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
-<effectsMgr modifiers="268466131" override="268465979"/>
+<effectsMgr override="268465979"/>
 </attack>
 </details>
 </skill>
@@ -139722,7 +139722,7 @@
 <geometry detectionAnchor="1" maxRange="30.0" maxRangeMods="268441483" shape="sphere" radius="12.0"/>
 <powerCost pointsProgression="1879262621" mods="268442739"/>
 <attack damageQualifier="2" damageType="32" maxDamageVariance="0.2" maxDamageProgression="1879413247" damageModifier="1.7" damageModifierMods="268466054,268463588,268465207" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
-<effectsMgr modifiers="268466132" override="268465979"/>
+<effectsMgr override="268465979"/>
 </attack>
 </details>
 </skill>
@@ -139736,7 +139736,7 @@
 <geometry detectionAnchor="1" maxRange="30.0" maxRangeMods="268441483" shape="sphere" radius="12.0"/>
 <powerCost mods="268442739"/>
 <attack damageQualifier="2" damageType="1024" maxDamageVariance="0.25" maxDamageProgression="1879413247" damageModifier="1.35" damageModifierMods="268466053,268463588,268465207" damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
-<effectsMgr modifiers="268466133" override="268465979"/>
+<effectsMgr override="268465979"/>
 </attack>
 </details>
 </skill>
@@ -140299,6 +140299,30 @@
 <attack damageQualifier="2" damageType="16" maxDamageProgression="1879049333"/>
 </details>
 </skill>
+<pet identifier="1879529504" name="Golden Stag" category="145" iconId="1093149894" initialName="key:621059676:33816677" sourceDescription="key:621126296:211796645" genus="14" species="27" subSpecies="132" description="key:621126296:228830419">
+<details actionDurationContribution="2.0" cooldown="3.0" flags="32">
+<effectsMgr type="TOGGLE">
+<effect id="1879440099"/>
+</effectsMgr>
+<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
+</details>
+</pet>
+<pet identifier="1879529506" name="Golden Fawn" category="145" iconId="1093149896" initialName="key:621059671:33816677" sourceDescription="key:621126278:211796645" genus="14" species="27" subSpecies="132" description="key:621126278:228830419">
+<details actionDurationContribution="2.0" cooldown="3.0" flags="32">
+<effectsMgr type="TOGGLE">
+<effect id="1879440109"/>
+</effectsMgr>
+<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
+</details>
+</pet>
+<pet identifier="1879529524" name="Golden Doe" category="145" iconId="1093149892" initialName="key:621126292:33816677" sourceDescription="key:621126289:211796645" genus="14" species="27" subSpecies="132" description="key:621126289:228830419">
+<details actionDurationContribution="2.0" cooldown="3.0" flags="32">
+<effectsMgr type="TOGGLE">
+<effect id="1879529518"/>
+</effectsMgr>
+<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
+</details>
+</pet>
 <skill identifier="1879529730" name="a strong thrown attack" iconId="1090522259">
 <details actionDurationContribution="2.0" flags="68">
 <geometry maxRange="20.0"/>
@@ -140445,6 +140469,34 @@
 <details actionDurationContribution="3.5" inductionId="1879089214" flags="32">
 <effectsMgr type="TOGGLE">
 <effect id="1879530557" name="Mounted"/>
+</effectsMgr>
+<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
+</details>
+</mount>
+<pet identifier="1879531313" name="Hound of Promised Allies" category="145" iconId="1093155426" initialName="key:621127903:33816677" sourceDescription="key:621127924:211796645" genus="14" species="27" subSpecies="132" description="key:621127924:228830419">
+<details actionDurationContribution="2.0" cooldown="3.0" flags="32">
+<effectsMgr type="TOGGLE">
+<effect id="1879531295"/>
+</effectsMgr>
+<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
+</details>
+</pet>
+<mount identifier="1879531319" name="Steed of Promised Allies" category="88" iconId="1093155427" initialName="key:621127926:138936629" mountCategory="8" mountType="1" sourceDescription="key:620995772:158847305" morale="250" speed="0.68" tall="true" peerId="1879531320">
+<requiredTrait id="1879051500" name="Riding"/>
+<requiredEffect id="1879051501" name="Basic Riding"/>
+<details actionDurationContribution="3.5" inductionId="1879089214" flags="32">
+<effectsMgr type="TOGGLE">
+<effect id="1879531322" name="Mounted"/>
+</effectsMgr>
+<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
+</details>
+</mount>
+<mount identifier="1879531320" name="Steed of Promised Allies" category="88" iconId="1093155427" initialName="key:621127928:138936629" mountCategory="8" mountType="1" sourceDescription="key:620995772:158847305" morale="250" speed="0.68" peerId="1879531319">
+<requiredTrait id="1879051500" name="Riding"/>
+<requiredEffect id="1879051501" name="Basic Riding"/>
+<details actionDurationContribution="3.5" inductionId="1879089214" flags="32">
+<effectsMgr type="TOGGLE">
+<effect id="1879531318" name="Mounted"/>
 </effectsMgr>
 <attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
 </details>

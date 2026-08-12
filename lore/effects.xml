@@ -17014,7 +17014,7 @@
 <stat name="PARRY" operator="SUBSTRACT" scaling="1879391046"/>
 <stat name="EVADE" operator="SUBSTRACT" scaling="1879399357"/>
 <stat name="Combat_Agent_Armor_Value_Float" operator="SUBSTRACT" scaling="1879132195"/>
-<stat name="RESISTANCE" scaling="1879381719"/>
+<stat name="RESISTANCE" operator="SUBSTRACT" scaling="1879381719"/>
 <stat name="CRITICAL_DEFENCE" operator="SUBSTRACT" scaling="1879368457"/>
 </propertyModEffect>
 <propertyModEffect id="1879182767" name="Trail Food" iconId="1091536885" duration="1200.0" baseFlags="4540">
@@ -28452,9 +28452,6 @@
 <propertyModEffect id="1879233960" name="Writ of Fire Attunement Shift" iconId="1091620586" baseFlags="6588">
 <stat name="Skill_Runekeeper_WoF_Attunement_Shift" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879233961" name="Writ of Cold Attunement Shift" iconId="1091620586" baseFlags="6588">
-<stat name="Skill_Runekeeper_WoC_Attunement_Shift" constant="3.0"/>
-</propertyModEffect>
 <propertyModEffect id="1879233962" name="Writ of Health Attunement Shift" iconId="1091620586" baseFlags="6588">
 <stat name="Skill_Runekeeper_WoH_Attunement_Shift" operator="SUBSTRACT" constant="2.0"/>
 </propertyModEffect>
@@ -28465,7 +28462,6 @@
 <persistentComboEffect id="1879233966" name="Riffler Healing Attunement" iconId="1091620587" duration="1.0" baseFlags="6332">
 <present id="1879153554" name="Healing Attuned"/>
 <toAddIfPresent id="1879233960" name="Writ of Fire Attunement Shift"/>
-<toAddIfPresent id="1879233961" name="Writ of Cold Attunement Shift"/>
 </persistentComboEffect>
 <propertyModEffect id="1879234140" name="Retreat" appliedDescription="key:620898194:54354734" iconId="1091565008" baseFlags="6332">
 <stat name="AI_MovementBehavior" operator="SET" descriptionOverride="-" value="e587203435:1"/>
@@ -64279,11 +64275,17 @@
 <initiallyApplied id="1879381691" name="Serious Business"/>
 <applied id="1879149379" name="DNT - Do Nothing"/>
 </applyOverTimeEffect>
+<propertyModEffect id="1879440099" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440087L"/>
+</propertyModEffect>
 <propertyModEffect id="1879440104" iconId="1090553792" baseFlags="6332">
 <stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440092L"/>
 </propertyModEffect>
 <propertyModEffect id="1879440108" iconId="1090553792" baseFlags="6332">
 <stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440094L"/>
+</propertyModEffect>
+<propertyModEffect id="1879440109" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440093L"/>
 </propertyModEffect>
 <propertyModEffect id="1879440113" name="Mounted" iconId="1090519170" baseFlags="6316">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621059697:106251889" modifiers="SET:268459053" constant="68.0"/>
@@ -87752,16 +87754,6 @@
 <initiallyApplied id="1879507225" name="DNT - AoE Burst"/>
 <applied id="1879507225" name="DNT - AoE Burst"/>
 </applyOverTimeEffect>
-<comboEffect id="1879507446" name="DNT" baseFlags="4127">
-<present id="1879528092" name="Chilled Bones II"/>
-<toAddIfNotPresent id="1879149379" name="DNT - Do Nothing"/>
-<toAddIfPresent id="1879528091" name="DNT - Affliction Frost"/>
-</comboEffect>
-<comboEffect id="1879507478" name="DNT" baseFlags="4127">
-<present id="1879528099" name="Chilled Bones I"/>
-<toAddIfNotPresent id="1879507446" name="DNT"/>
-<toAddIfPresent id="1879528091" name="DNT - Affliction Frost"/>
-</comboEffect>
 <vitalOverTimeEffect id="1879507493" name="Grisly Wound - 9" iconId="1093065168" duration="3.0" baseFlags="7099" stat="Health_MaxLevel" damageType="1">
 <initialChange progressionID="1879180341"/>
 <overTimeChange progressionID="1879180341" modifiers="268437688"/>
@@ -96717,8 +96709,7 @@
 <toAddIfPresent id="1879528109" name="DNT - Affliction Shadow"/>
 </comboEffect>
 <comboEffect id="1879528308" name="DNT" baseFlags="4127">
-<present id="1879528099" name="Chilled Bones I"/>
-<toAddIfNotPresent id="1879507478" name="DNT"/>
+<toAddIfNotPresent id="1879149379" name="DNT - Do Nothing"/>
 <toAddIfPresent id="1879528091" name="DNT - Affliction Frost"/>
 </comboEffect>
 <vitalOverTimeEffect id="1879528328" name="Torrent of Flame" description="key:621125231:181298206" appliedDescription="key:621125231:54354734" iconId="1093032358" duration="2.0" pulseCount="1" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
@@ -97483,6 +97474,9 @@
 <initialChange progressionID="1879529555" modifiers="268437688,268445383"/>
 <overTimeChange constant="1.15" modifiers="268437688,268439611,268463403"/>
 </vitalOverTimeEffect>
+<propertyModEffect id="1879529518" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879529521L"/>
+</propertyModEffect>
 <applyOverTimeEffect id="1879529535" name="DNT Bite Tierups" iconId="1092404588" duration="1.0" baseFlags="6843">
 <initiallyApplied id="1879526949" name="DNT - Curse Torc" spellcraft="160.0"/>
 <initiallyApplied id="1879526994" name="DNT - Shaded Wound" spellcraft="160.0"/>
@@ -97565,8 +97559,36 @@
 <stat name="Trait_Captain_ValourHeal_5" operator="SET" descriptionOverride="-" value="[{'Skill_Effect':1879529667,'Skill_EffectImplementUsage':1},{'Skill_Effect':1879529672,'Skill_EffectImplementUsage':1},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0}]"/>
 <stat name="Trait_Captain_ValourHeal_6" operator="SET" descriptionOverride="-" value="[{'Skill_Effect':1879529664,'Skill_EffectImplementUsage':1},{'Skill_Effect':1879529672,'Skill_EffectImplementUsage':1},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0}]"/>
 </propertyModEffect>
+<comboEffect id="1879529657" name="DNT" baseFlags="4124">
+<toAddIfPresent id="1879529673" name="Devastating Blow - Heal"/>
+<toExamine id="1879458634" name="Devastating Blow - Heal"/>
+</comboEffect>
+<comboEffect id="1879529658" name="DNT" baseFlags="4124">
+<toAddIfPresent id="1879529676" name="Grave Wound - Heal"/>
+<toExamine id="1879458635" name="Grave Wound - Heal"/>
+</comboEffect>
+<comboEffect id="1879529659" name="DNT" baseFlags="4124">
+<toAddIfPresent id="1879529677" name="Blade of Elendil - Heal"/>
+<toExamine id="1879458636" name="Blade of Elendil - Heal"/>
+</comboEffect>
+<comboEffect id="1879529660" name="DNT" baseFlags="4124">
+<toAddIfPresent id="1879529674" name="Pressing Attack - Heal"/>
+<toExamine id="1879458632" name="Pressing Attack - Heal"/>
+</comboEffect>
+<comboEffect id="1879529661" name="DNT" baseFlags="4124">
+<toAddIfPresent id="1879529675" name="Cutting Attack - Heal"/>
+<toExamine id="1879458633" name="Cutting Attack - Heal"/>
+</comboEffect>
+<comboEffect id="1879529662" name="DNT" baseFlags="4124">
+<toAddIfPresent id="1879529653" name="Defensive Strike - Heal"/>
+<toExamine id="1879458637" name="Defensive Strike - Heal"/>
+</comboEffect>
+<comboEffect id="1879529663" name="DNT" baseFlags="4124">
+<toAddIfPresent id="1879529654" name="Sure Strike - Heal"/>
+<toExamine id="1879458598" name="Sure Strike - Heal"/>
+</comboEffect>
 <fellowshipEffect id="1879529664" name="DNT - Melee Skill Heal" probability="0.0" probabilityModProperty="268464303" baseFlags="4124" applyToPets="true" applyToTarget="true" stringOverride="key:621126417:106620912" range="30.0">
-<effect id="1879529673" name="Devastating Blow - Heal"/>
+<effect id="1879529657" name="DNT"/>
 </fellowshipEffect>
 <propertyModEffect id="1879529665" name="DNT - Adds Heals to Melee Skills" iconId="1090519170" baseFlags="6284">
 <stat name="Trait_Captain_ValourHeal_0" operator="SET" descriptionOverride="key:621126421:106251889" value="[{'Skill_Effect':1879529670,'Skill_EffectImplementUsage':1},{'Skill_Effect':1879529672,'Skill_EffectImplementUsage':1},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0}]"/>
@@ -97575,22 +97597,22 @@
 <stat name="Trait_Captain_ValourHeal_3" operator="SET" descriptionOverride="-" value="[{'Skill_Effect':1879529669,'Skill_EffectImplementUsage':1},{'Skill_Effect':1879529672,'Skill_EffectImplementUsage':1},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0}]"/>
 </propertyModEffect>
 <fellowshipEffect id="1879529666" name="DNT - Melee Skill Heal" probability="0.0" probabilityModProperty="268464303" baseFlags="4124" applyToPets="true" applyToTarget="true" stringOverride="key:621126414:106620912" range="30.0">
-<effect id="1879529677" name="Blade of Elendil - Heal"/>
+<effect id="1879529659" name="DNT"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879529667" name="DNT - Melee Skill Heal" probability="0.0" probabilityModProperty="268464303" baseFlags="4124" applyToPets="true" applyToTarget="true" stringOverride="key:621126429:106620912" range="30.0">
-<effect id="1879529676" name="Grave Wound - Heal"/>
+<effect id="1879529658" name="DNT"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879529668" name="DNT - Melee Skill Heal" probability="0.0" probabilityModProperty="268464303" baseFlags="4124" applyToPets="true" applyToTarget="true" stringOverride="key:621126434:106620912" range="30.0">
-<effect id="1879529675" name="Cutting Attack - Heal"/>
+<effect id="1879529661" name="DNT"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879529669" name="DNT - Melee Skill Heal" probability="0.0" probabilityModProperty="268464303" baseFlags="4124" applyToPets="true" applyToTarget="true" stringOverride="key:621126424:106620912" range="30.0">
-<effect id="1879529674" name="Pressing Attack - Heal"/>
+<effect id="1879529660" name="DNT"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879529670" name="DNT - Melee Skill Heal" probability="0.0" probabilityModProperty="268464303" baseFlags="4124" applyToPets="true" applyToTarget="true" stringOverride="key:621126427:106620912" range="30.0">
-<effect id="1879529654" name="Sure Strike - Heal"/>
+<effect id="1879529663" name="DNT"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879529671" name="DNT - Melee Skill Heal" probability="0.0" probabilityModProperty="268464303" baseFlags="4124" applyToPets="true" applyToTarget="true" stringOverride="key:621126418:106620912" range="30.0">
-<effect id="1879529653" name="Defensive Strike - Heal"/>
+<effect id="1879529662" name="DNT"/>
 </fellowshipEffect>
 <fellowshipEffect id="1879529672" name="DNT - Melee Skill Heal" description="key:621126415:181298206" probability="0.15" baseFlags="4124" applyToPets="true" applyToTarget="true" range="30.0">
 <effect id="1879529655" name="Noble Hands"/>
@@ -98118,4 +98140,30 @@
 </hotspot>
 </genesis>
 <flagEffect id="1879531171" name="DNT - barred from picking up additional CTF objects." iconId="1090519170" baseFlags="6328"/>
+<propertyModEffect id="1879531295" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879531290L"/>
+</propertyModEffect>
+<propertyModEffect id="1879531318" name="Mounted" iconId="1090519170" baseFlags="6316">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621127928:106251889" modifiers="SET:268459053" constant="68.0"/>
+<stat name="Combat_CanEvade" operator="SET" descriptionOverride="key:621127928:106251890" value="false"/>
+<stat name="Combat_CanParry" operator="SET" descriptionOverride="key:621127928:106251891" value="false"/>
+<stat name="Combat_CanBlock" operator="SET" descriptionOverride="key:621127928:106251892" value="false"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+</propertyModEffect>
+<propertyModEffect id="1879531322" name="Mounted" iconId="1090519170" baseFlags="6316">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621127926:106251889" modifiers="SET:268459053" constant="68.0"/>
+<stat name="Combat_CanEvade" operator="SET" descriptionOverride="key:621127926:106251890" value="false"/>
+<stat name="Combat_CanParry" operator="SET" descriptionOverride="key:621127926:106251891" value="false"/>
+<stat name="Combat_CanBlock" operator="SET" descriptionOverride="key:621127926:106251892" value="false"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+</propertyModEffect>
+<effect id="1879531330" name="Promised Allies Milestone Style" appliedDescription="key:621127936:54354734" baseFlags="4124"/>
+<effect id="1879531512" name="Promise Sword" appliedDescription="key:621128110:54354734" baseFlags="4124"/>
+<persistentComboEffect id="1879531562" name="DNT - Improved Valour for PvMP" iconId="1091620587" duration="1.0" baseFlags="6284">
+<present id="1879457119" name="DNT"/>
+<toAddIfPresent id="1879529665" name="DNT - Adds Heals to Melee Skills"/>
+<toAddIfPresent id="1879529656" name="DNT - Adds Heals to Melee Skills"/>
+</persistentComboEffect>
 </effects>
