@@ -35077,7 +35077,8 @@
 <effect id="1879264528" name="Darkest Before Dawn"/>
 </procEffect>
 <dispelByResist id="1879265200" name="DNT - Remove Poison, Disease, Wound, or Fear" baseFlags="4124" maxDispelCount="1" resistCategories="2,4,7,8" useStrengthRestriction="true" strengthOffset="5"/>
-<applyOverTimeEffect id="1879265201" name="Scribe New Ending" iconId="1091721240" duration="2.0" pulseCount="3" baseFlags="4540">
+<applyOverTimeEffect id="1879265201" name="Scribe New Ending" iconId="1091721240" duration="2.0" pulseCount="2" baseFlags="4540">
+<initiallyApplied id="1879265200" name="DNT - Remove Poison, Disease, Wound, or Fear"/>
 <applied id="1879265200" name="DNT - Remove Poison, Disease, Wound, or Fear"/>
 </applyOverTimeEffect>
 <propertyModEffect id="1879265206" name="Major Agility Boost" iconId="1090648221" duration="20.0" baseFlags="4540">
@@ -64278,14 +64279,35 @@
 <propertyModEffect id="1879440099" iconId="1090553792" baseFlags="6332">
 <stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440087L"/>
 </propertyModEffect>
+<propertyModEffect id="1879440100" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440095L"/>
+</propertyModEffect>
+<propertyModEffect id="1879440101" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440091L"/>
+</propertyModEffect>
+<propertyModEffect id="1879440102" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440089L"/>
+</propertyModEffect>
+<propertyModEffect id="1879440103" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440096L"/>
+</propertyModEffect>
 <propertyModEffect id="1879440104" iconId="1090553792" baseFlags="6332">
 <stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440092L"/>
+</propertyModEffect>
+<propertyModEffect id="1879440106" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440097L"/>
+</propertyModEffect>
+<propertyModEffect id="1879440107" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440088L"/>
 </propertyModEffect>
 <propertyModEffect id="1879440108" iconId="1090553792" baseFlags="6332">
 <stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440094L"/>
 </propertyModEffect>
 <propertyModEffect id="1879440109" iconId="1090553792" baseFlags="6332">
 <stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440093L"/>
+</propertyModEffect>
+<propertyModEffect id="1879440110" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879440090L"/>
 </propertyModEffect>
 <propertyModEffect id="1879440113" name="Mounted" iconId="1090519170" baseFlags="6316">
 <stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621059697:106251889" modifiers="SET:268459053" constant="68.0"/>
@@ -87642,16 +87664,16 @@
 <instantVitalEffect id="1879507059" name="Invigourating Retort" baseFlags="4124" stat="Health_MaxLevel">
 <vitalChange progressionID="1879368264" variance="0.1" modifiers="268448151,268438449,268447415,268441250,268462699" vpsMultiplier="20.0"/>
 </instantVitalEffect>
-<vitalOverTimeEffect id="1879507063" name="Fire-spike - 3" iconId="1093032343" duration="3.0" pulseCount="5" pulseCountMods="268456021" baseFlags="5055" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879507063" name="Fire-spike - III" iconId="1093032343" duration="3.0" pulseCount="5" pulseCountMods="268456021" baseFlags="5055" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879413234" variance="0.25" modifiers="268437688,268445383,268463403"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879507064" name="Fire-spike - 2" iconId="1093032343" duration="3.0" pulseCount="5" pulseCountMods="268456021" baseFlags="5055" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879507064" name="Fire-spike - II" iconId="1093032343" duration="3.0" pulseCount="5" pulseCountMods="268456021" baseFlags="5055" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879413238" variance="0.25" modifiers="268437688,268445383,268463403"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879507066" name="Acidic Recovery" baseFlags="4124" stat="Power_MaxLevel">
 <vitalChange progressionID="1879413274" variance="0.25"/>
 </instantVitalEffect>
-<vitalOverTimeEffect id="1879507067" name="Fire-spike - 1" iconId="1093032343" duration="3.0" pulseCount="5" pulseCountMods="268456021" baseFlags="5055" stat="Health_MaxLevel" damageType="16">
+<vitalOverTimeEffect id="1879507067" name="Fire-spike - I" iconId="1093032343" duration="3.0" pulseCount="5" pulseCountMods="268456021" baseFlags="5055" stat="Health_MaxLevel" damageType="16">
 <overTimeChange progressionID="1879413243" variance="0.25" modifiers="268437688,268445383,268463403"/>
 </vitalOverTimeEffect>
 <instantVitalEffect id="1879507070" name="Refreshing Tomb" baseFlags="4124" stat="Health_MaxLevel">
@@ -87664,9 +87686,9 @@
 <overTimeChange progressionID="1879413241" variance="0.25" modifiers="268437688,268445383,268463403"/>
 </vitalOverTimeEffect>
 <tieredEffect id="1879507076" name="DNT - Fire Spike Tiered" baseFlags="4127" showInExamination="true">
-<tierUp id="1879507067" name="Fire-spike - 1"/>
-<tierUp id="1879507064" name="Fire-spike - 2"/>
-<finalTier id="1879507063" name="Fire-spike - 3"/>
+<tierUp id="1879507067" name="Fire-spike - I"/>
+<tierUp id="1879507064" name="Fire-spike - II"/>
+<finalTier id="1879507063" name="Fire-spike - III"/>
 </tieredEffect>
 <tieredEffect id="1879507080" name="DNT - Frost Spike Tiered" baseFlags="4127" showInExamination="true">
 <tierUp id="1879506645" name="Gelid Shell I"/>
@@ -87753,6 +87775,10 @@
 <applyOverTimeEffect id="1879507342" name="Ice Shards" iconId="1093032359" duration="6.0" pulseCount="2" baseFlags="4539">
 <initiallyApplied id="1879507225" name="DNT - AoE Burst"/>
 <applied id="1879507225" name="DNT - AoE Burst"/>
+</applyOverTimeEffect>
+<applyOverTimeEffect id="1879507355" name="Umbral Spout" iconId="1093032371" duration="4.0" pulseCount="3" baseFlags="4539">
+<initiallyApplied id="1879507227" name="DNT - AoE Burst"/>
+<applied id="1879507227" name="DNT - AoE Burst"/>
 </applyOverTimeEffect>
 <vitalOverTimeEffect id="1879507493" name="Grisly Wound - 9" iconId="1093065168" duration="3.0" baseFlags="7099" stat="Health_MaxLevel" damageType="1">
 <initialChange progressionID="1879180341"/>
@@ -96713,7 +96739,7 @@
 <toAddIfPresent id="1879528091" name="DNT - Affliction Frost"/>
 </comboEffect>
 <vitalOverTimeEffect id="1879528328" name="Torrent of Flame" description="key:621125231:181298206" appliedDescription="key:621125231:54354734" iconId="1093032358" duration="2.0" pulseCount="1" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
-<initialChange progressionID="1879529552" modifiers="268437688,268445383"/>
+<initialChange progressionID="1879413268" modifiers="268437688,268445383"/>
 <overTimeChange constant="1.15" modifiers="268437688,268439611,268463403"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879528357" name="Frailty" appliedDescription="key:621125254:54354734" iconId="1093004344" duration="8.0" baseFlags="5043">
@@ -96875,6 +96901,7 @@
 </aiPetEffect>
 <aiPetEffect id="1879528533" name="Umbral Spout" baseFlags="4124">
 <summoned id="1879507113" name="Umbral Spout"/>
+<effect id="1879507355" name="Umbral Spout"/>
 <effect id="1879527190" name="Umbral Storm"/>
 </aiPetEffect>
 <aiPetEffect id="1879528534" name="Acidic Fumarole" baseFlags="4124">
@@ -97451,31 +97478,40 @@
 <applied id="1879149379" name="DNT - Do Nothing"/>
 </applyOverTimeEffect>
 <vitalOverTimeEffect id="1879529488" name="Torrent of Flame" iconId="1093032358" duration="2.0" pulseCount="1" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
-<initialChange progressionID="1879529553" modifiers="268437688,268445383"/>
+<initialChange progressionID="1879413268" modifiers="268437688,268445383"/>
 <overTimeChange constant="1.15" modifiers="268437688,268439611,268463403"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879529489" name="Torrent of Flame" iconId="1093032358" duration="2.0" pulseCount="1" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
-<initialChange progressionID="1879529556" modifiers="268437688,268445383"/>
+<initialChange progressionID="1879413268" modifiers="268437688,268445383"/>
 <overTimeChange constant="1.15" modifiers="268437688,268439611,268463403"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879529490" name="Torrent of Flame" iconId="1093032358" duration="2.0" pulseCount="1" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
-<initialChange progressionID="1879529557" modifiers="268437688,268445383"/>
+<initialChange progressionID="1879413268" modifiers="268437688,268445383"/>
 <overTimeChange constant="1.15" modifiers="268437688,268439611,268463403"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879529491" name="Torrent of Flame" iconId="1093032358" duration="2.0" pulseCount="1" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
-<initialChange progressionID="1879529554" modifiers="268437688,268445383"/>
+<initialChange progressionID="1879413268" modifiers="268437688,268445383"/>
 <overTimeChange constant="1.15" modifiers="268437688,268439611,268463403"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879529492" name="Torrent of Flame" iconId="1093032358" duration="2.0" pulseCount="1" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
-<initialChange progressionID="1879529553" modifiers="268437688,268445383"/>
+<initialChange progressionID="1879413268" modifiers="268437688,268445383"/>
 <overTimeChange constant="1.15" modifiers="268437688,268439611,268463403"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879529493" name="Torrent of Flame" iconId="1093032358" duration="2.0" pulseCount="1" baseFlags="5051" stat="Health_MaxLevel" damageType="16">
-<initialChange progressionID="1879529555" modifiers="268437688,268445383"/>
+<initialChange progressionID="1879413268" modifiers="268437688,268445383"/>
 <overTimeChange constant="1.15" modifiers="268437688,268439611,268463403"/>
 </vitalOverTimeEffect>
+<propertyModEffect id="1879529503" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879529534L"/>
+</propertyModEffect>
+<propertyModEffect id="1879529513" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879529502L"/>
+</propertyModEffect>
 <propertyModEffect id="1879529518" iconId="1090553792" baseFlags="6332">
 <stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879529521L"/>
+</propertyModEffect>
+<propertyModEffect id="1879529529" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879529528L"/>
 </propertyModEffect>
 <applyOverTimeEffect id="1879529535" name="DNT Bite Tierups" iconId="1092404588" duration="1.0" baseFlags="6843">
 <initiallyApplied id="1879526949" name="DNT - Curse Torc" spellcraft="160.0"/>
@@ -97830,8 +97866,8 @@
 <stat name="ForwardSource_Movement_SpeedMultiplier" constant="30.000002"/>
 </propertyModEffect>
 <propertyModEffect id="1879529904" name="Resilience of the Aurochs" iconId="1092817686" duration="10.0" baseFlags="4540">
-<stat name="Skill_HealingMultiplier_Item" constant="50.0"/>
-<stat name="INCOMING_HEALING_PERCENTAGE" constant="25.0"/>
+<stat name="Skill_HealingMultiplier_Item" constant="40.0"/>
+<stat name="INCOMING_HEALING_PERCENTAGE" constant="10.0"/>
 </propertyModEffect>
 <instantVitalEffect id="1879529909" name="The Eagle's Talon" baseFlags="4127" stat="Health_MaxLevel" damageType="8">
 <vitalChange progressionID="1879468798"/>
@@ -98075,7 +98111,8 @@
 <propertyModEffect id="1879530343" name="DNT - override scribe effects" iconId="1090519170" baseFlags="6284">
 <stat name="Runekeeper_ScribeCleanse_Override" operator="SET" descriptionOverride="key:621127031:106251889" value="[{'Skill_Effect':1879530349,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0}]"/>
 </propertyModEffect>
-<applyOverTimeEffect id="1879530345" name="Scribe New Ending" iconId="1091721240" duration="2.0" pulseCount="3" probability="0.0" probabilityModProperty="268464303" baseFlags="4540">
+<applyOverTimeEffect id="1879530345" name="Scribe New Ending" iconId="1091721240" duration="2.0" pulseCount="2" probability="0.0" probabilityModProperty="268464303" baseFlags="4540">
+<initiallyApplied id="1879530348" name="DNT - Remove Poison, Disease, Wound, or Fear"/>
 <applied id="1879530348" name="DNT - Remove Poison, Disease, Wound, or Fear"/>
 </applyOverTimeEffect>
 <procEffect id="1879530346" name="DNT" descriptionOverride="key:621127033:62991877" appliedDescription="key:621127033:54354734" iconId="1092976771" baseFlags="6280" skillTypes="24" cooldown="9.0">
