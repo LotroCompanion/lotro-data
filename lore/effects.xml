@@ -8114,9 +8114,6 @@
 <vitalOverTimeEffect id="1879136674" name="Bleeding Ears" iconId="1091405159" duration="2.0" pulseCount="3" pulseCountMods="268456021" baseFlags="5055" stat="Health_MaxLevel" damageType="32">
 <overTimeChange progressionID="1879413252" variance="0.3" modifiers="268437688,268463403"/>
 </vitalOverTimeEffect>
-<propertyModEffect id="1879136722" name="Power of the First Age" appliedDescription="key:620827952:54354734" iconId="1090541176" baseFlags="6580">
-<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SET" descriptionOverride="key:620827952:106251889" constant="100.0"/>
-</propertyModEffect>
 <propertyModEffect id="1879136771" name="Hidden Haste" iconId="1091472151" duration="10.0" baseFlags="4540">
 <stat name="ForwardSource_Movement_SpeedMultiplier" operator="SET" constant="100.0"/>
 </propertyModEffect>
@@ -31603,25 +31600,6 @@
 </instantVitalEffect>
 <effect id="1879250591" name="Exit Torch Carrying." appliedDescription="key:620908694:54354734" baseFlags="4124"/>
 <effect id="1879250592" name="Exit Torch Carrying." appliedDescription="key:620908693:54354734" baseFlags="4124"/>
-<propertyModEffect id="1879250593" name="The Gift of Carrock" appliedDescription="key:620908696:54354734" iconId="1091752904" baseFlags="6540">
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
-<stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="2.0"/>
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:620908696:106251893" constant="50.0"/>
-<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="50.0"/>
-</propertyModEffect>
-<propertyModEffect id="1879250594" name="Fragment of Mordirith's Crown" appliedDescription="key:620908695:54354734" iconId="1091752903" baseFlags="6540">
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
-<stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="2.0"/>
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:620908695:106251893" constant="50.0"/>
-<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="50.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
-</propertyModEffect>
 <propertyModEffect id="1879250668" name="Eastemnet Fire-oil" description="key:620908765:181298206" iconId="1090531555" duration="1800.0" baseFlags="4540">
 <stat name="ForwardSource_Combat_Hunter_SkillCombo" descriptionOverride="-" value="(20)"/>
 <stat name="ForwardSource_Combat_Warden_SkillCombo" descriptionOverride="-" value="(1)"/>
@@ -32496,11 +32474,10 @@
 <dispelEffect id="1879254080" name="DNT - Dispel Stealth Protection" baseFlags="4124">
 <effect id="1879254067" name="Protection from Stealth"/>
 <effect id="1879529115" name="Artifact-bearer"/>
-<effect id="1879529116" name="Artifact-bearer"/>
 <effect id="1879529118" name="Artifact-bearer"/>
-<effect id="1879529117" name="Artifact-bearer"/>
-<effect id="1879136722" name="Power of the First Age"/>
-<effect id="1879531171" name="DNT - barred from picking up additional CTF objects."/>
+<effect id="1879531282" name="Power of the First Age"/>
+<effect id="1879531283" name="Power of the First Age"/>
+<effect id="1879531171" name="Carrying artifact or relic"/>
 </dispelEffect>
 <applyOverTimeEffect id="1879254084" name="Strategic Response" iconId="1090519170" duration="1.0" baseFlags="4488">
 <initiallyApplied id="1879149379" name="DNT - Do Nothing"/>
@@ -48191,6 +48168,11 @@
 <vitalOverTimeEffect id="1879339436" name="Not-So-Well Placed Strike" iconId="1092241521" duration="4.0" pulseCount="3" pulseCountMods="268457120,268440118" baseFlags="5055" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268462739" vpsMultiplier="0.6555"/>
 </vitalOverTimeEffect>
+<propertyModEffect id="1879339588" name="Strength of Arms" appliedDescription="key:620981181:54354734" iconId="1091475959" baseFlags="6540">
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
+</propertyModEffect>
 <aiPetEffect id="1879339929" name="Summon Fell Spirit" description="key:620994040:181298206" baseFlags="4124">
 <summoned id="1879341340" name="Twisted Fell Spirit"/>
 </aiPetEffect>
@@ -87043,211 +87025,14 @@
 <vitalOverTimeEffect id="1879506118" name="Continual Major Renewal" iconId="1093003897" duration="2.0" baseFlags="6584" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879343086"/>
 </vitalOverTimeEffect>
-<applyOverTimeEffect id="1879506119" name="Bearer of Gil-galad's Visage" iconId="1090519170" duration="9.0" baseFlags="6328">
-<applied id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.25"/>
-</applyOverTimeEffect>
-<applyOverTimeEffect id="1879506120" name="Bearer of Sauron's Visage" iconId="1090519170" duration="9.0" baseFlags="6328">
-<applied id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.1"/>
-</applyOverTimeEffect>
-<applyOverTimeEffect id="1879506121" name="Bearer of Gil-galad's Visage" iconId="1090519170" duration="9.0" baseFlags="6328">
-<applied id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.4"/>
-</applyOverTimeEffect>
-<applyOverTimeEffect id="1879506122" name="Bearer of Gil-galad's Visage" iconId="1090519170" duration="9.0" baseFlags="6328">
-<applied id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.55"/>
-</applyOverTimeEffect>
-<tieredEffect id="1879506123" name="DNT - Relic Damage" baseFlags="4124" showInExamination="true">
-<tierUp id="1879506120" name="Bearer of Sauron's Visage"/>
-<tierUp id="1879506127" name="Bearer of Sauron's Visage"/>
-<tierUp id="1879506128" name="Bearer of Sauron's Visage"/>
-<tierUp id="1879506129" name="Bearer of Sauron's Visage"/>
-<finalTier id="1879506131" name="Bearer of Sauron's Visage"/>
-</tieredEffect>
-<comboEffect id="1879506124" name="DNT" baseFlags="4124">
-<present id="1879506117" name="The Hoarfall"/>
-<toAddIfNotPresent id="1879506123" name="DNT - Relic Damage"/>
-<toAddIfPresent id="1879506391" name="DNT - Dispel Relic Damage"/>
-</comboEffect>
-<comboEffect id="1879506125" name="DNT" baseFlags="4124">
-<present id="1879506117" name="The Hoarfall"/>
-<toAddIfNotPresent id="1879506130" name="DNT - Relic Damage"/>
-<toAddIfPresent id="1879506391" name="DNT - Dispel Relic Damage"/>
-</comboEffect>
-<applyOverTimeEffect id="1879506126" name="Bearer of Gil-galad's Visage" iconId="1090519170" duration="9.0" baseFlags="6328">
-<applied id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.75"/>
-</applyOverTimeEffect>
-<applyOverTimeEffect id="1879506127" name="Bearer of Sauron's Visage" iconId="1090519170" duration="9.0" baseFlags="6328">
-<applied id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.25"/>
-</applyOverTimeEffect>
-<applyOverTimeEffect id="1879506128" name="Bearer of Sauron's Visage" iconId="1090519170" duration="9.0" baseFlags="6328">
-<applied id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.4"/>
-</applyOverTimeEffect>
-<applyOverTimeEffect id="1879506129" name="Bearer of Sauron's Visage" iconId="1090519170" duration="9.0" baseFlags="6328">
-<applied id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.55"/>
-</applyOverTimeEffect>
-<tieredEffect id="1879506130" name="DNT - Relic Damage" baseFlags="4124" showInExamination="true">
-<tierUp id="1879506132" name="Bearer of Gil-galad's Visage"/>
-<tierUp id="1879506119" name="Bearer of Gil-galad's Visage"/>
-<tierUp id="1879506121" name="Bearer of Gil-galad's Visage"/>
-<tierUp id="1879506122" name="Bearer of Gil-galad's Visage"/>
-<finalTier id="1879506126" name="Bearer of Gil-galad's Visage"/>
-</tieredEffect>
-<applyOverTimeEffect id="1879506131" name="Bearer of Sauron's Visage" iconId="1090519170" duration="9.0" baseFlags="6328">
-<applied id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.75"/>
-</applyOverTimeEffect>
-<applyOverTimeEffect id="1879506132" name="Bearer of Gil-galad's Visage" iconId="1090519170" duration="9.0" baseFlags="6328">
-<applied id="1879077599" name="Percent Morale Damage To Self" spellcraft="0.1"/>
-</applyOverTimeEffect>
-<propertyModEffect id="1879506133" name="Relic's Blessing - 9" appliedDescription="key:621106822:54354734" iconId="1091677440" duration="90.0" baseFlags="4528">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621106822:106251889" constant="11.25"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="11.25"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="11.25"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="key:621106822:106251892" constant="1.1125"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.1125"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.1125"/>
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:621106822:106251895" constant="11.25"/>
-<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="11.25"/>
-</propertyModEffect>
-<propertyModEffect id="1879506134" name="Relic's Blessing - 1" appliedDescription="key:621106820:54354734" iconId="1091677440" duration="90.0" baseFlags="4536">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621106820:106251889" constant="1.25"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="1.25"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="1.25"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="key:621106820:106251892" constant="1.0125"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.0125"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.0125"/>
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:621106820:106251895" constant="1.25"/>
-<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="1.25"/>
-</propertyModEffect>
-<propertyModEffect id="1879506135" name="Relic's Blessing - 2" appliedDescription="key:621106821:54354734" iconId="1091677440" duration="90.0" baseFlags="4528">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621106821:106251889" constant="2.5"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="2.5"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="2.5"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="key:621106821:106251892" constant="1.025"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.025"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.025"/>
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:621106821:106251895" constant="2.5"/>
-<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="2.5"/>
-</propertyModEffect>
-<propertyModEffect id="1879506136" name="Relic's Blessing - 3" appliedDescription="key:621106828:54354734" iconId="1091677440" duration="90.0" baseFlags="4528">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621106828:106251889" constant="3.7500002"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="3.7500002"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="3.7500002"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="key:621106828:106251892" constant="1.0375"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.0375"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.0375"/>
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:621106828:106251895" constant="3.7500002"/>
-<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="3.7500002"/>
-</propertyModEffect>
-<propertyModEffect id="1879506137" name="Relic's Blessing - 4" appliedDescription="key:621106819:54354734" iconId="1091677440" duration="90.0" baseFlags="4528">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621106819:106251889" constant="5.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="key:621106819:106251892" constant="1.05"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.05"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.05"/>
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:621106819:106251895" constant="5.0"/>
-<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="5.0"/>
-</propertyModEffect>
-<propertyModEffect id="1879506138" name="Relic's Blessing - 5" appliedDescription="key:621106825:54354734" iconId="1091677440" duration="90.0" baseFlags="4528">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621106825:106251889" constant="6.25"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="6.25"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="6.25"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="key:621106825:106251892" constant="1.0625"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.0625"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.0625"/>
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:621106825:106251895" constant="6.25"/>
-<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="6.25"/>
-</propertyModEffect>
-<propertyModEffect id="1879506139" name="Relic's Final Blessing" appliedDescription="key:621106824:54354734" iconId="1091677440" duration="900.0" baseFlags="4488">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621106824:106251889" constant="15.000001"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="15.000001"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="15.000001"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="key:621106824:106251892" constant="1.15"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.15"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.15"/>
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:621106824:106251895" constant="15.000001"/>
-<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="15.000001"/>
-</propertyModEffect>
-<propertyModEffect id="1879506140" name="Relic's Blessing - 6" appliedDescription="key:621106829:54354734" iconId="1091677440" duration="90.0" baseFlags="4528">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621106829:106251889" constant="7.5000005"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="7.5000005"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="7.5000005"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="key:621106829:106251892" constant="1.075"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.075"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.075"/>
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:621106829:106251895" constant="7.5000005"/>
-<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="7.5000005"/>
-</propertyModEffect>
-<propertyModEffect id="1879506141" name="Relic's Blessing - 7" appliedDescription="key:621106823:54354734" iconId="1091677440" duration="90.0" baseFlags="4528">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621106823:106251889" constant="8.75"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="8.75"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="8.75"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="key:621106823:106251892" constant="1.0875"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.0875"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.0875"/>
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:621106823:106251895" constant="8.75"/>
-<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="8.75"/>
-</propertyModEffect>
-<propertyModEffect id="1879506142" name="Relic's Blessing - 10" appliedDescription="key:621106827:54354734" iconId="1091677440" duration="90.0" baseFlags="4528">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621106827:106251889" constant="12.5"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="12.5"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="12.5"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="key:621106827:106251892" constant="1.125"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.125"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.125"/>
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:621106827:106251895" constant="12.5"/>
-<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="12.5"/>
-</propertyModEffect>
-<propertyModEffect id="1879506143" name="Relic's Blessing - 8" appliedDescription="key:621106826:54354734" iconId="1091677440" duration="90.0" baseFlags="4528">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621106826:106251889" constant="10.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
-<stat name="MELEE_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="key:621106826:106251892" constant="1.1"/>
-<stat name="RANGED_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.1"/>
-<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="MULTIPLY" descriptionOverride="-" constant="1.1"/>
-<stat name="Glory_AwardMultiplier" descriptionOverride="key:621106826:106251895" constant="10.0"/>
-<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="10.0"/>
-</propertyModEffect>
-<tieredEffect id="1879506144" name="DNT - Relic Bonus Check" baseFlags="4124" showInExamination="true">
-<tierUp id="1879506134" name="Relic's Blessing - 1"/>
-<tierUp id="1879506135" name="Relic's Blessing - 2"/>
-<tierUp id="1879506136" name="Relic's Blessing - 3"/>
-<tierUp id="1879506137" name="Relic's Blessing - 4"/>
-<tierUp id="1879506138" name="Relic's Blessing - 5"/>
-<tierUp id="1879506140" name="Relic's Blessing - 6"/>
-<tierUp id="1879506141" name="Relic's Blessing - 7"/>
-<tierUp id="1879506143" name="Relic's Blessing - 8"/>
-<tierUp id="1879506133" name="Relic's Blessing - 9"/>
-<tierUp id="1879506142" name="Relic's Blessing - 10"/>
-<finalTier id="1879507946" name="DNT"/>
-</tieredEffect>
-<fellowshipEffect id="1879506145" name="DNT - Killproc Spread Effect" baseFlags="4124" applyToTarget="true" range="40.0">
-<effect id="1879506144" name="DNT - Relic Bonus Check"/>
-</fellowshipEffect>
-<propertyModEffect id="1879506146" name="Bearer of an Enemy Visage" appliedDescription="key:621106832:54354734" iconId="1090541176" baseFlags="6580">
-<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SET" descriptionOverride="key:621106832:106251889" constant="100.0"/>
-<stat name="CombatState_CurrentStateImmunities" descriptionOverride="key:621106832:106251894" value="(1,2,4,6,7,8,9,12,14,17)"/>
-</propertyModEffect>
 <dispelEffect id="1879506147" name="DNT - Dispel Carrying Relic Effects" baseFlags="4124">
-<effect id="1879506148" name="Relic-bearer"/>
-<effect id="1879506172" name="Bearer of Sauron's Visage"/>
-<effect id="1879506171" name="Bearer of Gil-galad's Visage"/>
-<effect id="1879506146" name="Bearer of an Enemy Visage"/>
-<effect id="1879506238" name="Relic-bearer"/>
-<effect id="1879506237" name="Relic-bearer"/>
 <effect id="1879254067" name="Protection from Stealth"/>
-<effect id="1879136722" name="Power of the First Age"/>
-<effect id="1879531171" name="DNT - barred from picking up additional CTF objects."/>
-<effect id="1879506172" name="Bearer of Sauron's Visage"/>
 <effect id="1879529250" name="Relic-bearer"/>
-<effect id="1879529251" name="Relic-bearer"/>
-<effect id="1879529247" name="Relic-bearer"/>
 <effect id="1879529246" name="Relic-bearer"/>
-<effect id="1879529249" name="Relic-bearer"/>
-<effect id="1879529242" name="Relic-bearer"/>
+<effect id="1879531616" name="Bearing the Visage of Gil-galad"/>
+<effect id="1879531621" name="Bearing the Visage of Sauron"/>
+<effect id="1879531171" name="Carrying artifact or relic"/>
 </dispelEffect>
-<killProcEffect id="1879506148" name="Relic-bearer" appliedDescription="key:621106833:54354734" iconId="1091838421" baseFlags="2488">
-<userEffect id="1879507790" name="DNT"/>
-</killProcEffect>
 <areaEffect id="1879506162" name="DNT - applies effect to friendlies" baseFlags="4124" flags="4" range="20.0" maxTargets="50">
 <effect id="1879506165" name="Fury of Bones"/>
 </areaEffect>
@@ -87266,14 +87051,6 @@
 <stat name="Combat_DamageQualifier_Magic_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.2"/>
 <stat name="AI_Hints" descriptionOverride="-" value="(14)"/>
 </propertyModEffect>
-<applyOverTimeEffect id="1879506171" name="Bearer of Gil-galad's Visage" iconId="1090519170" duration="30.0" baseFlags="6584">
-<initiallyApplied id="1879506125" name="DNT"/>
-<applied id="1879506125" name="DNT"/>
-</applyOverTimeEffect>
-<applyOverTimeEffect id="1879506172" name="Bearer of Sauron's Visage" iconId="1090519170" duration="30.0" baseFlags="6584">
-<initiallyApplied id="1879506124" name="DNT"/>
-<applied id="1879506124" name="DNT"/>
-</applyOverTimeEffect>
 <propertyModEffect id="1879506187" name="DNT" iconId="1090553915" duration="10.0" baseFlags="4272">
 <stat name="AI_Hints" value="(18)"/>
 </propertyModEffect>
@@ -87281,18 +87058,6 @@
 <effect id="1879506187" name="DNT"/>
 </dispelEffect>
 <induceCombatState id="1879506189" name="Seized by Shadow" baseFlags="4127" state="27" stateDuration="6.0" breakOnHarmfullSkill="0.0" breakOnVitalLoss="0.0"/>
-<genesis id="1879506234" name="DNT - Create Visage of Gil-galad" appliedDescription="key:621106881:54354734" baseFlags="4124" summonDuration="125.0">
-<summoned id="1879506235" name="Visage of Gil-galad[e]"/>
-</genesis>
-<genesis id="1879506236" name="DNT - Create Visage of Sauron" appliedDescription="key:621106880:54354734" baseFlags="4124" permanent="true">
-<summoned id="1879506233" name="Visage of Sauron[e]"/>
-</genesis>
-<killProcEffect id="1879506237" name="Relic-bearer" iconId="1091838421" baseFlags="2224">
-<userEffect id="1879506236" name="DNT - Create Visage of Sauron"/>
-</killProcEffect>
-<killProcEffect id="1879506238" name="Relic-bearer" iconId="1091838421" baseFlags="2224">
-<userEffect id="1879506234" name="DNT - Create Visage of Gil-galad"/>
-</killProcEffect>
 <vitalOverTimeEffect id="1879506242" name="Torn Flesh IV" appliedDescription="key:621106887:54354734" iconId="1091401111" duration="3.0" pulseCount="5" baseFlags="4543" stat="Health_MaxLevel" damageType="32">
 <overTimeChange progressionID="1879180916" modifiers="268437688"/>
 </vitalOverTimeEffect>
@@ -87395,7 +87160,6 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
-<dispelEffect id="1879506391" name="DNT - Dispel Relic Damage" baseFlags="4124"/>
 <instantVitalEffect id="1879506516" name="Scorching Oil" baseFlags="4127" stat="Health_MaxLevel" multiplicative="true" multiplier="1.0"/>
 <propertyModEffect id="1879506518" name="Builder's Alacrity" appliedDescription="key:621107130:54354734" iconId="1091634811" duration="5400.0" baseFlags="4492">
 <stat name="Skill_InductionDuration_EventSkillsMod" operator="MULTIPLY" descriptionOverride="key:621107130:106251889" constant="0.85"/>
@@ -88209,11 +87973,6 @@
 <initialChange progressionID="1879343138"/>
 <overTimeChange progressionID="1879343138" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<comboEffect id="1879507790" name="DNT" baseFlags="4124">
-<present id="1879506117" name="The Hoarfall"/>
-<toAddIfNotPresent id="1879149379" name="DNT - Do Nothing"/>
-<toAddIfPresent id="1879509031" name="DNT"/>
-</comboEffect>
 <propertyModEffect id="1879507791" name="Devotion: Acid" appliedDescription="key:621108329:54354734" iconId="1093033969" baseFlags="6576">
 <stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="key:621108329:106251890" constant="5.0"/>
 <stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" descriptionOverride="-" constant="5.0"/>
@@ -88325,28 +88084,6 @@
 <dispelByResist id="1879507906" name="DNT - Remove Poison" baseFlags="4124" maxDispelCount="1" resistCategories="8" useStrengthRestriction="true" strengthOffset="5"/>
 <dispelByResist id="1879507911" name="DNT - Remove Poison, Disease, Wound, or Fear" baseFlags="4124" maxDispelCount="1" resistCategories="2,4,7,8" useStrengthRestriction="true" strengthOffset="5"/>
 <flagEffect id="1879507922" name="DNT" appliedDescription="key:621108413:54354734" iconId="1090519170" baseFlags="6304"/>
-<applyOverTimeEffect id="1879507945" name="Bearer of Sauron's Visage" iconId="1090519170" duration="1.0" pulseCount="3" baseFlags="4536">
-<initiallyApplied id="1879508243" name="DNT - Killproc Spread Effect"/>
-<initiallyApplied id="1879506147" name="DNT - Dispel Carrying Relic Effects"/>
-<applied id="1879506147" name="DNT - Dispel Carrying Relic Effects"/>
-</applyOverTimeEffect>
-<comboEffect id="1879507946" name="DNT" baseFlags="4124">
-<present id="1879506172" name="Bearer of Sauron's Visage"/>
-<toAddIfNotPresent id="1879507947" name="DNT"/>
-<toAddIfPresent id="1879507945" name="Bearer of Sauron's Visage"/>
-<toGiveBackIfPresent id="1879507945" name="Bearer of Sauron's Visage"/>
-</comboEffect>
-<comboEffect id="1879507947" name="DNT" baseFlags="4124">
-<present id="1879506171" name="Bearer of Gil-galad's Visage"/>
-<toAddIfNotPresent id="1879149379" name="DNT - Do Nothing"/>
-<toAddIfPresent id="1879507948" name="Bearer of Gil-galad's Visage"/>
-<toGiveBackIfPresent id="1879507948" name="Bearer of Gil-galad's Visage"/>
-</comboEffect>
-<applyOverTimeEffect id="1879507948" name="Bearer of Gil-galad's Visage" iconId="1090519170" duration="1.0" pulseCount="3" baseFlags="4536">
-<initiallyApplied id="1879508243" name="DNT - Killproc Spread Effect"/>
-<initiallyApplied id="1879506147" name="DNT - Dispel Carrying Relic Effects"/>
-<applied id="1879506147" name="DNT - Dispel Carrying Relic Effects"/>
-</applyOverTimeEffect>
 <killProcEffect id="1879507949" name="DNT" iconId="1091400591" baseFlags="2235">
 <userEffect id="1879507888" name="DNT - Clinging Shadows"/>
 </killProcEffect>
@@ -88569,9 +88306,6 @@
 <genesis id="1879508205" name="DNT - Shard Reality" appliedDescription="key:621108587:54354734" baseFlags="4124" summonDuration="90.0">
 <summoned id="1879508193" name="Shard of Reality[E]"/>
 </genesis>
-<fellowshipEffect id="1879508243" name="DNT - Killproc Spread Effect" baseFlags="4124" applyToTarget="true" range="40.0">
-<effect id="1879506139" name="Relic's Final Blessing"/>
-</fellowshipEffect>
 <applyOverTimeEffect id="1879508247" name="Torrent of Fire" iconId="1093032358" duration="0.5" pulseCount="8" baseFlags="4539">
 <applied id="1879508249" name="DNT - Torrent of Fire"/>
 </applyOverTimeEffect>
@@ -88877,11 +88611,6 @@
 <vitalOverTimeEffect id="1879509029" name="Damaging Gamble 6 (Loaded)" iconId="1092403304" duration="2.0" pulseCount="3" probability="0.0" probabilityModProperty="268465458" baseFlags="5055" stat="Health_MaxLevel">
 <overTimeChange progressionID="1879367855" modifiers="268451209,268462739,268461014" vpsMultiplier="2.361985"/>
 </vitalOverTimeEffect>
-<comboEffect id="1879509031" name="DNT" baseFlags="4124">
-<present id="1879506142" name="Relic's Blessing - 10"/>
-<toAddIfNotPresent id="1879506145" name="DNT - Killproc Spread Effect"/>
-<toAddIfPresent id="1879507946" name="DNT"/>
-</comboEffect>
 <propertyModEffect id="1879509062" name="DNT - Merciful or Huntsmans Shot apply a buff" iconId="1090519170" baseFlags="6284">
 <stat name="Hunter_Merciful_MeleeBuff" operator="SET" descriptionOverride="key:621109333:106251889" value="[{'Skill_Effect':1879509080,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0},{'Skill_Effect':0,'Skill_EffectImplementUsage':0}]"/>
 </propertyModEffect>
@@ -96299,13 +96028,13 @@
 <travelEffect id="1879527773" name="DNT - Fall Teleport" baseFlags="4124" removeFromInstance="false" privateEncounterID="1879524120">
 <position region="5" longitude="-82.5125" latitude="-74.35251"/>
 </travelEffect>
-<travelEffect id="1879527827" name="DNT - 1.Storm Teleport Part One-&gt;Two" baseFlags="4124" removeFromInstance="false" privateEncounterID="1879533331">
+<travelEffect id="1879527827" name="DNT - 1.Storm Teleport Part One-&gt;Two" baseFlags="4124" removeFromInstance="false" privateEncounterID="1879527776">
 <position region="4" longitude="-6.882685" latitude="-51.532303"/>
 </travelEffect>
-<travelEffect id="1879527830" name="DNT - 1.Storm Teleport Part Two-&gt;Three" baseFlags="4124" removeFromInstance="false" privateEncounterID="1879533331">
+<travelEffect id="1879527830" name="DNT - 1.Storm Teleport Part Two-&gt;Three" baseFlags="4124" removeFromInstance="false" privateEncounterID="1879527776">
 <position region="4" longitude="9.237588" latitude="-48.542953"/>
 </travelEffect>
-<travelEffect id="1879527831" name="DNT - 1.Storm Teleport Part Three-&gt;Four" baseFlags="4124" removeFromInstance="false" privateEncounterID="1879533331">
+<travelEffect id="1879527831" name="DNT - 1.Storm Teleport Part Three-&gt;Four" baseFlags="4124" removeFromInstance="false" privateEncounterID="1879527776">
 <position region="4" longitude="31.650116" latitude="-50.44042"/>
 </travelEffect>
 <applyOverTimeEffect id="1879527835" name="Shattering Howl" iconId="1092404588" duration="3.0" baseFlags="7096">
@@ -97219,32 +96948,18 @@
 <initialChange progressionID="1879405240"/>
 <overTimeChange progressionID="1879343138" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<genesis id="1879529109" name="DNT - Create Gift" appliedDescription="key:621125937:54354734" baseFlags="4124" summonDuration="125.0">
-<summoned id="1879529097" name="Gift of the Carrock[e]"/>
-</genesis>
-<genesis id="1879529110" name="DNT - Create Gift" appliedDescription="key:621125940:54354734" baseFlags="4124" summonDuration="125.0">
+<genesis id="1879529110" name="DNT - Create Gift" appliedDescription="key:621125940:54354734" baseFlags="4124" summonDuration="180.0">
 <summoned id="1879528497" name="Gift of the Carrock[e]"/>
 </genesis>
-<genesis id="1879529111" name="DNT - Create Crown" appliedDescription="key:621125939:54354734" baseFlags="4124" summonDuration="125.0">
-<summoned id="1879529106" name="Fragment of Mordirith's Crown[e]"/>
-</genesis>
-<genesis id="1879529112" name="DNT - Create Crown" appliedDescription="key:621125938:54354734" baseFlags="4124" summonDuration="125.0">
+<genesis id="1879529112" name="DNT - Create Crown" appliedDescription="key:621125938:54354734" baseFlags="4124" summonDuration="180.0">
 <summoned id="1879528498" name="Fragment of Mordirith's Crown[e]"/>
 </genesis>
 <killProcEffect id="1879529115" name="Artifact-bearer" iconId="1093149882" baseFlags="2480">
 <stat name="ContextualQuickslotArray" descriptionOverride="key:621125943:106251889" value="[1879529124]"/>
 <userEffect id="1879529112" name="DNT - Create Crown"/>
 </killProcEffect>
-<killProcEffect id="1879529116" name="Artifact-bearer" iconId="1093149882" baseFlags="2480">
-<stat name="ContextualQuickslotArray" descriptionOverride="key:621125945:106251889" value="[1879529121]"/>
-<userEffect id="1879529111" name="DNT - Create Crown"/>
-</killProcEffect>
-<killProcEffect id="1879529117" name="Artifact-bearer" iconId="1093149885" baseFlags="2480">
-<stat name="ContextualQuickslotArray" descriptionOverride="key:621125944:106251889" value="[1879529123]"/>
-<userEffect id="1879529109" name="DNT - Create Gift"/>
-</killProcEffect>
 <killProcEffect id="1879529118" name="Artifact-bearer" iconId="1093149885" baseFlags="2480">
-<stat name="ContextualQuickslotArray" descriptionOverride="key:621125946:106251889" value="[1879529123]"/>
+<stat name="ContextualQuickslotArray" descriptionOverride="key:621125946:106251889" value="[1879529122]"/>
 <userEffect id="1879529110" name="DNT - Create Gift"/>
 </killProcEffect>
 <vitalOverTimeEffect id="1879529170" name="Blood-drinker - 12" iconId="1092810118" duration="3.0" baseFlags="7100" stat="Health_MaxLevel">
@@ -97287,41 +97002,13 @@
 <initialChange progressionID="1879405240"/>
 <overTimeChange progressionID="1879343138" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<killProcEffect id="1879529242" name="Relic-bearer" iconId="1093149884" baseFlags="2480">
-<stat name="ContextualQuickslotArray" descriptionOverride="key:621126058:106251889" value="[1879529269]"/>
-<userEffect id="1879529248" name="DNT - Create Visage of Gil-galad"/>
-</killProcEffect>
-<genesis id="1879529243" name="DNT - Create Visage of Gil-galad" appliedDescription="key:621126057:54354734" baseFlags="4124" summonDuration="125.0">
-<summoned id="1879529215" name="Visage of Sauron[e]"/>
-</genesis>
-<genesis id="1879529244" name="DNT - Create Visage of Sauron" appliedDescription="key:621126062:54354734" baseFlags="4124" summonDuration="125.0">
-<summoned id="1879529216" name="Visage of Sauron[e]"/>
-</genesis>
-<genesis id="1879529245" name="DNT - Create Visage of Sauron" appliedDescription="key:621126064:54354734" baseFlags="4124" summonDuration="125.0">
-<summoned id="1879529219" name="Visage of Gil-galad[e]"/>
-</genesis>
 <killProcEffect id="1879529246" name="Relic-bearer" iconId="1093149884" baseFlags="2480">
 <stat name="ContextualQuickslotArray" descriptionOverride="key:621126063:106251889" value="[1879529268]"/>
-<userEffect id="1879506234" name="DNT - Create Visage of Gil-galad"/>
-</killProcEffect>
-<killProcEffect id="1879529247" name="Relic-bearer" iconId="1093149883" baseFlags="2480">
-<stat name="ContextualQuickslotArray" descriptionOverride="key:621126060:106251889" value="[1879529272]"/>
-<userEffect id="1879529244" name="DNT - Create Visage of Sauron"/>
-</killProcEffect>
-<genesis id="1879529248" name="DNT - Create Visage of Gil-galad" appliedDescription="key:621126059:54354734" baseFlags="4124" summonDuration="125.0">
-<summoned id="1879529218" name="Visage of Gil-galad[e]"/>
-</genesis>
-<killProcEffect id="1879529249" name="Relic-bearer" iconId="1093149884" baseFlags="2480">
-<stat name="ContextualQuickslotArray" descriptionOverride="key:621126055:106251889" value="[1879529271]"/>
-<userEffect id="1879529245" name="DNT - Create Visage of Sauron"/>
+<userEffect id="1879531620" name="DNT - Create Visage Good"/>
 </killProcEffect>
 <killProcEffect id="1879529250" name="Relic-bearer" iconId="1093149883" baseFlags="2480">
 <stat name="ContextualQuickslotArray" descriptionOverride="key:621126056:106251889" value="[1879529273]"/>
-<userEffect id="1879506236" name="DNT - Create Visage of Sauron"/>
-</killProcEffect>
-<killProcEffect id="1879529251" name="Relic-bearer" iconId="1093149883" baseFlags="2480">
-<stat name="ContextualQuickslotArray" descriptionOverride="key:621126061:106251889" value="[1879529270]"/>
-<userEffect id="1879529243" name="DNT - Create Visage of Gil-galad"/>
+<userEffect id="1879531618" name="DNT - Create Visage Evil"/>
 </killProcEffect>
 <propertyModEffect id="1879529253" name="Nuzêru's Protection" iconId="1091475960" baseFlags="7100">
 <stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621126067:106251889" constant="0.2"/>
@@ -98176,7 +97863,13 @@
 <effect id="1879135820" name="Supreme Fire Damage"/>
 </hotspot>
 </genesis>
-<flagEffect id="1879531171" name="DNT - barred from picking up additional CTF objects." iconId="1090519170" baseFlags="6328"/>
+<flagEffect id="1879531171" name="Carrying artifact or relic" iconId="1090519170" baseFlags="6328"/>
+<propertyModEffect id="1879531282" name="Power of the First Age" appliedDescription="key:621127896:54354734" iconId="1090541176" baseFlags="6580">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SET" descriptionOverride="key:621127896:106251889" constant="100.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879531283" name="Power of the First Age" appliedDescription="key:621127897:54354734" iconId="1090541176" baseFlags="6580">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SET" descriptionOverride="key:621127897:106251889" constant="100.0"/>
+</propertyModEffect>
 <propertyModEffect id="1879531295" iconId="1090553792" baseFlags="6332">
 <stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879531290L"/>
 </propertyModEffect>
@@ -98197,13 +97890,109 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 <effect id="1879531330" name="Promised Allies Milestone Style" appliedDescription="key:621127936:54354734" baseFlags="4124"/>
+<propertyModEffect id="1879531377" name="The Gift of Carrock" appliedDescription="key:621127986:54354734" iconId="1091752904" baseFlags="6540">
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="2.0"/>
+<stat name="Glory_AwardMultiplier" descriptionOverride="key:621127986:106251893" constant="50.0"/>
+<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="50.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879531378" name="Fragment of Mordirith's Crown" appliedDescription="key:621127987:54354734" iconId="1091752903" baseFlags="6540">
+<stat name="TACTICAL_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
+<stat name="MELEE_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
+<stat name="RANGED_DEFENCE_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
+<stat name="Skill_PowerCost_AllSkills" operator="SUBSTRACT" constant="2.0"/>
+<stat name="Glory_AwardMultiplier" descriptionOverride="key:621127987:106251893" constant="50.0"/>
+<stat name="PVPPoints_AwardMultiplier" descriptionOverride="-" constant="50.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
+</propertyModEffect>
 <effect id="1879531512" name="Promise Sword" appliedDescription="key:621128110:54354734" baseFlags="4124"/>
 <persistentComboEffect id="1879531562" name="DNT - Improved Valour for PvMP" iconId="1091620587" duration="1.0" baseFlags="6284">
 <present id="1879457119" name="DNT"/>
 <toAddIfPresent id="1879529665" name="DNT - Adds Heals to Melee Skills"/>
 <toAddIfPresent id="1879529656" name="DNT - Adds Heals to Melee Skills"/>
 </persistentComboEffect>
+<propertyModEffect id="1879531616" name="Bearing the Visage of Gil-galad" appliedDescription="key:621128190:54354734" iconId="1090541176" baseFlags="6588">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SET" descriptionOverride="key:621128190:106251889" constant="100.0"/>
+<stat name="CombatState_CurrentStateImmunities" descriptionOverride="key:621128190:106251890" value="(1,2,4,6,7,8,9,12,14,17)"/>
+</propertyModEffect>
+<genesis id="1879531618" name="DNT - Create Visage Evil" appliedDescription="key:621128189:54354734" baseFlags="4124" summonDuration="180.0">
+<summoned id="1879531490" name="Visage of Sauron[e]"/>
+</genesis>
+<genesis id="1879531620" name="DNT - Create Visage Good" appliedDescription="key:621128188:54354734" baseFlags="4124" summonDuration="180.0">
+<summoned id="1879531487" name="Visage of Gil-galad[e]"/>
+</genesis>
+<propertyModEffect id="1879531621" name="Bearing the Visage of Sauron" appliedDescription="key:621128191:54354734" iconId="1090541176" baseFlags="6580">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="SET" descriptionOverride="key:621128191:106251889" constant="100.0"/>
+<stat name="CombatState_CurrentStateImmunities" descriptionOverride="key:621128191:106251890" value="(1,2,4,6,7,8,9,12,14,17)"/>
+</propertyModEffect>
+<effect id="1879532143" name="DNT" appliedDescription="key:621128702:54354734" baseFlags="4124"/>
+<travelEffect id="1879532154" name="DNT - Teleport to Ranger Camp" baseFlags="4124" removeFromInstance="false" privateEncounterID="1879531708">
+<position region="1" longitude="-61.289608" latitude="-30.164629"/>
+</travelEffect>
+<travelEffect id="1879532156" name="DNT - Teleport to Gondorian Coast" baseFlags="4124" removeFromInstance="false" privateEncounterID="1879531719">
+<position region="4" longitude="-52.53333" latitude="-81.59905"/>
+</travelEffect>
+<genesis id="1879532810" name=".." baseFlags="4124" summonDuration="600.0">
+<summoned id="1879532785" name="Emmathron[mn]"/>
+</genesis>
+<genesis id="1879532811" name=".." baseFlags="4124" summonDuration="600.0">
+<summoned id="1879532786" name="Golwen[fn]"/>
+</genesis>
+<genesis id="1879532812" name=".." baseFlags="4124" summonDuration="600.0">
+<summoned id="1879532784" name="Haldo Rushbank[mn]"/>
+</genesis>
+<genesis id="1879532813" name=".." baseFlags="4124" summonDuration="600.0">
+<summoned id="1879532783" name="Brútha the Wayward[fn]"/>
+</genesis>
 <propertyModEffect id="1879533173" iconId="1090553792" baseFlags="6332">
 <stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879533171L"/>
+</propertyModEffect>
+<propertyModEffect id="1879533819" name="Gift of the Wolves of Mordor" appliedDescription="key:621129916:54354734" iconId="1091643193" baseFlags="6540">
+<stat name="ItemAdvancement_XP_AwardMultiplier" descriptionOverride="key:621129916:106251889" scaling="1879533818"/>
+<stat name="Mount_SteedXP_Multiplier" descriptionOverride="-" scaling="1879533817"/>
+</propertyModEffect>
+<propertyModEffect id="1879533822" name="Gift of the Wolves of Mordor" appliedDescription="key:621129915:54354734" iconId="1091643193" baseFlags="6540">
+<stat name="XP_AwardMultiplier" descriptionOverride="key:621129915:106251889" scaling="1879533820"/>
+<stat name="XP_QuestAwardMultiplier" descriptionOverride="-" scaling="1879533823"/>
+</propertyModEffect>
+<propertyModEffect id="1879533964" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879533965L"/>
+</propertyModEffect>
+<effect id="1879533975" name="Were-wolf Hunter's Eclipse Milestone Style" appliedDescription="key:621129982:54354734" baseFlags="4124"/>
+<propertyModEffect id="1879533977" name="Mounted" iconId="1090519170" baseFlags="6316">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621129985:106251889" modifiers="SET:268459053" constant="68.0"/>
+<stat name="Combat_CanEvade" operator="SET" descriptionOverride="key:621129985:106251890" value="false"/>
+<stat name="Combat_CanParry" operator="SET" descriptionOverride="key:621129985:106251891" value="false"/>
+<stat name="Combat_CanBlock" operator="SET" descriptionOverride="key:621129985:106251892" value="false"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+</propertyModEffect>
+<propertyModEffect id="1879533978" name="Mounted" iconId="1090519170" baseFlags="6316">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621129987:106251889" modifiers="SET:268459053" constant="68.0"/>
+<stat name="Combat_CanEvade" operator="SET" descriptionOverride="key:621129987:106251890" value="false"/>
+<stat name="Combat_CanParry" operator="SET" descriptionOverride="key:621129987:106251891" value="false"/>
+<stat name="Combat_CanBlock" operator="SET" descriptionOverride="key:621129987:106251892" value="false"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+</propertyModEffect>
+<propertyModEffect id="1879533979" name="Mounted" iconId="1090519170" baseFlags="6316">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621129984:106251889" modifiers="SET:268459053" constant="68.0"/>
+<stat name="Combat_CanEvade" operator="SET" descriptionOverride="key:621129984:106251890" value="false"/>
+<stat name="Combat_CanParry" operator="SET" descriptionOverride="key:621129984:106251891" value="false"/>
+<stat name="Combat_CanBlock" operator="SET" descriptionOverride="key:621129984:106251892" value="false"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
+</propertyModEffect>
+<propertyModEffect id="1879533980" name="Mounted" iconId="1090519170" baseFlags="6316">
+<stat name="ForwardSource_Movement_MountSpeedMultiplier" descriptionOverride="key:621129986:106251889" modifiers="SET:268459053" constant="68.0"/>
+<stat name="Combat_CanEvade" operator="SET" descriptionOverride="key:621129986:106251890" value="false"/>
+<stat name="Combat_CanParry" operator="SET" descriptionOverride="key:621129986:106251891" value="false"/>
+<stat name="Combat_CanBlock" operator="SET" descriptionOverride="key:621129986:106251892" value="false"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
+<stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
 </effects>

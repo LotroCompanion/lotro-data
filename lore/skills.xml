@@ -140099,26 +140099,14 @@
 </attack>
 </details>
 </skill>
-<skill identifier="1879529121" name="Drop the Fragment of the Crown" category="101" iconId="1093149882" description="key:621125950:228830419">
+<skill identifier="1879529122" name="Drop the Gift of the Carrock" category="101" iconId="1093149885" description="key:621125947:228830419">
 <details actionDurationContribution="1.0" cooldown="1.0">
 <effectsMgr type="USER">
 <effect id="1879254080" name="DNT - Dispel Stealth Protection"/>
 </effectsMgr>
 <attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr>
-<effect id="1879529111" name="DNT - Create Crown"/>
-</effectsMgr>
-</attack>
-</details>
-</skill>
-<skill identifier="1879529123" name="Drop the Gift of the Carrock" category="101" iconId="1093149885" description="key:621125948:228830419">
-<details actionDurationContribution="1.0" cooldown="1.0">
-<effectsMgr type="USER">
-<effect id="1879254080" name="DNT - Dispel Stealth Protection"/>
-</effectsMgr>
-<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
-<effectsMgr>
-<effect id="1879529109" name="DNT - Create Gift"/>
+<effect id="1879529110" name="DNT - Create Gift"/>
 </effectsMgr>
 </attack>
 </details>
@@ -140226,55 +140214,7 @@
 </effectsMgr>
 <attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr>
-<effect id="1879506234" name="DNT - Create Visage of Gil-galad"/>
-</effectsMgr>
-</attack>
-</details>
-</skill>
-<skill identifier="1879529269" name="Drop the Visage of Gil-galad" category="101" iconId="1093149884" description="key:621126085:228830419">
-<details actionDurationContribution="1.0" cooldown="1.0">
-<effectsMgr type="USER">
-<effect id="1879506147" name="DNT - Dispel Carrying Relic Effects"/>
-</effectsMgr>
-<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
-<effectsMgr>
-<effect id="1879529248" name="DNT - Create Visage of Gil-galad"/>
-</effectsMgr>
-</attack>
-</details>
-</skill>
-<skill identifier="1879529270" name="Drop the Visage of Sauron" category="101" iconId="1093149883" description="key:621126084:228830419">
-<details actionDurationContribution="1.0" cooldown="1.0">
-<effectsMgr type="USER">
-<effect id="1879506147" name="DNT - Dispel Carrying Relic Effects"/>
-</effectsMgr>
-<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
-<effectsMgr>
-<effect id="1879529243" name="DNT - Create Visage of Gil-galad"/>
-</effectsMgr>
-</attack>
-</details>
-</skill>
-<skill identifier="1879529271" name="Drop the Visage of Gil-galad" category="101" iconId="1093149884" description="key:621126083:228830419">
-<details actionDurationContribution="1.0" cooldown="1.0">
-<effectsMgr type="USER">
-<effect id="1879506147" name="DNT - Dispel Carrying Relic Effects"/>
-</effectsMgr>
-<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
-<effectsMgr>
-<effect id="1879529245" name="DNT - Create Visage of Sauron"/>
-</effectsMgr>
-</attack>
-</details>
-</skill>
-<skill identifier="1879529272" name="Drop the Visage of Sauron" category="101" iconId="1093149883" description="key:621126082:228830419">
-<details actionDurationContribution="1.0" cooldown="1.0">
-<effectsMgr type="USER">
-<effect id="1879506147" name="DNT - Dispel Carrying Relic Effects"/>
-</effectsMgr>
-<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
-<effectsMgr>
-<effect id="1879529244" name="DNT - Create Visage of Sauron"/>
+<effect id="1879531620" name="DNT - Create Visage Good"/>
 </effectsMgr>
 </attack>
 </details>
@@ -140286,7 +140226,7 @@
 </effectsMgr>
 <attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0">
 <effectsMgr>
-<effect id="1879506236" name="DNT - Create Visage of Sauron"/>
+<effect id="1879531618" name="DNT - Create Visage Evil"/>
 </effectsMgr>
 </attack>
 </details>
@@ -140589,4 +140529,52 @@
 <attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
 </details>
 </pet>
+<pet identifier="1879533971" name="The Hunter's Hound" category="145" iconId="1093168218" initialName="key:621129974:33816677" sourceDescription="key:621129977:211796645" genus="14" species="27" subSpecies="132" description="key:621129977:228830419">
+<details actionDurationContribution="2.0" cooldown="3.0" flags="32">
+<effectsMgr type="TOGGLE">
+<effect id="1879533964"/>
+</effectsMgr>
+<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
+</details>
+</pet>
+<mount identifier="1879533982" name="Steed of the Dauntless Commander" category="88" iconId="1093168222" initialName="key:621129987:138936629" mountCategory="9" mountType="1" sourceDescription="key:620995772:9565314" morale="250" speed="0.68" peerId="1879533985">
+<requiredTrait id="1879051500" name="Riding"/>
+<requiredEffect id="1879051501" name="Basic Riding"/>
+<details actionDurationContribution="3.5" inductionId="1879089214" flags="32">
+<effectsMgr type="TOGGLE">
+<effect id="1879533978" name="Mounted"/>
+</effectsMgr>
+<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
+</details>
+</mount>
+<mount identifier="1879533983" name="Steed of the Were-wolf Hunter" category="88" iconId="1093168221" initialName="key:621129985:138936629" mountCategory="9" mountType="1" sourceDescription="key:620995772:175479317" morale="250" speed="0.68" tall="true" peerId="1879533986">
+<requiredTrait id="1879051500" name="Riding"/>
+<requiredEffect id="1879051501" name="Basic Riding"/>
+<details actionDurationContribution="3.5" inductionId="1879089214" flags="32">
+<effectsMgr type="TOGGLE">
+<effect id="1879533977" name="Mounted"/>
+</effectsMgr>
+<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
+</details>
+</mount>
+<mount identifier="1879533985" name="Steed of the Dauntless Commander" category="88" iconId="1093168222" initialName="key:621129986:138936629" mountCategory="9" mountType="1" sourceDescription="key:620995772:9565314" morale="250" speed="0.68" tall="true" peerId="1879533982">
+<requiredTrait id="1879051500" name="Riding"/>
+<requiredEffect id="1879051501" name="Basic Riding"/>
+<details actionDurationContribution="3.5" inductionId="1879089214" flags="32">
+<effectsMgr type="TOGGLE">
+<effect id="1879533980" name="Mounted"/>
+</effectsMgr>
+<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
+</details>
+</mount>
+<mount identifier="1879533986" name="Steed of the Were-wolf Hunter" category="88" iconId="1093168221" initialName="key:621129984:138936629" mountCategory="9" mountType="1" sourceDescription="key:620995772:175479317" morale="250" speed="0.68" peerId="1879533983">
+<requiredTrait id="1879051500" name="Riding"/>
+<requiredEffect id="1879051501" name="Basic Riding"/>
+<details actionDurationContribution="3.5" inductionId="1879089214" flags="32">
+<effectsMgr type="TOGGLE">
+<effect id="1879533979" name="Mounted"/>
+</effectsMgr>
+<attack damageContributionMultiplier="0.0" implementContributionMultiplier="0.0"/>
+</details>
+</mount>
 </skills>
