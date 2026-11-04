@@ -8076,6 +8076,7 @@
 <stat name="Skill_Warleader_DamageMod" operator="SUBSTRACT" constant="50.0"/>
 </propertyModEffect>
 <propertyModEffect id="1879136212" name="Brawler's Stance" iconId="1091471924" baseFlags="6580">
+<stat name="EffectMod_HealingMultiplier_Trait_MP_HarshLanguage" descriptionOverride="key:620827487:106251889" constant="-50.0"/>
 <stat name="Skill_Warleader_DamageMod" descriptionOverride="key:620827487:106251890" constant="15.000001"/>
 <stat name="Effect_Warleader_BrawlerActivator" descriptionOverride="-" constant="100.0"/>
 <stat name="ForwardSource_Combat_CurrentCombo" operator="SET" descriptionOverride="key:620827487:106251893" value="e587202641:182"/>
@@ -48165,9 +48166,9 @@
 <overTimeChange progressionID="1879367855" modifiers="268462739" vpsMultiplier="0.6555"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879339588" name="Strength of Arms" appliedDescription="key:620981181:54354734" iconId="1091475959" baseFlags="6540">
-<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="5.0"/>
-<stat name="TACTICAL_DAMAGE_PERCENTAGE" constant="5.0"/>
-<stat name="RANGED_DAMAGE_PERCENTAGE" constant="5.0"/>
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:620981181:106251889" constant="3.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="3.0"/>
 </propertyModEffect>
 <aiPetEffect id="1879339929" name="Summon Fell Spirit" description="key:620994040:181298206" baseFlags="4124">
 <summoned id="1879341340" name="Twisted Fell Spirit"/>
@@ -98427,7 +98428,7 @@
 </instantVitalEffect>
 <dispelEffect id="1879532839" name="Têtikir Guidance" appliedDescription="key:621129292:54354734" baseFlags="4124"/>
 <propertyModEffect id="1879532840" name="Khemozêl Defence" iconId="1093159312" duration="8.0" baseFlags="4484">
-<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621129295:106251889" constant="0.7"/>
+<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621129295:106251889" constant="0.825"/>
 <stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.7"/>
 <stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.7"/>
 </propertyModEffect>
@@ -99743,7 +99744,7 @@
 <propertyModEffect id="1879536932" name="Hounds Released" iconId="1093158107" duration="480.0" durationMods="268466281" baseFlags="4480">
 <specialEffect label="key:621132183:106251890"/>
 </propertyModEffect>
-<propertyModEffect id="1879536933" name="Predator's Mark" iconId="1093170251" duration="900.0" durationMods="268466298" baseFlags="4480">
+<propertyModEffect id="1879536933" name="Predator's Mark" iconId="1093170251" duration="900.0" durationMods="268466298" baseFlags="5504">
 <specialEffect label="key:621132182:106251890"/>
 </propertyModEffect>
 <genesis id="1879537016" name=".." appliedDescription="key:621132254:54354734" baseFlags="4127" summonDuration="6.0">
@@ -99781,7 +99782,7 @@
 </propertyModEffect>
 <effect id="1879537108" name="DNT" baseFlags="4124"/>
 <effect id="1879537109" name="DNT" baseFlags="4124"/>
-<propertyModEffect id="1879537110" name="Dulled Sight" iconId="1093158108" duration="5400.0" durationMods="268466310" baseFlags="4480">
+<propertyModEffect id="1879537110" name="Dulled Sight" iconId="1093158108" duration="5400.0" durationMods="268466310" baseFlags="5504">
 <specialEffect label="key:621132314:106251890"/>
 </propertyModEffect>
 <propertyModEffect id="1879537126" name="Madness - 3" iconId="1092752236" baseFlags="7088">
@@ -100446,6 +100447,9 @@
 <propertyModEffect id="1879537880" iconId="1090553792" baseFlags="6332">
 <stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879537752L"/>
 </propertyModEffect>
+<propertyModEffect id="1879537888" iconId="1090553792" baseFlags="6332">
+<stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879537751L"/>
+</propertyModEffect>
 <propertyModEffect id="1879537890" iconId="1090553792" baseFlags="6332">
 <stat name="CosmeticEntity_CosmeticPet_ForwardSource" operator="SET" descriptionOverride="-" value="1879537738L"/>
 </propertyModEffect>
@@ -100541,4 +100545,10 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
+<propertyModEffect id="1879538655" name="DNT" iconId="1090533270" baseFlags="6156">
+<stat name="Death_ImmuneToDefeat" operator="SET" descriptionOverride="-" value="true"/>
+</propertyModEffect>
+<travelEffect id="1879538700" name="DNT - Port to Instance Boss" baseFlags="4124" sceneID="1879125225" removeFromInstance="false" privateEncounterID="1879530740">
+<position region="1" longitude="55.24592" latitude="41.19994"/>
+</travelEffect>
 </effects>
