@@ -567852,7 +567852,7 @@
 <objective index="1" text="key:621112756:216727826">
 <dialog npcId="1879512592" npcName="Katâl" text="key:621112756:228284040"/>
 <npcTalk progressOverride="key:621112756:225071140" showBillboardText="false" npcId="1879512592" npcName="Katâl">
-<point did="1879512592" longitude="-63.095066" latitude="-59.38704"/>
+<point did="1879512592" longitude="-63.09576" latitude="-59.38704"/>
 </npcTalk>
 </objective>
 </objectives>
@@ -583151,7 +583151,7 @@
 <objective index="2" text="key:621120433:216727831">
 <dialog npcId="1879512592" npcName="Katâl" text="key:621120433:228284040"/>
 <npcTalk progressOverride="key:621120433:111477392" showBillboardText="false" npcId="1879512592" npcName="Katâl">
-<point did="1879512592" longitude="-63.095066" latitude="-59.38704"/>
+<point did="1879512592" longitude="-63.09576" latitude="-59.38704"/>
 </npcTalk>
 </objective>
 </objectives>
@@ -597476,14 +597476,37 @@
 </quest>
 <quest id="1879530155" name="Ost Morthil, the Black Thorn -- Tier 1" rawName="key:621126850:126754723" category="482" level="-2" repeatable="-1" shareable="false" autoBestowed="true" webStoreItemID="1879530340" description="key:621126850:51875090">
 <objectives>
-<objective index="1" text="key:621126850:246419856">
-<condition type="WORLD_EVENT_CONDITION" progressOverride="key:621126850:111477330"/>
+<objective index="1">
+<condition type="WORLD_EVENT_CONDITION" eventID="4" progressOverride="key:621126850:111477334"/>
+<itemUsed eventID="5" showProgressText="false" showBillboardText="false" itemId="1879538386" itemName="Concussive Power" count="99">
+<point did="1879538386" longitude="54.593163" latitude="67.7499"/>
+<point did="1879538386" longitude="54.59379" latitude="67.74996"/>
+<point did="1879538386" longitude="54.791405" latitude="67.68283"/>
+<point did="1879538386" longitude="54.610664" latitude="67.68502"/>
+<point did="1879538386" longitude="54.620136" latitude="67.81162"/>
+<point did="1879538386" longitude="54.79113" latitude="67.68218"/>
+<point did="1879538386" longitude="54.807907" latitude="67.75195"/>
+<point did="1879538386" longitude="54.78338" latitude="67.81697"/>
+<point did="1879538386" longitude="54.61119" latitude="67.68566"/>
+<point did="1879538386" longitude="54.790234" latitude="67.682945"/>
+<point did="1879538386" longitude="54.784393" latitude="67.817085"/>
+<point did="1879538386" longitude="54.619804" latitude="67.8126"/>
+<point did="1879538386" longitude="54.791718" latitude="67.68359"/>
+<point did="1879538386" longitude="54.806892" latitude="67.75199"/>
+<point did="1879538386" longitude="54.611755" latitude="67.68562"/>
+<point did="1879538386" longitude="54.59402" latitude="67.749435"/>
+<point did="1879538386" longitude="54.80736" latitude="67.75123"/>
+<point did="1879538386" longitude="54.62117" latitude="67.8124"/>
+</itemUsed>
 </objective>
-<objective index="2" text="key:621126850:246419878">
-<condition type="WORLD_EVENT_CONDITION" progressOverride="key:621126850:111477331"/>
+<objective index="2" text="key:621126850:246419856">
+<condition type="WORLD_EVENT_CONDITION" eventID="1" progressOverride="key:621126850:111477330"/>
 </objective>
-<objective index="3" text="key:621126850:246419891">
-<condition type="WORLD_EVENT_CONDITION" progressOverride="key:621126850:111477332"/>
+<objective index="3" text="key:621126850:246419878">
+<condition type="WORLD_EVENT_CONDITION" eventID="2" progressOverride="key:621126850:111477331"/>
+</objective>
+<objective index="4" text="key:621126850:246419891">
+<condition type="WORLD_EVENT_CONDITION" eventID="3" progressOverride="key:621126850:111477332"/>
 </objective>
 </objectives>
 <compoundWorldEventCondition operator="AND">
@@ -597491,6 +597514,7 @@
 <worldEventCondition worldEventID="1879152932" worldEventName="ze_skirmish_controlpoint_3" operator="NOT_EQUAL" value="1"/>
 <worldEventCondition worldEventID="1879183037" worldEventName="ze_skirmish_player_groupsizechoice" operator="EQUAL" value="6"/>
 </compoundWorldEventCondition>
+<map mapId="1879537112"/>
 <rewards>
 <money gold="0" silver="51" copper="35"/>
 <reputationItem factionId="1879506198" faction="Temámir of Jiret-menêsh" amount="500"/>
@@ -597548,14 +597572,37 @@
 </quest>
 <quest id="1879530160" name="Ost Morthil, the Black Thorn -- Tier 3" rawName="key:621126847:126754723" category="482" level="-2" repeatable="-1" shareable="false" autoBestowed="true" webStoreItemID="1879530340" description="key:621126847:51875090">
 <objectives>
-<objective index="1" text="key:621126847:246419856">
-<condition type="WORLD_EVENT_CONDITION" progressOverride="key:621126847:111477330"/>
+<objective index="1" text="key:621126847:246419782">
+<condition type="WORLD_EVENT_CONDITION" eventID="5" progressOverride="key:621126847:111477335"/>
 </objective>
-<objective index="2" text="key:621126847:246419878">
-<condition type="WORLD_EVENT_CONDITION" progressOverride="key:621126847:111477331"/>
+<objective index="2" text="key:621126847:246419856">
+<condition type="WORLD_EVENT_CONDITION" eventID="1" progressOverride="key:621126847:111477330"/>
+<itemUsed eventID="2" showProgressText="false" showBillboardText="false" itemId="1879538386" itemName="Concussive Power" count="99">
+<point did="1879538386" longitude="54.593163" latitude="67.7499"/>
+<point did="1879538386" longitude="54.59379" latitude="67.74996"/>
+<point did="1879538386" longitude="54.791405" latitude="67.68283"/>
+<point did="1879538386" longitude="54.610664" latitude="67.68502"/>
+<point did="1879538386" longitude="54.620136" latitude="67.81162"/>
+<point did="1879538386" longitude="54.79113" latitude="67.68218"/>
+<point did="1879538386" longitude="54.807907" latitude="67.75195"/>
+<point did="1879538386" longitude="54.78338" latitude="67.81697"/>
+<point did="1879538386" longitude="54.61119" latitude="67.68566"/>
+<point did="1879538386" longitude="54.790234" latitude="67.682945"/>
+<point did="1879538386" longitude="54.784393" latitude="67.817085"/>
+<point did="1879538386" longitude="54.619804" latitude="67.8126"/>
+<point did="1879538386" longitude="54.791718" latitude="67.68359"/>
+<point did="1879538386" longitude="54.806892" latitude="67.75199"/>
+<point did="1879538386" longitude="54.611755" latitude="67.68562"/>
+<point did="1879538386" longitude="54.59402" latitude="67.749435"/>
+<point did="1879538386" longitude="54.80736" latitude="67.75123"/>
+<point did="1879538386" longitude="54.62117" latitude="67.8124"/>
+</itemUsed>
 </objective>
-<objective index="3" text="key:621126847:246419891">
-<condition type="WORLD_EVENT_CONDITION" progressOverride="key:621126847:111477332"/>
+<objective index="3" text="key:621126847:246419878">
+<condition type="WORLD_EVENT_CONDITION" eventID="3" progressOverride="key:621126847:111477331"/>
+</objective>
+<objective index="4" text="key:621126847:246419891">
+<condition type="WORLD_EVENT_CONDITION" eventID="4" progressOverride="key:621126847:111477332"/>
 </objective>
 </objectives>
 <compoundWorldEventCondition operator="AND">
@@ -597563,6 +597610,7 @@
 <worldEventCondition worldEventID="1879152932" worldEventName="ze_skirmish_controlpoint_3" operator="NOT_EQUAL" value="1"/>
 <worldEventCondition worldEventID="1879183037" worldEventName="ze_skirmish_player_groupsizechoice" operator="EQUAL" value="6"/>
 </compoundWorldEventCondition>
+<map mapId="1879537112"/>
 <rewards>
 <money gold="0" silver="51" copper="35"/>
 <reputationItem factionId="1879506198" faction="Temámir of Jiret-menêsh" amount="500"/>
@@ -597625,14 +597673,37 @@
 </quest>
 <quest id="1879530167" name="Ost Morthil, the Black Thorn -- Tier 2" rawName="key:621126855:126754723" category="482" level="-2" repeatable="-1" shareable="false" autoBestowed="true" webStoreItemID="1879530340" description="key:621126855:51875090">
 <objectives>
-<objective index="1" text="key:621126855:246419856">
-<condition type="WORLD_EVENT_CONDITION" progressOverride="key:621126855:111477330"/>
+<objective index="1">
+<condition type="WORLD_EVENT_CONDITION" eventID="5" progressOverride="key:621126855:111477334"/>
 </objective>
-<objective index="2" text="key:621126855:246419878">
-<condition type="WORLD_EVENT_CONDITION" progressOverride="key:621126855:111477331"/>
+<objective index="2" text="key:621126855:246419856">
+<condition type="WORLD_EVENT_CONDITION" eventID="1" progressOverride="key:621126855:111477330"/>
+<itemUsed eventID="2" showProgressText="false" showBillboardText="false" itemId="1879538386" itemName="Concussive Power" count="99">
+<point did="1879538386" longitude="54.593163" latitude="67.7499"/>
+<point did="1879538386" longitude="54.59379" latitude="67.74996"/>
+<point did="1879538386" longitude="54.791405" latitude="67.68283"/>
+<point did="1879538386" longitude="54.610664" latitude="67.68502"/>
+<point did="1879538386" longitude="54.620136" latitude="67.81162"/>
+<point did="1879538386" longitude="54.79113" latitude="67.68218"/>
+<point did="1879538386" longitude="54.807907" latitude="67.75195"/>
+<point did="1879538386" longitude="54.78338" latitude="67.81697"/>
+<point did="1879538386" longitude="54.61119" latitude="67.68566"/>
+<point did="1879538386" longitude="54.790234" latitude="67.682945"/>
+<point did="1879538386" longitude="54.784393" latitude="67.817085"/>
+<point did="1879538386" longitude="54.619804" latitude="67.8126"/>
+<point did="1879538386" longitude="54.791718" latitude="67.68359"/>
+<point did="1879538386" longitude="54.806892" latitude="67.75199"/>
+<point did="1879538386" longitude="54.611755" latitude="67.68562"/>
+<point did="1879538386" longitude="54.59402" latitude="67.749435"/>
+<point did="1879538386" longitude="54.80736" latitude="67.75123"/>
+<point did="1879538386" longitude="54.62117" latitude="67.8124"/>
+</itemUsed>
 </objective>
-<objective index="3" text="key:621126855:246419891">
-<condition type="WORLD_EVENT_CONDITION" progressOverride="key:621126855:111477332"/>
+<objective index="3" text="key:621126855:246419878">
+<condition type="WORLD_EVENT_CONDITION" eventID="3" progressOverride="key:621126855:111477331"/>
+</objective>
+<objective index="4" text="key:621126855:246419891">
+<condition type="WORLD_EVENT_CONDITION" eventID="4" progressOverride="key:621126855:111477332"/>
 </objective>
 </objectives>
 <compoundWorldEventCondition operator="AND">
@@ -597640,6 +597711,7 @@
 <worldEventCondition worldEventID="1879152932" worldEventName="ze_skirmish_controlpoint_3" operator="NOT_EQUAL" value="1"/>
 <worldEventCondition worldEventID="1879183037" worldEventName="ze_skirmish_player_groupsizechoice" operator="EQUAL" value="6"/>
 </compoundWorldEventCondition>
+<map mapId="1879537112"/>
 <rewards>
 <money gold="0" silver="51" copper="35"/>
 <reputationItem factionId="1879506198" faction="Temámir of Jiret-menêsh" amount="500"/>
@@ -606941,7 +607013,7 @@
 <objective index="3" text="key:621128464:216727828">
 <dialog npcId="1879531221" npcName="Buyoda" text="key:621128464:162883731"/>
 <npcTalk eventID="1" progressOverride="key:621128464:111477396" showBillboardText="false" npcId="1879531221" npcName="Buyoda">
-<point did="1879531221" longitude="-79.89934" latitude="-45.720493"/>
+<point did="1879531221" longitude="-79.90166" latitude="-45.720493"/>
 </npcTalk>
 </objective>
 <objective index="4" text="key:621128464:246419856">
@@ -606992,6 +607064,7 @@
 </npcTalk>
 </objective>
 </objectives>
+<prerequisite id="1879531940" name="The Import of Beasts, Part 1"/>
 <map mapId="268455280" region="6"/>
 <rewards>
 <money gold="0" silver="51" copper="35"/>
@@ -610328,7 +610401,7 @@
 <XP quantity="17"/>
 </rewards>
 </quest>
-<quest id="1879534257" name="Roving Threat: Blightwing" rawName="key:621130162:149027368" category="489" level="160" size="FELLOWSHIP" repeatable="-1" lockType="DAILY" shareable="false" webStoreItemID="1879530340" description="key:621130162:24695125">
+<quest id="1879534257" name="Roving Threat: Blightwing" rawName="key:621130162:149027368" category="485" level="160" size="FELLOWSHIP" repeatable="-1" lockType="WEEKLY" shareable="false" webStoreItemID="1879530340" description="key:621130162:24695125">
 <bestower npcId="1879530723" npcName="Bounties" text="key:621130162:162883763"/>
 <objectives>
 <objective index="1" text="key:621130162:246419891">

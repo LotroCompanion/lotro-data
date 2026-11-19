@@ -98091,7 +98091,7 @@
 </procEffect>
 <propertyModEffect id="1879532360" name="Undeterred 2" description="key:621128935:181298206" appliedDescription="key:621128935:54354734" iconId="1093158038" duration="3600.0" baseFlags="4228"/>
 <instantVitalEffect id="1879532361" name="Reprisal" baseFlags="31" stat="Health_MaxLevel" damageType="64" multiplier="1.0">
-<vitalChange progressionID="1879244296" modifiers="268466306"/>
+<vitalChange progressionID="1879244296" modifiers="268466492"/>
 </instantVitalEffect>
 <procEffect id="1879532365" name="Têtikir Tactic: The Tempest" appliedDescription="key:621128891:54354734" iconId="1093158027" baseFlags="2180" skillTypes="19,24,32,43" procProbability="0.0" cooldown="15.0">
 <effect id="1879532426" name="The Tempest" spellcraft="160.0" target="true"/>
@@ -98356,20 +98356,20 @@
 <genesis id="1879532813" name=".." baseFlags="4124" summonDuration="600.0">
 <summoned id="1879532783" name="Brútha the Wayward[fn]"/>
 </genesis>
-<propertyModEffect id="1879532822" name="Têtikir Guidance (2)" description="key:621129303:181298206" appliedDescription="key:621129303:54354734" iconId="1093159309" duration="10.0" baseFlags="7076">
+<propertyModEffect id="1879532822" name="Têtikir Guidance (2)" description="key:621129303:181298206" appliedDescription="key:621129303:54354734" iconId="1093159309" duration="5.0" baseFlags="4516">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621129303:106251889" constant="10.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 <stat name="Skill_HealingMultiplier_Item" descriptionOverride="key:621129303:106251892" constant="15.000001"/>
 </propertyModEffect>
-<propertyModEffect id="1879532823" name="Têtikir Guidance (3)" description="key:621129293:181298206" appliedDescription="key:621129293:54354734" iconId="1093159309" duration="10.0" baseFlags="7076">
+<propertyModEffect id="1879532823" name="Têtikir Guidance (3)" description="key:621129293:181298206" appliedDescription="key:621129293:54354734" iconId="1093159309" duration="5.0" baseFlags="4516">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621129293:106251889" constant="10.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 <stat name="Skill_HealingMultiplier_Item" descriptionOverride="key:621129293:106251892" constant="15.000001"/>
 </propertyModEffect>
 <dispelEffect id="1879532824" name="Scout Strike" appliedDescription="key:621129291:54354734" baseFlags="4124"/>
-<propertyModEffect id="1879532825" name="Scout Strike (2)" description="key:621129289:181298206" appliedDescription="key:621129289:54354734" iconId="1093159310" duration="10.0" baseFlags="4540">
+<propertyModEffect id="1879532825" name="Scout Strike (2)" description="key:621129289:181298206" appliedDescription="key:621129289:54354734" iconId="1093159310" duration="5.0" baseFlags="4540">
 <stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="key:621129289:106251889" constant="100.0"/>
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="100.0"/>
 <stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="100.0"/>
@@ -98382,7 +98382,7 @@
 <tierUp id="1879532836" name="Têtikir Guidance (1)"/>
 <finalTier id="1879532839" name="Têtikir Guidance"/>
 </tieredEffect>
-<propertyModEffect id="1879532827" name="Scout Strike (3)" description="key:621129298:181298206" appliedDescription="key:621129298:54354734" iconId="1093159310" duration="10.0" baseFlags="4540">
+<propertyModEffect id="1879532827" name="Scout Strike (3)" description="key:621129298:181298206" appliedDescription="key:621129298:54354734" iconId="1093159310" duration="5.0" baseFlags="4540">
 <stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="key:621129298:106251889" constant="100.0"/>
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="100.0"/>
 <stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="100.0"/>
@@ -98390,7 +98390,7 @@
 <instantVitalEffect id="1879532828" name="Scout Herbs" baseFlags="4124" stat="Health_MaxLevel" multiplicative="true" multiplier="1.0">
 <vitalChange constant="0.07"/>
 </instantVitalEffect>
-<procEffect id="1879532829" name="Têtikir Guidance" appliedDescription="key:621129860:54354734" iconId="1093159309" duration="31.0" baseFlags="644" skillTypes="39" cooldown="1.0">
+<procEffect id="1879532829" name="Têtikir Guidance" appliedDescription="key:621129860:54354734" iconId="1093159309" duration="31.0" baseFlags="132" skillTypes="7,35,39" cooldown="0.5">
 <effect id="1879532826" name="Têtikir Guidance" spellcraft="160.0"/>
 <effect id="1879537643" name="DNT"/>
 </procEffect>
@@ -98404,17 +98404,17 @@
 <applyOverTimeEffect id="1879532832" name="Scout Herbs" appliedDescription="key:621129300:54354734" iconId="1093159311" duration="5.0" pulseCount="5" baseFlags="4528">
 <applied id="1879532828" name="Scout Herbs"/>
 </applyOverTimeEffect>
-<propertyModEffect id="1879532834" name="Scout Strike (1)" description="key:621129304:181298206" appliedDescription="key:621129304:54354734" iconId="1093159310" duration="10.0" baseFlags="4540">
+<propertyModEffect id="1879532834" name="Scout Strike (1)" description="key:621129304:181298206" appliedDescription="key:621129304:54354734" iconId="1093159310" duration="5.0" baseFlags="4540">
 <stat name="CRITICAL_MELEE_PERCENTAGE" descriptionOverride="key:621129304:106251889" constant="100.0"/>
 <stat name="CRITICAL_TACTICAL_PERCENTAGE" descriptionOverride="-" constant="100.0"/>
 <stat name="CRITICAL_RANGED_PERCENTAGE" descriptionOverride="-" constant="100.0"/>
 </propertyModEffect>
-<procEffect id="1879532835" name="Scout Strike" appliedDescription="key:621129859:54354734" iconId="1093159310" duration="31.0" baseFlags="644" skillTypes="39" cooldown="1.0">
+<procEffect id="1879532835" name="Scout Strike" appliedDescription="key:621129859:54354734" iconId="1093159310" duration="16.0" baseFlags="132" skillTypes="7,35,39" cooldown="0.5">
 <effect id="1879532841" name="Scout Strike" spellcraft="160.0"/>
 <effect id="1879537650" name="DNT"/>
 <effect id="1879536476" name="DNT" target="true"/>
 </procEffect>
-<propertyModEffect id="1879532836" name="Têtikir Guidance (1)" description="key:621129299:181298206" appliedDescription="key:621129299:54354734" iconId="1093159309" duration="10.0" baseFlags="7076">
+<propertyModEffect id="1879532836" name="Têtikir Guidance (1)" description="key:621129299:181298206" appliedDescription="key:621129299:54354734" iconId="1093159309" duration="5.0" baseFlags="4516">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621129299:106251889" constant="10.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
@@ -98429,8 +98429,8 @@
 <dispelEffect id="1879532839" name="Têtikir Guidance" appliedDescription="key:621129292:54354734" baseFlags="4124"/>
 <propertyModEffect id="1879532840" name="Khemozêl Defence" iconId="1093159312" duration="8.0" baseFlags="4484">
 <stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621129295:106251889" constant="0.825"/>
-<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.7"/>
-<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.7"/>
+<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.825"/>
+<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.825"/>
 </propertyModEffect>
 <tieredEffect id="1879532841" name="Scout Strike" baseFlags="4124" showInExamination="true">
 <tierUp id="1879532827" name="Scout Strike (3)"/>
@@ -98438,13 +98438,13 @@
 <tierUp id="1879532834" name="Scout Strike (1)"/>
 <finalTier id="1879532824" name="Scout Strike"/>
 </tieredEffect>
-<propertyModEffect id="1879532842" name="Têtikir Guidance (4)" description="key:621129297:181298206" appliedDescription="key:621129297:54354734" iconId="1093159309" duration="10.0" baseFlags="7076">
+<propertyModEffect id="1879532842" name="Têtikir Guidance (4)" description="key:621129297:181298206" appliedDescription="key:621129297:54354734" iconId="1093159309" duration="5.0" baseFlags="4516">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621129297:106251889" constant="10.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 <stat name="Skill_HealingMultiplier_Item" descriptionOverride="key:621129297:106251892" constant="15.000001"/>
 </propertyModEffect>
-<propertyModEffect id="1879532843" name="Têtikir Guidance (5)" description="key:621129288:181298206" appliedDescription="key:621129288:54354734" iconId="1093159309" duration="10.0" baseFlags="7076">
+<propertyModEffect id="1879532843" name="Têtikir Guidance (5)" description="key:621129288:181298206" appliedDescription="key:621129288:54354734" iconId="1093159309" duration="5.0" baseFlags="4516">
 <stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621129288:106251889" constant="10.0"/>
 <stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
 <stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="10.0"/>
@@ -98494,12 +98494,12 @@
 <overTimeChange progressionID="1879180912" modifiers="268437688"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879532896" name="Poisoned Bite" iconId="1092810118" duration="3.0" pulseCount="5" baseFlags="5055" stat="Health_MaxLevel" damageType="1024">
-<initialChange progressionID="1879244296"/>
-<overTimeChange progressionID="1879244293" modifiers="268437688"/>
-</vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879532897" name="Poisoned Bite" iconId="1092810118" duration="3.0" pulseCount="6" baseFlags="5055" stat="Health_MaxLevel" damageType="1024">
 <initialChange progressionID="1879180916"/>
 <overTimeChange progressionID="1879343138" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879532897" name="Poisoned Bite" iconId="1092810118" duration="3.0" pulseCount="6" baseFlags="5055" stat="Health_MaxLevel" damageType="1024">
+<initialChange progressionID="1879180912"/>
+<overTimeChange progressionID="1879244292" modifiers="268437688"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879532902" name="Growing Rage - 4" iconId="1092752236" baseFlags="7088">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="40.0"/>
@@ -98535,10 +98535,10 @@
 <propertyModEffect id="1879532912" name="Growing Rage - 1" iconId="1092752236" baseFlags="7088">
 <stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
 </propertyModEffect>
-<applyOverTimeEffect id="1879532913" name="Frenzied" description="key:621129369:181298206" iconId="1093081106" duration="45.0" baseFlags="6840">
-<applied id="1879532914" name="DNT - Stacking Frenzy" spellcraft="160.0"/>
+<applyOverTimeEffect id="1879532913" name="Frenzied" description="key:621129369:181298206" iconId="1093081106" duration="40.0" baseFlags="6840">
+<applied id="1879532914" name="DNT - Stacking Bloodlust" spellcraft="160.0"/>
 </applyOverTimeEffect>
-<tieredEffect id="1879532914" name="DNT - Stacking Frenzy" baseFlags="4124" showInExamination="true">
+<tieredEffect id="1879532914" name="DNT - Stacking Bloodlust" baseFlags="4124" showInExamination="true">
 <tierUp id="1879532912" name="Growing Rage - 1"/>
 <tierUp id="1879532908" name="Growing Rage - 2"/>
 <tierUp id="1879532910" name="Growing Rage - 3"/>
@@ -98551,10 +98551,10 @@
 <tierUp id="1879532903" name="Growing Rage - 10"/>
 <finalTier id="1879532907" name="Overwhelming Rage"/>
 </tieredEffect>
-<applyOverTimeEffect id="1879532915" name="Frenzied" description="key:621129370:181298206" iconId="1093081106" duration="90.0" baseFlags="6840">
-<applied id="1879532916" name="DNT - Stacking Frenzy" spellcraft="160.0"/>
+<applyOverTimeEffect id="1879532915" name="Frenzied" description="key:621129370:181298206" iconId="1093081106" duration="60.0" baseFlags="6840">
+<applied id="1879532916" name="DNT - Stacking Bloodlust" spellcraft="160.0"/>
 </applyOverTimeEffect>
-<tieredEffect id="1879532916" name="DNT - Stacking Frenzy" baseFlags="4124" showInExamination="true">
+<tieredEffect id="1879532916" name="DNT - Stacking Bloodlust" baseFlags="4124" showInExamination="true">
 <tierUp id="1879532912" name="Growing Rage - 1"/>
 <tierUp id="1879532908" name="Growing Rage - 2"/>
 <tierUp id="1879532910" name="Growing Rage - 3"/>
@@ -99065,8 +99065,8 @@
 <toAddIfPresent id="1879534661" name="Light-burned"/>
 </comboEffect>
 <vitalOverTimeEffect id="1879534456" name="Infested" appliedDescription="key:621130336:54354734" iconId="1092979848" duration="2.0" pulseCount="4" baseFlags="5051" stat="Health_MaxLevel" damageType="1">
-<initialChange progressionID="1879343124"/>
-<overTimeChange progressionID="1879483169" modifiers="268437688"/>
+<initialChange progressionID="1879483169"/>
+<overTimeChange progressionID="1879343124" modifiers="268437688"/>
 </vitalOverTimeEffect>
 <bubbleEffect id="1879534646" name="Shield of Rage" iconId="1091668185" baseFlags="6588" vital="Health_MaxLevel" value="2.0E7"/>
 <bubbleEffect id="1879534650" name="Shield of Sorrow" iconId="1091668185" baseFlags="6588" vital="Health_MaxLevel" value="2.0E7"/>
@@ -99279,14 +99279,18 @@
 <applyOverTimeEffect id="1879536364" name="DNT" iconId="1091806010" duration="600.0" pulseCount="1" baseFlags="4280">
 <applied id="1879149379" name="DNT - Do Nothing"/>
 </applyOverTimeEffect>
+<vitalOverTimeEffect id="1879536365" name="Corrupted Blood" iconId="1090539325" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="1">
+<initialChange progressionID="1879180337"/>
+<overTimeChange progressionID="1879180339" modifiers="268437688"/>
+</vitalOverTimeEffect>
 <applyOverTimeEffect id="1879536366" name="DNT" iconId="1091806010" duration="480.0" pulseCount="1" baseFlags="4280">
 <applied id="1879149379" name="DNT - Do Nothing"/>
 </applyOverTimeEffect>
 <genesis id="1879536367" name="DNT - Mortal Wounds" appliedDescription="key:621131716:54354734" baseFlags="4124" summonDuration="30.0">
-<hotspot id="1879527126" name="Tainted Blood">
-<effect id="1879527132" name="Tainted Blood" spellcraft="160.0"/>
-<effect id="1879527129" name="Tainted Blood" spellcraft="160.0"/>
-<effect id="1879520005" name="Creeping Blight" spellcraft="160.0"/>
+<hotspot id="1879536378" name="Mortal Wounds">
+<effect id="1879536371" name="Corrupted Blood" spellcraft="160.0"/>
+<effect id="1879536384" name="Corrupted Blood" spellcraft="160.0"/>
+<effect id="1879536365" name="Corrupted Blood" spellcraft="160.0"/>
 </hotspot>
 </genesis>
 <applyOverTimeEffect id="1879536368" name="Mortal Wounds" iconId="1091806010" duration="10.0" baseFlags="6840">
@@ -99299,29 +99303,36 @@
 </applyOverTimeEffect>
 <applyOverTimeEffect id="1879536370" name="Mortal Wounds" iconId="1091806010" duration="15.0" baseFlags="6840">
 <applied id="1879536374" name="DNT - Mortal Wounds" spellcraft="160.0"/>
+<applied id="1879536367" name="DNT - Mortal Wounds" spellcraft="160.0"/>
+<applied id="1879536377" name="DNT - Mortal Wounds" spellcraft="160.0"/>
 </applyOverTimeEffect>
+<vitalOverTimeEffect id="1879536371" name="Corrupted Blood" iconId="1090539325" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="1">
+<initialChange progressionID="1879180912"/>
+<overTimeChange progressionID="1879180337" modifiers="268437688"/>
+</vitalOverTimeEffect>
 <applyOverTimeEffect id="1879536372" name="DNT" iconId="1091806010" duration="600.0" pulseCount="1" baseFlags="4280">
 <applied id="1879149379" name="DNT - Do Nothing"/>
 </applyOverTimeEffect>
 <applyOverTimeEffect id="1879536373" name="Mortal Wounds" iconId="1091806010" duration="10.0" baseFlags="6840">
 <applied id="1879536374" name="DNT - Mortal Wounds" spellcraft="160.0"/>
 <applied id="1879536367" name="DNT - Mortal Wounds" spellcraft="160.0"/>
+<applied id="1879536377" name="DNT - Mortal Wounds" spellcraft="160.0"/>
 </applyOverTimeEffect>
 <genesis id="1879536374" name="DNT - Mortal Wounds" appliedDescription="key:621131701:54354734" baseFlags="4124" summonDuration="15.0">
-<hotspot id="1879527130" name="Tainted Blood">
-<effect id="1879527132" name="Tainted Blood" spellcraft="160.0"/>
-<effect id="1879527129" name="Tainted Blood" spellcraft="160.0"/>
-<effect id="1879520005" name="Creeping Blight" spellcraft="160.0"/>
+<hotspot id="1879536381" name="Mortal Wounds">
+<effect id="1879536371" name="Corrupted Blood" spellcraft="160.0"/>
+<effect id="1879536384" name="Corrupted Blood" spellcraft="160.0"/>
+<effect id="1879536365" name="Corrupted Blood" spellcraft="160.0"/>
 </hotspot>
 </genesis>
 <applyOverTimeEffect id="1879536376" name="DNT" iconId="1091806010" duration="480.0" pulseCount="1" baseFlags="4280">
 <applied id="1879149379" name="DNT - Do Nothing"/>
 </applyOverTimeEffect>
 <genesis id="1879536377" name="DNT - Mortal Wounds" appliedDescription="key:621131698:54354734" baseFlags="4124" summonDuration="45.0">
-<hotspot id="1879527127" name="Tainted Blood">
-<effect id="1879527132" name="Tainted Blood" spellcraft="160.0"/>
-<effect id="1879527129" name="Tainted Blood" spellcraft="160.0"/>
-<effect id="1879520005" name="Creeping Blight" spellcraft="160.0"/>
+<hotspot id="1879536375" name="Mortal Wounds">
+<effect id="1879536371" name="Corrupted Blood" spellcraft="160.0"/>
+<effect id="1879536384" name="Corrupted Blood" spellcraft="160.0"/>
+<effect id="1879536365" name="Corrupted Blood" spellcraft="160.0"/>
 </hotspot>
 </genesis>
 <applyOverTimeEffect id="1879536379" name="DNT" iconId="1091806010" duration="600.0" pulseCount="1" baseFlags="4280">
@@ -99336,6 +99347,10 @@
 <applyOverTimeEffect id="1879536383" name="DNT" iconId="1091806010" duration="480.0" pulseCount="1" baseFlags="4280">
 <applied id="1879149379" name="DNT - Do Nothing"/>
 </applyOverTimeEffect>
+<vitalOverTimeEffect id="1879536384" name="Corrupted Blood" iconId="1090539325" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="1">
+<initialChange progressionID="1879180337"/>
+<overTimeChange progressionID="1879180347" modifiers="268437688"/>
+</vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879536409" name="Rending Teeth" iconId="1091401111" duration="2.0" pulseCount="6" baseFlags="5051" stat="Health_MaxLevel" damageType="1">
 <initialChange progressionID="1879483169"/>
 <overTimeChange progressionID="1879343124" modifiers="268437688"/>
@@ -99363,27 +99378,27 @@
 <tierUp id="1879536446" name="Agonizing Howl - 1"/>
 <finalTier id="1879536443" name="Agonizing Howl - 2"/>
 </tieredEffect>
-<propertyModEffect id="1879536442" name="Agonizing Howl - 2" iconId="1092752236" baseFlags="7088">
+<propertyModEffect id="1879536442" name="Agonizing Howl - 2" iconId="1092752236" baseFlags="7091">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="20.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="20.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879536443" name="Agonizing Howl - 2" iconId="1092752236" baseFlags="7088">
+<propertyModEffect id="1879536443" name="Agonizing Howl - 2" iconId="1092752236" baseFlags="7091">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879536444" name="Agonizing Howl - 3" iconId="1092752236" baseFlags="7092">
+<propertyModEffect id="1879536444" name="Agonizing Howl - 3" iconId="1092752236" baseFlags="7095">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="20.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="20.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879536445" name="Agonizing Howl - 3" iconId="1092752236" baseFlags="7088">
+<propertyModEffect id="1879536445" name="Agonizing Howl - 3" iconId="1092752236" baseFlags="7091">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="30.000002"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="30.000002"/>
 </propertyModEffect>
-<propertyModEffect id="1879536446" name="Agonizing Howl - 1" iconId="1092752236" baseFlags="7088">
+<propertyModEffect id="1879536446" name="Agonizing Howl - 1" iconId="1092752236" baseFlags="7091">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879536447" name="Agonizing Howl - 1" iconId="1092752236" baseFlags="7088">
+<propertyModEffect id="1879536447" name="Agonizing Howl - 1" iconId="1092752236" baseFlags="7091">
 <stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 <stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </propertyModEffect>
@@ -99517,6 +99532,57 @@
 <present id="1879536460" name="DNT - SI Heledhris boss 3 arena marker - Tetikir Ancestors"/>
 <toAddIfPresent id="1879529722" name="DNT - Protect from Acid Skillproc"/>
 </comboEffect>
+<areaEffect id="1879536499" name="DNT - Dispel Shield" baseFlags="4124" flags="4" range="40.0" maxTargets="30">
+<effect id="1879538478" name="DNT" spellcraft="160.0"/>
+</areaEffect>
+<genesis id="1879536504" name=".." appliedDescription="key:621131828:54354734" baseFlags="4126" summonDuration="20.0">
+<hotspot id="1879536420" name="Cruel Brew">
+<effect id="1879149379" name="DNT - Do Nothing"/>
+</hotspot>
+</genesis>
+<genesis id="1879536506" name=".." appliedDescription="key:621131826:54354734" baseFlags="4126" summonDuration="20.0">
+<hotspot id="1879536413" name="Dargalúl's Dust">
+<effect id="1879149379" name="DNT - Do Nothing"/>
+</hotspot>
+</genesis>
+<genesis id="1879536507" name=".." appliedDescription="key:621131821:54354734" baseFlags="4126" summonDuration="120.0">
+<hotspot id="1879536415" name="Cruel Brew">
+<effect id="1879149379" name="DNT - Do Nothing"/>
+</hotspot>
+</genesis>
+<genesis id="1879536508" name=".." appliedDescription="key:621131824:54354734" baseFlags="4126" summonDuration="300.0">
+<hotspot id="1879536414" name="Cruel Brew">
+<effect id="1879149379" name="DNT - Do Nothing"/>
+</hotspot>
+</genesis>
+<genesis id="1879536509" name=".." appliedDescription="key:621131825:54354734" baseFlags="4126" summonDuration="120.0">
+<hotspot id="1879536418" name="Dargalúl's Dust">
+<effect id="1879149379" name="DNT - Do Nothing"/>
+</hotspot>
+</genesis>
+<genesis id="1879536510" name=".." appliedDescription="key:621131820:54354734" baseFlags="4126" summonDuration="300.0">
+<hotspot id="1879536419" name="Dargalúl's Dust">
+<effect id="1879149379" name="DNT - Do Nothing"/>
+</hotspot>
+</genesis>
+<countdownEffect id="1879536517" name="Dargalúl's Dust" iconId="1091840569" duration="8.0" pulseCount="1" baseFlags="4543">
+<onExpire id="1879536509" name=".."/>
+</countdownEffect>
+<countdownEffect id="1879536518" name="Dargalúl's Dust" iconId="1091840569" duration="8.0" pulseCount="1" baseFlags="4543">
+<onExpire id="1879536510" name=".."/>
+</countdownEffect>
+<countdownEffect id="1879536519" name="Cruel Brew" iconId="1091840569" duration="8.0" pulseCount="1" baseFlags="4543">
+<onExpire id="1879536504" name=".."/>
+</countdownEffect>
+<countdownEffect id="1879536520" name="Cruel Brew" iconId="1091840569" duration="8.0" pulseCount="1" baseFlags="4543">
+<onExpire id="1879536507" name=".."/>
+</countdownEffect>
+<countdownEffect id="1879536521" name="Cruel Brew" iconId="1091840569" duration="8.0" pulseCount="1" baseFlags="4543">
+<onExpire id="1879536508" name=".."/>
+</countdownEffect>
+<countdownEffect id="1879536522" name="Dargalúl's Dust" iconId="1091840569" duration="8.0" pulseCount="1" baseFlags="4543">
+<onExpire id="1879536506" name=".."/>
+</countdownEffect>
 <propertyModEffect id="1879536529" name="Braigaul's Fury" iconId="1091941763" duration="60.0" baseFlags="4540">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621131869:106251889" constant="1.25"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.25"/>
@@ -99535,6 +99601,17 @@
 <stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.5"/>
 <stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.5"/>
 </propertyModEffect>
+<propertyModEffect id="1879536533" name="Anguished Howl" iconId="1092752236" baseFlags="7088">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879536536" name="Fixated" appliedDescription="key:621131877:54354734" iconId="1091401418" duration="8.0" baseFlags="4539">
+<stat name="AI_Hints" descriptionOverride="key:621131877:106251889" value="(50)"/>
+</propertyModEffect>
+<propertyModEffect id="1879536541" name="Anguished Howl" iconId="1092752236" baseFlags="7088">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
+</propertyModEffect>
 <propertyModEffect id="1879536543" name="Braigaul's Fury" iconId="1091941763" duration="30.0" baseFlags="4540">
 <stat name="Combat_DamageQualifier_Melee_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="key:621131866:106251889" constant="1.1"/>
 <stat name="Combat_DamageQualifier_Ranged_Offense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="1.1"/>
@@ -99544,15 +99621,19 @@
 <stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
 <stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
 </propertyModEffect>
+<propertyModEffect id="1879536545" name="Anguished Howl" iconId="1092752236" baseFlags="7092">
+<stat name="PHYSICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="20.0"/>
+<stat name="TACTICAL_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="20.0"/>
+</propertyModEffect>
 <propertyModEffect id="1879536546" name="Fixated" appliedDescription="key:621131864:54354734" iconId="1091401418" duration="8.0" baseFlags="4539">
 <stat name="AI_Hints" descriptionOverride="key:621131864:106251889" value="(50)"/>
 </propertyModEffect>
 <vitalOverTimeEffect id="1879536557" name="Deep Rend" iconId="1090539325" duration="3.0" pulseCount="5" baseFlags="5055" stat="Health_MaxLevel" damageType="1">
-<initialChange progressionID="1879405240"/>
-<overTimeChange progressionID="1879343138" modifiers="268437688"/>
+<initialChange progressionID="1879343138"/>
+<overTimeChange progressionID="1879483169" modifiers="268437688"/>
 </vitalOverTimeEffect>
 <vitalOverTimeEffect id="1879536559" name="Rend" iconId="1090539325" duration="3.0" pulseCount="5" baseFlags="5055" stat="Health_MaxLevel" damageType="1">
-<initialChange progressionID="1879405240"/>
+<initialChange progressionID="1879244293"/>
 <overTimeChange progressionID="1879343138" modifiers="268437688"/>
 </vitalOverTimeEffect>
 <propertyModEffect id="1879536567" name="Marked for Attack" appliedDescription="key:621131897:54354734" iconId="1093143649" duration="30.0" baseFlags="5043">
@@ -99642,15 +99723,57 @@
 <effect id="1879536704" name="Blessing of Leaf"/>
 </hotspot>
 </genesis>
-<vitalOverTimeEffect id="1879536821" name="TBD" iconId="1090539325" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="256">
+<vitalOverTimeEffect id="1879536811" name="Overflowing Acid" iconId="1093032357" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="1024">
 <initialChange progressionID="1879180337"/>
 <overTimeChange progressionID="1879180339" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879536826" name="TBD" iconId="1090539325" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="256">
+<vitalOverTimeEffect id="1879536812" name="Gelid Wind" iconId="1093032344" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="256">
+<overTimeChange progressionID="1879244293" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879536814" name="Gelid Wind" iconId="1093032344" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="256">
+<overTimeChange progressionID="1879244292" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879536815" name="Overflowing Acid" iconId="1093032357" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="1024">
 <initialChange progressionID="1879180337"/>
 <overTimeChange progressionID="1879180347" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879536832" name="TBD" iconId="1090539325" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="256">
+<vitalOverTimeEffect id="1879536818" name="Gelid Wind" iconId="1093032344" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="256">
+<overTimeChange progressionID="1879180916" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879536819" name="Fell Fire" iconId="1092995882" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="16">
+<initialChange progressionID="1879180337"/>
+<overTimeChange progressionID="1879180339" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879536821" name="Swirling Frost" iconId="1093032348" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="256">
+<initialChange progressionID="1879180337"/>
+<overTimeChange progressionID="1879180339" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879536822" name="Fell Fire" iconId="1092995882" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="16">
+<initialChange progressionID="1879180912"/>
+<overTimeChange progressionID="1879180337" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879536824" name="Fell Fire" iconId="1092995882" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="16">
+<initialChange progressionID="1879180337"/>
+<overTimeChange progressionID="1879180347" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879536825" name="Umbral Storm" iconId="1093032371" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<overTimeChange progressionID="1879244292" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879536826" name="Swirling Frost" iconId="1093032348" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="256">
+<initialChange progressionID="1879180337"/>
+<overTimeChange progressionID="1879180347" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879536827" name="Umbral Storm" iconId="1093032371" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<overTimeChange progressionID="1879244293" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879536829" name="Umbral Storm" iconId="1093032371" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<overTimeChange progressionID="1879180916" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879536831" name="Overflowing Acid" iconId="1093032357" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="1024">
+<initialChange progressionID="1879180912"/>
+<overTimeChange progressionID="1879180337" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879536832" name="Swirling Frost" iconId="1093032348" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="256">
 <initialChange progressionID="1879180912"/>
 <overTimeChange progressionID="1879180337" modifiers="268437688"/>
 </vitalOverTimeEffect>
@@ -99669,7 +99792,7 @@
 <propertyModEffect id="1879536840" name="Frost Weakness" iconId="1090532173" duration="10.0" baseFlags="5043">
 <stat name="FROST_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879536853" name="Shadow-spike - 1" iconId="1090532173" duration="60.0" baseFlags="5047">
+<propertyModEffect id="1879536853" name="Shadow-spike - 1" iconId="1092407333" duration="60.0" baseFlags="5047">
 <stat name="SHADOW_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="2.0"/>
 </propertyModEffect>
 <tieredEffect id="1879536854" name="DNT - Fire Spike" baseFlags="4127" showInExamination="true">
@@ -99682,16 +99805,16 @@
 <tierUp id="1879536885" name="Shadow-spike - 2"/>
 <finalTier id="1879536877" name="Shadow-spike - 3"/>
 </tieredEffect>
-<propertyModEffect id="1879536861" name="Acid-spike - 1" iconId="1091510188" duration="60.0" baseFlags="5047">
+<propertyModEffect id="1879536861" name="Acid-spike - 1" iconId="1091609004" duration="60.0" baseFlags="5047">
 <stat name="ACID_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879536866" name="Acid-spike - 2" iconId="1091510188" duration="60.0" baseFlags="5047">
+<propertyModEffect id="1879536866" name="Acid-spike - 2" iconId="1091609005" duration="60.0" baseFlags="5047">
 <stat name="ACID_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879536867" name="Fire-spike - 1" iconId="1090532173" duration="60.0" baseFlags="5047">
+<propertyModEffect id="1879536867" name="Fire-spike - 1" iconId="1091609054" duration="60.0" baseFlags="5047">
 <stat name="FIRE_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="2.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879536868" name="Frost-spike - 2" iconId="1090532173" duration="60.0" baseFlags="5047">
+<propertyModEffect id="1879536868" name="Frost-spike - 2" iconId="1091609075" duration="60.0" baseFlags="5047">
 <stat name="FROST_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
 </propertyModEffect>
 <tieredEffect id="1879536872" name="DNT - Acid Spike" baseFlags="4127" showInExamination="true">
@@ -99699,19 +99822,19 @@
 <tierUp id="1879536866" name="Acid-spike - 2"/>
 <finalTier id="1879536874" name="Acid-spike - 3"/>
 </tieredEffect>
-<propertyModEffect id="1879536874" name="Acid-spike - 3" iconId="1091510188" duration="5.0" baseFlags="5043">
+<propertyModEffect id="1879536874" name="Acid-spike - 3" iconId="1091609006" duration="5.0" baseFlags="5043">
 <stat name="ACID_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879536875" name="Frost-spike - 3" iconId="1090532173" duration="5.0" baseFlags="5043">
+<propertyModEffect id="1879536875" name="Frost-spike - 3" iconId="1091609076" duration="5.0" baseFlags="5043">
 <stat name="FROST_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879536876" name="Fire-spike - 2" iconId="1090532173" duration="60.0" baseFlags="5047">
+<propertyModEffect id="1879536876" name="Fire-spike - 2" iconId="1091609055" duration="60.0" baseFlags="5047">
 <stat name="FIRE_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879536877" name="Shadow-spike - 3" iconId="1090532173" duration="5.0" baseFlags="5043">
+<propertyModEffect id="1879536877" name="Shadow-spike - 3" iconId="1092407429" duration="5.0" baseFlags="5043">
 <stat name="SHADOW_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879536879" name="Frost-spike - 1" iconId="1090532173" duration="60.0" baseFlags="5047">
+<propertyModEffect id="1879536879" name="Frost-spike - 1" iconId="1091609074" duration="60.0" baseFlags="5047">
 <stat name="FROST_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="2.0"/>
 </propertyModEffect>
 <tieredEffect id="1879536880" name="DNT - Frost Spike" baseFlags="4127" showInExamination="true">
@@ -99719,10 +99842,10 @@
 <tierUp id="1879536868" name="Frost-spike - 2"/>
 <finalTier id="1879536875" name="Frost-spike - 3"/>
 </tieredEffect>
-<propertyModEffect id="1879536881" name="Fire-spike - 3" iconId="1090532173" duration="5.0" baseFlags="5043">
+<propertyModEffect id="1879536881" name="Fire-spike - 3" iconId="1091609056" duration="5.0" baseFlags="5043">
 <stat name="FIRE_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
 </propertyModEffect>
-<propertyModEffect id="1879536885" name="Shadow-spike - 2" iconId="1090532173" duration="60.0" baseFlags="5047">
+<propertyModEffect id="1879536885" name="Shadow-spike - 2" iconId="1092405350" duration="60.0" baseFlags="5047">
 <stat name="SHADOW_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
 </propertyModEffect>
 <genesis id="1879536910" name=".." appliedDescription="key:621132166:54354734" baseFlags="4127" summonDuration="10.0">
@@ -99735,7 +99858,7 @@
 <summoned id="1879536911" name="Acidic Fumarole[v]"/>
 </genesis>
 <induceCombatState id="1879536919" name="Frozen Solid" baseFlags="4127" state="27" stateDuration="6.0"/>
-<applyOverTimeEffect id="1879536925" name="DNT" appliedDescription="key:621132178:54354734" iconId="1091806010" duration="3.0" pulseCount="2" baseFlags="4539">
+<applyOverTimeEffect id="1879536925" name="Ice Pillar" iconId="1091806010" duration="3.0" pulseCount="2" baseFlags="4539">
 <applied id="1879536926" name="DNT - AOE Damage"/>
 </applyOverTimeEffect>
 <areaEffect id="1879536926" name="DNT - AOE Damage" baseFlags="4127" flags="8" range="2.5" maxTargets="6">
@@ -99878,33 +100001,65 @@
 <killProcEffect id="1879537271" name="Echo of Madness" appliedDescription="key:621132455:54354734" iconId="1091400591" baseFlags="2491">
 <userEffect id="1879537133" name="DNT - Dispels Enrage on Boss"/>
 </killProcEffect>
-<vitalOverTimeEffect id="1879537294" name="Scourging Slash" iconId="1091401111" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
-<initialChange progressionID="1879180337"/>
-<overTimeChange progressionID="1879180339" modifiers="268437688"/>
-</vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879537297" name="Scourging Slash" iconId="1091401111" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<vitalOverTimeEffect id="1879537294" name="Scourging Slash" iconId="1091401111" duration="4.0" pulseCount="5" baseFlags="5051" stat="Health_MaxLevel" damageType="32">
 <initialChange progressionID="1879180912"/>
-<overTimeChange progressionID="1879180337" modifiers="268437688"/>
+<overTimeChange progressionID="1879180912" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879537298" name="Scourging Slash" iconId="1091401111" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
-<initialChange progressionID="1879180337"/>
-<overTimeChange progressionID="1879180347" modifiers="268437688"/>
+<vitalOverTimeEffect id="1879537297" name="Scourging Slash" iconId="1091401111" duration="2.0" pulseCount="10" baseFlags="5051" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879244293"/>
+<overTimeChange progressionID="1879244293" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879537305" name="Barbed Spear" iconId="1091840294" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
-<initialChange progressionID="1879180337"/>
-<overTimeChange progressionID="1879180347" modifiers="268437688"/>
+<vitalOverTimeEffect id="1879537298" name="Scourging Slash" iconId="1091401111" duration="4.0" pulseCount="5" baseFlags="5051" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879343138"/>
+<overTimeChange progressionID="1879343138" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879537306" name="Splintering Spear" iconId="1090539325" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<vitalOverTimeEffect id="1879537301" name="Vicious Bite" iconId="1091401111" duration="3.0" pulseCount="10" baseFlags="5051" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879343138"/>
+<overTimeChange progressionID="1879343138" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879537302" name="Dargalúl's Dust" iconId="1090522396" duration="3.0" pulseCount="10" baseFlags="5051" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879343138"/>
+<overTimeChange progressionID="1879343138" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879537305" name="Barbed Spear" iconId="1091840294" duration="4.0" pulseCount="5" baseFlags="5055" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879343138"/>
+<overTimeChange progressionID="1879244292" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879537306" name="Splintering Spear" iconId="1090539325" duration="3.0" pulseCount="10" baseFlags="5051" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879244293"/>
+<overTimeChange progressionID="1879244293" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879537307" name="Vicious Bite" iconId="1091401111" duration="3.0" pulseCount="10" baseFlags="5051" stat="Health_MaxLevel" damageType="32">
 <initialChange progressionID="1879180912"/>
-<overTimeChange progressionID="1879180337" modifiers="268437688"/>
+<overTimeChange progressionID="1879180912" modifiers="268437688"/>
 </vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879537311" name="Barbed Spear" iconId="1091840294" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
-<initialChange progressionID="1879180337"/>
-<overTimeChange progressionID="1879180339" modifiers="268437688"/>
-</vitalOverTimeEffect>
-<vitalOverTimeEffect id="1879537312" name="Barbed Spear" iconId="1091840294" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<vitalOverTimeEffect id="1879537308" name="Dargalúl's Dust" iconId="1090522396" duration="3.0" pulseCount="10" baseFlags="5051" stat="Health_MaxLevel" damageType="32">
 <initialChange progressionID="1879180912"/>
-<overTimeChange progressionID="1879180337" modifiers="268437688"/>
+<overTimeChange progressionID="1879180912" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879537310" name="Vicious Spear" iconId="1093032371" duration="3.0" pulseCount="10" baseFlags="5051" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879343138"/>
+<overTimeChange progressionID="1879343138" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879537311" name="Barbed Spear" iconId="1091840294" duration="4.0" pulseCount="5" baseFlags="5055" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879180912"/>
+<overTimeChange progressionID="1879180912" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879537312" name="Barbed Spear" iconId="1091840294" duration="2.0" pulseCount="10" baseFlags="5055" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879244293"/>
+<overTimeChange progressionID="1879180916" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879537313" name="Vicious Spear" iconId="1093032371" duration="3.0" pulseCount="10" baseFlags="5051" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879244293"/>
+<overTimeChange progressionID="1879244293" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879537315" name="Vicious Bite" iconId="1091401111" duration="3.0" pulseCount="10" baseFlags="5051" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879244293"/>
+<overTimeChange progressionID="1879244293" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879537316" name="Dargalúl's Dust" iconId="1090522396" duration="3.0" pulseCount="10" baseFlags="5051" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879244293"/>
+<overTimeChange progressionID="1879244293" modifiers="268437688"/>
 </vitalOverTimeEffect>
 <effect id="1879537321" name="DNT" baseFlags="4124"/>
 <effect id="1879537323" name="DNT" baseFlags="4124"/>
@@ -100133,7 +100288,7 @@
 <areaEffect id="1879537481" name="Wrathful End" baseFlags="4127" flags="8" range="2.5" maxTargets="6">
 <effect id="1879098808" name="Morale Damage" spellcraft="0.5"/>
 </areaEffect>
-<applyOverTimeEffect id="1879537483" name="Fresh Wounds" iconId="1091806010" duration="45.0" baseFlags="6584">
+<applyOverTimeEffect id="1879537483" name="Fresh Wounds" iconId="1091806010" duration="2.0" baseFlags="6584">
 <applied id="1879149379" name="DNT - Do Nothing"/>
 </applyOverTimeEffect>
 <vitalOverTimeEffect id="1879537484" name="Pooling Blood" iconId="1090539333" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="1">
@@ -100277,7 +100432,9 @@
 <effect id="1879532572" name="Wolf-hounds" spellcraft="160.0" target="true"/>
 <effect id="1879532574" name="Khemozêl Lesson: Wolf-hounds" spellcraft="160.0" target="true"/>
 </procEffect>
-<reactiveVitalEffect id="1879537639" name="Sheathed in Frost" appliedDescription="key:621132701:54354734" iconId="1091510186" duration="10.0" baseFlags="4536" damageTypes="65407" vitalTypes="1">
+<reactiveVitalEffect id="1879537639" name="Sheathed in Frost" appliedDescription="key:621132701:54354734" iconId="1091510186" duration="8.0" baseFlags="4536" damageTypes="65407" vitalTypes="1">
+<stat name="Combat_CanEvade" operator="SET" value="false"/>
+<stat name="Combat_CanParry" operator="SET" descriptionOverride="-" value="false"/>
 <stat name="Combat_CanBlock" operator="SET" descriptionOverride="-" value="false"/>
 <attacker>
 <reactiveVital constant="0.05" probability="1.0" multiplicative="true"/>
@@ -100463,10 +100620,10 @@
 <effect id="1879119822" name="Morale Restoration" spellcraft="0.08"/>
 </fellowshipEffect>
 <propertyModEffect id="1879537962" name="Chilled - 2" iconId="1091476353" duration="8.0" baseFlags="5043">
-<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.1"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.9"/>
 </propertyModEffect>
 <propertyModEffect id="1879537963" name="Chilled - 3" iconId="1091476353" duration="12.0" baseFlags="5047">
-<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.2"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.8"/>
 </propertyModEffect>
 <tieredEffect id="1879537964" name="DNT - Frost Sheath" baseFlags="4127" showInExamination="true">
 <tierUp id="1879537965" name="Chilled - 1"/>
@@ -100474,9 +100631,12 @@
 <finalTier id="1879537963" name="Chilled - 3"/>
 </tieredEffect>
 <propertyModEffect id="1879537965" name="Chilled - 1" iconId="1091476353" duration="8.0" baseFlags="5043">
-<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.05"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.95"/>
 </propertyModEffect>
 <effect id="1879537967" name="DNT" baseFlags="4124"/>
+<propertyModEffect id="1879537979" name="Concussion Powder" iconId="1091585358" baseFlags="7096">
+<stat name="ContextualQuickslotArray" descriptionOverride="-" value="[1879538383]"/>
+</propertyModEffect>
 <tieredEffect id="1879538145" name="DNT - Braigaul's Fury" baseFlags="4124" showInExamination="true">
 <tierUp id="1879536543" name="Braigaul's Fury"/>
 <tierUp id="1879537341" name="Braigaul's Fury - 2"/>
@@ -100545,10 +100705,403 @@
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetZ" operator="SET" descriptionOverride="-" constant="0.75"/>
 <stat name="ForwardSource_Entity_Camera_LookAt_OffsetY" operator="SET" descriptionOverride="-" constant="0.2"/>
 </propertyModEffect>
+<genesis id="1879538382" name="DNT - Concussive Bomb" appliedDescription="key:621133391:54354734" baseFlags="4124" summonDuration="6.0">
+<hotspot id="1879538381" name="DNT - Stun Player">
+<effect id="1879538387" name="Concussed" spellcraft="160.0"/>
+</hotspot>
+</genesis>
+<dispelEffect id="1879538385" name="DNT - Remove Frenzy Stack" baseFlags="4127">
+<effect id="1879538806" name="Blood Frenzy - 1"/>
+<effect id="1879538809" name="Blood Frenzy - 2"/>
+<effect id="1879538807" name="Blood Frenzy - 3"/>
+<effect id="1879538799" name="Blood Frenzy - 4"/>
+<effect id="1879538810" name="Blood Frenzy - 5"/>
+<effect id="1879538802" name="Blood Frenzy - 6"/>
+<effect id="1879538800" name="Blood Frenzy - 7"/>
+<effect id="1879538804" name="Blood Frenzy - 8"/>
+<effect id="1879538803" name="Blood Frenzy - 9"/>
+<effect id="1879538811" name="Blood Frenzy - 10"/>
+<effect id="1879538808" name="Blinding Frenzy"/>
+</dispelEffect>
+<induceCombatState id="1879538387" name="Concussed" appliedDescription="key:621133386:54354734" baseFlags="4127" state="27" stateDuration="4.0"/>
+<genesis id="1879538388" name="DNT - Concussive Bomb" appliedDescription="key:621133390:54354734" baseFlags="4124" summonDuration="6.0">
+<hotspot id="1879538384" name="DNT - Stun Boss">
+<effect id="1879538387" name="Concussed" spellcraft="160.0"/>
+<effect id="1879538385" name="DNT - Remove Frenzy Stack" spellcraft="160.0"/>
+</hotspot>
+</genesis>
+<tieredEffect id="1879538395" name="DNT - Lifesteal Corruption" baseFlags="4124" showInExamination="true">
+<tierUp id="1879538426" name="Bloodletting - 1"/>
+<tierUp id="1879538428" name="Bloodletting - 2"/>
+<finalTier id="1879538429" name="Bloodletting - 3"/>
+</tieredEffect>
+<effect id="1879538396" name="Bloodletting" iconId="1090519170" baseFlags="4123"/>
+<effect id="1879538397" name="Bloodletting" iconId="1090519170" baseFlags="4123"/>
+<effect id="1879538398" name="Bloodletting" iconId="1090519170" baseFlags="4123"/>
+<effect id="1879538400" name="Bloodletting" iconId="1090519170" baseFlags="4123"/>
+<effect id="1879538402" name="Bloodletting" iconId="1090519170" baseFlags="4123"/>
+<effect id="1879538404" name="Bloodletting" iconId="1090519170" baseFlags="4123"/>
+<tieredEffect id="1879538406" name="DNT - Lifesteal Corruption" baseFlags="4124" showInExamination="true">
+<tierUp id="1879538426" name="Bloodletting - 1"/>
+<tierUp id="1879538428" name="Bloodletting - 2"/>
+<tierUp id="1879538429" name="Bloodletting - 3"/>
+<tierUp id="1879538430" name="Bloodletting - 4"/>
+<tierUp id="1879538431" name="Bloodletting - 5"/>
+<finalTier id="1879538427" name="Bloodletting - 6"/>
+</tieredEffect>
+<applyOverTimeEffect id="1879538411" name="Blood Frenzy" iconId="1093081106" duration="30.0" baseFlags="6844">
+<applied id="1879538805" name="DNT - Stacking Bloodlust"/>
+</applyOverTimeEffect>
+<applyOverTimeEffect id="1879538418" name="Blood Frenzy" iconId="1093081106" duration="40.0" baseFlags="6844">
+<applied id="1879538801" name="DNT - Stacking Bloodlust"/>
+</applyOverTimeEffect>
+<procEffect id="1879538426" name="Bloodletting - 1" descriptionOverride="key:621133432:62991877" appliedDescription="key:621133432:54354734" iconId="1092403827" baseFlags="6540" skillTypes="36,39" cooldown="1.0">
+<effect id="1879538396" name="Bloodletting" target="true"/>
+</procEffect>
+<procEffect id="1879538427" name="Bloodletting - 6" descriptionOverride="key:621133434:62991877" appliedDescription="key:621133434:54354734" iconId="1092403846" baseFlags="6540" skillTypes="36,39" cooldown="1.0">
+<effect id="1879538397" name="Bloodletting" target="true"/>
+</procEffect>
+<procEffect id="1879538428" name="Bloodletting - 2" descriptionOverride="key:621133433:62991877" appliedDescription="key:621133433:54354734" iconId="1092403827" baseFlags="6540" skillTypes="36,39" cooldown="1.0">
+<effect id="1879538398" name="Bloodletting" target="true"/>
+</procEffect>
+<procEffect id="1879538429" name="Bloodletting - 3" descriptionOverride="key:621133436:62991877" appliedDescription="key:621133436:54354734" iconId="1092403799" baseFlags="6540" skillTypes="36,39" cooldown="1.0">
+<effect id="1879538400" name="Bloodletting" target="true"/>
+</procEffect>
+<procEffect id="1879538430" name="Bloodletting - 4" descriptionOverride="key:621133437:62991877" appliedDescription="key:621133437:54354734" iconId="1092403799" baseFlags="6540" skillTypes="36,39" cooldown="1.0">
+<effect id="1879538402" name="Bloodletting" target="true"/>
+</procEffect>
+<procEffect id="1879538431" name="Bloodletting - 5" descriptionOverride="key:621133435:62991877" appliedDescription="key:621133435:54354734" iconId="1092403809" baseFlags="6540" skillTypes="36,39" cooldown="1.0">
+<effect id="1879538404" name="Bloodletting" target="true"/>
+</procEffect>
+<dispelEffect id="1879538478" name="DNT" baseFlags="4127">
+<effect id="1879381580" name="DNT - Interrupt Protection"/>
+</dispelEffect>
+<propertyModEffect id="1879538579" name="Corrossive Splash - 2" iconId="1091476365" duration="3.0" baseFlags="5047">
+<stat name="ACID_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="7.5000005"/>
+</propertyModEffect>
+<propertyModEffect id="1879538580" name="Deepened Shadows - 6" iconId="1092404345" baseFlags="7092">
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621133595:106251889" constant="130.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="130.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="130.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879538581" name="Corrossive Splash - 5" iconId="1091476365" duration="8.0" baseFlags="5043">
+<stat name="ACID_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="20.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879538584" name="Corrossive Splash - 4" iconId="1091476365" duration="3.0" baseFlags="5047">
+<stat name="ACID_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="12.5"/>
+</propertyModEffect>
+<propertyModEffect id="1879538586" name="Corrossive Splash - 1" iconId="1091476365" duration="3.0" baseFlags="5047">
+<stat name="ACID_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="5.0"/>
+</propertyModEffect>
+<tieredEffect id="1879538588" name="DNT - Acid Sheath" baseFlags="4127" showInExamination="true">
+<tierUp id="1879538586" name="Corrossive Splash - 1"/>
+<tierUp id="1879538579" name="Corrossive Splash - 2"/>
+<tierUp id="1879538591" name="Corrossive Splash - 3"/>
+<tierUp id="1879538584" name="Corrossive Splash - 4"/>
+<finalTier id="1879538581" name="Corrossive Splash - 5"/>
+</tieredEffect>
+<propertyModEffect id="1879538591" name="Corrossive Splash - 3" iconId="1091476365" duration="3.0" baseFlags="5047">
+<stat name="ACID_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="10.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879538592" name="Deepened Shadows - 3" iconId="1092402267" baseFlags="7092">
+<stat name="MELEE_DAMAGE_PERCENTAGE" descriptionOverride="key:621133593:106251889" constant="115.0"/>
+<stat name="RANGED_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="115.0"/>
+<stat name="TACTICAL_DAMAGE_PERCENTAGE" descriptionOverride="-" constant="115.0"/>
+</propertyModEffect>
+<reactiveVitalEffect id="1879538593" name="Sheathed in Acid" appliedDescription="key:621133598:54354734" iconId="1091510186" duration="8.0" baseFlags="4536" damageTypes="65407" vitalTypes="1">
+<stat name="Combat_CanEvade" operator="SET" value="false"/>
+<stat name="Combat_CanParry" operator="SET" descriptionOverride="-" value="false"/>
+<stat name="Combat_CanBlock" operator="SET" descriptionOverride="-" value="false"/>
+<attacker>
+<reactiveVital constant="0.05" probability="1.0" multiplicative="true"/>
+<effect id="1879538588" name="DNT - Acid Sheath" probability="0.0"/>
+</attacker>
+</reactiveVitalEffect>
+<vitalOverTimeEffect id="1879538594" name="Restoring Shadows" iconId="1093032360" duration="3.0" baseFlags="7096" stat="Health_MaxLevel" damageType="32">
+<overTimeChange progressionID="1879180337" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879538595" name="Restoring Shadows" iconId="1093032360" duration="4.0" baseFlags="7096" stat="Health_MaxLevel" damageType="32">
+<overTimeChange progressionID="1879180912" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879538597" name="Shattering Howl - 1" iconId="1091474189" duration="3.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879405240"/>
+<overTimeChange progressionID="1879343138" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879538598" name="Shattering Howl - 10" iconId="1091474189" duration="3.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879180337"/>
+<overTimeChange progressionID="1879180566" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879538599" name="Shattering Howl - 8" iconId="1091474189" duration="3.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879507526"/>
+<overTimeChange progressionID="1879507524" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879538600" name="Shattering Howl - 9" iconId="1091474189" duration="3.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879507524"/>
+<overTimeChange progressionID="1879180337" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<tieredEffect id="1879538601" name="DNT - Shattering Howl" baseFlags="4124" showInExamination="true">
+<tierUp id="1879538597" name="Shattering Howl - 1"/>
+<tierUp id="1879538612" name="Shattering Howl - 2"/>
+<tierUp id="1879538614" name="Shattering Howl - 3"/>
+<tierUp id="1879538609" name="Shattering Howl - 4"/>
+<tierUp id="1879538610" name="Shattering Howl - 5"/>
+<tierUp id="1879538602" name="Shattering Howl - 6"/>
+<tierUp id="1879538604" name="Shattering Howl - 7"/>
+<tierUp id="1879538599" name="Shattering Howl - 8"/>
+<tierUp id="1879538600" name="Shattering Howl - 9"/>
+<finalTier id="1879538598" name="Shattering Howl - 10"/>
+</tieredEffect>
+<vitalOverTimeEffect id="1879538602" name="Shattering Howl - 6" iconId="1091474189" duration="3.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879265010"/>
+<overTimeChange progressionID="1879494085" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<dispelEffect id="1879538603" name="DNT - Remove Shattering Howl" baseFlags="4127">
+<effect id="1879538611" name=""/>
+<effect id="1879538605" name="Shattering Howl"/>
+<effect id="1879537405" name="Angrenag's Mark"/>
+</dispelEffect>
+<vitalOverTimeEffect id="1879538604" name="Shattering Howl - 7" iconId="1091474189" duration="3.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879494085"/>
+<overTimeChange progressionID="1879507526" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<applyOverTimeEffect id="1879538605" name="Shattering Howl" iconId="1092404588" duration="3.0" baseFlags="7096">
+<initiallyApplied id="1879538613" name="Shattering Howl" spellcraft="160.0"/>
+<applied id="1879538613" name="Shattering Howl" spellcraft="160.0"/>
+</applyOverTimeEffect>
+<bubbleEffect id="1879538607" name="Shattering Howl" iconId="1091668185" baseFlags="6588" vital="Health_MaxLevel" value="5500000.0">
+<onRemoval id="1879538603" name="DNT - Remove Shattering Howl"/>
+</bubbleEffect>
+<vitalOverTimeEffect id="1879538609" name="Shattering Howl - 4" iconId="1091474189" duration="3.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879483169"/>
+<overTimeChange progressionID="1879180912" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879538610" name="Shattering Howl - 5" iconId="1091474189" duration="3.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879180912"/>
+<overTimeChange progressionID="1879265010" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<effect id="1879538611" baseFlags="4124"/>
+<vitalOverTimeEffect id="1879538612" name="Shattering Howl - 2" iconId="1091474189" duration="3.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879343138"/>
+<overTimeChange progressionID="1879343124" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<areaEffect id="1879538613" name="Shattering Howl" baseFlags="4127" flags="8" range="50.0" maxTargets="6">
+<effect id="1879538601" name="DNT - Shattering Howl" spellcraft="160.0"/>
+</areaEffect>
+<vitalOverTimeEffect id="1879538614" name="Shattering Howl - 3" iconId="1091474189" duration="3.0" baseFlags="7099" stat="Health_MaxLevel" damageType="32">
+<initialChange progressionID="1879343124"/>
+<overTimeChange progressionID="1879483169" modifiers="268437688"/>
+</vitalOverTimeEffect>
 <propertyModEffect id="1879538655" name="DNT" iconId="1090533270" baseFlags="6156">
 <stat name="Death_ImmuneToDefeat" operator="SET" descriptionOverride="-" value="true"/>
 </propertyModEffect>
+<vitalOverTimeEffect id="1879538667" name="Dissolving" iconId="1092810118" duration="3.0" pulseCount="4" baseFlags="5051" stat="Health_MaxLevel" damageType="1024">
+<initialChange progressionID="1879180916"/>
+<overTimeChange progressionID="1879343124" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879538668" name="Conflagrate" iconId="1090539325" duration="2.0" pulseCount="5" baseFlags="5055" stat="Health_MaxLevel" damageType="16">
+<initialChange progressionID="1879494085"/>
+<overTimeChange progressionID="1879343124" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<vitalOverTimeEffect id="1879538670" name="Engulfing Darkness" iconId="1092407345" duration="3.0" pulseCount="4" baseFlags="5051" stat="Health_MaxLevel" damageType="32">
+<overTimeChange progressionID="1879180912" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<propertyModEffect id="1879538671" name="Glaciate" iconId="1091609074" duration="8.0" baseFlags="4535">
+<stat name="FROST_MITIGATION_PERCENTAGE" operator="SUBSTRACT" constant="15.000001"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
+<stat name="Combat_DamageQualifier_Melee_Defense_MultiplierMod" operator="MULTIPLY" descriptionOverride="-" constant="0.9"/>
+</propertyModEffect>
+<propertyModEffect id="1879538675" name="Insight of Iron" iconId="1093032321" duration="6.0" baseFlags="4528">
+<stat name="Combat_DamageQualifier_Magic_Defense_MultiplierMod" operator="MULTIPLY" constant="0.9"/>
+<stat name="Combat_DamageQualifier_Ranged_Defense_MultiplierMod" operator="MULTIPLY" constant="0.9"/>
+</propertyModEffect>
+<propertyModEffect id="1879538677" name="Gift of the Rime - 6" iconId="1093032374" duration="5.0" baseFlags="5043">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.4"/>
+</propertyModEffect>
+<propertyModEffect id="1879538678" name="Gift of the Rime - 1" iconId="1093032374" duration="5.0" baseFlags="5043">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.9"/>
+</propertyModEffect>
+<propertyModEffect id="1879538679" name="Gift of the Rime - 10" iconId="1093032374" duration="3.0" baseFlags="5043">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879538680" name="Gift of the Rime - 7" iconId="1093032374" duration="5.0" baseFlags="5043">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.3"/>
+</propertyModEffect>
+<propertyModEffect id="1879538682" name="Gift of the Rime - 4" iconId="1093032374" duration="5.0" baseFlags="5043">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.6"/>
+</propertyModEffect>
+<propertyModEffect id="1879538684" name="Gift of the Rime - 5" iconId="1093032374" duration="5.0" baseFlags="5043">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.5"/>
+</propertyModEffect>
+<propertyModEffect id="1879538685" name="Gift of the Rime - 2" iconId="1093032374" duration="5.0" baseFlags="5043">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.8"/>
+</propertyModEffect>
+<areaEffect id="1879538686" name="DNT - AOE Apply Chilll" baseFlags="4127" flags="8" range="60.0" maxTargets="6">
+<effect id="1879538695" name="Gift of the Rime" spellcraft="160.0"/>
+</areaEffect>
+<propertyModEffect id="1879538688" name="Gift of the Rime - 8" iconId="1093032374" duration="5.0" baseFlags="5043">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.2"/>
+</propertyModEffect>
+<propertyModEffect id="1879538689" name="Gift of the Rime - 3" iconId="1093032374" duration="5.0" baseFlags="5043">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.7"/>
+</propertyModEffect>
+<tieredEffect id="1879538690" name="DNT - Gift of the Rime Chill" baseFlags="4127" showInExamination="true">
+<tierUp id="1879538678" name="Gift of the Rime - 1"/>
+<tierUp id="1879538685" name="Gift of the Rime - 2"/>
+<tierUp id="1879538689" name="Gift of the Rime - 3"/>
+<tierUp id="1879538682" name="Gift of the Rime - 4"/>
+<tierUp id="1879538684" name="Gift of the Rime - 5"/>
+<tierUp id="1879538677" name="Gift of the Rime - 6"/>
+<tierUp id="1879538680" name="Gift of the Rime - 7"/>
+<tierUp id="1879538688" name="Gift of the Rime - 8"/>
+<tierUp id="1879538693" name="Gift of the Rime - 9"/>
+<finalTier id="1879538679" name="Gift of the Rime - 10"/>
+</tieredEffect>
+<propertyModEffect id="1879538693" name="Gift of the Rime - 9" iconId="1093032374" duration="5.0" baseFlags="5043">
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="0.1"/>
+</propertyModEffect>
+<applyOverTimeEffect id="1879538695" name="Gift of the Rime" iconId="1091806010" duration="0.5" pulseCount="10" baseFlags="4283">
+<applied id="1879538690" name="DNT - Gift of the Rime Chill" spellcraft="160.0"/>
+</applyOverTimeEffect>
 <travelEffect id="1879538700" name="DNT - Port to Instance Boss" baseFlags="4124" sceneID="1879125225" removeFromInstance="false" privateEncounterID="1879530740">
 <position region="1" longitude="55.24592" latitude="41.19994"/>
 </travelEffect>
+<genesis id="1879538708" name=".." appliedDescription="key:621133710:54354734" baseFlags="4124" summonDuration="10.0">
+<summoned id="1879538713" name="Shadow of Nûlbanath[fn]"/>
+</genesis>
+<genesis id="1879538712" name=".." appliedDescription="key:621133706:54354734" baseFlags="4124" summonDuration="10.0">
+<summoned id="1879538713" name="Shadow of Nûlbanath[fn]"/>
+</genesis>
+<genesis id="1879538714" name=".." appliedDescription="key:621133704:54354734" baseFlags="4124" summonDuration="10.0">
+<summoned id="1879538713" name="Shadow of Nûlbanath[fn]"/>
+</genesis>
+<applyOverTimeEffect id="1879538715" name="DNT" iconId="1091806010" duration="25.0" pulseCount="1" baseFlags="4283">
+<applied id="1879153861" name="DNT - Do Nothing Harmful"/>
+</applyOverTimeEffect>
+<propertyModEffect id="1879538723" name="DNT" iconId="1093143649" duration="30.0" baseFlags="4784">
+<stat name="AI_Hints" descriptionOverride="-" value="(84)"/>
+</propertyModEffect>
+<vitalOverTimeEffect id="1879538784" name="Cowardice" appliedDescription="key:621133763:54354734" iconId="1093032371" duration="2.0" baseFlags="7099" stat="Health_MaxLevel" damageType="1">
+<initialChange progressionID="1879180339"/>
+<overTimeChange progressionID="1879180339" modifiers="268437688"/>
+</vitalOverTimeEffect>
+<genesis id="1879538793" name="DNT -- Feast Creation" baseFlags="4124" summonDuration="120.0">
+<summoned id="1879538792" name="Vibrant Khemozêl Banquet[e]"/>
+</genesis>
+<propertyModEffect id="1879538799" name="Blood Frenzy - 4" iconId="1092752236" baseFlags="7088">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="40.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879538800" name="Blood Frenzy - 7" iconId="1092752236" baseFlags="7088">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="70.0"/>
+</propertyModEffect>
+<tieredEffect id="1879538801" name="DNT - Stacking Bloodlust" baseFlags="4124" showInExamination="true">
+<tierUp id="1879538806" name="Blood Frenzy - 1"/>
+<tierUp id="1879538809" name="Blood Frenzy - 2"/>
+<tierUp id="1879538807" name="Blood Frenzy - 3"/>
+<tierUp id="1879538799" name="Blood Frenzy - 4"/>
+<finalTier id="1879538810" name="Blood Frenzy - 5"/>
+</tieredEffect>
+<propertyModEffect id="1879538802" name="Blood Frenzy - 6" iconId="1092752236" baseFlags="7088">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="60.000004"/>
+</propertyModEffect>
+<propertyModEffect id="1879538803" name="Blood Frenzy - 9" iconId="1092752236" baseFlags="7088">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="90.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879538804" name="Blood Frenzy - 8" iconId="1092752236" baseFlags="7088">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="80.0"/>
+</propertyModEffect>
+<tieredEffect id="1879538805" name="DNT - Stacking Bloodlust" baseFlags="4124" showInExamination="true">
+<tierUp id="1879538806" name="Blood Frenzy - 1"/>
+<tierUp id="1879538809" name="Blood Frenzy - 2"/>
+<tierUp id="1879538807" name="Blood Frenzy - 3"/>
+<tierUp id="1879538799" name="Blood Frenzy - 4"/>
+<tierUp id="1879538810" name="Blood Frenzy - 5"/>
+<tierUp id="1879538802" name="Blood Frenzy - 6"/>
+<tierUp id="1879538800" name="Blood Frenzy - 7"/>
+<tierUp id="1879538804" name="Blood Frenzy - 8"/>
+<tierUp id="1879538803" name="Blood Frenzy - 9"/>
+<tierUp id="1879538811" name="Blood Frenzy - 10"/>
+<finalTier id="1879538808" name="Blinding Frenzy"/>
+</tieredEffect>
+<propertyModEffect id="1879538806" name="Blood Frenzy - 1" iconId="1092752236" baseFlags="7088">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="10.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879538807" name="Blood Frenzy - 3" iconId="1092752236" baseFlags="7088">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="30.000002"/>
+</propertyModEffect>
+<propertyModEffect id="1879538808" name="Blinding Frenzy" iconId="1090532174" baseFlags="7088">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="900.0"/>
+<stat name="ForwardSource_Movement_SpeedMultiplier" operator="MULTIPLY" constant="2.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879538809" name="Blood Frenzy - 2" iconId="1092752236" baseFlags="7088">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="20.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879538810" name="Blood Frenzy - 5" iconId="1092752236" baseFlags="7088">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="50.0"/>
+</propertyModEffect>
+<propertyModEffect id="1879538811" name="Blood Frenzy - 10" iconId="1092752236" baseFlags="7088">
+<stat name="MELEE_DAMAGE_PERCENTAGE" constant="100.0"/>
+</propertyModEffect>
+<induceCombatState id="1879538812" name="Gripped by Shadow" baseFlags="4127" state="27" stateDuration="60.0"/>
+<applyOverTimeEffect id="1879538814" name="Grasped by Shadow" iconId="1091425403" duration="5.0" baseFlags="6331">
+<initiallyApplied id="1879538812" name="Gripped by Shadow" spellcraft="160.0"/>
+<applied id="1879538812" name="Gripped by Shadow" spellcraft="160.0"/>
+</applyOverTimeEffect>
+<genesis id="1879538868" name="DNT - Genesis" baseFlags="4124" summonDuration="290.0">
+<summoned id="1879538825" name="Frog[e]"/>
+</genesis>
+<genesis id="1879538869" name="DNT - Genesis" baseFlags="4124" summonDuration="290.0">
+<summoned id="1879538822" name="Frog[e]"/>
+</genesis>
+<genesis id="1879538870" name="DNT - Genesis" baseFlags="4124" summonDuration="290.0">
+<summoned id="1879538825" name="Frog[e]"/>
+</genesis>
+<genesis id="1879538871" name="DNT - Genesis" baseFlags="4124" summonDuration="290.0">
+<summoned id="1879538826" name="Frog[e]"/>
+</genesis>
+<genesis id="1879538872" name="DNT - Genesis" baseFlags="4124" summonDuration="290.0">
+<summoned id="1879538821" name="Frog[e]"/>
+</genesis>
+<randomEffect id="1879538873" name="DNT" baseFlags="4124">
+<effect id="1879538882" name="DNT - Genesis" weight="1.0"/>
+<effect id="1879538871" name="DNT - Genesis" weight="1.0"/>
+<effect id="1879538870" name="DNT - Genesis" weight="1.0"/>
+</randomEffect>
+<genesis id="1879538874" name="DNT - Genesis" baseFlags="4124" summonDuration="290.0">
+<summoned id="1879538823" name="Frog[e]"/>
+</genesis>
+<genesis id="1879538875" name="DNT - Genesis" baseFlags="4124" summonDuration="290.0">
+<summoned id="1879538824" name="Frog[e]"/>
+</genesis>
+<randomEffect id="1879538876" name="DNT" baseFlags="4124">
+<effect id="1879538875" name="DNT - Genesis" weight="1.0"/>
+<effect id="1879538874" name="DNT - Genesis" weight="1.0"/>
+<effect id="1879538872" name="DNT - Genesis" weight="1.0"/>
+</randomEffect>
+<genesis id="1879538877" name="DNT - Genesis" baseFlags="4124" summonDuration="290.0">
+<summoned id="1879538821" name="Frog[e]"/>
+</genesis>
+<randomEffect id="1879538878" name="DNT" probability="0.5" baseFlags="4124">
+<effect id="1879538869" name="DNT - Genesis" weight="1.0"/>
+<effect id="1879538877" name="DNT - Genesis" weight="1.0"/>
+</randomEffect>
+<genesis id="1879538879" name="DNT - Genesis" baseFlags="4124" summonDuration="290.0">
+<summoned id="1879538824" name="Frog[e]"/>
+</genesis>
+<randomEffect id="1879538880" name="DNT" probability="0.5" baseFlags="4124">
+<effect id="1879538883" name="DNT - Genesis" weight="1.0"/>
+<effect id="1879538884" name="DNT - Genesis" weight="1.0"/>
+</randomEffect>
+<randomEffect id="1879538881" name="DNT" probability="0.5" baseFlags="4124">
+<effect id="1879538868" name="DNT - Genesis" weight="1.0"/>
+<effect id="1879538879" name="DNT - Genesis" weight="1.0"/>
+</randomEffect>
+<genesis id="1879538882" name="DNT - Genesis" baseFlags="4124" summonDuration="290.0">
+<summoned id="1879538822" name="Frog[e]"/>
+</genesis>
+<genesis id="1879538883" name="DNT - Genesis" baseFlags="4124" summonDuration="290.0">
+<summoned id="1879538826" name="Frog[e]"/>
+</genesis>
+<genesis id="1879538884" name="DNT - Genesis" baseFlags="4124" summonDuration="290.0">
+<summoned id="1879538823" name="Frog[e]"/>
+</genesis>
 </effects>
